@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA670" format="2">
+  <unicode hex="A670"/>
+  <anchor x="-343.264" y="-187.0" name="bottom_1"/>
+  <anchor x="297.736" y="-187.0" name="bottom_2"/>
+  <anchor x="-484.264" y="175.0" name="bottom_3"/>
+  <anchor x="-17.26400000000001" y="-297.0" name="bottom_4"/>
+  <anchor x="442.736" y="175.0" name="bottom_5"/>
+  <anchor x="-343.264" y="527.0" name="bottom_6"/>
+  <anchor x="297.736" y="527.0" name="bottom_7"/>
+  <anchor x="-17.26400000000001" y="625.0" name="bottom_8"/>
+  <anchor x="-303.304" y="24.343999999999994" name="top_1"/>
+  <anchor x="337.696" y="24.343999999999994" name="top_2"/>
+  <anchor x="-444.304" y="386.344" name="top_3"/>
+  <anchor x="22.695999999999998" y="-85.656" name="top_4"/>
+  <anchor x="482.696" y="386.344" name="top_5"/>
+  <anchor x="-303.304" y="738.344" name="top_6"/>
+  <anchor x="337.696" y="738.344" name="top_7"/>
+  <anchor x="22.695999999999998" y="836.344" name="top_8"/>
+  <anchor x="-209.17600000000002" y="24.343999999999994" name="topright_1"/>
+  <anchor x="431.82399999999996" y="24.343999999999994" name="topright_2"/>
+  <anchor x="-350.17600000000004" y="386.344" name="topright_3"/>
+  <anchor x="116.82399999999998" y="-85.656" name="topright_4"/>
+  <anchor x="576.824" y="386.344" name="topright_5"/>
+  <anchor x="-209.17600000000002" y="738.344" name="topright_6"/>
+  <anchor x="431.82399999999996" y="738.344" name="topright_7"/>
+  <anchor x="116.82399999999998" y="836.344" name="topright_8"/>
+  <outline>
+    <component base="X" xScale="0.296" yScale="0.296" xOffset="-422" yOffset="-187"/>
+    <component base="X" xScale="0.296" yScale="0.296" xOffset="219" yOffset="-187"/>
+    <component base="X" xScale="0.296" yScale="0.296" xOffset="-563" yOffset="175"/>
+    <component base="X" xScale="0.296" yScale="0.296" xOffset="-96" yOffset="-297"/>
+    <component base="X" xScale="0.296" yScale="0.296" xOffset="364" yOffset="175"/>
+    <component base="X" xScale="0.296" yScale="0.296" xOffset="-422" yOffset="527"/>
+    <component base="X" xScale="0.296" yScale="0.296" xOffset="219" yOffset="527"/>
+    <component base="X" xScale="0.296" yScale="0.296" xOffset="-96" yOffset="625"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/12 23:43:19</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Enclosing</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

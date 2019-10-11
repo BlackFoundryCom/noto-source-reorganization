@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA75F" format="2">
+  <advance width="500"/>
+  <unicode hex="A75F"/>
+  <anchor x="250" y="0" name="bottom"/>
+  <anchor x="250" y="536" name="top"/>
+  <anchor x="480" y="536" name="topright"/>
+  <outline>
+    <contour>
+      <point x="51" y="-93" type="line"/>
+      <point x="92" y="-93" type="line"/>
+      <point x="289" y="639" type="line"/>
+      <point x="245" y="639" type="line"/>
+    </contour>
+    <component base="v"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/05/10 13:37:20</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

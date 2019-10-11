@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emacron.sc" format="2">
+  <advance width="266"/>
+  <anchor x="74" y="0" name="bottom"/>
+  <anchor x="210" y="644" name="top"/>
+  <anchor x="305" y="559" name="topright"/>
+  <outline>
+    <component base="e.sc"/>
+    <component base="macroncomb.sc" xOffset="-45"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:26</string>
+    </dict>
+  </lib>
+</glyph>

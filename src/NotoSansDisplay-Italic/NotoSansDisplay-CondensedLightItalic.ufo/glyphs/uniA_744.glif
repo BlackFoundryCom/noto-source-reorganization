@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA744" format="2">
+  <advance width="339"/>
+  <unicode hex="A744"/>
+  <anchor x="115" y="0" name="bottom"/>
+  <anchor x="277" y="714" name="top"/>
+  <anchor x="417" y="714" name="topright"/>
+  <outline>
+    <contour>
+      <point x="151" y="149" type="line"/>
+      <point x="304" y="196" type="line"/>
+      <point x="298" y="219" type="line"/>
+      <point x="143" y="172" type="line"/>
+    </contour>
+    <component base="uniA740"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>K</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/12 23:43:17</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

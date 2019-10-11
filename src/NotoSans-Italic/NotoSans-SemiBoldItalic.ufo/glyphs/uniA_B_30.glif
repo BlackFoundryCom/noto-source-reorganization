@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniAB30" format="2">
+  <advance width="616"/>
+  <unicode hex="AB30"/>
+  <anchor x="239" y="0" name="bottom"/>
+  <anchor x="355" y="546" name="top"/>
+  <anchor x="632" y="546" name="topright"/>
+  <outline>
+    <contour>
+      <point x="1" y="235" type="line"/>
+      <point x="580" y="235" type="line"/>
+      <point x="599" y="324" type="line"/>
+      <point x="20" y="324" type="line"/>
+    </contour>
+    <component base="uni0251"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:26</string>
+    </dict>
+  </lib>
+</glyph>

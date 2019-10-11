@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="vavholam-hb" format="2">
+  <advance width="326"/>
+  <unicode hex="FB4B"/>
+  <anchor x="215" y="0" name="bottom"/>
+  <anchor x="14" y="0" name="bottomleft"/>
+  <anchor x="103" y="300" name="center"/>
+  <anchor x="153" y="536" name="top"/>
+  <anchor x="-1" y="536" name="topleft"/>
+  <outline>
+    <component base="vav-hb"/>
+    <component base="holam-hb" xOffset="48"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/07 21:10:59</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

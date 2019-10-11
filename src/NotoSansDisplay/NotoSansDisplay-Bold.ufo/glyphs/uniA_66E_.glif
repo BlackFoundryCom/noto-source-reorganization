@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA66E" format="2">
+  <advance width="834"/>
+  <unicode hex="A66E"/>
+  <anchor x="646.326" y="132.0" name="bottom_1"/>
+  <anchor x="187.32600000000002" y="132.0" name="bottom_2"/>
+  <anchor x="540.326" y="389.0" name="bottom_3"/>
+  <anchor x="416.326" y="132.0" name="bottom_4"/>
+  <anchor x="310.326" y="389.0" name="bottom_5"/>
+  <anchor x="540.326" y="-125.0" name="bottom_6"/>
+  <anchor x="310.326" y="-125.0" name="bottom_7"/>
+  <anchor x="647.25" y="296.93399999999997" name="center_1"/>
+  <anchor x="188.25" y="296.93399999999997" name="center_2"/>
+  <anchor x="541.25" y="553.934" name="center_3"/>
+  <anchor x="417.25" y="296.93399999999997" name="center_4"/>
+  <anchor x="311.25" y="553.934" name="center_5"/>
+  <anchor x="541.25" y="39.934" name="center_6"/>
+  <anchor x="311.25" y="39.934" name="center_7"/>
+  <anchor x="647.25" y="466.95" name="top_1"/>
+  <anchor x="188.25" y="466.95" name="top_2"/>
+  <anchor x="541.25" y="723.95" name="top_3"/>
+  <anchor x="417.25" y="466.95" name="top_4"/>
+  <anchor x="311.25" y="723.95" name="top_5"/>
+  <anchor x="541.25" y="209.95" name="top_6"/>
+  <anchor x="311.25" y="209.95" name="top_7"/>
+  <anchor x="811.722" y="466.95" name="topright_1"/>
+  <anchor x="352.72200000000004" y="466.95" name="topright_2"/>
+  <anchor x="705.722" y="723.95" name="topright_3"/>
+  <anchor x="581.722" y="466.95" name="topright_4"/>
+  <anchor x="475.72200000000004" y="723.95" name="topright_5"/>
+  <anchor x="705.722" y="209.95" name="topright_6"/>
+  <anchor x="475.72200000000004" y="209.95" name="topright_7"/>
+  <outline>
+    <component base="uniA668" xScale="0.462" yScale="0.462" xOffset="474" yOffset="132"/>
+    <component base="uniA668" xScale="0.462" yScale="0.462" xOffset="15" yOffset="132"/>
+    <component base="uniA668" xScale="0.462" yScale="0.462" xOffset="368" yOffset="389"/>
+    <component base="uniA668" xScale="0.462" yScale="0.462" xOffset="244" yOffset="132"/>
+    <component base="uniA668" xScale="0.462" yScale="0.462" xOffset="138" yOffset="389"/>
+    <component base="uniA668" xScale="0.462" yScale="0.462" xOffset="368" yOffset="-125"/>
+    <component base="uniA668" xScale="0.462" yScale="0.462" xOffset="138" yOffset="-125"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 21:39:09</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

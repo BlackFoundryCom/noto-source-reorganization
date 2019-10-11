@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zacute" format="2">
+  <advance width="391"/>
+  <unicode hex="0179"/>
+  <anchor x="196" y="0" name="bottom"/>
+  <anchor x="196" y="931" name="top"/>
+  <anchor x="371" y="714" name="topright"/>
+  <outline>
+    <component base="Z"/>
+    <component base="acute" xOffset="138" yOffset="165"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/14 19:40:09</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

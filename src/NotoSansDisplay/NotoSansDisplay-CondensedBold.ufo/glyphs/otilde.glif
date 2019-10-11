@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="otilde" format="2">
+  <advance width="505"/>
+  <unicode hex="00F5"/>
+  <anchor x="251" y="0" name="bottom"/>
+  <anchor x="252" y="772" name="top"/>
+  <anchor x="252" y="277" name="center"/>
+  <anchor x="486" y="553" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="tildecomb" xOffset="252"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 21:39:06</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

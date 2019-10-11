@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="utilde" format="2">
+  <advance width="413"/>
+  <unicode hex="0169"/>
+  <anchor x="150" y="0" name="bottom"/>
+  <anchor x="306" y="734" name="top"/>
+  <anchor x="450" y="536" name="topright"/>
+  <outline>
+    <component base="u"/>
+    <component base="tilde" xOffset="27"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:24</string>
+    </dict>
+  </lib>
+</glyph>

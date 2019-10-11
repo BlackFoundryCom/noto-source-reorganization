@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni20A5" format="2">
+  <advance width="896"/>
+  <unicode hex="20A5"/>
+  <anchor x="391" y="0" name="bottom"/>
+  <anchor x="505" y="536" name="top"/>
+  <anchor x="933" y="536" name="topright"/>
+  <outline>
+    <contour>
+      <point x="210" y="-110" type="line"/>
+      <point x="264" y="-110" type="line"/>
+      <point x="703" y="666" type="line"/>
+      <point x="649" y="666" type="line"/>
+    </contour>
+    <component base="m"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/15 23:22:33</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Currency</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

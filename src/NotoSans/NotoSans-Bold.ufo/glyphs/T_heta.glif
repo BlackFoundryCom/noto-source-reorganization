@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Theta" format="2">
+  <advance width="797"/>
+  <unicode hex="0398"/>
+  <anchor x="398" y="0" name="bottom"/>
+  <anchor x="399" y="714" name="top"/>
+  <anchor x="399" y="357" name="center"/>
+  <anchor x="777" y="714" name="topright"/>
+  <outline>
+    <contour>
+      <point x="499" y="436" type="line"/>
+      <point x="298" y="436" type="line"/>
+      <point x="298" y="290" type="line"/>
+      <point x="499" y="290" type="line"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/05 22:37:38</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotaccent.sc" format="2">
+  <advance width="300"/>
+  <anchor x="151" y="0" name="bottom"/>
+  <anchor x="151" y="809" name="top"/>
+  <anchor x="281" y="571" name="topright"/>
+  <outline>
+    <component base="i.sc"/>
+    <component base="dotaccentcomb.sc" xOffset="15" yOffset="35"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>i.sc</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/15 01:46:46</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

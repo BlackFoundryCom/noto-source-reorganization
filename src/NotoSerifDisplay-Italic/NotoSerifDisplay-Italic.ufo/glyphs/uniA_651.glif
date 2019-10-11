@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA651" format="2">
+  <advance width="907"/>
+  <unicode hex="A651"/>
+  <anchor x="247" y="0" name="bottom_1"/>
+  <anchor x="709" y="0" name="bottom_2"/>
+  <anchor x="413" y="536" name="top_1"/>
+  <anchor x="796" y="536" name="top_2"/>
+  <anchor x="939" y="714" name="topright"/>
+  <outline>
+    <component base="afii10092"/>
+    <component base="idotless" xOffset="607"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>afii10092</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:56</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

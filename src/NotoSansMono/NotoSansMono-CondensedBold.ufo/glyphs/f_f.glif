@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_f" format="2">
+  <advance width="1000"/>
+  <unicode hex="FB00"/>
+  <anchor x="224" y="0" name="bottom_1"/>
+  <anchor x="729" y="0" name="bottom_2"/>
+  <anchor x="500" y="0" name="caret_1"/>
+  <anchor x="224" y="773" name="top_1"/>
+  <anchor x="728" y="773" name="top_2"/>
+  <anchor x="500" y="766" name="topright_1"/>
+  <anchor x="1000" y="766" name="topright_2"/>
+  <outline>
+    <component base="f"/>
+    <component base="f" xOffset="500"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>f</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>f</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/05/10 13:37:20</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Ligature</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

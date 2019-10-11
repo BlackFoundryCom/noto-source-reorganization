@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1F3F" format="2">
+  <advance width="600"/>
+  <unicode hex="1F3F"/>
+  <anchor x="435" y="0" name="bottom"/>
+  <anchor x="435" y="714" name="top"/>
+  <outline>
+    <contour>
+      <point x="286" y="0" type="line"/>
+      <point x="566" y="0" type="line"/>
+      <point x="566" y="125" type="line"/>
+      <point x="510" y="141" type="line"/>
+      <point x="510" y="573" type="line"/>
+      <point x="566" y="589" type="line"/>
+      <point x="566" y="714" type="line"/>
+      <point x="286" y="714" type="line"/>
+      <point x="286" y="589" type="line"/>
+      <point x="341" y="573" type="line"/>
+      <point x="341" y="141" type="line"/>
+      <point x="286" y="125" type="line"/>
+    </contour>
+    <component base="uni1FDF" xScale="0.869" xOffset="-128" yOffset="-80"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/05/10 13:37:20</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

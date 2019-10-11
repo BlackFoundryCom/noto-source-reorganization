@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="scedilla" format="2">
+  <advance width="353"/>
+  <unicode hex="015F"/>
+  <anchor x="70" y="-240" name="bottom"/>
+  <anchor x="233" y="530" name="top"/>
+  <anchor x="391" y="545" name="topright"/>
+  <outline>
+    <component base="s"/>
+    <component base="cedilla" xOffset="88"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:24</string>
+    </dict>
+  </lib>
+</glyph>

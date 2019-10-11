@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ldot" format="2">
+  <advance width="310"/>
+  <unicode hex="0140"/>
+  <anchor x="74" y="0" name="bottom"/>
+  <anchor x="236" y="760" name="top"/>
+  <anchor x="193" y="268" name="center"/>
+  <anchor x="345" y="760" name="topright"/>
+  <outline>
+    <component base="l"/>
+    <component base="dotaccent" xOffset="117" yOffset="-330"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:53</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

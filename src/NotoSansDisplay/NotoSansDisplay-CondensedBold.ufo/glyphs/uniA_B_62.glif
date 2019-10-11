@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniAB62" format="2">
+  <advance width="669"/>
+  <unicode hex="AB62"/>
+  <anchor x="177" y="552" name="bottom_1"/>
+  <anchor x="453" y="0" name="bottom_2"/>
+  <anchor x="183" y="-1" name="top_1"/>
+  <anchor x="439" y="553" name="top_2"/>
+  <anchor x="30" y="-1" name="topright_1"/>
+  <anchor x="663" y="553" name="topright_2"/>
+  <outline>
+    <component base="c" xScale="-1" yScale="-1" xOffset="425" yOffset="552"/>
+    <component base="e" xOffset="198"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|c</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>e</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 21:39:10</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string></string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

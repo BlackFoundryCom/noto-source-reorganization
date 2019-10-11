@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0478" format="2">
+  <advance width="1000"/>
+  <unicode hex="0478"/>
+  <anchor x="500" y="-243" name="bottom"/>
+  <anchor x="500" y="714" name="top"/>
+  <anchor x="250" y="357" name="center"/>
+  <anchor x="251" y="10" name="ogonek"/>
+  <anchor x="20" y="714" name="topleft"/>
+  <anchor x="500" y="714" name="topright_1"/>
+  <anchor x="980" y="528" name="topright_2"/>
+  <outline>
+    <component base="O"/>
+    <component base="y" xOffset="500"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/05/10 13:37:19</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="atilde.sc" format="2">
+  <advance width="616"/>
+  <anchor x="245" y="0" name="bottom"/>
+  <anchor x="417" y="809" name="top"/>
+  <anchor x="659" y="591" name="topright"/>
+  <outline>
+    <component base="a.sc"/>
+    <component base="tildecomb.sc" xOffset="13"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:26</string>
+    </dict>
+  </lib>
+</glyph>

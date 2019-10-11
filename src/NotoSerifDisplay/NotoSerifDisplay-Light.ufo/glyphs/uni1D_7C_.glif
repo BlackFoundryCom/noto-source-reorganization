@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1D7C" format="2">
+  <advance width="270"/>
+  <unicode hex="1D7C"/>
+  <anchor x="135" y="0" name="bottom"/>
+  <anchor x="135" y="536" name="top"/>
+  <outline>
+    <contour>
+      <point x="10" y="295" type="line"/>
+      <point x="245" y="295" type="line"/>
+      <point x="245" y="305" type="line"/>
+      <point x="10" y="305" type="line"/>
+    </contour>
+    <component base="iotaLatin"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>iota</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/14 19:40:10</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

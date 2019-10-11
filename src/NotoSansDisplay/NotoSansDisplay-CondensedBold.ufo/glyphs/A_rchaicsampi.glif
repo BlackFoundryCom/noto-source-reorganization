@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Archaicsampi" format="2">
+  <advance width="569"/>
+  <unicode hex="0372"/>
+  <anchor x="285" y="0" name="bottom"/>
+  <anchor x="285" y="714" name="top"/>
+  <outline>
+    <contour>
+      <point x="369" y="0" type="line"/>
+      <point x="369" y="567" type="line"/>
+      <point x="552" y="567" type="line"/>
+      <point x="552" y="714" type="line"/>
+      <point x="17" y="714" type="line"/>
+      <point x="17" y="567" type="line"/>
+      <point x="200" y="567" type="line"/>
+      <point x="200" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="17" y="714" type="line"/>
+      <point x="17" y="389" type="line"/>
+      <point x="153" y="389" type="line"/>
+      <point x="153" y="714" type="line"/>
+    </contour>
+    <contour>
+      <point x="415" y="714" type="line"/>
+      <point x="415" y="389" type="line"/>
+      <point x="552" y="389" type="line"/>
+      <point x="552" y="714" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 21:39:09</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

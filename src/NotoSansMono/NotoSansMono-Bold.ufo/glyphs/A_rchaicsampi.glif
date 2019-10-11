@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Archaicsampi" format="2">
+  <advance width="600"/>
+  <unicode hex="0372"/>
+  <anchor x="300" y="0" name="bottom"/>
+  <anchor x="300" y="714" name="top"/>
+  <anchor x="300" y="357" name="center"/>
+  <anchor x="580" y="714" name="topright"/>
+  <outline>
+    <contour>
+      <point x="454" y="322" type="line"/>
+      <point x="580" y="322" type="line"/>
+      <point x="580" y="714" type="line"/>
+      <point x="454" y="714" type="line"/>
+    </contour>
+    <contour>
+      <point x="20" y="322" type="line"/>
+      <point x="146" y="322" type="line"/>
+      <point x="146" y="714" type="line"/>
+      <point x="20" y="714" type="line"/>
+    </contour>
+    <component base="T"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/05/10 13:37:21</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

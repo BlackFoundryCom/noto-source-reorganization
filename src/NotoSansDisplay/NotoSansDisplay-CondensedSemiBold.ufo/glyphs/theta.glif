@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="theta" format="2">
+  <advance width="487"/>
+  <unicode hex="03B8"/>
+  <anchor x="244" y="0" name="bottom"/>
+  <anchor x="244" y="771" name="top"/>
+  <anchor x="429" y="771" name="topright"/>
+  <outline>
+    <contour>
+      <point x="453" y="381" type="curve" smooth="yes"/>
+      <point x="453" y="645"/>
+      <point x="383" y="771"/>
+      <point x="243" y="771" type="curve" smooth="yes"/>
+      <point x="102" y="771"/>
+      <point x="34" y="643"/>
+      <point x="34" y="381" type="curve" smooth="yes"/>
+      <point x="34" y="115"/>
+      <point x="102" y="-10"/>
+      <point x="242" y="-10" type="curve" smooth="yes"/>
+      <point x="383" y="-10"/>
+      <point x="453" y="118"/>
+    </contour>
+    <contour>
+      <point x="242" y="96" type="curve" smooth="yes"/>
+      <point x="192" y="96"/>
+      <point x="169" y="174"/>
+      <point x="167" y="330" type="curve"/>
+      <point x="319" y="330" type="line"/>
+      <point x="317" y="173"/>
+      <point x="293" y="96"/>
+    </contour>
+    <contour>
+      <point x="244" y="665" type="curve" smooth="yes"/>
+      <point x="293" y="665"/>
+      <point x="316" y="591"/>
+      <point x="321" y="436" type="curve"/>
+      <point x="169" y="436" type="line"/>
+      <point x="171" y="591"/>
+      <point x="194" y="665"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 21:39:06</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

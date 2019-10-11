@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f.sc" format="2">
+  <advance width="434"/>
+  <anchor x="81" y="0" name="bottom"/>
+  <anchor x="277" y="571" name="top"/>
+  <anchor x="475" y="571" name="topright"/>
+  <outline>
+    <contour>
+      <point x="-16" y="0" type="line"/>
+      <point x="174" y="0" type="line"/>
+      <point x="176" y="10" type="line"/>
+      <point x="141" y="10" type="line" smooth="yes"/>
+      <point x="105" y="10"/>
+      <point x="100" y="13"/>
+      <point x="100" y="37" type="curve" smooth="yes"/>
+      <point x="100" y="46"/>
+      <point x="101" y="58"/>
+      <point x="106" y="78" type="curve" smooth="yes"/>
+      <point x="151" y="277" type="line"/>
+      <point x="357" y="277" type="line"/>
+      <point x="359" y="287" type="line"/>
+      <point x="152" y="287" type="line"/>
+      <point x="211" y="561" type="line"/>
+      <point x="397" y="561" type="line" smooth="yes"/>
+      <point x="438" y="561"/>
+      <point x="449" y="555"/>
+      <point x="449" y="526" type="curve" smooth="yes"/>
+      <point x="449" y="513"/>
+      <point x="441" y="473"/>
+      <point x="436" y="441" type="curve"/>
+      <point x="446" y="441" type="line"/>
+      <point x="469" y="571" type="line"/>
+      <point x="107" y="571" type="line"/>
+      <point x="104" y="561" type="line"/>
+      <point x="129" y="561" type="line" smooth="yes"/>
+      <point x="167" y="561"/>
+      <point x="175" y="557"/>
+      <point x="175" y="538" type="curve" smooth="yes"/>
+      <point x="175" y="528"/>
+      <point x="170" y="506"/>
+      <point x="164" y="477" type="curve" smooth="yes"/>
+      <point x="78" y="76" type="line" smooth="yes"/>
+      <point x="66" y="18"/>
+      <point x="59" y="10"/>
+      <point x="15" y="10" type="curve" smooth="yes"/>
+      <point x="-15" y="10" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>h.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=h.sc-10</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:55</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

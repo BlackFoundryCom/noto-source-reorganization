@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="APLquadgreater-than" format="2">
+  <advance width="500"/>
+  <unicode hex="2344"/>
+  <outline>
+    <contour>
+      <point x="80" y="136" type="line"/>
+      <point x="428" y="312" type="line"/>
+      <point x="428" y="402" type="line"/>
+      <point x="80" y="578" type="line"/>
+      <point x="80" y="472" type="line"/>
+      <point x="311" y="357" type="line"/>
+      <point x="80" y="242" type="line"/>
+    </contour>
+    <component base="APLquad"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/05/10 13:37:22</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

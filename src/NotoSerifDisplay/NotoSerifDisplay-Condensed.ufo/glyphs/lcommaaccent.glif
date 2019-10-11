@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lcommaaccent" format="2">
+  <advance width="253"/>
+  <unicode hex="013C"/>
+  <anchor x="127" y="-221" name="bottom"/>
+  <anchor x="127" y="760" name="top"/>
+  <anchor x="127" y="268" name="center"/>
+  <anchor x="228" y="760" name="topright"/>
+  <outline>
+    <component base="l"/>
+    <component base="commaaccent" xOffset="119"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/14 19:40:09</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

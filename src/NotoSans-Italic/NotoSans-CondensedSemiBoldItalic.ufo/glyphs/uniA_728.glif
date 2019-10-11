@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA728" format="2">
+  <advance width="651"/>
+  <unicode hex="A728"/>
+  <anchor x="138" y="0" name="bottom_1"/>
+  <anchor x="325" y="-230" name="bottom_2"/>
+  <anchor x="226" y="357" name="center"/>
+  <anchor x="290" y="714" name="top_1"/>
+  <anchor x="476" y="484" name="top_2"/>
+  <anchor x="463" y="714" name="topright"/>
+  <outline>
+    <component base="T"/>
+    <component base="uni04E0" xOffset="161" yOffset="-230"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>uni04E0</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:26</string>
+    </dict>
+  </lib>
+</glyph>

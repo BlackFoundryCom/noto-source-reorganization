@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="facsimile" format="2">
+  <advance width="1800"/>
+  <unicode hex="213B"/>
+  <anchor x="312" y="0" name="bottom_1"/>
+  <anchor x="900" y="0" name="bottom_2"/>
+  <anchor x="1500" y="0" name="bottom_3"/>
+  <anchor x="1140" y="10" name="ogonek"/>
+  <anchor x="312" y="714" name="top_1"/>
+  <anchor x="900" y="714" name="top_2"/>
+  <anchor x="1500" y="714" name="top_3"/>
+  <anchor x="580" y="714" name="topright_1"/>
+  <anchor x="1180" y="714" name="topright_2"/>
+  <anchor x="1780" y="714" name="topright_3"/>
+  <outline>
+    <component base="F"/>
+    <component base="A" xOffset="600"/>
+    <component base="X" xOffset="1200"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/05/10 13:37:22</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

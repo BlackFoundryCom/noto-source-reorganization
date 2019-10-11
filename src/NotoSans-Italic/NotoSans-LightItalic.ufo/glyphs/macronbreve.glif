@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macronbreve" format="2">
+  <unicode hex="1DCC"/>
+  <anchor x="-174" y="528" name="_top"/>
+  <anchor x="-133" y="719" name="top"/>
+  <outline>
+    <component base="macron" xOffset="-488" yOffset="80"/>
+    <component base="breve" xOffset="-288"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:27</string>
+    </dict>
+  </lib>
+</glyph>

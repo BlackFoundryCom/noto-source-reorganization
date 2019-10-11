@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1D7A" format="2">
+  <advance width="906"/>
+  <unicode hex="1D7A"/>
+  <anchor x="115" y="0" name="bottom_1"/>
+  <anchor x="579" y="0" name="bottom_2"/>
+  <anchor x="229" y="268" name="center_1"/>
+  <anchor x="693" y="268" name="center_2"/>
+  <anchor x="255" y="659" name="top_1"/>
+  <anchor x="741" y="760" name="top_2"/>
+  <anchor x="382" y="536" name="topright_1"/>
+  <anchor x="991" y="760" name="topright_2"/>
+  <outline>
+    <contour>
+      <point x="-30" y="-145" type="line"/>
+      <point x="40" y="-145" type="line"/>
+      <point x="798" y="760" type="line"/>
+      <point x="731" y="760" type="line"/>
+    </contour>
+    <component base="t"/>
+    <component base="h" xOffset="351"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>h</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/15 23:22:33</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

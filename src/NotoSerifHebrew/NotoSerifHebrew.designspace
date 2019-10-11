@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400">
+      <map input="100" output="28"/>
+      <map input="200" output="42"/>
+      <map input="300" output="64"/>
+      <map input="400" output="94"/>
+      <map input="500" output="110"/>
+      <map input="600" output="130"/>
+      <map input="700" output="152"/>
+      <map input="800" output="175"/>
+      <map input="900" output="194"/>
+    </axis>
+    <axis tag="wdth" name="Width" minimum="62.500000" maximum="100" default="100">
+      <map input="62.500000" output="70"/>
+      <map input="75" output="79"/>
+      <map input="87.500000" output="89"/>
+      <map input="100" output="100"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="NotoSerifHebrew-Light.ufo" name="Noto Serif Hebrew Light" familyname="NotoSerifHebrew" stylename="Light">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSerifHebrew-Regular.ufo" name="Noto Serif Hebrew Regular" familyname="NotoSerifHebrew" stylename="Regular">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSerifHebrew-Bold.ufo" name="Noto Serif Hebrew Bold" familyname="NotoSerifHebrew" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSerifHebrew-Light.ufo" name="Noto Serif Hebrew Condensed Light" familyname="NotoSerifHebrew" stylename="Condensed Light">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+    <source filename="NotoSerifHebrew-Condensed.ufo" name="Noto Serif Hebrew Condensed" familyname="NotoSerifHebrew" stylename="Condensed">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+    <source filename="NotoSerifHebrew-Bold.ufo" name="Noto Serif Hebrew Condensed Bold" familyname="NotoSerifHebrew" stylename="Condensed Bold">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Serif Hebrew Thin" familyname="NotoSerifHebrew" stylename="Thin" filename="Noto Serif Hebrew Thin">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew ExtraLight" familyname="NotoSerifHebrew" stylename="ExtraLight" filename="Noto Serif Hebrew ExtraLight">
+      <location>
+        <dimension name="Weight" xvalue="42"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew Light" familyname="NotoSerifHebrew" stylename="Light" filename="Noto Serif Hebrew Light">
+      <location>
+        <dimension name="Weight" xvalue="64"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew Regular" familyname="NotoSerifHebrew" stylename="Regular" filename="Noto Serif Hebrew Regular">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew Medium" familyname="NotoSerifHebrew" stylename="Medium" filename="Noto Serif Hebrew Medium">
+      <location>
+        <dimension name="Weight" xvalue="110"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew SemiBold" familyname="NotoSerifHebrew" stylename="SemiBold" filename="Noto Serif Hebrew SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="130"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew Bold" familyname="NotoSerifHebrew" stylename="Bold" filename="Noto Serif Hebrew Bold">
+      <location>
+        <dimension name="Weight" xvalue="152"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew ExtraBold" familyname="NotoSerifHebrew" stylename="ExtraBold" filename="Noto Serif Hebrew ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="175"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew Black" familyname="NotoSerifHebrew" stylename="Black" filename="Noto Serif Hebrew Black">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew Condensed Thin" familyname="NotoSerifHebrew" stylename="Condensed Thin" filename="Noto Serif Hebrew Condensed Thin">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew Condensed ExtraLight" familyname="NotoSerifHebrew" stylename="Condensed ExtraLight" filename="Noto Serif Hebrew Condensed ExtraLight">
+      <location>
+        <dimension name="Weight" xvalue="42"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew Condensed Light" familyname="NotoSerifHebrew" stylename="Condensed Light" filename="Noto Serif Hebrew Condensed Light">
+      <location>
+        <dimension name="Weight" xvalue="64"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew Condensed" familyname="NotoSerifHebrew" stylename="Condensed" filename="Noto Serif Hebrew Condensed">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew Condensed Medium" familyname="NotoSerifHebrew" stylename="Condensed Medium" filename="Noto Serif Hebrew Condensed Medium">
+      <location>
+        <dimension name="Weight" xvalue="110"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew Condensed SemiBold " familyname="NotoSerifHebrew" stylename="Condensed SemiBold " filename="Noto Serif Hebrew Condensed SemiBold ">
+      <location>
+        <dimension name="Weight" xvalue="130"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew Condensed Bold" familyname="NotoSerifHebrew" stylename="Condensed Bold" filename="Noto Serif Hebrew Condensed Bold">
+      <location>
+        <dimension name="Weight" xvalue="152"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew Condensed ExtraBold" familyname="NotoSerifHebrew" stylename="Condensed ExtraBold" filename="Noto Serif Hebrew Condensed ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="175"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew Condensed Black" familyname="NotoSerifHebrew" stylename="Condensed Black" filename="Noto Serif Hebrew Condensed Black">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew SemiCondensed Thin" familyname="NotoSerifHebrew" stylename="SemiCondensed Thin" filename="Noto Serif Hebrew SemiCondensed Thin">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew SemiCondensed ExtraLight" familyname="NotoSerifHebrew" stylename="SemiCondensed ExtraLight" filename="Noto Serif Hebrew SemiCondensed ExtraLight">
+      <location>
+        <dimension name="Weight" xvalue="42"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew SemiCondensed Light" familyname="NotoSerifHebrew" stylename="SemiCondensed Light" filename="Noto Serif Hebrew SemiCondensed Light">
+      <location>
+        <dimension name="Weight" xvalue="64"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew SemiCondensed" familyname="NotoSerifHebrew" stylename="SemiCondensed" filename="Noto Serif Hebrew SemiCondensed">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew SemiCondensed Medium" familyname="NotoSerifHebrew" stylename="SemiCondensed Medium" filename="Noto Serif Hebrew SemiCondensed Medium">
+      <location>
+        <dimension name="Weight" xvalue="110"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew SemiCondensed SemiBold" familyname="NotoSerifHebrew" stylename="SemiCondensed SemiBold" filename="Noto Serif Hebrew SemiCondensed SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="130"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew SemiCondensed Bold" familyname="NotoSerifHebrew" stylename="SemiCondensed Bold" filename="Noto Serif Hebrew SemiCondensed Bold">
+      <location>
+        <dimension name="Weight" xvalue="152"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew SemiCondensed ExtraBold" familyname="NotoSerifHebrew" stylename="SemiCondensed ExtraBold" filename="Noto Serif Hebrew SemiCondensed ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="175"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew SemiCondensed Black" familyname="NotoSerifHebrew" stylename="SemiCondensed Black" filename="Noto Serif Hebrew SemiCondensed Black">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew ExtraCondensed Thin" familyname="NotoSerifHebrew" stylename="ExtraCondensed Thin" filename="Noto Serif Hebrew ExtraCondensed Thin">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew ExtraCondensed ExtraLight" familyname="NotoSerifHebrew" stylename="ExtraCondensed ExtraLight" filename="Noto Serif Hebrew ExtraCondensed ExtraLight">
+      <location>
+        <dimension name="Weight" xvalue="42"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew ExtraCondensed Light" familyname="NotoSerifHebrew" stylename="ExtraCondensed Light" filename="Noto Serif Hebrew ExtraCondensed Light">
+      <location>
+        <dimension name="Weight" xvalue="64"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew ExtraCondensed" familyname="NotoSerifHebrew" stylename="ExtraCondensed" filename="Noto Serif Hebrew ExtraCondensed">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew ExtraCondensed Medium" familyname="NotoSerifHebrew" stylename="ExtraCondensed Medium" filename="Noto Serif Hebrew ExtraCondensed Medium">
+      <location>
+        <dimension name="Weight" xvalue="110"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew ExtraCondensed SemiBold" familyname="NotoSerifHebrew" stylename="ExtraCondensed SemiBold" filename="Noto Serif Hebrew ExtraCondensed SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="130"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew ExtraCondensed Bold" familyname="NotoSerifHebrew" stylename="ExtraCondensed Bold" filename="Noto Serif Hebrew ExtraCondensed Bold">
+      <location>
+        <dimension name="Weight" xvalue="152"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew ExtraCondensed ExtraBold" familyname="NotoSerifHebrew" stylename="ExtraCondensed ExtraBold" filename="Noto Serif Hebrew ExtraCondensed ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="175"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Hebrew ExtraCondensed Black" familyname="NotoSerifHebrew" stylename="ExtraCondensed Black" filename="Noto Serif Hebrew ExtraCondensed Black">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+</designspace>

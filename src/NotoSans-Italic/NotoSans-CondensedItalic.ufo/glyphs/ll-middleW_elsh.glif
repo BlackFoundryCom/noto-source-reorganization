@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ll-middleWelsh" format="2">
+  <advance width="382"/>
+  <unicode hex="1EFB"/>
+  <anchor x="39" y="0" name="bottom"/>
+  <anchor x="200" y="760" name="top"/>
+  <anchor x="303" y="265" name="center_1"/>
+  <anchor x="112" y="265" name="center_2"/>
+  <anchor x="466" y="760" name="topright_1"/>
+  <anchor x="275" y="760" name="topright_2"/>
+  <outline>
+    <contour>
+      <point x="73" y="596" type="line"/>
+      <point x="449" y="596" type="line"/>
+      <point x="459" y="644" type="line"/>
+      <point x="83" y="644" type="line"/>
+    </contour>
+    <component base="l" xOffset="191"/>
+    <component base="l"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:26</string>
+    </dict>
+  </lib>
+</glyph>

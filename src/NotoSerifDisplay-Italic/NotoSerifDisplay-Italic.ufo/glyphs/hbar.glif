@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hbar" format="2">
+  <advance width="599"/>
+  <unicode hex="0127"/>
+  <anchor x="243" y="0" name="bottom"/>
+  <anchor x="405" y="760" name="top"/>
+  <anchor x="353" y="268" name="center"/>
+  <anchor x="590" y="760" name="topright"/>
+  <outline>
+    <contour>
+      <point x="82" y="613" type="line"/>
+      <point x="438" y="613" type="line"/>
+      <point x="440" y="623" type="line"/>
+      <point x="84" y="623" type="line"/>
+    </contour>
+    <component base="h"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:53</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1E96" format="2">
+  <advance width="508"/>
+  <unicode hex="1E96"/>
+  <anchor x="207" y="-124" name="bottom"/>
+  <anchor x="369" y="760" name="top"/>
+  <anchor x="321" y="268" name="center"/>
+  <anchor x="521" y="760" name="topright"/>
+  <outline>
+    <component base="h"/>
+    <component base="macron" xOffset="-58" yOffset="-744"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:55</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

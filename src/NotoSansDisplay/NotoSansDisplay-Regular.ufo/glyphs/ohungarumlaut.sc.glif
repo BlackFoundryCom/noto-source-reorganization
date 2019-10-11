@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohungarumlaut.sc" format="2">
+  <advance width="597"/>
+  <anchor x="316" y="0" name="bottom"/>
+  <anchor x="316" y="802" name="top"/>
+  <anchor x="298" y="286" name="center"/>
+  <anchor x="578" y="572" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="hungarumlaut" xOffset="142" yOffset="36"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 21:39:08</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

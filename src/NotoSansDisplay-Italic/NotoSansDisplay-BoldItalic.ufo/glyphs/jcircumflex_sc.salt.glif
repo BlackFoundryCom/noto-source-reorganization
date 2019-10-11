@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jcircumflex_sc.salt" format="2">
+  <advance width="466"/>
+  <anchor x="145" y="0" name="bottom"/>
+  <anchor x="402" y="803" name="top"/>
+  <anchor x="513" y="591" name="topright"/>
+  <outline>
+    <component base="j_sc.salt"/>
+    <component base="circumflexcomb.sc" xOffset="28"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/12 23:43:17</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

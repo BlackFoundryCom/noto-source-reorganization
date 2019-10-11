@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1D96" format="2">
+  <advance width="600"/>
+  <unicode hex="1D96"/>
+  <anchor x="321" y="0" name="bottom"/>
+  <anchor x="320" y="283" name="center"/>
+  <anchor x="307" y="760" name="top"/>
+  <anchor x="498" y="760" name="topright"/>
+  <outline>
+    <contour>
+      <point x="512" y="-198" type="curve" smooth="yes"/>
+      <point x="537" y="-198"/>
+      <point x="563" y="-194"/>
+      <point x="576" y="-186" type="curve"/>
+      <point x="576" y="-117" type="line"/>
+      <point x="566" y="-121"/>
+      <point x="546" y="-126"/>
+      <point x="530" y="-126" type="curve" smooth="yes"/>
+      <point x="496" y="-126"/>
+      <point x="478" y="-109"/>
+      <point x="478" y="-62" type="curve" smooth="yes"/>
+      <point x="478" y="53" type="line"/>
+      <point x="399" y="10" type="line"/>
+      <point x="399" y="-63" type="line" smooth="yes"/>
+      <point x="399" y="-162"/>
+      <point x="446" y="-198"/>
+    </contour>
+    <component base="i"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/05/10 13:37:20</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

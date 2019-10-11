@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA650" format="2">
+  <advance width="672"/>
+  <unicode hex="A650"/>
+  <anchor x="317" y="0" name="bottom"/>
+  <anchor x="469" y="714" name="top"/>
+  <outline>
+    <contour>
+      <point x="81" y="641" type="line"/>
+      <point x="206" y="641" type="line"/>
+      <point x="301" y="714" type="line"/>
+      <point x="96" y="714" type="line"/>
+    </contour>
+    <component base="afii10045" xOffset="71"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/12 23:43:18</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

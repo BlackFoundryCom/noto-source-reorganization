@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA767" format="2">
+  <advance width="567"/>
+  <unicode hex="A767"/>
+  <anchor x="178" y="-240" name="bottom"/>
+  <anchor x="390" y="760" name="top"/>
+  <outline>
+    <contour>
+      <point x="-82" y="-156" type="line"/>
+      <point x="266" y="-156" type="line"/>
+      <point x="287" y="-58" type="line"/>
+      <point x="-61" y="-58" type="line"/>
+    </contour>
+    <component base="thorn"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>thorn</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/12 23:43:17</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

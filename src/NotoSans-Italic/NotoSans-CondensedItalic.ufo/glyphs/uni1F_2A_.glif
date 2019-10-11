@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1F2A" format="2">
+  <advance width="655"/>
+  <unicode hex="1F2A"/>
+  <anchor x="358" y="0" name="bottom"/>
+  <anchor x="509" y="714" name="top"/>
+  <anchor x="439" y="357" name="center"/>
+  <anchor x="730" y="714" name="topright"/>
+  <outline>
+    <component base="H" xOffset="172"/>
+    <component base="uni1FCD" xOffset="-125" yOffset="-30"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:25</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ccaron.sc" format="2">
+  <advance width="312"/>
+  <anchor x="181" y="0" name="bottom"/>
+  <anchor x="198" y="797" name="top"/>
+  <anchor x="293" y="559" name="topright"/>
+  <outline>
+    <component base="c.sc"/>
+    <component base="caron" xOffset="50" yOffset="34"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 21:39:08</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

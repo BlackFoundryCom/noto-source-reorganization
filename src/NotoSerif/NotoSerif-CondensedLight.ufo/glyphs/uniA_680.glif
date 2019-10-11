@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA680" format="2">
+  <advance width="502"/>
+  <unicode hex="A680"/>
+  <anchor x="251" y="0" name="bottom"/>
+  <anchor x="251" y="714" name="top"/>
+  <outline>
+    <contour>
+      <point x="210" y="714" type="line"/>
+      <point x="235" y="714" type="line"/>
+      <point x="235" y="832" type="line"/>
+      <point x="210" y="832" type="line"/>
+    </contour>
+    <component base="afii10021"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/15 01:46:46</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

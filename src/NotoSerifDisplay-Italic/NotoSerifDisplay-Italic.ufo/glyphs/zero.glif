@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero" format="2">
+  <advance width="559"/>
+  <unicode hex="0030"/>
+  <outline>
+    <contour>
+      <point x="247" y="-11" type="curve" smooth="yes"/>
+      <point x="454" y="-11"/>
+      <point x="544" y="294"/>
+      <point x="544" y="496" type="curve" smooth="yes"/>
+      <point x="544" y="655"/>
+      <point x="460" y="725"/>
+      <point x="354" y="725" type="curve" smooth="yes"/>
+      <point x="148" y="725"/>
+      <point x="54" y="438"/>
+      <point x="54" y="231" type="curve" smooth="yes"/>
+      <point x="54" y="73"/>
+      <point x="132" y="-11"/>
+    </contour>
+    <contour>
+      <point x="248" y="-1" type="curve" smooth="yes"/>
+      <point x="184" y="-1"/>
+      <point x="151" y="49"/>
+      <point x="151" y="202" type="curve" smooth="yes"/>
+      <point x="151" y="403"/>
+      <point x="212" y="715"/>
+      <point x="351" y="715" type="curve" smooth="yes"/>
+      <point x="417" y="715"/>
+      <point x="447" y="665"/>
+      <point x="447" y="515" type="curve" smooth="yes"/>
+      <point x="447" y="312"/>
+      <point x="388" y="-1"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:53</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Decimal Digit</string>
+    </dict>
+  </lib>
+</glyph>

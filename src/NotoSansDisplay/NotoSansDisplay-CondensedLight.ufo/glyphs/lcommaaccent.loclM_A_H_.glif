@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lcommaaccent.loclMAH" format="2">
+  <advance width="163"/>
+  <anchor x="79" y="-240" name="bottom"/>
+  <anchor x="82" y="264" name="center"/>
+  <anchor x="82" y="760" name="top"/>
+  <anchor x="143" y="760" name="topright"/>
+  <outline>
+    <component base="l"/>
+    <component base="cedillacomb" xOffset="81"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 21:39:08</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

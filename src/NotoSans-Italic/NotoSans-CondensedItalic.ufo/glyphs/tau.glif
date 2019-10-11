@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tau" format="2">
+  <advance width="280"/>
+  <unicode hex="03C4"/>
+  <anchor x="84" y="0" name="bottom"/>
+  <anchor x="196" y="529" name="top"/>
+  <outline>
+    <contour>
+      <point x="139" y="-11" type="curve" smooth="yes"/>
+      <point x="162" y="-11"/>
+      <point x="188" y="-6"/>
+      <point x="209" y="5" type="curve"/>
+      <point x="209" y="68" type="line"/>
+      <point x="195" y="63"/>
+      <point x="179" y="58"/>
+      <point x="165" y="58" type="curve" smooth="yes"/>
+      <point x="141" y="58"/>
+      <point x="128" y="71"/>
+      <point x="128" y="97" type="curve" smooth="yes"/>
+      <point x="128" y="113"/>
+      <point x="131" y="129"/>
+      <point x="136" y="150" type="curve" smooth="yes"/>
+      <point x="203" y="469" type="line"/>
+      <point x="308" y="469" type="line"/>
+      <point x="322" y="536" type="line"/>
+      <point x="97" y="536" type="line"/>
+      <point x="45" y="503" type="line"/>
+      <point x="38" y="469" type="line"/>
+      <point x="126" y="469" type="line"/>
+      <point x="60" y="160" type="line" smooth="yes"/>
+      <point x="52" y="127"/>
+      <point x="49" y="101"/>
+      <point x="49" y="80" type="curve" smooth="yes"/>
+      <point x="49" y="20"/>
+      <point x="82" y="-11"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:24</string>
+    </dict>
+  </lib>
+</glyph>

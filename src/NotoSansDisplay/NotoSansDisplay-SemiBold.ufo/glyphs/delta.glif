@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="delta" format="2">
+  <advance width="590"/>
+  <unicode hex="03B4"/>
+  <anchor x="295" y="0" name="bottom"/>
+  <anchor x="295" y="765" name="top"/>
+  <outline>
+    <contour>
+      <point x="326" y="765" type="curve" smooth="yes"/>
+      <point x="187" y="765"/>
+      <point x="110" y="712"/>
+      <point x="110" y="615" type="curve" smooth="yes"/>
+      <point x="110" y="541"/>
+      <point x="152" y="487"/>
+      <point x="214" y="448" type="curve"/>
+      <point x="104" y="417"/>
+      <point x="41" y="352"/>
+      <point x="41" y="214" type="curve" smooth="yes"/>
+      <point x="41" y="71"/>
+      <point x="147" y="-10"/>
+      <point x="292" y="-10" type="curve" smooth="yes"/>
+      <point x="447" y="-10"/>
+      <point x="549" y="71"/>
+      <point x="549" y="250" type="curve" smooth="yes"/>
+      <point x="549" y="354"/>
+      <point x="500" y="433"/>
+      <point x="386" y="494" type="curve" smooth="yes"/>
+      <point x="297" y="541"/>
+      <point x="263" y="571"/>
+      <point x="263" y="606" type="curve" smooth="yes"/>
+      <point x="263" y="632"/>
+      <point x="280" y="655"/>
+      <point x="324" y="655" type="curve" smooth="yes"/>
+      <point x="372" y="655"/>
+      <point x="426" y="635"/>
+      <point x="486" y="606" type="curve"/>
+      <point x="547" y="711" type="line"/>
+      <point x="478" y="744"/>
+      <point x="410" y="765"/>
+    </contour>
+    <contour>
+      <point x="303" y="387" type="curve"/>
+      <point x="352" y="355"/>
+      <point x="386" y="309"/>
+      <point x="386" y="240" type="curve" smooth="yes"/>
+      <point x="386" y="156"/>
+      <point x="352" y="110"/>
+      <point x="294" y="110" type="curve" smooth="yes"/>
+      <point x="236" y="110"/>
+      <point x="204" y="157"/>
+      <point x="204" y="220" type="curve" smooth="yes"/>
+      <point x="204" y="325"/>
+      <point x="261" y="372"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 21:39:06</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

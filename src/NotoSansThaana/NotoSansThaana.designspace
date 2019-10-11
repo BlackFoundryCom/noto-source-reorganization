@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400">
+      <map input="100" output="26"/>
+      <map input="200" output="39"/>
+      <map input="300" output="58"/>
+      <map input="400" output="90"/>
+      <map input="500" output="108"/>
+      <map input="600" output="128"/>
+      <map input="700" output="151"/>
+      <map input="800" output="169"/>
+      <map input="900" output="190"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="NotoSansThaana-Light.ufo" name="Noto Sans Thaana Light" familyname="NotoSansThaana" stylename="Light">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+      </location>
+    </source>
+    <source filename="NotoSansThaana-Regular.ufo" name="Noto Sans Thaana Regular" familyname="NotoSansThaana" stylename="Regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+    </source>
+    <source filename="NotoSansThaana-SemiBold.ufo" name="Noto Sans Thaana SemiBold" familyname="NotoSansThaana" stylename="SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+      </location>
+    </source>
+    <source filename="NotoSansThaana-Bold.ufo" name="Noto Sans Thaana Bold" familyname="NotoSansThaana" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Sans Thaana Thin" familyname="NotoSansThaana" stylename="Thin" filename="Noto Sans Thaana Thin">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Thaana ExtraLight" familyname="NotoSansThaana" stylename="ExtraLight" filename="Noto Sans Thaana ExtraLight">
+      <location>
+        <dimension name="Weight" xvalue="39"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Thaana Light" familyname="NotoSansThaana" stylename="Light" filename="Noto Sans Thaana Light">
+      <location>
+        <dimension name="Weight" xvalue="58"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Thaana Regular" familyname="NotoSansThaana" stylename="Regular" filename="Noto Sans Thaana Regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Thaana Medium" familyname="NotoSansThaana" stylename="Medium" filename="Noto Sans Thaana Medium">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Thaana SemiBold" familyname="NotoSansThaana" stylename="SemiBold" filename="Noto Sans Thaana SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Thaana Bold" familyname="NotoSansThaana" stylename="Bold" filename="Noto Sans Thaana Bold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Thaana ExtraBold" familyname="NotoSansThaana" stylename="ExtraBold" filename="Noto Sans Thaana ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Thaana Black" familyname="NotoSansThaana" stylename="Black" filename="Noto Sans Thaana Black">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+</designspace>

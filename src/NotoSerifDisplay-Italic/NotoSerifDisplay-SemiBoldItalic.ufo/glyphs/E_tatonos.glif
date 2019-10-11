@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etatonos" format="2">
+  <advance width="932"/>
+  <unicode hex="0389"/>
+  <anchor x="476" y="0" name="bottom"/>
+  <anchor x="631" y="714" name="top"/>
+  <anchor x="569" y="357" name="center"/>
+  <anchor x="1015" y="714" name="topright"/>
+  <outline>
+    <component base="H" xOffset="120"/>
+    <component base="tonos" xOffset="-227" yOffset="-82"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:53</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

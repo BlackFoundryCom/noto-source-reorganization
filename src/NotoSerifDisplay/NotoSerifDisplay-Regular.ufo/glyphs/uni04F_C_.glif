@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04FC" format="2">
+  <advance width="660"/>
+  <unicode hex="04FC"/>
+  <anchor x="330" y="-198" name="bottom"/>
+  <anchor x="330" y="714" name="top"/>
+  <anchor x="650" y="714" name="topright"/>
+  <outline>
+    <component base="X"/>
+    <component base="cyrillicbighookUC" xOffset="473" yOffset="-2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/14 19:40:09</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Theta" format="2">
+  <advance width="722"/>
+  <unicode hex="0398"/>
+  <anchor x="304" y="0" name="bottom"/>
+  <anchor x="456" y="714" name="top"/>
+  <outline>
+    <contour>
+      <point x="338" y="-10" type="curve"/>
+      <point x="568" y="-10"/>
+      <point x="691" y="194"/>
+      <point x="691" y="443" type="curve"/>
+      <point x="691" y="618"/>
+      <point x="595" y="725"/>
+      <point x="434" y="725" type="curve"/>
+      <point x="209" y="725"/>
+      <point x="72" y="515"/>
+      <point x="72" y="268" type="curve"/>
+      <point x="72" y="96"/>
+      <point x="167" y="-10"/>
+    </contour>
+    <contour>
+      <point x="340" y="69" type="curve"/>
+      <point x="232" y="69"/>
+      <point x="167" y="144"/>
+      <point x="167" y="270" type="curve"/>
+      <point x="167" y="475"/>
+      <point x="265" y="646"/>
+      <point x="427" y="646" type="curve"/>
+      <point x="532" y="646"/>
+      <point x="596" y="572"/>
+      <point x="596" y="445" type="curve"/>
+      <point x="596" y="247"/>
+      <point x="503" y="69"/>
+    </contour>
+    <contour>
+      <point x="243" y="325" type="line"/>
+      <point x="499" y="325" type="line"/>
+      <point x="515" y="402" type="line"/>
+      <point x="259" y="402" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:24</string>
+    </dict>
+  </lib>
+</glyph>

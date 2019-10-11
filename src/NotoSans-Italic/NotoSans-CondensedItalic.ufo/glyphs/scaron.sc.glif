@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="scaron.sc" format="2">
+  <advance width="318"/>
+  <anchor x="99" y="0" name="bottom"/>
+  <anchor x="258" y="752" name="top"/>
+  <anchor x="359" y="571" name="topright"/>
+  <outline>
+    <component base="s.sc"/>
+    <component base="caroncomb.sc" xOffset="-57"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:26</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Epsilontonos" format="2">
+  <advance width="552"/>
+  <unicode hex="0388"/>
+  <anchor x="287" y="0" name="bottom"/>
+  <anchor x="438" y="714" name="top"/>
+  <anchor x="627" y="714" name="topright"/>
+  <outline>
+    <component base="E" xOffset="133"/>
+    <component base="tonos" xOffset="-156" yOffset="-51"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>E</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:24</string>
+    </dict>
+  </lib>
+</glyph>

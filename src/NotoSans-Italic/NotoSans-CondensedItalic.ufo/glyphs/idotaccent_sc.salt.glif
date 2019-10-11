@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotaccent_sc.salt" format="2">
+  <advance width="194"/>
+  <anchor x="38" y="0" name="bottom"/>
+  <anchor x="190" y="732" name="top"/>
+  <anchor x="239" y="571" name="topright"/>
+  <outline>
+    <component base="i_sc.salt"/>
+    <component base="dotaccentcomb.sc" yOffset="-2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:26</string>
+    </dict>
+  </lib>
+</glyph>

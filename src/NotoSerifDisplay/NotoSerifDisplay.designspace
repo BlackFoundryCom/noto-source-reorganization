@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400">
+      <map input="100" output="28"/>
+      <map input="200" output="42"/>
+      <map input="300" output="64"/>
+      <map input="400" output="94"/>
+      <map input="500" output="110"/>
+      <map input="600" output="130"/>
+      <map input="700" output="152"/>
+      <map input="800" output="175"/>
+      <map input="900" output="194"/>
+    </axis>
+    <axis tag="wdth" name="Width" minimum="62.500000" maximum="100" default="100">
+      <map input="62.500000" output="70"/>
+      <map input="75" output="79"/>
+      <map input="87.500000" output="89"/>
+      <map input="100" output="100"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="NotoSerifDisplay-Light.ufo" name="Noto Serif Display Light" familyname="NotoSerifDisplay" stylename="Light">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSerifDisplay-Regular.ufo" name="Noto Serif Display Regular" familyname="NotoSerifDisplay" stylename="Regular">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSerifDisplay-SemiBold.ufo" name="Noto Serif Display SemiBold" familyname="NotoSerifDisplay" stylename="SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="152"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSerifDisplay-Bold.ufo" name="Noto Serif Display Bold" familyname="NotoSerifDisplay" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSerifDisplay-Light.ufo" name="Noto Serif Display Condensed Light" familyname="NotoSerifDisplay" stylename="Condensed Light">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+    <source filename="NotoSerifDisplay-Condensed.ufo" name="Noto Serif Display Condensed" familyname="NotoSerifDisplay" stylename="Condensed">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+    <source filename="NotoSerifDisplay-SemiBold.ufo" name="Noto Serif Display Condensed SemiBold" familyname="NotoSerifDisplay" stylename="Condensed SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="152"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+    <source filename="NotoSerifDisplay-Bold.ufo" name="Noto Serif Display Condensed Bold" familyname="NotoSerifDisplay" stylename="Condensed Bold">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Serif Display Thin" familyname="NotoSerifDisplay" stylename="Thin" filename="Noto Serif Display Thin">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display ExtraLight" familyname="NotoSerifDisplay" stylename="ExtraLight" filename="Noto Serif Display ExtraLight">
+      <location>
+        <dimension name="Weight" xvalue="42"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display Light" familyname="NotoSerifDisplay" stylename="Light" filename="Noto Serif Display Light">
+      <location>
+        <dimension name="Weight" xvalue="64"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display Regular" familyname="NotoSerifDisplay" stylename="Regular" filename="Noto Serif Display Regular">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display Medium" familyname="NotoSerifDisplay" stylename="Medium" filename="Noto Serif Display Medium">
+      <location>
+        <dimension name="Weight" xvalue="110"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display SemiBold" familyname="NotoSerifDisplay" stylename="SemiBold" filename="Noto Serif Display SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="130"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display Bold" familyname="NotoSerifDisplay" stylename="Bold" filename="Noto Serif Display Bold">
+      <location>
+        <dimension name="Weight" xvalue="152"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display ExtraBold" familyname="NotoSerifDisplay" stylename="ExtraBold" filename="Noto Serif Display ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="175"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display Black" familyname="NotoSerifDisplay" stylename="Black" filename="Noto Serif Display Black">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display SemiCondensed Thin" familyname="NotoSerifDisplay" stylename="SemiCondensed Thin" filename="Noto Serif Display SemiCondensed Thin">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display SemiCondensed ExtraLight" familyname="NotoSerifDisplay" stylename="SemiCondensed ExtraLight" filename="Noto Serif Display SemiCondensed ExtraLight">
+      <location>
+        <dimension name="Weight" xvalue="42"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display SemiCondensed Light" familyname="NotoSerifDisplay" stylename="SemiCondensed Light" filename="Noto Serif Display SemiCondensed Light">
+      <location>
+        <dimension name="Weight" xvalue="64"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display SemiCondensed" familyname="NotoSerifDisplay" stylename="SemiCondensed" filename="Noto Serif Display SemiCondensed">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display SemiCondensed Medium" familyname="NotoSerifDisplay" stylename="SemiCondensed Medium" filename="Noto Serif Display SemiCondensed Medium">
+      <location>
+        <dimension name="Weight" xvalue="110"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display SemiCondensed SemiBold" familyname="NotoSerifDisplay" stylename="SemiCondensed SemiBold" filename="Noto Serif Display SemiCondensed SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="130"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display SemiCondensed Bold" familyname="NotoSerifDisplay" stylename="SemiCondensed Bold" filename="Noto Serif Display SemiCondensed Bold">
+      <location>
+        <dimension name="Weight" xvalue="152"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display SemiCondensed ExtraBold" familyname="NotoSerifDisplay" stylename="SemiCondensed ExtraBold" filename="Noto Serif Display SemiCondensed ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="175"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display SemiCondensed Black" familyname="NotoSerifDisplay" stylename="SemiCondensed Black" filename="Noto Serif Display SemiCondensed Black">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display Condensed Thin" familyname="NotoSerifDisplay" stylename="Condensed Thin" filename="Noto Serif Display Condensed Thin">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display Condensed ExtraLight" familyname="NotoSerifDisplay" stylename="Condensed ExtraLight" filename="Noto Serif Display Condensed ExtraLight">
+      <location>
+        <dimension name="Weight" xvalue="42"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display Condensed Light" familyname="NotoSerifDisplay" stylename="Condensed Light" filename="Noto Serif Display Condensed Light">
+      <location>
+        <dimension name="Weight" xvalue="64"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display Condensed" familyname="NotoSerifDisplay" stylename="Condensed" filename="Noto Serif Display Condensed">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display Condensed Medium" familyname="NotoSerifDisplay" stylename="Condensed Medium" filename="Noto Serif Display Condensed Medium">
+      <location>
+        <dimension name="Weight" xvalue="110"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display Condensed SemiBold" familyname="NotoSerifDisplay" stylename="Condensed SemiBold" filename="Noto Serif Display Condensed SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="130"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display Condensed Bold" familyname="NotoSerifDisplay" stylename="Condensed Bold" filename="Noto Serif Display Condensed Bold">
+      <location>
+        <dimension name="Weight" xvalue="152"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display Condensed ExtraBold" familyname="NotoSerifDisplay" stylename="Condensed ExtraBold" filename="Noto Serif Display Condensed ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="175"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display Condensed Black" familyname="NotoSerifDisplay" stylename="Condensed Black" filename="Noto Serif Display Condensed Black">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display ExtraCondensed Thin" familyname="NotoSerifDisplay" stylename="ExtraCondensed Thin" filename="Noto Serif Display ExtraCondensed Thin">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display ExtraCondensed ExtraLight" familyname="NotoSerifDisplay" stylename="ExtraCondensed ExtraLight" filename="Noto Serif Display ExtraCondensed ExtraLight">
+      <location>
+        <dimension name="Weight" xvalue="42"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display ExtraCondensed Light" familyname="NotoSerifDisplay" stylename="ExtraCondensed Light" filename="Noto Serif Display ExtraCondensed Light">
+      <location>
+        <dimension name="Weight" xvalue="64"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display ExtraCondensed" familyname="NotoSerifDisplay" stylename="ExtraCondensed" filename="Noto Serif Display ExtraCondensed">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display ExtraCondensed Medium" familyname="NotoSerifDisplay" stylename="ExtraCondensed Medium" filename="Noto Serif Display ExtraCondensed Medium">
+      <location>
+        <dimension name="Weight" xvalue="110"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display ExtraCondensed SemiBold" familyname="NotoSerifDisplay" stylename="ExtraCondensed SemiBold" filename="Noto Serif Display ExtraCondensed SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="130"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display ExtraCondensed Bold" familyname="NotoSerifDisplay" stylename="ExtraCondensed Bold" filename="Noto Serif Display ExtraCondensed Bold">
+      <location>
+        <dimension name="Weight" xvalue="152"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display ExtraCondensed ExtraBold" familyname="NotoSerifDisplay" stylename="ExtraCondensed ExtraBold" filename="Noto Serif Display ExtraCondensed ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="175"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Serif Display ExtraCondensed Black" familyname="NotoSerifDisplay" stylename="ExtraCondensed Black" filename="Noto Serif Display ExtraCondensed Black">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+</designspace>

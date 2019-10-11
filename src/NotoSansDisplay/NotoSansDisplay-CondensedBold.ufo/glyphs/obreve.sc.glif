@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="obreve.sc" format="2">
+  <advance width="527"/>
+  <anchor x="269" y="0" name="bottom"/>
+  <anchor x="269" y="823" name="top"/>
+  <anchor x="264" y="295" name="center"/>
+  <anchor x="507" y="589" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="brevecomb" xOffset="264" yOffset="36"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 21:39:08</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

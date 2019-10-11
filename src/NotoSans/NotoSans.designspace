@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400">
+      <map input="100" output="26"/>
+      <map input="200" output="39"/>
+      <map input="300" output="58"/>
+      <map input="400" output="90"/>
+      <map input="500" output="108"/>
+      <map input="600" output="128"/>
+      <map input="700" output="151"/>
+      <map input="800" output="169"/>
+      <map input="900" output="190"/>
+    </axis>
+    <axis tag="wdth" name="Width" minimum="62.500000" maximum="100" default="100">
+      <map input="62.500000" output="70"/>
+      <map input="75" output="79"/>
+      <map input="87.500000" output="89"/>
+      <map input="100" output="100"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="NotoSans-Light.ufo" name="Noto Sans Light" familyname="NotoSans" stylename="Light">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSans-Regular.ufo" name="Noto Sans Regular" familyname="NotoSans" stylename="Regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSans-SemiBold.ufo" name="Noto Sans SemiBold" familyname="NotoSans" stylename="SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSans-Bold.ufo" name="Noto Sans Bold" familyname="NotoSans" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSans-Light.ufo" name="Noto Sans Condensed Light" familyname="NotoSans" stylename="Condensed Light">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+    <source filename="NotoSans-Condensed.ufo" name="Noto Sans Condensed" familyname="NotoSans" stylename="Condensed">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+    <source filename="NotoSans-SemiBold.ufo" name="Noto Sans Condensed SemiBold" familyname="NotoSans" stylename="Condensed SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+    <source filename="NotoSans-Bold.ufo" name="Noto Sans Condensed Bold" familyname="NotoSans" stylename="Condensed Bold">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Sans Thin" familyname="NotoSans" stylename="Thin" filename="Noto Sans Thin">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraLight" familyname="NotoSans" stylename="ExtraLight" filename="Noto Sans ExtraLight">
+      <location>
+        <dimension name="Weight" xvalue="39"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Light" familyname="NotoSans" stylename="Light" filename="Noto Sans Light">
+      <location>
+        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Regular" familyname="NotoSans" stylename="Regular" filename="Noto Sans Regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Medium" familyname="NotoSans" stylename="Medium" filename="Noto Sans Medium">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiBold" familyname="NotoSans" stylename="SemiBold" filename="Noto Sans SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Bold" familyname="NotoSans" stylename="Bold" filename="Noto Sans Bold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraBold" familyname="NotoSans" stylename="ExtraBold" filename="Noto Sans ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Black" familyname="NotoSans" stylename="Black" filename="Noto Sans Black">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiCondensed Thin" familyname="NotoSans" stylename="SemiCondensed Thin" filename="Noto Sans SemiCondensed Thin">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiCondensed ExtraLight" familyname="NotoSans" stylename="SemiCondensed ExtraLight" filename="Noto Sans SemiCondensed ExtraLight">
+      <location>
+        <dimension name="Weight" xvalue="39"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiCondensed Light" familyname="NotoSans" stylename="SemiCondensed Light" filename="Noto Sans SemiCondensed Light">
+      <location>
+        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiCondensed" familyname="NotoSans" stylename="SemiCondensed" filename="Noto Sans SemiCondensed">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiCondensed Medium" familyname="NotoSans" stylename="SemiCondensed Medium" filename="Noto Sans SemiCondensed Medium">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiCondensed SemiBold" familyname="NotoSans" stylename="SemiCondensed SemiBold" filename="Noto Sans SemiCondensed SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiCondensed Bold" familyname="NotoSans" stylename="SemiCondensed Bold" filename="Noto Sans SemiCondensed Bold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiCondensed ExtraBold" familyname="NotoSans" stylename="SemiCondensed ExtraBold" filename="Noto Sans SemiCondensed ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiCondensed Black" familyname="NotoSans" stylename="SemiCondensed Black" filename="Noto Sans SemiCondensed Black">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed Thin" familyname="NotoSans" stylename="Condensed Thin" filename="Noto Sans Condensed Thin">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed ExtraLight" familyname="NotoSans" stylename="Condensed ExtraLight" filename="Noto Sans Condensed ExtraLight">
+      <location>
+        <dimension name="Weight" xvalue="39"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed Light" familyname="NotoSans" stylename="Condensed Light" filename="Noto Sans Condensed Light">
+      <location>
+        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed" familyname="NotoSans" stylename="Condensed" filename="Noto Sans Condensed">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed Medium" familyname="NotoSans" stylename="Condensed Medium" filename="Noto Sans Condensed Medium">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed SemiBold" familyname="NotoSans" stylename="Condensed SemiBold" filename="Noto Sans Condensed SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed Bold" familyname="NotoSans" stylename="Condensed Bold" filename="Noto Sans Condensed Bold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed ExtraBold" familyname="NotoSans" stylename="Condensed ExtraBold" filename="Noto Sans Condensed ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed Black" familyname="NotoSans" stylename="Condensed Black" filename="Noto Sans Condensed Black">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraCondensed Thin" familyname="NotoSans" stylename="ExtraCondensed Thin" filename="Noto Sans ExtraCondensed Thin">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraCondensed ExtraLight" familyname="NotoSans" stylename="ExtraCondensed ExtraLight" filename="Noto Sans ExtraCondensed ExtraLight">
+      <location>
+        <dimension name="Weight" xvalue="39"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraCondensed Light" familyname="NotoSans" stylename="ExtraCondensed Light" filename="Noto Sans ExtraCondensed Light">
+      <location>
+        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraCondensed" familyname="NotoSans" stylename="ExtraCondensed" filename="Noto Sans ExtraCondensed">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraCondensed Medium" familyname="NotoSans" stylename="ExtraCondensed Medium" filename="Noto Sans ExtraCondensed Medium">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraCondensed SemiBold" familyname="NotoSans" stylename="ExtraCondensed SemiBold" filename="Noto Sans ExtraCondensed SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraCondensed Bold" familyname="NotoSans" stylename="ExtraCondensed Bold" filename="Noto Sans ExtraCondensed Bold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraCondensed ExtraBold" familyname="NotoSans" stylename="ExtraCondensed ExtraBold" filename="Noto Sans ExtraCondensed ExtraBold">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraCondensed Black" familyname="NotoSans" stylename="ExtraCondensed Black" filename="Noto Sans ExtraCondensed Black">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+</designspace>

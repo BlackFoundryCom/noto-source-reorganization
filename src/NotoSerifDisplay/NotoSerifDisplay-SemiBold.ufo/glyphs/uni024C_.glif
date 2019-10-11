@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni024C" format="2">
+  <advance width="730"/>
+  <unicode hex="024C"/>
+  <anchor x="377" y="0" name="bottom"/>
+  <anchor x="377" y="714" name="top"/>
+  <anchor x="710" y="714" name="topright"/>
+  <outline>
+    <contour>
+      <point x="28" y="334" type="line"/>
+      <point x="164" y="334" type="line"/>
+      <point x="164" y="344" type="line"/>
+      <point x="28" y="344" type="line"/>
+    </contour>
+    <component base="R" xOffset="23"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>R</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>R</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/14 19:40:09</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

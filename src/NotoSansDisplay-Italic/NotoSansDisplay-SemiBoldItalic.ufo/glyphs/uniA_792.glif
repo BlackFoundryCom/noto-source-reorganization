@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA792" format="2">
+  <advance width="585"/>
+  <unicode hex="A792"/>
+  <anchor x="318" y="0" name="bottom"/>
+  <anchor x="433" y="714" name="top"/>
+  <anchor x="675" y="714" name="topright"/>
+  <outline>
+    <contour>
+      <point x="19" y="301" type="line"/>
+      <point x="361" y="301" type="line"/>
+      <point x="388" y="427" type="line"/>
+      <point x="46" y="427" type="line"/>
+    </contour>
+    <component base="C" xOffset="13"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>C</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/12 23:43:17</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

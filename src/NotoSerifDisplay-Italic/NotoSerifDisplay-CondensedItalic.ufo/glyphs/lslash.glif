@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lslash" format="2">
+  <advance width="252"/>
+  <unicode hex="0142"/>
+  <anchor x="69" y="0" name="bottom"/>
+  <anchor x="231" y="760" name="top"/>
+  <anchor x="193" y="268" name="center"/>
+  <anchor x="345" y="760" name="topright"/>
+  <outline>
+    <contour>
+      <point x="0" y="257" type="line"/>
+      <point x="255" y="384" type="line"/>
+      <point x="257" y="398" type="line"/>
+      <point x="3" y="270" type="line"/>
+    </contour>
+    <component base="l"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:53</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

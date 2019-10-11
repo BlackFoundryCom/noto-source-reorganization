@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rfishhookreversed" format="2">
+  <advance width="224"/>
+  <unicode hex="027F"/>
+  <anchor x="-12" y="-240" name="bottom"/>
+  <anchor x="153" y="536" name="top"/>
+  <outline>
+    <contour>
+      <point x="22" y="-240" type="line"/>
+      <point x="50" y="-240" type="line"/>
+      <point x="167" y="296" type="line" smooth="yes"/>
+      <point x="183" y="369"/>
+      <point x="187" y="391"/>
+      <point x="187" y="431" type="curve" smooth="yes"/>
+      <point x="187" y="501"/>
+      <point x="154" y="542"/>
+      <point x="98" y="542" type="curve" smooth="yes"/>
+      <point x="53" y="542"/>
+      <point x="23" y="516"/>
+      <point x="23" y="479" type="curve" smooth="yes"/>
+      <point x="23" y="463"/>
+      <point x="32" y="452"/>
+      <point x="46" y="450" type="curve"/>
+      <point x="46" y="514"/>
+      <point x="69" y="532"/>
+      <point x="103" y="532" type="curve" smooth="yes"/>
+      <point x="140" y="532"/>
+      <point x="161" y="505"/>
+      <point x="161" y="446" type="curve" smooth="yes"/>
+      <point x="161" y="399"/>
+      <point x="154" y="363"/>
+      <point x="144" y="316" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:54</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

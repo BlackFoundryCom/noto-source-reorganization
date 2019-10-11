@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni20AE" format="2">
+  <advance width="494"/>
+  <unicode hex="20AE"/>
+  <anchor x="247" y="0" name="bottom"/>
+  <anchor x="247" y="357" name="center"/>
+  <anchor x="247" y="714" name="top"/>
+  <anchor x="501" y="714" name="topright"/>
+  <outline>
+    <contour>
+      <point x="93" y="308" type="line"/>
+      <point x="400" y="468" type="line"/>
+      <point x="395" y="477" type="line"/>
+      <point x="88" y="317" type="line"/>
+    </contour>
+    <contour>
+      <point x="93" y="151" type="line"/>
+      <point x="400" y="310" type="line"/>
+      <point x="395" y="319" type="line"/>
+      <point x="88" y="160" type="line"/>
+    </contour>
+    <component base="T"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>T</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/14 19:40:10</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Currency</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kturned" format="2">
+  <advance width="423"/>
+  <unicode hex="029E"/>
+  <anchor x="109" y="-232" name="bottom"/>
+  <anchor x="270" y="528" name="top"/>
+  <outline>
+    <contour>
+      <point x="220" y="-232" type="line"/>
+      <point x="246" y="-232" type="line"/>
+      <point x="408" y="528" type="line"/>
+      <point x="381" y="528" type="line"/>
+      <point x="345" y="356" type="line"/>
+      <point x="232" y="247" type="line"/>
+      <point x="101" y="528" type="line"/>
+      <point x="72" y="528" type="line"/>
+      <point x="213" y="230" type="line"/>
+      <point x="-22" y="0" type="line"/>
+      <point x="11" y="0" type="line"/>
+      <point x="340" y="324" type="line"/>
+      <point x="341" y="324" type="line"/>
+      <point x="325" y="261"/>
+      <point x="314" y="210"/>
+      <point x="300" y="144" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/12 23:43:16</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

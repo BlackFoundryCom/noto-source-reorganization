@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ubreve" format="2">
+  <advance width="358"/>
+  <unicode hex="016D"/>
+  <anchor x="123" y="0" name="bottom"/>
+  <anchor x="274" y="710" name="top"/>
+  <anchor x="394" y="526" name="topright"/>
+  <outline>
+    <component base="u"/>
+    <component base="breve" xOffset="22"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:24</string>
+    </dict>
+  </lib>
+</glyph>

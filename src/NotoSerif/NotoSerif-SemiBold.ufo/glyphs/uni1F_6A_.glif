@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1F6A" format="2">
+  <advance width="1044"/>
+  <unicode hex="1F6A"/>
+  <anchor x="640" y="0" name="bottom"/>
+  <anchor x="640" y="714" name="top"/>
+  <anchor x="256" y="714" name="topleft"/>
+  <outline>
+    <component base="uni1FCD" xOffset="-82"/>
+    <component base="Omega" xOffset="236"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/15 01:46:46</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

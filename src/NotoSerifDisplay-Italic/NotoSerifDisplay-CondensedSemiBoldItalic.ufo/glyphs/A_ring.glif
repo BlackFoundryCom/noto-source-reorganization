@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Aring" format="2">
+  <advance width="615"/>
+  <unicode hex="00C5"/>
+  <anchor x="250" y="0" name="bottom"/>
+  <anchor x="423" y="864" name="top"/>
+  <anchor x="690" y="714" name="topright"/>
+  <outline>
+    <contour>
+      <point x="-42" y="0" type="line" smooth="yes"/>
+      <point x="166" y="0" type="line"/>
+      <point x="168" y="10" type="line"/>
+      <point x="151" y="10" type="line" smooth="yes"/>
+      <point x="84" y="10"/>
+      <point x="57" y="18"/>
+      <point x="57" y="41" type="curve" smooth="yes"/>
+      <point x="57" y="56"/>
+      <point x="67" y="77"/>
+      <point x="79" y="102" type="curve" smooth="yes"/>
+      <point x="253" y="462" type="line" smooth="yes"/>
+      <point x="299" y="557"/>
+      <point x="335" y="627"/>
+      <point x="358" y="675" type="curve"/>
+      <point x="358" y="627"/>
+      <point x="362" y="528"/>
+      <point x="364" y="469" type="curve" smooth="yes"/>
+      <point x="382" y="92" type="line" smooth="yes"/>
+      <point x="382" y="80"/>
+      <point x="383" y="67"/>
+      <point x="383" y="58" type="curve" smooth="yes"/>
+      <point x="383" y="21"/>
+      <point x="355" y="10"/>
+      <point x="318" y="10" type="curve" smooth="yes"/>
+      <point x="297" y="10" type="line"/>
+      <point x="295" y="0" type="line"/>
+      <point x="568" y="0" type="line"/>
+      <point x="571" y="10" type="line"/>
+      <point x="559" y="10" type="line" smooth="yes"/>
+      <point x="526" y="10"/>
+      <point x="523" y="33"/>
+      <point x="518" y="101" type="curve" smooth="yes"/>
+      <point x="477" y="709" type="line"/>
+      <point x="442" y="696" type="line"/>
+      <point x="405" y="696" type="line"/>
+      <point x="366" y="714" type="line"/>
+      <point x="62" y="93" type="line" smooth="yes"/>
+      <point x="28" y="22"/>
+      <point x="10" y="10"/>
+      <point x="-23" y="10" type="curve" smooth="yes"/>
+      <point x="-39" y="10" type="line"/>
+    </contour>
+    <contour>
+      <point x="148" y="260" type="line" smooth="yes"/>
+      <point x="450" y="260" type="line"/>
+      <point x="449" y="270" type="line"/>
+      <point x="153" y="270" type="line"/>
+    </contour>
+    <component base="ring" xOffset="197" yOffset="89"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:53</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

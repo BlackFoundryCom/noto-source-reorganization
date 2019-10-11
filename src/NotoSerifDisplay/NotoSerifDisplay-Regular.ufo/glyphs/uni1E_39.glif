@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1E39" format="2">
+  <advance width="310"/>
+  <unicode hex="1E39"/>
+  <anchor x="155" y="-183" name="bottom"/>
+  <anchor x="155" y="875" name="top"/>
+  <anchor x="155" y="268" name="center"/>
+  <anchor x="240" y="760" name="topright"/>
+  <outline>
+    <component base="l"/>
+    <component base="macron" xOffset="-40" yOffset="200"/>
+    <component base="dotbelowcomb" xOffset="454"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/14 19:40:10</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

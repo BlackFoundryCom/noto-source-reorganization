@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parenrightsuperior" format="2">
+  <advance width="250"/>
+  <unicode hex="207E"/>
+  <outline>
+    <contour>
+      <point x="-19" y="195" type="line"/>
+      <point x="164" y="233"/>
+      <point x="270" y="376"/>
+      <point x="270" y="559" type="curve" smooth="yes"/>
+      <point x="270" y="668"/>
+      <point x="215" y="747"/>
+      <point x="106" y="787" type="curve"/>
+      <point x="97" y="743" type="line"/>
+      <point x="148" y="703"/>
+      <point x="166" y="634"/>
+      <point x="166" y="569" type="curve" smooth="yes"/>
+      <point x="166" y="435"/>
+      <point x="117" y="306"/>
+      <point x="-10" y="237" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/15 23:22:34</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Parenthesis</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniAB30" format="2">
+  <advance width="664"/>
+  <unicode hex="AB30"/>
+  <anchor x="273" y="0" name="bottom"/>
+  <anchor x="387" y="536" name="top"/>
+  <outline>
+    <contour>
+      <point x="-25" y="280" type="line"/>
+      <point x="633" y="280" type="line"/>
+      <point x="636" y="290" type="line"/>
+      <point x="-22" y="290" type="line"/>
+    </contour>
+    <component base="uni0251"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>uni0251</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:56</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

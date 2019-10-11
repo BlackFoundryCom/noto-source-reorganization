@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1D7B" format="2">
+  <advance width="283"/>
+  <unicode hex="1D7B"/>
+  <anchor x="87" y="0" name="bottom"/>
+  <anchor x="201" y="536" name="top"/>
+  <outline>
+    <contour>
+      <point x="29" y="248" type="line"/>
+      <point x="254" y="248" type="line"/>
+      <point x="270" y="319" type="line"/>
+      <point x="44" y="319" type="line"/>
+    </contour>
+    <component base="uni026A"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/12 23:43:17</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

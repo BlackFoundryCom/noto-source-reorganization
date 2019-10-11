@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2C60" format="2">
+  <advance width="600"/>
+  <unicode hex="2C60"/>
+  <anchor x="391" y="0" name="bottom"/>
+  <anchor x="209" y="714" name="top"/>
+  <anchor x="347" y="357" name="center"/>
+  <anchor x="470" y="714" name="topright"/>
+  <outline>
+    <contour>
+      <point x="50" y="438" type="line"/>
+      <point x="380" y="438" type="line"/>
+      <point x="380" y="463" type="line"/>
+      <point x="50" y="463" type="line"/>
+    </contour>
+    <contour>
+      <point x="50" y="252" type="line"/>
+      <point x="380" y="252" type="line"/>
+      <point x="380" y="277" type="line"/>
+      <point x="50" y="277" type="line"/>
+    </contour>
+    <component base="L" xOffset="47"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/05/10 13:37:20</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

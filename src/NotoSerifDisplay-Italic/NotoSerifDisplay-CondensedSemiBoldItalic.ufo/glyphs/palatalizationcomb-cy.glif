@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="palatalizationcomb-cy" format="2">
+  <unicode hex="0484"/>
+  <anchor x="46" y="536" name="_top"/>
+  <anchor x="78" y="751" name="top"/>
+  <outline>
+    <contour>
+      <point x="-83" y="612" type="line"/>
+      <point x="-61" y="612" type="line" smooth="yes"/>
+      <point x="43" y="612"/>
+      <point x="87" y="674"/>
+      <point x="163" y="674" type="curve" smooth="yes"/>
+      <point x="202" y="674"/>
+      <point x="219" y="658"/>
+      <point x="219" y="627" type="curve" smooth="yes"/>
+      <point x="219" y="622"/>
+      <point x="219" y="617"/>
+      <point x="218" y="612" type="curve"/>
+      <point x="228" y="612" type="line"/>
+      <point x="229" y="622"/>
+      <point x="231" y="636"/>
+      <point x="231" y="652" type="curve" smooth="yes"/>
+      <point x="231" y="709"/>
+      <point x="208" y="751"/>
+      <point x="154" y="751" type="curve" smooth="yes"/>
+      <point x="93" y="751"/>
+      <point x="27" y="696"/>
+      <point x="-54" y="696" type="curve" smooth="yes"/>
+      <point x="-62" y="696" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:57</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

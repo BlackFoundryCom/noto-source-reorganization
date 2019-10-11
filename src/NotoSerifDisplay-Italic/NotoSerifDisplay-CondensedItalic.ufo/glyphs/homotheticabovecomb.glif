@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="homotheticabovecomb" format="2">
+  <unicode hex="034B"/>
+  <anchor x="57" y="536" name="_top"/>
+  <anchor x="106" y="927" name="top"/>
+  <outline>
+    <contour>
+      <point x="-45" y="693" type="curve"/>
+      <point x="-32" y="693" type="line"/>
+      <point x="-25" y="717"/>
+      <point x="-15" y="747"/>
+      <point x="23" y="747" type="curve" smooth="yes"/>
+      <point x="74" y="747"/>
+      <point x="105" y="692"/>
+      <point x="159" y="692" type="curve" smooth="yes"/>
+      <point x="209" y="692"/>
+      <point x="237" y="742"/>
+      <point x="245" y="789" type="curve"/>
+      <point x="233" y="789" type="line"/>
+      <point x="227" y="763"/>
+      <point x="212" y="736"/>
+      <point x="178" y="736" type="curve" smooth="yes"/>
+      <point x="130" y="736"/>
+      <point x="100" y="791"/>
+      <point x="46" y="791" type="curve" smooth="yes"/>
+      <point x="-8" y="791"/>
+      <point x="-36" y="737"/>
+    </contour>
+    <contour>
+      <point x="71" y="575" type="curve" smooth="yes"/>
+      <point x="100" y="575"/>
+      <point x="115" y="604"/>
+      <point x="115" y="637" type="curve" smooth="yes"/>
+      <point x="115" y="665"/>
+      <point x="103" y="677"/>
+      <point x="85" y="677" type="curve" smooth="yes"/>
+      <point x="55" y="677"/>
+      <point x="40" y="644"/>
+      <point x="40" y="612" type="curve" smooth="yes"/>
+      <point x="40" y="586"/>
+      <point x="52" y="575"/>
+    </contour>
+    <contour>
+      <point x="119" y="807" type="curve" smooth="yes"/>
+      <point x="149" y="807"/>
+      <point x="163" y="837"/>
+      <point x="163" y="869" type="curve" smooth="yes"/>
+      <point x="163" y="897"/>
+      <point x="151" y="909"/>
+      <point x="133" y="909" type="curve" smooth="yes"/>
+      <point x="102" y="909"/>
+      <point x="88" y="874"/>
+      <point x="88" y="844" type="curve" smooth="yes"/>
+      <point x="88" y="818"/>
+      <point x="101" y="807"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:56</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ecaron" format="2">
+  <advance width="562"/>
+  <unicode hex="011A"/>
+  <anchor x="262" y="0" name="bottom"/>
+  <anchor x="429" y="927" name="top"/>
+  <anchor x="635" y="714" name="topright"/>
+  <outline>
+    <component base="E"/>
+    <component base="caron" xOffset="52" yOffset="161"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:24</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idieresis_sc.salt" format="2">
+  <advance width="225"/>
+  <anchor x="112" y="0" name="bottom"/>
+  <anchor x="114" y="749" name="top"/>
+  <anchor x="205" y="572" name="topright"/>
+  <outline>
+    <component base="i_sc.salt"/>
+    <component base="dieresiscomb.sc" xOffset="-166"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 21:39:08</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

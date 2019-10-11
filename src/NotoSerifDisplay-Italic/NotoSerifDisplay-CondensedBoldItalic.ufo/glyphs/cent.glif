@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cent" format="2">
+  <advance width="505"/>
+  <unicode hex="00A2"/>
+  <anchor x="230" y="93" name="bottom"/>
+  <anchor x="344" y="629" name="top"/>
+  <anchor x="525" y="629" name="topright"/>
+  <outline>
+    <contour>
+      <point x="225" y="0" type="line"/>
+      <point x="235" y="0" type="line"/>
+      <point x="385" y="714" type="line"/>
+      <point x="375" y="714" type="line"/>
+    </contour>
+    <component base="c" xOffset="29" yOffset="93"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:53</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Currency</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="APLsquishquad" format="2">
+  <advance width="600"/>
+  <unicode hex="2337"/>
+  <outline>
+    <contour>
+      <point x="145" y="-79" type="line"/>
+      <point x="455" y="-79" type="line"/>
+      <point x="455" y="793" type="line"/>
+      <point x="145" y="793" type="line"/>
+    </contour>
+    <contour>
+      <point x="171" y="-53" type="line"/>
+      <point x="171" y="767" type="line"/>
+      <point x="429" y="767" type="line"/>
+      <point x="429" y="-53" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/05/10 13:37:22</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <real>786.778</real>
+            <real>-31.428</real>
+          </array>
+          <key>type</key>
+          <string>Text</string>
+          <key>width</key>
+          <integer>100</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

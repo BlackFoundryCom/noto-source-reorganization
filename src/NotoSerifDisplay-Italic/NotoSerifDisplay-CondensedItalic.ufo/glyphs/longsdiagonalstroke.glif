@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="longsdiagonalstroke" format="2">
+  <advance width="265"/>
+  <unicode hex="1E9C"/>
+  <anchor x="-93" y="-240" name="bottom"/>
+  <anchor x="308" y="770" name="top"/>
+  <outline>
+    <contour>
+      <point x="5" y="271" type="line"/>
+      <point x="287" y="440" type="line"/>
+      <point x="288" y="453" type="line"/>
+      <point x="6" y="284" type="line"/>
+    </contour>
+    <component base="longs" xOffset="-14"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:55</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

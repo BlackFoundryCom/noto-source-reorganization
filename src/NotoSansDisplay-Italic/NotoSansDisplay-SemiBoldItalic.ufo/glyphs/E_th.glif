@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eth" format="2">
+  <advance width="645"/>
+  <unicode hex="00D0"/>
+  <anchor x="269" y="0" name="bottom"/>
+  <anchor x="415" y="714" name="top"/>
+  <anchor x="365" y="357" name="center"/>
+  <anchor x="722" y="714" name="topright"/>
+  <outline>
+    <contour>
+      <point x="366" y="415" type="line"/>
+      <point x="46" y="415" type="line"/>
+      <point x="18" y="291" type="line"/>
+      <point x="337" y="291" type="line"/>
+    </contour>
+    <component base="D"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/12 23:43:15</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

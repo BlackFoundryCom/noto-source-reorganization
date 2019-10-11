@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1F8A" format="2">
+  <advance width="1141"/>
+  <unicode hex="1F8A"/>
+  <anchor x="721" y="0" name="bottom"/>
+  <anchor x="1010" y="536" name="top"/>
+  <anchor x="874" y="714" name="topright"/>
+  <outline>
+    <component base="uni1FCD" xOffset="-40"/>
+    <component base="A" xOffset="171"/>
+    <component base="iota" xOffset="801"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>iota</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:55</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

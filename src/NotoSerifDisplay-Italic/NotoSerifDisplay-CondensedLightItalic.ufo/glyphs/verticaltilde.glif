@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verticaltilde" format="2">
+  <advance width="294"/>
+  <unicode hex="2E2F"/>
+  <outline>
+    <contour>
+      <point x="180" y="598" type="line"/>
+      <point x="231" y="603"/>
+      <point x="280" y="620"/>
+      <point x="280" y="674" type="curve" smooth="yes"/>
+      <point x="280" y="717"/>
+      <point x="237" y="735"/>
+      <point x="237" y="772" type="curve" smooth="yes"/>
+      <point x="237" y="808"/>
+      <point x="266" y="828"/>
+      <point x="303" y="829" type="curve"/>
+      <point x="306" y="839" type="line"/>
+      <point x="255" y="834"/>
+      <point x="207" y="819"/>
+      <point x="207" y="766" type="curve" smooth="yes"/>
+      <point x="207" y="726"/>
+      <point x="250" y="709"/>
+      <point x="250" y="668" type="curve" smooth="yes"/>
+      <point x="250" y="630"/>
+      <point x="221" y="611"/>
+      <point x="183" y="608" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:56</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Modifier</string>
+    </dict>
+  </lib>
+</glyph>

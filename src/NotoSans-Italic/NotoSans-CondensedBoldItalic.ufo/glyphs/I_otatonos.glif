@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iotatonos" format="2">
+  <advance width="542"/>
+  <unicode hex="038A"/>
+  <anchor x="300" y="0" name="bottom"/>
+  <anchor x="447" y="714" name="top"/>
+  <anchor x="617" y="714" name="topright"/>
+  <outline>
+    <component base="I" xOffset="169"/>
+    <component base="tonos" xOffset="-156" yOffset="-51"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>I</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:24</string>
+    </dict>
+  </lib>
+</glyph>

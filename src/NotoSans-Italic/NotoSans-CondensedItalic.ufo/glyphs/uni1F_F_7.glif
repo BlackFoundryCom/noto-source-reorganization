@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1FF7" format="2">
+  <advance width="498"/>
+  <unicode hex="1FF7"/>
+  <anchor x="146" y="-225" name="bottom"/>
+  <anchor x="350" y="734" name="top"/>
+  <outline>
+    <component base="omega"/>
+    <component base="tilde" xOffset="62"/>
+    <component base="uni1FBE" xOffset="32"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>omega</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:26</string>
+    </dict>
+  </lib>
+</glyph>

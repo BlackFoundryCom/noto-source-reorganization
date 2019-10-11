@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="e" format="2">
+  <advance width="469"/>
+  <unicode hex="0065"/>
+  <anchor x="184" y="0" name="bottom"/>
+  <anchor x="318" y="536" name="top"/>
+  <anchor x="502" y="536" name="topright"/>
+  <outline>
+    <contour>
+      <point x="238" y="-10" type="curve" smooth="yes"/>
+      <point x="352" y="-10"/>
+      <point x="405" y="58"/>
+      <point x="405" y="115" type="curve" smooth="yes"/>
+      <point x="405" y="147"/>
+      <point x="396" y="159"/>
+      <point x="385" y="163" type="curve"/>
+      <point x="361" y="68"/>
+      <point x="328" y="2"/>
+      <point x="266" y="2" type="curve" smooth="yes"/>
+      <point x="216" y="2"/>
+      <point x="186" y="46"/>
+      <point x="186" y="186" type="curve" smooth="yes"/>
+      <point x="186" y="195"/>
+      <point x="187" y="236"/>
+      <point x="189" y="248" type="curve"/>
+      <point x="222" y="248" type="line" smooth="yes"/>
+      <point x="371" y="248"/>
+      <point x="479" y="316"/>
+      <point x="479" y="426" type="curve" smooth="yes"/>
+      <point x="479" y="501"/>
+      <point x="427" y="546"/>
+      <point x="334" y="546" type="curve" smooth="yes"/>
+      <point x="108" y="546"/>
+      <point x="25" y="347"/>
+      <point x="25" y="206" type="curve" smooth="yes"/>
+      <point x="25" y="56"/>
+      <point x="108" y="-10"/>
+    </contour>
+    <contour>
+      <point x="189" y="258" type="line"/>
+      <point x="209" y="436"/>
+      <point x="255" y="532"/>
+      <point x="296" y="532" type="curve" smooth="yes"/>
+      <point x="324" y="532"/>
+      <point x="332" y="515"/>
+      <point x="332" y="467" type="curve" smooth="yes"/>
+      <point x="332" y="374"/>
+      <point x="290" y="258"/>
+      <point x="202" y="258" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=o-10</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:53</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni20A9" format="2">
+  <advance width="989"/>
+  <unicode hex="20A9"/>
+  <anchor x="452" y="0" name="bottom"/>
+  <anchor x="604" y="714" name="top"/>
+  <anchor x="1092" y="714" name="topright"/>
+  <outline>
+    <contour>
+      <point x="73" y="384" type="line"/>
+      <point x="954" y="384" type="line"/>
+      <point x="960" y="409" type="line"/>
+      <point x="79" y="409" type="line"/>
+    </contour>
+    <contour>
+      <point x="48" y="269" type="line"/>
+      <point x="929" y="269" type="line"/>
+      <point x="935" y="294" type="line"/>
+      <point x="54" y="294" type="line"/>
+    </contour>
+    <component base="W"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/15 23:22:33</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Currency</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

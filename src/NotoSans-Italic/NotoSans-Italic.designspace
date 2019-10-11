@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400">
+      <map input="100" output="26"/>
+      <map input="200" output="39"/>
+      <map input="300" output="58"/>
+      <map input="400" output="90"/>
+      <map input="500" output="108"/>
+      <map input="600" output="128"/>
+      <map input="700" output="151"/>
+      <map input="800" output="169"/>
+      <map input="900" output="190"/>
+    </axis>
+    <axis tag="wdth" name="Width" minimum="62.500000" maximum="100" default="100">
+      <map input="62.500000" output="70"/>
+      <map input="75" output="79"/>
+      <map input="87.500000" output="89"/>
+      <map input="100" output="100"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="NotoSans-Italic-Italic.ufo" name="Noto Sans Light Italic" familyname="NotoSans-Italic" stylename="Light Italic">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSans-Italic-Italic.ufo" name="Noto Sans Italic" familyname="NotoSans-Italic" stylename="Italic">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSans-Italic-Italic.ufo" name="Noto Sans SemiBold Italic" familyname="NotoSans-Italic" stylename="SemiBold Italic">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSans-Italic-Italic.ufo" name="Noto Sans Bold Italic" familyname="NotoSans-Italic" stylename="Bold Italic">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSans-Italic-Italic.ufo" name="Noto Sans Condensed Light Italic" familyname="NotoSans-Italic" stylename="Condensed Light Italic">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+    <source filename="NotoSans-Italic-Italic.ufo" name="Noto Sans Condensed Italic" familyname="NotoSans-Italic" stylename="Condensed Italic">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+    <source filename="NotoSans-Italic-Italic.ufo" name="Noto Sans Condensed SemiBold Italic" familyname="NotoSans-Italic" stylename="Condensed SemiBold Italic">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+    <source filename="NotoSans-Italic-Italic.ufo" name="Noto Sans Condensed Bold Italic" familyname="NotoSans-Italic" stylename="Condensed Bold Italic">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Sans Thin Italic" familyname="NotoSans-Italic" stylename="Thin Italic" filename="Noto Sans Thin Italic">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraLight Italic" familyname="NotoSans-Italic" stylename="ExtraLight Italic" filename="Noto Sans ExtraLight Italic">
+      <location>
+        <dimension name="Weight" xvalue="39"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Light Italic" familyname="NotoSans-Italic" stylename="Light Italic" filename="Noto Sans Light Italic">
+      <location>
+        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Italic" familyname="NotoSans-Italic" stylename="Italic" filename="Noto Sans Italic">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Medium Italic" familyname="NotoSans-Italic" stylename="Medium Italic" filename="Noto Sans Medium Italic">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiBold Italic" familyname="NotoSans-Italic" stylename="SemiBold Italic" filename="Noto Sans SemiBold Italic">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Bold Italic" familyname="NotoSans-Italic" stylename="Bold Italic" filename="Noto Sans Bold Italic">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraBold Italic" familyname="NotoSans-Italic" stylename="ExtraBold Italic" filename="Noto Sans ExtraBold Italic">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Black Italic" familyname="NotoSans-Italic" stylename="Black Italic" filename="Noto Sans Black Italic">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiCondensed Thin Italic" familyname="NotoSans-Italic" stylename="SemiCondensed Thin Italic" filename="Noto Sans SemiCondensed Thin Italic">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiCondensed ExtraLight Italic" familyname="NotoSans-Italic" stylename="SemiCondensed ExtraLight Italic" filename="Noto Sans SemiCondensed ExtraLight Italic">
+      <location>
+        <dimension name="Weight" xvalue="39"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiCondensed Light Italic" familyname="NotoSans-Italic" stylename="SemiCondensed Light Italic" filename="Noto Sans SemiCondensed Light Italic">
+      <location>
+        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiCondensed Italic" familyname="NotoSans-Italic" stylename="SemiCondensed Italic" filename="Noto Sans SemiCondensed Italic">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiCondensed Medium Italic" familyname="NotoSans-Italic" stylename="SemiCondensed Medium Italic" filename="Noto Sans SemiCondensed Medium Italic">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiCondensed SemiBold Italic" familyname="NotoSans-Italic" stylename="SemiCondensed SemiBold Italic" filename="Noto Sans SemiCondensed SemiBold Italic">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiCondensed Bold Italic" familyname="NotoSans-Italic" stylename="SemiCondensed Bold Italic" filename="Noto Sans SemiCondensed Bold Italic">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiCondensed ExtraBold Italic" familyname="NotoSans-Italic" stylename="SemiCondensed ExtraBold Italic" filename="Noto Sans SemiCondensed ExtraBold Italic">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans SemiCondensed Black Italic" familyname="NotoSans-Italic" stylename="SemiCondensed Black Italic" filename="Noto Sans SemiCondensed Black Italic">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed Thin Italic" familyname="NotoSans-Italic" stylename="Condensed Thin Italic" filename="Noto Sans Condensed Thin Italic">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed ExtraLight Italic" familyname="NotoSans-Italic" stylename="Condensed ExtraLight Italic" filename="Noto Sans Condensed ExtraLight Italic">
+      <location>
+        <dimension name="Weight" xvalue="39"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed Light Italic" familyname="NotoSans-Italic" stylename="Condensed Light Italic" filename="Noto Sans Condensed Light Italic">
+      <location>
+        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed Italic" familyname="NotoSans-Italic" stylename="Condensed Italic" filename="Noto Sans Condensed Italic">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed Medium Italic" familyname="NotoSans-Italic" stylename="Condensed Medium Italic" filename="Noto Sans Condensed Medium Italic">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed SemiBold Italic" familyname="NotoSans-Italic" stylename="Condensed SemiBold Italic" filename="Noto Sans Condensed SemiBold Italic">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed Bold Italic" familyname="NotoSans-Italic" stylename="Condensed Bold Italic" filename="Noto Sans Condensed Bold Italic">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed ExtraBold Italic" familyname="NotoSans-Italic" stylename="Condensed ExtraBold Italic" filename="Noto Sans Condensed ExtraBold Italic">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Condensed Black Italic" familyname="NotoSans-Italic" stylename="Condensed Black Italic" filename="Noto Sans Condensed Black Italic">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraCondensed Thin Italic" familyname="NotoSans-Italic" stylename="ExtraCondensed Thin Italic" filename="Noto Sans ExtraCondensed Thin Italic">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraCondensed ExtraLight Italic" familyname="NotoSans-Italic" stylename="ExtraCondensed ExtraLight Italic" filename="Noto Sans ExtraCondensed ExtraLight Italic">
+      <location>
+        <dimension name="Weight" xvalue="39"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraCondensed Light Italic" familyname="NotoSans-Italic" stylename="ExtraCondensed Light Italic" filename="Noto Sans ExtraCondensed Light Italic">
+      <location>
+        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraCondensed Italic" familyname="NotoSans-Italic" stylename="ExtraCondensed Italic" filename="Noto Sans ExtraCondensed Italic">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraCondensed Medium Italic" familyname="NotoSans-Italic" stylename="ExtraCondensed Medium Italic" filename="Noto Sans ExtraCondensed Medium Italic">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraCondensed SemiBold Italic" familyname="NotoSans-Italic" stylename="ExtraCondensed SemiBold Italic" filename="Noto Sans ExtraCondensed SemiBold Italic">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraCondensed Bold Italic" familyname="NotoSans-Italic" stylename="ExtraCondensed Bold Italic" filename="Noto Sans ExtraCondensed Bold Italic">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraCondensed ExtraBold Italic" familyname="NotoSans-Italic" stylename="ExtraCondensed ExtraBold Italic" filename="Noto Sans ExtraCondensed ExtraBold Italic">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans ExtraCondensed Black Italic" familyname="NotoSans-Italic" stylename="ExtraCondensed Black Italic" filename="Noto Sans ExtraCondensed Black Italic">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+</designspace>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniAB44" format="2">
+  <advance width="689"/>
+  <unicode hex="AB44"/>
+  <anchor x="430" y="0" name="bottom"/>
+  <anchor x="503" y="265" name="center"/>
+  <anchor x="542" y="529" name="top"/>
+  <anchor x="725" y="529" name="topright"/>
+  <outline>
+    <contour>
+      <point x="335" y="-62" type="line"/>
+      <point x="668" y="561" type="line"/>
+      <point x="631" y="583" type="line"/>
+      <point x="299" y="-41" type="line"/>
+    </contour>
+    <component base="uniAB43"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>c</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:26</string>
+    </dict>
+  </lib>
+</glyph>

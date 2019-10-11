@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="700" default="400">
+      <map input="400" output="90"/>
+      <map input="700" output="190"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="NotoNastaliqUrdu-Regular.ufo" name="Noto Nastaliq Urdu Regular" familyname="NotoNastaliqUrdu" stylename="Regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+    </source>
+    <source filename="NotoNastaliqUrdu-Bold.ufo" name="Noto Nastaliq Urdu Bold" familyname="NotoNastaliqUrdu" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Nastaliq Urdu Regular" familyname="NotoNastaliqUrdu" stylename="Regular" filename="Noto Nastaliq Urdu Regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Nastaliq Urdu Bold" familyname="NotoNastaliqUrdu" stylename="Bold" filename="Noto Nastaliq Urdu Bold">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+</designspace>

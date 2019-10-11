@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Cdot" format="2">
+  <advance width="386"/>
+  <unicode hex="010A"/>
+  <anchor x="148" y="0" name="bottom"/>
+  <anchor x="341" y="906" name="top"/>
+  <anchor x="462" y="714" name="topright"/>
+  <outline>
+    <component base="C"/>
+    <component base="dotaccent" xOffset="196" yOffset="169"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:24</string>
+    </dict>
+  </lib>
+</glyph>

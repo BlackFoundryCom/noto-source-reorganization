@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Icircumflex.salt" format="2">
+  <advance width="242"/>
+  <anchor x="65" y="0" name="bottom"/>
+  <anchor x="235" y="951" name="top"/>
+  <anchor x="318" y="714" name="topright"/>
+  <outline>
+    <component base="I.salt"/>
+    <component base="circumflexcomb" xOffset="161" yOffset="185"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:26</string>
+    </dict>
+  </lib>
+</glyph>

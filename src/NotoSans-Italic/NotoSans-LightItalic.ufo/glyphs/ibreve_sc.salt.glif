@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ibreve_sc.salt" format="2">
+  <advance width="190"/>
+  <anchor x="35" y="0" name="bottom"/>
+  <anchor x="194" y="751" name="top"/>
+  <anchor x="233" y="560" name="topright"/>
+  <outline>
+    <component base="i_sc.salt"/>
+    <component base="brevecomb.sc" xOffset="-121" yOffset="31"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:26</string>
+    </dict>
+  </lib>
+</glyph>

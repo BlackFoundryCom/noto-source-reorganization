@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="florin" format="2">
+  <advance width="398"/>
+  <unicode hex="0192"/>
+  <anchor x="113" y="-10" name="bottom"/>
+  <anchor x="349" y="773" name="top"/>
+  <anchor x="458" y="772" name="topright"/>
+  <outline>
+    <contour>
+      <point x="113" y="-10" type="curve" smooth="yes"/>
+      <point x="189" y="-10"/>
+      <point x="240" y="43"/>
+      <point x="240" y="131" type="curve" smooth="yes"/>
+      <point x="240" y="511" type="line"/>
+      <point x="384" y="511" type="line"/>
+      <point x="384" y="536" type="line"/>
+      <point x="240" y="536" type="line"/>
+      <point x="240" y="600" type="line" smooth="yes"/>
+      <point x="240" y="691"/>
+      <point x="283" y="747"/>
+      <point x="361" y="747" type="curve" smooth="yes"/>
+      <point x="428" y="747"/>
+      <point x="444" y="707"/>
+      <point x="444" y="658" type="curve"/>
+      <point x="454" y="658"/>
+      <point x="466" y="670"/>
+      <point x="466" y="697" type="curve" smooth="yes"/>
+      <point x="466" y="733"/>
+      <point x="427" y="772"/>
+      <point x="363" y="772" type="curve" smooth="yes"/>
+      <point x="268" y="772"/>
+      <point x="212" y="709"/>
+      <point x="212" y="600" type="curve" smooth="yes"/>
+      <point x="212" y="536" type="line"/>
+      <point x="117" y="536" type="line"/>
+      <point x="117" y="511" type="line"/>
+      <point x="212" y="511" type="line"/>
+      <point x="212" y="132" type="line" smooth="yes"/>
+      <point x="212" y="60"/>
+      <point x="177" y="15"/>
+      <point x="113" y="15" type="curve" smooth="yes"/>
+      <point x="41" y="15"/>
+      <point x="16" y="56"/>
+      <point x="16" y="132" type="curve"/>
+      <point x="2" y="132"/>
+      <point x="-5" y="118"/>
+      <point x="-5" y="90" type="curve" smooth="yes"/>
+      <point x="-5" y="45"/>
+      <point x="24" y="-10"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>f</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/15 01:46:44</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Currency</string>
+    </dict>
+  </lib>
+</glyph>

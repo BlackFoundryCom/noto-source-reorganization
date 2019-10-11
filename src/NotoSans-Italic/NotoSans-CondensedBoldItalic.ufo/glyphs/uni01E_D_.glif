@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni01ED" format="2">
+  <advance width="479"/>
+  <unicode hex="01ED"/>
+  <anchor x="133" y="-240" name="bottom"/>
+  <anchor x="337" y="721" name="top"/>
+  <anchor x="296" y="265" name="center"/>
+  <anchor x="515" y="530" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="macron" xOffset="51"/>
+    <component base="ogonek" xOffset="103"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:25</string>
+    </dict>
+  </lib>
+</glyph>

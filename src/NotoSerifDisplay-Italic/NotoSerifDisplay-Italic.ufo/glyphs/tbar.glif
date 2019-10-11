@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tbar" format="2">
+  <advance width="368"/>
+  <unicode hex="0167"/>
+  <anchor x="127" y="0" name="bottom"/>
+  <anchor x="267" y="659" name="top"/>
+  <anchor x="241" y="268" name="center"/>
+  <anchor x="427" y="659" name="topright"/>
+  <outline>
+    <contour>
+      <point x="31" y="310" type="line"/>
+      <point x="314" y="310" type="line"/>
+      <point x="316" y="320" type="line"/>
+      <point x="33" y="320" type="line"/>
+    </contour>
+    <component base="t"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:53</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

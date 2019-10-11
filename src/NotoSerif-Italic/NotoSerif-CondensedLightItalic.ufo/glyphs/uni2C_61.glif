@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2C61" format="2">
+  <advance width="192"/>
+  <unicode hex="2C61"/>
+  <anchor x="39" y="0" name="bottom"/>
+  <anchor x="201" y="760" name="top"/>
+  <anchor x="154" y="268" name="center"/>
+  <anchor x="277" y="760" name="topright"/>
+  <outline>
+    <contour>
+      <point x="4" y="280" type="line"/>
+      <point x="171" y="280" type="line"/>
+      <point x="176" y="305" type="line"/>
+      <point x="101" y="305" type="line"/>
+      <point x="120" y="390" type="line"/>
+      <point x="196" y="390" type="line"/>
+      <point x="201" y="415" type="line"/>
+      <point x="33" y="415" type="line"/>
+      <point x="28" y="390" type="line"/>
+      <point x="99" y="390" type="line"/>
+      <point x="80" y="305" type="line"/>
+      <point x="9" y="305" type="line"/>
+    </contour>
+    <component base="l"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/15 23:22:34</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

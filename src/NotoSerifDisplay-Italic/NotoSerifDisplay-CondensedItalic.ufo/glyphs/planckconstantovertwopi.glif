@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="planckconstantovertwopi" format="2">
+  <advance width="486"/>
+  <unicode hex="210F"/>
+  <anchor x="191" y="0" name="bottom"/>
+  <anchor x="305" y="268" name="center"/>
+  <anchor x="353" y="760" name="top"/>
+  <anchor x="497" y="760" name="topright"/>
+  <outline>
+    <contour>
+      <point x="60" y="515" type="line"/>
+      <point x="344" y="659" type="line"/>
+      <point x="348" y="673" type="line"/>
+      <point x="63" y="529" type="line"/>
+    </contour>
+    <component base="h" xOffset="-2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>h</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:56</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

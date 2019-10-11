@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04FE" format="2">
+  <advance width="569"/>
+  <unicode hex="04FE"/>
+  <anchor x="228" y="0" name="bottom"/>
+  <anchor x="380" y="714" name="top"/>
+  <anchor x="644" y="714" name="topright"/>
+  <outline>
+    <contour>
+      <point x="47" y="359" type="line"/>
+      <point x="553" y="359" type="line"/>
+      <point x="558" y="384" type="line"/>
+      <point x="52" y="384" type="line"/>
+    </contour>
+    <component base="X"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/15 23:22:32</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

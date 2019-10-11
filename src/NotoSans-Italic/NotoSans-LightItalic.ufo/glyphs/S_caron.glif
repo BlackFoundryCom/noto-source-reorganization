@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Scaron" format="2">
+  <advance width="498"/>
+  <unicode hex="0160"/>
+  <anchor x="193" y="0" name="bottom"/>
+  <anchor x="395" y="949" name="top"/>
+  <anchor x="574" y="714" name="topright"/>
+  <outline>
+    <component base="S"/>
+    <component base="caron" xOffset="113" yOffset="186"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:24</string>
+    </dict>
+  </lib>
+</glyph>

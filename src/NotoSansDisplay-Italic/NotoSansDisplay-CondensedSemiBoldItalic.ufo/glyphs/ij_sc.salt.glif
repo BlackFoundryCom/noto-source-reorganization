@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ij_sc.salt" format="2">
+  <advance width="537"/>
+  <anchor x="54" y="0" name="bottom_1"/>
+  <anchor x="301" y="0" name="bottom_2"/>
+  <anchor x="178" y="580" name="top_1"/>
+  <anchor x="487" y="580" name="top_2"/>
+  <anchor x="272" y="580" name="topright_1"/>
+  <anchor x="580" y="580" name="topright_2"/>
+  <outline>
+    <component base="i_sc.salt"/>
+    <component base="j_sc.salt" xOffset="227"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/12 23:43:17</string>
+    </dict>
+  </lib>
+</glyph>

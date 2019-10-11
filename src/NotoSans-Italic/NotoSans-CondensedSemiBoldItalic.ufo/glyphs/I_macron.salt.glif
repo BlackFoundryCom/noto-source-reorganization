@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Imacron.salt" format="2">
+  <advance width="242"/>
+  <anchor x="65" y="0" name="bottom"/>
+  <anchor x="243" y="880" name="top"/>
+  <anchor x="318" y="714" name="topright"/>
+  <outline>
+    <component base="I.salt"/>
+    <component base="macroncomb" xOffset="156" yOffset="184"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:26</string>
+    </dict>
+  </lib>
+</glyph>

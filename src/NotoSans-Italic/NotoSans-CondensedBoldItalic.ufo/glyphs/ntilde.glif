@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ntilde" format="2">
+  <advance width="491"/>
+  <unicode hex="00F1"/>
+  <anchor x="195" y="0" name="bottom"/>
+  <anchor x="360" y="778" name="top"/>
+  <anchor x="527" y="550" name="topright"/>
+  <outline>
+    <component base="n"/>
+    <component base="tilde" xOffset="51" yOffset="6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:24</string>
+    </dict>
+  </lib>
+</glyph>

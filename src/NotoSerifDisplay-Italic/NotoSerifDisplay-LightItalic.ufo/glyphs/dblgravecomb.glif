@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dblgravecomb" format="2">
+  <unicode hex="030F"/>
+  <anchor x="58" y="536" name="_top"/>
+  <anchor x="107" y="766" name="top"/>
+  <outline>
+    <contour>
+      <point x="1" y="606" type="curve"/>
+      <point x="9" y="606" type="line"/>
+      <point x="9" y="614" type="line"/>
+      <point x="-16" y="667"/>
+      <point x="-37" y="728"/>
+      <point x="-48" y="766" type="curve"/>
+      <point x="-78" y="766" type="line"/>
+      <point x="-78" y="758" type="line"/>
+      <point x="-54" y="704"/>
+      <point x="-31" y="665"/>
+    </contour>
+    <contour>
+      <point x="147" y="606" type="curve"/>
+      <point x="155" y="606" type="line"/>
+      <point x="155" y="614" type="line"/>
+      <point x="130" y="667"/>
+      <point x="109" y="728"/>
+      <point x="98" y="766" type="curve"/>
+      <point x="68" y="766" type="line"/>
+      <point x="68" y="758" type="line"/>
+      <point x="92" y="704"/>
+      <point x="115" y="665"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/11/16 20:49:56</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="f_i.ss02" format="2">
+  <advance width="736"/>
+  <anchor x="134" y="0" name="bottom_1"/>
+  <anchor x="511" y="0" name="bottom_2"/>
+  <anchor x="338" y="0" name="caret_1"/>
+  <anchor x="368" y="765" name="top_1"/>
+  <anchor x="685" y="765" name="top_2"/>
+  <anchor x="534" y="765" name="topright_1"/>
+  <anchor x="823" y="777" name="topright_2"/>
+  <outline>
+    <component base="f.ss02"/>
+    <component base="i" xOffset="411"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>f.ss02</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>i</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:26</string>
+    </dict>
+  </lib>
+</glyph>

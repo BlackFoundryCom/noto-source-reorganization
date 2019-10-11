@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lcaron" format="2">
+  <advance width="491"/>
+  <unicode hex="013D"/>
+  <anchor x="190" y="0" name="bottom"/>
+  <anchor x="342" y="714" name="top"/>
+  <anchor x="266" y="357" name="center"/>
+  <anchor x="477" y="714" name="topright"/>
+  <outline>
+    <component base="L"/>
+    <component base="caroncommaaccent" xOffset="263" yOffset="183"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/02 13:55:07</string>
+    </dict>
+  </lib>
+</glyph>

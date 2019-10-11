@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1D7C" format="2">
+  <advance width="500"/>
+  <unicode hex="1D7C"/>
+  <anchor x="313" y="0" name="bottom"/>
+  <anchor x="246" y="536" name="top"/>
+  <outline>
+    <contour>
+      <point x="75" y="275" type="line"/>
+      <point x="423" y="275" type="line"/>
+      <point x="423" y="337" type="line"/>
+      <point x="75" y="337" type="line"/>
+    </contour>
+    <component base="iota"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/05/10 13:37:19</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

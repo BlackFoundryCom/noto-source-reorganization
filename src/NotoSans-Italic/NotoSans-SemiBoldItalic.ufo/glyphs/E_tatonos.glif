@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etatonos" format="2">
+  <advance width="812"/>
+  <unicode hex="0389"/>
+  <anchor x="409" y="0" name="bottom"/>
+  <anchor x="552" y="714" name="top"/>
+  <anchor x="502" y="357" name="center"/>
+  <anchor x="886" y="714" name="topright"/>
+  <outline>
+    <component base="H" xOffset="112"/>
+    <component base="tonos" xOffset="-240" yOffset="-83"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:24</string>
+    </dict>
+  </lib>
+</glyph>

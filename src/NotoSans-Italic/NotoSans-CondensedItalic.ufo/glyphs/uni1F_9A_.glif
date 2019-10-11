@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1F9A" format="2">
+  <advance width="881"/>
+  <unicode hex="1F9A"/>
+  <anchor x="711" y="0" name="bottom"/>
+  <anchor x="815" y="531" name="top"/>
+  <anchor x="447" y="357" name="center"/>
+  <anchor x="729" y="531" name="topleft"/>
+  <anchor x="738" y="714" name="topright"/>
+  <outline>
+    <component base="H" xOffset="180"/>
+    <component base="uni1FCD" xOffset="-125" yOffset="-30"/>
+    <component base="iota" xOffset="653"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>iota</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:25</string>
+    </dict>
+  </lib>
+</glyph>

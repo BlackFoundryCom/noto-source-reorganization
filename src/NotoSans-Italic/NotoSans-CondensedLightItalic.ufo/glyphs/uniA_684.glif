@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA684" format="2">
+  <advance width="649"/>
+  <unicode hex="A684"/>
+  <anchor x="111" y="0" name="bottom_1"/>
+  <anchor x="431" y="0" name="bottom_2"/>
+  <anchor x="263" y="714" name="top_1"/>
+  <anchor x="583" y="714" name="top_2"/>
+  <outline>
+    <contour>
+      <point x="187" y="358" type="line"/>
+      <point x="415" y="358" type="line"/>
+      <point x="421" y="383" type="line"/>
+      <point x="193" y="383" type="line"/>
+    </contour>
+    <component base="afii10025"/>
+    <component base="afii10028" xOffset="324"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>afii10028</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:26</string>
+    </dict>
+  </lib>
+</glyph>
