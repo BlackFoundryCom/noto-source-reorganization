@@ -11,6 +11,12 @@ import glob
 from fontTools.designspaceLib import DesignSpaceDocument
 # from fontTools.designspaceLib import DesignSpaceDocument, AxisDescriptor, SourceDescriptor, InstanceDescriptor
 import os
+# from ufo2ft.featureWriters import (
+#     KernFeatureWriter,
+#     MarkFeatureWriter,
+#     loadFeatureWriters,
+#     ast,
+# )
 # import ttfautohint
 
 
@@ -21,11 +27,6 @@ def ufo2font(directory, ufolist, *output):
         destination = ""
         ufo = Font(ufoSource)
         folder = path + "fonts/"
-        # compile OT features
-        outlines = OutlineOTFCompiler(ufo).compile()
-        feaCompiler = FeatureCompiler(ufo, outlines)
-        feaCompiler.compile()
-        ufo.features.text = feaCompiler.features
         print(output)
         if "otf" in output:
             destination = folder + "OTF/"
@@ -37,7 +38,11 @@ def ufo2font(directory, ufolist, *output):
             destination = folder + "TTF/"
             if not os.path.exists(destination):
                 os.makedirs(destination)
-            ttf = compileTTF(ufo, removeOverlaps=True, useProductionNames = False, )
+            # outlines = OutlineOTFCompiler(ufo).compile()
+            # feaCompiler = FeatureCompiler(ufo, outlines)
+            # feaCompiler.compile()
+            # ufo.features.text = feaCompiler.features
+            ttf = compileTTF(ufo, removeOverlaps=True, useProductionNames = False)
             ttf.save(destination + i[:-4] + ".ttf")
         if "woff2" in output:
             destination = folder + "WOFF2/"

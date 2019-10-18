@@ -15,6 +15,8 @@ import os
 import json
 from fontTools.merge import Merger
 import shutil
+from fontmake import instantiator
+print(dir(instantiator))
 """
 useful functions:
 mastersUfos2fonts(familyName, formats you want) => read a design space, find masters files, generate fonts
@@ -247,6 +249,14 @@ def openDesignSpace(path):
     designSpace.read(path)
     return designSpace
 
+def instances(family):
+    path, folder = getFile(".designspace", "src", family)
+    designSpace = openDesignSpace(path)
+    for instance in designSpace.instances:
+        font = instantiator.Instantiator(instance)
+
+instances("NotoSansThaana")
+
 def designSpace2Var(family):
     print("1")
     path, folder = getFile(".designspace", "src", family)
@@ -305,7 +315,7 @@ def makeTTFInstancesFromVF(family):
                 loca[axesName[name]] = int(location[name])
         print(instance.name, loca)
         fontName = '-'.join([instance.familyName, \
-                                instance.styleName.replace(" ", "")]) + '.ttf'c
+                                instance.styleName.replace(" ", "")]) + '.ttf'
         fi = instantiateVariableFont(varFont, loca, inplace=False)
         #build name table entries
         styleName = instance.styleName
@@ -406,5 +416,6 @@ def subsetFonts(family, *writingSystem, flavor=["ttf"], familyNewName=" "):
 # mergeFonts("NotoSans","NotoNastaliqUrdu")
 # designSpace2Var("NotoSansThaana")
 # makeTTFInstancesFromVF("NotoSansThaana")
-mastersUfos2fonts("NotoSans", "ttf")
+# mastersUfos2fonts("NotoSans", "ttf")
 # ufosToGlyphs("NotoSansThaana")
+# ufo2font("NotoSans", ["NotoSans-Bold.ufo"], "ttf")
