@@ -14,14 +14,17 @@ from fontTools.subset import Options
 import os
 import json
 from fontTools.merge import Merger
+import shutil
 """
 useful functions:
 mastersUfos2fonts(familyName, formats you want) => read a design space, find masters files, generate fonts
 designSpace2Var(familyName) => read designspace, make var font if ufos are compatible
-makeTTFInstancesFromVF(familyName) => take the variable if it exists (if no make it) and extract static instance from it
+makeTTFInstancesFromVF(familyName) => take the variable if it exists (if not make it)
+                                        and extract static instances from it
                                         by reading the designspace
-renameFonts(familyName, newName, formats you want) => WIP
+renameFonts(familyName, newName, formats you want) => needs the original fonts first, if not make
 mergeFonts(baseFanmilyName, familyName of the fonts to inject) => WIP.
+ufosToGlyphs(familyName) >> Obvious
 
 """
 
@@ -150,67 +153,92 @@ def mergeFonts(masterfont, *fontsToAdd):
 #                     # print(instance.name," entry: ", location[name], ", Real value:", locationValue)
 #                     loca[axesName[name]] = round(locationValue)
 #     return loca
+def setBit(int_type, offset):
+    mask = 1 << offset
+    print(int_type, offset, mask, int_type | mask)
+    return(int_type | mask)
 
-def renameFonts(family, newName, *flavor):
+def renameFonts(family, newName, *flavor, codePageRange = []):
     saveName = newName.replace(" ", "")
-    mastersUfos2fonts(family, *flavor)
-    flavors = ["OTF", "TTF", "WEB", "VAR"]
+    flavors = ["OTF", "TTF", "WOFF2", "VAR", "WOFF", 'instances']
+    for i in flavor:
+        if os.path.exists((getFolder(family) + "fonts/" + i.upper())):
+            pass
+        else:
+            mastersUfos2fonts(family, i)
     path = getFolder(family) + "fonts/"
-    # print(path)
-    fontsFolders = [path + i for i in os.listdir(path) if i[-3:] in flavors]
+    fontsFolders = [path + i for i in os.listdir(path) if i.split("/")[-1] in flavors]
     for folder in fontsFolders:
-        fonts = [folder + "/" + font for font in os.listdir(folder) if ".DS_Store" not in font]
-        # print(fonts)
+        fonts = [folder + "/" + font for font in os.listdir(folder) if font.split(".")[-1].upper() in flavors]
         for f in fonts:
-            print(f)
             renamedFont = ttLib.TTFont(f)
             for namerecord in renamedFont['name'].names:
                 namerecord.string = namerecord.toUnicode()
                 if namerecord.nameID == 2:
-                    styleName = namerecord.string
+                    WeightName = namerecord.string
+                if namerecord.nameID == 17:
+                    WeightName = namerecord.string
+            for namerecord in renamedFont['name'].names:
+                namerecord.string = namerecord.toUnicode()
                 if namerecord.nameID == 1:
-                    namerecord.string = newName
+                    if WeightName in ["Bold", "Regular"]:
+                        namerecord.string = newName
+                    else:
+                        namerecord.string = newName + " " + WeightName
                 if namerecord.nameID == 3:
                     for namerecord in renamedFont['name'].names:
                         namerecord.string = namerecord.toUnicode()
                         if namerecord.nameID == 4:
-                            WeightName = namerecord.string.split(" ")[-1]
+                            namerecord.string = newName + " " + WeightName
                         if namerecord.nameID == 5:
                             Version = namerecord.string.split(" ")[1]
                             V_major, V_minor = Version.split(".")[0], Version.split(".")[0]
-                    PSName = ''.join(newName.split(' ')) + '-' + ''.join(WeightName.split(' '))
-                    namerecord.string = '%s.%s' % (V_major, V_minor) +';'+ '%s' % PSName + ';'
-                if namerecord.nameID == 4:
-                    namerecord.string = newName + " " + WeightName
+                    namerecord.string = V_major + "." + V_minor + ";GOOG;" + newName + WeightName
+                if namerecord.nameID == 17:
+                    namerecord.string = WeightName
+                        # unicID = namerecord.string.split(";")
+                        # unicID = l[0] + ";" + l[1] + ";" + newName + "-"  + WeightName
+                        # namerecord.string = unicID
+                    # PSName = ''.join(newName.split(' ')) + '-' + ''.join(WeightName.split(' '))
+                    # namerecord.string = '%s.%s' % (V_major, V_minor) +';'+ '%s' % PSName + ';'
+                # if namerecord.nameID == 4:
+                #     namerecord.string = newName + " " + WeightName
                 if namerecord.nameID == 6:
                     namerecord.string = ''.join(newName.split(' ')) + '-' + ''.join(WeightName.split(' '))
                 if namerecord.nameID == 16:
                     namerecord.string = newName
-                if namerecord.nameID == 17:
-                    namerecord.string = WeightName
-            destination = folder + "/renamed/"
-            fontName = saveName + WeightName + f[-4:]
+            if len(codePageRange) > 0:
+                os2 = renamedFont['OS/2']
+                print("avant", os2.ulCodePageRange1)
+                for i in codePageRange:
+                    os2.ulCodePageRange1 = setBit(os2.ulCodePageRange1, i)
+                    print("setBit: ", setBit(os2.ulCodePageRange1, i))
+            print("after", os2.ulCodePageRange1)
+            format_ = f[-3:].upper()
+            destination = getFolder(family) + "/" + newName + "/" + format_
+            fontName = saveName + "-" + ''.join(WeightName.split(' ')) + f[-4:]
             if not os.path.exists(destination):
                 os.makedirs(destination)
             renamedFont.save(os.path.join(destination, fontName))
 
-
 def mastersUfos2fonts(family, *flavor):
-    print(flavor)
+    print(len(flavor), flavor)
     if len(flavor) == 0:
         flavor = "ttf"
     masters = []
     path, folder = getFile(".designspace", "src", family)
-    print(path)
     designSpace = DesignSpaceDocument()
     designSpace.read(path)
     for s in designSpace.sources:
         masters.append(family + "-" + s.styleName.replace(" ", "") + ".ufo")
     if "ttf" in flavor:
+        print("in flavor")
         if "woff2" in flavor:
             ufo2font(family, masters, "ttf", "woff2")
         else:
             ufo2font(family, masters, "ttf")
+    elif "woff2" in flavor:
+        ufo2font(family, masters, "woff2")
     if "otf" in flavor:
         ufo2font(family, masters, "otf")
 
@@ -227,7 +255,6 @@ def designSpace2Var(family):
     print("2")
     font, _, _ = varLib.build(compileInterpolatableTTFsFromDS(designSpace), \
                                 optimize=False)
-    # font.save(folder + "/" + family + "_VF.ttf")
     destination = folder + "/fonts/VAR"
     if not os.path.exists(destination):
         os.makedirs(destination)
@@ -251,12 +278,10 @@ def makeTTFInstancesFromVF(family):
     maps = dict()
     for a in designSpace.axes:
         if a.map:
-            print("MAP")
             maps[a.name] = a.map
-    print(maps)
     varFontPath = folder + "/fonts/VAR/" + family + "_VF.ttf"
     if not os.path.exists(varFontPath):
-        print("Make Vf first")
+        print("Make Variable first")
         designSpace2Var(family)
     varFont = TTFont(varFontPath)
     revision = varFont['head'].fontRevision
@@ -280,7 +305,7 @@ def makeTTFInstancesFromVF(family):
                 loca[axesName[name]] = int(location[name])
         print(instance.name, loca)
         fontName = '-'.join([instance.familyName, \
-                                instance.styleName.replace(" ", "")]) + '.ttf'
+                                instance.styleName.replace(" ", "")]) + '.ttf'c
         fi = instantiateVariableFont(varFont, loca, inplace=False)
         #build name table entries
         styleName = instance.styleName
@@ -304,8 +329,16 @@ def makeTTFInstancesFromVF(family):
             os.makedirs(destination)
         fi.save(os.path.join(destination, fontName))
 
-
-def subsetFonts(family, writingSystem, *flavor):
+def subsetFonts(family, *writingSystem, flavor=["ttf"], familyNewName=" "):
+    latinProCodePageRange = [0, 1, 4, 7, 8]
+    cyrProCodePageRange = [2]
+    greekProCodePageRange = [3]
+    unicodePageRangeDict = {"Cyrillic":latinProCodePageRange, "CyrillicPro":latinProCodePageRange, "Greek" : greekProCodePageRange, "Latin" : latinProCodePageRange}
+    pageRangeToApply = []
+    subsetFolder = ""
+    for i in writingSystem:
+        subsetFolder += i
+    formats = ["ttf", "woff", "woff2", "otf"]
     toKeep = list()
     folder = getFolder(family)
     options = Options()
@@ -320,7 +353,7 @@ def subsetFonts(family, writingSystem, *flavor):
     options.notdef_outline = True  # keep outline of .notdef
     options.ignore_missing_glyphs = True
     options.prune_unicode_ranges = True
-    keep = ""
+    keep = []
     jsonpath = [folder + json for json in os.listdir(folder) if ".json" in json]
     for i in jsonpath:
         with open(i, 'r') as subsetDict:
@@ -328,38 +361,50 @@ def subsetFonts(family, writingSystem, *flavor):
     for i in subset:
         if i in writingSystem:
             toKeep.append(subset[i])
+        if i in writingSystem:
+            print(i)
+            pageRangeToApply += unicodePageRangeDict[i]
+    print(pageRangeToApply)
     for i in toKeep:
-        keep = i
-    print(keep)
+        keep += i
     for i in flavor:
         if not os.path.exists(folder + "/fonts/" + i.upper()):
-            mastersUfos2fonts(family, *flavor)
+            mastersUfos2fonts(family, i)
     for i in flavor:
         fontspath = [folder + "fonts/" + i.upper() + "/" + font for font in os.listdir(folder + "fonts/" + i.upper())]
         for f in fontspath:
-            newfont = TTFont(f)
-            for namerecord in newfont['name'].names:
-                namerecord.string = namerecord.toUnicode()
-                if namerecord.nameID == 4:
-                    WeightName = namerecord.string.split(" ")[-1]
-            # name = f.split("/")[-1].split("-")[1][:-4]
-            subsetter = Subsetter(options=options)
-            subsetter.populate(glyphs=keep)
-            subsetter.subset(newfont)
-            if not os.path.exists(folder + "fonts/" + writingSystem + "_subset/" + i.upper()):
-                os.makedirs(folder + "fonts/" + writingSystem + "_subset/" + i.upper())
-            newfont.save(folder + "fonts/" + writingSystem + "_subset/" + i.upper() + "/" + family + writingSystem + "-" +WeightName +"." + i)
+            if f.split(".")[-1] in formats:
+                newfont = TTFont(f)
+                for namerecord in newfont['name'].names:
+                    namerecord.string = namerecord.toUnicode()
+                    if namerecord.nameID == 2:
+                        WeightName = namerecord.string
+                    if namerecord.nameID == 17:
+                        WeightName = "".join(namerecord.string.split(" "))
+                        print(WeightName)
+                subsetter = Subsetter(options=options)
+                subsetter.populate(glyphs=keep)
+                subsetter.subset(newfont)
+                destination = folder + "fonts/" + subsetFolder + "_subset/fonts/"
+                if not os.path.exists(destination + i.upper()):
+                    os.makedirs(destination + i.upper())
+                newfont.save(destination + i.upper() + "/" + family + subsetFolder + "-" + WeightName +"." + i)
+    folder = family + "/fonts/" + subsetFolder + "_subset"
+    print(pageRangeToApply)
+    if familyNewName != " ":
+        renameFonts(folder, familyNewName, codePageRange = pageRangeToApply)
+    else:
+        familyNewName = family + subsetFolder
+        renameFonts(folder, familyNewName, codePageRange = pageRangeToApply)
+    shutil.rmtree(destination)
 
-
-
-
+# subsetFonts("NotoSans", "Cyrillic")
+# subsetFonts("NotoSans", "Latin", familyNewName = "Avocado Sans")
 # subsetFonts("NotoSans", "Cyrillic", "ttf")
-# mastersUfos2fonts("NotoSansThaana")
-# renameFonts("NotoSansThaana", "Toto Sans")
-# mastersUfos2fonts("NotoMusic")
+# mastersUfos2fonts("NotoSansThaana", "woff2")
+# renameFonts("NotoSans", "Never Sans")
 # mergeFonts("NotoSans","NotoNastaliqUrdu")
-# mastersUfos2fonts("NotoSansThaana")
-# designSpace2Var("NotoNastaliqUrdu", True)
-makeTTFInstancesFromVF("NotoSansThaana")
-# mastersUfos2fonts("NotoSans")
-# ufosToGlyphs("NotoSerifHebrew")
+# designSpace2Var("NotoSansThaana")
+# makeTTFInstancesFromVF("NotoSansThaana")
+mastersUfos2fonts("NotoSans", "ttf")
+# ufosToGlyphs("NotoSansThaana")
