@@ -11,12 +11,12 @@ import glob
 from fontTools.designspaceLib import DesignSpaceDocument
 # from fontTools.designspaceLib import DesignSpaceDocument, AxisDescriptor, SourceDescriptor, InstanceDescriptor
 import os
-# from ufo2ft.featureWriters import (
-#     KernFeatureWriter,
-#     MarkFeatureWriter,
-#     loadFeatureWriters,
-#     ast,
-# )
+from ufo2ft.featureWriters import (
+    KernFeatureWriter,
+    MarkFeatureWriter,
+    loadFeatureWriters,
+    ast,
+)
 # import ttfautohint
 
 
@@ -27,29 +27,31 @@ def ufo2font(directory, ufolist, *output):
         destination = ""
         ufo = Font(ufoSource)
         folder = path + "fonts/"
+        featureWriters = [KernFeatureWriter(mode="append"), MarkFeatureWriter]
         print(output)
         if "otf" in output:
             destination = folder + "OTF/"
             if not os.path.exists(destination):
                 os.makedirs(destination)
-            otf = compileOTF(ufo, removeOverlaps=True, useProductionNames = False)
+            otf = compileOTF(ufo, removeOverlaps=True, useProductionNames = False, featureWriters = featureWriters)
             otf.save(destination + i[:-4] + ".otf")
         if "ttf" in output:
             destination = folder + "TTF/"
             if not os.path.exists(destination):
                 os.makedirs(destination)
-            # outlines = OutlineOTFCompiler(ufo).compile()
-            # feaCompiler = FeatureCompiler(ufo, outlines)
-            # feaCompiler.compile()
+            outlines = OutlineOTFCompiler(ufo).compile()
+            feaCompiler = FeatureCompiler(ufo, outlines, featureWriters = featureWriters)
+            feaCompiler.compile()
             # ufo.features.text = feaCompiler.features
-            ttf = compileTTF(ufo, removeOverlaps=True, useProductionNames = False)
+            print(feaCompiler.features)
+            ttf = compileTTF(ufo, removeOverlaps=True, useProductionNames = False, featureWriters = featureWriters)
             ttf.save(destination + i[:-4] + ".ttf")
         if "woff2" in output:
             destination = folder + "WOFF2/"
             if not os.path.exists(destination):
                 os.makedirs(destination)
             if "ttf" not in output:
-                ttf = compileTTF(ufo, removeOverlaps=True, useProductionNames = False)
+                ttf = compileTTF(ufo, removeOverlaps=True, useProductionNames = False, featureWriters = featureWriters)
             ttf.flavor = "woff2"
             ttf.save(destination + i[:-4] + ".woff2")
 

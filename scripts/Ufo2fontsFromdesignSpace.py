@@ -16,6 +16,12 @@ import json
 from fontTools.merge import Merger
 import shutil
 from fontmake import instantiator
+from ufo2ft.featureWriters import (
+    KernFeatureWriter,
+    MarkFeatureWriter,
+    loadFeatureWriters,
+    ast,
+)
 print(dir(instantiator))
 """
 useful functions:
@@ -255,7 +261,7 @@ def instances(family):
     for instance in designSpace.instances:
         font = instantiator.Instantiator(instance)
 
-instances("NotoSansThaana")
+# instances("NotoSansThaana")
 
 def designSpace2Var(family):
     print("1")
@@ -263,8 +269,8 @@ def designSpace2Var(family):
     designSpace = openDesignSpace(path)
     designSpace.loadSourceFonts(Font)
     print("2")
-    font, _, _ = varLib.build(compileInterpolatableTTFsFromDS(designSpace), \
-                                optimize=False)
+    font, _, _ = varLib.build(compileInterpolatableTTFsFromDS(designSpace, \
+                    featureWriters = [KernFeatureWriter(mode="append"), MarkFeatureWriter]), optimize=False)
     destination = folder + "/fonts/VAR"
     if not os.path.exists(destination):
         os.makedirs(destination)
@@ -418,4 +424,4 @@ def subsetFonts(family, *writingSystem, flavor=["ttf"], familyNewName=" "):
 # makeTTFInstancesFromVF("NotoSansThaana")
 # mastersUfos2fonts("NotoSans", "ttf")
 # ufosToGlyphs("NotoSansThaana")
-# ufo2font("NotoSans", ["NotoSans-Bold.ufo"], "ttf")
+ufo2font("NotoSans", ["NotoSans-Bold.ufo"], "ttf")
