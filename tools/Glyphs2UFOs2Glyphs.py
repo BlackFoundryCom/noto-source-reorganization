@@ -1,48 +1,64 @@
 import os
-from glyphsLib import build_masters
+from glyphsLib import (build_masters,
+    to_glyphs,
+    )
 from ufo2ft.featureWriters import (
     KernFeatureWriter,
     MarkFeatureWriter,
     loadFeatureWriters,
     ast,
-)
+    )
 from defcon import Font
 from ufo2ft.featureCompiler import FeatureCompiler
 from ufo2ft.outlineCompiler import OutlineOTFCompiler
-
-"""
-Use (in console) : python3 <Glyphs2UFOs.py script path> [option] <input Glyphs file>
-    Option:
-    -k : output features with GPOS rules added as separate features.fea file
-    use the keyword include(<features file path>); in ufo instead of previous features parsed by glyphsLib
-"""
+from fontTools.designspaceLib import DesignSpaceDocument
 
 def main():
-    glyphs2ufos(sys.argv[-1])
+    """ Use (in console) : python3 <Glyphs2UFOs2Glyphs.py script path> [option] <input Glyphs file>
+
+    Option:
+    --addkerning or -k : output features with GPOS rules added in a separate features.fea file
+                         use the 'include(<features file path>);'' syntax in ufo.features.text
+                         instead of previous features rules parsed by glyphsLib
+    """
+    if sys.argv[-1][-7:] == ".glyphs":
+        glyphs2ufos(sys.argv[-1])
+    elif sys.argv[-1][-12:] == ".designspace":
+        ufosToGlyphsFromDS(sys.argv[-1])
+    else:
+        print("Please provide either a Glyphs of a designspace file")
+
+def ufosToGlyphsFromDS(path):
+    ds = DesignSpaceDocument()
+    ds.read(path)
+    font = to_glyphs(ds)
+    folderpath, file = os.path.split(path)
+    destination = folderpath + "/Glyphs/"
+    if not os.path.exists(destination):
+        os.makedirs(destination)
+    family = file[:-12]
+    font.save(destination + family + ".glyphs")
 
 def glyphs2ufos(path):
-    if path[-7:] != ".glyphs":
-        print("Please provide a Glyphs file")
+    folderpath, file = os.path.split(path)
+    if "fixed_" in file:
+        foldername = file[6:-7]
     else:
-        folderpath, file = os.path.split(path)
-        if "fixed_" in file:
-            foldername = file[6:-7]
-        else:
-            foldername = file[:-7]
-        destination = os.path.join(folderpath, foldername + "_UFOs")
-        if not os.path.exists(destination):
-            os.makedirs(destination)
-        try:
-            ufos, designspace_path = build_masters(path, destination)
-        except:
-            rewriteGlyphsFile(folderpath, path, file)
-    if "-k" in sys.argv:
+        foldername = file[:-7]
+    destination = os.path.join(folderpath, foldername + "_UFOs")
+    if not os.path.exists(destination):
+        os.makedirs(destination)
+    try:
+        ufos, designspace_path = build_masters(path, destination)
+    except:
+        rewriteGlyphsFile(folderpath, path, file)
+    if "-k" or "--addkerning" in sys.argv:
         insertGPOSinFEA(destination)
 
 def insertGPOSinFEA(ufosFolder):
+    #TODO : keep the GDEF table that Glyphs generate automatically
     ufolist = list()
     for file in os.listdir(ufosFolder):
-        # print(ufo)
         if file[-4:] == ".ufo":
             print(file)
             ufolist.append(os.path.join(ufosFolder, file))
@@ -63,8 +79,9 @@ def rewriteGlyphsFile(folder, path, file):
     An issue not handled by glyphsLib right now
     is the wrong storage of Panose data as string
     (only user infos should be stored as string in last GlyphsApp specs).
-    This script rewrite the glyphs file prefixed with a "_fixed"
+    This script outputs a new glyphs file prefixed with "_fixed"
     and then use it to create the UFOs + designspace files.
+    This function should be updated when other issues appear.
     """
     with open(path, "r") as gf:
         gf_line = gf.readlines()

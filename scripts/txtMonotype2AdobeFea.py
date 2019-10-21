@@ -1,8 +1,10 @@
 import os
 from Lib.findThings import getTxtFile
 
-# def contentOfClass(l):
-# 	return " ;\n".join(list(filter(lambda x: len(x), l)))
+""" ^
+  //!\\   WIP
+ =======
+"""
 
 def getGTXT(familyPath, GTXT):
 	G___TXT, rdir = getTxtFile(familyPath, GTXT)
