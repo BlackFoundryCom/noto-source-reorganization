@@ -17,7 +17,7 @@ def main():
     """ Use (in console) : python3 <Glyphs2UFOs2Glyphs.py script path> [option] <input Glyphs file>
 
     Option:
-    --addkerning or -k : output features with GPOS rules added in a separate features.fea file
+    -k : output features with GPOS rules added in a separate features.fea file
                          use the 'include(<features file path>);'' syntax in ufo.features.text
                          instead of previous features rules parsed by glyphsLib
     """
@@ -52,7 +52,7 @@ def glyphs2ufos(path):
         ufos, designspace_path = build_masters(path, destination)
     except:
         rewriteGlyphsFile(folderpath, path, file)
-    if "-k" or "--addkerning" in sys.argv:
+    if "-k" in sys.argv:
         insertGPOSinFEA(destination)
 
 def insertGPOSinFEA(ufosFolder):
