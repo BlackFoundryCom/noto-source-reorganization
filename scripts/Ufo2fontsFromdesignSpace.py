@@ -15,14 +15,14 @@ import os
 import json
 from fontTools.merge import Merger
 import shutil
-from fontmake import instantiator
+from fontmake.font_project import FontProject
 from ufo2ft.featureWriters import (
     KernFeatureWriter,
     MarkFeatureWriter,
     loadFeatureWriters,
     ast,
 )
-print(dir(instantiator))
+
 """
 useful functions:
 mastersUfos2fonts(familyName, formats you want) => read a design space, find masters files, generate fonts
@@ -32,7 +32,6 @@ makeTTFInstancesFromVF(familyName) => take the variable if it exists (if not mak
                                         by reading the designspace
 renameFonts(familyName, newName, formats you want) => needs the original fonts first, if not make
 mergeFonts(baseFanmilyName, familyName of the fonts to inject) => WIP.
-ufosToGlyphs(familyName) >> Obvious
 
 """
 
@@ -161,6 +160,8 @@ def mergeFonts(masterfont, *fontsToAdd):
 #                     # print(instance.name," entry: ", location[name], ", Real value:", locationValue)
 #                     loca[axesName[name]] = round(locationValue)
 #     return loca
+
+
 def setBit(int_type, offset):
     mask = 1 << offset
     print(int_type, offset, mask, int_type | mask)
@@ -255,13 +256,15 @@ def openDesignSpace(path):
     designSpace.read(path)
     return designSpace
 
-def instances(family):
+def instances(family, *output):
     path, folder = getFile(".designspace", "src", family)
     designSpace = openDesignSpace(path)
-    for instance in designSpace.instances:
-        font = instantiator.Instantiator(instance)
-
-# instances("NotoSansThaana")
+    destination = folder + "/" + "Instances"
+    # if not os.path.exists(destination):
+    #     os.makedirs(destination)
+    ft = FontProject()
+    fonts = ft.run_from_designspace(use_mutatormath=True, designspace_path = path, interpolate = True, output=("otf"), output_dir = destination)
+    print(fonts)
 
 def designSpace2Var(family):
     print("1")
@@ -424,4 +427,6 @@ def subsetFonts(family, *writingSystem, flavor=["ttf"], familyNewName=" "):
 # makeTTFInstancesFromVF("NotoSansThaana")
 # mastersUfos2fonts("NotoSans", "ttf")
 # ufosToGlyphs("NotoSansThaana")
-ufo2font("NotoSans", ["NotoSans-Bold.ufo"], "ttf")
+# ufo2font("NotoSans", ["NotoSans-Bold.ufo"], "ttf")
+# instances("NotoSansThaana")
+mergeFonts("NotoSansThaana", "NotoSerifHebrew")
