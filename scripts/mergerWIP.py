@@ -28,21 +28,34 @@ from ufo2ft.featureWriters import (
 
 """
 
-def mergeFonts(masterfont, *fontsToAdd):
-    masters = list()
-    dsList = list()
-    fonts = list()
-    masterLocation = dict()
-    masterAxes = list()
-    slaveAxes = list()
+def compareLocation(masterDesignSpace, dsList, slaveAxes, masterAxes, neutralLocation):
+    print(len(dsList))
+    masterSourcesLoca, slaveSourcesLoca, allSlaveSourcesLoca = list(), list(), list()
+    commonAxes = set(slaveAxes) & set(masterAxes)
+    diffAxes  = set(slaveAxes) - set(masterAxes)
+    for s in masterDesignSpace.sources:
+        for d in s.location:
+            # print(d, s.location[d], s.filename)
+            masterSourcesLoca.append([d, s.location[d], s.filename])
+    for dsSlave in dsList:
+        for srcSlave in dsSlave.sources:
+            for d2 in s.location:
+                print(d2, s.location[d2], srcSlave.filename)
+    #             slaveSourcesLoca.append([d2, s.location[d2], srcSlave.filename])
+    #     allSlaveSourcesLoca.append(slaveSourcesLoca)
+
+    # print(allSlaveSourcesLoca)
+
+
+def getDesignspace(masterfont, *fontsToAdd):
+    dsList = []
+    slaveAxes = []
     localLocation = list()
     neutralLocation = dict()
     testLocation = list()
+    masterAxes = list()
     trad = {"Weight": "wght", "Width" : "wdth"}
-    toMerge = dict()
-    #Read Master designspace
     path, folder = getFile(".designspace", "src", masterfont)
-    print(folder)
     masterDesignSpace = DesignSpaceDocument()
     masterDesignSpace.read(path)
     #read masterdesignspace of each fonts to merge into master family, and put it in a list
@@ -59,10 +72,30 @@ def mergeFonts(masterfont, *fontsToAdd):
     for a in masterDesignSpace.axes:
         if a.tag in slaveAxes:
             masterAxes.append(a.tag)
+    #test with sets
     commonAxes = set(slaveAxes) & set(masterAxes)
     diffAxes  = set(slaveAxes) - set(masterAxes)
-    print("Axes in common: ",  commonAxes)
-    print("Axes NOT in common: ", diffAxes)
+    # print("Axes in common: ",  commonAxes)
+    # print("Axes NOT in common: ", diffAxes)
+    return masterDesignSpace, dsList, slaveAxes, masterAxes, neutralLocation
+
+def mergeFonts(masterfont, *fontsToAdd):
+    masterDesignSpace, dsList, slaveAxes, masterAxes, neutralLocation = getDesignspace(masterfont, *fontsToAdd)
+    compareLocation(masterDesignSpace, dsList, slaveAxes, masterAxes, neutralLocation)
+
+
+def mergeFontsOld(masterfont, *fontsToAdd):
+    masters = list()
+    dsList = list()
+    fonts = list()
+    masterLocation = dict()
+    masterAxes = list()
+    slaveAxes = list()
+    localLocation = list()
+    neutralLocation = dict()
+    testLocation = list()
+    trad = {"Weight": "wght", "Width" : "wdth"}
+    toMerge = dict()
     # COMPARE COMMON AXIS LOCATION IN MASTER AND SLAVES
     for s in masterDesignSpace.sources:
         localLocation = list()
@@ -143,22 +176,5 @@ def mergeFonts(masterfont, *fontsToAdd):
     # mergedFont = merger.merge(fonts)
     # mergedFontPath = os.path.join(cwd, newName + '.otf')
     # mergedFont.save(mergedFontPath)
-
-# def parseMap(descriptor, designSpace):
-#     #descriptor is sources or instances, depending on what you want
-#     loca = dict()
-#     for a in designSpace.axes:
-#     if a.map:
-#         maps[a.name] = a.map
-#     for source in designSpace.sources:
-#     location = dict(source.location)
-#     for name in location:
-#         if name in maps:
-#             for i in maps[name]:
-#                 if int(location[name]) == int(i[1]):
-#                     locationValue = i[0]
-#                     # print(instance.name," entry: ", location[name], ", Real value:", locationValue)
-#                     loca[axesName[name]] = round(locationValue)
-#     return loca
 
 mergeFonts("NotoSansThaana", "NotoSerifHebrew")
