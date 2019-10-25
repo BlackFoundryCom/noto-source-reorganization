@@ -29,22 +29,76 @@ from ufo2ft.featureWriters import (
 """
 
 def compareLocation(masterDesignSpace, dsList, slaveAxes, masterAxes, neutralLocation):
-    print(len(dsList))
+    trad = {"Weight": "wght", "Width" : "wdth"}
+    trad2 = {"wght": "Weight", "wdth" : "Width"}
     masterSourcesLoca, slaveSourcesLoca, allSlaveSourcesLoca = list(), list(), list()
+    commonMasters = []
     commonAxes = set(slaveAxes) & set(masterAxes)
     diffAxes  = set(slaveAxes) - set(masterAxes)
     for s in masterDesignSpace.sources:
-        for d in s.location:
-            # print(d, s.location[d], s.filename)
-            masterSourcesLoca.append([d, s.location[d], s.filename])
+        for dim in s.location:
+            # print(dim, s.location[dim], s.filename)
+            masterSourcesLoca.append([dim, s.location[dim], s.filename])
     for dsSlave in dsList:
         for srcSlave in dsSlave.sources:
-            for d2 in s.location:
-                print(d2, s.location[d2], srcSlave.filename)
-    #             slaveSourcesLoca.append([d2, s.location[d2], srcSlave.filename])
-    #     allSlaveSourcesLoca.append(slaveSourcesLoca)
+            for dimSlave in srcSlave.location:
+                # print(dimSlave, srcSlave.location[dimSlave], srcSlave.filename)
+                # if trad[dimSlave] in diffAxes:
+                #     print(srcSlave.location[dimSlave], neutralLocation[trad[dimSlave]])
+                if trad[dimSlave] in diffAxes and srcSlave.location[dimSlave] == neutralLocation[trad[dimSlave]]:
+                    slaveSourcesLoca.append([dimSlave, srcSlave.location[dimSlave], srcSlave.filename])
+                    for aaa in commonAxes:
+                        print(trad2[aaa])
+                        print(srcSlave.filename, srcSlave.location[trad2[aaa]])
+                # print(slaveSourcesLoca)
+        allSlaveSourcesLoca.append(slaveSourcesLoca)
+        print("all >> ", allSlaveSourcesLoca)
+    # for family in allSlaveSourcesLoca:
+    #     print(family)
+        # for font in family:
+        #     print(font)
+            # for i in  masterSourcesLoca:
+            #     # if font[1] == i[1]:
+            # # if font[1] in masterSourcesLoca:
+            #     print(font[1], i[1])
 
-    # print(allSlaveSourcesLoca)
+    # print(masterSourcesLoca, allSlaveSourcesLoca)
+
+def compareStyles(masterDesignSpace, dsList):
+    masterStyles = dict()
+    slaveStyles = dict()
+    allSlave = list()
+    matchingStyles = list()
+    todo = list()
+    matchingInstances = list
+    for i in masterDesignSpace.instances:
+        masterStyles[i.styleName] = (i.name, i.location)
+    for ds in dsList:
+        for i in ds.instances:
+            if i.styleName in masterStyles:
+                slaveStyles[i.styleName] = (i.name, i.location)
+                if i.styleName not in matchingStyles:
+                    matchingStyles.append(i.styleName)
+        allSlave.append(slaveStyles)
+        slaveStyles = dict()
+    # if len(allSlave) == 1:
+    #     for slave in allSlave:
+    #         for i in slave:
+    #             print(slave[i])
+    # else:
+
+    for i in matchingStyles:
+        try:
+            for s in allSlave:
+                matchingInstances.append(s[i])
+            matchingInstances.append(masterStyles[i])
+        except:
+            pass
+        todo.append(matchingInstances, )
+        print("\n", matchingInstances)
+        matchingInstances = []
+
+    return todo
 
 
 def getDesignspace(masterfont, *fontsToAdd):
@@ -73,15 +127,26 @@ def getDesignspace(masterfont, *fontsToAdd):
         if a.tag in slaveAxes:
             masterAxes.append(a.tag)
     #test with sets
-    commonAxes = set(slaveAxes) & set(masterAxes)
-    diffAxes  = set(slaveAxes) - set(masterAxes)
+    # commonAxes = set(slaveAxes) & set(masterAxes)
+    # diffAxes  = set(slaveAxes) - set(masterAxes)
     # print("Axes in common: ",  commonAxes)
     # print("Axes NOT in common: ", diffAxes)
     return masterDesignSpace, dsList, slaveAxes, masterAxes, neutralLocation
 
 def mergeFonts(masterfont, *fontsToAdd):
     masterDesignSpace, dsList, slaveAxes, masterAxes, neutralLocation = getDesignspace(masterfont, *fontsToAdd)
-    compareLocation(masterDesignSpace, dsList, slaveAxes, masterAxes, neutralLocation)
+    # compareLocation(masterDesignSpace, dsList, slaveAxes, masterAxes, neutralLocation)
+    todo = compareStyles(masterDesignSpace, dsList)
+    # if len(todo) != 0:
+    #     print("Now it makes variable of each fam")
+        # print(type(todo))
+        # for match in todo:
+        #     print(match)
+            # for i in match:
+            #     print(i)
+            #     print("it extract the" % "instance, the merges all of them " % font)
+
+
 
 
 def mergeFontsOld(masterfont, *fontsToAdd):

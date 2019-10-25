@@ -781,7 +781,7 @@ def readGSUB(monotypeFeaturesTxt):
 		lookup = i[1]
 		content = []
 		debut = "lookup " + name[2:-2] + " {\n"
-		content_str = ""
+		content_str = "" 
 
 		##########################
 		### SINGLE LOOKUP TYPE ###

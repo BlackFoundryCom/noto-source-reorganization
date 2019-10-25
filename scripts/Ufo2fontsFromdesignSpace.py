@@ -1,6 +1,6 @@
 from Lib.makeThings import ufo2font, ufosToGlyphs
 from Lib.findThings import getFile, getFolder
-from fontTools.designspaceLib import DesignSpaceDocument, AxisDescriptor, SourceDescriptor, InstanceDescriptor, BaseDocReader
+# from fontTools.designspaceLib import DesignSpaceDocument, AxisDescriptor, SourceDescriptor, InstanceDescriptor, BaseDocReader
 from fontTools.designspaceLib import *
 from fontTools.ttLib import TTFont
 from defcon import Font
@@ -164,7 +164,6 @@ def mergeFonts(masterfont, *fontsToAdd):
 
 def setBit(int_type, offset):
     mask = 1 << offset
-    print(int_type, offset, mask, int_type | mask)
     return(int_type | mask)
 
 def renameFonts(family, newName, *flavor, codePageRange = []):
@@ -216,13 +215,13 @@ def renameFonts(family, newName, *flavor, codePageRange = []):
                     namerecord.string = ''.join(newName.split(' ')) + '-' + ''.join(WeightName.split(' '))
                 if namerecord.nameID == 16:
                     namerecord.string = newName
-            if len(codePageRange) > 0:
-                os2 = renamedFont['OS/2']
-                print("avant", os2.ulCodePageRange1)
-                for i in codePageRange:
-                    os2.ulCodePageRange1 = setBit(os2.ulCodePageRange1, i)
-                    print("setBit: ", setBit(os2.ulCodePageRange1, i))
-            print("after", os2.ulCodePageRange1)
+            os2cp1 = renamedFont['OS/2'].ulCodePageRange1
+            os2cp1 = 0
+            print("before", os2cp1)
+            print('{0:b}'.format(os2cp1))
+            for i in codePageRange:
+                os2cp1 = setBit(os2cp1, i)
+            print("after", os2cp1)
             format_ = f[-3:].upper()
             destination = getFolder(family) + "/" + newName + "/" + format_
             fontName = saveName + "-" + ''.join(WeightName.split(' ')) + f[-4:]
@@ -418,7 +417,7 @@ def subsetFonts(family, *writingSystem, flavor=["ttf"], familyNewName=" "):
     shutil.rmtree(destination)
 
 # subsetFonts("NotoSans", "Cyrillic")
-# subsetFonts("NotoSans", "Latin", familyNewName = "Avocado Sans")
+subsetFonts("NotoSans", "Latin", familyNewName = "Avocado Sans")
 # subsetFonts("NotoSans", "Cyrillic", "ttf")
 # mastersUfos2fonts("NotoSansThaana", "woff2")
 # renameFonts("NotoSans", "Never Sans")
@@ -429,4 +428,4 @@ def subsetFonts(family, *writingSystem, flavor=["ttf"], familyNewName=" "):
 # ufosToGlyphs("NotoSansThaana")
 # ufo2font("NotoSans", ["NotoSans-Bold.ufo"], "ttf")
 # instances("NotoSansThaana")
-mergeFonts("NotoSansThaana", "NotoSerifHebrew")
+# mergeFonts("NotoSansThaana", "NotoSerifHebrew")
