@@ -35,7 +35,7 @@ def newDS(designSpace, familyName):
 	#---------
 	for s in designSpace.sources:
 		src = SourceDescriptor()
-		src.path = s.path
+		src.path = str(familyName + "-" + s.name.split(" ")[-1] + ".ufo")
 		src.name = s.name
 		src.familyName = familyName
 		src.styleName = s.styleName

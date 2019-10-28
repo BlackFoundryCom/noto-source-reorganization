@@ -1,8 +1,10 @@
 import os
 from Lib.findThings import getTxtFile
 
-# def contentOfClass(l):
-# 	return " ;\n".join(list(filter(lambda x: len(x), l)))
+""" ^
+  //!\\   WIP
+ =======
+"""
 
 def getGTXT(familyPath, GTXT):
 	G___TXT, rdir = getTxtFile(familyPath, GTXT)
@@ -779,7 +781,7 @@ def readGSUB(monotypeFeaturesTxt):
 		lookup = i[1]
 		content = []
 		debut = "lookup " + name[2:-2] + " {\n"
-		content_str = ""
+		content_str = "" 
 
 		##########################
 		### SINGLE LOOKUP TYPE ###
