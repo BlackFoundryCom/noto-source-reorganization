@@ -2,24 +2,24 @@ import os
 import json
 import shutil
 
-from fontmake.font_project      import FontProject
-from defcon                     import Font
-from Lib.makeThings             import ufo2font, ufosToGlyphs
-from Lib.findThings             import getFile, getFolder
-from fontTools.designspaceLib   import *
-from fontTools.ttLib            import TTFont
-from fontTools.ttLib.tables._n_a_m_e            import makeName
-from fontTools.varLib.mutator   import instantiateVariableFont
-from fontTools                  import varLib, ttLib
-from fontTools.subset           import Subsetter
-from fontTools.subset           import Options
-from fontTools.merge            import Merger
-from ufo2ft.featureWriters      import (KernFeatureWriter,
+from fontmake.font_project              import FontProject
+from defcon                             import Font
+from Lib.makeThings                     import ufo2font, ufosToGlyphs
+from Lib.findThings                     import getFile, getFolder
+from fontTools.designspaceLib           import *
+from fontTools.ttLib                    import TTFont
+from fontTools.ttLib.tables._n_a_m_e    import makeName
+from fontTools.varLib.mutator           import instantiateVariableFont
+from fontTools                          import varLib, ttLib
+from fontTools.subset                   import Subsetter
+from fontTools.subset                   import Options
+from fontTools.merge                    import Merger
+from ufo2ft.featureWriters              import (KernFeatureWriter,
                                         MarkFeatureWriter,
                                         loadFeatureWriters,
                                         ast
                                         )
-from ufo2ft                     import (compileInterpolatableOTFsFromDS,
+from ufo2ft                             import (compileInterpolatableOTFsFromDS,
                                         compileInterpolatableTTFsFromDS,
                                         postProcessor,
                                         compileTTF
