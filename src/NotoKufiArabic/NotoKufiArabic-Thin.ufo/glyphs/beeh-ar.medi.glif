@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="beeh-ar.medi" format="2">
+  <advance width="268"/>
+  <note>
+uni067B.medi
+</note>
+  <anchor x="138" y="-296" name="bottom"/>
+  <anchor x="147" y="548" name="top"/>
+  <anchor x="135" y="0" name="ring"/>
+  <outline>
+    <component base="behDotless-ar.medi"/>
+    <component base="twodots.vert.below" xOffset="140"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:43:57</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

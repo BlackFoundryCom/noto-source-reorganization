@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonTahabove-ar.medi" format="2">
+  <advance width="325"/>
+  <guideline x="189" y="505" angle="0"/>
+  <anchor x="145" y="-5" name="bottom"/>
+  <anchor x="200" y="972" name="top"/>
+  <outline>
+    <component base="alefMaksura-ar.medi"/>
+    <component base="dotabove-ar" xOffset="126" yOffset="-64"/>
+    <component base="uniFBC0" xOffset="58" yOffset="105"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

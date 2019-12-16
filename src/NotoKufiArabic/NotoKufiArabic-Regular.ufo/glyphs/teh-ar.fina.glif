@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="teh-ar.fina" format="2">
+  <advance width="821"/>
+  <note>
+uni062A.fina
+</note>
+  <anchor x="388" y="-78" name="bottom"/>
+  <anchor x="372" y="658" name="top"/>
+  <anchor x="411" y="0" name="ring"/>
+  <outline>
+    <component base="behDotless-ar.fina"/>
+    <component base="twodots.above" xOffset="380" yOffset="-95"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:43:38</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

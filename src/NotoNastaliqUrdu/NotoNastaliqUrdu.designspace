@@ -8,25 +8,33 @@
   </axes>
   <sources>
     <source filename="NotoNastaliqUrdu-Regular.ufo" name="Noto Nastaliq Urdu Regular" familyname="NotoNastaliqUrdu" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="90"/>
       </location>
     </source>
     <source filename="NotoNastaliqUrdu-Bold.ufo" name="Noto Nastaliq Urdu Bold" familyname="NotoNastaliqUrdu" stylename="Bold">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="190"/>
       </location>
     </source>
   </sources>
   <instances>
-    <instance name="Noto Nastaliq Urdu Regular" familyname="NotoNastaliqUrdu" stylename="Regular" filename="Noto Nastaliq Urdu Regular">
+    <instance name="Noto Nastaliq Urdu Regular" familyname="NotoNastaliqUrdu" stylename="Regular" filename="instance_ufos/NotoNastaliqUrdu-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="90"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Nastaliq Urdu Bold" familyname="NotoNastaliqUrdu" stylename="Bold" filename="Noto Nastaliq Urdu Bold">
+    <instance name="Noto Nastaliq Urdu Bold" familyname="NotoNastaliqUrdu" stylename="Bold" filename="instance_ufos/NotoNastaliqUrdu-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="190"/>
       </location>

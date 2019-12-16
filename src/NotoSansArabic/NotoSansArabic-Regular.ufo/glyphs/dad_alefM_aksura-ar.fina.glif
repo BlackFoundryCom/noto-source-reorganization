@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dad_alefMaksura-ar.fina" format="2">
+  <advance width="1685"/>
+  <unicode hex="FD23"/>
+  <anchor x="736" y="0" name="caret_1"/>
+  <anchor x="1220" y="-18" name="bottom_1"/>
+  <anchor x="326" y="-232" name="bottom_2"/>
+  <anchor x="1388" y="571" name="top_1"/>
+  <anchor x="216" y="150" name="top_2"/>
+  <outline>
+    <component base="dad-ar.medi" xOffset="736"/>
+    <component base="alefMaksura-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dad-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alefMaksura-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

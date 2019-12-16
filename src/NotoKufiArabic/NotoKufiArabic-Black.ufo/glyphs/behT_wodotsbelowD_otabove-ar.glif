@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="behTwodotsbelowDotabove-ar" format="2">
+  <advance width="926"/>
+  <unicode hex="0754"/>
+  <note>
+uni0754
+</note>
+  <anchor x="450" y="-321" name="bottom"/>
+  <anchor x="459" y="723" name="top"/>
+  <anchor x="464" y="0" name="ring"/>
+  <outline>
+    <component base="behDotless-ar"/>
+    <component base="twodots.below" xOffset="438"/>
+    <component base="onedot.above" xOffset="436" yOffset="-78"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:42:03</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

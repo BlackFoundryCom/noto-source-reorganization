@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gafTwodotsbelow-ar" format="2">
+  <advance width="729"/>
+  <unicode hex="06B2"/>
+  <note>
+uni06B2
+</note>
+  <anchor x="388" y="-182" name="bottom"/>
+  <anchor x="288" y="791" name="top"/>
+  <outline>
+    <component base="keheh-ar"/>
+    <component base="diagonal" xOffset="236"/>
+    <component base="twodots.below" xOffset="388" yOffset="-10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/18 16:53:13</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

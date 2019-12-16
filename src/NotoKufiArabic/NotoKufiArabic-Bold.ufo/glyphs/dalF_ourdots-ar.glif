@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dalFourdots-ar" format="2">
+  <advance width="595"/>
+  <unicode hex="0690"/>
+  <note>
+uni0690
+</note>
+  <anchor x="298" y="-78" name="bottom"/>
+  <anchor x="186" y="979" name="top"/>
+  <outline>
+    <component base="dal-ar"/>
+    <component base="fourdots.above" xOffset="179" yOffset="70"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:39:14</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

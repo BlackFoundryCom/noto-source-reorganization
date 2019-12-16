@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gafRing-ar.fina" format="2">
+  <advance width="937"/>
+  <note>
+uni06B0.fina
+</note>
+  <anchor x="469" y="-78" name="bottom"/>
+  <anchor x="469" y="890" name="top"/>
+  <outline>
+    <component base="kafRing-ar.fina" xOffset="1"/>
+    <component base="diagonal" xOffset="305" yOffset="-21"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/09 13:18:53</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="thalAlefabove-ar" format="2">
+  <advance width="517"/>
+  <unicode hex="FC5B"/>
+  <anchor x="245" y="-5" name="bottom"/>
+  <anchor x="444" y="801" name="top"/>
+  <outline>
+    <component base="thal-ar"/>
+    <component base="alefabove-ar" xOffset="350" yOffset="27"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

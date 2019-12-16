@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="behThreedotsupbelow-ar.init" format="2">
+  <advance width="424"/>
+  <note>
+uni0752.init
+</note>
+  <anchor x="174" y="-374" name="bottom"/>
+  <anchor x="256" y="568" name="top"/>
+  <outline>
+    <component base="beh_dotless_alt.init"/>
+    <component base="threedots.rev.below" xOffset="166" yOffset="-20"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/16 15:23:31</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

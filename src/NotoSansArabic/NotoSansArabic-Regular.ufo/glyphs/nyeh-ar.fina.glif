@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nyeh-ar.fina" format="2">
+  <advance width="719"/>
+  <unicode hex="FB77"/>
+  <anchor x="311" y="416" name="top"/>
+  <anchor x="370" y="-394" name="bottom"/>
+  <anchor x="379" y="44" name="center"/>
+  <outline>
+    <component base="hah-ar.fina.wide"/>
+    <component base="twodotshorizontalabove-ar.small" xOffset="194" yOffset="-712"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

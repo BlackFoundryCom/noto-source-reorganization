@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hahThreedotsupbelow-ar" format="2">
+  <advance width="514"/>
+  <unicode hex="0758"/>
+  <anchor x="322" y="-394" name="bottom"/>
+  <anchor x="314" y="54" name="center"/>
+  <anchor x="334" y="46" name="top"/>
+  <outline>
+    <component base="hah-ar.wide"/>
+    <component base="threedotsupabove-ar.small" xOffset="189" yOffset="-724"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

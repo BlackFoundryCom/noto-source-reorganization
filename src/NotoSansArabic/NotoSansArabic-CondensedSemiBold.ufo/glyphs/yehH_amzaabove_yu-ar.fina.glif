@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehHamzaabove_yu-ar.fina" format="2">
+  <advance width="758"/>
+  <unicode hex="FBF5"/>
+  <anchor x="455" y="0" name="caret_1"/>
+  <anchor x="595" y="-5" name="bottom_1"/>
+  <anchor x="247" y="-231" name="bottom_2"/>
+  <anchor x="626" y="595" name="top_1"/>
+  <anchor x="224" y="704" name="top_2"/>
+  <outline>
+    <component base="yehHamzaabove-ar.medi" xOffset="459"/>
+    <component base="yu-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>yehHamzaabove-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>yu-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:53</string>
+    </dict>
+  </lib>
+</glyph>

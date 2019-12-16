@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefWasla-ar" format="2">
+  <advance width="349"/>
+  <unicode hex="0671"/>
+  <note>
+uni0671
+</note>
+  <anchor x="175" y="-78" name="bottom"/>
+  <anchor x="175" y="980" name="top"/>
+  <anchor x="20" y="-80" name="bottomleft"/>
+  <anchor x="175" y="445" name="center"/>
+  <anchor x="20" y="750" name="topleft"/>
+  <outline>
+    <component base="alef_alt-hb.isol"/>
+    <component base="wasla" xOffset="174"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/22 16:45:14</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dalTwodotsverticalbelowTahabove-ar" format="2">
+  <advance width="307"/>
+  <unicode hex="0759"/>
+  <anchor x="133" y="-275" name="bottom"/>
+  <anchor x="114" y="850" name="top"/>
+  <outline>
+    <component base="dal-ar"/>
+    <component base="uniFBC0" xOffset="-14" yOffset="13"/>
+    <component base="twodotsverticalbelow-ar" xOffset="56" yOffset="-5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dal-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dal-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+    </dict>
+  </lib>
+</glyph>

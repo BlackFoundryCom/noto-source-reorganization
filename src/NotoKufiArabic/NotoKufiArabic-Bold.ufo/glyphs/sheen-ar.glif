@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sheen-ar" format="2">
+  <advance width="1411"/>
+  <unicode hex="0634"/>
+  <note>
+uni0634
+</note>
+  <anchor x="916" y="-78" name="bottom"/>
+  <anchor x="911" y="904" name="top"/>
+  <outline>
+    <component base="seen-ar"/>
+    <component base="threedots.above" xOffset="917"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:37:31</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

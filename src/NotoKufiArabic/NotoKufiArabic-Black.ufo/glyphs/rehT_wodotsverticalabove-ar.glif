@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehTwodotsverticalabove-ar" format="2">
+  <advance width="513"/>
+  <unicode hex="076B"/>
+  <note>
+uni076B
+</note>
+  <anchor x="171" y="-323" name="bottom"/>
+  <anchor x="304" y="599" name="top"/>
+  <outline>
+    <component base="reh-ar"/>
+    <component base="twodots.vert.above" xOffset="331"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:38:06</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hehHamzaabove-ar" format="2">
+  <advance width="563"/>
+  <unicode hex="06C0"/>
+  <note>
+uni06C0
+</note>
+  <anchor x="282" y="-78" name="bottom"/>
+  <anchor x="264" y="806" name="top"/>
+  <outline>
+    <component base="heh-ar"/>
+    <component base="hamzaabove-ar" xOffset="282" yOffset="-163"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/20 09:23:40</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

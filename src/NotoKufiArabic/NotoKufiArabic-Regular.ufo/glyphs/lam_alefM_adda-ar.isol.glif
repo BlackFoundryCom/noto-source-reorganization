@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam_alefMadda-ar.isol" format="2">
+  <advance width="674"/>
+  <note>
+uni06440622.isol
+</note>
+  <anchor x="569" y="-71" name="bottom_1"/>
+  <anchor x="224" y="-78" name="bottom_2"/>
+  <anchor x="337" y="0" name="caret_1"/>
+  <anchor x="522" y="835" name="top_1"/>
+  <anchor x="144" y="880" name="top_2"/>
+  <anchor x="566" y="-78" name="bottom_2_ligComponent_1"/>
+  <anchor x="225" y="-78" name="bottom_2_ligComponent_2"/>
+  <anchor x="518" y="830" name="top_2_ligComponent_1"/>
+  <anchor x="146" y="713" name="top_2_ligComponent_2"/>
+  <outline>
+    <component base="lam_alef-ar.isol"/>
+    <component base="madda-ar" xOffset="170" yOffset="-60"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/17 13:10:33</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

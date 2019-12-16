@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tchehDotabove-ar" format="2">
+  <advance width="659"/>
+  <unicode hex="06BF"/>
+  <anchor x="312" y="618" name="top"/>
+  <anchor x="370" y="-394" name="bottom"/>
+  <anchor x="380" y="54" name="center"/>
+  <outline>
+    <component base="tcheh-ar"/>
+    <component base="dotabove-ar" xOffset="236" yOffset="-47"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>tcheh-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>tcheh-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

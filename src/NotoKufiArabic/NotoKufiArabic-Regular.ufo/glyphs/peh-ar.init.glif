@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="peh-ar.init" format="2">
+  <advance width="374"/>
+  <note>
+uni067E.init
+</note>
+  <anchor x="142" y="-380" name="bottom"/>
+  <anchor x="201" y="559" name="top"/>
+  <outline>
+    <component base="beh_dotless_alt.init"/>
+    <component base="threedots.below" xOffset="142"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:44:03</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

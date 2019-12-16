@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehVinverted-farsi" format="2">
+  <advance width="652"/>
+  <unicode hex="063D"/>
+  <anchor x="318" y="-230" name="bottom"/>
+  <anchor x="217" y="477" name="top"/>
+  <outline>
+    <component base="alefMaksura-ar"/>
+    <component base="vinvertedabove-ar" xOffset="113" yOffset="-280"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehRing-ar" format="2">
+  <advance width="358"/>
+  <unicode hex="0693"/>
+  <guideline x="-113" y="-217" angle="0"/>
+  <guideline x="43" y="-147" angle="0"/>
+  <guideline x="56" y="18" angle="0"/>
+  <guideline x="268" y="-82" angle="270"/>
+  <anchor x="131" y="-217" name="bottom"/>
+  <anchor x="169" y="351" name="top"/>
+  <outline>
+    <component base="reh-ar"/>
+    <component base="ringArabic" xOffset="128" yOffset="-219"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+    </dict>
+  </lib>
+</glyph>

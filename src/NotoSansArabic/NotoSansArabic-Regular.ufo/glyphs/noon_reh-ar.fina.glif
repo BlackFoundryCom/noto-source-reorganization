@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noon_reh-ar.fina" format="2">
+  <advance width="739"/>
+  <unicode hex="FC8A"/>
+  <anchor x="396" y="0" name="caret_1"/>
+  <anchor x="566" y="-5" name="bottom_1"/>
+  <anchor x="83" y="-217" name="bottom_2"/>
+  <anchor x="583" y="485" name="top_1"/>
+  <anchor x="162" y="351" name="top_2"/>
+  <outline>
+    <component base="noon-ar.medi" xOffset="396"/>
+    <component base="reh-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>noon-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>reh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

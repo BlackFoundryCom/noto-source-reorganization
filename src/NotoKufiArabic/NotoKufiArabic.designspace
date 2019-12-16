@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400"/>
+  </axes>
+  <sources>
+    <source filename="NotoKufiArabic-Thin.ufo" name="Noto Kufi Arabic Thin" familyname="NotoKufiArabic" stylename="Thin">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoKufiArabic-Regular.ufo" name="Noto Kufi Arabic Regular" familyname="NotoKufiArabic" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </source>
+    <source filename="NotoKufiArabic-Bold.ufo" name="Noto Kufi Arabic Bold" familyname="NotoKufiArabic" stylename="Bold">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+      </location>
+    </source>
+    <source filename="NotoKufiArabic-Black.ufo" name="Noto Kufi Arabic Black" familyname="NotoKufiArabic" stylename="Black">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Kufi Arabic Thin" familyname="NotoKufiArabic" stylename="Thin" filename="instance_ufos/NotoKufiArabic-Thin.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Kufi Arabic Extra Light" familyname="NotoKufiArabic" stylename="Extra Light" filename="instance_ufos/NotoKufiArabic-ExtraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Kufi Arabic Light" familyname="NotoKufiArabic" stylename="Light" filename="instance_ufos/NotoKufiArabic-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="300"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Kufi Arabic Regular" familyname="NotoKufiArabic" stylename="Regular" filename="instance_ufos/NotoKufiArabic-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Kufi Arabic Medium" familyname="NotoKufiArabic" stylename="Medium" filename="instance_ufos/NotoKufiArabic-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Kufi Arabic Semi Bold" familyname="NotoKufiArabic" stylename="Semi Bold" filename="instance_ufos/NotoKufiArabic-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Kufi Arabic Bold" familyname="NotoKufiArabic" stylename="Bold" filename="instance_ufos/NotoKufiArabic-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Kufi Arabic Extra Bold" familyname="NotoKufiArabic" stylename="Extra Bold" filename="instance_ufos/NotoKufiArabic-ExtraBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="800"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Kufi Arabic Black" familyname="NotoKufiArabic" stylename="Black" filename="instance_ufos/NotoKufiArabic-Black.ufo">
+      <location>
+        <dimension name="Weight" xvalue="900"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+</designspace>

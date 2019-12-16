@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dul-ar.fina" format="2">
+  <advance width="485"/>
+  <unicode hex="FB87"/>
+  <anchor x="157" y="-5" name="bottom"/>
+  <anchor x="227" y="915" name="top"/>
+  <outline>
+    <component base="dal-ar.fina"/>
+    <component base="threedotsupabove-ar" xOffset="85" yOffset="92"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

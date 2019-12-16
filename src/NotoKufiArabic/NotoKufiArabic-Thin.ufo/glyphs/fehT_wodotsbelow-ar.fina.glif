@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fehTwodotsbelow-ar.fina" format="2">
+  <advance width="954"/>
+  <note>
+uni0760.fina
+</note>
+  <anchor x="732" y="-78" name="bottom"/>
+  <anchor x="732" y="556" name="top"/>
+  <outline>
+    <component base="fehDotless-ar.fina"/>
+    <component base="twodots.below" xOffset="756"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/20 09:43:13</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

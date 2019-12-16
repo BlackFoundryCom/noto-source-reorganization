@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hahTwodotshorizontalabove-ar.fina" format="2">
+  <advance width="583"/>
+  <note>
+uni0757.fina
+</note>
+  <anchor x="239" y="-393" name="bottom"/>
+  <anchor x="219" y="701" name="top"/>
+  <anchor x="301" y="445" name="center"/>
+  <outline>
+    <component base="hah-ar.fina"/>
+    <component base="twodots.above" xOffset="218"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:40:10</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dadDotbelow-ar" format="2">
+  <advance width="1168"/>
+  <unicode hex="06FB"/>
+  <note>
+uni06FB
+</note>
+  <anchor x="824" y="-300" name="bottom"/>
+  <anchor x="824" y="730" name="top"/>
+  <outline>
+    <component base="sad-ar"/>
+    <component base="onedot.above" xOffset="834"/>
+    <component base="onedot.below" xOffset="838" yOffset="-67"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:36:37</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

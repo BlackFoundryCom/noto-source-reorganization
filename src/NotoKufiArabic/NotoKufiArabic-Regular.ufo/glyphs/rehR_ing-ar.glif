@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehRing-ar" format="2">
+  <advance width="325"/>
+  <unicode hex="0693"/>
+  <note>
+uni0693
+</note>
+  <anchor x="208" y="-393" name="bottom"/>
+  <anchor x="163" y="540" name="top"/>
+  <outline>
+    <component base="reh-ar"/>
+    <component base="sukun-ar" xOffset="217" yOffset="-1177"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/21 15:42:15</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

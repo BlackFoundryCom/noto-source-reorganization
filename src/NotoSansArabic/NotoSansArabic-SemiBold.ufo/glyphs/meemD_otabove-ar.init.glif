@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="meemDotabove-ar.init" format="2">
+  <advance width="582"/>
+  <anchor x="312" y="0" name="bottom"/>
+  <anchor x="345" y="658" name="top"/>
+  <outline>
+    <component base="meem-ar.init"/>
+    <component base="dotabove-ar" xOffset="245" yOffset="-34"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

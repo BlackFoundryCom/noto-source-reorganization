@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afghani-ar" format="2">
+  <advance width="585"/>
+  <unicode hex="060B"/>
+  <note>
+uni060B
+</note>
+  <anchor x="304" y="-303" name="bottom"/>
+  <anchor x="293" y="566" name="top"/>
+  <outline>
+    <component base="qafDotless-ar.init"/>
+    <component base="onedot.above" xOffset="310"/>
+    <component base="alefbelow-ar" xOffset="304" yOffset="106"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/20 21:28:51</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonTahabove-ar.init" format="2">
+  <advance width="389.33333"/>
+  <note>
+uni0768.init
+</note>
+  <anchor x="194" y="-78" name="bottom"/>
+  <anchor x="224" y="1072" name="top"/>
+  <anchor x="194" y="0" name="ring"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+    <component base="tahabove-ar" xOffset="195" yOffset="222"/>
+    <component base="onedot.above" xOffset="196"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/17 13:08:40</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

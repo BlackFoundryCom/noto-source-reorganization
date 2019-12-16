@@ -15,84 +15,100 @@
   </axes>
   <sources>
     <source filename="NotoSansThaana-Light.ufo" name="Noto Sans Thaana Light" familyname="NotoSansThaana" stylename="Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="26"/>
       </location>
     </source>
     <source filename="NotoSansThaana-Regular.ufo" name="Noto Sans Thaana Regular" familyname="NotoSansThaana" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="90"/>
       </location>
     </source>
     <source filename="NotoSansThaana-SemiBold.ufo" name="Noto Sans Thaana SemiBold" familyname="NotoSansThaana" stylename="SemiBold">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="151"/>
       </location>
     </source>
     <source filename="NotoSansThaana-Bold.ufo" name="Noto Sans Thaana Bold" familyname="NotoSansThaana" stylename="Bold">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="190"/>
       </location>
     </source>
   </sources>
   <instances>
-    <instance name="Noto Sans Thaana Thin" familyname="NotoSansThaana" stylename="Thin" filename="Noto Sans Thaana Thin">
+    <instance name="Noto Sans Thaana Thin" familyname="NotoSansThaana" stylename="Thin" filename="instance_ufos/NotoSansThaana-Thin.ufo">
       <location>
         <dimension name="Weight" xvalue="26"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Thaana ExtraLight" familyname="NotoSansThaana" stylename="ExtraLight" filename="Noto Sans Thaana ExtraLight">
+    <instance name="Noto Sans Thaana ExtraLight" familyname="NotoSansThaana" stylename="ExtraLight" filename="instance_ufos/NotoSansThaana-ExtraLight.ufo">
       <location>
         <dimension name="Weight" xvalue="39"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Thaana Light" familyname="NotoSansThaana" stylename="Light" filename="Noto Sans Thaana Light">
+    <instance name="Noto Sans Thaana Light" familyname="NotoSansThaana" stylename="Light" filename="instance_ufos/NotoSansThaana-Light.ufo">
       <location>
         <dimension name="Weight" xvalue="58"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Thaana Regular" familyname="NotoSansThaana" stylename="Regular" filename="Noto Sans Thaana Regular">
+    <instance name="Noto Sans Thaana Regular" familyname="NotoSansThaana" stylename="Regular" filename="instance_ufos/NotoSansThaana-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="90"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Thaana Medium" familyname="NotoSansThaana" stylename="Medium" filename="Noto Sans Thaana Medium">
+    <instance name="Noto Sans Thaana Medium" familyname="NotoSansThaana" stylename="Medium" filename="instance_ufos/NotoSansThaana-Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="108"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Thaana SemiBold" familyname="NotoSansThaana" stylename="SemiBold" filename="Noto Sans Thaana SemiBold">
+    <instance name="Noto Sans Thaana SemiBold" familyname="NotoSansThaana" stylename="SemiBold" filename="instance_ufos/NotoSansThaana-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="128"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Thaana Bold" familyname="NotoSansThaana" stylename="Bold" filename="Noto Sans Thaana Bold">
+    <instance name="Noto Sans Thaana Bold" familyname="NotoSansThaana" stylename="Bold" filename="instance_ufos/NotoSansThaana-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="151"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Thaana ExtraBold" familyname="NotoSansThaana" stylename="ExtraBold" filename="Noto Sans Thaana ExtraBold">
+    <instance name="Noto Sans Thaana ExtraBold" familyname="NotoSansThaana" stylename="ExtraBold" filename="instance_ufos/NotoSansThaana-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="169"/>
       </location>
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Thaana Black" familyname="NotoSansThaana" stylename="Black" filename="Noto Sans Thaana Black">
+    <instance name="Noto Sans Thaana Black" familyname="NotoSansThaana" stylename="Black" filename="instance_ufos/NotoSansThaana-Black.ufo">
       <location>
         <dimension name="Weight" xvalue="190"/>
       </location>

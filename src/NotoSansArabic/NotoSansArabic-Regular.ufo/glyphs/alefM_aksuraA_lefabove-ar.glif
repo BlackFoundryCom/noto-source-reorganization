@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefMaksuraAlefabove-ar" format="2">
+  <advance width="760"/>
+  <unicode hex="FC5D"/>
+  <anchor x="356" y="-232" name="bottom"/>
+  <anchor x="209" y="467" name="top"/>
+  <outline>
+    <component base="alefMaksura-ar"/>
+    <component base="alefabove-ar" xOffset="138" yOffset="-308"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+    </dict>
+  </lib>
+</glyph>

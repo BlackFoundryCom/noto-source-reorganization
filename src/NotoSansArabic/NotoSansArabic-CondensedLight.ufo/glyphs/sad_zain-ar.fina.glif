@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sad_zain-ar.fina" format="2">
+  <advance width="968"/>
+  <anchor x="266" y="0" name="caret_1"/>
+  <anchor x="632" y="-18" name="bottom_1"/>
+  <anchor x="97" y="-217" name="bottom_2"/>
+  <anchor x="756" y="320" name="top_1"/>
+  <anchor x="93" y="535" name="top_2"/>
+  <outline>
+    <component base="sad-ar.init" xOffset="265"/>
+    <component base="zain-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>sad-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>zain-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seenTahTwodotshorizontalabove-ar" format="2">
+  <advance width="892"/>
+  <unicode hex="0770"/>
+  <anchor x="599" y="-5" name="bottom"/>
+  <anchor x="603" y="829" name="top"/>
+  <outline>
+    <component base="seen-ar"/>
+    <component base="twodotshorizontalabove-ar" xOffset="459" yOffset="-130"/>
+    <component base="uniFBC0" xOffset="475" yOffset="-8"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>seen-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>seen-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="theh-ar" format="2">
+  <advance width="867"/>
+  <unicode hex="062B"/>
+  <note>
+uni062B
+</note>
+  <anchor x="434" y="-78" name="bottom"/>
+  <anchor x="407" y="819" name="top"/>
+  <anchor x="434" y="0" name="ring"/>
+  <outline>
+    <component base="behDotless-ar"/>
+    <component base="threedots.above" xOffset="407" yOffset="-85"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:43:12</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamBar-ar.init" format="2">
+  <advance width="268"/>
+  <anchor x="91" y="0" name="bottom"/>
+  <anchor x="129" y="707" name="top"/>
+  <outline>
+    <component base="lam-ar.init"/>
+    <component base="_barshort" xOffset="8"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

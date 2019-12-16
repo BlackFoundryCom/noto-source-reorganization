@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonThreedotsabove-ar" format="2">
+  <advance width="820.33333"/>
+  <unicode hex="06BD"/>
+  <note>
+uni06BD
+</note>
+  <anchor x="373" y="-283" name="bottom"/>
+  <anchor x="322" y="717" name="top"/>
+  <outline>
+    <component base="noonghunna-ar"/>
+    <component base="threedots.above" xOffset="307" yOffset="-214"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/22 14:39:02</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="meemThreedotsabove-ar" format="2">
+  <advance width="619"/>
+  <unicode hex="08A7"/>
+  <guideline x="468" y="567" angle="0"/>
+  <anchor x="329" y="0" name="bottom"/>
+  <anchor x="306" y="821" name="top"/>
+  <outline>
+    <component base="meem-ar"/>
+    <component base="threedotsabove-ar" xOffset="148" yOffset="-34"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

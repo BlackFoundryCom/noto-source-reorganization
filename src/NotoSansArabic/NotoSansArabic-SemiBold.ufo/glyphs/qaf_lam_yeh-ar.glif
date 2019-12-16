@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="qaf_lam_yeh-ar" format="2">
+  <advance width="1410"/>
+  <unicode hex="FDF1"/>
+  <anchor x="1126" y="-17" name="bottom_1"/>
+  <anchor x="728" y="-2" name="bottom_2"/>
+  <anchor x="441" y="-298" name="bottom_3"/>
+  <anchor x="1168" y="812" name="top_1"/>
+  <anchor x="732" y="732" name="top_2"/>
+  <anchor x="189" y="108" name="top_3"/>
+  <outline>
+    <component base="qaf-ar.init" xOffset="905"/>
+    <component base="lam-ar.medi" xOffset="561"/>
+    <component base="yehbarree-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ainThreedots-ar" format="2">
+  <advance width="476"/>
+  <unicode hex="06A0"/>
+  <anchor x="322" y="-388" name="bottom"/>
+  <anchor x="264" y="933" name="top"/>
+  <outline>
+    <component base="ain-ar"/>
+    <component base="threedotsupabove-ar" xOffset="122" yOffset="110"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

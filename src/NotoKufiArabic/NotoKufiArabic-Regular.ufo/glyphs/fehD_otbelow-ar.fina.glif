@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fehDotbelow-ar.fina" format="2">
+  <advance width="1032"/>
+  <note>
+uni06A3.fina
+</note>
+  <anchor x="741" y="-238" name="bottom"/>
+  <anchor x="731" y="736" name="top"/>
+  <outline>
+    <component base="fehDotless-ar.fina"/>
+    <component base="onedot.below" xOffset="750"/>
+    <component base="onedot.above" xOffset="738"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/09 09:13:02</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

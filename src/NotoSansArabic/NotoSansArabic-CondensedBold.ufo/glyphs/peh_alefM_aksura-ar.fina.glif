@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="peh_alefMaksura-ar.fina" format="2">
+  <advance width="1075"/>
+  <anchor x="706" y="0" name="caret_1"/>
+  <anchor x="885" y="-390" name="bottom_1"/>
+  <anchor x="347" y="-230" name="bottom_2"/>
+  <anchor x="894" y="509" name="top_1"/>
+  <anchor x="208" y="214" name="top_2"/>
+  <outline>
+    <component base="peh-ar.init" xOffset="706"/>
+    <component base="alefMaksura-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>peh-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alefMaksura-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

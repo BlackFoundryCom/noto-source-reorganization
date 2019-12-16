@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dad_heh-ar.medi" format="2">
+  <advance width="1530"/>
+  <anchor x="556" y="0" name="caret_1"/>
+  <anchor x="1074" y="-18" name="bottom_1"/>
+  <anchor x="329" y="0" name="bottom_2"/>
+  <anchor x="1251" y="676" name="top_1"/>
+  <anchor x="288" y="600" name="top_2"/>
+  <outline>
+    <component base="dad-ar.init" xOffset="556"/>
+    <component base="heh-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dad-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>heh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

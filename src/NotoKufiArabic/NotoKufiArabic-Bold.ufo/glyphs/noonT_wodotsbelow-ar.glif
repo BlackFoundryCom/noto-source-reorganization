@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonTwodotsbelow-ar" format="2">
+  <advance width="761"/>
+  <unicode hex="0767"/>
+  <note>
+uni0767
+</note>
+  <anchor x="371" y="-510" name="bottom"/>
+  <anchor x="351" y="690" name="top"/>
+  <outline>
+    <component base="noonghunna-ar"/>
+    <component base="twodots.small.below" xOffset="380" yOffset="-220"/>
+    <component base="onedot.above" xOffset="359" yOffset="-85"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/17 13:07:38</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

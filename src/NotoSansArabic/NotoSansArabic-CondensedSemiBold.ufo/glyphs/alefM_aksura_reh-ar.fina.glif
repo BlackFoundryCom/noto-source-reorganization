@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefMaksura_reh-ar.fina" format="2">
+  <advance width="607"/>
+  <anchor x="338" y="0" name="caret_1"/>
+  <anchor x="454" y="-5" name="bottom_1"/>
+  <anchor x="128" y="-214" name="bottom_2"/>
+  <anchor x="443" y="466" name="top_1"/>
+  <anchor x="100" y="395" name="top_2"/>
+  <outline>
+    <component base="alefMaksura-ar.init" xOffset="348"/>
+    <component base="reh-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>alefMaksura-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>reh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:53</string>
+    </dict>
+  </lib>
+</glyph>

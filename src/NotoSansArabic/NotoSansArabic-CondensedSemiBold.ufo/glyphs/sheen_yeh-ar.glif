@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sheen_yeh-ar" format="2">
+  <advance width="1487"/>
+  <unicode hex="FCFE"/>
+  <anchor x="673" y="0" name="caret_1"/>
+  <anchor x="1067" y="-5" name="bottom_1"/>
+  <anchor x="325" y="-448" name="bottom_2"/>
+  <anchor x="1109" y="766" name="top_1"/>
+  <anchor x="198" y="214" name="top_2"/>
+  <outline>
+    <component base="sheen-ar.init" xOffset="673"/>
+    <component base="yeh-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>sheen-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>yeh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

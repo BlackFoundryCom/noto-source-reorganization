@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefHamzaabove-ar.fina" format="2">
+  <advance width="263"/>
+  <note>
+uni0623.fina
+</note>
+  <anchor x="141" y="-78" name="bottom"/>
+  <anchor x="111" y="986" name="top"/>
+  <anchor x="20" y="0" name="bottomleft"/>
+  <anchor x="119" y="445" name="center"/>
+  <anchor x="20" y="770" name="topleft"/>
+  <outline>
+    <component base="alef_alt-hb.fina"/>
+    <component base="hamzaabove-ar" xOffset="150"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/16 15:13:55</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="feh_khah-ar" format="2">
+  <advance width="1321"/>
+  <unicode hex="FC2F"/>
+  <anchor x="771" y="0" name="caret_1"/>
+  <anchor x="1004" y="-25" name="bottom_1"/>
+  <anchor x="398" y="-424" name="bottom_2"/>
+  <anchor x="411" y="141" name="center"/>
+  <anchor x="1040" y="843" name="top_1"/>
+  <anchor x="352" y="799" name="top_2"/>
+  <outline>
+    <component base="feh-ar.init" xOffset="771"/>
+    <component base="khah-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>feh-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>khah-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

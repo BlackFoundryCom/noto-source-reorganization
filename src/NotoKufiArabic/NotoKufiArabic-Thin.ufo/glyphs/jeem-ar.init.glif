@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jeem-ar.init" format="2">
+  <advance width="547"/>
+  <note>
+uni062C.init
+</note>
+  <anchor x="239" y="-193" name="bottom"/>
+  <anchor x="207" y="574" name="top"/>
+  <outline>
+    <component base="hah-ar.init"/>
+    <component base="onedot.below" xOffset="239"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/08 19:47:57</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

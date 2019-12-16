@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ainThreedots-ar.init" format="2">
+  <advance width="600"/>
+  <guideline x="210" y="624" angle="0"/>
+  <anchor x="321" y="-5" name="bottom"/>
+  <anchor x="283" y="916" name="top"/>
+  <outline>
+    <component base="ain-ar.init"/>
+    <component base="threedotsupabove-ar" xOffset="92" yOffset="86"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+    </dict>
+  </lib>
+</glyph>

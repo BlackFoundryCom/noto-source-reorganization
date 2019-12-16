@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zain-ar" format="2">
+  <advance width="438"/>
+  <unicode hex="0632"/>
+  <note>
+uni0632
+</note>
+  <anchor x="98" y="-293" name="bottom"/>
+  <anchor x="261" y="765" name="top"/>
+  <outline>
+    <component base="reh-ar"/>
+    <component base="onedot.above" xOffset="260"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:38:59</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sheen_meem-ar.medi" format="2">
+  <advance width="1555"/>
+  <unicode hex="FCE9"/>
+  <anchor x="605" y="0" name="caret_1"/>
+  <anchor x="1026" y="-5" name="bottom_1"/>
+  <anchor x="293" y="0" name="bottom_2"/>
+  <anchor x="1081" y="847" name="top_1"/>
+  <anchor x="326" y="453" name="top_2"/>
+  <outline>
+    <component base="sheen-ar.medi" xOffset="605"/>
+    <component base="meem-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>sheen-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>meem-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="veh-ar.fina" format="2">
+  <advance width="954"/>
+  <unicode hex="FB6B"/>
+  <note>
+veh.fina
+</note>
+  <anchor x="717" y="-78" name="bottom"/>
+  <anchor x="735" y="745" name="top"/>
+  <outline>
+    <component base="fehDotless-ar.fina"/>
+    <component base="threedots.above" xOffset="739" yOffset="20"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/21 15:51:45</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

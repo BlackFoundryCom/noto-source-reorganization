@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehbarree-ar" format="2">
+  <advance width="577"/>
+  <unicode hex="06D2"/>
+  <note>
+uni06D2
+</note>
+  <anchor x="391" y="-287" name="bottom"/>
+  <anchor x="293" y="391" name="top"/>
+  <outline>
+    <contour>
+      <point x="196" y="-203" type="curve" smooth="yes"/>
+      <point x="662" y="-203" type="line"/>
+      <point x="662" y="-125" type="line"/>
+      <point x="194" y="-125" type="line" smooth="yes"/>
+      <point x="158" y="-125"/>
+      <point x="134" y="-103.333"/>
+      <point x="134" y="-74" type="curve" smooth="yes"/>
+      <point x="134" y="-38"/>
+      <point x="147.667" y="-19.5"/>
+      <point x="185" y="2.5" type="curve" smooth="yes"/>
+      <point x="203.667" y="13.5"/>
+      <point x="241.333" y="30.667"/>
+      <point x="298" y="54" type="curve" smooth="yes"/>
+      <point x="414" y="102"/>
+      <point x="450.833" y="134"/>
+      <point x="471.5" y="182" type="curve" smooth="yes"/>
+      <point x="481.833" y="206"/>
+      <point x="487" y="237.333"/>
+      <point x="487" y="276" type="curve" smooth="yes"/>
+      <point x="487" y="315" type="line"/>
+      <point x="398" y="315" type="line"/>
+      <point x="398" y="276" type="line" smooth="yes"/>
+      <point x="398" y="214.667"/>
+      <point x="386.167" y="188.333"/>
+      <point x="349.5" y="163" type="curve" smooth="yes"/>
+      <point x="331.167" y="150.333"/>
+      <point x="296.667" y="133.333"/>
+      <point x="246" y="112" type="curve" smooth="yes"/>
+      <point x="149.797" y="73.086"/>
+      <point x="91.879" y="42.02"/>
+      <point x="63.5" y="-4" type="curve" smooth="yes"/>
+      <point x="51.167" y="-24"/>
+      <point x="45" y="-47.333"/>
+      <point x="45" y="-74" type="curve" smooth="yes"/>
+      <point x="45" y="-156.667"/>
+      <point x="100" y="-203"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>NPUSHB[ ]	/* 19 values pushed */
+11 14 22 3 14 3 28 26 29 11 22 13 27 27 26 70 89 27 13 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDAP[1]	/* MoveDirectAbsPt */
+CALL[ ]	/* CallFunction */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP2[ ]	/* SetRefPoint2 */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+SRP1[ ]	/* SetRefPoint1 */
+SHP[1]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/09 17:04:02</string>
+    </dict>
+  </lib>
+</glyph>

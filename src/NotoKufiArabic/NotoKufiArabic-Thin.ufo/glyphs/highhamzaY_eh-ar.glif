@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="highhamzaYeh-ar" format="2">
+  <advance width="795"/>
+  <unicode hex="0678"/>
+  <note>
+uni0678
+</note>
+  <anchor x="336" y="-328" name="bottom"/>
+  <anchor x="182" y="522" name="top"/>
+  <outline>
+    <component base="alefMaksura-ar"/>
+    <component base="hamzaabove-ar" xOffset="164" yOffset="-450"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/21 15:56:54</string>
+    </dict>
+  </lib>
+</glyph>

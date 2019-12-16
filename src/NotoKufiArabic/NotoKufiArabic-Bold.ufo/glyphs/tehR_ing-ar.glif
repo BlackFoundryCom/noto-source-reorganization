@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tehRing-ar" format="2">
+  <advance width="867"/>
+  <unicode hex="067C"/>
+  <note>
+uni067C
+</note>
+  <anchor x="434" y="-185" name="bottom"/>
+  <anchor x="402" y="668" name="top"/>
+  <anchor x="434" y="0" name="ring"/>
+  <outline>
+    <component base="behDotless-ar"/>
+    <component base="twodots.above" xOffset="406" yOffset="-95"/>
+    <component base="sukun-ar" xOffset="435" yOffset="-964"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:43:33</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

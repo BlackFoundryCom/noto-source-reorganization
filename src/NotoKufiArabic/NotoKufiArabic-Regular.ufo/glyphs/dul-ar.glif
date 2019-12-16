@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dul-ar" format="2">
+  <advance width="509"/>
+  <unicode hex="068E"/>
+  <note>
+uni068E
+</note>
+  <anchor x="255" y="-80" name="bottom"/>
+  <anchor x="165" y="920" name="top"/>
+  <outline>
+    <component base="dal-ar"/>
+    <component base="threedots.above" xOffset="177" yOffset="60"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:39:20</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

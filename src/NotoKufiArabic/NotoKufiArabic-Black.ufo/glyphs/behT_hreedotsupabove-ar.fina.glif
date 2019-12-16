@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="behThreedotsupabove-ar.fina" format="2">
+  <advance width="964"/>
+  <note>
+uni0751.fina
+</note>
+  <anchor x="444" y="-305" name="bottom"/>
+  <anchor x="429" y="846" name="top"/>
+  <anchor x="483" y="0" name="ring"/>
+  <outline>
+    <component base="behDotless-ar.fina"/>
+    <component base="onedot.below" xOffset="432"/>
+    <component base="threedots.above" xOffset="421" yOffset="-78"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:42:29</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

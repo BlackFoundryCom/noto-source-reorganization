@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamDotabove-ar.medi" format="2">
+  <advance width="286"/>
+  <guideline x="371" y="808" angle="0"/>
+  <anchor x="135" y="-3" name="bottom"/>
+  <anchor x="136" y="937" name="top"/>
+  <outline>
+    <component base="lam-ar.medi"/>
+    <component base="dotabove-ar" xOffset="45" yOffset="258"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

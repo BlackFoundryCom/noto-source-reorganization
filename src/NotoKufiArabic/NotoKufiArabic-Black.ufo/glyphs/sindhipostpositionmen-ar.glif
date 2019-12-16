@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sindhipostpositionmen-ar" format="2">
+  <advance width="759"/>
+  <unicode hex="06FE"/>
+  <note>
+uni06FE
+</note>
+  <anchor x="450" y="-596" name="bottom"/>
+  <anchor x="432" y="576" name="top"/>
+  <outline>
+    <component base="meem-ar"/>
+    <component base="alefbelow-ar" xOffset="453" yOffset="100"/>
+    <component base="alefbelow-ar" xOffset="450" yOffset="-144"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 18:26:37</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

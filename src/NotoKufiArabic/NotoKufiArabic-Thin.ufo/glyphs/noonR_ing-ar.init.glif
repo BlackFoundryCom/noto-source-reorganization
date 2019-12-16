@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonRing-ar.init" format="2">
+  <advance width="278"/>
+  <note>
+uni06BC.init
+</note>
+  <anchor x="102" y="-178" name="bottom"/>
+  <anchor x="148" y="694" name="top"/>
+  <anchor x="125" y="0" name="ring"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+    <component base="onedot.above" xOffset="157"/>
+    <component base="sukun-ar" xOffset="102" yOffset="-986"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/22 15:48:37</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -35,16 +35,19 @@ def newDS(designSpace, familyName):
 	#---------
 	for s in designSpace.sources:
 		src = SourceDescriptor()
-		src.path = s.path
+		#src.path = s.path
+		src.filename = s.filename
+		src.filename = s.filename
 		src.name = s.name
 		src.familyName = familyName
 		src.styleName = s.styleName
 		src.location = s.location
 		src.layerName = s.layerName
-		# src.copyLib = True
-		# src.copyInfo = True
-		# src.copyGroups = True
-		# src.copyFeatures = True
+		# Do we need to keep this True or False ?
+		src.copyLib = True
+		src.copyInfo = True
+		src.copyGroups = True
+		src.copyFeatures = True
 		newDS.addSource(src)
 
 	#-----------
@@ -54,9 +57,10 @@ def newDS(designSpace, familyName):
 	for i in designSpace.instances:
 		instance = InstanceDescriptor()
 		instance.name = i.name
+		instance.filename = i.filename
 		instance.familyName = familyName
 		instance.styleName = i.styleName
-		instance.path = i.name
+		#instance.path = i.name
 		instance.location = i.location
 		instance.kerning = True
 		instance.info = True

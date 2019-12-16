@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="behVabove-ar" format="2">
+  <advance width="1024"/>
+  <unicode hex="0756"/>
+  <anchor x="502" y="-25" name="bottom"/>
+  <anchor x="505" y="570" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar"/>
+    <component base="vabove-ar" xOffset="377" yOffset="-183"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

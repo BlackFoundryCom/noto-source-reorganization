@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sadTwodotsbelow-ar.init" format="2">
+  <advance width="710"/>
+  <note>
+uni069D.init
+</note>
+  <anchor x="379" y="-191" name="bottom"/>
+  <anchor x="410" y="586" name="top"/>
+  <outline>
+    <component base="sad-ar.init"/>
+    <component base="twodots.below" xOffset="380"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:36:57</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

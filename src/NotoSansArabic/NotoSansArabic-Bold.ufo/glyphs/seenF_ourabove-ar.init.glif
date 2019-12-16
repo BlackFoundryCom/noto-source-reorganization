@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seenFourabove-ar.init" format="2">
+  <advance width="1050"/>
+  <anchor x="529" y="-5" name="bottom"/>
+  <anchor x="570" y="426" name="top"/>
+  <outline>
+    <component base="seen-ar.init"/>
+    <component base="four-persian.small01" xOffset="465" yOffset="-102"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>seen-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>seen-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

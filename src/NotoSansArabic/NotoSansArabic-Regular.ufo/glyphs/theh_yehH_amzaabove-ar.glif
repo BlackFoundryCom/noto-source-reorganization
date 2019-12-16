@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="theh_yehHamzaabove-ar" format="2">
+  <advance width="1035"/>
+  <anchor x="736" y="0" name="caret_1"/>
+  <anchor x="849" y="-5" name="bottom_1"/>
+  <anchor x="326" y="-232" name="bottom_2"/>
+  <anchor x="886" y="716" name="top_1"/>
+  <anchor x="205" y="416" name="top_2"/>
+  <outline>
+    <component base="theh-ar.init" xOffset="736"/>
+    <component base="yehHamzaabove-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>theh-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>yehHamzaabove-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehDotbelow-ar" format="2">
+  <advance width="259"/>
+  <unicode hex="0694"/>
+  <anchor x="81" y="-384" name="bottom"/>
+  <anchor x="92" y="352" name="top"/>
+  <outline>
+    <component base="reh-ar"/>
+    <component base="dotbelow-ar" xOffset="30" yOffset="-217"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

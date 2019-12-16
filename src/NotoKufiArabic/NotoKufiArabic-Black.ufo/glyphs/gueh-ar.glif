@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gueh-ar" format="2">
+  <advance width="940"/>
+  <unicode hex="06B3"/>
+  <note>
+uni06B3
+</note>
+  <anchor x="497" y="-462" name="bottom"/>
+  <anchor x="419" y="997" name="top"/>
+  <outline>
+    <component base="keheh-ar"/>
+    <component base="diagonal" xOffset="309"/>
+    <component base="twodots.vert.below" xOffset="502" yOffset="60"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 18:58:20</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

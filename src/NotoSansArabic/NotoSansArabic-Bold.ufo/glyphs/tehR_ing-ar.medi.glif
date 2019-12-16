@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tehRing-ar.medi" format="2">
+  <advance width="410"/>
+  <guideline x="-171" y="503" angle="0"/>
+  <anchor x="123" y="-131" name="bottom"/>
+  <anchor x="242" y="676" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar.medi"/>
+    <component base="ringArabic" xOffset="-3" yOffset="-104"/>
+    <component base="twodotshorizontalabove-ar" xOffset="29" yOffset="-52"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+    </dict>
+  </lib>
+</glyph>

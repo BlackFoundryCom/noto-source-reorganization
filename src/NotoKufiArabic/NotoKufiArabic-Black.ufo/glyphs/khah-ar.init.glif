@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="khah-ar.init" format="2">
+  <advance width="635"/>
+  <note>
+uni062E.init
+</note>
+  <anchor x="267" y="-78" name="bottom"/>
+  <anchor x="265" y="773" name="top"/>
+  <outline>
+    <component base="hah-ar.init"/>
+    <component base="onedot.above" xOffset="249"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/16 16:02:37</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

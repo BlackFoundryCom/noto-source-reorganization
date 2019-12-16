@@ -1,0 +1,4148 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>com.schriftgestaltung.appVersion</key>
+    <string>1271</string>
+    <key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
+    <array>
+      <dict>
+        <key>Name</key>
+        <string>Weight</string>
+        <key>Tag</key>
+        <string>wght</string>
+      </dict>
+    </array>
+    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
+    <string></string>
+    <key>com.schriftgestaltung.customParameter.GSFont.Enforce Compatibility Check</key>
+    <integer>1</integer>
+    <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
+    <false/>
+    <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
+    <integer>1</integer>
+    <key>com.schriftgestaltung.customParameter.GSFontMaster.Axis Location</key>
+    <array>
+      <dict>
+        <key>Axis</key>
+        <string>Weight</string>
+        <key>Location</key>
+        <integer>700</integer>
+      </dict>
+    </array>
+    <key>com.schriftgestaltung.customParameter.GSFontMaster.Fpgm Table Assembly</key>
+    <string>NPUSHB[ ]	/* 71 values pushed */
+91 90 89 88 85 84 83 82 81 80 79 78 77 76 75 74 73 72 71 70 69 68 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 49 48 47 46 45 44 40 39 38 37 36 35 34 33 31 24 20 17 16 15 14 13 11 10 9 8 7 6 5 4 3 2 1 0 
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+1 
+ADD[ ]	/* Add */
+RCVT[ ]	/* ReadCVT */
+PUSHB[ ]	/* 1 value pushed */
+3 
+CINDEX[ ]	/* CopyXToTopStack */
+DUP[ ]	/* DuplicateTopStack */
+SRP1[ ]	/* SetRefPoint1 */
+GC[0]	/* GetCoordOnPVector */
+SUB[ ]	/* Subtract */
+SWAP[ ]	/* SwapTopStack */
+RCVT[ ]	/* ReadCVT */
+SWAP[ ]	/* SwapTopStack */
+SUB[ ]	/* Subtract */
+SCFS[ ]	/* SetCoordFromStackFP */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+RTG[ ]	/* RoundToGrid */
+ROUND[00]	/* Round */
+WCVTP[ ]	/* WriteCVTInPixels */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+RCVT[ ]	/* ReadCVT */
+SWAP[ ]	/* SwapTopStack */
+GC[0]	/* GetCoordOnPVector */
+ADD[ ]	/* Add */
+PUSHB[ ]	/* 1 value pushed */
+32 
+SUB[ ]	/* Subtract */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+70 
+ADD[ ]	/* Add */
+PUSHB[ ]	/* 1 value pushed */
+4 
+MINDEX[ ]	/* MoveXToTopStack */
+SWAP[ ]	/* SwapTopStack */
+SCFS[ ]	/* SetCoordFromStackFP */
+SCFS[ ]	/* SetCoordFromStackFP */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+RCVT[ ]	/* ReadCVT */
+SWAP[ ]	/* SwapTopStack */
+GC[0]	/* GetCoordOnPVector */
+SWAP[ ]	/* SwapTopStack */
+SUB[ ]	/* Subtract */
+PUSHB[ ]	/* 1 value pushed */
+32 
+ADD[ ]	/* Add */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+38 
+SUB[ ]	/* Subtract */
+PUSHB[ ]	/* 1 value pushed */
+32 
+SUB[ ]	/* Subtract */
+PUSHB[ ]	/* 1 value pushed */
+4 
+MINDEX[ ]	/* MoveXToTopStack */
+SWAP[ ]	/* SwapTopStack */
+SCFS[ ]	/* SetCoordFromStackFP */
+SCFS[ ]	/* SetCoordFromStackFP */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+RCVT[ ]	/* ReadCVT */
+SWAP[ ]	/* SwapTopStack */
+GC[0]	/* GetCoordOnPVector */
+ADD[ ]	/* Add */
+PUSHB[ ]	/* 1 value pushed */
+64 
+SUB[ ]	/* Subtract */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+102 
+ADD[ ]	/* Add */
+PUSHB[ ]	/* 1 value pushed */
+4 
+MINDEX[ ]	/* MoveXToTopStack */
+SWAP[ ]	/* SwapTopStack */
+SCFS[ ]	/* SetCoordFromStackFP */
+SCFS[ ]	/* SetCoordFromStackFP */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+RCVT[ ]	/* ReadCVT */
+SWAP[ ]	/* SwapTopStack */
+GC[0]	/* GetCoordOnPVector */
+SWAP[ ]	/* SwapTopStack */
+SUB[ ]	/* Subtract */
+PUSHB[ ]	/* 1 value pushed */
+64 
+ADD[ ]	/* Add */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+38 
+SUB[ ]	/* Subtract */
+PUSHB[ ]	/* 1 value pushed */
+64 
+SUB[ ]	/* Subtract */
+PUSHB[ ]	/* 1 value pushed */
+4 
+MINDEX[ ]	/* MoveXToTopStack */
+SWAP[ ]	/* SwapTopStack */
+SCFS[ ]	/* SetCoordFromStackFP */
+SCFS[ ]	/* SetCoordFromStackFP */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+SRP0[ ]	/* SetRefPoint0 */
+DUP[ ]	/* DuplicateTopStack */
+ALIGNRP[ ]	/* AlignRelativePt */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+ALIGNRP[ ]	/* AlignRelativePt */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+SWAP[ ]	/* SwapTopStack */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+205 
+WCVTP[ ]	/* WriteCVTInPixels */
+SWAP[ ]	/* SwapTopStack */
+DUP[ ]	/* DuplicateTopStack */
+PUSHW[ ]	/* 1 value pushed */
+346 
+LTEQ[ ]	/* LessThenOrEqual */
+IF[ ]	/* If */
+SWAP[ ]	/* SwapTopStack */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+141 
+WCVTP[ ]	/* WriteCVTInPixels */
+SWAP[ ]	/* SwapTopStack */
+EIF[ ]	/* EndIf */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+237 
+LTEQ[ ]	/* LessThenOrEqual */
+IF[ ]	/* If */
+SWAP[ ]	/* SwapTopStack */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+77 
+WCVTP[ ]	/* WriteCVTInPixels */
+SWAP[ ]	/* SwapTopStack */
+EIF[ ]	/* EndIf */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+4 
+MINDEX[ ]	/* MoveXToTopStack */
+LTEQ[ ]	/* LessThenOrEqual */
+IF[ ]	/* If */
+SWAP[ ]	/* SwapTopStack */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+13 
+WCVTP[ ]	/* WriteCVTInPixels */
+SWAP[ ]	/* SwapTopStack */
+EIF[ ]	/* EndIf */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+RTG[ ]	/* RoundToGrid */
+ROUND[00]	/* Round */
+WCVTP[ ]	/* WriteCVTInPixels */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+1 
+ADD[ ]	/* Add */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+PUSHB[ ]	/* 1 value pushed */
+70 
+SROUND[ ]	/* SuperRound */
+ROUND[00]	/* Round */
+ROLL[ ]	/* RollTopThreeStack */
+RCVT[ ]	/* ReadCVT */
+ADD[ ]	/* Add */
+WCVTP[ ]	/* WriteCVTInPixels */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 2 values pushed */
+11 10 
+RS[ ]	/* ReadStore */
+SWAP[ ]	/* SwapTopStack */
+RS[ ]	/* ReadStore */
+NEG[ ]	/* Negate */
+SPVFS[ ]	/* SetPVectorFromStack */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 2 values pushed */
+10 11 
+RS[ ]	/* ReadStore */
+SWAP[ ]	/* SwapTopStack */
+RS[ ]	/* ReadStore */
+SFVFS[ ]	/* SetFVectorFromStack */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+40 
+SWAP[ ]	/* SwapTopStack */
+WCVTF[ ]	/* WriteCVTInFUnits */
+PUSHB[ ]	/* 2 values pushed */
+1 40 
+MIAP[0]	/* MoveIndirectAbsPt */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+40 
+SWAP[ ]	/* SwapTopStack */
+WCVTF[ ]	/* WriteCVTInFUnits */
+PUSHB[ ]	/* 2 values pushed */
+2 40 
+RCVT[ ]	/* ReadCVT */
+MSIRP[0]	/* MoveStackIndirRelPt */
+PUSHB[ ]	/* 2 values pushed */
+2 0 
+SFVTL[0]	/* SetFVectorToLine */
+GFV[ ]	/* GetFVector */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+PUSHB[ ]	/* 1 value pushed */
+3 
+CINDEX[ ]	/* CopyXToTopStack */
+RCVT[ ]	/* ReadCVT */
+SUB[ ]	/* Subtract */
+ABS[ ]	/* Absolute */
+PUSHB[ ]	/* 1 value pushed */
+80 
+LTEQ[ ]	/* LessThenOrEqual */
+IF[ ]	/* If */
+RCVT[ ]	/* ReadCVT */
+WCVTP[ ]	/* WriteCVTInPixels */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+MD[0]	/* MeasureDistance */
+PUSHB[ ]	/* 1 value pushed */
+14 
+SWAP[ ]	/* SwapTopStack */
+WCVTP[ ]	/* WriteCVTInPixels */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+PUSHB[ ]	/* 1 value pushed */
+0 
+RS[ ]	/* ReadStore */
+ADD[ ]	/* Add */
+WCVTP[ ]	/* WriteCVTInPixels */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+6 
+RS[ ]	/* ReadStore */
+PUSHB[ ]	/* 1 value pushed */
+7 
+RS[ ]	/* ReadStore */
+NEG[ ]	/* Negate */
+SPVFS[ ]	/* SetPVectorFromStack */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+ROUND[01]	/* Round */
+PUSHB[ ]	/* 1 value pushed */
+64 
+SUB[ ]	/* Subtract */
+PUSHB[ ]	/* 1 value pushed */
+0 
+MAX[ ]	/* Maximum */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 2 values pushed */
+44 192 
+ROLL[ ]	/* RollTopThreeStack */
+MIN[ ]	/* Minimum */
+PUSHW[ ]	/* 1 value pushed */
+4096 
+DIV[ ]	/* Divide */
+ADD[ ]	/* Add */
+CALL[ ]	/* CallFunction */
+GPV[ ]	/* GetPVector */
+ABS[ ]	/* Absolute */
+SWAP[ ]	/* SwapTopStack */
+ABS[ ]	/* Absolute */
+SUB[ ]	/* Subtract */
+NOT[ ]	/* LogicalNot */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+3 
+SUB[ ]	/* Subtract */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+ROLL[ ]	/* RollTopThreeStack */
+SPVTCA[1]	/* SetPVectorToAxis */
+RCVT[ ]	/* ReadCVT */
+ROLL[ ]	/* RollTopThreeStack */
+ROLL[ ]	/* RollTopThreeStack */
+SDPVTL[1]	/* SetDualPVectorToLine */
+PUSHB[ ]	/* 1 value pushed */
+17 
+CALL[ ]	/* CallFunction */
+PUSHB[ ]	/* 1 value pushed */
+41 
+SWAP[ ]	/* SwapTopStack */
+WCVTP[ ]	/* WriteCVTInPixels */
+PUSHB[ ]	/* 1 value pushed */
+41 
+ROFF[ ]	/* RoundOff */
+MIRP[00100]	/* MoveIndirectRelPt */
+RTG[ ]	/* RoundToGrid */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+RCVT[ ]	/* ReadCVT */
+NEG[ ]	/* Negate */
+PUSHB[ ]	/* 1 value pushed */
+44 
+SWAP[ ]	/* SwapTopStack */
+WCVTP[ ]	/* WriteCVTInPixels */
+RCVT[ ]	/* ReadCVT */
+PUSHB[ ]	/* 1 value pushed */
+43 
+SWAP[ ]	/* SwapTopStack */
+WCVTP[ ]	/* WriteCVTInPixels */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+MPPEM[ ]	/* MeasurePixelPerEm */
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+RCVT[ ]	/* ReadCVT */
+WCVTP[ ]	/* WriteCVTInPixels */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+MPPEM[ ]	/* MeasurePixelPerEm */
+LTEQ[ ]	/* LessThenOrEqual */
+IF[ ]	/* If */
+RCVT[ ]	/* ReadCVT */
+WCVTP[ ]	/* WriteCVTInPixels */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+5 
+CINDEX[ ]	/* CopyXToTopStack */
+SRP0[ ]	/* SetRefPoint0 */
+SWAP[ ]	/* SwapTopStack */
+DUP[ ]	/* DuplicateTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+MIRP[10101]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+1 
+ADD[ ]	/* Add */
+SWAP[ ]	/* SwapTopStack */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIRP[01100]	/* MoveIndirectRelPt */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+5 
+CINDEX[ ]	/* CopyXToTopStack */
+SRP0[ ]	/* SetRefPoint0 */
+SWAP[ ]	/* SwapTopStack */
+DUP[ ]	/* DuplicateTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+MIRP[10101]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+1 
+SUB[ ]	/* Subtract */
+SWAP[ ]	/* SwapTopStack */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIRP[01100]	/* MoveIndirectRelPt */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+6 
+CINDEX[ ]	/* CopyXToTopStack */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[10101]	/* MoveIndirectRelPt */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MIRP[01101]	/* MoveIndirectRelPt */
+MIRP[01100]	/* MoveIndirectRelPt */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+2 
+RS[ ]	/* ReadStore */
+PUSHB[ ]	/* 1 value pushed */
+1 
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+ELSE[ ]	/* Else */
+GC[0]	/* GetCoordOnPVector */
+SWAP[ ]	/* SwapTopStack */
+GC[0]	/* GetCoordOnPVector */
+ADD[ ]	/* Add */
+ROLL[ ]	/* RollTopThreeStack */
+ROLL[ ]	/* RollTopThreeStack */
+GC[0]	/* GetCoordOnPVector */
+SWAP[ ]	/* SwapTopStack */
+DUP[ ]	/* DuplicateTopStack */
+GC[0]	/* GetCoordOnPVector */
+ROLL[ ]	/* RollTopThreeStack */
+ADD[ ]	/* Add */
+ROLL[ ]	/* RollTopThreeStack */
+SUB[ ]	/* Subtract */
+PUSHW[ ]	/* 1 value pushed */
+-128 
+DIV[ ]	/* Divide */
+SWAP[ ]	/* SwapTopStack */
+DUP[ ]	/* DuplicateTopStack */
+SRP0[ ]	/* SetRefPoint0 */
+SWAP[ ]	/* SwapTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+PUSHB[ ]	/* 2 values pushed */
+12 12 
+ROLL[ ]	/* RollTopThreeStack */
+WCVTF[ ]	/* WriteCVTInFUnits */
+RCVT[ ]	/* ReadCVT */
+ADD[ ]	/* Add */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+0 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+1 
+SUB[ ]	/* Subtract */
+PUSHW[ ]	/* 1 value pushed */
+-70 
+MAX[ ]	/* Maximum */
+ELSE[ ]	/* Else */
+PUSHB[ ]	/* 1 value pushed */
+70 
+MIN[ ]	/* Minimum */
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 1 value pushed */
+16 
+ADD[ ]	/* Add */
+ROUND[00]	/* Round */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+MSIRP[0]	/* MoveStackIndirRelPt */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+PUSHB[ ]	/* 1 value pushed */
+3 
+CINDEX[ ]	/* CopyXToTopStack */
+GC[0]	/* GetCoordOnPVector */
+GT[ ]	/* GreaterThan */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+19 
+LTEQ[ ]	/* LessThenOrEqual */
+OR[ ]	/* LogicalOr */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+2 
+CINDEX[ ]	/* CopyXToTopStack */
+GC[0]	/* GetCoordOnPVector */
+DUP[ ]	/* DuplicateTopStack */
+ROUND[00]	/* Round */
+SUB[ ]	/* Subtract */
+PUSHB[ ]	/* 1 value pushed */
+3 
+CINDEX[ ]	/* CopyXToTopStack */
+PUSHB[ ]	/* 1 value pushed */
+3 
+CINDEX[ ]	/* CopyXToTopStack */
+MIAP[1]	/* MoveIndirectAbsPt */
+SWAP[ ]	/* SwapTopStack */
+POP[ ]	/* PopTopStack */
+SHPIX[ ]	/* ShiftZoneByPixel */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+SRP1[ ]	/* SetRefPoint1 */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+PUSHB[ ]	/* 1 value pushed */
+3 
+CINDEX[ ]	/* CopyXToTopStack */
+GC[0]	/* GetCoordOnPVector */
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+2 
+CINDEX[ ]	/* CopyXToTopStack */
+GC[0]	/* GetCoordOnPVector */
+DUP[ ]	/* DuplicateTopStack */
+ROUND[00]	/* Round */
+SUB[ ]	/* Subtract */
+PUSHB[ ]	/* 1 value pushed */
+3 
+CINDEX[ ]	/* CopyXToTopStack */
+PUSHB[ ]	/* 1 value pushed */
+3 
+CINDEX[ ]	/* CopyXToTopStack */
+MIAP[1]	/* MoveIndirectAbsPt */
+SWAP[ ]	/* SwapTopStack */
+POP[ ]	/* PopTopStack */
+SHPIX[ ]	/* ShiftZoneByPixel */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+SRP1[ ]	/* SetRefPoint1 */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+7 
+RS[ ]	/* ReadStore */
+PUSHB[ ]	/* 1 value pushed */
+6 
+RS[ ]	/* ReadStore */
+SFVFS[ ]	/* SetFVectorFromStack */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+3 
+CINDEX[ ]	/* CopyXToTopStack */
+RCVT[ ]	/* ReadCVT */
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+ROLL[ ]	/* RollTopThreeStack */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+ROLL[ ]	/* RollTopThreeStack */
+MAX[ ]	/* Maximum */
+WCVTP[ ]	/* WriteCVTInPixels */
+POP[ ]	/* PopTopStack */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+RCVT[ ]	/* ReadCVT */
+WCVTP[ ]	/* WriteCVTInPixels */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+POP[ ]	/* PopTopStack */
+PUSHB[ ]	/* 1 value pushed */
+128 
+LTEQ[ ]	/* LessThenOrEqual */
+IF[ ]	/* If */
+GPV[ ]	/* GetPVector */
+ABS[ ]	/* Absolute */
+SWAP[ ]	/* SwapTopStack */
+ABS[ ]	/* Absolute */
+MAX[ ]	/* Maximum */
+PUSHW[ ]	/* 1 value pushed */
+8192 
+DIV[ ]	/* Divide */
+ELSE[ ]	/* Else */
+PUSHB[ ]	/* 3 values pushed */
+0 64 47 
+CALL[ ]	/* CallFunction */
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 1 value pushed */
+2 
+ADD[ ]	/* Add */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+POP[ ]	/* PopTopStack */
+PUSHB[ ]	/* 1 value pushed */
+192 
+LTEQ[ ]	/* LessThenOrEqual */
+IF[ ]	/* If */
+GPV[ ]	/* GetPVector */
+ABS[ ]	/* Absolute */
+SWAP[ ]	/* SwapTopStack */
+ABS[ ]	/* Absolute */
+MAX[ ]	/* Maximum */
+PUSHW[ ]	/* 1 value pushed */
+5461 
+DIV[ ]	/* Divide */
+ELSE[ ]	/* Else */
+PUSHB[ ]	/* 3 values pushed */
+0 128 47 
+CALL[ ]	/* CallFunction */
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 1 value pushed */
+2 
+ADD[ ]	/* Add */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+GPV[ ]	/* GetPVector */
+ABS[ ]	/* Absolute */
+SWAP[ ]	/* SwapTopStack */
+ABS[ ]	/* Absolute */
+MAX[ ]	/* Maximum */
+PUSHW[ ]	/* 1 value pushed */
+16384 
+DIV[ ]	/* Divide */
+ADD[ ]	/* Add */
+SWAP[ ]	/* SwapTopStack */
+POP[ ]	/* PopTopStack */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+MPPEM[ ]	/* MeasurePixelPerEm */
+GTEQ[ ]	/* GreaterThanOrEqual */
+IF[ ]	/* If */
+ROLL[ ]	/* RollTopThreeStack */
+PUSHB[ ]	/* 1 value pushed */
+4 
+CINDEX[ ]	/* CopyXToTopStack */
+MD[0]	/* MeasureDistance */
+ABS[ ]	/* Absolute */
+SWAP[ ]	/* SwapTopStack */
+RCVT[ ]	/* ReadCVT */
+ROUND[01]	/* Round */
+PUSHB[ ]	/* 1 value pushed */
+64 
+MAX[ ]	/* Maximum */
+SUB[ ]	/* Subtract */
+PUSHB[ ]	/* 1 value pushed */
+128 
+DIV[ ]	/* Divide */
+PUSHB[ ]	/* 1 value pushed */
+32 
+SUB[ ]	/* Subtract */
+ROUND[10]	/* Round */
+PUSHB[ ]	/* 1 value pushed */
+14 
+SWAP[ ]	/* SwapTopStack */
+WCVTP[ ]	/* WriteCVTInPixels */
+SWAP[ ]	/* SwapTopStack */
+SRP0[ ]	/* SetRefPoint0 */
+PUSHB[ ]	/* 1 value pushed */
+14 
+MIRP[10110]	/* MoveIndirectRelPt */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+SWAP[ ]	/* SwapTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+SRP2[ ]	/* SetRefPoint2 */
+SRP1[ ]	/* SetRefPoint1 */
+DUP[ ]	/* DuplicateTopStack */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+MPPEM[ ]	/* MeasurePixelPerEm */
+GTEQ[ ]	/* GreaterThanOrEqual */
+IF[ ]	/* If */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+3 
+CINDEX[ ]	/* CopyXToTopStack */
+MD[0]	/* MeasureDistance */
+ABS[ ]	/* Absolute */
+ROUND[01]	/* Round */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+5 
+MINDEX[ ]	/* MoveXToTopStack */
+PUSHB[ ]	/* 1 value pushed */
+6 
+CINDEX[ ]	/* CopyXToTopStack */
+MD[0]	/* MeasureDistance */
+ABS[ ]	/* Absolute */
+SWAP[ ]	/* SwapTopStack */
+SUB[ ]	/* Subtract */
+PUSHB[ ]	/* 1 value pushed */
+128 
+DIV[ ]	/* Divide */
+PUSHB[ ]	/* 1 value pushed */
+32 
+SUB[ ]	/* Subtract */
+ROUND[10]	/* Round */
+PUSHB[ ]	/* 1 value pushed */
+14 
+SWAP[ ]	/* SwapTopStack */
+WCVTP[ ]	/* WriteCVTInPixels */
+PUSHB[ ]	/* 1 value pushed */
+4 
+MINDEX[ ]	/* MoveXToTopStack */
+SRP0[ ]	/* SetRefPoint0 */
+PUSHB[ ]	/* 1 value pushed */
+14 
+MIRP[10110]	/* MoveIndirectRelPt */
+ROLL[ ]	/* RollTopThreeStack */
+SRP0[ ]	/* SetRefPoint0 */
+PUSHB[ ]	/* 1 value pushed */
+14 
+SWAP[ ]	/* SwapTopStack */
+WCVTP[ ]	/* WriteCVTInPixels */
+PUSHB[ ]	/* 1 value pushed */
+14 
+MIRP[10110]	/* MoveIndirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+14 
+SWAP[ ]	/* SwapTopStack */
+WCVTP[ ]	/* WriteCVTInPixels */
+PUSHB[ ]	/* 1 value pushed */
+14 
+MIRP[01101]	/* MoveIndirectRelPt */
+ELSE[ ]	/* Else */
+ROLL[ ]	/* RollTopThreeStack */
+PUSHB[ ]	/* 1 value pushed */
+4 
+MINDEX[ ]	/* MoveXToTopStack */
+SRP1[ ]	/* SetRefPoint1 */
+SRP2[ ]	/* SetRefPoint2 */
+DUP[ ]	/* DuplicateTopStack */
+IP[ ]	/* InterpolatePts */
+SWAP[ ]	/* SwapTopStack */
+DUP[ ]	/* DuplicateTopStack */
+IP[ ]	/* InterpolatePts */
+MDAP[1]	/* MoveDirectAbsPt */
+MDAP[1]	/* MoveDirectAbsPt */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+RCVT[ ]	/* ReadCVT */
+SWAP[ ]	/* SwapTopStack */
+RCVT[ ]	/* ReadCVT */
+ADD[ ]	/* Add */
+SWAP[ ]	/* SwapTopStack */
+RCVT[ ]	/* ReadCVT */
+ADD[ ]	/* Add */
+SWAP[ ]	/* SwapTopStack */
+RCVT[ ]	/* ReadCVT */
+ADD[ ]	/* Add */
+SWAP[ ]	/* SwapTopStack */
+SROUND[ ]	/* SuperRound */
+ROUND[00]	/* Round */
+RTG[ ]	/* RoundToGrid */
+PUSHB[ ]	/* 1 value pushed */
+128 
+DIV[ ]	/* Divide */
+DUP[ ]	/* DuplicateTopStack */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+72 
+CALL[ ]	/* CallFunction */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+PUSHB[ ]	/* 1 value pushed */
+0 
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+64 
+WCVTP[ ]	/* WriteCVTInPixels */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+PUSHB[ ]	/* 1 value pushed */
+64 
+SUB[ ]	/* Subtract */
+WCVTP[ ]	/* WriteCVTInPixels */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+RCVT[ ]	/* ReadCVT */
+PUSHB[ ]	/* 2 values pushed */
+48 47 
+RCVT[ ]	/* ReadCVT */
+SWAP[ ]	/* SwapTopStack */
+RCVT[ ]	/* ReadCVT */
+SUB[ ]	/* Subtract */
+ADD[ ]	/* Add */
+PUSHB[ ]	/* 1 value pushed */
+1 
+ADD[ ]	/* Add */
+ROUND[01]	/* Round */
+WCVTP[ ]	/* WriteCVTInPixels */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+MPPEM[ ]	/* MeasurePixelPerEm */
+LTEQ[ ]	/* LessThenOrEqual */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+47 
+SWAP[ ]	/* SwapTopStack */
+WCVTF[ ]	/* WriteCVTInFUnits */
+PUSHB[ ]	/* 1 value pushed */
+20 
+SWAP[ ]	/* SwapTopStack */
+WS[ ]	/* WriteStore */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+MPPEM[ ]	/* MeasurePixelPerEm */
+LTEQ[ ]	/* LessThenOrEqual */
+IF[ ]	/* If */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+3 
+CINDEX[ ]	/* CopyXToTopStack */
+RCVT[ ]	/* ReadCVT */
+ROUND[01]	/* Round */
+GTEQ[ ]	/* GreaterThanOrEqual */
+IF[ ]	/* If */
+WCVTP[ ]	/* WriteCVTInPixels */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+RCVT[ ]	/* ReadCVT */
+PUSHB[ ]	/* 1 value pushed */
+20 
+RS[ ]	/* ReadStore */
+PUSHB[ ]	/* 1 value pushed */
+0 
+ADD[ ]	/* Add */
+MUL[ ]	/* Multiply */
+PUSHB[ ]	/* 1 value pushed */
+1 
+ADD[ ]	/* Add */
+ROUND[01]	/* Round */
+WCVTP[ ]	/* WriteCVTInPixels */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+47 
+RCVT[ ]	/* ReadCVT */
+WCVTP[ ]	/* WriteCVTInPixels */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+RCVT[ ]	/* ReadCVT */
+SWAP[ ]	/* SwapTopStack */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+ROLL[ ]	/* RollTopThreeStack */
+ADD[ ]	/* Add */
+WCVTP[ ]	/* WriteCVTInPixels */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+RCVT[ ]	/* ReadCVT */
+SWAP[ ]	/* SwapTopStack */
+RCVT[ ]	/* ReadCVT */
+ADD[ ]	/* Add */
+WCVTP[ ]	/* WriteCVTInPixels */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+MPPEM[ ]	/* MeasurePixelPerEm */
+SWAP[ ]	/* SwapTopStack */
+LTEQ[ ]	/* LessThenOrEqual */
+IF[ ]	/* If */
+PUSHW[ ]	/* 2 values pushed */
+51 -32 
+PUSHB[ ]	/* 2 values pushed */
+52 32 
+ELSE[ ]	/* Else */
+PUSHB[ ]	/* 4 values pushed */
+51 0 52 0 
+EIF[ ]	/* EndIf */
+WCVTP[ ]	/* WriteCVTInPixels */
+WCVTP[ ]	/* WriteCVTInPixels */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+22 
+RS[ ]	/* ReadStore */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+3 
+MINDEX[ ]	/* MoveXToTopStack */
+RCVT[ ]	/* ReadCVT */
+ROLL[ ]	/* RollTopThreeStack */
+IF[ ]	/* If */
+ABS[ ]	/* Absolute */
+FLOOR[ ]	/* Floor */
+PUSHB[ ]	/* 1 value pushed */
+31 
+ADD[ ]	/* Add */
+ELSE[ ]	/* Else */
+ABS[ ]	/* Absolute */
+PUSHB[ ]	/* 1 value pushed */
+32 
+ADD[ ]	/* Add */
+FLOOR[ ]	/* Floor */
+DUP[ ]	/* DuplicateTopStack */
+IF[ ]	/* If */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+PUSHB[ ]	/* 1 value pushed */
+64 
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 1 value pushed */
+1 
+SUB[ ]	/* Subtract */
+EIF[ ]	/* EndIf */
+SWAP[ ]	/* SwapTopStack */
+IF[ ]	/* If */
+NEG[ ]	/* Negate */
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 1 value pushed */
+41 
+SWAP[ ]	/* SwapTopStack */
+WCVTP[ ]	/* WriteCVTInPixels */
+SWAP[ ]	/* SwapTopStack */
+SRP0[ ]	/* SetRefPoint0 */
+PUSHB[ ]	/* 1 value pushed */
+41 
+MIRP[00000]	/* MoveIndirectRelPt */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+2 
+RS[ ]	/* ReadStore */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+MPPEM[ ]	/* MeasurePixelPerEm */
+GTEQ[ ]	/* GreaterThanOrEqual */
+SWAP[ ]	/* SwapTopStack */
+MPPEM[ ]	/* MeasurePixelPerEm */
+LTEQ[ ]	/* LessThenOrEqual */
+AND[ ]	/* LogicalAnd */
+IF[ ]	/* If */
+SHPIX[ ]	/* ShiftZoneByPixel */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+22 
+RS[ ]	/* ReadStore */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+4 
+CINDEX[ ]	/* CopyXToTopStack */
+RCVT[ ]	/* ReadCVT */
+ABS[ ]	/* Absolute */
+PUSHB[ ]	/* 1 value pushed */
+32 
+ADD[ ]	/* Add */
+FLOOR[ ]	/* Floor */
+DUP[ ]	/* DuplicateTopStack */
+IF[ ]	/* If */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+PUSHB[ ]	/* 1 value pushed */
+64 
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 1 value pushed */
+1 
+SUB[ ]	/* Subtract */
+SWAP[ ]	/* SwapTopStack */
+IF[ ]	/* If */
+ELSE[ ]	/* Else */
+NEG[ ]	/* Negate */
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 1 value pushed */
+41 
+SWAP[ ]	/* SwapTopStack */
+WCVTP[ ]	/* WriteCVTInPixels */
+PUSHB[ ]	/* 1 value pushed */
+5 
+CINDEX[ ]	/* CopyXToTopStack */
+PUSHB[ ]	/* 1 value pushed */
+8 
+CINDEX[ ]	/* CopyXToTopStack */
+SFVTL[0]	/* SetFVectorToLine */
+DUP[ ]	/* DuplicateTopStack */
+IF[ ]	/* If */
+SPVTCA[0]	/* SetPVectorToAxis */
+ELSE[ ]	/* Else */
+SPVTCA[1]	/* SetPVectorToAxis */
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 1 value pushed */
+4 
+CINDEX[ ]	/* CopyXToTopStack */
+SRP0[ ]	/* SetRefPoint0 */
+PUSHB[ ]	/* 1 value pushed */
+5 
+CINDEX[ ]	/* CopyXToTopStack */
+DUP[ ]	/* DuplicateTopStack */
+GC[0]	/* GetCoordOnPVector */
+PUSHB[ ]	/* 1 value pushed */
+4 
+CINDEX[ ]	/* CopyXToTopStack */
+SWAP[ ]	/* SwapTopStack */
+WS[ ]	/* WriteStore */
+ALIGNRP[ ]	/* AlignRelativePt */
+PUSHB[ ]	/* 1 value pushed */
+4 
+CINDEX[ ]	/* CopyXToTopStack */
+PUSHB[ ]	/* 1 value pushed */
+7 
+CINDEX[ ]	/* CopyXToTopStack */
+SFVTL[0]	/* SetFVectorToLine */
+PUSHB[ ]	/* 1 value pushed */
+7 
+CINDEX[ ]	/* CopyXToTopStack */
+SRP0[ ]	/* SetRefPoint0 */
+PUSHB[ ]	/* 1 value pushed */
+6 
+CINDEX[ ]	/* CopyXToTopStack */
+DUP[ ]	/* DuplicateTopStack */
+GC[0]	/* GetCoordOnPVector */
+PUSHB[ ]	/* 1 value pushed */
+4 
+CINDEX[ ]	/* CopyXToTopStack */
+PUSHB[ ]	/* 1 value pushed */
+1 
+ADD[ ]	/* Add */
+SWAP[ ]	/* SwapTopStack */
+WS[ ]	/* WriteStore */
+ALIGNRP[ ]	/* AlignRelativePt */
+DUP[ ]	/* DuplicateTopStack */
+IF[ ]	/* If */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+ELSE[ ]	/* Else */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 1 value pushed */
+4 
+CINDEX[ ]	/* CopyXToTopStack */
+SRP0[ ]	/* SetRefPoint0 */
+PUSHB[ ]	/* 1 value pushed */
+5 
+CINDEX[ ]	/* CopyXToTopStack */
+PUSHB[ ]	/* 1 value pushed */
+41 
+MIRP[00000]	/* MoveIndirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+41 
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+NEG[ ]	/* Negate */
+WCVTP[ ]	/* WriteCVTInPixels */
+PUSHB[ ]	/* 1 value pushed */
+7 
+CINDEX[ ]	/* CopyXToTopStack */
+SRP0[ ]	/* SetRefPoint0 */
+PUSHB[ ]	/* 1 value pushed */
+6 
+CINDEX[ ]	/* CopyXToTopStack */
+PUSHB[ ]	/* 1 value pushed */
+41 
+MIRP[00000]	/* MoveIndirectRelPt */
+PUSHB[ ]	/* 1 value pushed */
+5 
+CINDEX[ ]	/* CopyXToTopStack */
+PUSHB[ ]	/* 1 value pushed */
+8 
+CINDEX[ ]	/* CopyXToTopStack */
+SFVTL[0]	/* SetFVectorToLine */
+DUP[ ]	/* DuplicateTopStack */
+IF[ ]	/* If */
+SPVTCA[0]	/* SetPVectorToAxis */
+ELSE[ ]	/* Else */
+SPVTCA[1]	/* SetPVectorToAxis */
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 1 value pushed */
+5 
+CINDEX[ ]	/* CopyXToTopStack */
+PUSHB[ ]	/* 1 value pushed */
+3 
+CINDEX[ ]	/* CopyXToTopStack */
+RS[ ]	/* ReadStore */
+SCFS[ ]	/* SetCoordFromStackFP */
+PUSHB[ ]	/* 1 value pushed */
+4 
+CINDEX[ ]	/* CopyXToTopStack */
+PUSHB[ ]	/* 1 value pushed */
+7 
+CINDEX[ ]	/* CopyXToTopStack */
+SFVTL[0]	/* SetFVectorToLine */
+PUSHB[ ]	/* 1 value pushed */
+6 
+CINDEX[ ]	/* CopyXToTopStack */
+PUSHB[ ]	/* 1 value pushed */
+3 
+CINDEX[ ]	/* CopyXToTopStack */
+PUSHB[ ]	/* 1 value pushed */
+1 
+ADD[ ]	/* Add */
+RS[ ]	/* ReadStore */
+SCFS[ ]	/* SetCoordFromStackFP */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+SPVTCA[0]	/* SetPVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+4 
+CINDEX[ ]	/* CopyXToTopStack */
+DUP[ ]	/* DuplicateTopStack */
+DUP[ ]	/* DuplicateTopStack */
+GC[0]	/* GetCoordOnPVector */
+PUSHB[ ]	/* 1 value pushed */
+4 
+CINDEX[ ]	/* CopyXToTopStack */
+SWAP[ ]	/* SwapTopStack */
+WS[ ]	/* WriteStore */
+PUSHB[ ]	/* 1 value pushed */
+5 
+CINDEX[ ]	/* CopyXToTopStack */
+SFVTL[0]	/* SetFVectorToLine */
+PUSHB[ ]	/* 1 value pushed */
+3 
+CINDEX[ ]	/* CopyXToTopStack */
+RCVT[ ]	/* ReadCVT */
+SCFS[ ]	/* SetCoordFromStackFP */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+SPVTCA[0]	/* SetPVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+3 
+CINDEX[ ]	/* CopyXToTopStack */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+4 
+CINDEX[ ]	/* CopyXToTopStack */
+SFVTL[0]	/* SetFVectorToLine */
+PUSHB[ ]	/* 1 value pushed */
+2 
+CINDEX[ ]	/* CopyXToTopStack */
+RS[ ]	/* ReadStore */
+SCFS[ ]	/* SetCoordFromStackFP */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+RCVT[ ]	/* ReadCVT */
+SWAP[ ]	/* SwapTopStack */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+RTG[ ]	/* RoundToGrid */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+0 
+LT[ ]	/* LessThan */
+DUP[ ]	/* DuplicateTopStack */
+IF[ ]	/* If */
+SWAP[ ]	/* SwapTopStack */
+NEG[ ]	/* Negate */
+SWAP[ ]	/* SwapTopStack */
+EIF[ ]	/* EndIf */
+SWAP[ ]	/* SwapTopStack */
+ROUND[00]	/* Round */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+64 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+POP[ ]	/* PopTopStack */
+PUSHB[ ]	/* 1 value pushed */
+64 
+EIF[ ]	/* EndIf */
+SWAP[ ]	/* SwapTopStack */
+IF[ ]	/* If */
+NEG[ ]	/* Negate */
+EIF[ ]	/* EndIf */
+ROLL[ ]	/* RollTopThreeStack */
+ADD[ ]	/* Add */
+WCVTP[ ]	/* WriteCVTInPixels */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+MPPEM[ ]	/* MeasurePixelPerEm */
+GTEQ[ ]	/* GreaterThanOrEqual */
+SWAP[ ]	/* SwapTopStack */
+MPPEM[ ]	/* MeasurePixelPerEm */
+LTEQ[ ]	/* LessThenOrEqual */
+AND[ ]	/* LogicalAnd */
+IF[ ]	/* If */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+ROLL[ ]	/* RollTopThreeStack */
+ADD[ ]	/* Add */
+WCVTP[ ]	/* WriteCVTInPixels */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+MPPEM[ ]	/* MeasurePixelPerEm */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+ROLL[ ]	/* RollTopThreeStack */
+ADD[ ]	/* Add */
+WCVTP[ ]	/* WriteCVTInPixels */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+MPPEM[ ]	/* MeasurePixelPerEm */
+GTEQ[ ]	/* GreaterThanOrEqual */
+SWAP[ ]	/* SwapTopStack */
+MPPEM[ ]	/* MeasurePixelPerEm */
+LTEQ[ ]	/* LessThenOrEqual */
+AND[ ]	/* LogicalAnd */
+IF[ ]	/* If */
+SHPIX[ ]	/* ShiftZoneByPixel */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+0 
+POP[ ]	/* PopTopStack */
+MPPEM[ ]	/* MeasurePixelPerEm */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+SHPIX[ ]	/* ShiftZoneByPixel */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+2 
+RS[ ]	/* ReadStore */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+70 
+CALL[ ]	/* CallFunction */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+2 
+RS[ ]	/* ReadStore */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+71 
+CALL[ ]	/* CallFunction */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+2 
+EQ[ ]	/* Equal */
+SWAP[ ]	/* SwapTopStack */
+PUSHB[ ]	/* 1 value pushed */
+0 
+EQ[ ]	/* Equal */
+OR[ ]	/* LogicalOr */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+128 
+PUSHB[ ]	/* 1 value pushed */
+2 
+RS[ ]	/* ReadStore */
+LT[ ]	/* LessThan */
+PUSHB[ ]	/* 1 value pushed */
+1 
+PUSHB[ ]	/* 1 value pushed */
+2 
+RS[ ]	/* ReadStore */
+EQ[ ]	/* Equal */
+OR[ ]	/* LogicalOr */
+IF[ ]	/* If */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+ELSE[ ]	/* Else */
+PUSHB[ ]	/* 1 value pushed */
+72 
+CALL[ ]	/* CallFunction */
+EIF[ ]	/* EndIf */
+ELSE[ ]	/* Else */
+PUSHB[ ]	/* 1 value pushed */
+128 
+PUSHB[ ]	/* 1 value pushed */
+2 
+RS[ ]	/* ReadStore */
+LT[ ]	/* LessThan */
+PUSHB[ ]	/* 1 value pushed */
+1 
+PUSHB[ ]	/* 1 value pushed */
+2 
+RS[ ]	/* ReadStore */
+EQ[ ]	/* Equal */
+OR[ ]	/* LogicalOr */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+72 
+CALL[ ]	/* CallFunction */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+2 
+EQ[ ]	/* Equal */
+SWAP[ ]	/* SwapTopStack */
+PUSHB[ ]	/* 1 value pushed */
+0 
+EQ[ ]	/* Equal */
+OR[ ]	/* LogicalOr */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+128 
+PUSHB[ ]	/* 1 value pushed */
+2 
+RS[ ]	/* ReadStore */
+LT[ ]	/* LessThan */
+PUSHB[ ]	/* 1 value pushed */
+1 
+PUSHB[ ]	/* 1 value pushed */
+2 
+RS[ ]	/* ReadStore */
+EQ[ ]	/* Equal */
+OR[ ]	/* LogicalOr */
+IF[ ]	/* If */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+ELSE[ ]	/* Else */
+PUSHB[ ]	/* 1 value pushed */
+73 
+CALL[ ]	/* CallFunction */
+EIF[ ]	/* EndIf */
+ELSE[ ]	/* Else */
+PUSHB[ ]	/* 1 value pushed */
+128 
+PUSHB[ ]	/* 1 value pushed */
+2 
+RS[ ]	/* ReadStore */
+LT[ ]	/* LessThan */
+PUSHB[ ]	/* 1 value pushed */
+1 
+PUSHB[ ]	/* 1 value pushed */
+2 
+RS[ ]	/* ReadStore */
+EQ[ ]	/* Equal */
+OR[ ]	/* LogicalOr */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+73 
+CALL[ ]	/* CallFunction */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+SFVTL[0]	/* SetFVectorToLine */
+SWAP[ ]	/* SwapTopStack */
+MPPEM[ ]	/* MeasurePixelPerEm */
+GTEQ[ ]	/* GreaterThanOrEqual */
+ROLL[ ]	/* RollTopThreeStack */
+MPPEM[ ]	/* MeasurePixelPerEm */
+LTEQ[ ]	/* LessThenOrEqual */
+AND[ ]	/* LogicalAnd */
+IF[ ]	/* If */
+SWAP[ ]	/* SwapTopStack */
+SHPIX[ ]	/* ShiftZoneByPixel */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+2 
+CINDEX[ ]	/* CopyXToTopStack */
+SRP1[ ]	/* SetRefPoint1 */
+PUSHB[ ]	/* 1 value pushed */
+2 
+CINDEX[ ]	/* CopyXToTopStack */
+MD[0]	/* MeasureDistance */
+ROUND[10]	/* Round */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+0 
+GTEQ[ ]	/* GreaterThanOrEqual */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+64 
+ADD[ ]	/* Add */
+SHPIX[ ]	/* ShiftZoneByPixel */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+2 
+CINDEX[ ]	/* CopyXToTopStack */
+SRP1[ ]	/* SetRefPoint1 */
+PUSHB[ ]	/* 1 value pushed */
+2 
+CINDEX[ ]	/* CopyXToTopStack */
+MD[0]	/* MeasureDistance */
+ROUND[10]	/* Round */
+DUP[ ]	/* DuplicateTopStack */
+PUSHB[ ]	/* 1 value pushed */
+0 
+LTEQ[ ]	/* LessThenOrEqual */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+64 
+SUB[ ]	/* Subtract */
+SHPIX[ ]	/* ShiftZoneByPixel */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+DUP[ ]	/* DuplicateTopStack */
+ROLL[ ]	/* RollTopThreeStack */
+SWAP[ ]	/* SwapTopStack */
+MD[0]	/* MeasureDistance */
+ABS[ ]	/* Absolute */
+ROLL[ ]	/* RollTopThreeStack */
+SWAP[ ]	/* SwapTopStack */
+GTEQ[ ]	/* GreaterThanOrEqual */
+IF[ ]	/* If */
+ALIGNRP[ ]	/* AlignRelativePt */
+ELSE[ ]	/* Else */
+POP[ ]	/* PopTopStack */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+MPPEM[ ]	/* MeasurePixelPerEm */
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+RDTG[ ]	/* RoundDownToGrid */
+ELSE[ ]	/* Else */
+ROFF[ ]	/* RoundOff */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+18 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MPPEM[ ]	/* MeasurePixelPerEm */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+MPPEM[ ]	/* MeasurePixelPerEm */
+EQ[ ]	/* Equal */
+WS[ ]	/* WriteStore */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 2 values pushed */
+2 1 
+WS[ ]	/* WriteStore */
+PUSHB[ ]	/* 2 values pushed */
+35 1 
+GETINFO[ ]	/* GetInfo */
+LTEQ[ ]	/* LessThenOrEqual */
+PUSHB[ ]	/* 2 values pushed */
+64 1 
+GETINFO[ ]	/* GetInfo */
+GTEQ[ ]	/* GreaterThanOrEqual */
+AND[ ]	/* LogicalAnd */
+IF[ ]	/* If */
+PUSHB[ ]	/* 2 values pushed */
+2 0 
+WS[ ]	/* WriteStore */
+PUSHW[ ]	/* 2 values pushed */
+4096 32 
+GETINFO[ ]	/* GetInfo */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+PUSHB[ ]	/* 3 values pushed */
+2 1 2 
+RS[ ]	/* ReadStore */
+ADD[ ]	/* Add */
+WS[ ]	/* WriteStore */
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 2 values pushed */
+36 1 
+GETINFO[ ]	/* GetInfo */
+LTEQ[ ]	/* LessThenOrEqual */
+IF[ ]	/* If */
+PUSHW[ ]	/* 2 values pushed */
+8192 64 
+GETINFO[ ]	/* GetInfo */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+PUSHB[ ]	/* 3 values pushed */
+2 2 2 
+RS[ ]	/* ReadStore */
+ADD[ ]	/* Add */
+WS[ ]	/* WriteStore */
+PUSHB[ ]	/* 2 values pushed */
+36 1 
+GETINFO[ ]	/* GetInfo */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+PUSHB[ ]	/* 3 values pushed */
+2 32 2 
+RS[ ]	/* ReadStore */
+ADD[ ]	/* Add */
+WS[ ]	/* WriteStore */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MPPEM[ ]	/* MeasurePixelPerEm */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+MPPEM[ ]	/* MeasurePixelPerEm */
+GT[ ]	/* GreaterThan */
+IF[ ]	/* If */
+PUSHB[ ]	/* 3 values pushed */
+2 8 2 
+RS[ ]	/* ReadStore */
+ADD[ ]	/* Add */
+WS[ ]	/* WriteStore */
+EIF[ ]	/* EndIf */
+ELSE[ ]	/* Else */
+PUSHW[ ]	/* 2 values pushed */
+16384 128 
+GETINFO[ ]	/* GetInfo */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+PUSHB[ ]	/* 3 values pushed */
+2 4 2 
+RS[ ]	/* ReadStore */
+ADD[ ]	/* Add */
+WS[ ]	/* WriteStore */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 2 values pushed */
+16384 128 
+MUL[ ]	/* Multiply */
+PUSHW[ ]	/* 1 value pushed */
+256 
+GETINFO[ ]	/* GetInfo */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+PUSHB[ ]	/* 3 values pushed */
+2 8 2 
+RS[ ]	/* ReadStore */
+ADD[ ]	/* Add */
+WS[ ]	/* WriteStore */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 2 values pushed */
+16384 256 
+MUL[ ]	/* Multiply */
+PUSHW[ ]	/* 1 value pushed */
+512 
+GETINFO[ ]	/* GetInfo */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+PUSHB[ ]	/* 3 values pushed */
+2 16 2 
+RS[ ]	/* ReadStore */
+ADD[ ]	/* Add */
+WS[ ]	/* WriteStore */
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 2 values pushed */
+38 1 
+GETINFO[ ]	/* GetInfo */
+LTEQ[ ]	/* LessThenOrEqual */
+IF[ ]	/* If */
+PUSHW[ ]	/* 2 values pushed */
+16384 512 
+MUL[ ]	/* Multiply */
+PUSHW[ ]	/* 1 value pushed */
+1024 
+GETINFO[ ]	/* GetInfo */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+PUSHB[ ]	/* 3 values pushed */
+2 64 2 
+RS[ ]	/* ReadStore */
+ADD[ ]	/* Add */
+WS[ ]	/* WriteStore */
+EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 2 values pushed */
+16384 1024 
+MUL[ ]	/* Multiply */
+PUSHW[ ]	/* 1 value pushed */
+2048 
+GETINFO[ ]	/* GetInfo */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+PUSHB[ ]	/* 3 values pushed */
+2 128 2 
+RS[ ]	/* ReadStore */
+ADD[ ]	/* Add */
+WS[ ]	/* WriteStore */
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+EIF[ ]	/* EndIf */
+PUSHB[ ]	/* 2 values pushed */
+0 2 
+RS[ ]	/* ReadStore */
+EQ[ ]	/* Equal */
+IF[ ]	/* If */
+PUSHB[ ]	/* 2 values pushed */
+2 1 
+WS[ ]	/* WriteStore */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+RCVT[ ]	/* ReadCVT */
+RTG[ ]	/* RoundToGrid */
+ROUND[00]	/* Round */
+SWAP[ ]	/* SwapTopStack */
+MPPEM[ ]	/* MeasurePixelPerEm */
+LTEQ[ ]	/* LessThenOrEqual */
+IF[ ]	/* If */
+SWAP[ ]	/* SwapTopStack */
+DUP[ ]	/* DuplicateTopStack */
+RCVT[ ]	/* ReadCVT */
+DUP[ ]	/* DuplicateTopStack */
+ABS[ ]	/* Absolute */
+PUSHB[ ]	/* 1 value pushed */
+64 
+LT[ ]	/* LessThan */
+IF[ ]	/* If */
+RUTG[ ]	/* RoundUpToGrid */
+EIF[ ]	/* EndIf */
+ROUND[00]	/* Round */
+ROLL[ ]	/* RollTopThreeStack */
+ADD[ ]	/* Add */
+EIF[ ]	/* EndIf */
+WCVTP[ ]	/* WriteCVTInPixels */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+0 
+SZPS[ ]	/* SetZonePointerS */
+PUSHB[ ]	/* 1 value pushed */
+2 
+CINDEX[ ]	/* CopyXToTopStack */
+PUSHB[ ]	/* 1 value pushed */
+2 
+CINDEX[ ]	/* CopyXToTopStack */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+1 
+SWAP[ ]	/* SwapTopStack */
+MIAP[0]	/* MoveIndirectAbsPt */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+2 
+SWAP[ ]	/* SwapTopStack */
+MIAP[0]	/* MoveIndirectAbsPt */
+PUSHB[ ]	/* 2 values pushed */
+1 2 
+SPVTL[0]	/* SetPVectorToLine */
+GPV[ ]	/* GetPVector */
+PUSHB[ ]	/* 1 value pushed */
+10 
+SWAP[ ]	/* SwapTopStack */
+NEG[ ]	/* Negate */
+WS[ ]	/* WriteStore */
+PUSHB[ ]	/* 1 value pushed */
+11 
+SWAP[ ]	/* SwapTopStack */
+WS[ ]	/* WriteStore */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+1 
+SWAP[ ]	/* SwapTopStack */
+MIAP[1]	/* MoveIndirectAbsPt */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHB[ ]	/* 1 value pushed */
+2 
+SWAP[ ]	/* SwapTopStack */
+MIAP[1]	/* MoveIndirectAbsPt */
+PUSHB[ ]	/* 2 values pushed */
+1 2 
+SPVTL[0]	/* SetPVectorToLine */
+GPV[ ]	/* GetPVector */
+PUSHB[ ]	/* 1 value pushed */
+6 
+SWAP[ ]	/* SwapTopStack */
+NEG[ ]	/* Negate */
+WS[ ]	/* WriteStore */
+PUSHB[ ]	/* 1 value pushed */
+7 
+SWAP[ ]	/* SwapTopStack */
+WS[ ]	/* WriteStore */
+PUSHB[ ]	/* 1 value pushed */
+1 
+SZPS[ ]	/* SetZonePointerS */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+128 
+PUSHB[ ]	/* 1 value pushed */
+2 
+RS[ ]	/* ReadStore */
+LT[ ]	/* LessThan */
+PUSHB[ ]	/* 1 value pushed */
+1 
+PUSHB[ ]	/* 1 value pushed */
+2 
+RS[ ]	/* ReadStore */
+EQ[ ]	/* Equal */
+OR[ ]	/* LogicalOr */
+IF[ ]	/* If */
+POP[ ]	/* PopTopStack */
+SWAP[ ]	/* SwapTopStack */
+SRP0[ ]	/* SetRefPoint0 */
+PUSHB[ ]	/* 1 value pushed */
+32 
+SMD[ ]	/* SetMinimumDistance */
+MDRP[01001]	/* MoveDirectRelPt */
+ELSE[ ]	/* Else */
+ROLL[ ]	/* RollTopThreeStack */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[01101]	/* MoveIndirectRelPt */
+EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+89 
+CALL[ ]	/* CallFunction */
+ENDF[ ]	/* EndFunctionDefinition */
+FDEF[ ]	/* FunctionDefinition */
+ROLL[ ]	/* RollTopThreeStack */
+SRP0[ ]	/* SetRefPoint0 */
+MIRP[00101]	/* MoveIndirectRelPt */
+ENDF[ ]	/* EndFunctionDefinition */</string>
+    <key>com.schriftgestaltung.customParameter.GSFontMaster.Prep Table Assembly</key>
+    <string>NPUSHB[ ]	/* 17 values pushed */
+71 70 45 31 16 51 15 85 7 51 6 85 64 22 1 5 1 
+PUSHW[ ]	/* 1 value pushed */
+400 
+PUSHB[ ]	/* 2 values pushed */
+84 83 
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHW[ ]	/* 1 value pushed */
+2047 
+GT[ ]	/* GreaterThan */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+9 
+LT[ ]	/* LessThan */
+OR[ ]	/* LogicalOr */
+PUSHB[ ]	/* 1 value pushed */
+1 
+GETINFO[ ]	/* GetInfo */
+PUSHB[ ]	/* 1 value pushed */
+37 
+GTEQ[ ]	/* GreaterThanOrEqual */
+PUSHB[ ]	/* 1 value pushed */
+1 
+GETINFO[ ]	/* GetInfo */
+PUSHB[ ]	/* 1 value pushed */
+64 
+LTEQ[ ]	/* LessThenOrEqual */
+AND[ ]	/* LogicalAnd */
+PUSHB[ ]	/* 1 value pushed */
+6 
+GETINFO[ ]	/* GetInfo */
+PUSHB[ ]	/* 1 value pushed */
+0 
+NEQ[ ]	/* NotEqual */
+AND[ ]	/* LogicalAnd */
+OR[ ]	/* LogicalOr */
+IF[ ]	/* If */
+PUSHB[ ]	/* 2 values pushed */
+1 1 
+INSTCTRL[ ]	/* SetInstrExecControl */
+EIF[ ]	/* EndIf */
+SCANCTRL[ ]	/* ScanConversionControl */
+SCANTYPE[ ]	/* ScanType */
+SCANTYPE[ ]	/* ScanType */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+WS[ ]	/* WriteStore */
+SCVTCI[ ]	/* SetCVTCutIn */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+50 
+GTEQ[ ]	/* GreaterThanOrEqual */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+32 
+SCVTCI[ ]	/* SetCVTCutIn */
+EIF[ ]	/* EndIf */
+MPPEM[ ]	/* MeasurePixelPerEm */
+PUSHB[ ]	/* 1 value pushed */
+100 
+GTEQ[ ]	/* GreaterThanOrEqual */
+IF[ ]	/* If */
+PUSHB[ ]	/* 1 value pushed */
+16 
+SCVTCI[ ]	/* SetCVTCutIn */
+PUSHB[ ]	/* 2 values pushed */
+22 0 
+WS[ ]	/* WriteStore */
+EIF[ ]	/* EndIf */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+CALL[ ]	/* CallFunction */
+RTG[ ]	/* RoundToGrid */</string>
+    <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
+    <integer>0</integer>
+    <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue1</key>
+    <integer>0</integer>
+    <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue2</key>
+    <integer>0</integer>
+    <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue3</key>
+    <integer>0</integer>
+    <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
+    <string>SemiBold</string>
+    <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
+    <integer>700</integer>
+    <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
+    <integer>5</integer>
+    <key>com.schriftgestaltung.fontMasterOrder</key>
+    <integer>2</integer>
+    <key>com.schriftgestaltung.glyphOrder</key>
+    <false/>
+    <key>com.schriftgestaltung.keyboardIncrement</key>
+    <integer>1</integer>
+    <key>com.schriftgestaltung.weight</key>
+    <string>Bold</string>
+    <key>com.schriftgestaltung.weightValue</key>
+    <integer>700</integer>
+    <key>com.schriftgestaltung.width</key>
+    <string>Regular</string>
+    <key>com.schriftgestaltung.widthValue</key>
+    <integer>5</integer>
+    <key>public.glyphOrder</key>
+    <array>
+      <string>hamza-ar</string>
+      <string>alef-ar</string>
+      <string>alef-ar.fina</string>
+      <string>alefHamzaabove-ar</string>
+      <string>alefHamzaabove-ar.fina</string>
+      <string>alefHamzabelow-ar</string>
+      <string>alefHamzabelow-ar.fina</string>
+      <string>alefWavyhamzaabove-ar</string>
+      <string>alefWavyhamzaabove-ar.fina</string>
+      <string>alefWavyhamzabelow-ar</string>
+      <string>alefWavyhamzabelow-ar.fina</string>
+      <string>alefMadda-ar</string>
+      <string>alefMadda-ar.fina</string>
+      <string>alefWasla-ar</string>
+      <string>alefWasla-ar.fina</string>
+      <string>highhamzaAlef-ar</string>
+      <string>highhamzaAlef-ar.fina</string>
+      <string>behDotless-ar</string>
+      <string>behDotless-ar.fina</string>
+      <string>behDotless-ar.medi</string>
+      <string>behDotless-ar.init</string>
+      <string>beh-ar</string>
+      <string>beh-ar.fina</string>
+      <string>beh-ar.medi</string>
+      <string>beh-ar.init</string>
+      <string>peh-ar</string>
+      <string>peh-ar.fina</string>
+      <string>peh-ar.medi</string>
+      <string>peh-ar.init</string>
+      <string>beeh-ar</string>
+      <string>beeh-ar.fina</string>
+      <string>beeh-ar.medi</string>
+      <string>beeh-ar.init</string>
+      <string>beheh-ar</string>
+      <string>beheh-ar.fina</string>
+      <string>beheh-ar.medi</string>
+      <string>beheh-ar.init</string>
+      <string>alefMaksura-ar.medi</string>
+      <string>alefMaksura-ar.init</string>
+      <string>teh-ar</string>
+      <string>teh-ar.fina</string>
+      <string>teh-ar.medi</string>
+      <string>teh-ar.init</string>
+      <string>tehRing-ar</string>
+      <string>tehRing-ar.fina</string>
+      <string>tehRing-ar.medi</string>
+      <string>tehRing-ar.init</string>
+      <string>tehThreedotsdown-ar</string>
+      <string>tehThreedotsdown-ar.fina</string>
+      <string>tehThreedotsdown-ar.medi</string>
+      <string>tehThreedotsdown-ar.init</string>
+      <string>theh-ar</string>
+      <string>theh-ar.fina</string>
+      <string>theh-ar.medi</string>
+      <string>theh-ar.init</string>
+      <string>tteh-ar</string>
+      <string>tteh-ar.fina</string>
+      <string>tteh-ar.medi</string>
+      <string>tteh-ar.init</string>
+      <string>tteheh-ar</string>
+      <string>tteheh-ar.fina</string>
+      <string>tteheh-ar.medi</string>
+      <string>tteheh-ar.init</string>
+      <string>teheh-ar</string>
+      <string>teheh-ar.fina</string>
+      <string>teheh-ar.medi</string>
+      <string>teheh-ar.init</string>
+      <string>behThreedotshorizontalbelow-ar</string>
+      <string>behThreedotshorizontalbelow-ar.fina</string>
+      <string>behThreedotshorizontalbelow-ar.medi</string>
+      <string>behThreedotshorizontalbelow-ar.init</string>
+      <string>behThreedotsupabove-ar</string>
+      <string>behThreedotsupabove-ar.fina</string>
+      <string>behThreedotsupabove-ar.medi</string>
+      <string>behThreedotsupabove-ar.init</string>
+      <string>behThreedotsupbelow-ar</string>
+      <string>behThreedotsupbelow-ar.fina</string>
+      <string>behThreedotsupbelow-ar.medi</string>
+      <string>behThreedotsupbelow-ar.init</string>
+      <string>tehThreedotsupbelow-ar</string>
+      <string>tehThreedotsupbelow-ar.fina</string>
+      <string>tehThreedotsupbelow-ar.medi</string>
+      <string>tehThreedotsupbelow-ar.init</string>
+      <string>behTwodotsbelowDotabove-ar</string>
+      <string>behTwodotsbelowDotabove-ar.fina</string>
+      <string>behTwodotsbelowDotabove-ar.medi</string>
+      <string>behTwodotsbelowDotabove-ar.init</string>
+      <string>behVinvertedbelow-ar</string>
+      <string>behVinvertedbelow-ar.fina</string>
+      <string>behVinvertedbelow-ar.medi</string>
+      <string>behVinvertedbelow-ar.init</string>
+      <string>behVabove-ar</string>
+      <string>behVabove-ar.fina</string>
+      <string>behVabove-ar.medi</string>
+      <string>behVabove-ar.init</string>
+      <string>jeem-ar</string>
+      <string>jeem-ar.fina</string>
+      <string>jeem-ar.medi</string>
+      <string>jeem-ar.init</string>
+      <string>tcheh-ar</string>
+      <string>tcheh-ar.fina</string>
+      <string>tcheh-ar.medi</string>
+      <string>tcheh-ar.init</string>
+      <string>tcheheh-ar</string>
+      <string>tcheheh-ar.fina</string>
+      <string>tcheheh-ar.medi</string>
+      <string>tcheheh-ar.init</string>
+      <string>tchehDotabove-ar</string>
+      <string>tchehDotabove-ar.fina</string>
+      <string>tchehDotabove-ar.medi</string>
+      <string>tchehDotabove-ar.init</string>
+      <string>nyeh-ar</string>
+      <string>nyeh-ar.fina</string>
+      <string>nyeh-ar.medi</string>
+      <string>nyeh-ar.init</string>
+      <string>dyeh-ar</string>
+      <string>dyeh-ar.fina</string>
+      <string>dyeh-ar.medi</string>
+      <string>dyeh-ar.init</string>
+      <string>hah-ar</string>
+      <string>hah-ar.fina</string>
+      <string>hah-ar.medi</string>
+      <string>hah-ar.init</string>
+      <string>hahHamzaabove-ar</string>
+      <string>hahHamzaabove-ar.fina</string>
+      <string>hahHamzaabove-ar.medi</string>
+      <string>hahHamzaabove-ar.init</string>
+      <string>hahTwodotsverticalabove-ar</string>
+      <string>hahTwodotsverticalabove-ar.fina</string>
+      <string>hahTwodotsverticalabove-ar.medi</string>
+      <string>hahTwodotsverticalabove-ar.init</string>
+      <string>hahTwodotshorizontalabove-ar</string>
+      <string>hahTwodotshorizontalabove-ar.fina</string>
+      <string>hahTwodotshorizontalabove-ar.medi</string>
+      <string>hahTwodotshorizontalabove-ar.init</string>
+      <string>hahThreedotsabove-ar</string>
+      <string>hahThreedotsabove-ar.fina</string>
+      <string>hahThreedotsabove-ar.medi</string>
+      <string>hahThreedotsabove-ar.init</string>
+      <string>hahThreedotsupbelow-ar</string>
+      <string>hahThreedotsupbelow-ar.fina</string>
+      <string>hahThreedotsupbelow-ar.medi</string>
+      <string>hahThreedotsupbelow-ar.init</string>
+      <string>khah-ar</string>
+      <string>khah-ar.fina</string>
+      <string>khah-ar.medi</string>
+      <string>khah-ar.init</string>
+      <string>dal-ar</string>
+      <string>dal-ar.fina</string>
+      <string>thal-ar</string>
+      <string>thal-ar.fina</string>
+      <string>ddal-ar</string>
+      <string>ddal-ar.fina</string>
+      <string>dahal-ar</string>
+      <string>dahal-ar.fina</string>
+      <string>ddahal-ar</string>
+      <string>ddahal-ar.fina</string>
+      <string>dalRing-ar</string>
+      <string>dalRing-ar.fina</string>
+      <string>dalDotbelow-ar</string>
+      <string>dalDotbelow-ar.fina</string>
+      <string>dalDotbelowTah-ar</string>
+      <string>dalDotbelowTah-ar.fina</string>
+      <string>dul-ar</string>
+      <string>dul-ar.fina</string>
+      <string>dalThreedotsdown-ar</string>
+      <string>dalThreedotsdown-ar.fina</string>
+      <string>dalFourdots-ar</string>
+      <string>dalFourdots-ar.fina</string>
+      <string>dalVinvertedabove-ar</string>
+      <string>dalVinvertedabove-ar.fina</string>
+      <string>dalTwodotsverticalbelowTah-ar</string>
+      <string>dalTwodotsverticalbelowTah-ar.fina</string>
+      <string>dalVinvertedbelow-ar</string>
+      <string>dalVinvertedbelow-ar.fina</string>
+      <string>reh-ar</string>
+      <string>reh-ar.fina</string>
+      <string>zain-ar</string>
+      <string>zain-ar.fina</string>
+      <string>rreh-ar</string>
+      <string>rreh-ar.fina</string>
+      <string>rehv-ar</string>
+      <string>rehv-ar.fina</string>
+      <string>rehRing-ar</string>
+      <string>rehRing-ar.fina</string>
+      <string>rehDotbelow-ar</string>
+      <string>rehDotbelow-ar.fina</string>
+      <string>rehVbelow-ar</string>
+      <string>rehVbelow-ar.fina</string>
+      <string>rehDotbelowdotabove-ar</string>
+      <string>rehDotbelowdotabove-ar.fina</string>
+      <string>rehTwodots-ar</string>
+      <string>rehTwodots-ar.fina</string>
+      <string>jeh-ar</string>
+      <string>jeh-ar.fina</string>
+      <string>rehFourdots-ar</string>
+      <string>rehFourdots-ar.fina</string>
+      <string>rehVinvertedabove-ar</string>
+      <string>rehVinvertedabove-ar.fina</string>
+      <string>rehStroke-ar</string>
+      <string>rehStroke-ar.fina</string>
+      <string>rehTwodotsverticalabove-ar</string>
+      <string>rehTwodotsverticalabove-ar.fina</string>
+      <string>rehHamzaabove-ar</string>
+      <string>rehHamzaabove-ar.fina</string>
+      <string>seen-ar</string>
+      <string>seen-ar.fina</string>
+      <string>seen-ar.medi</string>
+      <string>seen-ar.init</string>
+      <string>seenDotbelowDotabove-ar</string>
+      <string>seenDotbelowDotabove-ar.fina</string>
+      <string>seenDotbelowDotabove-ar.medi</string>
+      <string>seenDotbelowDotabove-ar.init</string>
+      <string>seenThreedotsbelow-ar</string>
+      <string>seenThreedotsbelow-ar.fina</string>
+      <string>seenThreedotsbelow-ar.medi</string>
+      <string>seenThreedotsbelow-ar.init</string>
+      <string>sheen-ar</string>
+      <string>sheen-ar.fina</string>
+      <string>sheen-ar.medi</string>
+      <string>sheen-ar.init</string>
+      <string>sheenDotbelow-ar</string>
+      <string>sheenDotbelow-ar.fina</string>
+      <string>sheenDotbelow-ar.medi</string>
+      <string>sheenDotbelow-ar.init</string>
+      <string>sheenThreedotsbelow-ar</string>
+      <string>sheenThreedotsbelow-ar.fina</string>
+      <string>sheenThreedotsbelow-ar.medi</string>
+      <string>sheenThreedotsbelow-ar.init</string>
+      <string>sad-ar</string>
+      <string>sad-ar.fina</string>
+      <string>sad-ar.medi</string>
+      <string>sad-ar.init</string>
+      <string>sadTwodotsbelow-ar</string>
+      <string>sadTwodotsbelow-ar.fina</string>
+      <string>sadTwodotsbelow-ar.medi</string>
+      <string>sadTwodotsbelow-ar.init</string>
+      <string>sadThreedots-ar</string>
+      <string>sadThreedots-ar.fina</string>
+      <string>sadThreedots-ar.medi</string>
+      <string>sadThreedots-ar.init</string>
+      <string>dad-ar</string>
+      <string>dad-ar.fina</string>
+      <string>dad-ar.medi</string>
+      <string>dad-ar.init</string>
+      <string>dadDotbelow-ar</string>
+      <string>dadDotbelow-ar.fina</string>
+      <string>dadDotbelow-ar.medi</string>
+      <string>dadDotbelow-ar.init</string>
+      <string>tah-ar</string>
+      <string>tah-ar.fina</string>
+      <string>tah-ar.medi</string>
+      <string>tah-ar.init</string>
+      <string>tahThreedots-ar</string>
+      <string>tahThreedots-ar.fina</string>
+      <string>tahThreedots-ar.medi</string>
+      <string>tahThreedots-ar.init</string>
+      <string>zah-ar</string>
+      <string>zah-ar.fina</string>
+      <string>zah-ar.medi</string>
+      <string>zah-ar.init</string>
+      <string>ain-ar</string>
+      <string>ain-ar.fina</string>
+      <string>ain-ar.medi</string>
+      <string>ain-ar.init</string>
+      <string>ainThreedots-ar</string>
+      <string>ainThreedots-ar.fina</string>
+      <string>ainThreedots-ar.medi</string>
+      <string>ainThreedots-ar.init</string>
+      <string>ghain-ar</string>
+      <string>ghain-ar.fina</string>
+      <string>ghain-ar.medi</string>
+      <string>ghain-ar.init</string>
+      <string>ghainDotbelow-ar</string>
+      <string>ghainDotbelow-ar.fina</string>
+      <string>ghainDotbelow-ar.medi</string>
+      <string>ghainDotbelow-ar.init</string>
+      <string>feh-ar</string>
+      <string>feh-ar.fina</string>
+      <string>feh-ar.medi</string>
+      <string>feh-ar.init</string>
+      <string>veh-ar</string>
+      <string>veh-ar.isol</string>
+      <string>veh-ar.fina</string>
+      <string>veh-ar.medi</string>
+      <string>veh-ar.init</string>
+      <string>fehDotless-ar</string>
+      <string>fehDotless-ar.fina</string>
+      <string>fehDotmovedbelow-ar</string>
+      <string>fehDotmovedbelow-ar.fina</string>
+      <string>fehDotmovedbelow-ar.medi</string>
+      <string>fehDotmovedbelow-ar.init</string>
+      <string>fehDotbelow-ar</string>
+      <string>fehDotbelow-ar.fina</string>
+      <string>fehDotbelow-ar.medi</string>
+      <string>fehDotbelow-ar.init</string>
+      <string>fehThreedotsbelow-ar</string>
+      <string>fehThreedotsbelow-ar.fina</string>
+      <string>fehThreedotsbelow-ar.medi</string>
+      <string>fehThreedotsbelow-ar.init</string>
+      <string>peheh-ar</string>
+      <string>peheh-ar.fina</string>
+      <string>peheh-ar.medi</string>
+      <string>peheh-ar.init</string>
+      <string>qafDotless-ar</string>
+      <string>qafDotless-ar.medi</string>
+      <string>qafDotless-ar.init</string>
+      <string>qafDotless-ar.fina</string>
+      <string>qaf-ar</string>
+      <string>qaf-ar.fina</string>
+      <string>qaf-ar.medi</string>
+      <string>qaf-ar.init</string>
+      <string>qafDotabove-ar</string>
+      <string>qafDotabove-ar.fina</string>
+      <string>qafThreedotsabove-ar</string>
+      <string>qafThreedotsabove-ar.fina</string>
+      <string>kaf-ar</string>
+      <string>kaf-ar.fina</string>
+      <string>kaf-ar.medi</string>
+      <string>kaf-ar.init</string>
+      <string>keheh-ar</string>
+      <string>keheh-ar.fina</string>
+      <string>keheh-ar.medi</string>
+      <string>keheh-ar.init</string>
+      <string>kehehDotabove-ar</string>
+      <string>kehehDotabove-ar.fina</string>
+      <string>kehehDotabove-ar.medi</string>
+      <string>kehehDotabove-ar.init</string>
+      <string>kehehThreedotsabove-ar</string>
+      <string>kehehThreedotsabove-ar.fina</string>
+      <string>kehehThreedotsabove-ar.medi</string>
+      <string>kehehThreedotsabove-ar.init</string>
+      <string>kehehThreedotsupbelow-ar</string>
+      <string>kehehThreedotsupbelow-ar.fina</string>
+      <string>kehehThreedotsupbelow-ar.medi</string>
+      <string>kehehThreedotsupbelow-ar.init</string>
+      <string>gaf-ar</string>
+      <string>gaf-ar.fina</string>
+      <string>gaf-ar.medi</string>
+      <string>gaf-ar.init</string>
+      <string>gafRing-ar</string>
+      <string>gafRing-ar.fina</string>
+      <string>gafRing-ar.medi</string>
+      <string>gafRing-ar.init</string>
+      <string>gafThreedots-ar</string>
+      <string>gafThreedots-ar.fina</string>
+      <string>gafThreedots-ar.medi</string>
+      <string>gafThreedots-ar.init</string>
+      <string>kafswash-ar</string>
+      <string>kafswash-ar.fina</string>
+      <string>kafswash-ar.medi</string>
+      <string>kafswash-ar.init</string>
+      <string>kafRing-ar</string>
+      <string>kafRing-ar.fina</string>
+      <string>kafRing-ar.medi</string>
+      <string>kafRing-ar.init</string>
+      <string>kafDotabove-ar</string>
+      <string>kafDotabove-ar.fina</string>
+      <string>kafDotabove-ar.medi</string>
+      <string>kafDotabove-ar.init</string>
+      <string>kafThreedotsbelow-ar</string>
+      <string>kafThreedotsbelow-ar.fina</string>
+      <string>kafThreedotsbelow-ar.medi</string>
+      <string>kafThreedotsbelow-ar.init</string>
+      <string>gafTwodotsbelow-ar</string>
+      <string>gafTwodotsbelow-ar.fina</string>
+      <string>gafTwodotsbelow-ar.medi</string>
+      <string>gafTwodotsbelow-ar.init</string>
+      <string>ng-ar</string>
+      <string>ng-ar.fina</string>
+      <string>ng-ar.medi</string>
+      <string>ng-ar.init</string>
+      <string>ngoeh-ar</string>
+      <string>ngoeh-ar.fina</string>
+      <string>ngoeh-ar.medi</string>
+      <string>ngoeh-ar.init</string>
+      <string>gueh-ar</string>
+      <string>gueh-ar.fina</string>
+      <string>gueh-ar.medi</string>
+      <string>gueh-ar.init</string>
+      <string>lam-ar</string>
+      <string>lam-ar.fina</string>
+      <string>lam-ar.medi</string>
+      <string>lam-ar.init</string>
+      <string>lamVabove-ar</string>
+      <string>lamVabove-ar.fina</string>
+      <string>lamVabove-ar.medi</string>
+      <string>lamVabove-ar.init</string>
+      <string>lamDotabove-ar</string>
+      <string>lamDotabove-ar.fina</string>
+      <string>lamDotabove-ar.medi</string>
+      <string>lamDotabove-ar.init</string>
+      <string>lamThreedotsabove-ar</string>
+      <string>lamThreedotsabove-ar.fina</string>
+      <string>lamThreedotsabove-ar.medi</string>
+      <string>lamThreedotsabove-ar.init</string>
+      <string>lamThreedotsbelow-ar</string>
+      <string>lamThreedotsbelow-ar.fina</string>
+      <string>lamThreedotsbelow-ar.medi</string>
+      <string>lamThreedotsbelow-ar.init</string>
+      <string>meem-ar</string>
+      <string>meem-ar.fina</string>
+      <string>meem-ar.medi</string>
+      <string>meem-ar.init</string>
+      <string>noon-ar</string>
+      <string>noon-ar.fina</string>
+      <string>noon-ar.medi</string>
+      <string>noon-ar.init</string>
+      <string>noonDotbelow-ar</string>
+      <string>noonDotbelow-ar.fina</string>
+      <string>noonDotbelow-ar.medi</string>
+      <string>noonDotbelow-ar.init</string>
+      <string>noonghunna-ar</string>
+      <string>noonghunna-ar.fina</string>
+      <string>rnoon-ar</string>
+      <string>rnoon-ar.fina</string>
+      <string>noonRing-ar</string>
+      <string>noonRing-ar.fina</string>
+      <string>noonRing-ar.medi</string>
+      <string>noonRing-ar.init</string>
+      <string>noonThreedotsabove-ar</string>
+      <string>noonThreedotsabove-ar.fina</string>
+      <string>heh-ar</string>
+      <string>heh-ar.fina</string>
+      <string>heh-ar.medi</string>
+      <string>heh-ar.init</string>
+      <string>hehHamzaabove-ar</string>
+      <string>hehHamzaabove-ar.fina</string>
+      <string>hehgoal-ar</string>
+      <string>hehgoal-ar.fina</string>
+      <string>hehgoal-ar.medi</string>
+      <string>hehgoal-ar.init</string>
+      <string>hehgoalHamzaabove-ar</string>
+      <string>hehgoalHamzaabove-ar.fina</string>
+      <string>hehDoachashmee-ar</string>
+      <string>hehDoachashmee-ar.fina</string>
+      <string>hehDoachashmee-ar.medi</string>
+      <string>hehDoachashmee-ar.init</string>
+      <string>hehVinvertedabove-ar</string>
+      <string>hehVinvertedabove-ar.fina</string>
+      <string>hehVinvertedabove-ar.medi</string>
+      <string>hehVinvertedabove-ar.init</string>
+      <string>tehMarbuta-ar</string>
+      <string>tehMarbuta-ar.fina</string>
+      <string>tehMarbutagoal-ar</string>
+      <string>tehMarbutagoal-ar.fina</string>
+      <string>waw-ar</string>
+      <string>waw-ar.fina</string>
+      <string>wawring-ar</string>
+      <string>wawring-ar.fina</string>
+      <string>wawTwodots-ar</string>
+      <string>wawTwodots-ar.fina</string>
+      <string>wawDotabove-ar</string>
+      <string>wawDotabove-ar.fina</string>
+      <string>wawHamzaabove-ar</string>
+      <string>wawHamzaabove-ar.fina</string>
+      <string>kirghizoe-ar</string>
+      <string>kirghizoe-ar.fina</string>
+      <string>oe-ar</string>
+      <string>oe-ar.fina</string>
+      <string>u-ar</string>
+      <string>u-ar.fina</string>
+      <string>yu-ar</string>
+      <string>yu-ar.fina</string>
+      <string>kirghizyu-ar</string>
+      <string>kirghizyu-ar.fina</string>
+      <string>ve-ar</string>
+      <string>ve-ar.fina</string>
+      <string>alefMaksura-ar</string>
+      <string>alefMaksura-ar.fina</string>
+      <string>yeh-ar</string>
+      <string>yeh-ar.fina</string>
+      <string>yeh-ar.medi</string>
+      <string>yeh-ar.init</string>
+      <string>yehHamzaabove-ar</string>
+      <string>yehHamzaabove-ar.fina</string>
+      <string>yehHamzaabove-ar.medi</string>
+      <string>yehHamzaabove-ar.init</string>
+      <string>yehVabove-ar</string>
+      <string>yehVabove-ar.fina</string>
+      <string>yehVabove-ar.medi</string>
+      <string>yehVabove-ar.init</string>
+      <string>yeh-farsi</string>
+      <string>yeh-farsi.fina</string>
+      <string>yeh-farsi.medi</string>
+      <string>yeh-farsi.init</string>
+      <string>yehTail-ar</string>
+      <string>yehTail-ar.fina</string>
+      <string>e-ar</string>
+      <string>e-ar.fina</string>
+      <string>e-ar.medi</string>
+      <string>e-ar.init</string>
+      <string>yehThreedotsbelow-ar</string>
+      <string>yehThreedotsbelow-ar.fina</string>
+      <string>yehbarree-ar</string>
+      <string>yehbarree-ar.fina</string>
+      <string>yehbarreeHamzaabove-ar</string>
+      <string>yehbarreeHamzaabove-ar.fina</string>
+      <string>highhamzaWaw-ar</string>
+      <string>highhamzaWaw-ar.fina</string>
+      <string>uHamzaabove-ar</string>
+      <string>uHamzaabove-ar.fina</string>
+      <string>highhamzaYeh-ar</string>
+      <string>highhamzaYeh-ar.fina</string>
+      <string>ae-ar</string>
+      <string>seenFourdotsabove-ar</string>
+      <string>seenFourdotsabove-ar.fina</string>
+      <string>seenFourdotsabove-ar.medi</string>
+      <string>seenFourdotsabove-ar.init</string>
+      <string>ainTwodotshorizontalabove-ar</string>
+      <string>ainTwodotshorizontalabove-ar.fina</string>
+      <string>ainTwodotshorizontalabove-ar.medi</string>
+      <string>ainTwodotshorizontalabove-ar.init</string>
+      <string>ainThreedotsdownabove-ar</string>
+      <string>ainThreedotsdownabove-ar.fina</string>
+      <string>ainThreedotsdownabove-ar.medi</string>
+      <string>ainThreedotsdownabove-ar.init</string>
+      <string>ainTwodotsverticalabove-ar</string>
+      <string>ainTwodotsverticalabove-ar.fina</string>
+      <string>ainTwodotsverticalabove-ar.medi</string>
+      <string>ainTwodotsverticalabove-ar.init</string>
+      <string>fehTwodotsbelow-ar</string>
+      <string>fehTwodotsbelow-ar.fina</string>
+      <string>fehTwodotsbelow-ar.medi</string>
+      <string>fehTwodotsbelow-ar.init</string>
+      <string>fehThreedotsupbelow-ar</string>
+      <string>fehThreedotsupbelow-ar.fina</string>
+      <string>fehThreedotsupbelow-ar.medi</string>
+      <string>fehThreedotsupbelow-ar.init</string>
+      <string>meemDotabove-ar</string>
+      <string>meemDotabove-ar.fina</string>
+      <string>meemDotabove-ar.medi</string>
+      <string>meemDotabove-ar.init</string>
+      <string>meemDotbelow-ar</string>
+      <string>meemDotbelow-ar.fina</string>
+      <string>meemDotbelow-ar.medi</string>
+      <string>meemDotbelow-ar.init</string>
+      <string>noonTwodotsbelow-ar</string>
+      <string>noonTwodotsbelow-ar.fina</string>
+      <string>noonTwodotsbelow-ar.medi</string>
+      <string>noonTwodotsbelow-ar.init</string>
+      <string>noonTahabove-ar</string>
+      <string>noonTahabove-ar.fina</string>
+      <string>noonTahabove-ar.medi</string>
+      <string>noonTahabove-ar.init</string>
+      <string>noonVabove-ar</string>
+      <string>noonVabove-ar.fina</string>
+      <string>noonVabove-ar.medi</string>
+      <string>noonVabove-ar.init</string>
+      <string>lamBar-ar</string>
+      <string>lamBar-ar.fina</string>
+      <string>lamBar-ar.medi</string>
+      <string>lamBar-ar.init</string>
+      <string>seenTwodotshorizontalabove-ar</string>
+      <string>seenTwodotshorizontalabove-ar.fina</string>
+      <string>seenTwodotshorizontalabove-ar.medi</string>
+      <string>seenTwodotshorizontalabove-ar.init</string>
+      <string>kashida-ar</string>
+      <string>ng-ar.finamorocco</string>
+      <string>ng-ar.morocco</string>
+      <string>lam_alef-ar.isol</string>
+      <string>lam_alef-ar.fina</string>
+      <string>lam_alefHamzaabove-ar.isol</string>
+      <string>lam_alefHamzaabove-ar.fina</string>
+      <string>lam_alefHamzabelow-ar.isol</string>
+      <string>lam_alefHamzabelow-ar.fina</string>
+      <string>lam_alefWavyhamzaabove-ar.isol</string>
+      <string>lam_alefWavyhamzaabove-ar.fina</string>
+      <string>lam_alefWavyhamzabelow-ar.isol</string>
+      <string>lam_alefWavyhamzabelow-ar.fina</string>
+      <string>lam_alefMadda-ar.isol</string>
+      <string>lam_alefMadda-ar.fina</string>
+      <string>lam_alefWasla-ar.isol</string>
+      <string>lam_alefWasla-ar.fina</string>
+      <string>lam_highhamzaAlef-ar.isol</string>
+      <string>lam_highhamzaAlef-ar.fina</string>
+      <string>lamVabove_alef-ar.isol</string>
+      <string>lamVabove_alef-ar.fina</string>
+      <string>lamDotabove_alef-ar.isol</string>
+      <string>lamDotabove_alef-ar.fina</string>
+      <string>lamThreedotsabove_alef-ar.isol</string>
+      <string>lamThreedotsabove_alef-ar.fina</string>
+      <string>lamThreedotsbelow_alef-ar.isol</string>
+      <string>lamThreedotsbelow_alef-ar.fina</string>
+      <string>lamBar_alef-ar.isol</string>
+      <string>lamBar_alef-ar.fina</string>
+      <string>allah-ar</string>
+      <string>wawSmall-ar</string>
+      <string>yehSmall-ar</string>
+      <string>alef_alt-hb.fina</string>
+      <string>alef_alt-hb.isol</string>
+      <string>decimalseparator-ar</string>
+      <string>thousandseparator-ar</string>
+      <string>zero-ar</string>
+      <string>one-ar</string>
+      <string>two-ar</string>
+      <string>three-ar</string>
+      <string>four-ar</string>
+      <string>five-ar</string>
+      <string>six-ar</string>
+      <string>seven-ar</string>
+      <string>eight-ar</string>
+      <string>nine-ar</string>
+      <string>zero-persian</string>
+      <string>one-persian</string>
+      <string>two-persian</string>
+      <string>three-persian</string>
+      <string>four-persian</string>
+      <string>five-persian</string>
+      <string>six-persian</string>
+      <string>seven-persian</string>
+      <string>eight-persian</string>
+      <string>nine-persian</string>
+      <string>four-persian.urdu</string>
+      <string>seven-persian.urdu</string>
+      <string>threedots-ar</string>
+      <string>hizb-ar</string>
+      <string>fullstop-ar</string>
+      <string>comma-ar</string>
+      <string>semicolon-ar</string>
+      <string>question-ar</string>
+      <string>number-ar</string>
+      <string>asterisk-ar</string>
+      <string>year-ar</string>
+      <string>footnotemarker-ar</string>
+      <string>pagenumber-ar</string>
+      <string>dateseparator-ar</string>
+      <string>verseComma-ar</string>
+      <string>misraComma-ar</string>
+      <string>sindhiampersand-ar</string>
+      <string>endofayah-ar</string>
+      <string>parenleft-ar</string>
+      <string>parenright-ar</string>
+      <string>space</string>
+      <string>zerowidthspace</string>
+      <string>lefttorightmark</string>
+      <string>righttoleftmark</string>
+      <string>zerowidthjoiner</string>
+      <string>zerowidthnonjoiner</string>
+      <string>CR</string>
+      <string>.notdef</string>
+      <string>.null</string>
+      <string>afghani-ar</string>
+      <string>rial</string>
+      <string>dottedCircle</string>
+      <string>sajdah-ar</string>
+      <string>sindhipostpositionmen-ar</string>
+      <string>percent-ar</string>
+      <string>circumflex.arabic</string>
+      <string>patah-hb.wide</string>
+      <string>rehHahabove-ar</string>
+      <string>rehDadabove-ar</string>
+      <string>kasra-ar.isol</string>
+      <string>sadabove-ar</string>
+      <string>ainabove-ar</string>
+      <string>takhallusabove-ar</string>
+      <string>tahabove-ar</string>
+      <string>alefabove-ar</string>
+      <string>alefbelow-ar</string>
+      <string>hamzaabove-ar</string>
+      <string>hamzaabove_fathatan-ar</string>
+      <string>hamzaabove_dammatan-ar</string>
+      <string>hamzaabove_fatha-ar</string>
+      <string>hamzaabove_damma-ar</string>
+      <string>hamzaabove_sukun-ar</string>
+      <string>hamzabelow-ar</string>
+      <string>hamzabelow_kasratan-ar</string>
+      <string>hamzabelow_kasra-ar</string>
+      <string>fathatan-ar</string>
+      <string>fathatan-ar.isol</string>
+      <string>dammatan-ar</string>
+      <string>dammatan-ar.isol</string>
+      <string>kasratan-ar</string>
+      <string>kasratan-ar.isol</string>
+      <string>fatha-ar</string>
+      <string>fatha-ar.isol</string>
+      <string>damma-ar</string>
+      <string>damma-ar.isol</string>
+      <string>kasra-ar</string>
+      <string>shadda-ar</string>
+      <string>shadda-ar.isol</string>
+      <string>shadda_fathatan-ar</string>
+      <string>shadda_dammatan-ar</string>
+      <string>shadda_kasratan-ar</string>
+      <string>shadda_fatha-ar</string>
+      <string>shadda_damma-ar</string>
+      <string>shadda_kasra-ar</string>
+      <string>shadda_alefabove-ar</string>
+      <string>sukun-ar</string>
+      <string>sukun-ar.isol</string>
+      <string>madda-ar</string>
+      <string>noonghunnaabove-ar</string>
+      <string>dammainverted-ar</string>
+      <string>fathaHorizont-ar</string>
+      <string>vabove-ar</string>
+      <string>vinvertedabove-ar</string>
+      <string>dotvowelbelow-ar</string>
+      <string>dammareversed-ar</string>
+      <string>fathatwodots-ar</string>
+      <string>sadLamAlefMaksuraabove-ar</string>
+      <string>qafLamAlefMaksuraabove-ar</string>
+      <string>meemabove-ar</string>
+      <string>meemStopabove-ar</string>
+      <string>lamAlefabove-ar</string>
+      <string>jeemabove-ar</string>
+      <string>threedotsabove-ar</string>
+      <string>seenabove-ar</string>
+      <string>sukunround-ar</string>
+      <string>sukunoval-ar</string>
+      <string>hahabove-ar</string>
+      <string>seenbelow-ar</string>
+      <string>maddalong-ar</string>
+      <string>yehabove-ar</string>
+      <string>noonabove-ar</string>
+      <string>rhombusStopbelow-ar</string>
+      <string>rhombusStopabove-ar</string>
+      <string>meembelow-ar</string>
+      <string>feh_dotless.isol</string>
+      <string>onedot.above</string>
+      <string>twodots.above</string>
+      <string>threedots.above</string>
+      <string>threedots.below</string>
+      <string>wasla</string>
+      <string>beh_dotless_alt.init</string>
+      <string>beh_dotless_alt.medi</string>
+      <string>onedot.below</string>
+      <string>twodots.below</string>
+      <string>Ghunna_above</string>
+      <string>twodots.small.above</string>
+      <string>twodots.small.below</string>
+      <string>twodots.vert.above</string>
+      <string>twodots.vert.below</string>
+      <string>twodots.vert.small.above</string>
+      <string>twodots.vert.small.below</string>
+      <string>threedots.small.above</string>
+      <string>threedots.small.below</string>
+      <string>fourdots.above</string>
+      <string>fourdots.below</string>
+      <string>threedots.horz.below</string>
+      <string>smallv.arabic</string>
+      <string>hamza_medial</string>
+      <string>wavyhamza_above</string>
+      <string>wavyhamza_below</string>
+      <string>threedots.rev.above</string>
+      <string>threedots.rev.below</string>
+      <string>twodots_alt1.below</string>
+      <string>threedots.rev_alt1.below</string>
+      <string>threedots_alt1.below</string>
+      <string>twodots.vert_alt1.below</string>
+      <string>threedots_alt2.below</string>
+      <string>threedots.horz_alt1.below</string>
+      <string>hah_alt.isol</string>
+      <string>hah_alt.fina</string>
+      <string>diagonal</string>
+      <string>threedots_alt1.above</string>
+      <string>threedots_alt2.above</string>
+      <string>twodots_alt1.above</string>
+      <string>threedots.rev_alt2.below</string>
+      <string>diagonal2</string>
+    </array>
+    <key>public.postscriptNames</key>
+    <dict>
+      <key>ae-ar</key>
+      <string>uni06D5</string>
+      <key>afghani-ar</key>
+      <string>uni060B</string>
+      <key>ain-ar</key>
+      <string>uni0639</string>
+      <key>ain-ar.fina</key>
+      <string>uniFECA</string>
+      <key>ain-ar.init</key>
+      <string>uniFECB</string>
+      <key>ain-ar.medi</key>
+      <string>uniFECC</string>
+      <key>ainThreedots-ar</key>
+      <string>uni06A0</string>
+      <key>ainThreedots-ar.fina</key>
+      <string>uni06A0.fina</string>
+      <key>ainThreedots-ar.init</key>
+      <string>uni06A0.init</string>
+      <key>ainThreedots-ar.medi</key>
+      <string>uni06A0.medi</string>
+      <key>ainThreedotsdownabove-ar</key>
+      <string>uni075E</string>
+      <key>ainThreedotsdownabove-ar.fina</key>
+      <string>uni075E.fina</string>
+      <key>ainThreedotsdownabove-ar.init</key>
+      <string>uni075E.init</string>
+      <key>ainThreedotsdownabove-ar.medi</key>
+      <string>uni075E.medi</string>
+      <key>ainTwodotshorizontalabove-ar</key>
+      <string>uni075D</string>
+      <key>ainTwodotshorizontalabove-ar.fina</key>
+      <string>uni075D.fina</string>
+      <key>ainTwodotshorizontalabove-ar.init</key>
+      <string>uni075D.init</string>
+      <key>ainTwodotshorizontalabove-ar.medi</key>
+      <string>uni075D.medi</string>
+      <key>ainTwodotsverticalabove-ar</key>
+      <string>uni075F</string>
+      <key>ainTwodotsverticalabove-ar.fina</key>
+      <string>uni075F.fina</string>
+      <key>ainTwodotsverticalabove-ar.init</key>
+      <string>uni075F.init</string>
+      <key>ainTwodotsverticalabove-ar.medi</key>
+      <string>uni075F.medi</string>
+      <key>ainabove-ar</key>
+      <string>uni0611</string>
+      <key>alef-ar</key>
+      <string>uni0627</string>
+      <key>alef-ar.fina</key>
+      <string>uniFE8E</string>
+      <key>alefHamzaabove-ar</key>
+      <string>uni0623</string>
+      <key>alefHamzaabove-ar.fina</key>
+      <string>uniFE84</string>
+      <key>alefHamzabelow-ar</key>
+      <string>uni0625</string>
+      <key>alefHamzabelow-ar.fina</key>
+      <string>uniFE88</string>
+      <key>alefMadda-ar</key>
+      <string>uni0622</string>
+      <key>alefMadda-ar.fina</key>
+      <string>uniFE82</string>
+      <key>alefMaksura-ar</key>
+      <string>uni0649</string>
+      <key>alefMaksura-ar.fina</key>
+      <string>uniFEF0</string>
+      <key>alefMaksura-ar.init</key>
+      <string>uniFBE8</string>
+      <key>alefMaksura-ar.medi</key>
+      <string>uniFBE9</string>
+      <key>alefWasla-ar</key>
+      <string>uni0671</string>
+      <key>alefWasla-ar.fina</key>
+      <string>uniFB51</string>
+      <key>alefWavyhamzaabove-ar</key>
+      <string>uni0672</string>
+      <key>alefWavyhamzaabove-ar.fina</key>
+      <string>uni0672.fina</string>
+      <key>alefWavyhamzabelow-ar</key>
+      <string>uni0673</string>
+      <key>alefWavyhamzabelow-ar.fina</key>
+      <string>uni0673.fina</string>
+      <key>alef_alt-hb.fina</key>
+      <string>alef_althb.fina</string>
+      <key>alef_alt-hb.isol</key>
+      <string>alef_althb.isol</string>
+      <key>alefabove-ar</key>
+      <string>uni0670</string>
+      <key>alefbelow-ar</key>
+      <string>uni0656</string>
+      <key>allah-ar</key>
+      <string>uniFDF2</string>
+      <key>asterisk-ar</key>
+      <string>uni066D</string>
+      <key>beeh-ar</key>
+      <string>uni067B</string>
+      <key>beeh-ar.fina</key>
+      <string>uniFB53</string>
+      <key>beeh-ar.init</key>
+      <string>uniFB54</string>
+      <key>beeh-ar.medi</key>
+      <string>uniFB55</string>
+      <key>beh-ar</key>
+      <string>uni0628</string>
+      <key>beh-ar.fina</key>
+      <string>uniFE90</string>
+      <key>beh-ar.init</key>
+      <string>uniFE91</string>
+      <key>beh-ar.medi</key>
+      <string>uniFE92</string>
+      <key>behDotless-ar</key>
+      <string>uni066E</string>
+      <key>behDotless-ar.fina</key>
+      <string>uni066E.fina</string>
+      <key>behDotless-ar.init</key>
+      <string>uni066E.init</string>
+      <key>behDotless-ar.medi</key>
+      <string>uni066E.medi</string>
+      <key>behThreedotshorizontalbelow-ar</key>
+      <string>uni0750</string>
+      <key>behThreedotshorizontalbelow-ar.fina</key>
+      <string>uni0750.fina</string>
+      <key>behThreedotshorizontalbelow-ar.init</key>
+      <string>uni0750.init</string>
+      <key>behThreedotshorizontalbelow-ar.medi</key>
+      <string>uni0750.medi</string>
+      <key>behThreedotsupabove-ar</key>
+      <string>uni0751</string>
+      <key>behThreedotsupabove-ar.fina</key>
+      <string>uni0751.fina</string>
+      <key>behThreedotsupabove-ar.init</key>
+      <string>uni0751.init</string>
+      <key>behThreedotsupabove-ar.medi</key>
+      <string>uni0751.medi</string>
+      <key>behThreedotsupbelow-ar</key>
+      <string>uni0752</string>
+      <key>behThreedotsupbelow-ar.fina</key>
+      <string>uni0752.fina</string>
+      <key>behThreedotsupbelow-ar.init</key>
+      <string>uni0752.init</string>
+      <key>behThreedotsupbelow-ar.medi</key>
+      <string>uni0752.medi</string>
+      <key>behTwodotsbelowDotabove-ar</key>
+      <string>uni0754</string>
+      <key>behTwodotsbelowDotabove-ar.fina</key>
+      <string>uni0754.fina</string>
+      <key>behTwodotsbelowDotabove-ar.init</key>
+      <string>uni0754.init</string>
+      <key>behTwodotsbelowDotabove-ar.medi</key>
+      <string>uni0754.medi</string>
+      <key>behVabove-ar</key>
+      <string>uni0756</string>
+      <key>behVabove-ar.fina</key>
+      <string>uni0756.fina</string>
+      <key>behVabove-ar.init</key>
+      <string>uni0756.init</string>
+      <key>behVabove-ar.medi</key>
+      <string>uni0756.medi</string>
+      <key>behVinvertedbelow-ar</key>
+      <string>uni0755</string>
+      <key>behVinvertedbelow-ar.fina</key>
+      <string>uni0755.fina</string>
+      <key>behVinvertedbelow-ar.init</key>
+      <string>uni0755.init</string>
+      <key>behVinvertedbelow-ar.medi</key>
+      <string>uni0755.medi</string>
+      <key>beheh-ar</key>
+      <string>uni0680</string>
+      <key>beheh-ar.fina</key>
+      <string>uniFB5B</string>
+      <key>beheh-ar.init</key>
+      <string>uniFB5C</string>
+      <key>beheh-ar.medi</key>
+      <string>uniFB5D</string>
+      <key>comma-ar</key>
+      <string>uni060C</string>
+      <key>dad-ar</key>
+      <string>uni0636</string>
+      <key>dad-ar.fina</key>
+      <string>uniFEBE</string>
+      <key>dad-ar.init</key>
+      <string>uniFEBF</string>
+      <key>dad-ar.medi</key>
+      <string>uniFEC0</string>
+      <key>dadDotbelow-ar</key>
+      <string>uni06FB</string>
+      <key>dadDotbelow-ar.fina</key>
+      <string>uni06FB.fina</string>
+      <key>dadDotbelow-ar.init</key>
+      <string>uni06FB.init</string>
+      <key>dadDotbelow-ar.medi</key>
+      <string>uni06FB.medi</string>
+      <key>dahal-ar</key>
+      <string>uni068C</string>
+      <key>dahal-ar.fina</key>
+      <string>uniFB85</string>
+      <key>dal-ar</key>
+      <string>uni062F</string>
+      <key>dal-ar.fina</key>
+      <string>uniFEAA</string>
+      <key>dalDotbelow-ar</key>
+      <string>uni068A</string>
+      <key>dalDotbelow-ar.fina</key>
+      <string>uni068A.fina</string>
+      <key>dalDotbelowTah-ar</key>
+      <string>uni068B</string>
+      <key>dalDotbelowTah-ar.fina</key>
+      <string>uni068B.fina</string>
+      <key>dalFourdots-ar</key>
+      <string>uni0690</string>
+      <key>dalFourdots-ar.fina</key>
+      <string>uni0690.fina</string>
+      <key>dalRing-ar</key>
+      <string>uni0689</string>
+      <key>dalRing-ar.fina</key>
+      <string>uni0689.fina</string>
+      <key>dalThreedotsdown-ar</key>
+      <string>uni068F</string>
+      <key>dalThreedotsdown-ar.fina</key>
+      <string>uni068F.fina</string>
+      <key>dalTwodotsverticalbelowTah-ar</key>
+      <string>uni0759</string>
+      <key>dalTwodotsverticalbelowTah-ar.fina</key>
+      <string>uni0759.fina</string>
+      <key>dalVinvertedabove-ar</key>
+      <string>uni06EE</string>
+      <key>dalVinvertedabove-ar.fina</key>
+      <string>uni06EE.fina</string>
+      <key>dalVinvertedbelow-ar</key>
+      <string>uni075A</string>
+      <key>dalVinvertedbelow-ar.fina</key>
+      <string>uni075A.fina</string>
+      <key>damma-ar</key>
+      <string>uni064F</string>
+      <key>damma-ar.isol</key>
+      <string>uniFE78</string>
+      <key>dammainverted-ar</key>
+      <string>uni0657</string>
+      <key>dammareversed-ar</key>
+      <string>uni065D</string>
+      <key>dammatan-ar</key>
+      <string>uni064C</string>
+      <key>dammatan-ar.isol</key>
+      <string>uniFE72</string>
+      <key>dateseparator-ar</key>
+      <string>uni060D</string>
+      <key>ddahal-ar</key>
+      <string>uni068D</string>
+      <key>ddahal-ar.fina</key>
+      <string>uniFB83</string>
+      <key>ddal-ar</key>
+      <string>uni0688</string>
+      <key>ddal-ar.fina</key>
+      <string>uniFB89</string>
+      <key>decimalseparator-ar</key>
+      <string>uni066B</string>
+      <key>dottedCircle</key>
+      <string>uni25CC</string>
+      <key>dotvowelbelow-ar</key>
+      <string>uni065C</string>
+      <key>dul-ar</key>
+      <string>uni068E</string>
+      <key>dul-ar.fina</key>
+      <string>uniFB87</string>
+      <key>dyeh-ar</key>
+      <string>uni0684</string>
+      <key>dyeh-ar.fina</key>
+      <string>uniFB73</string>
+      <key>dyeh-ar.init</key>
+      <string>uniFB74</string>
+      <key>dyeh-ar.medi</key>
+      <string>uniFB75</string>
+      <key>e-ar</key>
+      <string>uni06D0</string>
+      <key>e-ar.fina</key>
+      <string>uniFBE5</string>
+      <key>e-ar.init</key>
+      <string>uniFBE6</string>
+      <key>e-ar.medi</key>
+      <string>uniFBE7</string>
+      <key>eight-ar</key>
+      <string>uni0668</string>
+      <key>eight-persian</key>
+      <string>uni06F8</string>
+      <key>endofayah-ar</key>
+      <string>uni06DD</string>
+      <key>fatha-ar</key>
+      <string>uni064E</string>
+      <key>fatha-ar.isol</key>
+      <string>uniFE76</string>
+      <key>fathaHorizont-ar</key>
+      <string>uni0659</string>
+      <key>fathatan-ar</key>
+      <string>uni064B</string>
+      <key>fathatan-ar.isol</key>
+      <string>uniFE70</string>
+      <key>fathatwodots-ar</key>
+      <string>uni065E</string>
+      <key>feh-ar</key>
+      <string>uni0641</string>
+      <key>feh-ar.fina</key>
+      <string>uniFED2</string>
+      <key>feh-ar.init</key>
+      <string>uniFED3</string>
+      <key>feh-ar.medi</key>
+      <string>uniFED4</string>
+      <key>fehDotbelow-ar</key>
+      <string>uni06A3</string>
+      <key>fehDotbelow-ar.fina</key>
+      <string>uni06A3.fina</string>
+      <key>fehDotbelow-ar.init</key>
+      <string>uni06A3.init</string>
+      <key>fehDotbelow-ar.medi</key>
+      <string>uni06A3.medi</string>
+      <key>fehDotless-ar</key>
+      <string>uni06A1</string>
+      <key>fehDotless-ar.fina</key>
+      <string>uni06A1.fina</string>
+      <key>fehDotmovedbelow-ar</key>
+      <string>uni06A2</string>
+      <key>fehDotmovedbelow-ar.fina</key>
+      <string>uni06A2.fina</string>
+      <key>fehDotmovedbelow-ar.init</key>
+      <string>uni06A2.init</string>
+      <key>fehDotmovedbelow-ar.medi</key>
+      <string>uni06A2.medi</string>
+      <key>fehThreedotsbelow-ar</key>
+      <string>uni06A5</string>
+      <key>fehThreedotsbelow-ar.fina</key>
+      <string>uni06A5.fina</string>
+      <key>fehThreedotsbelow-ar.init</key>
+      <string>uni06A5.init</string>
+      <key>fehThreedotsbelow-ar.medi</key>
+      <string>uni06A5.medi</string>
+      <key>fehThreedotsupbelow-ar</key>
+      <string>uni0761</string>
+      <key>fehThreedotsupbelow-ar.fina</key>
+      <string>uni0761.fina</string>
+      <key>fehThreedotsupbelow-ar.init</key>
+      <string>uni0761.init</string>
+      <key>fehThreedotsupbelow-ar.medi</key>
+      <string>uni0761.medi</string>
+      <key>fehTwodotsbelow-ar</key>
+      <string>uni0760</string>
+      <key>fehTwodotsbelow-ar.fina</key>
+      <string>uni0760.fina</string>
+      <key>fehTwodotsbelow-ar.init</key>
+      <string>uni0760.init</string>
+      <key>fehTwodotsbelow-ar.medi</key>
+      <string>uni0760.medi</string>
+      <key>five-ar</key>
+      <string>uni0665</string>
+      <key>five-persian</key>
+      <string>uni06F5</string>
+      <key>footnotemarker-ar</key>
+      <string>uni0602</string>
+      <key>four-ar</key>
+      <string>uni0664</string>
+      <key>four-persian</key>
+      <string>uni06F4</string>
+      <key>four-persian.urdu</key>
+      <string>uni06F4.urdu</string>
+      <key>fullstop-ar</key>
+      <string>uni06D4</string>
+      <key>gaf-ar</key>
+      <string>uni06AF</string>
+      <key>gaf-ar.fina</key>
+      <string>uniFB93</string>
+      <key>gaf-ar.init</key>
+      <string>uniFB94</string>
+      <key>gaf-ar.medi</key>
+      <string>uniFB95</string>
+      <key>gafRing-ar</key>
+      <string>uni06B0</string>
+      <key>gafRing-ar.fina</key>
+      <string>uni06B0.fina</string>
+      <key>gafRing-ar.init</key>
+      <string>uni06B0.init</string>
+      <key>gafRing-ar.medi</key>
+      <string>uni06B0.medi</string>
+      <key>gafThreedots-ar</key>
+      <string>uni06B4</string>
+      <key>gafThreedots-ar.fina</key>
+      <string>uni06B4.fina</string>
+      <key>gafThreedots-ar.init</key>
+      <string>uni06B4.init</string>
+      <key>gafThreedots-ar.medi</key>
+      <string>uni06B4.medi</string>
+      <key>gafTwodotsbelow-ar</key>
+      <string>uni06B2</string>
+      <key>gafTwodotsbelow-ar.fina</key>
+      <string>uni06B2.fina</string>
+      <key>gafTwodotsbelow-ar.init</key>
+      <string>uni06B2.init</string>
+      <key>gafTwodotsbelow-ar.medi</key>
+      <string>uni06B2.medi</string>
+      <key>ghain-ar</key>
+      <string>uni063A</string>
+      <key>ghain-ar.fina</key>
+      <string>uniFECE</string>
+      <key>ghain-ar.init</key>
+      <string>uniFECF</string>
+      <key>ghain-ar.medi</key>
+      <string>uniFED0</string>
+      <key>ghainDotbelow-ar</key>
+      <string>uni06FC</string>
+      <key>ghainDotbelow-ar.fina</key>
+      <string>uni06FC.fina</string>
+      <key>ghainDotbelow-ar.init</key>
+      <string>uni06FC.init</string>
+      <key>ghainDotbelow-ar.medi</key>
+      <string>uni06FC.medi</string>
+      <key>gueh-ar</key>
+      <string>uni06B3</string>
+      <key>gueh-ar.fina</key>
+      <string>uniFB97</string>
+      <key>gueh-ar.init</key>
+      <string>uniFB98</string>
+      <key>gueh-ar.medi</key>
+      <string>uniFB99</string>
+      <key>hah-ar</key>
+      <string>uni062D</string>
+      <key>hah-ar.fina</key>
+      <string>uniFEA2</string>
+      <key>hah-ar.init</key>
+      <string>uniFEA3</string>
+      <key>hah-ar.medi</key>
+      <string>uniFEA4</string>
+      <key>hahHamzaabove-ar</key>
+      <string>uni0681</string>
+      <key>hahHamzaabove-ar.fina</key>
+      <string>uni0681.fina</string>
+      <key>hahHamzaabove-ar.init</key>
+      <string>uni0681.init</string>
+      <key>hahHamzaabove-ar.medi</key>
+      <string>uni0681.medi</string>
+      <key>hahThreedotsabove-ar</key>
+      <string>uni0685</string>
+      <key>hahThreedotsabove-ar.fina</key>
+      <string>uni0685.fina</string>
+      <key>hahThreedotsabove-ar.init</key>
+      <string>uni0685.init</string>
+      <key>hahThreedotsabove-ar.medi</key>
+      <string>uni0685.medi</string>
+      <key>hahThreedotsupbelow-ar</key>
+      <string>uni0758</string>
+      <key>hahThreedotsupbelow-ar.fina</key>
+      <string>uni0758.fina</string>
+      <key>hahThreedotsupbelow-ar.init</key>
+      <string>uni0758.init</string>
+      <key>hahThreedotsupbelow-ar.medi</key>
+      <string>uni0758.medi</string>
+      <key>hahTwodotshorizontalabove-ar</key>
+      <string>uni0757</string>
+      <key>hahTwodotshorizontalabove-ar.fina</key>
+      <string>uni0757.fina</string>
+      <key>hahTwodotshorizontalabove-ar.init</key>
+      <string>uni0757.init</string>
+      <key>hahTwodotshorizontalabove-ar.medi</key>
+      <string>uni0757.medi</string>
+      <key>hahTwodotsverticalabove-ar</key>
+      <string>uni0682</string>
+      <key>hahTwodotsverticalabove-ar.fina</key>
+      <string>uni0682.fina</string>
+      <key>hahTwodotsverticalabove-ar.init</key>
+      <string>uni0682.init</string>
+      <key>hahTwodotsverticalabove-ar.medi</key>
+      <string>uni0682.medi</string>
+      <key>hahabove-ar</key>
+      <string>uni06E1</string>
+      <key>hamza-ar</key>
+      <string>uni0621</string>
+      <key>hamzaabove-ar</key>
+      <string>uni0654</string>
+      <key>hamzaabove_damma-ar</key>
+      <string>hamzaabove_dammaar</string>
+      <key>hamzaabove_dammatan-ar</key>
+      <string>hamzaabove_dammatanar</string>
+      <key>hamzaabove_fatha-ar</key>
+      <string>hamzaabove_fathaar</string>
+      <key>hamzaabove_fathatan-ar</key>
+      <string>hamzaabove_fathatanar</string>
+      <key>hamzaabove_sukun-ar</key>
+      <string>hamzaabove_sukunar</string>
+      <key>hamzabelow-ar</key>
+      <string>uni0655</string>
+      <key>hamzabelow_kasra-ar</key>
+      <string>hamzabelow_kasraar</string>
+      <key>hamzabelow_kasratan-ar</key>
+      <string>hamzabelow_kasratanar</string>
+      <key>heh-ar</key>
+      <string>uni0647</string>
+      <key>heh-ar.fina</key>
+      <string>uniFEEA</string>
+      <key>heh-ar.init</key>
+      <string>uniFEEB</string>
+      <key>heh-ar.medi</key>
+      <string>uniFEEC</string>
+      <key>hehDoachashmee-ar</key>
+      <string>uni06BE</string>
+      <key>hehDoachashmee-ar.fina</key>
+      <string>uniFBAB</string>
+      <key>hehDoachashmee-ar.init</key>
+      <string>uniFBAC</string>
+      <key>hehDoachashmee-ar.medi</key>
+      <string>uniFBAD</string>
+      <key>hehHamzaabove-ar</key>
+      <string>uni06C0</string>
+      <key>hehHamzaabove-ar.fina</key>
+      <string>uniFBA5</string>
+      <key>hehVinvertedabove-ar</key>
+      <string>uni06FF</string>
+      <key>hehVinvertedabove-ar.fina</key>
+      <string>uni06FF.fina</string>
+      <key>hehVinvertedabove-ar.init</key>
+      <string>uni06FF.init</string>
+      <key>hehVinvertedabove-ar.medi</key>
+      <string>uni06FF.medi</string>
+      <key>hehgoal-ar</key>
+      <string>uni06C1</string>
+      <key>hehgoal-ar.fina</key>
+      <string>uniFBA7</string>
+      <key>hehgoal-ar.init</key>
+      <string>uniFBA8</string>
+      <key>hehgoal-ar.medi</key>
+      <string>uniFBA9</string>
+      <key>hehgoalHamzaabove-ar</key>
+      <string>uni06C2</string>
+      <key>hehgoalHamzaabove-ar.fina</key>
+      <string>uni06C2.fina</string>
+      <key>highhamzaAlef-ar</key>
+      <string>uni0675</string>
+      <key>highhamzaAlef-ar.fina</key>
+      <string>uni0675.fina</string>
+      <key>highhamzaWaw-ar</key>
+      <string>uni0676</string>
+      <key>highhamzaWaw-ar.fina</key>
+      <string>uni0676.fina</string>
+      <key>highhamzaYeh-ar</key>
+      <string>uni0678</string>
+      <key>highhamzaYeh-ar.fina</key>
+      <string>uni0678.fina</string>
+      <key>hizb-ar</key>
+      <string>hizbar</string>
+      <key>jeem-ar</key>
+      <string>uni062C</string>
+      <key>jeem-ar.fina</key>
+      <string>uniFE9E</string>
+      <key>jeem-ar.init</key>
+      <string>uniFE9F</string>
+      <key>jeem-ar.medi</key>
+      <string>uniFEA0</string>
+      <key>jeemabove-ar</key>
+      <string>uni06DA</string>
+      <key>jeh-ar</key>
+      <string>uni0698</string>
+      <key>jeh-ar.fina</key>
+      <string>uniFB8B</string>
+      <key>kaf-ar</key>
+      <string>uni0643</string>
+      <key>kaf-ar.fina</key>
+      <string>uniFEDA</string>
+      <key>kaf-ar.init</key>
+      <string>uniFEDB</string>
+      <key>kaf-ar.medi</key>
+      <string>uniFEDC</string>
+      <key>kafDotabove-ar</key>
+      <string>uni06AC</string>
+      <key>kafDotabove-ar.fina</key>
+      <string>uni06AC.fina</string>
+      <key>kafDotabove-ar.init</key>
+      <string>uni06AC.init</string>
+      <key>kafDotabove-ar.medi</key>
+      <string>uni06AC.medi</string>
+      <key>kafRing-ar</key>
+      <string>uni06AB</string>
+      <key>kafRing-ar.fina</key>
+      <string>uni06AB.fina</string>
+      <key>kafRing-ar.init</key>
+      <string>uni06AB.init</string>
+      <key>kafRing-ar.medi</key>
+      <string>uni06AB.medi</string>
+      <key>kafThreedotsbelow-ar</key>
+      <string>uni06AE</string>
+      <key>kafThreedotsbelow-ar.fina</key>
+      <string>uni06AE.fina</string>
+      <key>kafThreedotsbelow-ar.init</key>
+      <string>uni06AE.init</string>
+      <key>kafThreedotsbelow-ar.medi</key>
+      <string>uni06AE.medi</string>
+      <key>kafswash-ar</key>
+      <string>uni06AA</string>
+      <key>kafswash-ar.fina</key>
+      <string>uni06AA.fina</string>
+      <key>kafswash-ar.init</key>
+      <string>uni06AA.init</string>
+      <key>kafswash-ar.medi</key>
+      <string>uni06AA.medi</string>
+      <key>kashida-ar</key>
+      <string>uni0640</string>
+      <key>kasra-ar</key>
+      <string>uni0650</string>
+      <key>kasra-ar.isol</key>
+      <string>uniFE7A</string>
+      <key>kasratan-ar</key>
+      <string>uni064D</string>
+      <key>kasratan-ar.isol</key>
+      <string>uniFE74</string>
+      <key>keheh-ar</key>
+      <string>uni06A9</string>
+      <key>keheh-ar.fina</key>
+      <string>uniFB8F</string>
+      <key>keheh-ar.init</key>
+      <string>uniFB90</string>
+      <key>keheh-ar.medi</key>
+      <string>uniFB91</string>
+      <key>kehehDotabove-ar</key>
+      <string>uni0762</string>
+      <key>kehehDotabove-ar.fina</key>
+      <string>uni0762.fina</string>
+      <key>kehehDotabove-ar.init</key>
+      <string>uni0762.init</string>
+      <key>kehehDotabove-ar.medi</key>
+      <string>uni0762.medi</string>
+      <key>kehehThreedotsabove-ar</key>
+      <string>uni0763</string>
+      <key>kehehThreedotsabove-ar.fina</key>
+      <string>uni0763.fina</string>
+      <key>kehehThreedotsabove-ar.init</key>
+      <string>uni0763.init</string>
+      <key>kehehThreedotsabove-ar.medi</key>
+      <string>uni0763.medi</string>
+      <key>kehehThreedotsupbelow-ar</key>
+      <string>uni0764</string>
+      <key>kehehThreedotsupbelow-ar.fina</key>
+      <string>uni0764.fina</string>
+      <key>kehehThreedotsupbelow-ar.init</key>
+      <string>uni0764.init</string>
+      <key>kehehThreedotsupbelow-ar.medi</key>
+      <string>uni0764.medi</string>
+      <key>khah-ar</key>
+      <string>uni062E</string>
+      <key>khah-ar.fina</key>
+      <string>uniFEA6</string>
+      <key>khah-ar.init</key>
+      <string>uniFEA7</string>
+      <key>khah-ar.medi</key>
+      <string>uniFEA8</string>
+      <key>kirghizoe-ar</key>
+      <string>uni06C5</string>
+      <key>kirghizoe-ar.fina</key>
+      <string>uniFBE1</string>
+      <key>kirghizyu-ar</key>
+      <string>uni06C9</string>
+      <key>kirghizyu-ar.fina</key>
+      <string>uniFBE3</string>
+      <key>lam-ar</key>
+      <string>uni0644</string>
+      <key>lam-ar.fina</key>
+      <string>uniFEDE</string>
+      <key>lam-ar.init</key>
+      <string>uniFEDF</string>
+      <key>lam-ar.medi</key>
+      <string>uniFEE0</string>
+      <key>lamAlefabove-ar</key>
+      <string>uni06D9</string>
+      <key>lamBar-ar</key>
+      <string>uni076A</string>
+      <key>lamBar-ar.fina</key>
+      <string>uni076A.fina</string>
+      <key>lamBar-ar.init</key>
+      <string>uni076A.init</string>
+      <key>lamBar-ar.medi</key>
+      <string>uni076A.medi</string>
+      <key>lamBar_alef-ar.fina</key>
+      <string>lamBar_alefar.fina</string>
+      <key>lamBar_alef-ar.isol</key>
+      <string>lamBar_alefar.isol</string>
+      <key>lamDotabove-ar</key>
+      <string>uni06B6</string>
+      <key>lamDotabove-ar.fina</key>
+      <string>uni06B6.fina</string>
+      <key>lamDotabove-ar.init</key>
+      <string>uni06B6.init</string>
+      <key>lamDotabove-ar.medi</key>
+      <string>uni06B6.medi</string>
+      <key>lamDotabove_alef-ar.fina</key>
+      <string>lamDotabove_alefar.fina</string>
+      <key>lamDotabove_alef-ar.isol</key>
+      <string>lamDotabove_alefar.isol</string>
+      <key>lamThreedotsabove-ar</key>
+      <string>uni06B7</string>
+      <key>lamThreedotsabove-ar.fina</key>
+      <string>uni06B7.fina</string>
+      <key>lamThreedotsabove-ar.init</key>
+      <string>uni06B7.init</string>
+      <key>lamThreedotsabove-ar.medi</key>
+      <string>uni06B7.medi</string>
+      <key>lamThreedotsabove_alef-ar.fina</key>
+      <string>lamThreedotsabove_alefar.fina</string>
+      <key>lamThreedotsabove_alef-ar.isol</key>
+      <string>lamThreedotsabove_alefar.isol</string>
+      <key>lamThreedotsbelow-ar</key>
+      <string>uni06B8</string>
+      <key>lamThreedotsbelow-ar.fina</key>
+      <string>uni06B8.fina</string>
+      <key>lamThreedotsbelow-ar.init</key>
+      <string>uni06B8.init</string>
+      <key>lamThreedotsbelow-ar.medi</key>
+      <string>uni06B8.medi</string>
+      <key>lamThreedotsbelow_alef-ar.fina</key>
+      <string>lamThreedotsbelow_alefar.fina</string>
+      <key>lamThreedotsbelow_alef-ar.isol</key>
+      <string>lamThreedotsbelow_alefar.isol</string>
+      <key>lamVabove-ar</key>
+      <string>uni06B5</string>
+      <key>lamVabove-ar.fina</key>
+      <string>uni06B5.fina</string>
+      <key>lamVabove-ar.init</key>
+      <string>uni06B5.init</string>
+      <key>lamVabove-ar.medi</key>
+      <string>uni06B5.medi</string>
+      <key>lamVabove_alef-ar.fina</key>
+      <string>lamVabove_alefar.fina</string>
+      <key>lamVabove_alef-ar.isol</key>
+      <string>lamVabove_alefar.isol</string>
+      <key>lam_alef-ar.fina</key>
+      <string>uniFEFC</string>
+      <key>lam_alef-ar.isol</key>
+      <string>uniFEFB.isol</string>
+      <key>lam_alefHamzaabove-ar.fina</key>
+      <string>uniFEF8</string>
+      <key>lam_alefHamzaabove-ar.isol</key>
+      <string>uniFEF7.isol</string>
+      <key>lam_alefHamzabelow-ar.fina</key>
+      <string>uniFEFA</string>
+      <key>lam_alefHamzabelow-ar.isol</key>
+      <string>uniFEF9.isol</string>
+      <key>lam_alefMadda-ar.fina</key>
+      <string>uniFEF6</string>
+      <key>lam_alefMadda-ar.isol</key>
+      <string>uniFEF5.isol</string>
+      <key>lam_alefWasla-ar.fina</key>
+      <string>lam_alefWaslaar.fina</string>
+      <key>lam_alefWasla-ar.isol</key>
+      <string>lam_alefWaslaar.isol</string>
+      <key>lam_alefWavyhamzaabove-ar.fina</key>
+      <string>lam_alefWavyhamzaabovear.fina</string>
+      <key>lam_alefWavyhamzaabove-ar.isol</key>
+      <string>lam_alefWavyhamzaabovear.isol</string>
+      <key>lam_alefWavyhamzabelow-ar.fina</key>
+      <string>lam_alefWavyhamzabelowar.fina</string>
+      <key>lam_alefWavyhamzabelow-ar.isol</key>
+      <string>lam_alefWavyhamzabelowar.isol</string>
+      <key>lam_highhamzaAlef-ar.fina</key>
+      <string>lam_highhamzaAlefar.fina</string>
+      <key>lam_highhamzaAlef-ar.isol</key>
+      <string>lam_highhamzaAlefar.isol</string>
+      <key>lefttorightmark</key>
+      <string>uni200E</string>
+      <key>madda-ar</key>
+      <string>uni0653</string>
+      <key>maddalong-ar</key>
+      <string>uni06E4</string>
+      <key>meem-ar</key>
+      <string>uni0645</string>
+      <key>meem-ar.fina</key>
+      <string>uniFEE2</string>
+      <key>meem-ar.init</key>
+      <string>uniFEE3</string>
+      <key>meem-ar.medi</key>
+      <string>uniFEE4</string>
+      <key>meemDotabove-ar</key>
+      <string>uni0765</string>
+      <key>meemDotabove-ar.fina</key>
+      <string>uni0765.fina</string>
+      <key>meemDotabove-ar.init</key>
+      <string>uni0765.init</string>
+      <key>meemDotabove-ar.medi</key>
+      <string>uni0765.medi</string>
+      <key>meemDotbelow-ar</key>
+      <string>uni0766</string>
+      <key>meemDotbelow-ar.fina</key>
+      <string>uni0766.fina</string>
+      <key>meemDotbelow-ar.init</key>
+      <string>uni0766.init</string>
+      <key>meemDotbelow-ar.medi</key>
+      <string>uni0766.medi</string>
+      <key>meemStopabove-ar</key>
+      <string>uni06E2</string>
+      <key>meemabove-ar</key>
+      <string>uni06D8</string>
+      <key>meembelow-ar</key>
+      <string>uni06ED</string>
+      <key>misraComma-ar</key>
+      <string>uni060F</string>
+      <key>ng-ar</key>
+      <string>uni06AD</string>
+      <key>ng-ar.fina</key>
+      <string>uniFBD4</string>
+      <key>ng-ar.finamorocco</key>
+      <string>uni06AD.finamorocco</string>
+      <key>ng-ar.init</key>
+      <string>uniFBD5</string>
+      <key>ng-ar.medi</key>
+      <string>uniFBD6</string>
+      <key>ng-ar.morocco</key>
+      <string>uni06AD.morocco</string>
+      <key>ngoeh-ar</key>
+      <string>uni06B1</string>
+      <key>ngoeh-ar.fina</key>
+      <string>uniFB9B</string>
+      <key>ngoeh-ar.init</key>
+      <string>uniFB9C</string>
+      <key>ngoeh-ar.medi</key>
+      <string>uniFB9D</string>
+      <key>nine-ar</key>
+      <string>uni0669</string>
+      <key>nine-persian</key>
+      <string>uni06F9</string>
+      <key>noon-ar</key>
+      <string>uni0646</string>
+      <key>noon-ar.fina</key>
+      <string>uniFEE6</string>
+      <key>noon-ar.init</key>
+      <string>uniFEE7</string>
+      <key>noon-ar.medi</key>
+      <string>uniFEE8</string>
+      <key>noonDotbelow-ar</key>
+      <string>uni06B9</string>
+      <key>noonDotbelow-ar.fina</key>
+      <string>uni06B9.fina</string>
+      <key>noonDotbelow-ar.init</key>
+      <string>uni06B9.init</string>
+      <key>noonDotbelow-ar.medi</key>
+      <string>uni06B9.medi</string>
+      <key>noonRing-ar</key>
+      <string>uni06BC</string>
+      <key>noonRing-ar.fina</key>
+      <string>uni06BC.fina</string>
+      <key>noonRing-ar.init</key>
+      <string>uni06BC.init</string>
+      <key>noonRing-ar.medi</key>
+      <string>uni06BC.medi</string>
+      <key>noonTahabove-ar</key>
+      <string>uni0768</string>
+      <key>noonTahabove-ar.fina</key>
+      <string>uni0768.fina</string>
+      <key>noonTahabove-ar.init</key>
+      <string>uni0768.init</string>
+      <key>noonTahabove-ar.medi</key>
+      <string>uni0768.medi</string>
+      <key>noonThreedotsabove-ar</key>
+      <string>uni06BD</string>
+      <key>noonThreedotsabove-ar.fina</key>
+      <string>uni06BD.fina</string>
+      <key>noonTwodotsbelow-ar</key>
+      <string>uni0767</string>
+      <key>noonTwodotsbelow-ar.fina</key>
+      <string>uni0767.fina</string>
+      <key>noonTwodotsbelow-ar.init</key>
+      <string>uni0767.init</string>
+      <key>noonTwodotsbelow-ar.medi</key>
+      <string>uni0767.medi</string>
+      <key>noonVabove-ar</key>
+      <string>uni0769</string>
+      <key>noonVabove-ar.fina</key>
+      <string>uni0769.fina</string>
+      <key>noonVabove-ar.init</key>
+      <string>uni0769.init</string>
+      <key>noonVabove-ar.medi</key>
+      <string>uni0769.medi</string>
+      <key>noonabove-ar</key>
+      <string>uni06E8</string>
+      <key>noonghunna-ar</key>
+      <string>uni06BA</string>
+      <key>noonghunna-ar.fina</key>
+      <string>uniFB9F</string>
+      <key>noonghunnaabove-ar</key>
+      <string>uni0658</string>
+      <key>number-ar</key>
+      <string>uni0600</string>
+      <key>nyeh-ar</key>
+      <string>uni0683</string>
+      <key>nyeh-ar.fina</key>
+      <string>uniFB77</string>
+      <key>nyeh-ar.init</key>
+      <string>uniFB78</string>
+      <key>nyeh-ar.medi</key>
+      <string>uniFB79</string>
+      <key>oe-ar</key>
+      <string>uni06C6</string>
+      <key>oe-ar.fina</key>
+      <string>uniFBDA</string>
+      <key>one-ar</key>
+      <string>uni0661</string>
+      <key>one-persian</key>
+      <string>uni06F1</string>
+      <key>pagenumber-ar</key>
+      <string>uni0603</string>
+      <key>parenleft-ar</key>
+      <string>uniFD3E</string>
+      <key>parenright-ar</key>
+      <string>uniFD3F</string>
+      <key>patah-hb.wide</key>
+      <string>uni05B7.wide</string>
+      <key>peh-ar</key>
+      <string>uni067E</string>
+      <key>peh-ar.fina</key>
+      <string>uniFB57</string>
+      <key>peh-ar.init</key>
+      <string>uniFB58</string>
+      <key>peh-ar.medi</key>
+      <string>uniFB59</string>
+      <key>peheh-ar</key>
+      <string>uni06A6</string>
+      <key>peheh-ar.fina</key>
+      <string>uniFB6F</string>
+      <key>peheh-ar.init</key>
+      <string>uniFB70</string>
+      <key>peheh-ar.medi</key>
+      <string>uniFB71</string>
+      <key>percent-ar</key>
+      <string>uni066A</string>
+      <key>qaf-ar</key>
+      <string>uni0642</string>
+      <key>qaf-ar.fina</key>
+      <string>uniFED6</string>
+      <key>qaf-ar.init</key>
+      <string>uniFED7</string>
+      <key>qaf-ar.medi</key>
+      <string>uniFED8</string>
+      <key>qafDotabove-ar</key>
+      <string>uni06A7</string>
+      <key>qafDotabove-ar.fina</key>
+      <string>uni06A7.fina</string>
+      <key>qafDotless-ar</key>
+      <string>uni066F</string>
+      <key>qafDotless-ar.fina</key>
+      <string>uni066F.fina</string>
+      <key>qafDotless-ar.init</key>
+      <string>uni066F.init</string>
+      <key>qafDotless-ar.medi</key>
+      <string>uni066F.medi</string>
+      <key>qafLamAlefMaksuraabove-ar</key>
+      <string>uni06D7</string>
+      <key>qafThreedotsabove-ar</key>
+      <string>uni06A8</string>
+      <key>qafThreedotsabove-ar.fina</key>
+      <string>uni06A8.fina</string>
+      <key>question-ar</key>
+      <string>uni061F</string>
+      <key>reh-ar</key>
+      <string>uni0631</string>
+      <key>reh-ar.fina</key>
+      <string>uniFEAE</string>
+      <key>rehDadabove-ar</key>
+      <string>uni0613</string>
+      <key>rehDotbelow-ar</key>
+      <string>uni0694</string>
+      <key>rehDotbelow-ar.fina</key>
+      <string>uni0694.fina</string>
+      <key>rehDotbelowdotabove-ar</key>
+      <string>uni0696</string>
+      <key>rehDotbelowdotabove-ar.fina</key>
+      <string>uni0696.fina</string>
+      <key>rehFourdots-ar</key>
+      <string>uni0699</string>
+      <key>rehFourdots-ar.fina</key>
+      <string>uni0699.fina</string>
+      <key>rehHahabove-ar</key>
+      <string>uni0612</string>
+      <key>rehHamzaabove-ar</key>
+      <string>uni076C</string>
+      <key>rehHamzaabove-ar.fina</key>
+      <string>uni076C.fina</string>
+      <key>rehRing-ar</key>
+      <string>uni0693</string>
+      <key>rehRing-ar.fina</key>
+      <string>uni0693.fina</string>
+      <key>rehStroke-ar</key>
+      <string>uni075B</string>
+      <key>rehStroke-ar.fina</key>
+      <string>uni075B.fina</string>
+      <key>rehTwodots-ar</key>
+      <string>uni0697</string>
+      <key>rehTwodots-ar.fina</key>
+      <string>uni0697.fina</string>
+      <key>rehTwodotsverticalabove-ar</key>
+      <string>uni076B</string>
+      <key>rehTwodotsverticalabove-ar.fina</key>
+      <string>uni076B.fina</string>
+      <key>rehVbelow-ar</key>
+      <string>uni0695</string>
+      <key>rehVbelow-ar.fina</key>
+      <string>uni0695.fina</string>
+      <key>rehVinvertedabove-ar</key>
+      <string>uni06EF</string>
+      <key>rehVinvertedabove-ar.fina</key>
+      <string>uni06EF.fina</string>
+      <key>rehv-ar</key>
+      <string>uni0692</string>
+      <key>rehv-ar.fina</key>
+      <string>uni0692.fina</string>
+      <key>rhombusStopabove-ar</key>
+      <string>uni06EB</string>
+      <key>rhombusStopbelow-ar</key>
+      <string>uni06EA</string>
+      <key>rial</key>
+      <string>uniFDFC</string>
+      <key>righttoleftmark</key>
+      <string>uni200F</string>
+      <key>rnoon-ar</key>
+      <string>uni06BB</string>
+      <key>rnoon-ar.fina</key>
+      <string>uniFBA1</string>
+      <key>rreh-ar</key>
+      <string>uni0691</string>
+      <key>rreh-ar.fina</key>
+      <string>uniFB8D</string>
+      <key>sad-ar</key>
+      <string>uni0635</string>
+      <key>sad-ar.fina</key>
+      <string>uniFEBA</string>
+      <key>sad-ar.init</key>
+      <string>uniFEBB</string>
+      <key>sad-ar.medi</key>
+      <string>uniFEBC</string>
+      <key>sadLamAlefMaksuraabove-ar</key>
+      <string>uni06D6</string>
+      <key>sadThreedots-ar</key>
+      <string>uni069E</string>
+      <key>sadThreedots-ar.fina</key>
+      <string>uni069E.fina</string>
+      <key>sadThreedots-ar.init</key>
+      <string>uni069E.init</string>
+      <key>sadThreedots-ar.medi</key>
+      <string>uni069E.medi</string>
+      <key>sadTwodotsbelow-ar</key>
+      <string>uni069D</string>
+      <key>sadTwodotsbelow-ar.fina</key>
+      <string>uni069D.fina</string>
+      <key>sadTwodotsbelow-ar.init</key>
+      <string>uni069D.init</string>
+      <key>sadTwodotsbelow-ar.medi</key>
+      <string>uni069D.medi</string>
+      <key>sadabove-ar</key>
+      <string>uni0610</string>
+      <key>sajdah-ar</key>
+      <string>uni06E9</string>
+      <key>seen-ar</key>
+      <string>uni0633</string>
+      <key>seen-ar.fina</key>
+      <string>uniFEB2</string>
+      <key>seen-ar.init</key>
+      <string>uniFEB3</string>
+      <key>seen-ar.medi</key>
+      <string>uniFEB4</string>
+      <key>seenDotbelowDotabove-ar</key>
+      <string>uni069A</string>
+      <key>seenDotbelowDotabove-ar.fina</key>
+      <string>uni069A.fina</string>
+      <key>seenDotbelowDotabove-ar.init</key>
+      <string>uni069A.init</string>
+      <key>seenDotbelowDotabove-ar.medi</key>
+      <string>uni069A.medi</string>
+      <key>seenFourdotsabove-ar</key>
+      <string>uni075C</string>
+      <key>seenFourdotsabove-ar.fina</key>
+      <string>uni075C.fina</string>
+      <key>seenFourdotsabove-ar.init</key>
+      <string>uni075C.init</string>
+      <key>seenFourdotsabove-ar.medi</key>
+      <string>uni075C.medi</string>
+      <key>seenThreedotsbelow-ar</key>
+      <string>uni069B</string>
+      <key>seenThreedotsbelow-ar.fina</key>
+      <string>uni069B.fina</string>
+      <key>seenThreedotsbelow-ar.init</key>
+      <string>uni069B.init</string>
+      <key>seenThreedotsbelow-ar.medi</key>
+      <string>uni069B.medi</string>
+      <key>seenTwodotshorizontalabove-ar</key>
+      <string>uni076D</string>
+      <key>seenTwodotshorizontalabove-ar.fina</key>
+      <string>uni076D.fina</string>
+      <key>seenTwodotshorizontalabove-ar.init</key>
+      <string>uni076D.init</string>
+      <key>seenTwodotshorizontalabove-ar.medi</key>
+      <string>uni076D.medi</string>
+      <key>seenabove-ar</key>
+      <string>uni06DC</string>
+      <key>seenbelow-ar</key>
+      <string>uni06E3</string>
+      <key>semicolon-ar</key>
+      <string>uni061B</string>
+      <key>seven-ar</key>
+      <string>uni0667</string>
+      <key>seven-persian</key>
+      <string>uni06F7</string>
+      <key>seven-persian.urdu</key>
+      <string>uni06F7.urdu</string>
+      <key>shadda-ar</key>
+      <string>uni0651</string>
+      <key>shadda-ar.isol</key>
+      <string>uniFE7C</string>
+      <key>shadda_alefabove-ar</key>
+      <string>uniFC63</string>
+      <key>shadda_damma-ar</key>
+      <string>uniFC61</string>
+      <key>shadda_dammatan-ar</key>
+      <string>uniFC5E</string>
+      <key>shadda_fatha-ar</key>
+      <string>uniFC60</string>
+      <key>shadda_fathatan-ar</key>
+      <string>shadda_fathatanar</string>
+      <key>shadda_kasra-ar</key>
+      <string>uniFC62</string>
+      <key>shadda_kasratan-ar</key>
+      <string>uniFC5F</string>
+      <key>sheen-ar</key>
+      <string>uni0634</string>
+      <key>sheen-ar.fina</key>
+      <string>uniFEB6</string>
+      <key>sheen-ar.init</key>
+      <string>uniFEB7</string>
+      <key>sheen-ar.medi</key>
+      <string>uniFEB8</string>
+      <key>sheenDotbelow-ar</key>
+      <string>uni06FA</string>
+      <key>sheenDotbelow-ar.fina</key>
+      <string>uni06FA.fina</string>
+      <key>sheenDotbelow-ar.init</key>
+      <string>uni06FA.init</string>
+      <key>sheenDotbelow-ar.medi</key>
+      <string>uni06FA.medi</string>
+      <key>sheenThreedotsbelow-ar</key>
+      <string>uni069C</string>
+      <key>sheenThreedotsbelow-ar.fina</key>
+      <string>uni069C.fina</string>
+      <key>sheenThreedotsbelow-ar.init</key>
+      <string>uni069C.init</string>
+      <key>sheenThreedotsbelow-ar.medi</key>
+      <string>uni069C.medi</string>
+      <key>sindhiampersand-ar</key>
+      <string>uni06FD</string>
+      <key>sindhipostpositionmen-ar</key>
+      <string>uni06FE</string>
+      <key>six-ar</key>
+      <string>uni0666</string>
+      <key>six-persian</key>
+      <string>uni06F6</string>
+      <key>sukun-ar</key>
+      <string>uni0652</string>
+      <key>sukun-ar.isol</key>
+      <string>uniFE7E</string>
+      <key>sukunoval-ar</key>
+      <string>uni06E0</string>
+      <key>sukunround-ar</key>
+      <string>uni06DF</string>
+      <key>tah-ar</key>
+      <string>uni0637</string>
+      <key>tah-ar.fina</key>
+      <string>uniFEC2</string>
+      <key>tah-ar.init</key>
+      <string>uniFEC3</string>
+      <key>tah-ar.medi</key>
+      <string>uniFEC4</string>
+      <key>tahThreedots-ar</key>
+      <string>uni069F</string>
+      <key>tahThreedots-ar.fina</key>
+      <string>uni069F.fina</string>
+      <key>tahThreedots-ar.init</key>
+      <string>uni069F.init</string>
+      <key>tahThreedots-ar.medi</key>
+      <string>uni069F.medi</string>
+      <key>tahabove-ar</key>
+      <string>uni0615</string>
+      <key>takhallusabove-ar</key>
+      <string>uni0614</string>
+      <key>tcheh-ar</key>
+      <string>uni0686</string>
+      <key>tcheh-ar.fina</key>
+      <string>uniFB7B</string>
+      <key>tcheh-ar.init</key>
+      <string>uniFB7C</string>
+      <key>tcheh-ar.medi</key>
+      <string>uniFB7D</string>
+      <key>tchehDotabove-ar</key>
+      <string>uni06BF</string>
+      <key>tchehDotabove-ar.fina</key>
+      <string>uni06BF.fina</string>
+      <key>tchehDotabove-ar.init</key>
+      <string>uni06BF.init</string>
+      <key>tchehDotabove-ar.medi</key>
+      <string>uni06BF.medi</string>
+      <key>tcheheh-ar</key>
+      <string>uni0687</string>
+      <key>tcheheh-ar.fina</key>
+      <string>uniFB7F</string>
+      <key>tcheheh-ar.init</key>
+      <string>uniFB80</string>
+      <key>tcheheh-ar.medi</key>
+      <string>uniFB81</string>
+      <key>teh-ar</key>
+      <string>uni062A</string>
+      <key>teh-ar.fina</key>
+      <string>uniFE96</string>
+      <key>teh-ar.init</key>
+      <string>uniFE97</string>
+      <key>teh-ar.medi</key>
+      <string>uniFE98</string>
+      <key>tehMarbuta-ar</key>
+      <string>uni0629</string>
+      <key>tehMarbuta-ar.fina</key>
+      <string>uniFE94</string>
+      <key>tehMarbutagoal-ar</key>
+      <string>uni06C3</string>
+      <key>tehMarbutagoal-ar.fina</key>
+      <string>uni06C3.fina</string>
+      <key>tehRing-ar</key>
+      <string>uni067C</string>
+      <key>tehRing-ar.fina</key>
+      <string>uni067C.fina</string>
+      <key>tehRing-ar.init</key>
+      <string>uni067C.init</string>
+      <key>tehRing-ar.medi</key>
+      <string>uni067C.medi</string>
+      <key>tehThreedotsdown-ar</key>
+      <string>uni067D</string>
+      <key>tehThreedotsdown-ar.fina</key>
+      <string>uni067D.fina</string>
+      <key>tehThreedotsdown-ar.init</key>
+      <string>uni067D.init</string>
+      <key>tehThreedotsdown-ar.medi</key>
+      <string>uni067D.medi</string>
+      <key>tehThreedotsupbelow-ar</key>
+      <string>uni0753</string>
+      <key>tehThreedotsupbelow-ar.fina</key>
+      <string>uni0753.fina</string>
+      <key>tehThreedotsupbelow-ar.init</key>
+      <string>uni0753.init</string>
+      <key>tehThreedotsupbelow-ar.medi</key>
+      <string>uni0753.medi</string>
+      <key>teheh-ar</key>
+      <string>uni067F</string>
+      <key>teheh-ar.fina</key>
+      <string>uniFB63</string>
+      <key>teheh-ar.init</key>
+      <string>uniFB64</string>
+      <key>teheh-ar.medi</key>
+      <string>uniFB65</string>
+      <key>thal-ar</key>
+      <string>uni0630</string>
+      <key>thal-ar.fina</key>
+      <string>uniFEAC</string>
+      <key>theh-ar</key>
+      <string>uni062B</string>
+      <key>theh-ar.fina</key>
+      <string>uniFE9A</string>
+      <key>theh-ar.init</key>
+      <string>uniFE9B</string>
+      <key>theh-ar.medi</key>
+      <string>uniFE9C</string>
+      <key>thousandseparator-ar</key>
+      <string>uni066C</string>
+      <key>three-ar</key>
+      <string>uni0663</string>
+      <key>three-persian</key>
+      <string>uni06F3</string>
+      <key>threedots-ar</key>
+      <string>uni061E</string>
+      <key>threedotsabove-ar</key>
+      <string>uni06DB</string>
+      <key>tteh-ar</key>
+      <string>uni0679</string>
+      <key>tteh-ar.fina</key>
+      <string>uniFB67</string>
+      <key>tteh-ar.init</key>
+      <string>uniFB68</string>
+      <key>tteh-ar.medi</key>
+      <string>uniFB69</string>
+      <key>tteheh-ar</key>
+      <string>uni067A</string>
+      <key>tteheh-ar.fina</key>
+      <string>uniFB5F</string>
+      <key>tteheh-ar.init</key>
+      <string>uniFB60</string>
+      <key>tteheh-ar.medi</key>
+      <string>uniFB61</string>
+      <key>two-ar</key>
+      <string>uni0662</string>
+      <key>two-persian</key>
+      <string>uni06F2</string>
+      <key>u-ar</key>
+      <string>uni06C7</string>
+      <key>u-ar.fina</key>
+      <string>uniFBD8</string>
+      <key>uHamzaabove-ar</key>
+      <string>uni0677</string>
+      <key>uHamzaabove-ar.fina</key>
+      <string>uni0677.fina</string>
+      <key>vabove-ar</key>
+      <string>uni065A</string>
+      <key>ve-ar</key>
+      <string>uni06CB</string>
+      <key>ve-ar.fina</key>
+      <string>uniFBDF</string>
+      <key>veh-ar</key>
+      <string>uni06A4</string>
+      <key>veh-ar.fina</key>
+      <string>uniFB6B</string>
+      <key>veh-ar.init</key>
+      <string>uniFB6C</string>
+      <key>veh-ar.isol</key>
+      <string>uniFB6A</string>
+      <key>veh-ar.medi</key>
+      <string>uniFB6D</string>
+      <key>verseComma-ar</key>
+      <string>uni060E</string>
+      <key>vinvertedabove-ar</key>
+      <string>uni065B</string>
+      <key>waw-ar</key>
+      <string>uni0648</string>
+      <key>waw-ar.fina</key>
+      <string>uniFEEE</string>
+      <key>wawDotabove-ar</key>
+      <string>uni06CF</string>
+      <key>wawDotabove-ar.fina</key>
+      <string>uni06CF.fina</string>
+      <key>wawHamzaabove-ar</key>
+      <string>uni0624</string>
+      <key>wawHamzaabove-ar.fina</key>
+      <string>uniFE86</string>
+      <key>wawSmall-ar</key>
+      <string>uni06E5</string>
+      <key>wawTwodots-ar</key>
+      <string>uni06CA</string>
+      <key>wawTwodots-ar.fina</key>
+      <string>uni06CA.fina</string>
+      <key>wawring-ar</key>
+      <string>uni06C4</string>
+      <key>wawring-ar.fina</key>
+      <string>uni06C4.fina</string>
+      <key>year-ar</key>
+      <string>uni0601</string>
+      <key>yeh-ar</key>
+      <string>uni064A</string>
+      <key>yeh-ar.fina</key>
+      <string>uniFEF2</string>
+      <key>yeh-ar.init</key>
+      <string>uniFEF3</string>
+      <key>yeh-ar.medi</key>
+      <string>uniFEF4</string>
+      <key>yeh-farsi</key>
+      <string>uni06CC</string>
+      <key>yeh-farsi.fina</key>
+      <string>uniFBFD</string>
+      <key>yeh-farsi.init</key>
+      <string>uniFBFE</string>
+      <key>yeh-farsi.medi</key>
+      <string>uniFBFF</string>
+      <key>yehHamzaabove-ar</key>
+      <string>uni0626</string>
+      <key>yehHamzaabove-ar.fina</key>
+      <string>uniFE8A</string>
+      <key>yehHamzaabove-ar.init</key>
+      <string>uniFE8B</string>
+      <key>yehHamzaabove-ar.medi</key>
+      <string>uniFE8C</string>
+      <key>yehSmall-ar</key>
+      <string>uni06E6</string>
+      <key>yehTail-ar</key>
+      <string>uni06CD</string>
+      <key>yehTail-ar.fina</key>
+      <string>uni06CD.fina</string>
+      <key>yehThreedotsbelow-ar</key>
+      <string>uni06D1</string>
+      <key>yehThreedotsbelow-ar.fina</key>
+      <string>uni06D1.fina</string>
+      <key>yehVabove-ar</key>
+      <string>uni06CE</string>
+      <key>yehVabove-ar.fina</key>
+      <string>uni06CE.fina</string>
+      <key>yehVabove-ar.init</key>
+      <string>uni06CE.init</string>
+      <key>yehVabove-ar.medi</key>
+      <string>uni06CE.medi</string>
+      <key>yehabove-ar</key>
+      <string>uni06E7</string>
+      <key>yehbarree-ar</key>
+      <string>uni06D2</string>
+      <key>yehbarree-ar.fina</key>
+      <string>uniFBAF</string>
+      <key>yehbarreeHamzaabove-ar</key>
+      <string>uni06D3</string>
+      <key>yehbarreeHamzaabove-ar.fina</key>
+      <string>uniFBB1</string>
+      <key>yu-ar</key>
+      <string>uni06C8</string>
+      <key>yu-ar.fina</key>
+      <string>uniFBDC</string>
+      <key>zah-ar</key>
+      <string>uni0638</string>
+      <key>zah-ar.fina</key>
+      <string>uniFEC6</string>
+      <key>zah-ar.init</key>
+      <string>uniFEC7</string>
+      <key>zah-ar.medi</key>
+      <string>uniFEC8</string>
+      <key>zain-ar</key>
+      <string>uni0632</string>
+      <key>zain-ar.fina</key>
+      <string>uniFEB0</string>
+      <key>zero-ar</key>
+      <string>uni0660</string>
+      <key>zero-persian</key>
+      <string>uni06F0</string>
+      <key>zerowidthjoiner</key>
+      <string>uni200D</string>
+      <key>zerowidthnonjoiner</key>
+      <string>uni200C</string>
+      <key>zerowidthspace</key>
+      <string>uni200B</string>
+    </dict>
+  </dict>
+</plist>

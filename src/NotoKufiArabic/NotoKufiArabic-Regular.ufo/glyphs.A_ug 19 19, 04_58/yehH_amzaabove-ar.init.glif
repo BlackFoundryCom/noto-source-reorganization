@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehHamzaabove-ar.init" format="2">
+  <advance width="374"/>
+  <note>
+uni0626.init
+</note>
+  <anchor x="187.255" y="-80" name="bottom"/>
+  <anchor x="177.064" y="828.5" name="top"/>
+  <outline>
+    <component base="beh_dotless_alt.init"/>
+    <component base="hamzaabove-ar" xOffset="217" yOffset="-172"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/22 17:13:29</string>
+    </dict>
+  </lib>
+</glyph>

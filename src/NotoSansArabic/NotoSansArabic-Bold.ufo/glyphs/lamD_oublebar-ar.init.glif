@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamDoublebar-ar.init" format="2">
+  <advance width="325"/>
+  <anchor x="110" y="0" name="bottom"/>
+  <anchor x="165" y="726" name="top"/>
+  <outline>
+    <component base="lam-ar.init"/>
+    <component base="_doublebarshort" xScale="0.9" xOffset="27"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+    </dict>
+  </lib>
+</glyph>

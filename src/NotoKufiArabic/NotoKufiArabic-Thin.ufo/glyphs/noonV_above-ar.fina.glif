@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonVabove-ar.fina" format="2">
+  <advance width="584"/>
+  <note>
+uni0769.fina
+</note>
+  <anchor x="322" y="-322" name="bottom"/>
+  <anchor x="286" y="849" name="top"/>
+  <outline>
+    <component base="noonghunna-ar.fina"/>
+    <component base="smallv.arabic" xOffset="284" yOffset="6"/>
+    <component base="onedot.above" xOffset="297" yOffset="-105"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/22 14:42:23</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

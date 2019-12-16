@@ -21,48 +21,80 @@
   </axes>
   <sources>
     <source filename="NotoSansDisplay-LightItalic.ufo" name="Noto Sans Display Light Italic" familyname="NotoSansDisplay-Italic" stylename="Light Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
     <source filename="NotoSansDisplay-Italic.ufo" name="Noto Sans Display Italic" familyname="NotoSansDisplay-Italic" stylename="Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
     <source filename="NotoSansDisplay-SemiBoldItalic.ufo" name="Noto Sans Display SemiBold Italic" familyname="NotoSansDisplay-Italic" stylename="SemiBold Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
     <source filename="NotoSansDisplay-BoldItalic.ufo" name="Noto Sans Display Bold Italic" familyname="NotoSansDisplay-Italic" stylename="Bold Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
     <source filename="NotoSansDisplay-CondensedLightItalic.ufo" name="Noto Sans Display Condensed Light Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed Light Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
     <source filename="NotoSansDisplay-CondensedItalic.ufo" name="Noto Sans Display Condensed Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
     <source filename="NotoSansDisplay-CondensedSemiBoldItalic.ufo" name="Noto Sans Display Condensed SemiBold Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed SemiBold Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
     <source filename="NotoSansDisplay-CondensedBoldItalic.ufo" name="Noto Sans Display Condensed Bold Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed Bold Italic">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="70"/>
@@ -70,7 +102,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Noto Sans Display Thin Italic" familyname="NotoSansDisplay-Italic" stylename="Thin Italic" filename="Noto Sans Display Thin Italic">
+    <instance name="Noto Sans Display Thin Italic" familyname="NotoSansDisplay-Italic" stylename="Thin Italic" filename="instance_ufos/NotoSansDisplay-ThinItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="100"/>
@@ -78,7 +110,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display ExtraLight Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraLight Italic" filename="Noto Sans Display ExtraLight Italic">
+    <instance name="Noto Sans Display ExtraLight Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraLight Italic" filename="instance_ufos/NotoSansDisplay-ExtraLightItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="39"/>
         <dimension name="Width" xvalue="100"/>
@@ -86,7 +118,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display Light Italic" familyname="NotoSansDisplay-Italic" stylename="Light Italic" filename="Noto Sans Display Light Italic">
+    <instance name="Noto Sans Display Light Italic" familyname="NotoSansDisplay-Italic" stylename="Light Italic" filename="instance_ufos/NotoSansDisplay-LightItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="58"/>
         <dimension name="Width" xvalue="100"/>
@@ -94,7 +126,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display Italic" familyname="NotoSansDisplay-Italic" stylename="Italic" filename="Noto Sans Display Italic">
+    <instance name="Noto Sans Display Italic" familyname="NotoSansDisplay-Italic" stylename="Italic" filename="instance_ufos/NotoSansDisplay-Italic.ufo">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="100"/>
@@ -102,7 +134,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display Medium Italic" familyname="NotoSansDisplay-Italic" stylename="Medium Italic" filename="Noto Sans Display Medium Italic">
+    <instance name="Noto Sans Display Medium Italic" familyname="NotoSansDisplay-Italic" stylename="Medium Italic" filename="instance_ufos/NotoSansDisplay-MediumItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="108"/>
         <dimension name="Width" xvalue="100"/>
@@ -110,7 +142,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display SemiBold Italic" familyname="NotoSansDisplay-Italic" stylename="SemiBold Italic" filename="Noto Sans Display SemiBold Italic">
+    <instance name="Noto Sans Display SemiBold Italic" familyname="NotoSansDisplay-Italic" stylename="SemiBold Italic" filename="instance_ufos/NotoSansDisplay-SemiBoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="128"/>
         <dimension name="Width" xvalue="100"/>
@@ -118,7 +150,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display Bold Italic" familyname="NotoSansDisplay-Italic" stylename="Bold Italic" filename="Noto Sans Display Bold Italic">
+    <instance name="Noto Sans Display Bold Italic" familyname="NotoSansDisplay-Italic" stylename="Bold Italic" filename="instance_ufos/NotoSansDisplay-BoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="100"/>
@@ -126,7 +158,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display ExtraBold Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraBold Italic" filename="Noto Sans Display ExtraBold Italic">
+    <instance name="Noto Sans Display ExtraBold Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraBold Italic" filename="instance_ufos/NotoSansDisplay-ExtraBoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="100"/>
@@ -134,7 +166,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display Black Italic" familyname="NotoSansDisplay-Italic" stylename="Black Italic" filename="Noto Sans Display Black Italic">
+    <instance name="Noto Sans Display Black Italic" familyname="NotoSansDisplay-Italic" stylename="Black Italic" filename="instance_ufos/NotoSansDisplay-BlackItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="100"/>
@@ -142,7 +174,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display SemiCondensed Thin Italic" familyname="NotoSansDisplay-Italic" stylename="SemiCondensed Thin Italic" filename="Noto Sans Display SemiCondensed Thin Italic">
+    <instance name="Noto Sans Display SemiCondensed Thin Italic" familyname="NotoSansDisplay-Italic" stylename="SemiCondensed Thin Italic" filename="instance_ufos/NotoSansDisplay-SemiCondensedThinItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="89"/>
@@ -150,7 +182,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display SemiCondensed ExtraLight Italic" familyname="NotoSansDisplay-Italic" stylename="SemiCondensed ExtraLight Italic" filename="Noto Sans Display SemiCondensed ExtraLight Italic">
+    <instance name="Noto Sans Display SemiCondensed ExtraLight Italic" familyname="NotoSansDisplay-Italic" stylename="SemiCondensed ExtraLight Italic" filename="instance_ufos/NotoSansDisplay-SemiCondensedExtraLightItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="39"/>
         <dimension name="Width" xvalue="89"/>
@@ -158,7 +190,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display SemiCondensed Light Italic" familyname="NotoSansDisplay-Italic" stylename="SemiCondensed Light Italic" filename="Noto Sans Display SemiCondensed Light Italic">
+    <instance name="Noto Sans Display SemiCondensed Light Italic" familyname="NotoSansDisplay-Italic" stylename="SemiCondensed Light Italic" filename="instance_ufos/NotoSansDisplay-SemiCondensedLightItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="58"/>
         <dimension name="Width" xvalue="89"/>
@@ -166,7 +198,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display SemiCondensed Italic" familyname="NotoSansDisplay-Italic" stylename="SemiCondensed Italic" filename="Noto Sans Display SemiCondensed Italic">
+    <instance name="Noto Sans Display SemiCondensed Italic" familyname="NotoSansDisplay-Italic" stylename="SemiCondensed Italic" filename="instance_ufos/NotoSansDisplay-SemiCondensedItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="89"/>
@@ -174,7 +206,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display SemiCondensed Medium Italic" familyname="NotoSansDisplay-Italic" stylename="SemiCondensed Medium Italic" filename="Noto Sans Display SemiCondensed Medium Italic">
+    <instance name="Noto Sans Display SemiCondensed Medium Italic" familyname="NotoSansDisplay-Italic" stylename="SemiCondensed Medium Italic" filename="instance_ufos/NotoSansDisplay-SemiCondensedMediumItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="108"/>
         <dimension name="Width" xvalue="89"/>
@@ -182,7 +214,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display SemiCondensed SemiBold Italic" familyname="NotoSansDisplay-Italic" stylename="SemiCondensed SemiBold Italic" filename="Noto Sans Display SemiCondensed SemiBold Italic">
+    <instance name="Noto Sans Display SemiCondensed SemiBold Italic" familyname="NotoSansDisplay-Italic" stylename="SemiCondensed SemiBold Italic" filename="instance_ufos/NotoSansDisplay-SemiCondensedSemiBoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="128"/>
         <dimension name="Width" xvalue="89"/>
@@ -190,7 +222,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display SemiCondensed Bold Italic" familyname="NotoSansDisplay-Italic" stylename="SemiCondensed Bold Italic" filename="Noto Sans Display SemiCondensed Bold Italic">
+    <instance name="Noto Sans Display SemiCondensed Bold Italic" familyname="NotoSansDisplay-Italic" stylename="SemiCondensed Bold Italic" filename="instance_ufos/NotoSansDisplay-SemiCondensedBoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="89"/>
@@ -198,7 +230,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display SemiCondensed ExtraBold Italic" familyname="NotoSansDisplay-Italic" stylename="SemiCondensed ExtraBold Italic" filename="Noto Sans Display SemiCondensed ExtraBold Italic">
+    <instance name="Noto Sans Display SemiCondensed ExtraBold Italic" familyname="NotoSansDisplay-Italic" stylename="SemiCondensed ExtraBold Italic" filename="instance_ufos/NotoSansDisplay-SemiCondensedExtraBoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="89"/>
@@ -206,7 +238,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display SemiCondensed Black Italic" familyname="NotoSansDisplay-Italic" stylename="SemiCondensed Black Italic" filename="Noto Sans Display SemiCondensed Black Italic">
+    <instance name="Noto Sans Display SemiCondensed Black Italic" familyname="NotoSansDisplay-Italic" stylename="SemiCondensed Black Italic" filename="instance_ufos/NotoSansDisplay-SemiCondensedBlackItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="89"/>
@@ -214,7 +246,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display Condensed Thin Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed Thin Italic" filename="Noto Sans Display Condensed Thin Italic">
+    <instance name="Noto Sans Display Condensed Thin Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed Thin Italic" filename="instance_ufos/NotoSansDisplay-CondensedThinItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="79"/>
@@ -222,7 +254,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display Condensed ExtraLight Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed ExtraLight Italic" filename="Noto Sans Display Condensed ExtraLight Italic">
+    <instance name="Noto Sans Display Condensed ExtraLight Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed ExtraLight Italic" filename="instance_ufos/NotoSansDisplay-CondensedExtraLightItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="39"/>
         <dimension name="Width" xvalue="79"/>
@@ -230,7 +262,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display Condensed Light Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed Light Italic" filename="Noto Sans Display Condensed Light Italic">
+    <instance name="Noto Sans Display Condensed Light Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed Light Italic" filename="instance_ufos/NotoSansDisplay-CondensedLightItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="58"/>
         <dimension name="Width" xvalue="79"/>
@@ -238,7 +270,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display Condensed Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed Italic" filename="Noto Sans Display Condensed Italic">
+    <instance name="Noto Sans Display Condensed Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed Italic" filename="instance_ufos/NotoSansDisplay-CondensedItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="79"/>
@@ -246,7 +278,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display Condensed Medium Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed Medium Italic" filename="Noto Sans Display Condensed Medium Italic">
+    <instance name="Noto Sans Display Condensed Medium Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed Medium Italic" filename="instance_ufos/NotoSansDisplay-CondensedMediumItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="108"/>
         <dimension name="Width" xvalue="79"/>
@@ -254,7 +286,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display Condensed SemiBold Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed SemiBold Italic" filename="Noto Sans Display Condensed SemiBold Italic">
+    <instance name="Noto Sans Display Condensed SemiBold Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed SemiBold Italic" filename="instance_ufos/NotoSansDisplay-CondensedSemiBoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="128"/>
         <dimension name="Width" xvalue="79"/>
@@ -262,7 +294,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display Condensed Bold Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed Bold Italic" filename="Noto Sans Display Condensed Bold Italic">
+    <instance name="Noto Sans Display Condensed Bold Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed Bold Italic" filename="instance_ufos/NotoSansDisplay-CondensedBoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="79"/>
@@ -270,7 +302,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display Condensed ExtraBold Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed ExtraBold Italic" filename="Noto Sans Display Condensed ExtraBold Italic">
+    <instance name="Noto Sans Display Condensed ExtraBold Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed ExtraBold Italic" filename="instance_ufos/NotoSansDisplay-CondensedExtraBoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="79"/>
@@ -278,7 +310,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display Condensed Black Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed Black Italic" filename="Noto Sans Display Condensed Black Italic">
+    <instance name="Noto Sans Display Condensed Black Italic" familyname="NotoSansDisplay-Italic" stylename="Condensed Black Italic" filename="instance_ufos/NotoSansDisplay-CondensedBlackItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="79"/>
@@ -286,7 +318,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display ExtraCondensed Thin Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraCondensed Thin Italic" filename="Noto Sans Display ExtraCondensed Thin Italic">
+    <instance name="Noto Sans Display ExtraCondensed Thin Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraCondensed Thin Italic" filename="instance_ufos/NotoSansDisplay-ExtraCondensedThinItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="70"/>
@@ -294,7 +326,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display ExtraCondensed ExtraLight Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraCondensed ExtraLight Italic" filename="Noto Sans Display ExtraCondensed ExtraLight Italic">
+    <instance name="Noto Sans Display ExtraCondensed ExtraLight Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraCondensed ExtraLight Italic" filename="instance_ufos/NotoSansDisplay-ExtraCondensedExtraLightItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="39"/>
         <dimension name="Width" xvalue="70"/>
@@ -302,7 +334,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display ExtraCondensed Light Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraCondensed Light Italic" filename="Noto Sans Display ExtraCondensed Light Italic">
+    <instance name="Noto Sans Display ExtraCondensed Light Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraCondensed Light Italic" filename="instance_ufos/NotoSansDisplay-ExtraCondensedLightItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="58"/>
         <dimension name="Width" xvalue="70"/>
@@ -310,7 +342,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display ExtraCondensed Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraCondensed Italic" filename="Noto Sans Display ExtraCondensed Italic">
+    <instance name="Noto Sans Display ExtraCondensed Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraCondensed Italic" filename="instance_ufos/NotoSansDisplay-ExtraCondensedItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="70"/>
@@ -318,7 +350,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display ExtraCondensed Medium Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraCondensed Medium Italic" filename="Noto Sans Display ExtraCondensed Medium Italic">
+    <instance name="Noto Sans Display ExtraCondensed Medium Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraCondensed Medium Italic" filename="instance_ufos/NotoSansDisplay-ExtraCondensedMediumItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="108"/>
         <dimension name="Width" xvalue="70"/>
@@ -326,7 +358,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display ExtraCondensed SemiBold Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraCondensed SemiBold Italic" filename="Noto Sans Display ExtraCondensed SemiBold Italic">
+    <instance name="Noto Sans Display ExtraCondensed SemiBold Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraCondensed SemiBold Italic" filename="instance_ufos/NotoSansDisplay-ExtraCondensedSemiBoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="128"/>
         <dimension name="Width" xvalue="70"/>
@@ -334,7 +366,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display ExtraCondensed Bold Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraCondensed Bold Italic" filename="Noto Sans Display ExtraCondensed Bold Italic">
+    <instance name="Noto Sans Display ExtraCondensed Bold Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraCondensed Bold Italic" filename="instance_ufos/NotoSansDisplay-ExtraCondensedBoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="70"/>
@@ -342,7 +374,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display ExtraCondensed ExtraBold Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraCondensed ExtraBold Italic" filename="Noto Sans Display ExtraCondensed ExtraBold Italic">
+    <instance name="Noto Sans Display ExtraCondensed ExtraBold Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraCondensed ExtraBold Italic" filename="instance_ufos/NotoSansDisplay-ExtraCondensedExtraBoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="70"/>
@@ -350,7 +382,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Display ExtraCondensed Black Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraCondensed Black Italic" filename="Noto Sans Display ExtraCondensed Black Italic">
+    <instance name="Noto Sans Display ExtraCondensed Black Italic" familyname="NotoSansDisplay-Italic" stylename="ExtraCondensed Black Italic" filename="instance_ufos/NotoSansDisplay-ExtraCondensedBlackItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="70"/>

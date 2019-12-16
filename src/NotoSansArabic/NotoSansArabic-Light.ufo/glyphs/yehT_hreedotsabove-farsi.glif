@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehThreedotsabove-farsi" format="2">
+  <advance width="780"/>
+  <unicode hex="063F"/>
+  <anchor x="355" y="-230" name="bottom"/>
+  <anchor x="249" y="400" name="top"/>
+  <outline>
+    <component base="alefMaksura-ar"/>
+    <component base="threedotsupabove-ar" xOffset="104" yOffset="-333"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

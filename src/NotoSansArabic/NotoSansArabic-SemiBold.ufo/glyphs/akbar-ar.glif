@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="akbar-ar" format="2">
+  <advance width="1561"/>
+  <unicode hex="FDF3"/>
+  <anchor x="1435" y="0" name="bottom_1"/>
+  <anchor x="1031" y="0" name="bottom_2"/>
+  <anchor x="628" y="-235" name="bottom_3"/>
+  <anchor x="163" y="-217" name="bottom_4"/>
+  <anchor x="1415" y="732" name="top_1"/>
+  <anchor x="986" y="636" name="top_2"/>
+  <anchor x="663" y="345" name="top_3"/>
+  <anchor x="219" y="392" name="top_4"/>
+  <outline>
+    <component base="alef-ar" xOffset="1288"/>
+    <component base="kaf-ar.init" xOffset="834"/>
+    <component base="beh-ar.medi" xOffset="450"/>
+    <component base="reh-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>alef-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>reh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:53</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="teheh-ar.fina" format="2">
+  <advance width="735"/>
+  <note>
+uni067F.fina
+</note>
+  <anchor x="344" y="-78" name="bottom"/>
+  <anchor x="354" y="620" name="top"/>
+  <anchor x="368" y="0" name="ring"/>
+  <outline>
+    <component base="behDotless-ar.fina"/>
+    <component base="fourdots.above" xOffset="358" yOffset="-228"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:42:45</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

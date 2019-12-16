@@ -21,48 +21,80 @@
   </axes>
   <sources>
     <source filename="NotoSerif-Light.ufo" name="Noto Serif Light" familyname="NotoSerif" stylename="Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="28"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
     <source filename="NotoSerif-Regular.ufo" name="Noto Serif Regular" familyname="NotoSerif" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="94"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
     <source filename="NotoSerif-SemiBold.ufo" name="Noto Serif SemiBold" familyname="NotoSerif" stylename="SemiBold">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="152"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
     <source filename="NotoSerif-Bold.ufo" name="Noto Serif Bold" familyname="NotoSerif" stylename="Bold">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="194"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
     <source filename="NotoSerif-CondensedLight.ufo" name="Noto Serif Condensed Light" familyname="NotoSerif" stylename="Condensed Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="28"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
     <source filename="NotoSerif-Condensed.ufo" name="Noto Serif Condensed" familyname="NotoSerif" stylename="Condensed">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="94"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
     <source filename="NotoSerif-CondensedSemiBold.ufo" name="Noto Serif Condensed SemiBold" familyname="NotoSerif" stylename="Condensed SemiBold">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="152"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
     <source filename="NotoSerif-CondensedBold.ufo" name="Noto Serif Condensed Bold" familyname="NotoSerif" stylename="Condensed Bold">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="194"/>
         <dimension name="Width" xvalue="70"/>
@@ -70,7 +102,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Noto Serif Thin" familyname="NotoSerif" stylename="Thin" filename="Noto Serif Thin">
+    <instance name="Noto Serif Thin" familyname="NotoSerif" stylename="Thin" filename="instance_ufos/NotoSerif-Thin.ufo">
       <location>
         <dimension name="Weight" xvalue="28"/>
         <dimension name="Width" xvalue="100"/>
@@ -78,7 +110,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif ExtraLight" familyname="NotoSerif" stylename="ExtraLight" filename="Noto Serif ExtraLight">
+    <instance name="Noto Serif ExtraLight" familyname="NotoSerif" stylename="ExtraLight" filename="instance_ufos/NotoSerif-ExtraLight.ufo">
       <location>
         <dimension name="Weight" xvalue="42"/>
         <dimension name="Width" xvalue="100"/>
@@ -86,7 +118,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif Light" familyname="NotoSerif" stylename="Light" filename="Noto Serif Light">
+    <instance name="Noto Serif Light" familyname="NotoSerif" stylename="Light" filename="instance_ufos/NotoSerif-Light.ufo">
       <location>
         <dimension name="Weight" xvalue="64"/>
         <dimension name="Width" xvalue="100"/>
@@ -94,7 +126,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif Regular" familyname="NotoSerif" stylename="Regular" filename="Noto Serif Regular">
+    <instance name="Noto Serif Regular" familyname="NotoSerif" stylename="Regular" filename="instance_ufos/NotoSerif-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="94"/>
         <dimension name="Width" xvalue="100"/>
@@ -102,7 +134,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif Medium" familyname="NotoSerif" stylename="Medium" filename="Noto Serif Medium">
+    <instance name="Noto Serif Medium" familyname="NotoSerif" stylename="Medium" filename="instance_ufos/NotoSerif-Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="110"/>
         <dimension name="Width" xvalue="100"/>
@@ -110,7 +142,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif SemiBold" familyname="NotoSerif" stylename="SemiBold" filename="Noto Serif SemiBold">
+    <instance name="Noto Serif SemiBold" familyname="NotoSerif" stylename="SemiBold" filename="instance_ufos/NotoSerif-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="130"/>
         <dimension name="Width" xvalue="100"/>
@@ -118,7 +150,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif Bold" familyname="NotoSerif" stylename="Bold" filename="Noto Serif Bold">
+    <instance name="Noto Serif Bold" familyname="NotoSerif" stylename="Bold" filename="instance_ufos/NotoSerif-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="152"/>
         <dimension name="Width" xvalue="100"/>
@@ -126,7 +158,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif ExtraBold" familyname="NotoSerif" stylename="ExtraBold" filename="Noto Serif ExtraBold">
+    <instance name="Noto Serif ExtraBold" familyname="NotoSerif" stylename="ExtraBold" filename="instance_ufos/NotoSerif-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="175"/>
         <dimension name="Width" xvalue="100"/>
@@ -134,7 +166,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif Black" familyname="NotoSerif" stylename="Black" filename="Noto Serif Black">
+    <instance name="Noto Serif Black" familyname="NotoSerif" stylename="Black" filename="instance_ufos/NotoSerif-Black.ufo">
       <location>
         <dimension name="Weight" xvalue="194"/>
         <dimension name="Width" xvalue="100"/>
@@ -142,7 +174,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif SemiCondensed Thin" familyname="NotoSerif" stylename="SemiCondensed Thin" filename="Noto Serif SemiCondensed Thin">
+    <instance name="Noto Serif SemiCondensed Thin" familyname="NotoSerif" stylename="SemiCondensed Thin" filename="instance_ufos/NotoSerif-SemiCondensedThin.ufo">
       <location>
         <dimension name="Weight" xvalue="28"/>
         <dimension name="Width" xvalue="89"/>
@@ -150,7 +182,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif SemiCondensed ExtraLight" familyname="NotoSerif" stylename="SemiCondensed ExtraLight" filename="Noto Serif SemiCondensed ExtraLight">
+    <instance name="Noto Serif SemiCondensed ExtraLight" familyname="NotoSerif" stylename="SemiCondensed ExtraLight" filename="instance_ufos/NotoSerif-SemiCondensedExtraLight.ufo">
       <location>
         <dimension name="Weight" xvalue="42"/>
         <dimension name="Width" xvalue="89"/>
@@ -158,7 +190,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif SemiCondensed Light" familyname="NotoSerif" stylename="SemiCondensed Light" filename="Noto Serif SemiCondensed Light">
+    <instance name="Noto Serif SemiCondensed Light" familyname="NotoSerif" stylename="SemiCondensed Light" filename="instance_ufos/NotoSerif-SemiCondensedLight.ufo">
       <location>
         <dimension name="Weight" xvalue="64"/>
         <dimension name="Width" xvalue="89"/>
@@ -166,7 +198,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif SemiCondensed" familyname="NotoSerif" stylename="SemiCondensed" filename="Noto Serif SemiCondensed">
+    <instance name="Noto Serif SemiCondensed" familyname="NotoSerif" stylename="SemiCondensed" filename="instance_ufos/NotoSerif-SemiCondensed.ufo">
       <location>
         <dimension name="Weight" xvalue="94"/>
         <dimension name="Width" xvalue="89"/>
@@ -174,7 +206,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif SemiCondensed Medium" familyname="NotoSerif" stylename="SemiCondensed Medium" filename="Noto Serif SemiCondensed Medium">
+    <instance name="Noto Serif SemiCondensed Medium" familyname="NotoSerif" stylename="SemiCondensed Medium" filename="instance_ufos/NotoSerif-SemiCondensedMedium.ufo">
       <location>
         <dimension name="Weight" xvalue="110"/>
         <dimension name="Width" xvalue="89"/>
@@ -182,7 +214,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif SemiCondensed SemiBold" familyname="NotoSerif" stylename="SemiCondensed SemiBold" filename="Noto Serif SemiCondensed SemiBold">
+    <instance name="Noto Serif SemiCondensed SemiBold" familyname="NotoSerif" stylename="SemiCondensed SemiBold" filename="instance_ufos/NotoSerif-SemiCondensedSemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="130"/>
         <dimension name="Width" xvalue="89"/>
@@ -190,7 +222,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif SemiCondensed Bold" familyname="NotoSerif" stylename="SemiCondensed Bold" filename="Noto Serif SemiCondensed Bold">
+    <instance name="Noto Serif SemiCondensed Bold" familyname="NotoSerif" stylename="SemiCondensed Bold" filename="instance_ufos/NotoSerif-SemiCondensedBold.ufo">
       <location>
         <dimension name="Weight" xvalue="152"/>
         <dimension name="Width" xvalue="89"/>
@@ -198,7 +230,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif SemiCondensed ExtraBold" familyname="NotoSerif" stylename="SemiCondensed ExtraBold" filename="Noto Serif SemiCondensed ExtraBold">
+    <instance name="Noto Serif SemiCondensed ExtraBold" familyname="NotoSerif" stylename="SemiCondensed ExtraBold" filename="instance_ufos/NotoSerif-SemiCondensedExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="175"/>
         <dimension name="Width" xvalue="89"/>
@@ -206,7 +238,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif SemiCondensed Black" familyname="NotoSerif" stylename="SemiCondensed Black" filename="Noto Serif SemiCondensed Black">
+    <instance name="Noto Serif SemiCondensed Black" familyname="NotoSerif" stylename="SemiCondensed Black" filename="instance_ufos/NotoSerif-SemiCondensedBlack.ufo">
       <location>
         <dimension name="Weight" xvalue="194"/>
         <dimension name="Width" xvalue="89"/>
@@ -214,7 +246,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif Condensed Thin" familyname="NotoSerif" stylename="Condensed Thin" filename="Noto Serif Condensed Thin">
+    <instance name="Noto Serif Condensed Thin" familyname="NotoSerif" stylename="Condensed Thin" filename="instance_ufos/NotoSerif-CondensedThin.ufo">
       <location>
         <dimension name="Weight" xvalue="28"/>
         <dimension name="Width" xvalue="79"/>
@@ -222,7 +254,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif Condensed ExtraLight" familyname="NotoSerif" stylename="Condensed ExtraLight" filename="Noto Serif Condensed ExtraLight">
+    <instance name="Noto Serif Condensed ExtraLight" familyname="NotoSerif" stylename="Condensed ExtraLight" filename="instance_ufos/NotoSerif-CondensedExtraLight.ufo">
       <location>
         <dimension name="Weight" xvalue="42"/>
         <dimension name="Width" xvalue="79"/>
@@ -230,7 +262,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif Condensed Light" familyname="NotoSerif" stylename="Condensed Light" filename="Noto Serif Condensed Light">
+    <instance name="Noto Serif Condensed Light" familyname="NotoSerif" stylename="Condensed Light" filename="instance_ufos/NotoSerif-CondensedLight.ufo">
       <location>
         <dimension name="Weight" xvalue="64"/>
         <dimension name="Width" xvalue="79"/>
@@ -238,7 +270,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif Condensed" familyname="NotoSerif" stylename="Condensed" filename="Noto Serif Condensed">
+    <instance name="Noto Serif Condensed" familyname="NotoSerif" stylename="Condensed" filename="instance_ufos/NotoSerif-Condensed.ufo">
       <location>
         <dimension name="Weight" xvalue="94"/>
         <dimension name="Width" xvalue="79"/>
@@ -246,7 +278,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif Condensed Medium" familyname="NotoSerif" stylename="Condensed Medium" filename="Noto Serif Condensed Medium">
+    <instance name="Noto Serif Condensed Medium" familyname="NotoSerif" stylename="Condensed Medium" filename="instance_ufos/NotoSerif-CondensedMedium.ufo">
       <location>
         <dimension name="Weight" xvalue="110"/>
         <dimension name="Width" xvalue="79"/>
@@ -254,7 +286,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif Condensed SemiBold" familyname="NotoSerif" stylename="Condensed SemiBold" filename="Noto Serif Condensed SemiBold">
+    <instance name="Noto Serif Condensed SemiBold" familyname="NotoSerif" stylename="Condensed SemiBold" filename="instance_ufos/NotoSerif-CondensedSemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="130"/>
         <dimension name="Width" xvalue="79"/>
@@ -262,7 +294,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif Condensed Bold" familyname="NotoSerif" stylename="Condensed Bold" filename="Noto Serif Condensed Bold">
+    <instance name="Noto Serif Condensed Bold" familyname="NotoSerif" stylename="Condensed Bold" filename="instance_ufos/NotoSerif-CondensedBold.ufo">
       <location>
         <dimension name="Weight" xvalue="152"/>
         <dimension name="Width" xvalue="79"/>
@@ -270,7 +302,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif Condensed ExtraBold" familyname="NotoSerif" stylename="Condensed ExtraBold" filename="Noto Serif Condensed ExtraBold">
+    <instance name="Noto Serif Condensed ExtraBold" familyname="NotoSerif" stylename="Condensed ExtraBold" filename="instance_ufos/NotoSerif-CondensedExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="175"/>
         <dimension name="Width" xvalue="79"/>
@@ -278,7 +310,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif Condensed Black" familyname="NotoSerif" stylename="Condensed Black" filename="Noto Serif Condensed Black">
+    <instance name="Noto Serif Condensed Black" familyname="NotoSerif" stylename="Condensed Black" filename="instance_ufos/NotoSerif-CondensedBlack.ufo">
       <location>
         <dimension name="Weight" xvalue="194"/>
         <dimension name="Width" xvalue="79"/>
@@ -286,7 +318,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif ExtraCondensed Thin" familyname="NotoSerif" stylename="ExtraCondensed Thin" filename="Noto Serif ExtraCondensed Thin">
+    <instance name="Noto Serif ExtraCondensed Thin" familyname="NotoSerif" stylename="ExtraCondensed Thin" filename="instance_ufos/NotoSerif-ExtraCondensedThin.ufo">
       <location>
         <dimension name="Weight" xvalue="28"/>
         <dimension name="Width" xvalue="70"/>
@@ -294,7 +326,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif ExtraCondensed ExtraLight" familyname="NotoSerif" stylename="ExtraCondensed ExtraLight" filename="Noto Serif ExtraCondensed ExtraLight">
+    <instance name="Noto Serif ExtraCondensed ExtraLight" familyname="NotoSerif" stylename="ExtraCondensed ExtraLight" filename="instance_ufos/NotoSerif-ExtraCondensedExtraLight.ufo">
       <location>
         <dimension name="Weight" xvalue="42"/>
         <dimension name="Width" xvalue="70"/>
@@ -302,7 +334,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif ExtraCondensed Light" familyname="NotoSerif" stylename="ExtraCondensed Light" filename="Noto Serif ExtraCondensed Light">
+    <instance name="Noto Serif ExtraCondensed Light" familyname="NotoSerif" stylename="ExtraCondensed Light" filename="instance_ufos/NotoSerif-ExtraCondensedLight.ufo">
       <location>
         <dimension name="Weight" xvalue="64"/>
         <dimension name="Width" xvalue="70"/>
@@ -310,7 +342,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif ExtraCondensed" familyname="NotoSerif" stylename="ExtraCondensed" filename="Noto Serif ExtraCondensed">
+    <instance name="Noto Serif ExtraCondensed" familyname="NotoSerif" stylename="ExtraCondensed" filename="instance_ufos/NotoSerif-ExtraCondensed.ufo">
       <location>
         <dimension name="Weight" xvalue="94"/>
         <dimension name="Width" xvalue="70"/>
@@ -318,7 +350,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif ExtraCondensed Medium" familyname="NotoSerif" stylename="ExtraCondensed Medium" filename="Noto Serif ExtraCondensed Medium">
+    <instance name="Noto Serif ExtraCondensed Medium" familyname="NotoSerif" stylename="ExtraCondensed Medium" filename="instance_ufos/NotoSerif-ExtraCondensedMedium.ufo">
       <location>
         <dimension name="Weight" xvalue="110"/>
         <dimension name="Width" xvalue="70"/>
@@ -326,7 +358,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif ExtraCondensed SemiBold" familyname="NotoSerif" stylename="ExtraCondensed SemiBold" filename="Noto Serif ExtraCondensed SemiBold">
+    <instance name="Noto Serif ExtraCondensed SemiBold" familyname="NotoSerif" stylename="ExtraCondensed SemiBold" filename="instance_ufos/NotoSerif-ExtraCondensedSemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="130"/>
         <dimension name="Width" xvalue="70"/>
@@ -334,7 +366,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif ExtraCondensed Bold" familyname="NotoSerif" stylename="ExtraCondensed Bold" filename="Noto Serif ExtraCondensed Bold">
+    <instance name="Noto Serif ExtraCondensed Bold" familyname="NotoSerif" stylename="ExtraCondensed Bold" filename="instance_ufos/NotoSerif-ExtraCondensedBold.ufo">
       <location>
         <dimension name="Weight" xvalue="152"/>
         <dimension name="Width" xvalue="70"/>
@@ -342,7 +374,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif ExtraCondensed ExtraBold" familyname="NotoSerif" stylename="ExtraCondensed ExtraBold" filename="Noto Serif ExtraCondensed ExtraBold">
+    <instance name="Noto Serif ExtraCondensed ExtraBold" familyname="NotoSerif" stylename="ExtraCondensed ExtraBold" filename="instance_ufos/NotoSerif-ExtraCondensedExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="175"/>
         <dimension name="Width" xvalue="70"/>
@@ -350,7 +382,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Serif ExtraCondensed Black" familyname="NotoSerif" stylename="ExtraCondensed Black" filename="Noto Serif ExtraCondensed Black">
+    <instance name="Noto Serif ExtraCondensed Black" familyname="NotoSerif" stylename="ExtraCondensed Black" filename="instance_ufos/NotoSerif-ExtraCondensedBlack.ufo">
       <location>
         <dimension name="Weight" xvalue="194"/>
         <dimension name="Width" xvalue="70"/>

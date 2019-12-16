@@ -7,13 +7,17 @@
   </axes>
   <sources>
     <source filename="NotoMusic-Regular.ufo" name="Noto Music Regular" familyname="NotoMusic" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="100"/>
       </location>
     </source>
   </sources>
   <instances>
-    <instance name="Noto Music Regular" familyname="NotoMusic" stylename="Regular" filename="Noto Music Regular">
+    <instance name="Noto Music Regular" familyname="NotoMusic" stylename="Regular" filename="instance_ufos/NotoMusic-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="100"/>
       </location>

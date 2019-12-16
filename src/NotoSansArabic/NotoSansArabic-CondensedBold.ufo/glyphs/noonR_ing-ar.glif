@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonRing-ar" format="2">
+  <advance width="657"/>
+  <unicode hex="06BC"/>
+  <anchor x="319" y="-303" name="bottom"/>
+  <anchor x="304" y="682" name="top"/>
+  <outline>
+    <component base="noon-ar"/>
+    <component base="ringArabic" xOffset="202" yOffset="-295"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+    </dict>
+  </lib>
+</glyph>

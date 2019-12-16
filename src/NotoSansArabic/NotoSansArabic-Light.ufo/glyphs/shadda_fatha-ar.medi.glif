@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shadda_fatha-ar.medi" format="2">
+  <advance width="270"/>
+  <unicode hex="FCF2"/>
+  <anchor x="125" y="0" name="bottom"/>
+  <anchor x="124" y="874" name="top"/>
+  <outline>
+    <component base="kashida-ar"/>
+    <component base="shadda_fatha-ar" xOffset="-26"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/08/02 21:05:50</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

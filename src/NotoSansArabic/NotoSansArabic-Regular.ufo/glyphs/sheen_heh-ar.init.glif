@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sheen_heh-ar.init" format="2">
+  <advance width="1291"/>
+  <unicode hex="FD32"/>
+  <anchor x="507" y="0" name="caret_1"/>
+  <anchor x="893" y="-5" name="bottom_1"/>
+  <anchor x="307" y="-217" name="bottom_2"/>
+  <anchor x="938" y="644" name="top_1"/>
+  <anchor x="281" y="416" name="top_2"/>
+  <outline>
+    <component base="sheen-ar.init" xOffset="507"/>
+    <component base="heh-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>sheen-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>heh-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam_alefWavyhamzaabove-ar.fina" format="2">
+  <advance width="669"/>
+  <note>
+uni06440672.fina
+</note>
+  <anchor x="576" y="-57" name="bottom_1"/>
+  <anchor x="232" y="-77" name="bottom_2"/>
+  <anchor x="335" y="0" name="caret_1"/>
+  <anchor x="523" y="845" name="top_1"/>
+  <anchor x="198" y="928" name="top_2"/>
+  <anchor x="566" y="-78" name="bottom_2_ligComponent_1"/>
+  <anchor x="197" y="-78" name="bottom_2_ligComponent_2"/>
+  <anchor x="518" y="830" name="top_2_ligComponent_1"/>
+  <anchor x="146" y="713" name="top_2_ligComponent_2"/>
+  <outline>
+    <component base="lam_alef-ar.fina"/>
+    <component base="wavyhamza_above" xOffset="256" yOffset="-40"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/17 13:10:18</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shadda_fathatan-ar" format="2">
+  <note>
+uni0651064B
+</note>
+  <anchor x="6" y="736" name="_top"/>
+  <anchor x="-43" y="1237" name="top"/>
+  <outline>
+    <component base="shadda-ar" yOffset="-50"/>
+    <component base="fathatan-ar" xOffset="-39" yOffset="194"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/24 09:39:12</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

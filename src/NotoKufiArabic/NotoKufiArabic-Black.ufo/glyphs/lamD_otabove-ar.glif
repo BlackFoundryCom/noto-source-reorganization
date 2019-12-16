@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamDotabove-ar" format="2">
+  <advance width="835"/>
+  <unicode hex="06B6"/>
+  <note>
+uni06B6
+</note>
+  <anchor x="342" y="-322" name="bottom"/>
+  <anchor x="625" y="1025" name="top"/>
+  <outline>
+    <component base="lam-ar"/>
+    <component base="onedot.above" xOffset="618" yOffset="241"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 18:58:39</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

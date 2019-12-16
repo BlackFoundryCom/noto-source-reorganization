@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gafThreedots-ar" format="2">
+  <advance width="808"/>
+  <unicode hex="06B4"/>
+  <note>
+uni06B4
+</note>
+  <anchor x="404" y="-78" name="bottom"/>
+  <anchor x="297" y="1053" name="top"/>
+  <outline>
+    <component base="keheh-ar"/>
+    <component base="diagonal" xOffset="267"/>
+    <component base="threedots_alt1.above" xOffset="219" yOffset="107"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/16 13:45:03</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

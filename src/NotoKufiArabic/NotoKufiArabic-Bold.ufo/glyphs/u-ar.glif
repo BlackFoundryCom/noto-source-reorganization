@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="u-ar" format="2">
+  <advance width="627"/>
+  <unicode hex="06C7"/>
+  <note>
+uni06C7
+</note>
+  <anchor x="244" y="-293" name="bottom"/>
+  <anchor x="346" y="866" name="top"/>
+  <anchor x="314" y="445" name="center"/>
+  <outline>
+    <component base="waw-ar"/>
+    <component base="damma-ar" xOffset="322" yOffset="-185"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:26:25</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ain_jeem-ar" format="2">
+  <advance width="1044"/>
+  <unicode hex="FC29"/>
+  <anchor x="577" y="0" name="caret_1"/>
+  <anchor x="832" y="-6" name="bottom_1"/>
+  <anchor x="319" y="-411" name="bottom_2"/>
+  <anchor x="316" y="77" name="center"/>
+  <anchor x="802" y="497" name="top_1"/>
+  <anchor x="293" y="500" name="top_2"/>
+  <outline>
+    <component base="ain-ar.init" xOffset="577"/>
+    <component base="jeem-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ain-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>jeem-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

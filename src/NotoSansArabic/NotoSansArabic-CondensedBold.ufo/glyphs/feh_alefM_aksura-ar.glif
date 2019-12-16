@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="feh_alefMaksura-ar" format="2">
+  <advance width="1175"/>
+  <unicode hex="FC31"/>
+  <anchor x="706" y="0" name="caret_1"/>
+  <anchor x="889" y="-25" name="bottom_1"/>
+  <anchor x="347" y="-230" name="bottom_2"/>
+  <anchor x="925" y="844" name="top_1"/>
+  <anchor x="208" y="214" name="top_2"/>
+  <outline>
+    <component base="feh-ar.init" xOffset="706"/>
+    <component base="alefMaksura-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>feh-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alefMaksura-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

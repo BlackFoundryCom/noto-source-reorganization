@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="beh-ar.medi" format="2">
+  <advance width="299"/>
+  <unicode hex="FE92"/>
+  <guideline x="538" y="445" angle="0"/>
+  <guideline x="188" y="-98" angle="0"/>
+  <anchor x="136" y="-226" name="bottom"/>
+  <anchor x="147" y="361" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar.medi"/>
+    <component base="dotbelow-ar" xOffset="45" yOffset="-22"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+    </dict>
+  </lib>
+</glyph>

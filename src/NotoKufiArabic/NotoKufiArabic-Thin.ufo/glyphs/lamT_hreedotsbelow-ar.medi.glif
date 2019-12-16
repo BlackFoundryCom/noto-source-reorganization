@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamThreedotsbelow-ar.medi" format="2">
+  <advance width="308"/>
+  <note>
+uni06B8.medi
+</note>
+  <anchor x="147" y="-289" name="bottom"/>
+  <anchor x="145" y="820" name="top"/>
+  <outline>
+    <component base="lam-ar.medi"/>
+    <component base="threedots.below" xOffset="149" yOffset="60"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 18:58:51</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehv-ar" format="2">
+  <advance width="409"/>
+  <unicode hex="0692"/>
+  <anchor x="185" y="-214" name="bottom"/>
+  <anchor x="225" y="617" name="top"/>
+  <outline>
+    <component base="reh-ar"/>
+    <component base="vabove-ar" xOffset="97" yOffset="-136"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

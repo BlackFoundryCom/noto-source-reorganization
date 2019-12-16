@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yeh_khah-ar.init" format="2">
+  <advance width="713"/>
+  <unicode hex="FCDC"/>
+  <anchor x="477" y="0" name="caret_1"/>
+  <anchor x="574" y="-162" name="bottom_1"/>
+  <anchor x="261" y="0" name="bottom_2"/>
+  <anchor x="582" y="363" name="top_1"/>
+  <anchor x="106" y="467" name="top_2"/>
+  <outline>
+    <component base="yeh-ar.init" xOffset="477"/>
+    <component base="khah-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>yeh-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>khah-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:53</string>
+    </dict>
+  </lib>
+</glyph>

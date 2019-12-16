@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="meemDotbelow-ar" format="2">
+  <advance width="583"/>
+  <unicode hex="0766"/>
+  <note>
+uni0766
+</note>
+  <anchor x="320" y="-202" name="bottom"/>
+  <anchor x="320" y="538" name="top"/>
+  <outline>
+    <component base="meem-ar"/>
+    <component base="onedot.below" xOffset="321"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/17 13:07:17</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

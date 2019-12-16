@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dahal-ar" format="2">
+  <advance width="443"/>
+  <unicode hex="068C"/>
+  <note>
+uni068C
+</note>
+  <anchor x="212" y="-78" name="bottom"/>
+  <anchor x="170" y="738" name="top"/>
+  <outline>
+    <component base="dal-ar"/>
+    <component base="twodots.above" xOffset="160" yOffset="40"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:39:38</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

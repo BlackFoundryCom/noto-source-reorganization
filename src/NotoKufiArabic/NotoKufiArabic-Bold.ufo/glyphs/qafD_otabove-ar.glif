@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="qafDotabove-ar" format="2">
+  <advance width="962"/>
+  <unicode hex="06A7"/>
+  <note>
+uni06A7
+</note>
+  <anchor x="455" y="-302" name="bottom"/>
+  <anchor x="670" y="764" name="top"/>
+  <outline>
+    <component base="qafDotless-ar"/>
+    <component base="onedot.above" xOffset="659"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/09 09:32:55</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

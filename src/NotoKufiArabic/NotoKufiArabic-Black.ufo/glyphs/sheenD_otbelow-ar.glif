@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sheenDotbelow-ar" format="2">
+  <advance width="1524"/>
+  <unicode hex="06FA"/>
+  <note>
+uni06FA
+</note>
+  <anchor x="993" y="-308" name="bottom"/>
+  <anchor x="968" y="930" name="top"/>
+  <outline>
+    <component base="seen-ar"/>
+    <component base="threedots.above" xOffset="960"/>
+    <component base="onedot.below" xOffset="961"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:37:24</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

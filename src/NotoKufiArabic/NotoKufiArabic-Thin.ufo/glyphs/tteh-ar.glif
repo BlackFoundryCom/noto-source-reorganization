@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tteh-ar" format="2">
+  <advance width="689"/>
+  <unicode hex="0679"/>
+  <note>
+uni0679
+</note>
+  <anchor x="366" y="-78" name="bottom"/>
+  <anchor x="349" y="705" name="top"/>
+  <anchor x="344" y="0" name="ring"/>
+  <outline>
+    <component base="behDotless-ar"/>
+    <component base="tahabove-ar" xOffset="361" yOffset="-113"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/16 15:20:34</string>
+    </dict>
+  </lib>
+</glyph>

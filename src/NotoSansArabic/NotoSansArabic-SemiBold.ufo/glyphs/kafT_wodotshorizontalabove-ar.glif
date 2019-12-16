@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kafTwodotshorizontalabove-ar" format="2">
+  <advance width="931"/>
+  <unicode hex="077F"/>
+  <guideline x="618" y="678" angle="0"/>
+  <anchor x="428" y="-21" name="bottom"/>
+  <anchor x="467.1" y="756.0999999999999" name="top"/>
+  <outline>
+    <component base="kaf-ar"/>
+    <component base="twodotshorizontalabove-ar" xScale="0.7" yScale="0.7" xOffset="339" yOffset="278"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

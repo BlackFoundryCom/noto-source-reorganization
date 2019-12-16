@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noon-ar.init.short" format="2">
+  <advance width="245"/>
+  <anchor x="107" y="-5" name="bottom"/>
+  <anchor x="128" y="585" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar.init.short"/>
+    <component base="dotabove-ar" xOffset="52" yOffset="-80"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

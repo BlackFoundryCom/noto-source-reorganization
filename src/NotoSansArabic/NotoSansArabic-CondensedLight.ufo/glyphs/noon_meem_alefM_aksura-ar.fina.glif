@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noon_meem_alefMaksura-ar.fina" format="2">
+  <advance width="1325"/>
+  <unicode hex="FD9B"/>
+  <anchor x="1107" y="0" name="caret_1"/>
+  <anchor x="612" y="0" name="caret_2"/>
+  <anchor x="1207" y="-5" name="bottom_1"/>
+  <anchor x="828" y="0" name="bottom_2"/>
+  <anchor x="285" y="-230" name="bottom_3"/>
+  <anchor x="1239" y="469" name="top_1"/>
+  <anchor x="861" y="342" name="top_2"/>
+  <anchor x="196" y="130" name="top_3"/>
+  <outline>
+    <component base="noon-ar.medi" xOffset="1107"/>
+    <component base="meem-ar.medi" xOffset="612"/>
+    <component base="alefMaksura-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>noon-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alefMaksura-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="teh_khah-ar.init" format="2">
+  <advance width="1131"/>
+  <unicode hex="FCA3"/>
+  <anchor x="725" y="0" name="caret_1"/>
+  <anchor x="923" y="-5" name="bottom_1"/>
+  <anchor x="299" y="0" name="bottom_2"/>
+  <anchor x="925" y="759" name="top_1"/>
+  <anchor x="182" y="752" name="top_2"/>
+  <outline>
+    <component base="teh-ar.init" xOffset="728"/>
+    <component base="khah-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>teh-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>khah-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

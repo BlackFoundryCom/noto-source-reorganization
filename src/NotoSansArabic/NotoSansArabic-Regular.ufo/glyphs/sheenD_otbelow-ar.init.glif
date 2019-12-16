@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sheenDotbelow-ar.init" format="2">
+  <advance width="784"/>
+  <anchor x="386" y="-191" name="bottom"/>
+  <anchor x="431" y="644" name="top"/>
+  <outline>
+    <component base="seen-ar.init"/>
+    <component base="threedotsupabove-ar" xOffset="286" yOffset="-131"/>
+    <component base="dotbelow-ar" xOffset="310" yOffset="-3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+    </dict>
+  </lib>
+</glyph>

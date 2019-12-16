@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="behVabove-ar.fina" format="2">
+  <advance width="964"/>
+  <note>
+uni0756.fina
+</note>
+  <anchor x="497" y="-78" name="bottom"/>
+  <anchor x="464" y="660" name="top"/>
+  <anchor x="483" y="0" name="ring"/>
+  <outline>
+    <component base="behDotless-ar.fina"/>
+    <component base="smallv.arabic" xOffset="456" yOffset="-194"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:41:42</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

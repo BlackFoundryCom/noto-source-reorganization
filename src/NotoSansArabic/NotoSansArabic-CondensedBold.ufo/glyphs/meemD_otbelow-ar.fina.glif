@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="meemDotbelow-ar.fina" format="2">
+  <advance width="628"/>
+  <guideline x="528" y="-86" angle="0"/>
+  <anchor x="384" y="-217" name="bottom"/>
+  <anchor x="336" y="454" name="top"/>
+  <outline>
+    <component base="meem-ar.fina"/>
+    <component base="dotbelow-ar" xOffset="279" yOffset="-1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

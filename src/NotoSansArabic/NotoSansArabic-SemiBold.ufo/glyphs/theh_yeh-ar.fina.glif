@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="theh_yeh-ar.fina" format="2">
+  <advance width="1209"/>
+  <unicode hex="FC7B"/>
+  <anchor x="800" y="0" name="caret_1"/>
+  <anchor x="988" y="-5" name="bottom_1"/>
+  <anchor x="379" y="-462" name="bottom_2"/>
+  <anchor x="1041" y="696" name="top_1"/>
+  <anchor x="228" y="214" name="top_2"/>
+  <outline>
+    <component base="theh-ar.medi" xOffset="800"/>
+    <component base="yeh-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>theh-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>yeh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

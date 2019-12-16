@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sindhiampersand-ar" format="2">
+  <advance width="526"/>
+  <unicode hex="06FD"/>
+  <note>
+uni06FD
+</note>
+  <anchor x="254" y="-548" name="bottom"/>
+  <anchor x="249" y="488" name="top"/>
+  <outline>
+    <component base="hamza-ar"/>
+    <component base="alefbelow-ar" xOffset="254" yOffset="117"/>
+    <component base="alefbelow-ar" xOffset="254" yOffset="-118"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/20 21:28:22</string>
+    </dict>
+  </lib>
+</glyph>

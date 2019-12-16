@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonRing-ar.init" format="2">
+  <advance width="403"/>
+  <guideline x="437" y="613" angle="0"/>
+  <anchor x="234" y="-109" name="bottom"/>
+  <anchor x="171" y="799" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar.init.wide"/>
+    <component base="ringArabic" xOffset="108" yOffset="-82"/>
+    <component base="dotabove-ar" xOffset="95" yOffset="76"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

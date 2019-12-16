@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehFourdots-ar.fina" format="2">
+  <advance width="478"/>
+  <note>
+uni0699.fina
+</note>
+  <anchor x="98" y="-293" name="bottom"/>
+  <anchor x="285" y="900" name="top"/>
+  <outline>
+    <component base="reh-ar.fina"/>
+    <component base="fourdots.above" xOffset="285" yOffset="-12"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:38:14</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

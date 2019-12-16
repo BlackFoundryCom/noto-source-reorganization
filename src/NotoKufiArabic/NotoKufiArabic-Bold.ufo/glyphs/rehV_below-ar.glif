@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehVbelow-ar" format="2">
+  <advance width="438"/>
+  <unicode hex="0695"/>
+  <note>
+uni0695
+</note>
+  <anchor x="141" y="-568" name="bottom"/>
+  <anchor x="254" y="549" name="top"/>
+  <outline>
+    <component base="reh-ar"/>
+    <component base="smallv.arabic" xOffset="147" yOffset="-1146"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:38:29</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

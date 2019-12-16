@@ -2,7 +2,10 @@ languagesystem thaa dflt;
 
 @GDEF_base = [uni060C uni061B uni061F uni0780 uni0781 uni0782 uni0783 uni0784 uni0785 uni0786 uni0787 uni0788 uni0789 uni078A uni078B uni078C uni078D uni078E uni078F uni0790 uni0791 uni0792 uni0793 uni0794 uni0795 uni0796 uni0797 uni0798 uni0799 uni079A uni079B uni079C uni079D uni079E uni079F uni07A0 uni07A1 uni07A2 uni07A3 uni07A4 uni07A5 uni07B1 quoteleft quoteright quotedblleft quotedblright uni25CC uniFDF2 semicolon colon exclam uni0660 uni0661 uni0662 uni0663 uni0664 uni0665 uni0666 uni0667 uni0668 uni0669 uniFDFD uni066A uni066B uni066C parenleft parenright comma period ];
 @GDEF_mark = [uni07A6 uni07A7 uni07A8 uni07A9 uni07AA uni07AB uni07AC uni07AD uni07AE uni07AF uni07B0 ];
-
+#dummy GSUB
+feature ss01{
+sub uni07A6 by uni07A6;
+	}ss01;
 #GPOS
 lookup gpos_0_mark_to_base {
 markClass uni07A6 <anchor 166 439> @_MARKCLASS_0_lookup_0;

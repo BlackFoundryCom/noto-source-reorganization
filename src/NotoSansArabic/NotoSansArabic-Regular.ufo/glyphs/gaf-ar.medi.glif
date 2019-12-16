@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gaf-ar.medi" format="2">
+  <advance width="508"/>
+  <unicode hex="FB95"/>
+  <guideline x="331" y="781" angle="0"/>
+  <guideline x="331" y="749" angle="0"/>
+  <anchor x="163" y="0" name="bottom"/>
+  <anchor x="122" y="686" name="top"/>
+  <outline>
+    <component base="kaf-ar.medi"/>
+    <component base="_part.Gaf.stroke" xOffset="4"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+    </dict>
+  </lib>
+</glyph>

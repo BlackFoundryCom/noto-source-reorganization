@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="veh-ar.medi" format="2">
+  <advance width="601"/>
+  <unicode hex="FB6D"/>
+  <note>
+veh.medi
+</note>
+  <anchor x="301" y="-78" name="bottom"/>
+  <anchor x="321" y="860" name="top"/>
+  <outline>
+    <component base="qafDotless-ar.medi"/>
+    <component base="threedots.above" xOffset="331"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/21 15:51:47</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

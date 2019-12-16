@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamThreedotsabove-ar.medi" format="2">
+  <advance width="321"/>
+  <guideline x="105" y="809" angle="0"/>
+  <anchor x="152" y="-4" name="bottom"/>
+  <anchor x="148" y="1160" name="top"/>
+  <outline>
+    <component base="lam-ar.medi"/>
+    <component base="threedotsupabove-ar" xOffset="4" yOffset="296"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+    </dict>
+  </lib>
+</glyph>

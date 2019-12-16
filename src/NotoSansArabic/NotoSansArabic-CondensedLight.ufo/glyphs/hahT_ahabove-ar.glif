@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hahTahabove-ar" format="2">
+  <advance width="500"/>
+  <unicode hex="0772"/>
+  <anchor x="287" y="-394" name="bottom"/>
+  <anchor x="260" y="54" name="center"/>
+  <anchor x="278" y="679" name="top"/>
+  <outline>
+    <component base="hah-ar"/>
+    <component base="uniFBC0" xOffset="150" yOffset="-158"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

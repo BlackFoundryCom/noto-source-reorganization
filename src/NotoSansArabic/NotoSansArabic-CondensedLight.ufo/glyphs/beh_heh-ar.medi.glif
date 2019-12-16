@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="beh_heh-ar.medi" format="2">
+  <advance width="619"/>
+  <unicode hex="FCE2"/>
+  <anchor x="401" y="0" name="caret_1"/>
+  <anchor x="501" y="-171" name="bottom_1"/>
+  <anchor x="250" y="-217" name="bottom_2"/>
+  <anchor x="532" y="286" name="top_1"/>
+  <anchor x="230" y="386" name="top_2"/>
+  <outline>
+    <component base="beh-ar.medi" xOffset="401"/>
+    <component base="heh-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>beh-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>heh-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

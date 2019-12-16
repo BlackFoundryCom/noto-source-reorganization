@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="khah-ar.fina" format="2">
+  <advance width="583"/>
+  <note>
+uni062E.fina
+</note>
+  <anchor x="179" y="-375" name="bottom"/>
+  <anchor x="237" y="698" name="top"/>
+  <anchor x="301" y="445" name="center"/>
+  <outline>
+    <component base="hah-ar.fina"/>
+    <component base="onedot.above" xOffset="246"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:39:55</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

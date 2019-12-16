@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonDotbelow-ar.medi" format="2">
+  <advance width="268"/>
+  <note>
+uni06B9.medi
+</note>
+  <anchor x="133" y="-209" name="bottom"/>
+  <anchor x="145" y="703" name="top"/>
+  <anchor x="135" y="0" name="ring"/>
+  <outline>
+    <component base="behDotless-ar.medi"/>
+    <component base="onedot.above" xOffset="152"/>
+    <component base="onedot.below" xOffset="131"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 18:59:07</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

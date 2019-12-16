@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kafThreedotsbelow-ar.init" format="2">
+  <advance width="610"/>
+  <note>
+uni06AE.init
+</note>
+  <anchor x="254" y="-412" name="bottom"/>
+  <anchor x="305" y="890" name="top"/>
+  <outline>
+    <component base="kaf-ar.init"/>
+    <component base="threedots.below" xOffset="247" yOffset="-46"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/18 16:53:04</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

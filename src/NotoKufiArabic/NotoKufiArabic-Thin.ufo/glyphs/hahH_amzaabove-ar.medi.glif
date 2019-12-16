@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hahHamzaabove-ar.medi" format="2">
+  <advance width="540"/>
+  <note>
+uni0681.medi
+</note>
+  <anchor x="270" y="-78" name="bottom"/>
+  <anchor x="213" y="817" name="top"/>
+  <outline>
+    <component base="hah-ar.medi"/>
+    <component base="hamzaabove-ar" xOffset="220" yOffset="-172"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/16 15:59:25</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

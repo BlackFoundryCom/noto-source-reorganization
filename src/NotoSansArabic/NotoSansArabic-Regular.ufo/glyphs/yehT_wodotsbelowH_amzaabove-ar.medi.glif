@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehTwodotsbelowHamzaabove-ar.medi" format="2">
+  <advance width="373"/>
+  <anchor x="183" y="-191" name="bottom"/>
+  <anchor x="185" y="549" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar.medi.wide"/>
+    <component base="hamzaabove-ar" xOffset="67" yOffset="-185"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="39" yOffset="-5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gafTwodotsbelow-ar.medi" format="2">
+  <advance width="626"/>
+  <note>
+uni06B2.medi
+</note>
+  <anchor x="250" y="-237" name="bottom"/>
+  <anchor x="136" y="883" name="top"/>
+  <outline>
+    <component base="kaf-ar.medi"/>
+    <component base="diagonal" xOffset="37"/>
+    <component base="twodots.below" xOffset="252"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:31:09</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

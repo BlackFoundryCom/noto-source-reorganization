@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dalRing-ar" format="2">
+  <advance width="443"/>
+  <unicode hex="0689"/>
+  <note>
+uni0689
+</note>
+  <anchor x="251" y="-187" name="bottom"/>
+  <anchor x="180" y="595" name="top"/>
+  <outline>
+    <component base="dal-ar"/>
+    <component base="sukun-ar" xOffset="253" yOffset="-986"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/22 16:50:18</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

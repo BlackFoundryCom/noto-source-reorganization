@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hahThreedotsabove-ar" format="2">
+  <advance width="500"/>
+  <unicode hex="0685"/>
+  <anchor x="287" y="-394" name="bottom"/>
+  <anchor x="260" y="54" name="center"/>
+  <anchor x="254" y="640" name="top"/>
+  <outline>
+    <component base="hah-ar"/>
+    <component base="threedotsupabove-ar" xOffset="109" yOffset="-93"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+    </dict>
+  </lib>
+</glyph>

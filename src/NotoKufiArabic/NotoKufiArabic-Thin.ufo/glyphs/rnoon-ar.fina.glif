@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rnoon-ar.fina" format="2">
+  <advance width="584"/>
+  <note>
+uni06BB.fina
+</note>
+  <anchor x="265" y="-307" name="bottom"/>
+  <anchor x="319" y="673" name="top"/>
+  <outline>
+    <component base="noonghunna-ar.fina"/>
+    <component base="tahabove-ar" xOffset="337" yOffset="-146"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/08 09:10:08</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

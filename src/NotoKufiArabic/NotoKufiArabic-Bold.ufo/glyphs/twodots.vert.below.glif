@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="twodots.vert.below" format="2">
+  <note>
+twodots.vert.below
+</note>
+  <outline>
+    <contour>
+      <point x="0" y="-436" type="curve" smooth="yes"/>
+      <point x="40" y="-436"/>
+      <point x="66" y="-409.333"/>
+      <point x="66" y="-364" type="curve" smooth="yes"/>
+      <point x="66" y="-318.667"/>
+      <point x="41.333" y="-292"/>
+      <point x="0" y="-292" type="curve" smooth="yes"/>
+      <point x="-41.333" y="-292"/>
+      <point x="-67" y="-317.333"/>
+      <point x="-67" y="-364" type="curve" smooth="yes"/>
+      <point x="-67" y="-410.667"/>
+      <point x="-40" y="-436"/>
+    </contour>
+    <contour>
+      <point x="0" y="-250" type="curve" smooth="yes"/>
+      <point x="40" y="-250"/>
+      <point x="66" y="-223.333"/>
+      <point x="66" y="-178" type="curve" smooth="yes"/>
+      <point x="66" y="-132.667"/>
+      <point x="41.333" y="-106"/>
+      <point x="0" y="-106" type="curve" smooth="yes"/>
+      <point x="-41.333" y="-106"/>
+      <point x="-67" y="-131.333"/>
+      <point x="-67" y="-178" type="curve" smooth="yes"/>
+      <point x="-67" y="-224.667"/>
+      <point x="-40" y="-250"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>PUSHB[ ]	/* 4 values pushed */
+12 6 0 18 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+MDRP[01100]	/* MoveDirectRelPt */
+IP[ ]	/* InterpolatePts */
+IP[ ]	/* InterpolatePts */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 19:27:18</string>
+    </dict>
+  </lib>
+</glyph>

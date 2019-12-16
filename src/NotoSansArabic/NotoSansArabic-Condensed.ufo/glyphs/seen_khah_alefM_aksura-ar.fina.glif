@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seen_khah_alefMaksura-ar.fina" format="2">
+  <advance width="1761"/>
+  <unicode hex="FDA8"/>
+  <anchor x="1082" y="0" name="caret_1"/>
+  <anchor x="625" y="0" name="caret_2"/>
+  <anchor x="1416" y="-5" name="bottom_1"/>
+  <anchor x="832" y="0" name="bottom_2"/>
+  <anchor x="322" y="-230" name="bottom_3"/>
+  <anchor x="1445" y="332" name="top_1"/>
+  <anchor x="764" y="549" name="top_2"/>
+  <anchor x="216" y="150" name="top_3"/>
+  <outline>
+    <component base="seen-ar.medi" xOffset="1082"/>
+    <component base="khah-ar.medi" xOffset="625"/>
+    <component base="alefMaksura-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>seen-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alefMaksura-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:52</string>
+    </dict>
+  </lib>
+</glyph>

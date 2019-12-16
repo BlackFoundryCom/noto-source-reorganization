@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fehThreedotsupbelow-ar.medi" format="2">
+  <advance width="522"/>
+  <note>
+uni0761.medi
+</note>
+  <anchor x="317" y="-272" name="bottom"/>
+  <anchor x="301" y="540" name="top"/>
+  <outline>
+    <component base="qafDotless-ar.medi"/>
+    <component base="threedots.rev.below" xOffset="314"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/17 13:07:01</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

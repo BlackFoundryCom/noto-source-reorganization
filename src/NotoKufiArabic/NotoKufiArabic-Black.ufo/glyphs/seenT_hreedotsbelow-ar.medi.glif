@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seenThreedotsbelow-ar.medi" format="2">
+  <advance width="1125"/>
+  <note>
+uni069B.medi
+</note>
+  <anchor x="568" y="-410" name="bottom"/>
+  <anchor x="563" y="485" name="top"/>
+  <outline>
+    <component base="seen-ar.medi"/>
+    <component base="threedots.below" xOffset="536" yOffset="-62"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:37:35</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wasla" format="2">
+  <note>
+wasla
+</note>
+  <anchor x="0" y="762" name="_top"/>
+  <anchor x="0" y="762" name="_top2"/>
+  <outline>
+    <contour>
+      <point x="-130" y="826" type="line"/>
+      <point x="-130" y="770" type="line"/>
+      <point x="114" y="770" type="line"/>
+      <point x="114" y="826" type="line" smooth="yes"/>
+      <point x="114" y="890"/>
+      <point x="81.333" y="928"/>
+      <point x="28" y="928" type="curve" smooth="yes"/>
+      <point x="-23.333" y="928"/>
+      <point x="-60.667" y="894"/>
+      <point x="-84" y="826" type="curve"/>
+    </contour>
+    <contour>
+      <point x="63" y="826" type="curve"/>
+      <point x="-29" y="826" type="line"/>
+      <point x="-19.667" y="852.667"/>
+      <point x="0.667" y="871"/>
+      <point x="26" y="871" type="curve" smooth="yes"/>
+      <point x="50" y="871"/>
+      <point x="63" y="859.333"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>NPUSHB[ ]	/* 18 values pushed */
+1 15 8 12 64 47 3 63 3 2 3 64 12 15 72 3 128 8 
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+MDAP[1]	/* MoveDirectAbsPt */
+SMD[ ]	/* SetMinimumDistance */
+MDRP[11101]	/* MoveDirectRelPt */
+CALL[ ]	/* CallFunction */
+DELTAP2[ ]	/* DeltaExceptionP2 */
+SMD[ ]	/* SetMinimumDistance */
+MDRP[01101]	/* MoveDirectRelPt */
+SRP0[ ]	/* SetRefPoint0 */
+MDRP[01101]	/* MoveDirectRelPt */
+SHP[0]	/* ShiftPointByLastPoint */
+IUP[1]	/* InterpolateUntPts */
+IUP[0]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 19:27:18</string>
+    </dict>
+  </lib>
+</glyph>

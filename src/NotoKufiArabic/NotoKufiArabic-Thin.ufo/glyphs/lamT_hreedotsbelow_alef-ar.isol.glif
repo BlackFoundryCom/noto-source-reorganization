@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamThreedotsbelow_alef-ar.isol" format="2">
+  <advance width="634"/>
+  <note>
+uni06B80627.isol
+</note>
+  <anchor x="595" y="-57" name="bottom_1"/>
+  <anchor x="314" y="-305" name="bottom_2"/>
+  <anchor x="317" y="0" name="caret_1"/>
+  <anchor x="523" y="845" name="top_1"/>
+  <anchor x="136" y="714" name="top_2"/>
+  <anchor x="566" y="-78" name="bottom_2_ligComponent_1"/>
+  <anchor x="225" y="-78" name="bottom_2_ligComponent_2"/>
+  <anchor x="518" y="830" name="top_2_ligComponent_1"/>
+  <anchor x="146" y="713" name="top_2_ligComponent_2"/>
+  <outline>
+    <component base="lam_alef-ar.isol"/>
+    <component base="threedots.below" xOffset="318" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/17 13:19:25</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -21,48 +21,80 @@
   </axes>
   <sources>
     <source filename="NotoSansMono-Light.ufo" name="Noto Sans Mono Light" familyname="NotoSansMono" stylename="Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
     <source filename="NotoSansMono-Regular.ufo" name="Noto Sans Mono Regular" familyname="NotoSansMono" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
     <source filename="NotoSansMono-SemiBold.ufo" name="Noto Sans Mono SemiBold" familyname="NotoSansMono" stylename="SemiBold">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
     <source filename="NotoSansMono-Bold.ufo" name="Noto Sans Mono Bold" familyname="NotoSansMono" stylename="Bold">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
     <source filename="NotoSansMono-CondensedLight.ufo" name="Noto Sans Mono Condensed Light" familyname="NotoSansMono" stylename="Condensed Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
     <source filename="NotoSansMono-Condensed.ufo" name="Noto Sans Mono Condensed" familyname="NotoSansMono" stylename="Condensed">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
     <source filename="NotoSansMono-CondensedSemiBold.ufo" name="Noto Sans Mono Condensed SemiBold" familyname="NotoSansMono" stylename="Condensed SemiBold">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
     <source filename="NotoSansMono-CondensedBold.ufo" name="Noto Sans Mono Condensed Bold" familyname="NotoSansMono" stylename="Condensed Bold">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="70"/>
@@ -70,7 +102,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Noto Sans Mono Thin" familyname="NotoSansMono" stylename="Thin" filename="Noto Sans Mono Thin">
+    <instance name="Noto Sans Mono Thin" familyname="NotoSansMono" stylename="Thin" filename="instance_ufos/NotoSansMono-Thin.ufo">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="100"/>
@@ -78,7 +110,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono ExtraLight" familyname="NotoSansMono" stylename="ExtraLight" filename="Noto Sans Mono ExtraLight">
+    <instance name="Noto Sans Mono ExtraLight" familyname="NotoSansMono" stylename="ExtraLight" filename="instance_ufos/NotoSansMono-ExtraLight.ufo">
       <location>
         <dimension name="Weight" xvalue="39"/>
         <dimension name="Width" xvalue="100"/>
@@ -86,7 +118,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono Light" familyname="NotoSansMono" stylename="Light" filename="Noto Sans Mono Light">
+    <instance name="Noto Sans Mono Light" familyname="NotoSansMono" stylename="Light" filename="instance_ufos/NotoSansMono-Light.ufo">
       <location>
         <dimension name="Weight" xvalue="58"/>
         <dimension name="Width" xvalue="100"/>
@@ -94,7 +126,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono Regular" familyname="NotoSansMono" stylename="Regular" filename="Noto Sans Mono Regular">
+    <instance name="Noto Sans Mono Regular" familyname="NotoSansMono" stylename="Regular" filename="instance_ufos/NotoSansMono-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="100"/>
@@ -102,7 +134,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono Medium" familyname="NotoSansMono" stylename="Medium" filename="Noto Sans Mono Medium">
+    <instance name="Noto Sans Mono Medium" familyname="NotoSansMono" stylename="Medium" filename="instance_ufos/NotoSansMono-Medium.ufo">
       <location>
         <dimension name="Weight" xvalue="108"/>
         <dimension name="Width" xvalue="100"/>
@@ -110,7 +142,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono SemiBold" familyname="NotoSansMono" stylename="SemiBold" filename="Noto Sans Mono SemiBold">
+    <instance name="Noto Sans Mono SemiBold" familyname="NotoSansMono" stylename="SemiBold" filename="instance_ufos/NotoSansMono-SemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="128"/>
         <dimension name="Width" xvalue="100"/>
@@ -118,7 +150,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono Bold" familyname="NotoSansMono" stylename="Bold" filename="Noto Sans Mono Bold">
+    <instance name="Noto Sans Mono Bold" familyname="NotoSansMono" stylename="Bold" filename="instance_ufos/NotoSansMono-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="100"/>
@@ -126,7 +158,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono ExtraBold" familyname="NotoSansMono" stylename="ExtraBold" filename="Noto Sans Mono ExtraBold">
+    <instance name="Noto Sans Mono ExtraBold" familyname="NotoSansMono" stylename="ExtraBold" filename="instance_ufos/NotoSansMono-ExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="100"/>
@@ -134,7 +166,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono Black" familyname="NotoSansMono" stylename="Black" filename="Noto Sans Mono Black">
+    <instance name="Noto Sans Mono Black" familyname="NotoSansMono" stylename="Black" filename="instance_ufos/NotoSansMono-Black.ufo">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="100"/>
@@ -142,7 +174,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono SemiCondensed Thin" familyname="NotoSansMono" stylename="SemiCondensed Thin" filename="Noto Sans Mono SemiCondensed Thin">
+    <instance name="Noto Sans Mono SemiCondensed Thin" familyname="NotoSansMono" stylename="SemiCondensed Thin" filename="instance_ufos/NotoSansMono-SemiCondensedThin.ufo">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="89"/>
@@ -150,7 +182,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono SemiCondensed ExtraLight" familyname="NotoSansMono" stylename="SemiCondensed ExtraLight" filename="Noto Sans Mono SemiCondensed ExtraLight">
+    <instance name="Noto Sans Mono SemiCondensed ExtraLight" familyname="NotoSansMono" stylename="SemiCondensed ExtraLight" filename="instance_ufos/NotoSansMono-SemiCondensedExtraLight.ufo">
       <location>
         <dimension name="Weight" xvalue="39"/>
         <dimension name="Width" xvalue="89"/>
@@ -158,7 +190,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono SemiCondensed Light" familyname="NotoSansMono" stylename="SemiCondensed Light" filename="Noto Sans Mono SemiCondensed Light">
+    <instance name="Noto Sans Mono SemiCondensed Light" familyname="NotoSansMono" stylename="SemiCondensed Light" filename="instance_ufos/NotoSansMono-SemiCondensedLight.ufo">
       <location>
         <dimension name="Weight" xvalue="58"/>
         <dimension name="Width" xvalue="89"/>
@@ -166,7 +198,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono SemiCondensed" familyname="NotoSansMono" stylename="SemiCondensed" filename="Noto Sans Mono SemiCondensed">
+    <instance name="Noto Sans Mono SemiCondensed" familyname="NotoSansMono" stylename="SemiCondensed" filename="instance_ufos/NotoSansMono-SemiCondensed.ufo">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="89"/>
@@ -174,7 +206,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono SemiCondensed Medium" familyname="NotoSansMono" stylename="SemiCondensed Medium" filename="Noto Sans Mono SemiCondensed Medium">
+    <instance name="Noto Sans Mono SemiCondensed Medium" familyname="NotoSansMono" stylename="SemiCondensed Medium" filename="instance_ufos/NotoSansMono-SemiCondensedMedium.ufo">
       <location>
         <dimension name="Weight" xvalue="108"/>
         <dimension name="Width" xvalue="89"/>
@@ -182,7 +214,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono SemiCondensed SemiBold" familyname="NotoSansMono" stylename="SemiCondensed SemiBold" filename="Noto Sans Mono SemiCondensed SemiBold">
+    <instance name="Noto Sans Mono SemiCondensed SemiBold" familyname="NotoSansMono" stylename="SemiCondensed SemiBold" filename="instance_ufos/NotoSansMono-SemiCondensedSemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="128"/>
         <dimension name="Width" xvalue="89"/>
@@ -190,7 +222,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono SemiCondensed Bold" familyname="NotoSansMono" stylename="SemiCondensed Bold" filename="Noto Sans Mono SemiCondensed Bold">
+    <instance name="Noto Sans Mono SemiCondensed Bold" familyname="NotoSansMono" stylename="SemiCondensed Bold" filename="instance_ufos/NotoSansMono-SemiCondensedBold.ufo">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="89"/>
@@ -198,7 +230,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono SemiCondensed ExtraBold" familyname="NotoSansMono" stylename="SemiCondensed ExtraBold" filename="Noto Sans Mono SemiCondensed ExtraBold">
+    <instance name="Noto Sans Mono SemiCondensed ExtraBold" familyname="NotoSansMono" stylename="SemiCondensed ExtraBold" filename="instance_ufos/NotoSansMono-SemiCondensedExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="89"/>
@@ -206,7 +238,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono SemiCondensed Black" familyname="NotoSansMono" stylename="SemiCondensed Black" filename="Noto Sans Mono SemiCondensed Black">
+    <instance name="Noto Sans Mono SemiCondensed Black" familyname="NotoSansMono" stylename="SemiCondensed Black" filename="instance_ufos/NotoSansMono-SemiCondensedBlack.ufo">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="89"/>
@@ -214,7 +246,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono Condensed Thin" familyname="NotoSansMono" stylename="Condensed Thin" filename="Noto Sans Mono Condensed Thin">
+    <instance name="Noto Sans Mono Condensed Thin" familyname="NotoSansMono" stylename="Condensed Thin" filename="instance_ufos/NotoSansMono-CondensedThin.ufo">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="79"/>
@@ -222,7 +254,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono Condensed ExtraLight" familyname="NotoSansMono" stylename="Condensed ExtraLight" filename="Noto Sans Mono Condensed ExtraLight">
+    <instance name="Noto Sans Mono Condensed ExtraLight" familyname="NotoSansMono" stylename="Condensed ExtraLight" filename="instance_ufos/NotoSansMono-CondensedExtraLight.ufo">
       <location>
         <dimension name="Weight" xvalue="39"/>
         <dimension name="Width" xvalue="79"/>
@@ -230,7 +262,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono Condensed Light" familyname="NotoSansMono" stylename="Condensed Light" filename="Noto Sans Mono Condensed Light">
+    <instance name="Noto Sans Mono Condensed Light" familyname="NotoSansMono" stylename="Condensed Light" filename="instance_ufos/NotoSansMono-CondensedLight.ufo">
       <location>
         <dimension name="Weight" xvalue="58"/>
         <dimension name="Width" xvalue="79"/>
@@ -238,7 +270,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono Condensed" familyname="NotoSansMono" stylename="Condensed" filename="Noto Sans Mono Condensed">
+    <instance name="Noto Sans Mono Condensed" familyname="NotoSansMono" stylename="Condensed" filename="instance_ufos/NotoSansMono-Condensed.ufo">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="79"/>
@@ -246,7 +278,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono Condensed Medium" familyname="NotoSansMono" stylename="Condensed Medium" filename="Noto Sans Mono Condensed Medium">
+    <instance name="Noto Sans Mono Condensed Medium" familyname="NotoSansMono" stylename="Condensed Medium" filename="instance_ufos/NotoSansMono-CondensedMedium.ufo">
       <location>
         <dimension name="Weight" xvalue="108"/>
         <dimension name="Width" xvalue="79"/>
@@ -254,7 +286,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono Condensed SemiBold" familyname="NotoSansMono" stylename="Condensed SemiBold" filename="Noto Sans Mono Condensed SemiBold">
+    <instance name="Noto Sans Mono Condensed SemiBold" familyname="NotoSansMono" stylename="Condensed SemiBold" filename="instance_ufos/NotoSansMono-CondensedSemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="128"/>
         <dimension name="Width" xvalue="79"/>
@@ -262,7 +294,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono Condensed Bold" familyname="NotoSansMono" stylename="Condensed Bold" filename="Noto Sans Mono Condensed Bold">
+    <instance name="Noto Sans Mono Condensed Bold" familyname="NotoSansMono" stylename="Condensed Bold" filename="instance_ufos/NotoSansMono-CondensedBold.ufo">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="79"/>
@@ -270,7 +302,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono Condensed ExtraBold" familyname="NotoSansMono" stylename="Condensed ExtraBold" filename="Noto Sans Mono Condensed ExtraBold">
+    <instance name="Noto Sans Mono Condensed ExtraBold" familyname="NotoSansMono" stylename="Condensed ExtraBold" filename="instance_ufos/NotoSansMono-CondensedExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="79"/>
@@ -278,7 +310,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono Condensed Black" familyname="NotoSansMono" stylename="Condensed Black" filename="Noto Sans Mono Condensed Black">
+    <instance name="Noto Sans Mono Condensed Black" familyname="NotoSansMono" stylename="Condensed Black" filename="instance_ufos/NotoSansMono-CondensedBlack.ufo">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="79"/>
@@ -286,7 +318,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono ExtraCondensed Thin" familyname="NotoSansMono" stylename="ExtraCondensed Thin" filename="Noto Sans Mono ExtraCondensed Thin">
+    <instance name="Noto Sans Mono ExtraCondensed Thin" familyname="NotoSansMono" stylename="ExtraCondensed Thin" filename="instance_ufos/NotoSansMono-ExtraCondensedThin.ufo">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="70"/>
@@ -294,7 +326,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono ExtraCondensed ExtraLight" familyname="NotoSansMono" stylename="ExtraCondensed ExtraLight" filename="Noto Sans Mono ExtraCondensed ExtraLight">
+    <instance name="Noto Sans Mono ExtraCondensed ExtraLight" familyname="NotoSansMono" stylename="ExtraCondensed ExtraLight" filename="instance_ufos/NotoSansMono-ExtraCondensedExtraLight.ufo">
       <location>
         <dimension name="Weight" xvalue="39"/>
         <dimension name="Width" xvalue="70"/>
@@ -302,7 +334,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono ExtraCondensed Light" familyname="NotoSansMono" stylename="ExtraCondensed Light" filename="Noto Sans Mono ExtraCondensed Light">
+    <instance name="Noto Sans Mono ExtraCondensed Light" familyname="NotoSansMono" stylename="ExtraCondensed Light" filename="instance_ufos/NotoSansMono-ExtraCondensedLight.ufo">
       <location>
         <dimension name="Weight" xvalue="58"/>
         <dimension name="Width" xvalue="70"/>
@@ -310,7 +342,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono ExtraCondensed" familyname="NotoSansMono" stylename="ExtraCondensed" filename="Noto Sans Mono ExtraCondensed">
+    <instance name="Noto Sans Mono ExtraCondensed" familyname="NotoSansMono" stylename="ExtraCondensed" filename="instance_ufos/NotoSansMono-ExtraCondensed.ufo">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="70"/>
@@ -318,7 +350,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono ExtraCondensed Medium" familyname="NotoSansMono" stylename="ExtraCondensed Medium" filename="Noto Sans Mono ExtraCondensed Medium">
+    <instance name="Noto Sans Mono ExtraCondensed Medium" familyname="NotoSansMono" stylename="ExtraCondensed Medium" filename="instance_ufos/NotoSansMono-ExtraCondensedMedium.ufo">
       <location>
         <dimension name="Weight" xvalue="108"/>
         <dimension name="Width" xvalue="70"/>
@@ -326,7 +358,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono ExtraCondensed SemiBold" familyname="NotoSansMono" stylename="ExtraCondensed SemiBold" filename="Noto Sans Mono ExtraCondensed SemiBold">
+    <instance name="Noto Sans Mono ExtraCondensed SemiBold" familyname="NotoSansMono" stylename="ExtraCondensed SemiBold" filename="instance_ufos/NotoSansMono-ExtraCondensedSemiBold.ufo">
       <location>
         <dimension name="Weight" xvalue="128"/>
         <dimension name="Width" xvalue="70"/>
@@ -334,7 +366,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono ExtraCondensed Bold" familyname="NotoSansMono" stylename="ExtraCondensed Bold" filename="Noto Sans Mono ExtraCondensed Bold">
+    <instance name="Noto Sans Mono ExtraCondensed Bold" familyname="NotoSansMono" stylename="ExtraCondensed Bold" filename="instance_ufos/NotoSansMono-ExtraCondensedBold.ufo">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="70"/>
@@ -342,7 +374,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono ExtraCondensed ExtraBold" familyname="NotoSansMono" stylename="ExtraCondensed ExtraBold" filename="Noto Sans Mono ExtraCondensed ExtraBold">
+    <instance name="Noto Sans Mono ExtraCondensed ExtraBold" familyname="NotoSansMono" stylename="ExtraCondensed ExtraBold" filename="instance_ufos/NotoSansMono-ExtraCondensedExtraBold.ufo">
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="70"/>
@@ -350,7 +382,7 @@
       <kerning/>
       <info/>
     </instance>
-    <instance name="Noto Sans Mono ExtraCondensed Black" familyname="NotoSansMono" stylename="ExtraCondensed Black" filename="Noto Sans Mono ExtraCondensed Black">
+    <instance name="Noto Sans Mono ExtraCondensed Black" familyname="NotoSansMono" stylename="ExtraCondensed Black" filename="instance_ufos/NotoSansMono-ExtraCondensedBlack.ufo">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="70"/>

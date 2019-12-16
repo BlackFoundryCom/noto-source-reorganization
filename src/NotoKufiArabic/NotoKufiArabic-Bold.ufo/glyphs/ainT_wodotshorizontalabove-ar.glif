@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ainTwodotshorizontalabove-ar" format="2">
+  <advance width="593"/>
+  <unicode hex="075D"/>
+  <note>
+uni075D
+</note>
+  <anchor x="234" y="-381" name="bottom"/>
+  <anchor x="293" y="586" name="top"/>
+  <outline>
+    <component base="ain-ar"/>
+    <component base="twodots.above" xOffset="310"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/17 13:05:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

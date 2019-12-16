@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fehDotbelowThreedotsabove-ar.init" format="2">
+  <advance width="505"/>
+  <guideline x="598" y="-106" angle="0"/>
+  <anchor x="220" y="-247" name="bottom"/>
+  <anchor x="271" y="931" name="top"/>
+  <outline>
+    <component base="dotlessfeh-ar.init"/>
+    <component base="dotbelow-ar" xOffset="124" yOffset="-14"/>
+    <component base="threedotsupabove-ar" xOffset="121" yOffset="129"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+    </dict>
+  </lib>
+</glyph>

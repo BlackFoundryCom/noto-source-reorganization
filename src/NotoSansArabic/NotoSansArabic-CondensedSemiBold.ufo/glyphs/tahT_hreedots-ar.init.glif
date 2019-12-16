@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tahThreedots-ar.init" format="2">
+  <advance width="646"/>
+  <anchor x="301" y="-6" name="bottom"/>
+  <anchor x="419" y="794" name="top"/>
+  <outline>
+    <component base="tah-ar.init"/>
+    <component base="threedotsupabove-ar" xOffset="277" yOffset="-29"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 13:30:51</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

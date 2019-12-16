@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dalVinvertedabove-ar.fina" format="2">
+  <advance width="569"/>
+  <note>
+uni06EE.fina
+</note>
+  <anchor x="252" y="-78" name="bottom"/>
+  <anchor x="174" y="890" name="top"/>
+  <outline>
+    <component base="dal-ar.fina"/>
+    <component base="circumflex.arabic" xOffset="175"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/23 10:39:10</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>
