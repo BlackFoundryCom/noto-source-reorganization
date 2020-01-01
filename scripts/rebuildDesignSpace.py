@@ -1,7 +1,8 @@
 """
 Just put this script in same folder than the designspace to rebuild and run it
 """
-from fontTools.designspaceLib import DesignSpaceDocument, AxisDescriptor, SourceDescriptor, InstanceDescriptor, BaseDocReader
+from fontTools.designspaceLib import DesignSpaceDocument, AxisDescriptor, SourceDescriptor, InstanceDescriptor, RuleDescriptor, BaseDocReader
+from fontTools import designspaceLib
 import os
 
 def getFile(extension, branche, directory):
@@ -17,7 +18,7 @@ def openDesignSpace(path):
 	return designSpace
 
 def newDS(designSpace, familyName):
-	ufosources, instances, axes = list(), list(), list()
+	ufosources, instances, axes, rules = list(), list(), list(), list()
 	newDS = DesignSpaceDocument()
 	# axes
 	for a in designSpace.axes:
@@ -30,9 +31,19 @@ def newDS(designSpace, familyName):
 		ax.map = a.map
 		newDS.addAxis(ax)
 
-	#---------
-	# masters
-	#---------
+	#-------#
+	# RULES #
+	#-------#
+	for r in designSpace.rules:
+		rl = RuleDescriptor()
+		rl.name = r.name
+		rl.conditionSets = r.conditionSets
+		rl.subs = r.subs
+		newDS.addRule(rl)
+
+	#---------#
+	# masters #
+	#---------#
 	for s in designSpace.sources:
 		src = SourceDescriptor()
 		#src.path = s.path
@@ -69,11 +80,13 @@ def newDS(designSpace, familyName):
 	return newDS
 
 
-def rebuiltDesignSpace(typeface):
-	path = typeface + ".designspace"
-	designSpace = openDesignSpace(path)
+def rebuiltDesignSpace(path):
+	typeface = os.path.split(path)[1]
+	ds = typeface + ".designspace"
+	designSpace = openDesignSpace(os.path.join(path, ds))
 	content = newDS(designSpace, typeface)
-	content.write(os.path.abspath(os.path.join(path, os.pardir, typeface + "_cleaned.designspace")))
+	content.write(os.path.join(path, typeface + "_cleaned.designspace"))
+	return typeface
 
-folder = os.getcwd().split("/")[-1]
-rebuiltDesignSpace(folder)
+#folder = os.getcwd().split("/")[-1]
+# rebuiltDesignSpace(folder)

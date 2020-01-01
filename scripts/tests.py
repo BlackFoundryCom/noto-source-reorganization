@@ -1,6 +1,5 @@
 from Ufo2fontsFromdesignSpace import *
 
-
 # *************************
 # GENARATE VARIABLE FONT **
 #**************************
