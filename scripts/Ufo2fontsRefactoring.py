@@ -62,69 +62,78 @@ def openDesignSpace(path):
     designSpace.read(path)
     return designSpace
 
-def setBit(int_type, offset):
-    mask = 1 << offset
-    return(int_type | mask)
 
-def renameFonts(family, newName, *flavors, codePageRange = []):
-    saveName = newName.replace(" ", "")
-    formats = ["OTF", "TTF", "WOFF2", "WOFF", 'instances']
-    for i in flavors:
-        if os.path.exists((getFolder(family) + "fonts/" + i.upper())):
-            pass
-        else:
-            # mastersUfos2fonts(family, i)
-            instances(family, i)
-    path = getFolder(family) + "fonts/"
-    fontsFolders = [path + i for i in os.listdir(path) if i.split("/")[-1] in formats]
-    for folder in fontsFolders:
-        fonts = [folder + "/" + font for font in os.listdir(folder) if font.split(".")[-1].upper() in formats]
-        for f in fonts:
-            renamedFont, WeightName = renamer(f, newName, codePageRange)
-            format_ = f.split(".")[1].upper()
-            destination = getFolder(family) + "/" + newName + "/" + format_
-            fontName = saveName + "-" + ''.join(WeightName.split(' ')) + "." + f.split(".")[1]
-            if not os.path.exists(destination):
-                os.makedirs(destination)
-            renamedFont.save(os.path.join(destination, fontName))
+class renaming():
 
+    def __init__(self, family, oldName, newName, codePageRange = []):
+        self.family = family
+        self.oldName = oldName
+        self.newName = newName
+        self.codePageRange = codePageRange
 
-def renamer(f, newName, codePageRange = []):
-    renamedFont = ttLib.TTFont(f)
-    #First : GET THE STYLE NAME EITHER IN namerecord2 if the font is a RBIBI font or in namerecord 17 in other cases
-    for namerecord in renamedFont['name'].names:
-        namerecord.string = namerecord.toUnicode()
-        if namerecord.nameID == 2:
-            WeightName = namerecord.string
-        if namerecord.nameID == 17:
-            WeightName = namerecord.string
-    #Then Change the name everywhere
-    for namerecord in renamedFont['name'].names:
-        namerecord.string = namerecord.toUnicode()
-        # Create the naming of the font Family + style if the style is non RBIBI
-        if namerecord.nameID == 1:
-            if WeightName in ["Bold", "Regular", "Italic", "Bold Italic"]:
-                namerecord.string = newName
-            else:
+    def setBit(int_type, offset):
+        mask = 1 << offset
+        return(int_type | mask)
+
+    def renamer(f, newName, codePageRange = []):
+        renamedFont = ttLib.TTFont(self.f)
+        #First : GET THE STYLE NAME EITHER IN namerecord2 if the font is a RBIBI font or in namerecord 17 in other cases
+        for namerecord in renamedFont['name'].names:
+            namerecord.string = namerecord.toUnicode()
+            if namerecord.nameID == 2:
+                WeightName = namerecord.string
+            if namerecord.nameID == 17:
+                WeightName = namerecord.string
+        #Then Change the name everywhere
+        for namerecord in renamedFont['name'].names:
+            namerecord.string = namerecord.toUnicode()
+            # Create the naming of the font Family + style if the style is non RBIBI
+            if namerecord.nameID == 1:
+                if WeightName in ["Bold", "Regular", "Italic", "Bold Italic"]:
+                    namerecord.string = newName
+                else:
+                    namerecord.string = newName + " " + WeightName
+            if namerecord.nameID == 3:
+                unicID = namerecord.string.split(";")
+                newUnicID = unicID[0] +";"+ unicID[1] +";"+ ''.join(newName.split(' ')) +"-"+ ''.join(WeightName.split(' '))
+                namerecord.string = newUnicID
+            if namerecord.nameID == 4:
                 namerecord.string = newName + " " + WeightName
-        if namerecord.nameID == 3:
-            unicID = namerecord.string.split(";")
-            newUnicID = unicID[0] +";"+ unicID[1] +";"+ ''.join(newName.split(' ')) +"-"+ ''.join(WeightName.split(' '))
-            namerecord.string = newUnicID
-        if namerecord.nameID == 4:
-            namerecord.string = newName + " " + WeightName
-        if namerecord.nameID == 6:
-            namerecord.string = ''.join(newName.split(' ')) + '-' + ''.join(WeightName.split(' '))
-        if namerecord.nameID == 7:
-            namerecord.string = "Noto (from which this font is a modification) is a trademark of Google Inc."
-        if namerecord.nameID == 16:
-            namerecord.string = newName
-    os2cp1 = renamedFont['OS/2'].ulCodePageRange1
-    # os2cp1 = 0
-    if len(codePageRange) > 0:
-        for i in codePageRange:
-            os2cp1 = setBit(os2cp1, i)
-    return renamedFont, WeightName
+            if namerecord.nameID == 6:
+                namerecord.string = ''.join(newName.split(' ')) + '-' + ''.join(WeightName.split(' '))
+            if namerecord.nameID == 7:
+                namerecord.string = "Noto (from which this font is a modification) is a trademark of Google Inc."
+            if namerecord.nameID == 16:
+                namerecord.string = newName
+        os2cp1 = renamedFont['OS/2'].ulCodePageRange1
+        if len(codePageRange) > 0:
+            for i in codePageRange:
+                os2cp1 = setBit(os2cp1, i)
+        return renamedFont, WeightName
+
+    def renameFonts(family, newName, *flavors, codePageRange = []):
+        saveName = newName.replace(" ", "")
+        formats = ["OTF", "TTF", "WOFF2", "WOFF", 'instances']
+        for i in flavors:
+            if os.path.exists((getFolder(family) + "fonts/" + i.upper())):
+                pass
+            else:
+                instances(family, i)
+        path = getFolder(family) + "fonts/"
+        fontsFolders = [path + i for i in os.listdir(path) if i.split("/")[-1] in formats]
+        for folder in fontsFolders:
+            fonts = [folder + "/" + font for font in os.listdir(folder) if font.split(".")[-1].upper() in formats]
+            for f in fonts:
+                renamedFont, WeightName = renamer(f, newName, codePageRange)
+                format_ = f.split(".")[1].upper()
+                destination = getFolder(family) + "/" + newName + "/" + format_
+                fontName = saveName + "-" + ''.join(WeightName.split(' ')) + "." + f.split(".")[1]
+                if not os.path.exists(destination):
+                    os.makedirs(destination)
+                renamedFont.save(os.path.join(destination, fontName))
+
+
+
 
 def designSpace2Var(family):
     """ syntax :
