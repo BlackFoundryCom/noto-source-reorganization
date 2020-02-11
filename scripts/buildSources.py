@@ -35,7 +35,7 @@ from ufo2ft.outlineCompiler import OutlineOTFCompiler
 class sourcesBuilder():
 
     def __init__(self, fileName):
-        self.notoSourcesPath = "../Google_Noto_src/src"
+        self.notoSourcesPath = "../noto-source/src"
         self.fileName = fileName
         self.foldername = self.fileName.split(".")[0].replace("-MM", "")
         self.destination = os.path.join("../src", self.foldername)
@@ -64,7 +64,7 @@ class sourcesBuilder():
 class complexSourcesBuilder():
 
     def __init__(self, folderName):
-        self.notoSourcesPath = "../Google_Noto_src/src/"
+        self.notoSourcesPath = "../noto-source/src/"
         self.folderName = folderName
         for i in os.listdir(os.path.join(self.notoSourcesPath, self.folderName)):
             if i.endswith(".glyphs"):
