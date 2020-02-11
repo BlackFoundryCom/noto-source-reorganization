@@ -2,24 +2,24 @@ import os
 import json
 import shutil
 
-from fontmake.font_project      import FontProject
-from defcon                     import Font
-from Lib.makeThings             import ufo2font, ufosToGlyphs
-from Lib.findThings             import getFile, getFolder
-from fontTools.designspaceLib   import *
-from fontTools.ttLib            import TTFont
-from fontTools.ttLib.tables._n_a_m_e            import makeName
-from fontTools.varLib.mutator   import instantiateVariableFont
-from fontTools                  import varLib, ttLib
-from fontTools.subset           import Subsetter
-from fontTools.subset           import Options
-from fontTools.merge            import Merger
-from ufo2ft.featureWriters      import (KernFeatureWriter,
+from fontmake.font_project              import FontProject
+from defcon                             import Font
+from Lib.makeThings                     import ufo2font, ufosToGlyphs
+from Lib.findThings                     import getFile, getFolder
+from fontTools.designspaceLib           import *
+from fontTools.ttLib                    import TTFont
+from fontTools.ttLib.tables._n_a_m_e    import makeName
+from fontTools.varLib.mutator           import instantiateVariableFont
+from fontTools                          import varLib, ttLib
+from fontTools.subset                   import Subsetter
+from fontTools.subset                   import Options
+from fontTools.merge                    import Merger
+from ufo2ft.featureWriters              import (KernFeatureWriter,
                                         MarkFeatureWriter,
                                         loadFeatureWriters,
                                         ast
                                         )
-from ufo2ft                     import (compileInterpolatableOTFsFromDS,
+from ufo2ft                             import (compileInterpolatableOTFsFromDS,
                                         compileInterpolatableTTFsFromDS,
                                         postProcessor,
                                         compileTTF
@@ -37,6 +37,30 @@ renameFonts(familyName, newName, formats you want) => needs the original fonts f
 mergeFonts(baseFanmilyName, familyName of the fonts to inject) => WIP.
 
 """
+
+def add_ui_mti_features_to_master_ufos(self):
+    mti_source = self.mti_file_for_UI_Version
+    mti_paths = readPlist(mti_source)
+    for master in self.masters:
+        key = master.info.familyName.replace(" ", "")+"UI-"+master.info.styleName.replace(" ", "")
+        for table, path in mti_paths[key].items():
+            with open(os.path.join(self.mtiFolderPath, path), "rb") as mti_:
+                ufo_path = (
+                    "com.github.googlei18n.ufo2ft.mtiFeatures/%s.mti"
+                    % table.strip()
+                )
+                master.data[ufo_path] = mti_.read()
+            # If we have MTI sources, any Adobe feature files derived from
+            # the Glyphs file should be ignored. We clear it here because
+            # it only contains junk information anyway.
+            master.features.text = ""
+            # master.save()
+    print("\tufos updated with UI versioned MTI data")
+
+def openDesignSpace(path):
+    designSpace = DesignSpaceDocument()
+    designSpace.read(path)
+    return designSpace
 
 def setBit(int_type, offset):
     mask = 1 << offset
@@ -101,11 +125,6 @@ def renamer(f, newName, codePageRange = []):
         for i in codePageRange:
             os2cp1 = setBit(os2cp1, i)
     return renamedFont, WeightName
-
-def openDesignSpace(path):
-    designSpace = DesignSpaceDocument()
-    designSpace.read(path)
-    return designSpace
 
 def designSpace2Var(family):
     """ syntax :
@@ -306,9 +325,8 @@ def readJsonStoredSubset(jsonpath, writingSystem):
     unicodePageRangeDict = {"Cyrillic":latinProCodePageRange, "CyrillicPro":latinProCodePageRange, \
         "Greek" : greekProCodePageRange, "Latin" : latinProCodePageRange, "ASCII" : ASCII, "SecureSet" : SecureSet}
     pageRangeToApply = []
-    for i in jsonpath:
-        with open(i, 'r') as subsetDict:
-            subset = json.load(subsetDict)
+    with open(jsonpath, 'r') as subsetDict:
+        subset = json.load(subsetDict)
     for i in subset:
         if i in writingSystem:
             toKeep.append(subset[i])
@@ -352,7 +370,7 @@ def subsetFonts(family, writingSystem, flavor=["ttf"], familyNewName=" ", jsonpa
     keep = []
     if jsonpath == " ":
         jsonpath = [folder + json for json in os.listdir(folder) if ".json" in json]
-    keep, pageRangeToApply = readJsonStoredSubset(jsonpath, writingSystem)
+    keep, pageRangeToApply = readJsonStoredSubset(os.path.join(os.getcwd(), "lgc_glyphset.json"), writingSystem)
     for i in flavor:
         if not os.path.exists(folder + "/fonts/" + i.upper()):
             instances(family, i)
@@ -519,7 +537,7 @@ def instances(family, *output, newName=" "):
 
 # mastersUfos2fonts("NotoSansThaana", "woff2")
 # designSpace2Var("NotoSansThaana")
-# subsetFonts("NotoSerif", "SecureSet")
+subsetFonts("NotoSerif", "SecureSet")
 # instances("NotoSansThaana", "ttf")
 # subsetFonts("NotoSerif", "CyrillicPro", familyNewName = "Avocado Sans", flavor=["otf"])
 # subsetFonts("NotoSans", ["Cyrillic", "Greek"], flavor=["ttf"])
