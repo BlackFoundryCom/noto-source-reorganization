@@ -1,5 +1,6 @@
 # import subprocess
 import os
+import plistlib
 import defcon
 import glyphsLib
 import ufoLib2
@@ -12,18 +13,22 @@ from ufo2ft.featureWriters import (
     loadFeatureWriters,
     ast,
     )
-from ufo2ft.featureCompiler import FeatureCompiler
+from ufo2ft.featureCompiler import FeatureCompiler, MtiFeatureCompiler
 from ufo2ft.outlineCompiler import OutlineOTFCompiler
+
+
+# compilateur => featureCompilerClass = MtiFeatureCompiler
 
 """
     TODO:
     — dl noto sources repo with submodule with Action?
-    — Convert Glyphs sources into UFO + Designspace folders
-    — Clean Designspace
-    — Clean glyph order
-    — rewrite kerning.plist and groups.plist
+    — Convert Glyphs sources into UFO + Designspace folders DONE
+    — Clean Designspace ?
+    — Clean glyph order Done
+    — rewrite kerning.plist and groups.plist WIP
     — Check if ufo2ft needs to have "featureCompilerClass = MtiFeatureCompiler" in arg to generate features
         or if it detects the com.github.googlei18n.ufo2ft.mtiFeatures/*.mti data
+    — For now copy mti files in the font folder
 """
 
 
@@ -59,12 +64,10 @@ class sourcesBuilder():
 class complexSourcesBuilder():
 
     def __init__(self, folderName):
-        print("init")
         self.notoSourcesPath = "../Google_Noto_src/src/"
         self.folderName = folderName
         for i in os.listdir(os.path.join(self.notoSourcesPath, self.folderName)):
             if i.endswith(".glyphs"):
-                print("1")
                 typeface = sourcesBuilder(self.folderName+"/"+i)
                 self.designSpacePath, self.ufos = typeface.convertion()
 
@@ -77,6 +80,11 @@ class complexSourcesBuilder():
     @property
     def masters(self):
         return self.designSpaceDocument.loadSourceFonts(defcon.Font)
+
+    def copyMtiFeaturesInFolder(self):
+        for i in os.listdir(os.path.join(self.notoSourcesPath, self.folderName)):
+            if i.endswith(".plist") or i.endswith(".txt"):
+                os.sh
 
     def add_mti_features_to_ufos(self):
         oneOrMorePlist = list()
@@ -110,14 +118,36 @@ class rebuiltKerning():
         self.folder = folder
 
     def load(self):
-        for ufo in self.folder:
-            if ufo.endswith(".ufo"):
+        for ufo in os.listdir(self.folder):
+            if ufo.endswith("-Condensed.ufo"):
+                print(ufo)
                 ft = defcon.Font(os.path.join(self.folder, ufo))
-                feaCompiler = FeatureCompiler(ufo, outlines, featureWriters = [KernFeatureWriter(mode="append"), MarkFeatureWriter()])
+                outlines = OutlineOTFCompiler(ft).compile()
+                feaCompiler = FeatureCompiler(ft, outlines, featureWriters = [KernFeatureWriter(mode="append"), MarkFeatureWriter()])
+                # feaCompiler = FeatureCompiler(ft, outlines, featureCompilerClass = MtiFeatureCompiler)
+                print("compile")
                 feaCompiler.compile()
-                # NOW : read the feature file and write kerning.plist and group.plist
+                feaAsList = feaCompiler.features.split(";")
+                kernGrps = dict()
+                for i in feaAsList:
+                    if "=" in i:
+                        if "@kern1." in i:
+                            print(i)
+                            cleanUp = i.split("=")[1].replace("\n", "").split(" ")
+                            cleanUp = [g.strip('[];') for g in cleanUp if cleanUp != '']
+                            kernGrps[i.split("=")[0].replace("\n", "").strip(" ")] = cleanUp
+                        elif "@kern2." in i:
+                            print(i)
+                            cleanUp = i.split("=")[1].replace("\n", "").split(" ")
+                            cleanUp = [g.strip('[];') for g in cleanUp if cleanUp != '']
+                            kernGrps[i.split("=")[0].replace("\n", "").strip(" ")] = cleanUp
+                with open(os.path.join(self.folder, "test_groups.plist"), "bw+") as grp:
+                    grp.write(plistlib.dumps(kernGrps))
+                # NOW : read the feature file, isol the kerning and write kerning.plist and group.plist
 
 
+kern = rebuiltKerning("/Users/JBMZ/Documents/PRO/BlackF/BF_GOOGLE_Noto_reorg/src/NotoSans")
+kern.load()
 
 # def organizeSources():
 #     notoSourcesDir = "../Google_Noto_src/src"
@@ -126,15 +156,15 @@ class rebuiltKerning():
 #     subprocess.run(["git submodule add https://github.com/googlefonts/noto-source"], shell=True, check=True)
 
 
-if __name__ == '__main__':
-    NotoSources = "../Google_Noto_src/src"
-    for i in os.listdir(NotoSources):
-        if i.endswith(".glyphs"):
-            print(i)
-            # typeface = sourcesBuilder(i)
-            # typeface.convertion()
-        else:
-            if os.path.isdir(os.path.join(NotoSources, i)):
-                print(i, "is dir")
-                typeface = complexSourcesBuilder(i)
-                typeface.add_mti_features_to_ufos()
+# if __name__ == '__main__':
+#     NotoSources = "../Google_Noto_src/src"
+#     for i in os.listdir(NotoSources):
+#         if i.endswith(".glyphs"):
+#             print(i)
+#             typeface = sourcesBuilder(i)
+#             typeface.convertion()
+#         else:
+#             if os.path.isdir(os.path.join(NotoSources, i)):
+#                 print(i)
+#                 typeface = complexSourcesBuilder(i)
+#                 # typeface.add_mti_features_to_ufos()

@@ -325,9 +325,8 @@ def readJsonStoredSubset(jsonpath, writingSystem):
     unicodePageRangeDict = {"Cyrillic":latinProCodePageRange, "CyrillicPro":latinProCodePageRange, \
         "Greek" : greekProCodePageRange, "Latin" : latinProCodePageRange, "ASCII" : ASCII, "SecureSet" : SecureSet}
     pageRangeToApply = []
-    for i in jsonpath:
-        with open(i, 'r') as subsetDict:
-            subset = json.load(subsetDict)
+    with open(jsonpath, 'r') as subsetDict:
+        subset = json.load(subsetDict)
     for i in subset:
         if i in writingSystem:
             toKeep.append(subset[i])
@@ -371,7 +370,7 @@ def subsetFonts(family, writingSystem, flavor=["ttf"], familyNewName=" ", jsonpa
     keep = []
     if jsonpath == " ":
         jsonpath = [folder + json for json in os.listdir(folder) if ".json" in json]
-    keep, pageRangeToApply = readJsonStoredSubset(jsonpath, writingSystem)
+    keep, pageRangeToApply = readJsonStoredSubset(os.path.join(os.getcwd(), "lgc_glyphset.json"), writingSystem)
     for i in flavor:
         if not os.path.exists(folder + "/fonts/" + i.upper()):
             instances(family, i)
@@ -538,7 +537,7 @@ def instances(family, *output, newName=" "):
 
 # mastersUfos2fonts("NotoSansThaana", "woff2")
 # designSpace2Var("NotoSansThaana")
-# subsetFonts("NotoSerif", "SecureSet")
+subsetFonts("NotoSerif", "SecureSet")
 # instances("NotoSansThaana", "ttf")
 # subsetFonts("NotoSerif", "CyrillicPro", familyNewName = "Avocado Sans", flavor=["otf"])
 # subsetFonts("NotoSans", ["Cyrillic", "Greek"], flavor=["ttf"])
