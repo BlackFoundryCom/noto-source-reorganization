@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFC3F" format="2">
+  <advance width="941"/>
+  <unicode hex="FC3F"/>
+  <anchor x="839" y="77" name="bottom_1"/>
+  <anchor x="77" y="-147" name="bottom_2"/>
+  <anchor x="803" y="815" name="top_1"/>
+  <anchor x="342" y="580" name="top_2"/>
+  <outline>
+    <component base="uniFEDF" xOffset="724"/>
+    <component base="uniFEA2"/>
+    <component base="uniFBB3" xOffset="183" yOffset="125"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 08:47:15</string>
+    </dict>
+  </lib>
+</glyph>

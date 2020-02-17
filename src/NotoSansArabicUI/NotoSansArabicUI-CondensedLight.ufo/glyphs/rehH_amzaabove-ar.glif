@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehHamzaabove-ar" format="2">
+  <advance width="259"/>
+  <unicode hex="076C"/>
+  <anchor x="97" y="-217" name="bottom"/>
+  <anchor x="108" y="485" name="top"/>
+  <outline>
+    <component base="reh-ar"/>
+    <component base="hamzaabove-ar" xOffset="4" yOffset="-176"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:35</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

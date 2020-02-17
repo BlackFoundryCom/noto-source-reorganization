@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dadhuvowelsinh" format="2">
+  <advance width="916"/>
+  <outline>
+    <contour>
+      <point x="189" y="-155" type="curve" smooth="yes"/>
+      <point x="189" y="-183"/>
+      <point x="198" y="-203"/>
+      <point x="212" y="-218" type="curve" smooth="yes"/>
+      <point x="241" y="-248"/>
+      <point x="284" y="-257"/>
+      <point x="362" y="-257" type="curve" smooth="yes"/>
+      <point x="837" y="-257" type="line"/>
+      <point x="837" y="133" type="line"/>
+      <point x="813" y="88" type="line"/>
+      <point x="811" y="63"/>
+      <point x="811" y="12"/>
+      <point x="811" y="-20" type="curve" smooth="yes"/>
+      <point x="811" y="-231" type="line"/>
+      <point x="381" y="-231" type="line" smooth="yes"/>
+      <point x="295" y="-231"/>
+      <point x="255" y="-225"/>
+      <point x="231" y="-199" type="curve" smooth="yes"/>
+      <point x="222" y="-189"/>
+      <point x="216" y="-175"/>
+      <point x="216" y="-156" type="curve" smooth="yes"/>
+      <point x="216" y="-125"/>
+      <point x="229" y="-103"/>
+      <point x="265" y="-71" type="curve"/>
+      <point x="246" y="-53" type="line"/>
+      <point x="210" y="-86"/>
+      <point x="189" y="-115"/>
+    </contour>
+    <component base="dadhasinh"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/06/01 09:06:37</string>
+    </dict>
+  </lib>
+</glyph>

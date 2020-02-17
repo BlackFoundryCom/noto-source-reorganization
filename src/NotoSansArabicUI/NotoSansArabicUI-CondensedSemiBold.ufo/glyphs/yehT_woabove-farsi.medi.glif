@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehTwoabove-farsi.medi" format="2">
+  <advance width="371"/>
+  <anchor x="172" y="-223" name="bottom"/>
+  <anchor x="193" y="361" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar.medi.wide"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="27" yOffset="-5"/>
+    <component base="two-persian.small01" xOffset="-17" yOffset="-289"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dotlessbeh-ar.medi.wide</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dotlessbeh-ar.medi.wide</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:38</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

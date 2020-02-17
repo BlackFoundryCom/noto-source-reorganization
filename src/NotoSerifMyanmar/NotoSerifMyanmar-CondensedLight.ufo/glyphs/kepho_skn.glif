@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kepho_skn" format="2">
+  <advance width="318"/>
+  <unicode hex="1064"/>
+  <outline>
+    <contour>
+      <point x="83" y="528" type="curve" smooth="yes"/>
+      <point x="60" y="528"/>
+      <point x="45" y="526"/>
+      <point x="27" y="520" type="curve"/>
+      <point x="27" y="500" type="line"/>
+      <point x="75" y="500" type="line" smooth="yes"/>
+      <point x="126" y="500"/>
+      <point x="148" y="476"/>
+      <point x="148" y="413" type="curve" smooth="yes"/>
+      <point x="148" y="104" type="line" smooth="yes"/>
+      <point x="148" y="34"/>
+      <point x="174" y="-8"/>
+      <point x="235" y="-8" type="curve" smooth="yes"/>
+      <point x="258" y="-8"/>
+      <point x="273" y="-6"/>
+      <point x="291" y="0" type="curve"/>
+      <point x="291" y="20" type="line"/>
+      <point x="243" y="20" type="line" smooth="yes"/>
+      <point x="192" y="20"/>
+      <point x="170" y="44"/>
+      <point x="170" y="107" type="curve" smooth="yes"/>
+      <point x="170" y="416" type="line" smooth="yes"/>
+      <point x="170" y="486"/>
+      <point x="144" y="528"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>eu_skn</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|eu_skn</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+    </dict>
+  </lib>
+</glyph>

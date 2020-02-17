@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noon_meem-ar.init" format="2">
+  <advance width="847"/>
+  <unicode hex="FCD5"/>
+  <anchor x="578" y="0" name="caret_1"/>
+  <anchor x="685" y="-5" name="bottom_1"/>
+  <anchor x="284" y="0" name="bottom_2"/>
+  <anchor x="706" y="536" name="top_1"/>
+  <anchor x="299" y="362" name="top_2"/>
+  <outline>
+    <component base="noon-ar.init" xOffset="578"/>
+    <component base="meem-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>noon-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>meem-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:41</string>
+    </dict>
+  </lib>
+</glyph>

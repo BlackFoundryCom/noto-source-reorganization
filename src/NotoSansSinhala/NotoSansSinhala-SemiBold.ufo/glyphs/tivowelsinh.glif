@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tivowelsinh" format="2">
+  <advance width="988"/>
+  <outline>
+    <contour>
+      <point x="587" y="880" type="curve" smooth="yes"/>
+      <point x="355" y="880"/>
+      <point x="295" y="772"/>
+      <point x="295" y="690" type="curve" smooth="yes"/>
+      <point x="295" y="644"/>
+      <point x="308" y="593"/>
+      <point x="336" y="555" type="curve"/>
+      <point x="430" y="598" type="line"/>
+      <point x="415" y="619"/>
+      <point x="405" y="641"/>
+      <point x="405" y="667" type="curve" smooth="yes"/>
+      <point x="405" y="716"/>
+      <point x="438" y="762"/>
+      <point x="588" y="762" type="curve" smooth="yes"/>
+      <point x="744" y="762"/>
+      <point x="771" y="717"/>
+      <point x="771" y="666" type="curve" smooth="yes"/>
+      <point x="771" y="644"/>
+      <point x="765" y="628"/>
+      <point x="758" y="610" type="curve"/>
+      <point x="856" y="576" type="line"/>
+      <point x="869" y="600"/>
+      <point x="881" y="649"/>
+      <point x="881" y="689" type="curve" smooth="yes"/>
+      <point x="881" y="772"/>
+      <point x="830" y="880"/>
+    </contour>
+    <component base="tasinh"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/06/01 09:09:06</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Pa.diag" format="2">
+  <advance width="283"/>
+  <outline>
+    <contour>
+      <point x="122" y="0" type="line"/>
+      <point x="203" y="0" type="line"/>
+      <point x="203" y="622" type="line"/>
+      <point x="122" y="622" type="line"/>
+    </contour>
+    <contour>
+      <point x="-161" y="311" type="line"/>
+      <point x="-161" y="295" type="line" smooth="yes"/>
+      <point x="-161" y="258"/>
+      <point x="-212" y="227"/>
+      <point x="-212" y="174" type="curve" smooth="yes"/>
+      <point x="-212" y="90"/>
+      <point x="-143" y="40"/>
+      <point x="-23" y="40" type="curve" smooth="yes"/>
+      <point x="55" y="40"/>
+      <point x="113" y="70"/>
+      <point x="150" y="99" type="curve"/>
+      <point x="150" y="195" type="line"/>
+      <point x="114" y="149"/>
+      <point x="59" y="111"/>
+      <point x="-17" y="111" type="curve" smooth="yes"/>
+      <point x="-90" y="111"/>
+      <point x="-132" y="132"/>
+      <point x="-132" y="177" type="curve" smooth="yes"/>
+      <point x="-132" y="209"/>
+      <point x="-80" y="255"/>
+      <point x="-80" y="299" type="curve" smooth="yes"/>
+      <point x="-80" y="311" type="line"/>
+    </contour>
+    <contour>
+      <point x="-118" y="524" type="line"/>
+      <point x="141" y="380" type="line"/>
+      <point x="155" y="438" type="line"/>
+      <point x="-101" y="579" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/20 13:18:29</string>
+    </dict>
+  </lib>
+</glyph>

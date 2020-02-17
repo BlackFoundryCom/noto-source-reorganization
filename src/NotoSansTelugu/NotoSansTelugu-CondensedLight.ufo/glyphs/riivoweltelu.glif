@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="riivoweltelu" format="2">
+  <advance width="426"/>
+  <outline>
+    <contour>
+      <point x="197" y="673" type="curve" smooth="yes"/>
+      <point x="125" y="673"/>
+      <point x="90" y="615"/>
+      <point x="90" y="559" type="curve" smooth="yes"/>
+      <point x="90" y="510"/>
+      <point x="109" y="479"/>
+      <point x="131" y="456" type="curve"/>
+      <point x="153" y="468" type="line"/>
+      <point x="132" y="488"/>
+      <point x="117" y="518"/>
+      <point x="117" y="557" type="curve" smooth="yes"/>
+      <point x="117" y="608"/>
+      <point x="144" y="647"/>
+      <point x="197" y="647" type="curve" smooth="yes"/>
+      <point x="282" y="647"/>
+      <point x="314" y="550"/>
+      <point x="314" y="471" type="curve" smooth="yes"/>
+      <point x="314" y="454"/>
+      <point x="312" y="435"/>
+      <point x="310" y="428" type="curve"/>
+      <point x="332" y="412" type="line"/>
+      <point x="335" y="423"/>
+      <point x="340" y="448"/>
+      <point x="340" y="475" type="curve" smooth="yes"/>
+      <point x="340" y="567"/>
+      <point x="296" y="673"/>
+    </contour>
+    <component base="raalttelu"/>
+    <component base="lengthmarktelu" xOffset="411" yOffset="160"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/04/23 08:31:33</string>
+    </dict>
+  </lib>
+</glyph>

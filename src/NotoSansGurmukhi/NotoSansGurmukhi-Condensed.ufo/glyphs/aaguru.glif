@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aaguru" format="2">
+  <advance width="750"/>
+  <unicode hex="0A06"/>
+  <outline>
+    <contour>
+      <point x="619" y="261" type="line"/>
+      <point x="694" y="261" type="line"/>
+      <point x="694" y="554" type="line"/>
+      <point x="757" y="554" type="line"/>
+      <point x="757" y="622" type="line"/>
+      <point x="560" y="622" type="line"/>
+      <point x="560" y="554" type="line"/>
+      <point x="619" y="554" type="line"/>
+    </contour>
+    <component base="aguru"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/02/21 10:44:12</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,8 @@
+table GDEF {
+  # automatic
+  GlyphClassDef
+    , # Base
+    , # Liga
+    [u16B30 u16B31 u16B32 u16B33 u16B34 u16B35 u16B36], # Mark
+    ;
+} GDEF;

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hehgoalHamzaabove-ar.init" format="2">
+  <advance width="345"/>
+  <anchor x="136" y="-187" name="bottom"/>
+  <anchor x="129" y="863" name="top"/>
+  <outline>
+    <component base="hehgoal-ar.init"/>
+    <component base="hamzaabove-ar" xOffset="-27" yOffset="31"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/14 20:15:59</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

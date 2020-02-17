@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sone_shn" format="2">
+  <advance width="401"/>
+  <unicode hex="109E"/>
+  <note>
+sone_shn
+</note>
+  <outline>
+    <contour>
+      <point x="138" y="-270" type="line"/>
+      <point x="398" y="-270" type="line"/>
+      <point x="398" y="-162" type="line"/>
+      <point x="287" y="-162" type="line"/>
+      <point x="287" y="640" type="line"/>
+      <point x="26" y="640" type="line"/>
+      <point x="26" y="532" type="line"/>
+      <point x="138" y="532" type="line"/>
+    </contour>
+    <contour>
+      <point x="207" y="724" type="curve" smooth="yes"/>
+      <point x="283" y="724"/>
+      <point x="337" y="763"/>
+      <point x="337" y="832" type="curve" smooth="yes"/>
+      <point x="337" y="893"/>
+      <point x="285" y="937"/>
+      <point x="207" y="937" type="curve" smooth="yes"/>
+      <point x="129" y="937"/>
+      <point x="80" y="897"/>
+      <point x="80" y="831" type="curve" smooth="yes"/>
+      <point x="80" y="763"/>
+      <point x="131" y="724"/>
+    </contour>
+    <contour>
+      <point x="209" y="793" type="curve" smooth="yes"/>
+      <point x="182" y="793"/>
+      <point x="169" y="808"/>
+      <point x="169" y="831" type="curve" smooth="yes"/>
+      <point x="169" y="856"/>
+      <point x="186" y="867"/>
+      <point x="209" y="867" type="curve" smooth="yes"/>
+      <point x="232" y="867"/>
+      <point x="249" y="856"/>
+      <point x="249" y="831" type="curve" smooth="yes"/>
+      <point x="249" y="808"/>
+      <point x="232" y="793"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/10/10 20:01:36</string>
+    </dict>
+  </lib>
+</glyph>

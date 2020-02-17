@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nnya.thirdtail" format="2">
+  <advance width="773"/>
+  <note>
+Use when followed by below -u-, -uu-, medial_wa, medial_wa_shn, medial_wa_ovl, medialNa_mon, medialMa_mon, medialLa_mon and all combinations with dot_below.
+</note>
+  <outline>
+    <contour>
+      <point x="308" y="-549" type="curve"/>
+      <point x="308" y="-373" type="line"/>
+      <point x="280" y="-373"/>
+      <point x="213" y="-368"/>
+      <point x="178" y="-351" type="curve" smooth="yes"/>
+      <point x="144" y="-335"/>
+      <point x="128" y="-303"/>
+      <point x="128" y="-249" type="curve" smooth="yes"/>
+      <point x="128" y="156" type="line"/>
+      <point x="44" y="243" type="line"/>
+      <point x="44" y="-327" type="line" smooth="yes"/>
+      <point x="44" y="-432"/>
+      <point x="73" y="-475"/>
+      <point x="105" y="-499" type="curve" smooth="yes"/>
+      <point x="158" y="-537"/>
+      <point x="234" y="-549"/>
+    </contour>
+    <component base="nga" xScale="-1" yScale="-1" xOffset="486" yOffset="546"/>
+    <component base="_aa" yScale="-1" xOffset="478" yOffset="546"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>nnya</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>nnya</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+    </dict>
+  </lib>
+</glyph>

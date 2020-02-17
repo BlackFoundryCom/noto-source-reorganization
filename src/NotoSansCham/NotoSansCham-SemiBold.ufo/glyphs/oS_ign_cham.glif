@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oSign_cham" format="2">
+  <advance width="594"/>
+  <unicode hex="AA2F"/>
+  <note>
+uniAA2F
+</note>
+  <outline>
+    <contour>
+      <point x="564" y="451" type="line"/>
+      <point x="541" y="563"/>
+      <point x="451" y="630"/>
+      <point x="324" y="630" type="curve" smooth="yes"/>
+      <point x="165" y="630"/>
+      <point x="59" y="523"/>
+      <point x="59" y="362" type="curve" smooth="yes"/>
+      <point x="59" y="198"/>
+      <point x="177" y="102"/>
+      <point x="305" y="102" type="curve" smooth="yes"/>
+      <point x="391" y="102"/>
+      <point x="443" y="152"/>
+      <point x="443" y="223" type="curve" smooth="yes"/>
+      <point x="443" y="293"/>
+      <point x="394" y="337"/>
+      <point x="321" y="337" type="curve" smooth="yes"/>
+      <point x="239" y="337"/>
+      <point x="184" y="273"/>
+      <point x="174" y="183" type="curve"/>
+      <point x="235" y="183" type="line"/>
+      <point x="240" y="224"/>
+      <point x="267" y="267"/>
+      <point x="313" y="267" type="curve" smooth="yes"/>
+      <point x="340" y="267"/>
+      <point x="367" y="255"/>
+      <point x="367" y="221" type="curve" smooth="yes"/>
+      <point x="367" y="195"/>
+      <point x="344" y="176"/>
+      <point x="312" y="176" type="curve" smooth="yes"/>
+      <point x="248" y="176"/>
+      <point x="192" y="233"/>
+      <point x="192" y="356" type="curve" smooth="yes"/>
+      <point x="192" y="457"/>
+      <point x="245" y="516"/>
+      <point x="324" y="516" type="curve" smooth="yes"/>
+      <point x="386" y="516"/>
+      <point x="428" y="481"/>
+      <point x="442" y="416" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>verticalShift</key>
+        <integer>-98</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/04/21 12:56:08</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cham</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

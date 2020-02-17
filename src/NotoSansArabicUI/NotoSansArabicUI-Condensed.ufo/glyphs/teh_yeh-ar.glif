@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="teh_yeh-ar" format="2">
+  <advance width="944"/>
+  <unicode hex="FC10"/>
+  <anchor x="625" y="0" name="caret_1"/>
+  <anchor x="780" y="-5" name="bottom_1"/>
+  <anchor x="312" y="-269" name="bottom_2"/>
+  <anchor x="789" y="3" name="center"/>
+  <anchor x="813" y="600" name="top_1"/>
+  <anchor x="216" y="274" name="top_2"/>
+  <outline>
+    <component base="teh-ar.init" xOffset="695"/>
+    <component base="yeh-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>teh-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>yeh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:39</string>
+    </dict>
+  </lib>
+</glyph>

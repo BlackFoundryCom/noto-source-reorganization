@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kasraCurly-ar" format="2">
+  <unicode hex="08E6"/>
+  <anchor x="160" y="0" name="_bottom"/>
+  <anchor x="181" y="-240" name="bottom"/>
+  <outline>
+    <component base="fathaCurly-ar" yOffset="-784"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=fathaCurly-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=fathaCurly-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:43</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>345</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

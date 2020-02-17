@@ -1,0 +1,406 @@
+# Prefix: Languagesystems
+languagesystem DFLT dflt;
+languagesystem gonm dflt;
+
+# Prefix: Reorder_Anuswara
+lookup Reorder_Anusvara1 {
+sub MatraAa.MGondi by Anusvara.MGondi;
+sub Anusvara.MGondi by MatraAa.MGondi;
+}Reorder_Anusvara1;
+
+lookup Reorder_Anusvara2 {
+sub MatraI.MGondi by Anusvara.MGondi;
+sub Anusvara.MGondi by MatraI.MGondi;
+}Reorder_Anusvara2;
+
+lookup Reorder_Anusvara3 {
+sub MatraIi.MGondi by Anusvara.MGondi;
+sub Anusvara.MGondi by MatraIi.MGondi;
+}Reorder_Anusvara3;
+
+lookup Reorder_Anusvara4 {
+sub MatraU.MGondi by Anusvara.MGondi;
+sub Anusvara.MGondi by MatraU.MGondi;
+}Reorder_Anusvara4;
+
+lookup Reorder_Anusvara5 {
+sub MatraUu.MGondi by Anusvara.MGondi;
+sub Anusvara.MGondi by MatraUu.MGondi;
+}Reorder_Anusvara5;
+
+lookup Reorder_Anusvara6 {
+sub MatraE.MGondi by Anusvara.MGondi;
+sub Anusvara.MGondi by MatraE.MGondi;
+}Reorder_Anusvara6;
+
+lookup Reorder_Anusvara7 {
+sub MatraAi.MGondi by Anusvara.MGondi;
+sub Anusvara.MGondi by MatraAi.MGondi;
+}Reorder_Anusvara7;
+
+lookup Reorder_Anusvara8 {
+sub MatraO.MGondi by Anusvara.MGondi;
+sub Anusvara.MGondi by MatraO.MGondi;
+}Reorder_Anusvara8;
+
+lookup Reorder_Anusvara9 {
+sub MatraAu.MGondi by Anusvara.MGondi;
+sub Anusvara.MGondi by MatraAu.MGondi;
+}Reorder_Anusvara9;
+
+lookup Reorder_Anusvara10 {
+sub MatraVocalicR.MGondi by Anusvara.MGondi;
+sub Anusvara.MGondi by MatraVocalicR.MGondi;
+}Reorder_Anusvara10;
+
+lookup Reorder_Anusvara11 {
+sub Rakara.MGondi by Anusvara.MGondi;
+sub Anusvara.MGondi by Rakara.MGondi;
+}Reorder_Anusvara11;
+
+lookup Reorder_Anusvara12 {
+sub MatraAaRepha.MGondi by Anusvara.MGondi;
+sub Anusvara.MGondi by MatraAaRepha.MGondi;
+}Reorder_Anusvara12;
+
+
+# Prefix: Reorder_Repha
+lookup Reorder_Repha1 {
+sub Repha.MGondi by MatraAa.MGondi;
+sub MatraAa.MGondi by Repha.MGondi;
+} Reorder_Repha1;
+
+lookup Reorder_Repha1a {
+sub Repha.MGondi by MatraAaAnusvara.MGondi;
+sub MatraAaAnusvara.MGondi by Repha.MGondi;
+} Reorder_Repha1a;
+
+lookup Reorder_Repha2 {
+sub Repha.MGondi by MatraI.MGondi;
+sub MatraI.MGondi by Repha.MGondi;
+} Reorder_Repha2;
+
+lookup Reorder_Repha2a {
+sub Repha.MGondi by MatraIAnusvara.MGondi;
+sub MatraIAnusvara.MGondi by Repha.MGondi;
+} Reorder_Repha2a;
+
+lookup Reorder_Repha3 {
+sub Repha.MGondi by MatraIi.MGondi;
+sub MatraIi.MGondi by Repha.MGondi;
+} Reorder_Repha3;
+
+lookup Reorder_Repha3a {
+sub Repha.MGondi by MatraIiAnusvara.MGondi;
+sub MatraIiAnusvara.MGondi by Repha.MGondi;
+} Reorder_Repha3a;
+
+lookup Reorder_Repha4 {
+sub Repha.MGondi by MatraU.MGondi;
+sub MatraU.MGondi by Repha.MGondi;
+} Reorder_Repha4;
+
+lookup Reorder_Repha4a {
+sub Repha.MGondi by MatraUAnusvara.MGondi;
+sub MatraUAnusvara.MGondi by Repha.MGondi;
+} Reorder_Repha4a;
+
+lookup Reorder_Repha5 {
+sub Repha.MGondi by MatraUu.MGondi;
+sub MatraUu.MGondi by Repha.MGondi;
+} Reorder_Repha5;
+
+lookup Reorder_Repha5a {
+sub Repha.MGondi by MatraUuAnusvara.MGondi;
+sub MatraUuAnusvara.MGondi by Repha.MGondi;
+} Reorder_Repha5a;
+
+lookup Reorder_Repha6 {
+sub Repha.MGondi by MatraE.MGondi;
+sub MatraE.MGondi by Repha.MGondi;
+} Reorder_Repha6;
+
+lookup Reorder_Repha6a {
+sub Repha.MGondi by MatraEAnusvara.MGondi;
+sub MatraEAnusvara.MGondi by Repha.MGondi;
+} Reorder_Repha6a;
+
+lookup Reorder_Repha7 {
+sub Repha.MGondi by MatraAi.MGondi;
+sub MatraAi.MGondi by Repha.MGondi;
+} Reorder_Repha7;
+
+lookup Reorder_Repha7a {
+sub Repha.MGondi by MatraAiAnusvara.MGondi;
+sub MatraAiAnusvara.MGondi by Repha.MGondi;
+} Reorder_Repha7a;
+
+lookup Reorder_Repha8 {
+sub Repha.MGondi by MatraO.MGondi;
+sub MatraO.MGondi by Repha.MGondi;
+} Reorder_Repha8;
+
+lookup Reorder_Repha8a {
+sub Repha.MGondi by MatraOAnusvara.MGondi;
+sub MatraOAnusvara.MGondi by Repha.MGondi;
+} Reorder_Repha8a;
+
+lookup Reorder_Repha8b {
+sub Repha.MGondi by MatraOVisarga.MGondi;
+sub MatraOVisarga.MGondi by Repha.MGondi;
+} Reorder_Repha8b;
+
+lookup Reorder_Repha9 {
+sub Repha.MGondi by MatraAu.MGondi;
+sub MatraAu.MGondi by Repha.MGondi;
+} Reorder_Repha9;
+
+lookup Reorder_Repha9a {
+sub Repha.MGondi by MatraAuAnusvara.MGondi;
+sub MatraAuAnusvara.MGondi by Repha.MGondi;
+} Reorder_Repha9a;
+
+lookup Reorder_Repha9b {
+sub Repha.MGondi by MatraAuVisarga.MGondi;
+sub MatraAuVisarga.MGondi by Repha.MGondi;
+} Reorder_Repha9b;
+
+lookup Reorder_Repha10 {
+sub Repha.MGondi by Anusvara.MGondi;
+sub Anusvara.MGondi by Repha.MGondi;
+} Reorder_Repha10;
+
+lookup Reorder_Repha11 {
+sub Repha.MGondi by Rakara.MGondi;
+sub Rakara.MGondi by Repha.MGondi;
+} Reorder_Repha11;
+
+feature calt {
+lookup nukt {
+sub Ka.MGondi Nukta.MGondi by KaNukta.MGondi;
+sub Kha.MGondi Nukta.MGondi by KhaNukta.MGondi;
+sub Ga.MGondi Nukta.MGondi by GaNukta.MGondi;
+sub Ja.MGondi Nukta.MGondi by JaNukta.MGondi;
+sub Dda.MGondi Nukta.MGondi by DdaNukta.MGondi;
+sub Ddha.MGondi Nukta.MGondi by DdhaNukta.MGondi;
+sub Pha.MGondi Nukta.MGondi by PhaNukta.MGondi;
+sub Ya.MGondi Nukta.MGondi by YaNukta.MGondi;
+}nukt;
+
+lookup half {
+sub Ka.MGondi Virama.MGondi by KaHalf.MGondi;
+sub Kha.MGondi Virama.MGondi by KhaHalf.MGondi;
+sub Ga.MGondi Virama.MGondi by GaHalf.MGondi;
+sub Gha.MGondi Virama.MGondi by GhaHalf.MGondi;
+sub Nga.MGondi Virama.MGondi by NgaHalf.MGondi;
+sub Ca.MGondi Virama.MGondi by CaHalf.MGondi;
+sub Cha.MGondi Virama.MGondi by ChaHalf.MGondi;
+sub Ja.MGondi Virama.MGondi by JaHalf.MGondi;
+sub Jha.MGondi Virama.MGondi by JhaHalf.MGondi;
+sub Nya.MGondi Virama.MGondi by NyaHalf.MGondi;
+sub Tta.MGondi Virama.MGondi by TtaHalf.MGondi;
+sub Ttha.MGondi Virama.MGondi by TthaHalf.MGondi;
+sub Dda.MGondi Virama.MGondi by DdaHalf.MGondi;
+sub Ddha.MGondi Virama.MGondi by DdhaHalf.MGondi;
+sub Nna.MGondi Virama.MGondi by NnaHalf.MGondi;
+sub Ta.MGondi Virama.MGondi by TaHalf.MGondi;
+sub Tha.MGondi Virama.MGondi by ThaHalf.MGondi;
+sub Da.MGondi Virama.MGondi by DaHalf.MGondi;
+sub Dha.MGondi Virama.MGondi by DhaHalf.MGondi;
+sub Na.MGondi Virama.MGondi by NaHalf.MGondi;
+sub Pa.MGondi Virama.MGondi by PaHalf.MGondi;
+sub Pha.MGondi Virama.MGondi by PhaHalf.MGondi;
+sub Ba.MGondi Virama.MGondi by BaHalf.MGondi;
+sub Bha.MGondi Virama.MGondi by BhaHalf.MGondi;
+sub Ma.MGondi Virama.MGondi by MaHalf.MGondi;
+sub Ya.MGondi Virama.MGondi by YaHalf.MGondi;
+sub Ra.MGondi Virama.MGondi by RaHalf.MGondi;
+sub La.MGondi Virama.MGondi by LaHalf.MGondi;
+sub Va.MGondi Virama.MGondi by VaHalf.MGondi;
+sub Sha.MGondi Virama.MGondi by ShaHalf.MGondi;
+sub Ssa.MGondi Virama.MGondi by SsaHalf.MGondi;
+sub Sa.MGondi Virama.MGondi by SaHalf.MGondi;
+sub Ha.MGondi Virama.MGondi by HaHalf.MGondi;
+sub Lla.MGondi Virama.MGondi by LlaHalf.MGondi;
+sub Kssa.MGondi Virama.MGondi by KssaHalf.MGondi;
+sub Jnya.MGondi Virama.MGondi by JnyaHalf.MGondi;
+sub Tra.MGondi Virama.MGondi by TraHalf.MGondi;
+sub KaNukta.MGondi Virama.MGondi by KaHalfNukta.MGondi;
+sub KhaNukta.MGondi Virama.MGondi by KhaHalfNukta.MGondi;
+sub GaNukta.MGondi Virama.MGondi by GaHalfNukta.MGondi;
+sub JaNukta.MGondi Virama.MGondi by JaHalfNukta.MGondi;
+sub DdaNukta.MGondi Virama.MGondi by DdaHalfNukta.MGondi;
+sub DdhaNukta.MGondi Virama.MGondi by DdhaHalfNukta.MGondi;
+sub PhaNukta.MGondi Virama.MGondi by PhaHalfNukta.MGondi;
+sub YaNukta.MGondi Virama.MGondi by YaHalfNukta.MGondi;
+} half;
+
+lookup abvs1 {
+sub Repha.MGondi MatraAa.MGondi Anusvara.MGondi by MatraAaRephaAnusvara.MGondi;
+sub MatraAa.MGondi Chandra.MGondi by MatraAaChandra.MGondi;
+sub MatraAa.MGondi Anusvara.MGondi by MatraAaAnusvara.MGondi;
+sub MatraI.MGondi Anusvara.MGondi by MatraIAnusvara.MGondi;
+sub MatraIi.MGondi Anusvara.MGondi by MatraIiAnusvara.MGondi;
+sub MatraU.MGondi Anusvara.MGondi by MatraUAnusvara.MGondi;
+sub MatraUu.MGondi Anusvara.MGondi by MatraUuAnusvara.MGondi;
+sub MatraE.MGondi Anusvara.MGondi by MatraEAnusvara.MGondi;
+sub MatraAi.MGondi Anusvara.MGondi by MatraAiAnusvara.MGondi;
+sub MatraO.MGondi Anusvara.MGondi by MatraOAnusvara.MGondi;
+sub MatraAu.MGondi Anusvara.MGondi by MatraAuAnusvara.MGondi;
+sub MatraAa.MGondi Visarga.MGondi by MatraAaVisarga.MGondi;
+sub MatraO.MGondi Visarga.MGondi by MatraOVisarga.MGondi;
+sub MatraAu.MGondi Visarga.MGondi by MatraAuVisarga.MGondi;
+sub MatraAa.MGondi Repha.MGondi by MatraAaRepha.MGondi;
+sub Repha.MGondi MatraAa.MGondi by MatraAaRepha.MGondi;
+} abvs1;
+
+lookup abvs2 {
+sub MatraAa.MGondi' lookup Reorder_Anusvara1
+Anusvara.MGondi' lookup Reorder_Anusvara1 ;
+
+sub MatraI.MGondi' lookup Reorder_Anusvara2
+Anusvara.MGondi' lookup Reorder_Anusvara2 ;
+
+sub MatraIi.MGondi' lookup Reorder_Anusvara3
+Anusvara.MGondi' lookup Reorder_Anusvara3 ;
+
+sub MatraU.MGondi' lookup Reorder_Anusvara4
+Anusvara.MGondi' lookup Reorder_Anusvara4 ;
+
+sub MatraUu.MGondi' lookup Reorder_Anusvara5
+Anusvara.MGondi' lookup Reorder_Anusvara5 ;
+
+sub MatraE.MGondi' lookup Reorder_Anusvara6
+Anusvara.MGondi' lookup Reorder_Anusvara6 ;
+
+sub MatraAi.MGondi' lookup Reorder_Anusvara7
+Anusvara.MGondi' lookup Reorder_Anusvara7 ;
+
+sub MatraO.MGondi' lookup Reorder_Anusvara8
+Anusvara.MGondi' lookup Reorder_Anusvara8 ;
+
+sub MatraAu.MGondi' lookup Reorder_Anusvara9
+Anusvara.MGondi' lookup Reorder_Anusvara9 ;
+
+sub MatraVocalicR.MGondi' lookup Reorder_Anusvara10
+Anusvara.MGondi' lookup Reorder_Anusvara10 ;
+
+sub Rakara.MGondi' lookup Reorder_Anusvara11
+Anusvara.MGondi' lookup Reorder_Anusvara11 ;
+
+sub MatraAaRepha.MGondi' lookup Reorder_Anusvara12
+Anusvara.MGondi' lookup Reorder_Anusvara12 ;
+
+} abvs2;
+
+lookup abvs3 {
+sub Repha.MGondi' lookup Reorder_Repha1
+MatraAa.MGondi' lookup Reorder_Repha1;
+
+sub Repha.MGondi' lookup Reorder_Repha1a
+MatraAaAnusvara.MGondi' lookup Reorder_Repha1a;
+
+sub Repha.MGondi' lookup Reorder_Repha2
+MatraI.MGondi' lookup Reorder_Repha2;
+
+sub Repha.MGondi' lookup Reorder_Repha2a
+MatraIAnusvara.MGondi' lookup Reorder_Repha2a;
+
+sub Repha.MGondi' lookup Reorder_Repha3
+MatraIi.MGondi' lookup Reorder_Repha3;
+
+sub Repha.MGondi' lookup Reorder_Repha3a
+MatraIiAnusvara.MGondi' lookup Reorder_Repha3a;
+
+sub Repha.MGondi' lookup Reorder_Repha4
+MatraU.MGondi' lookup Reorder_Repha4;
+
+sub Repha.MGondi' lookup Reorder_Repha4a
+MatraUAnusvara.MGondi' lookup Reorder_Repha4a;
+
+sub Repha.MGondi' lookup Reorder_Repha5
+MatraUu.MGondi' lookup Reorder_Repha5;
+
+sub Repha.MGondi' lookup Reorder_Repha5a
+MatraUuAnusvara.MGondi' lookup Reorder_Repha5a;
+
+sub Repha.MGondi' lookup Reorder_Repha6
+MatraE.MGondi' lookup Reorder_Repha6;
+
+sub Repha.MGondi' lookup Reorder_Repha6a
+MatraEAnusvara.MGondi' lookup Reorder_Repha6a;
+
+sub Repha.MGondi' lookup Reorder_Repha7
+MatraAi.MGondi' lookup Reorder_Repha7;
+
+sub Repha.MGondi' lookup Reorder_Repha7a
+MatraAiAnusvara.MGondi' lookup Reorder_Repha7a;
+
+sub Repha.MGondi' lookup Reorder_Repha8
+MatraO.MGondi' lookup Reorder_Repha8;
+
+sub Repha.MGondi' lookup Reorder_Repha8a
+MatraOAnusvara.MGondi' lookup Reorder_Repha8a;
+
+sub Repha.MGondi' lookup Reorder_Repha8b
+MatraOVisarga.MGondi' lookup Reorder_Repha8b;
+
+sub Repha.MGondi' lookup Reorder_Repha9
+MatraAu.MGondi' lookup Reorder_Repha9;
+
+sub Repha.MGondi' lookup Reorder_Repha9a
+MatraAuAnusvara.MGondi' lookup Reorder_Repha9a;
+
+sub Repha.MGondi' lookup Reorder_Repha9b
+MatraAuVisarga.MGondi' lookup Reorder_Repha9b;
+
+sub Repha.MGondi' lookup Reorder_Repha10
+Anusvara.MGondi' lookup Reorder_Repha10;
+
+sub Repha.MGondi' lookup Reorder_Repha11
+Rakara.MGondi' lookup Reorder_Repha11;
+} abvs3;
+
+} calt;
+
+feature ss01 {
+lookup sso1a {
+sub Anusvara.MGondi by Anusvara.alt.MGondi;
+sub Visarga.MGondi by Visarga.alt.MGondi;
+sub Repha.MGondi by Repha.alt.MGondi;
+}sso1a;
+
+lookup sso1b {
+sub MatraAaAnusvara.MGondi by Anusvara.alt.MGondi MatraAa.MGondi;
+sub MatraIAnusvara.MGondi by Anusvara.alt.MGondi MatraI.MGondi;
+sub MatraIiAnusvara.MGondi by Anusvara.alt.MGondi MatraIi.MGondi;
+sub MatraUAnusvara.MGondi by Anusvara.alt.MGondi MatraU.MGondi;
+sub MatraUuAnusvara.MGondi by Anusvara.alt.MGondi MatraUu.MGondi;
+sub MatraEAnusvara.MGondi by Anusvara.alt.MGondi MatraE.MGondi;
+sub MatraAiAnusvara.MGondi by Anusvara.alt.MGondi MatraAi.MGondi;
+sub MatraOAnusvara.MGondi by Anusvara.alt.MGondi MatraO.MGondi;
+sub MatraAuAnusvara.MGondi by Anusvara.alt.MGondi MatraAu.MGondi;
+sub MatraAaVisarga.MGondi by MatraAa.MGondi Visarga.alt.MGondi;
+sub MatraOVisarga.MGondi by MatraO.MGondi Visarga.alt.MGondi;
+sub MatraAuVisarga.MGondi by MatraAu.MGondi Visarga.alt.MGondi;
+sub MatraAaRepha.MGondi by MatraAa.MGondi Repha.alt.MGondi;
+sub MatraAaRephaAnusvara.MGondi by Anusvara.alt.MGondi MatraAa.MGondi Repha.alt.MGondi;
+}sso1b;
+
+} ss01;
+
+feature ss02 {
+sub One.MGondi by One.alt.MGondi;
+sub Four.MGondi by Four.alt.MGondi;
+sub Five.MGondi by Five.alt.MGondi;
+sub Six.MGondi by Six.alt.MGondi;
+} ss02;
+
+table GDEF {
+  # automatic
+  GlyphClassDef
+    [VowelA.MGondi VowelAa.MGondi VowelI.MGondi VowelIi.MGondi VowelU.MGondi VowelUu.MGondi VowelE.MGondi VowelAi.MGondi VowelO.MGondi VowelAu.MGondi Ka.MGondi Kha.MGondi Ga.MGondi Gha.MGondi Nga.MGondi Ca.MGondi Cha.MGondi Ja.MGondi Jha.MGondi Nya.MGondi Tta.MGondi Ttha.MGondi Dda.MGondi Ddha.MGondi Nna.MGondi Ta.MGondi Tha.MGondi Da.MGondi Dha.MGondi Na.MGondi Pa.MGondi Pha.MGondi Ba.MGondi Bha.MGondi Ma.MGondi Ya.MGondi Ra.MGondi La.MGondi Va.MGondi Sha.MGondi Ssa.MGondi Sa.MGondi Ha.MGondi Lla.MGondi Kssa.MGondi Jnya.MGondi Tra.MGondi KaNukta.MGondi KhaNukta.MGondi GaNukta.MGondi JaNukta.MGondi DdaNukta.MGondi DdhaNukta.MGondi PhaNukta.MGondi YaNukta.MGondi], # Base
+    , # Liga
+    [Nukta.MGondi Anusvara.alt.MGondi], # Mark
+    ;
+} GDEF;

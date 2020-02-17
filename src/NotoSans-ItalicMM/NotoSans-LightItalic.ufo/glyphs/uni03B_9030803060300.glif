@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni03B9030803060300" format="2">
+  <advance width="279"/>
+  <anchor x="82" y="0" name="bottom"/>
+  <anchor x="277" y="917" name="top"/>
+  <anchor x="72" y="531" name="topleft"/>
+  <outline>
+    <component base="iota" xOffset="-2"/>
+    <component base="uni030003060308" xOffset="-94"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>iota</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:26</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

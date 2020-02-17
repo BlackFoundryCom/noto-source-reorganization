@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="700" default="400"/>
+  </axes>
+  <sources>
+    <source filename="NotoNaskhArabic-Regular.ufo" name="Noto Naskh Arabic Regular" familyname="Noto Naskh Arabic" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </source>
+    <source filename="NotoNaskhArabic-Bold.ufo" name="Noto Naskh Arabic Bold" familyname="Noto Naskh Arabic" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Naskh Arabic Regular" familyname="Noto Naskh Arabic" stylename="Regular" filename="instance_ufos/NotoNaskhArabic-Regular.ufo" stylemapfamilyname="Noto Naskh Arabic" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Naskh Arabic Medium" familyname="Noto Naskh Arabic" stylename="Medium" filename="instance_ufos/NotoNaskhArabic-Medium.ufo" stylemapfamilyname="Noto Naskh Arabic Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="500"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Naskh Arabic Semi Bold" familyname="Noto Naskh Arabic" stylename="Semi Bold" filename="instance_ufos/NotoNaskhArabic-SemiBold.ufo" stylemapfamilyname="Noto Naskh Arabic Semi Bold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="600"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>7</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Naskh Arabic Bold" familyname="Noto Naskh Arabic" stylename="Bold" filename="instance_ufos/NotoNaskhArabic-Bold.ufo" stylemapfamilyname="Noto Naskh Arabic" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>UFOFormat</key>
+      <integer>2</integer>
+    </dict>
+  </lib>
+</designspace>

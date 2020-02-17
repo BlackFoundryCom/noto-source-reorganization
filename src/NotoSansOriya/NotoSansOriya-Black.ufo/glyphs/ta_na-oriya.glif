@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ta_na-oriya" format="2">
+  <advance width="789"/>
+  <note>
+tanaorya
+</note>
+  <guideline x="553" y="-34" angle="90"/>
+  <anchor x="383" y="0" name="bottom"/>
+  <anchor x="553" y="0" name="bottom_ra"/>
+  <anchor x="553" y="10" name="bottom_ta"/>
+  <anchor x="383" y="658" name="top"/>
+  <anchor x="618" y="658" name="topright"/>
+  <outline>
+    <component base="ta_alt-oriya.below" xOffset="277"/>
+    <component base="na-oriya"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>na-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>na-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/05 14:23:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

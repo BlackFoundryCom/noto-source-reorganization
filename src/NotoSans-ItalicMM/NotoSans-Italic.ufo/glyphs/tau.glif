@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tau" format="2">
+  <advance width="425"/>
+  <unicode hex="03C4"/>
+  <anchor x="156" y="0" name="bottom"/>
+  <anchor x="270" y="536" name="top"/>
+  <outline>
+    <contour>
+      <point x="248" y="-10" type="curve" smooth="yes"/>
+      <point x="277" y="-10"/>
+      <point x="317" y="0"/>
+      <point x="333" y="8" type="curve"/>
+      <point x="333" y="75" type="line"/>
+      <point x="306" y="67"/>
+      <point x="285" y="62"/>
+      <point x="262" y="62" type="curve" smooth="yes"/>
+      <point x="224" y="62"/>
+      <point x="209" y="86"/>
+      <point x="209" y="117" type="curve" smooth="yes"/>
+      <point x="209" y="138"/>
+      <point x="214" y="165"/>
+      <point x="220" y="196" type="curve" smooth="yes"/>
+      <point x="277" y="461" type="line"/>
+      <point x="439" y="461" type="line"/>
+      <point x="455" y="536" type="line"/>
+      <point x="140" y="536" type="line"/>
+      <point x="45" y="497" type="line"/>
+      <point x="38" y="461" type="line"/>
+      <point x="189" y="461" type="line"/>
+      <point x="133" y="198" type="line" smooth="yes"/>
+      <point x="126" y="166"/>
+      <point x="120" y="130"/>
+      <point x="120" y="107" type="curve" smooth="yes"/>
+      <point x="120" y="20"/>
+      <point x="176" y="-10"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:24</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seen_khah_yeh-ar.fina" format="2">
+  <advance width="2378"/>
+  <unicode hex="FDC6"/>
+  <anchor x="1298" y="0" name="caret_1"/>
+  <anchor x="706" y="0" name="caret_2"/>
+  <anchor x="1849" y="-5" name="bottom_1"/>
+  <anchor x="1135" y="0" name="bottom_2"/>
+  <anchor x="347" y="-279" name="bottom_3"/>
+  <anchor x="1902" y="426" name="top_1"/>
+  <anchor x="1021" y="698" name="top_2"/>
+  <anchor x="208" y="346" name="top_3"/>
+  <outline>
+    <component base="seen-ar.medi" xOffset="1428"/>
+    <component base="khah-ar.medi" xOffset="836"/>
+    <component base="yeh-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>seen-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>yeh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:40</string>
+    </dict>
+  </lib>
+</glyph>

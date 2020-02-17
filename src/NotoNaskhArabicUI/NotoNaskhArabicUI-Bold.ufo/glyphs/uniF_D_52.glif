@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFD52" format="2">
+  <advance width="1629"/>
+  <unicode hex="FD52"/>
+  <anchor x="1421" y="54" name="bottom_1"/>
+  <anchor x="947" y="80" name="bottom_2"/>
+  <anchor x="321" y="-108" name="bottom_3"/>
+  <anchor x="657" y="144" name="caret_1"/>
+  <anchor x="1314" y="144" name="caret_2"/>
+  <anchor x="1448" y="775" name="top_1"/>
+  <anchor x="891" y="564" name="top_2"/>
+  <anchor x="309" y="562" name="top_3"/>
+  <outline>
+    <component base="uniFBB4" xOffset="1255" yOffset="119"/>
+    <component base="uni066E.init" xOffset="1314"/>
+    <component base="uniFEA4" xOffset="657"/>
+    <component base="uniFEA4"/>
+    <component base="uniFBB3" xOffset="136" yOffset="-4"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 13:10:27</string>
+    </dict>
+  </lib>
+</glyph>

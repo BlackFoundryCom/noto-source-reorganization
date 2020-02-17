@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rrVocalic_gran" format="2">
+  <advance width="1225"/>
+  <unicode hex="11360"/>
+  <outline>
+    <component base="rVocalic_gran"/>
+    <component base="doublevocalic.right" xOffset="723"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>rVocalic_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>doublevocalic.right</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/09/18 15:39:42</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tehThreedotsupbelow-ar.fina" format="2">
+  <advance width="1093"/>
+  <anchor x="463" y="-266" name="bottom"/>
+  <anchor x="484" y="-21" name="center"/>
+  <anchor x="492" y="500" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar.fina"/>
+    <component base="threedotsdownbelow-ar.restricted" xOffset="318" yOffset="-28"/>
+    <component base="twodotshorizontalabove-ar" xOffset="345" yOffset="-165"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:34</string>
+    </dict>
+  </lib>
+</glyph>

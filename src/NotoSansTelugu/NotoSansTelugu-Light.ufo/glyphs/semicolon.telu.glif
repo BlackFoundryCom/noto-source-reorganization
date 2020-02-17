@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="semicolon.telu" format="2">
+  <advance width="216"/>
+  <unicode hex="003B"/>
+  <outline>
+    <contour>
+      <point x="129" y="119" type="line"/>
+      <point x="104" y="119" type="line"/>
+      <point x="97" y="47"/>
+      <point x="74" y="-57"/>
+      <point x="47" y="-126" type="curve"/>
+      <point x="69" y="-126" type="line"/>
+      <point x="99" y="-57"/>
+      <point x="124" y="28"/>
+      <point x="135" y="110" type="curve"/>
+    </contour>
+    <contour>
+      <point x="77" y="381" type="curve" smooth="yes"/>
+      <point x="77" y="364"/>
+      <point x="82" y="350"/>
+      <point x="102" y="350" type="curve" smooth="yes"/>
+      <point x="126" y="350"/>
+      <point x="129" y="364"/>
+      <point x="129" y="381" type="curve" smooth="yes"/>
+      <point x="129" y="397"/>
+      <point x="126" y="412"/>
+      <point x="102" y="412" type="curve" smooth="yes"/>
+      <point x="82" y="412"/>
+      <point x="77" y="397"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/04/23 08:31:34</string>
+    </dict>
+  </lib>
+</glyph>

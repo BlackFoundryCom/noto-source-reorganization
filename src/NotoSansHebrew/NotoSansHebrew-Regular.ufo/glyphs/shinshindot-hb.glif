@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shinshindot-hb" format="2">
+  <advance width="703"/>
+  <unicode hex="FB2A"/>
+  <anchor x="338" y="0" name="bottom"/>
+  <anchor x="92" y="0" name="bottomleft"/>
+  <anchor x="412" y="217" name="center"/>
+  <anchor x="372" y="536" name="top"/>
+  <anchor x="85" y="536" name="topleft"/>
+  <anchor x="628" y="536" name="topright"/>
+  <outline>
+    <component base="shin-hb"/>
+    <component base="shindot-hb" xOffset="544"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/07 18:36:03</string>
+    </dict>
+  </lib>
+</glyph>

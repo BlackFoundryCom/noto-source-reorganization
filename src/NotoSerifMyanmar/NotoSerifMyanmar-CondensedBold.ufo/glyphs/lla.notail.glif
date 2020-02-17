@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lla.notail" format="2">
+  <advance width="486"/>
+  <note>
+Not sure what this is used for.
+</note>
+  <outline>
+    <contour>
+      <point x="442" y="243" type="line"/>
+      <point x="358" y="189" type="line"/>
+      <point x="358" y="28" type="line" smooth="yes"/>
+      <point x="358" y="-25"/>
+      <point x="350" y="-56"/>
+      <point x="331" y="-71" type="curve" smooth="yes"/>
+      <point x="313" y="-86"/>
+      <point x="276" y="-91"/>
+      <point x="241" y="-91" type="curve" smooth="yes"/>
+      <point x="204" y="-91"/>
+      <point x="167" y="-86"/>
+      <point x="149" y="-71" type="curve" smooth="yes"/>
+      <point x="130" y="-56"/>
+      <point x="122" y="-31"/>
+      <point x="122" y="16" type="curve"/>
+      <point x="43" y="16" type="line"/>
+      <point x="43" y="-30" type="line" smooth="yes"/>
+      <point x="43" y="-132"/>
+      <point x="62" y="-174"/>
+      <point x="84" y="-198" type="curve" smooth="yes"/>
+      <point x="117" y="-235"/>
+      <point x="170" y="-244"/>
+      <point x="243" y="-244" type="curve" smooth="yes"/>
+      <point x="315" y="-244"/>
+      <point x="368" y="-235"/>
+      <point x="401" y="-198" type="curve" smooth="yes"/>
+      <point x="423" y="-174"/>
+      <point x="442" y="-132"/>
+      <point x="442" y="-30" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="157" y="-357" type="line"/>
+      <point x="151" y="-357" type="line" smooth="yes"/>
+      <point x="126" y="-357"/>
+      <point x="119" y="-348"/>
+      <point x="119" y="-309" type="curve" smooth="yes"/>
+      <point x="119" y="16" type="line"/>
+      <point x="43" y="16" type="line"/>
+      <point x="43" y="-426" type="line" smooth="yes"/>
+      <point x="43" y="-501"/>
+      <point x="67" y="-549"/>
+      <point x="142" y="-549" type="curve" smooth="yes"/>
+      <point x="144" y="-549"/>
+      <point x="150" y="-549"/>
+      <point x="157" y="-548" type="curve"/>
+    </contour>
+    <component base="nga"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>wa</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>nga</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>myanmar</string>
+    </dict>
+  </lib>
+</glyph>

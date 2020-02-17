@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sha_skt" format="2">
+  <advance width="448"/>
+  <unicode hex="1050"/>
+  <note>
+sha_skt
+</note>
+  <outline>
+    <contour>
+      <point x="225" y="225" type="curve" smooth="yes"/>
+      <point x="243" y="225"/>
+      <point x="248" y="239"/>
+      <point x="248" y="256" type="curve" smooth="yes"/>
+      <point x="248" y="272"/>
+      <point x="243" y="287"/>
+      <point x="225" y="287" type="curve" smooth="yes"/>
+      <point x="209" y="287"/>
+      <point x="203" y="272"/>
+      <point x="203" y="256" type="curve" smooth="yes"/>
+      <point x="203" y="239"/>
+      <point x="209" y="225"/>
+    </contour>
+    <component base="ga"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/10/10 16:36:28</string>
+    </dict>
+  </lib>
+</glyph>

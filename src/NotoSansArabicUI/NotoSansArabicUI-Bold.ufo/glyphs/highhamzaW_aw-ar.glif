@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="highhamzaWaw-ar" format="2">
+  <advance width="535"/>
+  <unicode hex="0676"/>
+  <anchor x="277" y="-192" name="bottom"/>
+  <anchor x="452" y="609" name="top"/>
+  <outline>
+    <component base="waw-ar"/>
+    <component base="hamzaabove-ar" xOffset="304" yOffset="-141"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:38</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

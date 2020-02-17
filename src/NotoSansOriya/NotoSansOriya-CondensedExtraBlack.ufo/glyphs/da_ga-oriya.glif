@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="da_ga-oriya" format="2">
+  <advance width="663"/>
+  <note>
+dagaorya
+</note>
+  <guideline x="474" y="397" angle="90"/>
+  <guideline x="596" y="400" angle="90"/>
+  <anchor x="401" y="110" name="bottom"/>
+  <anchor x="325" y="658" name="top"/>
+  <anchor x="516" y="658" name="topright"/>
+  <outline>
+    <component base="ga-oriya.below" xOffset="238"/>
+    <component base="da-oriya.base"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>da-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>da-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/05 14:23:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

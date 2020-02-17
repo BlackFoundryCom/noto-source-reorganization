@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="haavoweltelu" format="2">
+  <advance width="932"/>
+  <outline>
+    <contour>
+      <point x="829" y="644" type="curve" smooth="yes"/>
+      <point x="776" y="644"/>
+      <point x="717" y="615"/>
+      <point x="717" y="541" type="curve" smooth="yes"/>
+      <point x="717" y="518"/>
+      <point x="724" y="495"/>
+      <point x="741" y="474" type="curve"/>
+      <point x="764" y="485" type="line"/>
+      <point x="751" y="501"/>
+      <point x="744" y="519"/>
+      <point x="744" y="540" type="curve" smooth="yes"/>
+      <point x="744" y="598"/>
+      <point x="788" y="618"/>
+      <point x="829" y="618" type="curve" smooth="yes"/>
+      <point x="883" y="618"/>
+      <point x="914" y="583"/>
+      <point x="930" y="541" type="curve"/>
+      <point x="957" y="548" type="line"/>
+      <point x="937" y="598"/>
+      <point x="902" y="644"/>
+    </contour>
+    <component base="haalttelu"/>
+    <component base="hattelu" xOffset="66"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/04/23 08:31:33</string>
+    </dict>
+  </lib>
+</glyph>

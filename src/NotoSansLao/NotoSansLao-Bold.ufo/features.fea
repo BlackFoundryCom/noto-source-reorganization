@@ -1,0 +1,116 @@
+# Prefix: Languagesystems
+languagesystem DFLT dflt;
+languagesystem lao dflt;
+
+
+feature aalt {
+feature ccmp;
+
+} aalt;
+
+feature ccmp {
+lookup lao_decomb {
+	script lao;
+	sub amVowel-lao by niggahita-lao aaVowel-lao;
+} lao_decomb;
+
+lookup lao_comb2 {
+	script lao;
+	sub niggahita-lao aaVowel-lao by amVowel-lao;
+} lao_comb2;
+
+ lookup lao_comb3 {
+    script lao;
+	sub maiEk-lao niggahita-lao by niggahita_maiEk-lao;
+	sub maiTho-lao niggahita-lao by niggahita_maiTho-lao;
+	sub maiTi-lao niggahita-lao by niggahita_maiTi-lao;
+	sub maiCatawa-lao niggahita-lao by niggahita_maiCatawa-lao;
+
+	sub niggahita-lao maiEk-lao by niggahita_maiEk-lao;
+	sub niggahita-lao maiTho-lao by niggahita_maiTho-lao;
+	sub niggahita-lao maiTi-lao by niggahita_maiTi-lao;
+	sub niggahita-lao maiCatawa-lao by niggahita_maiCatawa-lao;
+	
+	sub maiEk-lao niggahita-lao.narrow by niggahita_maiEk-lao.narrow;
+	sub maiTho-lao niggahita-lao.narrow by niggahita_maiTho-lao.narrow;
+	sub maiTi-lao niggahita-lao.narrow by niggahita_maiTi-lao.narrow;
+	sub maiCatawa-lao niggahita-lao.narrow by niggahita_maiCatawa-lao.narrow;
+
+	sub niggahita-lao.narrow maiEk-lao by niggahita_maiEk-lao.narrow;
+	sub niggahita-lao.narrow maiTho-lao by niggahita_maiTho-lao.narrow;
+	sub niggahita-lao.narrow maiTi-lao by niggahita_maiTi-lao.narrow;
+	sub niggahita-lao.narrow maiCatawa-lao by niggahita_maiCatawa-lao.narrow;
+} lao_comb3;
+
+lookup lao_comb4 {
+	script lao;
+	sub [maiEk-lao maiTho-lao maiTi-lao maiCatawa-lao karan-lao maiEk-lao.narrow maiTho-lao.narrow maiTi-lao.narrow maiCatawa-lao.narrow karan-lao.narrow] [maiEk-lao maiTho-lao maiTi-lao maiCatawa-lao karan-lao]' by [maiEk-lao.small maiTho-lao.small maiTi-lao.small maiCatawa-lao.small karan-lao.small];	
+	sub [maiEk-lao.small maiTho-lao.small maiTi-lao.small maiCatawa-lao.small karan-lao.small] [maiEk-lao maiTho-lao maiTi-lao maiCatawa-lao karan-lao]' by [maiEk-lao.small maiTho-lao.small maiTi-lao.small maiCatawa-lao.small karan-lao.small];
+	sub [maiEk-lao maiTho-lao maiTi-lao maiCatawa-lao karan-lao maiEk-lao.narrow maiTho-lao.narrow maiTi-lao.narrow maiCatawa-lao.narrow karan-lao.narrow]' [niggahita-lao.narrow] by [maiEk-lao.small maiTho-lao.small maiTi-lao.small maiCatawa-lao.small karan-lao.small maiEk-lao.small maiTho-lao.small maiTi-lao.small maiCatawa-lao.small karan-lao.small];
+} lao_comb4;
+
+lookup lao_comb5 {
+	script lao;
+	sub [maiKanVowel-lao maiKanVowel-lao.center iVowel-lao iiVowel-lao euVowel-lao euuVowel-lao maiKonVowel-lao maiKonVowel-lao.center niggahita-lao niggahita-lao.narrow niggahita-lao.right maiKanVowel-lao.narrow iVowel-lao.narrow iiVowel-lao.narrow euVowel-lao.narrow euuVowel-lao.narrow maiKonVowel-lao.narrow amVowel-lao amVowel-lao.narrow] [maiEk-lao maiTho-lao maiTi-lao maiCatawa-lao karan-lao]' by [maiEk-lao.small maiTho-lao.small maiTi-lao.small maiCatawa-lao.small karan-lao.small];
+	sub [maiKanVowel-lao maiKanVowel-lao.center maiKonVowel-lao maiKonVowel-lao.center niggahita-lao niggahita-lao.narrow niggahita-lao.right maiKanVowel-lao.narrow maiKonVowel-lao.narrow amVowel-lao amVowel-lao.narrow] niggahita-lao' by niggahita-lao.right;
+	sub [iVowel-lao iiVowel-lao euVowel-lao euuVowel-lao iVowel-lao.narrow iiVowel-lao.narrow euVowel-lao.narrow euuVowel-lao.narrow] niggahita-lao' by niggahita-lao.narrow;
+	sub [niggahita-lao niggahita-lao.narrow niggahita-lao.right] [loVowel-lao loVowel-lao.narrow loVowel-lao.small] [maiEk-lao maiTho-lao maiTi-lao maiCatawa-lao karan-lao]' by [maiEk-lao.small maiTho-lao.small maiTi-lao.small maiCatawa-lao.small karan-lao.small];
+	sub [loVowel-lao loVowel-lao.narrow] [uVowel-lao uuVowel-lao]' by [uVowel-lao.small uuVowel-lao.small];
+	sub [poPa-lao foFon-lao foFai-lao yoYa-lao] [maiKanVowel-lao iVowel-lao iiVowel-lao euVowel-lao euuVowel-lao maiKonVowel-lao maiEk-lao maiTho-lao maiTi-lao maiCatawa-lao karan-lao]' by [maiKanVowel-lao.narrow iVowel-lao.narrow iiVowel-lao.narrow euVowel-lao.narrow euuVowel-lao.narrow maiKonVowel-lao.narrow maiEk-lao.narrow maiTho-lao.narrow maiTi-lao.narrow maiCatawa-lao.narrow karan-lao.narrow];
+	sub ngoNgu-lao [uVowel-lao uuVowel-lao loVowel-lao]' by [uVowel-lao.small uuVowel-lao.small loVowel-lao.small];
+	sub [uVowel-lao uuVowel-lao loVowel-lao] [uVowel-lao uuVowel-lao loVowel-lao]' by [uVowel-lao.small uuVowel-lao.small loVowel-lao.small];
+	sub [poPa-lao foFon-lao foFai-lao yoYa-lao] [uVowel-lao uuVowel-lao loVowel-lao] [maiEk-lao maiTho-lao maiTi-lao maiCatawa-lao karan-lao]' by [maiEk-lao.narrow maiTho-lao.narrow maiTi-lao.narrow maiCatawa-lao.narrow karan-lao.narrow];
+	sub [poPa-lao foFon-lao foFai-lao yoYa-lao] [uVowel-lao uuVowel-lao loVowel-lao] [uVowel-lao.small uuVowel-lao.small loVowel-lao.small] [maiEk-lao maiTho-lao maiTi-lao maiCatawa-lao karan-lao]' by [maiEk-lao.narrow maiTho-lao.narrow maiTi-lao.narrow maiCatawa-lao.narrow karan-lao.narrow];
+	sub [soSang-lao thoThong-lao] [uVowel-lao uuVowel-lao loVowel-lao]' by [uVowel-lao.narrow uuVowel-lao.narrow loVowel-lao.narrow];
+	sub [soSang-lao thoThong-lao] niggahita-lao [uVowel-lao uuVowel-lao loVowel-lao]' by [uVowel-lao.narrow uuVowel-lao.narrow loVowel-lao.narrow];
+} lao_comb5;
+
+lookup lao_comb6 {
+	script lao;
+	sub [poPa-lao foFon-lao foFai-lao yoYa-lao] amVowel-lao' by amVowel-lao.narrow;
+} lao_comb6;
+
+lookup lao_comb7 {
+	script lao;
+	sub [poPa-lao foFon-lao foFai-lao yoYa-lao] [niggahita_maiEk-lao niggahita_maiTho-lao niggahita_maiTi-lao niggahita_maiCatawa-lao]' aaVowel-lao by [niggahita_maiEk-lao.narrow niggahita_maiTho-lao.narrow niggahita_maiTi-lao.narrow niggahita_maiCatawa-lao.narrow];
+	sub [poPa-lao foFon-lao foFai-lao yoYa-lao] niggahita-lao' [loVowel-lao loVowel-lao.narrow loVowel-lao.small] by niggahita-lao.narrow;
+	sub [poPa-lao foFon-lao foFai-lao yoYa-lao] [niggahita_maiEk-lao.right niggahita_maiTho-lao.right niggahita_maiTi-lao.right niggahita_maiCatawa-lao.right]' aaVowel-lao by [niggahita_maiEk-lao.narrow niggahita_maiTho-lao.narrow niggahita_maiTi-lao.narrow niggahita_maiCatawa-lao.narrow];
+} lao_comb7;
+
+lookup lao_comb8 {
+	script lao;
+	sub niggahita-lao' [loVowel-lao loVowel-lao.narrow loVowel-lao.small] by niggahita-lao.right;
+} lao_comb8;
+
+lookup lao_comb9 {
+	script lao;
+	sub [eVowel-lao aeVowel-lao oVowel-lao ayMaiMuanVowel-lao aiMaiMayVowel-lao] [koKai-lao khoKhai-lao khoKhuay-lao ngoNgu-lao coCok-lao soSang-lao nyoNyung-lao doDek-lao toTa-lao thoThong-lao thoThung-lao noNok-lao boBae-lao phoPhueng-lao phoPhu-lao moMa-lao roRot-lao loLing-lao woWi-lao soSeua-lao hoHaan-lao oO-lao hoHeuan-lao khmuGo-lao khmuNyo-lao hoNo-lao hoMo-lao] [maiKanVowel-lao maiKonVowel-lao]' by [maiKanVowel-lao.center maiKonVowel-lao.center];
+} lao_comb9;
+
+lookup lao_comb10 {
+	script lao;
+	sub [koKai-lao khoKhai-lao khoKhuay-lao ngoNgu-lao coCok-lao soSang-lao nyoNyung-lao doDek-lao toTa-lao thoThong-lao thoThung-lao noNok-lao boBae-lao phoPhueng-lao phoPhu-lao moMa-lao roRot-lao loLing-lao woWi-lao soSeua-lao hoHaan-lao oO-lao hoHeuan-lao khmuGo-lao khmuNyo-lao hoNo-lao hoMo-lao] [niggahita_maiEk-lao niggahita_maiTho-lao niggahita_maiTi-lao niggahita_maiCatawa-lao]' aaVowel-lao by [niggahita_maiEk-lao.right niggahita_maiTho-lao.right niggahita_maiTi-lao.right niggahita_maiCatawa-lao.right];
+} lao_comb10;
+
+lookup lao_comb11 {
+	script lao;
+	sub [maiKanVowel-lao maiKonVowel-lao maiKanVowel-lao.center maiKonVowel-lao.center iVowel-lao iiVowel-lao euVowel-lao euuVowel-lao iVowel-lao.narrow iiVowel-lao.narrow euVowel-lao.narrow euuVowel-lao.narrow] niggahita-lao' by niggahita-lao.right;
+} lao_comb11;
+
+lookup lao_comb12 {
+	script lao;
+	sub [loVowel-lao loVowel-lao.narrow loVowel-lao.small] loVowel-lao' by loVowel-lao.small;
+} lao_comb12;
+
+
+	
+} ccmp;
+
+table GDEF {
+  # automatic
+  GlyphClassDef
+    [koKai-lao khoKhai-lao khoKhuay-lao ngoNgu-lao coCok-lao soSang-lao nyoNyung-lao doDek-lao toTa-lao thoThong-lao thoThung-lao noNok-lao boBae-lao poPa-lao phoPhueng-lao foFon-lao phoPhu-lao foFai-lao moMa-lao yoYa-lao roRot-lao loLing-lao woWi-lao soSeua-lao hoHaan-lao oO-lao hoHeuan-lao khmuGo-lao khmuNyo-lao amVowel-lao nyoVowel-lao amVowel-lao.narrow hoNo-lao hoMo-lao], # Base
+    , # Liga
+    [maiKanVowel-lao iVowel-lao iiVowel-lao euVowel-lao euuVowel-lao maiKonVowel-lao uVowel-lao uuVowel-lao loVowel-lao maiEk-lao maiTho-lao maiTi-lao maiCatawa-lao karan-lao niggahita-lao maiEk-lao.small maiTho-lao.small maiTi-lao.small maiCatawa-lao.small karan-lao.small maiKanVowel-lao.narrow iVowel-lao.narrow iiVowel-lao.narrow euVowel-lao.narrow euuVowel-lao.narrow maiKonVowel-lao.narrow maiEk-lao.narrow maiTho-lao.narrow maiTi-lao.narrow maiCatawa-lao.narrow karan-lao.narrow niggahita-lao.narrow uVowel-lao.small uuVowel-lao.small loVowel-lao.small maiKanVowel-lao.center maiKonVowel-lao.center uVowel-lao.narrow uuVowel-lao.narrow loVowel-lao.narrow niggahita-lao.right], # Mark
+    ;
+} GDEF;

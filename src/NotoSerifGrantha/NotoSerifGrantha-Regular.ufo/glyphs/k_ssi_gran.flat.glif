@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="k_ssi_gran.flat" format="2">
+  <advance width="2286"/>
+  <note>
+kSi
+</note>
+  <outline>
+    <contour>
+      <point x="2145" y="0" type="line"/>
+      <point x="2206" y="0" type="line"/>
+      <point x="2206" y="574" type="line" smooth="yes"/>
+      <point x="2206" y="740"/>
+      <point x="1999" y="838"/>
+      <point x="1791" y="838" type="curve" smooth="yes"/>
+      <point x="1557" y="838"/>
+      <point x="1430" y="754"/>
+      <point x="1430" y="639" type="curve" smooth="yes"/>
+      <point x="1430" y="557"/>
+      <point x="1498" y="504"/>
+      <point x="1580" y="504" type="curve" smooth="yes"/>
+      <point x="1585" y="504" type="line"/>
+      <point x="1585" y="558" type="line"/>
+      <point x="1580" y="558" type="line" smooth="yes"/>
+      <point x="1530" y="558"/>
+      <point x="1495" y="591"/>
+      <point x="1495" y="636" type="curve" smooth="yes"/>
+      <point x="1495" y="713"/>
+      <point x="1601" y="750"/>
+      <point x="1773" y="750" type="curve" smooth="yes"/>
+      <point x="1978" y="750"/>
+      <point x="2145" y="682"/>
+      <point x="2145" y="544" type="curve" smooth="yes"/>
+    </contour>
+    <component base="k_ssa_gran.flat"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ka_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ki_gran</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/11 14:29:51</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

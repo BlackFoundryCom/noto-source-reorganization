@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seen_reh-ar.fina" format="2">
+  <advance width="969"/>
+  <unicode hex="FD2A"/>
+  <anchor x="290" y="0" name="caret_1"/>
+  <anchor x="624" y="-5" name="bottom_1"/>
+  <anchor x="85" y="-217" name="bottom_2"/>
+  <anchor x="653" y="332" name="top_1"/>
+  <anchor x="126" y="351" name="top_2"/>
+  <outline>
+    <component base="seen-ar.medi" xOffset="290"/>
+    <component base="reh-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>seen-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>reh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:40</string>
+    </dict>
+  </lib>
+</glyph>

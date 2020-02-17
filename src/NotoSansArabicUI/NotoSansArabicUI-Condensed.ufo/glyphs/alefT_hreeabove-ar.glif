@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefThreeabove-ar" format="2">
+  <advance width="302"/>
+  <unicode hex="0774"/>
+  <anchor x="201" y="0" name="bottom"/>
+  <anchor x="181" y="694" name="top"/>
+  <outline>
+    <component base="alef-ar" xOffset="78"/>
+    <component base="three-persian.small01" xOffset="-20" yOffset="58"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=alef-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:38</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

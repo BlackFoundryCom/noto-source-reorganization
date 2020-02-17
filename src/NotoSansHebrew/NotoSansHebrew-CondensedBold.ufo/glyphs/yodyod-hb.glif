@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yodyod-hb" format="2">
+  <advance width="684"/>
+  <unicode hex="05F2"/>
+  <note>
+yodyod
+</note>
+  <anchor x="342" y="0" name="caret_1"/>
+  <anchor x="542" y="0" name="bottom_1"/>
+  <anchor x="200" y="0" name="bottom_2"/>
+  <anchor x="379" y="0" name="bottomleft_1"/>
+  <anchor x="37" y="0" name="bottomleft_2"/>
+  <anchor x="378" y="374" name="center_1"/>
+  <anchor x="36" y="374" name="center_2"/>
+  <anchor x="542" y="553" name="top_1"/>
+  <anchor x="200" y="553" name="top_2"/>
+  <anchor x="456" y="553" name="topleft_1"/>
+  <anchor x="114" y="553" name="topleft_2"/>
+  <outline>
+    <component base="yod-hb" xOffset="342"/>
+    <component base="yod-hb"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/08/19 17:59:05</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sha_shw" format="2">
+  <advance width="1234"/>
+  <unicode hex="AA7F"/>
+  <note>
+This character can only take 103E afterwards, and this combination is designed precomposed. No other below marks possible.
+</note>
+  <outline>
+    <component base="cha"/>
+    <component base="medial_ya_ha" xOffset="1060"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>myanmar</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

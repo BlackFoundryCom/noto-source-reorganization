@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noon_yeh-ar" format="2">
+  <advance width="1121"/>
+  <unicode hex="FC50"/>
+  <anchor x="682" y="0" name="caret_1"/>
+  <anchor x="943" y="-5" name="bottom_1"/>
+  <anchor x="347" y="-279" name="bottom_2"/>
+  <anchor x="950" y="704" name="top_1"/>
+  <anchor x="208" y="346" name="top_2"/>
+  <outline>
+    <component base="noon-ar.init" xOffset="836"/>
+    <component base="yeh-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>noon-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>yeh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:41</string>
+    </dict>
+  </lib>
+</glyph>

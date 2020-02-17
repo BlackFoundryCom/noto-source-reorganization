@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hahTwodotsverticalabove-ar" format="2">
+  <advance width="620"/>
+  <unicode hex="0682"/>
+  <anchor x="370" y="-271" name="bottom"/>
+  <anchor x="350" y="32" name="center"/>
+  <anchor x="331" y="776" name="top"/>
+  <outline>
+    <component base="hah-ar"/>
+    <component base="twodotsverticalabove-ar" xOffset="256" yOffset="17"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:35</string>
+    </dict>
+  </lib>
+</glyph>

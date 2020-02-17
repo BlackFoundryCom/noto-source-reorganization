@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nguvowelsinh" format="2">
+  <advance width="891"/>
+  <outline>
+    <contour>
+      <point x="90" y="-140" type="curve" smooth="yes"/>
+      <point x="90" y="-175"/>
+      <point x="103" y="-203"/>
+      <point x="126" y="-223" type="curve" smooth="yes"/>
+      <point x="153" y="-246"/>
+      <point x="198" y="-261"/>
+      <point x="286" y="-261" type="curve" smooth="yes"/>
+      <point x="816" y="-261" type="line"/>
+      <point x="816" y="167" type="line"/>
+      <point x="750" y="61" type="line"/>
+      <point x="746" y="29"/>
+      <point x="744" y="-17"/>
+      <point x="744" y="-49" type="curve" smooth="yes"/>
+      <point x="744" y="-193" type="line"/>
+      <point x="315" y="-193" type="line" smooth="yes"/>
+      <point x="230" y="-193"/>
+      <point x="205" y="-189"/>
+      <point x="186" y="-177" type="curve" smooth="yes"/>
+      <point x="171" y="-168"/>
+      <point x="163" y="-154"/>
+      <point x="163" y="-137" type="curve" smooth="yes"/>
+      <point x="163" y="-117"/>
+      <point x="175" y="-97"/>
+      <point x="202" y="-78" type="curve"/>
+      <point x="152" y="-27" type="line"/>
+      <point x="113" y="-61"/>
+      <point x="90" y="-95"/>
+    </contour>
+    <component base="ngasinh"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/06/01 09:09:06</string>
+    </dict>
+  </lib>
+</glyph>

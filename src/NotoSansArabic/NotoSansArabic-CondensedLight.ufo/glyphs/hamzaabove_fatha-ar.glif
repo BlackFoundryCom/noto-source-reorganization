@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hamzaabove_fatha-ar" format="2">
-  <advance width="222"/>
   <anchor x="106" y="458" name="_top"/>
   <anchor x="106" y="919" name="top"/>
   <outline>
@@ -9,8 +8,14 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
       <string>2016/07/29 13:30:53</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>222</integer>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>0</integer>

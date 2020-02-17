@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="700" default="400">
+      <map input="400" output="90"/>
+      <map input="500" output="108"/>
+      <map input="600" output="128"/>
+      <map input="700" output="151"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="NotoSansOlChiki-Regular.ufo" name="Noto Sans Ol Chiki Regular" familyname="Noto Sans Ol Chiki" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+    </source>
+    <source filename="NotoSansOlChiki-Medium.ufo" name="Noto Sans Ol Chiki Medium" familyname="Noto Sans Ol Chiki" stylename="Medium">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+      </location>
+    </source>
+    <source filename="NotoSansOlChiki-Semibold.ufo" name="Noto Sans Ol Chiki Semibold" familyname="Noto Sans Ol Chiki" stylename="Semibold">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+      </location>
+    </source>
+    <source filename="NotoSansOlChiki-Bold.ufo" name="Noto Sans Ol Chiki Bold" familyname="Noto Sans Ol Chiki" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Sans Ol Chiki Regular" familyname="Noto Sans Ol Chiki" stylename="Regular" filename="instance_ufos/NotoSansOlChiki-Regular.ufo" stylemapfamilyname="Noto Sans Ol Chiki" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Ol Chiki Medium" familyname="Noto Sans Ol Chiki" stylename="Medium" filename="instance_ufos/NotoSansOlChiki-Medium.ufo" stylemapfamilyname="Noto Sans Ol Chiki Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Ol Chiki Semibold" familyname="Noto Sans Ol Chiki" stylename="Semibold" filename="instance_ufos/NotoSansOlChiki-Semibold.ufo" stylemapfamilyname="Noto Sans Ol Chiki Semibold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Ol Chiki Bold" familyname="Noto Sans Ol Chiki" stylename="Bold" filename="instance_ufos/NotoSansOlChiki-Bold.ufo" stylemapfamilyname="Noto Sans Ol Chiki" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>9C387D97-1150-45A6-AF8D-2AAB62D95D5D</key>
+        <dict>
+          <key>HH</key>
+          <string>126</string>
+          <key>HV</key>
+          <string>151</string>
+          <key>OH</key>
+          <string>126</string>
+          <key>OV</key>
+          <string>159</string>
+        </dict>
+        <key>UUID0</key>
+        <dict>
+          <key>HH</key>
+          <string>79</string>
+          <key>HV</key>
+          <string>90</string>
+          <key>OH</key>
+          <string>75</string>
+          <key>OV</key>
+          <string>88</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</designspace>

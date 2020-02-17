@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tone3_wpk" format="2">
+  <advance width="480"/>
+  <unicode hex="106B"/>
+  <note>
+tone3_wpk
+</note>
+  <outline>
+    <contour>
+      <point x="230" y="0" type="line"/>
+      <point x="411" y="0" type="line"/>
+      <point x="411" y="370" type="line" smooth="yes"/>
+      <point x="411" y="487"/>
+      <point x="351" y="562"/>
+      <point x="203" y="562" type="curve" smooth="yes"/>
+      <point x="62" y="562"/>
+      <point x="-2" y="484"/>
+      <point x="-2" y="346" type="curve"/>
+      <point x="170" y="346" type="line"/>
+      <point x="170" y="399"/>
+      <point x="178" y="421"/>
+      <point x="203" y="421" type="curve" smooth="yes"/>
+      <point x="221" y="421"/>
+      <point x="230" y="399"/>
+      <point x="230" y="365" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/10/10 16:36:25</string>
+    </dict>
+  </lib>
+</glyph>

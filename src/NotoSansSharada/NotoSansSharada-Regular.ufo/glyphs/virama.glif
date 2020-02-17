@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="virama" format="2">
+  <advance width="250"/>
+  <unicode hex="111C0"/>
+  <outline>
+    <contour>
+      <point x="85" y="0" type="line"/>
+      <point x="170" y="0" type="line"/>
+      <point x="170" y="720" type="line"/>
+      <point x="85" y="720" type="line"/>
+      <point x="85" y="625" type="line"/>
+      <point x="-70" y="625" type="line"/>
+      <point x="-70" y="550" type="line"/>
+      <point x="85" y="550" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/02/27 14:35:13</string>
+    </dict>
+  </lib>
+</glyph>

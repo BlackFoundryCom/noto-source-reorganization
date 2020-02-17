@@ -1,0 +1,173 @@
+@allconsonants = [ Ka.dogra Kha.dogra Ga.dogra Gha.dogra Nga.dogra Ca.dogra Cha.dogra Ja.dogra Jha.dogra Nya.dogra Tta.dogra Ttha.dogra Dda.dogra Ddha.dogra Nna.dogra Ta.dogra Tha.dogra Da.dogra Dha.dogra Na.dogra Pa.dogra Pha.dogra Ba.dogra Bha.dogra Ma.dogra Ya.dogra Ra.dogra La.dogra Va.dogra Sha.dogra Ssa.dogra Sa.dogra Ha.dogra Rra.dogra JaNya.dogra KaSsa.dogra TaRa.dogra ShaRa.dogra SaTta.dogra Dha.alt.dogra Ttha.alt.dogra Rra.alt.dogra Ga.old.dogra Jha.old.dogra Ra.old.dogra Dha.old.dogra Gha.old.dogra Tha.old1.dogra Nga.old1.dogra Nga.old2.dogra Tha.old2.dogra Nna.old.dogra Nya.old.dogra Sha.old.dogra
+
+ ];
+
+# Prefix: Languagesystems
+languagesystem DFLT dflt;
+languagesystem dogr dflt;
+
+# Prefix: ReorderAnusvara1
+	lookup ReorderAnusvara1 {
+	sub matraAa.dogra  by Anusvara.dogra;
+	sub Anusvara.dogra  by matraAa.dogra;
+	}ReorderAnusvara1;
+
+# Prefix: ReorderAnusvara2
+	lookup ReorderAnusvara2 {
+	sub matraAa.alt.dogra by Anusvara.dogra;
+	sub Anusvara.dogra by matraAa.alt.dogra;
+	}ReorderAnusvara2;
+
+feature calt {
+lookup akhn {
+	sub Ka.dogra Virama.dogra Ssa.dogra by KaSsa.dogra;
+	sub Ja.dogra Virama.dogra Nya.dogra by JaNya.dogra;
+	sub Sa.dogra Virama.dogra Tta.dogra by SaTta.dogra;
+	sub Nna.dogra matraAa.dogra by NnaMatraAa.dogra;
+}akhn;
+
+lookup rkrf {	
+	sub Ta.dogra Virama.dogra Ra.dogra by TaRa.dogra;
+	sub Sha.dogra Virama.dogra Ra.dogra by ShaRa.dogra;
+}rkrf;
+
+lookup pres {	
+	sub matraI.dogra' [Kha.dogra Nga.dogra Nna.dogra Pa.dogra Ma.dogra KaSsa.dogra Gha.old.dogra Nga.old2.dogra Ttha.alt.dogra] by matraI.alt.dogra;
+}pres;
+
+lookup psts1 {
+	sub matraIi.dogra Anusvara.dogra by matraIiAnusvara.dogra;
+}psts1;
+
+lookup psts2 {	
+	sub [Kha.dogra Pa.dogra Ma.dogra KaSsa.dogra Gha.old.dogra] matraAa.dogra' by matraAa.alt.dogra;	
+	sub [Kha.dogra Nga.dogra Nna.dogra Pa.dogra Ma.dogra KaSsa.dogra Gha.old.dogra Nga.old2.dogra Ttha.alt.dogra] matraIi.dogra' by matraIi.alt.dogra;
+	sub [Kha.dogra Nga.dogra Nna.dogra Pa.dogra Ma.dogra KaSsa.dogra Gha.old.dogra Nga.old2.dogra Ttha.alt.dogra] matraIiAnusvara.dogra' by matraIiAnusvara.alt.dogra;
+}psts2;
+
+lookup abvs1 {	
+	sub matraE.dogra Anusvara.dogra by matraEAnusvara.dogra;
+	sub matraAi.dogra Anusvara.dogra by matraAiAnusvara.dogra;
+	sub matraO.dogra Anusvara.dogra by matraOAnusvara.dogra;
+	sub matraAu.dogra Anusvara.dogra by matraAuAnusvara.dogra;
+	sub vowelO.dogra Anusvara.dogra by vowelOAnusvara.dogra;
+	sub vowelAu.dogra Anusvara.dogra by vowelAuAnusvara.dogra;
+}abvs1;
+
+lookup abvs2 {	
+	sub matraAa.dogra' lookup ReorderAnusvara1 Anusvara.dogra' lookup ReorderAnusvara1;	
+	sub matraAa.alt.dogra' lookup ReorderAnusvara2 Anusvara.dogra' lookup ReorderAnusvara2;	
+}abvs2;
+
+lookup abvs3 {	
+	sub matraI.dogra @allconsonants Anusvara.dogra' by Anusvara.alt.dogra;
+	sub matraI.alt.dogra @allconsonants Anusvara.dogra' by Anusvara.alt.dogra;
+}abvs3;
+
+lookup blws1 {	
+	sub [Kha.dogra Cha.dogra Ja.dogra Nya.dogra Nya.old.dogra Na.dogra Pa.dogra Ma.dogra La.dogra Ba.dogra Sa.dogra Dha.old.dogra Gha.old.dogra Tha.old1.dogra Ga.dogra Gha.dogra Tha.dogra Dha.dogra Ya.dogra Sha.dogra Ssa.dogra Ra.dogra ShaRa.dogra] matraR.dogra' by matraR.alt.dogra;
+	sub [Kha.dogra Cha.dogra Ja.dogra Nya.dogra Nya.old.dogra Na.dogra Pa.dogra Ma.dogra La.dogra Va.dogra Ba.dogra Sa.dogra Dha.old.dogra Gha.old.dogra Tha.old1.dogra Ga.dogra Gha.dogra Tha.dogra Dha.dogra Ya.dogra Sha.dogra Ssa.dogra Ra.dogra ShaRa.dogra] matraRr.dogra' by matraRr.alt.dogra;
+}blws1;
+
+lookup blws2 {	
+	sub Va.dogra matraR.dogra by VaMatraR.dogra;	
+	sub Nukta.dogra matraU.dogra by NuktamatraU.dogra;
+	sub Nukta.dogra matraUu.dogra by NuktamatraUu.dogra;
+}blws2;
+} calt;
+
+feature ss01 {
+ #Alternate forms
+	sub vowelUu.dogra by vowelUu.alt.dogra;
+	sub Dha.dogra by Dha.alt.dogra;
+	sub Ttha.dogra by Ttha.alt.dogra;
+	sub Rra.dogra by Rra.alt.dogra;
+	
+	sub Ttha.alt.dogra matraIi.dogra' by matraIi.alt.dogra;
+	sub matraI.dogra' Ttha.alt.dogra  by matraI.alt.dogra;
+	sub Ttha.alt.dogra matraIiAnusvara.dogra' by matraIiAnusvara.alt.dogra;
+} ss01;
+
+feature ss02 {
+ #Oldstyle forms 1
+	sub vowelAa.dogra by vowelAa.old.dogra;
+	sub vowelI.dogra by vowelI.old1.dogra;
+	sub vowelU.dogra by vowelU.old.dogra;
+	sub vowelUu.dogra by vowelU.old.dogra;
+	sub vowelAi.dogra by vowelAi.old1.dogra;
+	sub vowelO.dogra by vowelO.old.dogra;
+	sub vowelAu.dogra by vowelO.old.dogra;
+	sub Ga.dogra by Ga.old.dogra;
+	sub Gha.dogra by Gha.old.dogra;
+	sub Nga.dogra by Nga.old1.dogra;
+	sub Jha.dogra by Jha.old.dogra;
+	sub Nya.dogra by Nya.old.dogra;
+	sub Ttha.dogra by Ttha.alt.dogra;
+	sub Nna.dogra by Nna.old.dogra;
+	sub Tha.dogra by Tha.old1.dogra;
+	sub Dha.dogra by Dha.old.dogra;
+	sub Ra.dogra by Ra.old.dogra;
+	sub Ba.dogra by Ba.old.dogra;
+	sub Sha.dogra by Sha.old.dogra;
+	sub matraI.dogra by matraI.old.dogra;
+	sub matraI.alt.dogra by matraI.old.dogra;
+	sub matraIi.dogra by matraIi.old.dogra;
+	sub matraIi.alt.dogra by matraIi.old.dogra;
+	sub matraU.dogra by matraU.old.dogra;
+	sub matraUu.dogra by matraUu.old.dogra;
+	sub matraO.dogra by matraO.old.dogra;
+	sub matraAu.dogra by matraAu.old.dogra;
+	sub NnaMatraAa.dogra by Nna.old.dogra matraAa.dogra;
+	sub matraOAnusvara.dogra by matraOAnusvara.old.dogra;
+	sub matraAuAnusvara.dogra by matraAuAnusvara.old.dogra;	
+	sub NuktamatraU.dogra by  NuktamatraU.old.dogra;
+	sub NuktamatraUu.dogra by NuktamatraUu.old.dogra;
+
+	sub matraI.dogra @allconsonants Anusvara.dogra' by Anusvara.alt.dogra;
+	sub matraI.alt.dogra @allconsonants Anusvara.dogra' by Anusvara.alt.dogra;
+	
+	sub matraIiAnusvara.dogra by matraIiAnusvara.old.dogra;	
+	sub matraIiAnusvara.alt.dogra by matraIiAnusvara.old.dogra;	
+	
+	sub Ra.old.dogra matraR.alt.dogra' by matraR.dogra;	
+	sub Ra.old.dogra matraRr.alt.dogra' by matraRr.dogra;	
+	sub Ga.old.dogra matraR.alt.dogra' by matraR.dogra;	
+	sub Ga.old.dogra matraRr.alt.dogra' by matraRr.dogra;
+	sub Nga.old1.dogra matraR.alt.dogra' by matraR.dogra;	
+	sub Nga.old1.dogra matraRr.alt.dogra' by matraRr.dogra;	
+	sub Gha.old.dogra matraAa.dogra' by matraAa.alt.dogra;	
+	sub Ttha.alt.dogra matraIi.dogra' by matraIi.alt.dogra;
+	sub matraI.dogra' Ttha.alt.dogra  by matraI.alt.dogra;
+	
+	sub ShaRa.dogra by Sha.old.dogra Virama.dogra Ra.old.dogra;
+	sub vowelOAnusvara.dogra by vowelO.old.dogra Anusvara.dogra;
+	sub vowelAuAnusvara.dogra by vowelO.old.dogra Anusvara.dogra;
+} ss02;
+
+feature ss03 {
+ #Oldsyltyle forms 2
+	sub vowelI.dogra by vowelI.old2.dogra;
+	sub vowelIi.dogra by vowelI.old2.dogra;
+	sub vowelE.dogra by vowelAi.old2.dogra;
+	sub vowelAi.dogra by vowelAi.old2.dogra;
+	sub Nga.dogra by Nga.old2.dogra;
+	sub Tha.dogra by Tha.old2.dogra;
+} ss03;
+
+feature aalt {
+# automatic
+feature calt;
+feature ss01;
+feature ss02;
+feature ss03;
+
+} aalt;
+
+table GDEF {
+  # automatic
+  GlyphClassDef
+    [vowelA.dogra vowelAa.dogra vowelI.dogra vowelIi.dogra vowelU.dogra vowelUu.dogra vowelE.dogra vowelAi.dogra Ka.dogra Kha.dogra Ga.dogra Gha.dogra Nga.dogra Ca.dogra Cha.dogra Ja.dogra Jha.dogra Nya.dogra Tta.dogra Ttha.dogra Dda.dogra Ddha.dogra Nna.dogra Ta.dogra Tha.dogra Da.dogra Dha.dogra Na.dogra Pa.dogra Pha.dogra Ba.dogra Bha.dogra Ma.dogra Ya.dogra Ra.dogra La.dogra Va.dogra Sha.dogra Ssa.dogra Sa.dogra Ha.dogra Rra.dogra JaNya.dogra KaSsa.dogra TaRa.dogra ShaRa.dogra SaTta.dogra NnaMatraAa.dogra VaMatraR.dogra vowelUu.alt.dogra Dha.alt.dogra Ttha.alt.dogra Rra.alt.dogra vowelAa.old.dogra vowelI.old1.dogra vowelI.old2.dogra vowelU.old.dogra vowelAi.old1.dogra vowelAi.old2.dogra vowelO.old.dogra Ga.old.dogra Jha.old.dogra Ra.old.dogra Dha.old.dogra Gha.old.dogra Tha.old1.dogra Nga.old1.dogra Nga.old2.dogra Tha.old2.dogra Nna.old.dogra Nya.old.dogra Sha.old.dogra Ba.old.dogra vowelL.dogra vowelLl.dogra vowelR.dogra vowelRr.dogra], # Base
+    , # Liga
+    [matraU.dogra matraUu.dogra matraR.dogra matraRr.dogra matraE.dogra matraAi.dogra matraO.dogra matraAu.dogra Anusvara.dogra Virama.dogra Nukta.dogra matraR.alt.dogra matraRr.alt.dogra Anusvara.alt.dogra matraOAnusvara.dogra matraAuAnusvara.dogra matraEAnusvara.dogra matraAiAnusvara.dogra matraU.old.dogra matraUu.old.dogra matraO.old.dogra matraAu.old.dogra matraOAnusvara.old.dogra matraAuAnusvara.old.dogra NuktamatraU.dogra NuktamatraUu.dogra NuktamatraU.old.dogra NuktamatraUu.old.dogra], # Mark
+    ;
+} GDEF;

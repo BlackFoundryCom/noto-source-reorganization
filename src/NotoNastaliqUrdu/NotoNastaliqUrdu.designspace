@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<designspace format="4.0">
+<designspace format="4.1">
   <axes>
     <axis tag="wght" name="Weight" minimum="400" maximum="700" default="400">
       <map input="400" output="90"/>
@@ -7,7 +7,7 @@
     </axis>
   </axes>
   <sources>
-    <source filename="NotoNastaliqUrdu-Regular.ufo" name="Noto Nastaliq Urdu Regular" familyname="NotoNastaliqUrdu" stylename="Regular">
+    <source filename="NotoNastaliqUrdu-Regular.ufo" name="Noto Nastaliq Urdu Regular" familyname="Noto Nastaliq Urdu" stylename="Regular">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -16,30 +16,150 @@
         <dimension name="Weight" xvalue="90"/>
       </location>
     </source>
-    <source filename="NotoNastaliqUrdu-Bold.ufo" name="Noto Nastaliq Urdu Bold" familyname="NotoNastaliqUrdu" stylename="Bold">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
+    <source filename="NotoNastaliqUrdu-Bold.ufo" name="Noto Nastaliq Urdu Bold" familyname="Noto Nastaliq Urdu" stylename="Bold">
       <location>
         <dimension name="Weight" xvalue="190"/>
       </location>
     </source>
   </sources>
   <instances>
-    <instance name="Noto Nastaliq Urdu Regular" familyname="NotoNastaliqUrdu" stylename="Regular" filename="instance_ufos/NotoNastaliqUrdu-Regular.ufo">
+    <instance name="Noto Nastaliq Urdu Regular" familyname="Noto Nastaliq Urdu" stylename="Regular" filename="instance_ufos/NotoNastaliqUrdu-Regular.ufo" stylemapfamilyname="Noto Nastaliq Urdu" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="90"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1904</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-596</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1904</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>596</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1904</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-596</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Nastaliq Urdu Bold" familyname="NotoNastaliqUrdu" stylename="Bold" filename="instance_ufos/NotoNastaliqUrdu-Bold.ufo">
+    <instance name="Noto Nastaliq Urdu Bold" familyname="Noto Nastaliq Urdu" stylename="Bold" filename="instance_ufos/NotoNastaliqUrdu-Bold.ufo" stylemapfamilyname="Noto Nastaliq Urdu" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="190"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>8</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1904</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-596</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1904</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>596</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1904</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-596</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
   </instances>
 </designspace>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sho-ethiopic" format="2">
+  <advance width="555"/>
+  <unicode hex="123E"/>
+  <note>
+uni123E
+</note>
+  <anchor x="282" y="826" name="top"/>
+  <outline>
+    <contour>
+      <point x="238" y="585" type="line"/>
+      <point x="327" y="585" type="line"/>
+      <point x="327" y="726" type="line"/>
+      <point x="238" y="726" type="line"/>
+    </contour>
+    <component base="boshort" xOffset="8"/>
+    <component base="bonemiddle" xOffset="35"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>sha-ethiopic</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>sha-ethiopic</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/06/27 13:53:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

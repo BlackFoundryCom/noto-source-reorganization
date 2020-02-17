@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nadhuvowelsinh" format="2">
+  <advance width="1007"/>
+  <outline>
+    <contour>
+      <point x="421" y="-148" type="curve" smooth="yes"/>
+      <point x="421" y="-176"/>
+      <point x="429" y="-203"/>
+      <point x="443" y="-220" type="curve" smooth="yes"/>
+      <point x="465" y="-247"/>
+      <point x="498" y="-261"/>
+      <point x="577" y="-261" type="curve" smooth="yes"/>
+      <point x="941" y="-261" type="line"/>
+      <point x="941" y="134" type="line"/>
+      <point x="883" y="30" type="line"/>
+      <point x="878" y="-7"/>
+      <point x="875" y="-54"/>
+      <point x="875" y="-107" type="curve" smooth="yes"/>
+      <point x="875" y="-197" type="line"/>
+      <point x="587" y="-197" type="line" smooth="yes"/>
+      <point x="532" y="-197"/>
+      <point x="517" y="-194"/>
+      <point x="505" y="-186" type="curve" smooth="yes"/>
+      <point x="495" y="-179"/>
+      <point x="489" y="-169"/>
+      <point x="489" y="-149" type="curve" smooth="yes"/>
+      <point x="489" y="-120"/>
+      <point x="507" y="-96"/>
+      <point x="529" y="-73" type="curve"/>
+      <point x="479" y="-27" type="line"/>
+      <point x="441" y="-65"/>
+      <point x="421" y="-101"/>
+    </contour>
+    <component base="nadhasinh"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/06/01 09:06:37</string>
+    </dict>
+  </lib>
+</glyph>

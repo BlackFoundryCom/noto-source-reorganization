@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dad_hah-ar" format="2">
+  <advance width="1542"/>
+  <unicode hex="FC23"/>
+  <anchor x="650" y="0" name="caret_1"/>
+  <anchor x="1135" y="-18" name="bottom_1"/>
+  <anchor x="370" y="-271" name="bottom_2"/>
+  <anchor x="290" y="32" name="center"/>
+  <anchor x="1295" y="442" name="top_1"/>
+  <anchor x="331" y="480" name="top_2"/>
+  <outline>
+    <component base="dad-ar.init" xOffset="650"/>
+    <component base="hah-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dad-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>hah-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:40</string>
+    </dict>
+  </lib>
+</glyph>

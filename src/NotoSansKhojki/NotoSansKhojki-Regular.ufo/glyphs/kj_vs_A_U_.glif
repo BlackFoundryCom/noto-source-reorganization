@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kj_vs_AU" format="2">
+  <advance width="250"/>
+  <unicode hex="11233"/>
+  <note>
+kj_vs_AU
+</note>
+  <outline>
+    <component base="kj_vs_AA"/>
+    <component base="kj_vs_AI.ns" xOffset="250"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/11/05 20:04:34</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

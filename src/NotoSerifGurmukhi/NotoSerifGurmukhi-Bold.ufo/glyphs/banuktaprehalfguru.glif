@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="banuktaprehalfguru" format="2">
+  <advance width="661"/>
+  <note>
+banuktaprehalfguru
+</note>
+  <anchor x="591" y="-10" name="bottom"/>
+  <anchor x="491" y="622" name="top"/>
+  <outline>
+    <component base="banuktaguru"/>
+    <component base="halantguru" xOffset="657" yOffset="-10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/21 14:37:48</string>
+    </dict>
+  </lib>
+</glyph>

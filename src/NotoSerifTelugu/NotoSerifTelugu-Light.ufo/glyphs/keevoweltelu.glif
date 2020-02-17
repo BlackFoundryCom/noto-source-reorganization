@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="keevoweltelu" format="2">
+  <advance width="453"/>
+  <outline>
+    <contour>
+      <point x="29" y="646" type="line"/>
+      <point x="266" y="646" type="line" smooth="yes"/>
+      <point x="350" y="646"/>
+      <point x="390" y="627"/>
+      <point x="390" y="568" type="curve" smooth="yes"/>
+      <point x="390" y="503"/>
+      <point x="337" y="492"/>
+      <point x="264" y="492" type="curve" smooth="yes"/>
+      <point x="224" y="492" type="line"/>
+      <point x="224" y="469" type="line"/>
+      <point x="259" y="469" type="line" smooth="yes"/>
+      <point x="350" y="469"/>
+      <point x="416" y="489"/>
+      <point x="416" y="568" type="curve" smooth="yes"/>
+      <point x="416" y="602"/>
+      <point x="405" y="624"/>
+      <point x="386" y="641" type="curve" smooth="yes"/>
+      <point x="361" y="663"/>
+      <point x="327" y="671"/>
+      <point x="267" y="671" type="curve" smooth="yes"/>
+      <point x="34" y="671" type="line"/>
+    </contour>
+    <contour>
+      <point x="331" y="808" type="curve" smooth="yes"/>
+      <point x="264" y="808"/>
+      <point x="225" y="769"/>
+      <point x="225" y="720" type="curve" smooth="yes"/>
+      <point x="225" y="693"/>
+      <point x="240" y="664"/>
+      <point x="255" y="651" type="curve"/>
+      <point x="275" y="661" type="line"/>
+      <point x="260" y="676"/>
+      <point x="251" y="693"/>
+      <point x="251" y="717" type="curve" smooth="yes"/>
+      <point x="251" y="757"/>
+      <point x="282" y="783"/>
+      <point x="331" y="783" type="curve" smooth="yes"/>
+      <point x="390" y="783"/>
+      <point x="425" y="745"/>
+      <point x="425" y="673" type="curve"/>
+      <point x="451" y="673" type="line"/>
+      <point x="451" y="737"/>
+      <point x="422" y="808"/>
+    </contour>
+    <component base="kaalttelu"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>kaalttelu</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/15 11:28:14</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

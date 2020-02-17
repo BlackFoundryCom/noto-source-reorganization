@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="qa_cakra_u.ns" format="2">
+  <advance width="1465"/>
+  <note>
+qa_cakra_u.ns
+</note>
+  <outline>
+    <contour>
+      <point x="770" y="-161" type="line"/>
+      <point x="928" y="-161" type="line" smooth="yes"/>
+      <point x="982" y="-161"/>
+      <point x="1012" y="-189"/>
+      <point x="1021" y="-247" type="curve"/>
+      <point x="1097" y="-238" type="line"/>
+      <point x="1083" y="-139"/>
+      <point x="1029" y="-88"/>
+      <point x="938" y="-88" type="curve" smooth="yes"/>
+      <point x="852" y="-88" type="line"/>
+      <point x="889" y="16" type="line"/>
+      <point x="809" y="24" type="line"/>
+      <point x="755" y="-129" type="line"/>
+    </contour>
+    <component base="ka_cakra_u.ns"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/12/13 17:24:08</string>
+    </dict>
+  </lib>
+</glyph>

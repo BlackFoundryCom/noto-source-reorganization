@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="taivoweltelu" format="2">
+  <advance width="624"/>
+  <outline>
+    <contour>
+      <point x="549" y="555" type="curve" smooth="yes"/>
+      <point x="549" y="598"/>
+      <point x="534" y="629"/>
+      <point x="510" y="649" type="curve" smooth="yes"/>
+      <point x="481" y="673"/>
+      <point x="447" y="683"/>
+      <point x="377" y="683" type="curve" smooth="yes"/>
+      <point x="128" y="683" type="line"/>
+      <point x="128" y="613" type="line"/>
+      <point x="386" y="613" type="line" smooth="yes"/>
+      <point x="421" y="613"/>
+      <point x="439" y="610"/>
+      <point x="454" y="598" type="curve" smooth="yes"/>
+      <point x="464" y="590"/>
+      <point x="473" y="574"/>
+      <point x="473" y="555" type="curve" smooth="yes"/>
+      <point x="473" y="538"/>
+      <point x="467" y="526"/>
+      <point x="457" y="517" type="curve" smooth="yes"/>
+      <point x="444" y="505"/>
+      <point x="423" y="500"/>
+      <point x="384" y="500" type="curve" smooth="yes"/>
+      <point x="284" y="500" type="line"/>
+      <point x="284" y="430" type="line"/>
+      <point x="379" y="430" type="line" smooth="yes"/>
+      <point x="432" y="430"/>
+      <point x="487" y="447"/>
+      <point x="515" y="473" type="curve" smooth="yes"/>
+      <point x="536" y="492"/>
+      <point x="549" y="517"/>
+    </contour>
+    <component base="taalttelu"/>
+    <component base="ailengthmarkwidetelu" xOffset="545"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/04/23 08:31:33</string>
+    </dict>
+  </lib>
+</glyph>

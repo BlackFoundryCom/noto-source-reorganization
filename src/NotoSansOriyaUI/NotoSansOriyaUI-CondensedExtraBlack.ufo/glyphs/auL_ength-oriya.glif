@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="auLength-oriya" format="2">
+  <advance width="215"/>
+  <unicode hex="0B57"/>
+  <note>
+aulengthmarkorya
+</note>
+  <outline>
+    <contour>
+      <point x="34" y="789" type="line"/>
+      <point x="34" y="93" type="line"/>
+      <point x="181" y="93" type="line"/>
+      <point x="181" y="789" type="line"/>
+    </contour>
+    <contour>
+      <point x="34" y="789" type="curve"/>
+      <point x="93" y="697" type="line"/>
+      <point x="190" y="728"/>
+      <point x="231" y="816"/>
+      <point x="231" y="885" type="curve" smooth="yes"/>
+      <point x="231" y="964"/>
+      <point x="178" y="1034"/>
+      <point x="85" y="1034" type="curve" smooth="yes"/>
+      <point x="5" y="1034"/>
+      <point x="-98" y="983"/>
+      <point x="-149" y="983" type="curve" smooth="yes"/>
+      <point x="-184" y="983"/>
+      <point x="-208" y="1007"/>
+      <point x="-231" y="1061" type="curve"/>
+      <point x="-167" y="1060" type="line"/>
+      <point x="-349" y="923" type="line"/>
+      <point x="-340" y="964" type="line"/>
+      <point x="-296" y="852"/>
+      <point x="-235" y="837"/>
+      <point x="-181" y="837" type="curve" smooth="yes"/>
+      <point x="-82" y="837"/>
+      <point x="-9" y="888"/>
+      <point x="39" y="888" type="curve" smooth="yes"/>
+      <point x="66" y="888"/>
+      <point x="80" y="872"/>
+      <point x="80" y="852" type="curve" smooth="yes"/>
+      <point x="80" y="831"/>
+      <point x="65" y="805"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/06 18:24:06</string>
+    </dict>
+  </lib>
+</glyph>

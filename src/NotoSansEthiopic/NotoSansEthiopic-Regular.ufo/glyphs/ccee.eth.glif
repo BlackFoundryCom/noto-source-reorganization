@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ccee.eth" format="2">
+  <advance width="601"/>
+  <unicode hex="2DAC"/>
+  <note>
+uni2DAC
+</note>
+  <anchor x="300" y="854" name="top"/>
+  <outline>
+    <component base="cee.eth"/>
+    <component base="leftsingleflag" xOffset="31" yOffset="-142"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>leftsingleflag</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/08/29 14:43:55</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cu-ethiopic" format="2">
+  <advance width="583"/>
+  <unicode hex="1279"/>
+  <note>
+uni1279
+</note>
+  <anchor x="286" y="794" name="top"/>
+  <outline>
+    <component base="ca-ethiopic"/>
+    <component base="rightdoubleflag" xOffset="302" yOffset="234"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=leftsingleflag+10</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=rightsingleflag+20</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/06/27 13:53:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

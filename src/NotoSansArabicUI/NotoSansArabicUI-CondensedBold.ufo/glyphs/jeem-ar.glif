@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jeem-ar" format="2">
+  <advance width="624"/>
+  <unicode hex="062C"/>
+  <anchor x="291" y="620" name="top"/>
+  <anchor x="356" y="-271" name="bottom"/>
+  <anchor x="380" y="82" name="center"/>
+  <outline>
+    <component base="hah-ar"/>
+    <component base="dotcenter-ar" xOffset="304" yOffset="82"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:34</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

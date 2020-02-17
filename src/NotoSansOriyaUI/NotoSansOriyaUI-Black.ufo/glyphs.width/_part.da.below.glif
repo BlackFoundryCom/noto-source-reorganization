@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.da.below" format="2">
+  <advance width="529"/>
+  <anchor x="147" y="149" name="curve"/>
+  <anchor x="327" y="143" name="vertical"/>
+  <outline>
+    <contour>
+      <point x="257" y="-114" type="curve" smooth="yes"/>
+      <point x="342" y="-114"/>
+      <point x="427" y="-63"/>
+      <point x="427" y="43" type="curve"/>
+      <point x="344" y="57" type="line"/>
+      <point x="344" y="19"/>
+      <point x="318" y="-7"/>
+      <point x="285" y="-7" type="curve" smooth="yes"/>
+      <point x="255" y="-7"/>
+      <point x="244" y="13"/>
+      <point x="244" y="40" type="curve" smooth="yes"/>
+      <point x="244" y="78"/>
+      <point x="262" y="128"/>
+      <point x="283" y="155" type="curve"/>
+      <point x="306" y="116" type="line"/>
+      <point x="121" y="155" type="line"/>
+      <point x="178" y="192" type="line"/>
+      <point x="136" y="143"/>
+      <point x="114" y="84"/>
+      <point x="114" y="30" type="curve" smooth="yes"/>
+      <point x="114" y="-48"/>
+      <point x="161" y="-114"/>
+    </contour>
+    <contour>
+      <point x="327" y="-151" type="line"/>
+      <point x="477" y="-151" type="line"/>
+      <point x="477" y="143" type="line"/>
+      <point x="327" y="143" type="line"/>
+      <point x="327" y="-48" type="line"/>
+      <point x="336" y="-57" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>PartSelection</key>
+      <dict>
+        <key>Curve</key>
+        <integer>1</integer>
+        <key>Height</key>
+        <integer>1</integer>
+        <key>Overlap</key>
+        <integer>2</integer>
+        <key>Width</key>
+        <integer>2</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/06 18:24:06</string>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>3</integer>
+          <key>origin</key>
+          <array>
+            <integer>1</integer>
+            <integer>1</integer>
+          </array>
+          <key>scale</key>
+          <array>
+            <real>0.8823</real>
+            <integer>1</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Cap</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.smartComponentAxes</key>
+      <array>
+        <dict>
+          <key>bottomName</key>
+          <string>Low</string>
+          <key>bottomValue</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Height</string>
+          <key>topName</key>
+          <string>High</string>
+          <key>topValue</key>
+          <integer>100</integer>
+        </dict>
+        <dict>
+          <key>bottomName</key>
+          <string>Low</string>
+          <key>bottomValue</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Curve</string>
+          <key>topName</key>
+          <string>High</string>
+          <key>topValue</key>
+          <integer>100</integer>
+        </dict>
+        <dict>
+          <key>bottomName</key>
+          <string>Low</string>
+          <key>bottomValue</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Overlap</string>
+          <key>topName</key>
+          <string>High</string>
+          <key>topValue</key>
+          <integer>100</integer>
+        </dict>
+        <dict>
+          <key>bottomName</key>
+          <string>Low</string>
+          <key>bottomValue</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Width</string>
+          <key>topName</key>
+          <string>High</string>
+          <key>topValue</key>
+          <integer>100</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

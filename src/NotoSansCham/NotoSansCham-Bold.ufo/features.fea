@@ -1,0 +1,8 @@
+table GDEF {
+  # automatic
+  GlyphClassDef
+    , # Base
+    , # Liga
+    [laMedial_cham laMedial_cham.narrow waMedial_cham waMedial_cham.narrow laMedial_waMedial_cham laMedial_uSign_cham laMedial_ueSign_cham waMedial_uSign_cham waMedial_ueSign_cham ngSignFinal_cham mSignFinal_cham aaSign_cham aaSign_oeSign_cham iSign_cham iiSign_cham eiSign_cham auSign_cham uSign_cham uSign_cham.narrow uSign_cham.narrow_alt oeSign_cham ueSign_cham oeSign_auSign_cham auSign_mSignFinal_cham oeSign_ngSignFinal_cham oeSign_mSignFinal_cham iSign_mSignFinal_cham laMed_waMed_uSign_cham laMed_waMed_ueSign_cham], # Mark
+    ;
+} GDEF;

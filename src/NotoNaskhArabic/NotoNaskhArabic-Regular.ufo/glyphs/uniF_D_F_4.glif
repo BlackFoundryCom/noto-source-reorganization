@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFDF4" format="2">
+  <advance width="2010"/>
+  <unicode hex="FDF4"/>
+  <anchor x="1786" y="-62" name="bottom_1"/>
+  <anchor x="701" y="-62" name="bottom_2"/>
+  <anchor x="224" y="-52" name="bottom_3"/>
+  <anchor x="1202" y="-52" name="bottom_4"/>
+  <anchor x="1802" y="389" name="top_1"/>
+  <anchor x="654" y="389" name="top_2"/>
+  <anchor x="211" y="447" name="top_3"/>
+  <anchor x="1207" y="389" name="top_4"/>
+  <outline>
+    <component base="uniFEE3" xOffset="1555"/>
+    <component base="uniFEE4" xOffset="459"/>
+    <component base="uniFEAA" xOffset="-15"/>
+    <component base="uniFEA4" xOffset="884"/>
+    <component base="uni064F" xOffset="1533" yOffset="11"/>
+    <component base="uni0651" xOffset="566" yOffset="28"/>
+    <component base="uni064E" xOffset="978" yOffset="51"/>
+    <component base="uni064E" xOffset="539" yOffset="139"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/18 13:40:34</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

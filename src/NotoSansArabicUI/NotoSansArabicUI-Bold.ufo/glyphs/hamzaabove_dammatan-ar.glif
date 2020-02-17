@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hamzaabove_dammatan-ar" format="2">
+  <anchor x="129" y="339" name="_top"/>
+  <anchor x="141" y="999" name="top"/>
+  <outline>
+    <component base="hamzaabove-ar" yOffset="-119"/>
+    <component base="dammatan-ar" xOffset="-82" yOffset="173"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:42</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>272</integer>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

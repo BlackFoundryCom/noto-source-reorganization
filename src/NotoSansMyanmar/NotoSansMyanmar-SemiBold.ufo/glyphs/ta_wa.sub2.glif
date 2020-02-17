@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ta_wa.sub2" format="2">
+  <note>
+ta_wa.sub2
+</note>
+  <outline>
+    <contour>
+      <point x="-177" y="-531" type="curve" smooth="yes"/>
+      <point x="-101" y="-531"/>
+      <point x="-46" y="-503"/>
+      <point x="-46" y="-452" type="curve" smooth="yes"/>
+      <point x="-46" y="-407"/>
+      <point x="-98" y="-374"/>
+      <point x="-177" y="-374" type="curve" smooth="yes"/>
+      <point x="-253" y="-374"/>
+      <point x="-304" y="-403"/>
+      <point x="-304" y="-452" type="curve" smooth="yes"/>
+      <point x="-304" y="-503"/>
+      <point x="-253" y="-531"/>
+    </contour>
+    <contour>
+      <point x="-175" y="-478" type="curve" smooth="yes"/>
+      <point x="-202" y="-478"/>
+      <point x="-215" y="-468"/>
+      <point x="-215" y="-452" type="curve" smooth="yes"/>
+      <point x="-215" y="-435"/>
+      <point x="-198" y="-427"/>
+      <point x="-175" y="-427" type="curve" smooth="yes"/>
+      <point x="-152" y="-427"/>
+      <point x="-135" y="-435"/>
+      <point x="-135" y="-452" type="curve" smooth="yes"/>
+      <point x="-135" y="-468"/>
+      <point x="-152" y="-478"/>
+    </contour>
+    <component base="ca_shn.sub2" xScale="-1" xOffset="-650"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/10/10 16:36:48</string>
+    </dict>
+  </lib>
+</glyph>

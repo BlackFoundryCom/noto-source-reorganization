@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nya.sub2" format="2">
+  <outline>
+    <contour>
+      <point x="-110" y="-612" type="line"/>
+      <point x="-110" y="-748" type="line"/>
+      <point x="-88" y="-748" type="line" smooth="yes"/>
+      <point x="-51" y="-748"/>
+      <point x="-32" y="-764"/>
+      <point x="-32" y="-810" type="curve" smooth="yes"/>
+      <point x="-32" y="-829" type="line" smooth="yes"/>
+      <point x="-32" y="-875"/>
+      <point x="-57" y="-891"/>
+      <point x="-111" y="-891" type="curve" smooth="yes"/>
+      <point x="-286" y="-891" type="line"/>
+      <point x="-425" y="-1027" type="line"/>
+      <point x="-92" y="-1027" type="line" smooth="yes"/>
+      <point x="1" y="-1027"/>
+      <point x="35" y="-966"/>
+      <point x="35" y="-845" type="curve" smooth="yes"/>
+      <point x="35" y="-794" type="line" smooth="yes"/>
+      <point x="35" y="-673"/>
+      <point x="5" y="-612"/>
+      <point x="-70" y="-612" type="curve" smooth="yes"/>
+    </contour>
+    <component base="ga.sub2" xOffset="-140"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>myanmar</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

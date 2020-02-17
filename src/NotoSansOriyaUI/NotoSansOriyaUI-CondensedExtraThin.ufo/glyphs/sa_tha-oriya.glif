@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sa_tha-oriya" format="2">
+  <advance width="497"/>
+  <note>
+sathaorya
+</note>
+  <guideline x="70" y="127" angle="90"/>
+  <guideline x="419" y="315" angle="90"/>
+  <guideline x="479" y="315" angle="90"/>
+  <anchor x="236" y="751" name="top"/>
+  <anchor x="406" y="751" name="topright"/>
+  <outline>
+    <contour>
+      <point x="135" y="380" type="curve"/>
+      <point x="148" y="398" type="line"/>
+      <point x="83" y="438"/>
+      <point x="54" y="496"/>
+      <point x="54" y="560" type="curve" smooth="yes"/>
+      <point x="54" y="675"/>
+      <point x="134" y="734"/>
+      <point x="216" y="734" type="curve" smooth="yes"/>
+      <point x="304" y="734"/>
+      <point x="395" y="666"/>
+      <point x="395" y="527" type="curve"/>
+      <point x="419" y="529" type="line"/>
+      <point x="419" y="684"/>
+      <point x="315" y="759"/>
+      <point x="215" y="759" type="curve" smooth="yes"/>
+      <point x="120" y="759"/>
+      <point x="28" y="692"/>
+      <point x="28" y="563" type="curve" smooth="yes"/>
+      <point x="28" y="489"/>
+      <point x="63" y="423"/>
+    </contour>
+    <contour>
+      <point x="403" y="185" type="line"/>
+      <point x="411" y="207" type="line"/>
+      <point x="87" y="325" type="line"/>
+      <point x="91" y="309" type="line"/>
+      <point x="278" y="533" type="line"/>
+      <point x="296" y="495" type="line"/>
+      <point x="225" y="550" type="line"/>
+      <point x="254" y="542" type="line"/>
+      <point x="70" y="322" type="line"/>
+      <point x="75" y="304" type="line"/>
+    </contour>
+    <contour>
+      <point x="393" y="135" type="line"/>
+      <point x="419" y="135" type="line"/>
+      <point x="419" y="751" type="line"/>
+      <point x="393" y="751" type="line"/>
+      <point x="393" y="612" type="line"/>
+      <point x="393" y="599" type="line"/>
+    </contour>
+    <contour>
+      <point x="388" y="-75" type="curve" smooth="yes"/>
+      <point x="444" y="-75"/>
+      <point x="479" y="-29"/>
+      <point x="479" y="38" type="curve" smooth="yes"/>
+      <point x="479" y="107"/>
+      <point x="443" y="150"/>
+      <point x="392" y="150" type="curve" smooth="yes"/>
+      <point x="295" y="150"/>
+      <point x="257" y="-51"/>
+      <point x="178" y="-51" type="curve" smooth="yes"/>
+      <point x="144" y="-51"/>
+      <point x="116" y="-13"/>
+      <point x="116" y="39" type="curve" smooth="yes"/>
+      <point x="116" y="92"/>
+      <point x="145" y="126"/>
+      <point x="177" y="126" type="curve" smooth="yes"/>
+      <point x="255" y="126"/>
+      <point x="289" y="-75"/>
+    </contour>
+    <contour>
+      <point x="180" y="-75" type="curve" smooth="yes"/>
+      <point x="279" y="-75"/>
+      <point x="317" y="126"/>
+      <point x="392" y="126" type="curve" smooth="yes"/>
+      <point x="425" y="126"/>
+      <point x="454" y="92"/>
+      <point x="454" y="39" type="curve" smooth="yes"/>
+      <point x="454" y="-13"/>
+      <point x="426" y="-51"/>
+      <point x="392" y="-51" type="curve" smooth="yes"/>
+      <point x="312" y="-51"/>
+      <point x="275" y="150"/>
+      <point x="178" y="150" type="curve" smooth="yes"/>
+      <point x="127" y="150"/>
+      <point x="91" y="107"/>
+      <point x="91" y="38" type="curve" smooth="yes"/>
+      <point x="91" y="-31"/>
+      <point x="127" y="-75"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>sa-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>tha-oriya.below</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/06 18:24:06</string>
+    </dict>
+  </lib>
+</glyph>

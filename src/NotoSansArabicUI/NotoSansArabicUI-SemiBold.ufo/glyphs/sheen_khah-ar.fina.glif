@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sheen_khah-ar.fina" format="2">
+  <advance width="1758"/>
+  <unicode hex="FD27"/>
+  <anchor x="739" y="0" name="caret_1"/>
+  <anchor x="1195" y="-5" name="bottom_1"/>
+  <anchor x="377" y="-271" name="bottom_2"/>
+  <anchor x="350" y="43" name="center"/>
+  <anchor x="1252" y="740" name="top_1"/>
+  <anchor x="330" y="721" name="top_2"/>
+  <outline>
+    <component base="sheen-ar.medi" xOffset="739"/>
+    <component base="khah-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>sheen-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>khah-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:40</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="larivowelsinh" format="2">
+  <advance width="595"/>
+  <outline>
+    <contour>
+      <point x="317" y="860" type="curve" smooth="yes"/>
+      <point x="179" y="860"/>
+      <point x="129" y="789"/>
+      <point x="129" y="704" type="curve" smooth="yes"/>
+      <point x="129" y="661"/>
+      <point x="142" y="619"/>
+      <point x="158" y="585" type="curve"/>
+      <point x="182" y="596" type="line"/>
+      <point x="167" y="628"/>
+      <point x="156" y="659"/>
+      <point x="156" y="703" type="curve" smooth="yes"/>
+      <point x="156" y="782"/>
+      <point x="200" y="834"/>
+      <point x="317" y="834" type="curve" smooth="yes"/>
+      <point x="434" y="834"/>
+      <point x="473" y="779"/>
+      <point x="473" y="703" type="curve" smooth="yes"/>
+      <point x="473" y="666"/>
+      <point x="465" y="640"/>
+      <point x="456" y="615" type="curve"/>
+      <point x="481" y="607" type="line"/>
+      <point x="492" y="634"/>
+      <point x="500" y="669"/>
+      <point x="500" y="703" type="curve" smooth="yes"/>
+      <point x="500" y="788"/>
+      <point x="454" y="860"/>
+    </contour>
+    <component base="larasinh"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/06/01 09:09:06</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="doubleSvarita_vedic" format="2">
+  <unicode hex="1CDA"/>
+  <note>
+uni1CDA
+</note>
+  <anchor x="152" y="561" name="_top"/>
+  <outline>
+    <contour>
+      <point x="182" y="677" type="line"/>
+      <point x="282" y="677" type="line"/>
+      <point x="282" y="877" type="line"/>
+      <point x="182" y="877" type="line"/>
+    </contour>
+    <contour>
+      <point x="21" y="677" type="line"/>
+      <point x="122" y="677" type="line"/>
+      <point x="122" y="877" type="line"/>
+      <point x="21" y="877" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>304</integer>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>vedic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

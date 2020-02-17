@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildedoublecomb" format="2">
+  <unicode hex="0360"/>
+  <anchor x="264" y="530" name="_top"/>
+  <anchor x="301" y="753" name="top"/>
+  <outline>
+    <contour>
+      <point x="-20" y="607" type="curve"/>
+      <point x="48" y="607" type="line"/>
+      <point x="63" y="647"/>
+      <point x="89" y="664"/>
+      <point x="126" y="664" type="curve" smooth="yes"/>
+      <point x="237" y="664"/>
+      <point x="320" y="608"/>
+      <point x="432" y="608" type="curve" smooth="yes"/>
+      <point x="517" y="608"/>
+      <point x="584" y="654"/>
+      <point x="612" y="753" type="curve"/>
+      <point x="545" y="753" type="line"/>
+      <point x="533" y="717"/>
+      <point x="510" y="696"/>
+      <point x="472" y="696" type="curve" smooth="yes"/>
+      <point x="355" y="696"/>
+      <point x="278" y="752"/>
+      <point x="156" y="752" type="curve" smooth="yes"/>
+      <point x="76" y="752"/>
+      <point x="8" y="706"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:27</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

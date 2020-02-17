@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="conicalTaper" format="2">
+  <advance width="872"/>
+  <unicode hex="2332"/>
+  <note>
+uni2332
+</note>
+  <guideline x="1" y="431" angle="0"/>
+  <guideline x="-16" y="143" angle="0"/>
+  <guideline x="367" y="597" angle="245"/>
+  <guideline x="104" y="597" angle="295"/>
+  <guideline x="726" y="439" angle="245"/>
+  <guideline x="319" y="597" angle="295"/>
+  <outline>
+    <contour>
+      <point x="56" y="-40" type="line"/>
+      <point x="816" y="287" type="line"/>
+      <point x="816" y="310" type="line"/>
+      <point x="56" y="636" type="line"/>
+    </contour>
+    <contour>
+      <point x="82" y="0" type="line"/>
+      <point x="82" y="286" type="line"/>
+      <point x="749" y="286" type="line"/>
+    </contour>
+    <contour>
+      <point x="82" y="311" type="line"/>
+      <point x="82" y="596" type="line"/>
+      <point x="749" y="311" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/03/23 19:34:49</string>
+    </dict>
+  </lib>
+</glyph>

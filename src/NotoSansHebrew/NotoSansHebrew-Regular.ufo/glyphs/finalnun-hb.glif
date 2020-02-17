@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="finalnun-hb" format="2">
+  <advance width="294"/>
+  <unicode hex="05DF"/>
+  <anchor x="20" y="0" name="bottomleft"/>
+  <anchor x="60" y="300" name="center"/>
+  <anchor x="117" y="536" name="top"/>
+  <anchor x="20" y="536" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="124" y="-240" type="line"/>
+      <point x="214" y="-240" type="line" smooth="yes"/>
+      <point x="214" y="456" type="line" smooth="yes"/>
+      <point x="214" y="555"/>
+      <point x="162" y="592"/>
+      <point x="92" y="592" type="curve" smooth="yes"/>
+      <point x="20" y="592" type="line"/>
+      <point x="20" y="509" type="line"/>
+      <point x="66" y="509" type="line" smooth="yes"/>
+      <point x="104" y="509"/>
+      <point x="124" y="492"/>
+      <point x="124" y="445" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/07 18:36:03</string>
+    </dict>
+  </lib>
+</glyph>

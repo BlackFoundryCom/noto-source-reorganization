@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="paprehalfguru" format="2">
+  <advance width="631"/>
+  <note>
+paprehalfguru
+</note>
+  <anchor x="561" y="0" name="bottom"/>
+  <anchor x="461" y="622" name="top"/>
+  <outline>
+    <component base="paguru"/>
+    <component base="halantguru" xOffset="627"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/21 14:37:48</string>
+    </dict>
+  </lib>
+</glyph>

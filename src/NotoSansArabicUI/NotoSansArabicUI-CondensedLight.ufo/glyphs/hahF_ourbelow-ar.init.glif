@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hahFourbelow-ar.init" format="2">
+  <advance width="461"/>
+  <anchor x="233" y="-5" name="bottom"/>
+  <anchor x="120" y="304" name="top"/>
+  <outline>
+    <component base="hah-ar.init"/>
+    <component base="four-persian.small01" xOffset="202" yOffset="-841"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>hah-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:35</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

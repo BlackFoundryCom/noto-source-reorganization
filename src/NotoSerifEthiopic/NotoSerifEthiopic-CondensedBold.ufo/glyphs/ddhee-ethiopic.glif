@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ddhee-ethiopic" format="2">
+  <advance width="685"/>
+  <unicode hex="AB0C"/>
+  <note>
+uniAB0C
+</note>
+  <anchor x="342" y="830" name="top"/>
+  <outline>
+    <contour>
+      <point x="275" y="537" type="line"/>
+      <point x="439" y="537" type="line"/>
+      <point x="439" y="603" type="line"/>
+      <point x="275" y="603" type="line"/>
+    </contour>
+    <component base="ddee-ethiopic"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>leftsingleflag</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ballsmall</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/06/27 13:53:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

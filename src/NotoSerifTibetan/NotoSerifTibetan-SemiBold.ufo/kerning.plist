@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>public.kern1.flag</key>
+    <dict>
+      <key>public.kern2.tsheg</key>
+      <integer>40</integer>
+    </dict>
+    <key>public.kern1.midFlag</key>
+    <dict>
+      <key>public.kern2.tsheg</key>
+      <integer>-50</integer>
+    </dict>
+    <key>public.kern1.raKa</key>
+    <dict>
+      <key>public.kern2.tsheg</key>
+      <integer>-30</integer>
+    </dict>
+    <key>public.kern1.raMa</key>
+    <dict>
+      <key>public.kern2.tsheg</key>
+      <integer>-60</integer>
+    </dict>
+    <key>public.kern1.ssa</key>
+    <dict>
+      <key>public.kern2.tsheg</key>
+      <integer>-80</integer>
+    </dict>
+    <key>public.kern1.tsheg</key>
+    <dict>
+      <key>public.kern2.raTop</key>
+      <integer>-50</integer>
+      <key>public.kern2.raTsa</key>
+      <integer>-80</integer>
+      <key>public.kern2.sha</key>
+      <integer>-70</integer>
+      <key>public.kern2.zha</key>
+      <integer>-30</integer>
+    </dict>
+  </dict>
+</plist>

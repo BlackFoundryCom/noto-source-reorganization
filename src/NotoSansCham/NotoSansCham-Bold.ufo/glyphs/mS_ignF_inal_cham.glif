@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mSignFinal_cham" format="2">
+  <unicode hex="AA4C"/>
+  <note>
+uniAA4C
+</note>
+  <outline>
+    <contour>
+      <point x="-256" y="756" type="curve" smooth="yes"/>
+      <point x="-198" y="756"/>
+      <point x="-163" y="791"/>
+      <point x="-163" y="849" type="curve" smooth="yes"/>
+      <point x="-163" y="907"/>
+      <point x="-198" y="942"/>
+      <point x="-256" y="942" type="curve" smooth="yes"/>
+      <point x="-314" y="942"/>
+      <point x="-349" y="907"/>
+      <point x="-349" y="849" type="curve" smooth="yes"/>
+      <point x="-349" y="791"/>
+      <point x="-314" y="756"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>verticalShift</key>
+        <integer>-82</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/04/21 12:55:59</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cham</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

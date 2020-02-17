@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kaf_meem-ar.init" format="2">
+  <advance width="964"/>
+  <unicode hex="FCC8"/>
+  <anchor x="589" y="0" name="caret_1"/>
+  <anchor x="746" y="0" name="bottom_1"/>
+  <anchor x="279" y="0" name="bottom_2"/>
+  <anchor x="741" y="636" name="top_1"/>
+  <anchor x="311" y="342" name="top_2"/>
+  <outline>
+    <component base="kaf-ar.init" xOffset="589"/>
+    <component base="meem-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>kaf-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>meem-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:41</string>
+    </dict>
+  </lib>
+</glyph>

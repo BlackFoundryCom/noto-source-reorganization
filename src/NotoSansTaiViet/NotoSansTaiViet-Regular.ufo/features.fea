@@ -1,0 +1,8 @@
+table GDEF {
+  # automatic
+  GlyphClassDef
+    , # Base
+    , # Liga
+    [uniAAB0 uniAAB2 uniAAB3 uniAAB4 uniAAB7 uniAAB8 uniAABE uniAABF uniAAC1], # Mark
+    ;
+} GDEF;

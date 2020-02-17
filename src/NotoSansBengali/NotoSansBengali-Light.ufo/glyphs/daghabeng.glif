@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="daghabeng" format="2">
+  <advance width="1021"/>
+  <outline>
+    <contour>
+      <point x="428" y="622" type="line"/>
+      <point x="-10" y="622" type="line"/>
+      <point x="-10" y="596" type="line"/>
+      <point x="88" y="596" type="line"/>
+      <point x="88" y="205" type="line"/>
+      <point x="113" y="189" type="line"/>
+      <point x="227" y="307"/>
+      <point x="343" y="407"/>
+      <point x="480" y="472" type="curve"/>
+      <point x="471" y="475" type="line"/>
+      <point x="432" y="398"/>
+      <point x="418" y="310"/>
+      <point x="418" y="235" type="curve" smooth="yes"/>
+      <point x="418" y="145"/>
+      <point x="434" y="76"/>
+      <point x="457" y="-3" type="curve"/>
+      <point x="483" y="3" type="line"/>
+      <point x="459" y="84"/>
+      <point x="444" y="149"/>
+      <point x="444" y="234" type="curve" smooth="yes"/>
+      <point x="444" y="306"/>
+      <point x="459" y="388"/>
+      <point x="497" y="473" type="curve"/>
+      <point x="472" y="495" type="line"/>
+      <point x="329" y="426"/>
+      <point x="206" y="325"/>
+      <point x="101" y="211" type="curve"/>
+      <point x="114" y="203" type="line"/>
+      <point x="114" y="596" type="line"/>
+      <point x="428" y="596" type="line"/>
+    </contour>
+    <component base="ghabeng" xOffset="426"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/07/07 09:20:32</string>
+    </dict>
+  </lib>
+</glyph>

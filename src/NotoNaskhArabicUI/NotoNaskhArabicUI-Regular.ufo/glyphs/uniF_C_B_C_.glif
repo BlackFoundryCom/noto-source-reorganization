@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFCBC" format="2">
+  <advance width="1170"/>
+  <unicode hex="FCBC"/>
+  <anchor x="935" y="82" name="bottom_1"/>
+  <anchor x="322" y="-43" name="bottom_2"/>
+  <anchor x="657" y="144" name="caret_1"/>
+  <anchor x="865" y="695" name="top_1"/>
+  <anchor x="326" y="520" name="top_2"/>
+  <outline>
+    <component base="uniFECB" xOffset="666"/>
+    <component base="uniFBB2" xOffset="679" yOffset="88"/>
+    <component base="uniFEA4"/>
+    <component base="uniFBB3" xOffset="137" yOffset="40"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/20 13:40:54</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

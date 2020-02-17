@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFDA6" format="2">
+  <advance width="2018"/>
+  <unicode hex="FDA6"/>
+  <anchor x="1671" y="83" name="bottom_1"/>
+  <anchor x="1005" y="83" name="bottom_2"/>
+  <anchor x="25" y="-110" name="bottom_3"/>
+  <anchor x="1676" y="524" name="top_1"/>
+  <anchor x="1010" y="524" name="top_2"/>
+  <anchor x="335" y="291" name="top_3"/>
+  <outline>
+    <component base="uniFEA4" xOffset="1353"/>
+    <component base="uniFBB3" xOffset="1489" yOffset="-6"/>
+    <component base="uniFEA4" xOffset="687"/>
+    <component base="uniFEF0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 08:47:14</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

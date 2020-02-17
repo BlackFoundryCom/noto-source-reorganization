@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nya_jha" format="2">
+  <advance width="677"/>
+  <note>
+For Sanskrit.
+</note>
+  <outline>
+    <contour>
+      <point x="619" y="536" type="line"/>
+      <point x="545" y="536" type="line"/>
+      <point x="545" y="-279" type="line" smooth="yes"/>
+      <point x="545" y="-351"/>
+      <point x="522" y="-376"/>
+      <point x="478" y="-376" type="curve" smooth="yes"/>
+      <point x="450" y="-376"/>
+      <point x="426" y="-365"/>
+      <point x="417" y="-338" type="curve"/>
+      <point x="367" y="-394" type="line"/>
+      <point x="379" y="-441"/>
+      <point x="423" y="-474"/>
+      <point x="489" y="-474" type="curve" smooth="yes"/>
+      <point x="575" y="-474"/>
+      <point x="619" y="-417"/>
+      <point x="619" y="-294" type="curve" smooth="yes"/>
+    </contour>
+    <component base="nya_ca"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>nya</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>jha</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+    </dict>
+  </lib>
+</glyph>

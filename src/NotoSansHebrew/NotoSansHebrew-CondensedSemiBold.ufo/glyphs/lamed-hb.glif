@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamed-hb" format="2">
+  <advance width="407"/>
+  <unicode hex="05DC"/>
+  <anchor x="171" y="0" name="bottom"/>
+  <anchor x="139" y="0" name="bottomleft"/>
+  <anchor x="91" y="303" name="center"/>
+  <anchor x="272" y="546" name="top"/>
+  <anchor x="-37" y="546" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="152" y="602" type="line"/>
+      <point x="152" y="760" type="line"/>
+      <point x="15" y="760" type="line"/>
+      <point x="15" y="482" type="line"/>
+      <point x="244" y="482" type="line"/>
+      <point x="102" y="0" type="line"/>
+      <point x="239" y="0" type="line"/>
+      <point x="392" y="513" type="line"/>
+      <point x="392" y="602" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/07 18:36:03</string>
+    </dict>
+  </lib>
+</glyph>

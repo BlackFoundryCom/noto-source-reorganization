@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dad_jeem-ar" format="2">
+  <advance width="1552"/>
+  <unicode hex="FC22"/>
+  <anchor x="649" y="0" name="caret_1"/>
+  <anchor x="1133" y="-18" name="bottom_1"/>
+  <anchor x="360" y="-271" name="bottom_2"/>
+  <anchor x="310" y="32" name="center"/>
+  <anchor x="1301" y="501" name="top_1"/>
+  <anchor x="311" y="496" name="top_2"/>
+  <outline>
+    <component base="dad-ar.init" xOffset="649"/>
+    <component base="jeem-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dad-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>jeem-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:40</string>
+    </dict>
+  </lib>
+</glyph>

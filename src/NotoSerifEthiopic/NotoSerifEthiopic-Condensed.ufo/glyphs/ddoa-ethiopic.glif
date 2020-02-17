@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ddoa-ethiopic" format="2">
+  <advance width="684"/>
+  <unicode hex="2D8D"/>
+  <note>
+uni2D8D
+</note>
+  <anchor x="342" y="830" name="top"/>
+  <outline>
+    <component base="ddo-ethiopic" xOffset="66"/>
+    <component base="leftdoubleflag" yOffset="465"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>leftsingleflag</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>rightsingleflag</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/06/27 13:53:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zayin-hb" format="2">
+  <advance width="350"/>
+  <unicode hex="05D6"/>
+  <anchor x="169" y="0" name="bottom"/>
+  <anchor x="10" y="0" name="bottomleft"/>
+  <anchor x="10" y="303" name="center"/>
+  <anchor x="175" y="546" name="top"/>
+  <anchor x="21" y="546" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="94" y="0" type="line"/>
+      <point x="244" y="0" type="line"/>
+      <point x="244" y="348" type="line" smooth="yes"/>
+      <point x="244" y="445"/>
+      <point x="298" y="478"/>
+      <point x="330" y="504" type="curve"/>
+      <point x="330" y="602" type="line"/>
+      <point x="20" y="602" type="line"/>
+      <point x="20" y="476" type="line"/>
+      <point x="170" y="476" type="line"/>
+      <point x="170" y="473" type="line"/>
+      <point x="119" y="434"/>
+      <point x="94" y="379"/>
+      <point x="94" y="307" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/07 18:36:03</string>
+    </dict>
+  </lib>
+</glyph>

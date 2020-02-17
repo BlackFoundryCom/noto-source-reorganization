@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yeh_meem_meem-ar.init" format="2">
+  <advance width="1607"/>
+  <unicode hex="FD9D"/>
+  <anchor x="1248" y="0" name="caret_1"/>
+  <anchor x="624" y="0" name="caret_2"/>
+  <anchor x="1404" y="-236" name="bottom_1"/>
+  <anchor x="923" y="-2" name="bottom_2"/>
+  <anchor x="299" y="-2" name="bottom_3"/>
+  <anchor x="1372" y="3" name="center"/>
+  <anchor x="1431" y="464" name="top_1"/>
+  <anchor x="932" y="422" name="top_2"/>
+  <anchor x="308" y="422" name="top_3"/>
+  <outline>
+    <component base="yeh-ar.init" xOffset="1248"/>
+    <component base="meem-ar.medi" xOffset="624"/>
+    <component base="meem-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>yeh-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>meem-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:41</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rnoon-ar" format="2">
+  <advance width="615"/>
+  <unicode hex="06BB"/>
+  <anchor x="281" y="-230" name="bottom"/>
+  <anchor x="284" y="728" name="top"/>
+  <outline>
+    <component base="noonghunna-ar"/>
+    <component base="uniFBC0" xOffset="143" yOffset="-128"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>noonghunna-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>noonghunna-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:37</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

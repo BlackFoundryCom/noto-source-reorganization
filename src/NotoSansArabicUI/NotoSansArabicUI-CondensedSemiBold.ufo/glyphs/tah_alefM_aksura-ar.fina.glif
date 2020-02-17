@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tah_alefMaksura-ar.fina" format="2">
+  <advance width="1329"/>
+  <unicode hex="FD11"/>
+  <anchor x="673" y="0" name="caret_1"/>
+  <anchor x="974" y="-6" name="bottom_1"/>
+  <anchor x="325" y="-230" name="bottom_2"/>
+  <anchor x="1109" y="441" name="top_1"/>
+  <anchor x="198" y="214" name="top_2"/>
+  <outline>
+    <component base="tah-ar.medi" xOffset="673"/>
+    <component base="alefMaksura-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>tah-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alefMaksura-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:40</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA69A" format="2">
+  <advance width="574"/>
+  <unicode hex="A69A"/>
+  <anchor x="240" y="0" name="bottom"/>
+  <anchor x="391" y="714" name="top"/>
+  <outline>
+    <contour>
+      <point x="198" y="22" type="line"/>
+      <point x="285" y="22" type="line"/>
+      <point x="429" y="699" type="line"/>
+      <point x="342" y="699" type="line"/>
+    </contour>
+    <component base="uni04E8"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:26</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

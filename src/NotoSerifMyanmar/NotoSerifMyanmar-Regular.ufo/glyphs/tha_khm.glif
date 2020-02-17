@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tha_khm" format="2">
+  <advance width="1025"/>
+  <note>
+cha
+</note>
+  <outline>
+    <contour>
+      <point x="377" y="87" type="line"/>
+      <point x="377" y="137" type="line" smooth="yes"/>
+      <point x="377" y="249"/>
+      <point x="295" y="269"/>
+      <point x="216" y="267" type="curve" smooth="yes"/>
+      <point x="83" y="264"/>
+      <point x="59" y="207"/>
+      <point x="59" y="150" type="curve" smooth="yes"/>
+      <point x="59" y="70"/>
+      <point x="127" y="-10"/>
+      <point x="293" y="-10" type="curve" smooth="yes"/>
+      <point x="479" y="-10"/>
+      <point x="575" y="74"/>
+      <point x="575" y="267" type="curve" smooth="yes"/>
+      <point x="575" y="459"/>
+      <point x="478" y="546"/>
+      <point x="288" y="546" type="curve" smooth="yes"/>
+      <point x="124" y="546"/>
+      <point x="58" y="474"/>
+      <point x="58" y="401" type="curve" smooth="yes"/>
+      <point x="58" y="341"/>
+      <point x="99" y="303"/>
+      <point x="156" y="303" type="curve" smooth="yes"/>
+      <point x="210" y="303"/>
+      <point x="247" y="338"/>
+      <point x="247" y="396" type="curve" smooth="yes"/>
+      <point x="247" y="456"/>
+      <point x="208" y="494"/>
+      <point x="153" y="494" type="curve" smooth="yes"/>
+      <point x="139" y="494"/>
+      <point x="128" y="488"/>
+      <point x="123" y="483" type="curve"/>
+      <point x="153" y="358" type="line"/>
+      <point x="173" y="408"/>
+      <point x="230" y="426"/>
+      <point x="315" y="426" type="curve" smooth="yes"/>
+      <point x="429" y="426"/>
+      <point x="509" y="386"/>
+      <point x="509" y="273" type="curve" smooth="yes"/>
+      <point x="509" y="263" type="line" smooth="yes"/>
+      <point x="509" y="156"/>
+      <point x="429" y="118"/>
+      <point x="315" y="118" type="curve" smooth="yes"/>
+      <point x="222" y="118" type="line" smooth="yes"/>
+      <point x="149" y="118"/>
+      <point x="122" y="136"/>
+      <point x="122" y="163" type="curve" smooth="yes"/>
+      <point x="122" y="192"/>
+      <point x="158" y="200"/>
+      <point x="199" y="200" type="curve" smooth="yes"/>
+      <point x="240" y="200" type="line" smooth="yes"/>
+      <point x="290" y="200"/>
+      <point x="320" y="186"/>
+      <point x="320" y="144" type="curve" smooth="yes"/>
+      <point x="320" y="87" type="line"/>
+    </contour>
+    <component base="_aa" yScale="-1" xOffset="630" yOffset="536"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>kha</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>wa</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>myanmar</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

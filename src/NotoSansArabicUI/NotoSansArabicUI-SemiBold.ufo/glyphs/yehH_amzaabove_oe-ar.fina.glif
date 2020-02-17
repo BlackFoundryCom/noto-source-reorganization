@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehHamzaabove_oe-ar.fina" format="2">
+  <advance width="908"/>
+  <unicode hex="FBF3"/>
+  <anchor x="496" y="0" name="caret_1"/>
+  <anchor x="703" y="-5" name="bottom_1"/>
+  <anchor x="264" y="-250" name="bottom_2"/>
+  <anchor x="643" y="8" name="center"/>
+  <anchor x="720" y="623" name="top_1"/>
+  <anchor x="254" y="706" name="top_2"/>
+  <outline>
+    <component base="yehHamzaabove-ar.medi" xOffset="524"/>
+    <component base="oe-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>yehHamzaabove-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>oe-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:41</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,1441 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="100">
+      <map input="100" output="28"/>
+      <map input="200" output="42"/>
+      <map input="300" output="64"/>
+      <map input="400" output="94"/>
+      <map input="500" output="110"/>
+      <map input="600" output="130"/>
+      <map input="700" output="152"/>
+      <map input="800" output="175"/>
+      <map input="900" output="194"/>
+    </axis>
+    <axis tag="wdth" name="Width" minimum="62.500000" maximum="100" default="100">
+      <map input="62.500000" output="70"/>
+      <map input="75" output="79"/>
+      <map input="87.500000" output="89"/>
+      <map input="100" output="100"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="NotoSerifMyanmar-Light.ufo" name="Noto Serif Myanmar Light" familyname="Noto Serif Myanmar" stylename="Light">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSerifMyanmar-Regular.ufo" name="Noto Serif Myanmar Regular" familyname="Noto Serif Myanmar" stylename="Regular">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSerifMyanmar-Bold.ufo" name="Noto Serif Myanmar Bold" familyname="Noto Serif Myanmar" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSerifMyanmar-CondensedLight.ufo" name="Noto Serif Myanmar Condensed Light" familyname="Noto Serif Myanmar" stylename="Condensed Light">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+    <source filename="NotoSerifMyanmar-Condensed.ufo" name="Noto Serif Myanmar Condensed" familyname="Noto Serif Myanmar" stylename="Condensed">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+    <source filename="NotoSerifMyanmar-CondensedBold.ufo" name="Noto Serif Myanmar Condensed Bold" familyname="Noto Serif Myanmar" stylename="Condensed Bold">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Serif Myanmar Thin" familyname="Noto Serif Myanmar" stylename="Thin" filename="instance_ufos/NotoSerifMyanmar-Thin.ufo" stylemapfamilyname="Noto Serif Myanmar Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar Thin</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar ExtraLight" familyname="Noto Serif Myanmar" stylename="ExtraLight" filename="instance_ufos/NotoSerifMyanmar-ExtraLight.ufo" stylemapfamilyname="Noto Serif Myanmar ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="42"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar ExtLt</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar Light" familyname="Noto Serif Myanmar" stylename="Light" filename="instance_ufos/NotoSerifMyanmar-Light.ufo" stylemapfamilyname="Noto Serif Myanmar Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="64"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar Light</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar Regular" familyname="Noto Serif Myanmar" stylename="Regular" filename="instance_ufos/NotoSerifMyanmar-Regular.ufo" stylemapfamilyname="Noto Serif Myanmar" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar Medium" familyname="Noto Serif Myanmar" stylename="Medium" filename="instance_ufos/NotoSerifMyanmar-Medium.ufo" stylemapfamilyname="Noto Serif Myanmar Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="110"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar Med</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar SemiBold" familyname="Noto Serif Myanmar" stylename="SemiBold" filename="instance_ufos/NotoSerifMyanmar-SemiBold.ufo" stylemapfamilyname="Noto Serif Myanmar SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="130"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>7</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar SemBd</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar Bold" familyname="Noto Serif Myanmar" stylename="Bold" filename="instance_ufos/NotoSerifMyanmar-Bold.ufo" stylemapfamilyname="Noto Serif Myanmar" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="152"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>8</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar ExtraBold" familyname="Noto Serif Myanmar" stylename="ExtraBold" filename="instance_ufos/NotoSerifMyanmar-ExtraBold.ufo" stylemapfamilyname="Noto Serif Myanmar ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="175"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar ExtBd</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar Black" familyname="Noto Serif Myanmar" stylename="Black" filename="instance_ufos/NotoSerifMyanmar-Black.ufo" stylemapfamilyname="Noto Serif Myanmar Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>10</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar Blk</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar Condensed Thin" familyname="Noto Serif Myanmar" stylename="Condensed Thin" filename="instance_ufos/NotoSerifMyanmar-CondensedThin.ufo" stylemapfamilyname="Noto Serif Myanmar Condensed Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar Cond Thin</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar Condensed ExtraLight" familyname="Noto Serif Myanmar" stylename="Condensed ExtraLight" filename="instance_ufos/NotoSerifMyanmar-CondensedExtraLight.ufo" stylemapfamilyname="Noto Serif Myanmar Condensed ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="42"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar Cond ExtLt</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar Condensed Light" familyname="Noto Serif Myanmar" stylename="Condensed Light" filename="instance_ufos/NotoSerifMyanmar-CondensedLight.ufo" stylemapfamilyname="Noto Serif Myanmar Condensed Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="64"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar Cond Light</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar Condensed" familyname="Noto Serif Myanmar" stylename="Condensed" filename="instance_ufos/NotoSerifMyanmar-Condensed.ufo" stylemapfamilyname="Noto Serif Myanmar Condensed" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>5</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar Cond</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar Condensed Medium" familyname="Noto Serif Myanmar" stylename="Condensed Medium" filename="instance_ufos/NotoSerifMyanmar-CondensedMedium.ufo" stylemapfamilyname="Noto Serif Myanmar Condensed Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="110"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar Cond Med</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar Condensed SemiBold " familyname="Noto Serif Myanmar" stylename="Condensed SemiBold " filename="instance_ufos/NotoSerifMyanmar-CondensedSemiBold.ufo" stylemapfamilyname="Noto Serif Myanmar Condensed SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="130"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>7</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar Cond SemBd</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar Condensed Bold" familyname="Noto Serif Myanmar" stylename="Condensed Bold" filename="instance_ufos/NotoSerifMyanmar-CondensedBold.ufo" stylemapfamilyname="Noto Serif Myanmar Condensed" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="152"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>8</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar Cond</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar Condensed ExtraBold" familyname="Noto Serif Myanmar" stylename="Condensed ExtraBold" filename="instance_ufos/NotoSerifMyanmar-CondensedExtraBold.ufo" stylemapfamilyname="Noto Serif Myanmar Condensed ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="175"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>9</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar Cond ExtBd</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar Condensed Black" familyname="Noto Serif Myanmar" stylename="Condensed Black" filename="instance_ufos/NotoSerifMyanmar-CondensedBlack.ufo" stylemapfamilyname="Noto Serif Myanmar Condensed Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>10</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar Cond Blk</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar SemiCondensed Thin" familyname="Noto Serif Myanmar" stylename="SemiCondensed Thin" filename="instance_ufos/NotoSerifMyanmar-SemiCondensedThin.ufo" stylemapfamilyname="Noto Serif Myanmar SemiCondensed Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar SemCond Thin</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar SemiCondensed ExtraLight" familyname="Noto Serif Myanmar" stylename="SemiCondensed ExtraLight" filename="instance_ufos/NotoSerifMyanmar-SemiCondensedExtraLight.ufo" stylemapfamilyname="Noto Serif Myanmar SemiCondensed ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="42"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar SemCond ExtLt</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar SemiCondensed Light" familyname="Noto Serif Myanmar" stylename="SemiCondensed Light" filename="instance_ufos/NotoSerifMyanmar-SemiCondensedLight.ufo" stylemapfamilyname="Noto Serif Myanmar SemiCondensed Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="64"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar SemCond Light</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar SemiCondensed" familyname="Noto Serif Myanmar" stylename="SemiCondensed" filename="instance_ufos/NotoSerifMyanmar-SemiCondensed.ufo" stylemapfamilyname="Noto Serif Myanmar SemiCondensed" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar SemCond</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar SemiCondensed Medium" familyname="Noto Serif Myanmar" stylename="SemiCondensed Medium" filename="instance_ufos/NotoSerifMyanmar-SemiCondensedMedium.ufo" stylemapfamilyname="Noto Serif Myanmar SemiCondensed Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="110"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar SemCond Med</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar SemiCondensed SemiBold" familyname="Noto Serif Myanmar" stylename="SemiCondensed SemiBold" filename="instance_ufos/NotoSerifMyanmar-SemiCondensedSemiBold.ufo" stylemapfamilyname="Noto Serif Myanmar SemiCondensed SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="130"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>7</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar SemCond SemBd</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar SemiCondensed Bold" familyname="Noto Serif Myanmar" stylename="SemiCondensed Bold" filename="instance_ufos/NotoSerifMyanmar-SemiCondensedBold.ufo" stylemapfamilyname="Noto Serif Myanmar SemiCondensed" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="152"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>8</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar SemCond</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar SemiCondensed ExtraBold" familyname="Noto Serif Myanmar" stylename="SemiCondensed ExtraBold" filename="instance_ufos/NotoSerifMyanmar-SemiCondensedExtraBold.ufo" stylemapfamilyname="Noto Serif Myanmar SemiCondensed ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="175"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar SemCond ExtBd</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar SemiCondensed Black" familyname="Noto Serif Myanmar" stylename="SemiCondensed Black" filename="instance_ufos/NotoSerifMyanmar-SemiCondensedBlack.ufo" stylemapfamilyname="Noto Serif Myanmar SemiCondensed Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>10</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar SemCond Blk</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar ExtraCondensed Thin" familyname="Noto Serif Myanmar" stylename="ExtraCondensed Thin" filename="instance_ufos/NotoSerifMyanmar-ExtraCondensedThin.ufo" stylemapfamilyname="Noto Serif Myanmar ExtraCondensed Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar ExtCond Thin</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar ExtraCondensed ExtraLight" familyname="Noto Serif Myanmar" stylename="ExtraCondensed ExtraLight" filename="instance_ufos/NotoSerifMyanmar-ExtraCondensedExtraLight.ufo" stylemapfamilyname="Noto Serif Myanmar ExtraCondensed ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="42"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar ExtCond ExtLt</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar ExtraCondensed Light" familyname="Noto Serif Myanmar" stylename="ExtraCondensed Light" filename="instance_ufos/NotoSerifMyanmar-ExtraCondensedLight.ufo" stylemapfamilyname="Noto Serif Myanmar ExtraCondensed Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="64"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar ExtCond Light</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar ExtraCondensed" familyname="Noto Serif Myanmar" stylename="ExtraCondensed" filename="instance_ufos/NotoSerifMyanmar-ExtraCondensed.ufo" stylemapfamilyname="Noto Serif Myanmar ExtraCondensed" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>5</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar ExtCond</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar ExtraCondensed Medium" familyname="Noto Serif Myanmar" stylename="ExtraCondensed Medium" filename="instance_ufos/NotoSerifMyanmar-ExtraCondensedMedium.ufo" stylemapfamilyname="Noto Serif Myanmar ExtraCondensed Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="110"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar ExtCond Med</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar ExtraCondensed SemiBold" familyname="Noto Serif Myanmar" stylename="ExtraCondensed SemiBold" filename="instance_ufos/NotoSerifMyanmar-ExtraCondensedSemiBold.ufo" stylemapfamilyname="Noto Serif Myanmar ExtraCondensed SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="130"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>7</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar ExtCond SemBd</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar ExtraCondensed Bold" familyname="Noto Serif Myanmar" stylename="ExtraCondensed Bold" filename="instance_ufos/NotoSerifMyanmar-ExtraCondensedBold.ufo" stylemapfamilyname="Noto Serif Myanmar ExtraCondensed" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="152"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>8</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar ExtCond</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar ExtraCondensed ExtraBold" familyname="Noto Serif Myanmar" stylename="ExtraCondensed ExtraBold" filename="instance_ufos/NotoSerifMyanmar-ExtraCondensedExtraBold.ufo" stylemapfamilyname="Noto Serif Myanmar ExtraCondensed ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="175"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>9</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar ExtCond ExtBd</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Myanmar ExtraCondensed Black" familyname="Noto Serif Myanmar" stylename="ExtraCondensed Black" filename="instance_ufos/NotoSerifMyanmar-ExtraCondensedBlack.ufo" stylemapfamilyname="Noto Serif Myanmar ExtraCondensed Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>10</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Myanmar ExtCond Blk</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>6DF5D8D3-1700-4463-A28F-E0E9C2C73C46</key>
+        <dict/>
+        <key>719AC85C-8AED-41E6-95C2-58F38387964A</key>
+        <dict/>
+        <key>949D5271-AFC5-4116-8DE3-A7795FBFC928</key>
+        <dict/>
+        <key>BE49CA0D-7169-41D2-A70B-CE6F74D40E44</key>
+        <dict/>
+      </dict>
+    </dict>
+  </lib>
+</designspace>

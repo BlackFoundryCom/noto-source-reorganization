@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ooknda" format="2">
+  <advance width="735"/>
+  <unicode hex="0C93"/>
+  <outline>
+    <contour>
+      <point x="152" y="509" type="curve"/>
+      <point x="268" y="566" type="line"/>
+      <point x="247" y="583"/>
+      <point x="233" y="599"/>
+      <point x="233" y="620" type="curve" smooth="yes"/>
+      <point x="233" y="636"/>
+      <point x="244" y="651"/>
+      <point x="280" y="656" type="curve"/>
+      <point x="268" y="798" type="line"/>
+      <point x="130" y="794"/>
+      <point x="78" y="727"/>
+      <point x="78" y="652" type="curve" smooth="yes"/>
+      <point x="78" y="591"/>
+      <point x="115" y="544"/>
+    </contour>
+    <component base="oknda"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/06/15 09:18:13</string>
+    </dict>
+  </lib>
+</glyph>

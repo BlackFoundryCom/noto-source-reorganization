@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="MatraIAnusvara.MGondi" format="2">
+  <advance width="269"/>
+  <outline>
+    <contour>
+      <point x="-64" y="281" type="line"/>
+      <point x="111" y="281" type="line"/>
+      <point x="111" y="357" type="line"/>
+      <point x="-64" y="357" type="line"/>
+    </contour>
+    <component base="MatraI.MGondi"/>
+    <component base="Anusvara.MGondi" xOffset="124"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/25 14:37:39</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

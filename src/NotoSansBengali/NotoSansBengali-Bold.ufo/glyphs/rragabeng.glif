@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rragabeng" format="2">
+  <advance width="1355"/>
+  <outline>
+    <contour>
+      <point x="417" y="113" type="curve" smooth="yes"/>
+      <point x="608" y="113"/>
+      <point x="685" y="206"/>
+      <point x="685" y="301" type="curve" smooth="yes"/>
+      <point x="685" y="374"/>
+      <point x="652" y="427"/>
+      <point x="619" y="468" type="curve"/>
+      <point x="488" y="446" type="line"/>
+      <point x="476" y="425"/>
+      <point x="454" y="402"/>
+      <point x="433" y="402" type="curve" smooth="yes"/>
+      <point x="421" y="402"/>
+      <point x="415" y="408"/>
+      <point x="415" y="425" type="curve" smooth="yes"/>
+      <point x="415" y="484" type="line"/>
+      <point x="630" y="484" type="line"/>
+      <point x="630" y="622" type="line"/>
+      <point x="-10" y="622" type="line"/>
+      <point x="-10" y="484" type="line"/>
+      <point x="245" y="484" type="line"/>
+      <point x="245" y="432" type="line" smooth="yes"/>
+      <point x="245" y="368"/>
+      <point x="259" y="336"/>
+      <point x="285" y="313" type="curve" smooth="yes"/>
+      <point x="309" y="293"/>
+      <point x="342" y="284"/>
+      <point x="387" y="284" type="curve" smooth="yes"/>
+      <point x="492" y="284"/>
+      <point x="550" y="336"/>
+      <point x="613" y="412" type="curve"/>
+      <point x="484" y="418" type="line"/>
+      <point x="511" y="389"/>
+      <point x="526" y="358"/>
+      <point x="526" y="326" type="curve" smooth="yes"/>
+      <point x="526" y="287"/>
+      <point x="491" y="245"/>
+      <point x="400" y="245" type="curve" smooth="yes"/>
+      <point x="303" y="245"/>
+      <point x="228" y="279"/>
+      <point x="166" y="458" type="curve"/>
+      <point x="13" y="418" type="line"/>
+      <point x="103" y="178"/>
+      <point x="245" y="113"/>
+    </contour>
+    <contour>
+      <point x="277" y="6" type="curve" smooth="yes"/>
+      <point x="277" y="-41"/>
+      <point x="310" y="-72"/>
+      <point x="362" y="-72" type="curve" smooth="yes"/>
+      <point x="413" y="-72"/>
+      <point x="446" y="-41"/>
+      <point x="446" y="6" type="curve" smooth="yes"/>
+      <point x="446" y="52"/>
+      <point x="413" y="84"/>
+      <point x="362" y="84" type="curve" smooth="yes"/>
+      <point x="310" y="84"/>
+      <point x="277" y="52"/>
+    </contour>
+    <component base="gabeng" xOffset="608"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/07/07 09:20:32</string>
+    </dict>
+  </lib>
+</glyph>

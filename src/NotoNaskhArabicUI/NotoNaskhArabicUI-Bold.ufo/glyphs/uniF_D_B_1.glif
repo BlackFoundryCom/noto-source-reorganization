@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFDB1" format="2">
+  <advance width="1517"/>
+  <unicode hex="FDB1"/>
+  <anchor x="1340" y="77" name="bottom_1"/>
+  <anchor x="927" y="77" name="bottom_2"/>
+  <anchor x="25" y="-110" name="bottom_3"/>
+  <anchor x="1308" y="574" name="top_1"/>
+  <anchor x="895" y="574" name="top_2"/>
+  <anchor x="335" y="366" name="top_3"/>
+  <outline>
+    <component base="uniFEE4" xOffset="1103"/>
+    <component base="uniFEE4" xOffset="690"/>
+    <component base="uniFEF0"/>
+    <component base="uniFBB5" xOffset="334" yOffset="-153"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/20 10:17:13</string>
+    </dict>
+  </lib>
+</glyph>

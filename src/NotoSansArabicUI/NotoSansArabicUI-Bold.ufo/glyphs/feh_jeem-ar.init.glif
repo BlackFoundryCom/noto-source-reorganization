@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="feh_jeem-ar.init" format="2">
+  <advance width="1278"/>
+  <unicode hex="FCBE"/>
+  <anchor x="728" y="0" name="caret_1"/>
+  <anchor x="961" y="-25" name="bottom_1"/>
+  <anchor x="296" y="-237" name="bottom_2"/>
+  <anchor x="997" y="783" name="top_1"/>
+  <anchor x="181" y="503" name="top_2"/>
+  <outline>
+    <component base="feh-ar.init" xOffset="728"/>
+    <component base="jeem-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>feh-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>jeem-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:40</string>
+    </dict>
+  </lib>
+</glyph>

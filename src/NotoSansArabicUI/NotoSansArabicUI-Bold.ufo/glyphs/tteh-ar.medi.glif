@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tteh-ar.medi" format="2">
+  <advance width="410"/>
+  <unicode hex="FB69"/>
+  <anchor x="185" y="-5" name="bottom"/>
+  <anchor x="119" y="7" name="center"/>
+  <anchor x="209" y="803" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar.medi"/>
+    <component base="uniFBC0" xOffset="62" yOffset="-67"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dotlessbeh-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dotlessbeh-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:34</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

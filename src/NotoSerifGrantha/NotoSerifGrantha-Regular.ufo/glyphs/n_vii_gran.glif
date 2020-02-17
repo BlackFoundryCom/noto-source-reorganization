@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="n_vii_gran" format="2">
+  <advance width="1330"/>
+  <note>
+nvii
+</note>
+  <outline>
+    <contour>
+      <point x="725" y="185" type="curve" smooth="yes"/>
+      <point x="725" y="282"/>
+      <point x="646" y="345"/>
+      <point x="557" y="345" type="curve" smooth="yes"/>
+      <point x="484" y="345"/>
+      <point x="445" y="302"/>
+      <point x="426" y="272" type="curve"/>
+      <point x="426" y="500" type="line"/>
+      <point x="607" y="500" type="line"/>
+      <point x="607" y="554" type="line"/>
+      <point x="80" y="554" type="line"/>
+      <point x="80" y="0" type="line"/>
+      <point x="141" y="0" type="line"/>
+      <point x="141" y="500" type="line"/>
+      <point x="332" y="500" type="line"/>
+      <point x="332" y="0" type="line"/>
+      <point x="426" y="0" type="line"/>
+      <point x="426" y="183" type="line" smooth="yes"/>
+      <point x="426" y="236"/>
+      <point x="460" y="286"/>
+      <point x="523" y="286" type="curve" smooth="yes"/>
+      <point x="584" y="286"/>
+      <point x="629" y="239"/>
+      <point x="629" y="168" type="curve" smooth="yes"/>
+      <point x="629" y="125"/>
+      <point x="613" y="81"/>
+      <point x="589" y="43" type="curve"/>
+      <point x="607" y="0" type="line"/>
+      <point x="1059" y="0" type="line"/>
+      <point x="1059" y="54" type="line"/>
+      <point x="678" y="54" type="line"/>
+      <point x="702" y="87"/>
+      <point x="725" y="133"/>
+    </contour>
+    <component base="_part.ii_straight" xOffset="714"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n_va_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.ii_straight</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/11 14:29:51</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

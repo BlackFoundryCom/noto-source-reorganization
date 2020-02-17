@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefTwoabove-ar.fina" format="2">
+  <advance width="369"/>
+  <anchor x="214" y="0" name="bottom"/>
+  <anchor x="190" y="714" name="top"/>
+  <outline>
+    <component base="alef-ar.fina" xOffset="78"/>
+    <component base="two-persian.small01" xOffset="-20" yOffset="51"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=alef-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:38</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="qu-ethiopic" format="2">
+  <advance width="455"/>
+  <unicode hex="1241"/>
+  <note>
+uni1241
+</note>
+  <anchor x="227" y="716" name="top"/>
+  <outline>
+    <component base="midring" yOffset="1"/>
+    <component base="stem1" xOffset="119"/>
+    <component base="rightdoubleflag" xOffset="241" yOffset="133"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>midring</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>midring</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/06/27 13:53:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

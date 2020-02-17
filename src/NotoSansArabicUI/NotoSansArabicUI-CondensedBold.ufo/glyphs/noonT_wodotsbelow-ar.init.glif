@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonTwodotsbelow-ar.init" format="2">
+  <advance width="369"/>
+  <anchor x="181" y="-245" name="bottom"/>
+  <anchor x="124" y="3" name="center"/>
+  <anchor x="203" y="712" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar.init.wide"/>
+    <component base="dotabove-ar" xOffset="95" yOffset="76"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="34" yOffset="-5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:38</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

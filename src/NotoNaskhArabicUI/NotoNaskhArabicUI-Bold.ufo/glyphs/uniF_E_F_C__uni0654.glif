@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFEFC_uni0654" format="2">
+  <advance width="631"/>
+  <anchor x="508" y="82" name="bottom_1"/>
+  <anchor x="132" y="63" name="bottom_2"/>
+  <anchor x="464" y="857" name="top_1"/>
+  <anchor x="61" y="907" name="top_2"/>
+  <anchor x="202" y="77" name="bottom2"/>
+  <anchor x="64" y="739" name="top2"/>
+  <outline>
+    <component base="uniFEFC"/>
+    <component base="uni0654" xOffset="-17" yOffset="139"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/20 13:22:29</string>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string>caret.1</string>
+          <key>x</key>
+          <integer>646</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

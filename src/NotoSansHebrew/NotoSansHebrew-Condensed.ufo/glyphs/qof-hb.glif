@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="qof-hb" format="2">
+  <advance width="426"/>
+  <unicode hex="05E7"/>
+  <anchor x="288" y="0" name="bottom"/>
+  <anchor x="22" y="0" name="bottomleft"/>
+  <anchor x="207" y="300" name="center"/>
+  <anchor x="236" y="536" name="top"/>
+  <anchor x="65" y="536" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="204" y="0" type="line"/>
+      <point x="288" y="0" type="line"/>
+      <point x="406" y="525" type="line"/>
+      <point x="406" y="592" type="line"/>
+      <point x="65" y="592" type="line"/>
+      <point x="65" y="511" type="line"/>
+      <point x="323" y="511" type="line"/>
+    </contour>
+    <contour>
+      <point x="65" y="-241" type="line"/>
+      <point x="149" y="-241" type="line"/>
+      <point x="149" y="362" type="line"/>
+      <point x="65" y="362" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/07 18:36:03</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400">
+      <map input="100" output="28"/>
+      <map input="200" output="42"/>
+      <map input="300" output="64"/>
+      <map input="400" output="90"/>
+      <map input="500" output="110"/>
+      <map input="600" output="130"/>
+      <map input="700" output="152"/>
+      <map input="800" output="175"/>
+      <map input="900" output="194"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="NotoRashiHebrew-Light.ufo" name="Noto Rashi Hebrew Light" familyname="Noto Rashi Hebrew" stylename="Light">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+      </location>
+    </source>
+    <source filename="NotoRashiHebrew-Regular.ufo" name="Noto Rashi Hebrew Regular" familyname="Noto Rashi Hebrew" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+    </source>
+    <source filename="NotoRashiHebrew-Bold.ufo" name="Noto Rashi Hebrew Bold" familyname="Noto Rashi Hebrew" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Rashi Hebrew Thin" familyname="Noto Rashi Hebrew" stylename="Thin" filename="instance_ufos/NotoRashiHebrew-Thin.ufo" stylemapfamilyname="Noto Rashi Hebrew Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Hebrew Thin</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Rashi Hebrew ExtraLight" familyname="Noto Rashi Hebrew" stylename="ExtraLight" filename="instance_ufos/NotoRashiHebrew-ExtraLight.ufo" stylemapfamilyname="Noto Rashi Hebrew ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="42"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Hebrew ExtLt</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Rashi Hebrew Light" familyname="Noto Rashi Hebrew" stylename="Light" filename="instance_ufos/NotoRashiHebrew-Light.ufo" stylemapfamilyname="Noto Rashi Hebrew Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="64"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Hebrew Light</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Rashi Hebrew Regular" familyname="Noto Rashi Hebrew" stylename="Regular" filename="instance_ufos/NotoRashiHebrew-Regular.ufo" stylemapfamilyname="Noto Rashi Hebrew" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Rashi Hebrew Medium" familyname="Noto Rashi Hebrew" stylename="Medium" filename="instance_ufos/NotoRashiHebrew-Medium.ufo" stylemapfamilyname="Noto Rashi Hebrew Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="110"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Hebrew Med</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Rashi Hebrew SemiBold" familyname="Noto Rashi Hebrew" stylename="SemiBold" filename="instance_ufos/NotoRashiHebrew-SemiBold.ufo" stylemapfamilyname="Noto Rashi Hebrew SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="130"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>7</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Hebrew SemBd</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Rashi Hebrew Bold" familyname="Noto Rashi Hebrew" stylename="Bold" filename="instance_ufos/NotoRashiHebrew-Bold.ufo" stylemapfamilyname="Noto Rashi Hebrew" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="152"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>8</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Rashi Hebrew ExtraBold" familyname="Noto Rashi Hebrew" stylename="ExtraBold" filename="instance_ufos/NotoRashiHebrew-ExtraBold.ufo" stylemapfamilyname="Noto Rashi Hebrew ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="175"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Hebrew ExtBd</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Rashi Hebrew Black" familyname="Noto Rashi Hebrew" stylename="Black" filename="instance_ufos/NotoRashiHebrew-Black.ufo" stylemapfamilyname="Noto Rashi Hebrew Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>10</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Hebrew Blk</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+</designspace>

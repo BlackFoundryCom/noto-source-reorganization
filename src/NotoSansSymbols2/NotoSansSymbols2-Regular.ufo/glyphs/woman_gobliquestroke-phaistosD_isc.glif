@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="woman_gobliquestroke-phaistosDisc" format="2">
+  <advance width="486"/>
+  <anchor x="263" y="0" name="bottom"/>
+  <outline>
+    <component base="woman-phaistosDisc"/>
+    <component base="gobliquestroke-phaistosDisc" xOffset="263"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/03/30 19:59:39</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>phaistosDisc</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

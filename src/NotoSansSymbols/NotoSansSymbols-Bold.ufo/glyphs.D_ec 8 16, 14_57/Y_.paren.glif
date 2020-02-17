@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Y.paren" format="2">
+  <advance width="1000"/>
+  <unicode hex="1F128"/>
+  <note>
+uni1F128
+</note>
+  <outline>
+    <contour>
+      <point x="641" y="-51" type="curve"/>
+      <point x="777" y="-51" type="line"/>
+      <point x="870" y="61"/>
+      <point x="916" y="195"/>
+      <point x="916" y="352" type="curve" smooth="yes"/>
+      <point x="916" y="509"/>
+      <point x="870" y="646"/>
+      <point x="778" y="762" type="curve"/>
+      <point x="641" y="762" type="line"/>
+      <point x="738" y="625"/>
+      <point x="789" y="479"/>
+      <point x="789" y="353" type="curve" smooth="yes"/>
+      <point x="789" y="223"/>
+      <point x="739" y="87"/>
+    </contour>
+    <contour>
+      <point x="223" y="-51" type="curve"/>
+      <point x="360" y="-51" type="line"/>
+      <point x="261" y="87"/>
+      <point x="212" y="223"/>
+      <point x="212" y="353" type="curve" smooth="yes"/>
+      <point x="212" y="479"/>
+      <point x="263" y="625"/>
+      <point x="360" y="762" type="curve"/>
+      <point x="223" y="762" type="line"/>
+      <point x="131" y="646"/>
+      <point x="85" y="509"/>
+      <point x="85" y="352" type="curve" smooth="yes"/>
+      <point x="85" y="195"/>
+      <point x="131" y="61"/>
+    </contour>
+    <contour>
+      <point x="454" y="188" type="line"/>
+      <point x="546" y="188" type="line"/>
+      <point x="546" y="320" type="line"/>
+      <point x="657" y="525" type="line"/>
+      <point x="558" y="525" type="line"/>
+      <point x="500" y="400" type="line"/>
+      <point x="442" y="525" type="line"/>
+      <point x="343" y="525" type="line"/>
+      <point x="454" y="317" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/03/23 19:34:49</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,34 @@
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+languagesystem hebr dflt;
+
+
+feature dlig {
+# automatic
+sub vav-hb vav-hb by vavvav-hb;
+sub yod-hb vav-hb by vavyod-hb;
+sub yod-hb yod-hb by yodyod-hb;
+sub alef-hb lamed-hb by aleflamed-hb;
+
+} dlig;
+
+feature ccmp {
+sub hatafsegol-hb uni200D siluqleft-hb by hatafsegol_zerowidthjoiner_siluqleft-hb;
+sub hatafpatah-hb uni200D siluqleft-hb by hatafpatah_zerowidthjoiner_siluqleft-hb;
+sub hatafqamats-hb uni200D siluqleft-hb by hatafqamats_zerowidthjoiner_siluqleft-hb;
+
+} ccmp;
+
+table GDEF {
+  # automatic
+  GlyphClassDef
+    [alef-hb alefpatah-hb alefqamats-hb alefdagesh-hb bet-hb betdagesh-hb betrafe-hb gimel-hb gimeldagesh-hb dalet-hb daletdagesh-hb he-hb hedagesh-hb vav-hb vavdagesh-hb vavholam-hb zayin-hb zayindagesh-hb het-hb tet-hb tetdagesh-hb yod-hb yoddagesh-hb finalkaf-hb finalkafdagesh-hb kaf-hb kafdagesh-hb kafrafe-hb lamed-hb lameddagesh-hb finalmem-hb mem-hb memdagesh-hb finalnun-hb nun-hb nundagesh-hb samekh-hb samekhdagesh-hb ayin-hb finalpe-hb finalpedagesh-hb pe-hb pedagesh-hb perafe-hb finaltsadi-hb tsadi-hb tsadidagesh-hb qof-hb qofdagesh-hb resh-hb reshdagesh-hb shin-hb shinshindot-hb shinsindot-hb shindageshshindot-hb shindageshsindot-hb shindagesh-hb tav-hb tavdagesh-hb yodhiriq-hb yodyodpatah-hb ayinaltone-hb], # Base
+    [vavvav-hb vavyod-hb yodyod-hb aleflamed-hb], # Liga
+    [shindot-hb etnahtaleft-hb segolta-hb shalshelet-hb zaqefqatan-hb zaqefgadol-hb tipehaleft-hb reviamugrash-hb zarqa-hb pashta-hb yetiv-hb tevirleft-hb gereshaccent-hb gereshmuqdam-hb gershayimaccent-hb qarneypara-hb telishagedola-hb pazer-hb atnahhafukh-hb munahleft-hb mahapakhleft-hb merkhaleft-hb merkhakefulaleft-hb dargaleft-hb qadma-hb telishaqetana-hb yerahbenyomoleft-hb ole-hb iluy-hb dehi-hb zinor-hb masoracircle-hb sheva-hb hatafsegol-hb hatafsegol_zerowidthjoiner_siluqleft-hb hatafpatah-hb hatafpatah_zerowidthjoiner_siluqleft-hb hatafqamats-hb hatafqamats_zerowidthjoiner_siluqleft-hb hiriq-hb tsere-hb segol-hb patah-hb qamats-hb holam-hb holamhaser-hb qubuts-hb dagesh-hb siluqleft-hb rafe-hb sindot-hb upperdot-hb lowerdot-hb qamatsqatan-hb judeospanishvarika-hb], # Mark
+    ;
+  LigatureCaretByPos aleflamed-hb 213;
+  LigatureCaretByPos vavvav-hb 206;
+  LigatureCaretByPos vavyod-hb 191;
+  LigatureCaretByPos yodyod-hb 176;
+} GDEF;

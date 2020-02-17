@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hoa.eth" format="2">
+  <advance width="808"/>
+  <unicode hex="1207"/>
+  <note>
+uni1207
+</note>
+  <anchor x="401" y="724" name="top"/>
+  <outline>
+    <component base="ho.eth" xOffset="98"/>
+    <component base="leftdoubleflag" yOffset="302"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>leftdoubleflag</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>baselinebowl</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/08/29 14:43:55</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

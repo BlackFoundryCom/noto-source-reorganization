@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Visarga" format="2">
+  <advance width="293"/>
+  <unicode hex="11182"/>
+  <outline>
+    <contour>
+      <point x="147" y="379" type="curve" smooth="yes"/>
+      <point x="183" y="379"/>
+      <point x="213" y="409"/>
+      <point x="213" y="448" type="curve" smooth="yes"/>
+      <point x="213" y="486"/>
+      <point x="183" y="517"/>
+      <point x="147" y="517" type="curve" smooth="yes"/>
+      <point x="111" y="517"/>
+      <point x="80" y="486"/>
+      <point x="80" y="448" type="curve" smooth="yes"/>
+      <point x="80" y="409"/>
+      <point x="111" y="379"/>
+    </contour>
+    <contour>
+      <point x="147" y="49" type="curve" smooth="yes"/>
+      <point x="183" y="49"/>
+      <point x="213" y="79"/>
+      <point x="213" y="118" type="curve" smooth="yes"/>
+      <point x="213" y="156"/>
+      <point x="183" y="187"/>
+      <point x="147" y="187" type="curve" smooth="yes"/>
+      <point x="111" y="187"/>
+      <point x="80" y="156"/>
+      <point x="80" y="118" type="curve" smooth="yes"/>
+      <point x="80" y="79"/>
+      <point x="111" y="49"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/02/27 14:35:13</string>
+    </dict>
+  </lib>
+</glyph>

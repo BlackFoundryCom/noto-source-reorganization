@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="n_da_gran" format="2">
+  <advance width="854"/>
+  <outline>
+    <contour>
+      <point x="80" y="0" type="line"/>
+      <point x="166" y="0" type="line"/>
+      <point x="166" y="494" type="line"/>
+      <point x="340" y="494" type="line"/>
+      <point x="340" y="59" type="line"/>
+      <point x="426" y="59" type="line"/>
+      <point x="426" y="494" type="line"/>
+      <point x="601" y="494" type="line"/>
+      <point x="601" y="566" type="line"/>
+      <point x="80" y="566" type="line"/>
+    </contour>
+    <contour>
+      <point x="414" y="277" type="curve"/>
+      <point x="422" y="205" type="line"/>
+      <point x="447" y="230"/>
+      <point x="489" y="257"/>
+      <point x="547" y="257" type="curve" smooth="yes"/>
+      <point x="597" y="257"/>
+      <point x="680" y="236"/>
+      <point x="680" y="130" type="curve" smooth="yes"/>
+      <point x="680" y="65"/>
+      <point x="649" y="-14"/>
+      <point x="467" y="-31" type="curve" smooth="yes"/>
+      <point x="390" y="-38" type="line" smooth="yes"/>
+      <point x="269" y="-49"/>
+      <point x="226" y="-90"/>
+      <point x="226" y="-150" type="curve" smooth="yes"/>
+      <point x="226" y="-203"/>
+      <point x="261" y="-248"/>
+      <point x="355" y="-248" type="curve" smooth="yes"/>
+      <point x="854" y="-248" type="line"/>
+      <point x="854" y="-176" type="line"/>
+      <point x="365" y="-176" type="line" smooth="yes"/>
+      <point x="319" y="-176"/>
+      <point x="310" y="-161"/>
+      <point x="310" y="-148" type="curve" smooth="yes"/>
+      <point x="310" y="-128"/>
+      <point x="331" y="-115"/>
+      <point x="393" y="-109" type="curve" smooth="yes"/>
+      <point x="473" y="-101" type="line" smooth="yes"/>
+      <point x="647" y="-84"/>
+      <point x="766" y="-18"/>
+      <point x="766" y="132" type="curve" smooth="yes"/>
+      <point x="766" y="256"/>
+      <point x="682" y="330"/>
+      <point x="562" y="330" type="curve" smooth="yes"/>
+      <point x="496" y="330"/>
+      <point x="448" y="306"/>
+    </contour>
+    <contour>
+      <point x="552" y="-199" type="line"/>
+      <point x="552" y="-423" type="line"/>
+      <point x="638" y="-423" type="line"/>
+      <point x="638" y="-199" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ya_gran</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/09/18 15:39:55</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gran</string>
+    </dict>
+  </lib>
+</glyph>

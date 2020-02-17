@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sha_virama_gran.liga" format="2">
+  <advance width="1104"/>
+  <note>
+sh_virlig
+</note>
+  <outline>
+    <contour>
+      <point x="452" y="554" type="line"/>
+      <point x="452" y="500" type="line"/>
+      <point x="657" y="500" type="line" smooth="yes"/>
+      <point x="824" y="500"/>
+      <point x="973" y="394"/>
+      <point x="973" y="236" type="curve" smooth="yes"/>
+      <point x="973" y="127"/>
+      <point x="911" y="54"/>
+      <point x="846" y="54" type="curve" smooth="yes"/>
+      <point x="784" y="54"/>
+      <point x="739" y="121"/>
+      <point x="739" y="215" type="curve" smooth="yes"/>
+      <point x="739" y="378"/>
+      <point x="860" y="454"/>
+      <point x="860" y="640" type="curve" smooth="yes"/>
+      <point x="860" y="706"/>
+      <point x="845" y="782"/>
+      <point x="808" y="863" type="curve"/>
+      <point x="751" y="843" type="line"/>
+      <point x="790" y="760"/>
+      <point x="798" y="695"/>
+      <point x="798" y="653" type="curve" smooth="yes"/>
+      <point x="798" y="466"/>
+      <point x="644" y="394"/>
+      <point x="644" y="217" type="curve" smooth="yes"/>
+      <point x="644" y="76"/>
+      <point x="733" y="-5"/>
+      <point x="835" y="-5" type="curve" smooth="yes"/>
+      <point x="948" y="-5"/>
+      <point x="1034" y="94"/>
+      <point x="1034" y="239" type="curve" smooth="yes"/>
+      <point x="1034" y="428"/>
+      <point x="852" y="554"/>
+      <point x="682" y="554" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="409" y="554" type="line"/>
+      <point x="409" y="210" type="line" smooth="yes"/>
+      <point x="409" y="76"/>
+      <point x="350" y="54"/>
+      <point x="290" y="54" type="curve" smooth="yes"/>
+      <point x="233" y="54"/>
+      <point x="175" y="87"/>
+      <point x="175" y="196" type="curve" smooth="yes"/>
+      <point x="175" y="554" type="line"/>
+      <point x="80" y="554" type="line"/>
+      <point x="80" y="195" type="line" smooth="yes"/>
+      <point x="80" y="50"/>
+      <point x="177" y="-5"/>
+      <point x="280" y="-5" type="curve" smooth="yes"/>
+      <point x="382" y="-5"/>
+      <point x="470" y="47"/>
+      <point x="470" y="210" type="curve" smooth="yes"/>
+      <point x="470" y="554" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>sha_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ttha_gran</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/11 14:29:51</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gran</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="feh_khah_meem-ar.init" format="2">
+  <advance width="1316"/>
+  <unicode hex="FD7D"/>
+  <anchor x="947" y="0" name="caret_1"/>
+  <anchor x="490" y="0" name="caret_2"/>
+  <anchor x="1103" y="-20" name="bottom_1"/>
+  <anchor x="697" y="0" name="bottom_2"/>
+  <anchor x="239" y="0" name="bottom_3"/>
+  <anchor x="1119" y="628" name="top_1"/>
+  <anchor x="629" y="479" name="top_2"/>
+  <anchor x="282" y="362" name="top_3"/>
+  <outline>
+    <component base="feh-ar.init" xOffset="947"/>
+    <component base="khah-ar.medi" xOffset="490"/>
+    <component base="meem-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>feh-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>meem-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:40</string>
+    </dict>
+  </lib>
+</glyph>

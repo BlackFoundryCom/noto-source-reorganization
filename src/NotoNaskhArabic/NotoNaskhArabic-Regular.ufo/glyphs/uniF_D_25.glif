@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFD25" format="2">
+  <advance width="1326"/>
+  <unicode hex="FD25"/>
+  <anchor x="997" y="-52" name="bottom_1"/>
+  <anchor x="321" y="-334" name="bottom_2"/>
+  <anchor x="1014" y="330" name="top_1"/>
+  <anchor x="342" y="408" name="top_2"/>
+  <outline>
+    <component base="uniFEB4" xOffset="664"/>
+    <component base="uniFBB6" xOffset="794" yOffset="41"/>
+    <component base="uniFEA2"/>
+    <component base="uniFBB3" xOffset="150" yOffset="111"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/18 13:40:33</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

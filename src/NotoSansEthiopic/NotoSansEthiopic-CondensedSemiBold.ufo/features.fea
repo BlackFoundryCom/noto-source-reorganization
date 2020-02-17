@@ -1,0 +1,47 @@
+@Standard = [ one.eth two.eth three.eth four.eth five.eth six.eth seven.eth eight.eth nine.eth ten.eth twenty.eth thirty.eth forty.eth fifty.eth sixty.eth seventy.eth eighty.eth ninety.eth hundred.eth tenthousand.eth ];
+
+@Medial = [ oneMed.eth twoMed.eth threeMed.eth fourMed.eth fiveMed.eth sixMed.eth sevenMed.eth eightMed.eth nineMed.eth tenMed.eth twentyMed.eth thirtyMed.eth fortyMed.eth fiftyMed.eth sixtyMed.eth seventyMed.eth eightyMed.eth ninetyMed.eth hundredMed.eth tenthousandMed.eth  ];
+
+@InitialMedial = [ oneIni.eth twoIni.eth threeIni.eth fourIni.eth fiveIni.eth sixIni.eth sevenIni.eth eightIni.eth nineIni.eth tenIni.eth twentyIni.eth thirtyIni.eth fortyIni.eth fiftyIni.eth sixtyIni.eth seventyIni.eth eightyIni.eth ninetyIni.eth hundredIni.eth tenthousandIni.eth oneMed.eth twoMed.eth threeMed.eth fourMed.eth fiveMed.eth sixMed.eth sevenMed.eth eightMed.eth nineMed.eth tenMed.eth twentyMed.eth thirtyMed.eth fortyMed.eth fiftyMed.eth sixtyMed.eth seventyMed.eth eightyMed.eth ninetyMed.eth hundredMed.eth tenthousandMed.eth ];
+
+@StandardMedial = [ one.eth two.eth three.eth four.eth five.eth six.eth seven.eth eight.eth nine.eth ten.eth twenty.eth thirty.eth forty.eth fifty.eth sixty.eth seventy.eth eighty.eth ninety.eth hundred.eth tenthousand.eth oneMed.eth twoMed.eth threeMed.eth fourMed.eth fiveMed.eth sixMed.eth sevenMed.eth eightMed.eth nineMed.eth tenMed.eth twentyMed.eth thirtyMed.eth fortyMed.eth fiftyMed.eth sixtyMed.eth seventyMed.eth eightyMed.eth ninetyMed.eth hundredMed.eth tenthousandMed.eth ];
+
+@Final = [ oneFin.eth twoFin.eth threeFin.eth fourFin.eth fiveFin.eth sixFin.eth sevenFin.eth eightFin.eth nineFin.eth tenFin.eth twentyFin.eth thirtyFin.eth fortyFin.eth fiftyFin.eth sixtyFin.eth seventyFin.eth eightyFin.eth ninetyFin.eth hundredFin.eth tenthousandFin.eth ];
+
+@Initial = [ oneIni.eth twoIni.eth threeIni.eth fourIni.eth fiveIni.eth sixIni.eth sevenIni.eth eightIni.eth nineIni.eth tenIni.eth twentyIni.eth thirtyIni.eth fortyIni.eth fiftyIni.eth sixtyIni.eth seventyIni.eth eightyIni.eth ninetyIni.eth hundredIni.eth tenthousandIni.eth ];
+
+# Prefix: Languagesystems
+languagesystem DFLT dflt;
+languagesystem ethi dflt;
+
+
+feature aalt {
+# automatic
+feature calt;
+
+} aalt;
+
+feature calt {
+lookup StandardMedial {
+    sub @Standard @Standard' @Standard by @Medial;
+    sub @Medial @Standard' @Standard by @Medial;
+} StandardMedial;
+
+lookup Initial {
+    sub @Standard' @StandardMedial by @Initial;
+} Initial;
+
+lookup Final {
+    sub @InitialMedial @Standard' by @Final;
+} Final;
+
+} calt;
+
+table GDEF {
+  # automatic
+  GlyphClassDef
+    [mu.eth nu.eth xi.eth pi.eth phi.eth chi.eth sho.eth ha.eth hu.eth hi.eth haa.eth hee.eth ho.eth hoa.eth la.eth lu.eth li.eth laa.eth lee.eth le.eth lo.eth lwa.eth hha.eth hhu.eth hhi.eth hhaa.eth hhee.eth hhe.eth hho.eth hhwa.eth ma.eth mi.eth maa.eth mee.eth me.eth mo.eth mwa.eth sza.eth szu.eth szi.eth szaa.eth szee.eth sze.eth szo.eth szwa.eth ra.eth ru.eth ri.eth raa.eth ree.eth re.eth ro.eth rwa.eth sa.eth su.eth si.eth saa.eth see.eth se.eth so.eth swa.eth sha.eth shu.eth shi.eth shaa.eth shee.eth she.eth shwa.eth qa.eth qu.eth qi.eth qaa.eth qee.eth qe.eth qo.eth qoa.eth qwa.eth qwi.eth qwaa.eth qwee.eth qwe.eth qha.eth qhu.eth qhi.eth qhaa.eth qhee.eth qhe.eth qho.eth qhwa.eth qhwi.eth qhwaa.eth qhwee.eth qhwe.eth ba.eth bu.eth bi.eth baa.eth bee.eth be.eth bo.eth bwa.eth va.eth vu.eth vi.eth vaa.eth vee.eth ve.eth vo.eth vwa.eth ta.eth tu.eth ti.eth taa.eth tee.eth te.eth to.eth twa.eth ca.eth cu.eth ci.eth caa.eth cee.eth ce.eth co.eth cwa.eth xa.eth xu.eth xaa.eth xee.eth xe.eth xo.eth xoa.eth xwa.eth xwi.eth xwaa.eth xwee.eth xwe.eth na.eth ni.eth naa.eth nee.eth ne.eth no.eth nwa.eth nya.eth nyu.eth nyi.eth nyaa.eth nyee.eth nye.eth nyo.eth nywa.eth aGlottal.eth uGlottal.eth iGlottal.eth aaGlottal.eth eeGlottal.eth eGlottal.eth oGlottal.eth waGlottal.eth ka.eth ku.eth ki.eth kaa.eth kee.eth ke.eth ko.eth koa.eth kwa.eth kwi.eth kwaa.eth kwee.eth kwe.eth kxa.eth kxu.eth kxi.eth kxaa.eth kxee.eth kxe.eth kxo.eth kxwa.eth kxwi.eth kxwaa.eth kxwee.eth kxwe.eth wa.eth wu.eth wi.eth waa.eth wee.eth we.eth wo.eth woa.eth aPhr.eth uPhr.eth iPhr.eth aaPhr.eth eePhr.eth ePhr.eth oPhr.eth za.eth zu.eth zi.eth zaa.eth zee.eth ze.eth zo.eth zwa.eth zha.eth zhu.eth zhi.eth zhaa.eth zhee.eth zhe.eth zho.eth zhwa.eth ya.eth yu.eth yi.eth yaa.eth yee.eth ye.eth yo.eth yoa.eth da.eth du.eth di.eth daa.eth dee.eth de.eth do.eth dwa.eth dda.eth ddu.eth ddi.eth ddaa.eth ddee.eth dde.eth ddo.eth ddwa.eth ja.eth ju.eth ji.eth jaa.eth jee.eth je.eth jo.eth jwa.eth ga.eth gu.eth gi.eth gaa.eth gee.eth ge.eth go.eth goa.eth gwa.eth gwi.eth gwaa.eth gwee.eth gwe.eth gga.eth ggu.eth ggi.eth ggaa.eth ggee.eth gge.eth ggo.eth ggwaa.eth tha.eth thu.eth thi.eth thaa.eth thee.eth the.eth tho.eth thwa.eth cha.eth chu.eth chaa.eth chee.eth che.eth cho.eth chwa.eth pha.eth phu.eth phaa.eth phee.eth phe.eth pho.eth phwa.eth tsa.eth tsu.eth tsi.eth tsaa.eth tsee.eth tse.eth tso.eth tswa.eth tza.eth tzu.eth tzi.eth tzaa.eth tzee.eth tze.eth tzo.eth tzoa.eth fa.eth fu.eth faa.eth fee.eth fe.eth fo.eth fwa.eth pa.eth pu.eth paa.eth pee.eth po.eth pwa.eth rya.eth mya.eth fya.eth mwaSebatbeit.eth mwi.eth mwee.eth mwe.eth bwaSebatbeit.eth bwi.eth bwee.eth bwe.eth fwaSebatbeit.eth fwi.eth fwee.eth fwe.eth pwaSebatbeit.eth pwi.eth pwee.eth pwe.eth loa.eth moa.eth roa.eth soa.eth shoa.eth boa.eth toa.eth coa.eth noa.eth nyoa.eth oaGlottal.eth zoa.eth doa.eth ddoa.eth joa.eth thoa.eth choa.eth phoa.eth poa.eth ggwa.eth ggwi.eth ggwee.eth ggwe.eth ssa.eth ssu.eth ssi.eth ssaa.eth ssee.eth sse.eth sso.eth cca.eth ccu.eth cci.eth ccaa.eth ccee.eth cce.eth cco.eth zza.eth zzu.eth zzi.eth zzaa.eth zzee.eth zze.eth zzo.eth ccha.eth cchu.eth cchi.eth cchaa.eth cchee.eth cche.eth ccho.eth qya.eth qyu.eth qyi.eth qyaa.eth qyee.eth qye.eth qyo.eth kya.eth kyu.eth kyi.eth kyaa.eth kyee.eth kye.eth kyo.eth xya.eth xyu.eth xyi.eth xyaa.eth xyee.eth xye.eth xyo.eth gya.eth gyu.eth gyi.eth gyaa.eth gyee.eth gye.eth gyo.eth tthu.eth tthi.eth tthaa.eth tthee.eth tthe.eth ttho.eth ddhu.eth ddhi.eth ddhaa.eth ddhee.eth ddhe.eth ddho.eth dzu.eth dzi.eth dzaa.eth dzee.eth dze.eth dzo.eth cchha.eth cchhu.eth cchhi.eth cchhaa.eth cchhee.eth cchhe.eth cchho.eth bba.eth bbu.eth bbi.eth bbaa.eth bbee.eth bbe.eth bbo.eth fi.eth he.eth pe.eth uni25CC], # Base
+    , # Liga
+    [dieresiscomb dblverticallineabovecomb geminVowellengthcomb-ethiopic geminationcomb-ethiopic vowellengthcomb-ethiopic], # Mark
+    ;
+} GDEF;

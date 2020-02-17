@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="teh_hah_jeem-ar.fina" format="2">
+  <advance width="1659"/>
+  <unicode hex="FD51"/>
+  <anchor x="1286" y="0" name="caret_1"/>
+  <anchor x="649" y="0" name="caret_2"/>
+  <anchor x="1466" y="-5" name="bottom_1"/>
+  <anchor x="910" y="0" name="bottom_2"/>
+  <anchor x="360" y="-271" name="bottom_3"/>
+  <anchor x="310" y="32" name="center"/>
+  <anchor x="1487" y="485" name="top_1"/>
+  <anchor x="805" y="352" name="top_2"/>
+  <anchor x="311" y="496" name="top_3"/>
+  <outline>
+    <component base="teh-ar.medi" xOffset="1286"/>
+    <component base="hah-ar.medi" xOffset="649"/>
+    <component base="jeem-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>teh-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>jeem-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:39</string>
+    </dict>
+  </lib>
+</glyph>

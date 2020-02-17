@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tah_hah-ar.init" format="2">
+  <advance width="1285"/>
+  <unicode hex="FCB8"/>
+  <anchor x="592" y="0" name="caret_1"/>
+  <anchor x="917" y="-4" name="bottom_1"/>
+  <anchor x="299" y="0" name="bottom_2"/>
+  <anchor x="1095" y="486" name="top_1"/>
+  <anchor x="181" y="503" name="top_2"/>
+  <outline>
+    <component base="tah-ar.init" xOffset="592"/>
+    <component base="hah-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>tah-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>hah-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:40</string>
+    </dict>
+  </lib>
+</glyph>

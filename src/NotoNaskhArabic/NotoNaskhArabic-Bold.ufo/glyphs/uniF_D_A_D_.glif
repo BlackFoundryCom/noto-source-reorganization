@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFDAD" format="2">
+  <advance width="1348"/>
+  <unicode hex="FDAD"/>
+  <anchor x="1226" y="-58" name="bottom_1"/>
+  <anchor x="927" y="-58" name="bottom_2"/>
+  <anchor x="286" y="-301" name="bottom_3"/>
+  <anchor x="1182" y="729" name="top_1"/>
+  <anchor x="895" y="439" name="top_2"/>
+  <anchor x="335" y="231" name="top_3"/>
+  <outline>
+    <component base="uniFEE0" xOffset="1103"/>
+    <component base="uniFEE4" xOffset="690"/>
+    <component base="uniFEF0"/>
+    <component base="uniFBB5" xOffset="102" yOffset="-221"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/18 13:40:33</string>
+    </dict>
+  </lib>
+</glyph>

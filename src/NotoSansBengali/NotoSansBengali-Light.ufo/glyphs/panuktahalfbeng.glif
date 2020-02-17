@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="panuktahalfbeng" format="2">
+  <advance width="658"/>
+  <outline>
+    <component base="pabeng"/>
+    <component base="viramabeng" xOffset="658"/>
+    <component base="nuktabeng" xOffset="581" yOffset="150"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/07/07 09:19:29</string>
+    </dict>
+  </lib>
+</glyph>

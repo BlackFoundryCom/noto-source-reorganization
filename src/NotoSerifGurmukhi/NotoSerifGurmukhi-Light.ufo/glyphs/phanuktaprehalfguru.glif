@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="phanuktaprehalfguru" format="2">
+  <advance width="595"/>
+  <note>
+phanuktaprehalfguru
+</note>
+  <anchor x="460" y="0" name="bottom"/>
+  <anchor x="456" y="622" name="top"/>
+  <outline>
+    <component base="phanuktaguru"/>
+    <component base="halantguru" xOffset="485"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/21 14:37:48</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dalRing-ar.fina" format="2">
+  <advance width="532"/>
+  <anchor x="214" y="-135" name="bottom"/>
+  <anchor x="281" y="475" name="top"/>
+  <outline>
+    <component base="dal-ar.fina"/>
+    <component base="ringArabic" xOffset="105" yOffset="-125"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/14 20:15:59</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcheh-ar.fina" format="2">
+  <advance width="821"/>
+  <unicode hex="FB7B"/>
+  <anchor x="361" y="620" name="top"/>
+  <anchor x="418" y="-271" name="bottom"/>
+  <anchor x="395" y="73" name="center"/>
+  <outline>
+    <component base="hah-ar.fina.wide"/>
+    <component base="threedotsdownabove-ar.small" xOffset="250" yOffset="-603"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:35</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

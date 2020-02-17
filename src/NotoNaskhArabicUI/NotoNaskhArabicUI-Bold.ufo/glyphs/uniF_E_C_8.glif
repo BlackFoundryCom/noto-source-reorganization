@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFEC8" format="2">
+  <advance width="706"/>
+  <unicode hex="FEC8"/>
+  <anchor x="342" y="77" name="bottom"/>
+  <anchor x="421" y="766" name="top"/>
+  <outline>
+    <component base="uniFEC4"/>
+    <component base="uniFBB2" xOffset="227" yOffset="101"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 11:43:00</string>
+    </dict>
+  </lib>
+</glyph>

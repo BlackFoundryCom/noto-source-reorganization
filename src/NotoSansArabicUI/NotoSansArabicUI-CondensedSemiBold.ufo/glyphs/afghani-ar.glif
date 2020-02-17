@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afghani-ar" format="2">
+  <advance width="435"/>
+  <unicode hex="060B"/>
+  <anchor x="186" y="-243" name="bottom"/>
+  <anchor x="219" y="732" name="top"/>
+  <outline>
+    <component base="dotlessfeh-ar.init"/>
+    <component base="dotabove-ar" xOffset="129" yOffset="110"/>
+    <component base="alefbelow-ar" xOffset="96" yOffset="-19"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:42</string>
+    </dict>
+  </lib>
+</glyph>

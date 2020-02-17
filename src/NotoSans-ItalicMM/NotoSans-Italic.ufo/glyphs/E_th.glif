@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eth" format="2">
+  <advance width="667"/>
+  <unicode hex="00D0"/>
+  <anchor x="277" y="0" name="bottom"/>
+  <anchor x="429" y="714" name="top"/>
+  <outline>
+    <contour>
+      <point x="41" y="0" type="line"/>
+      <point x="217" y="0" type="line" smooth="yes"/>
+      <point x="487" y="0"/>
+      <point x="636" y="181"/>
+      <point x="636" y="429" type="curve"/>
+      <point x="636" y="622"/>
+      <point x="533" y="714"/>
+      <point x="361" y="714" type="curve"/>
+      <point x="192" y="714" type="line"/>
+      <point x="123" y="392" type="line"/>
+      <point x="50" y="392" type="line"/>
+      <point x="33" y="315" type="line"/>
+      <point x="106" y="315" type="line"/>
+    </contour>
+    <contour>
+      <point x="146" y="77" type="line"/>
+      <point x="196" y="315" type="line"/>
+      <point x="353" y="315" type="line"/>
+      <point x="370" y="392" type="line"/>
+      <point x="213" y="392" type="line"/>
+      <point x="265" y="637" type="line"/>
+      <point x="350" y="637" type="line" smooth="yes"/>
+      <point x="466" y="637"/>
+      <point x="542" y="576"/>
+      <point x="542" y="430" type="curve"/>
+      <point x="542" y="231"/>
+      <point x="429" y="77"/>
+      <point x="222" y="77" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/06 15:55:24</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

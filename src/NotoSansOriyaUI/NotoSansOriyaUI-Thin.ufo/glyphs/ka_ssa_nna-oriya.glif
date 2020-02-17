@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ka_ssa_nna-oriya" format="2">
+  <advance width="774"/>
+  <note>
+kassannaorya
+</note>
+  <guideline x="612" y="502" angle="90"/>
+  <guideline x="724" y="502" angle="90"/>
+  <anchor x="599" y="203" name="bottom"/>
+  <anchor x="319" y="751" name="top"/>
+  <anchor x="599" y="751" name="topright"/>
+  <outline>
+    <component base="nna-oriya.below" xOffset="364"/>
+    <component base="ka_ssa-oriya.base"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ka_ssa-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>nna-oriya.below</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/06 18:24:06</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

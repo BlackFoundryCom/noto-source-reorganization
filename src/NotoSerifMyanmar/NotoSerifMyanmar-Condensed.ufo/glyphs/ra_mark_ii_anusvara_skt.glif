@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ra_mark_ii_anusvara_skt" format="2">
+  <outline>
+    <contour>
+      <point x="-199" y="698" type="line"/>
+      <point x="-199" y="789" type="line" smooth="yes"/>
+      <point x="-199" y="817"/>
+      <point x="-210" y="832"/>
+      <point x="-244" y="832" type="curve" smooth="yes"/>
+      <point x="-277" y="832"/>
+      <point x="-289" y="817"/>
+      <point x="-289" y="789" type="curve" smooth="yes"/>
+      <point x="-289" y="698" type="line"/>
+      <point x="-267" y="698" type="line"/>
+      <point x="-267" y="763" type="line" smooth="yes"/>
+      <point x="-267" y="782"/>
+      <point x="-260" y="786"/>
+      <point x="-249" y="786" type="curve" smooth="yes"/>
+      <point x="-239" y="786" type="line" smooth="yes"/>
+      <point x="-228" y="786"/>
+      <point x="-221" y="782"/>
+      <point x="-221" y="763" type="curve" smooth="yes"/>
+      <point x="-221" y="698" type="line"/>
+    </contour>
+    <component base="ra_mark_i_anusvara_skt"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+    </dict>
+  </lib>
+</glyph>

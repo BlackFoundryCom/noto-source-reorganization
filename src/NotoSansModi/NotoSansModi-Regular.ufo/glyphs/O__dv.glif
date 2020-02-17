@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="O_dv" format="2">
+  <advance width="240"/>
+  <unicode hex="1163B"/>
+  <outline>
+    <contour>
+      <point x="160" y="0" type="line"/>
+      <point x="160" y="551" type="line"/>
+      <point x="250" y="551" type="line"/>
+      <point x="250" y="622" type="line"/>
+      <point x="0" y="622" type="line"/>
+      <point x="0" y="551" type="line"/>
+      <point x="80" y="551" type="line"/>
+      <point x="80" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="-185" y="848" type="curve"/>
+      <point x="-166" y="781" type="line"/>
+      <point x="11" y="771"/>
+      <point x="53" y="694"/>
+      <point x="79" y="615" type="curve"/>
+      <point x="161" y="615" type="line"/>
+      <point x="136" y="717"/>
+      <point x="55" y="848"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/08/06 13:07:05</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ta-ethiopic" format="2">
+  <advance width="522"/>
+  <unicode hex="1270"/>
+  <note>
+uni1270
+</note>
+  <anchor x="261" y="718" name="top"/>
+  <outline>
+    <component base="stem1" xOffset="124"/>
+    <component base="footmiddle" xOffset="-10" yOffset="486"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=leftsingleflag-10</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/06/27 13:53:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

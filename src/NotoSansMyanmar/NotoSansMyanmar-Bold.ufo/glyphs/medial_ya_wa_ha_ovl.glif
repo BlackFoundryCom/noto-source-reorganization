@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="medial_ya_wa_ha_ovl" format="2">
+  <advance width="325"/>
+  <note>
+medial_ya_wa_ha_ovl
+</note>
+  <outline>
+    <contour>
+      <point x="256" y="-539" type="line"/>
+      <point x="256" y="553" type="line"/>
+      <point x="69" y="553" type="line"/>
+      <point x="69" y="-336" type="line"/>
+      <point x="-190" y="-247" type="line"/>
+      <point x="-226" y="-373" type="line"/>
+    </contour>
+    <contour>
+      <point x="-690" y="-404" type="line"/>
+      <point x="-428" y="-281" type="line"/>
+      <point x="-448" y="-153" type="line"/>
+      <point x="-636" y="-251" type="line"/>
+      <point x="-685" y="-155" type="line"/>
+      <point x="-792" y="-217" type="line"/>
+    </contour>
+    <component base="medial_wa_ovl" xOffset="-24" yOffset="25"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/10/10 16:36:28</string>
+    </dict>
+  </lib>
+</glyph>

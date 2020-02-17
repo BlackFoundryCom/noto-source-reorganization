@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ddarayadeva" format="2">
+  <advance width="1020"/>
+  <outline>
+    <contour>
+      <point x="894" y="154" type="line"/>
+      <point x="894" y="0" type="line"/>
+      <point x="920" y="0" type="line"/>
+      <point x="920" y="596" type="line"/>
+      <point x="1035" y="596" type="line"/>
+      <point x="1035" y="622" type="line"/>
+      <point x="513" y="622" type="line"/>
+      <point x="513" y="596" type="line"/>
+      <point x="894" y="596" type="line"/>
+      <point x="894" y="163" type="line"/>
+      <point x="907" y="190" type="line"/>
+      <point x="865" y="148"/>
+      <point x="824" y="122"/>
+      <point x="758" y="122" type="curve" smooth="yes"/>
+      <point x="670" y="122"/>
+      <point x="623" y="169"/>
+      <point x="593" y="258" type="curve"/>
+      <point x="582" y="236" type="line"/>
+      <point x="684" y="257"/>
+      <point x="715" y="304"/>
+      <point x="715" y="362" type="curve" smooth="yes"/>
+      <point x="715" y="395"/>
+      <point x="703" y="422"/>
+      <point x="680" y="439" type="curve" smooth="yes"/>
+      <point x="657" y="456"/>
+      <point x="630" y="464"/>
+      <point x="561" y="464" type="curve" smooth="yes"/>
+      <point x="422" y="464" type="line"/>
+      <point x="424" y="438" type="line"/>
+      <point x="559" y="438" type="line" smooth="yes"/>
+      <point x="621" y="438"/>
+      <point x="644" y="433"/>
+      <point x="663" y="419" type="curve" smooth="yes"/>
+      <point x="679" y="407"/>
+      <point x="688" y="387"/>
+      <point x="688" y="362" type="curve" smooth="yes"/>
+      <point x="688" y="308"/>
+      <point x="652" y="272"/>
+      <point x="564" y="259" type="curve"/>
+      <point x="605" y="143"/>
+      <point x="660" y="96"/>
+      <point x="758" y="96" type="curve" smooth="yes"/>
+      <point x="831" y="96"/>
+      <point x="873" y="126"/>
+      <point x="909" y="156" type="curve"/>
+    </contour>
+    <component base="ddadeva"/>
+    <component base="vattudeva" xOffset="498"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/04/14 12:18:31</string>
+    </dict>
+  </lib>
+</glyph>

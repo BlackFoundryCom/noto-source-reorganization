@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dalDotbelow-ar" format="2">
+  <advance width="468"/>
+  <unicode hex="068A"/>
+  <anchor x="215" y="-221" name="bottom"/>
+  <anchor x="160" y="538" name="top"/>
+  <outline>
+    <component base="dal-ar"/>
+    <component base="dotbelow-ar" xOffset="110" yOffset="-5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:35</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

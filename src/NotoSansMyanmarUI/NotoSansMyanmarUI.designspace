@@ -1,0 +1,1311 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400">
+      <map input="100" output="26"/>
+      <map input="200" output="39"/>
+      <map input="300" output="58"/>
+      <map input="400" output="90"/>
+      <map input="500" output="108"/>
+      <map input="600" output="128"/>
+      <map input="700" output="151"/>
+      <map input="800" output="169"/>
+      <map input="900" output="190"/>
+    </axis>
+    <axis tag="wdth" name="Width" minimum="62.500000" maximum="100" default="100">
+      <map input="62.500000" output="70"/>
+      <map input="75" output="79"/>
+      <map input="87.500000" output="89"/>
+      <map input="100" output="100"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="NotoSansMyanmarUI-Light.ufo" name="Noto Sans Myanmar UI Light" familyname="Noto Sans Myanmar UI" stylename="Light">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSansMyanmarUI-Regular.ufo" name="Noto Sans Myanmar UI Regular" familyname="Noto Sans Myanmar UI" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSansMyanmarUI-SemiBold.ufo" name="Noto Sans Myanmar UI SemiBold" familyname="Noto Sans Myanmar UI" stylename="SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSansMyanmarUI-Bold.ufo" name="Noto Sans Myanmar UI Bold" familyname="Noto Sans Myanmar UI" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSansMyanmarUI-CondensedLight.ufo" name="Noto Sans Myanmar UI Condensed Light" familyname="Noto Sans Myanmar UI" stylename="Condensed Light">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+    <source filename="NotoSansMyanmarUI-Condensed.ufo" name="Noto Sans Myanmar UI Condensed" familyname="Noto Sans Myanmar UI" stylename="Condensed">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+    <source filename="NotoSansMyanmarUI-CondensedSemiBold.ufo" name="Noto Sans Myanmar UI Condensed SemiBold" familyname="Noto Sans Myanmar UI" stylename="Condensed SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+    <source filename="NotoSansMyanmarUI-CondensedBold.ufo" name="Noto Sans Myanmar UI Condensed Bold" familyname="Noto Sans Myanmar UI" stylename="Condensed Bold">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Sans Myanmar UI Thin" familyname="Noto Sans Myanmar UI" stylename="Thin" filename="instance_ufos/NotoSansMyanmarUI-Thin.ufo" stylemapfamilyname="Noto Sans Myanmar UI Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI ExtraLight" familyname="Noto Sans Myanmar UI" stylename="ExtraLight" filename="instance_ufos/NotoSansMyanmarUI-ExtraLight.ufo" stylemapfamilyname="Noto Sans Myanmar UI ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="39"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>3</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI Light" familyname="Noto Sans Myanmar UI" stylename="Light" filename="instance_ufos/NotoSansMyanmarUI-Light.ufo" stylemapfamilyname="Noto Sans Myanmar UI Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI Regular" familyname="Noto Sans Myanmar UI" stylename="Regular" filename="instance_ufos/NotoSansMyanmarUI-Regular.ufo" stylemapfamilyname="Noto Sans Myanmar UI" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI Medium" familyname="Noto Sans Myanmar UI" stylename="Medium" filename="instance_ufos/NotoSansMyanmarUI-Medium.ufo" stylemapfamilyname="Noto Sans Myanmar UI Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI SemiBold" familyname="Noto Sans Myanmar UI" stylename="SemiBold" filename="instance_ufos/NotoSansMyanmarUI-SemiBold.ufo" stylemapfamilyname="Noto Sans Myanmar UI SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>7</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI Bold" familyname="Noto Sans Myanmar UI" stylename="Bold" filename="instance_ufos/NotoSansMyanmarUI-Bold.ufo" stylemapfamilyname="Noto Sans Myanmar UI" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>8</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI ExtraBold" familyname="Noto Sans Myanmar UI" stylename="ExtraBold" filename="instance_ufos/NotoSansMyanmarUI-ExtraBold.ufo" stylemapfamilyname="Noto Sans Myanmar UI ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI Black" familyname="Noto Sans Myanmar UI" stylename="Black" filename="instance_ufos/NotoSansMyanmarUI-Black.ufo" stylemapfamilyname="Noto Sans Myanmar UI Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>10</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI SemiCondensed Thin" familyname="Noto Sans Myanmar UI" stylename="SemiCondensed Thin" filename="instance_ufos/NotoSansMyanmarUI-SemiCondensedThin.ufo" stylemapfamilyname="Noto Sans Myanmar UI SemiCondensed Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI SemiCondensed ExtraLight" familyname="Noto Sans Myanmar UI" stylename="SemiCondensed ExtraLight" filename="instance_ufos/NotoSansMyanmarUI-SemiCondensedExtraLight.ufo" stylemapfamilyname="Noto Sans Myanmar UI SemiCondensed ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="39"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>3</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI SemiCondensed Light" familyname="Noto Sans Myanmar UI" stylename="SemiCondensed Light" filename="instance_ufos/NotoSansMyanmarUI-SemiCondensedLight.ufo" stylemapfamilyname="Noto Sans Myanmar UI SemiCondensed Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI SemiCondensed" familyname="Noto Sans Myanmar UI" stylename="SemiCondensed" filename="instance_ufos/NotoSansMyanmarUI-SemiCondensed.ufo" stylemapfamilyname="Noto Sans Myanmar UI SemiCondensed" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI SemiCondensed Medium" familyname="Noto Sans Myanmar UI" stylename="SemiCondensed Medium" filename="instance_ufos/NotoSansMyanmarUI-SemiCondensedMedium.ufo" stylemapfamilyname="Noto Sans Myanmar UI SemiCondensed Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI SemiCondensed SemiBold" familyname="Noto Sans Myanmar UI" stylename="SemiCondensed SemiBold" filename="instance_ufos/NotoSansMyanmarUI-SemiCondensedSemiBold.ufo" stylemapfamilyname="Noto Sans Myanmar UI SemiCondensed SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>7</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI SemiCondensed Bold" familyname="Noto Sans Myanmar UI" stylename="SemiCondensed Bold" filename="instance_ufos/NotoSansMyanmarUI-SemiCondensedBold.ufo" stylemapfamilyname="Noto Sans Myanmar UI SemiCondensed" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>8</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI SemiCondensed ExtraBold" familyname="Noto Sans Myanmar UI" stylename="SemiCondensed ExtraBold" filename="instance_ufos/NotoSansMyanmarUI-SemiCondensedExtraBold.ufo" stylemapfamilyname="Noto Sans Myanmar UI SemiCondensed ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI SemiCondensed Black" familyname="Noto Sans Myanmar UI" stylename="SemiCondensed Black" filename="instance_ufos/NotoSansMyanmarUI-SemiCondensedBlack.ufo" stylemapfamilyname="Noto Sans Myanmar UI SemiCondensed Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="89"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>10</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI Condensed Thin" familyname="Noto Sans Myanmar UI" stylename="Condensed Thin" filename="instance_ufos/NotoSansMyanmarUI-CondensedThin.ufo" stylemapfamilyname="Noto Sans Myanmar UI Condensed Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI Condensed ExtraLight" familyname="Noto Sans Myanmar UI" stylename="Condensed ExtraLight" filename="instance_ufos/NotoSansMyanmarUI-CondensedExtraLight.ufo" stylemapfamilyname="Noto Sans Myanmar UI Condensed ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="39"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>3</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI Condensed Light" familyname="Noto Sans Myanmar UI" stylename="Condensed Light" filename="instance_ufos/NotoSansMyanmarUI-CondensedLight.ufo" stylemapfamilyname="Noto Sans Myanmar UI Condensed Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>4</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI Condensed" familyname="Noto Sans Myanmar UI" stylename="Condensed" filename="instance_ufos/NotoSansMyanmarUI-Condensed.ufo" stylemapfamilyname="Noto Sans Myanmar UI Condensed" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI Condensed Medium" familyname="Noto Sans Myanmar UI" stylename="Condensed Medium" filename="instance_ufos/NotoSansMyanmarUI-CondensedMedium.ufo" stylemapfamilyname="Noto Sans Myanmar UI Condensed Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI Condensed SemiBold" familyname="Noto Sans Myanmar UI" stylename="Condensed SemiBold" filename="instance_ufos/NotoSansMyanmarUI-CondensedSemiBold.ufo" stylemapfamilyname="Noto Sans Myanmar UI Condensed SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>7</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI Condensed Bold" familyname="Noto Sans Myanmar UI" stylename="Condensed Bold" filename="instance_ufos/NotoSansMyanmarUI-CondensedBold.ufo" stylemapfamilyname="Noto Sans Myanmar UI Condensed" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>8</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI Condensed ExtraBold" familyname="Noto Sans Myanmar UI" stylename="Condensed ExtraBold" filename="instance_ufos/NotoSansMyanmarUI-CondensedExtraBold.ufo" stylemapfamilyname="Noto Sans Myanmar UI Condensed ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>9</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI Condensed Black" familyname="Noto Sans Myanmar UI" stylename="Condensed Black" filename="instance_ufos/NotoSansMyanmarUI-CondensedBlack.ufo" stylemapfamilyname="Noto Sans Myanmar UI Condensed Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="79"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>10</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI ExtraCondensed Thin" familyname="Noto Sans Myanmar UI" stylename="ExtraCondensed Thin" filename="instance_ufos/NotoSansMyanmarUI-ExtraCondensedThin.ufo" stylemapfamilyname="Noto Sans Myanmar UI ExtraCondensed Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI ExtraCondensed ExtraLight" familyname="Noto Sans Myanmar UI" stylename="ExtraCondensed ExtraLight" filename="instance_ufos/NotoSansMyanmarUI-ExtraCondensedExtraLight.ufo" stylemapfamilyname="Noto Sans Myanmar UI ExtraCondensed ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="39"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>3</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI ExtraCondensed Light" familyname="Noto Sans Myanmar UI" stylename="ExtraCondensed Light" filename="instance_ufos/NotoSansMyanmarUI-ExtraCondensedLight.ufo" stylemapfamilyname="Noto Sans Myanmar UI ExtraCondensed Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>4</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI ExtraCondensed" familyname="Noto Sans Myanmar UI" stylename="ExtraCondensed" filename="instance_ufos/NotoSansMyanmarUI-ExtraCondensed.ufo" stylemapfamilyname="Noto Sans Myanmar UI ExtraCondensed" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI ExtraCondensed Medium" familyname="Noto Sans Myanmar UI" stylename="ExtraCondensed Medium" filename="instance_ufos/NotoSansMyanmarUI-ExtraCondensedMedium.ufo" stylemapfamilyname="Noto Sans Myanmar UI ExtraCondensed Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI ExtraCondensed SemiBold" familyname="Noto Sans Myanmar UI" stylename="ExtraCondensed SemiBold" filename="instance_ufos/NotoSansMyanmarUI-ExtraCondensedSemiBold.ufo" stylemapfamilyname="Noto Sans Myanmar UI ExtraCondensed SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>7</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI ExtraCondensed Bold" familyname="Noto Sans Myanmar UI" stylename="ExtraCondensed Bold" filename="instance_ufos/NotoSansMyanmarUI-ExtraCondensedBold.ufo" stylemapfamilyname="Noto Sans Myanmar UI ExtraCondensed" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>8</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI ExtraCondensed ExtraBold" familyname="Noto Sans Myanmar UI" stylename="ExtraCondensed ExtraBold" filename="instance_ufos/NotoSansMyanmarUI-ExtraCondensedExtraBold.ufo" stylemapfamilyname="Noto Sans Myanmar UI ExtraCondensed ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>9</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Myanmar UI ExtraCondensed Black" familyname="Noto Sans Myanmar UI" stylename="ExtraCondensed Black" filename="instance_ufos/NotoSansMyanmarUI-ExtraCondensedBlack.ufo" stylemapfamilyname="Noto Sans Myanmar UI ExtraCondensed Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+        <dimension name="Width" xvalue="70"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>10</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>44A511FF-BF0C-40C8-B97B-3061C001EFDA</key>
+        <dict/>
+      </dict>
+    </dict>
+  </lib>
+</designspace>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="panuktaprehalfguru" format="2">
+  <advance width="543"/>
+  <outline>
+    <component base="paguru"/>
+    <component base="halantguru" xOffset="543"/>
+    <component base="nuktaguru" xOffset="440" yOffset="166"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>=paguru</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/02/21 10:42:34</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zah_meem-ar.init" format="2">
+  <advance width="1298"/>
+  <unicode hex="FCB9"/>
+  <anchor x="605" y="0" name="caret_1"/>
+  <anchor x="930" y="-4" name="bottom_1"/>
+  <anchor x="293" y="0" name="bottom_2"/>
+  <anchor x="1105" y="649" name="top_1"/>
+  <anchor x="326" y="453" name="top_2"/>
+  <outline>
+    <component base="zah-ar.init" xOffset="605"/>
+    <component base="meem-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>zah-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>meem-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:40</string>
+    </dict>
+  </lib>
+</glyph>

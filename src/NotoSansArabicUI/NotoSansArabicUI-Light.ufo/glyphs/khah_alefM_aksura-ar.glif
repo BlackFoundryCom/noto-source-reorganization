@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="khah_alefMaksura-ar" format="2">
+  <advance width="1319"/>
+  <unicode hex="FD03"/>
+  <anchor x="756" y="0" name="caret_1"/>
+  <anchor x="1019" y="-1" name="bottom_1"/>
+  <anchor x="354" y="-230" name="bottom_2"/>
+  <anchor x="907" y="427" name="top_1"/>
+  <anchor x="246" y="130" name="top_2"/>
+  <outline>
+    <component base="khah-ar.init" xOffset="756"/>
+    <component base="alefMaksura-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>khah-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alefMaksura-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:40</string>
+    </dict>
+  </lib>
+</glyph>

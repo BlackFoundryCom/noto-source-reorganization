@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eCandra-gujarati" format="2">
+  <advance width="806"/>
+  <unicode hex="0A8D"/>
+  <anchor x="681" y="592" name="top"/>
+  <anchor x="977" y="645" name="topright"/>
+  <outline>
+    <component base="a-gujarati"/>
+    <component base="eCandraMatra-gujarati" xOffset="681"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gujarati</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Matra</string>
+    </dict>
+  </lib>
+</glyph>

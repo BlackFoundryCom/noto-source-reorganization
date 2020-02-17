@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="peh-ar.init" format="2">
+  <advance width="299"/>
+  <unicode hex="FB58"/>
+  <anchor x="113" y="-238" name="bottom"/>
+  <anchor x="104" y="3" name="center"/>
+  <anchor x="147" y="404" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar.init.wide"/>
+    <component base="threedotsupbelow-ar.restricted" xOffset="-32" yOffset="-5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:34</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

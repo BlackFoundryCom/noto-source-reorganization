@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="damma-ar.medi" format="2">
+  <advance width="290"/>
+  <unicode hex="FE79"/>
+  <anchor x="145" y="0" name="bottom"/>
+  <anchor x="162" y="807" name="top"/>
+  <outline>
+    <component base="kashida-ar"/>
+    <component base="damma-ar" xOffset="8"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:39</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

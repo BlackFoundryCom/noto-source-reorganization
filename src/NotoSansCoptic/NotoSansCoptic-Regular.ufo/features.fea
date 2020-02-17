@@ -1,0 +1,8 @@
+table GDEF {
+  # automatic
+  GlyphClassDef
+    , # Base
+    , # Liga
+    [uni0300 uni0301 uni0302 uni0304 uni0305 uni0307 uni0308 uni0323 uni033F uni0361 uni1DCD uni2CEF uni2CF0 uni2CF1 uniFE24 uniFE25 uniFE26 u102E0 uni0305_small uni0305_medium uni0305_large uni0305_xlarge uni0305_xxlarge uni0305_small.cap uni0305_medium.cap uni0305_large.cap uni0305_xlarge.cap uni0305_xxlarge.cap uni0305.cap uni033F.cap uniFE26.cap uni033F.large.cap uniFE26.large.cap uniFE24.cap uniFE25.cap uni033F.medium.cap uniFE26.medium.cap uni033F.small.cap uniFE26.small.cap uni033F.xlarge.cap uniFE26.xlarge.cap uni033F.xxlarge.cap uniFE26.xxlarge.cap uni033F.large uniFE26.large uni033F.medium uniFE26.medium uni033F.small uniFE26.small uni033F.xlarge uniFE26.xlarge uni033F.xxlarge uniFE26.xxlarge], # Mark
+    ;
+} GDEF;

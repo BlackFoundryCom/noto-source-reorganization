@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniABDC" format="2">
+  <advance width="558"/>
+  <unicode hex="ABDC"/>
+  <outline>
+    <contour>
+      <point x="389" y="0" type="line"/>
+      <point x="469" y="0" type="line"/>
+      <point x="469" y="586" type="line"/>
+      <point x="503" y="586" type="line"/>
+      <point x="503" y="659" type="line"/>
+      <point x="40" y="659" type="line"/>
+      <point x="40" y="586" type="line"/>
+      <point x="389" y="586" type="line"/>
+      <point x="389" y="302" type="line"/>
+      <point x="385" y="302" type="line"/>
+      <point x="321" y="421"/>
+      <point x="208" y="435"/>
+      <point x="108" y="435" type="curve" smooth="yes"/>
+      <point x="73" y="435" type="line"/>
+      <point x="73" y="362" type="line"/>
+      <point x="108" y="362" type="line" smooth="yes"/>
+      <point x="279" y="362"/>
+      <point x="389" y="268"/>
+      <point x="389" y="39" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>uniABE1</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/08 18:54:54</string>
+    </dict>
+  </lib>
+</glyph>

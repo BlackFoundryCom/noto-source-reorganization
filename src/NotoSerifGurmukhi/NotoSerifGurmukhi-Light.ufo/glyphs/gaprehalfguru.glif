@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gaprehalfguru" format="2">
+  <advance width="707"/>
+  <note>
+gaprehalfguru
+</note>
+  <anchor x="607" y="0" name="bottom"/>
+  <anchor x="592" y="622" name="top"/>
+  <outline>
+    <component base="gaguru"/>
+    <component base="halantguru" xOffset="702"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/21 14:37:48</string>
+    </dict>
+  </lib>
+</glyph>

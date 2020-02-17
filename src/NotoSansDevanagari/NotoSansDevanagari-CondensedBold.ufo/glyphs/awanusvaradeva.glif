@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="awanusvaradeva" format="2">
+  <advance width="951"/>
+  <outline>
+    <contour>
+      <point x="927" y="822" type="curve" smooth="yes"/>
+      <point x="927" y="778"/>
+      <point x="952" y="748"/>
+      <point x="996" y="748" type="curve" smooth="yes"/>
+      <point x="1039" y="748"/>
+      <point x="1064" y="778"/>
+      <point x="1064" y="822" type="curve" smooth="yes"/>
+      <point x="1064" y="865"/>
+      <point x="1039" y="896"/>
+      <point x="996" y="896" type="curve" smooth="yes"/>
+      <point x="952" y="896"/>
+      <point x="927" y="865"/>
+    </contour>
+    <component base="aadeva"/>
+    <component base="awcomponentdeva" xOffset="951"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/04/14 12:18:31</string>
+    </dict>
+  </lib>
+</glyph>

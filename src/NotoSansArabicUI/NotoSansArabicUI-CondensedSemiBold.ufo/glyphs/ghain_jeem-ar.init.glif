@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ghain_jeem-ar.init" format="2">
+  <advance width="999"/>
+  <unicode hex="FCBC"/>
+  <anchor x="532" y="0" name="caret_1"/>
+  <anchor x="787" y="-6" name="bottom_1"/>
+  <anchor x="271" y="-221" name="bottom_2"/>
+  <anchor x="757" y="669" name="top_1"/>
+  <anchor x="167" y="431" name="top_2"/>
+  <outline>
+    <component base="ghain-ar.init" xOffset="532"/>
+    <component base="jeem-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ghain-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>jeem-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:40</string>
+    </dict>
+  </lib>
+</glyph>

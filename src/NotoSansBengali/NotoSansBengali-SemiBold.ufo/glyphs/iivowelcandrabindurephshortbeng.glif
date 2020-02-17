@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iivowelcandrabindurephshortbeng" format="2">
+  <advance width="304"/>
+  <outline>
+    <contour>
+      <point x="554" y="830" type="curve"/>
+      <point x="452" y="841" type="line"/>
+      <point x="446" y="769"/>
+      <point x="423" y="734"/>
+      <point x="370" y="734" type="curve" smooth="yes"/>
+      <point x="312" y="734"/>
+      <point x="294" y="773"/>
+      <point x="288" y="840" type="curve"/>
+      <point x="187" y="829" type="line"/>
+      <point x="196" y="726"/>
+      <point x="249" y="647"/>
+      <point x="374" y="647" type="curve" smooth="yes"/>
+      <point x="497" y="647"/>
+      <point x="545" y="725"/>
+    </contour>
+    <contour>
+      <point x="421" y="805" type="curve" smooth="yes"/>
+      <point x="421" y="835"/>
+      <point x="403" y="852"/>
+      <point x="369" y="852" type="curve" smooth="yes"/>
+      <point x="335" y="852"/>
+      <point x="319" y="831"/>
+      <point x="319" y="808" type="curve" smooth="yes"/>
+      <point x="319" y="778"/>
+      <point x="337" y="759"/>
+      <point x="371" y="759" type="curve" smooth="yes"/>
+      <point x="399" y="759"/>
+      <point x="421" y="776"/>
+    </contour>
+    <component base="iivowelsignshortbeng"/>
+    <component base="rephbeng" xOffset="200"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/07/07 09:20:32</string>
+    </dict>
+  </lib>
+</glyph>

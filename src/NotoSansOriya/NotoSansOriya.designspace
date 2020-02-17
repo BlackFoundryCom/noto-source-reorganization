@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="100">
+      <map input="100" output="26"/>
+      <map input="400" output="78"/>
+      <map input="700" output="140"/>
+      <map input="900" output="170"/>
+    </axis>
+    <axis tag="wdth" name="Width" minimum="62.500000" maximum="100" default="100">
+      <map input="62.500000" output="68"/>
+      <map input="75" output="82"/>
+      <map input="100" output="100"/>
+    </axis>
+  </axes>
+  <rules>
+    <rule name="BRACKET.26.141">
+      <conditionset>
+        <condition name="Weight" minimum="26" maximum="141"/>
+      </conditionset>
+      <sub name="a-oriya" with="a-oriya.REV_BRACKET.141"/>
+      <sub name="bha-oriya" with="bha-oriya.REV_BRACKET.141"/>
+      <sub name="bha_ra-oriya" with="bha_ra-oriya.REV_BRACKET.141"/>
+      <sub name="candraBindu-oriya" with="candraBindu-oriya.REV_BRACKET.141"/>
+      <sub name="cha-oriya" with="cha-oriya.REV_BRACKET.141"/>
+      <sub name="cha_ra-oriya" with="cha_ra-oriya.REV_BRACKET.141"/>
+      <sub name="dda-oriya" with="dda-oriya.REV_BRACKET.141"/>
+      <sub name="dda_ra-oriya" with="dda_ra-oriya.REV_BRACKET.141"/>
+      <sub name="ddha-oriya" with="ddha-oriya.REV_BRACKET.141"/>
+      <sub name="e-oriya" with="e-oriya.REV_BRACKET.141"/>
+      <sub name="five-oriya" with="five-oriya.REV_BRACKET.141"/>
+      <sub name="ha-oriya" with="ha-oriya.REV_BRACKET.141"/>
+      <sub name="i-oriya" with="i-oriya.REV_BRACKET.141"/>
+      <sub name="ii-oriya" with="ii-oriya.REV_BRACKET.141"/>
+      <sub name="ja-oriya" with="ja-oriya.REV_BRACKET.141"/>
+      <sub name="ja-oriya.base" with="ja-oriya.base.REV_BRACKET.141"/>
+      <sub name="ja_ra-oriya" with="ja_ra-oriya.REV_BRACKET.141"/>
+      <sub name="ka-oriya" with="ka-oriya.REV_BRACKET.141"/>
+      <sub name="ka_ra-oriya" with="ka_ra-oriya.REV_BRACKET.141"/>
+      <sub name="lVocalicMatra-oriya" with="lVocalicMatra-oriya.REV_BRACKET.141"/>
+      <sub name="llVocalicMatra-oriya" with="llVocalicMatra-oriya.REV_BRACKET.141"/>
+      <sub name="nga-oriya" with="nga-oriya.REV_BRACKET.141"/>
+      <sub name="nga_ra-oriya" with="nga_ra-oriya.REV_BRACKET.141"/>
+      <sub name="nine-oriya" with="nine-oriya.REV_BRACKET.141"/>
+      <sub name="one-oriya" with="one-oriya.REV_BRACKET.141"/>
+      <sub name="rrVocalicMatra-oriya" with="rrVocalicMatra-oriya.REV_BRACKET.141"/>
+      <sub name="seven-oriya" with="seven-oriya.REV_BRACKET.141"/>
+      <sub name="six-oriya" with="six-oriya.REV_BRACKET.141"/>
+      <sub name="ssa-oriya" with="ssa-oriya.REV_BRACKET.141"/>
+      <sub name="ta-oriya" with="ta-oriya.REV_BRACKET.141"/>
+      <sub name="three-oriya" with="three-oriya.REV_BRACKET.141"/>
+      <sub name="two-oriya" with="two-oriya.REV_BRACKET.141"/>
+      <sub name="u-oriya" with="u-oriya.REV_BRACKET.141"/>
+      <sub name="uu-oriya" with="uu-oriya.REV_BRACKET.141"/>
+      <sub name="uuMatra-oriya" with="uuMatra-oriya.REV_BRACKET.141"/>
+      <sub name="va-oriya" with="va-oriya.REV_BRACKET.141"/>
+      <sub name="va-oriya.base" with="va-oriya.base.REV_BRACKET.141"/>
+      <sub name="va_ra-oriya" with="va_ra-oriya.REV_BRACKET.141"/>
+    </rule>
+  </rules>
+  <sources>
+    <source filename="NotoSansOriya-Thin.ufo" name="Noto Sans Oriya Thin" familyname="Noto Sans Oriya" stylename="Thin">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSansOriya-Black.ufo" name="Noto Sans Oriya Black" familyname="Noto Sans Oriya" stylename="Black">
+      <location>
+        <dimension name="Weight" xvalue="170"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+    </source>
+    <source filename="NotoSansOriya-CondensedExtraThin.ufo" name="Noto Sans Oriya Condensed Extra Thin" familyname="Noto Sans Oriya" stylename="Condensed Extra Thin">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="68"/>
+      </location>
+    </source>
+    <source filename="NotoSansOriya-CondensedExtraBlack.ufo" name="Noto Sans Oriya Condensed Extra Black" familyname="Noto Sans Oriya" stylename="Condensed Extra Black">
+      <location>
+        <dimension name="Weight" xvalue="170"/>
+        <dimension name="Width" xvalue="68"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Sans Oriya Thin" familyname="Noto Sans Oriya" stylename="Thin" filename="instance_ufos/NotoSansOriya-Thin.ufo" stylemapfamilyname="Noto Sans Oriya Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Oriya Regular" familyname="Noto Sans Oriya" stylename="Regular" filename="instance_ufos/NotoSansOriya-Regular.ufo" stylemapfamilyname="Noto Sans Oriya" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="78"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Oriya Bold" familyname="Noto Sans Oriya" stylename="Bold" filename="instance_ufos/NotoSansOriya-Bold.ufo" stylemapfamilyname="Noto Sans Oriya" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="140"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Oriya Black" familyname="Noto Sans Oriya" stylename="Black" filename="instance_ufos/NotoSansOriya-Black.ufo" stylemapfamilyname="Noto Sans Oriya Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="170"/>
+        <dimension name="Width" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Sans Oriya Blk</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Oriya Condensed Thin" familyname="Noto Sans Oriya" stylename="Condensed Thin" filename="instance_ufos/NotoSansOriya-CondensedThin.ufo" stylemapfamilyname="Noto Sans Oriya Condensed Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="82"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Sans Oriya Cond Thin</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Oriya Condensed" familyname="Noto Sans Oriya" stylename="Condensed" filename="instance_ufos/NotoSansOriya-Condensed.ufo" stylemapfamilyname="Noto Sans Oriya Condensed" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="78"/>
+        <dimension name="Width" xvalue="82"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Sans Oriya Cond</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Oriya Condensed Bold" familyname="Noto Sans Oriya" stylename="Condensed Bold" filename="instance_ufos/NotoSansOriya-CondensedBold.ufo" stylemapfamilyname="Noto Sans Oriya Condensed" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="140"/>
+        <dimension name="Width" xvalue="82"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Sans Oriya Cond Bold</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Oriya Condensed Black" familyname="Noto Sans Oriya" stylename="Condensed Black" filename="instance_ufos/NotoSansOriya-CondensedBlack.ufo" stylemapfamilyname="Noto Sans Oriya Condensed Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="170"/>
+        <dimension name="Width" xvalue="82"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Sans Oriya Cond Blk</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Oriya ExtraCondensed Thin" familyname="Noto Sans Oriya" stylename="ExtraCondensed Thin" filename="instance_ufos/NotoSansOriya-ExtraCondensedThin.ufo" stylemapfamilyname="Noto Sans Oriya ExtraCondensed Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+        <dimension name="Width" xvalue="68"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Sans Oriya ExtCond Thin</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Oriya ExtraCondensed" familyname="Noto Sans Oriya" stylename="ExtraCondensed" filename="instance_ufos/NotoSansOriya-ExtraCondensed.ufo" stylemapfamilyname="Noto Sans Oriya ExtraCondensed" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="78"/>
+        <dimension name="Width" xvalue="68"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Sans Oriya ExtCond</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Oriya ExtraCondensed Bold" familyname="Noto Sans Oriya" stylename="ExtraCondensed Bold" filename="instance_ufos/NotoSansOriya-ExtraCondensedBold.ufo" stylemapfamilyname="Noto Sans Oriya Extra Condensed" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="140"/>
+        <dimension name="Width" xvalue="68"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Sans Oriya ExtCond Bold</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Oriya ExtraCondensed Black" familyname="Noto Sans Oriya" stylename="ExtraCondensed Black" filename="instance_ufos/NotoSansOriya-ExtraCondensedBlack.ufo" stylemapfamilyname="Noto Sans Oriya ExtraCondensed Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="170"/>
+        <dimension name="Width" xvalue="68"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Sans Oriya ExtCond Blk</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>639D56B4-59BE-4993-85FD-8F80ECD3B0F6</key>
+        <dict>
+          <key>HH</key>
+          <string>140</string>
+          <key>HV</key>
+          <string>170</string>
+          <key>OH</key>
+          <string>160</string>
+          <key>OV</key>
+          <string>174</string>
+          <key>nV</key>
+          <string>122</string>
+          <key>nd</key>
+          <string>80</string>
+          <key>oH</key>
+          <string>100</string>
+        </dict>
+        <key>926CF2F4-31F1-4036-BA3C-0F7EE51EF36A</key>
+        <dict>
+          <key>HV</key>
+          <string>26</string>
+          <key>OH</key>
+          <string>24</string>
+          <key>OV</key>
+          <string>26</string>
+        </dict>
+        <key>A6029D4D-1571-45DB-86AE-EDC9D2308E6F</key>
+        <dict>
+          <key>HH</key>
+          <string>130</string>
+          <key>HV</key>
+          <string>147</string>
+          <key>OH</key>
+          <string>146</string>
+          <key>OV</key>
+          <string>152</string>
+          <key>nV</key>
+          <string>147</string>
+          <key>nd</key>
+          <string>130</string>
+          <key>oH</key>
+          <string>146</string>
+          <key>oV</key>
+          <string>152</string>
+        </dict>
+        <key>EAF3E1E9-0001-42EF-B2A4-765526B8C83B</key>
+        <dict>
+          <key>nV</key>
+          <string>26</string>
+          <key>nd</key>
+          <string>25</string>
+          <key>oH</key>
+          <string>25</string>
+          <key>oV</key>
+          <string>26</string>
+        </dict>
+      </dict>
+      <key>LWPluginVersion</key>
+      <string>1366</string>
+    </dict>
+  </lib>
+</designspace>

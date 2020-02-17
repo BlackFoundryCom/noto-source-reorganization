@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hah_meem-ar.init" format="2">
+  <advance width="1101"/>
+  <unicode hex="FCAA"/>
+  <anchor x="564" y="0" name="caret_1"/>
+  <anchor x="820" y="-4" name="bottom_1"/>
+  <anchor x="267" y="0" name="bottom_2"/>
+  <anchor x="704" y="431" name="top_1"/>
+  <anchor x="304" y="424" name="top_2"/>
+  <outline>
+    <component base="hah-ar.init" xOffset="564"/>
+    <component base="meem-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>hah-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>meem-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:39</string>
+    </dict>
+  </lib>
+</glyph>

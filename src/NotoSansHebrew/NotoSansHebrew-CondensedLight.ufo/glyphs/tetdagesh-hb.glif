@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tetdagesh-hb" format="2">
+  <advance width="415"/>
+  <unicode hex="FB38"/>
+  <anchor x="205" y="0" name="bottom"/>
+  <anchor x="46" y="0" name="bottomleft"/>
+  <anchor x="205" y="296" name="center"/>
+  <anchor x="205" y="528" name="top"/>
+  <anchor x="36" y="528" name="topleft"/>
+  <outline>
+    <component base="tet-hb"/>
+    <component base="dagesh-hb" xOffset="134"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/08/19 18:46:54</string>
+    </dict>
+  </lib>
+</glyph>

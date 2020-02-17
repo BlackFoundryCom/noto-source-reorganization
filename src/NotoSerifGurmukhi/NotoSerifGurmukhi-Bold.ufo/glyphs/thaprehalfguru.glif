@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="thaprehalfguru" format="2">
+  <advance width="661"/>
+  <note>
+thaprehalfguru
+</note>
+  <anchor x="591" y="0" name="bottom"/>
+  <anchor x="491" y="622" name="top"/>
+  <outline>
+    <component base="thaguru"/>
+    <component base="halantguru" xOffset="657"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/21 14:37:48</string>
+    </dict>
+  </lib>
+</glyph>

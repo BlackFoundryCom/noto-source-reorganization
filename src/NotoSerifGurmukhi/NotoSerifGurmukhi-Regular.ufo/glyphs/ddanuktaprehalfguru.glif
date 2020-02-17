@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ddanuktaprehalfguru" format="2">
+  <advance width="612"/>
+  <note>
+ddanuktaprehalfguru
+</note>
+  <anchor x="512" y="-11" name="bottom"/>
+  <anchor x="448" y="622" name="top"/>
+  <outline>
+    <component base="rraguru"/>
+    <component base="halantguru" xOffset="500" yOffset="1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/21 14:37:48</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

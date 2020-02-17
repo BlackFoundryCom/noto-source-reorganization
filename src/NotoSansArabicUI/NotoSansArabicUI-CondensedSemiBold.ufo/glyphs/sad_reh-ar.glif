@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sad_reh-ar" format="2">
+  <advance width="1195"/>
+  <unicode hex="FD0F"/>
+  <anchor x="338" y="0" name="caret_1"/>
+  <anchor x="801" y="-16" name="bottom_1"/>
+  <anchor x="128" y="-214" name="bottom_2"/>
+  <anchor x="942" y="432" name="top_1"/>
+  <anchor x="100" y="395" name="top_2"/>
+  <outline>
+    <component base="sad-ar.init" xOffset="348"/>
+    <component base="reh-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>sad-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>reh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:40</string>
+    </dict>
+  </lib>
+</glyph>

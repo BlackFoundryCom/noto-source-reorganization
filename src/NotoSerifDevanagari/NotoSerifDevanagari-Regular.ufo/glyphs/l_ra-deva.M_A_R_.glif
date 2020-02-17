@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="l_ra-deva.MAR" format="2">
+  <advance width="662"/>
+  <anchor x="497" y="-138" name="bottom"/>
+  <anchor x="515" y="623" name="candra"/>
+  <anchor x="91" y="0" name="nukta"/>
+  <anchor x="515" y="623" name="top"/>
+  <outline>
+    <component base="la-deva.MAR"/>
+    <component base="rakar-deva" xOffset="471" yOffset="-1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/07/18 18:37:15</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>devanagari</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

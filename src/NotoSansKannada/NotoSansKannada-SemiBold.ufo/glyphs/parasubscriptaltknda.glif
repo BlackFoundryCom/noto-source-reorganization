@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="parasubscriptaltknda" format="2">
+  <advance width="686"/>
+  <outline>
+    <contour>
+      <point x="385" y="-525" type="curve" smooth="yes"/>
+      <point x="637" y="-525"/>
+      <point x="753" y="-428"/>
+      <point x="753" y="-246" type="curve" smooth="yes"/>
+      <point x="753" y="-190"/>
+      <point x="743" y="-139"/>
+      <point x="729" y="-101" type="curve"/>
+      <point x="631" y="-134" type="line"/>
+      <point x="643" y="-164"/>
+      <point x="648" y="-194"/>
+      <point x="648" y="-236" type="curve" smooth="yes"/>
+      <point x="648" y="-358"/>
+      <point x="574" y="-431"/>
+      <point x="394" y="-431" type="curve" smooth="yes"/>
+      <point x="335" y="-431"/>
+      <point x="299" y="-429"/>
+      <point x="266" y="-423" type="curve"/>
+      <point x="253" y="-514" type="line"/>
+      <point x="305" y="-523"/>
+      <point x="343" y="-525"/>
+    </contour>
+    <component base="pasubscriptknda" xOffset="396" yOffset="-35"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/06/15 09:18:13</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kashidaFina-ar" format="2">
+  <advance width="425"/>
+  <unicode hex="FE73"/>
+  <anchor x="303" y="0" name="bottom"/>
+  <anchor x="293" y="714" name="top"/>
+  <outline>
+    <contour>
+      <point x="435" y="69" type="curve" smooth="yes"/>
+      <point x="327" y="69" type="line" smooth="yes"/>
+      <point x="185" y="69"/>
+      <point x="120" y="117"/>
+      <point x="120" y="250" type="curve" smooth="yes"/>
+      <point x="120" y="273"/>
+      <point x="122" y="295"/>
+      <point x="126" y="317" type="curve"/>
+      <point x="55" y="332" type="line"/>
+      <point x="49" y="300"/>
+      <point x="45" y="272"/>
+      <point x="45" y="238" type="curve" smooth="yes"/>
+      <point x="45" y="79"/>
+      <point x="133" y="-5"/>
+      <point x="303" y="-5" type="curve" smooth="yes"/>
+      <point x="425" y="-5" type="line" smooth="yes"/>
+      <point x="464" y="-5"/>
+      <point x="475" y="12"/>
+      <point x="475" y="34" type="curve" smooth="yes"/>
+      <point x="475" y="56"/>
+      <point x="463" y="69"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:38</string>
+    </dict>
+  </lib>
+</glyph>

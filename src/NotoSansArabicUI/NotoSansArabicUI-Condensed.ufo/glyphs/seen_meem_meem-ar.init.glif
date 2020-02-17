@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seen_meem_meem-ar.init" format="2">
+  <advance width="1661"/>
+  <unicode hex="FD63"/>
+  <anchor x="980" y="0" name="caret_1"/>
+  <anchor x="490" y="0" name="caret_2"/>
+  <anchor x="1309" y="-5" name="bottom_1"/>
+  <anchor x="729" y="0" name="bottom_2"/>
+  <anchor x="239" y="0" name="bottom_3"/>
+  <anchor x="1351" y="332" name="top_1"/>
+  <anchor x="772" y="362" name="top_2"/>
+  <anchor x="282" y="362" name="top_3"/>
+  <outline>
+    <component base="seen-ar.init" xOffset="980"/>
+    <component base="meem-ar.medi" xOffset="490"/>
+    <component base="meem-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>seen-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>meem-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:40</string>
+    </dict>
+  </lib>
+</glyph>

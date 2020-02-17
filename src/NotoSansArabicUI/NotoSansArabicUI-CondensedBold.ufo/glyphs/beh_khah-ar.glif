@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="beh_khah-ar" format="2">
+  <advance width="897"/>
+  <unicode hex="FC07"/>
+  <anchor x="602" y="0" name="caret_1"/>
+  <anchor x="719" y="-221" name="bottom_1"/>
+  <anchor x="356" y="-271" name="bottom_2"/>
+  <anchor x="330" y="52" name="center"/>
+  <anchor x="722" y="509" name="top_1"/>
+  <anchor x="295" y="815" name="top_2"/>
+  <outline>
+    <component base="beh-ar.init" xOffset="612"/>
+    <component base="khah-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>beh-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>khah-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:39</string>
+    </dict>
+  </lib>
+</glyph>

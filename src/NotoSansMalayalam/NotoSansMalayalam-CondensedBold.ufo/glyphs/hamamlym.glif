@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hamamlym" format="2">
+  <advance width="1130"/>
+  <outline>
+    <contour>
+      <point x="227" y="372" type="curve" smooth="yes"/>
+      <point x="102" y="372"/>
+      <point x="26" y="296"/>
+      <point x="26" y="181" type="curve" smooth="yes"/>
+      <point x="26" y="100"/>
+      <point x="56" y="41"/>
+      <point x="96" y="-13" type="curve"/>
+      <point x="222" y="42" type="line"/>
+      <point x="200" y="85"/>
+      <point x="184" y="120"/>
+      <point x="184" y="177" type="curve" smooth="yes"/>
+      <point x="184" y="217"/>
+      <point x="197" y="250"/>
+      <point x="229" y="250" type="curve" smooth="yes"/>
+      <point x="262" y="250"/>
+      <point x="272" y="215"/>
+      <point x="272" y="175" type="curve" smooth="yes"/>
+      <point x="272" y="129"/>
+      <point x="261" y="95"/>
+      <point x="249" y="73" type="curve"/>
+      <point x="296" y="0" type="line"/>
+      <point x="618" y="0" type="line"/>
+      <point x="579" y="122" type="line"/>
+      <point x="385" y="122" type="line"/>
+      <point x="391" y="78" type="line"/>
+      <point x="409" y="107"/>
+      <point x="423" y="150"/>
+      <point x="423" y="187" type="curve" smooth="yes"/>
+      <point x="423" y="276"/>
+      <point x="372" y="372"/>
+    </contour>
+    <component base="mamlym" xOffset="446"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/04 15:18:11</string>
+    </dict>
+  </lib>
+</glyph>

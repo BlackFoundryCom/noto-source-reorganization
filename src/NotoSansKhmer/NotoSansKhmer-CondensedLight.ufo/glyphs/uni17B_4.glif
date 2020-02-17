@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni17B4" format="2">
+  <advance width="177"/>
+  <unicode hex="17B4"/>
+  <note>
+uni17B4
+</note>
+  <outline>
+    <contour>
+      <point x="75" y="605" type="line"/>
+      <point x="75" y="795" type="line" smooth="yes"/>
+      <point x="75" y="845"/>
+      <point x="53" y="854"/>
+      <point x="22" y="854" type="curve" smooth="yes"/>
+      <point x="-38" y="854" type="line"/>
+      <point x="-38" y="828" type="line"/>
+      <point x="17" y="828" type="line" smooth="yes"/>
+      <point x="45" y="828"/>
+      <point x="49" y="812"/>
+      <point x="49" y="783" type="curve" smooth="yes"/>
+      <point x="49" y="605" type="line"/>
+    </contour>
+    <contour>
+      <point x="61" y="0" type="line"/>
+      <point x="87" y="0" type="line"/>
+      <point x="87" y="494" type="line" smooth="yes"/>
+      <point x="87" y="568"/>
+      <point x="57" y="586"/>
+      <point x="-37" y="586" type="curve" smooth="yes"/>
+      <point x="-138" y="586" type="line"/>
+      <point x="-138" y="560" type="line"/>
+      <point x="-17" y="560" type="line" smooth="yes"/>
+      <point x="44" y="560"/>
+      <point x="61" y="535"/>
+      <point x="61" y="483" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>uni17C5.right</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>uni17C5.right</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/14 22:51:18</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing Combining</string>
+    </dict>
+  </lib>
+</glyph>

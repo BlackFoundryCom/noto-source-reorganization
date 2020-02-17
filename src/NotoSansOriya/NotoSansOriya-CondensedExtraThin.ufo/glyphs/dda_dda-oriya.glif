@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dda_dda-oriya" format="2">
+  <advance width="484"/>
+  <note>
+ddaddaorya
+</note>
+  <guideline x="103" y="210" angle="90"/>
+  <guideline x="353" y="400" angle="90"/>
+  <guideline x="440" y="400" angle="90"/>
+  <anchor x="340" y="110" name="bottom"/>
+  <anchor x="232" y="8" name="nukta"/>
+  <anchor x="239" y="658" name="top"/>
+  <anchor x="411" y="658" name="topright"/>
+  <outline>
+    <component base="dda-oriya.below" xOffset="157"/>
+    <component base="dda-oriya.base"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dda-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dda-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/05 14:23:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jha_cham" format="2">
+  <advance width="1690"/>
+  <unicode hex="AA0F"/>
+  <note>
+uniAA0F
+</note>
+  <outline>
+    <contour>
+      <point x="979" y="457" type="curve" smooth="yes"/>
+      <point x="979" y="578"/>
+      <point x="864" y="653"/>
+      <point x="702" y="653" type="curve" smooth="yes"/>
+      <point x="540" y="653"/>
+      <point x="437" y="570"/>
+      <point x="437" y="454" type="curve" smooth="yes"/>
+      <point x="437" y="365"/>
+      <point x="480" y="302"/>
+      <point x="480" y="224" type="curve" smooth="yes"/>
+      <point x="480" y="132"/>
+      <point x="419" y="85"/>
+      <point x="325" y="85" type="curve" smooth="yes"/>
+      <point x="235" y="85"/>
+      <point x="181" y="130"/>
+      <point x="181" y="187" type="curve" smooth="yes"/>
+      <point x="181" y="224"/>
+      <point x="204" y="249"/>
+      <point x="241" y="249" type="curve" smooth="yes"/>
+      <point x="280" y="249"/>
+      <point x="303" y="220"/>
+      <point x="303" y="171" type="curve" smooth="yes"/>
+      <point x="303" y="142"/>
+      <point x="294" y="106"/>
+      <point x="280" y="80" type="curve"/>
+      <point x="393" y="80" type="line"/>
+      <point x="407" y="102"/>
+      <point x="426" y="145"/>
+      <point x="426" y="196" type="curve" smooth="yes"/>
+      <point x="426" y="298"/>
+      <point x="347" y="361"/>
+      <point x="236" y="361" type="curve" smooth="yes"/>
+      <point x="112" y="361"/>
+      <point x="42" y="284"/>
+      <point x="42" y="184" type="curve" smooth="yes"/>
+      <point x="42" y="58"/>
+      <point x="159" y="-29"/>
+      <point x="357" y="-29" type="curve" smooth="yes"/>
+      <point x="545" y="-29"/>
+      <point x="658" y="70"/>
+      <point x="658" y="213" type="curve" smooth="yes"/>
+      <point x="658" y="312"/>
+      <point x="618" y="375"/>
+      <point x="618" y="436" type="curve" smooth="yes"/>
+      <point x="618" y="482"/>
+      <point x="653" y="511"/>
+      <point x="709" y="511" type="curve" smooth="yes"/>
+      <point x="766" y="511"/>
+      <point x="797" y="479"/>
+      <point x="797" y="436" type="curve" smooth="yes"/>
+      <point x="797" y="364"/>
+      <point x="745" y="291"/>
+      <point x="745" y="184" type="curve"/>
+      <point x="877" y="208" type="line"/>
+      <point x="877" y="271"/>
+      <point x="979" y="348"/>
+    </contour>
+    <component base="ra_cham" xOffset="703"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>verticalShift</key>
+        <integer>-82</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dha_cham</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dha_cham</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/04/21 12:56:16</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cham</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

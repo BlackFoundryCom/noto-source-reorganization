@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rasoul-ar" format="2">
+  <advance width="2241"/>
+  <unicode hex="FDF6"/>
+  <anchor x="2050" y="-214" name="bottom_1"/>
+  <anchor x="1490" y="-5" name="bottom_2"/>
+  <anchor x="884" y="-231" name="bottom_3"/>
+  <anchor x="292" y="-230" name="bottom_4"/>
+  <anchor x="2022" y="395" name="top_1"/>
+  <anchor x="1532" y="393" name="top_2"/>
+  <anchor x="871" y="402" name="top_3"/>
+  <anchor x="210" y="457" name="top_4"/>
+  <outline>
+    <component base="reh-ar" xOffset="1910"/>
+    <component base="seen-ar.init" xOffset="1096"/>
+    <component base="waw-ar.fina" xOffset="637"/>
+    <component base="lam-ar"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>reh-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>lam-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:42</string>
+    </dict>
+  </lib>
+</glyph>

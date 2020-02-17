@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ni_gran.flat" format="2">
+  <advance width="1099"/>
+  <note>
+ni
+</note>
+  <outline>
+    <contour>
+      <point x="72" y="0" type="line"/>
+      <point x="158" y="0" type="line"/>
+      <point x="158" y="494" type="line"/>
+      <point x="332" y="494" type="line"/>
+      <point x="332" y="0" type="line"/>
+      <point x="418" y="0" type="line"/>
+      <point x="418" y="494" type="line"/>
+      <point x="593" y="494" type="line"/>
+      <point x="593" y="566" type="line"/>
+      <point x="72" y="566" type="line"/>
+    </contour>
+    <contour>
+      <point x="-28" y="-84" type="line"/>
+      <point x="-28" y="-156" type="line"/>
+      <point x="331" y="-156" type="line" smooth="yes"/>
+      <point x="475" y="-156"/>
+      <point x="561" y="-141"/>
+      <point x="626" y="-94" type="curve" smooth="yes"/>
+      <point x="688" y="-49"/>
+      <point x="725" y="14"/>
+      <point x="725" y="134" type="curve" smooth="yes"/>
+      <point x="725" y="282"/>
+      <point x="642" y="362"/>
+      <point x="541" y="362" type="curve" smooth="yes"/>
+      <point x="488" y="362"/>
+      <point x="446" y="343"/>
+      <point x="411" y="322" type="curve"/>
+      <point x="414" y="247" type="line"/>
+      <point x="442" y="270"/>
+      <point x="482" y="289"/>
+      <point x="520" y="289" type="curve" smooth="yes"/>
+      <point x="597" y="289"/>
+      <point x="639" y="234"/>
+      <point x="639" y="131" type="curve" smooth="yes"/>
+      <point x="639" y="61"/>
+      <point x="621" y="15"/>
+      <point x="594" y="-14" type="curve" smooth="yes"/>
+      <point x="548" y="-64"/>
+      <point x="485" y="-84"/>
+      <point x="322" y="-84" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="672" y="866" type="curve" smooth="yes"/>
+      <point x="483" y="866"/>
+      <point x="366" y="787"/>
+      <point x="366" y="670" type="curve" smooth="yes"/>
+      <point x="366" y="562"/>
+      <point x="454" y="498"/>
+      <point x="581" y="494" type="curve"/>
+      <point x="581" y="566" type="line"/>
+      <point x="497" y="567"/>
+      <point x="451" y="611"/>
+      <point x="451" y="669" type="curve" smooth="yes"/>
+      <point x="451" y="733"/>
+      <point x="512" y="794"/>
+      <point x="671" y="794" type="curve" smooth="yes"/>
+      <point x="823" y="794"/>
+      <point x="925" y="722"/>
+      <point x="925" y="586" type="curve" smooth="yes"/>
+      <point x="925" y="-148" type="line"/>
+      <point x="1011" y="-148" type="line"/>
+      <point x="1011" y="585" type="line" smooth="yes"/>
+      <point x="1011" y="782"/>
+      <point x="878" y="866"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/09/18 15:39:55</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gran</string>
+    </dict>
+  </lib>
+</glyph>

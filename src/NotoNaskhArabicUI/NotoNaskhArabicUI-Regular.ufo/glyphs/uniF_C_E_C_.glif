@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFCEC" format="2">
+  <advance width="872"/>
+  <unicode hex="FCEC"/>
+  <anchor x="611" y="83" name="bottom_1"/>
+  <anchor x="242" y="73" name="bottom_2"/>
+  <anchor x="463" y="702" name="top_1"/>
+  <anchor x="195" y="524" name="top_2"/>
+  <outline>
+    <component base="uniFEDC" xOffset="413"/>
+    <component base="uniFEE4"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 08:47:15</string>
+    </dict>
+  </lib>
+</glyph>

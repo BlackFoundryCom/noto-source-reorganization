@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="400" default="400">
+      <map input="400" output="90"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="NotoSansMasaramGondi-Regular.ufo" name="Noto Sans Masaram Gondi Regular" familyname="Noto Sans Masaram Gondi" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Sans Masaram Gondi Regular" familyname="Noto Sans Masaram Gondi" stylename="Regular" filename="instance_ufos/NotoSansMasaramGondi-Regular.ufo" postscriptfontname="NotoSansMasaramGondi-Regular" stylemapfamilyname="Noto Sans Masaram Gondi" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Sans Masaram Gondi</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+</designspace>

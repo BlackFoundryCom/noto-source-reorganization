@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="VowelAu.GGondi" format="2">
+  <advance width="930"/>
+  <unicode hex="11D6B"/>
+  <anchor x="664" y="766" name="top"/>
+  <outline>
+    <component base="VowelAa.GGondi"/>
+    <component base="MatraAi.GGondi" xOffset="798"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/04 20:07:41</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

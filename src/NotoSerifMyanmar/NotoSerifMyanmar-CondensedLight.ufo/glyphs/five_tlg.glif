@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="five_tlg" format="2">
+  <advance width="503"/>
+  <unicode hex="A9F5"/>
+  <outline>
+    <contour>
+      <point x="74" y="260" type="line"/>
+      <point x="96" y="382" type="line"/>
+      <point x="96" y="688" type="line" smooth="yes"/>
+      <point x="96" y="837"/>
+      <point x="151" y="921"/>
+      <point x="258" y="921" type="curve" smooth="yes"/>
+      <point x="358" y="921"/>
+      <point x="414" y="851"/>
+      <point x="414" y="728" type="curve" smooth="yes"/>
+      <point x="414" y="715" type="line"/>
+      <point x="432" y="715" type="line"/>
+      <point x="433" y="720"/>
+      <point x="433" y="725"/>
+      <point x="433" y="729" type="curve" smooth="yes"/>
+      <point x="433" y="785"/>
+      <point x="422" y="833"/>
+      <point x="401" y="869" type="curve" smooth="yes"/>
+      <point x="371" y="920"/>
+      <point x="322" y="949"/>
+      <point x="260" y="949" type="curve" smooth="yes"/>
+      <point x="257" y="949" type="line" smooth="yes"/>
+      <point x="187" y="949"/>
+      <point x="140" y="916"/>
+      <point x="110" y="863" type="curve" smooth="yes"/>
+      <point x="86" y="820"/>
+      <point x="74" y="761"/>
+      <point x="74" y="690" type="curve" smooth="yes"/>
+    </contour>
+    <component base="ga" xOffset="5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>six_m</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>wa</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>myanmar</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Decimal Digit</string>
+    </dict>
+  </lib>
+</glyph>

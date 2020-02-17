@@ -7,18 +7,23 @@
   <anchor x="661" y="536" name="topright"/>
   <outline>
     <component base="u"/>
-    <component base="dieresis" xOffset="73" yOffset="-808"/>
+    <component base="dieresisbelowcomb" xOffset="346"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/11/14 19:40:10</string>
+      <string>2019/09/27 18:20:29</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="braceright" format="2">
+  <advance width="422"/>
+  <unicode hex="007D"/>
+  <outline>
+    <contour>
+      <point x="80" y="-126" type="line"/>
+      <point x="160" y="-126" type="line"/>
+      <point x="254" y="-126"/>
+      <point x="302" y="-70"/>
+      <point x="302" y="21" type="curve" smooth="yes"/>
+      <point x="302" y="192" type="line" smooth="yes"/>
+      <point x="302" y="271"/>
+      <point x="345" y="288"/>
+      <point x="397" y="291" type="curve"/>
+      <point x="397" y="345" type="line"/>
+      <point x="345" y="347"/>
+      <point x="302" y="366"/>
+      <point x="302" y="443" type="curve" smooth="yes"/>
+      <point x="302" y="615" type="line" smooth="yes"/>
+      <point x="302" y="708"/>
+      <point x="254" y="760"/>
+      <point x="160" y="760" type="curve" smooth="yes"/>
+      <point x="80" y="760" type="line"/>
+      <point x="80" y="711" type="line"/>
+      <point x="113" y="711" type="line" smooth="yes"/>
+      <point x="159" y="711"/>
+      <point x="170" y="676"/>
+      <point x="170" y="611" type="curve" smooth="yes"/>
+      <point x="170" y="441" type="line" smooth="yes"/>
+      <point x="170" y="378"/>
+      <point x="196" y="337"/>
+      <point x="260" y="322" type="curve"/>
+      <point x="260" y="316" type="line"/>
+      <point x="197" y="299"/>
+      <point x="170" y="258"/>
+      <point x="170" y="195" type="curve" smooth="yes"/>
+      <point x="170" y="24" type="line" smooth="yes"/>
+      <point x="170" y="-41"/>
+      <point x="159" y="-76"/>
+      <point x="113" y="-76" type="curve" smooth="yes"/>
+      <point x="80" y="-76" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/07/18 18:37:15</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Parenthesis</string>
+    </dict>
+  </lib>
+</glyph>

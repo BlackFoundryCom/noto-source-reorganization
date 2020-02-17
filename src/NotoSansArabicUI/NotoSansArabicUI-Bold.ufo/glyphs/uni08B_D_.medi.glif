@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni08BD.medi" format="2">
+  <advance width="410"/>
+  <anchor x="185" y="-5" name="bottom"/>
+  <anchor x="119" y="7" name="center"/>
+  <anchor x="207" y="580" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar.medi"/>
+    <component base="dotabove-ar" xOffset="99" yOffset="-56"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:39</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>arabic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

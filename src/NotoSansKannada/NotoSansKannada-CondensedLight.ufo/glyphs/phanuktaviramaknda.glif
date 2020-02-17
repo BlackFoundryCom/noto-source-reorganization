@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="phanuktaviramaknda" format="2">
+  <advance width="748"/>
+  <outline>
+    <contour>
+      <point x="383" y="-160" type="curve" smooth="yes"/>
+      <point x="402" y="-160"/>
+      <point x="413" y="-148"/>
+      <point x="413" y="-120" type="curve" smooth="yes"/>
+      <point x="413" y="-95"/>
+      <point x="403" y="-80"/>
+      <point x="383" y="-80" type="curve" smooth="yes"/>
+      <point x="364" y="-80"/>
+      <point x="352" y="-94"/>
+      <point x="352" y="-120" type="curve" smooth="yes"/>
+      <point x="352" y="-147"/>
+      <point x="366" y="-160"/>
+    </contour>
+    <contour>
+      <point x="197" y="-160" type="curve" smooth="yes"/>
+      <point x="216" y="-160"/>
+      <point x="227" y="-148"/>
+      <point x="227" y="-120" type="curve" smooth="yes"/>
+      <point x="227" y="-95"/>
+      <point x="217" y="-80"/>
+      <point x="197" y="-80" type="curve" smooth="yes"/>
+      <point x="178" y="-80"/>
+      <point x="166" y="-94"/>
+      <point x="166" y="-120" type="curve" smooth="yes"/>
+      <point x="166" y="-147"/>
+      <point x="180" y="-160"/>
+    </contour>
+    <component base="phanocrestknda"/>
+    <component base="viramaknda" xOffset="548"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/06/15 09:16:05</string>
+    </dict>
+  </lib>
+</glyph>

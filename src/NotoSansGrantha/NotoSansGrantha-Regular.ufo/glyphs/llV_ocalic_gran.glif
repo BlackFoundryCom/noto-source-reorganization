@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="llVocalic_gran" format="2">
+  <advance width="1785"/>
+  <unicode hex="11361"/>
+  <outline>
+    <component base="lVocalic_gran"/>
+    <component base="doublevocalic.right" xOffset="1283" yOffset="10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ttha_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ttha_gran</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/09/18 15:39:42</string>
+    </dict>
+  </lib>
+</glyph>

@@ -2,32 +2,34 @@
 <glyph name="uniA7AE" format="2">
   <advance width="500"/>
   <unicode hex="A7AE"/>
+  <anchor x="250" y="0" name="bottom"/>
+  <anchor x="250" y="714" name="top"/>
   <outline>
     <contour>
-      <point x="99" y="0" type="line"/>
-      <point x="400" y="0" type="line"/>
-      <point x="400" y="23" type="line"/>
-      <point x="262" y="25" type="line"/>
-      <point x="262" y="500" type="line"/>
-      <point x="400" y="504" type="line"/>
-      <point x="400" y="527" type="line"/>
-      <point x="99" y="527" type="line"/>
-      <point x="99" y="504" type="line"/>
-      <point x="237" y="500" type="line"/>
-      <point x="237" y="25" type="line"/>
-      <point x="99" y="23" type="line"/>
+      <point x="443" y="714" type="line"/>
+      <point x="57" y="714" type="line"/>
+      <point x="57" y="697" type="line"/>
+      <point x="237" y="689" type="line"/>
+      <point x="237" y="24" type="line"/>
+      <point x="57" y="18" type="line"/>
+      <point x="57" y="0" type="line"/>
+      <point x="443" y="0" type="line"/>
+      <point x="443" y="18" type="line"/>
+      <point x="263" y="24" type="line"/>
+      <point x="263" y="689" type="line"/>
+      <point x="443" y="697" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
-      <string></string>
+      <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2018/05/10 13:37:23</string>
+      <string>2019/09/25 18:29:34</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
+      <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string></string>
+      <string>Lowercase</string>
     </dict>
   </lib>
 </glyph>

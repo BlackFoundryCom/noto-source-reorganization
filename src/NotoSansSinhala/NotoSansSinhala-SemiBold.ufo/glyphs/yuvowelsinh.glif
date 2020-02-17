@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yuvowelsinh" format="2">
+  <advance width="853"/>
+  <outline>
+    <contour>
+      <point x="59" y="-137" type="curve" smooth="yes"/>
+      <point x="59" y="-178"/>
+      <point x="73" y="-208"/>
+      <point x="100" y="-229" type="curve" smooth="yes"/>
+      <point x="130" y="-253"/>
+      <point x="174" y="-269"/>
+      <point x="287" y="-269" type="curve" smooth="yes"/>
+      <point x="781" y="-269" type="line"/>
+      <point x="781" y="93" type="line"/>
+      <point x="676" y="22" type="line"/>
+      <point x="671" y="-6"/>
+      <point x="671" y="-34"/>
+      <point x="671" y="-61" type="curve" smooth="yes"/>
+      <point x="671" y="-164" type="line"/>
+      <point x="297" y="-164" type="line" smooth="yes"/>
+      <point x="231" y="-164"/>
+      <point x="206" y="-161"/>
+      <point x="191" y="-151" type="curve" smooth="yes"/>
+      <point x="180" y="-144"/>
+      <point x="175" y="-134"/>
+      <point x="175" y="-122" type="curve" smooth="yes"/>
+      <point x="175" y="-103"/>
+      <point x="181" y="-93"/>
+      <point x="205" y="-72" type="curve"/>
+      <point x="122" y="-12" type="line"/>
+      <point x="70" y="-60"/>
+      <point x="59" y="-96"/>
+    </contour>
+    <component base="yasinh"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/06/01 09:09:06</string>
+    </dict>
+  </lib>
+</glyph>
