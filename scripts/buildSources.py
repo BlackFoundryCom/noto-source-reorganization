@@ -39,7 +39,7 @@ class sourcesBuilder():
     def __init__(self, fileName, hasMtiFiles = False):
         self.notoSourcesPath = "../noto-source/src"
         self.fileName = fileName
-        self.foldername = self.fileName.split(".")[0].replace("-MM", "")
+        self.foldername = self.fileName.split(".")[0].replace("MM", "").strip("-")
         if hasMtiFiles:
             self.destination = os.path.join("../src", os.path.dirname(self.foldername))
         else:

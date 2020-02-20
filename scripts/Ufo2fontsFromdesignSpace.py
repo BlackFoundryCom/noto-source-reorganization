@@ -38,6 +38,8 @@ mergeFonts(baseFanmilyName, familyName of the fonts to inject) => WIP.
 
 """
 
+pan_european_fonts = ["NotoSans", "NotoSans-Italic", "NotoSerif", "NotoSerif-Italic", "NotoSansDisplay", "NotoSansDisplay-Italic", "NotoSerifDisplay", "NotoSerifDisplay-Italic", "NotoSansMono"]
+arabic_fonts = ["NotoKufiArabic", "NotoNaskhArabic", "NotoNaskhArabicUI", "NotoNastaliqUrdu", "NotoSansArabic", "NotoSansArabicUI"]
 def add_ui_mti_features_to_master_ufos(self):
     mti_source = self.mti_file_for_UI_Version
     mti_paths = readPlist(mti_source)
@@ -322,8 +324,9 @@ def readJsonStoredSubset(jsonpath, writingSystem):
     greekProCodePageRange = [3]
     ASCII = [0, 1]
     SecureSet = [0]
+    coreArabicCodePageRange = [0,6]
     unicodePageRangeDict = {"Cyrillic":latinProCodePageRange, "CyrillicPro":latinProCodePageRange, \
-        "Greek" : greekProCodePageRange, "Latin" : latinProCodePageRange, "ASCII" : ASCII, "SecureSet" : SecureSet}
+        "Greek" : greekProCodePageRange, "Latin" : latinProCodePageRange, "ASCII" : ASCII, "SecureSet" : SecureSet, "Core_Arabic" : coreArabicCodePageRange}
     pageRangeToApply = []
     with open(jsonpath, 'r') as subsetDict:
         subset = json.load(subsetDict)
@@ -346,8 +349,9 @@ def subsetFonts(family, writingSystem, flavor=["ttf"], familyNewName=" ", jsonpa
     greekProCodePageRange = [3]
     ASCII = [0, 1]
     SecureSet = [0]
+    coreArabicCodePageRange = [0,6]
     unicodePageRangeDict = {"Cyrillic":latinProCodePageRange, "CyrillicPro":latinProCodePageRange, \
-        "Greek" : greekProCodePageRange, "Latin" : latinProCodePageRange, "ASCII" : ASCII, "SecureSet" : SecureSet}
+        "Greek" : greekProCodePageRange, "Latin" : latinProCodePageRange, "ASCII" : ASCII, "SecureSet" : SecureSet, "Core_Arabic" : coreArabicCodePageRange}
     pageRangeToApply = []
     subsetFolder = ""
     for i in writingSystem:
@@ -368,9 +372,14 @@ def subsetFonts(family, writingSystem, flavor=["ttf"], familyNewName=" ", jsonpa
     options.ignore_missing_glyphs = True
     options.prune_unicode_ranges = True
     keep = []
-    if jsonpath == " ":
-        jsonpath = [folder + json for json in os.listdir(folder) if ".json" in json]
-    keep, pageRangeToApply = readJsonStoredSubset(os.path.join(os.getcwd(), "lgc_glyphset.json"), writingSystem)
+    # if jsonpath == " ":
+    #     jsonpath = [folder + json for json in os.listdir(folder) if ".json" in json]
+    if family in pan_european_fonts:
+        jsonpath = "lgc_glyphset.json"
+    elif family in arabic_fonts:
+        jsonpath = "arabic_glyphset.json"
+    # keep, pageRangeToApply = readJsonStoredSubset(os.path.join(os.getcwd(), "lgc_glyphset.json"), writingSystem)
+    keep, pageRangeToApply = readJsonStoredSubset(jsonpath, writingSystem)
     for i in flavor:
         if not os.path.exists(folder + "/fonts/" + i.upper()):
             instances(family, i)
@@ -385,7 +394,7 @@ def subsetFonts(family, writingSystem, flavor=["ttf"], familyNewName=" ", jsonpa
                         WeightName = namerecord.string
                     if namerecord.nameID == 17:
                         WeightName = "".join(namerecord.string.split(" "))
-                        print(WeightName)
+                        print(family, WeightName)
                 subsetter = Subsetter(options=options)
                 subsetter.populate(glyphs=keep)
                 subsetter.subset(newfont)
@@ -445,7 +454,7 @@ def secureSetFromLatin(family, formats, jsonpath):
 def addSecureSet(family, flavorz):
     shared = ""
     flavors = ["OTF", "TTF", "WOFF2", "WOFF"]
-    if family not in ["NotoSans", "Notosans-Italic", "NotoSerif", "NotoSerif-Italic", "NotoDisplay", "NotoSansDisplay-Italic", "NotoSansMono"]:
+    if family not in pan_european_fonts:
         if "Serif" in family:
             shared = "NotoSerif"
             if "Italic" in family:
@@ -508,7 +517,7 @@ def mastersUfos2fonts(family, *flavors, instances = False):
     addSecureSet(family, flavors)
 
 def instances(family, *output, newName=" "):
-    securetSetIsIncluded = ["NotoSans", "Notosans-Italic", "NotoSerif", "NotoSerif-Italic", "NotoDisplay", "NotoSansDisplay-Italic", "NotoSansMono"]
+    securetSetIsIncluded = pan_european_fonts
     mergeable = ["ttf", "woff2"]
     if family not in securetSetIsIncluded:
         temp = list(set(mergeable) & set(output))
@@ -535,12 +544,14 @@ def instances(family, *output, newName=" "):
     if newName != " ":
         renameFonts(family, newName)
 
+
+
 # mastersUfos2fonts("NotoSansThaana", "woff2")
 # designSpace2Var("NotoSansThaana")
-subsetFonts("NotoSerif", "SecureSet")
-# instances("NotoSansThaana", "ttf")
+# subsetFonts("NotoSerif", "SecureSet")
+# instances("NotoSansArabic", "ttf")
 # subsetFonts("NotoSerif", "CyrillicPro", familyNewName = "Avocado Sans", flavor=["otf"])
-# subsetFonts("NotoSans", ["Cyrillic", "Greek"], flavor=["ttf"])
+subsetFonts("NotoKufiArabic", ["Core_Arabic"], flavor=["ttf"])
 # mastersUfos2fonts("NotoSansThaana", "woff2")
 # renameFonts("NotoSans", "Tomato Soup")
 # mergeFonts("NotoSans","NotoNastaliqUrdu")
