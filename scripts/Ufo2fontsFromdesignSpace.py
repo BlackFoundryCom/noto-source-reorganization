@@ -40,6 +40,7 @@ mergeFonts(baseFanmilyName, familyName of the fonts to inject) => WIP.
 
 pan_european_fonts = ["NotoSans", "NotoSans-Italic", "NotoSerif", "NotoSerif-Italic", "NotoSansDisplay", "NotoSansDisplay-Italic", "NotoSerifDisplay", "NotoSerifDisplay-Italic", "NotoSansMono"]
 arabic_fonts = ["NotoKufiArabic", "NotoNaskhArabic", "NotoNaskhArabicUI", "NotoNastaliqUrdu", "NotoSansArabic", "NotoSansArabicUI"]
+
 def add_ui_mti_features_to_master_ufos(self):
     mti_source = self.mti_file_for_UI_Version
     mti_paths = readPlist(mti_source)
@@ -208,17 +209,18 @@ def makeOneInstanceFromVF(family, loca):
     #<NameRecord NameID=14; PlatformID=3; LanguageID=1033>
     for namerecord in static['name'].names:
         if namerecord.nameID == 1:
-            #print(namerecord.__dict__)
             if styleName in ["Bold", "Regular", "Italic", "Bold Italic"]:
                 namerecord.string = familyName
             else:
                 namerecord.string = familyName + " " + styleName
-                n16 = makeName(familyName, 16, 3, 1, 0x409)
-                static['name'].names.append(n16)
-                n17 = (makeName(styleName, 17, 3, 1, 0x409))
-                static['name'].names.append(n17)
-                print(n17)
-                print(n16)
+                n16_p3 = makeName(familyName, 16, 3, 1, 0x409)
+                n16_p1 = makeName(familyName, 16, 1, 0, 0x0)
+                instance['name'].names.append(n16_p3)
+                instance['name'].names.append(n16_p1)
+                n17_p3 = (makeName(styleName, 17, 3, 1, 0x409))
+                n17_p1 = (makeName(styleName, 17, 1, 0, 0x0))
+                instance['name'].names.append(n17_p3)
+                instance['name'].names.append(n17_p1)
         if namerecord.nameID == 2:
             if styleName in ["Bold", "Regular", "Italic", "Bold Italic"]:
                 namerecord.string = styleName
@@ -551,7 +553,7 @@ def instances(family, *output, newName=" "):
 # subsetFonts("NotoSerif", "SecureSet")
 # instances("NotoSansArabic", "ttf")
 # subsetFonts("NotoSerif", "CyrillicPro", familyNewName = "Avocado Sans", flavor=["otf"])
-subsetFonts("NotoKufiArabic", ["Core_Arabic"], flavor=["ttf"])
+# subsetFonts("NotoKufiArabic", ["Core_Arabic"], flavor=["ttf"])
 # mastersUfos2fonts("NotoSansThaana", "woff2")
 # renameFonts("NotoSans", "Tomato Soup")
 # mergeFonts("NotoSans","NotoNastaliqUrdu")
