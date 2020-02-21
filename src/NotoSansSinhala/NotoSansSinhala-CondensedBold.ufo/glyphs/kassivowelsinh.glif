@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kassivowelsinh" format="2">
+  <advance width="1152"/>
+  <outline>
+    <contour>
+      <point x="818" y="894" type="curve" smooth="yes"/>
+      <point x="613" y="894"/>
+      <point x="571" y="789"/>
+      <point x="571" y="706" type="curve" smooth="yes"/>
+      <point x="571" y="678"/>
+      <point x="575" y="654"/>
+      <point x="579" y="635" type="curve"/>
+      <point x="710" y="642" type="line"/>
+      <point x="708" y="651"/>
+      <point x="706" y="665"/>
+      <point x="706" y="677" type="curve" smooth="yes"/>
+      <point x="706" y="722"/>
+      <point x="722" y="755"/>
+      <point x="818" y="755" type="curve" smooth="yes"/>
+      <point x="915" y="755"/>
+      <point x="931" y="722"/>
+      <point x="931" y="677" type="curve" smooth="yes"/>
+      <point x="931" y="665"/>
+      <point x="929" y="651"/>
+      <point x="927" y="642" type="curve"/>
+      <point x="1057" y="631" type="line"/>
+      <point x="1062" y="653"/>
+      <point x="1066" y="677"/>
+      <point x="1066" y="706" type="curve" smooth="yes"/>
+      <point x="1066" y="789"/>
+      <point x="1024" y="894"/>
+    </contour>
+    <component base="kassasinh"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/06/01 09:06:37</string>
+    </dict>
+  </lib>
+</glyph>

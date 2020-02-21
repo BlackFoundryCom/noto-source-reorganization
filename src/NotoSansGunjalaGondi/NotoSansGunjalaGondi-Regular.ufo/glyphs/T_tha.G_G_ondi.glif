@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ttha.GGondi" format="2">
+  <advance width="860"/>
+  <unicode hex="11D7E"/>
+  <anchor x="640" y="-28" name="bottom"/>
+  <anchor x="688" y="656" name="top"/>
+  <outline>
+    <contour>
+      <point x="110" y="235" type="line"/>
+      <point x="423" y="235" type="line"/>
+      <point x="423" y="296" type="line"/>
+      <point x="110" y="296" type="line"/>
+    </contour>
+    <component base="Tta.GGondi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/04 20:07:41</string>
+    </dict>
+  </lib>
+</glyph>

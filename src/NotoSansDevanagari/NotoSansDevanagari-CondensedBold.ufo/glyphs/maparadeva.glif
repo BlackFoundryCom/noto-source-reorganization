@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="maparadeva" format="2">
+  <advance width="790"/>
+  <outline>
+    <contour>
+      <point x="228" y="333" type="line"/>
+      <point x="228" y="489" type="line"/>
+      <point x="356" y="489" type="line"/>
+      <point x="356" y="622" type="line"/>
+      <point x="0" y="622" type="line"/>
+      <point x="0" y="489" type="line"/>
+      <point x="78" y="489" type="line"/>
+      <point x="78" y="332" type="line"/>
+      <point x="91" y="333" type="line"/>
+      <point x="38" y="333"/>
+      <point x="22" y="302"/>
+      <point x="22" y="265" type="curve" smooth="yes"/>
+      <point x="22" y="199"/>
+      <point x="88" y="105"/>
+      <point x="163" y="105" type="curve" smooth="yes"/>
+      <point x="208" y="105"/>
+      <point x="228" y="132"/>
+      <point x="228" y="188" type="curve" smooth="yes"/>
+      <point x="228" y="200" type="line"/>
+      <point x="382" y="200" type="line"/>
+      <point x="382" y="333" type="line"/>
+    </contour>
+    <component base="paradeva" xOffset="288"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/04/14 12:18:31</string>
+    </dict>
+  </lib>
+</glyph>

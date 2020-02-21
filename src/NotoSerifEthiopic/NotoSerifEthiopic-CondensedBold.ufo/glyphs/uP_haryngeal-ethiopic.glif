@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uPharyngeal-ethiopic" format="2">
+  <advance width="724"/>
+  <unicode hex="12D1"/>
+  <note>
+uni12D1
+</note>
+  <anchor x="391" y="725" name="top"/>
+  <outline>
+    <component base="aPharyngeal-ethiopic"/>
+    <component base="rightsingleflag" xOffset="471" yOffset="-28"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>aPharyngeal-ethiopic</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=rightsingleflag-10</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/06/27 13:53:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

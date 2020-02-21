@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="400" default="400">
+      <map input="400" output="94"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="NotoSerifDogra-Regular.ufo" name="Noto Serif Dogra Regular" familyname="Noto Serif Dogra" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Serif Dogra Regular" familyname="Noto Serif Dogra" stylename="Regular" filename="instance_ufos/NotoSerifDogra-Regular.ufo" postscriptfontname="NotoSerifDogra-Regular" stylemapfamilyname="Noto Serif Dogra" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Serif Dogra</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>UFO.lib</key>
+      <dict>
+        <key>com.typemytype.robofont.guides</key>
+        <array>
+          <dict>
+            <key>isGlobal</key>
+            <integer>1</integer>
+            <key>magnetic</key>
+            <integer>5</integer>
+            <key>x</key>
+            <integer>0</integer>
+            <key>y</key>
+            <integer>-371</integer>
+          </dict>
+          <dict>
+            <key>isGlobal</key>
+            <integer>1</integer>
+            <key>magnetic</key>
+            <integer>5</integer>
+            <key>x</key>
+            <integer>0</integer>
+            <key>y</key>
+            <integer>831</integer>
+          </dict>
+          <dict>
+            <key>isGlobal</key>
+            <integer>1</integer>
+            <key>magnetic</key>
+            <integer>5</integer>
+            <key>x</key>
+            <integer>0</integer>
+            <key>y</key>
+            <integer>683</integer>
+          </dict>
+          <dict>
+            <key>isGlobal</key>
+            <integer>1</integer>
+            <key>magnetic</key>
+            <integer>5</integer>
+            <key>x</key>
+            <integer>0</integer>
+            <key>y</key>
+            <integer>84</integer>
+          </dict>
+          <dict>
+            <key>isGlobal</key>
+            <integer>1</integer>
+            <key>magnetic</key>
+            <integer>5</integer>
+            <key>name</key>
+            <string>t</string>
+            <key>x</key>
+            <integer>0</integer>
+            <key>y</key>
+            <integer>614</integer>
+          </dict>
+        </array>
+      </dict>
+      <key>UFOFormat</key>
+      <integer>2</integer>
+    </dict>
+  </lib>
+</designspace>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eeMatra_kannada" format="2">
+  <advance width="620"/>
+  <unicode hex="0CC7"/>
+  <outline>
+    <component base="eMatra_kannada" xOffset="263"/>
+    <component base="length_kannada" xOffset="212"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>kannada</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

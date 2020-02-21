@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bbe.eth" format="2">
+  <advance width="659"/>
+  <unicode hex="AB2D"/>
+  <note>
+uniAB2D
+</note>
+  <anchor x="329" y="854" name="top"/>
+  <outline>
+    <component base="bba.eth"/>
+    <component base="rightsingleflag" xOffset="366" yOffset="132"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>leftdoubleflag</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>rightsingleflag</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/08/29 14:43:55</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

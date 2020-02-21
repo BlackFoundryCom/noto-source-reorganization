@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tt-gujarati" format="2">
+  <advance width="512"/>
+  <anchor x="291" y="0" name="bottom"/>
+  <anchor x="288" y="-125" name="bottomleft"/>
+  <anchor x="291" y="0" name="bottomright"/>
+  <anchor x="288" y="72" name="bottomround"/>
+  <anchor x="373" y="592" name="top"/>
+  <anchor x="273" y="592" name="topright"/>
+  <outline>
+    <component base="tta-gujarati"/>
+    <component base="halant-gujarati" xOffset="291"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gujarati</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Halfform</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

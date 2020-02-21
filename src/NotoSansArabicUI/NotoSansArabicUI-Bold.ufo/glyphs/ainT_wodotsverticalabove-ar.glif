@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ainTwodotsverticalabove-ar" format="2">
+  <advance width="629"/>
+  <unicode hex="075F"/>
+  <anchor x="401" y="-271" name="bottom"/>
+  <anchor x="303" y="1004" name="top"/>
+  <outline>
+    <component base="ain-ar"/>
+    <component base="twodotsverticalabove-ar" xOffset="203" yOffset="152"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:38</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

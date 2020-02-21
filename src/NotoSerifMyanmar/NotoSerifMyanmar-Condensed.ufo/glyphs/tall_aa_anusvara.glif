@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tall_aa_anusvara" format="2">
+  <advance width="190"/>
+  <note>
+For Mon. See UTN11 p31
+</note>
+  <outline>
+    <component base="anusvara" xOffset="-94"/>
+    <component base="_tall_aa_cond"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_tall_aa</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>_tall_aa</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>myanmar</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

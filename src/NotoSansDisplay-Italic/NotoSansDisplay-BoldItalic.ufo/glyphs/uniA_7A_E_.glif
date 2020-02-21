@@ -1,37 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uniA7AE" format="2">
-  <advance width="326"/>
+  <advance width="603"/>
   <unicode hex="A7AE"/>
+  <anchor x="244" y="0" name="bottom"/>
+  <anchor x="396" y="714" name="top"/>
   <outline>
     <contour>
-      <point x="-37" y="0" type="line"/>
-      <point x="233" y="0" type="line"/>
-      <point x="252" y="84" type="line"/>
-      <point x="193" y="114" type="line"/>
-      <point x="260" y="435" type="line"/>
-      <point x="333" y="467" type="line"/>
-      <point x="352" y="553" type="line"/>
-      <point x="79" y="553" type="line"/>
-      <point x="62" y="467" type="line"/>
-      <point x="119" y="435" type="line"/>
-      <point x="52" y="114" type="line"/>
-      <point x="-18" y="84" type="line"/>
+      <point x="669" y="714" type="line"/>
+      <point x="120" y="714" type="line"/>
+      <point x="97" y="604" type="line"/>
+      <point x="261" y="567" type="line"/>
+      <point x="171" y="147" type="line"/>
+      <point x="-9" y="110" type="line"/>
+      <point x="-32" y="0" type="line"/>
+      <point x="517" y="0" type="line"/>
+      <point x="540" y="110" type="line"/>
+      <point x="375" y="147" type="line"/>
+      <point x="465" y="567" type="line"/>
+      <point x="646" y="604" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
-      <string></string>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>I</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>I</string>
+      <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:19</string>
+      <string>2019/09/25 18:19:12</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
+      <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string></string>
+      <string>Lowercase</string>
     </dict>
   </lib>
 </glyph>

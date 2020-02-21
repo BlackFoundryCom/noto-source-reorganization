@@ -1,0 +1,496 @@
+@tnum = [ uni0660 uni0661 uni0662 uni0663 uni0664 uni0665 uni0666 uni0667 uni0668 uni0669 uni06F0 uni06F1 uni06F2 uni06F3 uni06F4 uni06F5 uni06F6 uni06F7 uni06F8 uni06F9 uni06F4.locl uni06F7.locl ];
+
+@fina = [ uni0620 uni0622 uni0623 uni0624 uni0625 uni0626 uni0627 uni0628 uni0629 uni062A uni062B uni062C uni062D uni062E uni062F uni0630 uni0631 uni0632 uni0633 uni0634 uni0635 uni0636 uni0637 uni0638 uni0639 uni063A uni063B uni063C uni063D uni063E uni063F uni0641 uni0642 uni0643 uni0644 uni0645 uni0646 uni0647 uni0648 uni0649 uni064A uni066E uni066F uni0671 uni0672 uni0673 uni0675 uni0676 uni0677 uni0678 uni0679 uni067A uni067B uni067C uni067D uni067E uni067F uni0680 uni0681 uni0682 uni0683 uni0684 uni0685 uni0686 uni0687 uni0688 uni0689 uni068A uni068B uni068C uni068D uni068E uni068F uni0690 uni0691 uni0692 uni0693 uni0694 uni0695 uni0696 uni0697 uni0698 uni0699 uni069A uni069B uni069C uni069D uni069E uni069F uni06A0 uni06A1 uni06A2 uni06A3 uni06A4 uni06A5 uni06A6 uni06A7 uni06A8 uni06A9 uni06AA uni06AB uni06AC uni06AD uni06AE uni06AF uni06B0 uni06B1 uni06B2 uni06B3 uni06B4 uni06B5 uni06B6 uni06B7 uni06B8 uni06B9 uni06BA uni06BB uni06BC uni06BD uni06BE uni06BF uni06C0 uni06C1 uni06C2 uni06C3 uni06C4 uni06C5 uni06C6 uni06C7 uni06C8 uni06C9 uni06CA uni06CB uni06CC uni06CD uni06CE uni06CF uni06D0 uni06D1 uni06D2 uni06D3 uni06D5 uni06EE uni06EF uni06FA uni06FB uni06FC uni06FF uni0750 uni0751 uni0752 uni0753 uni0754 uni0755 uni0756 uni0757 uni0758 uni0759 uni075A uni075B uni075C uni075D uni075E uni075F uni0760 uni0761 uni0762 uni0763 uni0764 uni0765 uni0766 uni0767 uni0768 uni0769 uni076A uni076B uni076C uni076D uni076E uni076F uni0770 uni0771 uni0772 uni0773 uni0774 uni0775 uni0776 uni0777 uni0778 uni0779 uni077A uni077B uni077C uni077D uni077E uni077F uni08A0 uni08A2 uni08A3 uni08A4 uni08A5 uni08A6 uni08A7 uni08A8 uni08A9 uni08AA uni08AB ];
+
+@tnum2 = [ uni0660.4 uni0661.5 uni0662.tnum uni0663.6 uni0664.tnum uni0665.7 uni0666.tnum uni0667.8 uni0668.9 uni0669.tnum uni0660.4 uni0661.5 uni0662.tnum uni0663.6 uni06F4.10 uni06F5.11 uni06F6.12 uni0667.8 uni0668.9 uni0669.tnum _863 _866 ];
+
+@fina2 = [ uni0620.fina uniFE82 uniFE84 uniFE86 uniFE88 uniFE8A uniFE8E uniFE90 uniFE94 uniFE96 uniFE9A uniFE9E uniFEA2 uniFEA6 uniFEAA uniFEAC uniFEAE uniFEB0 uniFEB2 uniFEB6 uniFEBA uniFEBE uniFEC2 uniFEC6 uniFECA uniFECE uni063B.fina uniFB8F_uniFBB7 uni063D.fina uniFEF0_uniFBB4 uniFEF0_uniFBB6 uniFED2 uniFED6 uniFEDA uniFEDE uniFEE2 uniFEE6 uniFEEA uniFEEE uniFEF0 uniFEF2 uni066E.fina uni066F.fina uniFB51 uni0672.fina uniFE8E_uni065F uniFE8E_uni0654 uniFEEE_uni0654 uniFEEE_uni064F_uni0654 uni0678.fina uniFB67 uniFB5F uniFB53 uni067C.fina uni067D.fina uniFB57 uniFB63 uniFB5B uni0681.fina uniFEA2_uniFBBD uniFB77 uniFB73 uniFEA2_uniFBB6 uniFB7B uniFB7F uniFB89 uni0689.fina uniFEAA_uniFBB3 uni068B.fina uniFB85 uniFB83 uniFB87 uniFEAA_uniFBB8 uniFEAA_uniFBBA uniFB8D uni0692.fina uni0693.fina uniFEAE_uniFBB3 uni0695.fina uniFEAE_uniFBB3_uniFBB3 uniFEAE_uniFBB4 uniFB8B uniFEAE_uniFBBA uniFEB2_uniFBB2_uniFBB3 uniFEB2_uniFBB7 uniFEB2_uniFBB6_uniFBB7 uniFEBA_uniFBB5 uniFEBA_uniFBB6 uniFEC2_uniFBB6 uniFECA_uniFBB6 uni06A1.fina uni06A2.fina uni06A3.fina uniFB6B uni06A5.fina uniFB6F uni06A7.fina uni06A8.fina uniFB8F uni06AA.fina uni06AB.fina uniFEDA_uniFBB2 uniFBD4 uniFEDA_uniFBB7 uniFB93 uni06B0.fina uniFB9B uniFB97 uni06B3.fina uni06B4.fina uniFEDE_uni065A uniFEDE_uniFBB2 uniFEDE_uniFBB6 uniFEDE_uniFBB7 uniFB9F_uniFBB3_uniFBB2 uniFB9F uniFBA1 uni06BC.fina uniFB9F_uniFBB6 uniFBAB uniFEA2_uniFBB7_uniFBB2 uniFBA5 uniFBA7 uni06C2.fina uniFBA7_uniFBB4 uni06C4.fina uniFBE1 uniFBDA uniFBD8 uniFBDC uniFBE3 uniFEEE_uniFBB4 uniFBDF uniFBFD uni06CD.fina uni06CE.fina uniFEEE_uniFBB2 uniFBE5 uniFEF0_uniFBB7 uniFBAF uniFBB1 uniFEEA uni06EE.fina uni06EF.fina uniFEB2_uniFBB6_uniFBB3 uniFEBA_uniFBB3_uniFBB2 uniFECA_uniFBB2_uniFBB3 uni06FF.fina uni0750.fina uni0751.fina uni0752.fina uni0753.fina uni0754.fina uni0755.fina uni0756.fina uniFEA2_uniFBB4 uniFEA2_uniFBB9 uni0759.fina uni075A.fina uni075B.fina uniFEB2_uniFBBA uniFECA_uniFBB4 uniFECA_uniFBB8 uniFECA_uniFBBD uni0760.fina uni0761.fina uni0762.fina uni0763.fina uniFB8F_uniFBB9 uniFEE2_uniFBB2 uniFEE2_uniFBB3 uniFB9F_uniFBB5_uniFBB2 uni0768.fina uni0769.fina uni076A.fina uniFEAE_uniFBBD uniFEAE_uni0654 uniFEB2_uniFBBD uni076E.fina uni076F.fina uni0770.fina uni0771.fina uni0772.fina uni0773.fina uni0774.fina uni0775.fina uni0776.fina uni0777.fina uni0778.fina uni0779.fina uni077A.fina uni077B.fina uni077C.fina uni077D.fina uni077E.fina uni077F.fina uni08A0.fina uniFEA2_uniFBB4_uniFBB3 uniFEC2_uniFBB4 uni08A4.fina uni08A5.fina uni08A6.fina uniFEE2_uniFBB6 uni08A8.fina uniFEF0_uniFBB5_uniFBB2 uni08AA.fina uni08AB.fina ];
+
+@medi = [ uni0620.medi uniFE8C uniFE92 uniFE98 uniFE9C uniFEA0 uniFEA4 uniFEA8 uniFEB4 uniFEB8 uniFEBC uniFEC0 uniFEC4 uniFEC8 uniFECC uniFED0 uni063B.medi uniFEDC_uniFBB7.3 uni063D.medi uni063E.medi uni063F.medi uniFED4 uniFED8 uniFEDC uniFEE0 uniFEE4 uniFEE8 uniFEEC uniFBE9 uniFEF4 uni066E.medi uni066F.medi uni0678.medi uniFB69 uniFB61 uniFB55 uni067C.medi uni067D.medi uniFB59 uniFB65 uniFB5D uni0681.medi uniFEA4_uniFBBD uniFB79 uniFB75 uniFEA4_uniFBB6 uniFB7D uniFB81 uniFEB4_uniFBB2_uniFBB3 uniFEB4_uniFBB7 uniFEB4_uniFBB6_uniFBB7 uniFEBC_uniFBB5 uniFEBC_uniFBB6 uniFEC4_uniFBB6 uniFECC_uniFBB6 uni066F.medi uni06A2.medi uni06A3.medi uniFB6D uni06A5.medi uniFB71 uniFED4 uniFB6D uniFB91 uni06AA.medi uni06AB.medi uni06AC.medi uniFBD6 uniFEDC_uniFBB7 uniFB95 uni06B0.medi uniFB9D uniFB99 uni06B3.medi uni06B4.medi uniFEE0_uni065A uniFEE0_uniFBB2 uniFEE0_uniFBB6 uniFEE0_uniFBB7 uni06B9.medi uniFBE9 uniFB69 uni06BC.medi uniFB59 uniFBAD uniFEA4_uniFBB2_uniFBB7 uniFBA9 uni06C2.medi uniFBFF uni06CE.medi uniFBE7 uniFB59 uniFEB4_uniFBB6_uniFBB3 uniFEBC_uniFBB3_uniFBB2 uniFECC_uniFBB2_uniFBB3 uni06FF.medi uni0750.medi uni0751.medi uni0752.medi uni0753.medi uni0754.medi uni0755.medi uni0756.medi uniFEA4_uniFBB4 uniFEA4_uniFBB9 uniFEB4_uniFBBA uniFECC_uniFBB4 uniFECC_uniFBB8 uniFECC_uniFBBD uni0760.medi uni0761.medi uni0762.medi uni0763.medi uniFEDC_uniFBB9 uniFEE4_uniFBB2 uniFEE4_uniFBB3 uni0767.medi uni0768.medi uni0769.medi uni076A.medi uniFEB4_uniFBBD uni076E.medi uni076F.medi uni0770.medi uni0772.medi uni0775.medi uni0776.medi uni0777.medi uni077A.medi uni077B.medi uni077C.medi uni077D.medi uni077E.medi uni077F.medi uni08A0.medi uniFEA4_uniFBB4_uniFBB3 uniFEC4_uniFBB4 uni08A4.medi uni08A5.medi uni08A6.medi uniFEE4_uniFBB6 uni08A8.medi uni08A9.medi ];
+
+@ccmp4 = [ uni0660.ccmp uni0661.ccmp uni0662.ccmp uni0663.ccmp uni0664.ccmp uni0665.ccmp uni0666.ccmp uni0667.ccmp uni0668.ccmp uni0669.ccmp uni06F4.ccmp uni06F5.ccmp uni06F6.ccmp _971 _972 uni0030.ccmp uni0031.ccmp uni0032.ccmp uni0033.ccmp uni0034.ccmp uni0035.ccmp uni0036.ccmp uni0037.ccmp uni0038.ccmp uni0039.ccmp ];
+
+@ccmp = [ uni0601 uni06DD uni0600 uni0602 uni0603 uni0604 ];
+
+@init_medi = [ uni0620 uni0626 uni0628 uni062A uni062B uni062C uni062D uni062E uni0633 uni0634 uni0635 uni0636 uni0637 uni0638 uni0639 uni063A uni063B uni063C uni063D uni063E uni063F uni0641 uni0642 uni0643 uni0644 uni0645 uni0646 uni0647 uni0649 uni064A uni066E uni066F uni0678 uni0679 uni067A uni067B uni067C uni067D uni067E uni067F uni0680 uni0681 uni0682 uni0683 uni0684 uni0685 uni0686 uni0687 uni069A uni069B uni069C uni069D uni069E uni069F uni06A0 uni06A1 uni06A2 uni06A3 uni06A4 uni06A5 uni06A6 uni06A7 uni06A8 uni06A9 uni06AA uni06AB uni06AC uni06AD uni06AE uni06AF uni06B0 uni06B1 uni06B2 uni06B3 uni06B4 uni06B5 uni06B6 uni06B7 uni06B8 uni06B9 uni06BA uni06BB uni06BC uni06BD uni06BE uni06BF uni06C1 uni06C2 uni06CC uni06CE uni06D0 uni06D1 uni06FA uni06FB uni06FC uni06FF uni0750 uni0751 uni0752 uni0753 uni0754 uni0755 uni0756 uni0757 uni0758 uni075C uni075D uni075E uni075F uni0760 uni0761 uni0762 uni0763 uni0764 uni0765 uni0766 uni0767 uni0768 uni0769 uni076A uni076D uni076E uni076F uni0770 uni0772 uni0775 uni0776 uni0777 uni077A uni077B uni077C uni077D uni077E uni077F uni08A0 uni08A2 uni08A3 uni08A4 uni08A5 uni08A6 uni08A7 uni08A8 uni08A9 ];
+
+@ccmp2 = [ uni0660 uni0661 uni0662 uni0663 uni0664 uni0665 uni0666 uni0667 uni0668 uni0669 uni06F0 uni06F1 uni06F2 uni06F3 uni06F4 uni06F5 uni06F6 uni06F7 uni06F8 uni06F9 uni06F4.locl uni06F7.locl uni0030 uni0031 uni0032 uni0033 uni0034 uni0035 uni0036 uni0037 uni0038 uni0039 ];
+
+@init = [ uni0620.init uniFE8B uniFE91 uniFE97 uniFE9B uniFE9F uniFEA3 uniFEA7 uniFEB3 uniFEB7 uniFEBB uniFEBF uniFEC3 uniFEC7 uniFECB uniFECF uni063B.init uniFEDB_uniFBB7.2 uni063D.init uni063E.init uni063F.init uniFED3 uniFED7 uniFEDB uniFEDF uniFEE3 uniFEE7 uniFEEB uniFBE8 uniFEF3 uni066E.init uni066F.init uni0678.init uniFB68 uniFB60 uniFB54 uni067C.init uni067D.init uniFB58 uniFB64 uniFB5C uni0681.init uniFEA3_uniFBBD uniFB78 uniFB74 uniFEA3_uniFBB6 uniFB7C uniFB80 uniFEB3_uniFBB2_uniFBB3 uniFEB3_uniFBB7 uniFEB3_uniFBB6_uniFBB7 uniFEBB_uniFBB5 uniFEBB_uniFBB6 uniFEC3_uniFBB6 uniFECB_uniFBB6 uni066F.init uni06A2.init uni06A3.init uniFB6C uni06A5.init uniFB70 uniFED3 uniFB6C uniFB90 uni06AA.init uni06AB.init uni06AC.init uniFBD5 uniFEDB_uniFBB7 uniFB94 uni06B0.init uniFB9C uniFB98 uni06B3.init uni06B4.init uniFEDF_uni065A uniFEDF_uniFBB2 uniFEDF_uniFBB6 uni06B8.init uni06B9.init uniFBE8 uniFB68 uni06BC.init uniFB58 uniFBAC uniFEA3_uniFBB2_uniFBB7 uniFBA8 uni06C2.init uniFBFE uni06CE.init uniFBE6 uniFB58 uniFEB3_uniFBB6_uniFBB3 uniFEBB_uniFBB2_uniFBB3 uniFECB_uniFBB2_uniFBB3 uni06FF.init uni0750.init uni0751.init uni0752.init uni0753.init uni0754.init uni0755.init uni0756.init uniFEA3_uniFBB4 uniFEA3_uniFBB9 uniFEB3_uniFBBA uniFECB_uniFBB4 uniFECB_uniFBB8 uniFECB_uniFBBD uni0760.init uni0761.init uni0762.init uni0763.init uniFEDB_uniFBB9 uniFEE3_uniFBB2 uniFEE3_uniFBB3 uni0767.init uni0768.init uni0769.init uni076A.init uniFEB3_uniFBBD uni076E.init uni076F.init uni0770.init uni0772.init uni0775.init uni0776.init uni0777.init uni077A.init uni077B.init uni077C.init uni077D.init uni077E.init uni077F.init uni08A0.init uniFEA3_uniFBB4_uniFBB3 uniFEC3_uniFBB4 uni08A4.init uni08A5.init uni08A6.init uniFEE3_uniFBB6 uni08A8.init uni08A9.init ];
+
+@rlig3 = [ uniFB51 uniFE82 uniFE84 uniFE88 uniFE8E uniFEE0 uni0672.fina uniFE8E_uni065F uniFEE0_uni065A uniFEE0_uniFBB2 uniFEE0_uniFBB6 uniFEE0_uniFBB7 uni076A.medi uniFD3D ];
+
+@ccmp5 = [ _971 _972 uni0660.ccmp uni0661.ccmp uni0662.ccmp uni0663.ccmp uni0664.ccmp uni0665.ccmp uni0666.ccmp uni0667.ccmp uni0668.ccmp uni0669.ccmp uni06F4.ccmp uni06F5.ccmp uni06F6.ccmp uni0030.ccmp uni0031.ccmp uni0032.ccmp uni0033.ccmp uni0034.ccmp uni0035.ccmp uni0036.ccmp uni0037.ccmp uni0038.ccmp uni0039.ccmp ];
+
+@rlig = [ uniFB51 uniFE82 uniFE84 uniFE88 uniFE8E uniFEDF uni0672.fina uniFE8E_uni065F uniFEDF_uni065A uniFEDF_uniFBB2 uniFEDF_uniFBB6 uni06B8.init uni076A.init uni08A6.init ];
+
+@rlig2 = [ uniFB51.rlig uniFE82.rlig uniFE84.rlig uniFE88.rlig uniFE8E.rlig uniFEDF.rlig _1015 uniFE8E_uni065F.rlig uniFEDF_uni065A.rlig uniFEDF_uniFBB2.rlig uniFEDF_uniFBB6.rlig _1013 _1012 _1033 ];
+
+@ccmp3 = [ uni0660.ccmp uni0661.ccmp uni0662.ccmp uni0663.ccmp uni0664.ccmp uni0665.ccmp uni0666.ccmp uni0667.ccmp uni0668.ccmp uni0669.ccmp uni0660.ccmp uni0661.ccmp uni0662.ccmp uni0663.ccmp uni06F4.ccmp uni06F5.ccmp uni06F6.ccmp uni0667.ccmp uni0668.ccmp uni0669.ccmp _971 _972 uni0030.ccmp uni0031.ccmp uni0032.ccmp uni0033.ccmp uni0034.ccmp uni0035.ccmp uni0036.ccmp uni0037.ccmp uni0038.ccmp uni0039.ccmp ];
+
+@rlig4 = [ _1028 _1025 _1029 _1031 _1008 uniFEE0.rlig _1026 _1027 uniFEE0_uni065A.rlig uniFEE0_uniFBB2.rlig uniFEE0_uniFBB6.rlig uniFEE0_uniFBB7.rlig _1024 uniFD3D.rlig ];
+
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
+languagesystem arab dflt;
+languagesystem latn dflt;
+languagesystem arab SND;
+languagesystem arab URD;
+languagesystem arab FAR;
+
+
+# Prefix: Prefix
+###
+# OpenType Layout feature definitions
+# Format: Adobe FDK for OpenType (AFDKO) version 2.5
+# Generated on: 2019-12-6 10:8
+# Generated by: Fontlab
+# Tool options: fea-inline-lookups: yes, fea-inline-classes: 0, fea-additional-tables: yes, fea-table-overrides: no
+# Font PostScript name: NotoNaskhArabic
+# Font copyright: Copyright 2014 Google Inc. All Rights Reserved.
+#
+# Totals:
+# Languagesystems: 6
+# GSUB lookups: 23
+# GSUB features: 8 (ccmp, fina, init, liga, locl, medi, rlig, tnum)
+# GPOS lookups: 8
+# GPOS features: 2 (mark, mkmk)
+
+#
+# Languagesystem definitions
+#
+
+# Latin default
+# Arabic default
+# Arabic Farsi
+# Arabic Kashmiri
+# Arabic Sindhi
+# Arabic Urdu
+
+#
+# Lookup definitions
+#
+
+lookup rlig_arab_3 {
+# GSUB lookup 9, type 11 (Single)
+  sub @rlig by @rlig2;
+} rlig_arab_3;
+
+lookup rlig_arab_4 {
+# GSUB lookup 10, type 11 (Single)
+  sub @rlig3 by @rlig4;
+} rlig_arab_4;
+
+lookup ccmp_arab_5 {
+# GSUB lookup 17, type 11 (Single)
+  sub @ccmp by [uni0601.13 uni06DD.17 uni0600.ccmp uni0602.ccmp uni0603.ccmp uni0604.ccmp];
+} ccmp_arab_5;
+
+lookup ccmp_arab_6 {
+# GSUB lookup 18, type 11 (Single)
+  sub @ccmp2 by @ccmp3;
+} ccmp_arab_6;
+
+lookup ccmp_arab_8 {
+# GSUB lookup 19, type 12 (Multiple)
+  sub uni0660.ccmp by _1485 uni0660.ccmp;
+  sub uni0661.ccmp by _1485 uni0661.ccmp;
+  sub uni0662.ccmp by _1485 uni0662.ccmp;
+  sub uni0663.ccmp by _1485 uni0663.ccmp;
+  sub uni0664.ccmp by _1485 uni0664.ccmp;
+  sub uni0665.ccmp by _1485 uni0665.ccmp;
+  sub uni0666.ccmp by _1485 uni0666.ccmp;
+  sub uni0667.ccmp by _1485 uni0667.ccmp;
+  sub uni0668.ccmp by _1485 uni0668.ccmp;
+  sub uni0669.ccmp by _1485 uni0669.ccmp;
+  sub uni06F4.ccmp by _1485 uni06F4.ccmp;
+  sub uni06F5.ccmp by _1485 uni06F5.ccmp;
+  sub uni06F6.ccmp by _1485 uni06F6.ccmp;
+  sub _971 by _1485 _971;
+  sub _972 by _1485 _972;
+  sub uni0030.ccmp by _1485 uni0030.ccmp;
+  sub uni0031.ccmp by _1485 uni0031.ccmp;
+  sub uni0032.ccmp by _1485 uni0032.ccmp;
+  sub uni0033.ccmp by _1485 uni0033.ccmp;
+  sub uni0034.ccmp by _1485 uni0034.ccmp;
+  sub uni0035.ccmp by _1485 uni0035.ccmp;
+  sub uni0036.ccmp by _1485 uni0036.ccmp;
+  sub uni0037.ccmp by _1485 uni0037.ccmp;
+  sub uni0038.ccmp by _1485 uni0038.ccmp;
+  sub uni0039.ccmp by _1485 uni0039.ccmp;
+} ccmp_arab_8;
+#
+# Feature definitions
+#
+
+feature aalt {
+# automatic
+feature fina;
+feature init;
+feature medi;
+feature locl;
+feature tnum;
+
+} aalt;
+
+feature ccmp {
+# GSUB feature: Glyph Composition / Decomposition
+# Lookups: 6
+
+  lookup ccmp_arab_9 {
+  # GSUB lookup 21, type 14 (Ligature)
+    lookupflag IgnoreMarks;
+    sub uni0600.ccmp _1485 _1485 by _1485__1485;
+    sub uni0600.ccmp _1485 by _982;
+    sub uni0601.13 _1485 _1485 _1485 by uni0601.16;
+    sub uni0601.13 _1485 _1485 by uni0601.15;
+    sub uni0601.13 _1485 by uni0601.14;
+    sub uni0602.ccmp _1485 _1485 by _991;
+    sub uni0602.ccmp _1485 by _990;
+    sub uni0603.ccmp _1485 _1485 by _995;
+    sub uni0603.ccmp _1485 by _994;
+    sub uni0604.ccmp _1485 _1485 _1485 by _1485__1485__1485;
+    sub uni0604.ccmp _1485 _1485 by _999;
+    sub uni0604.ccmp _1485 by _998;
+    sub uni06DD.17 _1485 _1485 by uni06DD.19;
+    sub uni06DD.17 _1485 by uni06DD.18;
+  } ccmp_arab_9;
+
+  script arab; # Arabic
+  sub uni0623 by uni0627 uni0654;
+  sub uni0625 by uni0627 uni0655;
+  sub uni064B uni0651 by uni064B_uni0651;
+  sub uni064B uni0654 by uni064B_uni0654;
+  sub uni064C uni0651 by uni064C_uni0651;
+  sub uni064C uni0654 by uni064C_uni0654;
+  sub uni064D uni0651 by uni064D_uni0651;
+  sub uni064D uni0655 by uni064D_uni0655;
+  sub uni064E uni0651 by uni064E_uni0651;
+  sub uni064E uni0654 by uni064E_uni0654;
+  sub uni064F uni0651 by uni064F_uni0651;
+  sub uni064F uni0654 by uni064F_uni0654;
+  sub uni0650 uni0651 by uni0650_uni0651;
+  sub uni0650 uni0655 by uni0650_uni0655;
+  sub uni0651 uni064B by uni064B_uni0651;
+  sub uni0651 uni064C by uni064C_uni0651;
+  sub uni0651 uni064D by uni064D_uni0651;
+  sub uni0651 uni064E by uni064E_uni0651;
+  sub uni0651 uni064F by uni064F_uni0651;
+  sub uni0651 uni0650 by uni0650_uni0651;
+  sub uni0651 uni0670 by uni0651_uni0670;
+  sub uni0654 uni064B by uni064B_uni0654;
+  sub uni0654 uni064C by uni064C_uni0654;
+  sub uni0654 uni064E by uni064E_uni0654;
+  sub uni0654 uni064F by uni064F_uni0654;
+  sub uni0654 uni0652 by uni0654_uni0652;
+  sub uni0655 uni064D by uni064D_uni0655;
+  sub uni0655 uni0650 by uni0650_uni0655;
+  sub uni0670 uni0651 by uni0651_uni0670;
+  sub uni0652 uni0654 by uni0654_uni0652;
+  sub uni0627 uni0654 by uni0623;
+  sub uni0627 uni0655 by uni0625;
+  sub @ccmp' lookup ccmp_arab_5 @ccmp2' lookup ccmp_arab_6 @ccmp2' lookup ccmp_arab_6 @ccmp2' lookup ccmp_arab_6 @ccmp2' lookup ccmp_arab_6;
+  sub @ccmp' lookup ccmp_arab_5 @ccmp2' lookup ccmp_arab_6 @ccmp2' lookup ccmp_arab_6 @ccmp2' lookup ccmp_arab_6;
+  sub @ccmp' lookup ccmp_arab_5 @ccmp2' lookup ccmp_arab_6 @ccmp2' lookup ccmp_arab_6;
+  sub @ccmp' lookup ccmp_arab_5 @ccmp2' lookup ccmp_arab_6;
+  sub [uni0600.ccmp uni0601.13 uni0602.ccmp uni0603.ccmp uni0604.ccmp uni06DD.17] @ccmp5 @ccmp4' lookup ccmp_arab_8;
+  sub _1485 @ccmp5 @ccmp4' lookup ccmp_arab_8;
+  lookup ccmp_arab_9;
+    language SND ; # Sindhi
+    language URD ; # Urdu
+    language KSH ; # Kashmiri
+    language FAR ; # Farsi
+} ccmp;
+
+feature fina {
+# GSUB feature: Terminal Forms
+# Lookups: 1
+
+  script arab; # Arabic
+  sub @fina by @fina2;
+    language SND ; # Sindhi
+    language URD ; # Urdu
+    language KSH ; # Kashmiri
+    language FAR ; # Farsi
+} fina;
+
+feature init {
+# GSUB feature: Initial Forms
+# Lookups: 1
+
+  script arab; # Arabic
+  sub @init_medi by @init;
+    language SND ; # Sindhi
+    language URD ; # Urdu
+    language KSH ; # Kashmiri
+    language FAR ; # Farsi
+} init;
+
+feature medi {
+# GSUB feature: Medial Forms
+# Lookups: 1
+
+  script arab; # Arabic
+  sub @init_medi by @medi;
+    language SND ; # Sindhi
+    language URD ; # Urdu
+    language KSH ; # Kashmiri
+    language FAR ; # Farsi
+} medi;
+
+feature rlig {
+# GSUB feature: Required Ligatures
+# Lookups: 2
+
+  lookup rlig_arab_2 {
+  # GSUB lookup 8, type 15 (Context)
+    lookupflag IgnoreMarks;
+    sub [uniFEDF uniFEDF_uni065A uniFEDF_uniFBB2 uniFEDF_uniFBB6 uni06B8.init uni076A.init uni08A6.init]' lookup rlig_arab_3 [uniFB51 uniFE82 uniFE84 uniFE88 uniFE8E uni0672.fina uniFE8E_uni065F uniFD3D]' lookup rlig_arab_3;
+    sub [uniFEE0 uniFEE0_uni065A uniFEE0_uniFBB2 uniFEE0_uniFBB6 uniFEE0_uniFBB7 uni076A.medi uni08A6.medi uniFD3C]' lookup rlig_arab_4 [uniFB51 uniFE82 uniFE84 uniFE88 uniFE8E uni0672.fina uniFE8E_uni065F uniFD3D]' lookup rlig_arab_4;
+  } rlig_arab_2;
+
+  lookup rlig_arab_1 {
+  # GSUB lookup 7, type 14 (Ligature)
+    lookupflag IgnoreMarks;
+    sub uniFEDF uniFB51 by uniFEDF_uniFB51;
+    sub uniFEDF uniFE82 by uniFEF5;
+    sub uniFEDF uniFE84 by uniFEF7;
+    sub uniFEDF uniFE88 by uniFEF9;
+    sub uniFEDF uniFE8E by uniFEFB;
+    sub uniFEDF uni0672.fina by _670;
+    sub uniFEDF uniFE8E_uni065F by uniFEFB_uni065F;
+    sub uniFEDF uniFE8E_uni0654 by uniFEFB_uni0654;
+    sub uniFEE0 uniFB51 by uniFEE0_uniFB51;
+    sub uniFEE0 uniFE82 by uniFEF6;
+    sub uniFEE0 uniFE84 by uniFEF8;
+    sub uniFEE0 uniFE88 by uniFEFA;
+    sub uniFEE0 uniFE8E by uniFEFC;
+    sub uniFEE0 uni0672.fina by _671;
+    sub uniFEE0 uniFE8E_uni065F by uniFEFC_uni065F;
+    sub uniFEE0 uniFE8E_uni0654 by uniFEFC_uni0654;
+    sub uniFEDF_uni065A uniFE8E by uniFEFB_uni065A;
+    sub uniFEE0_uni065A uniFE8E by uniFEFC_uni065A;
+    sub uniFEDF_uniFBB2 uniFE8E by uniFEFB_uniFBB2;
+    sub uniFEE0_uniFBB2 uniFE8E by uniFEFC_uniFBB2;
+    sub uniFEDF_uniFBB6 uniFE8E by uniFEFB_uniFBB6;
+    sub uniFEE0_uniFBB6 uniFE8E by uniFEFC_uniFBB6;
+    sub uni06B8.init uniFE8E by uniFEFB_uniFBB7;
+    sub uniFEE0_uniFBB7 uniFE8E by uniFEFC_uniFBB7;
+    sub uni076A.init uniFE8E by _778;
+    sub uni076A.medi uniFE8E by _779;
+  } rlig_arab_1;
+
+  script arab; # Arabic
+  lookup rlig_arab_1;
+  lookup rlig_arab_2;
+    language SND ; # Sindhi
+    language URD ; # Urdu
+    language KSH ; # Kashmiri
+    language FAR ; # Farsi
+} rlig;
+
+feature liga {
+# GSUB feature: Standard Ligatures
+# Lookups: 2
+
+  lookup liga_arab_2 {
+  # GSUB lookup 23, type 14 (Ligature)
+    lookupflag IgnoreMarks;
+    sub uniFEDF uniFEE0 uniFEEA by uniFEDF_uniFEE0_uniFEEA;
+  } liga_arab_2;
+
+  script arab; # Arabic
+  sub uni0627 uniFEDF uniFEE0 uni0651_uni0670 uniFEEA by uniFDF2;
+  lookup liga_arab_2;
+    language SND ; # Sindhi
+    language URD ; # Urdu
+    language KSH ; # Kashmiri
+    language FAR ; # Farsi
+} liga;
+
+feature locl {
+# GSUB feature: Localized Forms
+# Lookups: 4
+
+  lookup locl_arabURD_arabKSH_1 {
+  # GSUB lookup 12, type 11 (Single)
+    sub [uni06F4 uni06F6 uni06F7] by [uni06F4.locl uni0666 uni06F7.locl];
+  } locl_arabURD_arabKSH_1;
+
+  script latn; # Latin
+  sub [uni0021 uni002E] by [uni0021.locl uni002E.locl];
+
+  script arab; # Arabic
+    language SND ; # Sindhi
+    sub [uni06F6 uni06F7] by [uni0666 uni06F7.locl];
+
+    language URD ; # Urdu
+    lookup locl_arabURD_arabKSH_1;
+
+    language KSH ; # Kashmiri
+    lookup locl_arabURD_arabKSH_1;
+
+    language FAR ; # Farsi
+    sub [uni066B uni066C uni00AB uni00BB] by [uni066B.locl uni066B.1 uni00AB.locl uni00BB.locl];
+} locl;
+
+feature tnum {
+# GSUB feature: Tabular Figures
+# Lookups: 1
+
+  script arab; # Arabic
+  sub @tnum by @tnum2;
+    language SND ; # Sindhi
+    language URD ; # Urdu
+    language KSH ; # Kashmiri
+    language FAR ; # Farsi
+} tnum;
+
+feature dlig {
+# automatic
+lookup dlig_RTL {
+lookupflag IgnoreMarks RightToLeft;
+	sub uniFB9F uniFBB3 uniFBB2 by uniFB9F_uniFBB3_uniFBB2;
+	sub uniFB9F uniFBB5 uniFBB2 by uniFB9F_uniFBB5_uniFBB2;
+	sub uniFEA2 uniFBB4 uniFBB3 by uniFEA2_uniFBB4_uniFBB3;
+	sub uniFEA2 uniFBB7 uniFBB2 by uniFEA2_uniFBB7_uniFBB2;
+	sub uniFEA3 uniFBB2 uniFBB7 by uniFEA3_uniFBB2_uniFBB7;
+	sub uniFEA3 uniFBB4 uniFBB3 by uniFEA3_uniFBB4_uniFBB3;
+	sub uniFEA4 uniFBB2 uniFBB7 by uniFEA4_uniFBB2_uniFBB7;
+	sub uniFEA4 uniFBB4 uniFBB3 by uniFEA4_uniFBB4_uniFBB3;
+	sub uniFEAE uniFBB3 uniFBB3 by uniFEAE_uniFBB3_uniFBB3;
+	sub uniFEB2 uniFBB2 uniFBB3 by uniFEB2_uniFBB2_uniFBB3;
+	sub uniFEB2 uniFBB6 uniFBB3 by uniFEB2_uniFBB6_uniFBB3;
+	sub uniFEB2 uniFBB6 uniFBB7 by uniFEB2_uniFBB6_uniFBB7;
+	sub uniFEB3 uniFBB2 uniFBB3 by uniFEB3_uniFBB2_uniFBB3;
+	sub uniFEB3 uniFBB6 uniFBB3 by uniFEB3_uniFBB6_uniFBB3;
+	sub uniFEB3 uniFBB6 uniFBB7 by uniFEB3_uniFBB6_uniFBB7;
+	sub uniFEB4 uniFBB2 uniFBB3 by uniFEB4_uniFBB2_uniFBB3;
+	sub uniFEB4 uniFBB6 uniFBB3 by uniFEB4_uniFBB6_uniFBB3;
+	sub uniFEB4 uniFBB6 uniFBB7 by uniFEB4_uniFBB6_uniFBB7;
+	sub uniFEBA uniFBB3 uniFBB2 by uniFEBA_uniFBB3_uniFBB2;
+	sub uniFEBB uniFBB2 uniFBB3 by uniFEBB_uniFBB2_uniFBB3;
+	sub uniFEBC uniFBB3 uniFBB2 by uniFEBC_uniFBB3_uniFBB2;
+	sub uniFECA uniFBB2 uniFBB3 by uniFECA_uniFBB2_uniFBB3;
+	sub uniFECB uniFBB2 uniFBB3 by uniFECB_uniFBB2_uniFBB3;
+	sub uniFECC uniFBB2 uniFBB3 by uniFECC_uniFBB2_uniFBB3;
+	sub uniFEDF uniFEE0 uniFEEA by uniFEDF_uniFEE0_uniFEEA;
+	sub uniFEF0 uniFBB5 uniFBB2 by uniFEF0_uniFBB5_uniFBB2;
+	sub uniFB8F uniFBB7 by uniFB8F_uniFBB7;
+	sub uniFB8F uniFBB9 by uniFB8F_uniFBB9;
+	sub uniFB9F uniFBB6 by uniFB9F_uniFBB6;
+	sub uniFBA7 uniFBB4 by uniFBA7_uniFBB4;
+	sub uniFEA2 uniFBB4 by uniFEA2_uniFBB4;
+	sub uniFEA2 uniFBB6 by uniFEA2_uniFBB6;
+	sub uniFEA2 uniFBB9 by uniFEA2_uniFBB9;
+	sub uniFEA2 uniFBBD by uniFEA2_uniFBBD;
+	sub uniFEA3 uniFBB4 by uniFEA3_uniFBB4;
+	sub uniFEA3 uniFBB6 by uniFEA3_uniFBB6;
+	sub uniFEA3 uniFBB9 by uniFEA3_uniFBB9;
+	sub uniFEA3 uniFBBD by uniFEA3_uniFBBD;
+	sub uniFEA4 uniFBB4 by uniFEA4_uniFBB4;
+	sub uniFEA4 uniFBB6 by uniFEA4_uniFBB6;
+	sub uniFEA4 uniFBB9 by uniFEA4_uniFBB9;
+	sub uniFEA4 uniFBBD by uniFEA4_uniFBBD;
+	sub uniFEAA uniFBB3 by uniFEAA_uniFBB3;
+	sub uniFEAA uniFBB8 by uniFEAA_uniFBB8;
+	sub uniFEAA uniFBBA by uniFEAA_uniFBBA;
+	sub uniFEAE uniFBB3 by uniFEAE_uniFBB3;
+	sub uniFEAE uniFBB4 by uniFEAE_uniFBB4;
+	sub uniFEAE uniFBBA by uniFEAE_uniFBBA;
+	sub uniFEAE uniFBBD by uniFEAE_uniFBBD;
+	sub uniFEB2 uniFBB7 by uniFEB2_uniFBB7;
+	sub uniFEB2 uniFBBA by uniFEB2_uniFBBA;
+	sub uniFEB2 uniFBBD by uniFEB2_uniFBBD;
+	sub uniFEB3 uniFBB7 by uniFEB3_uniFBB7;
+	sub uniFEB3 uniFBBA by uniFEB3_uniFBBA;
+	sub uniFEB3 uniFBBD by uniFEB3_uniFBBD;
+	sub uniFEB4 uniFBB7 by uniFEB4_uniFBB7;
+	sub uniFEB4 uniFBBA by uniFEB4_uniFBBA;
+	sub uniFEB4 uniFBBD by uniFEB4_uniFBBD;
+	sub uniFEBA uniFBB5 by uniFEBA_uniFBB5;
+	sub uniFEBA uniFBB6 by uniFEBA_uniFBB6;
+	sub uniFEBB uniFBB5 by uniFEBB_uniFBB5;
+	sub uniFEBB uniFBB6 by uniFEBB_uniFBB6;
+	sub uniFEBC uniFBB5 by uniFEBC_uniFBB5;
+	sub uniFEBC uniFBB6 by uniFEBC_uniFBB6;
+	sub uniFEC2 uniFBB4 by uniFEC2_uniFBB4;
+	sub uniFEC2 uniFBB6 by uniFEC2_uniFBB6;
+	sub uniFEC3 uniFBB4 by uniFEC3_uniFBB4;
+	sub uniFEC3 uniFBB6 by uniFEC3_uniFBB6;
+	sub uniFEC4 uniFBB4 by uniFEC4_uniFBB4;
+	sub uniFEC4 uniFBB6 by uniFEC4_uniFBB6;
+	sub uniFECA uniFBB4 by uniFECA_uniFBB4;
+	sub uniFECA uniFBB6 by uniFECA_uniFBB6;
+	sub uniFECA uniFBB8 by uniFECA_uniFBB8;
+	sub uniFECA uniFBBD by uniFECA_uniFBBD;
+	sub uniFECB uniFBB4 by uniFECB_uniFBB4;
+	sub uniFECB uniFBB6 by uniFECB_uniFBB6;
+	sub uniFECB uniFBB8 by uniFECB_uniFBB8;
+	sub uniFECB uniFBBD by uniFECB_uniFBBD;
+	sub uniFECC uniFBB4 by uniFECC_uniFBB4;
+	sub uniFECC uniFBB6 by uniFECC_uniFBB6;
+	sub uniFECC uniFBB8 by uniFECC_uniFBB8;
+	sub uniFECC uniFBBD by uniFECC_uniFBBD;
+	sub uniFEDA uniFBB2 by uniFEDA_uniFBB2;
+	sub uniFEDA uniFBB7 by uniFEDA_uniFBB7;
+	sub uniFEDB uniFBB7 by uniFEDB_uniFBB7;
+	sub uniFEDB uniFBB9 by uniFEDB_uniFBB9;
+	sub uniFEDC uniFBB7 by uniFEDC_uniFBB7;
+	sub uniFEDC uniFBB9 by uniFEDC_uniFBB9;
+	sub uniFEDE uniFBB2 by uniFEDE_uniFBB2;
+	sub uniFEDE uniFBB6 by uniFEDE_uniFBB6;
+	sub uniFEDE uniFBB7 by uniFEDE_uniFBB7;
+	sub uniFEDF uniFB51 by uniFEDF_uniFB51;
+	sub uniFEDF uniFBB2 by uniFEDF_uniFBB2;
+	sub uniFEDF uniFBB6 by uniFEDF_uniFBB6;
+	sub uniFEE0 uniFB51 by uniFEE0_uniFB51;
+	sub uniFEE0 uniFBB2 by uniFEE0_uniFBB2;
+	sub uniFEE0 uniFBB6 by uniFEE0_uniFBB6;
+	sub uniFEE0 uniFBB7 by uniFEE0_uniFBB7;
+	sub uniFEE2 uniFBB2 by uniFEE2_uniFBB2;
+	sub uniFEE2 uniFBB3 by uniFEE2_uniFBB3;
+	sub uniFEE2 uniFBB6 by uniFEE2_uniFBB6;
+	sub uniFEE3 uniFBB2 by uniFEE3_uniFBB2;
+	sub uniFEE3 uniFBB3 by uniFEE3_uniFBB3;
+	sub uniFEE3 uniFBB6 by uniFEE3_uniFBB6;
+	sub uniFEE4 uniFBB2 by uniFEE4_uniFBB2;
+	sub uniFEE4 uniFBB3 by uniFEE4_uniFBB3;
+	sub uniFEE4 uniFBB6 by uniFEE4_uniFBB6;
+	sub uniFEEE uniFBB2 by uniFEEE_uniFBB2;
+	sub uniFEEE uniFBB4 by uniFEEE_uniFBB4;
+	sub uniFEF0 uniFBB4 by uniFEF0_uniFBB4;
+	sub uniFEF0 uniFBB6 by uniFEF0_uniFBB6;
+	sub uniFEF0 uniFBB7 by uniFEF0_uniFBB7;
+	sub uniFEFB uniFBB2 by uniFEFB_uniFBB2;
+	sub uniFEFB uniFBB6 by uniFEFB_uniFBB6;
+	sub uniFEFB uniFBB7 by uniFEFB_uniFBB7;
+	sub uniFEFC uniFBB2 by uniFEFC_uniFBB2;
+	sub uniFEFC uniFBB6 by uniFEFC_uniFBB6;
+	sub uniFEFC uniFBB7 by uniFEFC_uniFBB7;
+} dlig_RTL;
+
+} dlig;
+
+table GDEF {
+  # automatic
+  GlyphClassDef
+    [uni0621 uni0674 uni0627 uniFE8E uniFE8E.rlig uni0623 uniFE84 uniFE84.rlig uni0625 uniFE88 uniFE88.rlig uni0672 uni0672.fina uni0673 uni0622 uniFE82 uniFE82.rlig uni0671 uniFB51 uniFB51.rlig uniFD3D uniFD3D.rlig uniFD3C uni0675 uni066E uni066E.fina uni066E.medi uni066E.init uni0628 uniFE90 uniFE92 uniFE91 uni067E uniFB57 uniFB59 uniFB58 uni067B uniFB53 uniFB55 uniFB54 uni0680 uniFB5B uniFB5D uniFB5C uniFBE9 uniFBE8 uni062A uniFE96 uniFE98 uniFE97 uni067C uni067C.fina uni067C.medi uni067C.init uni067D uni067D.fina uni067D.medi uni067D.init uni062B uniFE9A uniFE9C uniFE9B uni0679 uniFB67 uniFB69 uniFB68 uni067A uniFB5F uniFB61 uniFB60 uni067F uniFB63 uniFB65 uniFB64 uni0750 uni0750.fina uni0750.medi uni0750.init uni0751 uni0751.fina uni0751.medi uni0751.init uni0752 uni0752.fina uni0752.medi uni0752.init uni0753 uni0753.fina uni0753.medi uni0753.init uni0754 uni0754.fina uni0754.medi uni0754.init uni0755 uni0755.fina uni0755.medi uni0755.init uni0756 uni0756.fina uni0756.medi uni0756.init uni08A0 uni08A0.fina uni08A0.medi uni08A0.init uni062C uniFE9E uniFEA0 uniFE9F uni0686 uniFB7B uniFB7D uniFB7C uni0687 uniFB7F uniFB81 uniFB80 uni06BF uni0683 uniFB77 uniFB79 uniFB78 uni0684 uniFB73 uniFB75 uniFB74 uni062D uniFEA2 uniFEA4 uniFEA3 uni0681 uni0681.fina uni0681.medi uni0681.init uni0682 uni0757 uni0685 uni0758 uni062E uniFEA6 uniFEA8 uniFEA7 uni076E uni076E.fina uni076E.medi uni076E.init uni076F uni076F.fina uni076F.medi uni076F.init uni077C uni077C.fina uni077C.medi uni077C.init uni08A2 uni062F uniFEAA uni0630 uniFEAC uniFC5B uni0688 uniFB89 uni068C uniFB85 uni068D uniFB83 uni0689 uni0689.fina uni068A uni068B uni068B.fina uni068E uniFB87 uni068F uni0690 uni06EE uni06EE.fina uni0759 uni0759.fina uni075A uni075A.fina uni0631 uniFEAE uni0632 uniFEB0 uni0691 uniFB8D uni0692 uni0692.fina uni0693 uni0693.fina uni0694 uni0695 uni0695.fina uni0696 uni0697 uni0698 uniFB8B uni0699 uni06EF uni06EF.fina uni075B uni075B.fina uni076B uni076C uni0771 uni0771.fina uniFC5C uni08AA uni08AA.fina uni0633 uniFEB2 uniFEB4 uniFEB3 uni069A uni069B uni0634 uniFEB6 uniFEB8 uniFEB7 uni06FA uni069C uni0635 uniFEBA uniFEBC uniFEBB uni069D uni069E uni0636 uniFEBE uniFEC0 uniFEBF uni06FB uni0637 uniFEC2 uniFEC4 uniFEC3 uni069F uni0638 uniFEC6 uniFEC8 uniFEC7 uni08A3 uni0639 uniFECA uniFECC uniFECB uni06A0 uni063A uniFECE uniFED0 uniFECF uni06FC uni0641 uniFED2 uniFED4 uniFED3 uni06A4 uniFB6B uniFB6D uniFB6C uni06A1 uni06A1.fina uni06A2 uni06A2.fina uni06A2.medi uni06A2.init uni06A3 uni06A3.fina uni06A3.medi uni06A3.init uni06A5 uni06A5.fina uni06A5.medi uni06A5.init uni08A4 uni08A4.fina uni08A4.medi uni08A4.init uni06A6 uniFB6F uniFB71 uniFB70 uni066F uni066F.fina uni066F.medi uni066F.init uni0642 uniFED6 uniFED8 uniFED7 uni06A7 uni06A7.fina uni06A8 uni06A8.fina uni08A5 uni08A5.fina uni08A5.medi uni08A5.init uni0643 uniFEDA uniFEDC uniFEDB uni06A9 uniFB8F uniFB91 uniFB90 uni063B uni063B.fina uni063B.medi uni063B.init uni063C uni0762 uni0762.fina uni0762.medi uni0762.init uni0763 uni0763.fina uni0763.medi uni0763.init uni0764 uni06AF uniFB93 uniFB95 uniFB94 uni06B0 uni06B0.fina uni06B0.medi uni06B0.init uni06B4 uni06B4.fina uni06B4.medi uni06B4.init uni06AA uni06AA.fina uni06AA.medi uni06AA.init uni06AB uni06AB.fina uni06AB.medi uni06AB.init uni06AC uni06AC.medi uni06AC.init uni077F uni077F.fina uni077F.medi uni077F.init uni06AE uni06B2 uni06AD uniFBD4 uniFBD6 uniFBD5 uni06B1 uniFB9B uniFB9D uniFB9C uni06B3 uni06B3.fina uni06B3.medi uni06B3.init uniFB97 uniFB99 uniFB98 uni0644 uniFEDE uniFEE0 uniFEE0.rlig uniFEDF uniFEDF.rlig uni06B5 uni06B6 uni06B7 uni06B8 uni06B8.init uni08A6 uni08A6.fina uni08A6.medi uni08A6.init uni0645 uniFEE2 uniFEE4 uniFEE3 uni08A7 uni0646 uniFEE6 uniFEE8 uniFEE7 uni06B9 uni06B9.medi uni06B9.init uni06BA uniFB9F uni06BB uniFBA1 uni06BC uni06BC.fina uni06BC.medi uni06BC.init uni06BD uni0647 uniFEEA uniFEEC uniFEEB uni06C0 uniFBA5 uni06C1 uniFBA7 uniFBA9 uniFBA8 uni06C2 uni06C2.fina uni06C2.medi uni06C2.init uni06BE uniFBAB uniFBAD uniFBAC uni06FF uni06FF.fina uni06FF.medi uni06FF.init uniFCD9 uni0629 uniFE94 uni06C3 uni0648 uniFEEE uni06C4 uni06C4.fina uni06CA uni06CF uni0624 uniFE86 uni0778 uni0778.fina uni0779 uni0779.fina uni08AB uni08AB.fina uni06C5 uniFBE1 uni06C6 uniFBDA uni06C7 uniFBD8 uni06C8 uniFBDC uni06C9 uniFBE3 uni06CB uniFBDF uni0649 uniFEF0 uniFC5D uniFC90 uni0773 uni0773.fina uni0774 uni0774.fina uni064A uniFEF2 uniFEF4 uniFEF3 uni0626 uniFE8A uniFE8C uniFE8B uni06CE uni06CE.fina uni06CE.medi uni06CE.init uni08A8 uni08A8.fina uni08A8.medi uni08A8.init uni08A9 uni08A9.medi uni08A9.init uni063D uni063D.fina uni063D.medi uni063D.init uni06CC uniFBFD uniFBFF uniFBFE uni063E uni063E.medi uni063E.init uni063F uni063F.medi uni063F.init uni0775 uni0775.fina uni0775.medi uni0775.init uni0776 uni0776.fina uni0776.medi uni0776.init uni0777 uni0777.fina uni0777.medi uni0777.init uni06CD uni06CD.fina uni0620 uni0620.fina uni0620.medi uni0620.init uni06D0 uniFBE5 uniFBE7 uniFBE6 uni06D1 uni06D2 uniFBAF uni06D3 uniFBB1 uni077A uni077A.fina uni077A.medi uni077A.init uni077B uni077B.fina uni077B.medi uni077B.init uni08AC uni0676 uni0677 uni0678 uni0678.fina uni0678.medi uni0678.init uni06D5 uni075C uni075D uni075E uni075F uni0760 uni0760.fina uni0760.medi uni0760.init uni0761 uni0761.fina uni0761.medi uni0761.init uni0765 uni0766 uni0767 uni0767.medi uni0767.init uni0768 uni0768.fina uni0768.medi uni0768.init uni0769 uni0769.fina uni0769.medi uni0769.init uni076A uni076A.fina uni076A.medi uni076A.init uni076D uni0770 uni0770.fina uni0770.medi uni0770.init uni0772 uni0772.fina uni0772.medi uni0772.init uni077D uni077D.fina uni077D.medi uni077D.init uni077E uni077E.fina uni077E.medi uni077E.init uniFDF1 uniFE71 uniFE73 uniFE7B uni0640 uniFE77 uniFE79 uniFE7D uniFCF2 uniFCF3 uniFCF4 uniFE7F uniFEA3_uniFBB2_uniFBB7 uniFEA4_uniFBB2_uniFBB7 uniFEA2_uniFBBD uniFEA3_uniFBBD uniFEA4_uniFBBD uniFEA2_uniFBB4 uniFEA3_uniFBB4 uniFEA4_uniFBB4 uniFEA2_uniFBB4_uniFBB3 uniFEA3_uniFBB4_uniFBB3 uniFEA4_uniFBB4_uniFBB3 uniFEA2_uniFBB9 uniFEA3_uniFBB9 uniFEA4_uniFBB9 uniFEA2_uniFBB6 uniFEA3_uniFBB6 uniFEA4_uniFBB6 uniFEA2_uniFBB7_uniFBB2 uniFEAA_uniFBB3 uniFEAA_uniFBB8 uniFEAA_uniFBBA uniFEAE_uniFBB3 uniFEAE_uniFBB3_uniFBB3 uniFEAE_uniFBBD uniFEAE_uniFBB4 uniFEAE_uniFBBA uniFEB2_uniFBB2_uniFBB3 uniFEB3_uniFBB2_uniFBB3 uniFEB4_uniFBB2_uniFBB3 uniFEB2_uniFBBD uniFEB3_uniFBBD uniFEB4_uniFBBD uniFEB3_uniFBB6_uniFBB3 uniFEB4_uniFBB6_uniFBB3 uniFEB2_uniFBB6_uniFBB3 uniFEB2_uniFBB6_uniFBB7 uniFEB3_uniFBB6_uniFBB7 uniFEB4_uniFBB6_uniFBB7 uniFEB2_uniFBB7 uniFEB3_uniFBB7 uniFEB4_uniFBB7 uniFEB2_uniFBBA uniFEB3_uniFBBA uniFEB4_uniFBBA uniFEBB_uniFBB2_uniFBB3 uniFEBC_uniFBB3_uniFBB2 uniFEBA_uniFBB3_uniFBB2 uniFEBA_uniFBB5 uniFEBB_uniFBB5 uniFEBC_uniFBB5 uniFEBA_uniFBB6 uniFEBB_uniFBB6 uniFEBC_uniFBB6 uniFEC2_uniFBB4 uniFEC3_uniFBB4 uniFEC4_uniFBB4 uniFEC2_uniFBB6 uniFEC3_uniFBB6 uniFEC4_uniFBB6 uniFECB_uniFBB2_uniFBB3 uniFECC_uniFBB2_uniFBB3 uniFECA_uniFBB2_uniFBB3 uniFECA_uniFBBD uniFECB_uniFBBD uniFECC_uniFBBD uniFECA_uniFBB4 uniFECB_uniFBB4 uniFECC_uniFBB4 uniFECA_uniFBB8 uniFECB_uniFBB8 uniFECC_uniFBB8 uniFECA_uniFBB6 uniFECB_uniFBB6 uniFECC_uniFBB6 uniFEDA_uniFBB2 uniFEDB_uniFBB9 uniFEDC_uniFBB9 uniFEDA_uniFBB7 uniFEDB_uniFBB7 uniFEDC_uniFBB7 uniFEDB_uniFBB7.2 uniFEDC_uniFBB7.3 uniFB8F_uniFBB9 uniFB8F_uniFBB7 uniFEDE_uniFBB2 uniFEDF_uniFBB2 uniFEE0_uniFBB2 uniFEDF_uniFBB2.rlig uniFEE0_uniFBB2.rlig uniFEDE_uniFBB6 uniFEDF_uniFBB6 uniFEE0_uniFBB6 uniFEDF_uniFBB6.rlig uniFEE0_uniFBB6.rlig uniFEDE_uniFBB7 uniFEE0_uniFBB7 uniFEE0_uniFBB7.rlig uniFEE2_uniFBB2 uniFEE3_uniFBB2 uniFEE4_uniFBB2 uniFEE2_uniFBB3 uniFEE3_uniFBB3 uniFEE4_uniFBB3 uniFEE2_uniFBB6 uniFEE3_uniFBB6 uniFEE4_uniFBB6 uniFB9F_uniFBB3_uniFBB2 uniFB9F_uniFBB5_uniFBB2 uniFB9F_uniFBB6 uniFBA7_uniFBB4 uniFEEE_uniFBB2 uniFEEE_uniFBB4 uniFEF0_uniFBB4 uniFEF0_uniFBB5_uniFBB2 uniFEF0_uniFBB6 uniFEF0_uniFBB7 uniFE8E_uni065F uniFE8E_uni065F.rlig uniFE8E_uni0654 uniFEAE_uni0654 uniFEDE_uni065A uniFEDF_uni065A uniFEE0_uni065A uniFEDF_uni065A.rlig uniFEE0_uni065A.rlig uniFEEE_uni0654 uniFEEE_uni064F_uni0654 uni06E5 uni06E6 uni0600.ccmp uni0601.13 uni0601.14 uni0601.15 uni0601.16 uni0602.ccmp uni0603.ccmp uni060F uni06FD uni06DD.17 uni06DD.18 uni06DD.19 uni060B uni25CC uni06FE uni0604.ccmp _670 _671 _778 _779 _982 _1485__1485 _990 _991 _994 _995 _998 _999 _1485__1485__1485 _1008 _1012 _1013 _1015 _1024 _1025 _1026 _1027 _1028 _1029 _1031 _1033 _786], # Base
+    [uniFEFB uniFEFC uniFEFB_uniFBB2 uniFEFC_uniFBB2 uniFEFB_uniFBB6 uniFEFC_uniFBB6 uniFEFB_uniFBB7 uniFEFC_uniFBB7 uniFEF7 uniFEF8 uniFEF9 uniFEFA uniFEF5 uniFEF6 uniFEDF_uniFB51 uniFEE0_uniFB51 uniFC05 uniFC9C uniFC06 uniFC9D uniFDC2 uniFC07 uniFC9E uniFD9E uniFC6A uniFC6B uniFC08 uniFC6C uniFCE1 uniFC9F uniFC6D uniFCE2 uniFCA0 uniFC09 uniFC6E uniFC0A uniFC6F uniFC0B uniFCA1 uniFD50 uniFDA0 uniFD9F uniFC0C uniFCA2 uniFD51 uniFD52 uniFD53 uniFC0D uniFCA3 uniFD54 uniFDA2 uniFDA1 uniFC70 uniFC71 uniFC0E uniFC72 uniFCE3 uniFCA4 uniFD55 uniFD56 uniFD57 uniFDA4 uniFDA3 uniFC73 uniFCE4 uniFCA5 uniFC0F uniFC74 uniFC10 uniFC75 uniFC11 uniFC76 uniFC77 uniFC12 uniFC78 uniFCE5 uniFCA6 uniFC79 uniFCE6 uniFC13 uniFC7A uniFC14 uniFC7B uniFC15 uniFCA7 uniFDA6 uniFDBE uniFC16 uniFCA8 uniFD58 uniFD59 uniFDA7 uniFDA5 uniFD01 uniFD1D uniFD02 uniFD1E uniFC17 uniFCA9 uniFDBF uniFC18 uniFCAA uniFD5B uniFD5A uniFCFF uniFD1B uniFD00 uniFD1C uniFC19 uniFCAB uniFC1A uniFC1B uniFCAC uniFD03 uniFD1F uniFD04 uniFD20 uniFC1C uniFD34 uniFCAD uniFD5D uniFD5E uniFC1D uniFD35 uniFCAE uniFD5C uniFC1E uniFD36 uniFCAF uniFDA8 uniFDC6 uniFD0E uniFD2A uniFC1F uniFCE7 uniFCB0 uniFD61 uniFD5F uniFD60 uniFD62 uniFD63 uniFCE8 uniFD31 uniFCFB uniFD17 uniFCFC uniFD18 uniFD09 uniFD25 uniFD37 uniFD2D uniFD69 uniFD0A uniFD26 uniFD38 uniFD2E uniFD67 uniFD68 uniFDAA uniFD0B uniFD27 uniFD39 uniFD2F uniFD0D uniFD29 uniFD0C uniFD28 uniFCE9 uniFD30 uniFD6A uniFD6B uniFD6C uniFD6D uniFCEA uniFD32 uniFCFD uniFD19 uniFCFE uniFD1A uniFC20 uniFCB1 uniFD64 uniFD65 uniFDA9 uniFCB2 uniFD0F uniFD2B uniFDF0 uniFC21 uniFCB3 uniFD66 uniFDC5 uniFD05 uniFD21 uniFD06 uniFD22 uniFC22 uniFCB4 uniFC23 uniFCB5 uniFD6E uniFDAB uniFC24 uniFCB6 uniFD6F uniFD70 uniFD10 uniFD2C uniFC25 uniFCB7 uniFD07 uniFD23 uniFD08 uniFD24 uniFC26 uniFCB8 uniFC27 uniFD3A uniFD33 uniFD71 uniFD72 uniFD73 uniFD74 uniFCF5 uniFD11 uniFCF6 uniFD12 uniFC28 uniFD3B uniFCB9 uniFC29 uniFCBA uniFD75 uniFDC4 uniFC2A uniFCBB uniFD76 uniFD77 uniFD78 uniFDB6 uniFCF7 uniFD13 uniFCF8 uniFD14 uniFC2B uniFCBC uniFC2C uniFCBD uniFD79 uniFD7B uniFD7A uniFCF9 uniFD15 uniFCFA uniFD16 uniFC2D uniFCBE uniFC2E uniFCBF uniFC2F uniFCC0 uniFD7C uniFD7D uniFC30 uniFCC1 uniFDC1 uniFC31 uniFC7C uniFC32 uniFC7D uniFC33 uniFCC2 uniFC34 uniFCC3 uniFD7E uniFDB4 uniFD7F uniFDB2 uniFC35 uniFC7E uniFC36 uniFC7F uniFC37 uniFC80 uniFC38 uniFCC4 uniFC39 uniFCC5 uniFC3A uniFCC6 uniFC3B uniFC81 uniFCEB uniFCC7 uniFC3C uniFC82 uniFCEC uniFCC8 uniFDBB uniFDC3 uniFDB7 uniFC3D uniFC83 uniFC3E uniFC84 uniFC3F uniFCC9 uniFD84 uniFD83 uniFDBC uniFDBA uniFDAC uniFC40 uniFCCA uniFD80 uniFDB5 uniFD82 uniFD81 uniFC41 uniFCCB uniFD85 uniFD86 uniFEDF_uniFEE0_uniFEEA uniFC42 uniFC85 uniFCED uniFCCC uniFD87 uniFD88 uniFDAD uniFCCD uniFC43 uniFC86 uniFC44 uniFC87 uniFC88 uniFC45 uniFCCE uniFD8C uniFD92 uniFD8D uniFDC0 uniFC46 uniFCCF uniFD89 uniFD8A uniFD8B uniFC47 uniFCD0 uniFD8E uniFD8F uniFDB9 uniFC48 uniFC89 uniFCD1 uniFDB1 uniFC49 uniFC4A uniFC4B uniFCD2 uniFDBD uniFDB8 uniFD97 uniFD98 uniFD99 uniFDC7 uniFC4C uniFCD3 uniFD95 uniFD96 uniFDB3 uniFC4D uniFCD4 uniFC8A uniFC8B uniFC4E uniFC8C uniFCEE uniFCD5 uniFD9B uniFD9A uniFC8D uniFCEF uniFCD6 uniFC4F uniFC8E uniFC50 uniFC8F uniFC51 uniFCD7 uniFC52 uniFCD8 uniFD93 uniFD94 uniFC53 uniFC54 uniFC55 uniFCDA uniFDAF uniFC56 uniFCDB uniFDAE uniFC57 uniFCDC uniFC91 uniFC92 uniFC58 uniFC93 uniFCF0 uniFCDD uniFD9C uniFD9D uniFDB0 uniFC94 uniFCF1 uniFCDE uniFC59 uniFC95 uniFC5A uniFC96 uniFBEA uniFBEB uniFC00 uniFC97 uniFC01 uniFC98 uniFC99 uniFC64 uniFC65 uniFC02 uniFC66 uniFCDF uniFC9A uniFC67 uniFCE0 uniFC9B uniFBEE uniFBEF uniFBF2 uniFBF3 uniFBF0 uniFBF1 uniFBF4 uniFBF5 uniFC03 uniFC68 uniFC04 uniFC69 uniFBF6 uniFBF7 uniFBF8 uniFBEC uniFBED uniFBF9 uniFBFA uniFBFB uniFDF2 uniFDF3 uniFDF4 uniFDF5 uniFDF6 uniFDF7 uniFDF8 uniFDF9 uniFEFB_uni065F uniFEFC_uni065F uniFEFB_uni0654 uniFEFC_uni0654 uniFEFB_uni065A uniFEFC_uni065A], # Liga
+    [uniFBC1 uniFBB2 uniFBB3 uniFBBD uniFBBE uniFBB4 uniFBB5 uniFBB8 uniFBB9 uniFBB6 uniFBB7 uniFBBA uniFBBB uniFBBF uni0612 uni0613 uni0610 uni0611 uni0614 uni0615 uni0616 uni0617 uni0618 uni0619 uni061A uni065F uni0670 uni0656 uni0654 uni0654_uni0652 uni0655 uni064B uni064B_uni0654 uni064B_uni0651 uni064C uni064C_uni0654 uni064C_uni0651 uni064D uni064D_uni0655 uni064D_uni0651 uni064E uni064E_uni0654 uni064E_uni0651 uni064F uni064F_uni0654 uni064F_uni0651 uni0650 uni0650_uni0655 uni0650_uni0651 uni0651 uni0651_uni0670 uniFC5E uniFC5F uniFC60 uniFC61 uniFC62 uniFC63 uni0652 uni0653 uni0658 uni0657 uni0659 uni065A uni065B uni065C uni065D uni065E uni06D6 uni06D7 uni06D8 uni06E2 uni06D9 uni06DA uni06DB uni06DC uni06DF uni06E0 uni06E1 uni06E3 uni06E4 uni06E7 uni06E8 uni06EA uni06EB uni06EC uni06ED uni08E4 uni08E5 uni08E6 uni08E7 uni08E8 uni08E9 uni08EA uni08EB uni08EC uni08ED uni08EE uni08EF uni08F0 uni08F1 uni08F2 uni08F3 uni08F4 uni08F5 uni08F6 uni08F7 uni08F8 uni08F9 uni08FA uni08FB uni08FC uni08FD uni08FE], # Mark
+    ;
+  LigatureCaretByPos uniFBF2 488;
+  LigatureCaretByPos uniFC05 724;
+  LigatureCaretByPos uniFC06 724;
+  LigatureCaretByPos uniFC07 724;
+  LigatureCaretByPos uniFC08 556;
+  LigatureCaretByPos uniFC6A 400;
+  LigatureCaretByPos uniFC6B 395;
+  LigatureCaretByPos uniFC9C 666;
+  LigatureCaretByPos uniFC9E 666;
+  LigatureCaretByPos uniFD9E 690 1352;
+  LigatureCaretByPos uniFDC2 690 1348;
+  LigatureCaretByPos uniFDF2 444 699 931;
+  LigatureCaretByPos uniFEDF_uniFEE0_uniFEEA 444 699;
+} GDEF;

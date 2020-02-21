@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="danuktahalfbeng" format="2">
+  <advance width="603"/>
+  <outline>
+    <component base="dabeng"/>
+    <component base="viramabeng" xOffset="599"/>
+    <component base="nuktabeng" xOffset="519" yOffset="60"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/07/07 09:19:29</string>
+    </dict>
+  </lib>
+</glyph>

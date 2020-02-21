@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_part.iMatra" format="2">
+  <advance width="262"/>
+  <outline>
+    <contour>
+      <point x="88" y="0" type="line"/>
+      <point x="149" y="0" type="line"/>
+      <point x="149" y="570" type="line" smooth="yes"/>
+      <point x="149" y="736"/>
+      <point x="58" y="834"/>
+      <point x="-95" y="834" type="curve" smooth="yes"/>
+      <point x="-217" y="834"/>
+      <point x="-311" y="760"/>
+      <point x="-311" y="652" type="curve" smooth="yes"/>
+      <point x="-311" y="563"/>
+      <point x="-243" y="500"/>
+      <point x="-161" y="500" type="curve" smooth="yes"/>
+      <point x="-156" y="500" type="line"/>
+      <point x="-156" y="554" type="line"/>
+      <point x="-161" y="554" type="line" smooth="yes"/>
+      <point x="-211" y="554"/>
+      <point x="-246" y="587"/>
+      <point x="-246" y="639" type="curve" smooth="yes"/>
+      <point x="-246" y="709"/>
+      <point x="-185" y="746"/>
+      <point x="-102" y="746" type="curve" smooth="yes"/>
+      <point x="26" y="746"/>
+      <point x="88" y="678"/>
+      <point x="88" y="540" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>PartSelection</key>
+      <dict>
+        <key>Curl</key>
+        <integer>2</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/11 14:28:29</string>
+      <key>com.schriftgestaltung.smartComponentAxes</key>
+      <array>
+        <dict>
+          <key>bottomName</key>
+          <string>Low</string>
+          <key>bottomValue</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Width</string>
+          <key>topName</key>
+          <string>High</string>
+          <key>topValue</key>
+          <integer>800</integer>
+        </dict>
+        <dict>
+          <key>bottomName</key>
+          <string>Low</string>
+          <key>bottomValue</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Dip</string>
+          <key>topName</key>
+          <string>High</string>
+          <key>topValue</key>
+          <integer>100</integer>
+        </dict>
+        <dict>
+          <key>bottomName</key>
+          <string>Low</string>
+          <key>bottomValue</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Height</string>
+          <key>topName</key>
+          <string>High</string>
+          <key>topValue</key>
+          <integer>1200</integer>
+        </dict>
+        <dict>
+          <key>bottomName</key>
+          <string>Low</string>
+          <key>bottomValue</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Curl</string>
+          <key>topName</key>
+          <string>High</string>
+          <key>topValue</key>
+          <integer>100</integer>
+        </dict>
+        <dict>
+          <key>bottomName</key>
+          <string>Low</string>
+          <key>bottomValue</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>FootLength</string>
+          <key>topName</key>
+          <string>High</string>
+          <key>topValue</key>
+          <integer>600</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

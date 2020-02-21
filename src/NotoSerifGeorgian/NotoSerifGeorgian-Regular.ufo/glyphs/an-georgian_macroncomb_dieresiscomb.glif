@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="an-georgian_macroncomb_dieresiscomb" format="2">
+  <advance width="537"/>
+  <anchor x="269" y="883" name="top"/>
+  <outline>
+    <component base="an-georgian"/>
+    <component base="macroncomb" xOffset="269"/>
+    <component base="dieresiscomb" xOffset="269" yOffset="139"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/07/09 08:03:25</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

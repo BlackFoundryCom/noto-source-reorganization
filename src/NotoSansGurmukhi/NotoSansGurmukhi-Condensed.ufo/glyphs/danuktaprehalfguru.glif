@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="danuktaprehalfguru" format="2">
+  <advance width="461"/>
+  <outline>
+    <component base="daguru"/>
+    <component base="halantguru" xOffset="428"/>
+    <component base="nuktaguru" xOffset="374" yOffset="128"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>=daguru</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/02/21 10:42:34</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

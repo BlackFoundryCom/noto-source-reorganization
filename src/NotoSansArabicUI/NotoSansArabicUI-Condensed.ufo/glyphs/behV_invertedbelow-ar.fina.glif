@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="behVinvertedbelow-ar.fina" format="2">
+  <advance width="791"/>
+  <anchor x="347" y="-195.79999999999998" name="bottom"/>
+  <anchor x="361" y="-21" name="center"/>
+  <anchor x="360" y="302" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar.fina"/>
+    <component base="_vinvertedbelow-ar" yScale="0.95" xOffset="242" yOffset="-21"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:34</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aiMatra_tirh" format="2">
+  <advance width="850"/>
+  <unicode hex="114BB"/>
+  <guideline x="-4" y="275" angle="90"/>
+  <outline>
+    <component base="shortEMatra_tirh" xOffset="984"/>
+    <component base="uni25CC" xOffset="264"/>
+    <component base="eMatra_tirh"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/04/04 16:11:36</string>
+    </dict>
+  </lib>
+</glyph>

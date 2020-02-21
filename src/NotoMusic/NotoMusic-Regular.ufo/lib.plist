@@ -36,22 +36,16 @@
     <string>Regular</string>
     <key>com.schriftgestaltung.widthValue</key>
     <integer>5</integer>
-    <key>com.typemytype.robofont.segmentType</key>
-    <string>curve</string>
     <key>public.glyphOrder</key>
     <array>
       <string>.notdef</string>
-      <string>NULL</string>
       <string>CR</string>
-      <string>space</string>
-      <string>uni25CC</string>
-      <string>uni2669</string>
+      <string>NULL</string>
       <string>musicalnote</string>
       <string>musicalnotedbl</string>
-      <string>uni266C</string>
-      <string>uni266D</string>
-      <string>uni266E</string>
-      <string>uni266F</string>
+      <string>null_notehead</string>
+      <string>nullmark</string>
+      <string>space</string>
       <string>u1D000</string>
       <string>u1D001</string>
       <string>u1D002</string>
@@ -385,7 +379,6 @@
       <string>u1D156</string>
       <string>u1D157</string>
       <string>u1D158</string>
-      <string>null_notehead</string>
       <string>u1D15A</string>
       <string>u1D15B</string>
       <string>u1D15C</string>
@@ -398,10 +391,25 @@
       <string>u1D163</string>
       <string>u1D164</string>
       <string>u1D165</string>
+      <string>u1D165_b</string>
+      <string>u1D165_ext</string>
+      <string>u1D165_ext2</string>
+      <string>u1D165_short</string>
+      <string>u1D165_short.alt</string>
+      <string>u1D165_short2</string>
       <string>u1D166</string>
+      <string>u1D166_b</string>
+      <string>u1D166_ext</string>
+      <string>u1D166_ext2</string>
+      <string>u1D166_short</string>
+      <string>u1D166_short.alt</string>
+      <string>u1D166_short2</string>
       <string>u1D167</string>
+      <string>u1D167_low</string>
       <string>u1D168</string>
+      <string>u1D168_low</string>
       <string>u1D169</string>
+      <string>u1D169_low</string>
       <string>u1D16A</string>
       <string>u1D16B</string>
       <string>u1D16C</string>
@@ -518,6 +526,17 @@
       <string>u1D1DB</string>
       <string>u1D1DC</string>
       <string>u1D1DD</string>
+      <string>u1D1DE</string>
+      <string>u1D1DF</string>
+      <string>u1D1E0</string>
+      <string>u1D1E1</string>
+      <string>u1D1E2</string>
+      <string>u1D1E3</string>
+      <string>u1D1E4</string>
+      <string>u1D1E5</string>
+      <string>u1D1E6</string>
+      <string>u1D1E7</string>
+      <string>u1D1E8</string>
       <string>u1D200</string>
       <string>u1D201</string>
       <string>u1D202</string>
@@ -585,40 +604,19 @@
       <string>u1D240</string>
       <string>u1D241</string>
       <string>u1D242</string>
-      <string>u1D243</string>
-      <string>u1D244</string>
-      <string>u1D245</string>
-      <string>u1D165_b</string>
-      <string>u1D166_b</string>
-      <string>u1D165_short</string>
-      <string>u1D165_ext</string>
-      <string>u1D165_ext2</string>
-      <string>u1D165_short2</string>
-      <string>u1D166_short</string>
-      <string>u1D166_ext</string>
-      <string>u1D166_ext2</string>
-      <string>u1D166_short2</string>
-      <string>nullmark</string>
-      <string>u1D167_low</string>
-      <string>u1D168_low</string>
-      <string>u1D169_low</string>
-      <string>u1D165_short.alt</string>
-      <string>u1D166_short.alt</string>
-      <string>u1D1DE</string>
-      <string>u1D1DF</string>
-      <string>u1D1E0</string>
-      <string>u1D1E1</string>
-      <string>u1D1E2</string>
-      <string>u1D1E3</string>
-      <string>u1D1E4</string>
-      <string>u1D1E5</string>
-      <string>u1D1E6</string>
-      <string>u1D1E7</string>
-      <string>u1D1E8</string>
-      <string>uni00A0</string>
       <string>u1D242.alt</string>
+      <string>u1D243</string>
       <string>u1D243.alt</string>
+      <string>u1D244</string>
       <string>u1D244.alt</string>
+      <string>u1D245</string>
+      <string>uni00A0</string>
+      <string>uni25CC</string>
+      <string>uni2669</string>
+      <string>uni266C</string>
+      <string>uni266D</string>
+      <string>uni266E</string>
+      <string>uni266F</string>
     </array>
   </dict>
 </plist>

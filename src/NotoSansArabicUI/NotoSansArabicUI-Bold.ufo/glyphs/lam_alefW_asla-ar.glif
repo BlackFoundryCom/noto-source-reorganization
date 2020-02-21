@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam_alefWasla-ar" format="2">
+  <advance width="667"/>
+  <anchor x="578" y="0" name="bottom_1"/>
+  <anchor x="184" y="0" name="bottom_2"/>
+  <anchor x="331" y="0" name="caret_1"/>
+  <anchor x="442" y="1026" name="top"/>
+  <anchor x="447" y="740" name="top_1"/>
+  <anchor x="112" y="635" name="top_2"/>
+  <outline>
+    <component base="lam_alef-ar"/>
+    <component base="wasla-ar" xOffset="249" yOffset="207"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>lam-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alefWasla-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:39</string>
+    </dict>
+  </lib>
+</glyph>

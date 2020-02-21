@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehbarreeTwoabove-ar.medi" format="2">
+  <advance width="238"/>
+  <anchor x="122" y="0" name="bottom"/>
+  <anchor x="150" y="286" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar.medi.wide"/>
+    <component base="two-persian.small01" yOffset="-308"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dotlessbeh-ar.medi.wide</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dotlessbeh-ar.medi.wide</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:38</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

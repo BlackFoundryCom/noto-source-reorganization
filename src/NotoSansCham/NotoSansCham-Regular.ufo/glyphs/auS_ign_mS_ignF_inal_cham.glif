@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="auSign_mSignFinal_cham" format="2">
+  <note>
+g122
+</note>
+  <outline>
+    <component base="auSign_cham"/>
+    <component base="mSignFinal_cham" xOffset="187" yOffset="331"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>verticalShift</key>
+        <integer>-124</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/04/21 12:55:59</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cham</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

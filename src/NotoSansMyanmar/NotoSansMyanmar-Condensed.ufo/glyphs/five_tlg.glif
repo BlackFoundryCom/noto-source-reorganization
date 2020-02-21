@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="five_tlg" format="2">
+  <advance width="560"/>
+  <unicode hex="A9F5"/>
+  <outline>
+    <contour>
+      <point x="65" y="256" type="line"/>
+      <point x="148" y="256" type="line"/>
+      <point x="148" y="713" type="line" smooth="yes"/>
+      <point x="148" y="849"/>
+      <point x="190" y="932"/>
+      <point x="279" y="932" type="curve" smooth="yes"/>
+      <point x="371" y="932"/>
+      <point x="412" y="841"/>
+      <point x="412" y="743" type="curve" smooth="yes"/>
+      <point x="412" y="736" type="line"/>
+      <point x="495" y="736" type="line"/>
+      <point x="495" y="743" type="line" smooth="yes"/>
+      <point x="495" y="882"/>
+      <point x="421" y="1003"/>
+      <point x="277" y="1003" type="curve" smooth="yes"/>
+      <point x="137" y="1003"/>
+      <point x="65" y="891"/>
+      <point x="65" y="711" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="166" y="-10" type="curve"/>
+      <point x="209" y="49" type="line"/>
+      <point x="168" y="95"/>
+      <point x="148" y="167"/>
+      <point x="148" y="255" type="curve" smooth="yes"/>
+      <point x="148" y="392"/>
+      <point x="193" y="474"/>
+      <point x="280" y="474" type="curve" smooth="yes"/>
+      <point x="367" y="474"/>
+      <point x="412" y="392"/>
+      <point x="412" y="255" type="curve" smooth="yes"/>
+      <point x="412" y="167"/>
+      <point x="392" y="95"/>
+      <point x="351" y="49" type="curve"/>
+      <point x="394" y="-10" type="line"/>
+      <point x="452" y="39"/>
+      <point x="495" y="148"/>
+      <point x="495" y="257" type="curve" smooth="yes"/>
+      <point x="495" y="426"/>
+      <point x="417" y="545"/>
+      <point x="280" y="545" type="curve" smooth="yes"/>
+      <point x="143" y="545"/>
+      <point x="65" y="427"/>
+      <point x="65" y="257" type="curve" smooth="yes"/>
+      <point x="65" y="144"/>
+      <point x="108" y="38"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>zero_shn</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>zero_shn</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/10/10 16:27:16</string>
+    </dict>
+  </lib>
+</glyph>

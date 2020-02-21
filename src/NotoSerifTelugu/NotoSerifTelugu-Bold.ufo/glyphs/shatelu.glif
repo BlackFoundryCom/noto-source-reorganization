@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shatelu" format="2">
+  <advance width="610"/>
+  <unicode hex="0C36"/>
+  <outline>
+    <contour>
+      <point x="397" y="-12" type="curve" smooth="yes"/>
+      <point x="511" y="-12"/>
+      <point x="582" y="57"/>
+      <point x="582" y="168" type="curve" smooth="yes"/>
+      <point x="582" y="343"/>
+      <point x="460" y="416"/>
+      <point x="280" y="416" type="curve" smooth="yes"/>
+      <point x="111" y="416"/>
+      <point x="26" y="352"/>
+      <point x="26" y="239" type="curve" smooth="yes"/>
+      <point x="26" y="202"/>
+      <point x="33" y="171"/>
+      <point x="41" y="148" type="curve"/>
+      <point x="192" y="156" type="line"/>
+      <point x="179" y="187"/>
+      <point x="171" y="217"/>
+      <point x="171" y="250" type="curve" smooth="yes"/>
+      <point x="171" y="323"/>
+      <point x="230" y="356"/>
+      <point x="305" y="356" type="curve" smooth="yes"/>
+      <point x="426" y="356"/>
+      <point x="488" y="316"/>
+      <point x="488" y="257" type="curve" smooth="yes"/>
+      <point x="488" y="216"/>
+      <point x="452" y="199"/>
+      <point x="403" y="199" type="curve" smooth="yes"/>
+      <point x="357" y="199"/>
+      <point x="339" y="211"/>
+      <point x="339" y="233" type="curve" smooth="yes"/>
+      <point x="339" y="247"/>
+      <point x="353" y="262"/>
+      <point x="402" y="280" type="curve" smooth="yes"/>
+      <point x="518" y="323"/>
+      <point x="549" y="363"/>
+      <point x="549" y="413" type="curve" smooth="yes"/>
+      <point x="549" y="455"/>
+      <point x="511" y="507"/>
+      <point x="400" y="507" type="curve"/>
+      <point x="316" y="454" type="line"/>
+      <point x="371" y="454" type="line" smooth="yes"/>
+      <point x="441" y="454"/>
+      <point x="472" y="439"/>
+      <point x="472" y="401" type="curve" smooth="yes"/>
+      <point x="472" y="378"/>
+      <point x="456" y="357"/>
+      <point x="380" y="330" type="curve" smooth="yes"/>
+      <point x="287" y="297"/>
+      <point x="224" y="246"/>
+      <point x="224" y="151" type="curve" smooth="yes"/>
+      <point x="224" y="36"/>
+      <point x="301" y="-12"/>
+    </contour>
+    <component base="hattelu" xOffset="200"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/15 11:28:14</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="giivoweltelu" format="2">
+  <advance width="622"/>
+  <outline>
+    <contour>
+      <point x="291" y="705" type="curve" smooth="yes"/>
+      <point x="148" y="705"/>
+      <point x="94" y="627"/>
+      <point x="94" y="546" type="curve" smooth="yes"/>
+      <point x="94" y="506"/>
+      <point x="104" y="469"/>
+      <point x="132" y="438" type="curve"/>
+      <point x="253" y="475" type="line"/>
+      <point x="233" y="488"/>
+      <point x="220" y="504"/>
+      <point x="220" y="532" type="curve" smooth="yes"/>
+      <point x="220" y="568"/>
+      <point x="243" y="592"/>
+      <point x="292" y="592" type="curve" smooth="yes"/>
+      <point x="385" y="592"/>
+      <point x="411" y="519"/>
+      <point x="411" y="466" type="curve" smooth="yes"/>
+      <point x="411" y="462"/>
+      <point x="411" y="452"/>
+      <point x="410" y="447" type="curve"/>
+      <point x="527" y="396" type="line"/>
+      <point x="532" y="414"/>
+      <point x="535" y="442"/>
+      <point x="535" y="459" type="curve" smooth="yes"/>
+      <point x="535" y="592"/>
+      <point x="457" y="705"/>
+    </contour>
+    <component base="gaalttelu"/>
+    <component base="lengthmarktelu" xOffset="506" yOffset="177"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/04/23 08:31:33</string>
+    </dict>
+  </lib>
+</glyph>

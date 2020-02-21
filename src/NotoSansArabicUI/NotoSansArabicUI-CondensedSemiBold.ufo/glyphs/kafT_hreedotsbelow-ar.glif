@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kafThreedotsbelow-ar" format="2">
+  <advance width="848"/>
+  <unicode hex="06AE"/>
+  <anchor x="405" y="-257" name="bottom"/>
+  <anchor x="400" y="589" name="top"/>
+  <outline>
+    <component base="kaf-ar"/>
+    <component base="threedotsupbelow-ar.restricted" xOffset="216" yOffset="-26"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:37</string>
+    </dict>
+  </lib>
+</glyph>

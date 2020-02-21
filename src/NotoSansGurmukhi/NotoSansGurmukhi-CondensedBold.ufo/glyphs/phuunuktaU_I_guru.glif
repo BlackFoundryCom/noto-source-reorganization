@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="phuunuktaUIguru" format="2">
+  <advance width="526"/>
+  <outline>
+    <contour>
+      <point x="327" y="-149" type="curve" smooth="yes"/>
+      <point x="391" y="-149"/>
+      <point x="441" y="-131"/>
+      <point x="493" y="-101" type="curve"/>
+      <point x="463" y="-22" type="line"/>
+      <point x="416" y="-47"/>
+      <point x="380" y="-58"/>
+      <point x="326" y="-58" type="curve" smooth="yes"/>
+      <point x="276" y="-58"/>
+      <point x="239" y="-48"/>
+      <point x="193" y="-24" type="curve"/>
+      <point x="162" y="-101" type="line"/>
+      <point x="206" y="-130"/>
+      <point x="261" y="-149"/>
+    </contour>
+    <contour>
+      <point x="327" y="-271" type="curve" smooth="yes"/>
+      <point x="391" y="-271"/>
+      <point x="441" y="-254"/>
+      <point x="493" y="-226" type="curve"/>
+      <point x="463" y="-147" type="line"/>
+      <point x="416" y="-170"/>
+      <point x="380" y="-180"/>
+      <point x="326" y="-180" type="curve" smooth="yes"/>
+      <point x="274" y="-180"/>
+      <point x="239" y="-171"/>
+      <point x="193" y="-149" type="curve"/>
+      <point x="162" y="-226" type="line"/>
+      <point x="206" y="-253"/>
+      <point x="261" y="-271"/>
+    </contour>
+    <component base="phaguru"/>
+    <component base="nuktaguru" xOffset="373" yOffset="97"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>=phaguru</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/02/21 10:44:13</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ta_virama_gran.liga" format="2">
+  <advance width="1036"/>
+  <outline>
+    <contour>
+      <point x="597" y="329" type="line"/>
+      <point x="597" y="275" type="line"/>
+      <point x="668" y="275" type="line" smooth="yes"/>
+      <point x="776" y="275"/>
+      <point x="912" y="233"/>
+      <point x="912" y="143" type="curve" smooth="yes"/>
+      <point x="912" y="95"/>
+      <point x="889" y="42"/>
+      <point x="817" y="42" type="curve" smooth="yes"/>
+      <point x="766" y="42"/>
+      <point x="721" y="74"/>
+      <point x="721" y="142" type="curve" smooth="yes"/>
+      <point x="721" y="232"/>
+      <point x="838" y="278"/>
+      <point x="905" y="377" type="curve" smooth="yes"/>
+      <point x="937" y="424"/>
+      <point x="955" y="481"/>
+      <point x="955" y="546" type="curve" smooth="yes"/>
+      <point x="955" y="605"/>
+      <point x="938" y="659"/>
+      <point x="908" y="724" type="curve"/>
+      <point x="849" y="706" type="line"/>
+      <point x="876" y="651"/>
+      <point x="894" y="603"/>
+      <point x="894" y="539" type="curve" smooth="yes"/>
+      <point x="894" y="492"/>
+      <point x="884" y="441"/>
+      <point x="845" y="390" type="curve" smooth="yes"/>
+      <point x="783" y="309"/>
+      <point x="660" y="261"/>
+      <point x="660" y="138" type="curve" smooth="yes"/>
+      <point x="660" y="55"/>
+      <point x="727" y="-12"/>
+      <point x="828" y="-12" type="curve" smooth="yes"/>
+      <point x="933" y="-12"/>
+      <point x="998" y="59"/>
+      <point x="998" y="139" type="curve" smooth="yes"/>
+      <point x="998" y="255"/>
+      <point x="852" y="329"/>
+      <point x="678" y="329" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="277" y="41" type="curve" smooth="yes"/>
+      <point x="196" y="41"/>
+      <point x="132" y="76"/>
+      <point x="132" y="160" type="curve" smooth="yes"/>
+      <point x="132" y="223"/>
+      <point x="180" y="275"/>
+      <point x="266" y="275" type="curve" smooth="yes"/>
+      <point x="426" y="275" type="line"/>
+      <point x="426" y="189" type="line" smooth="yes"/>
+      <point x="426" y="82"/>
+      <point x="358" y="41"/>
+    </contour>
+    <contour>
+      <point x="607" y="275" type="line"/>
+      <point x="607" y="329" type="line"/>
+      <point x="521" y="329" type="line"/>
+      <point x="521" y="500" type="line"/>
+      <point x="696" y="500" type="line"/>
+      <point x="696" y="554" type="line"/>
+      <point x="202" y="554" type="line"/>
+      <point x="202" y="286" type="line"/>
+      <point x="263" y="286" type="line"/>
+      <point x="263" y="500" type="line"/>
+      <point x="426" y="500" type="line"/>
+      <point x="426" y="329" type="line"/>
+      <point x="258" y="329" type="line" smooth="yes"/>
+      <point x="143" y="329"/>
+      <point x="70" y="256"/>
+      <point x="70" y="162" type="curve" smooth="yes"/>
+      <point x="70" y="51"/>
+      <point x="166" y="-12"/>
+      <point x="285" y="-12" type="curve" smooth="yes"/>
+      <point x="434" y="-12"/>
+      <point x="521" y="72"/>
+      <point x="521" y="200" type="curve" smooth="yes"/>
+      <point x="521" y="275" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ta_gran</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/11 14:29:51</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gran</string>
+    </dict>
+  </lib>
+</glyph>

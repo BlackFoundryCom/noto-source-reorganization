@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="flatness" format="2">
+  <advance width="1366"/>
+  <unicode hex="23E5"/>
+  <note>
+uni23E5
+</note>
+  <guideline x="708" y="585" angle="270"/>
+  <guideline x="2" y="135" angle="0"/>
+  <guideline x="132" y="430" angle="0"/>
+  <outline>
+    <contour>
+      <point x="51" y="0" type="line"/>
+      <point x="1000" y="0" type="line"/>
+      <point x="1315" y="510" type="line"/>
+      <point x="368" y="510" type="line"/>
+    </contour>
+    <contour>
+      <point x="100" y="25" type="line"/>
+      <point x="385" y="484" type="line"/>
+      <point x="1267" y="484" type="line"/>
+      <point x="982" y="25" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/03/23 19:34:49</string>
+    </dict>
+  </lib>
+</glyph>

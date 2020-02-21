@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leevoweltelu" format="2">
+  <advance width="652"/>
+  <outline>
+    <contour>
+      <point x="128" y="646" type="line"/>
+      <point x="441" y="646" type="line" smooth="yes"/>
+      <point x="525" y="646"/>
+      <point x="565" y="627"/>
+      <point x="565" y="568" type="curve" smooth="yes"/>
+      <point x="565" y="506"/>
+      <point x="512" y="493"/>
+      <point x="439" y="493" type="curve" smooth="yes"/>
+      <point x="368" y="493" type="line"/>
+      <point x="368" y="469" type="line"/>
+      <point x="434" y="469" type="line" smooth="yes"/>
+      <point x="525" y="469"/>
+      <point x="591" y="489"/>
+      <point x="591" y="568" type="curve" smooth="yes"/>
+      <point x="591" y="602"/>
+      <point x="580" y="624"/>
+      <point x="561" y="641" type="curve" smooth="yes"/>
+      <point x="536" y="663"/>
+      <point x="502" y="671"/>
+      <point x="442" y="671" type="curve" smooth="yes"/>
+      <point x="133" y="671" type="line"/>
+    </contour>
+    <contour>
+      <point x="506" y="808" type="curve" smooth="yes"/>
+      <point x="439" y="808"/>
+      <point x="400" y="769"/>
+      <point x="400" y="720" type="curve" smooth="yes"/>
+      <point x="400" y="693"/>
+      <point x="415" y="664"/>
+      <point x="430" y="651" type="curve"/>
+      <point x="450" y="661" type="line"/>
+      <point x="435" y="676"/>
+      <point x="426" y="693"/>
+      <point x="426" y="717" type="curve" smooth="yes"/>
+      <point x="426" y="757"/>
+      <point x="457" y="783"/>
+      <point x="506" y="783" type="curve" smooth="yes"/>
+      <point x="565" y="783"/>
+      <point x="600" y="745"/>
+      <point x="600" y="673" type="curve"/>
+      <point x="626" y="673" type="line"/>
+      <point x="626" y="737"/>
+      <point x="597" y="808"/>
+    </contour>
+    <component base="laalttelu"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>latelu</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>latelu</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/15 11:28:14</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

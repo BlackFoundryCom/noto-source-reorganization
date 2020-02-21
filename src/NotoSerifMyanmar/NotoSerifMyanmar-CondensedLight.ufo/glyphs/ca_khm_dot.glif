@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ca_khm_dot" format="2">
+  <advance width="829"/>
+  <note>
+ca_khm
+</note>
+  <outline>
+    <component base="kha_khm"/>
+    <component base="wa" xOffset="331"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>kha_khm</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>wa</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>myanmar</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

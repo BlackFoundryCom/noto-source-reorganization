@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamDotabove-ar.init" format="2">
+  <advance width="260"/>
+  <anchor x="130" y="0" name="bottom"/>
+  <anchor x="131" y="846" name="top"/>
+  <outline>
+    <component base="lam-ar.init"/>
+    <component base="dotabove-ar" xOffset="55" yOffset="251"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:37</string>
+    </dict>
+  </lib>
+</glyph>

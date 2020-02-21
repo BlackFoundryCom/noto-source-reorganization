@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefMaksura_meem-ar.fina" format="2">
+  <advance width="830"/>
+  <anchor x="557" y="0" name="caret_1"/>
+  <anchor x="677" y="-5" name="bottom_1"/>
+  <anchor x="332" y="-1" name="bottom_2"/>
+  <anchor x="666" y="466" name="top_1"/>
+  <anchor x="304" y="424" name="top_2"/>
+  <outline>
+    <component base="alefMaksura-ar.init" xOffset="571"/>
+    <component base="meem-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>alefMaksura-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>meem-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:42</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ra1beng" format="2">
+  <advance width="447"/>
+  <unicode hex="09F0"/>
+  <outline>
+    <contour>
+      <point x="453" y="622" type="line"/>
+      <point x="-6" y="622" type="line"/>
+      <point x="-6" y="554" type="line"/>
+      <point x="308" y="554" type="line"/>
+      <point x="308" y="485" type="line"/>
+      <point x="323" y="527" type="line"/>
+      <point x="219" y="480"/>
+      <point x="112" y="410"/>
+      <point x="23" y="336" type="curve"/>
+      <point x="55" y="251" type="line"/>
+      <point x="169" y="219"/>
+      <point x="257" y="122"/>
+      <point x="308" y="0" type="curve"/>
+      <point x="379" y="0" type="line"/>
+      <point x="379" y="554" type="line"/>
+      <point x="453" y="554" type="line"/>
+    </contour>
+    <contour>
+      <point x="308" y="477" type="line"/>
+      <point x="308" y="188" type="line" smooth="yes"/>
+      <point x="308" y="154"/>
+      <point x="310" y="108"/>
+      <point x="313" y="79" type="curve"/>
+      <point x="320" y="87" type="line"/>
+      <point x="274" y="204"/>
+      <point x="188" y="276"/>
+      <point x="101" y="309" type="curve"/>
+      <point x="166" y="366"/>
+      <point x="261" y="417"/>
+      <point x="329" y="453" type="curve"/>
+    </contour>
+    <contour>
+      <point x="359" y="126" type="curve"/>
+      <point x="360" y="225" type="line"/>
+      <point x="308" y="341"/>
+      <point x="221" y="387"/>
+      <point x="141" y="410" type="curve"/>
+      <point x="102" y="367" type="line"/>
+      <point x="215" y="341"/>
+      <point x="314" y="254"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/07/07 09:20:32</string>
+    </dict>
+  </lib>
+</glyph>

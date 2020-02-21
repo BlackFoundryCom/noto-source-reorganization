@@ -1,0 +1,437 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400">
+      <map input="100" output="26"/>
+      <map input="200" output="39"/>
+      <map input="300" output="58"/>
+      <map input="400" output="90"/>
+      <map input="500" output="108"/>
+      <map input="600" output="128"/>
+      <map input="700" output="151"/>
+      <map input="800" output="169"/>
+      <map input="900" output="190"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="NotoSansCham-Light.ufo" name="Noto Sans Cham Light" familyname="Noto Sans Cham" stylename="Light">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+      </location>
+    </source>
+    <source filename="NotoSansCham-Regular.ufo" name="Noto Sans Cham Regular" familyname="Noto Sans Cham" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+    </source>
+    <source filename="NotoSansCham-SemiBold.ufo" name="Noto Sans Cham SemiBold" familyname="Noto Sans Cham" stylename="SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+      </location>
+    </source>
+    <source filename="NotoSansCham-Bold.ufo" name="Noto Sans Cham Bold" familyname="Noto Sans Cham" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Sans Cham Thin" familyname="Noto Sans Cham" stylename="Thin" filename="instance_ufos/NotoSansCham-Thin.ufo" stylemapfamilyname="Noto Sans Cham Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="26"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Sans Cham Thin</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Cham ExtraLight" familyname="Noto Sans Cham" stylename="ExtraLight" filename="instance_ufos/NotoSansCham-ExtraLight.ufo" stylemapfamilyname="Noto Sans Cham ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="39"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>3</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Sans Cham ExtLt</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Cham Light" familyname="Noto Sans Cham" stylename="Light" filename="instance_ufos/NotoSansCham-Light.ufo" stylemapfamilyname="Noto Sans Cham Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="58"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Sans Cham Light</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Cham Regular" familyname="Noto Sans Cham" stylename="Regular" filename="instance_ufos/NotoSansCham-Regular.ufo" stylemapfamilyname="Noto Sans Cham" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Cham Medium" familyname="Noto Sans Cham" stylename="Medium" filename="instance_ufos/NotoSansCham-Medium.ufo" stylemapfamilyname="Noto Sans Cham Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Sans Cham Med</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Cham SemiBold" familyname="Noto Sans Cham" stylename="SemiBold" filename="instance_ufos/NotoSansCham-SemiBold.ufo" stylemapfamilyname="Noto Sans Cham SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>7</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Sans Cham SemBd</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Cham Bold" familyname="Noto Sans Cham" stylename="Bold" filename="instance_ufos/NotoSansCham-Bold.ufo" stylemapfamilyname="Noto Sans Cham" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>8</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Cham ExtraBold" familyname="Noto Sans Cham" stylename="ExtraBold" filename="instance_ufos/NotoSansCham-ExtraBold.ufo" stylemapfamilyname="Noto Sans Cham ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="169"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Sans Cham ExtBd</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Sans Cham Black" familyname="Noto Sans Cham" stylename="Black" filename="instance_ufos/NotoSansCham-Black.ufo" stylemapfamilyname="Noto Sans Cham Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="190"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>10</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <integer>536</integer>
+            </array>
+            <array>
+              <string>styleMapFamilyName</string>
+              <string>Noto Sans Cham Blk</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>0A718E2F-231D-484E-9433-16A5230D2CE8</key>
+        <dict>
+          <key>HH</key>
+          <string>158</string>
+          <key>HV</key>
+          <string>194</string>
+          <key>OH</key>
+          <string>158</string>
+          <key>OV</key>
+          <string>203</string>
+          <key>nV</key>
+          <string>191</string>
+          <key>oH</key>
+          <string>142</string>
+          <key>oV</key>
+          <string>194</string>
+          <key>tH</key>
+          <string>143</string>
+        </dict>
+        <key>876CB7B0-00C3-486C-9A47-43D2BE8A6B3C</key>
+        <dict/>
+        <key>9FF96064-8718-4A86-A5C8-73C592101F67</key>
+        <dict>
+          <key>HH</key>
+          <string>79</string>
+          <key>HV</key>
+          <string>90</string>
+          <key>OH</key>
+          <string>79</string>
+          <key>OV</key>
+          <string>95</string>
+          <key>nV</key>
+          <string>87</string>
+          <key>oH</key>
+          <string>74</string>
+          <key>oV</key>
+          <string>91</string>
+          <key>tH</key>
+          <string>68</string>
+        </dict>
+        <key>AB666A95-3AF9-4DE8-B258-097FFCFE8A59</key>
+        <dict>
+          <key>HH</key>
+          <string>25</string>
+          <key>HV</key>
+          <string>26</string>
+          <key>OH</key>
+          <string>25</string>
+          <key>OV</key>
+          <string>27</string>
+          <key>nV</key>
+          <string>26</string>
+          <key>oH</key>
+          <string>25</string>
+          <key>oV</key>
+          <string>27</string>
+          <key>tH</key>
+          <string>25</string>
+        </dict>
+        <key>UUID0</key>
+        <dict/>
+      </dict>
+    </dict>
+  </lib>
+</designspace>

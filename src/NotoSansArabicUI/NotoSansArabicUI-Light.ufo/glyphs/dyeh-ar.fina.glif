@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dyeh-ar.fina" format="2">
+  <advance width="650"/>
+  <unicode hex="FB73"/>
+  <anchor x="331" y="480" name="top"/>
+  <anchor x="370" y="-271" name="bottom"/>
+  <anchor x="290" y="32" name="center"/>
+  <outline>
+    <component base="hah-ar.fina"/>
+    <component base="twodotsverticalabove-ar.small" xOffset="214" yOffset="-646"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:35</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

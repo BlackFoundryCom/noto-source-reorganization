@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sad_hah-ar.init" format="2">
+  <advance width="1379"/>
+  <unicode hex="FCB1"/>
+  <anchor x="532" y="0" name="caret_1"/>
+  <anchor x="985" y="-16" name="bottom_1"/>
+  <anchor x="271" y="0" name="bottom_2"/>
+  <anchor x="1126" y="432" name="top_1"/>
+  <anchor x="167" y="431" name="top_2"/>
+  <outline>
+    <component base="sad-ar.init" xOffset="532"/>
+    <component base="hah-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>sad-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>hah-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:40</string>
+    </dict>
+  </lib>
+</glyph>

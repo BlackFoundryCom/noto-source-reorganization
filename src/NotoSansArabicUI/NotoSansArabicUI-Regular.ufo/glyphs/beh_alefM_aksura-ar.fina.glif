@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="beh_alefMaksura-ar.fina" format="2">
+  <advance width="1079"/>
+  <unicode hex="FC6E"/>
+  <anchor x="736" y="0" name="caret_1"/>
+  <anchor x="906" y="-191" name="bottom_1"/>
+  <anchor x="326" y="-232" name="bottom_2"/>
+  <anchor x="838" y="4" name="center"/>
+  <anchor x="922" y="283" name="top_1"/>
+  <anchor x="216" y="150" name="top_2"/>
+  <outline>
+    <component base="beh-ar.medi" xOffset="736"/>
+    <component base="alefMaksura-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>beh-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alefMaksura-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:39</string>
+    </dict>
+  </lib>
+</glyph>

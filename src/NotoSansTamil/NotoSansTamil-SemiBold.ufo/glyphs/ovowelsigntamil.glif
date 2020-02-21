@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ovowelsigntamil" format="2">
+  <advance width="1881"/>
+  <unicode hex="0BCA"/>
+  <outline>
+    <component base="evowelsigntamil"/>
+    <component base="viramatamil" xOffset="1366" yOffset="-381"/>
+    <component base="aavowelsigntamil" xOffset="1188"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/03/28 12:19:03</string>
+    </dict>
+  </lib>
+</glyph>

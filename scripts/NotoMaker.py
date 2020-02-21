@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 import os
 from Ufo2fontsFromdesignSpace import *
@@ -40,16 +41,22 @@ def main():
     """ A way to use Ufo2fontsFromdesignSpace in terminal
     """
     args = create_arg_parser()
-    #SUBSETABLE FAMILIES
-    subsetableFamilies=    ["NotoSans",
-                            "NotoSerif",
-                            "NotoSerif-Italic",
+    #SUBSETABLE FAMILIES (Pan-European and Arabic writing systems)
+    pan_european_fonts =    ["NotoSans",
                             "NotoSans-Italic",
+                            "NotoSerif", "NotoSerif-Italic",
                             "NotoSansDisplay",
                             "NotoSansDisplay-Italic",
-                            "NotoSansMono",
                             "NotoSerifDisplay",
-                            "NotoSerifDisplay-Italic"]
+                            "NotoSerifDisplay-Italic",
+                            "NotoSansMono"]
+    arabic_fonts =          ["NotoKufiArabic",
+                             "NotoNaskhArabic",
+                             "NotoNaskhArabicUI",
+                             "NotoNastaliqUrdu",
+                             "NotoSansArabic",
+                             "NotoSansArabicUI"]
+
     # IF A FOLDER PATH IS GIVEN, CHECK IF IT'S A VALID ONE
     # if len(sys.argv) > 1:
     #     path = os.path.abspath(os.path.join(os.path.dirname(sys.argv[len(sys.argv) - 1]), os.pardir, 'scripts'))
@@ -70,15 +77,19 @@ def main():
         if "-name" in sys.argv:
             newName = str(args.name)
             print("The {} family will be renamed {}".format(family, newName))
-        if family in subsetableFamilies:
+        if family in pan_european_fonts + arabic_fonts:
             if args.script is None:
-                jsonpath = [os.path.join(familyPath, json) for json in os.listdir(familyPath) if ".json" in json]
+                if family in pan_european_fonts:
+                    jsonpath = os.path.join(path, "lgc_glyphset.json")
+                else:
+                    jsonpath = os.path.join(path, "arabic_glyphset.json")
+                # jsonpath = [os.path.join(familyPath, json) for json in os.listdir(familyPath) if ".json" in json]
                 prettyLog("You have not give a subset. List of available subsets:")
-                for i in jsonpath:
-                    with open(i, 'r') as subsetDict:
-                        subsets = json.load(subsetDict)
-                for i in subsets:
-                    print("— "+i)
+                # for i in jsonpath:
+                with open(jsonpath, 'r') as subsetDict:
+                    subsets = json.load(subsetDict)
+                    for i in subsets:
+                        print("— "+i)
                 request = input("Give at least one subset: ").split(",")
                 for sub in request:
                     sub = sub.strip(" ")

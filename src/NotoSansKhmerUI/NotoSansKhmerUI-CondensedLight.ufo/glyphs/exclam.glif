@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclam" format="2">
+  <advance width="194"/>
+  <unicode hex="0021"/>
+  <note>
+exclam
+</note>
+  <outline>
+    <contour>
+      <point x="109" y="414" type="line"/>
+      <point x="114" y="958" type="line"/>
+      <point x="83" y="958" type="line"/>
+      <point x="86" y="414" type="line"/>
+    </contour>
+    <contour>
+      <point x="72" y="274" type="curve" smooth="yes"/>
+      <point x="72" y="253"/>
+      <point x="77" y="238"/>
+      <point x="97" y="238" type="curve" smooth="yes"/>
+      <point x="115" y="238"/>
+      <point x="123" y="251"/>
+      <point x="123" y="274" type="curve" smooth="yes"/>
+      <point x="123" y="297"/>
+      <point x="116" y="309"/>
+      <point x="97" y="309" type="curve" smooth="yes"/>
+      <point x="77" y="309"/>
+      <point x="72" y="293"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/15 19:45:07</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uPhr.eth" format="2">
+  <advance width="746"/>
+  <unicode hex="12D1"/>
+  <note>
+uni12D1
+</note>
+  <anchor x="400" y="723" name="top"/>
+  <outline>
+    <component base="aPhr.eth"/>
+    <component base="rightsingleflag" xOffset="453" yOffset="-10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ma.eth</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>rightsingleflag</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/08/29 14:43:55</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

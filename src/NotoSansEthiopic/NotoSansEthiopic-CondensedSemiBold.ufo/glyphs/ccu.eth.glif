@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ccu.eth" format="2">
+  <advance width="550"/>
+  <unicode hex="2DA9"/>
+  <note>
+uni2DA9
+</note>
+  <anchor x="275" y="839" name="top"/>
+  <outline>
+    <component base="cu.eth"/>
+    <component base="leftsingleflag" xOffset="37" yOffset="-166"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>weight</key>
+        <integer>-10</integer>
+        <key>width</key>
+        <integer>80</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>cu.eth</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/08/29 14:43:55</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dda_medial_ha" format="2">
+  <advance width="630"/>
+  <outline>
+    <contour>
+      <point x="353" y="-203" type="line"/>
+      <point x="277" y="-203" type="line"/>
+      <point x="277" y="-300" type="line" smooth="yes"/>
+      <point x="277" y="-382"/>
+      <point x="253" y="-414"/>
+      <point x="171" y="-414" type="curve" smooth="yes"/>
+      <point x="166" y="-414" type="line"/>
+      <point x="166" y="-541" type="line"/>
+      <point x="173" y="-542"/>
+      <point x="181" y="-542"/>
+      <point x="185" y="-542" type="curve" smooth="yes"/>
+      <point x="298" y="-542"/>
+      <point x="353" y="-484"/>
+      <point x="353" y="-331" type="curve" smooth="yes"/>
+    </contour>
+    <component base="dda"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dda</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>dda</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+    </dict>
+  </lib>
+</glyph>

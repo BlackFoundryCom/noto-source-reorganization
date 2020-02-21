@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ghain-ar.medi" format="2">
+  <advance width="531"/>
+  <unicode hex="FED0"/>
+  <anchor x="259" y="0" name="bottom"/>
+  <anchor x="302" y="700" name="top"/>
+  <outline>
+    <component base="ain-ar.medi"/>
+    <component base="dotabove-ar" xOffset="194" yOffset="64"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:36</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

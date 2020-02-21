@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="finalkafdagesh-hb" format="2">
+  <advance width="545"/>
+  <unicode hex="FB3A"/>
+  <anchor x="198" y="240" name="bottom"/>
+  <anchor x="25" y="0" name="bottomleft"/>
+  <anchor x="198" y="300" name="center"/>
+  <anchor x="245" y="536" name="top"/>
+  <anchor x="15" y="536" name="topleft"/>
+  <outline>
+    <component base="finalkaf-hb"/>
+    <component base="dagesh-hb" xOffset="114"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/07 18:36:03</string>
+    </dict>
+  </lib>
+</glyph>

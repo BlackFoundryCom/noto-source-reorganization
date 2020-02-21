@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="joa.eth" format="2">
+  <advance width="587"/>
+  <unicode hex="2D8E"/>
+  <note>
+uni2D8E
+</note>
+  <anchor x="286" y="788" name="top"/>
+  <outline>
+    <component base="jo.eth" xOffset="37"/>
+    <component base="leftdoubleflag" yOffset="421"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>width</key>
+        <integer>80</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>leftdoubleflag</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>leftsingleflag</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/08/29 14:43:55</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

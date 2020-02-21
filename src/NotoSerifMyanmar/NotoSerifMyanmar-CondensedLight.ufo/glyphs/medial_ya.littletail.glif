@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="medial_ya.littletail" format="2">
+  <advance width="170"/>
+  <note>
+Use after tta.littletail, lla.littletail, dda.littletail, tta.alt.littletail and ssa_tta.littletail only.
+</note>
+  <outline>
+    <contour>
+      <point x="96" y="520" type="line"/>
+      <point x="74" y="520" type="line"/>
+      <point x="74" y="-433" type="line" smooth="yes"/>
+      <point x="74" y="-475"/>
+      <point x="70" y="-502"/>
+      <point x="40" y="-502" type="curve" smooth="yes"/>
+      <point x="31" y="-502"/>
+      <point x="18" y="-501"/>
+      <point x="-14" y="-485" type="curve" smooth="yes"/>
+      <point x="-74" y="-455"/>
+      <point x="-78" y="-447"/>
+      <point x="-78" y="-371" type="curve" smooth="yes"/>
+      <point x="-78" y="-284" type="line"/>
+      <point x="-100" y="-284" type="line"/>
+      <point x="-100" y="-373" type="line" smooth="yes"/>
+      <point x="-100" y="-456"/>
+      <point x="-95" y="-473"/>
+      <point x="-25" y="-507" type="curve" smooth="yes"/>
+      <point x="19" y="-528"/>
+      <point x="37" y="-530"/>
+      <point x="46" y="-530" type="curve" smooth="yes"/>
+      <point x="82" y="-530"/>
+      <point x="96" y="-501"/>
+      <point x="96" y="-439" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>medial_ya</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>medial_ya</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+    </dict>
+  </lib>
+</glyph>

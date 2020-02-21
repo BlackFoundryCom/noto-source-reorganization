@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400">
+      <map input="100" output="28"/>
+      <map input="200" output="42"/>
+      <map input="300" output="64"/>
+      <map input="400" output="94"/>
+      <map input="500" output="110"/>
+      <map input="600" output="130"/>
+      <map input="700" output="152"/>
+      <map input="800" output="175"/>
+      <map input="900" output="194"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="NotoSerifTibetan-Light.ufo" name="Noto Serif Tibetan Light" familyname="Noto Serif Tibetan" stylename="Light">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+      </location>
+    </source>
+    <source filename="NotoSerifTibetan-Regular.ufo" name="Noto Serif Tibetan Regular" familyname="Noto Serif Tibetan" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+      </location>
+    </source>
+    <source filename="NotoSerifTibetan-SemiBold.ufo" name="Noto Serif Tibetan SemiBold" familyname="Noto Serif Tibetan" stylename="SemiBold">
+      <location>
+        <dimension name="Weight" xvalue="152"/>
+      </location>
+    </source>
+    <source filename="NotoSerifTibetan-Bold.ufo" name="Noto Serif Tibetan Bold" familyname="Noto Serif Tibetan" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Serif Tibetan Thin" familyname="Noto Serif Tibetan" stylename="Thin" filename="instance_ufos/NotoSerifTibetan-Thin.ufo" stylemapfamilyname="Noto Serif Tibetan Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Tibetan ExtraLight" familyname="Noto Serif Tibetan" stylename="ExtraLight" filename="instance_ufos/NotoSerifTibetan-ExtraLight.ufo" stylemapfamilyname="Noto Serif Tibetan ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="42"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Tibetan Light" familyname="Noto Serif Tibetan" stylename="Light" filename="instance_ufos/NotoSerifTibetan-Light.ufo" stylemapfamilyname="Noto Serif Tibetan Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="64"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Tibetan Regular" familyname="Noto Serif Tibetan" stylename="Regular" filename="instance_ufos/NotoSerifTibetan-Regular.ufo" stylemapfamilyname="Noto Serif Tibetan" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Tibetan Medium" familyname="Noto Serif Tibetan" stylename="Medium" filename="instance_ufos/NotoSerifTibetan-Medium.ufo" stylemapfamilyname="Noto Serif Tibetan Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="110"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Tibetan SemiBold" familyname="Noto Serif Tibetan" stylename="SemiBold" filename="instance_ufos/NotoSerifTibetan-SemiBold.ufo" stylemapfamilyname="Noto Serif Tibetan SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="130"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>7</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Tibetan Bold" familyname="Noto Serif Tibetan" stylename="Bold" filename="instance_ufos/NotoSerifTibetan-Bold.ufo" stylemapfamilyname="Noto Serif Tibetan" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="152"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>8</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Tibetan ExtraBold" familyname="Noto Serif Tibetan" stylename="ExtraBold" filename="instance_ufos/NotoSerifTibetan-ExtraBold.ufo" stylemapfamilyname="Noto Serif Tibetan ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="175"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Tibetan Black" familyname="Noto Serif Tibetan" stylename="Black" filename="instance_ufos/NotoSerifTibetan-Black.ufo" stylemapfamilyname="Noto Serif Tibetan Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>10</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>UUID0</key>
+        <dict/>
+      </dict>
+      <key>com.github.googlei18n.ufo2ft.featureWriters</key>
+      <array>
+        <dict>
+          <key>class</key>
+          <string>KernFeatureWriter</string>
+          <key>options</key>
+          <dict>
+            <key>mode</key>
+            <string>append</string>
+          </dict>
+        </dict>
+        <dict>
+          <key>class</key>
+          <string>MarkFeatureWriter</string>
+          <key>options</key>
+          <dict>
+            <key>mode</key>
+            <string>skip</string>
+          </dict>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</designspace>

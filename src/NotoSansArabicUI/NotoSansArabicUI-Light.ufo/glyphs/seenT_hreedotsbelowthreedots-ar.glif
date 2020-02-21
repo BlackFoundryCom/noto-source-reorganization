@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seenThreedotsbelowthreedots-ar" format="2">
+  <advance width="1164"/>
+  <unicode hex="069C"/>
+  <anchor x="783" y="-226" name="bottom"/>
+  <anchor x="778" y="602" name="top"/>
+  <outline>
+    <component base="seen-ar"/>
+    <component base="threedotsupabove-ar" xOffset="633" yOffset="-131"/>
+    <component base="threedotsupbelow-ar.restricted" xOffset="638" yOffset="-5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:36</string>
+    </dict>
+  </lib>
+</glyph>

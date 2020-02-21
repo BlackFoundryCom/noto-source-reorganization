@@ -1,0 +1,8 @@
+table GDEF {
+  # automatic
+  GlyphClassDef
+    [aaMatra_tirh oMatra_tirh], # Base
+    , # Liga
+    [uMatra_tirh uuMatra_tirh rVocalicMatra_tirh rrVocalicMatra_tirh lVocalicMatra_tirh llVocalicMatra_tirh nukta_tirh ra.sub ra.sub.wide], # Mark
+    ;
+} GDEF;

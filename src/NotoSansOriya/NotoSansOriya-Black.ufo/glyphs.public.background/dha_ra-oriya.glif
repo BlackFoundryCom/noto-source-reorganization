@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dha_ra-oriya" format="2">
+  <outline>
+    <component base="dha-oriya"/>
+    <component base="_part.ra.below" xOffset="77"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>1</integer>
+      </array>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict/>
+        <dict>
+          <key>Height</key>
+          <integer>-22</integer>
+          <key>Overlap</key>
+          <real>69.25243</real>
+          <key>Width</key>
+          <integer>124</integer>
+          <key>Width vertical stem</key>
+          <real>0.06349</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

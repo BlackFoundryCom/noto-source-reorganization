@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehTwodotsbelowHamzaabove-ar" format="2">
+  <advance width="780"/>
+  <unicode hex="08A8"/>
+  <anchor x="354" y="-263" name="bottom"/>
+  <anchor x="235" y="463" name="top"/>
+  <outline>
+    <component base="yeh-ar"/>
+    <component base="hamzaabove-ar" xOffset="121" yOffset="-241"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:38</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wasallam-ar" format="2">
+  <advance width="1643"/>
+  <unicode hex="FDF8"/>
+  <anchor x="1450" y="-187" name="bottom_1"/>
+  <anchor x="941" y="-5" name="bottom_2"/>
+  <anchor x="555" y="0" name="bottom_3"/>
+  <anchor x="176" y="0" name="bottom_4"/>
+  <anchor x="1457" y="317" name="top_1"/>
+  <anchor x="986" y="332" name="top_2"/>
+  <anchor x="549" y="714" name="top_3"/>
+  <anchor x="207" y="342" name="top_4"/>
+  <outline>
+    <component base="waw-ar" xOffset="1265"/>
+    <component base="seen-ar.init" xOffset="671"/>
+    <component base="lam-ar.medi" xOffset="457"/>
+    <component base="meem-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>waw-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>meem-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:42</string>
+    </dict>
+  </lib>
+</glyph>

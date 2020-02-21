@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="natharadeva" format="2">
+  <advance width="820"/>
+  <outline>
+    <contour>
+      <point x="145" y="339" type="line"/>
+      <point x="355" y="339" type="line"/>
+      <point x="355" y="347" type="line"/>
+      <point x="355" y="352" type="line"/>
+      <point x="355" y="365" type="line"/>
+      <point x="89" y="365" type="line" smooth="yes"/>
+      <point x="58" y="365"/>
+      <point x="47" y="353"/>
+      <point x="47" y="334" type="curve" smooth="yes"/>
+      <point x="47" y="304"/>
+      <point x="84" y="258"/>
+      <point x="116" y="258" type="curve" smooth="yes"/>
+      <point x="133" y="258"/>
+      <point x="145" y="269"/>
+      <point x="145" y="297" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="0" y="622" type="line"/>
+      <point x="0" y="596" type="line"/>
+      <point x="264" y="596" type="line"/>
+      <point x="264" y="622" type="line"/>
+    </contour>
+    <component base="tharadeva" xOffset="249"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/04/14 12:18:31</string>
+    </dict>
+  </lib>
+</glyph>

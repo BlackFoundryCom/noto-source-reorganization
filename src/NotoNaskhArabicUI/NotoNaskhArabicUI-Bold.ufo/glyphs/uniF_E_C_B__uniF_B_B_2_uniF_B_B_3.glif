@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFECB_uniFBB2_uniFBB3" format="2">
+  <advance width="517"/>
+  <anchor x="275" y="-84" name="bottom_1"/>
+  <anchor x="208" y="753" name="top_1"/>
+  <outline>
+    <component base="uniFECB"/>
+    <component base="uniFBB2" xOffset="9" yOffset="93"/>
+    <component base="uniFBB3" xOffset="91" yOffset="28"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 16:51:11</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="teh_meem_alefMaksura-ar.fina" format="2">
+  <advance width="1438"/>
+  <unicode hex="FDA4"/>
+  <anchor x="1115" y="0" name="caret_1"/>
+  <anchor x="625" y="0" name="caret_2"/>
+  <anchor x="1267" y="-5" name="bottom_1"/>
+  <anchor x="864" y="0" name="bottom_2"/>
+  <anchor x="322" y="-230" name="bottom_3"/>
+  <anchor x="1284" y="553" name="top_1"/>
+  <anchor x="907" y="362" name="top_2"/>
+  <anchor x="216" y="150" name="top_3"/>
+  <outline>
+    <component base="teh-ar.medi" xOffset="1115"/>
+    <component base="meem-ar.medi" xOffset="625"/>
+    <component base="alefMaksura-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>teh-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alefMaksura-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:39</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFD9E" format="2">
+  <advance width="1640"/>
+  <unicode hex="FD9E"/>
+  <anchor x="1504" y="-244" name="bottom_1"/>
+  <anchor x="1051" y="-49" name="bottom_2"/>
+  <anchor x="292" y="-481" name="bottom_3"/>
+  <anchor x="690" y="9" name="caret_1"/>
+  <anchor x="1352" y="20" name="caret_2"/>
+  <anchor x="1490" y="335" name="top_1"/>
+  <anchor x="980" y="614" name="top_2"/>
+  <anchor x="336" y="185" name="top_3"/>
+  <outline>
+    <component base="uni066E.medi" xOffset="1348"/>
+    <component base="uniFBB3" xOffset="1340" yOffset="-4"/>
+    <component base="uniFEA4" xOffset="690"/>
+    <component base="uniFBB2" xOffset="779" yOffset="98"/>
+    <component base="uniFEF0"/>
+    <component base="uniFBB5" xOffset="102" yOffset="-221"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 07:10:24</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

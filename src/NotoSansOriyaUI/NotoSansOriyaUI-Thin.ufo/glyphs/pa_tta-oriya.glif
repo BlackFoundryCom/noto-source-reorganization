@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pa_tta-oriya" format="2">
+  <advance width="749"/>
+  <guideline x="587" y="502" angle="90"/>
+  <guideline x="699" y="502" angle="90"/>
+  <anchor x="574" y="203" name="bottom"/>
+  <anchor x="587" y="199" name="bottom_ta"/>
+  <anchor x="313" y="751" name="top"/>
+  <anchor x="574" y="751" name="topright"/>
+  <outline>
+    <component base="pa-oriya.base"/>
+    <component base="tta-oriya.below" xOffset="342"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>pa-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>tta-oriya.below</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/06 18:24:06</string>
+    </dict>
+  </lib>
+</glyph>

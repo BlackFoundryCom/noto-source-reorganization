@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<designspace format="4.0">
+<designspace format="4.1">
   <axes>
     <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400">
       <map input="100" output="26"/>
@@ -20,17 +20,13 @@
     </axis>
   </axes>
   <sources>
-    <source filename="NotoSansMono-Light.ufo" name="Noto Sans Mono Light" familyname="NotoSansMono" stylename="Light">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
+    <source filename="NotoSansMono-Light.ufo" name="Noto Sans Mono Light" familyname="Noto Sans Mono" stylename="Light">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
-    <source filename="NotoSansMono-Regular.ufo" name="Noto Sans Mono Regular" familyname="NotoSansMono" stylename="Regular">
+    <source filename="NotoSansMono-Regular.ufo" name="Noto Sans Mono Regular" familyname="Noto Sans Mono" stylename="Regular">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -40,61 +36,37 @@
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
-    <source filename="NotoSansMono-SemiBold.ufo" name="Noto Sans Mono SemiBold" familyname="NotoSansMono" stylename="SemiBold">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
+    <source filename="NotoSansMono-SemiBold.ufo" name="Noto Sans Mono SemiBold" familyname="Noto Sans Mono" stylename="SemiBold">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
-    <source filename="NotoSansMono-Bold.ufo" name="Noto Sans Mono Bold" familyname="NotoSansMono" stylename="Bold">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
+    <source filename="NotoSansMono-Bold.ufo" name="Noto Sans Mono Bold" familyname="Noto Sans Mono" stylename="Bold">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
-    <source filename="NotoSansMono-CondensedLight.ufo" name="Noto Sans Mono Condensed Light" familyname="NotoSansMono" stylename="Condensed Light">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
+    <source filename="NotoSansMono-CondensedLight.ufo" name="Noto Sans Mono Condensed Light" familyname="Noto Sans Mono" stylename="Condensed Light">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
-    <source filename="NotoSansMono-Condensed.ufo" name="Noto Sans Mono Condensed" familyname="NotoSansMono" stylename="Condensed">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
+    <source filename="NotoSansMono-Condensed.ufo" name="Noto Sans Mono Condensed" familyname="Noto Sans Mono" stylename="Condensed">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
-    <source filename="NotoSansMono-CondensedSemiBold.ufo" name="Noto Sans Mono Condensed SemiBold" familyname="NotoSansMono" stylename="Condensed SemiBold">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
+    <source filename="NotoSansMono-CondensedSemiBold.ufo" name="Noto Sans Mono Condensed SemiBold" familyname="Noto Sans Mono" stylename="Condensed SemiBold">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
-    <source filename="NotoSansMono-CondensedBold.ufo" name="Noto Sans Mono Condensed Bold" familyname="NotoSansMono" stylename="Condensed Bold">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
+    <source filename="NotoSansMono-CondensedBold.ufo" name="Noto Sans Mono Condensed Bold" familyname="Noto Sans Mono" stylename="Condensed Bold">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="70"/>
@@ -102,293 +74,2392 @@
     </source>
   </sources>
   <instances>
-    <instance name="Noto Sans Mono Thin" familyname="NotoSansMono" stylename="Thin" filename="instance_ufos/NotoSansMono-Thin.ufo">
+    <instance name="Noto Sans Mono Thin" familyname="Noto Sans Mono" stylename="Thin" filename="instance_ufos/NotoSansMono-Thin.ufo" stylemapfamilyname="Noto Sans Mono Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>2</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono ExtraLight" familyname="NotoSansMono" stylename="ExtraLight" filename="instance_ufos/NotoSansMono-ExtraLight.ufo">
+    <instance name="Noto Sans Mono ExtraLight" familyname="Noto Sans Mono" stylename="ExtraLight" filename="instance_ufos/NotoSansMono-ExtraLight.ufo" stylemapfamilyname="Noto Sans Mono ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="39"/>
         <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>3</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono Light" familyname="NotoSansMono" stylename="Light" filename="instance_ufos/NotoSansMono-Light.ufo">
+    <instance name="Noto Sans Mono Light" familyname="Noto Sans Mono" stylename="Light" filename="instance_ufos/NotoSansMono-Light.ufo" stylemapfamilyname="Noto Sans Mono Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="58"/>
         <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>4</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono Regular" familyname="NotoSansMono" stylename="Regular" filename="instance_ufos/NotoSansMono-Regular.ufo">
+    <instance name="Noto Sans Mono Regular" familyname="Noto Sans Mono" stylename="Regular" filename="instance_ufos/NotoSansMono-Regular.ufo" stylemapfamilyname="Noto Sans Mono" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono Medium" familyname="NotoSansMono" stylename="Medium" filename="instance_ufos/NotoSansMono-Medium.ufo">
+    <instance name="Noto Sans Mono Medium" familyname="Noto Sans Mono" stylename="Medium" filename="instance_ufos/NotoSansMono-Medium.ufo" stylemapfamilyname="Noto Sans Mono Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="108"/>
         <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono SemiBold" familyname="NotoSansMono" stylename="SemiBold" filename="instance_ufos/NotoSansMono-SemiBold.ufo">
+    <instance name="Noto Sans Mono SemiBold" familyname="Noto Sans Mono" stylename="SemiBold" filename="instance_ufos/NotoSansMono-SemiBold.ufo" stylemapfamilyname="Noto Sans Mono SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="128"/>
         <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>7</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono Bold" familyname="NotoSansMono" stylename="Bold" filename="instance_ufos/NotoSansMono-Bold.ufo">
+    <instance name="Noto Sans Mono Bold" familyname="Noto Sans Mono" stylename="Bold" filename="instance_ufos/NotoSansMono-Bold.ufo" stylemapfamilyname="Noto Sans Mono" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>8</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono ExtraBold" familyname="NotoSansMono" stylename="ExtraBold" filename="instance_ufos/NotoSansMono-ExtraBold.ufo">
+    <instance name="Noto Sans Mono ExtraBold" familyname="Noto Sans Mono" stylename="ExtraBold" filename="instance_ufos/NotoSansMono-ExtraBold.ufo" stylemapfamilyname="Noto Sans Mono ExtraBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>9</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono Black" familyname="NotoSansMono" stylename="Black" filename="instance_ufos/NotoSansMono-Black.ufo">
+    <instance name="Noto Sans Mono Black" familyname="Noto Sans Mono" stylename="Black" filename="instance_ufos/NotoSansMono-Black.ufo" stylemapfamilyname="Noto Sans Mono Black" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>10</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono SemiCondensed Thin" familyname="NotoSansMono" stylename="SemiCondensed Thin" filename="instance_ufos/NotoSansMono-SemiCondensedThin.ufo">
+    <instance name="Noto Sans Mono SemiCondensed Thin" familyname="Noto Sans Mono" stylename="SemiCondensed Thin" filename="instance_ufos/NotoSansMono-SemiCondensedThin.ufo" stylemapfamilyname="Noto Sans Mono SemiCondensed Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="89"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>2</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono SemiCondensed ExtraLight" familyname="NotoSansMono" stylename="SemiCondensed ExtraLight" filename="instance_ufos/NotoSansMono-SemiCondensedExtraLight.ufo">
+    <instance name="Noto Sans Mono SemiCondensed ExtraLight" familyname="Noto Sans Mono" stylename="SemiCondensed ExtraLight" filename="instance_ufos/NotoSansMono-SemiCondensedExtraLight.ufo" stylemapfamilyname="Noto Sans Mono SemiCondensed ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="39"/>
         <dimension name="Width" xvalue="89"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>3</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono SemiCondensed Light" familyname="NotoSansMono" stylename="SemiCondensed Light" filename="instance_ufos/NotoSansMono-SemiCondensedLight.ufo">
+    <instance name="Noto Sans Mono SemiCondensed Light" familyname="Noto Sans Mono" stylename="SemiCondensed Light" filename="instance_ufos/NotoSansMono-SemiCondensedLight.ufo" stylemapfamilyname="Noto Sans Mono SemiCondensed Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="58"/>
         <dimension name="Width" xvalue="89"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>4</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono SemiCondensed" familyname="NotoSansMono" stylename="SemiCondensed" filename="instance_ufos/NotoSansMono-SemiCondensed.ufo">
+    <instance name="Noto Sans Mono SemiCondensed" familyname="Noto Sans Mono" stylename="SemiCondensed" filename="instance_ufos/NotoSansMono-SemiCondensed.ufo" stylemapfamilyname="Noto Sans Mono SemiCondensed" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="89"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono SemiCondensed Medium" familyname="NotoSansMono" stylename="SemiCondensed Medium" filename="instance_ufos/NotoSansMono-SemiCondensedMedium.ufo">
+    <instance name="Noto Sans Mono SemiCondensed Medium" familyname="Noto Sans Mono" stylename="SemiCondensed Medium" filename="instance_ufos/NotoSansMono-SemiCondensedMedium.ufo" stylemapfamilyname="Noto Sans Mono SemiCondensed Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="108"/>
         <dimension name="Width" xvalue="89"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono SemiCondensed SemiBold" familyname="NotoSansMono" stylename="SemiCondensed SemiBold" filename="instance_ufos/NotoSansMono-SemiCondensedSemiBold.ufo">
+    <instance name="Noto Sans Mono SemiCondensed SemiBold" familyname="Noto Sans Mono" stylename="SemiCondensed SemiBold" filename="instance_ufos/NotoSansMono-SemiCondensedSemiBold.ufo" stylemapfamilyname="Noto Sans Mono SemiCondensed SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="128"/>
         <dimension name="Width" xvalue="89"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>7</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono SemiCondensed Bold" familyname="NotoSansMono" stylename="SemiCondensed Bold" filename="instance_ufos/NotoSansMono-SemiCondensedBold.ufo">
+    <instance name="Noto Sans Mono SemiCondensed Bold" familyname="Noto Sans Mono" stylename="SemiCondensed Bold" filename="instance_ufos/NotoSansMono-SemiCondensedBold.ufo" stylemapfamilyname="Noto Sans Mono SemiCondensed" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="89"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>8</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono SemiCondensed ExtraBold" familyname="NotoSansMono" stylename="SemiCondensed ExtraBold" filename="instance_ufos/NotoSansMono-SemiCondensedExtraBold.ufo">
+    <instance name="Noto Sans Mono SemiCondensed ExtraBold" familyname="Noto Sans Mono" stylename="SemiCondensed ExtraBold" filename="instance_ufos/NotoSansMono-SemiCondensedExtraBold.ufo" stylemapfamilyname="Noto Sans Mono SemiCondensed ExtraBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="89"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>9</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono SemiCondensed Black" familyname="NotoSansMono" stylename="SemiCondensed Black" filename="instance_ufos/NotoSansMono-SemiCondensedBlack.ufo">
+    <instance name="Noto Sans Mono SemiCondensed Black" familyname="Noto Sans Mono" stylename="SemiCondensed Black" filename="instance_ufos/NotoSansMono-SemiCondensedBlack.ufo" stylemapfamilyname="Noto Sans Mono SemiCondensed Black" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="89"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>10</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono Condensed Thin" familyname="NotoSansMono" stylename="Condensed Thin" filename="instance_ufos/NotoSansMono-CondensedThin.ufo">
+    <instance name="Noto Sans Mono Condensed Thin" familyname="Noto Sans Mono" stylename="Condensed Thin" filename="instance_ufos/NotoSansMono-CondensedThin.ufo" stylemapfamilyname="Noto Sans Mono Condensed Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="79"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>2</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono Condensed ExtraLight" familyname="NotoSansMono" stylename="Condensed ExtraLight" filename="instance_ufos/NotoSansMono-CondensedExtraLight.ufo">
+    <instance name="Noto Sans Mono Condensed ExtraLight" familyname="Noto Sans Mono" stylename="Condensed ExtraLight" filename="instance_ufos/NotoSansMono-CondensedExtraLight.ufo" stylemapfamilyname="Noto Sans Mono Condensed ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="39"/>
         <dimension name="Width" xvalue="79"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>3</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono Condensed Light" familyname="NotoSansMono" stylename="Condensed Light" filename="instance_ufos/NotoSansMono-CondensedLight.ufo">
+    <instance name="Noto Sans Mono Condensed Light" familyname="Noto Sans Mono" stylename="Condensed Light" filename="instance_ufos/NotoSansMono-CondensedLight.ufo" stylemapfamilyname="Noto Sans Mono Condensed Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="58"/>
         <dimension name="Width" xvalue="79"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>4</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono Condensed" familyname="NotoSansMono" stylename="Condensed" filename="instance_ufos/NotoSansMono-Condensed.ufo">
+    <instance name="Noto Sans Mono Condensed" familyname="Noto Sans Mono" stylename="Condensed" filename="instance_ufos/NotoSansMono-Condensed.ufo" stylemapfamilyname="Noto Sans Mono Condensed" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="79"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono Condensed Medium" familyname="NotoSansMono" stylename="Condensed Medium" filename="instance_ufos/NotoSansMono-CondensedMedium.ufo">
+    <instance name="Noto Sans Mono Condensed Medium" familyname="Noto Sans Mono" stylename="Condensed Medium" filename="instance_ufos/NotoSansMono-CondensedMedium.ufo" stylemapfamilyname="Noto Sans Mono Condensed Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="108"/>
         <dimension name="Width" xvalue="79"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono Condensed SemiBold" familyname="NotoSansMono" stylename="Condensed SemiBold" filename="instance_ufos/NotoSansMono-CondensedSemiBold.ufo">
+    <instance name="Noto Sans Mono Condensed SemiBold" familyname="Noto Sans Mono" stylename="Condensed SemiBold" filename="instance_ufos/NotoSansMono-CondensedSemiBold.ufo" stylemapfamilyname="Noto Sans Mono Condensed SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="128"/>
         <dimension name="Width" xvalue="79"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>7</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono Condensed Bold" familyname="NotoSansMono" stylename="Condensed Bold" filename="instance_ufos/NotoSansMono-CondensedBold.ufo">
+    <instance name="Noto Sans Mono Condensed Bold" familyname="Noto Sans Mono" stylename="Condensed Bold" filename="instance_ufos/NotoSansMono-CondensedBold.ufo" stylemapfamilyname="Noto Sans Mono Condensed" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="79"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>8</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono Condensed ExtraBold" familyname="NotoSansMono" stylename="Condensed ExtraBold" filename="instance_ufos/NotoSansMono-CondensedExtraBold.ufo">
+    <instance name="Noto Sans Mono Condensed ExtraBold" familyname="Noto Sans Mono" stylename="Condensed ExtraBold" filename="instance_ufos/NotoSansMono-CondensedExtraBold.ufo" stylemapfamilyname="Noto Sans Mono Condensed ExtraBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="79"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>9</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono Condensed Black" familyname="NotoSansMono" stylename="Condensed Black" filename="instance_ufos/NotoSansMono-CondensedBlack.ufo">
+    <instance name="Noto Sans Mono Condensed Black" familyname="Noto Sans Mono" stylename="Condensed Black" filename="instance_ufos/NotoSansMono-CondensedBlack.ufo" stylemapfamilyname="Noto Sans Mono Condensed Black" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="79"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>10</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono ExtraCondensed Thin" familyname="NotoSansMono" stylename="ExtraCondensed Thin" filename="instance_ufos/NotoSansMono-ExtraCondensedThin.ufo">
+    <instance name="Noto Sans Mono ExtraCondensed Thin" familyname="Noto Sans Mono" stylename="ExtraCondensed Thin" filename="instance_ufos/NotoSansMono-ExtraCondensedThin.ufo" stylemapfamilyname="Noto Sans Mono ExtraCondensed Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="70"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>2</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono ExtraCondensed ExtraLight" familyname="NotoSansMono" stylename="ExtraCondensed ExtraLight" filename="instance_ufos/NotoSansMono-ExtraCondensedExtraLight.ufo">
+    <instance name="Noto Sans Mono ExtraCondensed ExtraLight" familyname="Noto Sans Mono" stylename="ExtraCondensed ExtraLight" filename="instance_ufos/NotoSansMono-ExtraCondensedExtraLight.ufo" stylemapfamilyname="Noto Sans Mono ExtraCondensed ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="39"/>
         <dimension name="Width" xvalue="70"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>3</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono ExtraCondensed Light" familyname="NotoSansMono" stylename="ExtraCondensed Light" filename="instance_ufos/NotoSansMono-ExtraCondensedLight.ufo">
+    <instance name="Noto Sans Mono ExtraCondensed Light" familyname="Noto Sans Mono" stylename="ExtraCondensed Light" filename="instance_ufos/NotoSansMono-ExtraCondensedLight.ufo" stylemapfamilyname="Noto Sans Mono ExtraCondensed Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="58"/>
         <dimension name="Width" xvalue="70"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>4</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono ExtraCondensed" familyname="NotoSansMono" stylename="ExtraCondensed" filename="instance_ufos/NotoSansMono-ExtraCondensed.ufo">
+    <instance name="Noto Sans Mono ExtraCondensed" familyname="Noto Sans Mono" stylename="ExtraCondensed" filename="instance_ufos/NotoSansMono-ExtraCondensed.ufo" stylemapfamilyname="Noto Sans Mono ExtraCondensed" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="70"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono ExtraCondensed Medium" familyname="NotoSansMono" stylename="ExtraCondensed Medium" filename="instance_ufos/NotoSansMono-ExtraCondensedMedium.ufo">
+    <instance name="Noto Sans Mono ExtraCondensed Medium" familyname="Noto Sans Mono" stylename="ExtraCondensed Medium" filename="instance_ufos/NotoSansMono-ExtraCondensedMedium.ufo" stylemapfamilyname="Noto Sans Mono ExtraCondensed Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="108"/>
         <dimension name="Width" xvalue="70"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono ExtraCondensed SemiBold" familyname="NotoSansMono" stylename="ExtraCondensed SemiBold" filename="instance_ufos/NotoSansMono-ExtraCondensedSemiBold.ufo">
+    <instance name="Noto Sans Mono ExtraCondensed SemiBold" familyname="Noto Sans Mono" stylename="ExtraCondensed SemiBold" filename="instance_ufos/NotoSansMono-ExtraCondensedSemiBold.ufo" stylemapfamilyname="Noto Sans Mono ExtraCondensed SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="128"/>
         <dimension name="Width" xvalue="70"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>7</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono ExtraCondensed Bold" familyname="NotoSansMono" stylename="ExtraCondensed Bold" filename="instance_ufos/NotoSansMono-ExtraCondensedBold.ufo">
+    <instance name="Noto Sans Mono ExtraCondensed Bold" familyname="Noto Sans Mono" stylename="ExtraCondensed Bold" filename="instance_ufos/NotoSansMono-ExtraCondensedBold.ufo" stylemapfamilyname="Noto Sans Mono ExtraCondensed" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="70"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>8</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono ExtraCondensed ExtraBold" familyname="NotoSansMono" stylename="ExtraCondensed ExtraBold" filename="instance_ufos/NotoSansMono-ExtraCondensedExtraBold.ufo">
+    <instance name="Noto Sans Mono ExtraCondensed ExtraBold" familyname="Noto Sans Mono" stylename="ExtraCondensed ExtraBold" filename="instance_ufos/NotoSansMono-ExtraCondensedExtraBold.ufo" stylemapfamilyname="Noto Sans Mono ExtraCondensed ExtraBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="70"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>9</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Mono ExtraCondensed Black" familyname="NotoSansMono" stylename="ExtraCondensed Black" filename="instance_ufos/NotoSansMono-ExtraCondensedBlack.ufo">
+    <instance name="Noto Sans Mono ExtraCondensed Black" familyname="Noto Sans Mono" stylename="ExtraCondensed Black" filename="instance_ufos/NotoSansMono-ExtraCondensedBlack.ufo" stylemapfamilyname="Noto Sans Mono ExtraCondensed Black" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="70"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>10</integer>
+                <integer>9</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>typoAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>typoDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>typoLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>winAscent</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>winDescent</string>
+              <integer>293</integer>
+            </array>
+            <array>
+              <string>hheaAscender</string>
+              <integer>1069</integer>
+            </array>
+            <array>
+              <string>hheaDescender</string>
+              <integer>-293</integer>
+            </array>
+            <array>
+              <string>hheaLineGap</string>
+              <integer>0</integer>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
   </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>963C7F4A-CFE2-43FC-8D10-B7434095D111</key>
+        <dict/>
+        <key>A3018D0F-8B4B-4295-AE04-84912D9BB11D</key>
+        <dict/>
+      </dict>
+    </dict>
+  </lib>
 </designspace>

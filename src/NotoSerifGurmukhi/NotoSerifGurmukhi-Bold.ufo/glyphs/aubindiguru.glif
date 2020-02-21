@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aubindiguru" format="2">
+  <advance width="851"/>
+  <note>
+aubindiguru
+</note>
+  <anchor x="834" y="770" name="top"/>
+  <outline>
+    <component base="aguru"/>
+    <component base="aumatraguru" xOffset="791"/>
+    <component base="bindiguru" xOffset="1027"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/21 14:37:48</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

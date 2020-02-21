@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="marcasite-alchemical" format="2">
+  <advance width="944"/>
+  <unicode hex="1F738"/>
+  <note>
+uni1F738
+</note>
+  <guideline x="-13" y="174" angle="0"/>
+  <guideline x="234" y="657" angle="270"/>
+  <guideline x="234" y="610" angle="315"/>
+  <guideline x="234" y="468" angle="315"/>
+  <outline>
+    <contour>
+      <point x="874" y="600" type="move"/>
+      <point x="349" y="68" type="line"/>
+      <point x="369" y="49" type="line"/>
+      <point x="894" y="580" type="line"/>
+      <point x="534" y="481" type="line"/>
+      <point x="626" y="846" type="line"/>
+      <point x="96" y="296" type="line"/>
+      <point x="252" y="350" type="line"/>
+      <point x="512" y="620" type="line"/>
+      <point x="502" y="625" type="line"/>
+      <point x="447" y="393" type="line"/>
+      <point x="690" y="461" type="line"/>
+      <point x="830" y="553" type="line"/>
+    </contour>
+    <contour>
+      <point x="234" y="-10" type="curve" smooth="yes"/>
+      <point x="335" y="-10"/>
+      <point x="417" y="73"/>
+      <point x="417" y="174" type="curve" smooth="yes"/>
+      <point x="417" y="275"/>
+      <point x="335" y="358"/>
+      <point x="234" y="358" type="curve" smooth="yes"/>
+      <point x="132" y="358"/>
+      <point x="50" y="275"/>
+      <point x="50" y="174" type="curve" smooth="yes"/>
+      <point x="50" y="73"/>
+      <point x="132" y="-10"/>
+    </contour>
+    <contour>
+      <point x="234" y="18" type="curve" smooth="yes"/>
+      <point x="147" y="18"/>
+      <point x="77" y="88"/>
+      <point x="77" y="174" type="curve" smooth="yes"/>
+      <point x="77" y="260"/>
+      <point x="147" y="331"/>
+      <point x="234" y="331" type="curve" smooth="yes"/>
+      <point x="320" y="331"/>
+      <point x="390" y="260"/>
+      <point x="390" y="174" type="curve" smooth="yes"/>
+      <point x="390" y="88"/>
+      <point x="320" y="18"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/03/23 19:34:49</string>
+    </dict>
+  </lib>
+</glyph>

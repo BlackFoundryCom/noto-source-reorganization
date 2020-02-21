@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sha_ca-oriya" format="2">
+  <advance width="661"/>
+  <note>
+shacaorya
+</note>
+  <guideline x="595" y="177" angle="90"/>
+  <guideline x="655" y="173" angle="90"/>
+  <anchor x="522" y="203" name="bottom"/>
+  <anchor x="306" y="751" name="top"/>
+  <anchor x="522" y="751" name="topright"/>
+  <outline>
+    <component base="ca-oriya.below" xOffset="320"/>
+    <component base="sha-oriya.base"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>sha-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ca-oriya.below</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/06 18:24:06</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFDA9" format="2">
+  <advance width="2130"/>
+  <unicode hex="FDA9"/>
+  <anchor x="1839" y="83" name="bottom_1"/>
+  <anchor x="1005" y="83" name="bottom_2"/>
+  <anchor x="25" y="-110" name="bottom_3"/>
+  <anchor x="1759" y="541" name="top_1"/>
+  <anchor x="1010" y="524" name="top_2"/>
+  <anchor x="335" y="291" name="top_3"/>
+  <outline>
+    <component base="uniFEBC" xOffset="1353"/>
+    <component base="uniFEA4" xOffset="687"/>
+    <component base="uniFEF0"/>
+    <component base="uniFBB5" xOffset="320" yOffset="-208"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 16:30:53</string>
+    </dict>
+  </lib>
+</glyph>

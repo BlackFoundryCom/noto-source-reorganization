@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cacamlym" format="2">
+  <advance width="884"/>
+  <outline>
+    <contour>
+      <point x="369" y="-274" type="line"/>
+      <point x="806" y="-274" type="line"/>
+      <point x="806" y="13" type="line"/>
+      <point x="779" y="13" type="line"/>
+      <point x="779" y="-255" type="line"/>
+      <point x="786" y="-249" type="line"/>
+      <point x="501" y="-249" type="line" smooth="yes"/>
+      <point x="467" y="-249"/>
+      <point x="412" y="-250"/>
+      <point x="378" y="-252" type="curve"/>
+      <point x="379" y="-255" type="line"/>
+      <point x="413" y="-237"/>
+      <point x="456" y="-209"/>
+      <point x="485" y="-190" type="curve" smooth="yes"/>
+      <point x="792" y="13" type="line"/>
+      <point x="757" y="13" type="line"/>
+      <point x="727" y="-3"/>
+      <point x="700" y="-18"/>
+      <point x="669" y="-38" type="curve" smooth="yes"/>
+      <point x="352" y="-247" type="line"/>
+    </contour>
+    <component base="camlym"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>camlym</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>camlym</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/05 08:30:18</string>
+    </dict>
+  </lib>
+</glyph>

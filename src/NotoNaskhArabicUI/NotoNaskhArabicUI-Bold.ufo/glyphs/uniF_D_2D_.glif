@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFD2D" format="2">
+  <advance width="1357"/>
+  <unicode hex="FD2D"/>
+  <anchor x="1018" y="74" name="bottom_1"/>
+  <anchor x="334" y="-42" name="bottom_2"/>
+  <anchor x="657" y="144" name="caret_1"/>
+  <anchor x="989" y="702" name="top_1"/>
+  <anchor x="287" y="565" name="top_2"/>
+  <outline>
+    <component base="uniFEB3" xOffset="657"/>
+    <component base="uniFBB6" xOffset="761" yOffset="-55"/>
+    <component base="uniFEA4"/>
+    <component base="uniFBB3" xOffset="150" yOffset="54"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 16:24:15</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

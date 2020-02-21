@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sha-ethiopic" format="2">
+  <advance width="585"/>
+  <unicode hex="1238"/>
+  <note>
+uni1238
+</note>
+  <anchor x="294" y="794" name="top"/>
+  <outline>
+    <contour>
+      <point x="280" y="591" type="line"/>
+      <point x="308" y="591" type="line"/>
+      <point x="308" y="751" type="line"/>
+      <point x="280" y="751" type="line"/>
+    </contour>
+    <component base="shortnarch" xOffset="-8"/>
+    <component base="bonemiddle" xOffset="44" yOffset="-12"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/06/27 13:53:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

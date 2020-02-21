@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tavdagesh-hb" format="2">
+  <advance width="506"/>
+  <unicode hex="FB4A"/>
+  <anchor x="278" y="0" name="bottom"/>
+  <anchor x="36" y="0" name="bottomleft"/>
+  <anchor x="278" y="300" name="center"/>
+  <anchor x="278" y="536" name="top"/>
+  <anchor x="40" y="536" name="topleft"/>
+  <outline>
+    <component base="tav-hb"/>
+    <component base="dagesh-hb" xOffset="196"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/07 18:36:03</string>
+    </dict>
+  </lib>
+</glyph>

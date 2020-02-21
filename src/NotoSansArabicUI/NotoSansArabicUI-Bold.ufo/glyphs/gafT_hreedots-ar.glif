@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gafThreedots-ar" format="2">
+  <advance width="992"/>
+  <unicode hex="06B4"/>
+  <anchor x="474" y="-21" name="bottom"/>
+  <anchor x="521.7" y="1052.8" name="top"/>
+  <outline>
+    <component base="gaf-ar"/>
+    <component base="threedotsupabove-ar.v2" xScale="0.7" yScale="0.7" xOffset="416" yOffset="427"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:36</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="allah-ar" format="2">
+  <advance width="1470"/>
+  <unicode hex="FDF2"/>
+  <anchor x="0" y="0" name="caret_1"/>
+  <anchor x="-322" y="0" name="caret_2"/>
+  <anchor x="1102.5" y="0" name="caret_3"/>
+  <outline>
+    <component base="allah-ar.pt1"/>
+    <component base="allah-ar.pt2" xOffset="541" yOffset="59"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=heh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=alef-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:42</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

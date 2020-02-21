@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="autelu" format="2">
+  <advance width="684"/>
+  <unicode hex="0C14"/>
+  <outline>
+    <contour>
+      <point x="110" y="605" type="line"/>
+      <point x="193" y="605" type="line" smooth="yes"/>
+      <point x="240" y="605"/>
+      <point x="284" y="598"/>
+      <point x="284" y="551" type="curve" smooth="yes"/>
+      <point x="284" y="507"/>
+      <point x="246" y="500"/>
+      <point x="186" y="500" type="curve" smooth="yes"/>
+      <point x="130" y="500" type="line"/>
+      <point x="130" y="455" type="line"/>
+      <point x="186" y="455" type="line" smooth="yes"/>
+      <point x="282" y="455"/>
+      <point x="341" y="484"/>
+      <point x="341" y="551" type="curve" smooth="yes"/>
+      <point x="341" y="619"/>
+      <point x="261" y="642"/>
+      <point x="158" y="642" type="curve" smooth="yes"/>
+      <point x="117" y="642" type="line"/>
+    </contour>
+    <contour>
+      <point x="467" y="679" type="curve" smooth="yes"/>
+      <point x="51" y="679" type="line"/>
+      <point x="44" y="605" type="line"/>
+      <point x="454" y="605" type="line"/>
+      <point x="453" y="623" type="line"/>
+      <point x="435" y="604"/>
+      <point x="426" y="573"/>
+      <point x="426" y="550" type="curve" smooth="yes"/>
+      <point x="426" y="481"/>
+      <point x="472" y="439"/>
+      <point x="543" y="439" type="curve" smooth="yes"/>
+      <point x="617" y="439"/>
+      <point x="662" y="485"/>
+      <point x="662" y="556" type="curve" smooth="yes"/>
+      <point x="662" y="595"/>
+      <point x="644" y="629"/>
+      <point x="613" y="650" type="curve" smooth="yes"/>
+      <point x="581" y="671"/>
+      <point x="543" y="679"/>
+    </contour>
+    <contour>
+      <point x="544" y="482" type="curve" smooth="yes"/>
+      <point x="511" y="482"/>
+      <point x="481" y="496"/>
+      <point x="481" y="547" type="curve" smooth="yes"/>
+      <point x="481" y="589"/>
+      <point x="509" y="610"/>
+      <point x="540" y="610" type="curve" smooth="yes"/>
+      <point x="579" y="610"/>
+      <point x="603" y="587"/>
+      <point x="603" y="547" type="curve" smooth="yes"/>
+      <point x="603" y="503"/>
+      <point x="577" y="482"/>
+    </contour>
+    <component base="otelu"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>otelu</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/15 11:28:14</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

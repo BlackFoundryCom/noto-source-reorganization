@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bharasubscriptaltknda" format="2">
+  <advance width="480"/>
+  <outline>
+    <contour>
+      <point x="230" y="-495" type="curve" smooth="yes"/>
+      <point x="395" y="-495"/>
+      <point x="488" y="-416"/>
+      <point x="488" y="-240" type="curve" smooth="yes"/>
+      <point x="488" y="-181"/>
+      <point x="474" y="-130"/>
+      <point x="455" y="-80" type="curve"/>
+      <point x="430" y="-89" type="line"/>
+      <point x="449" y="-136"/>
+      <point x="462" y="-183"/>
+      <point x="462" y="-240" type="curve" smooth="yes"/>
+      <point x="462" y="-399"/>
+      <point x="385" y="-469"/>
+      <point x="231" y="-469" type="curve" smooth="yes"/>
+      <point x="225" y="-469"/>
+      <point x="213" y="-469"/>
+      <point x="206" y="-468" type="curve"/>
+      <point x="205" y="-494" type="line"/>
+      <point x="212" y="-495"/>
+      <point x="223" y="-495"/>
+    </contour>
+    <component base="bhasubscriptknda" xOffset="277"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/06/15 09:18:13</string>
+    </dict>
+  </lib>
+</glyph>

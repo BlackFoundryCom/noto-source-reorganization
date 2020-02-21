@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="thaprehalfmlym" format="2">
+  <advance width="797"/>
+  <outline>
+    <contour>
+      <point x="206" y="569" type="line"/>
+      <point x="48" y="569" type="line"/>
+      <point x="48" y="0" type="line"/>
+      <point x="328" y="0" type="line"/>
+      <point x="328" y="122" type="line"/>
+      <point x="206" y="122" type="line"/>
+    </contour>
+    <component base="thapart" xOffset="-1"/>
+    <component base="viramamlym" xOffset="797"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/04 15:18:11</string>
+    </dict>
+  </lib>
+</glyph>

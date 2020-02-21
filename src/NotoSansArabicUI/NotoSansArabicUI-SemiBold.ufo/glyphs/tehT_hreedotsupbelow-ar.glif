@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tehThreedotsupbelow-ar" format="2">
+  <advance width="1024"/>
+  <unicode hex="0753"/>
+  <anchor x="497" y="-266" name="bottom"/>
+  <anchor x="504" y="-21" name="center"/>
+  <anchor x="501" y="577" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar"/>
+    <component base="threedotsdownbelow-ar.restricted" xOffset="352" yOffset="-25"/>
+    <component base="twodotshorizontalabove-ar" xOffset="318" yOffset="-106"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:34</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

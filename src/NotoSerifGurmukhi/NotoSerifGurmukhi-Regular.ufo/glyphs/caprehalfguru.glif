@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caprehalfguru" format="2">
+  <advance width="613"/>
+  <note>
+caprehalfguru
+</note>
+  <anchor x="513" y="-17" name="bottom"/>
+  <anchor x="472" y="622" name="top"/>
+  <outline>
+    <component base="caguru"/>
+    <component base="halantguru" xOffset="563" yOffset="-12"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/21 14:37:48</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

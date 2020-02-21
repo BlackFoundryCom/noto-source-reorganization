@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ddhi_gran" format="2">
+  <advance width="1338"/>
+  <note>
+DHi
+</note>
+  <outline>
+    <contour>
+      <point x="1197" y="0" type="line"/>
+      <point x="1258" y="0" type="line"/>
+      <point x="1258" y="615" type="line" smooth="yes"/>
+      <point x="1258" y="781"/>
+      <point x="1093" y="879"/>
+      <point x="904" y="879" type="curve" smooth="yes"/>
+      <point x="711" y="879"/>
+      <point x="596" y="799"/>
+      <point x="596" y="686" type="curve" smooth="yes"/>
+      <point x="596" y="602"/>
+      <point x="664" y="545"/>
+      <point x="746" y="545" type="curve" smooth="yes"/>
+      <point x="751" y="545" type="line"/>
+      <point x="751" y="599" type="line"/>
+      <point x="746" y="599" type="line" smooth="yes"/>
+      <point x="696" y="599"/>
+      <point x="661" y="632"/>
+      <point x="661" y="680" type="curve" smooth="yes"/>
+      <point x="661" y="754"/>
+      <point x="750" y="791"/>
+      <point x="890" y="791" type="curve" smooth="yes"/>
+      <point x="1068" y="791"/>
+      <point x="1197" y="723"/>
+      <point x="1197" y="585" type="curve" smooth="yes"/>
+    </contour>
+    <component base="ddha_gran"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>da_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ki_gran</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/11 14:29:51</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

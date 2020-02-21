@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="400" default="400">
+      <map input="400" output="90"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="NotoSerifGrantha-Regular.ufo" name="Noto Serif Grantha Regular" familyname="Noto Serif Grantha" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Serif Grantha Regular" familyname="Noto Serif Grantha" stylename="Regular" filename="instance_ufos/NotoSerifGrantha-Regular.ufo" stylemapfamilyname="Noto Serif Grantha" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+</designspace>

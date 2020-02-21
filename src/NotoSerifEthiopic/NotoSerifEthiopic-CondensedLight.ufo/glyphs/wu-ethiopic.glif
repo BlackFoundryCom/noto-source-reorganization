@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wu-ethiopic" format="2">
+  <advance width="626"/>
+  <unicode hex="12C9"/>
+  <note>
+uni12C9
+</note>
+  <anchor x="323" y="714" name="top"/>
+  <outline>
+    <contour>
+      <point x="286" y="213" type="line"/>
+      <point x="478" y="213" type="line"/>
+      <point x="478" y="238" type="line"/>
+      <point x="286" y="238" type="line"/>
+    </contour>
+    <component base="wa-ethiopic"/>
+    <component base="rightdoubleflag" xOffset="433" yOffset="213"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ma-ethiopic</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>rightsingleflag</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/06/27 13:53:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

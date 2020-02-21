@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="she-ethiopic" format="2">
+  <advance width="667"/>
+  <unicode hex="123D"/>
+  <note>
+uni123D
+</note>
+  <anchor x="318" y="841" name="top"/>
+  <outline>
+    <component base="se-ethiopic" xOffset="14"/>
+    <component base="bonemiddle" xOffset="15" yOffset="15"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=sha-ethiopic-30</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>sha-ethiopic</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/06/27 13:53:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

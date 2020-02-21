@@ -1,10 +1,16 @@
 import os
-from Lib.findThings import getTxtFile
 
 """ ^
   //!\\   WIP
  =======
 """
+
+def getTxtFile(directory, GTXT):
+	repo = "../src/" + directory + "/"
+	cwd = os.getcwd()
+	rdir = os.path.abspath(repo)
+	GTXTpath = [rdir + "/" + i for i in os.listdir(rdir) if i[-8:] == GTXT + ".txt"]
+	return GTXTpath, rdir
 
 def getGTXT(familyPath, GTXT):
 	G___TXT, rdir = getTxtFile(familyPath, GTXT)

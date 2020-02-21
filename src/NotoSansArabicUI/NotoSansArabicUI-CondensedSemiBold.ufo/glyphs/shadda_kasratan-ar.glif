@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shadda_kasratan-ar" format="2">
+  <unicode hex="FC5F"/>
+  <anchor x="185" y="458" name="_top"/>
+  <anchor x="187" y="1014" name="top"/>
+  <outline>
+    <component base="fathatan-ar" xOffset="19"/>
+    <component base="shadda-ar" xOffset="8" yOffset="250"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=fathatan-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=fathatan-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:42</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>334</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

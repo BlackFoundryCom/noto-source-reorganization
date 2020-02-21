@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jaivoweltelu" format="2">
+  <advance width="731"/>
+  <outline>
+    <contour>
+      <point x="213" y="-61" type="curve" smooth="yes"/>
+      <point x="133" y="-61"/>
+      <point x="79" y="-109"/>
+      <point x="79" y="-181" type="curve" smooth="yes"/>
+      <point x="79" y="-230"/>
+      <point x="97" y="-261"/>
+      <point x="125" y="-282" type="curve" smooth="yes"/>
+      <point x="160" y="-309"/>
+      <point x="209" y="-318"/>
+      <point x="294" y="-318" type="curve" smooth="yes"/>
+      <point x="651" y="-318" type="line"/>
+      <point x="651" y="-243" type="line"/>
+      <point x="245" y="-243" type="line" smooth="yes"/>
+      <point x="183" y="-243"/>
+      <point x="148" y="-227"/>
+      <point x="148" y="-180" type="curve" smooth="yes"/>
+      <point x="148" y="-151"/>
+      <point x="168" y="-127"/>
+      <point x="209" y="-127" type="curve" smooth="yes"/>
+      <point x="250" y="-127"/>
+      <point x="273" y="-150"/>
+      <point x="273" y="-184" type="curve" smooth="yes"/>
+      <point x="273" y="-212"/>
+      <point x="260" y="-239"/>
+      <point x="226" y="-267" type="curve"/>
+      <point x="310" y="-261" type="line"/>
+      <point x="329" y="-235"/>
+      <point x="342" y="-210"/>
+      <point x="342" y="-173" type="curve" smooth="yes"/>
+      <point x="342" y="-121"/>
+      <point x="305" y="-61"/>
+    </contour>
+    <component base="jaalttelu"/>
+    <component base="evowelsigntelu" xOffset="713"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/04/23 08:31:33</string>
+    </dict>
+  </lib>
+</glyph>

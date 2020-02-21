@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="di-ethiopic" format="2">
+  <advance width="787"/>
+  <unicode hex="12F2"/>
+  <note>
+uni12F2
+</note>
+  <anchor x="388" y="726" name="top"/>
+  <outline>
+    <component base="leftsingleflag" xOffset="-10" yOffset="-118"/>
+    <component base="rightdoubleflag" xOffset="549"/>
+    <component base="whatnotflat" xOffset="118"/>
+    <component base="upperloop" xOffset="-2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=leftsingleflag-10</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>rightdoubleflag</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/06/27 13:53:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

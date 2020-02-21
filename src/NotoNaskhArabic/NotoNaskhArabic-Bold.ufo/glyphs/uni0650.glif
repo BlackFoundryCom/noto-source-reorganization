@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0650" format="2">
+  <unicode hex="0650"/>
+  <anchor x="70" y="3" name="_bottom"/>
+  <anchor x="70" y="3" name="_bottom2"/>
+  <anchor x="70" y="3" name="_bottom3"/>
+  <anchor x="86" y="-99" name="bottom3"/>
+  <outline>
+    <contour>
+      <point x="-11" y="-100" type="line"/>
+      <point x="58" y="-79"/>
+      <point x="111" y="-60"/>
+      <point x="148" y="-42" type="curve" smooth="yes"/>
+      <point x="164" y="-35"/>
+      <point x="171" y="-23"/>
+      <point x="171" y="-6" type="curve"/>
+      <point x="170" y="4" type="line"/>
+      <point x="137" y="-9"/>
+      <point x="78" y="-30"/>
+      <point x="-6" y="-58" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 07:26:31</string>
+    </dict>
+  </lib>
+</glyph>

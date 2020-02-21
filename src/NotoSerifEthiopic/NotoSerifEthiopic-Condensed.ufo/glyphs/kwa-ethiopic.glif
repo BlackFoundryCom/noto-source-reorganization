@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kwa-ethiopic" format="2">
+  <advance width="875"/>
+  <unicode hex="12B0"/>
+  <note>
+uni12B0
+</note>
+  <anchor x="451" y="768" name="top"/>
+  <outline>
+    <component base="ka-ethiopic"/>
+    <component base="rightbulb" xOffset="469" yOffset="21"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ka-ethiopic</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=ballsmall-10</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/06/27 13:53:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

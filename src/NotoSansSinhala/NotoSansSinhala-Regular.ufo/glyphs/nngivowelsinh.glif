@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nngivowelsinh" format="2">
+  <advance width="1065"/>
+  <outline>
+    <contour>
+      <point x="620" y="876" type="curve" smooth="yes"/>
+      <point x="407" y="876"/>
+      <point x="339" y="788"/>
+      <point x="339" y="694" type="curve" smooth="yes"/>
+      <point x="339" y="665"/>
+      <point x="345" y="643"/>
+      <point x="350" y="630" type="curve"/>
+      <point x="420" y="636" type="line"/>
+      <point x="416" y="649"/>
+      <point x="411" y="668"/>
+      <point x="411" y="692" type="curve" smooth="yes"/>
+      <point x="411" y="754"/>
+      <point x="457" y="806"/>
+      <point x="620" y="806" type="curve" smooth="yes"/>
+      <point x="781" y="806"/>
+      <point x="827" y="754"/>
+      <point x="827" y="693" type="curve" smooth="yes"/>
+      <point x="827" y="663"/>
+      <point x="822" y="647"/>
+      <point x="816" y="630" type="curve"/>
+      <point x="885" y="618" type="line"/>
+      <point x="892" y="635"/>
+      <point x="899" y="663"/>
+      <point x="899" y="696" type="curve" smooth="yes"/>
+      <point x="899" y="788"/>
+      <point x="833" y="876"/>
+    </contour>
+    <component base="nngasinh"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/06/01 09:09:06</string>
+    </dict>
+  </lib>
+</glyph>

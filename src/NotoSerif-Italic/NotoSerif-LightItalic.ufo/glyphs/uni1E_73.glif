@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1E73" format="2">
-  <advance width="504"/>
+  <advance width="506"/>
   <unicode hex="1E73"/>
   <anchor x="165" y="-148" name="bottom"/>
   <anchor x="310" y="536" name="top"/>
   <anchor x="543" y="536" name="topright"/>
   <outline>
     <component base="u"/>
-    <component base="dieresis" xOffset="-179" yOffset="-806"/>
+    <component base="dieresisbelowcomb" xOffset="260"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/11/15 23:22:33</string>
+      <string>2019/09/27 18:17:35</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

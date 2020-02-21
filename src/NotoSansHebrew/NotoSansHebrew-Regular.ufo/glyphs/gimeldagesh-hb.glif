@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gimeldagesh-hb" format="2">
+  <advance width="347"/>
+  <unicode hex="FB32"/>
+  <anchor x="176" y="0" name="bottom"/>
+  <anchor x="15" y="0" name="bottomleft"/>
+  <anchor x="116" y="342" name="center"/>
+  <anchor x="175" y="536" name="top"/>
+  <anchor x="53" y="536" name="topleft"/>
+  <outline>
+    <component base="gimel-hb"/>
+    <component base="dagesh-hb" xOffset="32" yOffset="42"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/07 18:36:03</string>
+    </dict>
+  </lib>
+</glyph>

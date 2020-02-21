@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotaccentcomb.sc" format="2">
+  <advance width="229"/>
   <anchor x="229" y="530" name="_top"/>
   <anchor x="270" y="790" name="top"/>
   <outline>
@@ -20,10 +21,14 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
       <string>2017/12/06 15:55:27</string>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>229</integer>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
     </dict>
   </lib>
 </glyph>

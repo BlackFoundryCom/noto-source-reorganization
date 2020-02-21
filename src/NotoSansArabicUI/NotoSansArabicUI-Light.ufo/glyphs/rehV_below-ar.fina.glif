@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehVbelow-ar.fina" format="2">
+  <advance width="422"/>
+  <anchor x="79.0" y="-34.20000000000002" name="bottom"/>
+  <anchor x="170" y="351" name="top"/>
+  <outline>
+    <component base="reh-ar.fina"/>
+    <component base="_vbelow-ar" xScale="0.8" yScale="0.8" xOffset="-5" yOffset="113"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>reh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:35</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

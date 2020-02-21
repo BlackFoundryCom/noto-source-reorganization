@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="divide.deva" format="2">
+  <advance width="570"/>
+  <unicode hex="00F7"/>
+  <outline>
+    <contour>
+      <point x="53" y="376" type="line"/>
+      <point x="53" y="270" type="line"/>
+      <point x="518" y="270" type="line"/>
+      <point x="518" y="376" type="line"/>
+    </contour>
+    <contour>
+      <point x="285" y="79" type="curve" smooth="yes"/>
+      <point x="321" y="79"/>
+      <point x="353" y="100"/>
+      <point x="353" y="153" type="curve" smooth="yes"/>
+      <point x="353" y="208"/>
+      <point x="321" y="227"/>
+      <point x="285" y="227" type="curve" smooth="yes"/>
+      <point x="248" y="227"/>
+      <point x="217" y="208"/>
+      <point x="217" y="153" type="curve" smooth="yes"/>
+      <point x="217" y="100"/>
+      <point x="248" y="79"/>
+    </contour>
+    <contour>
+      <point x="285" y="420" type="curve" smooth="yes"/>
+      <point x="321" y="420"/>
+      <point x="353" y="441"/>
+      <point x="353" y="494" type="curve" smooth="yes"/>
+      <point x="353" y="548"/>
+      <point x="321" y="568"/>
+      <point x="285" y="568" type="curve" smooth="yes"/>
+      <point x="248" y="568"/>
+      <point x="217" y="548"/>
+      <point x="217" y="494" type="curve" smooth="yes"/>
+      <point x="217" y="441"/>
+      <point x="248" y="420"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/04/14 12:18:31</string>
+    </dict>
+  </lib>
+</glyph>

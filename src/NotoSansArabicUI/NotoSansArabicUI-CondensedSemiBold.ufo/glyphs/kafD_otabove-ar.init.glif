@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kafDotabove-ar.init" format="2">
+  <advance width="388"/>
+  <anchor x="172" y="0" name="bottom"/>
+  <anchor x="146" y="813" name="top"/>
+  <outline>
+    <component base="kaf-ar.init"/>
+    <component base="dotabove-ar" xOffset="56" yOffset="191"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:37</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

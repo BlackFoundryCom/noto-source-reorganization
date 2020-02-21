@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="la_la-oriya" format="2">
+  <advance width="538"/>
+  <note>
+lalaorya
+</note>
+  <guideline x="308" y="298" angle="90"/>
+  <guideline x="383" y="177" angle="90"/>
+  <guideline x="443" y="173" angle="90"/>
+  <anchor x="370" y="203" name="bottom"/>
+  <anchor x="256" y="751" name="top"/>
+  <anchor x="461" y="751" name="topright"/>
+  <outline>
+    <component base="la-oriya.base"/>
+    <component base="la-oriya.below" xOffset="147"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>la-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>la-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/06 18:24:06</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

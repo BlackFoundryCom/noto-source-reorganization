@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nyaguru" format="2">
+  <advance width="398"/>
+  <unicode hex="0A1E"/>
+  <outline>
+    <contour>
+      <point x="117" y="432" type="curve"/>
+      <point x="141" y="437" type="line"/>
+      <point x="125" y="489"/>
+      <point x="93" y="558"/>
+      <point x="62" y="613" type="curve"/>
+      <point x="40" y="599" type="line"/>
+      <point x="70" y="549"/>
+      <point x="96" y="493"/>
+    </contour>
+    <component base="vaguru"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/02/21 10:44:12</string>
+    </dict>
+  </lib>
+</glyph>

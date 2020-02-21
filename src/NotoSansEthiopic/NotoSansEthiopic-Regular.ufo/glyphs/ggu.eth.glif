@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ggu.eth" format="2">
+  <advance width="711"/>
+  <unicode hex="1319"/>
+  <note>
+uni1319
+</note>
+  <anchor x="355" y="795" name="top"/>
+  <outline>
+    <component base="gga.eth"/>
+    <component base="rightsingleflag" xOffset="418" yOffset="-79"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>leftsingleflag</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>rightsingleflag</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/08/29 14:43:55</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

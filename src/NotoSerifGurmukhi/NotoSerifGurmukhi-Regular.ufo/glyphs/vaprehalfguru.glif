@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="vaprehalfguru" format="2">
+  <advance width="615"/>
+  <note>
+vaprehalfguru
+</note>
+  <anchor x="526" y="-17" name="bottom"/>
+  <anchor x="483" y="622" name="top"/>
+  <outline>
+    <component base="vaguru"/>
+    <component base="halantguru" xOffset="549" yOffset="-22"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/21 14:37:48</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

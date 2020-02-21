@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFC33" format="2">
+  <advance width="1086"/>
+  <unicode hex="FC33"/>
+  <anchor x="893" y="83" name="bottom_1"/>
+  <anchor x="77" y="-147" name="bottom_2"/>
+  <anchor x="862" y="648" name="top_1"/>
+  <anchor x="342" y="543" name="top_2"/>
+  <outline>
+    <component base="uni066F.init" xOffset="666"/>
+    <component base="uniFBB4" xOffset="647" yOffset="188"/>
+    <component base="uniFEA2"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 08:47:14</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

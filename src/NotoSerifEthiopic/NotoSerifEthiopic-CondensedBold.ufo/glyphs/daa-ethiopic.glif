@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="daa-ethiopic" format="2">
+  <advance width="736"/>
+  <unicode hex="12F3"/>
+  <note>
+uni12F3
+</note>
+  <anchor x="363" y="724" name="top"/>
+  <outline>
+    <component base="leftsingleflag" xOffset="-10" yOffset="-136"/>
+    <component base="whatnot" xOffset="217"/>
+    <component base="upperloop" xOffset="98"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=leftsingleflag-10</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>rightsingleflag</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/06/27 13:53:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="behThreedotsupabove-ar" format="2">
+  <advance width="993"/>
+  <unicode hex="0751"/>
+  <anchor x="486" y="-211" name="bottom"/>
+  <anchor x="484" y="-21" name="center"/>
+  <anchor x="489" y="610" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar"/>
+    <component base="dotbelow-ar" xOffset="410" yOffset="-23"/>
+    <component base="threedotsupabove-ar" xOffset="344" yOffset="-165"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:34</string>
+    </dict>
+  </lib>
+</glyph>

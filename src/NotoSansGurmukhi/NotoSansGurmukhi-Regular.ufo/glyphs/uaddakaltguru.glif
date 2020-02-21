@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uaddakaltguru" format="2">
+  <advance width="734"/>
+  <outline>
+    <contour>
+      <point x="741" y="551" type="line"/>
+      <point x="741" y="622" type="line"/>
+      <point x="671" y="622" type="line"/>
+      <point x="671" y="551" type="line"/>
+    </contour>
+    <component base="uraaddakguru"/>
+    <component base="umatraguru" xOffset="641"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/02/21 10:42:34</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lengthmark_khar" format="2">
+  <unicode hex="10A0C"/>
+  <outline>
+    <contour>
+      <point x="-77" y="-9" type="line"/>
+      <point x="-67" y="36"/>
+      <point x="-58" y="90"/>
+      <point x="-58" y="127" type="curve" smooth="yes"/>
+      <point x="-58" y="231"/>
+      <point x="-113" y="274"/>
+      <point x="-174" y="280" type="curve"/>
+      <point x="-192" y="226" type="line"/>
+      <point x="-188" y="226" type="line" smooth="yes"/>
+      <point x="-133" y="226"/>
+      <point x="-117" y="186"/>
+      <point x="-117" y="130" type="curve" smooth="yes"/>
+      <point x="-117" y="94"/>
+      <point x="-125" y="45"/>
+      <point x="-134" y="1" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/16 17:27:12</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

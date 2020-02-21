@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="thalAlefabove-ar.fina" format="2">
+  <advance width="571"/>
+  <anchor x="237" y="-5" name="bottom"/>
+  <anchor x="464" y="801" name="top"/>
+  <outline>
+    <component base="thal-ar.fina"/>
+    <component base="alefabove-ar" xOffset="370" yOffset="27"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>thal-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:35</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

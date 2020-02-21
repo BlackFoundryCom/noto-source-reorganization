@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehTwodotsabove-farsi" format="2">
+  <advance width="759"/>
+  <unicode hex="063E"/>
+  <anchor x="340" y="-230" name="bottom"/>
+  <anchor x="197.8" y="420.1" name="top"/>
+  <outline>
+    <component base="alefMaksura-ar"/>
+    <component base="twodotshorizontalabove-ar" xScale="0.9" yScale="0.9" xOffset="43" yOffset="-191"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:38</string>
+    </dict>
+  </lib>
+</glyph>

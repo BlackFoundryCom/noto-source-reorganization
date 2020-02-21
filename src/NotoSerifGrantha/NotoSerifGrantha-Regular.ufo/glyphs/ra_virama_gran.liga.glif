@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ra_virama_gran.liga" format="2">
+  <advance width="854"/>
+  <note>
+r_virlig
+</note>
+  <outline>
+    <contour>
+      <point x="329" y="534" type="curve"/>
+      <point x="414" y="534" type="line"/>
+      <point x="414" y="618"/>
+      <point x="413" y="741"/>
+      <point x="364" y="844" type="curve"/>
+      <point x="282" y="827" type="line"/>
+      <point x="327" y="723"/>
+      <point x="329" y="620"/>
+    </contour>
+    <component base="ra_gran"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ra_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ra_gran</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/11 14:29:51</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gran</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni17B5" format="2">
+  <advance width="288"/>
+  <unicode hex="17B5"/>
+  <note>
+uni17B5
+</note>
+  <outline>
+    <contour>
+      <point x="98" y="244" type="line"/>
+      <point x="190" y="244" type="line"/>
+      <point x="190" y="652" type="line" smooth="yes"/>
+      <point x="190" y="737"/>
+      <point x="167" y="780"/>
+      <point x="66" y="780" type="curve" smooth="yes"/>
+      <point x="-128" y="780" type="line"/>
+      <point x="-128" y="713" type="line"/>
+      <point x="20" y="713" type="line" smooth="yes"/>
+      <point x="82" y="713"/>
+      <point x="98" y="698"/>
+      <point x="98" y="652" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>uni17B6</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>uni17B6</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/12/15 19:45:54</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing Combining</string>
+    </dict>
+  </lib>
+</glyph>

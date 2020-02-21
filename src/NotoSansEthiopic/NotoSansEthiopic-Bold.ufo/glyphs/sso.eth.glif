@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sso.eth" format="2">
+  <advance width="801"/>
+  <unicode hex="2DA6"/>
+  <note>
+uni2DA6
+</note>
+  <anchor x="392" y="838" name="top"/>
+  <outline>
+    <component base="sho.eth" xOffset="133"/>
+    <component base="leftsingleflag" yOffset="-55"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>leftsingleflag</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>sho.eth</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/08/29 14:43:55</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

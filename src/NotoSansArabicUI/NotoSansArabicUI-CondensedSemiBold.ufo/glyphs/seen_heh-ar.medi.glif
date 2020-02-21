@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seen_heh-ar.medi" format="2">
+  <advance width="1363"/>
+  <unicode hex="FCE8"/>
+  <anchor x="514" y="0" name="caret_1"/>
+  <anchor x="900" y="-5" name="bottom_1"/>
+  <anchor x="311" y="-220" name="bottom_2"/>
+  <anchor x="947" y="393" name="top_1"/>
+  <anchor x="289" y="500" name="top_2"/>
+  <outline>
+    <component base="seen-ar.medi" xOffset="514"/>
+    <component base="heh-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>seen-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>heh-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:40</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jha" format="2">
+  <advance width="678"/>
+  <unicode hex="1008"/>
+  <outline>
+    <contour>
+      <point x="620" y="536" type="line"/>
+      <point x="546" y="536" type="line"/>
+      <point x="546" y="-313" type="line" smooth="yes"/>
+      <point x="546" y="-388"/>
+      <point x="524" y="-414"/>
+      <point x="457" y="-414" type="curve" smooth="yes"/>
+      <point x="390" y="-414"/>
+      <point x="368" y="-388"/>
+      <point x="368" y="-313" type="curve" smooth="yes"/>
+      <point x="368" y="69" type="line"/>
+      <point x="294" y="69" type="line"/>
+      <point x="294" y="-347" type="line" smooth="yes"/>
+      <point x="294" y="-478"/>
+      <point x="339" y="-541"/>
+      <point x="457" y="-541" type="curve" smooth="yes"/>
+      <point x="575" y="-541"/>
+      <point x="620" y="-481"/>
+      <point x="620" y="-347" type="curve" smooth="yes"/>
+    </contour>
+    <component base="ca"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>wa</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+    </dict>
+  </lib>
+</glyph>

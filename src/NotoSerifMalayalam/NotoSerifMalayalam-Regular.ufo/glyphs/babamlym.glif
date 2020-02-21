@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="babamlym" format="2">
+  <advance width="1342"/>
+  <outline>
+    <contour>
+      <point x="767" y="-274" type="line"/>
+      <point x="1270" y="-274" type="line"/>
+      <point x="1270" y="17" type="line"/>
+      <point x="1185" y="17" type="line"/>
+      <point x="1185" y="-253" type="line"/>
+      <point x="1211" y="-220" type="line"/>
+      <point x="945" y="-220" type="line" smooth="yes"/>
+      <point x="904" y="-220"/>
+      <point x="863" y="-221"/>
+      <point x="816" y="-224" type="curve"/>
+      <point x="798" y="-238" type="line"/>
+      <point x="846" y="-216"/>
+      <point x="892" y="-189"/>
+      <point x="937" y="-160" type="curve" smooth="yes"/>
+      <point x="1189" y="4" type="line"/>
+      <point x="1111" y="4" type="line"/>
+      <point x="1072" y="-10"/>
+      <point x="1028" y="-38"/>
+      <point x="994" y="-60" type="curve" smooth="yes"/>
+      <point x="738" y="-225" type="line"/>
+    </contour>
+    <component base="bamlym"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>bamlym</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>bamlym</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/05 08:30:18</string>
+    </dict>
+  </lib>
+</glyph>

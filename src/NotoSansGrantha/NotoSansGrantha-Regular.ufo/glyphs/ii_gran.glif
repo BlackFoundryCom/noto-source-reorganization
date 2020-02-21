@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ii_gran" format="2">
+  <advance width="1194"/>
+  <unicode hex="11308"/>
+  <outline>
+    <contour>
+      <point x="552" y="175" type="line" smooth="yes"/>
+      <point x="552" y="95"/>
+      <point x="559" y="-12"/>
+      <point x="697" y="-12" type="curve" smooth="yes"/>
+      <point x="835" y="-12"/>
+      <point x="842" y="95"/>
+      <point x="842" y="175" type="curve" smooth="yes"/>
+      <point x="842" y="494" type="line"/>
+      <point x="757" y="494" type="line"/>
+      <point x="757" y="156" type="line" smooth="yes"/>
+      <point x="757" y="100"/>
+      <point x="745" y="58"/>
+      <point x="697" y="58" type="curve" smooth="yes"/>
+      <point x="649" y="58"/>
+      <point x="637" y="100"/>
+      <point x="637" y="156" type="curve" smooth="yes"/>
+      <point x="637" y="494" type="line"/>
+      <point x="552" y="494" type="line"/>
+    </contour>
+    <contour>
+      <point x="350" y="0" type="line"/>
+      <point x="436" y="0" type="line"/>
+      <point x="436" y="494" type="line"/>
+      <point x="905" y="494" type="line"/>
+      <point x="905" y="566" type="line"/>
+      <point x="350" y="566" type="line"/>
+    </contour>
+    <component base="anusvaraAbove_gran" xOffset="374" yOffset="-469"/>
+    <component base="anusvaraAbove_gran" xOffset="1208" yOffset="-469"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/09/18 15:39:51</string>
+    </dict>
+  </lib>
+</glyph>

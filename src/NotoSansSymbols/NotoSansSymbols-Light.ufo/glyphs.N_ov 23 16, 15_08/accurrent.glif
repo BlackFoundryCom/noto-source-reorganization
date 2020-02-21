@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="accurrent" format="2">
+  <advance width="1025"/>
+  <unicode hex="23E6"/>
+  <note>
+uni23E6
+</note>
+  <guideline x="300" y="554" angle="270"/>
+  <guideline x="645" y="381" angle="270"/>
+  <outline>
+    <contour>
+      <point x="664" y="153" type="curve" smooth="yes"/>
+      <point x="736" y="153"/>
+      <point x="810" y="205"/>
+      <point x="899" y="286" type="curve"/>
+      <point x="885" y="300" type="line"/>
+      <point x="944" y="300" type="line"/>
+      <point x="944" y="325" type="line"/>
+      <point x="510" y="325" type="line"/>
+      <point x="458" y="415"/>
+      <point x="411" y="472"/>
+      <point x="327" y="472" type="curve" smooth="yes"/>
+      <point x="275" y="472"/>
+      <point x="218" y="450"/>
+      <point x="133" y="335" type="curve"/>
+      <point x="146" y="325" type="line"/>
+      <point x="81" y="325" type="line"/>
+      <point x="81" y="300" type="line"/>
+      <point x="489" y="300" type="line"/>
+      <point x="535" y="211"/>
+      <point x="583" y="153"/>
+    </contour>
+    <contour>
+      <point x="159" y="325" type="line"/>
+      <point x="180" y="351" type="line" smooth="yes"/>
+      <point x="228" y="410"/>
+      <point x="270" y="446"/>
+      <point x="327" y="446" type="curve" smooth="yes"/>
+      <point x="387" y="446"/>
+      <point x="432" y="408"/>
+      <point x="479" y="325" type="curve"/>
+    </contour>
+    <contour>
+      <point x="664" y="179" type="curve" smooth="yes"/>
+      <point x="616" y="179"/>
+      <point x="572" y="202"/>
+      <point x="520" y="300" type="curve"/>
+      <point x="874" y="300" type="line"/>
+      <point x="787" y="220"/>
+      <point x="726" y="179"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/03/23 19:34:49</string>
+    </dict>
+  </lib>
+</glyph>

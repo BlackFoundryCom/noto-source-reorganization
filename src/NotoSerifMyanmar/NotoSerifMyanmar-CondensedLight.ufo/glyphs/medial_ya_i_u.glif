@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="medial_ya_i_u" format="2">
+  <advance width="340"/>
+  <note>
+Common in standard Burmese.
+</note>
+  <outline>
+    <contour>
+      <point x="96" y="640" type="line"/>
+      <point x="74" y="660" type="line"/>
+      <point x="74" y="-406" type="line" smooth="yes"/>
+      <point x="74" y="-465"/>
+      <point x="69" y="-502"/>
+      <point x="27" y="-502" type="curve" smooth="yes"/>
+      <point x="15" y="-502"/>
+      <point x="-3" y="-500"/>
+      <point x="-48" y="-478" type="curve" smooth="yes"/>
+      <point x="-131" y="-437"/>
+      <point x="-136" y="-426"/>
+      <point x="-136" y="-321" type="curve" smooth="yes"/>
+      <point x="-136" y="40" type="line"/>
+      <point x="-158" y="40" type="line"/>
+      <point x="-158" y="-327" type="line" smooth="yes"/>
+      <point x="-158" y="-434"/>
+      <point x="-152" y="-456"/>
+      <point x="-61" y="-500" type="curve" smooth="yes"/>
+      <point x="-4" y="-527"/>
+      <point x="20" y="-530"/>
+      <point x="31" y="-530" type="curve" smooth="yes"/>
+      <point x="78" y="-530"/>
+      <point x="96" y="-492"/>
+      <point x="96" y="-412" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="266" y="661" type="line"/>
+      <point x="244" y="641" type="line"/>
+      <point x="244" y="-348" type="line" smooth="yes"/>
+      <point x="244" y="-495"/>
+      <point x="289" y="-529"/>
+      <point x="346" y="-529" type="curve" smooth="yes"/>
+      <point x="351" y="-529"/>
+      <point x="361" y="-529"/>
+      <point x="371" y="-528" type="curve"/>
+      <point x="371" y="-501" type="line"/>
+      <point x="351" y="-501" type="line" smooth="yes"/>
+      <point x="301" y="-501"/>
+      <point x="266" y="-484"/>
+      <point x="266" y="-342" type="curve" smooth="yes"/>
+    </contour>
+    <component base="_i" xOffset="420"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>medial_ya</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>_uu_spacing</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>myanmar</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

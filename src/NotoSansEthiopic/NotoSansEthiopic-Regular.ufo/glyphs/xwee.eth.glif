@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="xwee.eth" format="2">
+  <advance width="700"/>
+  <unicode hex="128C"/>
+  <note>
+uni128C
+</note>
+  <anchor x="348" y="713" name="top"/>
+  <outline>
+    <contour>
+      <point x="314" y="0" type="line"/>
+      <point x="450" y="0" type="line"/>
+      <point x="450" y="73" type="line"/>
+      <point x="314" y="73" type="line"/>
+    </contour>
+    <component base="xee.eth"/>
+    <component base="leftsingleflag" xOffset="75" yOffset="-333"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>leftsingleflag</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>baselinebowl</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/08/29 14:43:55</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

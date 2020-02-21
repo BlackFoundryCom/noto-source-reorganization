@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ghain_alefMaksura-ar" format="2">
+  <advance width="1357"/>
+  <unicode hex="FCF9"/>
+  <anchor x="774" y="0" name="caret_1"/>
+  <anchor x="1105" y="-5" name="bottom_1"/>
+  <anchor x="379" y="-231" name="bottom_2"/>
+  <anchor x="1075" y="677" name="top_1"/>
+  <anchor x="228" y="214" name="top_2"/>
+  <outline>
+    <component base="ghain-ar.init" xOffset="800"/>
+    <component base="alefMaksura-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ghain-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alefMaksura-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:40</string>
+    </dict>
+  </lib>
+</glyph>

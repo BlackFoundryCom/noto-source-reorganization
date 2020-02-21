@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="beeh-ar.init" format="2">
+  <advance width="285"/>
+  <unicode hex="FB54"/>
+  <anchor x="108" y="-249" name="bottom"/>
+  <anchor x="110" y="509" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar.init"/>
+    <component base="twodotsverticalbelow-ar.restricted" xOffset="6" yOffset="-3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:34</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

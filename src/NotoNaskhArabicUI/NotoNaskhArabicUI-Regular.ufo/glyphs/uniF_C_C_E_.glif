@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFCCE" format="2">
+  <advance width="1121"/>
+  <unicode hex="FCCE"/>
+  <anchor x="924" y="67" name="bottom_1"/>
+  <anchor x="321" y="-31" name="bottom_2"/>
+  <anchor x="674" y="135" name="caret_1"/>
+  <anchor x="886" y="532" name="top_1"/>
+  <anchor x="324" y="505" name="top_2"/>
+  <outline>
+    <component base="uniFEE3" xOffset="666"/>
+    <component base="uniFEA4"/>
+    <component base="uniFBB3" xOffset="137" yOffset="46"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/20 10:11:45</string>
+    </dict>
+  </lib>
+</glyph>

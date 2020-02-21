@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehKashmiri-ar.medi" format="2">
+  <advance width="323"/>
+  <anchor x="95" y="-101" name="bottom"/>
+  <anchor x="189" y="356" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar.medi.wide"/>
+    <component base="ringArabic" xOffset="-5" yOffset="-107"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/14 20:15:59</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nyjuvowelsinh" format="2">
+  <advance width="1043"/>
+  <outline>
+    <contour>
+      <point x="231" y="-130" type="curve" smooth="yes"/>
+      <point x="231" y="-175"/>
+      <point x="246" y="-207"/>
+      <point x="275" y="-229" type="curve" smooth="yes"/>
+      <point x="310" y="-254"/>
+      <point x="354" y="-271"/>
+      <point x="479" y="-271" type="curve" smooth="yes"/>
+      <point x="968" y="-271" type="line"/>
+      <point x="968" y="152" type="line"/>
+      <point x="833" y="34" type="line"/>
+      <point x="828" y="7"/>
+      <point x="828" y="-18"/>
+      <point x="828" y="-39" type="curve" smooth="yes"/>
+      <point x="828" y="-137" type="line"/>
+      <point x="470" y="-137" type="line" smooth="yes"/>
+      <point x="422" y="-137"/>
+      <point x="406" y="-135"/>
+      <point x="396" y="-126" type="curve" smooth="yes"/>
+      <point x="391" y="-122"/>
+      <point x="387" y="-115"/>
+      <point x="387" y="-105" type="curve" smooth="yes"/>
+      <point x="387" y="-95"/>
+      <point x="391" y="-87"/>
+      <point x="404" y="-72" type="curve"/>
+      <point x="295" y="-2" type="line"/>
+      <point x="247" y="-51"/>
+      <point x="231" y="-89"/>
+    </contour>
+    <component base="nyjasinh"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/06/01 09:09:06</string>
+    </dict>
+  </lib>
+</glyph>

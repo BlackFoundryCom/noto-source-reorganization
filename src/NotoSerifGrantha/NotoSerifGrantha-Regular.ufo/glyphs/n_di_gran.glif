@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="n_di_gran" format="2">
+  <advance width="1065"/>
+  <note>
+ndi
+</note>
+  <outline>
+    <contour>
+      <point x="924" y="0" type="line"/>
+      <point x="985" y="0" type="line"/>
+      <point x="985" y="570" type="line" smooth="yes"/>
+      <point x="985" y="736"/>
+      <point x="855" y="834"/>
+      <point x="683" y="834" type="curve" smooth="yes"/>
+      <point x="524" y="834"/>
+      <point x="418" y="757"/>
+      <point x="418" y="646" type="curve" smooth="yes"/>
+      <point x="418" y="560"/>
+      <point x="486" y="500"/>
+      <point x="568" y="500" type="curve" smooth="yes"/>
+      <point x="573" y="500" type="line"/>
+      <point x="573" y="554" type="line"/>
+      <point x="568" y="554" type="line" smooth="yes"/>
+      <point x="518" y="554"/>
+      <point x="483" y="587"/>
+      <point x="483" y="637" type="curve" smooth="yes"/>
+      <point x="483" y="709"/>
+      <point x="559" y="746"/>
+      <point x="672" y="746" type="curve" smooth="yes"/>
+      <point x="827" y="746"/>
+      <point x="924" y="678"/>
+      <point x="924" y="540" type="curve" smooth="yes"/>
+    </contour>
+    <component base="n_da_gran"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ra_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ki_gran</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/11 14:29:51</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

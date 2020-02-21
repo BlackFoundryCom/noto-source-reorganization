@@ -1,16 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lamDoublebar-ar.init" format="2">
-  <advance width="325"/>
-  <anchor x="110" y="0" name="bottom"/>
-  <anchor x="165" y="726" name="top"/>
+  <advance width="559"/>
+  <anchor x="344" y="0" name="bottom"/>
+  <anchor x="399" y="726" name="top"/>
   <outline>
-    <component base="lam-ar.init"/>
+    <component base="lam-ar.init" xOffset="234"/>
     <component base="_doublebarshort" xScale="0.9" xOffset="27"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2019/12/04 18:34:22</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

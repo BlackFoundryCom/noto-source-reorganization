@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="n_ti_gran" format="2">
+  <advance width="1638"/>
+  <note>
+nti
+</note>
+  <outline>
+    <contour>
+      <point x="1497" y="0" type="line"/>
+      <point x="1558" y="0" type="line"/>
+      <point x="1558" y="570" type="line" smooth="yes"/>
+      <point x="1558" y="736"/>
+      <point x="1428" y="834"/>
+      <point x="1256" y="834" type="curve" smooth="yes"/>
+      <point x="1097" y="834"/>
+      <point x="991" y="757"/>
+      <point x="991" y="646" type="curve" smooth="yes"/>
+      <point x="991" y="560"/>
+      <point x="1059" y="500"/>
+      <point x="1141" y="500" type="curve" smooth="yes"/>
+      <point x="1146" y="500" type="line"/>
+      <point x="1146" y="554" type="line"/>
+      <point x="1141" y="554" type="line" smooth="yes"/>
+      <point x="1091" y="554"/>
+      <point x="1056" y="587"/>
+      <point x="1056" y="637" type="curve" smooth="yes"/>
+      <point x="1056" y="709"/>
+      <point x="1132" y="746"/>
+      <point x="1245" y="746" type="curve" smooth="yes"/>
+      <point x="1400" y="746"/>
+      <point x="1497" y="678"/>
+      <point x="1497" y="540" type="curve" smooth="yes"/>
+    </contour>
+    <component base="n_ta_gran"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n_ta_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ki_gran</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/11 14:29:51</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

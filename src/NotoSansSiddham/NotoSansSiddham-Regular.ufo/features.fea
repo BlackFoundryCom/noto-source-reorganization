@@ -1,0 +1,2389 @@
+@Letters = [ virama-sidd
+a-sidd
+aa-sidd
+i-sidd
+ii-sidd
+u-sidd
+uu-sidd
+iAlt-sidd
+iAlt2-sidd
+iiAlt-sidd
+uAlt-sidd
+rVocalic-sidd
+rrVocalic-sidd
+lVocalic-sidd
+llVocalic-sidd
+e-sidd
+ai-sidd
+o-sidd
+au-sidd
+ka-sidd
+kha-sidd
+ga-sidd
+gha-sidd
+nga-sidd
+ca-sidd
+cha-sidd
+ja-sidd
+jha-sidd
+nya-sidd
+tta-sidd
+ttha-sidd
+dda-sidd
+ddha-sidd
+nna-sidd
+ta-sidd
+tha-sidd
+da-sidd
+dha-sidd
+na-sidd
+pa-sidd
+pha-sidd
+ba-sidd
+bha-sidd
+ma-sidd
+ya-sidd
+ra-sidd
+la-sidd
+va-sidd
+sha-sidd
+ssa-sidd
+sa-sidd
+ha-sidd
+a-sidd.ini
+aa-sidd.ini
+ka-sidd.ini
+gha-sidd.ini
+cha-sidd.ini
+ta-sidd.ini
+da-sidd.ini
+pa-sidd.ini
+pha-sidd.ini
+ba-sidd.ini
+ma-sidd.ini
+ra-sidd.ini
+va-sidd.ini
+ssa-sidd.ini
+sa-sidd.ini
+ha-sidd.ini
+k-sidd
+gh-sidd
+ch-sidd
+d-sidd
+p-sidd
+ph-sidd
+b-sidd
+m-sidd
+r-sidd
+v-sidd
+ss-sidd
+s-sidd
+h-sidd
+k-sidd.med
+gh-sidd.med
+ch-sidd.med
+d-sidd.med
+p-sidd.med
+ph-sidd.med
+b-sidd.med
+m-sidd.med
+v-sidd.med
+ss-sidd.med
+s-sidd.med
+h-sidd.med ];
+
+@LettersNonInit = [ k-sidd
+kh-sidd
+g-sidd
+gh-sidd
+ng-sidd
+c-sidd
+ch-sidd
+j-sidd
+jh-sidd
+ny-sidd
+tt-sidd
+tth-sidd
+dd-sidd
+ddh-sidd
+nn-sidd
+t-sidd
+th-sidd
+d-sidd
+dh-sidd
+n-sidd
+p-sidd
+ph-sidd
+b-sidd
+bh-sidd
+m-sidd
+y-sidd
+r-sidd
+l-sidd
+v-sidd
+sh-sidd
+ss-sidd
+s-sidd
+h-sidd ];
+
+@AllNonInit = [ k-sidd
+kh-sidd
+g-sidd
+gh-sidd
+ng-sidd
+c-sidd
+ch-sidd
+j-sidd
+jh-sidd
+ny-sidd
+tt-sidd
+tth-sidd
+dd-sidd
+ddh-sidd
+nn-sidd
+t-sidd
+th-sidd
+d-sidd
+dh-sidd
+n-sidd
+p-sidd
+ph-sidd
+b-sidd
+bh-sidd
+m-sidd
+y-sidd
+r-sidd
+r_uMatra-sidd
+r_uuMatra-sidd
+l-sidd
+v-sidd
+sh-sidd
+ss-sidd
+s-sidd
+h-sidd
+uMatra-sidd
+uuMatra-sidd
+rMatra-sidd
+rrMatra-sidd
+uMatraAlt-sidd
+uuMatraAlt-sidd
+aiMatraAfter-sidd
+candrabindu-sidd
+anusvara-sidd
+virama-sidd
+nukta-sidd
+jh-sidd.med.ra.aaMatra
+ny-sidd.med.ra.aaMatra
+jh-sidd.ra.aaMatra
+ny-sidd.ra.aaMatra
+k-sidd.med.centre
+tt-sidd.med.centre
+tth-sidd.med.centre
+p-sidd.med.centre
+ss-sidd.med.centre
+k-sidd.med.ra.centre
+p-sidd.centre
+ss-sidd.centre
+p-sidd.third.centre
+ss-sidd.third.centre
+d-sidd.med.diaT.diaB
+d-sidd.med.diaB
+ng-sidd.med.diaT
+c-sidd.med.diaT
+j-sidd.med.diaT
+dd-sidd.med.diaT
+ddh-sidd.med.diaT
+t-sidd.med.diaT
+d-sidd.med.diaT
+ph-sidd.med.diaT
+bh-sidd.med.diaT
+h-sidd.med.diaT
+ng-sidd.diaT
+c-sidd.diaT
+j-sidd.diaT
+dd-sidd.diaT
+ddh-sidd.diaT
+t-sidd.diaT
+d-sidd.diaT
+ph-sidd.diaT
+bh-sidd.diaT
+h-sidd.diaT
+ng-sidd.third.diaT
+c-sidd.third.diaT
+j-sidd.third.diaT
+dd-sidd.third.diaT
+ddh-sidd.third.diaT
+t-sidd.third.diaT
+d-sidd.third.diaT
+ph-sidd.third.diaT
+bh-sidd.third.diaT
+h-sidd.third.diaT
+k-sidd.med
+kh-sidd.med
+g-sidd.med
+gh-sidd.med
+ng-sidd.med
+c-sidd.med
+ch-sidd.med
+j-sidd.med
+jh-sidd.med
+ny-sidd.med
+tt-sidd.med
+tth-sidd.med
+dd-sidd.med
+ddh-sidd.med
+nn-sidd.med
+t-sidd.med
+th-sidd.med
+d-sidd.med
+dh-sidd.med
+n-sidd.med
+p-sidd.med
+ph-sidd.med
+b-sidd.med
+bh-sidd.med
+m-sidd.med
+y-sidd.med
+r-sidd.med
+l-sidd.med
+v-sidd.med
+sh-sidd.med
+ss-sidd.med
+s-sidd.med
+h-sidd.med
+k-sidd.med.ra
+kh-sidd.med.ra
+g-sidd.med.ra
+gh-sidd.med.ra
+ng-sidd.med.ra
+c-sidd.med.ra
+ch-sidd.med.ra
+j-sidd.med.ra
+jh-sidd.med.ra
+ny-sidd.med.ra
+tt-sidd.med.ra
+tth-sidd.med.ra
+dd-sidd.med.ra
+ddh-sidd.med.ra
+nn-sidd.med.ra
+t-sidd.med.ra
+th-sidd.med.ra
+d-sidd.med.ra
+dh-sidd.med.ra
+n-sidd.med.ra
+p-sidd.med.ra
+ph-sidd.med.ra
+b-sidd.med.ra
+bh-sidd.med.ra
+m-sidd.med.ra
+y-sidd.med.ra
+r-sidd.med.ra
+l-sidd.med.ra
+v-sidd.med.ra
+sh-sidd.med.ra
+ss-sidd.med.ra
+s-sidd.med.ra
+h-sidd.med.ra
+k-sidd.ra
+kh-sidd.ra
+g-sidd.ra
+gh-sidd.ra
+ng-sidd.ra
+c-sidd.ra
+ch-sidd.ra
+j-sidd.ra
+jh-sidd.ra
+ny-sidd.ra
+tt-sidd.ra
+tth-sidd.ra
+dd-sidd.ra
+ddh-sidd.ra
+nn-sidd.ra
+t-sidd.ra
+th-sidd.ra
+d-sidd.ra
+dh-sidd.ra
+n-sidd.ra
+p-sidd.ra
+ph-sidd.ra
+b-sidd.ra
+bh-sidd.ra
+m-sidd.ra
+y-sidd.ra
+r-sidd.ra
+l-sidd.ra
+v-sidd.ra
+sh-sidd.ra
+ss-sidd.ra
+s-sidd.ra
+h-sidd.ra
+uMatra-sidd.ra
+uuMatra-sidd.ra
+kh-sidd.med.right
+g-sidd.med.right
+sh-sidd.med.right
+kh-sidd.right
+g-sidd.right
+sh-sidd.right
+uMatra-sidd.seedHa
+uuMatra-sidd.seedHa
+aiMatraAfter-sidd.ss02
+uMatra-sidd.stem
+uuMatra-sidd.stem
+k-sidd.third
+kh-sidd.third
+g-sidd.third
+gh-sidd.third
+ng-sidd.third
+c-sidd.third
+ch-sidd.third
+j-sidd.third
+jh-sidd.third
+ny-sidd.third
+tt-sidd.third
+tth-sidd.third
+dd-sidd.third
+ddh-sidd.third
+nn-sidd.third
+t-sidd.third
+th-sidd.third
+d-sidd.third
+dh-sidd.third
+n-sidd.third
+p-sidd.third
+ph-sidd.third
+b-sidd.third
+bh-sidd.third
+m-sidd.third
+y-sidd.third
+r-sidd.third
+r_uMatra-sidd.third
+r_uuMatra-sidd.third
+l-sidd.third
+v-sidd.third
+sh-sidd.third
+ss-sidd.third
+s-sidd.third
+h-sidd.third ];
+
+@MatraBottom = [ uMatra-sidd
+uuMatra-sidd
+rMatra-sidd
+rrMatra-sidd
+uMatraAlt-sidd
+uuMatraAlt-sidd
+
+uMatra-sidd.ra
+uuMatra-sidd.ra
+uMatra-sidd.stem
+uuMatra-sidd.stem
+
+r_uMatra-sidd
+r_uuMatra-sidd ];
+
+@ini_0 = [ a-sidd
+aa-sidd
+ka-sidd
+kha-sidd
+ga-sidd
+gha-sidd
+nga-sidd
+ca-sidd
+cha-sidd
+ja-sidd
+jha-sidd
+nya-sidd
+tta-sidd
+ttha-sidd
+dda-sidd
+ddha-sidd
+nna-sidd
+ta-sidd
+tha-sidd
+da-sidd
+dha-sidd
+na-sidd
+pa-sidd
+pha-sidd
+ba-sidd
+bha-sidd
+ma-sidd
+ya-sidd
+ra-sidd
+la-sidd
+va-sidd
+sha-sidd
+ssa-sidd
+sa-sidd
+ha-sidd ];
+
+@ini_half = [ a-sidd.ini
+aa-sidd.ini
+ka-sidd.ini
+kha-sidd.ini
+ga-sidd.ini
+gha-sidd.ini
+nga-sidd.ini
+ca-sidd.ini
+cha-sidd.ini
+ja-sidd.ini
+jha-sidd.ini
+nya-sidd.ini
+tta-sidd.ini
+ttha-sidd.ini
+dda-sidd.ini
+ddha-sidd.ini
+nna-sidd.ini
+ta-sidd.ini
+tha-sidd.ini
+da-sidd.ini
+dha-sidd.ini
+na-sidd.ini
+pa-sidd.ini
+pha-sidd.ini
+ba-sidd.ini
+bha-sidd.ini
+ma-sidd.ini
+ya-sidd.ini
+ra-sidd.ini
+la-sidd.ini
+va-sidd.ini
+sha-sidd.ini
+ssa-sidd.ini
+sa-sidd.ini
+ha-sidd.ini ];
+
+@ini_third = [ a-sidd.iniThird
+aa-sidd.iniThird
+ka-sidd.iniThird
+kha-sidd.iniThird
+ga-sidd.iniThird
+gha-sidd.iniThird
+nga-sidd.iniThird
+ca-sidd.iniThird
+cha-sidd.iniThird
+ja-sidd.iniThird
+jha-sidd.iniThird
+nya-sidd.iniThird
+tta-sidd.iniThird
+ttha-sidd.iniThird
+dda-sidd.iniThird
+ddha-sidd.iniThird
+nna-sidd.iniThird
+ta-sidd.iniThird
+tha-sidd.iniThird
+da-sidd.iniThird
+dha-sidd.iniThird
+na-sidd.iniThird
+pa-sidd.iniThird
+pha-sidd.iniThird
+ba-sidd.iniThird
+bha-sidd.iniThird
+ma-sidd.iniThird
+ya-sidd.iniThird
+ra-sidd.iniThird
+la-sidd.iniThird
+va-sidd.iniThird
+sha-sidd.iniThird
+ssa-sidd.iniThird
+sa-sidd.iniThird
+ha-sidd.iniThird ];
+
+@med_0 = [ k-sidd
+kh-sidd
+g-sidd
+gh-sidd
+ng-sidd
+c-sidd
+ch-sidd
+j-sidd
+jh-sidd
+ny-sidd
+tt-sidd
+tth-sidd
+dd-sidd
+ddh-sidd
+nn-sidd
+t-sidd
+th-sidd
+d-sidd
+dh-sidd
+n-sidd
+p-sidd
+ph-sidd
+b-sidd
+bh-sidd
+m-sidd
+y-sidd
+r-sidd
+l-sidd
+v-sidd
+sh-sidd
+ss-sidd
+s-sidd
+h-sidd ];
+
+@med_1 = [ k-sidd.med
+kh-sidd.med
+g-sidd.med
+gh-sidd.med
+ng-sidd.med
+c-sidd.med
+ch-sidd.med
+j-sidd.med
+jh-sidd.med
+ny-sidd.med
+tt-sidd.med
+tth-sidd.med
+dd-sidd.med
+ddh-sidd.med
+nn-sidd.med
+t-sidd.med
+th-sidd.med
+d-sidd.med
+dh-sidd.med
+n-sidd.med
+p-sidd.med
+ph-sidd.med
+b-sidd.med
+bh-sidd.med
+m-sidd.med
+y-sidd.med
+r-sidd.med
+l-sidd.med
+v-sidd.med
+sh-sidd.med
+ss-sidd.med
+s-sidd.med
+h-sidd.med ];
+
+@med_ra = [ k-sidd.med.ra
+kh-sidd.med.ra
+g-sidd.med.ra
+gh-sidd.med.ra
+ng-sidd.med.ra
+c-sidd.med.ra
+ch-sidd.med.ra
+j-sidd.med.ra
+jh-sidd.med.ra
+ny-sidd.med.ra
+tt-sidd.med.ra
+tth-sidd.med.ra
+dd-sidd.med.ra
+ddh-sidd.med.ra
+nn-sidd.med.ra
+t-sidd.med.ra
+th-sidd.med.ra
+d-sidd.med.ra
+dh-sidd.med.ra
+n-sidd.med.ra
+p-sidd.med.ra
+ph-sidd.med.ra
+b-sidd.med.ra
+bh-sidd.med.ra
+m-sidd.med.ra
+y-sidd.med.ra
+r-sidd.med.ra
+l-sidd.med.ra
+v-sidd.med.ra
+sh-sidd.med.ra
+ss-sidd.med.ra
+s-sidd.med.ra
+h-sidd.med.ra ];
+
+@fin_third = [ k-sidd.third
+kh-sidd.third
+g-sidd.third
+gh-sidd.third
+ng-sidd.third
+c-sidd.third
+ch-sidd.third
+j-sidd.third
+jh-sidd.third
+ny-sidd.third
+tt-sidd.third
+tth-sidd.third
+dd-sidd.third
+ddh-sidd.third
+nn-sidd.third
+t-sidd.third
+th-sidd.third
+d-sidd.third
+dh-sidd.third
+n-sidd.third
+p-sidd.third
+ph-sidd.third
+b-sidd.third
+bh-sidd.third
+m-sidd.third
+y-sidd.third
+r-sidd.third
+l-sidd.third
+v-sidd.third
+sh-sidd.third
+ss-sidd.third
+s-sidd.third
+h-sidd.third ];
+
+@fin_ra = [ k-sidd.ra
+kh-sidd.ra
+g-sidd.ra
+gh-sidd.ra
+ng-sidd.ra
+c-sidd.ra
+ch-sidd.ra
+j-sidd.ra
+jh-sidd.ra
+ny-sidd.ra
+tt-sidd.ra
+tth-sidd.ra
+dd-sidd.ra
+ddh-sidd.ra
+nn-sidd.ra
+t-sidd.ra
+th-sidd.ra
+d-sidd.ra
+dh-sidd.ra
+n-sidd.ra
+p-sidd.ra
+ph-sidd.ra
+b-sidd.ra
+bh-sidd.ra
+m-sidd.ra
+y-sidd.ra
+r-sidd.ra
+l-sidd.ra
+v-sidd.ra
+sh-sidd.ra
+ss-sidd.ra
+s-sidd.ra
+h-sidd.ra ];
+
+@centre00 = [ ka-sidd.ini
+tta-sidd.ini
+ttha-sidd.ini
+ka-sidd.iniThird
+tta-sidd.iniThird
+ttha-sidd.iniThird
+k-sidd.med
+k-sidd.med.ra
+tt-sidd.med
+tth-sidd.med ];
+
+@centre01 = [ ka-sidd.ini.centre
+tta-sidd.ini.centre
+ttha-sidd.ini.centre
+ka-sidd.iniThird.centre
+tta-sidd.iniThird.centre
+ttha-sidd.iniThird.centre
+k-sidd.med.centre
+k-sidd.med.ra.centre
+tt-sidd.med.centre
+tth-sidd.med.centre ];
+
+@centre10 = [ p-sidd.med
+ss-sidd.med
+p-sidd
+ss-sidd
+p-sidd.third
+ss-sidd.third ];
+
+@centre11 = [ p-sidd.med.centre
+ss-sidd.med.centre
+p-sidd.centre
+ss-sidd.centre
+p-sidd.third.centre
+ss-sidd.third.centre ];
+
+@diaT_0 = [ d-sidd.med.diaB
+ng-sidd.med
+c-sidd.med
+j-sidd.med
+dd-sidd.med
+ddh-sidd.med
+t-sidd.med
+d-sidd.med
+ph-sidd.med
+bh-sidd.med
+h-sidd.med
+ng-sidd
+c-sidd
+j-sidd
+dd-sidd
+ddh-sidd
+t-sidd
+d-sidd
+ph-sidd
+bh-sidd
+h-sidd
+ng-sidd.third
+c-sidd.third
+j-sidd.third
+dd-sidd.third
+ddh-sidd.third
+t-sidd.third
+d-sidd.third
+ph-sidd.third
+bh-sidd.third
+h-sidd.third ];
+
+@diaB_0 = [ da-sidd.ini
+da-sidd.iniThird
+d-sidd.med
+d-sidd.med.diaT ];
+
+@diaT_1 = [ d-sidd.med.diaT.diaB
+ng-sidd.med.diaT
+c-sidd.med.diaT
+j-sidd.med.diaT
+dd-sidd.med.diaT
+ddh-sidd.med.diaT
+t-sidd.med.diaT
+d-sidd.med.diaT
+ph-sidd.med.diaT
+bh-sidd.med.diaT
+h-sidd.med.diaT
+ng-sidd.diaT
+c-sidd.diaT
+j-sidd.diaT
+dd-sidd.diaT
+ddh-sidd.diaT
+t-sidd.diaT
+d-sidd.diaT
+ph-sidd.diaT
+bh-sidd.diaT
+h-sidd.diaT
+ng-sidd.third.diaT
+c-sidd.third.diaT
+j-sidd.third.diaT
+dd-sidd.third.diaT
+ddh-sidd.third.diaT
+t-sidd.third.diaT
+d-sidd.third.diaT
+ph-sidd.third.diaT
+bh-sidd.third.diaT
+h-sidd.third.diaT ];
+
+@diaB_1 = [ da-sidd.ini.diaB
+da-sidd.iniThird.diaB
+d-sidd.med.diaB
+d-sidd.med.diaT.diaB ];
+
+@right_0 = [ kh-sidd.med
+g-sidd.med
+sh-sidd.med
+kh-sidd
+g-sidd
+sh-sidd ];
+
+@right_1 = [ kh-sidd.med.right
+g-sidd.med.right
+sh-sidd.med.right
+kh-sidd.right
+g-sidd.right
+sh-sidd.right ];
+
+@excessL = [ k-sidd
+kh-sidd
+g-sidd
+gh-sidd
+ng-sidd
+c-sidd
+ch-sidd
+j-sidd
+jh-sidd
+ny-sidd
+tt-sidd
+tth-sidd
+dd-sidd
+ddh-sidd
+nn-sidd
+t-sidd
+th-sidd
+d-sidd
+dh-sidd
+n-sidd
+ph-sidd
+b-sidd
+bh-sidd
+m-sidd
+y-sidd
+l-sidd
+v-sidd
+sh-sidd
+s-sidd
+h-sidd ];
+
+@excessR_1 = [ k-sidd
+gh-sidd
+ch-sidd
+jh-sidd
+ny-sidd
+tth-sidd
+ddh-sidd
+nn-sidd
+p-sidd
+ph-sidd
+m-sidd
+y-sidd
+sh-sidd
+ss-sidd
+s-sidd
+h-sidd
+ ];
+
+@excessR_2 = [ ng-sidd
+ch-sidd
+j-sidd
+tt-sidd
+d-sidd ];
+
+@excessR_3 = [ kh-sidd
+g-sidd
+sh-sidd
+ ];
+
+@excessR1 = [ y-sidd
+tt-sidd
+ng-sidd
+j-sidd
+m-sidd
+d-sidd
+tth-sidd
+h-sidd ];
+
+@excessR2 = [ gh-sidd
+ddh-sidd
+ph-sidd
+s-sidd
+ch-sidd
+g-sidd
+p-sidd
+ss-sidd
+k-sidd
+sh-sidd
+kh-sidd
+nn-sidd
+jh-sidd
+ny-sidd ];
+
+@uMatraStem = [ ng-sidd
+j-sidd
+tt-sidd
+tth-sidd
+dd-sidd
+ddh-sidd
+n-sidd
+p-sidd
+y-sidd
+l-sidd
+v-sidd
+ ];
+
+@MatraRight = [ aaMatra-sidd
+aaMatra-sidd.ini.jha
+aaMatra-sidd.iniThird.jha
+aaMatra-sidd.jha
+aaMatra-sidd.nga
+aaMatra-sidd.jha.ra.third
+aaMatra-sidd.jha.ra
+aaMatra-sidd.nga.ra
+aaMatra-sidd.short.ra
+aaMatra-sidd.ra
+aaMatra-sidd.short
+iiMatra-sidd
+iiMatra-sidd.narrow
+iiMatra-sidd.narrow.ra
+iiMatra-sidd.ra
+iiMatra-sidd.wide.ra
+iiMatra-sidd.wide2.ra
+iiMatra-sidd.wide
+iiMatra-sidd.wide2 ];
+
+@candrabindus = [ candrabindu-sidd
+candrabindu-sidd
+candrabindu-sidd
+candrabindu-sidd
+candrabindu-sidd
+candrabindu-sidd
+candrabindu-sidd
+candrabindu-sidd
+candrabindu-sidd
+candrabindu-sidd
+candrabindu-sidd
+candrabindu-sidd
+candrabindu-sidd
+candrabindu-sidd
+candrabindu-sidd
+candrabindu-sidd
+candrabindu-sidd
+candrabindu-sidd
+candrabindu-sidd ];
+
+@anusvaras = [ anusvara-sidd
+anusvara-sidd
+anusvara-sidd
+anusvara-sidd
+anusvara-sidd
+anusvara-sidd
+anusvara-sidd
+anusvara-sidd
+anusvara-sidd
+anusvara-sidd
+anusvara-sidd
+anusvara-sidd
+anusvara-sidd
+anusvara-sidd
+anusvara-sidd
+anusvara-sidd
+anusvara-sidd
+anusvara-sidd
+anusvara-sidd ];
+
+@reorderingMarks = [ candrabindu-sidd
+anusvara-sidd
+rMatra-sidd
+rrMatra-sidd ];
+
+@rMatras = [ rMatra-sidd
+rMatra-sidd
+rMatra-sidd
+rMatra-sidd
+rMatra-sidd
+rMatra-sidd
+rMatra-sidd
+rMatra-sidd
+rMatra-sidd
+rMatra-sidd
+rMatra-sidd
+rMatra-sidd
+rMatra-sidd
+rMatra-sidd
+rMatra-sidd
+rMatra-sidd
+rMatra-sidd
+rMatra-sidd
+rMatra-sidd ];
+
+@rrMatras = [ rrMatra-sidd
+rrMatra-sidd
+rrMatra-sidd
+rrMatra-sidd
+rrMatra-sidd
+rrMatra-sidd
+rrMatra-sidd
+rrMatra-sidd
+rrMatra-sidd
+rrMatra-sidd
+rrMatra-sidd
+rrMatra-sidd
+rrMatra-sidd
+rrMatra-sidd
+rrMatra-sidd
+rrMatra-sidd
+rrMatra-sidd
+rrMatra-sidd
+rrMatra-sidd ];
+
+@CK_R_dda = [ dda-sidd ta-sidd dda-sidd.ini ta-sidd.ini dda-sidd.iniThird ta-sidd.iniThird dd-sidd.med.ra t-sidd.med.ra dd-sidd.ra t-sidd.ra ];
+
+@CK_L_nga = [ aa-sidd nga-sidd ja-sidd tta-sidd tta-sidd.ini.centre tta-sidd.iniThird.centre aa-sidd.ini nga-sidd.ini ja-sidd.ini tta-sidd.ini aa-sidd.iniThird nga-sidd.iniThird ja-sidd.iniThird tta-sidd.iniThird ng-sidd.med.ra j-sidd.med.ra tt-sidd.med.ra ng-sidd.ra j-sidd.ra tt-sidd.ra ];
+
+@CK_L_ha = [ ha-sidd ha-sidd.ini ha-sidd.iniThird h-sidd.med.ra h-sidd.ra seed_ha_r-sidd ];
+
+@CK_R_aaMatra = [ aaMatra-sidd aaMatra-sidd.ini.jha aaMatra-sidd.iniThird.jha aaMatra-sidd.jha aaMatra-sidd.nga aaMatra-sidd.short.ra aaMatra-sidd.short seed_aaMatra_visarga-sidd ];
+
+@CK_R_eMatra = [ eMatra-sidd eMatra-sidd.long ];
+
+@CK_L_gha = [ a-sidd gha-sidd tha-sidd dha-sidd pa-sidd ma-sidd ya-sidd ssa-sidd sa-sidd a-sidd.ini gha-sidd.ini tha-sidd.ini dha-sidd.ini pa-sidd.ini ma-sidd.ini ya-sidd.ini ssa-sidd.ini sa-sidd.ini a-sidd.iniThird gha-sidd.iniThird tha-sidd.iniThird dha-sidd.iniThird pa-sidd.iniThird ma-sidd.iniThird ya-sidd.iniThird ssa-sidd.iniThird sa-sidd.iniThird gh-sidd.med.ra th-sidd.med.ra dh-sidd.med.ra p-sidd.med.ra m-sidd.med.ra y-sidd.med.ra ss-sidd.med.ra s-sidd.med.ra gh-sidd.ra th-sidd.ra dh-sidd.ra p-sidd.ra m-sidd.ra ss-sidd.ra s-sidd.ra ];
+
+@CK_L_da = [ da-sidd da-sidd.ini.diaB da-sidd.ini d-sidd.med.ra d-sidd.ra ];
+
+@CK_R_ka = [ ka-sidd ka-sidd.ini.centre ka-sidd.iniThird.centre ka-sidd.ini ka-sidd.iniThird k-sidd.med.ra k-sidd.ra ];
+
+@CK_L_kha = [ kha-sidd ga-sidd sha-sidd kha-sidd.ini ga-sidd.ini sha-sidd.ini kha-sidd.iniThird ga-sidd.iniThird sha-sidd.iniThird kh-sidd.med.ra g-sidd.med.ra sh-sidd.med.ra kh-sidd.ra g-sidd.ra sh-sidd.ra ];
+
+@CK_L_e = [ e-sidd ai-sidd o-sidd ];
+
+@CK_R_gha = [ gha-sidd gha-sidd.ini gha-sidd.iniThird gh-sidd.med.ra gh-sidd.ra ];
+
+@CK_R_tta = [ tta-sidd tta-sidd.ini.centre tta-sidd.iniThird.centre tta-sidd.ini tta-sidd.iniThird tt-sidd.med.ra tt-sidd.ra ];
+
+@CK_L_ra = [ ra-sidd.ini ra-sidd.iniThird ra-sidd.ini.long r-sidd.med.ra r-sidd.ra ];
+
+@CK_R_kha = [ kha-sidd ga-sidd kha-sidd.ini ga-sidd.ini kha-sidd.iniThird ga-sidd.iniThird kh-sidd.med.ra g-sidd.med.ra kh-sidd.ra g-sidd.ra ];
+
+@CK_L_ka = [ ka-sidd ka-sidd.ini.centre ka-sidd.iniThird.centre ka-sidd.ini ka-sidd.iniThird k-sidd.med.ra.centre k-sidd.med.ra k-sidd.ra ];
+
+@CK_L_iiMatra = [ iiMatra-sidd iiMatra-sidd.narrow iiMatra-sidd.narrow.ra iiMatra-sidd.ra iiMatra-sidd.wide.ra iiMatra-sidd.wide2.ra iiMatra-sidd.wide iiMatra-sidd.wide2 ];
+
+@CK_L_pha = [ pha-sidd pha-sidd.ini pha-sidd.iniThird ph-sidd.med.ra ph-sidd.ra ];
+
+@CK_R_la = [ la-sidd la-sidd.ini la-sidd.iniThird l-sidd.med.ra l-sidd.ra ];
+
+@CK_R_ya = [ ya-sidd ya-sidd.ini ya-sidd.iniThird y-sidd.med.ra ];
+
+@CK_R_sa = [ sa-sidd sa-sidd.ini sa-sidd.iniThird s-sidd.med.ra s-sidd.ra ];
+
+@CK_L_jh = [ jh-sidd ny-sidd jh-sidd.med ny-sidd.med ];
+
+@CK_R_dha = [ dh-sidd.med.ra dh-sidd.ra ];
+
+@CK_R_da = [ ddha-sidd da-sidd ha-sidd da-sidd.ini.diaB da-sidd.iniThird.diaB ddha-sidd.ini da-sidd.ini ha-sidd.ini ddha-sidd.iniThird da-sidd.iniThird ha-sidd.iniThird ddh-sidd.med.ra d-sidd.med.ra h-sidd.med.ra ddh-sidd.ra d-sidd.ra h-sidd.ra seed_ha_r_iiMatra-sidd seed_ha_r-sidd ];
+
+@CK_R_nya = [ nya-sidd nya-sidd.ini.aaMatra nya-sidd.iniThird.aaMatra nya-sidd.aaMatra nya-sidd.ini nya-sidd.iniThird ny-sidd.med.ra ny-sidd.ra ];
+
+@CK_R_jha = [ jha-sidd jha-sidd.ini.aaMatra jha-sidd.iniThird.aaMatra jha-sidd.aaMatra jha-sidd.ini jha-sidd.iniThird jh-sidd.med.ra jh-sidd.ra ];
+
+@CK_L_jha = [ rVocalic-sidd rrVocalic-sidd jha-sidd nya-sidd jha-sidd.ini.aaMatra nya-sidd.ini.aaMatra jha-sidd.iniThird.aaMatra nya-sidd.iniThird.aaMatra jha-sidd.aaMatra nya-sidd.aaMatra jha-sidd.ini nya-sidd.ini jha-sidd.iniThird nya-sidd.iniThird jh-sidd.med.ra ny-sidd.med.ra jh-sidd.ra ny-sidd.ra ];
+
+@CK_L_ddha = [ ddha-sidd ddha-sidd.ini ddha-sidd.iniThird ddh-sidd.med.ra ddh-sidd.ra ];
+
+@CK_R_bha = [ bha-sidd bha-sidd.ini bha-sidd.iniThird bh-sidd.med.ra bh-sidd.ra ];
+
+@CK_R_ttha = [ ttha-sidd ttha-sidd.ini.centre ttha-sidd.iniThird.centre ttha-sidd.ini ttha-sidd.iniThird tth-sidd.med.ra tth-sidd.ra ];
+
+@CK_L_iMatraRa = [ iMatra-sidd.la.ra iMatra-sidd.narrow.ra iMatra-sidd.la.open.ra iMatra-sidd.narrow.open.ra iMatra-sidd.open.ra iMatra-sidd.wide.open.ra iMatra-sidd.ra iMatra-sidd.wide.ra ];
+
+@CK_L_eMatraRa = [ eMatra-sidd.long.ra eMatra-sidd.ra aiMatra-sidd.ra aiMatra-sidd.tha.ra aiMatra-sidd.ra.ss02 aiMatra-sidd.tha.ra.ss02 ];
+
+@CK_R_pa = [ pa-sidd ssa-sidd pa-sidd.ini ssa-sidd.ini pa-sidd.iniThird ssa-sidd.iniThird p-sidd.med.ra ss-sidd.med.ra p-sidd.ra ss-sidd.ra ];
+
+@CK_R_cha = [ cha-sidd cha-sidd.ini cha-sidd.iniThird ch-sidd.med.ra ch-sidd.ra ];
+
+@CK_R_va = [ va-sidd va-sidd.ini va-sidd.iniThird v-sidd.med.ra v-sidd.ra ];
+
+@CK_L_eMatra = [ eMatra-sidd aiMatra-sidd eMatra-sidd.long ];
+
+@CK_R_ba = [ ba-sidd ba-sidd.ini ba-sidd.iniThird b-sidd.med.ra b-sidd.ra ];
+
+@CK_R_na = [ na-sidd na-sidd.ini na-sidd.iniThird n-sidd.med.ra n-sidd.ra ];
+
+@CK_R_nna = [ nna-sidd nna-sidd.ini nna-sidd.iniThird nn-sidd.med.ra nn-sidd.ra ];
+
+@CK_R_iiMatra = [ iiMatra-sidd iiMatra-sidd.narrow iiMatra-sidd.narrow.ra iiMatra-sidd.ra iiMatra-sidd.wide.ra iiMatra-sidd.wide2.ra iiMatra-sidd.wide iiMatra-sidd.wide2 ];
+
+@CK_L_ca = [ ca-sidd dda-sidd ta-sidd na-sidd ba-sidd bha-sidd ra-sidd va-sidd ca-sidd.ini dda-sidd.ini ta-sidd.ini na-sidd.ini ba-sidd.ini bha-sidd.ini la-sidd.ini va-sidd.ini ca-sidd.iniThird dda-sidd.iniThird ta-sidd.iniThird na-sidd.iniThird ba-sidd.iniThird bha-sidd.iniThird la-sidd.iniThird va-sidd.iniThird c-sidd.med.ra dd-sidd.med.ra t-sidd.med.ra n-sidd.med.ra b-sidd.med.ra bh-sidd.med.ra l-sidd.med.ra v-sidd.med.ra c-sidd.ra dd-sidd.ra t-sidd.ra n-sidd.ra b-sidd.ra bh-sidd.ra v-sidd.ra seed_ta_r-sidd ];
+
+@CK_R_ca = [ ca-sidd ca-sidd.ini ca-sidd.iniThird c-sidd.med.ra c-sidd.ra ];
+
+@CK_L_ttha = [ ttha-sidd ttha-sidd.ini.centre ttha-sidd.iniThird.centre ttha-sidd.ini ttha-sidd.iniThird tth-sidd.med.ra tth-sidd.ra ];
+
+@CK_R_nga = [ nga-sidd ja-sidd nga-sidd.ini ja-sidd.ini nga-sidd.iniThird ja-sidd.iniThird ng-sidd.med.ra j-sidd.med.ra ng-sidd.ra j-sidd.ra ];
+
+@CK_R_tha = [ th-sidd.med.ra th-sidd.ra ];
+
+@CK_R_ma = [ ma-sidd ma-sidd.ini ma-sidd.iniThird m-sidd.med.ra m-sidd.ra ];
+
+@CK_R_pha = [ pha-sidd pha-sidd.ini pha-sidd.iniThird ph-sidd.med.ra ph-sidd.ra ];
+
+@CK_L_cha = [ cha-sidd cha-sidd.ini cha-sidd.iniThird ch-sidd.med.ra ch-sidd.ra ];
+
+@CK_L_nna = [ nna-sidd nna-sidd.ini nna-sidd.iniThird nn-sidd.med.ra nn-sidd.ra ];
+
+@CK_R_ra = [ ra-sidd ra-sidd.ini ra-sidd.iniThird ra-sidd.ini.long r-sidd.med.ra r-sidd.ra ];
+
+@CK_L_iMatra = [ iMatra-sidd iMatra-sidd.la iMatra-sidd.narrow iMatra-sidd.la.open iMatra-sidd.narrow.open iMatra-sidd.open iMatra-sidd.wide ];
+
+@CK_L_da_Third = [ da-sidd.iniThird.diaB da-sidd.iniThird ];
+
+@CK_L_aaMatra = [ aaMatra-sidd aaMatra-sidd.short.ra aaMatra-sidd.short seed_aaMatra_visarga-sidd ];
+
+@CK_R_sha = [ sha-sidd sha-sidd.ini sha-sidd.iniThird sh-sidd.med.ra sh-sidd.ra ];
+
+# Prefix: Languagesystems
+languagesystem DFLT dflt;
+languagesystem sidd dflt;
+
+# Prefix: lookups
+lookup reorder_first {
+	sub @MatraRight' candrabindu-sidd by @candrabindus;
+	sub @MatraRight' anusvara-sidd by @anusvaras;
+	sub @MatraRight' rMatra-sidd by @rMatras;
+	sub @MatraRight' rrMatra-sidd by @rrMatras;
+} reorder_first;
+
+lookup reorder_aa {
+	sub @reorderingMarks by [aaMatra-sidd aaMatra-sidd aaMatra-sidd aaMatra-sidd];
+} reorder_aa;
+
+lookup reorder_aa.ini.jha {
+	sub @reorderingMarks by [aaMatra-sidd.ini.jha aaMatra-sidd.ini.jha aaMatra-sidd.ini.jha aaMatra-sidd.ini.jha];
+} reorder_aa.ini.jha;
+
+lookup reorder_aa.iniThird.jha {
+	sub @reorderingMarks by [aaMatra-sidd.iniThird.jha aaMatra-sidd.iniThird.jha aaMatra-sidd.iniThird.jha aaMatra-sidd.iniThird.jha];
+} reorder_aa.iniThird.jha;
+
+lookup reorder_aa.jha {
+	sub @reorderingMarks by [aaMatra-sidd.jha aaMatra-sidd.jha aaMatra-sidd.jha aaMatra-sidd.jha];
+} reorder_aa.jha;
+
+lookup reorder_aa.nga {
+	sub @reorderingMarks by [aaMatra-sidd.nga aaMatra-sidd.nga aaMatra-sidd.nga aaMatra-sidd.nga];
+} reorder_aa.nga;
+
+lookup reorder_.jha.ra.third {
+	sub @reorderingMarks by [aaMatra-sidd.jha.ra.third aaMatra-sidd.jha.ra.third aaMatra-sidd.jha.ra.third aaMatra-sidd.jha.ra.third];
+} reorder_.jha.ra.third;
+
+lookup reorder_aa.jha.ra {
+	sub @reorderingMarks by [aaMatra-sidd.jha.ra aaMatra-sidd.jha.ra aaMatra-sidd.jha.ra aaMatra-sidd.jha.ra];
+} reorder_aa.jha.ra;
+
+lookup reorder_aa.nga.ra {
+	sub @reorderingMarks by [aaMatra-sidd.nga.ra aaMatra-sidd.nga.ra aaMatra-sidd.nga.ra aaMatra-sidd.nga.ra];
+} reorder_aa.nga.ra;
+
+lookup reorder_aa.short.ra {
+	sub @reorderingMarks by [aaMatra-sidd.short.ra aaMatra-sidd.short.ra aaMatra-sidd.short.ra aaMatra-sidd.short.ra];
+} reorder_aa.short.ra;
+
+lookup reorder_aa.ra {
+	sub @reorderingMarks by [aaMatra-sidd.ra aaMatra-sidd.ra aaMatra-sidd.ra aaMatra-sidd.ra];
+} reorder_aa.ra;
+
+lookup reorder_aa.short {
+	sub @reorderingMarks by [aaMatra-sidd.short aaMatra-sidd.short aaMatra-sidd.short aaMatra-sidd.short];
+} reorder_aa.short;
+
+# iiMatra
+
+lookup reorder_ii {
+	sub @reorderingMarks by [iiMatra-sidd iiMatra-sidd iiMatra-sidd iiMatra-sidd];
+} reorder_ii;
+
+lookup reorder_ii.narrow {
+	sub @reorderingMarks by [iiMatra-sidd.narrow iiMatra-sidd.narrow iiMatra-sidd.narrow iiMatra-sidd.narrow];
+} reorder_ii.narrow;
+
+lookup reorder_ii.narrow.ra {
+	sub @reorderingMarks by [iiMatra-sidd.narrow.ra iiMatra-sidd.narrow.ra iiMatra-sidd.narrow.ra iiMatra-sidd.narrow.ra];
+} reorder_ii.narrow.ra;
+
+lookup reorder_ii.ra {
+	sub @reorderingMarks by [iiMatra-sidd.ra iiMatra-sidd.ra iiMatra-sidd.ra iiMatra-sidd.ra];
+} reorder_ii.ra;
+
+lookup reorder_ii.wide.ra {
+	sub @reorderingMarks by [iiMatra-sidd.wide.ra iiMatra-sidd.wide.ra iiMatra-sidd.wide.ra iiMatra-sidd.wide.ra];
+} reorder_ii.wide.ra;
+
+lookup reorder_ii.wide2.ra {
+	sub @reorderingMarks by [iiMatra-sidd.wide2.ra iiMatra-sidd.wide2.ra iiMatra-sidd.wide2.ra iiMatra-sidd.wide2.ra];
+} reorder_ii.wide2.ra;
+
+lookup reorder_ii.wide {
+	sub @reorderingMarks by [iiMatra-sidd.wide iiMatra-sidd.wide iiMatra-sidd.wide iiMatra-sidd.wide];
+} reorder_ii.wide;
+
+lookup reorder_ii.wide2 {
+	sub @reorderingMarks by [iiMatra-sidd.wide2 iiMatra-sidd.wide2 iiMatra-sidd.wide2 iiMatra-sidd.wide2];
+} reorder_ii.wide2;
+
+feature ccmp {
+# sub a-sidd aaMatra-sidd by aa-sidd aa-sidd;
+sub aiMatra-sidd by eMatra-sidd aiMatraAfter-sidd;
+
+@ra_ai_letters = [ka-sidd kha-sidd ga-sidd gha-sidd nga-sidd ca-sidd cha-sidd ja-sidd jha-sidd nya-sidd tta-sidd ttha-sidd dda-sidd ddha-sidd nna-sidd ta-sidd tha-sidd da-sidd dha-sidd na-sidd pa-sidd pha-sidd ba-sidd bha-sidd ma-sidd ya-sidd ra-sidd la-sidd va-sidd sha-sidd ssa-sidd sa-sidd ha-sidd ];
+
+lookup recompose_aiMatraNukta {
+	sub ra-sidd virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters nukta-sidd eMatra-sidd' aiMatraAfter-sidd' by aiMatra-sidd;
+	sub ra-sidd virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters nukta-sidd eMatra-sidd' aiMatraAfter-sidd' by aiMatra-sidd;
+	sub ra-sidd virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters nukta-sidd eMatra-sidd' aiMatraAfter-sidd' by aiMatra-sidd;
+	sub ra-sidd virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters nukta-sidd eMatra-sidd' aiMatraAfter-sidd' by aiMatra-sidd;
+	sub ra-sidd virama-sidd @ra_ai_letters nukta-sidd eMatra-sidd' aiMatraAfter-sidd' by aiMatra-sidd;
+} recompose_aiMatraNukta;
+
+lookup recompose_aiMatra {
+	sub ra-sidd virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters eMatra-sidd' aiMatraAfter-sidd' by aiMatra-sidd;
+	sub ra-sidd virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters eMatra-sidd' aiMatraAfter-sidd' by aiMatra-sidd;
+	sub ra-sidd virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters eMatra-sidd' aiMatraAfter-sidd' by aiMatra-sidd;
+	sub ra-sidd virama-sidd @ra_ai_letters virama-sidd @ra_ai_letters eMatra-sidd' aiMatraAfter-sidd' by aiMatra-sidd;
+	sub ra-sidd virama-sidd @ra_ai_letters eMatra-sidd' aiMatraAfter-sidd' by aiMatra-sidd;
+} recompose_aiMatra;
+} ccmp;
+
+feature pref {
+script sidd;
+# mention this glyph so that it ges reordered
+sub eMatra-sidd by eMatra-sidd;
+sub aiMatra-sidd by aiMatra-sidd;
+} pref;
+
+feature half {
+# Half-form
+# This is before reordering
+script sidd;
+
+sub virama-sidd ka-sidd by k-sidd;
+sub virama-sidd kha-sidd by kh-sidd;
+sub virama-sidd ga-sidd by g-sidd;
+sub virama-sidd gha-sidd by gh-sidd;
+sub virama-sidd nga-sidd by ng-sidd;
+sub virama-sidd ca-sidd by c-sidd;
+sub virama-sidd cha-sidd by ch-sidd;
+sub virama-sidd ja-sidd by j-sidd;
+sub virama-sidd jha-sidd by jh-sidd;
+sub virama-sidd nya-sidd by ny-sidd;
+sub virama-sidd tta-sidd by tt-sidd;
+sub virama-sidd ttha-sidd by tth-sidd;
+sub virama-sidd dda-sidd by dd-sidd;
+sub virama-sidd ddha-sidd by ddh-sidd;
+sub virama-sidd nna-sidd by nn-sidd;
+sub virama-sidd ta-sidd by t-sidd;
+sub virama-sidd tha-sidd by th-sidd;
+sub virama-sidd da-sidd by d-sidd;
+sub virama-sidd dha-sidd by dh-sidd;
+sub virama-sidd na-sidd by n-sidd;
+sub virama-sidd pa-sidd by p-sidd;
+sub virama-sidd pha-sidd by ph-sidd;
+sub virama-sidd ba-sidd by b-sidd;
+sub virama-sidd bha-sidd by bh-sidd;
+sub virama-sidd ma-sidd by m-sidd;
+sub virama-sidd ya-sidd by y-sidd;
+sub virama-sidd ra-sidd by r-sidd;
+sub virama-sidd la-sidd by l-sidd;
+sub virama-sidd va-sidd by v-sidd;
+sub virama-sidd sha-sidd by sh-sidd;
+sub virama-sidd ssa-sidd by ss-sidd;
+sub virama-sidd sa-sidd by s-sidd;
+sub virama-sidd ha-sidd by h-sidd;
+} half;
+
+feature ss04 {
+# notes:
+# Name: Seed syllables (shuji)
+lookup seed_hamman {
+	sub ha-sidd aaMatra-sidd ma-sidd m-sidd aaMatra-sidd candrabindu-sidd danda-sidd by seed_hammaan_danda-sidd;
+	sub ha-sidd aaMatra-sidd ma-sidd m-sidd aaMatra-sidd candrabindu-sidd by seed_hammaan-sidd;
+} seed_hamman;
+
+sub ka-sidd rMatra-sidd tta-sidd virama-sidd by seed_ka_rMatra_tt_virama-sidd;
+
+sub ca-sidd ch-sidd r-sidd [ka-sidd k-sidd] y-sidd iiMatra-sidd candrabindu-sidd by seed_ca_ch_r_k_y_iiMatra_candrabindu-sidd;
+sub ca-sidd ch-sidd r-sidd [ka-sidd k-sidd] y-sidd candrabindu-sidd iiMatra-sidd by seed_ca_ch_r_k_y_iiMatra_candrabindu-sidd;
+sub ca-sidd ch-sidd r-sidd [ka-sidd k-sidd] y-sidd candrabindu-sidd by seed_ca_ch_r_k_y_candrabindu-sidd;
+
+sub ca-sidd [la-sidd l-sidd] iMatra-sidd ha-sidd y-sidd candrabindu-sidd by seed_ca_l_h_y_iMatra_candrabindu-sidd;
+sub iMatra-sidd ca-sidd [la-sidd l-sidd] [ha-sidd h-sidd] y-sidd candrabindu-sidd by seed_ca_l_h_y_iMatra_candrabindu-sidd;
+sub ca-sidd ch-sidd rMatra-sidd ha-sidd y-sidd candrabindu-sidd by seed_ca_ch_rMatra_ha_y_candrabindu-sidd;
+
+sub ja-sidd visarga-sidd by seed_ja_visarga-sidd;
+sub ja-sidd [nna-sidd nn-sidd] by seed_ja_nn-sidd;
+
+sub iMatra-sidd ta-sidd [ha-sidd h-sidd] [ma-sidd m-sidd] m-sidd by seed_ta_h_iiMatra_ma_m-sidd;
+sub iMatra-sidd ta-sidd r-sidd [ka-sidd k-sidd] y-sidd anusvara-sidd by seed_ta_r_k_y_iMatra_anusvara-sidd;
+sub iMatra-sidd ta-sidd r-sidd h-sidd y-sidd anusvara-sidd by seed_ta_r_h_y_iMatra_anusvara-sidd;
+sub ta-sidd r-sidd aaMatra-sidd visarga-sidd ha-sidd uMatra-sidd by seed_ta_r_aaMatra_visagra_ha_uMatra-sidd;
+sub ta-sidd r-sidd [tta-sidd tt-sidd] virama-sidd by seed_ta_r_tt_virama-sidd;
+sub ta-sidd r-sidd uuMatra-sidd by seed_ta_r_uuMatra-sidd;
+sub ta-sidd r-sidd by seed_ta_r-sidd;
+
+sub da-sidd dh-sidd aaMatra-sidd visarga-sidd by seed_da_dh_aaMatra_visarga-sidd;
+sub da-sidd dh-sidd by seed_da_dh-sidd;
+sub da-sidd va-sidd aaMatra-sidd by seed_da_v_aaMatra-sidd;
+
+sub iMatra-sidd dha-sidd visarga-sidd ma-sidd m-sidd danda-sidd by seed_dha_iMatra_visarga_ma_m_danda-sidd;
+sub iMatra-sidd dha-sidd visarga-sidd ma-sidd m-sidd by seed_dha_iMatra_visarga_ma_m-sidd;
+sub iMatra-sidd dha-sidd visarga-sidd ma-sidd by seed_dha_iMatra_visarga_ma-sidd;
+
+lookup seed_tr {
+	sub seed_ta_r-sidd aaMatra-sidd' visarga-sidd' by seed_aaMatra_visarga-sidd;
+} seed_tr;
+
+sub ma-sidd l-sidd c-sidd y-sidd aaMatra-sidd by seed_ma_l_c_y_aaMatra-sidd;
+sub ma-sidd [ha-sidd h-sidd] k-sidd l-sidd y-sidd aaMatra-sidd by seed_ma_ha_k_l_y_aaMatra-sidd;
+sub ma-sidd [ha-sidd h-sidd] k-sidd l-sidd y-sidd by seed_ma_ha_k_l_y-sidd;
+sub ma-sidd nn-sidd by seed_ma_nn-sidd;
+
+sub [iMatra-sidd iMatra-sidd.ra] ra-sidd rMatra-sidd aaMatra-sidd by seed_ra_rMatra_iMatra_aaMatra-sidd;
+sub [iMatra-sidd iMatra-sidd.ra] ra-sidd aaMatra-sidd rMatra-sidd by seed_ra_rMatra_iMatra_aaMatra-sidd;
+sub ra-sidd rMatra-sidd [iMatra-sidd iMatra-sidd.ra] aaMatra-sidd by seed_ra_rMatra_iMatra_aaMatra-sidd;
+sub ra-sidd rMatra-sidd aaMatra-sidd [iMatra-sidd iMatra-sidd.ra] by seed_ra_rMatra_iMatra_aaMatra-sidd;
+sub eMatra-sidd va-sidd c-sidd l-sidd m-sidd d-sidd y-sidd aiMatraAfter-sidd by seed_va_c_l_m_d_y_aiMatra-sidd;
+sub va-sidd r-sidd h-sidd m-sidd m-sidd by seed_va_r_h_m_m-sidd;
+sub eMatra-sidd va-sidd sh-sidd r-sidd m-sidd nn-sidd y-sidd aiMatraAfter-sidd aaMatra-sidd by seed_va_sh_r_m_nn_y_auMatra_sidd;
+
+sub eMatra-sidd sha-sidd rMatra-sidd aiMatraAfter-sidd ka-sidd k-sidd by seed_sha_rMatra_rMatra_aiMatra_ka_k-sidd;
+sub eMatra-sidd sha-sidd rMatra-sidd aiMatraAfter-sidd ka-sidd virama-sidd by seed_sha_rMatra_aiMatra_ka_virama-sidd;
+sub iMatra-sidd sha-sidd r-sidd h-sidd y-sidd anusvara-sidd by seed_sh_r_h_y_iMatra_m.sidd;
+
+sub iMatra-sidd sa-sidd t-sidd r-sidd y-sidd anusvara-sidd by seed_sa_t_r_y_iMatra_anusvara-sidd;
+sub sa-sidd l-sidd h-sidd y-sidd iiMatra-sidd anusvara-sidd by seed_sa_l_h_y_iiMatra_anusvara-sidd;
+
+sub eMatra-sidd ha-sidd k-sidd l-sidd anusvara-sidd aaMatra-sidd by seed_ha_k_l_oMatra_anusvara-sidd;
+sub eMatra-sidd ha-sidd k-sidd l-sidd aaMatra-sidd anusvara-sidd by seed_ha_k_l_oMatra_anusvara-sidd;
+sub ha-sidd r-sidd iiMatra-sidd ha-sidd visarga-sidd by seed_ha_r_iiMatra_ha_visarga-sidd;
+sub ha-sidd r-sidd iiMatra-sidd by seed_ha_r_iiMatra-sidd;
+sub ha-sidd r-sidd by seed_ha_r-sidd;
+sub ha-sidd l-sidd by seed_ha_l-sidd;
+sub ha-sidd iiMatra-sidd ha-sidd uMatra-sidd visarga-sidd by seed_ha_iiMatra_ha_uMatra_visarga-sidd;
+sub ha-sidd h-sidd uMatra-sidd by seed_ha_h_uMatra-sidd;
+sub ha-sidd h-sidd uuMatra-sidd by seed_ha_h_uuMatra-sidd;
+sub ha-sidd h-sidd uuMatraAlt-sidd by seed_ha_h_uuMatraAlt-sidd;
+
+lookup dynamic_ha {
+	sub ha-sidd' [r-sidd r_uMatra-sidd r_uuMatra-sidd uMatra-sidd uuMatra-sidd rMatra-sidd rrMatra-sidd uMatraAlt-sidd uuMatraAlt-sidd uMatra-sidd.ra uuMatra-sidd.ra uMatra-sidd.stem uuMatra-sidd.stem] by seed_ha_sidd;
+} dynamic_ha;
+
+lookup dynamic_ha_uMatra {
+	sub [seed_ha_sidd ha-sidd] @LettersNonInit [uMatra-sidd uuMatra-sidd]' by [uMatra-sidd.seedHa uuMatra-sidd.seedHa];
+	sub [seed_ha_sidd ha-sidd] [uMatra-sidd uuMatra-sidd]' by [uMatra-sidd.seedHa uuMatra-sidd.seedHa];
+} dynamic_ha_uMatra;
+} ss04;
+
+feature pres {
+# Pre-base substitution
+# This is after vowel reordering
+script sidd;
+
+lookup ra_aiMatra {
+# 	ignore sub ra-sidd y-sidd eMatra-sidd' aiMatraAfter-sidd';
+	sub aiMatra-sidd' ra-sidd @LettersNonInit by aiMatra-sidd.ra;
+} ra_aiMatra;
+
+# lookup ra_aiMatra {
+# 	ignore sub ra-sidd y-sidd eMatra-sidd' aiMatraAfter-sidd';
+# 	sub ra-sidd @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit eMatra-sidd' aiMatraAfter-sidd' by aiMatra-sidd.ra;
+# 	sub ra-sidd @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit eMatra-sidd' aiMatraAfter-sidd' by aiMatra-sidd.ra;
+# 	sub ra-sidd @LettersNonInit @LettersNonInit @LettersNonInit eMatra-sidd' aiMatraAfter-sidd' by aiMatra-sidd.ra;
+# 	sub ra-sidd @LettersNonInit @LettersNonInit eMatra-sidd' aiMatraAfter-sidd' by aiMatra-sidd.ra;
+# 	sub ra-sidd @LettersNonInit eMatra-sidd' aiMatraAfter-sidd' by aiMatra-sidd.ra;
+# } ra_aiMatra;
+
+lookup ra_iiMatraNukta {
+	sub ra-sidd @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit nukta-sidd iiMatra-sidd' by iiMatra-sidd.ra;
+	sub ra-sidd @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit nukta-sidd iiMatra-sidd' by iiMatra-sidd.ra;
+	sub ra-sidd @LettersNonInit @LettersNonInit @LettersNonInit nukta-sidd iiMatra-sidd' by iiMatra-sidd.ra;
+	sub ra-sidd @LettersNonInit @LettersNonInit nukta-sidd iiMatra-sidd' by iiMatra-sidd.ra;
+	sub ra-sidd @LettersNonInit nukta-sidd iiMatra-sidd' by iiMatra-sidd.ra;
+} ra_iiMatraNukta;
+
+lookup ra_iiMatra {
+	sub ra-sidd @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit iiMatra-sidd' by iiMatra-sidd.ra;
+	sub ra-sidd @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit iiMatra-sidd' by iiMatra-sidd.ra;
+	sub ra-sidd @LettersNonInit @LettersNonInit @LettersNonInit iiMatra-sidd' by iiMatra-sidd.ra;
+	sub ra-sidd @LettersNonInit @LettersNonInit iiMatra-sidd' by iiMatra-sidd.ra;
+	sub ra-sidd @LettersNonInit iiMatra-sidd' by iiMatra-sidd.ra;
+} ra_iiMatra;
+
+lookup initial {
+	sub @ini_0' [@LettersNonInit @MatraBottom] by @ini_half;
+} initial;
+
+lookup Matra_raNukta {
+	sub [iMatra-sidd eMatra-sidd]' ra-sidd.ini by [iMatra-sidd.ra eMatra-sidd.ra];
+	sub ra-sidd.ini @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit nukta-sidd aaMatra-sidd' by aaMatra-sidd.ra;
+	sub ra-sidd.ini @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit nukta-sidd aaMatra-sidd' by aaMatra-sidd.ra;
+	sub ra-sidd.ini @LettersNonInit @LettersNonInit @LettersNonInit nukta-sidd aaMatra-sidd' by aaMatra-sidd.ra;
+	sub ra-sidd.ini @LettersNonInit @LettersNonInit nukta-sidd aaMatra-sidd' by aaMatra-sidd.ra;
+	sub ra-sidd.ini @LettersNonInit nukta-sidd aaMatra-sidd' by aaMatra-sidd.ra;
+	sub ra-sidd.ini nukta-sidd aaMatra-sidd' by aaMatra-sidd.ra;
+} Matra_raNukta;
+
+lookup Matra_ra {
+	sub [iMatra-sidd eMatra-sidd]' ra-sidd.ini by [iMatra-sidd.ra eMatra-sidd.ra];
+	sub ra-sidd.ini @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit aaMatra-sidd' by aaMatra-sidd.ra;
+	sub ra-sidd.ini @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit aaMatra-sidd' by aaMatra-sidd.ra;
+	sub ra-sidd.ini @LettersNonInit @LettersNonInit @LettersNonInit aaMatra-sidd' by aaMatra-sidd.ra;
+	sub ra-sidd.ini @LettersNonInit @LettersNonInit aaMatra-sidd' by aaMatra-sidd.ra;
+	sub ra-sidd.ini @LettersNonInit aaMatra-sidd' by aaMatra-sidd.ra;
+	sub ra-sidd.ini aaMatra-sidd' by aaMatra-sidd.ra;
+} Matra_ra;
+
+lookup Matra_ra_cancel {
+	ignore sub [iMatra-sidd.ra eMatra-sidd.ra]' ra-sidd.ini y-sidd @LettersNonInit;
+	sub [iMatra-sidd.ra eMatra-sidd.ra]' ra-sidd.ini y-sidd by [iMatra-sidd eMatra-sidd];
+	sub ra-sidd.ini y-sidd [iiMatra-sidd.ra aaMatra-sidd.ra]' by [iiMatra-sidd aaMatra-sidd];
+} Matra_ra_cancel;
+
+lookup r_u {
+	sub r-sidd uMatra-sidd by r_uMatra-sidd;
+	sub r-sidd uuMatra-sidd by r_uuMatra-sidd;
+} r_u;
+
+lookup iMatra {
+	ignore sub iMatra-sidd' [jha-sidd.ini nya-sidd.ini] [@excessR1 @excessR2 c-sidd th-sidd dh-sidd n-sidd b-sidd bh-sidd r-sidd l-sidd v-sidd ];
+	sub iMatra-sidd' [gha-sidd nga-sidd ja-sidd jha-sidd nya-sidd pa-sidd ma-sidd ya-sidd ra-sidd ssa-sidd sa-sidd gha-sidd.ini nga-sidd.ini ja-sidd.ini jha-sidd.ini nya-sidd.ini pa-sidd.ini ma-sidd.ini ya-sidd.ini ra-sidd.ini ssa-sidd.ini sa-sidd.ini] by iMatra-sidd.narrow;
+	sub iMatra-sidd' [tha-sidd tha-sidd.ini dha-sidd dha-sidd.ini] by iMatra-sidd.wide;
+	sub iMatra-sidd' [la-sidd la-sidd.ini] by iMatra-sidd.la;
+	# ra
+	ignore sub iMatra-sidd' ra-sidd.ini [jh-sidd ny-sidd] [@excessR1 @excessR2 c-sidd th-sidd dh-sidd n-sidd b-sidd bh-sidd r-sidd l-sidd v-sidd ];
+	sub iMatra-sidd.ra' ra-sidd.ini [gh-sidd ng-sidd j-sidd jh-sidd ny-sidd p-sidd m-sidd y-sidd r-sidd ss-sidd s-sidd] by iMatra-sidd.narrow.ra;
+	sub iMatra-sidd.ra' ra-sidd.ini [th-sidd dh-sidd] by iMatra-sidd.wide.ra;
+	sub iMatra-sidd.ra' ra-sidd.ini l-sidd by iMatra-sidd.la.ra;
+} iMatra;
+
+lookup iMatra_Open {
+	sub [iMatra-sidd iMatra-sidd.wide iMatra-sidd.narrow iMatra-sidd.la]' [ka-sidd.ini nga-sidd.ini ca-sidd.ini cha-sidd.ini ja-sidd.ini jha-sidd.ini nya-sidd.ini tta-sidd.ini ttha-sidd.ini dda-sidd.ini ddha-sidd.ini nna-sidd.ini ta-sidd.ini tha-sidd.ini da-sidd.ini dha-sidd.ini na-sidd.ini pha-sidd.ini ba-sidd.ini bha-sidd.ini ra-sidd.ini la-sidd.ini va-sidd.ini ha-sidd.ini] @excessL by [iMatra-sidd.open iMatra-sidd.wide.open iMatra-sidd.narrow.open iMatra-sidd.la.open];
+	sub iMatra-sidd' [kha-sidd.ini ga-sidd.ini sha-sidd.ini] [kh-sidd g-sidd sh-sidd] by iMatra-sidd.open;
+	# ra
+	sub [iMatra-sidd.ra iMatra-sidd.wide.ra iMatra-sidd.narrow.ra iMatra-sidd.la.ra]' ra-sidd.ini [k-sidd ng-sidd c-sidd ch-sidd j-sidd jh-sidd ny-sidd tt-sidd tth-sidd dd-sidd ddh-sidd nn-sidd t-sidd th-sidd d-sidd dh-sidd n-sidd ph-sidd b-sidd bh-sidd r-sidd l-sidd v-sidd h-sidd] @excessL by [iMatra-sidd.open.ra iMatra-sidd.wide.open.ra iMatra-sidd.narrow.open.ra iMatra-sidd.la.open.ra];
+	sub iMatra-sidd.ra' ra-sidd.ini [kh-sidd g-sidd sh-sidd] [kh-sidd g-sidd sh-sidd] by iMatra-sidd.open.ra;
+} iMatra_Open;
+
+lookup eMatra {
+	sub eMatra-sidd' la-sidd by eMatra-sidd.la1;
+	sub eMatra-sidd' la-sidd.ini by eMatra-sidd.la2;
+	sub eMatra-sidd' [nna-sidd nna-sidd.ini tha-sidd tha-sidd.ini dha-sidd dha-sidd.ini] by eMatra-sidd.long;
+	# ra
+	sub eMatra-sidd.ra' ra-sidd.ini l-sidd by eMatra-sidd.la2.ra;
+	sub eMatra-sidd.ra' ra-sidd.ini [nn-sidd th-sidd dh-sidd] by eMatra-sidd.long.ra;
+} eMatra;
+
+@iiNarrow1 = [kha-sidd ga-sidd ca-sidd dda-sidd ta-sidd na-sidd ba-sidd bha-sidd va-sidd sha-sidd kha-sidd.ini ga-sidd.ini ca-sidd.ini dda-sidd.ini ta-sidd.ini na-sidd.ini ba-sidd.ini bha-sidd.ini va-sidd.ini sha-sidd.ini    la-sidd.ini];
+@iiNarrow2 = [a-sidd gha-sidd tha-sidd dha-sidd pa-sidd ma-sidd ya-sidd ssa-sidd sa-sidd a-sidd.ini gha-sidd.ini tha-sidd.ini dha-sidd.ini pa-sidd.ini ma-sidd.ini ya-sidd.ini ssa-sidd.ini sa-sidd.ini];
+@ii_kha = [kha-sidd.ini ga-sidd.ini sha-sidd.ini];
+@excessR_custom = [ng-sidd j-sidd tt-sidd tth-sidd d-sidd m-sidd y-sidd h-sidd];
+
+@iiNarrowRa1 = [kh-sidd g-sidd c-sidd dd-sidd t-sidd n-sidd b-sidd bh-sidd v-sidd sh-sidd l-sidd];
+@iiNarrowRa2 = [gh-sidd th-sidd dh-sidd p-sidd m-sidd y-sidd ss-sidd sa-sidd];
+@ii_khaRa = [kh-sidd g-sidd sh-sidd];
+
+lookup iiMatra_Narrow {
+	ignore sub @ii_kha @excessR1 @LettersNonInit @LettersNonInit @LettersNonInit iiMatra-sidd';
+	ignore sub @ii_kha @excessR1 @LettersNonInit @LettersNonInit iiMatra-sidd';
+	ignore sub @ii_kha @excessR1 @LettersNonInit iiMatra-sidd';
+	ignore sub @ii_kha @excessR1 iiMatra-sidd';
+	sub @iiNarrow1 @excessR_custom @LettersNonInit @LettersNonInit @LettersNonInit iiMatra-sidd' by iiMatra-sidd.narrow;
+	sub @iiNarrow1 @excessR_custom @LettersNonInit @LettersNonInit iiMatra-sidd' by iiMatra-sidd.narrow;
+	sub @iiNarrow1 @excessR_custom @LettersNonInit iiMatra-sidd' by iiMatra-sidd.narrow;
+	sub @iiNarrow1 @excessR_custom iiMatra-sidd' by iiMatra-sidd.narrow;
+	ignore sub @iiNarrow1 [@excessR1 @excessR2] iiMatra-sidd';
+	sub @iiNarrow1 @LettersNonInit iiMatra-sidd' by iiMatra-sidd.narrow;
+	sub @iiNarrow1 iiMatra-sidd' by iiMatra-sidd.narrow;
+	# ra
+	ignore sub ra-sidd.ini @ii_khaRa @excessR1 @LettersNonInit @LettersNonInit iiMatra-sidd';
+	ignore sub ra-sidd.ini @ii_khaRa @excessR1 @LettersNonInit iiMatra-sidd';
+	ignore sub ra-sidd.ini @ii_khaRa @excessR1 iiMatra-sidd';
+	sub ra-sidd.ini @iiNarrowRa1 @excessR_custom @LettersNonInit @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.narrow.ra;
+	sub ra-sidd.ini @iiNarrowRa1 @excessR_custom @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.narrow.ra;
+	sub ra-sidd.ini @iiNarrowRa1 @excessR_custom iiMatra-sidd.ra' by iiMatra-sidd.narrow.ra;
+
+	ignore sub ra-sidd.ini @iiNarrowRa1 [@excessR1 @excessR2] @LettersNonInit @LettersNonInit iiMatra-sidd.ra';
+	ignore sub ra-sidd.ini @iiNarrowRa1 [@excessR1 @excessR2] @LettersNonInit iiMatra-sidd.ra';
+	ignore sub ra-sidd.ini @iiNarrowRa1 [@excessR1 @excessR2] iiMatra-sidd.ra';
+	sub ra-sidd.ini @iiNarrowRa1 @LettersNonInit @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.narrow.ra;
+	sub ra-sidd.ini @iiNarrowRa1 @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.narrow.ra;
+	sub ra-sidd.ini @iiNarrowRa1 iiMatra-sidd.ra' by iiMatra-sidd.narrow.ra;
+} iiMatra_Narrow;
+
+@iiWide2 = [jha-sidd nya-sidd jha-sidd.ini nya-sidd.ini];
+@iiWide = [ka-sidd nga-sidd cha-sidd ja-sidd tta-sidd ttha-sidd ddha-sidd nna-sidd pha-sidd ka-sidd.ini nga-sidd.ini cha-sidd.ini ja-sidd.ini tta-sidd.ini ttha-sidd.ini ddha-sidd.ini nna-sidd.ini pha-sidd.ini];
+
+@iiWideRa2 = [jh-sidd ny-sidd];
+@iiWideRa = [k-sidd ng-sidd ch-sidd j-sidd tt-sidd tth-sidd ddh-sidd nn-sidd ph-sidd];
+
+lookup iiMatra_Wide {
+	ignore sub [kha-sidd.ini ga-sidd.ini gha-sidd.ini sha-sidd.ini] [kh-sidd g-sidd sh-sidd] @LettersNonInit @LettersNonInit @LettersNonInit iiMatra-sidd';
+	ignore sub [kha-sidd.ini ga-sidd.ini gha-sidd.ini sha-sidd.ini] [kh-sidd g-sidd sh-sidd] @LettersNonInit @LettersNonInit iiMatra-sidd';
+	ignore sub [kha-sidd.ini ga-sidd.ini gha-sidd.ini sha-sidd.ini] [kh-sidd g-sidd sh-sidd] @LettersNonInit iiMatra-sidd';
+	ignore sub [kha-sidd.ini ga-sidd.ini gha-sidd.ini sha-sidd.ini] [kh-sidd g-sidd sh-sidd] iiMatra-sidd';
+	sub @iiNarrow2 [@excessR1 @excessR2] @LettersNonInit @LettersNonInit @LettersNonInit iiMatra-sidd' by iiMatra-sidd.wide2;
+	sub @iiNarrow2 [@excessR1 @excessR2] @LettersNonInit @LettersNonInit iiMatra-sidd' by iiMatra-sidd.wide2;
+	sub @iiNarrow2 [@excessR1 @excessR2] @LettersNonInit iiMatra-sidd' by iiMatra-sidd.wide2;
+	sub @iiNarrow2 @excessR2 iiMatra-sidd' by iiMatra-sidd.wide2;
+	sub @iiNarrow2 @excessR1 iiMatra-sidd' by iiMatra-sidd.wide;
+	sub @ii_kha @excessR2 @LettersNonInit @LettersNonInit @LettersNonInit iiMatra-sidd' by iiMatra-sidd.wide;
+	sub @ii_kha @excessR2 @LettersNonInit @LettersNonInit iiMatra-sidd' by iiMatra-sidd.wide;
+	sub @ii_kha @excessR2 @LettersNonInit iiMatra-sidd' by iiMatra-sidd.wide;
+	sub @ii_kha @excessR2 iiMatra-sidd' by iiMatra-sidd.wide;
+	sub [nga-sidd.ini ja-sidd.ini tta-sidd.ini] [kh-sidd jh-sidd ny-sidd sh-sidd] @LettersNonInit @LettersNonInit iiMatra-sidd' by iiMatra-sidd.wide2;
+	sub [nga-sidd.ini ja-sidd.ini tta-sidd.ini] [kh-sidd jh-sidd ny-sidd sh-sidd] @LettersNonInit iiMatra-sidd' by iiMatra-sidd.wide2;
+	sub [nga-sidd.ini ja-sidd.ini tta-sidd.ini] [kh-sidd jh-sidd ny-sidd sh-sidd] iiMatra-sidd' by iiMatra-sidd.wide2;
+	sub bha-sidd.ini @excessR1 @LettersNonInit @LettersNonInit @LettersNonInit iiMatra-sidd.narrow' by iiMatra-sidd.wide;
+	sub bha-sidd.ini @excessR1 @LettersNonInit @LettersNonInit iiMatra-sidd.narrow' by iiMatra-sidd.wide;
+	sub bha-sidd.ini @excessR1 @LettersNonInit iiMatra-sidd.narrow' by iiMatra-sidd.wide;
+	sub bha-sidd.ini @excessR1 iiMatra-sidd.narrow' by iiMatra-sidd.wide;
+	sub [da-sidd.ini bha-sidd.ini] @excessR2 @LettersNonInit @LettersNonInit @LettersNonInit iiMatra-sidd' by iiMatra-sidd.wide2;
+	sub [da-sidd.ini bha-sidd.ini] @excessR2 @LettersNonInit @LettersNonInit iiMatra-sidd' by iiMatra-sidd.wide2;
+	sub [da-sidd.ini bha-sidd.ini] @excessR2 @LettersNonInit iiMatra-sidd' by iiMatra-sidd.wide2;
+	sub [da-sidd.ini bha-sidd.ini] @excessR2 iiMatra-sidd' by iiMatra-sidd.wide2;
+	#ra
+	ignore sub ra-sidd.ini [kh-sidd g-sidd gh-sidd sh-sidd] [kh-sidd g-sidd sh-sidd] @LettersNonInit @LettersNonInit @LettersNonInit iiMatra-sidd.ra';
+	ignore sub ra-sidd.ini [kh-sidd g-sidd gh-sidd sh-sidd] [kh-sidd g-sidd sh-sidd] @LettersNonInit @LettersNonInit iiMatra-sidd.ra';
+	ignore sub ra-sidd.ini [kh-sidd g-sidd gh-sidd sh-sidd] [kh-sidd g-sidd sh-sidd] @LettersNonInit iiMatra-sidd.ra';
+	ignore sub ra-sidd.ini [kh-sidd g-sidd gh-sidd sh-sidd] [kh-sidd g-sidd sh-sidd] iiMatra-sidd.ra';
+	sub @iiNarrowRa2 [@excessR1 @excessR2] @LettersNonInit @LettersNonInit @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.wide2.ra;
+	sub @iiNarrowRa2 [@excessR1 @excessR2] @LettersNonInit @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.wide2.ra;
+	sub @iiNarrowRa2 [@excessR1 @excessR2] @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.wide2.ra;
+	sub @iiNarrowRa2 @excessR2 iiMatra-sidd.ra' by iiMatra-sidd.wide2.ra;
+	sub @iiNarrowRa2 @excessR1 iiMatra-sidd.ra' by iiMatra-sidd.wide.ra;
+	sub @ii_khaRa @excessR2 @LettersNonInit @LettersNonInit @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.wide.ra;
+	sub @ii_khaRa @excessR2 @LettersNonInit @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.wide.ra;
+	sub @ii_khaRa @excessR2 @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.wide.ra;
+	sub @ii_khaRa @excessR2 iiMatra-sidd.ra' by iiMatra-sidd.wide.ra;
+	sub [ng-sidd j-sidd tt-sidd] [kh-sidd jh-sidd ny-sidd sh-sidd] @LettersNonInit @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.wide2.ra;
+	sub [ng-sidd j-sidd tt-sidd] [kh-sidd jh-sidd ny-sidd sh-sidd] @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.wide2.ra;
+	sub [ng-sidd j-sidd tt-sidd] [kh-sidd jh-sidd ny-sidd sh-sidd] iiMatra-sidd.ra' by iiMatra-sidd.wide2.ra;
+	sub bh-sidd @excessR1 @LettersNonInit @LettersNonInit @LettersNonInit iiMatra-sidd.narrow.ra' by iiMatra-sidd.wide.ra;
+	sub bh-sidd @excessR1 @LettersNonInit @LettersNonInit iiMatra-sidd.narrow.ra' by iiMatra-sidd.wide.ra;
+	sub bh-sidd @excessR1 @LettersNonInit iiMatra-sidd.narrow.ra' by iiMatra-sidd.wide.ra;
+	sub bh-sidd @excessR1 iiMatra-sidd.narrow.ra' by iiMatra-sidd.wide.ra;
+	sub [d-sidd bh-sidd] @excessR2 @LettersNonInit @LettersNonInit @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.wide2.ra;
+	sub [d-sidd bh-sidd] @excessR2 @LettersNonInit @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.wide2.ra;
+	sub [d-sidd bh-sidd] @excessR2 @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.wide2.ra;
+	sub [d-sidd bh-sidd] @excessR2 iiMatra-sidd.ra' by iiMatra-sidd.wide2.ra;
+} iiMatra_Wide;
+
+lookup iiMatra_WideRa2 {
+	sub ra-sidd.ini @iiWideRa2 @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.wide2.ra;
+	sub ra-sidd.ini @iiWideRa2 @LettersNonInit @LettersNonInit @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.wide2.ra;
+	sub ra-sidd.ini @iiWideRa2 @LettersNonInit @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.wide2.ra;
+	sub ra-sidd.ini @iiWideRa2 @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.wide2.ra;
+	sub ra-sidd.ini @iiWideRa2 iiMatra-sidd.ra' by iiMatra-sidd.wide2.ra;
+	sub ra-sidd.ini @iiWideRa @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.wide.ra;
+	sub ra-sidd.ini @iiWideRa @LettersNonInit @LettersNonInit @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.wide.ra;
+	sub ra-sidd.ini @iiWideRa @LettersNonInit @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.wide.ra;
+	sub ra-sidd.ini @iiWideRa @LettersNonInit iiMatra-sidd.ra' by iiMatra-sidd.wide.ra;
+	sub ra-sidd.ini @iiWideRa iiMatra-sidd.ra' by iiMatra-sidd.wide.ra;
+} iiMatra_WideRa2;
+
+@aaNgaRa = [ng-sidd j-sidd tt-sidd];
+@aaShortRa = [k-sidd ch-sidd tth-sidd ddh-sidd nn-sidd d-sidd ph-sidd h-sidd];
+
+lookup aaMatraRaNukta {
+	sub ra-sidd.ini @aaNgaRa @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit nukta-sidd aaMatra-sidd.ra' by aaMatra-sidd.nga.ra;
+	sub ra-sidd.ini @aaNgaRa @LettersNonInit @LettersNonInit @LettersNonInit nukta-sidd aaMatra-sidd.ra' by aaMatra-sidd.nga.ra;
+	sub ra-sidd.ini @aaNgaRa @LettersNonInit @LettersNonInit nukta-sidd aaMatra-sidd.ra' by aaMatra-sidd.nga.ra;
+	sub ra-sidd.ini @aaNgaRa @LettersNonInit nukta-sidd aaMatra-sidd.ra' by aaMatra-sidd.nga.ra;
+	sub ra-sidd.ini @aaNgaRa nukta-sidd aaMatra-sidd.ra' by aaMatra-sidd.nga.ra;
+	sub ra-sidd.ini @aaShortRa @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit nukta-sidd aaMatra-sidd.ra' by aaMatra-sidd.short.ra;
+	sub ra-sidd.ini @aaShortRa @LettersNonInit @LettersNonInit @LettersNonInit nukta-sidd aaMatra-sidd.ra' by aaMatra-sidd.short.ra;
+	sub ra-sidd.ini @aaShortRa @LettersNonInit @LettersNonInit nukta-sidd aaMatra-sidd.ra' by aaMatra-sidd.short.ra;
+	sub ra-sidd.ini @aaShortRa @LettersNonInit nukta-sidd aaMatra-sidd.ra' by aaMatra-sidd.short.ra;
+	sub ra-sidd.ini @aaShortRa nukta-sidd aaMatra-sidd.ra' by aaMatra-sidd.short.ra;
+} aaMatraRaNukta;
+
+lookup aaMatraRa {
+	sub ra-sidd.ini @aaNgaRa @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit aaMatra-sidd.ra' by aaMatra-sidd.nga.ra;
+	sub ra-sidd.ini @aaNgaRa @LettersNonInit @LettersNonInit @LettersNonInit aaMatra-sidd.ra' by aaMatra-sidd.nga.ra;
+	sub ra-sidd.ini @aaNgaRa @LettersNonInit @LettersNonInit aaMatra-sidd.ra' by aaMatra-sidd.nga.ra;
+	sub ra-sidd.ini @aaNgaRa @LettersNonInit aaMatra-sidd.ra' by aaMatra-sidd.nga.ra;
+	sub ra-sidd.ini @aaNgaRa aaMatra-sidd.ra' by aaMatra-sidd.nga.ra;
+	sub ra-sidd.ini @aaShortRa @LettersNonInit @LettersNonInit @LettersNonInit @LettersNonInit aaMatra-sidd.ra' by aaMatra-sidd.short.ra;
+	sub ra-sidd.ini @aaShortRa @LettersNonInit @LettersNonInit @LettersNonInit aaMatra-sidd.ra' by aaMatra-sidd.short.ra;
+	sub ra-sidd.ini @aaShortRa @LettersNonInit @LettersNonInit aaMatra-sidd.ra' by aaMatra-sidd.short.ra;
+	sub ra-sidd.ini @aaShortRa @LettersNonInit aaMatra-sidd.ra' by aaMatra-sidd.short.ra;
+	sub ra-sidd.ini @aaShortRa aaMatra-sidd.ra' by aaMatra-sidd.short.ra;
+} aaMatraRa;
+
+lookup ra_jha_aaMatra_0 {
+	sub ra-sidd.ini [jh-sidd ny-sidd] @LettersNonInit @LettersNonInit @LettersNonInit aaMatra-sidd.ra' by aaMatra-sidd.jha.ra.third;
+	sub ra-sidd.ini [jh-sidd ny-sidd] @LettersNonInit @LettersNonInit aaMatra-sidd.ra' by aaMatra-sidd.jha.ra.third;
+	sub ra-sidd.ini [jh-sidd ny-sidd] @LettersNonInit aaMatra-sidd.ra' by aaMatra-sidd.jha.ra.third;
+	sub ra-sidd.ini [jh-sidd ny-sidd] aaMatra-sidd.ra' by aaMatra-sidd.jha.ra;
+} ra_jha_aaMatra_0;
+
+lookup aaMatraRa_exception {
+	sub ra-sidd.ini y-sidd aaMatra-sidd' by aaMatra-sidd.short;
+} aaMatraRa_exception;
+
+lookup aiMatraRa {
+	sub aiMatra-sidd.ra' ra-sidd.ini l-sidd by aiMatra-sidd.la.ra;
+	sub aiMatra-sidd.ra' ra-sidd.ini [th-sidd dh-sidd] by aiMatra-sidd.tha.ra;
+} aiMatraRa;
+
+lookup uMatra {
+	sub [ka-sidd.ini k-sidd] ss-sidd [uMatra-sidd uuMatra-sidd]' by [uMatra-sidd.stem uuMatra-sidd.stem];
+	sub ra-sidd.ini [uMatra-sidd uuMatra-sidd]' by [uMatra-sidd.ra uuMatra-sidd.ra];
+	sub @uMatraStem [uMatra-sidd uuMatra-sidd]' by [uMatra-sidd.stem uuMatra-sidd.stem];
+} uMatra;
+
+lookup iiMatra_Wide2 {
+	lookupflag IgnoreMarks;
+	sub @iiWide2 iiMatra-sidd' by iiMatra-sidd.wide2;
+	sub @iiWide iiMatra-sidd' by iiMatra-sidd.wide;
+} iiMatra_Wide2;
+
+lookup aaMatra {
+	lookupflag IgnoreMarks;
+	sub [nga-sidd ja-sidd nga-sidd.ini ja-sidd.ini tta-sidd tta-sidd.ini] aaMatra-sidd' by aaMatra-sidd.nga;
+	sub [ka-sidd.ini cha-sidd cha-sidd.ini ttha-sidd ttha-sidd.ini ddha-sidd ddha-sidd.ini nna-sidd.ini da-sidd da-sidd.ini pha-sidd pha-sidd.ini ha-sidd.ini] aaMatra-sidd' by aaMatra-sidd.short;
+} aaMatra;
+} pres;
+
+feature ss01 {
+# notes:
+# Name: Force all U matra to the cloud shape (all ungyo U)
+sub [uMatra-sidd.stem uuMatra-sidd.stem uMatra-sidd.ra uuMatra-sidd.ra uMatraAlt-sidd] by [uMatra-sidd uuMatra-sidd uMatra-sidd uuMatra-sidd uMatra-sidd];
+} ss01;
+
+feature ss02 {
+# notes:
+# Name: Force all U matra to the warbler shape (all uguisu U)
+sub [uMatra-sidd uuMatra-sidd] by [uMatra-sidd.stem uuMatra-sidd.stem];
+} ss02;
+
+feature psts {
+# Post-base substitution
+script sidd;
+
+lookup medial {
+	ignore sub [y-sidd y-sidd.med]' [uMatra-sidd.stem uuMatra-sidd.stem rMatra-sidd rrMatra-sidd ];
+	sub @med_0' [@med_0 @MatraBottom] by @med_1;
+} medial;
+
+lookup ra {
+	sub ra-sidd.ini @med_1' by @med_ra;
+	sub ra-sidd.ini @med_0' by @fin_ra;
+	sub ra-sidd.ini' [uMatra-sidd uuMatra-sidd uuMatraAlt-sidd rMatra-sidd rrMatra-sidd] by ra-sidd.ini.long;
+} ra;
+
+lookup initial2 {
+	sub @ini_half' [@med_1 @med_ra] by @ini_third;
+} initial2;
+
+lookup final2 {
+	sub [@med_1 @med_ra] [@med_0 r_uMatra-sidd r_uuMatra-sidd]' by [@fin_third r_uMatra-sidd.third r_uuMatra-sidd.third];
+} final2;
+
+lookup diagonal { # connecting diagonally
+	sub @diaB_0' @diaT_0 by @diaB_1;
+	sub @diaB_1 @diaT_0' by @diaT_1;
+} diagonal;
+
+lookup centre { # connecting at the centre
+	sub @centre00' @centre10 by @centre01;
+	sub @centre01 @centre10' by @centre11;
+} centre;
+
+lookup right{ # connecting at the right
+	sub [kha-sidd.ini ga-sidd.ini gha-sidd.ini sha-sidd.ini kha-sidd.iniThird ga-sidd.iniThird gha-sidd.iniThird sha-sidd.iniThird kh-sidd.med g-sidd.med gh-sidd.med sh-sidd.med kh-sidd.med.ra g-sidd.med.ra gh-sidd.med.ra sh-sidd.med.ra] @right_0' by @right_1;
+} right;
+
+lookup ra_aiMatra_cancel {
+	sub aiMatra-sidd.ra' ra-sidd.ini y-sidd.ra by aiMatra-sidd;
+} ra_aiMatra_cancel;
+
+lookup ra_jha_aaMatra_1 {
+	sub [jh-sidd.med.ra ny-sidd.med.ra]' @AllNonInit @AllNonInit @AllNonInit aaMatra-sidd.jha.ra.third by [jh-sidd.med.ra.aaMatra ny-sidd.med.ra.aaMatra];
+	sub [jh-sidd.med.ra ny-sidd.med.ra]' @AllNonInit @AllNonInit aaMatra-sidd.jha.ra.third by [jh-sidd.med.ra.aaMatra ny-sidd.med.ra.aaMatra];
+	sub [jh-sidd.med.ra ny-sidd.med.ra]' @AllNonInit aaMatra-sidd.jha.ra.third by [jh-sidd.med.ra.aaMatra ny-sidd.med.ra.aaMatra];
+	sub [jh-sidd.ra ny-sidd.ra]' aaMatra-sidd.jha.ra by [jh-sidd.ra.aaMatra ny-sidd.ra.aaMatra];
+} ra_jha_aaMatra_1;
+
+lookup jha_aaMatra {
+	lookupflag IgnoreMarks;
+	sub [jha-sidd nya-sidd]' aaMatra-sidd by [jha-sidd.aaMatra nya-sidd.aaMatra];
+	sub [jha-sidd.aaMatra nya-sidd.aaMatra] aaMatra-sidd' by aaMatra-sidd.jha;
+	sub [jha-sidd.ini nya-sidd.ini]' aaMatra-sidd by [jha-sidd.ini.aaMatra nya-sidd.ini.aaMatra];
+	sub [jha-sidd.ini.aaMatra nya-sidd.ini.aaMatra] aaMatra-sidd' by aaMatra-sidd.ini.jha;
+	sub [jha-sidd.iniThird nya-sidd.iniThird]' aaMatra-sidd by [jha-sidd.iniThird.aaMatra nya-sidd.iniThird.aaMatra];
+	sub [jha-sidd.iniThird.aaMatra nya-sidd.iniThird.aaMatra] aaMatra-sidd' by aaMatra-sidd.iniThird.jha;
+} jha_aaMatra;
+
+lookup reorder_bindu { # anusvara & candrabindu reordering
+	lookupflag 0;
+	sub aaMatra-sidd' lookup reorder_first @reorderingMarks' lookup reorder_aa;
+	sub aaMatra-sidd.ini.jha' lookup reorder_first @reorderingMarks' lookup reorder_aa.ini.jha;
+	sub aaMatra-sidd.iniThird.jha' lookup reorder_first @reorderingMarks' lookup reorder_aa.iniThird.jha;
+	sub aaMatra-sidd.jha' lookup reorder_first @reorderingMarks' lookup reorder_aa.jha;
+	sub aaMatra-sidd.nga' lookup reorder_first @reorderingMarks' lookup reorder_aa.nga;
+	sub aaMatra-sidd.jha.ra.third' lookup reorder_first @reorderingMarks' lookup reorder_.jha.ra.third;
+	sub aaMatra-sidd.jha.ra' lookup reorder_first @reorderingMarks' lookup reorder_aa.jha.ra;
+	sub aaMatra-sidd.nga.ra' lookup reorder_first @reorderingMarks' lookup reorder_aa.nga.ra;
+	sub aaMatra-sidd.short.ra' lookup reorder_first @reorderingMarks' lookup reorder_aa.short.ra;
+	sub aaMatra-sidd.ra' lookup reorder_first @reorderingMarks' lookup reorder_aa.ra;
+	sub aaMatra-sidd.short' lookup reorder_first @reorderingMarks' lookup reorder_aa.short;
+	sub iiMatra-sidd' lookup reorder_first @reorderingMarks' lookup reorder_ii;
+	sub iiMatra-sidd.narrow' lookup reorder_first @reorderingMarks' lookup reorder_ii.narrow;
+	sub iiMatra-sidd.narrow.ra' lookup reorder_first @reorderingMarks' lookup reorder_ii.narrow.ra;
+	sub iiMatra-sidd.ra' lookup reorder_first @reorderingMarks' lookup reorder_ii.ra;
+	sub iiMatra-sidd.wide.ra' lookup reorder_first @reorderingMarks' lookup reorder_ii.wide.ra;
+	sub iiMatra-sidd.wide2.ra' lookup reorder_first @reorderingMarks' lookup reorder_ii.wide2.ra;
+	sub iiMatra-sidd.wide' lookup reorder_first @reorderingMarks' lookup reorder_ii.wide;
+	sub iiMatra-sidd.wide2' lookup reorder_first @reorderingMarks' lookup reorder_ii.wide2;
+} reorder_bindu;
+} psts;
+
+feature kern {
+# pos X' X <leftOffset topOffset rightExtra bottomExtra>
+@ra_ini = [ra-sidd.ini ra-sidd.iniThird];
+@ra_sub = [k-sidd.med.ra.centre k-sidd.med.ra kh-sidd.med.ra g-sidd.med.ra gh-sidd.med.ra ng-sidd.med.ra c-sidd.med.ra ch-sidd.med.ra j-sidd.med.ra jh-sidd.med.ra ny-sidd.med.ra tt-sidd.med.ra tth-sidd.med.ra dd-sidd.med.ra ddh-sidd.med.ra nn-sidd.med.ra t-sidd.med.ra th-sidd.med.ra d-sidd.med.ra dh-sidd.med.ra n-sidd.med.ra p-sidd.med.ra ph-sidd.med.ra b-sidd.med.ra bh-sidd.med.ra m-sidd.med.ra y-sidd.med.ra r-sidd.med.ra l-sidd.med.ra v-sidd.med.ra sh-sidd.med.ra ss-sidd.med.ra s-sidd.med.ra h-sidd.med.ra k-sidd.ra kh-sidd.ra g-sidd.ra gh-sidd.ra ng-sidd.ra c-sidd.ra ch-sidd.ra j-sidd.ra jh-sidd.ra ny-sidd.ra tt-sidd.ra tth-sidd.ra dd-sidd.ra ddh-sidd.ra nn-sidd.ra t-sidd.ra th-sidd.ra d-sidd.ra dh-sidd.ra n-sidd.ra p-sidd.ra ph-sidd.ra b-sidd.ra bh-sidd.ra m-sidd.ra y-sidd.ra r-sidd.ra l-sidd.ra v-sidd.ra sh-sidd.ra ss-sidd.ra s-sidd.ra h-sidd.ra];
+
+lookup kern_ra_LSB {
+	ignore pos [@CK_L_iMatra @CK_L_eMatra] @ra_ini' @ra_sub;
+	pos @ra_ini' <0 0 0 0> r-sidd.med.ra;
+	pos @ra_ini' <256 0 256 0> [l-sidd.med.ra l-sidd.ra];
+	pos @ra_ini' <131 0 131 0> [sh-sidd.med.ra sh-sidd.ra];
+	pos @ra_ini' <132 0 132 0> [n-sidd.med.ra n-sidd.ra];
+	pos @ra_ini' <135 0 135 0> nn-sidd.ra;
+	pos @ra_ini' <136 0 136 0> [ch-sidd.med.ra ch-sidd.ra];
+	pos @ra_ini' <13 0 13 0> [dh-sidd.med.ra dh-sidd.ra];
+	pos @ra_ini' <147 0 147 0> [tt-sidd.med.ra tt-sidd.ra];
+	pos @ra_ini' <27 0 27 0> [s-sidd.med.ra s-sidd.ra];
+	pos @ra_ini' <37 0 37 0> [ph-sidd.med.ra ph-sidd.ra];
+	pos @ra_ini' <59 0 59 0> [ny-sidd.med.ra ny-sidd.ra];
+	pos @ra_ini' <61 0 61 0> [bh-sidd.med.ra bh-sidd.ra];
+	pos @ra_ini' <-66 0 -66 0> [gh-sidd.med.ra p-sidd.med.ra ss-sidd.med.ra gh-sidd.ra p-sidd.ra ss-sidd.ra];
+	pos @ra_ini' <63 0 63 0> [tth-sidd.med.ra tth-sidd.ra];
+	pos @ra_ini' <65 0 65 0> [dd-sidd.med.ra t-sidd.med.ra dd-sidd.ra t-sidd.ra];
+	pos @ra_ini' <67 0 67 0> h-sidd.med.ra;
+	pos @ra_ini' <76 0 76 0> [ddh-sidd.med.ra d-sidd.med.ra ddh-sidd.ra d-sidd.ra];
+	pos @ra_ini' <77 0 77 0> h-sidd.ra;
+	pos @ra_ini' <82 0 82 0> [v-sidd.med.ra v-sidd.ra];
+	pos @ra_ini' <84 0 84 0> g-sidd.ra;
+	pos @ra_ini' <85 0 85 0> [ng-sidd.med.ra j-sidd.med.ra ng-sidd.ra j-sidd.ra];
+	pos @ra_ini' <86 0 86 0> [b-sidd.med.ra b-sidd.ra];
+	pos @ra_ini' <97 0 97 0> [k-sidd.ra y-sidd.ra];
+	pos @ra_ini' <-28 0 -28 0> [m-sidd.med.ra m-sidd.ra];
+	pos @ra_ini' <103 0 103 0> g-sidd.med.ra;
+	pos @ra_ini' <105 0 105 0> k-sidd.med.ra;
+	pos @ra_ini' <106 0 106 0> nn-sidd.med.ra;
+	pos @ra_ini' <107 0 107 0> k-sidd.med.ra.centre;
+	pos @ra_ini' <-19 0 -19 0> [jh-sidd.med.ra jh-sidd.ra];
+	pos @ra_ini' <114 0 114 0> [kh-sidd.med.ra kh-sidd.ra];
+	pos @ra_ini' <-23 0 -23 0> y-sidd.med.ra;
+	pos @ra_ini' <-7 0 -7 0> [th-sidd.med.ra th-sidd.ra];
+	pos @ra_ini' <122 0 122 0> [c-sidd.med.ra c-sidd.ra];
+	pos @ra_ini' <-1 0 -1 0> r-sidd.ra;} kern_ra_LSB;
+lookup kern_iMatra_ra {
+	pos @CK_L_iMatraRa' <0 0 0 0> @ra_ini [eMatra-sidd.ra];
+	pos @CK_L_iMatraRa' <0 0 30 0> @ra_ini [@CK_R_dda @CK_R_sa @CK_R_bha @CK_R_da];
+	pos @CK_L_iMatraRa' <0 0 50 0> @ra_ini [@CK_R_nga];
+	pos @CK_L_iMatraRa' <0 0 60 0> @ra_ini [@CK_R_pha];
+	pos @CK_L_iMatraRa' <0 0 80 0> @ra_ini [@CK_R_nya @CK_R_ma];
+	pos @CK_L_iMatraRa' <0 0 90 0> @ra_ini [@CK_R_ya];
+	pos @CK_L_iMatraRa' <0 0 100 0> @ra_ini [@CK_R_jha @CK_R_ra];
+	pos @CK_L_iMatraRa' <0 0 130 0> @ra_ini [@CK_R_pa @CK_R_gha];
+	pos @CK_L_iMatraRa' <0 0 -1 0> @ra_ini [r-sidd.ra];
+	pos @CK_L_iMatraRa' <0 0 -66 0> @ra_ini [gh-sidd.ra ss-sidd.ra p-sidd.med.ra ss-sidd.med.ra p-sidd.ra gh-sidd.med.ra];
+	pos @CK_L_iMatraRa' <0 0 -40 0> @ra_ini [@CK_R_cha];
+	pos @CK_L_iMatraRa' <0 0 -30 0> @ra_ini [@CK_R_ca @CK_R_na];
+	pos @CK_L_iMatraRa' <0 0 -28 0> @ra_ini [m-sidd.ra m-sidd.med.ra];
+	pos @CK_L_iMatraRa' <0 0 -23 0> @ra_ini [y-sidd.med.ra];
+	pos @CK_L_iMatraRa' <0 0 -20 0> @ra_ini [@CK_R_tta];
+	pos @CK_L_iMatraRa' <0 0 -19 0> @ra_ini [jh-sidd.med.ra jh-sidd.ra];
+	pos @CK_L_iMatraRa' <0 0 -7 0> @ra_ini [th-sidd.ra th-sidd.med.ra];
+} kern_iMatra_ra;
+
+lookup kern_eMatra_ra {
+	pos @CK_L_eMatraRa' <0 0 0 0> @ra_ini [iMatra-sidd.ra];
+	pos @CK_L_eMatraRa' <0 0 10 0> @ra_ini [@CK_R_va];
+	pos @CK_L_eMatraRa' <0 0 20 0> @ra_ini [@CK_R_sa];
+	pos @CK_L_eMatraRa' <0 0 30 0> @ra_ini [@CK_R_dda @CK_R_bha @CK_R_da];
+	pos @CK_L_eMatraRa' <0 0 40 0> @ra_ini [@CK_R_kha];
+	pos @CK_L_eMatraRa' <0 0 50 0> @ra_ini [@CK_R_nga];
+	pos @CK_L_eMatraRa' <0 0 60 0> @ra_ini [@CK_R_sha];
+	pos @CK_L_eMatraRa' <0 0 70 0> @ra_ini [@CK_R_pha];
+	pos @CK_L_eMatraRa' <0 0 80 0> @ra_ini [@CK_R_ma];
+	pos @CK_L_eMatraRa' <0 0 90 0> @ra_ini [@CK_R_nya @CK_R_jha @CK_R_ya];
+	pos @CK_L_eMatraRa' <0 0 100 0> @ra_ini [@CK_R_ra];
+	pos @CK_L_eMatraRa' <0 0 130 0> @ra_ini [@CK_R_pa @CK_R_gha];
+	pos @CK_L_eMatraRa' <0 0 -1 0> @ra_ini [r-sidd.ra];
+	pos @CK_L_eMatraRa' <0 0 -70 0> @ra_ini [dha-sidd];
+	pos @CK_L_eMatraRa' <0 0 -66 0> @ra_ini [gh-sidd.ra ss-sidd.ra p-sidd.med.ra ss-sidd.med.ra p-sidd.ra gh-sidd.med.ra];
+	pos @CK_L_eMatraRa' <0 0 -40 0> @ra_ini [@CK_R_cha dha-sidd.ini @CK_R_na];
+	pos @CK_L_eMatraRa' <0 0 -30 0> @ra_ini [@CK_R_ca];
+	pos @CK_L_eMatraRa' <0 0 -28 0> @ra_ini [m-sidd.ra m-sidd.med.ra];
+	pos @CK_L_eMatraRa' <0 0 -23 0> @ra_ini [y-sidd.med.ra];
+	pos @CK_L_eMatraRa' <0 0 -20 0> @ra_ini [@CK_R_tta];
+	pos @CK_L_eMatraRa' <0 0 -19 0> @ra_ini [jh-sidd.med.ra jh-sidd.ra];
+	pos @CK_L_eMatraRa' <0 0 -10 0> @ra_ini [dha-sidd.iniThird];
+	pos @CK_L_eMatraRa' <0 0 -7 0> @ra_ini [th-sidd.ra th-sidd.med.ra];
+} kern_eMatra_ra;
+
+lookup kern_ra_RSB {
+	pos @ra_ini' <0 0 128 0> y-sidd.med.ra;
+	pos @ra_ini' <0 0 -4 0> [v-sidd.med.ra v-sidd.ra];
+	pos @ra_ini' <0 0 140 0> [ddh-sidd.med.ra ddh-sidd.ra];
+	pos @ra_ini' <0 0 130 0> [ch-sidd.med.ra ch-sidd.ra];
+	pos @ra_ini' <0 0 15 0> [d-sidd.med.ra d-sidd.ra];
+	pos @ra_ini' <0 0 144 0> s-sidd.med.ra;
+	pos @ra_ini' <0 0 126 0> m-sidd.med.ra;
+	pos @ra_ini' <0 0 23 0> y-sidd.ra;
+	pos @ra_ini' <0 0 153 0> nn-sidd.med.ra;
+	pos @ra_ini' <0 0 29 0> l-sidd.ra;
+	pos @ra_ini' <0 0 -2 0> [b-sidd.med.ra th-sidd.ra b-sidd.ra];
+	pos @ra_ini' <0 0 43 0> dh-sidd.ra;
+	pos @ra_ini' <0 0 175 0> s-sidd.ra;
+	pos @ra_ini' <0 0 157 0> m-sidd.ra;
+	pos @ra_ini' <0 0 179 0> [jh-sidd.med.ra ny-sidd.med.ra jh-sidd.ra ny-sidd.ra];
+	pos @ra_ini' <0 0 108 0> [jh-sidd.ra.aaMatra ny-sidd.ra.aaMatra];
+	pos @ra_ini' <0 0 86 0> [jh-sidd.med.ra.aaMatra ny-sidd.med.ra.aaMatra];
+	pos @ra_ini' <0 0 56 0> [tt-sidd.med.ra tt-sidd.ra];
+	pos @ra_ini' <0 0 -11 0> [bh-sidd.med.ra bh-sidd.ra];
+	pos @ra_ini' <0 0 -65 0> l-sidd.med.ra;
+	pos @ra_ini' <0 0 64 0> [tth-sidd.med.ra tth-sidd.ra];
+	pos @ra_ini' <0 0 -10 0> [dd-sidd.med.ra t-sidd.med.ra n-sidd.med.ra dd-sidd.ra t-sidd.ra n-sidd.ra];
+	pos @ra_ini' <0 0 12 0> dh-sidd.med.ra;
+	pos @ra_ini' <0 0 205 0> nn-sidd.ra;
+	pos @ra_ini' <0 0 141 0> [sh-sidd.med.ra sh-sidd.ra];
+	pos @ra_ini' <0 0 208 0> [p-sidd.med.ra ss-sidd.med.ra];
+	pos @ra_ini' <0 0 81 0> [ng-sidd.med.ra j-sidd.med.ra ng-sidd.ra j-sidd.ra];
+	pos @ra_ini' <0 0 342 0> gh-sidd.med.ra;
+	pos @ra_ini' <0 0 88 0> g-sidd.ra;
+	pos @ra_ini' <0 0 143 0> [ph-sidd.med.ra ph-sidd.ra];
+	pos @ra_ini' <0 0 -33 0> th-sidd.med.ra;
+	pos @ra_ini' <0 0 107 0> g-sidd.med.ra;
+	pos @ra_ini' <0 0 -20 0> r-sidd.ra;
+	pos @ra_ini' <0 0 109 0> k-sidd.med.ra;
+	pos @ra_ini' <0 0 110 0> k-sidd.med.ra.centre;
+	pos @ra_ini' <0 0 239 0> [p-sidd.ra ss-sidd.ra];
+	pos @ra_ini' <0 0 115 0> h-sidd.med.ra;
+	pos @ra_ini' <0 0 373 0> gh-sidd.ra;
+	pos @ra_ini' <0 0 118 0> [kh-sidd.med.ra kh-sidd.ra];
+	pos @ra_ini' <0 0 -8 0> [c-sidd.med.ra c-sidd.ra];
+	pos @ra_ini' <0 0 121 0> k-sidd.ra;
+	pos @ra_ini' <0 0 126 0> h-sidd.ra;
+} kern_ra_RSB;
+
+# -------- semi-scripted below --------
+@bhRa = [bh-sidd.med.ra bh-sidd.ra];
+@negaTenRa = [la-sidd dd-sidd.med.ra t-sidd.med.ra n-sidd.med.ra dd-sidd.ra t-sidd.ra n-sidd.ra];
+@cRa = [c-sidd.med.ra c-sidd.ra];
+@bRa = [b-sidd.med.ra th-sidd.ra b-sidd.ra];
+@ghaMed = [gh-sidd.med.ra th-sidd.med.ra dh-sidd.med.ra p-sidd.med.ra m-sidd.med.ra y-sidd.med.ra ss-sidd.med.ra s-sidd.med.ra ];
+
+lookup kern_iiMatra {
+	pos [@CK_L_gha] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <30 0 30 0>;
+	pos [@CK_L_gha] @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <30 0 30 0>;
+	pos [@CK_L_gha] @AllNonInit @AllNonInit @CK_R_iiMatra' <30 0 30 0>;
+	pos [@CK_L_gha] @AllNonInit @CK_R_iiMatra' <30 0 30 0>;
+	pos [@CK_L_da] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <50 0 50 0>;
+	pos [@CK_L_da] @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <50 0 50 0>;
+	pos [@CK_L_da] @AllNonInit @AllNonInit @CK_R_iiMatra' <50 0 50 0>;
+	pos [@CK_L_da] @AllNonInit @CK_R_iiMatra' <50 0 50 0>;
+	pos [@CK_L_kha] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <89 0 89 0>;
+	pos [@CK_L_kha] @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <89 0 89 0>;
+	pos [@CK_L_kha] @AllNonInit @AllNonInit @CK_R_iiMatra' <89 0 89 0>;
+	pos [@CK_L_kha] @AllNonInit @CK_R_iiMatra' <89 0 89 0>;
+	pos [@CK_L_ca] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <90 0 90 0>;
+	pos [@CK_L_ca] @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <90 0 90 0>;
+	pos [@CK_L_ca] @AllNonInit @AllNonInit @CK_R_iiMatra' <90 0 90 0>;
+	pos [@CK_L_ca] @AllNonInit @CK_R_iiMatra' <90 0 90 0>;
+	pos [@CK_L_jha] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-164 0 -164 0>;
+	pos [@CK_L_jha] @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-164 0 -164 0>;
+	pos [@CK_L_jha] @AllNonInit @AllNonInit @CK_R_iiMatra' <-164 0 -164 0>;
+	pos [@CK_L_jha] @AllNonInit @CK_R_iiMatra' <-164 0 -164 0>;
+	pos [@CK_L_nna] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-96 0 -96 0>;
+	pos [@CK_L_nna] @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-96 0 -96 0>;
+	pos [@CK_L_nna] @AllNonInit @AllNonInit @CK_R_iiMatra' <-96 0 -96 0>;
+	pos [@CK_L_nna] @AllNonInit @CK_R_iiMatra' <-96 0 -96 0>;
+	pos [@CK_L_ddha @CK_L_nga @CK_L_pha] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-70 0 -70 0>;
+	pos [@CK_L_ddha @CK_L_nga @CK_L_pha] @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-70 0 -70 0>;
+	pos [@CK_L_ddha @CK_L_nga @CK_L_pha] @AllNonInit @AllNonInit @CK_R_iiMatra' <-70 0 -70 0>;
+	pos [@CK_L_ddha @CK_L_nga @CK_L_pha] @AllNonInit @CK_R_iiMatra' <-70 0 -70 0>;
+	pos [l-sidd.med.ra] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-65 0 -65 0>;
+	pos [l-sidd.med.ra] @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-65 0 -65 0>;
+	pos [l-sidd.med.ra] @AllNonInit @AllNonInit @CK_R_iiMatra' <-65 0 -65 0>;
+	pos [l-sidd.med.ra] @AllNonInit @CK_R_iiMatra' <-65 0 -65 0>;
+	pos [@CK_L_cha @CK_L_ttha] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-50 0 -50 0>;
+	pos [@CK_L_cha @CK_L_ttha] @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-50 0 -50 0>;
+	pos [@CK_L_cha @CK_L_ttha] @AllNonInit @AllNonInit @CK_R_iiMatra' <-50 0 -50 0>;
+	pos [@CK_L_cha @CK_L_ttha] @AllNonInit @CK_R_iiMatra' <-50 0 -50 0>;
+	pos [@CK_L_ha @CK_L_ka] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-40 0 -40 0>;
+	pos [@CK_L_ha @CK_L_ka] @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-40 0 -40 0>;
+	pos [@CK_L_ha @CK_L_ka] @AllNonInit @AllNonInit @CK_R_iiMatra' <-40 0 -40 0>;
+	pos [@CK_L_ha @CK_L_ka] @AllNonInit @CK_R_iiMatra' <-40 0 -40 0>;
+	pos [th-sidd.med.ra] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-33 0 -33 0>;
+	pos [th-sidd.med.ra] @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-33 0 -33 0>;
+	pos [th-sidd.med.ra] @AllNonInit @AllNonInit @CK_R_iiMatra' <-33 0 -33 0>;
+	pos [th-sidd.med.ra] @AllNonInit @CK_R_iiMatra' <-33 0 -33 0>;
+	pos [r-sidd.ra] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-20 0 -20 0>;
+	pos [r-sidd.ra] @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-20 0 -20 0>;
+	pos [r-sidd.ra] @AllNonInit @AllNonInit @CK_R_iiMatra' <-20 0 -20 0>;
+	pos [r-sidd.ra] @AllNonInit @CK_R_iiMatra' <-20 0 -20 0>;
+	pos @bhRa @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-11 0 -11 0>;
+	pos @bhRa @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-11 0 -11 0>;
+	pos @bhRa @AllNonInit @AllNonInit @CK_R_iiMatra' <-11 0 -11 0>;
+	pos @bhRa @AllNonInit @CK_R_iiMatra' <-11 0 -11 0>;
+	pos @negaTenRa @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-10 0 -10 0>;
+	pos @negaTenRa @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-10 0 -10 0>;
+	pos @negaTenRa @AllNonInit @AllNonInit @CK_R_iiMatra' <-10 0 -10 0>;
+	pos @negaTenRa @AllNonInit @CK_R_iiMatra' <-10 0 -10 0>;
+	pos @cRa @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-8 0 -8 0>;
+	pos @cRa @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-8 0 -8 0>;
+	pos @cRa @AllNonInit @AllNonInit @CK_R_iiMatra' <-8 0 -8 0>;
+	pos @cRa @AllNonInit @CK_R_iiMatra' <-8 0 -8 0>;
+	pos @bRa @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-2 0 -2 0>;
+	pos @bRa @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <-2 0 -2 0>;
+	pos @bRa @AllNonInit @AllNonInit @CK_R_iiMatra' <-2 0 -2 0>;
+	pos @bRa @AllNonInit @CK_R_iiMatra' <-2 0 -2 0>;
+} kern_iiMatra;
+
+lookup kern_aaMatra {
+	pos [@CK_L_gha] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <30 0 30 0>;
+	pos [@CK_L_gha] @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <30 0 30 0>;
+	pos [@CK_L_gha] @AllNonInit @AllNonInit @CK_R_aaMatra' <30 0 30 0>;
+	pos [@CK_L_gha] @AllNonInit @CK_R_aaMatra' <30 0 30 0>;
+	pos [@CK_L_da] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <20 0 20 0>;
+	pos [@CK_L_da] @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <20 0 20 0>;
+	pos [@CK_L_da] @AllNonInit @AllNonInit @CK_R_aaMatra' <20 0 20 0>;
+	pos [@CK_L_da] @AllNonInit @CK_R_aaMatra' <20 0 20 0>;
+	pos [@CK_L_ca @CK_L_kha] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <40 0 40 0>;
+	pos [@CK_L_ca @CK_L_kha] @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <40 0 40 0>;
+	pos [@CK_L_ca @CK_L_kha] @AllNonInit @AllNonInit @CK_R_aaMatra' <40 0 40 0>;
+	pos [@CK_L_ca @CK_L_kha] @AllNonInit @CK_R_aaMatra' <40 0 40 0>;
+	pos [@CK_L_da_Third] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <45 0 45 0>;
+	pos [@CK_L_da_Third] @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <45 0 45 0>;
+	pos [@CK_L_da_Third] @AllNonInit @AllNonInit @CK_R_aaMatra' <45 0 45 0>;
+	pos [@CK_L_da_Third] @AllNonInit @CK_R_aaMatra' <45 0 45 0>;
+	pos [@CK_L_pha] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-70 0 -70 0>;
+	pos [@CK_L_pha] @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-70 0 -70 0>;
+	pos [@CK_L_pha] @AllNonInit @AllNonInit @CK_R_aaMatra' <-70 0 -70 0>;
+	pos [@CK_L_pha] @AllNonInit @CK_R_aaMatra' <-70 0 -70 0>;
+	pos [l-sidd.med.ra] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-65 0 -65 0>;
+	pos [l-sidd.med.ra] @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-65 0 -65 0>;
+	pos [l-sidd.med.ra] @AllNonInit @AllNonInit @CK_R_aaMatra' <-65 0 -65 0>;
+	pos [l-sidd.med.ra] @AllNonInit @CK_R_aaMatra' <-65 0 -65 0>;
+	pos [@CK_L_cha @CK_L_ddha @CK_L_ha] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-60 0 -60 0>;
+	pos [@CK_L_cha @CK_L_ddha @CK_L_ha] @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-60 0 -60 0>;
+	pos [@CK_L_cha @CK_L_ddha @CK_L_ha] @AllNonInit @AllNonInit @CK_R_aaMatra' <-60 0 -60 0>;
+	pos [@CK_L_cha @CK_L_ddha @CK_L_ha] @AllNonInit @CK_R_aaMatra' <-60 0 -60 0>;
+	pos [la-sidd] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-50 0 -50 0>;
+	pos [la-sidd] @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-50 0 -50 0>;
+	pos [la-sidd] @AllNonInit @AllNonInit @CK_R_aaMatra' <-50 0 -50 0>;
+	pos [la-sidd] @AllNonInit @CK_R_aaMatra' <-50 0 -50 0>;
+	pos [@CK_L_ka @CK_L_nna @CK_L_ttha] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-40 0 -40 0>;
+	pos [@CK_L_ka @CK_L_nna @CK_L_ttha] @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-40 0 -40 0>;
+	pos [@CK_L_ka @CK_L_nna @CK_L_ttha] @AllNonInit @AllNonInit @CK_R_aaMatra' <-40 0 -40 0>;
+	pos [@CK_L_ka @CK_L_nna @CK_L_ttha] @AllNonInit @CK_R_aaMatra' <-40 0 -40 0>;
+	pos [th-sidd.med.ra] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-33 0 -33 0>;
+	pos [th-sidd.med.ra] @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-33 0 -33 0>;
+	pos [th-sidd.med.ra] @AllNonInit @AllNonInit @CK_R_aaMatra' <-33 0 -33 0>;
+	pos [th-sidd.med.ra] @AllNonInit @CK_R_aaMatra' <-33 0 -33 0>;
+	pos [r-sidd.ra] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-20 0 -20 0>;
+	pos [r-sidd.ra] @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-20 0 -20 0>;
+	pos [r-sidd.ra] @AllNonInit @AllNonInit @CK_R_aaMatra' <-20 0 -20 0>;
+	pos [r-sidd.ra] @AllNonInit @CK_R_aaMatra' <-20 0 -20 0>;
+	pos [bh-sidd.med.ra bh-sidd.ra] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-11 0 -11 0>;
+	pos [bh-sidd.med.ra bh-sidd.ra] @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-11 0 -11 0>;
+	pos [bh-sidd.med.ra bh-sidd.ra] @AllNonInit @AllNonInit @CK_R_aaMatra' <-11 0 -11 0>;
+	pos [bh-sidd.med.ra bh-sidd.ra] @AllNonInit @CK_R_aaMatra' <-11 0 -11 0>;
+	pos [dd-sidd.med.ra t-sidd.med.ra n-sidd.med.ra dd-sidd.ra t-sidd.ra n-sidd.ra] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-10 0 -10 0>;
+	pos [dd-sidd.med.ra t-sidd.med.ra n-sidd.med.ra dd-sidd.ra t-sidd.ra n-sidd.ra] @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-10 0 -10 0>;
+	pos [dd-sidd.med.ra t-sidd.med.ra n-sidd.med.ra dd-sidd.ra t-sidd.ra n-sidd.ra] @AllNonInit @AllNonInit @CK_R_aaMatra' <-10 0 -10 0>;
+	pos [dd-sidd.med.ra t-sidd.med.ra n-sidd.med.ra dd-sidd.ra t-sidd.ra n-sidd.ra] @AllNonInit @CK_R_aaMatra' <-10 0 -10 0>;
+	pos [c-sidd.med.ra c-sidd.ra] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-8 0 -8 0>;
+	pos [c-sidd.med.ra c-sidd.ra] @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-8 0 -8 0>;
+	pos [c-sidd.med.ra c-sidd.ra] @AllNonInit @AllNonInit @CK_R_aaMatra' <-8 0 -8 0>;
+	pos [c-sidd.med.ra c-sidd.ra] @AllNonInit @CK_R_aaMatra' <-8 0 -8 0>;
+	pos [b-sidd.med.ra th-sidd.ra b-sidd.ra] @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-2 0 -2 0>;
+	pos [b-sidd.med.ra th-sidd.ra b-sidd.ra] @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <-2 0 -2 0>;
+	pos [b-sidd.med.ra th-sidd.ra b-sidd.ra] @AllNonInit @AllNonInit @CK_R_aaMatra' <-2 0 -2 0>;
+	pos [b-sidd.med.ra th-sidd.ra b-sidd.ra] @AllNonInit @CK_R_aaMatra' <-2 0 -2 0>;
+} kern_aaMatra;
+
+lookup kern_ra_Matra_extra {
+	pos @ghaMed @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <30 0 30 0>;
+	pos @ghaMed @AllNonInit @AllNonInit @AllNonInit @CK_R_iiMatra' <30 0 30 0>;
+	pos @ghaMed @AllNonInit @AllNonInit @CK_R_iiMatra' <30 0 30 0>;
+	pos @ghaMed @AllNonInit @CK_R_iiMatra' <30 0 30 0>;
+	pos @ghaMed @AllNonInit @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <30 0 30 0>;
+	pos @ghaMed @AllNonInit @AllNonInit @AllNonInit @CK_R_aaMatra' <30 0 30 0>;
+	pos @ghaMed @AllNonInit @AllNonInit @CK_R_aaMatra' <30 0 30 0>;
+	pos @ghaMed @AllNonInit @CK_R_aaMatra' <30 0 30 0>;
+} kern_ra_Matra_extra;
+
+lookup kern_visarga{
+	ignore pos [ra-sidd.ini ra-sidd.iniThird] @AllNonInit @AllNonInit @AllNonInit @AllNonInit visarga-sidd';
+	ignore pos [ra-sidd.ini ra-sidd.iniThird] @AllNonInit @AllNonInit @AllNonInit visarga-sidd';
+	ignore pos [ra-sidd.ini ra-sidd.iniThird] @AllNonInit @AllNonInit visarga-sidd';
+	ignore pos [ra-sidd.ini ra-sidd.iniThird] @AllNonInit visarga-sidd';
+	ignore pos [@CK_L_ca @CK_L_kha] [@excessR_1 @excessR_2 @excessR_3] @AllNonInit @AllNonInit @AllNonInit visarga-sidd';
+	ignore pos [@CK_L_ca @CK_L_kha] [@excessR_1 @excessR_2 @excessR_3] @AllNonInit @AllNonInit visarga-sidd';
+	ignore pos [@CK_L_ca @CK_L_kha] [@excessR_1 @excessR_2 @excessR_3] @AllNonInit visarga-sidd';
+	ignore pos [@CK_L_ca @CK_L_kha] [@excessR_1 @excessR_2 @excessR_3] visarga-sidd';
+	pos @CK_L_ca @AllNonInit @AllNonInit @AllNonInit @AllNonInit visarga-sidd' <-50 0 -50 0>;
+	pos @CK_L_ca @AllNonInit @AllNonInit @AllNonInit visarga-sidd' <-50 0 -50 0>;
+	pos @CK_L_ca @AllNonInit @AllNonInit visarga-sidd' <-50 0 -50 0>;
+	pos @CK_L_ca @AllNonInit visarga-sidd' <-50 0 -50 0>;
+	pos @CK_L_kha @AllNonInit @AllNonInit @AllNonInit @AllNonInit visarga-sidd' <-30 0 -30 0>;
+	pos @CK_L_kha @AllNonInit @AllNonInit @AllNonInit visarga-sidd' <-30 0 -30 0>;
+	pos @CK_L_kha @AllNonInit @AllNonInit visarga-sidd' <-30 0 -30 0>;
+	pos @CK_L_kha @AllNonInit visarga-sidd' <-30 0 -30 0>;
+} kern_visarga;
+
+
+@addRSB_0 = [p-sidd p-sidd.med ss-sidd ss-sidd.med ddh-sidd ddh-sidd.med ph-sidd ph-sidd.med k-sidd k-sidd.med];
+@addRSB_1 = [gh-sidd gh-sidd.med h-sidd h-sidd.med g-sidd g-sidd.med p-sidd p-sidd.med ss-sidd ss-sidd.med];
+@addRSB_2 = [m-sidd m-sidd.med d-sidd d-sidd.med ng-sidd ng-sidd.med j-sidd j-sidd.med tt-sidd tt-sidd.med];
+@addRSB_3 = [m-sidd m-sidd.med y-sidd y-sidd.med ng-sidd ng-sidd.med j-sidd j-sidd.med tt-sidd tt-sidd.med];
+@addRSB_4 = [ddh-sidd ddh-sidd.med ph-sidd ph-sidd.med k-sidd k-sidd.med uuMatra-sidd];
+@addRSB_5 = [p-sidd p-sidd.med ss-sidd ss-sidd.med ddh-sidd ddh-sidd.med ph-sidd ph-sidd.med];
+@addRSB_6 = [m-sidd m-sidd.med ng-sidd ng-sidd.med j-sidd j-sidd.med tt-sidd tt-sidd.med];
+@addRSB_7 = [ch-sidd ch-sidd.med gh-sidd gh-sidd.med h-sidd h-sidd.med g-sidd g-sidd.med];
+@addRSB_8 = [h-sidd h-sidd.med g-sidd g-sidd.med p-sidd p-sidd.med ss-sidd ss-sidd.med];
+@addRSB_9 = [uuMatra-sidd sh-sidd sh-sidd.med kh-sidd kh-sidd.med];
+@addRSB_10 = [k-sidd k-sidd.med uuMatra-sidd sh-sidd sh-sidd.med];
+@addRSB_11 = [ph-sidd ph-sidd.med k-sidd k-sidd.med uuMatra-sidd];
+@addRSB_12 = [nn-sidd nn-sidd.med jh-sidd jh-sidd.med ny-sidd ny-sidd.med];
+@addRSB_13 = [ddh-sidd ddh-sidd.med ph-sidd ph-sidd.med k-sidd k-sidd.med];
+@addRSB_14 = [p-sidd p-sidd.med ss-sidd ss-sidd.med ddh-sidd ddh-sidd.med];
+@addRSB_15 = [gh-sidd gh-sidd.med h-sidd h-sidd.med g-sidd g-sidd.med];
+@addRSB_16 = [jh-sidd jh-sidd.med ny-sidd ny-sidd.med];
+@addRSB_17 = [ch-sidd ch-sidd.med gh-sidd gh-sidd.med];
+@addRSB_18 = [sh-sidd sh-sidd.med kh-sidd kh-sidd.med];
+@addRSB_19 = [l-sidd s-sidd s-sidd.med];
+@addRSB_20 = [tth-sidd tth-sidd.med];
+@addRSB_21 = [dd-sidd dd-sidd.med];
+@addRSB_22 = [kh-sidd kh-sidd.med];
+@addRSB_23 = [ch-sidd ch-sidd.med];
+@addRSB_24 = [nn-sidd nn-sidd.med];
+@addRSB_25 = [d-sidd d-sidd.med];
+@addRSB_26 = [s-sidd s-sidd.med];
+@addRSB_27 = [y-sidd y-sidd.med];
+@addRSB_28 = [l-sidd];
+
+lookup kern_addRSB_tta {
+	@addRSB_tta = [tta-sidd.ini tta-sidd.iniThird];
+	ignore pos @addRSB_24' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_24' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_24' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_24' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_tta @addRSB_24' < 0 0 60 0>;
+	ignore pos @addRSB_16' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_16' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_16' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_16' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_tta @addRSB_16' < 0 0 70 0>;
+	ignore pos @addRSB_22' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_22' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_22' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_22' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_tta @addRSB_22' < 0 0 30 0>;
+} kern_addRSB_tta;
+
+lookup kern_addRSB_kha {
+	ignore pos @addRSB_12' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_12' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_12' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_12' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_kha @addRSB_12' < 0 0 160 0>;
+	ignore pos @addRSB_22' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_22' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_22' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_22' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_kha @addRSB_22' < 0 0 130 0>;
+	ignore pos @addRSB_7' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_7' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_7' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_7' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_kha @addRSB_7' < 0 0 100 0>;
+	ignore pos @addRSB_28' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_28' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_28' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_28' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_kha @addRSB_28' < 0 0 70 0>;
+	ignore pos @addRSB_27' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_27' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_27' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_27' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_kha @addRSB_27' < 0 0 40 0>;
+	ignore pos @addRSB_5' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_5' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_5' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_5' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_kha @addRSB_5' < 0 0 110 0>;
+	ignore pos @addRSB_26' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_26' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_26' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_26' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_kha @addRSB_26' < 0 0 80 0>;
+	ignore pos @addRSB_2' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_2' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_2' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_2' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_kha @addRSB_2' < 0 0 50 0>;
+	ignore pos @addRSB_10' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_10' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_10' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_10' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_kha @addRSB_10' < 0 0 120 0>;
+	ignore pos @addRSB_20' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_20' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_20' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_20' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_kha @addRSB_20' < 0 0 60 0>;
+} kern_addRSB_kha;
+
+lookup kern_addRSB_ca {
+	@addRSB_ca = [ca-sidd.ini dda-sidd.ini ta-sidd.ini na-sidd.ini ba-sidd.ini va-sidd.ini ca-sidd.iniThird dda-sidd.iniThird ta-sidd.iniThird na-sidd.iniThird ba-sidd.iniThird va-sidd.iniThird];
+	ignore pos @addRSB_11' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_11' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_11' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_11' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_ca @addRSB_11' < 0 0 70 0>;
+	ignore pos @addRSB_12' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_12' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_12' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_12' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_ca @addRSB_12' < 0 0 110 0>;
+	ignore pos @addRSB_18' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_18' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_18' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_18' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_ca @addRSB_18' < 0 0 80 0>;
+	ignore pos @addRSB_7' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_7' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_7' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_7' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_ca @addRSB_7' < 0 0 50 0>;
+	ignore pos @addRSB_14' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_14' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_14' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_14' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_ca @addRSB_14' < 0 0 60 0>;
+	ignore pos @addRSB_26' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_26' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_26' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_26' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_ca @addRSB_26' < 0 0 30 0>;
+} kern_addRSB_ca;
+
+lookup kern_addRSB_la {
+	@addRSB_la = [la-sidd.ini la-sidd.iniThird];
+	ignore pos @addRSB_12' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_12' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_12' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_12' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_la @addRSB_12' < 0 0 160 0>;
+	ignore pos @addRSB_15' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_15' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_15' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_15' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_la @addRSB_15' < 0 0 100 0>;
+	ignore pos @addRSB_28' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_28' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_28' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_28' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_la @addRSB_28' < 0 0 70 0>;
+	ignore pos @addRSB_3' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_3' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_3' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_3' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_la @addRSB_3' < 0 0 40 0>;
+	ignore pos @addRSB_0' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_0' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_0' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_0' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_la @addRSB_0' < 0 0 110 0>;
+	ignore pos @addRSB_26' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_26' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_26' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_26' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_la @addRSB_26' < 0 0 80 0>;
+	ignore pos @addRSB_25' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_25' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_25' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_25' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_la @addRSB_25' < 0 0 50 0>;
+	ignore pos @addRSB_9' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_9' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_9' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_9' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_la @addRSB_9' < 0 0 120 0>;
+	ignore pos @addRSB_23' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_23' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_23' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_23' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_la @addRSB_23' < 0 0 90 0>;
+	ignore pos @addRSB_20' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_20' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_20' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_20' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_la @addRSB_20' < 0 0 60 0>;
+} kern_addRSB_la;
+
+lookup kern_addRSB_ttha {
+	ignore pos @addRSB_12' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_12' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_12' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_12' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_ttha @addRSB_12' < 0 0 60 0>;
+} kern_addRSB_ttha;
+
+lookup kern_addRSB_ka {
+	ignore pos @addRSB_16' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_16' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_16' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_16' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_ka @addRSB_16' < 0 0 30 0>;
+} kern_addRSB_ka;
+
+lookup kern_addRSB_gha {
+	ignore pos @addRSB_9' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_9' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_9' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_9' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_gha @addRSB_9' < 0 0 160 0>;
+	ignore pos @addRSB_23' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_23' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_23' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_23' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_gha @addRSB_23' < 0 0 130 0>;
+	ignore pos @addRSB_20' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_20' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_20' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_20' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_gha @addRSB_20' < 0 0 100 0>;
+	ignore pos @addRSB_21' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_21' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_21' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_21' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_gha @addRSB_21' < 0 0 40 0>;
+	ignore pos @addRSB_1' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_1' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_1' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_1' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_gha @addRSB_1' < 0 0 140 0>;
+	ignore pos @addRSB_28' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_28' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_28' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_28' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_gha @addRSB_28' < 0 0 110 0>;
+	ignore pos @addRSB_3' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_3' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_3' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_3' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_gha @addRSB_3' < 0 0 80 0>;
+	ignore pos @addRSB_16' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_16' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_16' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_16' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_gha @addRSB_16' < 0 0 200 0>;
+	ignore pos @addRSB_13' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_13' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_13' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_13' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_gha @addRSB_13' < 0 0 150 0>;
+	ignore pos @addRSB_26' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_26' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_26' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_26' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_gha @addRSB_26' < 0 0 120 0>;
+	ignore pos @addRSB_25' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_25' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_25' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_25' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_gha @addRSB_25' < 0 0 90 0>;
+	ignore pos @addRSB_24' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_24' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_24' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_24' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_gha @addRSB_24' < 0 0 190 0>;
+} kern_addRSB_gha;
+
+lookup kern_addRSB_bha {
+	@addRSB_bha = [bha-sidd.ini bha-sidd.iniThird];
+	ignore pos @addRSB_18' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_18' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_18' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_18' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_bha @addRSB_18' < 0 0 160 0>;
+	ignore pos @addRSB_17' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_17' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_17' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_17' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_bha @addRSB_17' < 0 0 130 0>;
+	ignore pos @addRSB_20' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_20' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_20' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_20' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_bha @addRSB_20' < 0 0 100 0>;
+	ignore pos @addRSB_27' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_27' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_27' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_27' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_bha @addRSB_27' < 0 0 70 0>;
+	ignore pos @addRSB_21' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_21' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_21' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_21' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_bha @addRSB_21' < 0 0 40 0>;
+	ignore pos @addRSB_8' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_8' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_8' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_8' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_bha @addRSB_8' < 0 0 140 0>;
+	ignore pos @addRSB_19' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_19' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_19' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_19' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_bha @addRSB_19' < 0 0 110 0>;
+	ignore pos @addRSB_6' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_6' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_6' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_6' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_bha @addRSB_6' < 0 0 80 0>;
+	ignore pos @addRSB_16' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_16' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_16' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_16' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_bha @addRSB_16' < 0 0 200 0>;
+	ignore pos @addRSB_4' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_4' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_4' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_4' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_bha @addRSB_4' < 0 0 150 0>;
+	ignore pos @addRSB_25' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_25' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_25' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_25' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_bha @addRSB_25' < 0 0 90 0>;
+	ignore pos @addRSB_24' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_24' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_24' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_24' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @addRSB_bha @addRSB_24' < 0 0 190 0>;
+} kern_addRSB_bha;
+
+lookup kern_addRSB_da {
+	ignore pos @addRSB_15' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_15' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_15' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_15' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_da @addRSB_15' < 0 0 40 0>;
+	ignore pos @addRSB_12' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_12' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_12' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_12' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_da @addRSB_12' < 0 0 100 0>;
+	ignore pos @addRSB_0' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_0' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_0' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_0' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_da @addRSB_0' < 0 0 50 0>;
+	ignore pos @addRSB_9' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_9' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_9' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_9' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_da @addRSB_9' < 0 0 60 0>;
+	ignore pos @addRSB_23' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_23' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_23' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_23' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_da @addRSB_23' < 0 0 30 0>;
+} kern_addRSB_da;
+
+lookup kern_addRSB_nga {
+	ignore pos @addRSB_12' @AllNonInit @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_12' @AllNonInit @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_12' @AllNonInit [@CK_R_aaMatra @CK_R_iiMatra];
+	ignore pos @addRSB_12' [@CK_R_aaMatra @CK_R_iiMatra];
+	pos @CK_L_nga @addRSB_12' < 0 0 50 0>;
+} kern_addRSB_nga;
+
+} kern;
+
+feature ss03 {
+# notes:
+# Name: Large AI and AU matra (warabi ten)
+sub ai-sidd by ai-sidd.ss02;
+sub aiMatra-sidd.ra by aiMatra-sidd.ra.ss02;
+sub aiMatra-sidd.la.ra by aiMatra-sidd.la.ra.ss02;
+sub aiMatra-sidd.tha.ra by aiMatra-sidd.tha.ra.ss02;
+sub aiMatraAfter-sidd by aiMatraAfter-sidd.ss02;
+} ss03;
+
+table GDEF {
+  # automatic
+  GlyphClassDef
+    [a-sidd aa-sidd i-sidd ii-sidd u-sidd uu-sidd iAlt-sidd iAlt2-sidd iiAlt-sidd uAlt-sidd rVocalic-sidd rrVocalic-sidd lVocalic-sidd llVocalic-sidd e-sidd ai-sidd o-sidd au-sidd ka-sidd kha-sidd ga-sidd gha-sidd nga-sidd ca-sidd cha-sidd ja-sidd jha-sidd nya-sidd tta-sidd ttha-sidd dda-sidd ddha-sidd nna-sidd ta-sidd tha-sidd da-sidd dha-sidd na-sidd pa-sidd pha-sidd ba-sidd bha-sidd ma-sidd ya-sidd ra-sidd la-sidd va-sidd sha-sidd ssa-sidd sa-sidd ha-sidd oMatra-sidd auMatra-sidd jha-sidd.ini.aaMatra nya-sidd.ini.aaMatra jha-sidd.iniThird.aaMatra nya-sidd.iniThird.aaMatra jha-sidd.aaMatra nya-sidd.aaMatra ka-sidd.ini.centre tta-sidd.ini.centre ttha-sidd.ini.centre ka-sidd.iniThird.centre tta-sidd.iniThird.centre ttha-sidd.iniThird.centre da-sidd.ini.diaB da-sidd.iniThird.diaB a-sidd.ini aa-sidd.ini ka-sidd.ini kha-sidd.ini ga-sidd.ini gha-sidd.ini nga-sidd.ini ca-sidd.ini cha-sidd.ini ja-sidd.ini jha-sidd.ini nya-sidd.ini tta-sidd.ini ttha-sidd.ini dda-sidd.ini ddha-sidd.ini nna-sidd.ini ta-sidd.ini tha-sidd.ini da-sidd.ini dha-sidd.ini na-sidd.ini pa-sidd.ini pha-sidd.ini ba-sidd.ini bha-sidd.ini ma-sidd.ini ya-sidd.ini ra-sidd.ini la-sidd.ini va-sidd.ini sha-sidd.ini ssa-sidd.ini sa-sidd.ini ha-sidd.ini a-sidd.iniThird aa-sidd.iniThird ka-sidd.iniThird kha-sidd.iniThird ga-sidd.iniThird gha-sidd.iniThird nga-sidd.iniThird ca-sidd.iniThird cha-sidd.iniThird ja-sidd.iniThird jha-sidd.iniThird nya-sidd.iniThird tta-sidd.iniThird ttha-sidd.iniThird dda-sidd.iniThird ddha-sidd.iniThird nna-sidd.iniThird ta-sidd.iniThird tha-sidd.iniThird da-sidd.iniThird dha-sidd.iniThird na-sidd.iniThird pa-sidd.iniThird pha-sidd.iniThird ba-sidd.iniThird bha-sidd.iniThird ma-sidd.iniThird ya-sidd.iniThird ra-sidd.iniThird la-sidd.iniThird va-sidd.iniThird sha-sidd.iniThird ssa-sidd.iniThird sa-sidd.iniThird ha-sidd.iniThird ra-sidd.ini.long ai-sidd.ss02 dottedCircle seed_ka_rMatra_tt_virama-sidd seed_ha_r-sidd seed_ha_sidd seed_ta_r-sidd seed_ta_r_uuMatra-sidd seed_ja_nn-sidd seed_ma_nn-sidd seed_da_dh-sidd seed_ta_r_tt_virama-sidd seed_ha_l-sidd seed_va_r_h_m_m-sidd seed_ha_h_uMatra-sidd seed_ha_h_uuMatra-sidd seed_ha_h_uuMatraAlt-sidd], # Base
+    [seed_ha_r_iiMatra-sidd seed_sh_r_h_y_iMatra_m.sidd seed_ta_h_iiMatra_ma_m-sidd seed_ca_l_h_y_iMatra_candrabindu-sidd seed_dha_iMatra_visarga_ma-sidd seed_ja_visarga-sidd seed_ma_l_c_y_aaMatra-sidd seed_da_v_aaMatra-sidd seed_da_dh_aaMatra_visarga-sidd seed_ta_r_h_y_iMatra_anusvara-sidd seed_ta_r_aaMatra_visagra_ha_uMatra-sidd seed_va_c_l_m_d_y_aiMatra-sidd seed_va_sh_r_m_nn_y_auMatra_sidd seed_sa_t_r_y_iMatra_anusvara-sidd seed_ha_k_l_oMatra_anusvara-sidd seed_ha_r_iiMatra_ha_visarga-sidd seed_ha_iiMatra_ha_uMatra_visarga-sidd seed_sha_rMatra_aiMatra_ka_virama-sidd seed_sha_rMatra_rMatra_aiMatra_ka_k-sidd seed_ra_rMatra_iMatra_aaMatra-sidd], # Liga
+    [k-sidd kh-sidd g-sidd gh-sidd ng-sidd c-sidd ch-sidd j-sidd jh-sidd ny-sidd tt-sidd tth-sidd dd-sidd ddh-sidd nn-sidd t-sidd th-sidd d-sidd dh-sidd n-sidd p-sidd ph-sidd b-sidd bh-sidd m-sidd y-sidd r-sidd r_uMatra-sidd r_uuMatra-sidd l-sidd v-sidd sh-sidd ss-sidd s-sidd h-sidd uMatra-sidd uuMatra-sidd rMatra-sidd rrMatra-sidd uMatraAlt-sidd uuMatraAlt-sidd aiMatraAfter-sidd candrabindu-sidd anusvara-sidd virama-sidd nukta-sidd k-sidd.med.centre tt-sidd.med.centre tth-sidd.med.centre p-sidd.med.centre ss-sidd.med.centre k-sidd.med.ra.centre p-sidd.centre ss-sidd.centre p-sidd.third.centre ss-sidd.third.centre d-sidd.med.diaT.diaB d-sidd.med.diaB ng-sidd.med.diaT c-sidd.med.diaT j-sidd.med.diaT dd-sidd.med.diaT ddh-sidd.med.diaT t-sidd.med.diaT d-sidd.med.diaT ph-sidd.med.diaT bh-sidd.med.diaT h-sidd.med.diaT ng-sidd.diaT c-sidd.diaT j-sidd.diaT dd-sidd.diaT ddh-sidd.diaT t-sidd.diaT d-sidd.diaT ph-sidd.diaT bh-sidd.diaT h-sidd.diaT ng-sidd.third.diaT c-sidd.third.diaT j-sidd.third.diaT dd-sidd.third.diaT ddh-sidd.third.diaT t-sidd.third.diaT d-sidd.third.diaT ph-sidd.third.diaT bh-sidd.third.diaT h-sidd.third.diaT k-sidd.med kh-sidd.med g-sidd.med gh-sidd.med ng-sidd.med c-sidd.med ch-sidd.med j-sidd.med jh-sidd.med ny-sidd.med tt-sidd.med tth-sidd.med dd-sidd.med ddh-sidd.med nn-sidd.med t-sidd.med th-sidd.med d-sidd.med dh-sidd.med n-sidd.med p-sidd.med ph-sidd.med b-sidd.med bh-sidd.med m-sidd.med y-sidd.med r-sidd.med l-sidd.med v-sidd.med sh-sidd.med ss-sidd.med s-sidd.med h-sidd.med k-sidd.med.ra kh-sidd.med.ra g-sidd.med.ra gh-sidd.med.ra ng-sidd.med.ra c-sidd.med.ra ch-sidd.med.ra j-sidd.med.ra jh-sidd.med.ra ny-sidd.med.ra tt-sidd.med.ra tth-sidd.med.ra dd-sidd.med.ra ddh-sidd.med.ra nn-sidd.med.ra t-sidd.med.ra th-sidd.med.ra d-sidd.med.ra dh-sidd.med.ra n-sidd.med.ra p-sidd.med.ra ph-sidd.med.ra b-sidd.med.ra bh-sidd.med.ra m-sidd.med.ra y-sidd.med.ra r-sidd.med.ra l-sidd.med.ra v-sidd.med.ra sh-sidd.med.ra ss-sidd.med.ra s-sidd.med.ra h-sidd.med.ra k-sidd.ra kh-sidd.ra g-sidd.ra gh-sidd.ra ng-sidd.ra c-sidd.ra ch-sidd.ra j-sidd.ra jh-sidd.ra ny-sidd.ra tt-sidd.ra tth-sidd.ra dd-sidd.ra ddh-sidd.ra nn-sidd.ra t-sidd.ra th-sidd.ra d-sidd.ra dh-sidd.ra n-sidd.ra p-sidd.ra ph-sidd.ra b-sidd.ra bh-sidd.ra m-sidd.ra y-sidd.ra r-sidd.ra l-sidd.ra v-sidd.ra sh-sidd.ra ss-sidd.ra s-sidd.ra h-sidd.ra uMatra-sidd.ra uuMatra-sidd.ra kh-sidd.med.right g-sidd.med.right sh-sidd.med.right kh-sidd.right g-sidd.right sh-sidd.right uMatra-sidd.seedHa uuMatra-sidd.seedHa aiMatraAfter-sidd.ss02 uMatra-sidd.stem uuMatra-sidd.stem k-sidd.third kh-sidd.third g-sidd.third gh-sidd.third ng-sidd.third c-sidd.third ch-sidd.third j-sidd.third jh-sidd.third ny-sidd.third tt-sidd.third tth-sidd.third dd-sidd.third ddh-sidd.third nn-sidd.third t-sidd.third th-sidd.third d-sidd.third dh-sidd.third n-sidd.third p-sidd.third ph-sidd.third b-sidd.third bh-sidd.third m-sidd.third y-sidd.third r-sidd.third r_uMatra-sidd.third r_uuMatra-sidd.third l-sidd.third v-sidd.third sh-sidd.third ss-sidd.third s-sidd.third h-sidd.third jh-sidd.med.ra.aaMatra ny-sidd.med.ra.aaMatra jh-sidd.ra.aaMatra ny-sidd.ra.aaMatra], # Mark
+    ;
+} GDEF;

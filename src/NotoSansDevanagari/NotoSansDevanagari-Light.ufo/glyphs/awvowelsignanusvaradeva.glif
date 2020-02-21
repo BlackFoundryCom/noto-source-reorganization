@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="awvowelsignanusvaradeva" format="2">
+  <advance width="225"/>
+  <outline>
+    <contour>
+      <point x="116" y="846" type="curve" smooth="yes"/>
+      <point x="116" y="821"/>
+      <point x="131" y="808"/>
+      <point x="147" y="808" type="curve" smooth="yes"/>
+      <point x="164" y="808"/>
+      <point x="177" y="820"/>
+      <point x="177" y="846" type="curve" smooth="yes"/>
+      <point x="177" y="869"/>
+      <point x="166" y="884"/>
+      <point x="147" y="884" type="curve" smooth="yes"/>
+      <point x="129" y="884"/>
+      <point x="116" y="870"/>
+    </contour>
+    <component base="aavowelsigndeva"/>
+    <component base="awcomponentdeva" xOffset="225"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/04/14 12:18:31</string>
+    </dict>
+  </lib>
+</glyph>

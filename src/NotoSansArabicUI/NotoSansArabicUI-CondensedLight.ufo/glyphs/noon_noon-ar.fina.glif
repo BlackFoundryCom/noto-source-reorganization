@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noon_noon-ar.fina" format="2">
+  <advance width="770"/>
+  <unicode hex="FC8D"/>
+  <anchor x="512" y="0" name="caret_1"/>
+  <anchor x="652" y="-5" name="bottom_1"/>
+  <anchor x="245" y="-230" name="bottom_2"/>
+  <anchor x="624" y="11" name="center"/>
+  <anchor x="684" y="419" name="top_1"/>
+  <anchor x="252" y="428" name="top_2"/>
+  <outline>
+    <component base="noon-ar.medi" xOffset="552"/>
+    <component base="noon-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>noon-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>noon-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:41</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="DoubleDanda_khar" format="2">
+  <advance width="474"/>
+  <unicode hex="10A57"/>
+  <outline>
+    <contour>
+      <point x="262" y="-16" type="line"/>
+      <point x="304" y="85"/>
+      <point x="409" y="543"/>
+      <point x="430" y="710" type="curve"/>
+      <point x="365" y="717" type="line"/>
+      <point x="347" y="572"/>
+      <point x="222" y="104"/>
+      <point x="181" y="6" type="curve"/>
+    </contour>
+    <contour>
+      <point x="125" y="-16" type="line"/>
+      <point x="167" y="85"/>
+      <point x="272" y="543"/>
+      <point x="293" y="710" type="curve"/>
+      <point x="228" y="717" type="line"/>
+      <point x="210" y="572"/>
+      <point x="85" y="104"/>
+      <point x="44" y="6" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/16 17:24:49</string>
+    </dict>
+  </lib>
+</glyph>

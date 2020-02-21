@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="phwa-ethiopic" format="2">
+  <advance width="828"/>
+  <unicode hex="1337"/>
+  <note>
+uni1337
+</note>
+  <anchor x="436" y="814" name="top"/>
+  <outline>
+    <contour>
+      <point x="248" y="695" type="line"/>
+      <point x="335" y="695" type="line"/>
+      <point x="335" y="814" type="line"/>
+      <point x="248" y="814" type="line"/>
+    </contour>
+    <component base="tswa-ethiopic"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>tsa-ethiopic</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>rightsingleflag</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/06/27 13:53:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

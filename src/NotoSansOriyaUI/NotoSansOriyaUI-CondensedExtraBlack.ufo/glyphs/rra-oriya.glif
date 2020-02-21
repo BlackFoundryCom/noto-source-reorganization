@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rra-oriya" format="2">
+  <advance width="651"/>
+  <unicode hex="0B5C"/>
+  <note>
+rraorya
+</note>
+  <anchor x="606" y="1" name="bottom_ra"/>
+  <anchor x="304" y="-17" name="nukta"/>
+  <anchor x="323" y="751" name="top"/>
+  <anchor x="505" y="751" name="topright"/>
+  <outline>
+    <component base="dda-oriya"/>
+    <component base="nukta-oriya" xOffset="4" yOffset="1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/06 18:24:06</string>
+    </dict>
+  </lib>
+</glyph>

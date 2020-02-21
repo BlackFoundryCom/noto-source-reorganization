@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="phoa-ethiopic" format="2">
+  <advance width="653"/>
+  <unicode hex="2D91"/>
+  <note>
+uni2D91
+</note>
+  <anchor x="322" y="814" name="top"/>
+  <outline>
+    <component base="pho-ethiopic" xOffset="136"/>
+    <component base="leftdoubleflag" yOffset="195"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>leftsingleflag</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>tsa-ethiopic</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/06/27 13:53:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

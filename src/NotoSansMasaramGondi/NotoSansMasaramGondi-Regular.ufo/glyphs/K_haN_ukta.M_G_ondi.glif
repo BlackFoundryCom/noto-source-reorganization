@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="KhaNukta.MGondi" format="2">
+  <advance width="779"/>
+  <anchor x="287" y="-78" name="bottom1"/>
+  <anchor x="287" y="698" name="top1"/>
+  <outline>
+    <component base="Kha.MGondi"/>
+    <component base="Nukta.MGondi" xOffset="828"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/22 14:47:20</string>
+    </dict>
+  </lib>
+</glyph>

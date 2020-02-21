@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="u16F85" format="2">
+  <advance width="331"/>
+  <unicode hex="16F85"/>
+  <outline>
+    <contour>
+      <point x="0" y="341" type="line"/>
+      <point x="0" y="169" type="line"/>
+      <point x="140" y="169" type="line" smooth="yes"/>
+      <point x="189" y="169"/>
+      <point x="213" y="154"/>
+      <point x="213" y="115" type="curve" smooth="yes"/>
+      <point x="213" y="72"/>
+      <point x="189" y="60"/>
+      <point x="141" y="60" type="curve" smooth="yes"/>
+      <point x="0" y="60" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="130" y="0" type="line" smooth="yes"/>
+      <point x="244" y="0"/>
+      <point x="281" y="47"/>
+      <point x="281" y="115" type="curve" smooth="yes"/>
+      <point x="281" y="187"/>
+      <point x="243" y="229"/>
+      <point x="130" y="229" type="curve" smooth="yes"/>
+      <point x="64" y="229" type="line"/>
+      <point x="64" y="341" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="30" type="line"/>
+      <point x="64" y="30" type="line"/>
+      <point x="64" y="228" type="line"/>
+      <point x="0" y="228" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/10 21:03:33</string>
+    </dict>
+  </lib>
+</glyph>

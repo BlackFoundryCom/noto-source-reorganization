@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="auMatra_gran" format="2">
+  <advance width="2702"/>
+  <unicode hex="1134C"/>
+  <outline>
+    <component base="eeMatra_gran"/>
+    <component base="dottedCircle" xOffset="850"/>
+    <component base="auLengthMark_gran" xOffset="1396"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>eeMatra_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ra_gran</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/11 14:28:29</string>
+    </dict>
+  </lib>
+</glyph>

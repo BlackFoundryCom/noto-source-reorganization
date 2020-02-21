@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jeem_alefMaksura-ar" format="2">
+  <advance width="1325"/>
+  <unicode hex="FD01"/>
+  <anchor x="736" y="0" name="caret_1"/>
+  <anchor x="1015" y="-186" name="bottom_1"/>
+  <anchor x="326" y="-232" name="bottom_2"/>
+  <anchor x="902" y="352" name="top_1"/>
+  <anchor x="216" y="150" name="top_2"/>
+  <outline>
+    <component base="jeem-ar.init" xOffset="736"/>
+    <component base="alefMaksura-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>jeem-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alefMaksura-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:39</string>
+    </dict>
+  </lib>
+</glyph>

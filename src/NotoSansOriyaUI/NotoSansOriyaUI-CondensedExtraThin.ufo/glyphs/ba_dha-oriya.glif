@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ba_dha-oriya" format="2">
+  <advance width="471"/>
+  <note>
+badhaorya
+</note>
+  <guideline x="119" y="174" angle="90"/>
+  <guideline x="333" y="400" angle="90"/>
+  <guideline x="420" y="400" angle="90"/>
+  <anchor x="320" y="203" name="bottom"/>
+  <anchor x="234" y="751" name="top"/>
+  <anchor x="398" y="751" name="topright"/>
+  <outline>
+    <component base="ba-oriya.base"/>
+    <component base="dha-oriya.below" xOffset="144"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ba-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ba-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/06 18:24:06</string>
+    </dict>
+  </lib>
+</glyph>

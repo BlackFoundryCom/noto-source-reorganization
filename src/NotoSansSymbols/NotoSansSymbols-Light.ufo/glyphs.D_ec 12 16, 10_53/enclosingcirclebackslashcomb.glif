@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="enclosingcirclebackslashcomb" format="2">
+  <advance width="2100"/>
+  <unicode hex="20E0"/>
+  <note>
+uni20E0
+</note>
+  <guideline x="1050" y="1119" angle="270"/>
+  <guideline x="1798" y="389" angle="180"/>
+  <outline>
+    <contour>
+      <point x="1050" y="-293" type="curve" smooth="yes"/>
+      <point x="1423" y="-293"/>
+      <point x="1731" y="18"/>
+      <point x="1731" y="389" type="curve" smooth="yes"/>
+      <point x="1731" y="766"/>
+      <point x="1425" y="1069"/>
+      <point x="1050" y="1069" type="curve" smooth="yes"/>
+      <point x="672" y="1069"/>
+      <point x="369" y="765"/>
+      <point x="369" y="389" type="curve" smooth="yes"/>
+      <point x="369" y="11"/>
+      <point x="675" y="-293"/>
+    </contour>
+    <contour>
+      <point x="1050" y="-266" type="curve" smooth="yes"/>
+      <point x="687" y="-266"/>
+      <point x="396" y="27"/>
+      <point x="396" y="389" type="curve" smooth="yes"/>
+      <point x="396" y="564"/>
+      <point x="467" y="726"/>
+      <point x="582" y="844" type="curve"/>
+      <point x="1506" y="-80" type="line"/>
+      <point x="1388" y="-195"/>
+      <point x="1227" y="-266"/>
+    </contour>
+    <contour>
+      <point x="1525" y="-60" type="curve"/>
+      <point x="601" y="862" type="line"/>
+      <point x="718" y="974"/>
+      <point x="876" y="1043"/>
+      <point x="1050" y="1043" type="curve" smooth="yes"/>
+      <point x="1407" y="1043"/>
+      <point x="1704" y="750"/>
+      <point x="1704" y="389" type="curve" smooth="yes"/>
+      <point x="1704" y="215"/>
+      <point x="1636" y="57"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/03/23 20:34:34</string>
+    </dict>
+  </lib>
+</glyph>

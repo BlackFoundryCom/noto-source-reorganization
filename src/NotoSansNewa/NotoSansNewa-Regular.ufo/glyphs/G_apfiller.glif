@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Gapfiller" format="2">
+  <advance width="393"/>
+  <unicode hex="1144E"/>
+  <outline>
+    <contour>
+      <point x="233" y="-21" type="line"/>
+      <point x="283" y="35" type="line"/>
+      <point x="189" y="113" type="line"/>
+      <point x="281" y="198" type="line"/>
+      <point x="233" y="247" type="line"/>
+      <point x="140" y="163" type="line" smooth="yes"/>
+      <point x="119" y="144"/>
+      <point x="110" y="127"/>
+      <point x="110" y="109" type="curve" smooth="yes"/>
+      <point x="110" y="91"/>
+      <point x="122" y="72"/>
+      <point x="143" y="55" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="233" y="299" type="line"/>
+      <point x="283" y="355" type="line"/>
+      <point x="189" y="433" type="line"/>
+      <point x="281" y="518" type="line"/>
+      <point x="233" y="567" type="line"/>
+      <point x="140" y="483" type="line" smooth="yes"/>
+      <point x="119" y="464"/>
+      <point x="110" y="447"/>
+      <point x="110" y="429" type="curve" smooth="yes"/>
+      <point x="110" y="411"/>
+      <point x="122" y="392"/>
+      <point x="143" y="375" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/20 13:18:29</string>
+    </dict>
+  </lib>
+</glyph>

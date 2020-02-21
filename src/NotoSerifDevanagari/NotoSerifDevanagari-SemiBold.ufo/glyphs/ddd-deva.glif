@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ddd-deva" format="2">
+  <advance width="537"/>
+  <anchor x="363" y="-144" name="bottom"/>
+  <anchor x="267" y="-144" name="bottom1"/>
+  <anchor x="267" y="-144" name="bottom_right"/>
+  <anchor x="425" y="626" name="candra"/>
+  <anchor x="288" y="-242" name="nukta"/>
+  <anchor x="425" y="626" name="top"/>
+  <outline>
+    <component base="ddda-deva"/>
+    <component base="halant-deva" xOffset="363" yOffset="-144"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ddda-deva</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ddda-deva</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/07/18 18:37:15</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>devanagari</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

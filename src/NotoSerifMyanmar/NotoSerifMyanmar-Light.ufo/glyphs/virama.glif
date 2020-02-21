@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="virama" format="2">
+  <unicode hex="1039"/>
+  <note>
+virama
+</note>
+  <outline>
+    <contour>
+      <point x="-343" y="-520" type="line"/>
+      <point x="-314" y="-520" type="line"/>
+      <point x="-320" y="-307" type="line"/>
+      <point x="-314" y="-94" type="line"/>
+      <point x="-343" y="-94" type="line"/>
+      <point x="-337" y="-307" type="line"/>
+    </contour>
+    <contour>
+      <point x="-111" y="-319" type="line"/>
+      <point x="-111" y="-294" type="line"/>
+      <point x="-546" y="-294" type="line"/>
+      <point x="-546" y="-319" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>myanmar</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

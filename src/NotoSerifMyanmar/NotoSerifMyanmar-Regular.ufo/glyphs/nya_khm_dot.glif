@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nya_khm_dot" format="2">
+  <advance width="1025"/>
+  <outline>
+    <contour>
+      <point x="575" y="267" type="line"/>
+      <point x="501" y="133" type="line"/>
+      <point x="501" y="-303" type="line" smooth="yes"/>
+      <point x="501" y="-356"/>
+      <point x="487" y="-388"/>
+      <point x="457" y="-403" type="curve" smooth="yes"/>
+      <point x="429" y="-418"/>
+      <point x="367" y="-420"/>
+      <point x="312" y="-420" type="curve" smooth="yes"/>
+      <point x="203" y="-420"/>
+      <point x="124" y="-410"/>
+      <point x="124" y="-343" type="curve" smooth="yes"/>
+      <point x="124" y="-306"/>
+      <point x="157" y="-280"/>
+      <point x="222" y="-280" type="curve" smooth="yes"/>
+      <point x="294" y="-280"/>
+      <point x="324" y="-305"/>
+      <point x="328" y="-348" type="curve"/>
+      <point x="442" y="-348" type="line"/>
+      <point x="439" y="-262"/>
+      <point x="362" y="-207"/>
+      <point x="247" y="-207" type="curve" smooth="yes"/>
+      <point x="125" y="-207"/>
+      <point x="58" y="-280"/>
+      <point x="58" y="-373" type="curve" smooth="yes"/>
+      <point x="58" y="-440"/>
+      <point x="83" y="-476"/>
+      <point x="111" y="-499" type="curve" smooth="yes"/>
+      <point x="154" y="-537"/>
+      <point x="229" y="-542"/>
+      <point x="316" y="-542" type="curve" smooth="yes"/>
+      <point x="404" y="-542"/>
+      <point x="479" y="-537"/>
+      <point x="522" y="-499" type="curve" smooth="yes"/>
+      <point x="550" y="-476"/>
+      <point x="575" y="-433"/>
+      <point x="575" y="-328" type="curve" smooth="yes"/>
+    </contour>
+    <component base="pa_khm"/>
+    <component base="_aa" xOffset="630"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>wa</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>wa</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>myanmar</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string></string>
+    </dict>
+  </lib>
+</glyph>

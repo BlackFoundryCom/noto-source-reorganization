@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lVocalic_gran" format="2">
+  <advance width="1352"/>
+  <unicode hex="1130C"/>
+  <outline>
+    <contour>
+      <point x="594" y="348" type="curve"/>
+      <point x="639" y="416" type="line"/>
+      <point x="599" y="498"/>
+      <point x="517" y="576"/>
+      <point x="384" y="576" type="curve" smooth="yes"/>
+      <point x="219" y="576"/>
+      <point x="70" y="454"/>
+      <point x="70" y="237" type="curve" smooth="yes"/>
+      <point x="70" y="60"/>
+      <point x="162" y="-12"/>
+      <point x="269" y="-12" type="curve" smooth="yes"/>
+      <point x="376" y="-12"/>
+      <point x="446" y="54"/>
+      <point x="446" y="165" type="curve" smooth="yes"/>
+      <point x="446" y="265"/>
+      <point x="377" y="328"/>
+      <point x="281" y="328" type="curve" smooth="yes"/>
+      <point x="216" y="328"/>
+      <point x="153" y="295"/>
+      <point x="113" y="248" type="curve"/>
+      <point x="128" y="184" type="line"/>
+      <point x="167" y="227"/>
+      <point x="214" y="258"/>
+      <point x="267" y="258" type="curve" smooth="yes"/>
+      <point x="322" y="258"/>
+      <point x="360" y="221"/>
+      <point x="360" y="155" type="curve" smooth="yes"/>
+      <point x="360" y="95"/>
+      <point x="325" y="60"/>
+      <point x="273" y="60" type="curve" smooth="yes"/>
+      <point x="207" y="60"/>
+      <point x="156" y="113"/>
+      <point x="156" y="237" type="curve" smooth="yes"/>
+      <point x="156" y="393"/>
+      <point x="246" y="504"/>
+      <point x="377" y="504" type="curve" smooth="yes"/>
+      <point x="473" y="504"/>
+      <point x="553" y="441"/>
+    </contour>
+    <component base="ra_gran" xOffset="506"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ttha_gran</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/09/18 15:39:42</string>
+    </dict>
+  </lib>
+</glyph>

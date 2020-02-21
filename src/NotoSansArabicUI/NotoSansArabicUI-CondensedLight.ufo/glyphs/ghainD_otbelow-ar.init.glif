@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ghainDotbelow-ar.init" format="2">
+  <advance width="357"/>
+  <anchor x="202" y="-172" name="bottom"/>
+  <anchor x="198" y="529" name="top"/>
+  <outline>
+    <component base="ghain-ar.init"/>
+    <component base="dotbelow-ar" xOffset="151" yOffset="-5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:36</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

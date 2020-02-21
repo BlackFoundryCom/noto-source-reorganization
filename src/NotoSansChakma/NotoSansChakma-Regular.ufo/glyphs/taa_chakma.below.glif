@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="taa_chakma.below" format="2">
+  <outline>
+    <contour>
+      <point x="-361" y="-122" type="curve"/>
+      <point x="-289" y="-179" type="line"/>
+      <point x="-284" y="-104"/>
+      <point x="-243" y="-60"/>
+      <point x="-189" y="-60" type="curve" smooth="yes"/>
+      <point x="-131" y="-60"/>
+      <point x="-85" y="-111"/>
+      <point x="-85" y="-175" type="curve" smooth="yes"/>
+      <point x="-85" y="-239"/>
+      <point x="-131" y="-292"/>
+      <point x="-189" y="-292" type="curve" smooth="yes"/>
+      <point x="-205" y="-292"/>
+      <point x="-220" y="-288"/>
+      <point x="-234" y="-280" type="curve"/>
+      <point x="-276" y="-332" type="line"/>
+      <point x="-252" y="-345"/>
+      <point x="-222" y="-352"/>
+      <point x="-189" y="-352" type="curve" smooth="yes"/>
+      <point x="-74" y="-352"/>
+      <point x="-3" y="-267"/>
+      <point x="-3" y="-175" type="curve" smooth="yes"/>
+      <point x="-3" y="-83"/>
+      <point x="-74" y="0"/>
+      <point x="-189" y="0" type="curve" smooth="yes"/>
+      <point x="-277" y="0"/>
+      <point x="-338" y="-49"/>
+    </contour>
+    <component base="waa_chakma.below" xOffset="-234"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/05/08 16:46:34</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>chakma</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

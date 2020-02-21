@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFEF9" format="2">
+  <advance width="546"/>
+  <unicode hex="FEF9"/>
+  <anchor x="419" y="50" name="bottom"/>
+  <anchor x="192" y="-133" name="bottom2"/>
+  <anchor x="375" y="881" name="top"/>
+  <anchor x="64" y="753" name="top2"/>
+  <outline>
+    <component base="uniFEFB"/>
+    <component base="uni0655" xOffset="81" yOffset="-87"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 13:04:35</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>isGlobal</key>
+          <integer>0</integer>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string>caret.1</string>
+          <key>x</key>
+          <integer>559</integer>
+          <key>y</key>
+          <integer>0</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

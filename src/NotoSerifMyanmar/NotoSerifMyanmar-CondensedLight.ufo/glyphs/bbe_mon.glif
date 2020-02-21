@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bbe_mon" format="2">
+  <advance width="498"/>
+  <unicode hex="105D"/>
+  <outline>
+    <contour>
+      <point x="361" y="50" type="line"/>
+      <point x="339" y="33" type="line"/>
+      <point x="339" y="-324" type="line" smooth="yes"/>
+      <point x="339" y="-410"/>
+      <point x="331" y="-445"/>
+      <point x="314" y="-467" type="curve" smooth="yes"/>
+      <point x="293" y="-495"/>
+      <point x="262" y="-502"/>
+      <point x="208" y="-502" type="curve" smooth="yes"/>
+      <point x="140" y="-502"/>
+      <point x="90" y="-486"/>
+      <point x="90" y="-416" type="curve" smooth="yes"/>
+      <point x="90" y="-365"/>
+      <point x="116" y="-330"/>
+      <point x="174" y="-330" type="curve" smooth="yes"/>
+      <point x="224" y="-330"/>
+      <point x="251" y="-357"/>
+      <point x="256" y="-408" type="curve"/>
+      <point x="280" y="-408" type="line"/>
+      <point x="276" y="-350"/>
+      <point x="234" y="-309"/>
+      <point x="173" y="-309" type="curve" smooth="yes"/>
+      <point x="97" y="-309"/>
+      <point x="69" y="-360"/>
+      <point x="69" y="-418" type="curve" smooth="yes"/>
+      <point x="69" y="-457"/>
+      <point x="83" y="-483"/>
+      <point x="101" y="-499" type="curve" smooth="yes"/>
+      <point x="129" y="-524"/>
+      <point x="173" y="-529"/>
+      <point x="208" y="-529" type="curve" smooth="yes"/>
+      <point x="277" y="-529"/>
+      <point x="301" y="-518"/>
+      <point x="326" y="-488" type="curve" smooth="yes"/>
+      <point x="346" y="-463"/>
+      <point x="361" y="-427"/>
+      <point x="361" y="-329" type="curve" smooth="yes"/>
+    </contour>
+    <component base="ma"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ma</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>ma</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>myanmar</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

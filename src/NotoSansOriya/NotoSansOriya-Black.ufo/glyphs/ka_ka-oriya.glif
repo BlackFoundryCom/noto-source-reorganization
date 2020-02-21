@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ka_ka-oriya" format="2">
+  <advance width="791"/>
+  <note>
+kakaorya
+</note>
+  <guideline x="609" y="177" angle="90"/>
+  <guideline x="679" y="177" angle="90"/>
+  <anchor x="527" y="110" name="bottom"/>
+  <anchor x="609" y="76" name="bottom_ta"/>
+  <anchor x="389" y="658" name="top"/>
+  <anchor x="619" y="658" name="topright"/>
+  <outline>
+    <component base="ka-oriya.below" xOffset="262"/>
+    <component base="ka-oriya.base"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ka-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ka-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/25 11:35:51</string>
+    </dict>
+  </lib>
+</glyph>

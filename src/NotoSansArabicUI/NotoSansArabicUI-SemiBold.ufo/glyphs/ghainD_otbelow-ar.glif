@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ghainDotbelow-ar" format="2">
+  <advance width="570"/>
+  <unicode hex="06FC"/>
+  <anchor x="371" y="-272" name="bottom"/>
+  <anchor x="386" y="22" name="top"/>
+  <outline>
+    <component base="ghain-ar"/>
+    <component base="dotabove-ar" xOffset="286" yOffset="-610"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:36</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

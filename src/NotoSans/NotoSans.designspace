@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<designspace format="4.0">
+<designspace format="4.1">
   <axes>
     <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400">
       <map input="100" output="26"/>
@@ -20,17 +20,13 @@
     </axis>
   </axes>
   <sources>
-    <source filename="NotoSans-Light.ufo" name="Noto Sans Light" familyname="NotoSans" stylename="Light">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
+    <source filename="NotoSans-Light.ufo" name="Noto Sans Light" familyname="Noto Sans" stylename="Light">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
-    <source filename="NotoSans-Regular.ufo" name="Noto Sans Regular" familyname="NotoSans" stylename="Regular">
+    <source filename="NotoSans-Regular.ufo" name="Noto Sans Regular" familyname="Noto Sans" stylename="Regular">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -40,61 +36,37 @@
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
-    <source filename="NotoSans-SemiBold.ufo" name="Noto Sans SemiBold" familyname="NotoSans" stylename="SemiBold">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
+    <source filename="NotoSans-SemiBold.ufo" name="Noto Sans SemiBold" familyname="Noto Sans" stylename="SemiBold">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
-    <source filename="NotoSans-Bold.ufo" name="Noto Sans Bold" familyname="NotoSans" stylename="Bold">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
+    <source filename="NotoSans-Bold.ufo" name="Noto Sans Bold" familyname="Noto Sans" stylename="Bold">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
-    <source filename="NotoSans-CondensedLight.ufo" name="Noto Sans Condensed Light" familyname="NotoSans" stylename="Condensed Light">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
+    <source filename="NotoSans-CondensedLight.ufo" name="Noto Sans Condensed Light" familyname="Noto Sans" stylename="Condensed Light">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
-    <source filename="NotoSans-Condensed.ufo" name="Noto Sans Condensed" familyname="NotoSans" stylename="Condensed">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
+    <source filename="NotoSans-Condensed.ufo" name="Noto Sans Condensed" familyname="Noto Sans" stylename="Condensed">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
-    <source filename="NotoSans-CondensedSemiBold.ufo" name="Noto Sans Condensed SemiBold" familyname="NotoSans" stylename="Condensed SemiBold">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
+    <source filename="NotoSans-CondensedSemiBold.ufo" name="Noto Sans Condensed SemiBold" familyname="Noto Sans" stylename="Condensed SemiBold">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
-    <source filename="NotoSans-CondensedBold.ufo" name="Noto Sans Condensed Bold" familyname="NotoSans" stylename="Condensed Bold">
-      <lib copy="1"/>
-      <groups copy="1"/>
-      <features copy="1"/>
-      <info copy="1"/>
+    <source filename="NotoSans-CondensedBold.ufo" name="Noto Sans Condensed Bold" familyname="Noto Sans" stylename="Condensed Bold">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="70"/>
@@ -102,293 +74,1263 @@
     </source>
   </sources>
   <instances>
-    <instance name="Noto Sans Thin" familyname="NotoSans" stylename="Thin" filename="instance_ufos/NotoSans-Thin.ufo">
+    <instance name="Noto Sans Thin" familyname="Noto Sans" stylename="Thin" filename="instance_ufos/NotoSans-Thin.ufo" stylemapfamilyname="Noto Sans Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans ExtraLight" familyname="NotoSans" stylename="ExtraLight" filename="instance_ufos/NotoSans-ExtraLight.ufo">
+    <instance name="Noto Sans ExtraLight" familyname="Noto Sans" stylename="ExtraLight" filename="instance_ufos/NotoSans-ExtraLight.ufo" stylemapfamilyname="Noto Sans ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="39"/>
         <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>3</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Light" familyname="NotoSans" stylename="Light" filename="instance_ufos/NotoSans-Light.ufo">
+    <instance name="Noto Sans Light" familyname="Noto Sans" stylename="Light" filename="instance_ufos/NotoSans-Light.ufo" stylemapfamilyname="Noto Sans Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="58"/>
         <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Regular" familyname="NotoSans" stylename="Regular" filename="instance_ufos/NotoSans-Regular.ufo">
+    <instance name="Noto Sans Regular" familyname="Noto Sans" stylename="Regular" filename="instance_ufos/NotoSans-Regular.ufo" stylemapfamilyname="Noto Sans" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Medium" familyname="NotoSans" stylename="Medium" filename="instance_ufos/NotoSans-Medium.ufo">
+    <instance name="Noto Sans Medium" familyname="Noto Sans" stylename="Medium" filename="instance_ufos/NotoSans-Medium.ufo" stylemapfamilyname="Noto Sans Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="108"/>
         <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans SemiBold" familyname="NotoSans" stylename="SemiBold" filename="instance_ufos/NotoSans-SemiBold.ufo">
+    <instance name="Noto Sans SemiBold" familyname="Noto Sans" stylename="SemiBold" filename="instance_ufos/NotoSans-SemiBold.ufo" stylemapfamilyname="Noto Sans SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="128"/>
         <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>7</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Bold" familyname="NotoSans" stylename="Bold" filename="instance_ufos/NotoSans-Bold.ufo">
+    <instance name="Noto Sans Bold" familyname="Noto Sans" stylename="Bold" filename="instance_ufos/NotoSans-Bold.ufo" stylemapfamilyname="Noto Sans" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>8</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans ExtraBold" familyname="NotoSans" stylename="ExtraBold" filename="instance_ufos/NotoSans-ExtraBold.ufo">
+    <instance name="Noto Sans ExtraBold" familyname="Noto Sans" stylename="ExtraBold" filename="instance_ufos/NotoSans-ExtraBold.ufo" stylemapfamilyname="Noto Sans ExtraBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Black" familyname="NotoSans" stylename="Black" filename="instance_ufos/NotoSans-Black.ufo">
+    <instance name="Noto Sans Black" familyname="Noto Sans" stylename="Black" filename="instance_ufos/NotoSans-Black.ufo" stylemapfamilyname="Noto Sans Black" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>10</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans SemiCondensed Thin" familyname="NotoSans" stylename="SemiCondensed Thin" filename="instance_ufos/NotoSans-SemiCondensedThin.ufo">
+    <instance name="Noto Sans SemiCondensed Thin" familyname="Noto Sans" stylename="SemiCondensed Thin" filename="instance_ufos/NotoSans-SemiCondensedThin.ufo" stylemapfamilyname="Noto Sans SemiCondensed Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="89"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans SemiCondensed ExtraLight" familyname="NotoSans" stylename="SemiCondensed ExtraLight" filename="instance_ufos/NotoSans-SemiCondensedExtraLight.ufo">
+    <instance name="Noto Sans SemiCondensed ExtraLight" familyname="Noto Sans" stylename="SemiCondensed ExtraLight" filename="instance_ufos/NotoSans-SemiCondensedExtraLight.ufo" stylemapfamilyname="Noto Sans SemiCondensed ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="39"/>
         <dimension name="Width" xvalue="89"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>3</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans SemiCondensed Light" familyname="NotoSans" stylename="SemiCondensed Light" filename="instance_ufos/NotoSans-SemiCondensedLight.ufo">
+    <instance name="Noto Sans SemiCondensed Light" familyname="Noto Sans" stylename="SemiCondensed Light" filename="instance_ufos/NotoSans-SemiCondensedLight.ufo" stylemapfamilyname="Noto Sans SemiCondensed Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="58"/>
         <dimension name="Width" xvalue="89"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans SemiCondensed" familyname="NotoSans" stylename="SemiCondensed" filename="instance_ufos/NotoSans-SemiCondensed.ufo">
+    <instance name="Noto Sans SemiCondensed" familyname="Noto Sans" stylename="SemiCondensed" filename="instance_ufos/NotoSans-SemiCondensed.ufo" stylemapfamilyname="Noto Sans SemiCondensed" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="89"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans SemiCondensed Medium" familyname="NotoSans" stylename="SemiCondensed Medium" filename="instance_ufos/NotoSans-SemiCondensedMedium.ufo">
+    <instance name="Noto Sans SemiCondensed Medium" familyname="Noto Sans" stylename="SemiCondensed Medium" filename="instance_ufos/NotoSans-SemiCondensedMedium.ufo" stylemapfamilyname="Noto Sans SemiCondensed Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="108"/>
         <dimension name="Width" xvalue="89"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans SemiCondensed SemiBold" familyname="NotoSans" stylename="SemiCondensed SemiBold" filename="instance_ufos/NotoSans-SemiCondensedSemiBold.ufo">
+    <instance name="Noto Sans SemiCondensed SemiBold" familyname="Noto Sans" stylename="SemiCondensed SemiBold" filename="instance_ufos/NotoSans-SemiCondensedSemiBold.ufo" stylemapfamilyname="Noto Sans SemiCondensed SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="128"/>
         <dimension name="Width" xvalue="89"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>7</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans SemiCondensed Bold" familyname="NotoSans" stylename="SemiCondensed Bold" filename="instance_ufos/NotoSans-SemiCondensedBold.ufo">
+    <instance name="Noto Sans SemiCondensed Bold" familyname="Noto Sans" stylename="SemiCondensed Bold" filename="instance_ufos/NotoSans-SemiCondensedBold.ufo" stylemapfamilyname="Noto Sans SemiCondensed" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="89"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>8</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans SemiCondensed ExtraBold" familyname="NotoSans" stylename="SemiCondensed ExtraBold" filename="instance_ufos/NotoSans-SemiCondensedExtraBold.ufo">
+    <instance name="Noto Sans SemiCondensed ExtraBold" familyname="Noto Sans" stylename="SemiCondensed ExtraBold" filename="instance_ufos/NotoSans-SemiCondensedExtraBold.ufo" stylemapfamilyname="Noto Sans SemiCondensed ExtraBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="89"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans SemiCondensed Black" familyname="NotoSans" stylename="SemiCondensed Black" filename="instance_ufos/NotoSans-SemiCondensedBlack.ufo">
+    <instance name="Noto Sans SemiCondensed Black" familyname="Noto Sans" stylename="SemiCondensed Black" filename="instance_ufos/NotoSans-SemiCondensedBlack.ufo" stylemapfamilyname="Noto Sans SemiCondensed Black" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="89"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>10</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Condensed Thin" familyname="NotoSans" stylename="Condensed Thin" filename="instance_ufos/NotoSans-CondensedThin.ufo">
+    <instance name="Noto Sans Condensed Thin" familyname="Noto Sans" stylename="Condensed Thin" filename="instance_ufos/NotoSans-CondensedThin.ufo" stylemapfamilyname="Noto Sans Condensed Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="79"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Condensed ExtraLight" familyname="NotoSans" stylename="Condensed ExtraLight" filename="instance_ufos/NotoSans-CondensedExtraLight.ufo">
+    <instance name="Noto Sans Condensed ExtraLight" familyname="Noto Sans" stylename="Condensed ExtraLight" filename="instance_ufos/NotoSans-CondensedExtraLight.ufo" stylemapfamilyname="Noto Sans Condensed ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="39"/>
         <dimension name="Width" xvalue="79"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>3</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Condensed Light" familyname="NotoSans" stylename="Condensed Light" filename="instance_ufos/NotoSans-CondensedLight.ufo">
+    <instance name="Noto Sans Condensed Light" familyname="Noto Sans" stylename="Condensed Light" filename="instance_ufos/NotoSans-CondensedLight.ufo" stylemapfamilyname="Noto Sans Condensed Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="58"/>
         <dimension name="Width" xvalue="79"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>4</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Condensed" familyname="NotoSans" stylename="Condensed" filename="instance_ufos/NotoSans-Condensed.ufo">
+    <instance name="Noto Sans Condensed" familyname="Noto Sans" stylename="Condensed" filename="instance_ufos/NotoSans-Condensed.ufo" stylemapfamilyname="Noto Sans Condensed" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="79"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Condensed Medium" familyname="NotoSans" stylename="Condensed Medium" filename="instance_ufos/NotoSans-CondensedMedium.ufo">
+    <instance name="Noto Sans Condensed Medium" familyname="Noto Sans" stylename="Condensed Medium" filename="instance_ufos/NotoSans-CondensedMedium.ufo" stylemapfamilyname="Noto Sans Condensed Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="108"/>
         <dimension name="Width" xvalue="79"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Condensed SemiBold" familyname="NotoSans" stylename="Condensed SemiBold" filename="instance_ufos/NotoSans-CondensedSemiBold.ufo">
+    <instance name="Noto Sans Condensed SemiBold" familyname="Noto Sans" stylename="Condensed SemiBold" filename="instance_ufos/NotoSans-CondensedSemiBold.ufo" stylemapfamilyname="Noto Sans Condensed SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="128"/>
         <dimension name="Width" xvalue="79"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>7</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Condensed Bold" familyname="NotoSans" stylename="Condensed Bold" filename="instance_ufos/NotoSans-CondensedBold.ufo">
+    <instance name="Noto Sans Condensed Bold" familyname="Noto Sans" stylename="Condensed Bold" filename="instance_ufos/NotoSans-CondensedBold.ufo" stylemapfamilyname="Noto Sans Condensed" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="79"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>8</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Condensed ExtraBold" familyname="NotoSans" stylename="Condensed ExtraBold" filename="instance_ufos/NotoSans-CondensedExtraBold.ufo">
+    <instance name="Noto Sans Condensed ExtraBold" familyname="Noto Sans" stylename="Condensed ExtraBold" filename="instance_ufos/NotoSans-CondensedExtraBold.ufo" stylemapfamilyname="Noto Sans Condensed ExtraBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="79"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>9</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans Condensed Black" familyname="NotoSans" stylename="Condensed Black" filename="instance_ufos/NotoSans-CondensedBlack.ufo">
+    <instance name="Noto Sans Condensed Black" familyname="Noto Sans" stylename="Condensed Black" filename="instance_ufos/NotoSans-CondensedBlack.ufo" stylemapfamilyname="Noto Sans Condensed Black" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="79"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>10</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans ExtraCondensed Thin" familyname="NotoSans" stylename="ExtraCondensed Thin" filename="instance_ufos/NotoSans-ExtraCondensedThin.ufo">
+    <instance name="Noto Sans ExtraCondensed Thin" familyname="Noto Sans" stylename="ExtraCondensed Thin" filename="instance_ufos/NotoSans-ExtraCondensedThin.ufo" stylemapfamilyname="Noto Sans ExtraCondensed Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="70"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans ExtraCondensed ExtraLight" familyname="NotoSans" stylename="ExtraCondensed ExtraLight" filename="instance_ufos/NotoSans-ExtraCondensedExtraLight.ufo">
+    <instance name="Noto Sans ExtraCondensed ExtraLight" familyname="Noto Sans" stylename="ExtraCondensed ExtraLight" filename="instance_ufos/NotoSans-ExtraCondensedExtraLight.ufo" stylemapfamilyname="Noto Sans ExtraCondensed ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="39"/>
         <dimension name="Width" xvalue="70"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>3</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans ExtraCondensed Light" familyname="NotoSans" stylename="ExtraCondensed Light" filename="instance_ufos/NotoSans-ExtraCondensedLight.ufo">
+    <instance name="Noto Sans ExtraCondensed Light" familyname="Noto Sans" stylename="ExtraCondensed Light" filename="instance_ufos/NotoSans-ExtraCondensedLight.ufo" stylemapfamilyname="Noto Sans ExtraCondensed Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="58"/>
         <dimension name="Width" xvalue="70"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>4</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans ExtraCondensed" familyname="NotoSans" stylename="ExtraCondensed" filename="instance_ufos/NotoSans-ExtraCondensed.ufo">
+    <instance name="Noto Sans ExtraCondensed" familyname="Noto Sans" stylename="ExtraCondensed" filename="instance_ufos/NotoSans-ExtraCondensed.ufo" stylemapfamilyname="Noto Sans ExtraCondensed" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="70"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>5</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans ExtraCondensed Medium" familyname="NotoSans" stylename="ExtraCondensed Medium" filename="instance_ufos/NotoSans-ExtraCondensedMedium.ufo">
+    <instance name="Noto Sans ExtraCondensed Medium" familyname="Noto Sans" stylename="ExtraCondensed Medium" filename="instance_ufos/NotoSans-ExtraCondensedMedium.ufo" stylemapfamilyname="Noto Sans ExtraCondensed Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="108"/>
         <dimension name="Width" xvalue="70"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>6</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans ExtraCondensed SemiBold" familyname="NotoSans" stylename="ExtraCondensed SemiBold" filename="instance_ufos/NotoSans-ExtraCondensedSemiBold.ufo">
+    <instance name="Noto Sans ExtraCondensed SemiBold" familyname="Noto Sans" stylename="ExtraCondensed SemiBold" filename="instance_ufos/NotoSans-ExtraCondensedSemiBold.ufo" stylemapfamilyname="Noto Sans ExtraCondensed SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="128"/>
         <dimension name="Width" xvalue="70"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>7</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans ExtraCondensed Bold" familyname="NotoSans" stylename="ExtraCondensed Bold" filename="instance_ufos/NotoSans-ExtraCondensedBold.ufo">
+    <instance name="Noto Sans ExtraCondensed Bold" familyname="Noto Sans" stylename="ExtraCondensed Bold" filename="instance_ufos/NotoSans-ExtraCondensedBold.ufo" stylemapfamilyname="Noto Sans ExtraCondensed" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="70"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>8</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans ExtraCondensed ExtraBold" familyname="NotoSans" stylename="ExtraCondensed ExtraBold" filename="instance_ufos/NotoSans-ExtraCondensedExtraBold.ufo">
+    <instance name="Noto Sans ExtraCondensed ExtraBold" familyname="Noto Sans" stylename="ExtraCondensed ExtraBold" filename="instance_ufos/NotoSans-ExtraCondensedExtraBold.ufo" stylemapfamilyname="Noto Sans ExtraCondensed ExtraBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="169"/>
         <dimension name="Width" xvalue="70"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>9</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
-    <instance name="Noto Sans ExtraCondensed Black" familyname="NotoSans" stylename="ExtraCondensed Black" filename="instance_ufos/NotoSans-ExtraCondensedBlack.ufo">
+    <instance name="Noto Sans ExtraCondensed Black" familyname="Noto Sans" stylename="ExtraCondensed Black" filename="instance_ufos/NotoSans-ExtraCondensedBlack.ufo" stylemapfamilyname="Noto Sans ExtraCondensed Black" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="70"/>
       </location>
       <kerning/>
       <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>11</integer>
+                <integer>10</integer>
+                <integer>6</integer>
+                <integer>4</integer>
+                <integer>5</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
     </instance>
   </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>0A718E2F-231D-484E-9433-16A5230D2CE8</key>
+        <dict/>
+        <key>876CB7B0-00C3-486C-9A47-43D2BE8A6B3C</key>
+        <dict/>
+        <key>UUID0</key>
+        <dict/>
+      </dict>
+      <key>com.github.googlei18n.ufo2ft.featureWriters</key>
+      <array>
+        <dict>
+          <key>class</key>
+          <string>KernFeatureWriter</string>
+          <key>options</key>
+          <dict>
+            <key>mode</key>
+            <string>append</string>
+          </dict>
+        </dict>
+        <dict>
+          <key>class</key>
+          <string>MarkFeatureWriter</string>
+          <key>options</key>
+          <dict>
+            <key>mode</key>
+            <string>skip</string>
+          </dict>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </designspace>

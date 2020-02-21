@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noon_heh-ar.medi" format="2">
+  <advance width="850"/>
+  <unicode hex="FCEF"/>
+  <anchor x="507" y="0" name="caret_1"/>
+  <anchor x="677" y="-5" name="bottom_1"/>
+  <anchor x="307" y="-217" name="bottom_2"/>
+  <anchor x="609" y="4" name="center"/>
+  <anchor x="694" y="415" name="top_1"/>
+  <anchor x="281" y="416" name="top_2"/>
+  <outline>
+    <component base="noon-ar.medi" xOffset="507"/>
+    <component base="heh-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>noon-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>heh-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:41</string>
+    </dict>
+  </lib>
+</glyph>

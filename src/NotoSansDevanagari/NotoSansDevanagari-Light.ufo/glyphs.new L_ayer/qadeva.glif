@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="qadeva" format="2">
+  <advance width="702"/>
+  <unicode hex="0958"/>
+  <anchor x="361" y="0" name="bottom0"/>
+  <anchor x="373" y="0" name="bottom1"/>
+  <anchor x="361" y="622" name="top0"/>
+  <outline>
+    <component base="kadeva"/>
+    <component base="nuktadeva" xOffset="446" yOffset="162"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/04/14 13:06:50</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam_jeem_jeem-ar.fina" format="2">
+  <advance width="1395"/>
+  <unicode hex="FD84"/>
+  <anchor x="1091" y="0" name="caret_1"/>
+  <anchor x="559" y="0" name="caret_2"/>
+  <anchor x="1244" y="-3" name="bottom_1"/>
+  <anchor x="848" y="-221" name="bottom_2"/>
+  <anchor x="319" y="-411" name="bottom_3"/>
+  <anchor x="300" y="32" name="center"/>
+  <anchor x="1248" y="738" name="top_1"/>
+  <anchor x="744" y="431" name="top_2"/>
+  <anchor x="293" y="500" name="top_3"/>
+  <outline>
+    <component base="lam-ar.medi" xOffset="1109"/>
+    <component base="jeem-ar.medi" xOffset="577"/>
+    <component base="jeem-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>lam-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>jeem-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:41</string>
+    </dict>
+  </lib>
+</glyph>

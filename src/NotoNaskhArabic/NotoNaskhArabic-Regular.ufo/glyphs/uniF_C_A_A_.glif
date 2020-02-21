@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFCAA" format="2">
+  <advance width="1049"/>
+  <unicode hex="FCAA"/>
+  <anchor x="732" y="-52" name="bottom_1"/>
+  <anchor x="242" y="-62" name="bottom_2"/>
+  <anchor x="735" y="389" name="top_1"/>
+  <anchor x="195" y="389" name="top_2"/>
+  <outline>
+    <component base="uniFEA3" xOffset="413"/>
+    <component base="uniFEE4"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/18 13:37:57</string>
+    </dict>
+  </lib>
+</glyph>

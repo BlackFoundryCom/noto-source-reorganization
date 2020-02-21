@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ccho.eth" format="2">
+  <advance width="1307"/>
+  <unicode hex="2DBE"/>
+  <note>
+uni2DBE
+</note>
+  <anchor x="652" y="714" name="top"/>
+  <outline>
+    <component base="cho.eth" xOffset="118"/>
+    <component base="leftsingleflag" yOffset="57"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>leftsingleflag</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>cho.eth</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/08/29 14:43:55</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

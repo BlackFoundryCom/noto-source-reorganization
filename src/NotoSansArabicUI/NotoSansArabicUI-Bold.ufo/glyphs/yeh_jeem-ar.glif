@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yeh_jeem-ar" format="2">
+  <advance width="1174"/>
+  <unicode hex="FC55"/>
+  <anchor x="721" y="0" name="caret_1"/>
+  <anchor x="966" y="-227" name="bottom_1"/>
+  <anchor x="398" y="-271" name="bottom_2"/>
+  <anchor x="898" y="3" name="center_1"/>
+  <anchor x="380" y="75" name="center_2"/>
+  <anchor x="968" y="519" name="top_1"/>
+  <anchor x="351" y="620" name="top_2"/>
+  <outline>
+    <component base="yeh-ar.init" xOffset="771"/>
+    <component base="jeem-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>yeh-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>jeem-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:41</string>
+    </dict>
+  </lib>
+</glyph>

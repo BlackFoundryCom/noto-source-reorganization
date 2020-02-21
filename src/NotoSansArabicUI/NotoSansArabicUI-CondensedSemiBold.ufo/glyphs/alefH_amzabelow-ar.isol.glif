@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefHamzabelow-ar.isol" format="2">
+  <advance width="276"/>
+  <unicode hex="FE87"/>
+  <anchor x="177" y="-251" name="bottom"/>
+  <anchor x="145" y="738" name="top"/>
+  <outline>
+    <component base="alef-ar"/>
+    <component base="hamzabelow-ar.restricted" xOffset="51"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:34</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

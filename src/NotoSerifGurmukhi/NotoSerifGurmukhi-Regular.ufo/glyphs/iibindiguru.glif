@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iibindiguru" format="2">
+  <advance width="888"/>
+  <note>
+iibindiguru
+</note>
+  <anchor x="546" y="-8" name="bottom"/>
+  <anchor x="886" y="622" name="top"/>
+  <outline>
+    <contour>
+      <point x="801" y="754" type="curve" smooth="yes"/>
+      <point x="801" y="722"/>
+      <point x="825" y="698"/>
+      <point x="856" y="698" type="curve" smooth="yes"/>
+      <point x="888" y="698"/>
+      <point x="910" y="722"/>
+      <point x="910" y="752" type="curve" smooth="yes"/>
+      <point x="910" y="783"/>
+      <point x="887" y="807"/>
+      <point x="856" y="807" type="curve" smooth="yes"/>
+      <point x="824" y="807"/>
+      <point x="801" y="784"/>
+    </contour>
+    <component base="iiguru"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/21 14:37:48</string>
+    </dict>
+  </lib>
+</glyph>

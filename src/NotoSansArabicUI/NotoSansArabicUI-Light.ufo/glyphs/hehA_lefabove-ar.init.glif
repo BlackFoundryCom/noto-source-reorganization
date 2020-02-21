@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hehAlefabove-ar.init" format="2">
+  <advance width="567"/>
+  <unicode hex="FCD9"/>
+  <anchor x="277" y="0" name="bottom"/>
+  <anchor x="301" y="703" name="top"/>
+  <outline>
+    <component base="heh-ar.init"/>
+    <component base="alefabove-ar" xOffset="245" yOffset="-71"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:37</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

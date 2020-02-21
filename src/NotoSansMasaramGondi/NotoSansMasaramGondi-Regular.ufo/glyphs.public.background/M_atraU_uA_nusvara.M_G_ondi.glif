@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="MatraUuAnusvara.MGondi" format="2">
+  <outline>
+    <contour>
+      <point x="-51" y="281" type="line"/>
+      <point x="124" y="281" type="line"/>
+      <point x="124" y="357" type="line"/>
+      <point x="-51" y="357" type="line"/>
+    </contour>
+    <component base="MatraUu.MGondi"/>
+    <component base="Anusvara.MGondi" xOffset="140"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

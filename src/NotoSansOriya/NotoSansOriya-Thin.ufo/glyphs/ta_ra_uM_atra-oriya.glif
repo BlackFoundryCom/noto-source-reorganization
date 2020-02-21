@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ta_ra_uMatra-oriya" format="2">
+  <advance width="653"/>
+  <anchor x="466" y="110" name="bottom"/>
+  <anchor x="317" y="658" name="top"/>
+  <anchor x="550" y="658" name="topright"/>
+  <outline>
+    <component base="ta-oriya.base"/>
+    <component base="ra_uMatra-oriya.below" xOffset="-51" yOffset="60"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ta-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ta-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/25 11:35:51</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

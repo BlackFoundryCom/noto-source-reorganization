@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="behhamzaabove-ar" format="2">
+  <advance width="1068"/>
+  <unicode hex="08A1"/>
+  <anchor x="522" y="-262" name="bottom"/>
+  <anchor x="544" y="-21" name="center"/>
+  <anchor x="511" y="658" name="top"/>
+  <outline>
+    <component base="beh-ar"/>
+    <component base="hamzaabove-ar" xOffset="363" yOffset="-92"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:34</string>
+    </dict>
+  </lib>
+</glyph>

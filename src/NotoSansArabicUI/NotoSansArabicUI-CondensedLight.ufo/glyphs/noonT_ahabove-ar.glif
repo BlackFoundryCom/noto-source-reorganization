@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonTahabove-ar" format="2">
+  <advance width="520"/>
+  <unicode hex="0768"/>
+  <anchor x="237" y="-230" name="bottom"/>
+  <anchor x="246" y="807" name="top"/>
+  <outline>
+    <component base="noonghunna-ar"/>
+    <component base="dotabove-ar" xOffset="201" yOffset="-168"/>
+    <component base="uniFBC0" xOffset="118" yOffset="-30"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>noonghunna-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>noonghunna-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:38</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

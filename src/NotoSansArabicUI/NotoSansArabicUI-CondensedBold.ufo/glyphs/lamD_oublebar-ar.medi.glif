@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamDoublebar-ar.medi" format="2">
+  <advance width="321"/>
+  <anchor x="152" y="-4" name="bottom"/>
+  <anchor x="146" y="739" name="top"/>
+  <outline>
+    <component base="lam-ar.medi"/>
+    <component base="_doublebarshort" xOffset="21"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>lam-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>lam-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/14 20:15:59</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

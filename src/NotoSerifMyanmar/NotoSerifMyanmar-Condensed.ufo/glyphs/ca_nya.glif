@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ca_nya" format="2">
+  <advance width="488"/>
+  <note>
+For Sanskrit.
+</note>
+  <outline>
+    <contour>
+      <point x="436" y="268" type="line"/>
+      <point x="364" y="110" type="line"/>
+      <point x="364" y="-8" type="line" smooth="yes"/>
+      <point x="364" y="-61"/>
+      <point x="355" y="-93"/>
+      <point x="336" y="-108" type="curve" smooth="yes"/>
+      <point x="318" y="-123"/>
+      <point x="279" y="-125"/>
+      <point x="241" y="-125" type="curve" smooth="yes"/>
+      <point x="204" y="-125"/>
+      <point x="162" y="-123"/>
+      <point x="144" y="-108" type="curve" smooth="yes"/>
+      <point x="125" y="-93"/>
+      <point x="116" y="-61"/>
+      <point x="116" y="-8" type="curve"/>
+      <point x="52" y="-8" type="line"/>
+      <point x="52" y="-29" type="line" smooth="yes"/>
+      <point x="52" y="-134"/>
+      <point x="70" y="-177"/>
+      <point x="91" y="-200" type="curve" smooth="yes"/>
+      <point x="123" y="-238"/>
+      <point x="179" y="-243"/>
+      <point x="245" y="-243" type="curve" smooth="yes"/>
+      <point x="311" y="-243"/>
+      <point x="365" y="-238"/>
+      <point x="397" y="-200" type="curve" smooth="yes"/>
+      <point x="418" y="-177"/>
+      <point x="436" y="-134"/>
+      <point x="436" y="-29" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="433" y="-306" type="line"/>
+      <point x="369" y="-306" type="line"/>
+      <point x="369" y="-359"/>
+      <point x="360" y="-391"/>
+      <point x="341" y="-406" type="curve" smooth="yes"/>
+      <point x="323" y="-421"/>
+      <point x="282" y="-423"/>
+      <point x="246" y="-423" type="curve" smooth="yes"/>
+      <point x="209" y="-423"/>
+      <point x="170" y="-421"/>
+      <point x="152" y="-406" type="curve" smooth="yes"/>
+      <point x="133" y="-391"/>
+      <point x="124" y="-359"/>
+      <point x="124" y="-306" type="curve" smooth="yes"/>
+      <point x="124" y="-185" type="line"/>
+      <point x="52" y="-16" type="line"/>
+      <point x="52" y="-327" type="line" smooth="yes"/>
+      <point x="52" y="-432"/>
+      <point x="70" y="-475"/>
+      <point x="91" y="-498" type="curve" smooth="yes"/>
+      <point x="123" y="-536"/>
+      <point x="177" y="-541"/>
+      <point x="242" y="-541" type="curve" smooth="yes"/>
+      <point x="307" y="-541"/>
+      <point x="362" y="-536"/>
+      <point x="394" y="-498" type="curve" smooth="yes"/>
+      <point x="415" y="-475"/>
+      <point x="433" y="-432"/>
+      <point x="433" y="-327" type="curve" smooth="yes"/>
+    </contour>
+    <component base="ca"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>wa</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>wa</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+    </dict>
+  </lib>
+</glyph>

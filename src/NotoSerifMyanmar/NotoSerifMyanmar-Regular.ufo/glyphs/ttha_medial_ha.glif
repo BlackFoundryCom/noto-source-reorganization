@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ttha_medial_ha" format="2">
+  <advance width="630"/>
+  <outline>
+    <contour>
+      <point x="277" y="0" type="line"/>
+      <point x="277" y="-47" type="line" smooth="yes"/>
+      <point x="277" y="-129"/>
+      <point x="253" y="-161"/>
+      <point x="171" y="-161" type="curve" smooth="yes"/>
+      <point x="166" y="-161" type="line"/>
+      <point x="166" y="-288" type="line"/>
+      <point x="173" y="-289"/>
+      <point x="181" y="-289"/>
+      <point x="185" y="-289" type="curve" smooth="yes"/>
+      <point x="298" y="-289"/>
+      <point x="353" y="-231"/>
+      <point x="353" y="-78" type="curve" smooth="yes"/>
+      <point x="353" y="0" type="line"/>
+    </contour>
+    <component base="ttha.clipped"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ttha</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>ttha</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+    </dict>
+  </lib>
+</glyph>

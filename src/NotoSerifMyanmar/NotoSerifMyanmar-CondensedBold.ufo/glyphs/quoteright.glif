@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quoteright" format="2">
+  <advance width="280"/>
+  <unicode hex="2019"/>
+  <outline>
+    <contour>
+      <point x="250" y="863" type="curve"/>
+      <point x="125" y="745" type="line"/>
+      <point x="110" y="691"/>
+      <point x="86" y="642"/>
+      <point x="45" y="577" type="curve"/>
+      <point x="103" y="543" type="line"/>
+      <point x="165" y="600"/>
+      <point x="250" y="727"/>
+    </contour>
+    <contour>
+      <point x="140" y="733" type="curve" smooth="yes"/>
+      <point x="207" y="733"/>
+      <point x="250" y="784"/>
+      <point x="250" y="863" type="curve" smooth="yes"/>
+      <point x="250" y="944"/>
+      <point x="207" y="995"/>
+      <point x="140" y="995" type="curve" smooth="yes"/>
+      <point x="73" y="995"/>
+      <point x="30" y="944"/>
+      <point x="30" y="863" type="curve" smooth="yes"/>
+      <point x="30" y="784"/>
+      <point x="73" y="733"/>
+    </contour>
+    <contour>
+      <point x="140" y="819" type="curve" smooth="yes"/>
+      <point x="105" y="819"/>
+      <point x="90" y="837"/>
+      <point x="90" y="863" type="curve" smooth="yes"/>
+      <point x="90" y="890"/>
+      <point x="105" y="909"/>
+      <point x="140" y="909" type="curve" smooth="yes"/>
+      <point x="175" y="909"/>
+      <point x="190" y="890"/>
+      <point x="190" y="863" type="curve" smooth="yes"/>
+      <point x="190" y="837"/>
+      <point x="175" y="819"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>visarga</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>visarga</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+    </dict>
+  </lib>
+</glyph>

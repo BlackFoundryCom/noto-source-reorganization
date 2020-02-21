@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="VowelEe.GGondi" format="2">
+  <advance width="802"/>
+  <unicode hex="11D67"/>
+  <guideline x="58" y="193" angle="90"/>
+  <guideline x="0" y="191" angle="90"/>
+  <anchor x="610" y="766" name="top"/>
+  <outline>
+    <component base="VowelA.GGondi"/>
+    <component base="MatraEe.GGondi" xOffset="798"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/04 20:07:41</string>
+    </dict>
+  </lib>
+</glyph>

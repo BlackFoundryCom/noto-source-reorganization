@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period-ethiopic" format="2">
+  <advance width="506"/>
+  <unicode hex="1362"/>
+  <note>
+uni1362
+</note>
+  <outline>
+    <component base="yizet-ethiopic" xOffset="248" yOffset="150"/>
+    <component base="yizet-ethiopic" xOffset="248" yOffset="451"/>
+    <component base="yizet-ethiopic" xOffset="-10" yOffset="150"/>
+    <component base="yizet-ethiopic" xOffset="-10" yOffset="451"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/06/27 13:53:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

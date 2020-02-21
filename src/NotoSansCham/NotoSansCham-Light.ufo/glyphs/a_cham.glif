@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="a_cham" format="2">
+  <advance width="980"/>
+  <unicode hex="AA00"/>
+  <note>
+uniAA00
+</note>
+  <outline>
+    <component base="o_cham"/>
+    <component base="yaMedial_cham" xOffset="507"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>verticalShift</key>
+        <integer>-151</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o_cham</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dha_cham</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/04/21 12:56:17</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cham</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

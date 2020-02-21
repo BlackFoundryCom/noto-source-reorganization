@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uighurkirghizyehHamzaabove_alefMaksura-ar" format="2">
+  <advance width="1005"/>
+  <unicode hex="FBF9"/>
+  <anchor x="706" y="0" name="caret_1"/>
+  <anchor x="843" y="-5" name="bottom_1"/>
+  <anchor x="326" y="-232" name="bottom_2"/>
+  <anchor x="860" y="657" name="top_1"/>
+  <anchor x="216" y="150" name="top_2"/>
+  <outline>
+    <component base="yehHamzaabove-ar.init" xOffset="736"/>
+    <component base="alefMaksura-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>yehHamzaabove-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alefMaksura-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:42</string>
+    </dict>
+  </lib>
+</glyph>

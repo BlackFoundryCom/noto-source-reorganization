@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="j_nye_kannada" format="2">
+  <advance width="745"/>
+  <anchor x="381" y="0" name="bottom"/>
+  <anchor x="360" y="764" name="top"/>
+  <outline>
+    <component base="je_kannada"/>
+    <component base="nya_kannada.below" xOffset="569" yOffset="-26"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

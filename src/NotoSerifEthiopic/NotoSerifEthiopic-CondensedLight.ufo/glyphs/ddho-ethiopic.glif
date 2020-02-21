@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ddho-ethiopic" format="2">
+  <advance width="540"/>
+  <unicode hex="AB0E"/>
+  <note>
+uniAB0E
+</note>
+  <anchor x="274" y="830" name="top"/>
+  <outline>
+    <contour>
+      <point x="164" y="568" type="line"/>
+      <point x="394" y="568" type="line"/>
+      <point x="394" y="593" type="line"/>
+      <point x="164" y="593" type="line"/>
+    </contour>
+    <component base="ddo-ethiopic"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>rightsingleflag</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/06/27 13:53:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rra-oriya.base" format="2">
+  <advance width="653"/>
+  <anchor x="466" y="110" name="bottom"/>
+  <anchor x="316" y="8" name="nukta"/>
+  <anchor x="318" y="658" name="top"/>
+  <anchor x="550" y="658" name="topright"/>
+  <outline>
+    <component base="dda-oriya.base"/>
+    <component base="nukta-oriya" xOffset="16" yOffset="113"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dda-oriya.base</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dda-oriya.base</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/10/25 11:35:51</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sh_ri_gran" format="2">
+  <advance width="1640"/>
+  <note>
+shri
+</note>
+  <outline>
+    <contour>
+      <point x="1499" y="0" type="line"/>
+      <point x="1560" y="0" type="line"/>
+      <point x="1560" y="570" type="line" smooth="yes"/>
+      <point x="1560" y="736"/>
+      <point x="1442" y="834"/>
+      <point x="1277" y="834" type="curve" smooth="yes"/>
+      <point x="1129" y="834"/>
+      <point x="1027" y="758"/>
+      <point x="1027" y="648" type="curve" smooth="yes"/>
+      <point x="1027" y="561"/>
+      <point x="1095" y="500"/>
+      <point x="1177" y="500" type="curve" smooth="yes"/>
+      <point x="1182" y="500" type="line"/>
+      <point x="1182" y="554" type="line"/>
+      <point x="1177" y="554" type="line" smooth="yes"/>
+      <point x="1127" y="554"/>
+      <point x="1092" y="587"/>
+      <point x="1092" y="637" type="curve" smooth="yes"/>
+      <point x="1092" y="709"/>
+      <point x="1164" y="746"/>
+      <point x="1267" y="746" type="curve" smooth="yes"/>
+      <point x="1413" y="746"/>
+      <point x="1499" y="678"/>
+      <point x="1499" y="540" type="curve" smooth="yes"/>
+    </contour>
+    <component base="sh_ra_gran" xOffset="1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>sha_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ki_gran</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/11 14:29:51</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

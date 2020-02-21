@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oovowelsignmlym" format="2">
+  <advance width="1416"/>
+  <unicode hex="0D4B"/>
+  <outline>
+    <component base="eevowelsignmlym"/>
+    <component base="aavowelsignmlym" xOffset="854"/>
+    <component base="period.mlym" xOffset="608" yOffset="217"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>eevowelsignmlym</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>nnamlym</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/05 08:30:02</string>
+    </dict>
+  </lib>
+</glyph>

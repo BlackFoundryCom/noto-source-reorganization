@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sathamlym" format="2">
+  <advance width="2117"/>
+  <outline>
+    <contour>
+      <point x="1628" y="0" type="line"/>
+      <point x="1618" y="128" type="line"/>
+      <point x="1437" y="128" type="line" smooth="yes"/>
+      <point x="1411" y="128"/>
+      <point x="1349" y="126"/>
+      <point x="1317" y="122" type="curve"/>
+      <point x="1134" y="0" type="line"/>
+    </contour>
+    <component base="samlym"/>
+    <component base="thapart" xOffset="1106"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/01/04 15:18:11</string>
+    </dict>
+  </lib>
+</glyph>

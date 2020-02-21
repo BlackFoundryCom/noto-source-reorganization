@@ -1,0 +1,275 @@
+# automatic
+@class1 = [ u112B0 u112B1 u112B2 u112B3 u112B4 u112B5 u112B6 u112B7 u112B8 u112B9 u112BA u112BB u112BC u112BD u112BE u112BF u112C0 u112C1 u112C2 u112C3 u112C4 u112C5 u112C6 u112C7 u112C8 u112C9 u112CA u112CB u112CC u112CD u112CE u112CF u112D0 u112D1 u112D2 u112D3 u112D4 u112D5 u112D6 u112D7 u112D8 u112D9 u112DA u112DB u112DC u112DD u112DE u112E1_u112C0 u112C0_u112E2 u112E1_u112C3 u112C3_u112E2 u112E1_u112D1 u112D1_u112E2 u112E1_u112D4 u112D4_u112E2 u112D6_u112E2 u112E1_u112BD u112E1_u112D7 ];
+
+@class3 = [ u112B0 u112B1 u112B2 u112B3 u112B4 u112B5 u112B6 u112B7 u112B8 u112B9 u112BA u112BB u112BC u112BD u112BE u112BF u112C0 u112C1 u112C2 u112C3 u112C4 u112C5 u112C6 u112C7 u112C8 u112C9 u112CA u112CB u112CC u112CD u112CE u112CF u112D0 u112D1 u112D2 u112D3 u112D4 u112D5 u112D6 u112D7 u112D8 u112D9 u112DA u112DB u112DC u112DD u112DE u112E1 u112E2 u112E1_u112C0 u112C0_u112E2 u112E1_u112C3 u112C3_u112E2 u112E1_u112D1 u112D1_u112E2 u112E1_u112D4 u112D4_u112E2 u112D6_u112E2 u112E1_u112BD u112E1_u112D7 ];
+
+# Prefix: FontLab OTPanel
+languagesystem DFLT dflt;
+
+feature mark {
+# disabled
+## Mark Positioning
+# # DEFAULT
+#lookup mark0 {
+##    mark u112E3 0 0;
+##    mark u112E4 0 0;
+##    mark u112E9 60 40;
+##    mark u112EA 60 0;
+##    pos u112B0 mark [u112E3 u112E4 u112E9 u112EA] 530 0;
+##    pos u112B1 mark [u112E3 u112E4 u112E9 u112EA] 530 0;
+##    pos u112B2 mark [u112E3 u112E4 u112E9 u112EA] 264 0;
+##    pos u112B3 mark [u112E3 u112E4 u112E9 u112EA] 446 0;
+##    pos u112B4 mark [u112E3 u112E4 u112E9 u112EA] 340 0;
+##    pos u112B5 mark [u112E3 u112E4 u112E9 u112EA] 340 0;
+##    pos u112B6 mark [u112E3 u112E4 u112E9 u112EA] 530 0;
+##    pos u112B7 mark [u112E3 u112E4 u112E9 u112EA] 530 0;
+##    pos u112B8 mark [u112E3 u112E4 u112E9 u112EA] 530 0;
+##    pos u112B9 mark [u112E3 u112E4 u112E9 u112EA] 530 0;
+##    pos u112BA mark [u112E3 u112E4 u112E9 u112EA] 450 0;
+##    pos u112BB mark [u112E3 u112E4 u112E9 u112EA] 352 0;
+##    pos u112BC mark [u112E3 u112E4 u112E9 u112EA] 320 0;
+##    pos u112BD mark [u112E3 u112E4 u112E9 u112EA] 387 0;
+##    pos u112BE mark [u112E3 u112E4 u112E9 u112EA] 296 0;
+##    pos u112BF mark [u112E3 u112E4 u112E9 u112EA] 268 0;
+##    pos u112C0 mark [u112E3 u112E4 u112E9 u112EA] 285 0;
+##    pos u112C1 mark [u112E3 u112E4 u112E9 u112EA] 324 0;
+##    pos u112C2 mark [u112E3 u112E4 u112E9 u112EA] 408 0;
+##    pos u112C3 mark [u112E3 u112E4 u112E9 u112EA] 450 0;
+##    pos u112C4 mark [u112E3 u112E4 u112E9 u112EA] 410 0;
+##    pos u112C5 mark [u112E3 u112E4 u112E9 u112EA] 247 0;
+##    pos u112C6 mark [u112E3 u112E4 u112E9 u112EA] 324 0;
+##    pos u112C7 mark [u112E3 u112E4 u112E9 u112EA] 373 0;
+##    pos u112C8 mark [u112E3 u112E4 u112E9 u112EA] 345 0;
+##    pos u112C9 mark [u112E3 u112E4 u112E9 u112EA] 261 0;
+##    pos u112CA mark [u112E3 u112E4 u112E9 u112EA] 226 0;
+##    pos u112CB mark [u112E3 u112E4 u112E9 u112EA] 345 0;
+##    pos u112CC mark [u112E3 u112E4 u112E9 u112EA] 380 -200;
+##    pos u112CD mark [u112E3 u112E4 u112E9 u112EA] 268 0;
+##    pos u112CE mark [u112E3 u112E4 u112E9 u112EA] 401 0;
+##    pos u112CF mark [u112E3 u112E4 u112E9 u112EA] 380 0;
+##    pos u112D0 mark [u112E3 u112E4 u112E9 u112EA] 320 0;
+##    pos u112D1 mark [u112E3 u112E4 u112E9 u112EA] 275 0;
+##    pos u112D2 mark [u112E3 u112E4 u112E9 u112EA] 331 0;
+##    pos u112D3 mark [u112E3 u112E4 u112E9 u112EA] 282 0;
+##    pos u112D4 mark [u112E3 u112E4 u112E9 u112EA] 373 0;
+##    pos u112D5 mark [u112E3 u112E4 u112E9 u112EA] 387 0;
+##    pos u112D6 mark [u112E3 u112E4 u112E9 u112EA] 513 0;
+##    pos u112D7 mark [u112E3 u112E4 u112E9 u112EA] 300 0;
+##    pos u112D8 mark [u112E3 u112E4 u112E9 u112EA] 422 0;
+##    pos u112D9 mark [u112E3 u112E4 u112E9 u112EA] 240 0;
+##    pos u112DA mark [u112E3 u112E4 u112E9 u112EA] 275 0;
+##    pos u112DB mark [u112E3 u112E4 u112E9 u112EA] 320 0;
+##    pos u112DC mark [u112E3 u112E4 u112E9 u112EA] 394 0;
+##    pos u112DD mark [u112E3 u112E4 u112E9 u112EA] 359 0;
+##    pos u112DE mark [u112E3 u112E4 u112E9 u112EA] 310 0;
+##    pos u112E1_u112C0 mark [u112E3 u112E4 u112E9 u112EA] 546 0;
+##    pos u112C0_u112E2 mark [u112E3 u112E4 u112E9 u112EA] 196 0;
+##    pos u112E1_u112C3 mark [u112E3 u112E4 u112E9 u112EA] 805 0;
+##    pos u112C3_u112E2 mark [u112E3 u112E4 u112E9 u112EA] 448 0;
+##    pos u112E1_u112D1 mark [u112E3 u112E4 u112E9 u112EA] 630 0;
+##    pos u112D1_u112E2 mark [u112E3 u112E4 u112E9 u112EA] 245 0;
+##    pos u112E1_u112D4 mark [u112E3 u112E4 u112E9 u112EA] 749 0;
+##    pos u112D4_u112E2 mark [u112E3 u112E4 u112E9 u112EA] 378 0;
+##    pos u112D6_u112E2 mark [u112E3 u112E4 u112E9 u112EA] 511 0;
+##    pos u112E1_u112BD mark [u112E3 u112E4 u112E9 u112EA] 658 0;
+##    pos u112E1_u112D7 mark [u112E3 u112E4 u112E9 u112EA] 680 0;
+#} mark0;
+#lookup mark1 {
+##    mark u112E5 330 590;
+##    mark u112E6 330 590;
+##    mark u112E7 468 590;
+##    mark u112E8 390 570;
+##    pos u112B0 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112B1 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112B2 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112B3 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112B4 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112B5 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112B6 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112B7 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112B8 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112B9 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112BA mark [u112E5 u112E6 u112E7 u112E8] 510 600;
+##    pos u112BB mark [u112E5 u112E6 u112E7 u112E8] 400 580;
+##    pos u112BC mark [u112E5 u112E6 u112E7 u112E8] 390 600;
+##    pos u112BD mark [u112E5 u112E6 u112E7 u112E8] 540 600;
+##    pos u112BE mark [u112E5 u112E6 u112E7 u112E8] 320 600;
+##    pos u112BF mark [u112E5 u112E6 u112E7 u112E8] 360 580;
+##    pos u112C0 mark [u112E5 u112E6 u112E7 u112E8] 510 600;
+##    pos u112C1 mark [u112E5 u112E6 u112E7 u112E8] 334 600;
+##    pos u112C2 mark [u112E5 u112E6 u112E7 u112E8] 540 570;
+##    pos u112C3 mark [u112E5 u112E6 u112E7 u112E8] 901 600;
+##    pos u112C4 mark [u112E5 u112E6 u112E7 u112E8] 550 580;
+##    pos u112C5 mark [u112E5 u112E6 u112E7 u112E8] 299 600;
+##    pos u112C6 mark [u112E5 u112E6 u112E7 u112E8] 411 600;
+##    pos u112C7 mark [u112E5 u112E6 u112E7 u112E8] 475 580;
+##    pos u112C8 mark [u112E5 u112E6 u112E7 u112E8] 400 580;
+##    pos u112C9 mark [u112E5 u112E6 u112E7 u112E8] 392 600;
+##    pos u112CA mark [u112E5 u112E6 u112E7 u112E8] 330 580;
+##    pos u112CB mark [u112E5 u112E6 u112E7 u112E8] 412 600;
+##    pos u112CC mark [u112E5 u112E6 u112E7 u112E8] 550 600;
+##    pos u112CD mark [u112E5 u112E6 u112E7 u112E8] 380 590;
+##    pos u112CE mark [u112E5 u112E6 u112E7 u112E8] 650 580;
+##    pos u112CF mark [u112E5 u112E6 u112E7 u112E8] 490 580;
+##    pos u112D0 mark [u112E5 u112E6 u112E7 u112E8] 380 580;
+##    pos u112D1 mark [u112E5 u112E6 u112E7 u112E8] 775 580;
+##    pos u112D2 mark [u112E5 u112E6 u112E7 u112E8] 500 600;
+##    pos u112D3 mark [u112E5 u112E6 u112E7 u112E8] 415 580;
+##    pos u112D4 mark [u112E5 u112E6 u112E7 u112E8] 820 560;
+##    pos u112D5 mark [u112E5 u112E6 u112E7 u112E8] 439 600;
+##    pos u112D6 mark [u112E5 u112E6 u112E7 u112E8] 930 570;
+##    pos u112D7 mark [u112E5 u112E6 u112E7 u112E8] 420 600;
+##    pos u112D8 mark [u112E5 u112E6 u112E7 u112E8] 558 600;
+##    pos u112D9 mark [u112E5 u112E6 u112E7 u112E8] 360 580;
+##    pos u112DA mark [u112E5 u112E6 u112E7 u112E8] 330 570;
+##    pos u112DB mark [u112E5 u112E6 u112E7 u112E8] 390 580;
+##    pos u112DC mark [u112E5 u112E6 u112E7 u112E8] 540 580;
+##    pos u112DD mark [u112E5 u112E6 u112E7 u112E8] 465 580;
+##    pos u112DE mark [u112E5 u112E6 u112E7 u112E8] 390 580;
+##    pos u112E1 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112E2 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112E1_u112C0 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112C0_u112E2 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112E1_u112C3 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112C3_u112E2 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112E1_u112D1 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112D1_u112E2 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112E1_u112D4 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112D4_u112E2 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112D6_u112E2 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112E1_u112BD mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    pos u112E1_u112D7 mark [u112E5 u112E6 u112E7 u112E8] 0 0;
+##    mark u112DF 0 680;
+##    pos u112B0 mark u112DF 540 680;
+##    pos u112B1 mark u112DF 540 680;
+##    pos u112B2 mark u112DF 344 680;
+##    pos u112B3 mark u112DF 442 680;
+##    pos u112B4 mark u112DF 344 680;
+##    pos u112B5 mark u112DF 372 865;
+##    pos u112B6 mark u112DF 666 790;
+##    pos u112B7 mark u112DF 729 850;
+##    pos u112B8 mark u112DF 540 800;
+##    pos u112B9 mark u112DF 540 820;
+##    pos u112BA mark u112DF 400 680;
+##    pos u112BB mark u112DF 274 680;
+##    pos u112BC mark u112DF 288 680;
+##    pos u112BD mark u112DF 463 680;
+##    pos u112BE mark u112DF 288 680;
+##    pos u112BF mark u112DF 260 680;
+##    pos u112C0 mark u112DF 281 680;
+##    pos u112C1 mark u112DF 365 680;
+##    pos u112C2 mark u112DF 400 680;
+##    pos u112C3 mark u112DF 435 680;
+##    pos u112C4 mark u112DF 421 680;
+##    pos u112C5 mark u112DF 260 680;
+##    pos u112C6 mark u112DF 302 680;
+##    pos u112C7 mark u112DF 372 680;
+##    pos u112C8 mark u112DF 302 680;
+##    pos u112C9 mark u112DF 253 680;
+##    pos u112CA mark u112DF 253 680;
+##    pos u112CB mark u112DF 316 680;
+##    pos u112CC mark u112DF 351 680;
+##    pos u112CD mark u112DF 288 680;
+##    pos u112CE mark u112DF 400 680;
+##    pos u112CF mark u112DF 365 680;
+##    pos u112D0 mark u112DF 288 680;
+##    pos u112D1 mark u112DF 400 680;
+##    pos u112D2 mark u112DF 288 680;
+##    pos u112D3 mark u112DF 295 680;
+##    pos u112D4 mark u112DF 442 680;
+##    pos u112D5 mark u112DF 365 680;
+##    pos u112D6 mark u112DF 582 680;
+##    pos u112D7 mark u112DF 400 680;
+##    pos u112D8 mark u112DF 435 680;
+##    pos u112D9 mark u112DF 280 680;
+##    pos u112DA mark u112DF 246 680;
+##    pos u112DB mark u112DF 316 680;
+##    pos u112DC mark u112DF 344 680;
+##    pos u112DD mark u112DF 300 680;
+##    pos u112DE mark u112DF 302 680;
+##    pos u112E1 mark u112DF 294 870;
+##    pos u112E2 mark u112DF -42 870;
+##    pos u112E1_u112C0 mark u112DF 245 830;
+##    pos u112C0_u112E2 mark u112DF 497 830;
+##    pos u112E1_u112C3 mark u112DF 290 830;
+##    pos u112C3_u112E2 mark u112DF 938 830;
+##    pos u112E1_u112D1 mark u112DF 273 830;
+##    pos u112D1_u112E2 mark u112DF 840 830;
+##    pos u112E1_u112D4 mark u112DF 280 830;
+##    pos u112D4_u112E2 mark u112DF 980 830;
+##    pos u112D6_u112E2 mark u112DF 1134 830;
+##    pos u112E1_u112BD mark u112DF 378 830;
+##    pos u112E1_u112D7 mark u112DF 287 830;
+#} mark1;
+} mark;
+
+feature mkmk {
+# disabled
+## Mark to Mark Positioning
+# # DEFAULT
+} mkmk;
+
+feature dist {
+# disabled
+## Distances
+# # DEFAULT
+#lookup dist3 {
+#    pos u112E1 u112BB 120;
+#    pos u112E1 u112BD -130;
+#    pos u112E1 u112C0 180;
+#    pos u112E1 u112C2 -80;
+#    pos u112E1 u112C3 160;
+#    pos u112E1 u112C4 -20;
+#    pos u112E1 u112CC 85;
+#    pos u112E1 u112CE 84;
+#    pos u112E1 u112D1 150;
+#    pos u112E1 u112D2 -50;
+#    pos u112E1 u112D4 150;
+#    pos u112E1 u112D5 110;
+#    pos u112E1 u112D7 155;
+#} dist3;
+#lookup dist4 {
+#    pos u112BD u112E2 128;
+#    pos u112BF u112E2 -50;
+#    pos u112C0 u112E2 200;
+#    pos u112C1 u112E2 -40;
+#    pos u112C3 u112E2 130;
+#    pos u112C5 u112E2 0;
+#    pos u112CB u112E2 -65;
+#    pos u112CC u112E2 130;
+#    pos u112CE u112E2 135;
+#    pos u112D1 u112E2 190;
+#    pos u112D2 u112E2 130;
+#    pos u112D4 u112E2 210;
+#    pos u112D5 u112E2 80;
+#    pos u112D6 u112E2 200;
+#    pos u112DA u112E2 -60;
+#} dist4;
+} dist;
+
+feature ccmp {
+# disabled
+## Glyph Composition / Decomposition
+# # DEFAULT
+#lookupflag IgnoreMarks;
+#    sub u112C0 u112E2 by u112C0_u112E2;
+#    sub u112C3 u112E2 by u112C3_u112E2;
+#    sub u112D1 u112E2 by u112D1_u112E2;
+#    sub u112D4 u112E2 by u112D4_u112E2;
+#    sub u112D6 u112E2 by u112D6_u112E2;
+#    sub u112E1 u112C0 by u112E1_u112C0;
+#    sub u112E1 u112C3 by u112E1_u112C3;
+#    sub u112E1 u112D1 by u112E1_u112D1;
+#    sub u112E1 u112D4 by u112E1_u112D4;
+#    sub u112E1 u112BD by u112E1_u112BD;
+#    sub u112E1 u112D7 by u112E1_u112D7;
+} ccmp;
+
+table GDEF {
+  # automatic
+  GlyphClassDef
+    , # Base
+    , # Liga
+    [u112DF u112E3 u112E4 u112E5 u112E6 u112E7 u112E8 u112E9 u112EA u112E8.alt u112E7.alt u112E7_straight u112E7_straight.alt], # Mark
+    ;
+} GDEF;

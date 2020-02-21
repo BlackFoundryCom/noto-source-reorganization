@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="theh_alefMaksura-ar" format="2">
+  <advance width="1075"/>
+  <unicode hex="FC13"/>
+  <anchor x="706" y="0" name="caret_1"/>
+  <anchor x="881" y="-5" name="bottom_1"/>
+  <anchor x="347" y="-230" name="bottom_2"/>
+  <anchor x="830" y="3" name="center"/>
+  <anchor x="896" y="930" name="top_1"/>
+  <anchor x="208" y="214" name="top_2"/>
+  <outline>
+    <component base="theh-ar.init" xOffset="706"/>
+    <component base="alefMaksura-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>theh-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alefMaksura-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:39</string>
+    </dict>
+  </lib>
+</glyph>

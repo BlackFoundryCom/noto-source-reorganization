@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cha_gran" format="2">
+  <advance width="1330"/>
+  <unicode hex="1131B"/>
+  <outline>
+    <contour>
+      <point x="1228" y="54" type="line"/>
+      <point x="900" y="54" type="line"/>
+      <point x="900" y="0" type="line"/>
+      <point x="1228" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="919" y="390" type="curve" smooth="yes"/>
+      <point x="919" y="0" type="line"/>
+      <point x="1014" y="0" type="line"/>
+      <point x="1014" y="391" type="line" smooth="yes"/>
+      <point x="1014" y="459"/>
+      <point x="1044" y="505"/>
+      <point x="1105" y="505" type="curve" smooth="yes"/>
+      <point x="1154" y="505"/>
+      <point x="1193" y="470"/>
+      <point x="1193" y="404" type="curve" smooth="yes"/>
+      <point x="1193" y="0" type="line"/>
+      <point x="1254" y="0" type="line"/>
+      <point x="1254" y="404" type="line" smooth="yes"/>
+      <point x="1254" y="505"/>
+      <point x="1187" y="559"/>
+      <point x="1098" y="559" type="curve" smooth="yes"/>
+      <point x="978" y="559"/>
+      <point x="919" y="489"/>
+    </contour>
+    <component base="ca.base"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/11 14:29:51</string>
+    </dict>
+  </lib>
+</glyph>

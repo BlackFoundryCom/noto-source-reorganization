@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="qaf_hah-ar.init" format="2">
+  <advance width="1278"/>
+  <unicode hex="FCC2"/>
+  <anchor x="728" y="0" name="caret_1"/>
+  <anchor x="961" y="-25" name="bottom_1"/>
+  <anchor x="299" y="0" name="bottom_2"/>
+  <anchor x="996" y="834" name="top_1"/>
+  <anchor x="181" y="503" name="top_2"/>
+  <outline>
+    <component base="qaf-ar.init" xOffset="728"/>
+    <component base="hah-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>qaf-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>hah-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:40</string>
+    </dict>
+  </lib>
+</glyph>

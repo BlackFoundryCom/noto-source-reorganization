@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="redup_khm" format="2">
+  <advance width="270"/>
+  <unicode hex="AA70"/>
+  <note>
+redup_khm
+</note>
+  <outline>
+    <contour>
+      <point x="-35" y="966" type="line"/>
+      <point x="17" y="1008"/>
+      <point x="65" y="1028"/>
+      <point x="135" y="1028" type="curve" smooth="yes"/>
+      <point x="205" y="1028"/>
+      <point x="253" y="1008"/>
+      <point x="305" y="966" type="curve"/>
+      <point x="318" y="986" type="line"/>
+      <point x="270" y="1026"/>
+      <point x="220" y="1051"/>
+      <point x="135" y="1051" type="curve" smooth="yes"/>
+      <point x="50" y="1051"/>
+      <point x="0" y="1026"/>
+      <point x="-48" y="986" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-35" y="795" type="line"/>
+      <point x="17" y="837"/>
+      <point x="65" y="857"/>
+      <point x="135" y="857" type="curve" smooth="yes"/>
+      <point x="205" y="857"/>
+      <point x="253" y="837"/>
+      <point x="305" y="795" type="curve"/>
+      <point x="318" y="815" type="line"/>
+      <point x="270" y="855"/>
+      <point x="220" y="880"/>
+      <point x="135" y="880" type="curve" smooth="yes"/>
+      <point x="50" y="880"/>
+      <point x="0" y="855"/>
+      <point x="-48" y="815" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/10/10 20:01:36</string>
+    </dict>
+  </lib>
+</glyph>

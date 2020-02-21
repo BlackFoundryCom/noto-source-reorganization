@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="EyelashRa" format="2">
+  <advance width="298"/>
+  <outline>
+    <contour>
+      <point x="0" y="622" type="line"/>
+      <point x="0" y="551" type="line"/>
+      <point x="308" y="551" type="line"/>
+      <point x="308" y="622" type="line"/>
+    </contour>
+    <contour>
+      <point x="338" y="338" type="curve"/>
+      <point x="304" y="405" type="line"/>
+      <point x="272" y="386"/>
+      <point x="228" y="373"/>
+      <point x="172" y="373" type="curve" smooth="yes"/>
+      <point x="119" y="373"/>
+      <point x="85" y="385"/>
+      <point x="44" y="405" type="curve"/>
+      <point x="10" y="338" type="line"/>
+      <point x="57" y="310"/>
+      <point x="126" y="298"/>
+      <point x="173" y="298" type="curve" smooth="yes"/>
+      <point x="220" y="298"/>
+      <point x="279" y="306"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2018/08/06 13:06:16</string>
+    </dict>
+  </lib>
+</glyph>

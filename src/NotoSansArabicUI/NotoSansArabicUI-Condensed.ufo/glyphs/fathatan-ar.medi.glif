@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fathatan-ar.medi" format="2">
+  <advance width="262"/>
+  <unicode hex="FE71"/>
+  <anchor x="135" y="0" name="bottom"/>
+  <anchor x="129" y="708" name="top"/>
+  <outline>
+    <component base="kashida-ar"/>
+    <component base="fathatan-ar" xOffset="24"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:38</string>
+    </dict>
+  </lib>
+</glyph>

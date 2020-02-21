@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ta_pa_ra-oriya" format="2">
+  <outline>
+    <component base="pa-oriya.base"/>
+    <component base="ta_alt-oriya.below" xOffset="448" yOffset="76"/>
+    <component base="_part.ra.below" xOffset="221" yOffset="-84"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+      <key>com.schriftgestaltung.componentsSmartComponentValues</key>
+      <array>
+        <dict/>
+        <dict/>
+        <dict>
+          <key>Overlap</key>
+          <integer>0</integer>
+          <key>Width vertical stem</key>
+          <real>15.84033</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

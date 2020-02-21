@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam_meem-ar.init" format="2">
+  <advance width="663"/>
+  <unicode hex="FCCC"/>
+  <anchor x="495" y="0" name="caret_1"/>
+  <anchor x="574" y="0" name="bottom_1"/>
+  <anchor x="216" y="0" name="bottom_2"/>
+  <anchor x="584" y="714" name="top_1"/>
+  <anchor x="249" y="342" name="top_2"/>
+  <outline>
+    <component base="lam-ar.init" xOffset="495"/>
+    <component base="meem-ar.medi"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>lam-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>meem-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:41</string>
+    </dict>
+  </lib>
+</glyph>

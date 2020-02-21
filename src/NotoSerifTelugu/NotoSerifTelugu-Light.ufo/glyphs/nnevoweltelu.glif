@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nnevoweltelu" format="2">
+  <advance width="771"/>
+  <outline>
+    <contour>
+      <point x="239" y="646" type="line"/>
+      <point x="552" y="646" type="line" smooth="yes"/>
+      <point x="636" y="646"/>
+      <point x="676" y="627"/>
+      <point x="676" y="568" type="curve" smooth="yes"/>
+      <point x="676" y="506"/>
+      <point x="623" y="493"/>
+      <point x="550" y="493" type="curve" smooth="yes"/>
+      <point x="538" y="493" type="line"/>
+      <point x="538" y="469" type="line"/>
+      <point x="556" y="469" type="line" smooth="yes"/>
+      <point x="635" y="469"/>
+      <point x="702" y="491"/>
+      <point x="702" y="568" type="curve" smooth="yes"/>
+      <point x="702" y="602"/>
+      <point x="691" y="624"/>
+      <point x="672" y="641" type="curve" smooth="yes"/>
+      <point x="647" y="663"/>
+      <point x="613" y="671"/>
+      <point x="553" y="671" type="curve" smooth="yes"/>
+      <point x="244" y="671" type="line"/>
+    </contour>
+    <component base="nnatelu"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>nnatelu</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>nnatelu</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/15 11:28:14</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

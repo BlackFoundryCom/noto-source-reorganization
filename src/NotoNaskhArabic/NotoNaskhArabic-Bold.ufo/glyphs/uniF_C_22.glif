@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFC22" format="2">
+  <advance width="1519"/>
+  <unicode hex="FC22"/>
+  <anchor x="1205" y="-58" name="bottom_1"/>
+  <anchor x="340" y="-340" name="bottom_2"/>
+  <anchor x="1066" y="473" name="top_1"/>
+  <anchor x="342" y="445" name="top_2"/>
+  <outline>
+    <component base="uniFEBB" xOffset="724"/>
+    <component base="uniFBB2" xOffset="866" yOffset="126"/>
+    <component base="uniFEA2"/>
+    <component base="uniFBB3" xOffset="183" yOffset="125"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/18 13:40:33</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

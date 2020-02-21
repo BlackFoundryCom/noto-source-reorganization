@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chaprehalfguru" format="2">
+  <advance width="643"/>
+  <note>
+chaprehalfguru
+</note>
+  <anchor x="506" y="-17" name="bottom"/>
+  <anchor x="514" y="622" name="top"/>
+  <outline>
+    <component base="chaguru"/>
+    <component base="halantguru" xOffset="509" yOffset="-26"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/21 14:37:48</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

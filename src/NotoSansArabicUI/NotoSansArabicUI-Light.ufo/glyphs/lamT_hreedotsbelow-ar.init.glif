@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamThreedotsbelow-ar.init" format="2">
+  <advance width="208"/>
+  <anchor x="89" y="-221" name="bottom"/>
+  <anchor x="119" y="714" name="top"/>
+  <outline>
+    <component base="lam-ar.init"/>
+    <component base="threedotsupbelow-ar.restricted" xOffset="-56"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:37</string>
+    </dict>
+  </lib>
+</glyph>

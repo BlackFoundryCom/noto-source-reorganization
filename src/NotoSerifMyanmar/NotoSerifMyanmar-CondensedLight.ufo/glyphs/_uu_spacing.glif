@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_uu_spacing" format="2">
+  <advance width="340"/>
+  <outline>
+    <contour>
+      <point x="96" y="520" type="line"/>
+      <point x="74" y="520" type="line"/>
+      <point x="74" y="-521" type="line"/>
+      <point x="96" y="-521" type="line"/>
+    </contour>
+    <component base="_u_spacing" xOffset="170"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>medial_ra</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_u_spacing</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+    </dict>
+  </lib>
+</glyph>

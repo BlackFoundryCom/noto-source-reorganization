@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oomlym" format="2">
+  <advance width="1173"/>
+  <unicode hex="0D13"/>
+  <outline>
+    <component base="omlym"/>
+    <component base="aavowelsignmlym" xOffset="695"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>omlym</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>nnamlym</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/05 08:30:18</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

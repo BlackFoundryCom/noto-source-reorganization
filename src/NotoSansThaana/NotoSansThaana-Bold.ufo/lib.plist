@@ -47,18 +47,40 @@
     <string>Regular</string>
     <key>com.schriftgestaltung.widthValue</key>
     <integer>100</integer>
-    <key>com.typemytype.robofont.segmentType</key>
-    <string>curve</string>
     <key>public.glyphOrder</key>
     <array>
       <string>.notdef</string>
-      <string>NULL</string>
       <string>CR</string>
+      <string>NULL</string>
+      <string>colon</string>
+      <string>comma</string>
+      <string>exclam</string>
+      <string>parenleft</string>
+      <string>parenright</string>
+      <string>period</string>
+      <string>quotedblleft</string>
+      <string>quotedblright</string>
+      <string>quoteleft</string>
+      <string>quoteright</string>
+      <string>semicolon</string>
       <string>space</string>
       <string>uni00A0</string>
       <string>uni060C</string>
       <string>uni061B</string>
       <string>uni061F</string>
+      <string>uni0660</string>
+      <string>uni0661</string>
+      <string>uni0662</string>
+      <string>uni0663</string>
+      <string>uni0664</string>
+      <string>uni0665</string>
+      <string>uni0666</string>
+      <string>uni0667</string>
+      <string>uni0668</string>
+      <string>uni0669</string>
+      <string>uni066A</string>
+      <string>uni066B</string>
+      <string>uni066C</string>
       <string>uni0780</string>
       <string>uni0781</string>
       <string>uni0782</string>
@@ -109,15 +131,33 @@
       <string>uni07AF</string>
       <string>uni07B0</string>
       <string>uni07B1</string>
-      <string>quoteleft</string>
-      <string>quoteright</string>
-      <string>quotedblleft</string>
-      <string>quotedblright</string>
+      <string>uni200B</string>
+      <string>uni200C</string>
+      <string>uni200D</string>
+      <string>uni200E</string>
+      <string>uni200F</string>
       <string>uni25CC</string>
       <string>uniFDF2</string>
-      <string>semicolon</string>
+      <string>uniFDFD</string>
+      <string>.notdef</string>
+      <string>CR</string>
+      <string>NULL</string>
       <string>colon</string>
+      <string>comma</string>
       <string>exclam</string>
+      <string>parenleft</string>
+      <string>parenright</string>
+      <string>period</string>
+      <string>quotedblleft</string>
+      <string>quotedblright</string>
+      <string>quoteleft</string>
+      <string>quoteright</string>
+      <string>semicolon</string>
+      <string>space</string>
+      <string>uni00A0</string>
+      <string>uni060C</string>
+      <string>uni061B</string>
+      <string>uni061F</string>
       <string>uni0660</string>
       <string>uni0661</string>
       <string>uni0662</string>
@@ -128,21 +168,247 @@
       <string>uni0667</string>
       <string>uni0668</string>
       <string>uni0669</string>
-      <string>uniFDF2.alt</string>
-      <string>uniFDFD</string>
       <string>uni066A</string>
       <string>uni066B</string>
       <string>uni066C</string>
+      <string>uni0780</string>
+      <string>uni0781</string>
+      <string>uni0782</string>
+      <string>uni0783</string>
+      <string>uni0784</string>
+      <string>uni0785</string>
+      <string>uni0786</string>
+      <string>uni0787</string>
+      <string>uni0788</string>
+      <string>uni0789</string>
+      <string>uni078A</string>
+      <string>uni078B</string>
+      <string>uni078C</string>
+      <string>uni078D</string>
+      <string>uni078E</string>
+      <string>uni078F</string>
+      <string>uni0790</string>
+      <string>uni0791</string>
+      <string>uni0792</string>
+      <string>uni0793</string>
+      <string>uni0794</string>
+      <string>uni0795</string>
+      <string>uni0796</string>
+      <string>uni0797</string>
+      <string>uni0798</string>
+      <string>uni0799</string>
+      <string>uni079A</string>
+      <string>uni079B</string>
+      <string>uni079C</string>
+      <string>uni079D</string>
+      <string>uni079E</string>
+      <string>uni079F</string>
+      <string>uni07A0</string>
+      <string>uni07A1</string>
+      <string>uni07A2</string>
+      <string>uni07A3</string>
+      <string>uni07A4</string>
+      <string>uni07A5</string>
+      <string>uni07A6</string>
+      <string>uni07A7</string>
+      <string>uni07A8</string>
+      <string>uni07A9</string>
+      <string>uni07AA</string>
+      <string>uni07AB</string>
+      <string>uni07AC</string>
+      <string>uni07AD</string>
+      <string>uni07AE</string>
+      <string>uni07AF</string>
+      <string>uni07B0</string>
+      <string>uni07B1</string>
       <string>uni200B</string>
       <string>uni200C</string>
       <string>uni200D</string>
       <string>uni200E</string>
       <string>uni200F</string>
-      <string>percent</string>
+      <string>uni25CC</string>
+      <string>uniFDF2</string>
+      <string>uniFDFD</string>
+      <string>.notdef</string>
+      <string>CR</string>
+      <string>NULL</string>
+      <string>colon</string>
+      <string>comma</string>
+      <string>exclam</string>
       <string>parenleft</string>
       <string>parenright</string>
-      <string>comma</string>
       <string>period</string>
+      <string>quotedblleft</string>
+      <string>quotedblright</string>
+      <string>quoteleft</string>
+      <string>quoteright</string>
+      <string>semicolon</string>
+      <string>space</string>
+      <string>uni00A0</string>
+      <string>uni060C</string>
+      <string>uni061B</string>
+      <string>uni061F</string>
+      <string>uni0660</string>
+      <string>uni0661</string>
+      <string>uni0662</string>
+      <string>uni0663</string>
+      <string>uni0664</string>
+      <string>uni0665</string>
+      <string>uni0666</string>
+      <string>uni0667</string>
+      <string>uni0668</string>
+      <string>uni0669</string>
+      <string>uni066A</string>
+      <string>uni066B</string>
+      <string>uni066C</string>
+      <string>uni0780</string>
+      <string>uni0781</string>
+      <string>uni0782</string>
+      <string>uni0783</string>
+      <string>uni0784</string>
+      <string>uni0785</string>
+      <string>uni0786</string>
+      <string>uni0787</string>
+      <string>uni0788</string>
+      <string>uni0789</string>
+      <string>uni078A</string>
+      <string>uni078B</string>
+      <string>uni078C</string>
+      <string>uni078D</string>
+      <string>uni078E</string>
+      <string>uni078F</string>
+      <string>uni0790</string>
+      <string>uni0791</string>
+      <string>uni0792</string>
+      <string>uni0793</string>
+      <string>uni0794</string>
+      <string>uni0795</string>
+      <string>uni0796</string>
+      <string>uni0797</string>
+      <string>uni0798</string>
+      <string>uni0799</string>
+      <string>uni079A</string>
+      <string>uni079B</string>
+      <string>uni079C</string>
+      <string>uni079D</string>
+      <string>uni079E</string>
+      <string>uni079F</string>
+      <string>uni07A0</string>
+      <string>uni07A1</string>
+      <string>uni07A2</string>
+      <string>uni07A3</string>
+      <string>uni07A4</string>
+      <string>uni07A5</string>
+      <string>uni07A6</string>
+      <string>uni07A7</string>
+      <string>uni07A8</string>
+      <string>uni07A9</string>
+      <string>uni07AA</string>
+      <string>uni07AB</string>
+      <string>uni07AC</string>
+      <string>uni07AD</string>
+      <string>uni07AE</string>
+      <string>uni07AF</string>
+      <string>uni07B0</string>
+      <string>uni07B1</string>
+      <string>uni200B</string>
+      <string>uni200C</string>
+      <string>uni200D</string>
+      <string>uni200E</string>
+      <string>uni200F</string>
+      <string>uni25CC</string>
+      <string>uniFDF2</string>
+      <string>uniFDFD</string>
+      <string>.notdef</string>
+      <string>CR</string>
+      <string>NULL</string>
+      <string>colon</string>
+      <string>comma</string>
+      <string>exclam</string>
+      <string>parenleft</string>
+      <string>parenright</string>
+      <string>period</string>
+      <string>quotedblleft</string>
+      <string>quotedblright</string>
+      <string>quoteleft</string>
+      <string>quoteright</string>
+      <string>semicolon</string>
+      <string>space</string>
+      <string>uni00A0</string>
+      <string>uni060C</string>
+      <string>uni061B</string>
+      <string>uni061F</string>
+      <string>uni0660</string>
+      <string>uni0661</string>
+      <string>uni0662</string>
+      <string>uni0663</string>
+      <string>uni0664</string>
+      <string>uni0665</string>
+      <string>uni0666</string>
+      <string>uni0667</string>
+      <string>uni0668</string>
+      <string>uni0669</string>
+      <string>uni066A</string>
+      <string>uni066B</string>
+      <string>uni066C</string>
+      <string>uni0780</string>
+      <string>uni0781</string>
+      <string>uni0782</string>
+      <string>uni0783</string>
+      <string>uni0784</string>
+      <string>uni0785</string>
+      <string>uni0786</string>
+      <string>uni0787</string>
+      <string>uni0788</string>
+      <string>uni0789</string>
+      <string>uni078A</string>
+      <string>uni078B</string>
+      <string>uni078C</string>
+      <string>uni078D</string>
+      <string>uni078E</string>
+      <string>uni078F</string>
+      <string>uni0790</string>
+      <string>uni0791</string>
+      <string>uni0792</string>
+      <string>uni0793</string>
+      <string>uni0794</string>
+      <string>uni0795</string>
+      <string>uni0796</string>
+      <string>uni0797</string>
+      <string>uni0798</string>
+      <string>uni0799</string>
+      <string>uni079A</string>
+      <string>uni079B</string>
+      <string>uni079C</string>
+      <string>uni079D</string>
+      <string>uni079E</string>
+      <string>uni079F</string>
+      <string>uni07A0</string>
+      <string>uni07A1</string>
+      <string>uni07A2</string>
+      <string>uni07A3</string>
+      <string>uni07A4</string>
+      <string>uni07A5</string>
+      <string>uni07A6</string>
+      <string>uni07A7</string>
+      <string>uni07A8</string>
+      <string>uni07A9</string>
+      <string>uni07AA</string>
+      <string>uni07AB</string>
+      <string>uni07AC</string>
+      <string>uni07AD</string>
+      <string>uni07AE</string>
+      <string>uni07AF</string>
+      <string>uni07B0</string>
+      <string>uni07B1</string>
+      <string>uni200B</string>
+      <string>uni200C</string>
+      <string>uni200D</string>
+      <string>uni200E</string>
+      <string>uni200F</string>
+      <string>uni25CC</string>
+      <string>uniFDF2</string>
+      <string>uniFDFD</string>
     </array>
   </dict>
 </plist>

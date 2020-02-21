@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="400" default="400">
+      <map input="400" output="100"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="NotoSerifAhom-Regular.ufo" name="Noto Serif Ahom Regular" familyname="Noto Serif Ahom" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Serif Ahom Regular" familyname="Noto Serif Ahom" stylename="Regular" filename="instance_ufos/NotoSerifAhom-Regular.ufo" stylemapfamilyname="Noto Serif Ahom" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+</designspace>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sad_lam_yeh-ar" format="2">
+  <advance width="1579"/>
+  <unicode hex="FDF0"/>
+  <anchor x="826" y="0" name="caret_1"/>
+  <anchor x="0" y="0" name="caret_2"/>
+  <anchor x="1243" y="-18" name="bottom"/>
+  <anchor x="760" y="0" name="bottom_1"/>
+  <anchor x="285" y="-262" name="bottom_2"/>
+  <anchor x="1367" y="320" name="top"/>
+  <anchor x="754" y="714" name="top_1"/>
+  <anchor x="196" y="228" name="top_2"/>
+  <outline>
+    <component base="sad-ar.init" xOffset="876"/>
+    <component base="lam_yeh-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>sad-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>yeh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:40</string>
+    </dict>
+  </lib>
+</glyph>

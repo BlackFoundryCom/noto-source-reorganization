@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ma" format="2">
+  <advance width="488"/>
+  <unicode hex="1019"/>
+  <outline>
+    <contour>
+      <point x="351" y="107" type="line"/>
+      <point x="351" y="168" type="line" smooth="yes"/>
+      <point x="351" y="236"/>
+      <point x="317" y="270"/>
+      <point x="244" y="270" type="curve" smooth="yes"/>
+      <point x="171" y="270"/>
+      <point x="137" y="236"/>
+      <point x="137" y="168" type="curve" smooth="yes"/>
+      <point x="137" y="107" type="line"/>
+      <point x="178" y="107" type="line"/>
+      <point x="178" y="147" type="line" smooth="yes"/>
+      <point x="178" y="197"/>
+      <point x="200" y="205"/>
+      <point x="235" y="205" type="curve" smooth="yes"/>
+      <point x="253" y="205" type="line" smooth="yes"/>
+      <point x="288" y="205"/>
+      <point x="310" y="197"/>
+      <point x="310" y="147" type="curve" smooth="yes"/>
+      <point x="310" y="107" type="line"/>
+    </contour>
+    <component base="pa"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>wa</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>wa</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>myanmar</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni08B7.init" format="2">
+  <advance width="299"/>
+  <anchor x="113" y="-238" name="bottom"/>
+  <anchor x="104" y="3" name="center"/>
+  <anchor x="168" y="767" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar.init.wide"/>
+    <component base="meemStopabove-ar" xOffset="43" yOffset="-54"/>
+    <component base="threedotsupbelow-ar.restricted" xOffset="-32" yOffset="-5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:39</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>arabic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="khi_gran" format="2">
+  <advance width="1629"/>
+  <note>
+khi
+</note>
+  <outline>
+    <contour>
+      <point x="1488" y="0" type="line"/>
+      <point x="1549" y="0" type="line"/>
+      <point x="1549" y="570" type="line" smooth="yes"/>
+      <point x="1549" y="736"/>
+      <point x="1435" y="834"/>
+      <point x="1270" y="834" type="curve" smooth="yes"/>
+      <point x="1126" y="834"/>
+      <point x="1025" y="758"/>
+      <point x="1025" y="649" type="curve" smooth="yes"/>
+      <point x="1025" y="561"/>
+      <point x="1093" y="500"/>
+      <point x="1175" y="500" type="curve" smooth="yes"/>
+      <point x="1180" y="500" type="line"/>
+      <point x="1180" y="554" type="line"/>
+      <point x="1175" y="554" type="line" smooth="yes"/>
+      <point x="1125" y="554"/>
+      <point x="1090" y="587"/>
+      <point x="1090" y="638" type="curve" smooth="yes"/>
+      <point x="1090" y="709"/>
+      <point x="1160" y="746"/>
+      <point x="1261" y="746" type="curve" smooth="yes"/>
+      <point x="1405" y="746"/>
+      <point x="1488" y="678"/>
+      <point x="1488" y="540" type="curve" smooth="yes"/>
+    </contour>
+    <component base="kha_gran"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>kha_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ki_gran</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/11 14:29:51</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

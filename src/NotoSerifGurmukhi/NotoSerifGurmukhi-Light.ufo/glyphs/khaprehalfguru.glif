@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="khaprehalfguru" format="2">
+  <advance width="577"/>
+  <note>
+khaprehalfguru
+</note>
+  <anchor x="477" y="0" name="bottom"/>
+  <anchor x="462" y="622" name="top"/>
+  <outline>
+    <component base="khaguru"/>
+    <component base="halantguru" xOffset="572"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/21 14:37:48</string>
+    </dict>
+  </lib>
+</glyph>

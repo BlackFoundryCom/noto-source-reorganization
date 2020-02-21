@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chanuktaguru" format="2">
+  <advance width="625"/>
+  <note>
+chanuktaguru
+</note>
+  <anchor x="467" y="0" name="bottom"/>
+  <anchor x="508" y="622" name="top"/>
+  <outline>
+    <component base="chaguru"/>
+    <component base="nuktaguru" xOffset="152" yOffset="-24"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/21 14:37:48</string>
+    </dict>
+  </lib>
+</glyph>

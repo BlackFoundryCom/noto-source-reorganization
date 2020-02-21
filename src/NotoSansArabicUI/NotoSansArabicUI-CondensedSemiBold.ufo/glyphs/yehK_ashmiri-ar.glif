@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehKashmiri-ar" format="2">
+  <advance width="759"/>
+  <unicode hex="0620"/>
+  <anchor x="331" y="-163" name="bottom"/>
+  <anchor x="215" y="535" name="top"/>
+  <outline>
+    <component base="alefMaksura-ar.morerestricted"/>
+    <component base="ringArabic" xOffset="220" yOffset="-160"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>alefMaksura-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alefMaksura-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/11/14 20:15:59</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

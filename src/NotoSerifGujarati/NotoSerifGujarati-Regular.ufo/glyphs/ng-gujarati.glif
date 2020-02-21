@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ng-gujarati" format="2">
+  <advance width="513"/>
+  <anchor x="271" y="0" name="bottom"/>
+  <anchor x="271" y="-125" name="bottomleft"/>
+  <anchor x="262" y="0" name="bottomright"/>
+  <anchor x="271" y="73" name="bottomround"/>
+  <anchor x="351" y="592" name="top"/>
+  <anchor x="283" y="592" name="topright"/>
+  <outline>
+    <component base="nga-gujarati"/>
+    <component base="halant-gujarati" xOffset="271"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gujarati</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Halfform</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonTahabove-ar.init" format="2">
+  <advance width="208"/>
+  <anchor x="84" y="-5" name="bottom"/>
+  <anchor x="125" y="853" name="top"/>
+  <outline>
+    <component base="dotlessbeh-ar.init"/>
+    <component base="dotabove-ar" xOffset="7" yOffset="-101"/>
+    <component base="uniFBC0" xOffset="-3" yOffset="16"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dotlessbeh-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dotlessbeh-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:38</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

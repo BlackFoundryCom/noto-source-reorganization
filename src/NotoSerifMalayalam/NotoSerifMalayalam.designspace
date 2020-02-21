@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400">
+      <map input="100" output="28"/>
+      <map input="200" output="42"/>
+      <map input="300" output="64"/>
+      <map input="400" output="94"/>
+      <map input="500" output="110"/>
+      <map input="600" output="130"/>
+      <map input="700" output="152"/>
+      <map input="800" output="175"/>
+      <map input="900" output="194"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="NotoSerifMalayalam-Light.ufo" name="Noto Serif Malayalam Light" familyname="Noto Serif Malayalam" stylename="Light">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+      </location>
+    </source>
+    <source filename="NotoSerifMalayalam-Regular.ufo" name="Noto Serif Malayalam Regular" familyname="Noto Serif Malayalam" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+      </location>
+    </source>
+    <source filename="NotoSerifMalayalam-Bold.ufo" name="Noto Serif Malayalam Bold" familyname="Noto Serif Malayalam" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Noto Serif Malayalam Thin" familyname="Noto Serif Malayalam" stylename="Thin" filename="instance_ufos/NotoSerifMalayalam-Thin.ufo" stylemapfamilyname="Noto Serif Malayalam Thin" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="28"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Malayalam ExtraLight" familyname="Noto Serif Malayalam" stylename="ExtraLight" filename="instance_ufos/NotoSerifMalayalam-ExtraLight.ufo" stylemapfamilyname="Noto Serif Malayalam ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="42"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>3</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Malayalam Light" familyname="Noto Serif Malayalam" stylename="Light" filename="instance_ufos/NotoSerifMalayalam-Light.ufo" stylemapfamilyname="Noto Serif Malayalam Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="64"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Malayalam Regular" familyname="Noto Serif Malayalam" stylename="Regular" filename="instance_ufos/NotoSerifMalayalam-Regular.ufo" stylemapfamilyname="Noto Serif Malayalam" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="94"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Malayalam Medium" familyname="Noto Serif Malayalam" stylename="Medium" filename="instance_ufos/NotoSerifMalayalam-Medium.ufo" stylemapfamilyname="Noto Serif Malayalam Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="110"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Malayalam SemiBold" familyname="Noto Serif Malayalam" stylename="SemiBold" filename="instance_ufos/NotoSerifMalayalam-SemiBold.ufo" stylemapfamilyname="Noto Serif Malayalam SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="130"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>7</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Malayalam Bold" familyname="Noto Serif Malayalam" stylename="Bold" filename="instance_ufos/NotoSerifMalayalam-Bold.ufo" stylemapfamilyname="Noto Serif Malayalam" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="152"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>8</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Malayalam ExtraBold" familyname="Noto Serif Malayalam" stylename="ExtraBold" filename="instance_ufos/NotoSerifMalayalam-ExtraBold.ufo" stylemapfamilyname="Noto Serif Malayalam ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="175"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>9</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Noto Serif Malayalam Black" familyname="Noto Serif Malayalam" stylename="Black" filename="instance_ufos/NotoSerifMalayalam-Black.ufo" stylemapfamilyname="Noto Serif Malayalam Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="194"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>panose</string>
+              <array>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>10</integer>
+                <integer>2</integer>
+                <integer>6</integer>
+                <integer>5</integer>
+                <integer>5</integer>
+                <integer>2</integer>
+                <integer>2</integer>
+                <integer>4</integer>
+              </array>
+            </array>
+            <array>
+              <string>Don't use Production Names</string>
+              <true/>
+            </array>
+            <array>
+              <string>xHeight</string>
+              <string>536</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>D1B76089-C2CA-459D-9B35-7EF71253C59F</key>
+        <dict>
+          <key>HH</key>
+          <string>25</string>
+          <key>HV</key>
+          <string>27</string>
+          <key>OH</key>
+          <string>25</string>
+          <key>OV</key>
+          <string>28</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</designspace>

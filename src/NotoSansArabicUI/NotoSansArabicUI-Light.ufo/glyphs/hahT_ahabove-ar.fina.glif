@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hahTahabove-ar.fina" format="2">
+  <advance width="650"/>
+  <anchor x="370" y="-271" name="bottom"/>
+  <anchor x="290" y="32" name="center"/>
+  <anchor x="334" y="870" name="top"/>
+  <outline>
+    <component base="hah-ar.fina"/>
+    <component base="uniFBC0" xOffset="200" yOffset="22"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>hah-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>hah-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:38</string>
+    </dict>
+  </lib>
+</glyph>

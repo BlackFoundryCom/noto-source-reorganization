@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lllaivoweltelu" format="2">
+  <advance width="810"/>
+  <outline>
+    <contour>
+      <point x="203" y="583" type="line"/>
+      <point x="579" y="583" type="line" smooth="yes"/>
+      <point x="633" y="583"/>
+      <point x="643" y="569"/>
+      <point x="643" y="545" type="curve" smooth="yes"/>
+      <point x="643" y="519"/>
+      <point x="622" y="511"/>
+      <point x="564" y="511" type="curve"/>
+      <point x="564" y="454" type="line"/>
+      <point x="664" y="454"/>
+      <point x="730" y="477"/>
+      <point x="730" y="578" type="curve" smooth="yes"/>
+      <point x="730" y="621"/>
+      <point x="713" y="663"/>
+      <point x="672" y="688" type="curve" smooth="yes"/>
+      <point x="640" y="708"/>
+      <point x="606" y="719"/>
+      <point x="508" y="719" type="curve" smooth="yes"/>
+      <point x="220" y="719" type="line"/>
+    </contour>
+    <component base="lllatelu"/>
+    <component base="ailengthmarkwidetelu" xOffset="691"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ttatelu</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|ttatelu</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/15 11:28:14</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

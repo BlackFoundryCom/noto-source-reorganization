@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noon_jeem-ar" format="2">
+  <advance width="899"/>
+  <unicode hex="FC4B"/>
+  <anchor x="602" y="0" name="caret_1"/>
+  <anchor x="748" y="-5" name="bottom_1"/>
+  <anchor x="370" y="-271" name="bottom_2"/>
+  <anchor x="290" y="32" name="center"/>
+  <anchor x="744" y="507" name="top_1"/>
+  <anchor x="331" y="480" name="top_2"/>
+  <outline>
+    <component base="noon-ar.init" xOffset="650"/>
+    <component base="jeem-ar.fina"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>noon-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>jeem-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:41</string>
+    </dict>
+  </lib>
+</glyph>

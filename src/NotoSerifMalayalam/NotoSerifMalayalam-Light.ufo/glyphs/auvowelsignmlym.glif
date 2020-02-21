@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="auvowelsignmlym" format="2">
+  <advance width="1452"/>
+  <unicode hex="0D4C"/>
+  <outline>
+    <component base="evowelsignmlym"/>
+    <component base="aulengthmarkmlym" xOffset="777"/>
+    <component base="period.mlym" xOffset="611" yOffset="240"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>nnamlym</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>aulengthmarkmlym</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/06/05 08:30:02</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

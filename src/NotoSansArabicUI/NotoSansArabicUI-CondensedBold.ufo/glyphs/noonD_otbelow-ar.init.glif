@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonDotbelow-ar.init" format="2">
+  <advance width="285"/>
+  <anchor x="156" y="-221" name="bottom"/>
+  <anchor x="114" y="704" name="top"/>
+  <outline>
+    <component base="noon-ar.init"/>
+    <component base="dotbelow-ar" xOffset="51" yOffset="-5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:37</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

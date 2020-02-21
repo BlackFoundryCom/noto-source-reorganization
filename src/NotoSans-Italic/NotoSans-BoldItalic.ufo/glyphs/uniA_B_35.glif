@@ -2,13 +2,13 @@
 <glyph name="uniAB35" format="2">
   <advance width="410"/>
   <unicode hex="AB35"/>
-  <anchor x="146" y="60" name="bottom"/>
+  <anchor x="133" y="0" name="bottom"/>
   <anchor x="366" y="765" name="top"/>
   <anchor x="534" y="765" name="topright"/>
   <outline>
     <contour>
-      <point x="54" y="60" type="line"/>
-      <point x="242" y="60" type="line"/>
+      <point x="41" y="0" type="line"/>
+      <point x="229" y="0" type="line"/>
       <point x="317" y="411" type="line"/>
       <point x="419" y="411" type="line"/>
       <point x="451" y="553" type="line"/>
@@ -35,8 +35,14 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 15:55:26</string>
+      <string>2019/09/30 16:07:30</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
     </dict>
   </lib>
 </glyph>

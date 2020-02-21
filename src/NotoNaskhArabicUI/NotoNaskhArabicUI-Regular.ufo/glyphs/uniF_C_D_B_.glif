@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFCDB" format="2">
+  <advance width="1009"/>
+  <unicode hex="FCDB"/>
+  <anchor x="318" y="83" name="bottom"/>
+  <anchor x="323" y="524" name="top"/>
+  <outline>
+    <component base="_522" xOffset="666"/>
+    <component base="uniFBB5" xOffset="648" yOffset="-1"/>
+    <component base="uniFEA4"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/12/19 08:47:15</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

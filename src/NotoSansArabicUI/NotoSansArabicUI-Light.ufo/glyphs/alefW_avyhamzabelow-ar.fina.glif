@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefWavyhamzabelow-ar.fina" format="2">
+  <advance width="264"/>
+  <anchor x="112" y="-279" name="bottom"/>
+  <anchor x="103" y="714" name="top"/>
+  <outline>
+    <component base="alef-ar.fina"/>
+    <component base="wavyhamzabelow-ar.restricted" xOffset="-43" yOffset="-5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:34</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

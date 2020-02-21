@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tahTwodotsabove-ar" format="2">
+  <advance width="894"/>
+  <unicode hex="08A3"/>
+  <anchor x="399" y="-13" name="bottom"/>
+  <anchor x="597" y="687" name="top"/>
+  <outline>
+    <component base="tah-ar"/>
+    <component base="twodotshorizontalabove-ar" xOffset="420" yOffset="4"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/29 16:49:36</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

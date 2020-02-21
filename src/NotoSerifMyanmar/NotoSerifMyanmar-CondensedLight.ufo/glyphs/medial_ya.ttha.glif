@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="medial_ya.ttha" format="2">
+  <advance width="170"/>
+  <note>
+Use after ttha and ttha.clipped only.
+</note>
+  <outline>
+    <contour>
+      <point x="96" y="520" type="line"/>
+      <point x="74" y="520" type="line"/>
+      <point x="74" y="-413" type="line" smooth="yes"/>
+      <point x="74" y="-468"/>
+      <point x="69" y="-501"/>
+      <point x="26" y="-501" type="curve" smooth="yes"/>
+      <point x="15" y="-501"/>
+      <point x="-3" y="-499"/>
+      <point x="-48" y="-477" type="curve" smooth="yes"/>
+      <point x="-103" y="-450" type="line"/>
+      <point x="-116" y="-473" type="line"/>
+      <point x="-61" y="-499" type="line" smooth="yes"/>
+      <point x="-4" y="-526"/>
+      <point x="19" y="-529"/>
+      <point x="31" y="-529" type="curve" smooth="yes"/>
+      <point x="78" y="-529"/>
+      <point x="96" y="-495"/>
+      <point x="96" y="-419" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>medial_ya</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>medial_ya</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/09/27 21:34:05</string>
+    </dict>
+  </lib>
+</glyph>

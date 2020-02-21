@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hovoweltelu" format="2">
+  <advance width="1129"/>
+  <outline>
+    <contour>
+      <point x="1015" y="689" type="curve" smooth="yes"/>
+      <point x="957" y="689" type="line" smooth="yes"/>
+      <point x="876" y="689"/>
+      <point x="830" y="654"/>
+      <point x="813" y="575" type="curve"/>
+      <point x="819" y="575" type="line"/>
+      <point x="802" y="661"/>
+      <point x="744" y="689"/>
+      <point x="688" y="689" type="curve" smooth="yes"/>
+      <point x="687" y="689" type="line" smooth="yes"/>
+      <point x="618" y="689"/>
+      <point x="566" y="647"/>
+      <point x="566" y="580" type="curve" smooth="yes"/>
+      <point x="566" y="495"/>
+      <point x="627" y="476"/>
+      <point x="702" y="476" type="curve" smooth="yes"/>
+      <point x="730" y="476" type="line"/>
+      <point x="710" y="491" type="line"/>
+      <point x="697" y="491" type="line" smooth="yes"/>
+      <point x="614" y="491"/>
+      <point x="593" y="531"/>
+      <point x="593" y="579" type="curve" smooth="yes"/>
+      <point x="593" y="623"/>
+      <point x="618" y="665"/>
+      <point x="687" y="665" type="curve" smooth="yes"/>
+      <point x="691" y="665" type="line" smooth="yes"/>
+      <point x="749" y="665"/>
+      <point x="795" y="624"/>
+      <point x="804" y="543" type="curve"/>
+      <point x="828" y="543" type="line"/>
+      <point x="841" y="621"/>
+      <point x="873" y="665"/>
+      <point x="956" y="665" type="curve" smooth="yes"/>
+      <point x="1007" y="665" type="line"/>
+      <point x="997" y="669" type="line"/>
+      <point x="959" y="645"/>
+      <point x="945" y="616"/>
+      <point x="945" y="579" type="curve" smooth="yes"/>
+      <point x="945" y="508"/>
+      <point x="991" y="474"/>
+      <point x="1050" y="474" type="curve" smooth="yes"/>
+      <point x="1110" y="474"/>
+      <point x="1154" y="514"/>
+      <point x="1154" y="581" type="curve" smooth="yes"/>
+      <point x="1154" y="609"/>
+      <point x="1144" y="636"/>
+      <point x="1128" y="653" type="curve" smooth="yes"/>
+      <point x="1103" y="679"/>
+      <point x="1073" y="689"/>
+    </contour>
+    <contour>
+      <point x="1051" y="499" type="curve" smooth="yes"/>
+      <point x="1007" y="499"/>
+      <point x="971" y="521"/>
+      <point x="971" y="581" type="curve" smooth="yes"/>
+      <point x="971" y="629"/>
+      <point x="1002" y="664"/>
+      <point x="1047" y="664" type="curve" smooth="yes"/>
+      <point x="1095" y="664"/>
+      <point x="1127" y="630"/>
+      <point x="1127" y="581" type="curve" smooth="yes"/>
+      <point x="1127" y="531"/>
+      <point x="1100" y="499"/>
+    </contour>
+    <component base="haalttelu"/>
+    <component base="hattelu" xOffset="68"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ovowelsigntelu</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2019/09/15 11:28:14</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kafrafe-hb" format="2">
+  <advance width="416"/>
+  <unicode hex="FB4D"/>
+  <anchor x="223" y="0" name="bottom"/>
+  <anchor x="38" y="0" name="bottomleft"/>
+  <anchor x="127" y="303" name="center"/>
+  <anchor x="127" y="546" name="top"/>
+  <anchor x="15" y="546" name="topleft"/>
+  <outline>
+    <component base="kaf-hb"/>
+    <component base="rafe-hb" xOffset="-13"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2016/07/07 18:36:03</string>
+    </dict>
+  </lib>
+</glyph>

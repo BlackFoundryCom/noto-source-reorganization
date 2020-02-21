@@ -21,6 +21,8 @@
     </dict>
     <key>F</key>
     <dict>
+      <key>germandbls.sc</key>
+      <integer>0</integer>
       <key>public.kern2.A.right</key>
       <integer>-20</integer>
       <key>public.kern2.J.salt</key>
@@ -33,13 +35,21 @@
       <integer>-50</integer>
       <key>public.kern2.period.right</key>
       <integer>-60</integer>
+      <key>public.kern2.y.sc</key>
+      <integer>0</integer>
+      <key>public.kern2.z.sc</key>
+      <integer>0</integer>
       <key>question</key>
       <integer>20</integer>
+      <key>x.sc</key>
+      <integer>0</integer>
     </dict>
     <key>G</key>
     <dict>
       <key>public.kern2.t.sc</key>
       <integer>-20</integer>
+      <key>public.kern2.w.sc</key>
+      <integer>0</integer>
       <key>public.kern2.y.sc</key>
       <integer>-10</integer>
       <key>tbar.sc</key>
@@ -94,6 +104,8 @@
       <integer>-10</integer>
       <key>public.kern2.guillemotleft</key>
       <integer>-10</integer>
+      <key>public.kern2.u.sc</key>
+      <integer>0</integer>
     </dict>
     <key>S</key>
     <dict>
@@ -228,6 +240,11 @@
       <key>public.kern2.uni1F42</key>
       <integer>-20</integer>
     </dict>
+    <key>doublebrevecomb</key>
+    <dict>
+      <key>doublebrevecomb</key>
+      <integer>0</integer>
+    </dict>
     <key>exclamdown</key>
     <dict>
       <key>J</key>
@@ -337,6 +354,8 @@
       <integer>38</integer>
       <key>public.kern2.quote.right</key>
       <integer>-66</integer>
+      <key>public.kern2.s.sc</key>
+      <integer>0</integer>
       <key>public.kern2.t.sc</key>
       <integer>-38</integer>
       <key>public.kern2.w.sc</key>
@@ -373,6 +392,8 @@
       <integer>-19</integer>
       <key>public.kern2.t.sc</key>
       <integer>-19</integer>
+      <key>public.kern2.u.sc</key>
+      <integer>0</integer>
       <key>public.kern2.w.sc</key>
       <integer>-19</integer>
       <key>public.kern2.y.sc</key>
@@ -463,6 +484,8 @@
       <integer>-9</integer>
       <key>public.kern2.guillemotleft</key>
       <integer>-19</integer>
+      <key>public.kern2.j.sc</key>
+      <integer>0</integer>
       <key>public.kern2.t.sc</key>
       <integer>-19</integer>
       <key>public.kern2.w.sc</key>
@@ -534,6 +557,8 @@
       <integer>-19</integer>
       <key>public.kern2.period.right</key>
       <integer>-38</integer>
+      <key>x.sc</key>
+      <integer>0</integer>
     </dict>
     <key>public.kern1.Ohorn</key>
     <dict>
@@ -905,6 +930,8 @@
       <integer>-47</integer>
       <key>public.kern2.afii10051</key>
       <integer>-47</integer>
+      <key>public.kern2.afii10053</key>
+      <integer>0</integer>
       <key>public.kern2.afii10084</key>
       <integer>-19</integer>
       <key>public.kern2.afii10089</key>
@@ -1612,6 +1639,8 @@
     </dict>
     <key>public.kern1.r.left</key>
     <dict>
+      <key>eth</key>
+      <integer>0</integer>
       <key>public.kern2.a.right</key>
       <integer>-19</integer>
       <key>public.kern2.g.right</key>

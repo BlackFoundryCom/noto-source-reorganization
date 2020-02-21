@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ovowelsignbeng" format="2">
+  <advance width="720"/>
+  <unicode hex="09CB"/>
+  <outline>
+    <component base="evowelsignbeng"/>
+    <component base="aavowelsignbeng" xOffset="513"/>
+    <component base="nuktabeng" xOffset="614" yOffset="449"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/07/07 09:19:29</string>
+    </dict>
+  </lib>
+</glyph>

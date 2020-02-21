@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aiSign_cham" format="2">
+  <advance width="629"/>
+  <unicode hex="AA30"/>
+  <note>
+uniAA30
+</note>
+  <outline>
+    <component base="oSign_cham"/>
+    <component base="uSign_cham" xOffset="522" yOffset="-147"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>verticalShift</key>
+        <integer>-82</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017/04/21 12:40:23</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cham</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>
