@@ -87,7 +87,7 @@ def alterner(ufo):
         # print(g.name, 'prop name')
 
 
-    # # compile OT features    
+    # # compile OT features
     # outlines = OutlineOTFCompiler(ufo).compile()
     # feaCompiler = FeatureCompiler(ufo, outlines)
     # feaCompiler.compile()

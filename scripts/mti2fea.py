@@ -91,35 +91,31 @@ def parseSingleGSUB(name, lookup):
     single_txt += " } " + name[2:-2] + " ;\n\n"
     return str(single_txt)
 
-def storeGSUBLookupType2Issue(name):
-    issues = []
-    issues.append(name)
-
 def parseMultipleGSUB(name, lookup):
+    issues = []
     presenceOfSingleInMultiple = 0
     multiple_txt = ""
-    single_to_separate = "lookup " + name[2:-2] + "_bis {\n"
+    single_to_separate = "lookup " + name[2:-2] + "_alt_single {\n"
     multiple_txt += "lookup " + name[2:-2] + " {\n"
     if len(parseLookupflag(lookup[0:5])) != 0:
         multiple_txt += parseLookupflag(lookup[0:5])
     for j in lookup[4:]:
         j_list = j.split("\t")
-        print(j_list, len(j_list))
         if len(j_list) >= 3:
-            storeGSUBLookupType2Issue(name[2:-2])
             multiple_txt += "\tsub " + j_list[0] + " by"
             for g in j_list[1:]:
                 multiple_txt += " " + g
             multiple_txt += " ;\n"
-        else:
-            print("else")
+        elif len(j_list)<3:
+            if name[2:-2] not in issues:
+                issues.append(name[2:-2])
             presenceOfSingleInMultiple = 1
             single_to_separate += "\tsub " + j_list[0] + " by " + j_list[0] +" ;\n"
     multiple_txt += " } " + name[2:-2] + " ;\n\n"
-    single_to_separate += " } " + name[2:-2] + "_bis ;\n\n"
+    single_to_separate += " } " + name[2:-2] + "_alt_single ;\n\n"
     if presenceOfSingleInMultiple == 1:
         multiple_txt += single_to_separate
-    return str(multiple_txt)
+    return str(multiple_txt), issues
 
 def parseLigatureGSUB(name, lookup):
     ligaGsub = ""
@@ -599,20 +595,47 @@ def readGPOS(monotypeFeaturesTxt, rdir):
 
         #add context at the end
     txt += contextContent + chainedContent
-    # print(featuresTable)
+
+    # PROBABLY BUGGED
+    # for i in featuresTable:
+    #     isplit = i.split("\t")
+    #     lookupInvolved = isplit[2].split(",")
+    #     gposFeatures += "feature " + isplit[1] + " {\n"
+    #     for s in listScript:
+    #         if isplit[0] in s[3]:
+    #             gposFeatures += "script " + s[0] + " ;\n\t" + "language " + s[1] + " ;\n"
+    #             for e in lookupInvolved:
+    #                 gposFeatures += "\t\tlookup " + str(namesAndContentsLookup[int(e)][0]).strip("['']").replace(" ", "_") + ";\n"
+    #         else:
+    #             for e in lookupInvolved:
+    #                 gposFeatures += "\t\tlookup " + str(namesAndContentsLookup[int(e)][0]).strip("['']").replace(" ", "_") + ";\n"
+    #     gposFeatures += "\t\t} " + isplit[1] + ";\n\n"
+
+    # FIX
+    gposFeaDict = dict()
+    # print(listScript)
     for i in featuresTable:
         isplit = i.split("\t")
-        lookupInvolved = isplit[2].split(",")
-        gposFeatures += "feature " + isplit[1] + " {\n"
-        for s in listScript:
-            if isplit[0] in s[3]:
-                gposFeatures += "script " + s[0] + " ;\n\t" + "language " + s[1] + " ;\n"
-                for e in lookupInvolved:
-                    gposFeatures += "\t\tlookup " + str(namesAndContentsLookup[int(e)][0]).strip("['']").replace(" ", "_") + ";\n"
-            else:
-                for e in lookupInvolved:
-                    gposFeatures += "\t\tlookup " + str(namesAndContentsLookup[int(e)][0]).strip("['']").replace(" ", "_") + ";\n"
-        gposFeatures += "\t\t} " + isplit[1] + ";\n\n"
+        if isplit[1] not in gposFeaDict:
+            gposFeaDict[isplit[1]] = [{isplit[0]: isplit[2]}]
+        else:
+            itemz = []
+            for z in gposFeaDict[isplit[1]]:
+                itemz.append(z)
+            itemz.append({isplit[0]: isplit[2]})
+            gposFeaDict[isplit[1]] = itemz
+    # print(gposFeaDict)
+    for feature in gposFeaDict:
+        gposFeatures += "feature " + feature + " {\n"
+        for script in gposFeaDict[feature]:
+            for k,v in script.items():
+                # print(k, v)
+                for s in listScript:
+                    if k in s[3]:
+                        gposFeatures += "script " + s[0] + " ;\n\t" + "language " + s[1] + " ;\n"
+                        for lkup in v.split(","):
+                            gposFeatures += "\t\tlookup " + str(namesAndContentsLookup[int(lkup)][0]).strip("['']").replace(" ", "_") + ";\n"
+        gposFeatures += "\t\t} " + feature + ";\n\n"
 
     return txt, languagesystem, gposFeatures
 
@@ -740,6 +763,7 @@ def readGSUB(monotypeFeaturesTxt):
     scripts = []
     featuresTable = []
     gsubFeatures = ""
+    full_issues = []
     # lookups = {}
     ### SPLIT THE CONTENT IN LOOKUPS ###
     for i in monotypeFeaturesTxt:
@@ -799,7 +823,15 @@ def readGSUB(monotypeFeaturesTxt):
             ### so they need to be separate in another lookup,
             ### and if the lookup is called in feature or in a lookup,
             ### the lines need to be copy/past with the separate lookup.
-            txt += parseMultipleGSUB(name, lookup)
+            lookup_multiple, issues = parseMultipleGSUB(name, lookup)
+            txt += lookup_multiple
+            if len(issues) != 0:
+                issues_str = ""
+                for issue in issues:
+                    issues_str += issue + " "
+                    if issue not in full_issues:
+                        full_issues.append(issue)
+                print("Mixed substitution lookup type in " + issues_str)
         ###############################
         ### ALTERNATE LOOKUP TYPE 3 ###
         ###############################
@@ -830,21 +862,8 @@ def readGSUB(monotypeFeaturesTxt):
             # contextContent += parseReversechainedGPOS(name, lookup, namesAndContentsLookup)
     txt += contextContent + chainedContent
 
-# BUG >> NEEDS TO BE ADRESSED
-    for i in featuresTable:
-        isplit = i.split("\t")
-        lookupInvolved = isplit[2].split(",")
-        gsubFeatures += "feature " + isplit[1] + " {\n"
-        for s in listScript:
-            if isplit[0] in s[3]:
-                gsubFeatures += "script " + s[0] + " ;\n\t" + "language " + s[1] + " ;\n"
-            for e in lookupInvolved:
-                gsubFeatures += "\t\tlookup " + str(namesAndContentsLookup[int(e)][0]).strip("['']").replace(" ", "_") + ";\n"
-        gsubFeatures += "\t\t} " + isplit[1] + ";\n\n"
-
-    ### REWRITE IT
+    ### FIXED
     gsubFeaDict = dict()
-    print(listScript)
     for i in featuresTable:
         isplit = i.split("\t")
         if isplit[1] not in gsubFeaDict:
@@ -855,16 +874,24 @@ def readGSUB(monotypeFeaturesTxt):
                 itemz.append(z)
             itemz.append({isplit[0]: isplit[2]})
             gsubFeaDict[isplit[1]] = itemz
-    for i in gsubFeaDict:
-        print("feature " + i + " {\n")
-        for j in gsubFeaDict[i]:
-            # print(str(j.keys()))
-            # for k, v in gsubFeaDict[i][j].items:
-                print(k, v)
-            # for s in listScript:
-                # if str(j.keys()) in s[3]:
-            #         print("script " + s[0] + " ;\n\t" + "language " + s[1] + " ;\n")
-            # print("\t\tlookup " + str(namesAndContentsLookup[int(e)][0]).strip("['']").replace(" ", "_") + ";\n")
+    for feature in gsubFeaDict:
+        gsubFeatures += "feature " + feature + " {\n"
+        content = gsubFeaDict[feature]
+        for script in gsubFeaDict[feature]:
+            for k,v in script.items():
+                # print(k, v)
+                for s in listScript:
+                    if k in s[3]:
+                        gsubFeatures += "script " + s[0] + " ;\n\t" + "language " + s[1] + " ;\n"
+                        for lkup in v.split(","):
+                            gsubFeatures += "\t\tlookup " + str(namesAndContentsLookup[int(lkup)][0]).strip("['']").replace(" ", "_") + ";\n"
+                            if "multiple" in str(namesAndContentsLookup[int(lkup)][0]):
+                                if len(full_issues)!=0:
+                                    print (full_issues, str(namesAndContentsLookup[int(lkup)][0][0]))
+                                    if str(namesAndContentsLookup[int(lkup)][0][0]) in full_issues:
+                                        print("add the alt lookup")
+                                        gsubFeatures += "\t\tlookup " + str(namesAndContentsLookup[int(lkup)][0]).strip("['']").replace(" ", "_") + "_alt_single;\n"
+        gsubFeatures += "\t\t} " + feature + ";\n\n"
 
     return txt, languagesystem, gsubFeatures
 
@@ -893,7 +920,7 @@ def mti2fea(family):
     # for each master, create a feature file, with its 3 mti files (GPOS, GDEF, GSUB)
     for m in features_by_masters:
         mtiFeatures = []
-        print(m)
+        # print(m)
         for G___ in features_by_masters[m]:
             Gpath = os.path.join(rdir, G___)
             mtiFeatures.append(Gpath)
@@ -931,5 +958,6 @@ def mti2fea(family):
             fea.write(featureTxt)
 
 
+
 if __name__ == "__main__":
-    fea_ = mti2fea("NotoSansAvestan")
+    fea_ = mti2fea("NotoNastaliqUrdu")
