@@ -1,5 +1,6 @@
 import os
 from fontTools.misc.plistlib import load as readPlist
+import defcon
 
 
 def contentOfClass(l):
@@ -75,20 +76,22 @@ def parseLookupflag(chapeau):
             lookupflag += j[:-4] + " "
         if "MarkAttachmentType" in j:
             lookupflag += " @_MarkAttachmentType_".join(j.split("\t")) + " "
+        if "MarkFilterType" in j:
+            lookupflag += " @_FilterSet_".join(j.split("\t")).replace("MarkFilterType","UseMarkFilteringSet")
     if len(lookupflag) != 0:
-        lookupflag = "lookupflag " + lookupflag + " ;\n"
+        lookupflag = "    lookupflag " + lookupflag + " ;\n"
     return lookupflag
 
 
 def parseSingleGSUB(name, lookup):
     single_txt = ""
     single_txt += "lookup " + name[2:-2] + " {\n"
-    if len(parseLookupflag(lookup[0:5])) != 0:
-        single_txt += parseLookupflag(lookup[0:5])
+    if len(parseLookupflag(lookup[0:6])) != 0:
+        single_txt += parseLookupflag(lookup[0:6])
     for j in lookup[4:]:
         j_list = j.split("\t")
         single_txt += "\tsub " + j_list[0] + " by " +  j_list[1] + " ;\n"
-    single_txt += " } " + name[2:-2] + " ;\n\n"
+    single_txt += "    } " + name[2:-2] + " ;\n\n"
     return str(single_txt)
 
 def parseMultipleGSUB(name, lookup):
@@ -97,8 +100,8 @@ def parseMultipleGSUB(name, lookup):
     multiple_txt = ""
     single_to_separate = "lookup " + name[2:-2] + "_alt_single {\n"
     multiple_txt += "lookup " + name[2:-2] + " {\n"
-    if len(parseLookupflag(lookup[0:5])) != 0:
-        multiple_txt += parseLookupflag(lookup[0:5])
+    if len(parseLookupflag(lookup[0:6])) != 0:
+        multiple_txt += parseLookupflag(lookup[0:6])
     for j in lookup[4:]:
         j_list = j.split("\t")
         if len(j_list) >= 3:
@@ -111,8 +114,8 @@ def parseMultipleGSUB(name, lookup):
                 issues.append(name[2:-2])
             presenceOfSingleInMultiple = 1
             single_to_separate += "\tsub " + j_list[0] + " by " + j_list[0] +" ;\n"
-    multiple_txt += " } " + name[2:-2] + " ;\n\n"
-    single_to_separate += " } " + name[2:-2] + "_alt_single ;\n\n"
+    multiple_txt += "    } " + name[2:-2] + " ;\n\n"
+    single_to_separate += "    } " + name[2:-2] + "_alt_single ;\n\n"
     if presenceOfSingleInMultiple == 1:
         multiple_txt += single_to_separate
     return str(multiple_txt), issues
@@ -120,15 +123,16 @@ def parseMultipleGSUB(name, lookup):
 def parseLigatureGSUB(name, lookup):
     ligaGsub = ""
     ligaGsub += "lookup " + name[2:-2] + " {\n"
-    if len(parseLookupflag(lookup[0:5])) != 0:
-        ligaGsub += parseLookupflag(lookup[0:5])
+    if len(parseLookupflag(lookup[0:6])) != 0:
+        ligaGsub += parseLookupflag(lookup[0:6])
     for j in lookup[4:]:
-        j_list = j.split("\t")
-        ligaGsub += "sub "
-        for g in j_list[1:]:
-            ligaGsub += g + " "
-        ligaGsub += "by " + j_list[0] + " ;\n"
-    ligaGsub += " } " + name[2:-2] + " ;\n\n"
+        if "MarkFilterType" not in j:
+            j_list = j.split("\t")
+            ligaGsub += "    sub "
+            for g in j_list[1:]:
+                ligaGsub += g + " "
+            ligaGsub += "by " + j_list[0] + " ;\n"
+    ligaGsub += "    } " + name[2:-2] + " ;\n\n"
     return str(ligaGsub)
 
 ##########################
@@ -141,8 +145,8 @@ output => position Glyphname <value record with a valur in y advance or x advanc
 def parseSingleGPOS(name, lookup):
     single_txt = ""
     single_txt += "lookup " + name[2:-2] + " {\n"
-    if len(parseLookupflag(lookup[0:5])) != 0:
-        single_txt += parseLookupflag(lookup[0:5])
+    if len(parseLookupflag(lookup[0:6])) != 0:
+        single_txt += parseLookupflag(lookup[0:6])
     for j in lookup[4:]:
         j_list = j.split("\t")
         if "x advance" in j_list[0]:
@@ -153,8 +157,83 @@ def parseSingleGPOS(name, lookup):
             single_txt += "\tposition " + j_list[1] + " < " + j_list[2] + " 0 0 0 >;\n"
         elif "y placement" in j_list[0]:
             single_txt += "\tposition " + j_list[1] + " < 0 " + j_list[2] + " 0 0 >;\n"
-    single_txt += " } " + name[2:-2] + " ;\n\n"
+    single_txt += "    } " + name[2:-2] + " ;\n\n"
     return str(single_txt)
+
+##########################
+#### GPOS LookupType 2 ###
+##########################
+"""
+
+"""
+def parseKernsetGPOS(name, lookup):
+    # NEDD TO MAKE THE RTL VERSION, and THE Y VERSION
+    kernset_txt = ""
+    kernset_txt += "lookup " + name[2:-2] + " {\n"
+    if len(parseLookupflag(lookup[0:6])) != 0:
+        kernset_txt += parseLookupflag(lookup[0:6])
+    # GET THE CONTENT OF THE LOOKUP, AND IF GROUPS ARE DEFINED, GET THEM
+    contenu = [x for x in lookup if x != '']
+    classList = []
+    if "firstclass definition begin" in contenu:
+        for i in contenu:
+            if "firstclass definition begin" in i:
+                classList.append("firstclass definition begin")
+                j = contenu.index(i) + 1
+                while "class definition end" not in contenu[j]:
+                    classList.append(contenu[j])
+                    j += 1
+                classList.append("class definition end")
+        firstclass = getGroupsAsDict(classList, start = "firstclass definition begin")
+        refactoredGroups = unpackGroupsFromDict(firstclass, name[2:-2], namingConvention = "\t@_firstclass_group_")
+        kernset_txt += refactoredGroups + "\n"
+    if "secondclass definition begin" in contenu:
+        for i in contenu:
+            if "secondclass definition begin" in i:
+                classList.append("secondclass definition begin")
+                j = contenu.index(i) + 1
+                while "class definition end" not in contenu[j]:
+                    classList.append(contenu[j])
+                    j += 1
+                classList.append("class definition end")
+        secondclass = getGroupsAsDict(classList, start = "secondclass definition begin")
+        refactoredGroups = unpackGroupsFromDict(secondclass, name[2:-2], namingConvention = "\t@_secondclass_group_")
+        kernset_txt += refactoredGroups + "\n"
+    for j in lookup[4:]:
+        j_list = j.split("\t")
+        if "left x advance" in j_list[0]:
+            try:
+                int(j_list[1])
+                one = "@_firstclass_group_" + str(j_list[1]) + "_" + name[2:-2]
+            except:
+                one = j_list[1]
+            try:
+                int(j_list[2])
+                two = "@_secondclass_group_" + str(j_list[2]) + "_" + name[2:-2]
+            except:
+                two = j_list[2]
+            kernset_txt += "\tposition " + " ".join([one, two, j_list[3]]) + " ;\n"
+        if "left x placement" in j_list[0]:
+            try:
+                int(j_list[1])
+                one = "@_firstclass_group_" + str(j_list[1]) + "_" + name[2:-2]
+            except:
+                one = j_list[1]
+            try:
+                int(j_list[2])
+                two = "@_secondclass_group_" + str(j_list[2]) + "_" + name[2:-2]
+            except:
+                two = j_list[2]
+            kernset_txt += "\tposition " + " ".join([one, two]) + " < " + j_list[3] + " 0 0 0 >;\n"
+    #     elif "y advance" in j_list[0]:
+    #         kernset_txt += "\tposition " + j_list[1] + " < 0 0 0 " +  j_list[2] + " >;\n"
+    #     elif "x placement" in j_list[0]:
+    #         kernset_txt += "\tposition " + j_list[1] + " < " + j_list[2] + " 0 0 0 >;\n"
+    #     elif "y placement" in j_list[0]:
+    #         kernset_txt += "\tposition " + j_list[1] + " < 0 " + j_list[2] + " 0 0 >;\n"
+    kernset_txt += "    } " + name[2:-2] + " ;\n\n"
+    return str(kernset_txt)
+
 
 ##########################
 #### GPOS LookupType 3 ###
@@ -170,8 +249,8 @@ def parseCursive(name, lookup):
     entryDict = dict()
     exitDict = dict()
     rule = ""
-    if len(parseLookupflag(lookup[0:5])) != 0:
-        curs_txt += parseLookupflag(lookup[0:5])
+    if len(parseLookupflag(lookup[0:6])) != 0:
+        curs_txt += parseLookupflag(lookup[0:6])
     for j in lookup[4:]:
         j_list = j.split("\t")
         if j_list[0] == "entry":
@@ -192,7 +271,7 @@ def parseCursive(name, lookup):
         if k not in entryDict:
             exit = exitDict[k].replace(",", " ")
             curs_txt += "\tposition cursive " + k + " <anchor NULL>" + " <anchor "+ exit + ">;\n"
-    curs_txt += " } " + name[2:-2] + " ;\n\n"
+    curs_txt += "    } " + name[2:-2] + " ;\n\n"
     return str(curs_txt)
 
 ##########################
@@ -209,19 +288,19 @@ def parseMark2base(name, lookup):
     markDict =dict()
     rules = ""
     m2b_txt += "lookup " + name[2:-2] + " {\n"
-    if len(parseLookupflag(lookup[0:5])) != 0:
-        m2b_txt += parseLookupflag(lookup[0:5])
+    if len(parseLookupflag(lookup[0:6])) != 0:
+        m2b_txt += parseLookupflag(lookup[0:6])
     for ligne in lookup[4:]:
         ligneSplit =ligne.split("\t")
         # create a ligne for the mark glyph, gives the anchor value and the name of its class
         if "mark" in ligne:
-            rules += "markClass " + ligneSplit[1] + " <anchor " + ligneSplit[3].replace(",", " ") + "> @_MARKCLASS_" + \
+            rules += "    markClass " + ligneSplit[1] + " <anchor " + ligneSplit[3].replace(",", " ") + "> @_MARKCLASS_" + \
             str(ligneSplit[2]) + "_lookup_" + name.split('_')[1] + ";\n"
         # create a ligne for the base glyph, gives the anchor value and the name of its class
         elif "base" in ligne:
-            rules += "position base " + ligneSplit[1] + " <anchor " + \
+            rules += "    position base " + ligneSplit[1] + " <anchor " + \
                         ligneSplit[3].replace(",", " ") + "> " + "mark @_MARKCLASS_" + str(ligneSplit[2]) + "_lookup_" + name.split('_')[1] + ";\n"
-    m2b_txt = m2b_txt + rules + " } " + name[2:-2] + " ;\n\n"
+    m2b_txt = m2b_txt + rules + "    } " + name[2:-2] + " ;\n\n"
     return m2b_txt
 
 
@@ -241,12 +320,12 @@ def parseMark2Ligature(name, lookup):
     whichCompo = 0
     previousGlyph = ""
     m2lig_txt += "lookup " + name[2:-2] + " {\n"
-    if len(parseLookupflag(lookup[0:5])) != 0:
-        m2lig_txt += parseLookupflag(lookup[0:5])
+    if len(parseLookupflag(lookup[0:6])) != 0:
+        m2lig_txt += parseLookupflag(lookup[0:6])
     for ligne in lookup[4:]:
         ligneSplit = ligne.split("\t")
         # create a ligne for the mark glyph, gives the anchor value and the name of its class
-        if "mark" in ligne:
+        if ligneSplit[0] == "mark":
             rules += "markClass " + ligneSplit[1] + " <anchor " + ligneSplit[3].replace(",", " ") + "> @_MARKCLASS_" + \
             str(ligneSplit[2]) + "_lookup_" + name.split('_')[1] + ";\n"
         elif "ligature" in ligne:
@@ -276,7 +355,7 @@ def parseMark2Ligature(name, lookup):
             # store the index of component
             whichCompo = ligneSplit[2]
             end = False
-    m2lig_txt = m2lig_txt + rules + ";\n } " + name[2:-2] + " ;\n\n"
+    m2lig_txt = m2lig_txt + rules + ";\n    } " + name[2:-2] + " ;\n\n"
 
     return m2lig_txt
 
@@ -292,18 +371,18 @@ def parseMark2Mark(name, lookup):
     markDict =dict()
     rules = ""
     m2m_txt += "lookup " + name[2:-2] + " {\n"
-    if len(parseLookupflag(lookup[0:5])) != 0:
-        m2m_txt += parseLookupflag(lookup[0:5])
+    if len(parseLookupflag(lookup[0:6])) != 0:
+        m2m_txt += parseLookupflag(lookup[0:6])
     for ligne in lookup[4:]:
         ligneSplit =ligne.split("\t")
         # create a ligne for the mark glyph, gives the anchor value and the name of its class
-        if "mark" in ligne:
+        if ligneSplit[0] == "mark":
             rules += "markClass " + ligneSplit[1] + " <anchor " + ligneSplit[3].replace(",", " ") + "> @_MARKCLASS_" + \
             str(ligneSplit[2]) + "_lookup_" + name.split('_')[1] + ";\n"
         elif "base" in ligne:
             rules += "position mark " + ligneSplit[1] + " <anchor " + ligneSplit[3].replace(",", " ") + \
             "> mark @_MARKCLASS_" + str(ligneSplit[2]) + "_lookup_" + name.split('_')[1] + ";\n"
-    m2m_txt = m2m_txt + rules + " } " + name[2:-2] + " ;\n\n"
+    m2m_txt = m2m_txt + rules + "    } " + name[2:-2] + " ;\n\n"
     return m2m_txt
 
 
@@ -328,8 +407,8 @@ def parseContextGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
     coupure = 0
     # GET THE NAME AND THE LOOKUPFLAGS IF NEEDED
     contextPOS_txt += "lookup " + name[2:-2] + " {\n"
-    if len(parseLookupflag(lookup[0:5])) != 0:
-        contextPOS_txt += parseLookupflag(lookup[0:5])
+    if len(parseLookupflag(lookup[0:6])) != 0:
+        contextPOS_txt += parseLookupflag(lookup[0:6])
     # GET THE CONTENT OF THE LOOKUP, IF GROUPS ARE DEFINED, GET THEM
     contenu = [x for x in lookup if x != '']
     for e in contenu:
@@ -395,12 +474,12 @@ def parseContextGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
                                 rule += "lookup " + cL[1] + " "
                         index += 1
                 rule += ";\n"
-    ####################
-    ### /!\ TODO /!\ ###
-    ####################
+    ####################################################
+    ### /!\ TODO /!\ look at parseChainedGPOSGSUB() ###
+    ####################################################
         if "coverage" in j:
             contextPOS_txt += j + "\n"
-    contextPOS_txt +=  rule + "\n} " + name[2:-2] + " ;\n\n"
+    contextPOS_txt +=  rule + "\n   } " + name[2:-2] + " ;\n\n"
     return str(contextPOS_txt)
 
 ##########################
@@ -411,15 +490,15 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
     rule = ""
     # GET THE NAME AND THE LOOKUPFLAGS IF NEEDED
     chainedPOS_txt += "lookup " + name[2:-2] + " {\n"
-    if len(parseLookupflag(lookup[0:5])) != 0:
-        chainedPOS_txt += parseLookupflag(lookup[0:5])
+    if len(parseLookupflag(lookup[0:6])) != 0:
+        chainedPOS_txt += parseLookupflag(lookup[0:6])
     # GET THE CONTENT OF THE LOOKUP, IF GROUPS ARE DEFINED, GET THEM
     contenu = [x for x in lookup if x != '']
     # print(contenu)
-    classList = []
     if "backtrackclass definition begin" in contenu:
+        classList = []
         for i in contenu:
-            if "backtrackclass definition begin" in i:
+            if i == "backtrackclass definition begin":
                 classList.append("backtrackclass definition begin")
                 j = contenu.index(i) + 1
                 while "class definition end" not in contenu[j]:
@@ -430,21 +509,83 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
         refactoredGroups = unpackGroupsFromDict(backtrackclass, name[2:-2], namingConvention = "\t@_backtrack_group_")
         chainedPOS_txt += refactoredGroups + "\n"
     if "class definition begin" in contenu:
+        classList = []
+        # print(name)
         for i in contenu:
-            if "class definition begin" in i:
+            if i == "class definition begin":
+                # print("input class def begin")
                 classList.append("class definition begin")
+                j = contenu.index(i) + 1
+                # print(i, "start at", j)
+                while "class definition end" not in contenu[j]:
+                    # print(contenu[j])
+                    classList.append(contenu[j])
+                    j += 1
+                classList.append("class definition end")
+                # print(classList)
+                # print("end\n")
+        inputclass = getGroupsAsDict(classList)
+        refactoredGroups = unpackGroupsFromDict(inputclass, name[2:-2], namingConvention = "\t@_impacted_group_")
+        chainedPOS_txt += refactoredGroups + "\n"
+    if "lookaheadclass definition begin" in contenu:
+        print("lookaheadclass in", name[2:-2])
+        classList = []
+        for i in contenu:
+            if i == "lookaheadclass definition begin":
+                classList.append("lookaheadclass definition begin")
                 j = contenu.index(i) + 1
                 while "class definition end" not in contenu[j]:
                     classList.append(contenu[j])
                     j += 1
                 classList.append("class definition end")
-        inputclass = getGroupsAsDict(classList)
-        refactoredGroups = unpackGroupsFromDict(inputclass, name[2:-2], namingConvention = "\t@_impacted_group_")
-        chainedPOS_txt += refactoredGroups + "\n"
-    if "lookaheadclass definition begin" in contenu:
         lookaheadclass = getGroupsAsDict(contenu, start = "lookaheadclass definition begin")
         refactoredGroups = unpackGroupsFromDict(lookaheadclass, name[2:-2], namingConvention = "\t@_lookahead_group_")
+        print(refactoredGroups)
         chainedPOS_txt += refactoredGroups + "\n"
+    # COVERAGE
+    backtrackcoverage, inputcoverage, lookaheadcoverage = "", "", ""
+    coverage = ""
+    if "backtrackcoverage definition begin" in contenu:
+        for i in contenu:
+            if "backtrackcoverage definition begin" in i:
+                coverage = " [ "
+                j = contenu.index(i) + 1
+                while "coverage definition end" not in contenu[j]:
+                    # classList.append(contenu[j])
+                    coverage += contenu[j] + " "
+                    j += 1
+                coverage += " ]"
+        backtrackcoverage = coverage
+        coverage = ""
+        # print(backtrackcoverage)
+        # chainedPOS_txt += backtrackcoverage + "\n"
+    if "inputcoverage definition begin" in contenu:
+        for i in contenu:
+            if "inputcoverage definition begin" in i:
+                coverage = " [ "
+                j = contenu.index(i) + 1
+                while "coverage definition end" not in contenu[j]:
+                    # classList.append(contenu[j])
+                    coverage += contenu[j] + " "
+                    j += 1
+                coverage += " ]"
+        inputcoverage = coverage
+        coverage = ""
+        # print(inputcoverage)
+    if "lookaheadcoverage definition begin" in contenu:
+        for i in contenu:
+            coverage = " [ "
+            if "lookaheadcoverage definition begin" in i:
+                j = contenu.index(i) + 1
+                while "coverage definition end" not in contenu[j]:
+                    # classList.append(contenu[j])
+                    coverage += contenu[j] + " "
+                    j += 1
+        coverage += " ]"
+        lookaheadcoveragecoverage = coverage
+        coverage = ""
+        # print(lookaheadcoveragecoverage)
+    # RULES
     for i in contenu:
         if "class-chain" in i:
             isplit = i.split("\t")
@@ -456,7 +597,7 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
                 if e.split(",") not in _lookup_called:
                     _lookup_called.append(e.split(","))
             # print(_lookup_called)
-            rule += keyword + " "
+            rule += "    " + keyword + " "
             if _backtrack_group[0] != "":
                 for x in _backtrack_group:
                     x = x.replace(" ", "")
@@ -466,7 +607,9 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
                 rule += "@_impacted_group_" + x + "_" + name[2:-2]  + "' "
             for x in _lookup_called:
                 x = x[1].replace(" ", "")
-                x = int(x) + 1
+                #BUG????
+                #x = int(x) + 1
+                x = int(x)
                 lookup_name = str(namesAndContentsLookup[x][0])[2:].strip("['']")
                 rule += "lookup " + lookup_name + " "
             # for x in _lookup_called[1].replace(" ", ""):
@@ -478,7 +621,13 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
                     x = x.replace(" ", "")
                     rule += "@_lookahead_group_" + x + "_" + name[2:-2] + " "
             rule += ";\n"
-    chainedPOS_txt =  chainedPOS_txt + rule + "\n} " + name[2:-2] + " ;\n\n"
+        elif "coverage\t" in i:
+            x = i.split(",")[1]
+            lookup_name = str(namesAndContentsLookup[int(x)][0])[2:].strip("['']")
+            chainedPOS_txt += "    " + keyword + backtrackcoverage + inputcoverage \
+                + "' lookup " + lookup_name + lookaheadcoverage + " ;"
+    chainedPOS_txt =  chainedPOS_txt + rule + "\n    } " + name[2:-2] + " ;\n\n"
+    # print(chainedPOS_txt)
     return chainedPOS_txt
 
 
@@ -544,8 +693,8 @@ def readGPOS(monotypeFeaturesTxt, rdir):
                 dflt = monotypeFeaturesTxt[x].replace("default", "dflt")
                 scripts.append(dflt[:-1])
                 x += 1
-            cleaning = [x for x in scripts if x != '']
-            scripts = cleaning
+            cleande_scripts = [x for x in scripts if x != '']
+            scripts = cleande_scripts
 
     for i in scripts:
         isplit = i.split("\t")
@@ -560,60 +709,53 @@ def readGPOS(monotypeFeaturesTxt, rdir):
         content = []
         debut = "lookup " + name[2:-2] + " {\n"
         content_str = ""
-        ##########################
-        ### CURSIV LOOKUP TYPE ###
-        ##########################
+        ############################
+        ### CURSIV LOOKUP TYPE 3 ###
+        ############################
         if "cursiv" in name:
             txt += parseCursive(name, lookup)
-        ##########################
-        ### SINGLE LOOKUP TYPE ###
-        ##########################
+        ############################
+        ### SINGLE LOOKUP TYPE 1 ###
+        ############################
         if "single" in name:
             txt += parseSingleGPOS(name, lookup)
-        ###########################
-        ### CONTEXT LOOKUP TYPE ###
-        ###########################
+        ############################
+        ### SINGLE LOOKUP TYPE 1 ###
+        ############################
+        if "pair" in name or "kernset" in name:
+            txt += parseKernsetGPOS(name, lookup)
+        #############################
+        ### CONTEXT LOOKUP TYPE 7 ###
+        #############################
         elif "context" in name:
             contextContent += parseContextGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos")
-        #############################
-        ### Mark2Base LOOKUP TYPE ###
-        #############################
+        ###############################
+        ### Mark2Base LOOKUP TYPE 4 ###
+        ###############################
         elif "mark_to_base" in name:
             txt += parseMark2base(name, lookup)
-        #############################
-        ### Mark2Liga LOOKUP TYPE ###
-        #############################
+        ###############################
+        ### Mark2Liga LOOKUP TYPE 5 ###
+        ###############################
         elif "mark_to_ligature" in name:
             txt += parseMark2Ligature(name, lookup)
-        #############################
-        ### Mark2Mark LOOKUP TYPE ###
-        #############################
+        ###############################
+        ### Mark2Mark LOOKUP TYPE 6 ###
+        ###############################
         elif "mark_to_mark" in name:
             txt += parseMark2Mark(name, lookup)
+        ###############################
+        ### CHAINED LOOKUP TYPE 8 ###
+        ###############################
         elif "chained" in name:
             chainedContent += parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos")
 
         #add context at the end
     txt += contextContent + chainedContent
 
-    # PROBABLY BUGGED
-    # for i in featuresTable:
-    #     isplit = i.split("\t")
-    #     lookupInvolved = isplit[2].split(",")
-    #     gposFeatures += "feature " + isplit[1] + " {\n"
-    #     for s in listScript:
-    #         if isplit[0] in s[3]:
-    #             gposFeatures += "script " + s[0] + " ;\n\t" + "language " + s[1] + " ;\n"
-    #             for e in lookupInvolved:
-    #                 gposFeatures += "\t\tlookup " + str(namesAndContentsLookup[int(e)][0]).strip("['']").replace(" ", "_") + ";\n"
-    #         else:
-    #             for e in lookupInvolved:
-    #                 gposFeatures += "\t\tlookup " + str(namesAndContentsLookup[int(e)][0]).strip("['']").replace(" ", "_") + ";\n"
-    #     gposFeatures += "\t\t} " + isplit[1] + ";\n\n"
-
-    # FIX
+    # FIX Store All list of features and involved lookup by languagesystem
+    # in a dict to avoid duplicate. ut MTI files have duplicate. It should be corrected at some point
     gposFeaDict = dict()
-    # print(listScript)
     for i in featuresTable:
         isplit = i.split("\t")
         if isplit[1] not in gposFeaDict:
@@ -648,6 +790,7 @@ def readGDEF(classGdef, rdir):
     AGdefClass = []
     allGDEF = {}
     GDEF_base, GDEF_ligature, GDEF_mark, GDEF_compo = [], [], [], []
+    filterSets, filter_groups_txt = "", ""
 
 
     # detect the beginning and the end of classes and put each in a list, then put lists in dict
@@ -718,6 +861,14 @@ def readGDEF(classGdef, rdir):
         MarkAttachmentClass = getGroupsAsDict(MarkAttachmentClassList, start = "mark attachment class definition begin")
         MarkAttachmentClass = unpackGroupsFromDict(MarkAttachmentClass, "", namingConvention = "\t@_MarkAttachmentType_")
 
+    if "markfilter set definition begin" in allGDEF:
+        filterList = []
+        filterList = allGDEF["markfilter set definition begin"]
+        filterList.insert(0, "markfilter set definition begin")
+        filterList.append("class definition end")
+        filterSets = getGroupsAsDict(filterList, start = "markfilter set definition begin")
+        filterSets = unpackGroupsFromDict(filterSets, "", namingConvention = "\t@_FilterSet_")
+
     ### LOOP IN THE DICT OF GLYPHSCLASSDEF to make sure groups are filled, if not then no add it in feature file
     for i in GlyphClassDefDict:
         if len(GlyphClassDefDict[i]) != 0:
@@ -726,6 +877,9 @@ def readGDEF(classGdef, rdir):
     if len(MarkAttachmentClass) > 0:
         # txt += "\nMarkAttachClassDef\n" + MarkAttachmentClass
         groups_txt += MarkAttachmentClass + "\n"
+
+    if len(filterSets) > 0:
+        filter_groups_txt += filterSets + "\n"
 
 
     ### LOOP IN THE DICT OF GLYPHSCLASSDEF to make sure groups are filled,
@@ -751,7 +905,7 @@ def readGDEF(classGdef, rdir):
         txt += "\n" + attach
 
     txt += "\n} GDEF;"
-    return txt, groups_txt
+    return txt, groups_txt, filter_groups_txt
 
 def readGSUB(monotypeFeaturesTxt):
     namesAndContentsLookup = list()
@@ -843,20 +997,20 @@ def readGSUB(monotypeFeaturesTxt):
         ##############################
         elif "ligature" in name:
             txt += parseLigatureGSUB(name, lookup)
-        ###########################
-        ### CONTEXT LOOKUP TYPE ###
-        ###########################
+        #############################
+        ### CONTEXT LOOKUP TYPE 5 ###
+        #############################
         elif "context" in name:
             contextContent += parseContextGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "sub")
             # print(contextContent)
-        ###########################
-        ### CHAINED LOOKUP TYPE ###
-        ###########################
+        #############################
+        ### CHAINED LOOKUP TYPE 6 ###
+        #############################
         elif "chained" in name:
             chainedContent += parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "sub")
-        ###########################
-        ### CONTEXT LOOKUP TYPE ###
-        ###########################
+        #############################
+        ### CONTEXT LOOKUP TYPE 8 ###
+        #############################
         elif "reversechained" in name:
             print("reversechained to do")
             # contextContent += parseReversechainedGPOS(name, lookup, namesAndContentsLookup)
@@ -919,6 +1073,8 @@ def mti2fea(family):
 
     # for each master, create a feature file, with its 3 mti files (GPOS, GDEF, GSUB)
     for m in features_by_masters:
+        ufoPath = os.path.join(repo, m+".ufo")
+        ft = defcon.Font(ufoPath)
         mtiFeatures = []
         # print(m)
         for G___ in features_by_masters[m]:
@@ -933,31 +1089,39 @@ def mti2fea(family):
         gsubFeatures = ""
         gposFeatures = ""
         gsubTxt = ""
+        filter_grps_txt = ""
+
         # TODO : compare the "languagesystem" tagged in GSUB and GPOS in cas they are not the same… ?
-        for G in mtiFeatures:
-            if "GPOS" in G:
-                monotypeFeaturesTxt = getGTXT(G)
+        for table in mtiFeatures:
+            if "GPOS" in table:
+                monotypeFeaturesTxt = getGTXT(table)
                 gposTxt, languagesystem, gposFeatures = readGPOS(monotypeFeaturesTxt, rdir)
 
         ### DEAL WITH THE GDEF TABLE ###
-            elif "GDEF" in G:
-                classGdef = getGTXT(G)
-                gdefTxt, groups_txt = readGDEF(classGdef, rdir)
-                featureTxt = groups_txt + featureTxt + gdefTxt
+            elif "GDEF" in table:
+                classGdef = getGTXT(table)
+                gdefTxt, groups_txt, filter_grps_txt = readGDEF(classGdef, rdir)
+                featureTxt = groups_txt + filter_grps_txt + featureTxt + gdefTxt
 
-        ### DEAL WITH THE GDEF TABLE ###
-            elif "GSUB" in G:
-                monotypeFeaturesTxt = getGTXT(G)
+        ### DEAL WITH THE GSUB TABLE ###
+            elif "GSUB" in table:
+                monotypeFeaturesTxt = getGTXT(table)
                 gsubTxt, languagesystem, gsubFeatures = readGSUB(monotypeFeaturesTxt)
+                if "DUMM" in gsubFeatures:
+                    gsubTxt = "#NO GSUB RULES\n"
+                    gsubFeatures = ""
 
-        featureTxt = languagesystem + groups_txt + "#GSUB\n" + gsubTxt   \
-                        + "#GPOS\n" + gposTxt + "#FEATURES LIST\n" + gsubFeatures + gposFeatures + "#GDEF\n" + gdefTxt
+        featureTxt = languagesystem + groups_txt + filter_grps_txt + "\n#GSUB\n" + gsubTxt   \
+                        + "\n#GPOS\n" + gposTxt + "\n#FEATURES LIST\n" + gsubFeatures + gposFeatures + "\n#GDEF\n" + gdefTxt
         # featureTxt = gsubFeatures
 
         with open(rdir + "/" + m + "_features.fea", "w+") as fea:
             fea.write(featureTxt)
+        # ft.features.text = "include(" + m + "_features.fea);"
+        ft.features.text = "# Features for " + m + "\n# generated by translating original MTI data\n" + featureTxt
+        ft.save()
 
 
 
 if __name__ == "__main__":
-    fea_ = mti2fea("NotoNastaliqUrdu")
+    fea_ = mti2fea("NotoSerifTelugu")

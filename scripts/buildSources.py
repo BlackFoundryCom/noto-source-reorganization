@@ -238,9 +238,9 @@ if __name__ == '__main__':
                     typeface.convertion()
                 except:
                     fail.append(i)
-            elif os.path.isdir(os.path.join(NotoSources, i)):
-                print(i)
-                typeface = complexSourcesBuilder(i)
-                typeface.copy_mti_files()
+            # elif os.path.isdir(os.path.join(NotoSources, i)):
+            #     print(i)
+            #     typeface = complexSourcesBuilder(i)
+            #     typeface.copy_mti_files()
     for f in fail:
         print(f, "didn't work")

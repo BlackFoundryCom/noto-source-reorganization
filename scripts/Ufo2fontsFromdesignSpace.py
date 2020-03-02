@@ -41,13 +41,13 @@ mergeFonts(baseFanmilyName, familyName of the fonts to inject) => WIP.
 pan_european_fonts = ["NotoSans", "NotoSans-Italic", "NotoSerif", "NotoSerif-Italic", "NotoSansDisplay", "NotoSansDisplay-Italic", "NotoSerifDisplay", "NotoSerifDisplay-Italic", "NotoSansMono"]
 arabic_fonts = ["NotoKufiArabic", "NotoNaskhArabic", "NotoNaskhArabicUI", "NotoNastaliqUrdu", "NotoSansArabic", "NotoSansArabicUI"]
 
-def add_ui_mti_features_to_master_ufos(self):
-    mti_source = self.mti_file_for_UI_Version
+def add_ui_mti_features_to_master_ufos():
+    mti_source = mti_file_for_UI_Version
     mti_paths = readPlist(mti_source)
-    for master in self.masters:
+    for master in masters:
         key = master.info.familyName.replace(" ", "")+"UI-"+master.info.styleName.replace(" ", "")
         for table, path in mti_paths[key].items():
-            with open(os.path.join(self.mtiFolderPath, path), "rb") as mti_:
+            with open(os.path.join(mtiFolderPath, path), "rb") as mti_:
                 ufo_path = (
                     "com.github.googlei18n.ufo2ft.mtiFeatures/%s.mti"
                     % table.strip()
