@@ -244,3 +244,19 @@ if __name__ == '__main__':
             #     typeface.copy_mti_files()
     for f in fail:
         print(f, "didn't work")
+    for i in os.listdir("../src"):
+        if "DS_Store" not in i:
+            for j in os.listdir(os.path.join("../src", i)):
+                if j.endswith(".designspace"):
+                    if "-" in j:
+                        clean = i + ".designspace"
+                        old = os.path.abspath(os.path.join(os.getcwd(), os.pardir, "src", i, j))
+                        new = os.path.abspath(os.path.join(os.getcwd(), os.pardir, "src", i, clean))
+                        os.rename(old, new)
+            # for j in os.listdir(os.path.join("../src", i)):
+            #     if j.endswith(".designspace"):
+            #         if j.split(".")[0] != i:
+            #             print(i, "\n",j.split(".")[0])
+            #             old = os.path.abspath(os.path.join(os.getcwd(), os.pardir, "src", i, j))
+            #             new = os.path.abspath(os.path.join(os.getcwd(), os.pardir, "src", i, i+".designspace"))
+            #             os.rename(old, new)

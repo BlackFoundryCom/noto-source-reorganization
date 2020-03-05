@@ -41,6 +41,7 @@ mergeFonts(baseFanmilyName, familyName of the fonts to inject) => WIP.
 pan_european_fonts = ["NotoSans", "NotoSans-Italic", "NotoSerif", "NotoSerif-Italic", "NotoSansDisplay", "NotoSansDisplay-Italic", "NotoSerifDisplay", "NotoSerifDisplay-Italic", "NotoSansMono"]
 arabic_fonts = ["NotoKufiArabic", "NotoNaskhArabic", "NotoNaskhArabicUI", "NotoNastaliqUrdu", "NotoSansArabic", "NotoSansArabicUI"]
 
+
 def add_ui_mti_features_to_master_ufos():
     mti_source = mti_file_for_UI_Version
     mti_paths = readPlist(mti_source)
@@ -547,7 +548,7 @@ def instances(family, *output, newName=" "):
         renameFonts(family, newName)
 
 
-
+### TEST FUNCTIONS ###
 # mastersUfos2fonts("NotoSansThaana", "woff2")
 # designSpace2Var("NotoSansThaana")
 # subsetFonts("NotoSerif", "SecureSet")

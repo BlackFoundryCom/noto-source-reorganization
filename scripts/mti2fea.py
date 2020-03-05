@@ -1124,4 +1124,4 @@ def mti2fea(family):
 
 
 if __name__ == "__main__":
-    fea_ = mti2fea("NotoSerifTelugu")
+    fea_ = mti2fea("NotoSansPahawhHmong")
