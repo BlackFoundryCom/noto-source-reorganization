@@ -126,7 +126,7 @@ def parseLigatureGSUB(name, lookup):
     if len(parseLookupflag(lookup[0:6])) != 0:
         ligaGsub += parseLookupflag(lookup[0:6])
     for j in lookup[4:]:
-        if "MarkFilterType" not in j:
+        if "MarkFilterType" not in j and "MarkAttachmentType" not in j:
             j_list = j.split("\t")
             ligaGsub += "    sub "
             for g in j_list[1:]:
@@ -174,10 +174,10 @@ def parseKernsetGPOS(name, lookup):
         kernset_txt += parseLookupflag(lookup[0:6])
     # GET THE CONTENT OF THE LOOKUP, AND IF GROUPS ARE DEFINED, GET THEM
     contenu = [x for x in lookup if x != '']
-    classList = []
     if "firstclass definition begin" in contenu:
         for i in contenu:
             if "firstclass definition begin" in i:
+                classList = []
                 classList.append("firstclass definition begin")
                 j = contenu.index(i) + 1
                 while "class definition end" not in contenu[j]:
@@ -190,6 +190,7 @@ def parseKernsetGPOS(name, lookup):
     if "secondclass definition begin" in contenu:
         for i in contenu:
             if "secondclass definition begin" in i:
+                classList = []
                 classList.append("secondclass definition begin")
                 j = contenu.index(i) + 1
                 while "class definition end" not in contenu[j]:
@@ -391,96 +392,75 @@ def parseMark2Mark(name, lookup):
 ##########################
 """
  stored => first create groups by listing glyphs and tagged them with a number. Same number = same group
-            then define context (ligns with "class at the beginning")
+            then define context (ligns with "class definition begin" at the beginning)
             the context is written betwen firsst and second tabulation. It is written by the number of the group
-            After second tab the couple of 2 number are indicating 1) wich gropu of the context is impacted, and 2) which
-            lookup of the GPOS table is called to impact it.
+            After second tab the couple of 2 number are indicating 1) wich group of the context is impacted,
+            and 2) which lookup of the GPOS table is called to impact it.
             The Coverage context is another story not made yet => TODO
  output => first make the groups, then write "position" and th succesion of group creating the context
             then check which element of the contect is impacted, add a ' (quotesingle) after the group and the name of the lookup
             each element of the contect can receive a lookuup.
 """
 def parseContextGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
-    indiceOfModifiedGlyph = dict()
-    contextPOS_txt = ""
-    rule = ""
-    coupure = 0
-    # GET THE NAME AND THE LOOKUPFLAGS IF NEEDED
-    contextPOS_txt += "lookup " + name[2:-2] + " {\n"
+    ####
+    #### TDO add a straight quote to each memeber of the Context sequence 
+    ####
+    keyword = "\n\t"+keyword
+    clazz = ""
+    class_cntxt = ""
+    grp_ = dict()
+    contextGsubGpos_txt = ""
     if len(parseLookupflag(lookup[0:6])) != 0:
-        contextPOS_txt += parseLookupflag(lookup[0:6])
+        contextGsubGpos_txt += parseLookupflag(lookup[0:6])
     # GET THE CONTENT OF THE LOOKUP, IF GROUPS ARE DEFINED, GET THEM
     contenu = [x for x in lookup if x != '']
-    for e in contenu:
-        if 'class definition end' in e:
-            coupure = contenu.index(e) + 1
-    # GET GROUPS WRTITTEN IN THE BEGINNING OF THE LOOKUP
-    groupsOfThisLookup = getGroupsAsDict(contenu)
-    for i in groupsOfThisLookup:
-        grp = "\t@_group_" + i + "_" + name[2:-2] + " = [ "
-        c = 0
-        if len(groupsOfThisLookup[i]) < 10:
-            for j in groupsOfThisLookup[i]:
-                grp += j + " "
-        else:
-            for j in groupsOfThisLookup[i]:
-                if c < 6:
-                    grp += j + " "
-                    c += 1
-                else:
-                    grp += j + "\n\t"
-                    c = 0
-        grp += "];"
-        contextPOS_txt += grp + "\n"
-    ### ADD THE CONTENT OF THE LOOKUP MINUS THE GROUPS IN FEATURE FILE
-    for j in contenu[coupure:]:
-        j_list = j.split("\t")
-        calledLookups = list()
-        indexOfModifiedClassList = list()
-        #all numbers after the 2nd tab are reference to lookup. Get them
-        for z in range(2,len(j_list)):
-            numeroLookup = j_list[z].split(",")[1].replace(" ", "")
-            indexOfModifiedClass = j_list[z].split(",")[0].replace(" ", "")
-            lookup_name = str(namesAndContentsLookup[int(numeroLookup)][0])[2:].strip("['']")
-            calledLookups.append([indexOfModifiedClass, lookup_name])
-            indexOfModifiedClassList.append(indexOfModifiedClass)
-        for e in indexOfModifiedClassList:
-            w = indexOfModifiedClassList.index(e)
-            indexOfModifiedClassList.pop(w)
-            # IF A LOOKUP IS APPLIED TO THE SAME CONTEXTUAL GROUP, WRITE THE RULE TWICE? WITH DIFFERENT LOOKUP CALLED
-            if e in indexOfModifiedClassList:
-                for call in calledLookups:
-                    if "class" in j:
-                        rule += "\t" + keyword + " "
-                        context = j_list[1].split(",")
-                        index = 1
-                        for i in context:
-                            i = i.replace(" ", "")
-                            rule += "@_group_" + i + "_" + name[2:-2] + "' "
-                            if int(call[0]) == index:
-                                rule += "lookup " + call[1] + " "
-                            index += 1
-                        rule += ";\n"
+    for e in contenu[4:]:
+        if "MarkAttachmentType" not in e:
+            rule = e.split("\t")
+            if len(rule) == 3:
+                if rule[0] == "class":
+                    numeroLookup = rule[2].split(",")[1].strip(" ")
+                    lookup_name = str(namesAndContentsLookup[int(numeroLookup)][0])[2:].strip("['']")
+                    for i in rule[1].split(","):
+                        class_cntxt += "@_group_" + i.strip() + "_" + name[2:-2] + " "
+                    element_impacted = int(rule[2].split(",")[0])-1
+                    class_cntxt_list = class_cntxt.split(" ")
+                    class_cntxt_list[element_impacted] = class_cntxt_list[element_impacted] + "' lookup " + lookup_name
+                    contextGsubGpos_txt += keyword + " " + " ".join(class_cntxt_list) + ";"
+                elif rule[0] == "glyph":
+                    glif_sequence = list()
+                    for i in rule[1].split(","):
+                        glif_sequence.append(i.strip())
+                    element_impacted = int(rule[2].split(",")[0])-1
+                    numeroLookup = rule[2].split(",")[1].strip(" ")
+                    lookup_name = str(namesAndContentsLookup[int(numeroLookup)][0])[2:].strip("['']")
+                    sequence_list = rule[1].split(",")
+                    sequence_list[element_impacted] = sequence_list[element_impacted] + "' lookup " + lookup_name
+                    sequence = "".join(sequence_list)
+                    contextGsubGpos_txt += keyword + " " + sequence + ";"
+            elif len(rule) == 4:
+                if rule[0] == "class":
+                    numeroLookup = rule[2].split(",")[1].strip(" ")
+                    numeroLookupBis = rule[3].split(",")[1].strip(" ")
+                    lookup_name = str(namesAndContentsLookup[int(numeroLookup)][0])[2:].strip("['']")
+                    lookup_nameBis = str(namesAndContentsLookup[int(numeroLookupBis)][0])[2:].strip("['']")
+                    contextGsubGpos_txt += keyword + " " + "".join(rule[1].split(",")) + " " + lookup_name + " lookup " + lookup_nameBis+";"
+                elif rule[0] == "glyph":
+                    numeroLookup = rule[2].split(",")[1].strip(" ")
+                    lookup_name = str(namesAndContentsLookup[int(numeroLookup)][0])[2:].strip("['']")
+                    sequence = "".join(rule[1].split(","))
+                    contextGsubGpos_txt += keyword + " " + sequence + " lookup " + lookup_name + ";"
             else:
-                if "class" in j:
-                    rule += "\t" + keyword + " "
-                    context = j_list[1].split(",")
-                    index = 1
-                    for i in context:
-                        i = i.replace(" ", "")
-                        rule += "@_group_" + i + "_" + name[2:-2] + "' "
-                        for cL in calledLookups:
-                            if int(cL[0]) == index:
-                                rule += "lookup " + cL[1] + " "
-                        index += 1
-                rule += ";\n"
-    ####################################################
-    ### /!\ TODO /!\ look at parseChainedGPOSGSUB() ###
-    ####################################################
-        if "coverage" in j:
-            contextPOS_txt += j + "\n"
-    contextPOS_txt +=  rule + "\n   } " + name[2:-2] + " ;\n\n"
-    return str(contextPOS_txt)
+                if "class definition begin" in e:
+                    grp_ = getGroupsAsDict(contenu)
+                    for g in grp_:
+                        cont = " ".join(grp_[g])
+                        clazz += "\t@_group_" + g + "_" + name[2:-2] + " = [ " + cont + " ];\n"
+    # contextGsubGpos_txt +=  "\n    } " + name[2:-2] + " ;\n\n"
+    contextGsubGpos_txt = "lookup " + name[2:-2] + " {\n" + clazz \
+        + contextGsubGpos_txt + "\n    } " + name[2:-2] + " ;\n\n"
+    # print(contextGsubGpos_txt)
+    return str(contextGsubGpos_txt)
 
 ##########################
 #### GPOS LookupType 8 ###
@@ -626,8 +606,20 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
             lookup_name = str(namesAndContentsLookup[int(x)][0])[2:].strip("['']")
             chainedPOS_txt += "    " + keyword + backtrackcoverage + inputcoverage \
                 + "' lookup " + lookup_name + lookaheadcoverage + " ;"
+        elif "glyph\t" in i:
+            glyphs_impacted = []
+            isplit = i.split("\t")
+            elements_impacted_andLookup = isplit[4:]
+            for g in isplit[2].split(","):
+                glyphs_impacted.append(g+"'")
+            for element2lookup in elements_impacted_andLookup:
+                index = int(element2lookup.split(",")[0])-1
+                numeroLookup = element2lookup.split(",")[1]
+                lookup_name = str(namesAndContentsLookup[int(numeroLookup)][0])[2:].strip("['']")
+                glyphs_impacted[index] = glyphs_impacted[index] + " lookup " + lookup_name
+            chainedPOS_txt += "\t" + keyword + " " + isplit[1] + " " + " ".join(glyphs_impacted) + " " + isplit[3] + ";\n" 
     chainedPOS_txt =  chainedPOS_txt + rule + "\n    } " + name[2:-2] + " ;\n\n"
-    # print(chainedPOS_txt)
+    print(chainedPOS_txt)
     return chainedPOS_txt
 
 
@@ -1124,4 +1116,4 @@ def mti2fea(family):
 
 
 if __name__ == "__main__":
-    fea_ = mti2fea("NotoSansPahawhHmong")
+    fea_ = mti2fea("NotoSerifSinhala")

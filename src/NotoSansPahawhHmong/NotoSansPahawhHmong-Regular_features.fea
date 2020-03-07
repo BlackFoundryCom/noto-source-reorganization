@@ -73,23 +73,22 @@ lookup gpos_1_mark_to_base {
 
 lookup gpos_2_pair {
     lookupflag IgnoreMarks  ;
-	@_firstclass_group_1_gpos_2_pair = [ u16B02 u16B15 u16B2E u16B02 u16B15 u16B2E ];
-	@_firstclass_group_2_gpos_2_pair = [ u16B00 u16B2F u16B5F u16B00 u16B2F u16B5F ];
-	@_firstclass_group_3_gpos_2_pair = [ u16B6C u16B6F u16B6C u16B6F ];
-	@_firstclass_group_4_gpos_2_pair = [ u16B6B u16B6B ];
-	@_firstclass_group_5_gpos_2_pair = [ u16B76 u16B76 ];
+	@_firstclass_group_1_gpos_2_pair = [ u16B02 u16B15 u16B2E ];
+	@_firstclass_group_2_gpos_2_pair = [ u16B00 u16B2F u16B5F ];
+	@_firstclass_group_3_gpos_2_pair = [ u16B6C u16B6F ];
+	@_firstclass_group_4_gpos_2_pair = [ u16B6B ];
+	@_firstclass_group_5_gpos_2_pair = [ u16B76 ];
 	@_firstclass_group_6_gpos_2_pair = [ u16B17 u16B1B u16B1F u16B24 u16B26 u16B2C u16B5C
-	u16B87 u16B8D u16B8E u16B17 u16B1B u16B1F u16B24
-	u16B26 u16B2C u16B5C u16B87 u16B8D u16B8E ];
+	u16B87 u16B8D u16B8E ];
 
-	@_secondclass_group_1_gpos_2_pair = [ u16B02 u16B15 u16B2E u16B02 u16B15 u16B2E ];
-	@_secondclass_group_2_gpos_2_pair = [ u16B00 u16B2F u16B5F u16B00 u16B2F u16B5F ];
-	@_secondclass_group_3_gpos_2_pair = [ u16B18 u16B18 ];
-	@_secondclass_group_4_gpos_2_pair = [ u16B65 u16B65 ];
-	@_secondclass_group_5_gpos_2_pair = [ u16B6B u16B6B ];
-	@_secondclass_group_6_gpos_2_pair = [ u16B73 u16B73 ];
-	@_secondclass_group_7_gpos_2_pair = [ u16B8E u16B8E ];
-	@_secondclass_group_8_gpos_2_pair = [ u16B03 u16B29 u16B5C u16B03 u16B29 u16B5C ];
+	@_secondclass_group_1_gpos_2_pair = [ u16B02 u16B15 u16B2E ];
+	@_secondclass_group_2_gpos_2_pair = [ u16B00 u16B2F u16B5F ];
+	@_secondclass_group_3_gpos_2_pair = [ u16B18 ];
+	@_secondclass_group_4_gpos_2_pair = [ u16B65 ];
+	@_secondclass_group_5_gpos_2_pair = [ u16B6B ];
+	@_secondclass_group_6_gpos_2_pair = [ u16B73 ];
+	@_secondclass_group_7_gpos_2_pair = [ u16B8E ];
+	@_secondclass_group_8_gpos_2_pair = [ u16B03 u16B29 u16B5C ];
 
 	position u16B6B u16B6C -80 ;
 	position u16B6F u16B5F -70 ;
