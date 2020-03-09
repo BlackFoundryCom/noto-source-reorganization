@@ -20,12 +20,12 @@ lookup gsub_0_ligature {
 
 #FEATURES LIST
 feature liga {
-script avst ;
-	language dflt ;
-		lookup gsub_0_ligature;
-script DFLT ;
-	language dflt ;
-		lookup gsub_0_ligature;
+	script avst ;
+		language dflt ;
+			lookup gsub_0_ligature;
+	script DFLT ;
+		language dflt ;
+			lookup gsub_0_ligature;
 		} liga;
 
 

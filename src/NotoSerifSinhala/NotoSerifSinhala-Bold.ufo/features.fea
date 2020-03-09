@@ -777,7 +777,7 @@ lookup gsub_74_multiple {
 
 lookup gsub_1_context {
 
-	sub rasinh' lookup gsub_2_ligature viramasinh uni200D rasinh;
+	sub rasinh' lookup gsub_2_ligature viramasinh' uni200D' rasinh';
     } gsub_1_context ;
 
 lookup gsub_7_context {
@@ -785,42 +785,38 @@ lookup gsub_7_context {
 	@_group_2_gsub_7_context = [ uni200D ];
 	@_group_3_gsub_7_context = [ viramasinh ];
 
-	sub @_group_1_gsub_7_context' lookup gsub_8_ligature @_group_2_gsub_7_context @_group_3_gsub_7_context @_group_1_gsub_7_context ;
+	sub @_group_1_gsub_7_context' lookup gsub_8_ligature @_group_2_gsub_7_context' @_group_3_gsub_7_context' @_group_1_gsub_7_context' ;
     } gsub_7_context ;
 
 lookup gsub_70_context {
     lookupflag MarkAttachmentType @_MarkAttachmentType_2  ;
 
-	sub rasinh uvowelsignsinh' lookup gsub_71_single;
-	sub rasinh uuvowelsignsinh' lookup gsub_71_single;
-	sub llasinh uuvowelsignsinh lookup gsub_71_single;
+	sub rasinh' uvowelsignsinh' lookup gsub_71_single;
+	sub rasinh' uuvowelsignsinh' lookup gsub_71_single;
+	sub llasinh' lookup gsub_71_single uuvowelsignsinh' lookup gsub_71_single;
     } gsub_70_context ;
 
 lookup gsub_73_context {
 
-	sub dayasinh' lookup gsub_74_multiple rakarsinh;
+	sub dayasinh' lookup gsub_74_multiple rakarsinh';
     } gsub_73_context ;
 
 lookup gsub_9_chained {
 	sub rasinh rephsinh' lookup gsub_10_multiple ;
-
     } gsub_9_chained ;
 
 lookup gsub_11_chained {
     lookupflag MarkAttachmentType @_MarkAttachmentType_2  ;
 	sub rakarsinh uvowelsignsinh' lookup gsub_12_single ;
 	sub rakarsinh uuvowelsignsinh' lookup gsub_12_single ;
-
     } gsub_11_chained ;
 
 lookup gsub_14_chained {
-	sub  yapostsinh' lookup gsub_15_single  rephsinh' lookup gsub_16_single ;
-
+	sub  yapostsinh' rephsinh' lookup gsub_15_single;
     } gsub_14_chained ;
 
 lookup gsub_17_chained {
 	sub yasinh rephsinh' lookup gsub_18_ligature  yapostsinh' ;
-
     } gsub_17_chained ;
 
 lookup gsub_20_chained {
@@ -871,7 +867,6 @@ lookup gsub_20_chained {
 	sub nathasinh rakarsinh' lookup gsub_64_single ;
 	sub nadhasinh rakarsinh' lookup gsub_65_single ;
 	sub navasinh rakarsinh' lookup gsub_66_single ;
-
     } gsub_20_chained ;
 
 

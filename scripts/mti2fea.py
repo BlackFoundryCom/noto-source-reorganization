@@ -402,9 +402,6 @@ def parseMark2Mark(name, lookup):
             each element of the contect can receive a lookuup.
 """
 def parseContextGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
-    ####
-    #### TDO add a straight quote to each memeber of the Context sequence 
-    ####
     keyword = "\n\t"+keyword
     clazz = ""
     class_cntxt = ""
@@ -412,44 +409,43 @@ def parseContextGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
     contextGsubGpos_txt = ""
     if len(parseLookupflag(lookup[0:6])) != 0:
         contextGsubGpos_txt += parseLookupflag(lookup[0:6])
-    # GET THE CONTENT OF THE LOOKUP, IF GROUPS ARE DEFINED, GET THEM
+    # GET THE CONTENT OF THE LOOKUP, IF GROUPS ARE DEFINED, GET THEM #
     contenu = [x for x in lookup if x != '']
     for e in contenu[4:]:
         if "MarkAttachmentType" not in e:
             rule = e.split("\t")
-            if len(rule) == 3:
-                if rule[0] == "class":
-                    numeroLookup = rule[2].split(",")[1].strip(" ")
+            #if len(rule) == 3:
+            if rule[0] == "class":
+                class_cntxt = ""
+                for i in rule[1].split(","):
+                    class_cntxt += "@_group_" + i.strip() + "_" + name[2:-2] + "' "
+                class_cntxt_list = class_cntxt.split(" ")
+                for r in rule[2:]:
+                    element_impacted = int(r.split(",")[0])-1
+                    numeroLookup = r.split(",")[1].strip(" ")
                     lookup_name = str(namesAndContentsLookup[int(numeroLookup)][0])[2:].strip("['']")
-                    for i in rule[1].split(","):
-                        class_cntxt += "@_group_" + i.strip() + "_" + name[2:-2] + " "
-                    element_impacted = int(rule[2].split(",")[0])-1
-                    class_cntxt_list = class_cntxt.split(" ")
-                    class_cntxt_list[element_impacted] = class_cntxt_list[element_impacted] + "' lookup " + lookup_name
-                    contextGsubGpos_txt += keyword + " " + " ".join(class_cntxt_list) + ";"
-                elif rule[0] == "glyph":
-                    glif_sequence = list()
-                    for i in rule[1].split(","):
-                        glif_sequence.append(i.strip())
-                    element_impacted = int(rule[2].split(",")[0])-1
-                    numeroLookup = rule[2].split(",")[1].strip(" ")
+                    class_cntxt_list[element_impacted] = class_cntxt_list[element_impacted] + " lookup " + lookup_name
+                # print(" ".join(class_cntxt_list))
+                contextGsubGpos_txt += keyword + " " + " ".join(class_cntxt_list) + ";"
+            elif rule[0] == "glyph":
+                glif_sequence = list()
+                for i in rule[1].split(","):
+                    glif_sequence.append(i.strip())
+                # print(name, rule[2:])
+                numeroLookup = rule[2].split(",")[1].strip(" ")
+                lookup_name = str(namesAndContentsLookup[int(numeroLookup)][0])[2:].strip("['']")
+                sequence_list = rule[1].split(",")
+                sequence_list_quote = []
+                for i in sequence_list:
+                    sequence_list_quote.append(i + "'")
+                for r in rule[2:]:
+                    element_impacted = int(r.split(",")[0])-1
+                    numeroLookup = r.split(",")[1].strip(" ")
                     lookup_name = str(namesAndContentsLookup[int(numeroLookup)][0])[2:].strip("['']")
-                    sequence_list = rule[1].split(",")
-                    sequence_list[element_impacted] = sequence_list[element_impacted] + "' lookup " + lookup_name
-                    sequence = "".join(sequence_list)
-                    contextGsubGpos_txt += keyword + " " + sequence + ";"
-            elif len(rule) == 4:
-                if rule[0] == "class":
-                    numeroLookup = rule[2].split(",")[1].strip(" ")
-                    numeroLookupBis = rule[3].split(",")[1].strip(" ")
-                    lookup_name = str(namesAndContentsLookup[int(numeroLookup)][0])[2:].strip("['']")
-                    lookup_nameBis = str(namesAndContentsLookup[int(numeroLookupBis)][0])[2:].strip("['']")
-                    contextGsubGpos_txt += keyword + " " + "".join(rule[1].split(",")) + " " + lookup_name + " lookup " + lookup_nameBis+";"
-                elif rule[0] == "glyph":
-                    numeroLookup = rule[2].split(",")[1].strip(" ")
-                    lookup_name = str(namesAndContentsLookup[int(numeroLookup)][0])[2:].strip("['']")
-                    sequence = "".join(rule[1].split(","))
-                    contextGsubGpos_txt += keyword + " " + sequence + " lookup " + lookup_name + ";"
+                    sequence_list_quote[element_impacted] = sequence_list_quote[element_impacted] + " lookup " + lookup_name
+                sequence = "".join(sequence_list_quote)
+                # print(sequence)
+                contextGsubGpos_txt += keyword + " " + sequence + ";"
             else:
                 if "class definition begin" in e:
                     grp_ = getGroupsAsDict(contenu)
@@ -474,7 +470,6 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
         chainedPOS_txt += parseLookupflag(lookup[0:6])
     # GET THE CONTENT OF THE LOOKUP, IF GROUPS ARE DEFINED, GET THEM
     contenu = [x for x in lookup if x != '']
-    # print(contenu)
     if "backtrackclass definition begin" in contenu:
         classList = []
         for i in contenu:
@@ -490,25 +485,18 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
         chainedPOS_txt += refactoredGroups + "\n"
     if "class definition begin" in contenu:
         classList = []
-        # print(name)
         for i in contenu:
             if i == "class definition begin":
-                # print("input class def begin")
                 classList.append("class definition begin")
                 j = contenu.index(i) + 1
-                # print(i, "start at", j)
                 while "class definition end" not in contenu[j]:
-                    # print(contenu[j])
                     classList.append(contenu[j])
                     j += 1
                 classList.append("class definition end")
-                # print(classList)
-                # print("end\n")
         inputclass = getGroupsAsDict(classList)
         refactoredGroups = unpackGroupsFromDict(inputclass, name[2:-2], namingConvention = "\t@_impacted_group_")
         chainedPOS_txt += refactoredGroups + "\n"
     if "lookaheadclass definition begin" in contenu:
-        print("lookaheadclass in", name[2:-2])
         classList = []
         for i in contenu:
             if i == "lookaheadclass definition begin":
@@ -520,25 +508,21 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
                 classList.append("class definition end")
         lookaheadclass = getGroupsAsDict(contenu, start = "lookaheadclass definition begin")
         refactoredGroups = unpackGroupsFromDict(lookaheadclass, name[2:-2], namingConvention = "\t@_lookahead_group_")
-        print(refactoredGroups)
+        # print(refactoredGroups)
         chainedPOS_txt += refactoredGroups + "\n"
     # COVERAGE
-    backtrackcoverage, inputcoverage, lookaheadcoverage = "", "", ""
-    coverage = ""
+    backtrackcoverage, inputcoverage, lookaheadcoverage, coverage = "", "", "", ""
     if "backtrackcoverage definition begin" in contenu:
         for i in contenu:
             if "backtrackcoverage definition begin" in i:
                 coverage = " [ "
                 j = contenu.index(i) + 1
                 while "coverage definition end" not in contenu[j]:
-                    # classList.append(contenu[j])
                     coverage += contenu[j] + " "
                     j += 1
                 coverage += " ]"
         backtrackcoverage = coverage
         coverage = ""
-        # print(backtrackcoverage)
-        # chainedPOS_txt += backtrackcoverage + "\n"
     if "inputcoverage definition begin" in contenu:
         for i in contenu:
             if "inputcoverage definition begin" in i:
@@ -551,7 +535,6 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
                 coverage += " ]"
         inputcoverage = coverage
         coverage = ""
-        # print(inputcoverage)
     if "lookaheadcoverage definition begin" in contenu:
         for i in contenu:
             coverage = " [ "
@@ -564,7 +547,6 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
         coverage += " ]"
         lookaheadcoveragecoverage = coverage
         coverage = ""
-        # print(lookaheadcoveragecoverage)
     # RULES
     for i in contenu:
         if "class-chain" in i:
@@ -576,7 +558,6 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
             for e in isplit[4:]:
                 if e.split(",") not in _lookup_called:
                     _lookup_called.append(e.split(","))
-            # print(_lookup_called)
             rule += "    " + keyword + " "
             if _backtrack_group[0] != "":
                 for x in _backtrack_group:
@@ -588,14 +569,9 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
             for x in _lookup_called:
                 x = x[1].replace(" ", "")
                 #BUG????
-                #x = int(x) + 1
                 x = int(x)
                 lookup_name = str(namesAndContentsLookup[x][0])[2:].strip("['']")
                 rule += "lookup " + lookup_name + " "
-            # for x in _lookup_called[1].replace(" ", ""):
-            #   x = int(x)
-            #   lookup_name = str(namesAndContentsLookup[x][0])[2:].strip("['']")
-                # rule += "lookup " + lookup_name + " "
             if _lookahead_groups[0] != "":
                 for x in _lookahead_groups:
                     x = x.replace(" ", "")
@@ -611,15 +587,14 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
             isplit = i.split("\t")
             elements_impacted_andLookup = isplit[4:]
             for g in isplit[2].split(","):
-                glyphs_impacted.append(g+"'")
+                glyphs_impacted.append(g + "'")
             for element2lookup in elements_impacted_andLookup:
                 index = int(element2lookup.split(",")[0])-1
                 numeroLookup = element2lookup.split(",")[1]
                 lookup_name = str(namesAndContentsLookup[int(numeroLookup)][0])[2:].strip("['']")
                 glyphs_impacted[index] = glyphs_impacted[index] + " lookup " + lookup_name
-            chainedPOS_txt += "\t" + keyword + " " + isplit[1] + " " + " ".join(glyphs_impacted) + " " + isplit[3] + ";\n" 
+            chainedPOS_txt += "\t" + keyword + " " + isplit[1] + " " + " ".join(glyphs_impacted) + " " + isplit[3] + ";\n"
     chainedPOS_txt =  chainedPOS_txt + rule + "\n    } " + name[2:-2] + " ;\n\n"
-    print(chainedPOS_txt)
     return chainedPOS_txt
 
 
@@ -668,6 +643,7 @@ def readGPOS(monotypeFeaturesTxt, rdir):
                 j += 1
             lookupName = i.replace("\t", "_")
             lookupName = lookupName.replace("lookup", "gpos")
+            print(lookupName)
             cleaning = [x for x in lookupContent if x != '']
             lookupContent = []
             ### ADD (NAME OF LOOKUP + CONTENT) AS TUPLE IN A LIST SO THE LOOP WILL FOLLOW THE ORDER, DICT is USELESS HERE
@@ -683,10 +659,11 @@ def readGPOS(monotypeFeaturesTxt, rdir):
             x = monotypeFeaturesTxt.index(i) + 1
             while "script table end" not in monotypeFeaturesTxt[x]:
                 dflt = monotypeFeaturesTxt[x].replace("default", "dflt")
-                scripts.append(dflt[:-1])
+                if "musc" not in dflt:
+                    scripts.append(dflt[:-1])
                 x += 1
-            cleande_scripts = [x for x in scripts if x != '']
-            scripts = cleande_scripts
+            cleaned_scripts = [x for x in scripts if x != '']
+            scripts = cleaned_scripts
 
     for i in scripts:
         isplit = i.split("\t")
@@ -758,17 +735,18 @@ def readGPOS(monotypeFeaturesTxt, rdir):
                 itemz.append(z)
             itemz.append({isplit[0]: isplit[2]})
             gposFeaDict[isplit[1]] = itemz
-    # print(gposFeaDict)
     for feature in gposFeaDict:
         gposFeatures += "feature " + feature + " {\n"
-        for script in gposFeaDict[feature]:
-            for k,v in script.items():
-                # print(k, v)
+        for index_ in gposFeaDict[feature]:
+            for k in index_.keys():
+                temp_lookup_involved = ""
+                for lkup in index_[k].split(","):
+                    temp_lookup_involved += "\t\t\tlookup " + str(namesAndContentsLookup[int(lkup)][0]).strip("['']").replace(" ", "_") + ";\n"
                 for s in listScript:
-                    if k in s[3]:
-                        gposFeatures += "script " + s[0] + " ;\n\t" + "language " + s[1] + " ;\n"
-                        for lkup in v.split(","):
-                            gposFeatures += "\t\tlookup " + str(namesAndContentsLookup[int(lkup)][0]).strip("['']").replace(" ", "_") + ";\n"
+                    test = [nb.strip() for nb in s[3].split(",")]
+                    if k in test:
+                        gposFeatures += "\tscript " + s[0] + " ;\n\t\t" + "language " + s[1] + " ;\n"
+                        gposFeatures += temp_lookup_involved
         gposFeatures += "\t\t} " + feature + ";\n\n"
 
     return txt, languagesystem, gposFeatures
@@ -934,10 +912,14 @@ def readGSUB(monotypeFeaturesTxt):
         elif "script table begin" in i and "script table end" not in i:
             x = monotypeFeaturesTxt.index(i) + 1
             while "script table end" not in monotypeFeaturesTxt[x]:
+                # remove the "musc" tag from languagesystem declaration
+                # because of a fonttools bug
                 dflt = monotypeFeaturesTxt[x].replace("default", "dflt")
-                scripts.append(dflt[:-1])
+                if "musc" not in dflt.split("\t")[0]:
+                    scripts.append(dflt[:-1])
                 x += 1
             cleaning = [x for x in scripts if x != '']
+            # print(cleaning)
             scripts = cleaning
 
     listScript = []
@@ -977,7 +959,7 @@ def readGSUB(monotypeFeaturesTxt):
                     issues_str += issue + " "
                     if issue not in full_issues:
                         full_issues.append(issue)
-                print("Mixed substitution lookup type in " + issues_str)
+                # print("Mixed substitution lookup type in " + issues_str)
         ###############################
         ### ALTERNATE LOOKUP TYPE 3 ###
         ###############################
@@ -1012,6 +994,7 @@ def readGSUB(monotypeFeaturesTxt):
     gsubFeaDict = dict()
     for i in featuresTable:
         isplit = i.split("\t")
+        # print(isplit)
         if isplit[1] not in gsubFeaDict:
             gsubFeaDict[isplit[1]] = [{isplit[0]: isplit[2]}]
         else:
@@ -1020,24 +1003,46 @@ def readGSUB(monotypeFeaturesTxt):
                 itemz.append(z)
             itemz.append({isplit[0]: isplit[2]})
             gsubFeaDict[isplit[1]] = itemz
+    # print(gsubFeaDict)
+    ####
+    # TEST
+    # for feat in gsubFeaDict:
+    #     print("feature " + feat + " {\n")
+    #     for id_ in gsubFeaDict[feat]:
+    #         for k in id_.keys():
+    #             zone = ""
+    #             print(id_)
+    #             for lkup in id_[k].split(","):
+    #                 zone += "\t\tlookup " + str(namesAndContentsLookup[int(lkup)][0]).strip("['']") + ";\n"
+    #             for scri in listScript:
+    #                 print(scri)
+    #                 if k in scri[3]:
+    #                     print(zone)
+    #                 # print("\t\tlookup " + str(namesAndContentsLookup[int(lkup)][0]).strip("['']").replace(" ", "_") + ";\n")
+    #     print("\n\t}" + feat + ";\n")
+    ####
     for feature in gsubFeaDict:
         gsubFeatures += "feature " + feature + " {\n"
         content = gsubFeaDict[feature]
-        for script in gsubFeaDict[feature]:
-            for k,v in script.items():
-                # print(k, v)
+        for index_ in gsubFeaDict[feature]:
+            for k in index_.keys():
+                temp_lookup_involved = ""
+                for lkup in index_[k].split(","):
+                    temp_lookup_involved += "\t\t\tlookup " + str(namesAndContentsLookup[int(lkup)][0]).strip("['']").replace(" ", "_") + ";\n"
+                    if "multiple" in str(namesAndContentsLookup[int(lkup)][0]):
+                        if len(full_issues)!=0:
+                            # print (full_issues, str(namesAndContentsLookup[int(lkup)][0][0]))
+                            if str(namesAndContentsLookup[int(lkup)][0][0]) in full_issues:
+                                # print("add the alt lookup")
+                                temp_lookup_involved += "\t\t\tlookup " + str(namesAndContentsLookup[int(lkup)][0]).strip("['']").replace(" ", "_") + "_alt_single;\n"
                 for s in listScript:
-                    if k in s[3]:
-                        gsubFeatures += "script " + s[0] + " ;\n\t" + "language " + s[1] + " ;\n"
-                        for lkup in v.split(","):
-                            gsubFeatures += "\t\tlookup " + str(namesAndContentsLookup[int(lkup)][0]).strip("['']").replace(" ", "_") + ";\n"
-                            if "multiple" in str(namesAndContentsLookup[int(lkup)][0]):
-                                if len(full_issues)!=0:
-                                    print (full_issues, str(namesAndContentsLookup[int(lkup)][0][0]))
-                                    if str(namesAndContentsLookup[int(lkup)][0][0]) in full_issues:
-                                        print("add the alt lookup")
-                                        gsubFeatures += "\t\tlookup " + str(namesAndContentsLookup[int(lkup)][0]).strip("['']").replace(" ", "_") + "_alt_single;\n"
+                    test = [nb.strip() for nb in s[3].split(",")]
+                    if k in test:
+                        # print("\t", k, s[3])
+                        gsubFeatures += "\tscript " + s[0] + " ;\n\t\t" + "language " + s[1] + " ;\n"
+                        gsubFeatures += temp_lookup_involved
         gsubFeatures += "\t\t} " + feature + ";\n\n"
+    # print(gsubFeatures)
 
     return txt, languagesystem, gsubFeatures
 
@@ -1116,4 +1121,4 @@ def mti2fea(family):
 
 
 if __name__ == "__main__":
-    fea_ = mti2fea("NotoSerifSinhala")
+    fea_ = mti2fea("NotoSansBrahmi")

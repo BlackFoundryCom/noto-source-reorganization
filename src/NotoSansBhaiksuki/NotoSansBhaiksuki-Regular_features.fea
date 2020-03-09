@@ -71,6 +71,14 @@ lookup gsub_3_single {
 	sub NumberNinetySolo.mark by NumberNinety.mark ;
     } gsub_3_single ;
 
+lookup gsub_5_chained {
+    @_backtrack_group_1_gsub_5_chained = [ OneHundred TwoHundred ThreeHundred FourHundred FiveHundred SixHundred SevenHundred EightHundred NineHundred ];
+    @_impacted_group_1_gsub_5_chained = [ NumberTenSolo NumberTwentySolo NumberThirtySolo NumberFortySolo NumberFiftySolo NumberSixtySolo NumberSeventySolo NumberEightySolo NumberNinetySolo ];
+
+    sub @_backtrack_group_1_gsub_5_chained @_impacted_group_1_gsub_5_chained' lookup gsub_3_single ;
+
+    } gsub_5_chained ;
+
 lookup gsub_4_single {
 	sub NumberOne by NumberOne.mark ;
 	sub NumberTwo by NumberTwo.mark ;
@@ -98,6 +106,37 @@ lookup gsub_4_single {
 	sub NumberEightySolo.mark by NumberEighty.mark ;
 	sub NumberNinetySolo.mark by NumberNinety.mark ;
     } gsub_4_single ;
+
+lookup gsub_6_chained {
+    @_backtrack_group_1_gsub_6_chained = [ OneHundred TwoHundred ThreeHundred FourHundred FiveHundred SixHundred SevenHundred EightHundred NineHundred ];
+    @_backtrack_group_2_gsub_6_chained = [ NumberTen NumberTwenty NumberThirty NumberForty NumberFifty NumberSixty NumberSeventy NumberEighty NumberNinety ];
+
+    @_impacted_group_1_gsub_6_chained = [ NumberTwentySolo.mark NumberThirtySolo.mark NumberFortySolo.mark NumberFiftySolo.mark NumberSixtySolo.mark NumberSeventySolo.mark NumberEightySolo.mark NumberNinetySolo.mark ];
+    @_impacted_group_2_gsub_6_chained = [ NumberOne NumberTwo NumberThree NumberFour NumberFive NumberSix NumberSeven NumberEight NumberNine ];
+    @_impacted_group_3_gsub_6_chained = [ NumberTenSolo NumberTwentySolo NumberThirtySolo NumberFortySolo NumberFiftySolo NumberSixtySolo NumberSeventySolo NumberEightySolo NumberNinetySolo ];
+    @_impacted_group_4_gsub_6_chained = [ NumberTen.alt.mark NumberTwenty.mark NumberThirty.mark NumberForty.mark NumberFifty.mark NumberSixty.mark NumberSeventy.mark NumberEighty.mark NumberNinety.mark ];
+
+    @_lookahead_group_1_gsub_6_chained = [ NumberOne NumberTwo NumberThree NumberFour NumberFive NumberSix NumberSeven
+    NumberEight NumberNine NumberTen ];
+
+    sub @_backtrack_group_1_gsub_6_chained @_impacted_group_1_gsub_6_chained' lookup gsub_3_single @_lookahead_group_1_gsub_6_chained ;
+    sub @_backtrack_group_1_gsub_6_chained @_impacted_group_2_gsub_6_chained' lookup gsub_4_single ;
+    sub @_backtrack_group_2_gsub_6_chained @_impacted_group_2_gsub_6_chained' lookup gsub_4_single ;
+    sub @_impacted_group_3_gsub_6_chained' lookup gsub_2_single @_lookahead_group_1_gsub_6_chained ;
+    sub @_backtrack_group_1_gsub_6_chained @_impacted_group_4_gsub_6_chained' @_impacted_group_2_gsub_6_chained' lookup gsub_4_single ;
+
+    } gsub_6_chained ;
+
+lookup gsub_7_chained {
+    @_backtrack_group_1_gsub_7_chained = [ NumberTwentySolo.mark NumberThirtySolo.mark NumberFortySolo.mark NumberFiftySolo.mark NumberSixtySolo.mark NumberSeventySolo.mark NumberEightySolo.mark NumberNinetySolo.mark ];
+    @_backtrack_group_2_gsub_7_chained = [ NumberTen.alt.mark NumberTwenty.mark NumberThirty.mark NumberForty.mark NumberFifty.mark NumberSixty.mark NumberSeventy.mark NumberEighty.mark NumberNinety.mark ];
+
+    @_impacted_group_1_gsub_7_chained = [ NumberOne NumberTwo NumberThree NumberFour NumberFive NumberSix NumberSeven NumberEight NumberNine ];
+
+    sub @_backtrack_group_1_gsub_7_chained @_impacted_group_1_gsub_7_chained' lookup gsub_4_single ;
+    sub @_backtrack_group_2_gsub_7_chained @_impacted_group_1_gsub_7_chained' lookup gsub_4_single ;
+
+    } gsub_7_chained ;
 
 lookup gsub_8_ligature {
     sub Ka Virama Ta by Kta ;
@@ -855,23 +894,46 @@ lookup gsub_28_single {
 	sub AA_vwl by AA_vwl.alt ;
     } gsub_28_single ;
 
+lookup gsub_15_chained {
+    lookupflag UseMarkFilteringSet @_FilterSet_0 ;
+    sub [ Ga Gha Nga Ja Tta Ttha Nna Tha Dha Ba Ma Ya La Sha Ssa Sa Li Le Lo Gna Ngsha Bdha Sska Sstta Bbha Bda Dhma Dhva Gdha Gga Ghra Gja Gla Gma Gva Jbha Jbhya Jggra Jjha Jva Jya Lka Lpa Lva Mba Mma Mna Mpa Mva Mya Ngggra Ngka Ngma Ngsya Ngva Ngya Nnddva Nnnnya Nnsa Shca Shra Shva Shya Ska Sma Spha Sra Ssttya Ssva Sta Stha Stra Sva Tsya Ttpra Tttva Yva  ] [ AA_vwl  ]' lookup gsub_28_single ;
+    } gsub_15_chained ;
+
 lookup gsub_29_single {
 	sub VocR by VocR.wide ;
 	sub VocRR by VocRR.wide ;
     } gsub_29_single ;
+
+lookup gsub_20_chained {
+    sub [ Kha Gha Nga Ja Nya Tta Nna Pa Pha Ba Ya Sa Ha Khaa  ] [ VocR VocRR  ]' lookup gsub_29_single ;
+    } gsub_20_chained ;
 
 lookup gsub_30_single {
 	sub U_vwl by U_vwl.alt ;
 	sub UU_vwl by UU_vwl.alt ;
     } gsub_30_single ;
 
+lookup gsub_21_chained {
+    sub [ VocR VocRR VocR.wide VocRR.wide  ] [ U_vwl UU_vwl  ]' lookup gsub_30_single ;
+    } gsub_21_chained ;
+
 lookup gsub_31_single {
 	sub E_vwl by E_vwl.alt ;
     } gsub_31_single ;
 
+lookup gsub_22_chained {
+    lookupflag UseMarkFilteringSet @_FilterSet_0 ;
+    sub [ Ga Nga Nya Ttha Nna Tha Dha Sha Shva  ] [ E_vwl  ]' lookup gsub_31_single ;
+    } gsub_22_chained ;
+
 lookup gsub_32_single {
 	sub AI_vwl by AI_vwl.alt ;
     } gsub_32_single ;
+
+lookup gsub_24_chained {
+    lookupflag UseMarkFilteringSet @_FilterSet_0 ;
+    sub [ Ga Nga Nya Tta Ttha Nna Tha Dha Sha  ] [ AI_vwl  ]' lookup gsub_32_single ;
+    } gsub_24_chained ;
 
 lookup gsub_33_ligature {
     lookupflag UseMarkFilteringSet @_FilterSet_0 ;
@@ -884,69 +946,6 @@ lookup gsub_34_single {
 	sub Candrabindu by Candrabindu.alt ;
 	sub Anusvara by Anusvara.alt ;
     } gsub_34_single ;
-
-lookup gsub_5_chained {
-	@_backtrack_group_1_gsub_5_chained = [ OneHundred TwoHundred ThreeHundred FourHundred FiveHundred SixHundred SevenHundred EightHundred NineHundred ];
-
-	@_impacted_group_1_gsub_5_chained = [ NumberTenSolo NumberTwentySolo NumberThirtySolo NumberFortySolo NumberFiftySolo NumberSixtySolo NumberSeventySolo NumberEightySolo NumberNinetySolo ];
-
-    sub @_backtrack_group_1_gsub_5_chained @_impacted_group_1_gsub_5_chained' lookup gsub_3_single ;
-
-    } gsub_5_chained ;
-
-lookup gsub_6_chained {
-	@_backtrack_group_1_gsub_6_chained = [ OneHundred TwoHundred ThreeHundred FourHundred FiveHundred SixHundred SevenHundred EightHundred NineHundred ];
-	@_backtrack_group_2_gsub_6_chained = [ NumberTen NumberTwenty NumberThirty NumberForty NumberFifty NumberSixty NumberSeventy NumberEighty NumberNinety ];
-
-	@_impacted_group_1_gsub_6_chained = [ NumberTwentySolo.mark NumberThirtySolo.mark NumberFortySolo.mark NumberFiftySolo.mark NumberSixtySolo.mark NumberSeventySolo.mark NumberEightySolo.mark NumberNinetySolo.mark ];
-	@_impacted_group_2_gsub_6_chained = [ NumberOne NumberTwo NumberThree NumberFour NumberFive NumberSix NumberSeven NumberEight NumberNine ];
-	@_impacted_group_3_gsub_6_chained = [ NumberTenSolo NumberTwentySolo NumberThirtySolo NumberFortySolo NumberFiftySolo NumberSixtySolo NumberSeventySolo NumberEightySolo NumberNinetySolo ];
-	@_impacted_group_4_gsub_6_chained = [ NumberTen.alt.mark NumberTwenty.mark NumberThirty.mark NumberForty.mark NumberFifty.mark NumberSixty.mark NumberSeventy.mark NumberEighty.mark NumberNinety.mark ];
-
-	@_lookahead_group_1_gsub_6_chained = [ NumberOne NumberTwo NumberThree NumberFour NumberFive NumberSix NumberSeven
-	NumberEight NumberNine NumberTen ];
-
-    sub @_backtrack_group_1_gsub_6_chained @_impacted_group_1_gsub_6_chained' lookup gsub_3_single @_lookahead_group_1_gsub_6_chained ;
-    sub @_backtrack_group_1_gsub_6_chained @_impacted_group_2_gsub_6_chained' lookup gsub_4_single ;
-    sub @_backtrack_group_2_gsub_6_chained @_impacted_group_2_gsub_6_chained' lookup gsub_4_single ;
-    sub @_impacted_group_3_gsub_6_chained' lookup gsub_2_single @_lookahead_group_1_gsub_6_chained ;
-    sub @_backtrack_group_1_gsub_6_chained @_impacted_group_4_gsub_6_chained' @_impacted_group_2_gsub_6_chained' lookup gsub_4_single ;
-
-    } gsub_6_chained ;
-
-lookup gsub_7_chained {
-	@_backtrack_group_1_gsub_7_chained = [ NumberTwentySolo.mark NumberThirtySolo.mark NumberFortySolo.mark NumberFiftySolo.mark NumberSixtySolo.mark NumberSeventySolo.mark NumberEightySolo.mark NumberNinetySolo.mark ];
-	@_backtrack_group_2_gsub_7_chained = [ NumberTen.alt.mark NumberTwenty.mark NumberThirty.mark NumberForty.mark NumberFifty.mark NumberSixty.mark NumberSeventy.mark NumberEighty.mark NumberNinety.mark ];
-
-	@_impacted_group_1_gsub_7_chained = [ NumberOne NumberTwo NumberThree NumberFour NumberFive NumberSix NumberSeven NumberEight NumberNine ];
-
-    sub @_backtrack_group_1_gsub_7_chained @_impacted_group_1_gsub_7_chained' lookup gsub_4_single ;
-    sub @_backtrack_group_2_gsub_7_chained @_impacted_group_1_gsub_7_chained' lookup gsub_4_single ;
-
-    } gsub_7_chained ;
-
-lookup gsub_15_chained {
-    lookupflag UseMarkFilteringSet @_FilterSet_0 ;
-    sub [ Ga Gha Nga Ja Tta Ttha Nna Tha Dha Ba Ma Ya La Sha Ssa Sa Li Le Lo Gna Ngsha Bdha Sska Sstta Bbha Bda Dhma Dhva Gdha Gga Ghra Gja Gla Gma Gva Jbha Jbhya Jggra Jjha Jva Jya Lka Lpa Lva Mba Mma Mna Mpa Mva Mya Ngggra Ngka Ngma Ngsya Ngva Ngya Nnddva Nnnnya Nnsa Shca Shra Shva Shya Ska Sma Spha Sra Ssttya Ssva Sta Stha Stra Sva Tsya Ttpra Tttva Yva  ] [ AA_vwl  ]' lookup gsub_28_single ;
-    } gsub_15_chained ;
-
-lookup gsub_20_chained {
-    sub [ Kha Gha Nga Ja Nya Tta Nna Pa Pha Ba Ya Sa Ha Khaa  ] [ VocR VocRR  ]' lookup gsub_29_single ;
-    } gsub_20_chained ;
-
-lookup gsub_21_chained {
-    sub [ VocR VocRR VocR.wide VocRR.wide  ] [ U_vwl UU_vwl  ]' lookup gsub_30_single ;
-    } gsub_21_chained ;
-
-lookup gsub_22_chained {
-    lookupflag UseMarkFilteringSet @_FilterSet_0 ;
-    sub [ Ga Nga Nya Ttha Nna Tha Dha Sha Shva  ] [ E_vwl  ]' lookup gsub_31_single ;
-    } gsub_22_chained ;
-
-lookup gsub_24_chained {
-    lookupflag UseMarkFilteringSet @_FilterSet_0 ;
-    sub [ Ga Nga Nya Tta Ttha Nna Tha Dha Sha  ] [ AI_vwl  ]' lookup gsub_32_single ;
-    } gsub_24_chained ;
 
 
 #GPOS
@@ -961,6 +960,15 @@ lookup gpos_0_pair {
 lookup gpos_1_single {
 	position OneHundred < 0 0 -1000 0 >;
     } gpos_1_single ;
+
+lookup gpos_2_chained {
+    @_impacted_group_1_gpos_2_chained = [ OneHundred TwoHundred ThreeHundred FourHundred FiveHundred SixHundred SevenHundred EightHundred NineHundred ];
+
+    @_lookahead_group_1_gpos_2_chained = [ NumberTwenty NumberThirty NumberForty NumberFifty ];
+
+    pos @_impacted_group_1_gpos_2_chained' lookup gpos_1_single @_lookahead_group_1_gpos_2_chained ;
+
+    } gpos_2_chained ;
 
 lookup gpos_3_single {
 	position Ga < 0 0 42 0 >;
@@ -1029,6 +1037,24 @@ lookup gpos_3_single {
 	position Ttva < 0 0 42 0 >;
 	position Yva < 0 0 53 0 >;
     } gpos_3_single ;
+
+lookup gpos_4_chained {
+    @_impacted_group_1_gpos_4_chained = [ Ga Gha Nga Ja Tta Ttha Nna
+    Tha Dha Ba Ma Ya La Sha
+    Ssa Sa Gna Ngsha Sska Bbha Bda
+    Dhma Dhva Ghra Gja Gla Gva Jbha
+    Jbhya Jggra Jjha Jva Jya Lpa Lva
+    Mba Mbha Mma Mna Mpa Mva Mya
+    Ngggra Ngka Ngma Ngsya Ngva Ngya Nnddva
+    Nnnnya Nnsa Shca Shra Shva Shya Ska
+    Sra Ssva Sta Stra Sva Ttpra Tttva
+    Ttva Yva ];
+
+    @_lookahead_group_1_gpos_4_chained = [ AA_vwl.alt ];
+
+    pos @_impacted_group_1_gpos_4_chained' lookup gpos_3_single @_lookahead_group_1_gpos_4_chained ;
+
+    } gpos_4_chained ;
 
 lookup gpos_5_single {
 	position uni25CC < 0 0 310 0 >;
@@ -1115,6 +1141,41 @@ lookup gpos_5_single {
 lookup gpos_6_single {
 	position Kha < 0 0 320 0 >;
     } gpos_6_single ;
+
+lookup gpos_7_chained {
+    @_impacted_group_1_gpos_7_chained = [ Kha ];
+
+    @_lookahead_group_1_gpos_7_chained = [ II_vwl ];
+    @_lookahead_group_2_gpos_7_chained = [ Ya.blw ];
+
+    pos @_impacted_group_1_gpos_7_chained' lookup gpos_6_single @_lookahead_group_1_gpos_7_chained ;
+    pos @_impacted_group_1_gpos_7_chained' lookup gpos_6_single @_lookahead_group_2_gpos_7_chained @_lookahead_group_1_gpos_7_chained ;
+
+    } gpos_7_chained ;
+
+lookup gpos_8_chained {
+    @_impacted_group_1_gpos_8_chained = [ uni25CC Ka Ca Cha Jha Dda Ddha
+    Ta Da Na Pha Bha Ra Va
+    Ha Repha Rtta Kssa Ngga Cca Jnya
+    Nndda Nnnna Tka Tata Tpa Dada Dadha
+    Ntha Ndha Nana Hna Hma Kta Kra
+    Ksa Kya Bhna Bhra Bhya Ccha Ctva
+    Dbha Dbhya Ddhra Dga Dgha Dra Dva
+    Dvya Hla Hra Hva Knna Kssnna Kssnnya
+    Kva Na_ya Nda Ndra Nha Nma Nsa
+    Ntya Nva Ptya Ssttha Tatava Tataya Tma
+    Tna Tpra Tra Tsa Tsya Tva Tya
+    Vra Vva ];
+
+    @_lookahead_group_1_gpos_8_chained = [ Repha ];
+    @_lookahead_group_2_gpos_8_chained = [ AA_vwl ];
+    @_lookahead_group_3_gpos_8_chained = [ Ya.blw ];
+
+    pos @_impacted_group_1_gpos_8_chained' lookup gpos_5_single @_lookahead_group_1_gpos_8_chained @_lookahead_group_2_gpos_8_chained ;
+    pos @_impacted_group_1_gpos_8_chained' lookup gpos_5_single @_lookahead_group_2_gpos_8_chained ;
+    pos @_impacted_group_1_gpos_8_chained' lookup gpos_5_single @_lookahead_group_3_gpos_8_chained @_lookahead_group_2_gpos_8_chained ;
+
+    } gpos_8_chained ;
 
 lookup gpos_9_mark_to_base {
     markClass AA_vwl <anchor 0 388> @_MARKCLASS_0_lookup_9;
@@ -2257,60 +2318,60 @@ lookup gpos_24_mark_to_base {
     } gpos_24_mark_to_base ;
 
 lookup gpos_25_mark_to_mark {
-markClass NumberOne.mark <anchor -277 645> @_MARKCLASS_0_lookup_25;
-markClass NumberTwo.mark <anchor -331 645> @_MARKCLASS_0_lookup_25;
-markClass NumberThree.mark <anchor -310 645> @_MARKCLASS_0_lookup_25;
-markClass NumberFour.mark <anchor -354 645> @_MARKCLASS_0_lookup_25;
-markClass NumberFive.mark <anchor -376 645> @_MARKCLASS_0_lookup_25;
-markClass NumberSix.mark <anchor -507 645> @_MARKCLASS_0_lookup_25;
-markClass NumberSeven.mark <anchor -479 645> @_MARKCLASS_0_lookup_25;
-markClass NumberEight.mark <anchor -580 645> @_MARKCLASS_0_lookup_25;
-markClass NumberNine.mark <anchor -406 645> @_MARKCLASS_0_lookup_25;
-markClass NumberTen.alt.mark <anchor -349 645> @_MARKCLASS_0_lookup_25;
-markClass NumberTwenty.mark <anchor -479 667> @_MARKCLASS_0_lookup_25;
-markClass NumberThirty.mark <anchor -493 667> @_MARKCLASS_0_lookup_25;
-markClass NumberForty.mark <anchor -444 667> @_MARKCLASS_0_lookup_25;
-markClass NumberFifty.mark <anchor -479 667> @_MARKCLASS_0_lookup_25;
-markClass NumberSixty.mark <anchor -595 667> @_MARKCLASS_0_lookup_25;
-markClass NumberSeventy.mark <anchor -452 667> @_MARKCLASS_0_lookup_25;
-markClass NumberEighty.mark <anchor -439 667> @_MARKCLASS_0_lookup_25;
-markClass NumberNinety.mark <anchor -528 667> @_MARKCLASS_0_lookup_25;
-position mark NumberOne.mark <anchor -257 0> mark @_MARKCLASS_0_lookup_25;
-position mark NumberTwo.mark <anchor -308 0> mark @_MARKCLASS_0_lookup_25;
-position mark NumberThree.mark <anchor -290 0> mark @_MARKCLASS_0_lookup_25;
-position mark NumberFour.mark <anchor -334 0> mark @_MARKCLASS_0_lookup_25;
-position mark NumberFive.mark <anchor -356 0> mark @_MARKCLASS_0_lookup_25;
-position mark NumberSix.mark <anchor -507 0> mark @_MARKCLASS_0_lookup_25;
-position mark NumberSeven.mark <anchor -459 0> mark @_MARKCLASS_0_lookup_25;
-position mark NumberEight.mark <anchor -580 0> mark @_MARKCLASS_0_lookup_25;
-position mark NumberNine.mark <anchor -386 0> mark @_MARKCLASS_0_lookup_25;
-position mark NumberTen.alt.mark <anchor -349 0> mark @_MARKCLASS_0_lookup_25;
-position mark NumberTwenty.mark <anchor -479 0> mark @_MARKCLASS_0_lookup_25;
-position mark NumberThirty.mark <anchor -493 0> mark @_MARKCLASS_0_lookup_25;
-position mark NumberForty.mark <anchor -444 0> mark @_MARKCLASS_0_lookup_25;
-position mark NumberFifty.mark <anchor -479 0> mark @_MARKCLASS_0_lookup_25;
-position mark NumberSixty.mark <anchor -595 0> mark @_MARKCLASS_0_lookup_25;
-position mark NumberSeventy.mark <anchor -452 0> mark @_MARKCLASS_0_lookup_25;
-position mark NumberEighty.mark <anchor -439 0> mark @_MARKCLASS_0_lookup_25;
-position mark NumberNinety.mark <anchor -528 0> mark @_MARKCLASS_0_lookup_25;
+    markClass NumberOne.mark <anchor -277 645> @_MARKCLASS_0_lookup_25;
+    markClass NumberTwo.mark <anchor -331 645> @_MARKCLASS_0_lookup_25;
+    markClass NumberThree.mark <anchor -310 645> @_MARKCLASS_0_lookup_25;
+    markClass NumberFour.mark <anchor -354 645> @_MARKCLASS_0_lookup_25;
+    markClass NumberFive.mark <anchor -376 645> @_MARKCLASS_0_lookup_25;
+    markClass NumberSix.mark <anchor -507 645> @_MARKCLASS_0_lookup_25;
+    markClass NumberSeven.mark <anchor -479 645> @_MARKCLASS_0_lookup_25;
+    markClass NumberEight.mark <anchor -580 645> @_MARKCLASS_0_lookup_25;
+    markClass NumberNine.mark <anchor -406 645> @_MARKCLASS_0_lookup_25;
+    markClass NumberTen.alt.mark <anchor -349 645> @_MARKCLASS_0_lookup_25;
+    markClass NumberTwenty.mark <anchor -479 667> @_MARKCLASS_0_lookup_25;
+    markClass NumberThirty.mark <anchor -493 667> @_MARKCLASS_0_lookup_25;
+    markClass NumberForty.mark <anchor -444 667> @_MARKCLASS_0_lookup_25;
+    markClass NumberFifty.mark <anchor -479 667> @_MARKCLASS_0_lookup_25;
+    markClass NumberSixty.mark <anchor -595 667> @_MARKCLASS_0_lookup_25;
+    markClass NumberSeventy.mark <anchor -452 667> @_MARKCLASS_0_lookup_25;
+    markClass NumberEighty.mark <anchor -439 667> @_MARKCLASS_0_lookup_25;
+    markClass NumberNinety.mark <anchor -528 667> @_MARKCLASS_0_lookup_25;
+    position mark NumberOne.mark <anchor -257 0> mark @_MARKCLASS_0_lookup_25;
+    position mark NumberTwo.mark <anchor -308 0> mark @_MARKCLASS_0_lookup_25;
+    position mark NumberThree.mark <anchor -290 0> mark @_MARKCLASS_0_lookup_25;
+    position mark NumberFour.mark <anchor -334 0> mark @_MARKCLASS_0_lookup_25;
+    position mark NumberFive.mark <anchor -356 0> mark @_MARKCLASS_0_lookup_25;
+    position mark NumberSix.mark <anchor -507 0> mark @_MARKCLASS_0_lookup_25;
+    position mark NumberSeven.mark <anchor -459 0> mark @_MARKCLASS_0_lookup_25;
+    position mark NumberEight.mark <anchor -580 0> mark @_MARKCLASS_0_lookup_25;
+    position mark NumberNine.mark <anchor -386 0> mark @_MARKCLASS_0_lookup_25;
+    position mark NumberTen.alt.mark <anchor -349 0> mark @_MARKCLASS_0_lookup_25;
+    position mark NumberTwenty.mark <anchor -479 0> mark @_MARKCLASS_0_lookup_25;
+    position mark NumberThirty.mark <anchor -493 0> mark @_MARKCLASS_0_lookup_25;
+    position mark NumberForty.mark <anchor -444 0> mark @_MARKCLASS_0_lookup_25;
+    position mark NumberFifty.mark <anchor -479 0> mark @_MARKCLASS_0_lookup_25;
+    position mark NumberSixty.mark <anchor -595 0> mark @_MARKCLASS_0_lookup_25;
+    position mark NumberSeventy.mark <anchor -452 0> mark @_MARKCLASS_0_lookup_25;
+    position mark NumberEighty.mark <anchor -439 0> mark @_MARKCLASS_0_lookup_25;
+    position mark NumberNinety.mark <anchor -528 0> mark @_MARKCLASS_0_lookup_25;
     } gpos_25_mark_to_mark ;
 
 lookup gpos_26_mark_to_mark {
-markClass AA_vwl <anchor 0 388> @_MARKCLASS_2_lookup_26;
-markClass U_vwl <anchor -90 0> @_MARKCLASS_0_lookup_26;
-markClass U_vwl.alt <anchor -85 10> @_MARKCLASS_0_lookup_26;
-markClass UU_vwl <anchor -90 -5> @_MARKCLASS_0_lookup_26;
-markClass UU_vwl.alt <anchor -115 0> @_MARKCLASS_0_lookup_26;
-markClass VocR <anchor -75 0> @_MARKCLASS_1_lookup_26;
-markClass VocRR <anchor -75 0> @_MARKCLASS_1_lookup_26;
-position mark VocR <anchor -230 -220> mark @_MARKCLASS_0_lookup_26;
-position mark VocRR <anchor -315 -260> mark @_MARKCLASS_0_lookup_26;
-position mark VocR.wide <anchor -245 -220> mark @_MARKCLASS_0_lookup_26;
-position mark VocRR.wide <anchor -315 -260> mark @_MARKCLASS_0_lookup_26;
-position mark Pa.blw <anchor -150 -151> mark @_MARKCLASS_0_lookup_26;
-position mark Pa.blw <anchor -45 -235> mark @_MARKCLASS_1_lookup_26;
-position mark Ya.blw <anchor -286 -229> mark @_MARKCLASS_0_lookup_26;
-position mark Repha <anchor 140 580> mark @_MARKCLASS_2_lookup_26;
+    markClass AA_vwl <anchor 0 388> @_MARKCLASS_2_lookup_26;
+    markClass U_vwl <anchor -90 0> @_MARKCLASS_0_lookup_26;
+    markClass U_vwl.alt <anchor -85 10> @_MARKCLASS_0_lookup_26;
+    markClass UU_vwl <anchor -90 -5> @_MARKCLASS_0_lookup_26;
+    markClass UU_vwl.alt <anchor -115 0> @_MARKCLASS_0_lookup_26;
+    markClass VocR <anchor -75 0> @_MARKCLASS_1_lookup_26;
+    markClass VocRR <anchor -75 0> @_MARKCLASS_1_lookup_26;
+    position mark VocR <anchor -230 -220> mark @_MARKCLASS_0_lookup_26;
+    position mark VocRR <anchor -315 -260> mark @_MARKCLASS_0_lookup_26;
+    position mark VocR.wide <anchor -245 -220> mark @_MARKCLASS_0_lookup_26;
+    position mark VocRR.wide <anchor -315 -260> mark @_MARKCLASS_0_lookup_26;
+    position mark Pa.blw <anchor -150 -151> mark @_MARKCLASS_0_lookup_26;
+    position mark Pa.blw <anchor -45 -235> mark @_MARKCLASS_1_lookup_26;
+    position mark Ya.blw <anchor -286 -229> mark @_MARKCLASS_0_lookup_26;
+    position mark Repha <anchor 140 580> mark @_MARKCLASS_2_lookup_26;
     } gpos_26_mark_to_mark ;
 
 lookup gpos_27_pair {
@@ -2550,226 +2611,163 @@ lookup gpos_27_pair {
 	position Hma VocRR 160 ;
     } gpos_27_pair ;
 
-lookup gpos_2_chained {
-	@_impacted_group_1_gpos_2_chained = [ OneHundred TwoHundred ThreeHundred FourHundred FiveHundred SixHundred SevenHundred EightHundred NineHundred ];
-
-	@_lookahead_group_1_gpos_2_chained = [ NumberTwenty NumberThirty NumberForty NumberFifty ];
-
-    pos @_impacted_group_1_gpos_2_chained' lookup gpos_1_single @_lookahead_group_1_gpos_2_chained ;
-
-    } gpos_2_chained ;
-
-lookup gpos_4_chained {
-	@_impacted_group_1_gpos_4_chained = [ Ga Gha Nga Ja Tta Ttha Nna
-	Tha Dha Ba Ma Ya La Sha
-	Ssa Sa Gna Ngsha Sska Bbha Bda
-	Dhma Dhva Ghra Gja Gla Gva Jbha
-	Jbhya Jggra Jjha Jva Jya Lpa Lva
-	Mba Mbha Mma Mna Mpa Mva Mya
-	Ngggra Ngka Ngma Ngsya Ngva Ngya Nnddva
-	Nnnnya Nnsa Shca Shra Shva Shya Ska
-	Sra Ssva Sta Stra Sva Ttpra Tttva
-	Ttva Yva ];
-
-	@_lookahead_group_1_gpos_4_chained = [ AA_vwl.alt ];
-
-    pos @_impacted_group_1_gpos_4_chained' lookup gpos_3_single @_lookahead_group_1_gpos_4_chained ;
-
-    } gpos_4_chained ;
-
-lookup gpos_7_chained {
-	@_impacted_group_1_gpos_7_chained = [ Kha ];
-
-	@_lookahead_group_1_gpos_7_chained = [ II_vwl ];
-	@_lookahead_group_2_gpos_7_chained = [ Ya.blw ];
-
-    pos @_impacted_group_1_gpos_7_chained' lookup gpos_6_single @_lookahead_group_1_gpos_7_chained ;
-    pos @_impacted_group_1_gpos_7_chained' lookup gpos_6_single @_lookahead_group_2_gpos_7_chained @_lookahead_group_1_gpos_7_chained ;
-
-    } gpos_7_chained ;
-
-lookup gpos_8_chained {
-	@_impacted_group_1_gpos_8_chained = [ uni25CC Ka Ca Cha Jha Dda Ddha
-	Ta Da Na Pha Bha Ra Va
-	Ha Repha Rtta Kssa Ngga Cca Jnya
-	Nndda Nnnna Tka Tata Tpa Dada Dadha
-	Ntha Ndha Nana Hna Hma Kta Kra
-	Ksa Kya Bhna Bhra Bhya Ccha Ctva
-	Dbha Dbhya Ddhra Dga Dgha Dra Dva
-	Dvya Hla Hra Hva Knna Kssnna Kssnnya
-	Kva Na_ya Nda Ndra Nha Nma Nsa
-	Ntya Nva Ptya Ssttha Tatava Tataya Tma
-	Tna Tpra Tra Tsa Tsya Tva Tya
-	Vra Vva ];
-
-	@_lookahead_group_1_gpos_8_chained = [ Repha ];
-	@_lookahead_group_2_gpos_8_chained = [ AA_vwl ];
-	@_lookahead_group_3_gpos_8_chained = [ Ya.blw ];
-
-    pos @_impacted_group_1_gpos_8_chained' lookup gpos_5_single @_lookahead_group_1_gpos_8_chained @_lookahead_group_2_gpos_8_chained ;
-    pos @_impacted_group_1_gpos_8_chained' lookup gpos_5_single @_lookahead_group_2_gpos_8_chained ;
-    pos @_impacted_group_1_gpos_8_chained' lookup gpos_5_single @_lookahead_group_3_gpos_8_chained @_lookahead_group_2_gpos_8_chained ;
-
-    } gpos_8_chained ;
-
-
 #FEATURES LIST
 feature ccmp {
-script bhks ;
-	language dflt ;
-		lookup gsub_12_ligature;
-		lookup gsub_8_ligature;
-		lookup gsub_9_ligature;
-		lookup gsub_10_ligature;
-		lookup gsub_13_ligature;
-		lookup gsub_15_chained;
-		lookup gsub_14_ligature;
-		lookup gsub_33_ligature;
-		lookup gsub_16_ligature;
-		lookup gsub_17_ligature;
-		lookup gsub_18_ligature;
-		lookup gsub_19_ligature;
-		lookup gsub_20_chained;
-		lookup gsub_21_chained;
-		lookup gsub_22_chained;
-		lookup gsub_23_ligature;
-		lookup gsub_24_chained;
-		lookup gsub_25_ligature;
-		lookup gsub_26_ligature;
-		lookup gsub_27_ligature;
-script bhks ;
-	language BHKS ;
-		lookup gsub_12_ligature;
-		lookup gsub_8_ligature;
-		lookup gsub_9_ligature;
-		lookup gsub_10_ligature;
-		lookup gsub_13_ligature;
-		lookup gsub_15_chained;
-		lookup gsub_14_ligature;
-		lookup gsub_33_ligature;
-		lookup gsub_16_ligature;
-		lookup gsub_17_ligature;
-		lookup gsub_18_ligature;
-		lookup gsub_19_ligature;
-		lookup gsub_20_chained;
-		lookup gsub_21_chained;
-		lookup gsub_22_chained;
-		lookup gsub_23_ligature;
-		lookup gsub_24_chained;
-		lookup gsub_25_ligature;
-		lookup gsub_26_ligature;
-		lookup gsub_27_ligature;
+	script bhks ;
+		language dflt ;
+			lookup gsub_12_ligature;
+			lookup gsub_8_ligature;
+			lookup gsub_9_ligature;
+			lookup gsub_10_ligature;
+			lookup gsub_13_ligature;
+			lookup gsub_15_chained;
+			lookup gsub_14_ligature;
+			lookup gsub_33_ligature;
+			lookup gsub_16_ligature;
+			lookup gsub_17_ligature;
+			lookup gsub_18_ligature;
+			lookup gsub_19_ligature;
+			lookup gsub_20_chained;
+			lookup gsub_21_chained;
+			lookup gsub_22_chained;
+			lookup gsub_23_ligature;
+			lookup gsub_24_chained;
+			lookup gsub_25_ligature;
+			lookup gsub_26_ligature;
+			lookup gsub_27_ligature;
+	script bhks ;
+		language BHKS ;
+			lookup gsub_12_ligature;
+			lookup gsub_8_ligature;
+			lookup gsub_9_ligature;
+			lookup gsub_10_ligature;
+			lookup gsub_13_ligature;
+			lookup gsub_15_chained;
+			lookup gsub_14_ligature;
+			lookup gsub_33_ligature;
+			lookup gsub_16_ligature;
+			lookup gsub_17_ligature;
+			lookup gsub_18_ligature;
+			lookup gsub_19_ligature;
+			lookup gsub_20_chained;
+			lookup gsub_21_chained;
+			lookup gsub_22_chained;
+			lookup gsub_23_ligature;
+			lookup gsub_24_chained;
+			lookup gsub_25_ligature;
+			lookup gsub_26_ligature;
+			lookup gsub_27_ligature;
 		} ccmp;
 
 feature liga {
-script bhks ;
-	language dflt ;
-		lookup gsub_1_single;
-		lookup gsub_0_ligature;
-		lookup gsub_5_chained;
-		lookup gsub_6_chained;
-		lookup gsub_7_chained;
-script bhks ;
-	language BHKS ;
-		lookup gsub_1_single;
-		lookup gsub_0_ligature;
-		lookup gsub_5_chained;
-		lookup gsub_6_chained;
-		lookup gsub_7_chained;
+	script bhks ;
+		language dflt ;
+			lookup gsub_1_single;
+			lookup gsub_0_ligature;
+			lookup gsub_5_chained;
+			lookup gsub_6_chained;
+			lookup gsub_7_chained;
+	script bhks ;
+		language BHKS ;
+			lookup gsub_1_single;
+			lookup gsub_0_ligature;
+			lookup gsub_5_chained;
+			lookup gsub_6_chained;
+			lookup gsub_7_chained;
 		} liga;
 
 feature rphf {
-script bhks ;
-	language dflt ;
-		lookup gsub_11_ligature;
-script bhks ;
-	language BHKS ;
-		lookup gsub_11_ligature;
+	script bhks ;
+		language dflt ;
+			lookup gsub_11_ligature;
+	script bhks ;
+		language BHKS ;
+			lookup gsub_11_ligature;
 		} rphf;
 
 feature ss01 {
-script bhks ;
-	language dflt ;
-		lookup gsub_34_single;
-script bhks ;
-	language BHKS ;
-		lookup gsub_34_single;
+	script bhks ;
+		language dflt ;
+			lookup gsub_34_single;
+	script bhks ;
+		language BHKS ;
+			lookup gsub_34_single;
 		} ss01;
 
 feature dist {
-script bhks ;
-	language dflt ;
-		lookup gpos_27_pair;
-		lookup gpos_8_chained;
-		lookup gpos_4_chained;
-		lookup gpos_7_chained;
-		lookup gpos_2_chained;
-script bhks ;
-	language BHKS ;
-		lookup gpos_27_pair;
-		lookup gpos_8_chained;
-		lookup gpos_4_chained;
-		lookup gpos_7_chained;
-		lookup gpos_2_chained;
+	script bhks ;
+		language dflt ;
+			lookup gpos_27_pair;
+			lookup gpos_8_chained;
+			lookup gpos_4_chained;
+			lookup gpos_7_chained;
+			lookup gpos_2_chained;
+	script bhks ;
+		language BHKS ;
+			lookup gpos_27_pair;
+			lookup gpos_8_chained;
+			lookup gpos_4_chained;
+			lookup gpos_7_chained;
+			lookup gpos_2_chained;
 		} dist;
 
 feature kern {
-script bhks ;
-	language dflt ;
-		lookup gpos_0_pair;
-script bhks ;
-	language BHKS ;
-		lookup gpos_0_pair;
+	script bhks ;
+		language dflt ;
+			lookup gpos_0_pair;
+	script bhks ;
+		language BHKS ;
+			lookup gpos_0_pair;
 		} kern;
 
 feature mark {
-script bhks ;
-	language dflt ;
-		lookup gpos_9_mark_to_base;
-		lookup gpos_10_mark_to_base;
-		lookup gpos_11_mark_to_base;
-		lookup gpos_12_mark_to_base;
-		lookup gpos_13_mark_to_base;
-		lookup gpos_14_mark_to_base;
-		lookup gpos_15_mark_to_base;
-		lookup gpos_16_mark_to_base;
-		lookup gpos_17_mark_to_base;
-		lookup gpos_18_mark_to_base;
-		lookup gpos_19_mark_to_base;
-		lookup gpos_20_mark_to_base;
-		lookup gpos_21_mark_to_base;
-		lookup gpos_22_mark_to_base;
-		lookup gpos_23_mark_to_base;
-		lookup gpos_24_mark_to_base;
-script bhks ;
-	language BHKS ;
-		lookup gpos_9_mark_to_base;
-		lookup gpos_10_mark_to_base;
-		lookup gpos_11_mark_to_base;
-		lookup gpos_12_mark_to_base;
-		lookup gpos_13_mark_to_base;
-		lookup gpos_14_mark_to_base;
-		lookup gpos_15_mark_to_base;
-		lookup gpos_16_mark_to_base;
-		lookup gpos_17_mark_to_base;
-		lookup gpos_18_mark_to_base;
-		lookup gpos_19_mark_to_base;
-		lookup gpos_20_mark_to_base;
-		lookup gpos_21_mark_to_base;
-		lookup gpos_22_mark_to_base;
-		lookup gpos_23_mark_to_base;
-		lookup gpos_24_mark_to_base;
+	script bhks ;
+		language dflt ;
+			lookup gpos_9_mark_to_base;
+			lookup gpos_10_mark_to_base;
+			lookup gpos_11_mark_to_base;
+			lookup gpos_12_mark_to_base;
+			lookup gpos_13_mark_to_base;
+			lookup gpos_14_mark_to_base;
+			lookup gpos_15_mark_to_base;
+			lookup gpos_16_mark_to_base;
+			lookup gpos_17_mark_to_base;
+			lookup gpos_18_mark_to_base;
+			lookup gpos_19_mark_to_base;
+			lookup gpos_20_mark_to_base;
+			lookup gpos_21_mark_to_base;
+			lookup gpos_22_mark_to_base;
+			lookup gpos_23_mark_to_base;
+			lookup gpos_24_mark_to_base;
+	script bhks ;
+		language BHKS ;
+			lookup gpos_9_mark_to_base;
+			lookup gpos_10_mark_to_base;
+			lookup gpos_11_mark_to_base;
+			lookup gpos_12_mark_to_base;
+			lookup gpos_13_mark_to_base;
+			lookup gpos_14_mark_to_base;
+			lookup gpos_15_mark_to_base;
+			lookup gpos_16_mark_to_base;
+			lookup gpos_17_mark_to_base;
+			lookup gpos_18_mark_to_base;
+			lookup gpos_19_mark_to_base;
+			lookup gpos_20_mark_to_base;
+			lookup gpos_21_mark_to_base;
+			lookup gpos_22_mark_to_base;
+			lookup gpos_23_mark_to_base;
+			lookup gpos_24_mark_to_base;
 		} mark;
 
 feature mkmk {
-script bhks ;
-	language dflt ;
-		lookup gpos_26_mark_to_mark;
-		lookup gpos_25_mark_to_mark;
-script bhks ;
-	language BHKS ;
-		lookup gpos_26_mark_to_mark;
-		lookup gpos_25_mark_to_mark;
+	script bhks ;
+		language dflt ;
+			lookup gpos_26_mark_to_mark;
+			lookup gpos_25_mark_to_mark;
+	script bhks ;
+		language BHKS ;
+			lookup gpos_26_mark_to_mark;
+			lookup gpos_25_mark_to_mark;
 		} mkmk;
 
 

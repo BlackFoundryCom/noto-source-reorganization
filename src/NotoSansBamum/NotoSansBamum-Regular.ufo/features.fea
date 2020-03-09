@@ -97,12 +97,12 @@ lookup gpos_0_mark_to_base {
 
 #FEATURES LIST
 feature mark {
-script bamu ;
-	language dflt ;
-		lookup gpos_0_mark_to_base;
-script DFLT ;
-	language dflt ;
-		lookup gpos_0_mark_to_base;
+	script bamu ;
+		language dflt ;
+			lookup gpos_0_mark_to_base;
+	script DFLT ;
+		language dflt ;
+			lookup gpos_0_mark_to_base;
 		} mark;
 
 
