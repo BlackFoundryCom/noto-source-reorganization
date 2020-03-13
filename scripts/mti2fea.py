@@ -82,7 +82,6 @@ def parseLookupflag(chapeau):
         lookupflag = "    lookupflag " + lookupflag + " ;\n"
     return lookupflag
 
-
 def parseSingleGSUB(name, lookup):
     single_txt = ""
     single_txt += "lookup " + name[2:-2] + " {\n"
@@ -148,15 +147,16 @@ def parseSingleGPOS(name, lookup):
     if len(parseLookupflag(lookup[0:6])) != 0:
         single_txt += parseLookupflag(lookup[0:6])
     for j in lookup[4:]:
-        j_list = j.split("\t")
-        if "x advance" in j_list[0]:
-            single_txt += "\tposition " + j_list[1] + " < 0 0 " +  j_list[2] + " 0 >;\n"
-        elif "y advance" in j_list[0]:
-            single_txt += "\tposition " + j_list[1] + " < 0 0 0 " +  j_list[2] + " >;\n"
-        elif "x placement" in j_list[0]:
-            single_txt += "\tposition " + j_list[1] + " < " + j_list[2] + " 0 0 0 >;\n"
-        elif "y placement" in j_list[0]:
-            single_txt += "\tposition " + j_list[1] + " < 0 " + j_list[2] + " 0 0 >;\n"
+        if "MarkFilterType" not in j and "MarkAttachmentType" not in j:
+            j_list = j.split("\t")
+            if "x advance" in j_list[0]:
+                single_txt += "\tposition " + j_list[1] + " < 0 0 " +  j_list[2] + " 0 >;\n"
+            elif "y advance" in j_list[0]:
+                single_txt += "\tposition " + j_list[1] + " < 0 0 0 " +  j_list[2] + " >;\n"
+            elif "x placement" in j_list[0]:
+                single_txt += "\tposition " + j_list[1] + " < " + j_list[2] + " 0 0 0 >;\n"
+            elif "y placement" in j_list[0]:
+                single_txt += "\tposition " + j_list[1] + " < 0 " + j_list[2] + " 0 0 >;\n"
     single_txt += "    } " + name[2:-2] + " ;\n\n"
     return str(single_txt)
 
@@ -378,10 +378,10 @@ def parseMark2Mark(name, lookup):
         ligneSplit =ligne.split("\t")
         # create a ligne for the mark glyph, gives the anchor value and the name of its class
         if ligneSplit[0] == "mark":
-            rules += "markClass " + ligneSplit[1] + " <anchor " + ligneSplit[3].replace(",", " ") + "> @_MARKCLASS_" + \
+            rules += "\tmarkClass " + ligneSplit[1] + " <anchor " + ligneSplit[3].replace(",", " ") + "> @_MARKCLASS_" + \
             str(ligneSplit[2]) + "_lookup_" + name.split('_')[1] + ";\n"
         elif "base" in ligne:
-            rules += "position mark " + ligneSplit[1] + " <anchor " + ligneSplit[3].replace(",", " ") + \
+            rules += "\tposition mark " + ligneSplit[1] + " <anchor " + ligneSplit[3].replace(",", " ") + \
             "> mark @_MARKCLASS_" + str(ligneSplit[2]) + "_lookup_" + name.split('_')[1] + ";\n"
     m2m_txt = m2m_txt + rules + "    } " + name[2:-2] + " ;\n\n"
     return m2m_txt
@@ -412,7 +412,7 @@ def parseContextGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
     # GET THE CONTENT OF THE LOOKUP, IF GROUPS ARE DEFINED, GET THEM #
     contenu = [x for x in lookup if x != '']
     for e in contenu[4:]:
-        if "MarkAttachmentType" not in e:
+        if "MarkFilterType" not in e and "MarkAttachmentType" not in e:
             rule = e.split("\t")
             #if len(rule) == 3:
             if rule[0] == "class":
@@ -461,9 +461,29 @@ def parseContextGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
 ##########################
 #### GPOS LookupType 8 ###
 ##########################
+"""
+    This kind of lookup applies one or more lookup on some letters,
+    when a specific context is found. The modified sequence can be preceded
+    by backtrack glyphs or classes that are not modified, and/or followed
+    by lookahaed classes or glyphs that are not modied either.
+    The lookups called should be declared before this one, but this one should be right after
+    the lookups it calls, because other substitution or positionning
+    can be applied on the shaping resulting from this lookup.
+    Only one lookup per glyph or class is allowed in OpenType, but more than one
+    in mti files. So if this syntax is found, one needs to creates a new lookup that
+    does what the 2 or more lookups called are doing in 2 or more steps.
+    When applied pn different glyphs por class of the modified sequence,
+    there is no issue.
+    The mti files use the keyword "glyphs" and "class-chained" to precise
+    the nature of the contentn of the modified sequence.
+    Classes are defined before the rules with "backtrackclass," "class" and
+    "lookaheadclass" keywords.
+"""
 def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
+    number_of_subtable = 0
     chainedPOS_txt = ""
     rule = ""
+    txt_added = ""
     # GET THE NAME AND THE LOOKUPFLAGS IF NEEDED
     chainedPOS_txt += "lookup " + name[2:-2] + " {\n"
     if len(parseLookupflag(lookup[0:6])) != 0:
@@ -594,8 +614,150 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
                 lookup_name = str(namesAndContentsLookup[int(numeroLookup)][0])[2:].strip("['']")
                 glyphs_impacted[index] = glyphs_impacted[index] + " lookup " + lookup_name
             chainedPOS_txt += "\t" + keyword + " " + isplit[1] + " " + " ".join(glyphs_impacted) + " " + isplit[3] + ";\n"
-    chainedPOS_txt =  chainedPOS_txt + rule + "\n    } " + name[2:-2] + " ;\n\n"
+        elif "subtable end" in i:
+            number_of_subtable += 1
+            txt_added = GPOSSGUB_chained_subtable(namesAndContentsLookup, contenu[contenu.index(i)+1:], name, str(number_of_subtable), keyword)
+            print(txt_added)
+            break
+    chainedPOS_txt =  chainedPOS_txt + rule + txt_added + "\n    } " + name[2:-2] + " ;\n\n"
     return chainedPOS_txt
+
+def GPOSSGUB_chained_subtable(namesAndContentsLookup, content, name, num, keyword):
+    prefix = "_subtable_" + num
+    txt = "\n\tsubtable;\n"
+    rule = ""
+    contenu = [x for x in content if x != '']
+    for toto in contenu:
+        print(toto)
+    if "backtrackclass definition begin" in contenu:
+        classList = []
+        for i in contenu:
+            if i == "backtrackclass definition begin":
+                classList.append("backtrackclass definition begin")
+                j = contenu.index(i) + 1
+                while "class definition end" not in contenu[j]:
+                    classList.append(contenu[j])
+                    j += 1
+                classList.append("class definition end")
+        backtrackclass = getGroupsAsDict(classList, start = "backtrackclass definition begin")
+        refactoredGroups = unpackGroupsFromDict(backtrackclass, name[2:-2], namingConvention = "\t@_backtrack"+prefix+"_group_")
+        txt += refactoredGroups + "\n"
+    if "class definition begin" in contenu:
+        classList = []
+        for i in contenu:
+            if i == "class definition begin":
+                classList.append("class definition begin")
+                j = contenu.index(i) + 1
+                while "class definition end" not in contenu[j]:
+                    classList.append(contenu[j])
+                    j += 1
+                classList.append("class definition end")
+        inputclass = getGroupsAsDict(classList)
+        refactoredGroups = unpackGroupsFromDict(inputclass, name[2:-2], namingConvention = "\t@_impacted"+prefix+"_group_")
+        txt += refactoredGroups + "\n"
+    if "lookaheadclass definition begin" in contenu:
+        classList = []
+        for i in contenu:
+            if i == "lookaheadclass definition begin":
+                classList.append("lookaheadclass definition begin")
+                j = contenu.index(i) + 1
+                while "class definition end" not in contenu[j]:
+                    classList.append(contenu[j])
+                    j += 1
+                classList.append("class definition end")
+        lookaheadclass = getGroupsAsDict(contenu, start = "lookaheadclass definition begin")
+        refactoredGroups = unpackGroupsFromDict(lookaheadclass, name[2:-2], namingConvention = "\t@_lookahead"+prefix+"_group_")
+        # print(refactoredGroups)
+        txt += refactoredGroups + "\n"
+    # COVERAGE
+    backtrackcoverage, inputcoverage, lookaheadcoverage, coverage = "", "", "", ""
+    if "backtrackcoverage definition begin" in contenu:
+        for i in contenu:
+            if "backtrackcoverage definition begin" in i:
+                coverage = " [ "
+                j = contenu.index(i) + 1
+                while "coverage definition end" not in contenu[j]:
+                    coverage += contenu[j] + " "
+                    j += 1
+                coverage += " ]"
+        backtrackcoverage = coverage
+        coverage = ""
+    if "inputcoverage definition begin" in contenu:
+        for i in contenu:
+            if "inputcoverage definition begin" in i:
+                coverage = " [ "
+                j = contenu.index(i) + 1
+                while "coverage definition end" not in contenu[j]:
+                    # classList.append(contenu[j])
+                    coverage += contenu[j] + " "
+                    j += 1
+                coverage += " ]"
+        inputcoverage = coverage
+        coverage = ""
+    if "lookaheadcoverage definition begin" in contenu:
+        for i in contenu:
+            coverage = " [ "
+            if "lookaheadcoverage definition begin" in i:
+                j = contenu.index(i) + 1
+                while "coverage definition end" not in contenu[j]:
+                    # classList.append(contenu[j])
+                    coverage += contenu[j] + " "
+                    j += 1
+        coverage += " ]"
+        lookaheadcoveragecoverage = coverage
+        coverage = ""
+    # RULES
+    for i in contenu:
+        if "class-chain" in i:
+            print("OK")
+            isplit = i.split("\t")
+            _backtrack_group = isplit[1].split(",")
+            _input_groups = isplit[2].split(",")
+            _lookahead_groups = isplit[3].split(",")
+            _lookup_called = list()
+            for e in isplit[4:]:
+                if e.split(",") not in _lookup_called:
+                    _lookup_called.append(e.split(","))
+            rule += "    " + keyword + " "
+            if _backtrack_group[0] != "":
+                for x in _backtrack_group:
+                    x = x.replace(" ", "")
+                    rule += "@_backtrack"+prefix+"_group_" + x + "_" + name[2:-2] + " "
+            for x in _input_groups:
+                x = x.replace(" ", "")
+                rule += "@_impacted"+prefix+"_group_" + x + "_" + name[2:-2]  + "' "
+            for x in _lookup_called:
+                x = x[1].replace(" ", "")
+                #BUG????
+                x = int(x)
+                lookup_name = str(namesAndContentsLookup[x][0])[2:].strip("['']")
+                rule += "lookup " + lookup_name + " "
+            if _lookahead_groups[0] != "":
+                for x in _lookahead_groups:
+                    x = x.replace(" ", "")
+                    rule += "@_lookahead"+prefix+"_group_" + x + "_" + name[2:-2] + " "
+            rule += ";\n"
+        elif "coverage\t" in i:
+            x = i.split(",")[1]
+            lookup_name = str(namesAndContentsLookup[int(x)][0])[2:].strip("['']")
+            txt += "    " + keyword + backtrackcoverage + inputcoverage \
+                + "' lookup " + lookup_name + lookaheadcoverage + " ;"
+        elif "glyph\t" in i:
+            glyphs_impacted = []
+            isplit = i.split("\t")
+            elements_impacted_andLookup = isplit[4:]
+            for g in isplit[2].split(","):
+                glyphs_impacted.append(g + "'")
+            for element2lookup in elements_impacted_andLookup:
+                index = int(element2lookup.split(",")[0])-1
+                numeroLookup = element2lookup.split(",")[1]
+                lookup_name = str(namesAndContentsLookup[int(numeroLookup)][0])[2:].strip("['']")
+                glyphs_impacted[index] = glyphs_impacted[index] + " lookup " + lookup_name
+            txt += "\t" + keyword + " " + isplit[1] + " " + " ".join(glyphs_impacted) + " " + isplit[3] + ";\n"
+        elif i == "subtable end":
+            break
+    txt =  txt + rule + "\n"
+    return txt
 
 
 def unpackGroupsFromDict(groupDict, localname, namingConvention = "\t@_group_"):
@@ -722,8 +884,16 @@ def readGPOS(monotypeFeaturesTxt, rdir):
         #add context at the end
     txt += contextContent + chainedContent
 
-    # FIX Store All list of features and involved lookup by languagesystem
-    # in a dict to avoid duplicate. ut MTI files have duplicate. It should be corrected at some point
+    ### PUT FEATURES TAG IN A DICT,
+    ### WITH NUMBER_ID AND INVOLVED LOOKUPS AS key, value,
+    ### IN A LIST THAT IS THE VALUE OF THE FEATURE
+    ### Ex: {ccmp : [{"1" : "2, 3, 4"}, {"2": "3, 6, 8"}]}
+    ### THE SCRIPTS LIST WHICH LOOKUPS ARE INVOLVED IN EACH FEATURE TAG
+    ### EX: THE ARABIC URDU NEDDS LOOKUPS 2, 3, 4 IN ITS CCMP
+    ### WHERE ARABIC FARSI NEEDS A ccmp WITH LOOKUPS 3, 6, 8.
+    ### TO INDICATE THIS, EACH SCRIPT TAG PRECISE THE NUMBER_ID OF THE FEATURE TAG
+    ### EX : arab URD 1
+    ###      arab FAR 2
     gposFeaDict = dict()
     for i in featuresTable:
         isplit = i.split("\t")
@@ -854,7 +1024,6 @@ def readGDEF(classGdef, rdir):
 
     ### LOOP IN THE DICT OF GLYPHSCLASSDEF to make sure groups are filled,
     ### if not then no list it in GLYPHSCLASSDEF
-
     txt += "\ntable GDEF {\n  GlyphClassDef\n\t\t"
     for i in GlyphClassDefDict:
         if len(GlyphClassDefDict[i]) != 0 and i != "@GDEF_compo = [":
@@ -990,11 +1159,9 @@ def readGSUB(monotypeFeaturesTxt):
             # contextContent += parseReversechainedGPOS(name, lookup, namesAndContentsLookup)
     txt += contextContent + chainedContent
 
-    ### FIXED
     gsubFeaDict = dict()
     for i in featuresTable:
         isplit = i.split("\t")
-        # print(isplit)
         if isplit[1] not in gsubFeaDict:
             gsubFeaDict[isplit[1]] = [{isplit[0]: isplit[2]}]
         else:
@@ -1003,24 +1170,7 @@ def readGSUB(monotypeFeaturesTxt):
                 itemz.append(z)
             itemz.append({isplit[0]: isplit[2]})
             gsubFeaDict[isplit[1]] = itemz
-    # print(gsubFeaDict)
-    ####
-    # TEST
-    # for feat in gsubFeaDict:
-    #     print("feature " + feat + " {\n")
-    #     for id_ in gsubFeaDict[feat]:
-    #         for k in id_.keys():
-    #             zone = ""
-    #             print(id_)
-    #             for lkup in id_[k].split(","):
-    #                 zone += "\t\tlookup " + str(namesAndContentsLookup[int(lkup)][0]).strip("['']") + ";\n"
-    #             for scri in listScript:
-    #                 print(scri)
-    #                 if k in scri[3]:
-    #                     print(zone)
-    #                 # print("\t\tlookup " + str(namesAndContentsLookup[int(lkup)][0]).strip("['']").replace(" ", "_") + ";\n")
-    #     print("\n\t}" + feat + ";\n")
-    ####
+    # WRITE THE LOOKUP IN EACH FEATURES WITh THE CORRECT SCRIPTS TAGS
     for feature in gsubFeaDict:
         gsubFeatures += "feature " + feature + " {\n"
         content = gsubFeaDict[feature]
@@ -1070,7 +1220,7 @@ def mti2fea(family):
 
     # for each master, create a feature file, with its 3 mti files (GPOS, GDEF, GSUB)
     for m in features_by_masters:
-        ufoPath = os.path.join(repo, m+".ufo")
+        ufoPath = os.path.join(repo, m + ".ufo")
         ft = defcon.Font(ufoPath)
         mtiFeatures = []
         # print(m)
@@ -1100,7 +1250,8 @@ def mti2fea(family):
                 gdefTxt, groups_txt, filter_grps_txt = readGDEF(classGdef, rdir)
                 featureTxt = groups_txt + filter_grps_txt + featureTxt + gdefTxt
 
-        ### DEAL WITH THE GSUB TABLE ###
+        ### DEAL WITH THE GSUB TABLE. IF THERE IS NO RULES A VOID GSUB ###
+        ### WITH A FAKE FEATURE CALLED "DUMM" IS DECLARED. IT SHOULDN'T BE ADDED OBVIOUSLY
             elif "GSUB" in table:
                 monotypeFeaturesTxt = getGTXT(table)
                 gsubTxt, languagesystem, gsubFeatures = readGSUB(monotypeFeaturesTxt)
@@ -1121,4 +1272,4 @@ def mti2fea(family):
 
 
 if __name__ == "__main__":
-    fea_ = mti2fea("NotoSansBrahmi")
+    fea_ = mti2fea("NotoSerifSinhala")

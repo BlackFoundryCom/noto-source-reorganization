@@ -88,5 +88,5 @@ def ufoWithMTIfeatures2font(directory, *output):
             otf2.save(destination + u[:-4] + ".ttf")
 
 
-ufoWithMTIfeatures2font("NotoMusic", "ttf")
+ufoWithMTIfeatures2font("NotoSansCanadianAboriginal", "ttf")
 # readPlist("NotoMusic-Regular", "NotoMusic")

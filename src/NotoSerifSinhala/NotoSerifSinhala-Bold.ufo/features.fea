@@ -37,6 +37,10 @@ lookup gsub_2_ligature {
     sub rasinh viramasinh uni200D by rahalantsinh ;
     } gsub_2_ligature ;
 
+lookup gsub_1_context {
+    sub rasinh' lookup gsub_2_ligature viramasinh' uni200D' rasinh';
+    } gsub_1_context ;
+
 lookup gsub_3_multiple {
 	sub rahalantsinh by rasinh viramasinh ;
     } gsub_3_multiple ;
@@ -101,14 +105,34 @@ lookup gsub_8_ligature {
     sub fasinh uni200D viramasinh by fatouchsinh ;
     } gsub_8_ligature ;
 
+lookup gsub_7_context {
+    @_group_1_gsub_7_context = [ kasinh khasinh gasinh ghasinh ngasinh nngasinh casinh chasinh jasinh jhasinh nyasinh jnyasinh nyjasinh ttasinh tthasinh ddasinh ddhasinh nnasinh nnddasinh tasinh thasinh dasinh dhasinh nasinh ndasinh pasinh phasinh basinh bhasinh masinh mbasinh yasinh rasinh lasinh vasinh shasinh ssasinh sasinh hasinh llasinh fasinh ];
+    @_group_2_gsub_7_context = [ uni200D ];
+    @_group_3_gsub_7_context = [ viramasinh ];
+
+    sub @_group_1_gsub_7_context' lookup gsub_8_ligature @_group_2_gsub_7_context' @_group_3_gsub_7_context' @_group_1_gsub_7_context' ;
+    } gsub_7_context ;
+
 lookup gsub_10_multiple {
 	sub rephsinh by viramasinh rasinh ;
     } gsub_10_multiple ;
+
+lookup gsub_9_chained {
+    sub rasinh rephsinh' lookup gsub_10_multiple ;
+
+    } gsub_9_chained ;
 
 lookup gsub_12_single {
 	sub uvowelsignsinh by aevowelsignlowsinh ;
 	sub uuvowelsignsinh by aaevowelsignlowsinh ;
     } gsub_12_single ;
+
+lookup gsub_11_chained {
+    lookupflag MarkAttachmentType @_MarkAttachmentType_2  ;
+    sub rakarsinh uvowelsignsinh' lookup gsub_12_single ;
+    sub rakarsinh uuvowelsignsinh' lookup gsub_12_single ;
+
+    } gsub_11_chained ;
 
 lookup gsub_13_ligature {
     lookupflag MarkAttachmentType @_MarkAttachmentType_2  ;
@@ -129,9 +153,19 @@ lookup gsub_16_single {
 	sub rephsinh by yapostsinh ;
     } gsub_16_single ;
 
+lookup gsub_14_chained {
+    sub  yapostsinh' lookup gsub_15_single  rephsinh' lookup gsub_16_single ;
+
+    } gsub_14_chained ;
+
 lookup gsub_18_ligature {
     sub rephsinh yapostsinh by yapostrephsinh ;
     } gsub_18_ligature ;
+
+lookup gsub_17_chained {
+    sub yasinh rephsinh' lookup gsub_18_ligature  yapostsinh' ;
+
+    } gsub_17_chained ;
 
 lookup gsub_19_ligature {
     sub aavowelsignsinh viramasinh by oovowelsignaltsinh ;
@@ -320,6 +354,57 @@ lookup gsub_65_single {
 lookup gsub_66_single {
 	sub rakarsinh by navarasinh ;
     } gsub_66_single ;
+
+lookup gsub_20_chained {
+    lookupflag MarkAttachmentType @_MarkAttachmentType_2  ;
+    sub kasinh rakarsinh' lookup gsub_21_single ;
+    sub khasinh rakarsinh' lookup gsub_22_single ;
+    sub gasinh rakarsinh' lookup gsub_23_single ;
+    sub ghasinh rakarsinh' lookup gsub_24_single ;
+    sub ngasinh rakarsinh' lookup gsub_25_single ;
+    sub nngasinh rakarsinh' lookup gsub_26_single ;
+    sub casinh rakarsinh' lookup gsub_27_single ;
+    sub chasinh rakarsinh' lookup gsub_28_single ;
+    sub jasinh rakarsinh' lookup gsub_29_single ;
+    sub jhasinh rakarsinh' lookup gsub_30_single ;
+    sub nyjasinh rakarsinh' lookup gsub_31_single ;
+    sub ttasinh rakarsinh' lookup gsub_32_single ;
+    sub tthasinh rakarsinh' lookup gsub_33_single ;
+    sub ddasinh rakarsinh' lookup gsub_34_single ;
+    sub ddhasinh rakarsinh' lookup gsub_35_single ;
+    sub nnasinh rakarsinh' lookup gsub_36_single ;
+    sub nnddasinh rakarsinh' lookup gsub_37_single ;
+    sub tasinh rakarsinh' lookup gsub_38_single ;
+    sub thasinh rakarsinh' lookup gsub_39_single ;
+    sub dhasinh rakarsinh' lookup gsub_40_single ;
+    sub nasinh rakarsinh' lookup gsub_41_single ;
+    sub pasinh rakarsinh' lookup gsub_42_single ;
+    sub phasinh rakarsinh' lookup gsub_43_single ;
+    sub basinh rakarsinh' lookup gsub_44_single ;
+    sub bhasinh rakarsinh' lookup gsub_45_single ;
+    sub masinh rakarsinh' lookup gsub_46_single ;
+    sub mbasinh rakarsinh' lookup gsub_47_single ;
+    sub yasinh rakarsinh' lookup gsub_48_single ;
+    sub vasinh rakarsinh' lookup gsub_49_single ;
+    sub shasinh rakarsinh' lookup gsub_50_single ;
+    sub ssasinh rakarsinh' lookup gsub_51_single ;
+    sub sasinh rakarsinh' lookup gsub_52_single ;
+    sub hasinh rakarsinh' lookup gsub_53_single ;
+    sub fasinh rakarsinh' lookup gsub_54_single ;
+    sub kavasinh rakarsinh' lookup gsub_55_single ;
+    sub kassasinh rakarsinh' lookup gsub_56_single ;
+    sub gadhasinh rakarsinh' lookup gsub_57_single ;
+    sub nyacasinh rakarsinh' lookup gsub_58_single ;
+    sub ttatthasinh rakarsinh' lookup gsub_59_single ;
+    sub tathasinh rakarsinh' lookup gsub_60_single ;
+    sub tavasinh rakarsinh' lookup gsub_61_single ;
+    sub dadhasinh rakarsinh' lookup gsub_62_single ;
+    sub davasinh rakarsinh' lookup gsub_63_single ;
+    sub nathasinh rakarsinh' lookup gsub_64_single ;
+    sub nadhasinh rakarsinh' lookup gsub_65_single ;
+    sub navasinh rakarsinh' lookup gsub_66_single ;
+
+    } gsub_20_chained ;
 
 lookup gsub_67_ligature {
     lookupflag MarkAttachmentType @_MarkAttachmentType_1  ;
@@ -756,6 +841,14 @@ lookup gsub_71_single {
 	sub uuvowelsignsinh by aaevowelsignsinh ;
     } gsub_71_single ;
 
+lookup gsub_70_context {
+    lookupflag MarkAttachmentType @_MarkAttachmentType_2  ;
+
+    sub rasinh' uvowelsignsinh' lookup gsub_71_single;
+    sub rasinh' uuvowelsignsinh' lookup gsub_71_single;
+    sub llasinh' lookup gsub_71_single uuvowelsignsinh' lookup gsub_71_single;
+    } gsub_70_context ;
+
 lookup gsub_72_ligature {
     sub nyasinh aavowelsignsinh by nyaavowelsinh ;
     sub jnyasinh aavowelsignsinh by jnyaavowelsinh ;
@@ -775,100 +868,10 @@ lookup gsub_74_multiple {
 	sub dayasinh by dasinh yapostsinh ;
     } gsub_74_multiple ;
 
-lookup gsub_1_context {
-
-	sub rasinh' lookup gsub_2_ligature viramasinh' uni200D' rasinh';
-    } gsub_1_context ;
-
-lookup gsub_7_context {
-	@_group_1_gsub_7_context = [ kasinh khasinh gasinh ghasinh ngasinh nngasinh casinh chasinh jasinh jhasinh nyasinh jnyasinh nyjasinh ttasinh tthasinh ddasinh ddhasinh nnasinh nnddasinh tasinh thasinh dasinh dhasinh nasinh ndasinh pasinh phasinh basinh bhasinh masinh mbasinh yasinh rasinh lasinh vasinh shasinh ssasinh sasinh hasinh llasinh fasinh ];
-	@_group_2_gsub_7_context = [ uni200D ];
-	@_group_3_gsub_7_context = [ viramasinh ];
-
-	sub @_group_1_gsub_7_context' lookup gsub_8_ligature @_group_2_gsub_7_context' @_group_3_gsub_7_context' @_group_1_gsub_7_context' ;
-    } gsub_7_context ;
-
-lookup gsub_70_context {
-    lookupflag MarkAttachmentType @_MarkAttachmentType_2  ;
-
-	sub rasinh' uvowelsignsinh' lookup gsub_71_single;
-	sub rasinh' uuvowelsignsinh' lookup gsub_71_single;
-	sub llasinh' lookup gsub_71_single uuvowelsignsinh' lookup gsub_71_single;
-    } gsub_70_context ;
-
 lookup gsub_73_context {
 
 	sub dayasinh' lookup gsub_74_multiple rakarsinh';
     } gsub_73_context ;
-
-lookup gsub_9_chained {
-	sub rasinh rephsinh' lookup gsub_10_multiple ;
-    } gsub_9_chained ;
-
-lookup gsub_11_chained {
-    lookupflag MarkAttachmentType @_MarkAttachmentType_2  ;
-	sub rakarsinh uvowelsignsinh' lookup gsub_12_single ;
-	sub rakarsinh uuvowelsignsinh' lookup gsub_12_single ;
-    } gsub_11_chained ;
-
-lookup gsub_14_chained {
-	sub  yapostsinh' rephsinh' lookup gsub_15_single;
-    } gsub_14_chained ;
-
-lookup gsub_17_chained {
-	sub yasinh rephsinh' lookup gsub_18_ligature  yapostsinh' ;
-    } gsub_17_chained ;
-
-lookup gsub_20_chained {
-    lookupflag MarkAttachmentType @_MarkAttachmentType_2  ;
-	sub kasinh rakarsinh' lookup gsub_21_single ;
-	sub khasinh rakarsinh' lookup gsub_22_single ;
-	sub gasinh rakarsinh' lookup gsub_23_single ;
-	sub ghasinh rakarsinh' lookup gsub_24_single ;
-	sub ngasinh rakarsinh' lookup gsub_25_single ;
-	sub nngasinh rakarsinh' lookup gsub_26_single ;
-	sub casinh rakarsinh' lookup gsub_27_single ;
-	sub chasinh rakarsinh' lookup gsub_28_single ;
-	sub jasinh rakarsinh' lookup gsub_29_single ;
-	sub jhasinh rakarsinh' lookup gsub_30_single ;
-	sub nyjasinh rakarsinh' lookup gsub_31_single ;
-	sub ttasinh rakarsinh' lookup gsub_32_single ;
-	sub tthasinh rakarsinh' lookup gsub_33_single ;
-	sub ddasinh rakarsinh' lookup gsub_34_single ;
-	sub ddhasinh rakarsinh' lookup gsub_35_single ;
-	sub nnasinh rakarsinh' lookup gsub_36_single ;
-	sub nnddasinh rakarsinh' lookup gsub_37_single ;
-	sub tasinh rakarsinh' lookup gsub_38_single ;
-	sub thasinh rakarsinh' lookup gsub_39_single ;
-	sub dhasinh rakarsinh' lookup gsub_40_single ;
-	sub nasinh rakarsinh' lookup gsub_41_single ;
-	sub pasinh rakarsinh' lookup gsub_42_single ;
-	sub phasinh rakarsinh' lookup gsub_43_single ;
-	sub basinh rakarsinh' lookup gsub_44_single ;
-	sub bhasinh rakarsinh' lookup gsub_45_single ;
-	sub masinh rakarsinh' lookup gsub_46_single ;
-	sub mbasinh rakarsinh' lookup gsub_47_single ;
-	sub yasinh rakarsinh' lookup gsub_48_single ;
-	sub vasinh rakarsinh' lookup gsub_49_single ;
-	sub shasinh rakarsinh' lookup gsub_50_single ;
-	sub ssasinh rakarsinh' lookup gsub_51_single ;
-	sub sasinh rakarsinh' lookup gsub_52_single ;
-	sub hasinh rakarsinh' lookup gsub_53_single ;
-	sub fasinh rakarsinh' lookup gsub_54_single ;
-	sub kavasinh rakarsinh' lookup gsub_55_single ;
-	sub kassasinh rakarsinh' lookup gsub_56_single ;
-	sub gadhasinh rakarsinh' lookup gsub_57_single ;
-	sub nyacasinh rakarsinh' lookup gsub_58_single ;
-	sub ttatthasinh rakarsinh' lookup gsub_59_single ;
-	sub tathasinh rakarsinh' lookup gsub_60_single ;
-	sub tavasinh rakarsinh' lookup gsub_61_single ;
-	sub dadhasinh rakarsinh' lookup gsub_62_single ;
-	sub davasinh rakarsinh' lookup gsub_63_single ;
-	sub nathasinh rakarsinh' lookup gsub_64_single ;
-	sub nadhasinh rakarsinh' lookup gsub_65_single ;
-	sub navasinh rakarsinh' lookup gsub_66_single ;
-    } gsub_20_chained ;
-
 
 #GPOS
 lookup gpos_0_pair {
@@ -1556,82 +1559,82 @@ lookup gpos_3_mark_to_base {
 
 #FEATURES LIST
 feature abvs {
-script sinh ;
-	language dflt ;
-		lookup gsub_11_chained;
-		lookup gsub_13_ligature;
-		lookup gsub_14_chained;
-		lookup gsub_17_chained;
-		lookup gsub_19_ligature;
-		lookup gsub_20_chained;
-		lookup gsub_67_ligature;
+	script sinh ;
+		language dflt ;
+			lookup gsub_11_chained;
+			lookup gsub_13_ligature;
+			lookup gsub_14_chained;
+			lookup gsub_17_chained;
+			lookup gsub_19_ligature;
+			lookup gsub_20_chained;
+			lookup gsub_67_ligature;
 		} abvs;
 
 feature akhn {
-script sinh ;
-	language dflt ;
-		lookup gsub_0_ligature;
-		lookup gsub_1_context;
-		lookup gsub_3_multiple;
-		lookup gsub_7_context;
+	script sinh ;
+		language dflt ;
+			lookup gsub_0_ligature;
+			lookup gsub_1_context;
+			lookup gsub_3_multiple;
+			lookup gsub_7_context;
 		} akhn;
 
 feature blws {
-script sinh ;
-	language dflt ;
-		lookup gsub_68_ligature;
+	script sinh ;
+		language dflt ;
+			lookup gsub_68_ligature;
 		} blws;
 
 feature dlig {
-script sinh ;
-	language dflt ;
-		lookup gsub_72_ligature;
-		lookup gsub_73_context;
+	script sinh ;
+		language dflt ;
+			lookup gsub_72_ligature;
+			lookup gsub_73_context;
 		} dlig;
 
 feature pres {
-script sinh ;
-	language dflt ;
-		lookup gsub_9_chained;
+	script sinh ;
+		language dflt ;
+			lookup gsub_9_chained;
 		} pres;
 
 feature pstf {
-script sinh ;
-	language dflt ;
-		lookup gsub_6_single;
+	script sinh ;
+		language dflt ;
+			lookup gsub_6_single;
 		} pstf;
 
 feature psts {
-script sinh ;
-	language dflt ;
-		lookup gsub_69_ligature;
-		lookup gsub_70_context;
+	script sinh ;
+		language dflt ;
+			lookup gsub_69_ligature;
+			lookup gsub_70_context;
 		} psts;
 
 feature rphf {
-script sinh ;
-	language dflt ;
-		lookup gsub_4_ligature;
+	script sinh ;
+		language dflt ;
+			lookup gsub_4_ligature;
 		} rphf;
 
 feature vatu {
-script sinh ;
-	language dflt ;
-		lookup gsub_5_ligature;
+	script sinh ;
+		language dflt ;
+			lookup gsub_5_ligature;
 		} vatu;
 
 feature blwm {
-script sinh ;
-	language dflt ;
-		lookup gpos_3_mark_to_base;
+	script sinh ;
+		language dflt ;
+			lookup gpos_3_mark_to_base;
 		} blwm;
 
 feature dist {
-script sinh ;
-	language dflt ;
-		lookup gpos_0_pair;
-		lookup gpos_1_pair;
-		lookup gpos_2_cursive;
+	script sinh ;
+		language dflt ;
+			lookup gpos_0_pair;
+			lookup gpos_1_pair;
+			lookup gpos_2_cursive;
 		} dist;
 
 

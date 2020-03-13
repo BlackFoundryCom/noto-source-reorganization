@@ -1,7 +1,9 @@
 import os
 import json
 import shutil
+import defcon
 
+from fontTools.misc.plistlib    import load as readThePlist
 from fontmake.font_project              import FontProject
 from defcon                             import Font
 from Lib.makeThings                     import ufo2font, ufosToGlyphs
@@ -42,11 +44,13 @@ pan_european_fonts = ["NotoSans", "NotoSans-Italic", "NotoSerif", "NotoSerif-Ita
 arabic_fonts = ["NotoKufiArabic", "NotoNaskhArabic", "NotoNaskhArabicUI", "NotoNastaliqUrdu", "NotoSansArabic", "NotoSansArabicUI"]
 
 
-def add_ui_mti_features_to_master_ufos():
-    mti_source = mti_file_for_UI_Version
-    mti_paths = readPlist(mti_source)
+
+## Code from fontmake
+def add_mti_features_to_master_ufos(family, masters):
+    rdir = os.path.abspath("../src/" + family + "/")
+    mti_paths = readThePlist(os.path.join(rdir, family+".plist")) # os.path.join(rdir, family+".plist")
     for master in masters:
-        key = master.info.familyName.replace(" ", "")+"UI-"+master.info.styleName.replace(" ", "")
+        key = master.info.familyName.replace(" ", "")+"-"+master.info.styleName.replace(" ", "")
         for table, path in mti_paths[key].items():
             with open(os.path.join(mtiFolderPath, path), "rb") as mti_:
                 ufo_path = (
@@ -58,7 +62,7 @@ def add_ui_mti_features_to_master_ufos():
             # the Glyphs file should be ignored. We clear it here because
             # it only contains junk information anyway.
             master.features.text = ""
-            # master.save()
+            master.save()
     print("\tufos updated with UI versioned MTI data")
 
 def openDesignSpace(path):
@@ -519,6 +523,16 @@ def mastersUfos2fonts(family, *flavors, instances = False):
         ufo2font(family, masters, "otf")
     addSecureSet(family, flavors)
 
+def removeData(family, masters):
+    rdir = os.abspath("../src/"+family+"/")
+    for master in masters:
+        master.data = ""
+        # If we have MTI sources, any Adobe feature files derived from
+        # the Glyphs file should be ignored. We clear it here because
+        # it only contains junk information anyway.
+        master.save()
+    print("\tremove mti info")
+
 def instances(family, *output, newName=" "):
     securetSetIsIncluded = pan_european_fonts
     mergeable = ["ttf", "woff2"]
@@ -531,8 +545,13 @@ def instances(family, *output, newName=" "):
     path, folder = getFile(".designspace", "src", family)
     designSpace = openDesignSpace(path)
     destination = folder + "/" + "Instances"
-    # if not os.path.exists(destination):
-    #     os.makedirs(destination)
+    ###
+    ### test if mti
+    for file in os.listdir(folder):
+        if file.endswith(".plist"):
+            masters = designSpace.loadSourceFonts(defcon.Font)
+            add_mti_features_to_master_ufos(family, masters)
+    ###
     fp = FontProject()
     fonts = fp.run_from_designspace(expand_features_to_instances=True, use_mutatormath=True, \
         designspace_path = path, interpolate = True, output=("otf"), output_dir = destination)
@@ -546,13 +565,14 @@ def instances(family, *output, newName=" "):
         addSecureSet(family, output)
     if newName != " ":
         renameFonts(family, newName)
+    removeData()
 
 
 ### TEST FUNCTIONS ###
 # mastersUfos2fonts("NotoSansThaana", "woff2")
 # designSpace2Var("NotoSansThaana")
 # subsetFonts("NotoSerif", "SecureSet")
-# instances("NotoSansArabic", "ttf")
+instances("NotoSansCanadianAboriginal", "ttf")
 # subsetFonts("NotoSerif", "CyrillicPro", familyNewName = "Avocado Sans", flavor=["otf"])
 # subsetFonts("NotoKufiArabic", ["Core_Arabic"], flavor=["ttf"])
 # mastersUfos2fonts("NotoSansThaana", "woff2")

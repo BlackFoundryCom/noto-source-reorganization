@@ -122,4 +122,3 @@ def swaper(family):
             shutil.copy(i, newFolder)
     os.rename(newFolder+"/"+family+".designspace", newFolder+"/"+family+".designspace")
     instances(family+"AltIJ", newName=family+"AltIJ")
-swaper("NotoSerif")
