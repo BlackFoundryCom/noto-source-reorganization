@@ -1,30 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="toneonedotabove-ar" format="2">
   <unicode hex="08EA"/>
-  <anchor x="67" y="458" name="_top"/>
-  <anchor x="67" y="783" name="top"/>
+  <anchor x="72" y="468" name="_top"/>
+  <anchor x="72" y="607" name="top"/>
   <outline>
-    <contour>
-      <point x="67" y="689" type="curve" smooth="yes"/>
-      <point x="92" y="689"/>
-      <point x="113" y="710"/>
-      <point x="113" y="736" type="curve" smooth="yes"/>
-      <point x="113" y="761"/>
-      <point x="92" y="783"/>
-      <point x="67" y="783" type="curve" smooth="yes"/>
-      <point x="41" y="783"/>
-      <point x="20" y="761"/>
-      <point x="20" y="736" type="curve" smooth="yes"/>
-      <point x="20" y="710"/>
-      <point x="41" y="689"/>
-    </contour>
+    <component base="_dotabove-ar" xScale="0.89854" yScale="0.89854" xOffset="4" yOffset="644"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/25 17:31:32</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>133</integer>
+      <integer>144</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

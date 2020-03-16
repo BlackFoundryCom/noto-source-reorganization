@@ -1,19 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fathatan-ar.medi" format="2">
-  <advance width="270"/>
+  <advance width="288"/>
   <unicode hex="FE71"/>
-  <guideline x="490" y="113" angle="270"/>
-  <guideline x="10" y="113" angle="270"/>
-  <anchor x="135" y="0" name="bottom"/>
-  <anchor x="109" y="708" name="top"/>
   <outline>
     <component base="kashida-ar"/>
-    <component base="fathatan-ar" xOffset="-47"/>
+    <component base="fathatan-ar" xOffset="-17" yOffset="-49"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/08/02 20:58:23</string>
+      <string>2020/02/26 22:28:25</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>0</integer>

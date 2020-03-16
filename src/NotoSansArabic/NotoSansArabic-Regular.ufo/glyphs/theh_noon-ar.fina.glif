@@ -1,24 +1,46 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="theh_noon-ar.fina" format="2">
-  <advance width="1103"/>
+  <advance width="1072"/>
   <unicode hex="FC79"/>
-  <anchor x="730" y="0" name="caret_1"/>
-  <anchor x="910" y="-5" name="bottom_1"/>
-  <anchor x="313" y="-232" name="bottom_2"/>
-  <anchor x="929" y="595" name="top_1"/>
-  <anchor x="332" y="497" name="top_2"/>
+  <anchor x="894" y="658" name="top_1"/>
+  <anchor x="352" y="472" name="top_2"/>
+  <anchor x="877" y="-32" name="bottom.dot"/>
+  <anchor x="879" y="-110" name="bottom_1"/>
+  <anchor x="331" y="-280" name="bottom_2"/>
+  <anchor x="894" y="346" name="top.dot_1"/>
+  <anchor x="351" y="268" name="top.dot_2"/>
   <outline>
-    <component base="theh-ar.medi" xOffset="730"/>
-    <component base="noon-ar.fina"/>
+    <component base="alefMaksura_noonghunna-ar.fina"/>
+    <component base="dotabove-ar" xOffset="276" yOffset="-164"/>
+    <component base="threedotsupabove-ar" xOffset="754" yOffset="-86"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot_2</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot_1</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>threedotsupabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>theh-ar.medi</string>
+      <string>noon-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>noon-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/28 10:14:12</string>
     </dict>
   </lib>
 </glyph>

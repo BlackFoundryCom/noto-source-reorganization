@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sheenDotbelow-ar" format="2">
+  <advance width="1036"/>
+  <unicode hex="06FA"/>
+  <anchor x="730" y="-111" name="bottom"/>
+  <anchor x="730" y="-20" name="bottom.dot"/>
+  <anchor x="737" y="483" name="top"/>
+  <anchor x="738" y="361" name="top.dot"/>
+  <outline>
+    <component base="seen-ar"/>
+    <component base="threedotsupabove-ar" xOffset="626" yOffset="-71"/>
+    <component base="dotbelow-ar" xOffset="670" yOffset="-18"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedotsupabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

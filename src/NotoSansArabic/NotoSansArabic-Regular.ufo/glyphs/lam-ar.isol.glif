@@ -1,16 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lam-ar.isol" format="2">
-  <advance width="695"/>
+  <advance width="703"/>
   <unicode hex="FEDD"/>
-  <anchor x="313" y="-232" name="bottom"/>
-  <anchor x="322" y="457" name="top"/>
+  <anchor x="323" y="-272" name="bottom"/>
+  <anchor x="323" y="-219" name="bottom.dot"/>
+  <anchor x="565" y="418" name="center"/>
+  <anchor x="207" y="498" name="top"/>
+  <anchor x="555" y="726" name="top.dot"/>
   <outline>
     <component base="lam-ar"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/25 17:31:31</string>
     </dict>
   </lib>
 </glyph>

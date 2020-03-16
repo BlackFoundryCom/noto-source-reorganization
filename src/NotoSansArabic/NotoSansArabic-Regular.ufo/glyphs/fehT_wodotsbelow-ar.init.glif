@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fehTwodotsbelow-ar.init" format="2">
-  <advance width="447"/>
-  <anchor x="205" y="-191" name="bottom"/>
-  <anchor x="222" y="501" name="top"/>
+  <advance width="508"/>
+  <anchor x="275" y="-111" name="bottom"/>
+  <anchor x="276" y="-21" name="bottom.dot"/>
+  <anchor x="253" y="668" name="top"/>
+  <anchor x="257" y="558" name="top.dot"/>
   <outline>
     <component base="dotlessfeh-ar.init"/>
-    <component base="twodotshorizontalbelow-ar" xOffset="61" yOffset="-5"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="135" yOffset="-19"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/25 22:41:56</string>
     </dict>
   </lib>
 </glyph>

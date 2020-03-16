@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pertenthousand-ar" format="2">
+  <advance width="826"/>
+  <unicode hex="060A"/>
+  <outline>
+    <contour>
+      <point x="573" y="-9" type="curve"/>
+      <point x="614" y="31" type="line"/>
+      <point x="602" y="47"/>
+      <point x="585" y="64"/>
+      <point x="567" y="78" type="curve"/>
+      <point x="527" y="35" type="line"/>
+      <point x="545" y="20"/>
+      <point x="555" y="9"/>
+    </contour>
+    <contour>
+      <point x="745" y="-9" type="curve"/>
+      <point x="786" y="31" type="line"/>
+      <point x="774" y="47"/>
+      <point x="757" y="64"/>
+      <point x="739" y="78" type="curve"/>
+      <point x="699" y="35" type="line"/>
+      <point x="717" y="20"/>
+      <point x="727" y="9"/>
+    </contour>
+    <component base="percent-ar"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=percent-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/26 20:49:28</string>
+    </dict>
+  </lib>
+</glyph>

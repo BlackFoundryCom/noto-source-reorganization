@@ -1,37 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="vabove-ar" format="2">
   <unicode hex="065A"/>
-  <anchor x="115" y="430" name="_top"/>
-  <anchor x="116" y="757" name="top"/>
+  <anchor x="135" y="432" name="_top.dot"/>
+  <anchor x="138" y="685" name="top"/>
   <outline>
-    <contour>
-      <point x="87" y="564" type="curve"/>
-      <point x="146" y="570" type="line"/>
-      <point x="126" y="609" type="line"/>
-      <point x="108" y="648"/>
-      <point x="63" y="737"/>
-      <point x="46" y="764" type="curve"/>
-      <point x="0" y="739" type="line"/>
-      <point x="25" y="697"/>
-      <point x="69" y="604"/>
-    </contour>
-    <contour>
-      <point x="146" y="570" type="line"/>
-      <point x="162" y="612"/>
-      <point x="213" y="720"/>
-      <point x="227" y="747" type="curve"/>
-      <point x="182" y="766" type="line"/>
-      <point x="170" y="745"/>
-      <point x="119" y="632"/>
-      <point x="102" y="586" type="curve"/>
-    </contour>
+    <component base="_vabove"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/03/01 12:28:58</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>235</integer>
+      <integer>268</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

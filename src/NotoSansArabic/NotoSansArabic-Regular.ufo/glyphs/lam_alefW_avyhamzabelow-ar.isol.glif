@@ -1,14 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lam_alefWavyhamzabelow-ar.isol" format="2">
-  <advance width="467"/>
-  <anchor x="455" y="0" name="bottom_1"/>
-  <anchor x="159" y="0" name="bottom_2"/>
-  <anchor x="291" y="0" name="caret_1"/>
-  <anchor x="411" y="714" name="top_1"/>
-  <anchor x="98" y="552" name="top_2"/>
+  <advance width="623"/>
+  <anchor x="441" y="-16" name="bottom.dot_1"/>
+  <anchor x="161" y="-20" name="bottom.dot_2"/>
+  <anchor x="457" y="-111" name="bottom_1"/>
+  <anchor x="163" y="-288" name="bottom_2"/>
+  <anchor x="474" y="596" name="center"/>
+  <anchor x="469" y="746" name="top_1"/>
+  <anchor x="137" y="654" name="top_2"/>
   <outline>
-    <component base="lam_alef-ar"/>
-    <component base="wavyhamzabelow-ar" yOffset="-1"/>
+    <component base="lam_alefWavyhamzabelow-ar"/>
   </outline>
   <lib>
     <dict>
@@ -17,12 +18,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>alefWavyhamzaabove-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/04 18:34:22</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
+      <string>2020/02/28 21:11:02</string>
     </dict>
   </lib>
 </glyph>

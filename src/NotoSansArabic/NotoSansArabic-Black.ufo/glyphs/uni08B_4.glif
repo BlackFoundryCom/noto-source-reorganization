@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni08B4" format="2">
+  <advance width="965"/>
+  <unicode hex="08B4"/>
+  <anchor x="460" y="-111" name="bottom"/>
+  <anchor x="461" y="-20" name="bottom.dot"/>
+  <anchor x="484" y="667" name="top"/>
+  <anchor x="806" y="744" name="top.dot"/>
+  <outline>
+    <component base="kaf-ar"/>
+    <component base="dotbelow-ar" xOffset="355" yOffset="-15"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/26 22:28:25</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>arabic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

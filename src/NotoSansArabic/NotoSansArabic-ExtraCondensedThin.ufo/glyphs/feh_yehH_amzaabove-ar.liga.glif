@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="feh_yehHamzaabove-ar.liga" format="2">
+  <advance width="628"/>
+  <anchor x="94" y="466" name="top_2"/>
+  <anchor x="286" y="-246" name="bottom.dot"/>
+  <anchor x="520" y="-291" name="bottom_1"/>
+  <anchor x="286" y="-291" name="bottom_2"/>
+  <anchor x="406" y="555" name="top.dot_1"/>
+  <anchor x="92" y="181" name="top.dot_2"/>
+  <anchor x="407" y="733" name="top_1"/>
+  <outline>
+    <component base="feh_alefMaksura-ar.liga"/>
+    <component base="hamzaabove-ar" xOffset="-10" yOffset="-175"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot_2</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>hamzaabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>alefMaksura-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>fehDotless-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/02 14:43:21</string>
+    </dict>
+  </lib>
+</glyph>

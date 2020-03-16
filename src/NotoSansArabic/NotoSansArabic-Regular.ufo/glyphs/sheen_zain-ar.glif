@@ -1,23 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sheen_zain-ar" format="2">
-  <advance width="1180"/>
-  <anchor x="396" y="0" name="caret_1"/>
-  <anchor x="782" y="-5" name="bottom_1"/>
-  <anchor x="83" y="-217" name="bottom_2"/>
-  <anchor x="827" y="644" name="top_1"/>
-  <anchor x="163" y="553" name="top_2"/>
+  <advance width="1301"/>
+  <anchor x="283" y="502" name="top_2"/>
+  <anchor x="923" y="-111" name="bottom_1"/>
+  <anchor x="130" y="-301" name="bottom_2"/>
+  <anchor x="923" y="359" name="top.dot_1"/>
+  <anchor x="282" y="297" name="top.dot_2"/>
+  <anchor x="922" y="671" name="top_1"/>
   <outline>
-    <component base="sheen-ar.init" xOffset="396"/>
-    <component base="zain-ar.fina"/>
+    <component base="sheen_reh-ar"/>
+    <component base="dotabove-ar" xOffset="207" yOffset="-135"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot_2</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>sheen-ar.init</string>
+      <string>reh-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>zain-ar.fina</string>
+      <string>seen-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/28 20:33:31</string>
     </dict>
   </lib>
 </glyph>

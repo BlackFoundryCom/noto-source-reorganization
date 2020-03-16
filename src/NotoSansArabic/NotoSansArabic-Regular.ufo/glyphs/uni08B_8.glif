@@ -1,12 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni08B8" format="2">
-  <advance width="993"/>
+  <advance width="973"/>
   <unicode hex="08B8"/>
-  <anchor x="486" y="-25" name="bottom"/>
-  <anchor x="499" y="566" name="top"/>
+  <anchor x="480" y="-111" name="bottom"/>
+  <anchor x="480" y="-32" name="bottom.dot"/>
+  <anchor x="482" y="475" name="top"/>
+  <anchor x="482" y="305" name="top.dot"/>
   <outline>
     <component base="dotlessbeh-ar"/>
-    <component base="tehabove-ar.small" xOffset="328" yOffset="-230"/>
+    <component base="tehabove-ar.small" xOffset="323" yOffset="-127"/>
   </outline>
   <lib>
     <dict>
@@ -17,7 +19,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>dotlessbeh-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/25 17:31:32</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>arabic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

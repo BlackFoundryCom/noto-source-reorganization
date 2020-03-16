@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="highhamzaYeh-ar" format="2">
+  <advance width="948"/>
+  <unicode hex="0678"/>
+  <anchor x="278" y="456" name="top"/>
+  <anchor x="357" y="-261" name="bottom"/>
+  <anchor x="357" y="-221" name="bottom.dot"/>
+  <anchor x="168" y="235" name="top.dot"/>
+  <outline>
+    <component base="alefMaksura-ar"/>
+    <component base="highhamza-ar" xOffset="735" yOffset="-46"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>alefMaksura-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 22:36:45</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

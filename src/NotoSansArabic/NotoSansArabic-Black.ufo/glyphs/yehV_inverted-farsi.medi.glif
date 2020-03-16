@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehVinverted-farsi.medi" format="2">
+  <advance width="410"/>
+  <anchor x="217" y="-110" name="bottom"/>
+  <anchor x="215" y="-28" name="bottom.dot"/>
+  <anchor x="220" y="501" name="top"/>
+  <anchor x="220" y="393" name="top.dot"/>
+  <outline>
+    <component base="alefMaksura-ar.medi"/>
+    <component base="vinvertedabove-ar" xOffset="65" yOffset="-157"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="22" yOffset="-23"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/02 14:58:58</string>
+    </dict>
+  </lib>
+</glyph>

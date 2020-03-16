@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="beheh-ar.init" format="2">
+  <advance width="304"/>
+  <unicode hex="FB5C"/>
+  <anchor x="148" y="-114" name="bottom"/>
+  <anchor x="151" y="-28" name="bottom.dot"/>
+  <anchor x="166" y="565" name="top"/>
+  <anchor x="169" y="442" name="top.dot"/>
+  <outline>
+    <component base="dotlessbeh-ar.init.wide"/>
+    <component base="fourdotsbelow-ar" xOffset="17" yOffset="-28"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/02 14:58:58</string>
+    </dict>
+  </lib>
+</glyph>

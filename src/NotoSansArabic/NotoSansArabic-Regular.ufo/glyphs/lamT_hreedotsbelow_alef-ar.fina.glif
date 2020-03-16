@@ -1,22 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lamThreedotsbelow_alef-ar.fina" format="2">
-  <advance width="599"/>
-  <note>
-uni06B80627.fina
-</note>
-  <anchor x="0" y="0" name="caret_1"/>
-  <anchor x="516" y="0" name="bottom_1"/>
-  <anchor x="224" y="0" name="bottom_2"/>
-  <anchor x="422" y="714" name="top_1"/>
-  <anchor x="118" y="552" name="top_2"/>
+  <advance width="696"/>
+  <anchor x="494" y="-275" name="bottom_1"/>
+  <anchor x="493" y="-10" name="bottom.dot_1"/>
+  <anchor x="167" y="-20" name="bottom.dot_2"/>
+  <anchor x="166" y="-111" name="bottom_2"/>
+  <anchor x="526" y="561" name="center"/>
+  <anchor x="519" y="746" name="top_1"/>
+  <anchor x="155" y="655" name="top_2"/>
   <outline>
     <component base="lam_alef-ar.fina"/>
-    <component base="threedotsupbelow-ar" xOffset="317"/>
+    <component base="threedotsdownbelow-ar" xScale="0.98" yScale="0.98" xOffset="363" yOffset="-2"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot_1</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedotsdownbelow-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>lam_alef-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/29 22:08:17</string>
     </dict>
   </lib>
 </glyph>

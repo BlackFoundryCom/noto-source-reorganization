@@ -115,7 +115,17 @@ class complexSourcesBuilder():
         for i in os.listdir(familyFolder):
             if i.endswith(".txt") or i.endswith(".plist"):
                 shutil.copyfile(os.path.join(familyFolder, i), os.path.join(self.destination, i))
+                if i.endswith(".plist") and "-" in i:
+                    old = os.path.abspath(os.path.join(self.destination, i))
+                    cleaned = i.split("-")[0] + ".plist"
+                    new = os.path.abspath(os.path.join(self.destination, cleaned))
+                    os.rename(old, new)
 
+    """
+        Don't add mti path in ufo datas,
+        because it will prevent OpenType features to work, once added.
+        Or Do it only if no OT fea could been added.
+    """
     def add_mti_features_to_ufos(self):
         oneOrMorePlist = list()
         for i in os.listdir(os.path.join(self.notoSourcesPath, self.folderName)):
@@ -225,34 +235,47 @@ class rebuiltKerningfromOTFea():
 #     os.change(os.path.basename(self.notoSourcesDir))
 #     subprocess.run(["git submodule add https://github.com/googlefonts/noto-source"], shell=True, check=True)
 
+TODO = ["NotoSerifGurmukhi-MM.glyphs"]
 
 if __name__ == '__main__':
     NotoSources = "../noto-source/src"
     fail = []
     for i in os.listdir(NotoSources):
         if i.startswith("Noto"):
-            if i.endswith(".glyphs"):
+            if i.endswith(".glyphs") and i in TODO:
                 print(i)
                 try:
                     typeface = sourcesBuilder(i)
                     typeface.convertion()
+                    ####
+                    # for j in os.listdir(os.path.join("../src", i)):
+                    #     if j.endswith(".designspace"):
+                    #         if "-" in j:
+                    #             clean = i + ".designspace"
+                    #             old = os.path.abspath(os.path.join(os.getcwd(), os.pardir, "src", i, j))
+                    #             new = os.path.abspath(os.path.join(os.getcwd(), os.pardir, "src", i, clean))
+                    #             os.rename(old, new)
+                    ####
                 except:
                     fail.append(i)
-            # elif os.path.isdir(os.path.join(NotoSources, i)):
-            #     print(i)
-            #     typeface = complexSourcesBuilder(i)
-            #     typeface.copy_mti_files()
+            elif os.path.isdir(os.path.join(NotoSources, i)) and i in TODO:
+                print(i)
+                try:
+                    typeface = complexSourcesBuilder(i)
+                    typeface.copy_mti_files()
+                except:
+                    fail.append(i)
     for f in fail:
         print(f, "didn't work")
-    for i in os.listdir("../src"):
-        if "DS_Store" not in i:
-            for j in os.listdir(os.path.join("../src", i)):
-                if j.endswith(".designspace"):
-                    if "-" in j:
-                        clean = i + ".designspace"
-                        old = os.path.abspath(os.path.join(os.getcwd(), os.pardir, "src", i, j))
-                        new = os.path.abspath(os.path.join(os.getcwd(), os.pardir, "src", i, clean))
-                        os.rename(old, new)
+    # for i in os.listdir("../src"):
+    #     if "DS_Store" not in i:
+    #         for j in os.listdir(os.path.join("../src", i)):
+    #             if j.endswith(".designspace"):
+    #                 if "-" in j:
+    #                     clean = i + ".designspace"
+    #                     old = os.path.abspath(os.path.join(os.getcwd(), os.pardir, "src", i, j))
+    #                     new = os.path.abspath(os.path.join(os.getcwd(), os.pardir, "src", i, clean))
+    #                     os.rename(old, new)
             # for j in os.listdir(os.path.join("../src", i)):
             #     if j.endswith(".designspace"):
             #         if j.split(".")[0] != i:

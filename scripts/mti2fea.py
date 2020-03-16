@@ -578,25 +578,28 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
             for e in isplit[4:]:
                 if e.split(",") not in _lookup_called:
                     _lookup_called.append(e.split(","))
+            # print(name, _lookup_called)
             rule += "    " + keyword + " "
+            input_rule = []
+            lookahead_in_rule = ""
             if _backtrack_group[0] != "":
                 for x in _backtrack_group:
                     x = x.replace(" ", "")
                     rule += "@_backtrack_group_" + x + "_" + name[2:-2] + " "
-            for x in _input_groups:
-                x = x.replace(" ", "")
-                rule += "@_impacted_group_" + x + "_" + name[2:-2]  + "' "
-            for x in _lookup_called:
-                x = x[1].replace(" ", "")
-                #BUG????
-                x = int(x)
-                lookup_name = str(namesAndContentsLookup[x][0])[2:].strip("['']")
-                rule += "lookup " + lookup_name + " "
+            for _inpt_grp in _input_groups:
+                _inpt_grp = _inpt_grp.replace(" ", "")
+                input_rule.append("@_impacted_group_" + _inpt_grp + "_" + name[2:-2]  + "' ")
+            for element2lookup in _lookup_called:
+                num_lookup = int(element2lookup[1].replace(" ", ""))
+                lookup_name = str(namesAndContentsLookup[num_lookup][0])[2:].strip("['']").replace(" ", "_")
+                index = int(element2lookup[0])-1
+                input_rule[index] = input_rule[index] + "lookup " + lookup_name
             if _lookahead_groups[0] != "":
                 for x in _lookahead_groups:
                     x = x.replace(" ", "")
-                    rule += "@_lookahead_group_" + x + "_" + name[2:-2] + " "
-            rule += ";\n"
+                    lookahead_in_rule += "@_lookahead_group_" + x + "_" + name[2:-2] + " "
+            rule += "".join(input_rule) + lookahead_in_rule + ";\n"
+            print(i, "\n", rule)
         elif "coverage\t" in i:
             x = i.split(",")[1]
             lookup_name = str(namesAndContentsLookup[int(x)][0])[2:].strip("['']")
@@ -617,7 +620,7 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
         elif "subtable end" in i:
             number_of_subtable += 1
             txt_added = GPOSSGUB_chained_subtable(namesAndContentsLookup, contenu[contenu.index(i)+1:], name, str(number_of_subtable), keyword)
-            print(txt_added)
+            # print(txt_added)
             break
     chainedPOS_txt =  chainedPOS_txt + rule + txt_added + "\n    } " + name[2:-2] + " ;\n\n"
     return chainedPOS_txt
@@ -627,8 +630,8 @@ def GPOSSGUB_chained_subtable(namesAndContentsLookup, content, name, num, keywor
     txt = "\n\tsubtable;\n"
     rule = ""
     contenu = [x for x in content if x != '']
-    for toto in contenu:
-        print(toto)
+    # for toto in contenu:
+    #     print(toto)
     if "backtrackclass definition begin" in contenu:
         classList = []
         for i in contenu:
@@ -709,7 +712,6 @@ def GPOSSGUB_chained_subtable(namesAndContentsLookup, content, name, num, keywor
     # RULES
     for i in contenu:
         if "class-chain" in i:
-            print("OK")
             isplit = i.split("\t")
             _backtrack_group = isplit[1].split(",")
             _input_groups = isplit[2].split(",")
@@ -718,25 +720,28 @@ def GPOSSGUB_chained_subtable(namesAndContentsLookup, content, name, num, keywor
             for e in isplit[4:]:
                 if e.split(",") not in _lookup_called:
                     _lookup_called.append(e.split(","))
+            # print(name, _lookup_called)
             rule += "    " + keyword + " "
+            input_rule = []
+            lookahead_in_rule = ""
             if _backtrack_group[0] != "":
                 for x in _backtrack_group:
                     x = x.replace(" ", "")
-                    rule += "@_backtrack"+prefix+"_group_" + x + "_" + name[2:-2] + " "
-            for x in _input_groups:
-                x = x.replace(" ", "")
-                rule += "@_impacted"+prefix+"_group_" + x + "_" + name[2:-2]  + "' "
-            for x in _lookup_called:
-                x = x[1].replace(" ", "")
-                #BUG????
-                x = int(x)
-                lookup_name = str(namesAndContentsLookup[x][0])[2:].strip("['']")
-                rule += "lookup " + lookup_name + " "
+                    rule += "@_backtrack_group_" + x + "_" + name[2:-2] + " "
+            for _inpt_grp in _input_groups:
+                _inpt_grp = _inpt_grp.replace(" ", "")
+                input_rule.append("@_impacted_group_" + _inpt_grp + "_" + name[2:-2]  + "' ")
+            for element2lookup in _lookup_called:
+                num_lookup = int(element2lookup[1].replace(" ", ""))
+                lookup_name = str(namesAndContentsLookup[num_lookup][0])[2:].strip("['']").replace(" ", "_")
+                index = int(element2lookup[0])-1
+                input_rule[index] = input_rule[index] + "lookup " + lookup_name
             if _lookahead_groups[0] != "":
                 for x in _lookahead_groups:
                     x = x.replace(" ", "")
-                    rule += "@_lookahead"+prefix+"_group_" + x + "_" + name[2:-2] + " "
-            rule += ";\n"
+                    lookahead_in_rule += "@_lookahead_group_" + x + "_" + name[2:-2] + " "
+            rule += "".join(input_rule) + lookahead_in_rule + ";\n"
+            # print(i, "\n", rule)
         elif "coverage\t" in i:
             x = i.split(",")[1]
             lookup_name = str(namesAndContentsLookup[int(x)][0])[2:].strip("['']")
@@ -805,7 +810,6 @@ def readGPOS(monotypeFeaturesTxt, rdir):
                 j += 1
             lookupName = i.replace("\t", "_")
             lookupName = lookupName.replace("lookup", "gpos")
-            print(lookupName)
             cleaning = [x for x in lookupContent if x != '']
             lookupContent = []
             ### ADD (NAME OF LOOKUP + CONTENT) AS TUPLE IN A LIST SO THE LOOP WILL FOLLOW THE ORDER, DICT is USELESS HERE
@@ -1272,4 +1276,4 @@ def mti2fea(family):
 
 
 if __name__ == "__main__":
-    fea_ = mti2fea("NotoSerifSinhala")
+    fea_ = mti2fea("NotoSansCaucasianAlbanian")

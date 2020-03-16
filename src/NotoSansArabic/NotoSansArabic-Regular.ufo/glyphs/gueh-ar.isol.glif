@@ -1,16 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gueh-ar.isol" format="2">
-  <advance width="877"/>
+  <advance width="902"/>
   <unicode hex="FB96"/>
-  <anchor x="411" y="-337" name="bottom"/>
-  <anchor x="579" y="688" name="top"/>
+  <anchor x="422" y="-111" name="bottom"/>
+  <anchor x="422" y="-20" name="bottom.dot"/>
+  <anchor x="780" y="555" name="center"/>
+  <anchor x="289" y="570" name="top"/>
+  <anchor x="545" y="665" name="top.dot"/>
   <outline>
     <component base="gueh-ar"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/28 21:07:35</string>
     </dict>
   </lib>
 </glyph>

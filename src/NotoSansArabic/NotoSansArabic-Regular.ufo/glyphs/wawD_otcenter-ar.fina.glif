@@ -1,14 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="wawDotcenter-ar.fina" format="2">
-  <advance width="472"/>
+  <advance width="515"/>
+  <anchor x="211" y="-296" name="bottom"/>
+  <anchor x="237" y="-80" name="center"/>
+  <anchor x="245" y="454" name="top"/>
+  <anchor x="245" y="384" name="top.dot"/>
   <outline>
-    <component base="wawDotcenter-ar.pt.fina"/>
-    <component base="dotcenter-ar.small" xOffset="25" yOffset="69"/>
+    <component base="_wawDotcenter-ar.fina"/>
+    <component base="dotcenter-ar" xScale="0.96" yScale="0.96" xOffset="22" yOffset="-264"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/03/02 14:10:52</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

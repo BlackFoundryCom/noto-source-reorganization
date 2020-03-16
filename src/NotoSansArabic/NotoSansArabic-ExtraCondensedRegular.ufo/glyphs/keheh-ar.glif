@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="keheh-ar" format="2">
+  <advance width="722"/>
+  <unicode hex="06A9"/>
+  <anchor x="338" y="-111" name="bottom"/>
+  <anchor x="338" y="-20" name="bottom.dot"/>
+  <anchor x="624" y="555" name="center"/>
+  <anchor x="231" y="570" name="top"/>
+  <anchor x="460" y="586" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="338" y="-15" type="line"/>
+      <point x="560" y="-15"/>
+      <point x="641" y="39"/>
+      <point x="641" y="166" type="curve" smooth="yes"/>
+      <point x="641" y="280"/>
+      <point x="575" y="350"/>
+      <point x="395" y="485" type="curve"/>
+      <point x="380" y="445" type="line"/>
+      <point x="706" y="638" type="line"/>
+      <point x="705" y="724" type="line"/>
+      <point x="354" y="506" type="line"/>
+      <point x="342" y="431" type="line"/>
+      <point x="522" y="299"/>
+      <point x="569" y="233"/>
+      <point x="569" y="165" type="curve" smooth="yes"/>
+      <point x="569" y="102"/>
+      <point x="531" y="71"/>
+      <point x="346" y="71" type="curve"/>
+    </contour>
+    <component base="_part.beh.fina" xOffset="-3"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dotlessbeh-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>kaf-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 21:53:26</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

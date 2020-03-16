@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="theh_yehHamzaabove-ar.fina" format="2">
+  <advance width="798"/>
+  <anchor x="110" y="482" name="top_2"/>
+  <anchor x="690" y="-32" name="bottom.dot_1"/>
+  <anchor x="281" y="-244" name="bottom.dot_2"/>
+  <anchor x="689" y="-111" name="bottom_1"/>
+  <anchor x="281" y="-281" name="bottom_2"/>
+  <anchor x="539" y="415" name="top.dot_1"/>
+  <anchor x="109" y="194" name="top.dot_2"/>
+  <anchor x="539" y="727" name="top_1"/>
+  <outline>
+    <component base="theh_alefMaksura-ar.fina"/>
+    <component base="hamzaabove-ar" xOffset="3" yOffset="-238"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot_2</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>hamzaabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>beh_yehHamzaabove-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 10:12:55</string>
+    </dict>
+  </lib>
+</glyph>

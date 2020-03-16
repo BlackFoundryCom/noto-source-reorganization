@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sad_yeh-ar" format="2">
+  <advance width="1538"/>
+  <unicode hex="FD06"/>
+  <anchor x="348" y="-407" name="bottom_2"/>
+  <anchor x="347" y="-246" name="bottom.dot_2"/>
+  <anchor x="1154" y="-112" name="bottom_1"/>
+  <anchor x="1264" y="439" name="top.dot_1"/>
+  <anchor x="115" y="181" name="top.dot_2"/>
+  <anchor x="1243" y="536" name="top_1"/>
+  <anchor x="268" y="356" name="top_2"/>
+  <outline>
+    <component base="sad_alefMaksura-ar"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="239" yOffset="-246"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot_2</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalbelow-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>sad_alefMaksura-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 10:14:12</string>
+    </dict>
+  </lib>
+</glyph>

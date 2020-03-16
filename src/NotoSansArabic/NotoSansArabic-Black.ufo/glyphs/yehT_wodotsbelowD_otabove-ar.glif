@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehTwodotsbelowDotabove-ar" format="2">
+  <advance width="845"/>
+  <unicode hex="08A9"/>
+  <anchor x="358" y="-452" name="bottom"/>
+  <anchor x="357" y="-221" name="bottom.dot"/>
+  <anchor x="251" y="376" name="top"/>
+  <anchor x="168" y="235" name="top.dot"/>
+  <outline>
+    <component base="yeh-ar"/>
+    <component base="dotabove-ar" xOffset="112" yOffset="-305"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

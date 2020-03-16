@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ngoeh-ar.medi" format="2">
+  <advance width="411"/>
+  <unicode hex="FB9D"/>
+  <anchor x="217" y="-111" name="bottom"/>
+  <anchor x="216" y="-20" name="bottom.dot"/>
+  <anchor x="314" y="580" name="center"/>
+  <anchor x="170" y="677" name="top"/>
+  <anchor x="113" y="660" name="top.dot"/>
+  <outline>
+    <component base="gaf-ar.medi"/>
+    <component base="twodotshorizontalabove-ar.v2" xScale="0.9" yScale="0.9" xOffset="1" yOffset="271"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalabove-ar.v2</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 21:54:02</string>
+    </dict>
+  </lib>
+</glyph>

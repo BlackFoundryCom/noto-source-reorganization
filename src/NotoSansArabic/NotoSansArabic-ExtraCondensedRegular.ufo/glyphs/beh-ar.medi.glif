@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="beh-ar.medi" format="2">
+  <advance width="300"/>
+  <unicode hex="FE92"/>
+  <anchor x="159" y="-110" name="bottom"/>
+  <anchor x="158" y="-32" name="bottom.dot"/>
+  <anchor x="158" y="458" name="top"/>
+  <anchor x="158" y="350" name="top.dot"/>
+  <outline>
+    <component base="dotlessbeh-ar.medi"/>
+    <component base="dotbelow-ar" xOffset="98" yOffset="-30"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotbelow-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/02 14:58:58</string>
+    </dict>
+  </lib>
+</glyph>

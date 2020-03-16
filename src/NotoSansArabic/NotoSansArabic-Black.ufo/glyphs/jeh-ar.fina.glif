@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jeh-ar.fina" format="2">
+  <advance width="507"/>
+  <unicode hex="FB8B"/>
+  <anchor x="148" y="-308" name="bottom"/>
+  <anchor x="148" y="-252" name="bottom.dot"/>
+  <anchor x="211" y="31" name="center"/>
+  <anchor x="257" y="483" name="top"/>
+  <anchor x="261" y="340" name="top.dot"/>
+  <outline>
+    <component base="reh-ar.fina"/>
+    <component base="threedotsupabove-ar" xOffset="68" yOffset="-210"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 20:31:29</string>
+    </dict>
+  </lib>
+</glyph>

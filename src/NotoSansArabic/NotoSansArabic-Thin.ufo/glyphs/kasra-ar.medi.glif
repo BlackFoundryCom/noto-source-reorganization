@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kasra-ar.medi" format="2">
+  <advance width="280"/>
+  <unicode hex="FE7B"/>
+  <guideline x="489" y="109" angle="270"/>
+  <guideline x="10" y="113" angle="270"/>
+  <outline>
+    <component base="kashida-ar"/>
+    <component base="kasra-ar" xOffset="-12" yOffset="-108"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/26 22:28:25</string>
+    </dict>
+  </lib>
+</glyph>

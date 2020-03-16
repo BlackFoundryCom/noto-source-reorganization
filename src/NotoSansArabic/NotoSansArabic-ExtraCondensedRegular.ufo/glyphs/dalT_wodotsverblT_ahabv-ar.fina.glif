@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dalTwodotsverblTahabv-ar.fina" format="2">
+  <advance width="480"/>
+  <anchor x="180" y="-111" name="bottom"/>
+  <anchor x="182" y="-21" name="bottom.dot"/>
+  <anchor x="229" y="590" name="top"/>
+  <anchor x="229" y="506" name="top.dot"/>
+  <outline>
+    <component base="dal-ar.fina"/>
+    <component base="uniFBC0" xOffset="94" yOffset="74"/>
+    <component base="twodotsverticalbelow-ar" xOffset="125" yOffset="-21"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dal-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dal-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/01 12:03:47</string>
+    </dict>
+  </lib>
+</glyph>

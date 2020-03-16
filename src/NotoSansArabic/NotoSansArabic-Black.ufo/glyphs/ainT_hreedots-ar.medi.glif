@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ainThreedots-ar.medi" format="2">
+  <advance width="627"/>
+  <anchor x="297" y="-111" name="bottom"/>
+  <anchor x="297" y="-20" name="bottom.dot"/>
+  <anchor x="320" y="616" name="top"/>
+  <anchor x="319" y="489" name="top.dot"/>
+  <outline>
+    <component base="ain-ar.medi"/>
+    <component base="threedotsupabove-ar" xOffset="126" yOffset="-61"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehRohingya-ar" format="2">
+  <advance width="561"/>
+  <unicode hex="08AC"/>
+  <anchor x="338" y="-21" name="bottom.dot"/>
+  <outline>
+    <component base="_yehRohingya-ar.fina"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="225" yOffset="-19"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/26 20:42:42</string>
+    </dict>
+  </lib>
+</glyph>

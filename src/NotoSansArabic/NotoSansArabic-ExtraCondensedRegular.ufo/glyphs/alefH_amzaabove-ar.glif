@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefHamzaabove-ar" format="2">
+  <advance width="234"/>
+  <unicode hex="0623"/>
+  <anchor x="122" y="-111" name="bottom"/>
+  <anchor x="122" y="-20" name="bottom.dot"/>
+  <anchor x="110" y="681" name="top"/>
+  <outline>
+    <component base="alef-ar.short" xOffset="6"/>
+    <component base="hamzaabove-ar" xOffset="5" yOffset="217"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

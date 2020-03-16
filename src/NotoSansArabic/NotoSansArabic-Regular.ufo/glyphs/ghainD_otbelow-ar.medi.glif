@@ -1,16 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ghainDotbelow-ar.medi" format="2">
-  <advance width="521"/>
-  <anchor x="251" y="-191" name="bottom"/>
-  <anchor x="275" y="613" name="top"/>
+  <advance width="615"/>
+  <anchor x="309" y="-111" name="bottom"/>
+  <anchor x="309" y="-20" name="bottom.dot"/>
+  <anchor x="325" y="561" name="top"/>
+  <anchor x="325" y="444" name="top.dot"/>
   <outline>
     <component base="ghain-ar.medi"/>
-    <component base="dotbelow-ar" xOffset="175" yOffset="-3"/>
+    <component base="dotbelow-ar" xOffset="242" yOffset="-12"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/25 17:31:31</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zain-ar" format="2">
+  <advance width="366"/>
+  <unicode hex="0632"/>
+  <anchor x="104" y="-301" name="bottom"/>
+  <anchor x="104" y="-252" name="bottom.dot"/>
+  <anchor x="161" y="13" name="center"/>
+  <anchor x="194" y="493" name="top"/>
+  <anchor x="198" y="354" name="top.dot"/>
+  <outline>
+    <component base="reh-ar"/>
+    <component base="dotabove-ar" xOffset="138" yOffset="-78"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 20:30:20</string>
+    </dict>
+  </lib>
+</glyph>

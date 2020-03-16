@@ -1,17 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="qaf-ar.fina" format="2">
-  <advance width="808"/>
+  <advance width="834"/>
   <unicode hex="FED6"/>
-  <anchor x="326" y="-272" name="bottom"/>
-  <anchor x="573" y="533" name="top"/>
+  <anchor x="379" y="-298" name="bottom"/>
+  <anchor x="379" y="-244" name="bottom.dot"/>
+  <anchor x="379" y="542" name="top"/>
+  <anchor x="547" y="392" name="top.dot"/>
   <outline>
     <component base="dotlessqaf-ar.fina"/>
-    <component base="twodotshorizontalabove-ar" xOffset="426" yOffset="-132"/>
+    <component base="twodotshorizontalabove-ar" xOffset="408" yOffset="-40"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/29 21:34:28</string>
     </dict>
   </lib>
 </glyph>

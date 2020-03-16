@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dadDotbelow-ar.fina" format="2">
+  <advance width="1409"/>
+  <anchor x="939" y="-112" name="bottom"/>
+  <anchor x="939" y="-20" name="bottom.dot"/>
+  <anchor x="707" y="459" name="top"/>
+  <anchor x="1049" y="439" name="top.dot"/>
+  <outline>
+    <component base="dad-ar.fina"/>
+    <component base="dotbelow-ar" xOffset="884" yOffset="-20"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

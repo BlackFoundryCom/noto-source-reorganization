@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fathatwodots-ar" format="2">
+  <unicode hex="065E"/>
+  <anchor x="165" y="587" name="_top"/>
+  <anchor x="172" y="945" name="top"/>
+  <outline>
+    <contour>
+      <point x="40" y="625" type="line"/>
+      <point x="286" y="809" type="line"/>
+      <point x="286" y="895" type="line"/>
+      <point x="40" y="710" type="line"/>
+    </contour>
+    <contour>
+      <point x="231" y="589" type="curve"/>
+      <point x="300" y="657" type="line"/>
+      <point x="271" y="689"/>
+      <point x="255" y="703"/>
+      <point x="227" y="727" type="curve"/>
+      <point x="159" y="656" type="line"/>
+      <point x="190" y="629"/>
+      <point x="204" y="615"/>
+    </contour>
+    <contour>
+      <point x="106" y="799" type="curve"/>
+      <point x="175" y="867" type="line"/>
+      <point x="146" y="899"/>
+      <point x="130" y="913"/>
+      <point x="102" y="937" type="curve"/>
+      <point x="34" y="866" type="line"/>
+      <point x="65" y="839"/>
+      <point x="79" y="825"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 15:18:32</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>330</integer>
+    </dict>
+  </lib>
+</glyph>

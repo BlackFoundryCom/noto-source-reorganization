@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefFathatan-ar" format="2">
+  <advance width="376"/>
+  <unicode hex="FD3D"/>
+  <anchor x="118" y="-111" name="bottom"/>
+  <anchor x="118" y="-16" name="bottom.dot"/>
+  <anchor x="276" y="747" name="top"/>
+  <outline>
+    <component base="alef-ar"/>
+    <component base="fathatan-ar" xOffset="154" yOffset="61"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>alef-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/26 20:50:46</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

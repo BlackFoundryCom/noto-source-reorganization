@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kirghizyu-ar" format="2">
+  <advance width="369"/>
+  <unicode hex="06C9"/>
+  <anchor x="161" y="-300" name="bottom"/>
+  <anchor x="193" y="-96" name="center"/>
+  <anchor x="186" y="413" name="top"/>
+  <anchor x="186" y="347" name="top.dot"/>
+  <outline>
+    <component base="waw-ar"/>
+    <component base="vinvertedabove-ar" xOffset="92" yOffset="-9"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>vinvertedabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,24 +1,42 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yeh_zain-ar.fina" format="2">
-  <advance width="769"/>
+  <advance width="797"/>
   <unicode hex="FC92"/>
-  <anchor x="396" y="0" name="caret_1"/>
-  <anchor x="579" y="-191" name="bottom_1"/>
-  <anchor x="83" y="-217" name="bottom_2"/>
-  <anchor x="592" y="283" name="top_1"/>
-  <anchor x="163" y="553" name="top_2"/>
+  <anchor x="266" y="526" name="top_2"/>
+  <anchor x="618" y="-32" name="bottom.dot"/>
+  <anchor x="619" y="-221" name="bottom_1"/>
+  <anchor x="130" y="-301" name="bottom_2"/>
+  <anchor x="616" y="346" name="top.dot_1"/>
+  <anchor x="265" y="322" name="top.dot_2"/>
+  <anchor x="616" y="458" name="top_1"/>
   <outline>
-    <component base="yeh-ar.medi" xOffset="396"/>
-    <component base="zain-ar.fina"/>
+    <component base="yeh_reh-ar.fina"/>
+    <component base="dotabove-ar" xOffset="190" yOffset="-110"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot_2</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>yeh-ar.medi</string>
+      <string>alefMaksura_reh-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>zain-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/28 20:35:41</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

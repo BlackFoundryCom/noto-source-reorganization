@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fehDotMovedbelow-ar.fina" format="2">
+  <advance width="832"/>
+  <anchor x="373" y="-111" name="bottom"/>
+  <anchor x="608" y="-20" name="bottom.dot"/>
+  <anchor x="615" y="611" name="top"/>
+  <anchor x="618" y="488" name="top.dot"/>
+  <outline>
+    <component base="dotlessfeh-ar.fina"/>
+    <component base="dotbelow-ar" xOffset="548" yOffset="-18"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:32</string>
+    </dict>
+  </lib>
+</glyph>

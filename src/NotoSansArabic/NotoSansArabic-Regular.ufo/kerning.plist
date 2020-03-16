@@ -2,90 +2,153 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>eight-ar</key>
+    <key>alefMadda-ar</key>
     <dict>
-      <key>seven-ar</key>
-      <integer>-40</integer>
-      <key>zero-ar</key>
-      <integer>-20</integer>
+      <key>kaf-ar.init</key>
+      <integer>20</integer>
     </dict>
-    <key>five-ar</key>
+    <key>alefWasla-ar</key>
     <dict>
-      <key>seven-ar</key>
-      <integer>-30</integer>
+      <key>kaf-ar.init</key>
+      <integer>20</integer>
+    </dict>
+    <key>alefWavyhamzabelow-ar</key>
+    <dict>
+      <key>ain-ar</key>
+      <integer>50</integer>
     </dict>
     <key>four-ar</key>
     <dict>
-      <key>seven-ar</key>
-      <integer>-30</integer>
       <key>six-ar</key>
-      <integer>-45</integer>
+      <integer>-20</integer>
+    </dict>
+    <key>four-persian</key>
+    <dict>
+      <key>public.kern2.eight-ar</key>
+      <integer>-40</integer>
+      <key>public.kern2.five-ar</key>
+      <integer>-20</integer>
+      <key>public.kern2.zero-ar</key>
+      <integer>-30</integer>
     </dict>
     <key>four-persian.urdu</key>
     <dict>
       <key>public.kern2.eight-ar</key>
-      <integer>-80</integer>
-      <key>public.kern2.five-ar</key>
-      <integer>-80</integer>
-      <key>public.kern2.zero-ar</key>
-      <integer>-80</integer>
-      <key>seven-persian.urdu</key>
       <integer>-70</integer>
+      <key>public.kern2.five-ar</key>
+      <integer>-70</integer>
+      <key>public.kern2.zero-ar</key>
+      <integer>-60</integer>
+      <key>seven-persian.urdu</key>
+      <integer>-80</integer>
+      <key>six-persian</key>
+      <integer>-30</integer>
+    </dict>
+    <key>lamVabove_alefWavyhamzabelow-ar</key>
+    <dict>
+      <key>ain-ar</key>
+      <integer>20</integer>
+    </dict>
+    <key>nine-ar</key>
+    <dict>
+      <key>public.kern2.seven-ar</key>
+      <integer>-50</integer>
+      <key>six-ar</key>
+      <integer>-20</integer>
     </dict>
     <key>one-ar</key>
     <dict>
       <key>six-ar</key>
-      <integer>-20</integer>
+      <integer>0</integer>
+    </dict>
+    <key>public.kern1.Madda</key>
+    <dict>
+      <key>public.kern2.kaf</key>
+      <integer>20</integer>
+    </dict>
+    <key>public.kern1.Twoabove</key>
+    <dict>
+      <key>public.kern2.kaf</key>
+      <integer>30</integer>
+    </dict>
+    <key>public.kern1.Wasla</key>
+    <dict>
+      <key>public.kern2.kaf</key>
+      <integer>20</integer>
+    </dict>
+    <key>public.kern1.Wavyhamzaabove</key>
+    <dict>
+      <key>public.kern2.kaf</key>
+      <integer>30</integer>
+    </dict>
+    <key>public.kern1.Wavyhamzabelow</key>
+    <dict>
+      <key>public.kern2.ain</key>
+      <integer>30</integer>
     </dict>
     <key>public.kern1.eight-ar</key>
     <dict>
+      <key>four-persian</key>
+      <integer>-10</integer>
       <key>public.kern2.nine-ar</key>
-      <integer>-20</integer>
+      <integer>-40</integer>
+      <key>public.kern2.seven-ar</key>
+      <integer>-50</integer>
       <key>six-ar</key>
-      <integer>-65</integer>
+      <integer>-50</integer>
     </dict>
     <key>public.kern1.five-ar</key>
     <dict>
+      <key>public.kern2.seven-ar</key>
+      <integer>-40</integer>
       <key>six-ar</key>
-      <integer>-60</integer>
+      <integer>-70</integer>
+    </dict>
+    <key>public.kern1.reh</key>
+    <dict>
+      <key>ain-ar</key>
+      <integer>60</integer>
+      <key>lamThreedotsbelow_alef-ar.short</key>
+      <integer>20</integer>
+      <key>public.kern2.ain</key>
+      <integer>70</integer>
+      <key>public.kern2.dot_below</key>
+      <integer>40</integer>
     </dict>
     <key>public.kern1.seven-ar</key>
     <dict>
       <key>public.kern2.eight-ar</key>
-      <integer>-45</integer>
-      <key>six-ar</key>
-      <integer>25</integer>
+      <integer>-50</integer>
+      <key>public.kern2.five-ar</key>
+      <integer>-40</integer>
+      <key>seven-persian.urdu</key>
+      <integer>-40</integer>
     </dict>
     <key>public.kern1.two-ar</key>
     <dict>
-      <key>eight-ar</key>
-      <integer>-50</integer>
-      <key>five-ar</key>
+      <key>public.kern2.eight-ar</key>
       <integer>-60</integer>
-      <key>nine-ar</key>
-      <integer>20</integer>
       <key>public.kern2.five-ar</key>
-      <integer>-50</integer>
-      <key>zero-ar</key>
-      <integer>-50</integer>
-    </dict>
-    <key>seven-ar</key>
-    <dict>
-      <key>five-ar</key>
-      <integer>-30</integer>
-      <key>nine-ar</key>
-      <integer>20</integer>
-      <key>zero-ar</key>
-      <integer>-20</integer>
-    </dict>
-    <key>zero-ar</key>
-    <dict>
-      <key>eight-ar</key>
-      <integer>-20</integer>
-      <key>seven-ar</key>
-      <integer>-20</integer>
-      <key>six-ar</key>
       <integer>-70</integer>
+      <key>public.kern2.zero-ar</key>
+      <integer>-50</integer>
+      <key>seven-persian.urdu</key>
+      <integer>-60</integer>
+    </dict>
+    <key>public.kern1.zero-ar</key>
+    <dict>
+      <key>six-ar</key>
+      <integer>-60</integer>
+    </dict>
+    <key>seven-persian.urdu</key>
+    <dict>
+      <key>public.kern2.seven-ar</key>
+      <integer>-50</integer>
+    </dict>
+    <key>six-persian</key>
+    <dict>
+      <key>public.kern2.eight-ar</key>
+      <integer>-40</integer>
     </dict>
   </dict>
 </plist>

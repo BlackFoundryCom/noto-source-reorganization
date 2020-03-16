@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="opendammatan-ar" format="2">
+  <unicode hex="08F1"/>
+  <anchor x="205" y="590" name="_top"/>
+  <anchor x="212" y="859" name="top"/>
+  <outline>
+    <component base="damma-ar" xScale="0.94" yScale="0.94" xOffset="-8" yOffset="39"/>
+    <component base="damma-ar" xScale="0.94" yScale="0.94" xOffset="179" yOffset="39"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=dammasmall-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=dammasmall-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 15:17:46</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>412</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

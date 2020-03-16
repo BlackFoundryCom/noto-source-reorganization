@@ -1,11 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="shadda_kasratan-ar" format="2">
   <unicode hex="FC5F"/>
-  <anchor x="187" y="458" name="_top"/>
-  <anchor x="168" y="963" name="top"/>
   <outline>
-    <component base="fathatan-ar" xOffset="25"/>
-    <component base="shadda-ar" xOffset="14" yOffset="250"/>
+    <component base="fathatan-ar"/>
+    <component base="shadda-ar" xOffset="-8" yOffset="222"/>
   </outline>
   <lib>
     <dict>
@@ -14,13 +12,13 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=fathatan-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/25 17:31:32</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>351</integer>
+      <integer>294</integer>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
+        <integer>1</integer>
         <integer>0</integer>
-        <integer>-1</integer>
       </array>
     </dict>
   </lib>

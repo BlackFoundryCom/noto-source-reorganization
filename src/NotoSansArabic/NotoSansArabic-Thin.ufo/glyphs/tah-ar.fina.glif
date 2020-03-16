@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tah-ar.fina" format="2">
+  <advance width="919"/>
+  <unicode hex="FEC2"/>
+  <anchor x="439" y="-112" name="bottom"/>
+  <anchor x="439" y="-20" name="bottom.dot"/>
+  <anchor x="578" y="536" name="top"/>
+  <anchor x="599" y="439" name="top.dot"/>
+  <outline>
+    <component base="tah-ar"/>
+    <component base="_part.instroke" xOffset="736"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>tah-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

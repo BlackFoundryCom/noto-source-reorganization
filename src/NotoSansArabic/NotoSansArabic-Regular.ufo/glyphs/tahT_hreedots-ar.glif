@@ -1,17 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tahThreedots-ar" format="2">
-  <advance width="788"/>
+  <advance width="872"/>
   <unicode hex="069F"/>
-  <anchor x="369" y="-13" name="bottom"/>
-  <anchor x="519" y="686" name="top"/>
+  <anchor x="423" y="-112" name="bottom"/>
+  <anchor x="423" y="-20" name="bottom.dot"/>
+  <anchor x="581" y="566" name="top"/>
+  <anchor x="592" y="460" name="top.dot"/>
   <outline>
     <component base="tah-ar"/>
-    <component base="threedotsupabove-ar" xOffset="374" yOffset="-89"/>
+    <component base="threedotsupabove-ar" xOffset="452" yOffset="28"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedotsupabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/25 17:31:31</string>
     </dict>
   </lib>
 </glyph>

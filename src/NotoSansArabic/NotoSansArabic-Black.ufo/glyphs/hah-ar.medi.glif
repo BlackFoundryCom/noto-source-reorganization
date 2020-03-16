@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hah-ar.medi" format="2">
+  <advance width="758"/>
+  <unicode hex="FEA4"/>
+  <anchor x="417" y="-111" name="bottom"/>
+  <anchor x="417" y="42" name="bottom.dot"/>
+  <anchor x="347" y="541" name="top"/>
+  <anchor x="343" y="475" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="758" y="-10" type="curve" smooth="yes"/>
+      <point x="825" y="-10"/>
+      <point x="858" y="30"/>
+      <point x="858" y="81" type="curve" smooth="yes"/>
+      <point x="858" y="126"/>
+      <point x="832" y="170"/>
+      <point x="768" y="170" type="curve" smooth="yes"/>
+      <point x="658" y="170"/>
+      <point x="621" y="184"/>
+      <point x="603" y="226" type="curve"/>
+      <point x="495" y="174" type="line"/>
+      <point x="520" y="42"/>
+      <point x="612" y="-10"/>
+    </contour>
+    <component base="hah-ar.init"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 18:37:21</string>
+    </dict>
+  </lib>
+</glyph>

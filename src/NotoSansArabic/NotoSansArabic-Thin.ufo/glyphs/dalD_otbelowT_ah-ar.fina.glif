@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dalDotbelowTah-ar.fina" format="2">
+  <advance width="598"/>
+  <anchor x="202" y="-111" name="bottom"/>
+  <anchor x="205" y="-21" name="bottom.dot"/>
+  <anchor x="267" y="582" name="top"/>
+  <anchor x="267" y="486" name="top.dot"/>
+  <outline>
+    <component base="dal-ar.fina"/>
+    <component base="dotbelow-ar" xOffset="150" yOffset="-21"/>
+    <component base="uniFBC0" xOffset="103" yOffset="130"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>uniFBC0</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dal-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dal-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

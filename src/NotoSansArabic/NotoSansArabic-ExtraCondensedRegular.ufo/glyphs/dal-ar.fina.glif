@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dal-ar.fina" format="2">
+  <advance width="480"/>
+  <unicode hex="FEAA"/>
+  <anchor x="180" y="-111" name="bottom"/>
+  <anchor x="182" y="-21" name="bottom.dot"/>
+  <anchor x="229" y="590" name="top"/>
+  <anchor x="229" y="506" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="148" y="-10" type="curve" smooth="yes"/>
+      <point x="240" y="-10"/>
+      <point x="319" y="38"/>
+      <point x="358" y="102" type="curve"/>
+      <point x="329" y="110" type="line"/>
+      <point x="360" y="28"/>
+      <point x="402" y="-7"/>
+      <point x="478" y="-7" type="curve" smooth="yes"/>
+      <point x="504" y="-7"/>
+      <point x="518" y="12"/>
+      <point x="518" y="38" type="curve" smooth="yes"/>
+      <point x="518" y="59"/>
+      <point x="506" y="79"/>
+      <point x="482" y="79" type="curve" smooth="yes"/>
+      <point x="429" y="79"/>
+      <point x="397" y="97"/>
+      <point x="374" y="160" type="curve" smooth="yes"/>
+      <point x="344" y="245"/>
+      <point x="302" y="386"/>
+      <point x="259" y="517" type="curve"/>
+      <point x="195" y="487" type="line"/>
+      <point x="236" y="366"/>
+      <point x="280" y="226"/>
+      <point x="308" y="143" type="curve"/>
+      <point x="272" y="103"/>
+      <point x="214" y="76"/>
+      <point x="146" y="76" type="curve" smooth="yes"/>
+      <point x="100" y="76"/>
+      <point x="64" y="87"/>
+      <point x="26" y="105" type="curve"/>
+      <point x="22" y="25" type="line"/>
+      <point x="49" y="3"/>
+      <point x="96" y="-10"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dal-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 10:12:55</string>
+    </dict>
+  </lib>
+</glyph>

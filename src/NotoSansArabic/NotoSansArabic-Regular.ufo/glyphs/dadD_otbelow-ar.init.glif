@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dadDotbelow-ar.init" format="2">
-  <advance width="903"/>
-  <anchor x="484" y="-204" name="bottom"/>
-  <anchor x="652" y="571" name="top"/>
+  <advance width="924"/>
+  <anchor x="523" y="-112" name="bottom"/>
+  <anchor x="523" y="-20" name="bottom.dot"/>
+  <anchor x="580" y="559" name="top"/>
+  <anchor x="623" y="462" name="top.dot"/>
   <outline>
     <component base="dad-ar.init"/>
-    <component base="dotbelow-ar" xOffset="408" yOffset="-16"/>
+    <component base="dotbelow-ar" xOffset="448" yOffset="-18"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/25 17:31:31</string>
     </dict>
   </lib>
 </glyph>

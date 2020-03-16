@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tonetwodotsabove-ar" format="2">
+  <unicode hex="08EB"/>
+  <guideline x="102" y="777" angle="0"/>
+  <anchor x="101" y="390" name="_top"/>
+  <anchor x="98" y="511" name="top"/>
+  <outline>
+    <component base="_dotabove-ar" yOffset="545"/>
+    <component base="_dotabove-ar" xOffset="90" yOffset="585"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=toneonedotabove-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=toneonedotabove-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 21:27:08</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>201</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

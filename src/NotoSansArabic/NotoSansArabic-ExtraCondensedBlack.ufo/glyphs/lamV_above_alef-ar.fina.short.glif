@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamVabove_alef-ar.fina.short" format="2">
+  <advance width="575"/>
+  <anchor x="414" y="1031" name="top_1"/>
+  <anchor x="133" y="-20" name="bottom.dot"/>
+  <anchor x="418" y="-10" name="bottom.dot_1"/>
+  <anchor x="396" y="-111" name="bottom_1"/>
+  <anchor x="131" y="-110" name="bottom_2"/>
+  <anchor x="424" y="601" name="center"/>
+  <anchor x="118" y="647" name="top_2"/>
+  <outline>
+    <component base="lam_alef-ar.fina.short" xOffset="8"/>
+    <component base="vabove-ar" xOffset="288" yOffset="192"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top_1</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>vabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 22:01:13</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

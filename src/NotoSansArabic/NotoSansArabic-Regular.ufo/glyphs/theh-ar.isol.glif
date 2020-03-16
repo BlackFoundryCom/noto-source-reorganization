@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="theh-ar.isol" format="2">
-  <advance width="993"/>
+  <advance width="973"/>
   <unicode hex="FE99"/>
-  <anchor x="486" y="-25" name="bottom"/>
-  <anchor x="489" y="610" name="top"/>
+  <anchor x="480" y="-111" name="bottom"/>
+  <anchor x="480" y="-32" name="bottom.dot"/>
+  <anchor x="482" y="475" name="top"/>
+  <anchor x="482" y="305" name="top.dot"/>
   <outline>
     <component base="theh-ar"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/25 17:31:31</string>
     </dict>
   </lib>
 </glyph>

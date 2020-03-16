@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kashidaFina-ar" format="2">
+  <advance width="450"/>
+  <unicode hex="FE73"/>
+  <outline>
+    <contour>
+      <point x="451" y="-10" type="curve"/>
+      <point x="461" y="170" type="line"/>
+      <point x="238" y="170"/>
+      <point x="211" y="199"/>
+      <point x="211" y="255" type="curve" smooth="yes"/>
+      <point x="211" y="287"/>
+      <point x="216" y="307"/>
+      <point x="224" y="348" type="curve"/>
+      <point x="104" y="375" type="line"/>
+      <point x="77" y="323"/>
+      <point x="56" y="268"/>
+      <point x="56" y="199" type="curve" smooth="yes"/>
+      <point x="56" y="56"/>
+      <point x="150" y="-10"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dotlessbeh-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/26 20:51:00</string>
+    </dict>
+  </lib>
+</glyph>

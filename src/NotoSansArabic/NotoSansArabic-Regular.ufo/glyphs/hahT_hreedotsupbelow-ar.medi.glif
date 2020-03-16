@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hahThreedotsupbelow-ar.medi" format="2">
-  <advance width="637"/>
-  <anchor x="261" y="-305" name="bottom"/>
-  <anchor x="156" y="352" name="top"/>
+  <advance width="748"/>
+  <anchor x="393" y="-111" name="bottom"/>
+  <anchor x="393" y="42" name="bottom.dot"/>
+  <anchor x="321" y="511" name="top"/>
+  <anchor x="318" y="435" name="top.dot"/>
   <outline>
     <component base="hah-ar.medi"/>
-    <component base="threedotsdownbelow-ar" xOffset="116" yOffset="-3"/>
+    <component base="threedotsupbelow-ar" xOffset="259" yOffset="50"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/28 17:00:04</string>
     </dict>
   </lib>
 </glyph>

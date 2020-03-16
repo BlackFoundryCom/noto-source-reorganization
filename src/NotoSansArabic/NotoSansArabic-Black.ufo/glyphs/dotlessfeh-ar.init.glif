@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotlessfeh-ar.init" format="2">
+  <advance width="548"/>
+  <guideline x="-457" y="-107" angle="0"/>
+  <anchor x="293" y="-111" name="bottom"/>
+  <anchor x="294" y="-21" name="bottom.dot"/>
+  <anchor x="267" y="717" name="top"/>
+  <anchor x="271" y="595" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="0" y="-10" type="line"/>
+      <point x="234" y="-10"/>
+      <point x="326" y="1"/>
+      <point x="394" y="38" type="curve" smooth="yes"/>
+      <point x="472" y="80"/>
+      <point x="503" y="158"/>
+      <point x="503" y="286" type="curve" smooth="yes"/>
+      <point x="503" y="475"/>
+      <point x="420" y="607"/>
+      <point x="274" y="607" type="curve" smooth="yes"/>
+      <point x="147" y="607"/>
+      <point x="64" y="497"/>
+      <point x="64" y="380" type="curve" smooth="yes"/>
+      <point x="64" y="267"/>
+      <point x="135" y="215"/>
+      <point x="251" y="215" type="curve" smooth="yes"/>
+      <point x="316" y="215"/>
+      <point x="384" y="232"/>
+      <point x="419" y="259" type="curve"/>
+      <point x="408" y="371" type="line"/>
+      <point x="361" y="348"/>
+      <point x="320" y="340"/>
+      <point x="272" y="340" type="curve" smooth="yes"/>
+      <point x="228" y="340"/>
+      <point x="198" y="349"/>
+      <point x="198" y="389" type="curve" smooth="yes"/>
+      <point x="198" y="428"/>
+      <point x="226" y="454"/>
+      <point x="266" y="454" type="curve" smooth="yes"/>
+      <point x="327" y="454"/>
+      <point x="363" y="398"/>
+      <point x="363" y="284" type="curve" smooth="yes"/>
+      <point x="363" y="220"/>
+      <point x="359" y="208"/>
+      <point x="340" y="193" type="curve" smooth="yes"/>
+      <point x="307" y="167"/>
+      <point x="196" y="170"/>
+      <point x="10" y="170" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>sad-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 21:34:08</string>
+    </dict>
+  </lib>
+</glyph>

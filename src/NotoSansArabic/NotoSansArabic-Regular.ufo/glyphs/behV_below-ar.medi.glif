@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="behVbelow-ar.medi" format="2">
-  <advance width="343"/>
-  <anchor x="167" y="-189" name="bottom"/>
-  <anchor x="186" y="283" name="top"/>
+  <advance width="376"/>
+  <anchor x="199" y="-110" name="bottom"/>
+  <anchor x="197" y="-32" name="bottom.dot"/>
+  <anchor x="198" y="458" name="top"/>
+  <anchor x="198" y="350" name="top.dot"/>
   <outline>
     <component base="dotlessbeh-ar.medi"/>
-    <component base="_vbelow-ar" xOffset="62" yOffset="-5"/>
+    <component base="_vbelow-ar" xOffset="61" yOffset="-17"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/03/02 14:58:58</string>
     </dict>
   </lib>
 </glyph>

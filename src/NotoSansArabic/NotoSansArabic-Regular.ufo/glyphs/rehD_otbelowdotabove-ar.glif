@@ -1,23 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rehDotbelowdotabove-ar" format="2">
-  <advance width="367"/>
+  <advance width="475"/>
   <unicode hex="0696"/>
-  <anchor x="137" y="-400" name="bottom"/>
-  <anchor x="71" y="92" name="top"/>
+  <anchor x="259" y="493" name="top"/>
+  <anchor x="146" y="-301" name="bottom"/>
+  <anchor x="146" y="-252" name="bottom.dot"/>
+  <anchor x="217" y="13" name="center"/>
+  <anchor x="263" y="354" name="top.dot"/>
   <outline>
-    <component base="reh-ar"/>
-    <component base="dotabove-ar" xOffset="-5" yOffset="-573"/>
-    <component base="dotbelow-ar" xOffset="61" yOffset="-212"/>
+    <component base="reh-ar" xOffset="16"/>
+    <component base="dotabove-ar" xOffset="6" yOffset="-599"/>
+    <component base="dotbelow-ar" xOffset="71" yOffset="-250"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/28 20:31:08</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
-        <integer>0</integer>
         <integer>-1</integer>
-        <integer>0</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
       </array>
     </dict>
   </lib>

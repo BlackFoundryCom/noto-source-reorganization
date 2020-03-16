@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hehAlefabove-ar.init" format="2">
+  <advance width="558"/>
+  <unicode hex="FCD9"/>
+  <anchor x="226" y="-112" name="bottom"/>
+  <anchor x="220" y="947" name="top"/>
+  <anchor x="226" y="604" name="top.dot"/>
+  <outline>
+    <component base="heh-ar.init"/>
+    <component base="alefabove-ar" xOffset="152" yOffset="69"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 22:29:16</string>
+    </dict>
+  </lib>
+</glyph>

@@ -13322,6 +13322,7 @@ lookup gsub_15_chained {
     sub @_backtrack_group_1_gsub_15_chained @_impacted_group_2_gsub_15_chained' lookup gsub_21_chained @_lookahead_group_2_gsub_15_chained ;
     sub @_impacted_group_2_gsub_15_chained' lookup gsub_21_chained @_lookahead_group_2_gsub_15_chained @_lookahead_group_2_gsub_15_chained @_lookahead_group_2_gsub_15_chained @_lookahead_group_1_gsub_15_chained ;
     sub @_impacted_group_2_gsub_15_chained' lookup gsub_21_chained @_lookahead_group_2_gsub_15_chained @_lookahead_group_2_gsub_15_chained @_lookahead_group_1_gsub_15_chained ;
+
     } gsub_15_chained ;
 
 lookup gsub_20_chained {
@@ -13334,6 +13335,7 @@ lookup gsub_20_chained {
 	Small4UrduBelowNS ];
 
     sub @_backtrack_group_1_gsub_20_chained @_impacted_group_1_gsub_20_chained' lookup gsub_64_single ;
+
     } gsub_20_chained ;
 
 lookup gsub_21_chained {
@@ -13351,6 +13353,7 @@ lookup gsub_21_chained {
 
     sub @_impacted_group_1_gsub_21_chained' @_impacted_group_2_gsub_21_chained' lookup gsub_64_single ;
     sub @_impacted_group_1_gsub_21_chained' lookup gsub_22_multiple @_lookahead_group_1_gsub_21_chained ;
+
     } gsub_21_chained ;
 
 lookup gsub_24_chained {
@@ -13401,6 +13404,7 @@ lookup gsub_24_chained {
     sub @_impacted_group_5_gsub_24_chained' lookup gsub_112_single @_lookahead_group_11_gsub_24_chained ;
     sub @_impacted_group_5_gsub_24_chained' lookup gsub_79_single lookup gsub_97_single @_lookahead_group_12_gsub_24_chained ;
     sub @_impacted_group_5_gsub_24_chained' lookup gsub_76_single lookup gsub_78_single @_lookahead_group_13_gsub_24_chained ;
+
     } gsub_24_chained ;
 
 lookup gsub_26_chained {
@@ -13657,6 +13661,7 @@ lookup gsub_26_chained {
     sub @_backtrack_group_13_gsub_26_chained @_impacted_group_5_gsub_26_chained' lookup gsub_74_single ;
     sub @_backtrack_group_14_gsub_26_chained @_impacted_group_5_gsub_26_chained' lookup gsub_72_single ;
     sub @_backtrack_group_8_gsub_26_chained @_impacted_group_6_gsub_26_chained' lookup gsub_107_single ;
+
     } gsub_26_chained ;
 
 lookup gsub_27_chained {
@@ -13825,6 +13830,7 @@ lookup gsub_27_chained {
     sub @_impacted_group_6_gsub_27_chained' @_impacted_group_2_gsub_27_chained' @_impacted_group_2_gsub_27_chained' @_impacted_group_2_gsub_27_chained' @_impacted_group_2_gsub_27_chained' @_impacted_group_2_gsub_27_chained' @_impacted_group_4_gsub_27_chained' lookup gsub_76_single lookup gsub_76_single lookup gsub_76_single lookup gsub_79_single lookup gsub_79_single lookup gsub_79_single @_lookahead_group_6_gsub_27_chained ;
     sub @_impacted_group_6_gsub_27_chained' @_impacted_group_2_gsub_27_chained' @_impacted_group_2_gsub_27_chained' @_impacted_group_2_gsub_27_chained' @_impacted_group_2_gsub_27_chained' @_impacted_group_2_gsub_27_chained' @_impacted_group_5_gsub_27_chained' lookup gsub_76_single lookup gsub_76_single lookup gsub_76_single lookup gsub_79_single lookup gsub_79_single lookup gsub_79_single @_lookahead_group_6_gsub_27_chained ;
     sub @_impacted_group_7_gsub_27_chained' lookup gsub_103_single @_lookahead_group_7_gsub_27_chained ;
+
     } gsub_27_chained ;
 
 lookup gsub_28_chained {
@@ -13879,6 +13885,7 @@ lookup gsub_28_chained {
     sub @_backtrack_group_2_gsub_28_chained @_impacted_group_10_gsub_28_chained' lookup gsub_101_single ;
     sub @_impacted_group_10_gsub_28_chained' lookup gsub_98_single @_lookahead_group_1_gsub_28_chained ;
     sub @_backtrack_group_2_gsub_28_chained @_impacted_group_11_gsub_28_chained' lookup gsub_101_single ;
+
     } gsub_28_chained ;
 
 lookup gsub_118_chained {
@@ -13925,6 +13932,7 @@ lookup gsub_118_chained {
 
     sub @_impacted_group_1_gsub_118_chained' lookup gsub_23_single @_lookahead_group_2_gsub_118_chained ;
     sub @_impacted_group_1_gsub_118_chained' @_impacted_group_2_gsub_118_chained' lookup gsub_130_single ;
+
     } gsub_118_chained ;
 
 lookup gsub_119_chained {
@@ -13971,6 +13979,7 @@ lookup gsub_119_chained {
 
     sub @_impacted_group_1_gsub_119_chained' lookup gsub_23_single @_lookahead_group_2_gsub_119_chained ;
     sub @_impacted_group_1_gsub_119_chained' @_impacted_group_2_gsub_119_chained' lookup gsub_131_single ;
+
     } gsub_119_chained ;
 
 lookup gsub_120_chained {
@@ -14017,6 +14026,7 @@ lookup gsub_120_chained {
 
     sub @_impacted_group_1_gsub_120_chained' lookup gsub_23_single @_lookahead_group_2_gsub_120_chained ;
     sub @_impacted_group_1_gsub_120_chained' @_impacted_group_2_gsub_120_chained' lookup gsub_132_single ;
+
     } gsub_120_chained ;
 
 lookup gsub_121_chained {
@@ -14063,6 +14073,7 @@ lookup gsub_121_chained {
 
     sub @_impacted_group_1_gsub_121_chained' lookup gsub_23_single @_lookahead_group_2_gsub_121_chained ;
     sub @_impacted_group_1_gsub_121_chained' @_impacted_group_2_gsub_121_chained' lookup gsub_133_single ;
+
     } gsub_121_chained ;
 
 lookup gsub_122_chained {
@@ -14109,6 +14120,7 @@ lookup gsub_122_chained {
 
     sub @_impacted_group_1_gsub_122_chained' lookup gsub_23_single @_lookahead_group_2_gsub_122_chained ;
     sub @_impacted_group_1_gsub_122_chained' @_impacted_group_2_gsub_122_chained' lookup gsub_134_single ;
+
     } gsub_122_chained ;
 
 lookup gsub_123_chained {
@@ -14155,6 +14167,7 @@ lookup gsub_123_chained {
 
     sub @_impacted_group_1_gsub_123_chained' lookup gsub_23_single @_lookahead_group_2_gsub_123_chained ;
     sub @_impacted_group_1_gsub_123_chained' @_impacted_group_2_gsub_123_chained' lookup gsub_135_single ;
+
     } gsub_123_chained ;
 
 lookup gsub_124_chained {
@@ -14201,6 +14214,7 @@ lookup gsub_124_chained {
 
     sub @_impacted_group_1_gsub_124_chained' lookup gsub_23_single @_lookahead_group_2_gsub_124_chained ;
     sub @_impacted_group_1_gsub_124_chained' @_impacted_group_2_gsub_124_chained' @_impacted_group_2_gsub_124_chained' lookup gsub_130_single ;
+
     } gsub_124_chained ;
 
 lookup gsub_125_chained {
@@ -14247,6 +14261,7 @@ lookup gsub_125_chained {
 
     sub @_impacted_group_1_gsub_125_chained' lookup gsub_23_single @_lookahead_group_2_gsub_125_chained ;
     sub @_impacted_group_1_gsub_125_chained' @_impacted_group_2_gsub_125_chained' @_impacted_group_2_gsub_125_chained' lookup gsub_131_single ;
+
     } gsub_125_chained ;
 
 lookup gsub_126_chained {
@@ -14293,6 +14308,7 @@ lookup gsub_126_chained {
 
     sub @_impacted_group_1_gsub_126_chained' lookup gsub_23_single @_lookahead_group_2_gsub_126_chained ;
     sub @_impacted_group_1_gsub_126_chained' @_impacted_group_2_gsub_126_chained' @_impacted_group_2_gsub_126_chained' lookup gsub_132_single ;
+
     } gsub_126_chained ;
 
 lookup gsub_127_chained {
@@ -14339,6 +14355,7 @@ lookup gsub_127_chained {
 
     sub @_impacted_group_1_gsub_127_chained' lookup gsub_23_single @_lookahead_group_2_gsub_127_chained ;
     sub @_impacted_group_1_gsub_127_chained' @_impacted_group_2_gsub_127_chained' @_impacted_group_2_gsub_127_chained' lookup gsub_133_single ;
+
     } gsub_127_chained ;
 
 lookup gsub_128_chained {
@@ -14385,6 +14402,7 @@ lookup gsub_128_chained {
 
     sub @_impacted_group_1_gsub_128_chained' lookup gsub_23_single @_lookahead_group_2_gsub_128_chained ;
     sub @_impacted_group_1_gsub_128_chained' @_impacted_group_2_gsub_128_chained' @_impacted_group_2_gsub_128_chained' lookup gsub_134_single ;
+
     } gsub_128_chained ;
 
 lookup gsub_129_chained {
@@ -14431,6 +14449,7 @@ lookup gsub_129_chained {
 
     sub @_impacted_group_1_gsub_129_chained' lookup gsub_23_single @_lookahead_group_2_gsub_129_chained ;
     sub @_impacted_group_1_gsub_129_chained' @_impacted_group_2_gsub_129_chained' @_impacted_group_2_gsub_129_chained' lookup gsub_135_single ;
+
     } gsub_129_chained ;
 
 lookup gsub_157_chained {
@@ -14458,6 +14477,7 @@ lookup gsub_157_chained {
     sub @_backtrack_group_2_gsub_157_chained @_impacted_group_2_gsub_157_chained' lookup gsub_156_multiple ;
     sub @_impacted_group_3_gsub_157_chained' @_impacted_group_2_gsub_157_chained' @_impacted_group_2_gsub_157_chained' lookup gsub_154_single lookup gsub_156_multiple ;
     sub @_impacted_group_3_gsub_157_chained' @_impacted_group_2_gsub_157_chained' lookup gsub_154_single ;
+
     } gsub_157_chained ;
 
 lookup gsub_162_chained {
@@ -14657,6 +14677,7 @@ lookup gsub_162_chained {
     sub @_impacted_group_18_gsub_162_chained' lookup gsub_101_single @_lookahead_group_4_gsub_162_chained @_lookahead_group_5_gsub_162_chained ;
     sub @_impacted_group_18_gsub_162_chained' @_impacted_group_5_gsub_162_chained' lookup gsub_101_single @_lookahead_group_4_gsub_162_chained @_lookahead_group_5_gsub_162_chained ;
     sub @_impacted_group_18_gsub_162_chained' @_impacted_group_5_gsub_162_chained' @_impacted_group_5_gsub_162_chained' lookup gsub_101_single @_lookahead_group_4_gsub_162_chained @_lookahead_group_5_gsub_162_chained ;
+
     } gsub_162_chained ;
 
 lookup gsub_163_chained {
@@ -14810,6 +14831,7 @@ lookup gsub_163_chained {
     sub @_impacted_group_18_gsub_163_chained' @_impacted_group_5_gsub_163_chained' @_impacted_group_5_gsub_163_chained' lookup gsub_37_single @_lookahead_group_11_gsub_163_chained @_lookahead_group_5_gsub_163_chained ;
     sub @_impacted_group_19_gsub_163_chained' @_impacted_group_5_gsub_163_chained' lookup gsub_37_single @_lookahead_group_2_gsub_163_chained @_lookahead_group_5_gsub_163_chained ;
     sub @_impacted_group_19_gsub_163_chained' @_impacted_group_5_gsub_163_chained' @_impacted_group_5_gsub_163_chained' lookup gsub_37_single @_lookahead_group_2_gsub_163_chained @_lookahead_group_5_gsub_163_chained ;
+
     } gsub_163_chained ;
 
 lookup gsub_164_chained {
@@ -14831,6 +14853,7 @@ lookup gsub_164_chained {
     sub @_impacted_group_2_gsub_164_chained' @_impacted_group_2_gsub_164_chained' lookup gsub_108_single lookup gsub_109_single lookup gsub_109_single @_lookahead_group_2_gsub_164_chained ;
     sub @_impacted_group_2_gsub_164_chained' lookup gsub_109_single @_lookahead_group_1_gsub_164_chained ;
     sub @_impacted_group_2_gsub_164_chained' lookup gsub_109_single @_lookahead_group_2_gsub_164_chained ;
+
     } gsub_164_chained ;
 
 lookup gsub_165_chained {
@@ -14944,6 +14967,7 @@ lookup gsub_165_chained {
     sub @_impacted_group_17_gsub_165_chained' lookup gsub_79_single lookup gsub_100_single @_lookahead_group_7_gsub_165_chained @_lookahead_group_8_gsub_165_chained ;
     sub @_impacted_group_17_gsub_165_chained' lookup gsub_100_single @_lookahead_group_13_gsub_165_chained ;
     sub @_impacted_group_17_gsub_165_chained' lookup gsub_109_single @_lookahead_group_7_gsub_165_chained ;
+
     } gsub_165_chained ;
 
 lookup gsub_166_chained {
@@ -14971,6 +14995,7 @@ lookup gsub_166_chained {
     sub @_backtrack_group_3_gsub_166_chained @_impacted_group_2_gsub_166_chained' lookup gsub_111_single ;
     sub @_backtrack_group_2_gsub_166_chained @_backtrack_group_1_gsub_166_chained @_impacted_group_3_gsub_166_chained' lookup gsub_111_single ;
     sub @_backtrack_group_1_gsub_166_chained @_impacted_group_3_gsub_166_chained' lookup gsub_111_single ;
+
     } gsub_166_chained ;
 
 lookup gsub_167_chained {
@@ -15116,6 +15141,7 @@ lookup gsub_167_chained {
     sub @_backtrack_group_7_gsub_167_chained @_impacted_group_17_gsub_167_chained' lookup gsub_168_chained @_lookahead_group_5_gsub_167_chained ;
     sub @_backtrack_group_6_gsub_167_chained @_impacted_group_17_gsub_167_chained' lookup gsub_168_chained @_lookahead_group_5_gsub_167_chained ;
     sub @_backtrack_group_4_gsub_167_chained @_impacted_group_17_gsub_167_chained' lookup gsub_168_chained @_lookahead_group_5_gsub_167_chained ;
+
     } gsub_167_chained ;
 
 lookup gsub_168_chained {
@@ -17218,6 +17244,7 @@ lookup gsub_168_chained {
     sub @_backtrack_group_1_gsub_168_chained @_backtrack_group_14_gsub_168_chained @_impacted_group_27_gsub_168_chained' lookup gsub_125_chained ;
     sub @_backtrack_group_1_gsub_168_chained @_backtrack_group_1_gsub_168_chained @_backtrack_group_14_gsub_168_chained @_impacted_group_27_gsub_168_chained' lookup gsub_125_chained ;
     sub @_backtrack_group_3_gsub_168_chained @_backtrack_group_1_gsub_168_chained @_backtrack_group_14_gsub_168_chained @_impacted_group_27_gsub_168_chained' lookup gsub_125_chained ;
+
     } gsub_168_chained ;
 
 lookup gsub_169_chained {
@@ -18032,6 +18059,7 @@ lookup gsub_169_chained {
     sub @_backtrack_group_4_gsub_169_chained @_backtrack_group_15_gsub_169_chained @_impacted_group_26_gsub_169_chained' @_impacted_group_3_gsub_169_chained' lookup gsub_118_chained ;
     sub @_backtrack_group_1_gsub_169_chained @_backtrack_group_4_gsub_169_chained @_backtrack_group_15_gsub_169_chained @_impacted_group_26_gsub_169_chained' @_impacted_group_3_gsub_169_chained' lookup gsub_118_chained ;
     sub @_backtrack_group_3_gsub_169_chained @_backtrack_group_4_gsub_169_chained @_backtrack_group_15_gsub_169_chained @_impacted_group_26_gsub_169_chained' @_impacted_group_3_gsub_169_chained' lookup gsub_118_chained ;
+
     } gsub_169_chained ;
 
 lookup gsub_170_chained {
@@ -18495,6 +18523,7 @@ lookup gsub_170_chained {
     sub @_backtrack_group_3_gsub_170_chained @_backtrack_group_12_gsub_170_chained @_impacted_group_37_gsub_170_chained' lookup gsub_120_chained ;
     sub @_backtrack_group_1_gsub_170_chained @_backtrack_group_3_gsub_170_chained @_backtrack_group_12_gsub_170_chained @_impacted_group_37_gsub_170_chained' lookup gsub_120_chained ;
     sub @_backtrack_group_3_gsub_170_chained @_backtrack_group_3_gsub_170_chained @_backtrack_group_12_gsub_170_chained @_impacted_group_37_gsub_170_chained' lookup gsub_122_chained ;
+
     } gsub_170_chained ;
 
 lookup gsub_171_chained {
@@ -18564,6 +18593,7 @@ lookup gsub_171_chained {
     sub @_backtrack_group_3_gsub_171_chained @_impacted_group_1_gsub_171_chained' @_impacted_group_2_gsub_171_chained' @_impacted_group_3_gsub_171_chained' lookup gsub_178_chained lookup gsub_179_chained ;
     sub @_backtrack_group_4_gsub_171_chained @_impacted_group_1_gsub_171_chained' @_impacted_group_2_gsub_171_chained' @_impacted_group_3_gsub_171_chained' lookup gsub_176_chained lookup gsub_177_chained ;
     sub @_backtrack_group_1_gsub_171_chained @_impacted_group_1_gsub_171_chained' @_impacted_group_2_gsub_171_chained' @_impacted_group_2_gsub_171_chained' @_impacted_group_3_gsub_171_chained' lookup gsub_180_chained lookup gsub_181_chained ;
+
     } gsub_171_chained ;
 
 lookup gsub_172_chained {
@@ -18784,6 +18814,7 @@ lookup gsub_172_chained {
     sub @_backtrack_group_1_gsub_172_chained @_backtrack_group_2_gsub_172_chained @_backtrack_group_11_gsub_172_chained @_impacted_group_24_gsub_172_chained' @_impacted_group_3_gsub_172_chained' lookup gsub_124_chained ;
     sub @_backtrack_group_4_gsub_172_chained @_backtrack_group_11_gsub_172_chained @_impacted_group_24_gsub_172_chained' @_impacted_group_3_gsub_172_chained' lookup gsub_124_chained ;
     sub @_backtrack_group_1_gsub_172_chained @_backtrack_group_4_gsub_172_chained @_backtrack_group_11_gsub_172_chained @_impacted_group_24_gsub_172_chained' @_impacted_group_3_gsub_172_chained' lookup gsub_124_chained ;
+
     } gsub_172_chained ;
 
 lookup gsub_173_chained {
@@ -18959,6 +18990,7 @@ lookup gsub_173_chained {
     sub @_backtrack_group_3_gsub_173_chained @_backtrack_group_11_gsub_173_chained @_impacted_group_23_gsub_173_chained' @_impacted_group_1_gsub_173_chained' @_impacted_group_1_gsub_173_chained' lookup gsub_118_chained ;
     sub @_backtrack_group_1_gsub_173_chained @_backtrack_group_3_gsub_173_chained @_backtrack_group_11_gsub_173_chained @_impacted_group_23_gsub_173_chained' @_impacted_group_1_gsub_173_chained' @_impacted_group_1_gsub_173_chained' lookup gsub_118_chained ;
     sub @_backtrack_group_1_gsub_173_chained @_backtrack_group_3_gsub_173_chained @_backtrack_group_11_gsub_173_chained @_impacted_group_23_gsub_173_chained' @_impacted_group_1_gsub_173_chained' lookup gsub_118_chained ;
+
     } gsub_173_chained ;
 
 lookup gsub_174_chained {
@@ -19073,6 +19105,7 @@ lookup gsub_174_chained {
     sub @_backtrack_group_1_gsub_174_chained @_backtrack_group_1_gsub_174_chained @_backtrack_group_12_gsub_174_chained @_impacted_group_22_gsub_174_chained' @_impacted_group_3_gsub_174_chained' lookup gsub_126_chained ;
     sub @_backtrack_group_3_gsub_174_chained @_backtrack_group_12_gsub_174_chained @_impacted_group_22_gsub_174_chained' @_impacted_group_3_gsub_174_chained' lookup gsub_126_chained ;
     sub @_backtrack_group_1_gsub_174_chained @_backtrack_group_3_gsub_174_chained @_backtrack_group_12_gsub_174_chained @_impacted_group_22_gsub_174_chained' @_impacted_group_3_gsub_174_chained' lookup gsub_126_chained ;
+
     } gsub_174_chained ;
 
 lookup gsub_175_chained {
@@ -19358,6 +19391,7 @@ lookup gsub_175_chained {
     sub @_backtrack_group_3_gsub_175_chained @_backtrack_group_12_gsub_175_chained @_impacted_group_22_gsub_175_chained' @_impacted_group_3_gsub_175_chained' lookup gsub_118_chained ;
     sub @_backtrack_group_1_gsub_175_chained @_backtrack_group_3_gsub_175_chained @_backtrack_group_12_gsub_175_chained @_impacted_group_22_gsub_175_chained' @_impacted_group_3_gsub_175_chained' lookup gsub_118_chained ;
     sub @_backtrack_group_3_gsub_175_chained @_backtrack_group_3_gsub_175_chained @_backtrack_group_12_gsub_175_chained @_impacted_group_22_gsub_175_chained' @_impacted_group_3_gsub_175_chained' lookup gsub_118_chained ;
+
     } gsub_175_chained ;
 
 lookup gsub_176_chained {
@@ -19476,6 +19510,7 @@ lookup gsub_176_chained {
     sub @_backtrack_group_3_gsub_176_chained @_backtrack_group_14_gsub_176_chained @_impacted_group_22_gsub_176_chained' @_impacted_group_3_gsub_176_chained' lookup gsub_125_chained ;
     sub @_backtrack_group_1_gsub_176_chained @_backtrack_group_3_gsub_176_chained @_backtrack_group_14_gsub_176_chained @_impacted_group_22_gsub_176_chained' @_impacted_group_3_gsub_176_chained' lookup gsub_125_chained ;
     sub @_backtrack_group_3_gsub_176_chained @_backtrack_group_3_gsub_176_chained @_backtrack_group_14_gsub_176_chained @_impacted_group_22_gsub_176_chained' @_impacted_group_3_gsub_176_chained' lookup gsub_125_chained ;
+
     } gsub_176_chained ;
 
 lookup gsub_177_chained {
@@ -19606,6 +19641,7 @@ lookup gsub_177_chained {
     sub @_backtrack_group_3_gsub_177_chained @_backtrack_group_14_gsub_177_chained @_impacted_group_21_gsub_177_chained' @_impacted_group_4_gsub_177_chained' lookup gsub_120_chained ;
     sub @_backtrack_group_1_gsub_177_chained @_backtrack_group_3_gsub_177_chained @_backtrack_group_14_gsub_177_chained @_impacted_group_21_gsub_177_chained' @_impacted_group_4_gsub_177_chained' lookup gsub_120_chained ;
     sub @_backtrack_group_3_gsub_177_chained @_backtrack_group_3_gsub_177_chained @_backtrack_group_14_gsub_177_chained @_impacted_group_21_gsub_177_chained' @_impacted_group_4_gsub_177_chained' lookup gsub_120_chained ;
+
     } gsub_177_chained ;
 
 lookup gsub_178_chained {
@@ -19734,6 +19770,7 @@ lookup gsub_178_chained {
     sub @_backtrack_group_3_gsub_178_chained @_backtrack_group_13_gsub_178_chained @_impacted_group_22_gsub_178_chained' @_impacted_group_3_gsub_178_chained' lookup gsub_126_chained ;
     sub @_backtrack_group_1_gsub_178_chained @_backtrack_group_3_gsub_178_chained @_backtrack_group_13_gsub_178_chained @_impacted_group_22_gsub_178_chained' @_impacted_group_3_gsub_178_chained' lookup gsub_126_chained ;
     sub @_backtrack_group_3_gsub_178_chained @_backtrack_group_3_gsub_178_chained @_backtrack_group_13_gsub_178_chained @_impacted_group_22_gsub_178_chained' @_impacted_group_3_gsub_178_chained' lookup gsub_126_chained ;
+
     } gsub_178_chained ;
 
 lookup gsub_179_chained {
@@ -19997,6 +20034,7 @@ lookup gsub_179_chained {
     sub @_backtrack_group_4_gsub_179_chained @_backtrack_group_17_gsub_179_chained @_impacted_group_21_gsub_179_chained' @_impacted_group_4_gsub_179_chained' lookup gsub_120_chained ;
     sub @_backtrack_group_1_gsub_179_chained @_backtrack_group_4_gsub_179_chained @_backtrack_group_17_gsub_179_chained @_impacted_group_21_gsub_179_chained' @_impacted_group_4_gsub_179_chained' lookup gsub_120_chained ;
     sub @_backtrack_group_3_gsub_179_chained @_backtrack_group_4_gsub_179_chained @_backtrack_group_17_gsub_179_chained @_impacted_group_21_gsub_179_chained' @_impacted_group_4_gsub_179_chained' lookup gsub_120_chained ;
+
     } gsub_179_chained ;
 
 lookup gsub_180_chained {
@@ -20028,6 +20066,7 @@ lookup gsub_180_chained {
     sub @_backtrack_group_11_gsub_180_chained @_impacted_group_11_gsub_180_chained' @_impacted_group_4_gsub_180_chained' lookup gsub_126_chained ;
     sub @_backtrack_group_1_gsub_180_chained @_backtrack_group_11_gsub_180_chained @_impacted_group_11_gsub_180_chained' @_impacted_group_4_gsub_180_chained' lookup gsub_126_chained ;
     sub @_backtrack_group_1_gsub_180_chained @_backtrack_group_1_gsub_180_chained @_backtrack_group_11_gsub_180_chained @_impacted_group_11_gsub_180_chained' @_impacted_group_4_gsub_180_chained' lookup gsub_126_chained ;
+
     } gsub_180_chained ;
 
 lookup gsub_181_chained {
@@ -20086,6 +20125,7 @@ lookup gsub_181_chained {
     sub @_backtrack_group_1_gsub_181_chained @_backtrack_group_1_gsub_181_chained @_backtrack_group_11_gsub_181_chained @_impacted_group_11_gsub_181_chained' @_impacted_group_4_gsub_181_chained' lookup gsub_118_chained ;
     sub @_backtrack_group_3_gsub_181_chained @_backtrack_group_11_gsub_181_chained @_impacted_group_11_gsub_181_chained' @_impacted_group_4_gsub_181_chained' lookup gsub_120_chained ;
     sub @_backtrack_group_1_gsub_181_chained @_backtrack_group_3_gsub_181_chained @_backtrack_group_11_gsub_181_chained @_impacted_group_11_gsub_181_chained' @_impacted_group_4_gsub_181_chained' lookup gsub_120_chained ;
+
     } gsub_181_chained ;
 
 
@@ -23078,39 +23118,39 @@ position ligature AyahEnd.alt3
 
 lookup gpos_14_mark_to_mark {
     lookupflag MarkAttachmentType @_MarkAttachmentType_4  ;
-markClass AlefInferiorYB <anchor 29 -8> @_MARKCLASS_0_lookup_14;
-markClass HamzaBelowYB <anchor 0 -140> @_MARKCLASS_0_lookup_14;
-markClass KasraYB <anchor 0 -81> @_MARKCLASS_0_lookup_14;
-markClass KasratanYB <anchor 0 -81> @_MARKCLASS_0_lookup_14;
-markClass OneDotBelowYB <anchor 0 -99> @_MARKCLASS_0_lookup_14;
-markClass ThreeDotsDownBelowYB <anchor 0 -98> @_MARKCLASS_0_lookup_14;
-markClass TwoDotsBelowYB <anchor 0 -99> @_MARKCLASS_0_lookup_14;
-markClass HehCommaYB <anchor 157 -158> @_MARKCLASS_0_lookup_14;
-markClass FourDotsBelowYB <anchor 145 -98> @_MARKCLASS_0_lookup_14;
-markClass WavyHamzaBelowYB <anchor 0 -83> @_MARKCLASS_0_lookup_14;
-markClass Small4UrduBelowYB <anchor -6 -179> @_MARKCLASS_0_lookup_14;
-markClass TwoDotsVertBelowYB <anchor 119 -98> @_MARKCLASS_0_lookup_14;
-markClass HamzaBelowAF_YB <anchor 0 -44> @_MARKCLASS_0_lookup_14;
-markClass Tah2DotsBelowYB <anchor 5 -58> @_MARKCLASS_0_lookup_14;
-markClass TahSmallBelowYB <anchor 10 -36> @_MARKCLASS_0_lookup_14;
-position mark AlefInferiorYB <anchor 1 -338> mark @_MARKCLASS_0_lookup_14;
-position mark HamzaBelowYB <anchor 0 -288> mark @_MARKCLASS_0_lookup_14;
-position mark KasraYB <anchor 0 -229> mark @_MARKCLASS_0_lookup_14;
-position mark KasratanYB <anchor 0 -328> mark @_MARKCLASS_0_lookup_14;
-position mark OneDotBelowYB <anchor 0 -257> mark @_MARKCLASS_0_lookup_14;
-position mark ThreeDotsDownBelowYB <anchor 0 -412> mark @_MARKCLASS_0_lookup_14;
-position mark TwoDotsBelowYB <anchor 0 -268> mark @_MARKCLASS_0_lookup_14;
-position mark HehCommaYB <anchor 164 -565> mark @_MARKCLASS_0_lookup_14;
-position mark FourDotsBelowYB <anchor 145 -387> mark @_MARKCLASS_0_lookup_14;
-position mark WavyHamzaBelowYB <anchor 0 -401> mark @_MARKCLASS_0_lookup_14;
-position mark Small4UrduBelowYB <anchor 0 -398> mark @_MARKCLASS_0_lookup_14;
-position mark TwoDotsVertBelowYB <anchor 117 -413> mark @_MARKCLASS_0_lookup_14;
-position mark HamzaBelowAF_YB <anchor 0 -308> mark @_MARKCLASS_0_lookup_14;
-position mark Tah2DotsBelowYB <anchor 0 -424> mark @_MARKCLASS_0_lookup_14;
-position mark TahSmallBelowYB <anchor 0 -445> mark @_MARKCLASS_0_lookup_14;
-position mark YBc1 <anchor 0 0> mark @_MARKCLASS_0_lookup_14;
-position mark YBc2 <anchor 0 0> mark @_MARKCLASS_0_lookup_14;
-position mark YBc3 <anchor 0 0> mark @_MARKCLASS_0_lookup_14;
+	markClass AlefInferiorYB <anchor 29 -8> @_MARKCLASS_0_lookup_14;
+	markClass HamzaBelowYB <anchor 0 -140> @_MARKCLASS_0_lookup_14;
+	markClass KasraYB <anchor 0 -81> @_MARKCLASS_0_lookup_14;
+	markClass KasratanYB <anchor 0 -81> @_MARKCLASS_0_lookup_14;
+	markClass OneDotBelowYB <anchor 0 -99> @_MARKCLASS_0_lookup_14;
+	markClass ThreeDotsDownBelowYB <anchor 0 -98> @_MARKCLASS_0_lookup_14;
+	markClass TwoDotsBelowYB <anchor 0 -99> @_MARKCLASS_0_lookup_14;
+	markClass HehCommaYB <anchor 157 -158> @_MARKCLASS_0_lookup_14;
+	markClass FourDotsBelowYB <anchor 145 -98> @_MARKCLASS_0_lookup_14;
+	markClass WavyHamzaBelowYB <anchor 0 -83> @_MARKCLASS_0_lookup_14;
+	markClass Small4UrduBelowYB <anchor -6 -179> @_MARKCLASS_0_lookup_14;
+	markClass TwoDotsVertBelowYB <anchor 119 -98> @_MARKCLASS_0_lookup_14;
+	markClass HamzaBelowAF_YB <anchor 0 -44> @_MARKCLASS_0_lookup_14;
+	markClass Tah2DotsBelowYB <anchor 5 -58> @_MARKCLASS_0_lookup_14;
+	markClass TahSmallBelowYB <anchor 10 -36> @_MARKCLASS_0_lookup_14;
+	position mark AlefInferiorYB <anchor 1 -338> mark @_MARKCLASS_0_lookup_14;
+	position mark HamzaBelowYB <anchor 0 -288> mark @_MARKCLASS_0_lookup_14;
+	position mark KasraYB <anchor 0 -229> mark @_MARKCLASS_0_lookup_14;
+	position mark KasratanYB <anchor 0 -328> mark @_MARKCLASS_0_lookup_14;
+	position mark OneDotBelowYB <anchor 0 -257> mark @_MARKCLASS_0_lookup_14;
+	position mark ThreeDotsDownBelowYB <anchor 0 -412> mark @_MARKCLASS_0_lookup_14;
+	position mark TwoDotsBelowYB <anchor 0 -268> mark @_MARKCLASS_0_lookup_14;
+	position mark HehCommaYB <anchor 164 -565> mark @_MARKCLASS_0_lookup_14;
+	position mark FourDotsBelowYB <anchor 145 -387> mark @_MARKCLASS_0_lookup_14;
+	position mark WavyHamzaBelowYB <anchor 0 -401> mark @_MARKCLASS_0_lookup_14;
+	position mark Small4UrduBelowYB <anchor 0 -398> mark @_MARKCLASS_0_lookup_14;
+	position mark TwoDotsVertBelowYB <anchor 117 -413> mark @_MARKCLASS_0_lookup_14;
+	position mark HamzaBelowAF_YB <anchor 0 -308> mark @_MARKCLASS_0_lookup_14;
+	position mark Tah2DotsBelowYB <anchor 0 -424> mark @_MARKCLASS_0_lookup_14;
+	position mark TahSmallBelowYB <anchor 0 -445> mark @_MARKCLASS_0_lookup_14;
+	position mark YBc1 <anchor 0 0> mark @_MARKCLASS_0_lookup_14;
+	position mark YBc2 <anchor 0 0> mark @_MARKCLASS_0_lookup_14;
+	position mark YBc3 <anchor 0 0> mark @_MARKCLASS_0_lookup_14;
     } gpos_14_mark_to_mark ;
 
 lookup gpos_15_mark_to_ligature {
@@ -23152,215 +23192,215 @@ position ligature Divine_nm_p1
 
 lookup gpos_16_mark_to_mark {
     lookupflag MarkAttachmentType @_MarkAttachmentType_1  ;
-markClass OneDotAboveNS <anchor -4 832> @_MARKCLASS_0_lookup_16;
-markClass TwoDotsAboveNS <anchor 0 820> @_MARKCLASS_0_lookup_16;
-markClass ThreeDotsUpAboveNS <anchor 0 820> @_MARKCLASS_0_lookup_16;
-markClass ThreeDotsDownAboveNS <anchor -5 831> @_MARKCLASS_0_lookup_16;
-markClass TwoDotsVertAboveNS <anchor 109 2> @_MARKCLASS_0_lookup_16;
-markClass FourDotsAboveNS <anchor 145 8> @_MARKCLASS_0_lookup_16;
-markClass MaddaNS <anchor -11 907> @_MARKCLASS_0_lookup_16;
-markClass Madda.shortNS <anchor 17 907> @_MARKCLASS_0_lookup_16;
-markClass Madda.shorterNS <anchor 27 907> @_MARKCLASS_0_lookup_16;
-markClass WaslaNS <anchor -14 881> @_MARKCLASS_0_lookup_16;
-markClass HamzaAboveNS <anchor 0 856> @_MARKCLASS_0_lookup_16;
-markClass HamzaAboveAF_NS <anchor 0 835> @_MARKCLASS_0_lookup_16;
-markClass AlayhissalamNS <anchor 0 826> @_MARKCLASS_0_lookup_16;
-markClass AlefSuperiorNS <anchor -5 851> @_MARKCLASS_0_lookup_16;
-markClass DammaNS <anchor 0 926> @_MARKCLASS_0_lookup_16;
-markClass UltapeshNS <anchor 0 865> @_MARKCLASS_0_lookup_16;
-markClass DammatanNS <anchor 0 845> @_MARKCLASS_0_lookup_16;
-markClass FathaNS <anchor 0 926> @_MARKCLASS_0_lookup_16;
-markClass FathatanNS <anchor 0 926> @_MARKCLASS_0_lookup_16;
-markClass NoonGhunnaMarkNS <anchor -16 882> @_MARKCLASS_0_lookup_16;
-markClass NoonGhunnaMarkKshmrNS <anchor 2 931> @_MARKCLASS_0_lookup_16;
-markClass RadiallahNS <anchor 0 831> @_MARKCLASS_0_lookup_16;
-markClass RahmatullahNS <anchor 0 866> @_MARKCLASS_0_lookup_16;
-markClass SallallahNS <anchor 0 848> @_MARKCLASS_0_lookup_16;
-markClass ShaddaNS <anchor 0 892> @_MARKCLASS_0_lookup_16;
-markClass SukunHahNS <anchor 0 881> @_MARKCLASS_0_lookup_16;
-markClass SukunJazmNS <anchor 0 868> @_MARKCLASS_0_lookup_16;
-markClass SukunNS <anchor -9 869> @_MARKCLASS_0_lookup_16;
-markClass SukunZeroNS <anchor 1 857> @_MARKCLASS_0_lookup_16;
-markClass TahSmallNS <anchor 0 837> @_MARKCLASS_0_lookup_16;
-markClass Tah2DotsAboveNS <anchor 0 811> @_MARKCLASS_0_lookup_16;
-markClass TakhallusNS <anchor 0 908> @_MARKCLASS_0_lookup_16;
-markClass Small4UrduAboveNS <anchor 4 469> @_MARKCLASS_0_lookup_16;
-markClass CircumArabicNS <anchor 0 841> @_MARKCLASS_0_lookup_16;
-markClass Fatha2dotsNS <anchor 0 844> @_MARKCLASS_0_lookup_16;
-markClass SevenSmallDotNS <anchor -6 832> @_MARKCLASS_0_lookup_16;
-markClass SevenSmallNS <anchor 0 1131> @_MARKCLASS_0_lookup_16;
-markClass TahDotAboveNS <anchor -4 836> @_MARKCLASS_0_lookup_16;
-markClass ShortVwlNS <anchor 31 805> @_MARKCLASS_0_lookup_16;
-markClass Small2AboveNS <anchor 5 465> @_MARKCLASS_0_lookup_16;
-markClass Small3AboveNS <anchor 3 464> @_MARKCLASS_0_lookup_16;
-markClass ZwarakayNS <anchor 0 892> @_MARKCLASS_0_lookup_16;
-markClass DammaRevNS <anchor 9 926> @_MARKCLASS_0_lookup_16;
-markClass WavyHamzaAboveNS <anchor 0 833> @_MARKCLASS_0_lookup_16;
-position mark OneDotAboveNS <anchor 0 1081> mark @_MARKCLASS_0_lookup_16;
-position mark TwoDotsAboveNS <anchor 0 1142> mark @_MARKCLASS_0_lookup_16;
-position mark ThreeDotsUpAboveNS <anchor 0 1235> mark @_MARKCLASS_0_lookup_16;
-position mark ThreeDotsDownAboveNS <anchor 0 1231> mark @_MARKCLASS_0_lookup_16;
-position mark TwoDotsVertAboveNS <anchor 112 406> mark @_MARKCLASS_0_lookup_16;
-position mark FourDotsAboveNS <anchor 145 388> mark @_MARKCLASS_0_lookup_16;
-position mark MaddaNS <anchor 0 1148> mark @_MARKCLASS_0_lookup_16;
-position mark Madda.shortNS <anchor 0 1100> mark @_MARKCLASS_0_lookup_16;
-position mark Madda.shorterNS <anchor 0 1100> mark @_MARKCLASS_0_lookup_16;
-position mark WaslaNS <anchor 0 1117> mark @_MARKCLASS_0_lookup_16;
-position mark HamzaAboveNS <anchor 0 1091> mark @_MARKCLASS_0_lookup_16;
-position mark HamzaAboveAF_NS <anchor 0 1099> mark @_MARKCLASS_0_lookup_16;
-position mark AlayhissalamNS <anchor 0 1202> mark @_MARKCLASS_0_lookup_16;
-position mark AlefSuperiorNS <anchor 0 1181> mark @_MARKCLASS_0_lookup_16;
-position mark DammaNS <anchor 0 1172> mark @_MARKCLASS_0_lookup_16;
-position mark UltapeshNS <anchor 0 1120> mark @_MARKCLASS_0_lookup_16;
-position mark DammatanNS <anchor 0 1141> mark @_MARKCLASS_0_lookup_16;
-position mark FathaNS <anchor 0 1093> mark @_MARKCLASS_0_lookup_16;
-position mark FathatanNS <anchor 0 1193> mark @_MARKCLASS_0_lookup_16;
-position mark NoonGhunnaMarkNS <anchor 0 1107> mark @_MARKCLASS_0_lookup_16;
-position mark NoonGhunnaMarkKshmrNS <anchor 15 1147> mark @_MARKCLASS_0_lookup_16;
-position mark RadiallahNS <anchor 0 1272> mark @_MARKCLASS_0_lookup_16;
-position mark RahmatullahNS <anchor 0 1208> mark @_MARKCLASS_0_lookup_16;
-position mark SallallahNS <anchor 0 1185> mark @_MARKCLASS_0_lookup_16;
-position mark ShaddaNS <anchor 0 1090> mark @_MARKCLASS_0_lookup_16;
-position mark SukunHahNS <anchor 0 1103> mark @_MARKCLASS_0_lookup_16;
-position mark SukunJazmNS <anchor 0 1123> mark @_MARKCLASS_0_lookup_16;
-position mark SukunNS <anchor 0 1127> mark @_MARKCLASS_0_lookup_16;
-position mark SukunZeroNS <anchor 0 1165> mark @_MARKCLASS_0_lookup_16;
-position mark TahSmallNS <anchor 0 1244> mark @_MARKCLASS_0_lookup_16;
-position mark Tah2DotsAboveNS <anchor 0 1331> mark @_MARKCLASS_0_lookup_16;
-position mark TakhallusNS <anchor 0 1127> mark @_MARKCLASS_0_lookup_16;
-position mark Small4UrduAboveNS <anchor 0 771> mark @_MARKCLASS_0_lookup_16;
-position mark OneDotAboveAltNS <anchor 0 1081> mark @_MARKCLASS_0_lookup_16;
-position mark TwoDotsAboveAltNS <anchor 0 1142> mark @_MARKCLASS_0_lookup_16;
-position mark ThreeDotsUpAboveAltNS <anchor 0 1235> mark @_MARKCLASS_0_lookup_16;
-position mark MaddaAltNS <anchor 0 1148> mark @_MARKCLASS_0_lookup_16;
-position mark Madda.shortAltNS <anchor 0 1100> mark @_MARKCLASS_0_lookup_16;
-position mark Madda.shorterAltNS <anchor 0 1100> mark @_MARKCLASS_0_lookup_16;
-position mark WaslaAltNS <anchor 0 1117> mark @_MARKCLASS_0_lookup_16;
-position mark HamzaAboveAltNS <anchor 0 1091> mark @_MARKCLASS_0_lookup_16;
-position mark HamzaAboveAF_AltNS <anchor 0 1136> mark @_MARKCLASS_0_lookup_16;
-position mark AlayhissalamAltNS <anchor 0 1202> mark @_MARKCLASS_0_lookup_16;
-position mark AlefSuperiorAltNS <anchor 0 1181> mark @_MARKCLASS_0_lookup_16;
-position mark DammaAltNS <anchor 0 1172> mark @_MARKCLASS_0_lookup_16;
-position mark UltapeshAltNS <anchor 0 1120> mark @_MARKCLASS_0_lookup_16;
-position mark DammatanAltNS <anchor 0 1141> mark @_MARKCLASS_0_lookup_16;
-position mark FathaAltNS <anchor 0 1093> mark @_MARKCLASS_0_lookup_16;
-position mark FathatanAltNS <anchor 0 1193> mark @_MARKCLASS_0_lookup_16;
-position mark NoonGhunnaMarkAltNS <anchor 0 1107> mark @_MARKCLASS_0_lookup_16;
-position mark RadiallahAltNS <anchor 0 1272> mark @_MARKCLASS_0_lookup_16;
-position mark RahmatullahAltNS <anchor 0 1208> mark @_MARKCLASS_0_lookup_16;
-position mark SallallahAltNS <anchor 0 1185> mark @_MARKCLASS_0_lookup_16;
-position mark ShaddaAltNS <anchor 0 1090> mark @_MARKCLASS_0_lookup_16;
-position mark Tah2DotsAboveAltNS <anchor 0 1331> mark @_MARKCLASS_0_lookup_16;
-position mark SukunHahAltNS <anchor 0 1103> mark @_MARKCLASS_0_lookup_16;
-position mark SukunJazmAltNS <anchor 0 1123> mark @_MARKCLASS_0_lookup_16;
-position mark WavyHamzaAboveAltNS <anchor 0 1131> mark @_MARKCLASS_0_lookup_16;
-position mark SukunAltNS <anchor 0 1127> mark @_MARKCLASS_0_lookup_16;
-position mark SukunZeroAltNS <anchor 0 1165> mark @_MARKCLASS_0_lookup_16;
-position mark TahSmallAltNS <anchor 0 1244> mark @_MARKCLASS_0_lookup_16;
-position mark TakhallusAltNS <anchor 0 1127> mark @_MARKCLASS_0_lookup_16;
-position mark CircumArabicAltNS <anchor -15 949> mark @_MARKCLASS_0_lookup_16;
-position mark CircumArabicNS <anchor 0 1068> mark @_MARKCLASS_0_lookup_16;
-position mark Fatha2dotsAltNS <anchor 0 1172> mark @_MARKCLASS_0_lookup_16;
-position mark Fatha2dotsNS <anchor 0 1172> mark @_MARKCLASS_0_lookup_16;
-position mark FourDotsAboveAltNS <anchor 130 349> mark @_MARKCLASS_0_lookup_16;
-position mark SevenSmallDotAltNS <anchor 0 1239> mark @_MARKCLASS_0_lookup_16;
-position mark SevenSmallDotNS <anchor 0 1239> mark @_MARKCLASS_0_lookup_16;
-position mark SevenSmallNS <anchor 0 1239> mark @_MARKCLASS_0_lookup_16;
-position mark TahDotAboveAltNS <anchor 0 1341> mark @_MARKCLASS_0_lookup_16;
-position mark TahDotAboveNS <anchor 0 1341> mark @_MARKCLASS_0_lookup_16;
-position mark ShortVwlAltNS <anchor 34 1112> mark @_MARKCLASS_0_lookup_16;
-position mark ShortVwlNS <anchor 34 1112> mark @_MARKCLASS_0_lookup_16;
-position mark Small2AboveAltNS <anchor 0 771> mark @_MARKCLASS_0_lookup_16;
-position mark Small2AboveNS <anchor 0 771> mark @_MARKCLASS_0_lookup_16;
-position mark Small3AboveAltNS <anchor 0 771> mark @_MARKCLASS_0_lookup_16;
-position mark Small3AboveNS <anchor 0 771> mark @_MARKCLASS_0_lookup_16;
-position mark Small4UrduAboveAltNS <anchor 0 771> mark @_MARKCLASS_0_lookup_16;
-position mark TwoDotsVertAboveAltNS <anchor 112 406> mark @_MARKCLASS_0_lookup_16;
-position mark ZwarakayAltNS <anchor 0 1032> mark @_MARKCLASS_0_lookup_16;
-position mark ZwarakayNS <anchor 0 1032> mark @_MARKCLASS_0_lookup_16;
-position mark ThreeDotsDownAboveAltNS <anchor 0 1231> mark @_MARKCLASS_0_lookup_16;
-position mark DammaRevAltNS <anchor 9 1172> mark @_MARKCLASS_0_lookup_16;
-position mark DammaRevNS <anchor 9 1172> mark @_MARKCLASS_0_lookup_16;
-position mark WavyHamzaAboveNS <anchor 0 1131> mark @_MARKCLASS_0_lookup_16;
+	markClass OneDotAboveNS <anchor -4 832> @_MARKCLASS_0_lookup_16;
+	markClass TwoDotsAboveNS <anchor 0 820> @_MARKCLASS_0_lookup_16;
+	markClass ThreeDotsUpAboveNS <anchor 0 820> @_MARKCLASS_0_lookup_16;
+	markClass ThreeDotsDownAboveNS <anchor -5 831> @_MARKCLASS_0_lookup_16;
+	markClass TwoDotsVertAboveNS <anchor 109 2> @_MARKCLASS_0_lookup_16;
+	markClass FourDotsAboveNS <anchor 145 8> @_MARKCLASS_0_lookup_16;
+	markClass MaddaNS <anchor -11 907> @_MARKCLASS_0_lookup_16;
+	markClass Madda.shortNS <anchor 17 907> @_MARKCLASS_0_lookup_16;
+	markClass Madda.shorterNS <anchor 27 907> @_MARKCLASS_0_lookup_16;
+	markClass WaslaNS <anchor -14 881> @_MARKCLASS_0_lookup_16;
+	markClass HamzaAboveNS <anchor 0 856> @_MARKCLASS_0_lookup_16;
+	markClass HamzaAboveAF_NS <anchor 0 835> @_MARKCLASS_0_lookup_16;
+	markClass AlayhissalamNS <anchor 0 826> @_MARKCLASS_0_lookup_16;
+	markClass AlefSuperiorNS <anchor -5 851> @_MARKCLASS_0_lookup_16;
+	markClass DammaNS <anchor 0 926> @_MARKCLASS_0_lookup_16;
+	markClass UltapeshNS <anchor 0 865> @_MARKCLASS_0_lookup_16;
+	markClass DammatanNS <anchor 0 845> @_MARKCLASS_0_lookup_16;
+	markClass FathaNS <anchor 0 926> @_MARKCLASS_0_lookup_16;
+	markClass FathatanNS <anchor 0 926> @_MARKCLASS_0_lookup_16;
+	markClass NoonGhunnaMarkNS <anchor -16 882> @_MARKCLASS_0_lookup_16;
+	markClass NoonGhunnaMarkKshmrNS <anchor 2 931> @_MARKCLASS_0_lookup_16;
+	markClass RadiallahNS <anchor 0 831> @_MARKCLASS_0_lookup_16;
+	markClass RahmatullahNS <anchor 0 866> @_MARKCLASS_0_lookup_16;
+	markClass SallallahNS <anchor 0 848> @_MARKCLASS_0_lookup_16;
+	markClass ShaddaNS <anchor 0 892> @_MARKCLASS_0_lookup_16;
+	markClass SukunHahNS <anchor 0 881> @_MARKCLASS_0_lookup_16;
+	markClass SukunJazmNS <anchor 0 868> @_MARKCLASS_0_lookup_16;
+	markClass SukunNS <anchor -9 869> @_MARKCLASS_0_lookup_16;
+	markClass SukunZeroNS <anchor 1 857> @_MARKCLASS_0_lookup_16;
+	markClass TahSmallNS <anchor 0 837> @_MARKCLASS_0_lookup_16;
+	markClass Tah2DotsAboveNS <anchor 0 811> @_MARKCLASS_0_lookup_16;
+	markClass TakhallusNS <anchor 0 908> @_MARKCLASS_0_lookup_16;
+	markClass Small4UrduAboveNS <anchor 4 469> @_MARKCLASS_0_lookup_16;
+	markClass CircumArabicNS <anchor 0 841> @_MARKCLASS_0_lookup_16;
+	markClass Fatha2dotsNS <anchor 0 844> @_MARKCLASS_0_lookup_16;
+	markClass SevenSmallDotNS <anchor -6 832> @_MARKCLASS_0_lookup_16;
+	markClass SevenSmallNS <anchor 0 1131> @_MARKCLASS_0_lookup_16;
+	markClass TahDotAboveNS <anchor -4 836> @_MARKCLASS_0_lookup_16;
+	markClass ShortVwlNS <anchor 31 805> @_MARKCLASS_0_lookup_16;
+	markClass Small2AboveNS <anchor 5 465> @_MARKCLASS_0_lookup_16;
+	markClass Small3AboveNS <anchor 3 464> @_MARKCLASS_0_lookup_16;
+	markClass ZwarakayNS <anchor 0 892> @_MARKCLASS_0_lookup_16;
+	markClass DammaRevNS <anchor 9 926> @_MARKCLASS_0_lookup_16;
+	markClass WavyHamzaAboveNS <anchor 0 833> @_MARKCLASS_0_lookup_16;
+	position mark OneDotAboveNS <anchor 0 1081> mark @_MARKCLASS_0_lookup_16;
+	position mark TwoDotsAboveNS <anchor 0 1142> mark @_MARKCLASS_0_lookup_16;
+	position mark ThreeDotsUpAboveNS <anchor 0 1235> mark @_MARKCLASS_0_lookup_16;
+	position mark ThreeDotsDownAboveNS <anchor 0 1231> mark @_MARKCLASS_0_lookup_16;
+	position mark TwoDotsVertAboveNS <anchor 112 406> mark @_MARKCLASS_0_lookup_16;
+	position mark FourDotsAboveNS <anchor 145 388> mark @_MARKCLASS_0_lookup_16;
+	position mark MaddaNS <anchor 0 1148> mark @_MARKCLASS_0_lookup_16;
+	position mark Madda.shortNS <anchor 0 1100> mark @_MARKCLASS_0_lookup_16;
+	position mark Madda.shorterNS <anchor 0 1100> mark @_MARKCLASS_0_lookup_16;
+	position mark WaslaNS <anchor 0 1117> mark @_MARKCLASS_0_lookup_16;
+	position mark HamzaAboveNS <anchor 0 1091> mark @_MARKCLASS_0_lookup_16;
+	position mark HamzaAboveAF_NS <anchor 0 1099> mark @_MARKCLASS_0_lookup_16;
+	position mark AlayhissalamNS <anchor 0 1202> mark @_MARKCLASS_0_lookup_16;
+	position mark AlefSuperiorNS <anchor 0 1181> mark @_MARKCLASS_0_lookup_16;
+	position mark DammaNS <anchor 0 1172> mark @_MARKCLASS_0_lookup_16;
+	position mark UltapeshNS <anchor 0 1120> mark @_MARKCLASS_0_lookup_16;
+	position mark DammatanNS <anchor 0 1141> mark @_MARKCLASS_0_lookup_16;
+	position mark FathaNS <anchor 0 1093> mark @_MARKCLASS_0_lookup_16;
+	position mark FathatanNS <anchor 0 1193> mark @_MARKCLASS_0_lookup_16;
+	position mark NoonGhunnaMarkNS <anchor 0 1107> mark @_MARKCLASS_0_lookup_16;
+	position mark NoonGhunnaMarkKshmrNS <anchor 15 1147> mark @_MARKCLASS_0_lookup_16;
+	position mark RadiallahNS <anchor 0 1272> mark @_MARKCLASS_0_lookup_16;
+	position mark RahmatullahNS <anchor 0 1208> mark @_MARKCLASS_0_lookup_16;
+	position mark SallallahNS <anchor 0 1185> mark @_MARKCLASS_0_lookup_16;
+	position mark ShaddaNS <anchor 0 1090> mark @_MARKCLASS_0_lookup_16;
+	position mark SukunHahNS <anchor 0 1103> mark @_MARKCLASS_0_lookup_16;
+	position mark SukunJazmNS <anchor 0 1123> mark @_MARKCLASS_0_lookup_16;
+	position mark SukunNS <anchor 0 1127> mark @_MARKCLASS_0_lookup_16;
+	position mark SukunZeroNS <anchor 0 1165> mark @_MARKCLASS_0_lookup_16;
+	position mark TahSmallNS <anchor 0 1244> mark @_MARKCLASS_0_lookup_16;
+	position mark Tah2DotsAboveNS <anchor 0 1331> mark @_MARKCLASS_0_lookup_16;
+	position mark TakhallusNS <anchor 0 1127> mark @_MARKCLASS_0_lookup_16;
+	position mark Small4UrduAboveNS <anchor 0 771> mark @_MARKCLASS_0_lookup_16;
+	position mark OneDotAboveAltNS <anchor 0 1081> mark @_MARKCLASS_0_lookup_16;
+	position mark TwoDotsAboveAltNS <anchor 0 1142> mark @_MARKCLASS_0_lookup_16;
+	position mark ThreeDotsUpAboveAltNS <anchor 0 1235> mark @_MARKCLASS_0_lookup_16;
+	position mark MaddaAltNS <anchor 0 1148> mark @_MARKCLASS_0_lookup_16;
+	position mark Madda.shortAltNS <anchor 0 1100> mark @_MARKCLASS_0_lookup_16;
+	position mark Madda.shorterAltNS <anchor 0 1100> mark @_MARKCLASS_0_lookup_16;
+	position mark WaslaAltNS <anchor 0 1117> mark @_MARKCLASS_0_lookup_16;
+	position mark HamzaAboveAltNS <anchor 0 1091> mark @_MARKCLASS_0_lookup_16;
+	position mark HamzaAboveAF_AltNS <anchor 0 1136> mark @_MARKCLASS_0_lookup_16;
+	position mark AlayhissalamAltNS <anchor 0 1202> mark @_MARKCLASS_0_lookup_16;
+	position mark AlefSuperiorAltNS <anchor 0 1181> mark @_MARKCLASS_0_lookup_16;
+	position mark DammaAltNS <anchor 0 1172> mark @_MARKCLASS_0_lookup_16;
+	position mark UltapeshAltNS <anchor 0 1120> mark @_MARKCLASS_0_lookup_16;
+	position mark DammatanAltNS <anchor 0 1141> mark @_MARKCLASS_0_lookup_16;
+	position mark FathaAltNS <anchor 0 1093> mark @_MARKCLASS_0_lookup_16;
+	position mark FathatanAltNS <anchor 0 1193> mark @_MARKCLASS_0_lookup_16;
+	position mark NoonGhunnaMarkAltNS <anchor 0 1107> mark @_MARKCLASS_0_lookup_16;
+	position mark RadiallahAltNS <anchor 0 1272> mark @_MARKCLASS_0_lookup_16;
+	position mark RahmatullahAltNS <anchor 0 1208> mark @_MARKCLASS_0_lookup_16;
+	position mark SallallahAltNS <anchor 0 1185> mark @_MARKCLASS_0_lookup_16;
+	position mark ShaddaAltNS <anchor 0 1090> mark @_MARKCLASS_0_lookup_16;
+	position mark Tah2DotsAboveAltNS <anchor 0 1331> mark @_MARKCLASS_0_lookup_16;
+	position mark SukunHahAltNS <anchor 0 1103> mark @_MARKCLASS_0_lookup_16;
+	position mark SukunJazmAltNS <anchor 0 1123> mark @_MARKCLASS_0_lookup_16;
+	position mark WavyHamzaAboveAltNS <anchor 0 1131> mark @_MARKCLASS_0_lookup_16;
+	position mark SukunAltNS <anchor 0 1127> mark @_MARKCLASS_0_lookup_16;
+	position mark SukunZeroAltNS <anchor 0 1165> mark @_MARKCLASS_0_lookup_16;
+	position mark TahSmallAltNS <anchor 0 1244> mark @_MARKCLASS_0_lookup_16;
+	position mark TakhallusAltNS <anchor 0 1127> mark @_MARKCLASS_0_lookup_16;
+	position mark CircumArabicAltNS <anchor -15 949> mark @_MARKCLASS_0_lookup_16;
+	position mark CircumArabicNS <anchor 0 1068> mark @_MARKCLASS_0_lookup_16;
+	position mark Fatha2dotsAltNS <anchor 0 1172> mark @_MARKCLASS_0_lookup_16;
+	position mark Fatha2dotsNS <anchor 0 1172> mark @_MARKCLASS_0_lookup_16;
+	position mark FourDotsAboveAltNS <anchor 130 349> mark @_MARKCLASS_0_lookup_16;
+	position mark SevenSmallDotAltNS <anchor 0 1239> mark @_MARKCLASS_0_lookup_16;
+	position mark SevenSmallDotNS <anchor 0 1239> mark @_MARKCLASS_0_lookup_16;
+	position mark SevenSmallNS <anchor 0 1239> mark @_MARKCLASS_0_lookup_16;
+	position mark TahDotAboveAltNS <anchor 0 1341> mark @_MARKCLASS_0_lookup_16;
+	position mark TahDotAboveNS <anchor 0 1341> mark @_MARKCLASS_0_lookup_16;
+	position mark ShortVwlAltNS <anchor 34 1112> mark @_MARKCLASS_0_lookup_16;
+	position mark ShortVwlNS <anchor 34 1112> mark @_MARKCLASS_0_lookup_16;
+	position mark Small2AboveAltNS <anchor 0 771> mark @_MARKCLASS_0_lookup_16;
+	position mark Small2AboveNS <anchor 0 771> mark @_MARKCLASS_0_lookup_16;
+	position mark Small3AboveAltNS <anchor 0 771> mark @_MARKCLASS_0_lookup_16;
+	position mark Small3AboveNS <anchor 0 771> mark @_MARKCLASS_0_lookup_16;
+	position mark Small4UrduAboveAltNS <anchor 0 771> mark @_MARKCLASS_0_lookup_16;
+	position mark TwoDotsVertAboveAltNS <anchor 112 406> mark @_MARKCLASS_0_lookup_16;
+	position mark ZwarakayAltNS <anchor 0 1032> mark @_MARKCLASS_0_lookup_16;
+	position mark ZwarakayNS <anchor 0 1032> mark @_MARKCLASS_0_lookup_16;
+	position mark ThreeDotsDownAboveAltNS <anchor 0 1231> mark @_MARKCLASS_0_lookup_16;
+	position mark DammaRevAltNS <anchor 9 1172> mark @_MARKCLASS_0_lookup_16;
+	position mark DammaRevNS <anchor 9 1172> mark @_MARKCLASS_0_lookup_16;
+	position mark WavyHamzaAboveNS <anchor 0 1131> mark @_MARKCLASS_0_lookup_16;
     } gpos_16_mark_to_mark ;
 
 lookup gpos_17_mark_to_mark {
     lookupflag MarkAttachmentType @_MarkAttachmentType_2  ;
-markClass OneDotBelowNS <anchor 0 -8> @_MARKCLASS_0_lookup_17;
-markClass TwoDotsBelowNS <anchor 0 -2> @_MARKCLASS_0_lookup_17;
-markClass ThreeDotsDownBelowNS <anchor 0 0> @_MARKCLASS_0_lookup_17;
-markClass TwoDotsVertBelowNS <anchor 111 -7> @_MARKCLASS_0_lookup_17;
-markClass FourDotsBelowNS <anchor 130 -40> @_MARKCLASS_0_lookup_17;
-markClass HamzaBelowNS <anchor 0 -67> @_MARKCLASS_0_lookup_17;
-markClass HamzaBelowAF_NS <anchor 0 -44> @_MARKCLASS_0_lookup_17;
-markClass AlefInferiorNS <anchor 29 -8> @_MARKCLASS_0_lookup_17;
-markClass KasraNS <anchor 0 -24> @_MARKCLASS_0_lookup_17;
-markClass KasratanNS <anchor 0 -44> @_MARKCLASS_0_lookup_17;
-markClass TahSmallBelowNS <anchor 10 -36> @_MARKCLASS_0_lookup_17;
-markClass Tah2DotsBelowNS <anchor 5 -58> @_MARKCLASS_0_lookup_17;
-markClass AlefInferiorYB <anchor 29 -8> @_MARKCLASS_0_lookup_17;
-markClass HamzaBelowYB <anchor 0 -140> @_MARKCLASS_0_lookup_17;
-markClass KasraYB <anchor 0 -81> @_MARKCLASS_0_lookup_17;
-markClass KasratanYB <anchor 0 -81> @_MARKCLASS_0_lookup_17;
-markClass OneDotBelowYB <anchor 0 -99> @_MARKCLASS_0_lookup_17;
-markClass ThreeDotsDownBelowYB <anchor 0 -98> @_MARKCLASS_0_lookup_17;
-markClass TwoDotsBelowYB <anchor 0 -99> @_MARKCLASS_0_lookup_17;
-markClass HehCommaYB <anchor 157 -158> @_MARKCLASS_0_lookup_17;
-markClass FourDotsBelowYB <anchor 145 -98> @_MARKCLASS_0_lookup_17;
-markClass WavyHamzaBelowYB <anchor 0 -83> @_MARKCLASS_0_lookup_17;
-markClass WavyHamzaBelowNS <anchor 0 -83> @_MARKCLASS_0_lookup_17;
-markClass Small4UrduBelowYB <anchor -6 -179> @_MARKCLASS_0_lookup_17;
-markClass TwoDotsVertBelowYB <anchor 119 -98> @_MARKCLASS_0_lookup_17;
-markClass HamzaBelowAF_YB <anchor 0 -44> @_MARKCLASS_0_lookup_17;
-markClass Tah2DotsBelowYB <anchor 5 -58> @_MARKCLASS_0_lookup_17;
-markClass TahSmallBelowYB <anchor 10 -36> @_MARKCLASS_0_lookup_17;
-markClass Small2AboveAltNS <anchor 149 901> @_MARKCLASS_0_lookup_17;
-markClass Small3AboveAltNS <anchor 180 901> @_MARKCLASS_0_lookup_17;
-markClass Small4UrduBelowNS <anchor 0 -82> @_MARKCLASS_0_lookup_17;
-position mark OneDotBelowNS <anchor 0 -257> mark @_MARKCLASS_0_lookup_17;
-position mark TwoDotsBelowNS <anchor 0 -268> mark @_MARKCLASS_0_lookup_17;
-position mark ThreeDotsDownBelowNS <anchor 0 -412> mark @_MARKCLASS_0_lookup_17;
-position mark TwoDotsVertBelowNS <anchor 117 -413> mark @_MARKCLASS_0_lookup_17;
-position mark FourDotsBelowNS <anchor 130 -381> mark @_MARKCLASS_0_lookup_17;
-position mark HamzaBelowNS <anchor 0 -269> mark @_MARKCLASS_0_lookup_17;
-position mark HamzaBelowAF_NS <anchor 0 -308> mark @_MARKCLASS_0_lookup_17;
-position mark AlefInferiorNS <anchor 1 -338> mark @_MARKCLASS_0_lookup_17;
-position mark KasraNS <anchor 0 -229> mark @_MARKCLASS_0_lookup_17;
-position mark KasratanNS <anchor 0 -328> mark @_MARKCLASS_0_lookup_17;
-position mark TahSmallBelowNS <anchor 0 -445> mark @_MARKCLASS_0_lookup_17;
-position mark Tah2DotsBelowNS <anchor 0 -424> mark @_MARKCLASS_0_lookup_17;
-position mark AlefInferiorYB <anchor 1 -338> mark @_MARKCLASS_0_lookup_17;
-position mark HamzaBelowYB <anchor 0 -288> mark @_MARKCLASS_0_lookup_17;
-position mark KasraYB <anchor 0 -229> mark @_MARKCLASS_0_lookup_17;
-position mark KasratanYB <anchor 0 -328> mark @_MARKCLASS_0_lookup_17;
-position mark OneDotBelowYB <anchor 0 -257> mark @_MARKCLASS_0_lookup_17;
-position mark ThreeDotsDownBelowYB <anchor 0 -412> mark @_MARKCLASS_0_lookup_17;
-position mark TwoDotsBelowYB <anchor 0 -268> mark @_MARKCLASS_0_lookup_17;
-position mark HehCommaNS <anchor 164 -565> mark @_MARKCLASS_0_lookup_17;
-position mark HehCommaAltNS <anchor 164 -565> mark @_MARKCLASS_0_lookup_17;
-position mark HehCommaYB <anchor 164 -565> mark @_MARKCLASS_0_lookup_17;
-position mark FourDotsBelowYB <anchor 145 -387> mark @_MARKCLASS_0_lookup_17;
-position mark WavyHamzaBelowYB <anchor 0 -401> mark @_MARKCLASS_0_lookup_17;
-position mark WavyHamzaBelowNS <anchor 0 -401> mark @_MARKCLASS_0_lookup_17;
-position mark Small4UrduBelowYB <anchor 0 -398> mark @_MARKCLASS_0_lookup_17;
-position mark TwoDotsVertBelowYB <anchor 117 -413> mark @_MARKCLASS_0_lookup_17;
-position mark HamzaBelowAF_YB <anchor 0 -308> mark @_MARKCLASS_0_lookup_17;
-position mark Tah2DotsBelowYB <anchor 0 -424> mark @_MARKCLASS_0_lookup_17;
-position mark TahSmallBelowYB <anchor 0 -445> mark @_MARKCLASS_0_lookup_17;
-position mark OneDotBelowAltNS <anchor 0 -257> mark @_MARKCLASS_0_lookup_17;
-position mark TwoDotsBelowAltNS <anchor 0 -268> mark @_MARKCLASS_0_lookup_17;
-position mark ThreeDotsDownBelowAltNS <anchor 0 -412> mark @_MARKCLASS_0_lookup_17;
-position mark HamzaBelowAltNS <anchor 0 -287> mark @_MARKCLASS_0_lookup_17;
-position mark HamzaBelowAF_AltNS <anchor 0 -308> mark @_MARKCLASS_0_lookup_17;
-position mark AlefInferiorAltNS <anchor 1 -338> mark @_MARKCLASS_0_lookup_17;
-position mark KasraAltNS <anchor 0 -229> mark @_MARKCLASS_0_lookup_17;
-position mark KasratanAltNS <anchor 0 -328> mark @_MARKCLASS_0_lookup_17;
-position mark FourDotsBelowAltNS <anchor 130 -381> mark @_MARKCLASS_0_lookup_17;
-position mark WavyHamzaBelowAltNS <anchor 0 -401> mark @_MARKCLASS_0_lookup_17;
-position mark Small4UrduBelowAltNS <anchor 0 -398> mark @_MARKCLASS_0_lookup_17;
-position mark TwoDotsVertBelowAltNS <anchor 117 -413> mark @_MARKCLASS_0_lookup_17;
-position mark Tah2DotsBelowAltNS <anchor 0 -424> mark @_MARKCLASS_0_lookup_17;
-position mark Small4UrduBelowNS <anchor 0 -398> mark @_MARKCLASS_0_lookup_17;
+	markClass OneDotBelowNS <anchor 0 -8> @_MARKCLASS_0_lookup_17;
+	markClass TwoDotsBelowNS <anchor 0 -2> @_MARKCLASS_0_lookup_17;
+	markClass ThreeDotsDownBelowNS <anchor 0 0> @_MARKCLASS_0_lookup_17;
+	markClass TwoDotsVertBelowNS <anchor 111 -7> @_MARKCLASS_0_lookup_17;
+	markClass FourDotsBelowNS <anchor 130 -40> @_MARKCLASS_0_lookup_17;
+	markClass HamzaBelowNS <anchor 0 -67> @_MARKCLASS_0_lookup_17;
+	markClass HamzaBelowAF_NS <anchor 0 -44> @_MARKCLASS_0_lookup_17;
+	markClass AlefInferiorNS <anchor 29 -8> @_MARKCLASS_0_lookup_17;
+	markClass KasraNS <anchor 0 -24> @_MARKCLASS_0_lookup_17;
+	markClass KasratanNS <anchor 0 -44> @_MARKCLASS_0_lookup_17;
+	markClass TahSmallBelowNS <anchor 10 -36> @_MARKCLASS_0_lookup_17;
+	markClass Tah2DotsBelowNS <anchor 5 -58> @_MARKCLASS_0_lookup_17;
+	markClass AlefInferiorYB <anchor 29 -8> @_MARKCLASS_0_lookup_17;
+	markClass HamzaBelowYB <anchor 0 -140> @_MARKCLASS_0_lookup_17;
+	markClass KasraYB <anchor 0 -81> @_MARKCLASS_0_lookup_17;
+	markClass KasratanYB <anchor 0 -81> @_MARKCLASS_0_lookup_17;
+	markClass OneDotBelowYB <anchor 0 -99> @_MARKCLASS_0_lookup_17;
+	markClass ThreeDotsDownBelowYB <anchor 0 -98> @_MARKCLASS_0_lookup_17;
+	markClass TwoDotsBelowYB <anchor 0 -99> @_MARKCLASS_0_lookup_17;
+	markClass HehCommaYB <anchor 157 -158> @_MARKCLASS_0_lookup_17;
+	markClass FourDotsBelowYB <anchor 145 -98> @_MARKCLASS_0_lookup_17;
+	markClass WavyHamzaBelowYB <anchor 0 -83> @_MARKCLASS_0_lookup_17;
+	markClass WavyHamzaBelowNS <anchor 0 -83> @_MARKCLASS_0_lookup_17;
+	markClass Small4UrduBelowYB <anchor -6 -179> @_MARKCLASS_0_lookup_17;
+	markClass TwoDotsVertBelowYB <anchor 119 -98> @_MARKCLASS_0_lookup_17;
+	markClass HamzaBelowAF_YB <anchor 0 -44> @_MARKCLASS_0_lookup_17;
+	markClass Tah2DotsBelowYB <anchor 5 -58> @_MARKCLASS_0_lookup_17;
+	markClass TahSmallBelowYB <anchor 10 -36> @_MARKCLASS_0_lookup_17;
+	markClass Small2AboveAltNS <anchor 149 901> @_MARKCLASS_0_lookup_17;
+	markClass Small3AboveAltNS <anchor 180 901> @_MARKCLASS_0_lookup_17;
+	markClass Small4UrduBelowNS <anchor 0 -82> @_MARKCLASS_0_lookup_17;
+	position mark OneDotBelowNS <anchor 0 -257> mark @_MARKCLASS_0_lookup_17;
+	position mark TwoDotsBelowNS <anchor 0 -268> mark @_MARKCLASS_0_lookup_17;
+	position mark ThreeDotsDownBelowNS <anchor 0 -412> mark @_MARKCLASS_0_lookup_17;
+	position mark TwoDotsVertBelowNS <anchor 117 -413> mark @_MARKCLASS_0_lookup_17;
+	position mark FourDotsBelowNS <anchor 130 -381> mark @_MARKCLASS_0_lookup_17;
+	position mark HamzaBelowNS <anchor 0 -269> mark @_MARKCLASS_0_lookup_17;
+	position mark HamzaBelowAF_NS <anchor 0 -308> mark @_MARKCLASS_0_lookup_17;
+	position mark AlefInferiorNS <anchor 1 -338> mark @_MARKCLASS_0_lookup_17;
+	position mark KasraNS <anchor 0 -229> mark @_MARKCLASS_0_lookup_17;
+	position mark KasratanNS <anchor 0 -328> mark @_MARKCLASS_0_lookup_17;
+	position mark TahSmallBelowNS <anchor 0 -445> mark @_MARKCLASS_0_lookup_17;
+	position mark Tah2DotsBelowNS <anchor 0 -424> mark @_MARKCLASS_0_lookup_17;
+	position mark AlefInferiorYB <anchor 1 -338> mark @_MARKCLASS_0_lookup_17;
+	position mark HamzaBelowYB <anchor 0 -288> mark @_MARKCLASS_0_lookup_17;
+	position mark KasraYB <anchor 0 -229> mark @_MARKCLASS_0_lookup_17;
+	position mark KasratanYB <anchor 0 -328> mark @_MARKCLASS_0_lookup_17;
+	position mark OneDotBelowYB <anchor 0 -257> mark @_MARKCLASS_0_lookup_17;
+	position mark ThreeDotsDownBelowYB <anchor 0 -412> mark @_MARKCLASS_0_lookup_17;
+	position mark TwoDotsBelowYB <anchor 0 -268> mark @_MARKCLASS_0_lookup_17;
+	position mark HehCommaNS <anchor 164 -565> mark @_MARKCLASS_0_lookup_17;
+	position mark HehCommaAltNS <anchor 164 -565> mark @_MARKCLASS_0_lookup_17;
+	position mark HehCommaYB <anchor 164 -565> mark @_MARKCLASS_0_lookup_17;
+	position mark FourDotsBelowYB <anchor 145 -387> mark @_MARKCLASS_0_lookup_17;
+	position mark WavyHamzaBelowYB <anchor 0 -401> mark @_MARKCLASS_0_lookup_17;
+	position mark WavyHamzaBelowNS <anchor 0 -401> mark @_MARKCLASS_0_lookup_17;
+	position mark Small4UrduBelowYB <anchor 0 -398> mark @_MARKCLASS_0_lookup_17;
+	position mark TwoDotsVertBelowYB <anchor 117 -413> mark @_MARKCLASS_0_lookup_17;
+	position mark HamzaBelowAF_YB <anchor 0 -308> mark @_MARKCLASS_0_lookup_17;
+	position mark Tah2DotsBelowYB <anchor 0 -424> mark @_MARKCLASS_0_lookup_17;
+	position mark TahSmallBelowYB <anchor 0 -445> mark @_MARKCLASS_0_lookup_17;
+	position mark OneDotBelowAltNS <anchor 0 -257> mark @_MARKCLASS_0_lookup_17;
+	position mark TwoDotsBelowAltNS <anchor 0 -268> mark @_MARKCLASS_0_lookup_17;
+	position mark ThreeDotsDownBelowAltNS <anchor 0 -412> mark @_MARKCLASS_0_lookup_17;
+	position mark HamzaBelowAltNS <anchor 0 -287> mark @_MARKCLASS_0_lookup_17;
+	position mark HamzaBelowAF_AltNS <anchor 0 -308> mark @_MARKCLASS_0_lookup_17;
+	position mark AlefInferiorAltNS <anchor 1 -338> mark @_MARKCLASS_0_lookup_17;
+	position mark KasraAltNS <anchor 0 -229> mark @_MARKCLASS_0_lookup_17;
+	position mark KasratanAltNS <anchor 0 -328> mark @_MARKCLASS_0_lookup_17;
+	position mark FourDotsBelowAltNS <anchor 130 -381> mark @_MARKCLASS_0_lookup_17;
+	position mark WavyHamzaBelowAltNS <anchor 0 -401> mark @_MARKCLASS_0_lookup_17;
+	position mark Small4UrduBelowAltNS <anchor 0 -398> mark @_MARKCLASS_0_lookup_17;
+	position mark TwoDotsVertBelowAltNS <anchor 117 -413> mark @_MARKCLASS_0_lookup_17;
+	position mark Tah2DotsBelowAltNS <anchor 0 -424> mark @_MARKCLASS_0_lookup_17;
+	position mark Small4UrduBelowNS <anchor 0 -398> mark @_MARKCLASS_0_lookup_17;
     } gpos_17_mark_to_mark ;
 
 lookup gpos_18_single {
@@ -27499,6 +27539,8 @@ feature curs {
 		language dflt ;
 			lookup gpos_0_cursive;
 			lookup gpos_1_context;
+		} curs;
+
 feature mark {
 	script DFLT ;
 		language dflt ;
@@ -27620,6 +27662,8 @@ feature mark {
 			lookup gpos_12_mark_to_base;
 			lookup gpos_13_mark_to_ligature;
 			lookup gpos_15_mark_to_ligature;
+		} mark;
+
 feature mkmk {
 	script DFLT ;
 		language dflt ;

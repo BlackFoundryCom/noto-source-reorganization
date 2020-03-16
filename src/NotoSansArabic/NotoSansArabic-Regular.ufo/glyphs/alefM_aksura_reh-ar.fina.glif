@@ -1,23 +1,86 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="alefMaksura_reh-ar.fina" format="2">
-  <advance width="665"/>
-  <anchor x="396" y="0" name="caret_1"/>
-  <anchor x="503" y="-5" name="bottom_1"/>
-  <anchor x="83" y="-217" name="bottom_2"/>
-  <anchor x="523" y="404" name="top_1"/>
-  <anchor x="162" y="351" name="top_2"/>
+  <advance width="797"/>
+  <anchor x="618" y="-32" name="bottom.dot"/>
+  <anchor x="620" y="-110" name="bottom_1"/>
+  <anchor x="130" y="-301" name="bottom_2"/>
+  <anchor x="616" y="346" name="top.dot_1"/>
+  <anchor x="265" y="322" name="top.dot_2"/>
+  <anchor x="616" y="458" name="top_1"/>
+  <anchor x="261" y="469" name="top_2"/>
   <outline>
-    <component base="alefMaksura-ar.init" xOffset="396"/>
-    <component base="reh-ar.fina"/>
+    <contour>
+      <point x="82" y="-262" type="curve" smooth="yes"/>
+      <point x="275" y="-262"/>
+      <point x="379" y="-151"/>
+      <point x="379" y="51" type="curve" smooth="yes"/>
+      <point x="379" y="82"/>
+      <point x="372" y="125"/>
+      <point x="363" y="155" type="curve"/>
+      <point x="332" y="139" type="line"/>
+      <point x="357" y="121"/>
+      <point x="398" y="109"/>
+      <point x="432" y="109" type="curve" smooth="yes"/>
+      <point x="539" y="109"/>
+      <point x="614" y="134"/>
+      <point x="632" y="247" type="curve"/>
+      <point x="599" y="246" type="line"/>
+      <point x="598" y="208"/>
+      <point x="598" y="171"/>
+      <point x="599" y="132" type="curve" smooth="yes"/>
+      <point x="600" y="37"/>
+      <point x="654" y="-7"/>
+      <point x="797" y="-7" type="curve" smooth="yes"/>
+      <point x="828" y="-7"/>
+      <point x="844" y="13"/>
+      <point x="844" y="36" type="curve" smooth="yes"/>
+      <point x="844" y="58"/>
+      <point x="832" y="79"/>
+      <point x="802" y="79" type="curve" smooth="yes"/>
+      <point x="692" y="79"/>
+      <point x="665" y="105"/>
+      <point x="660" y="161" type="curve" smooth="yes"/>
+      <point x="656" y="205"/>
+      <point x="657" y="248"/>
+      <point x="657" y="314" type="curve"/>
+      <point x="580" y="309" type="line"/>
+      <point x="579" y="286"/>
+      <point x="577" y="267"/>
+      <point x="571" y="253" type="curve" smooth="yes"/>
+      <point x="555" y="209"/>
+      <point x="518" y="194"/>
+      <point x="434" y="194" type="curve" smooth="yes"/>
+      <point x="405" y="194"/>
+      <point x="381" y="196"/>
+      <point x="354" y="201" type="curve"/>
+      <point x="341" y="233"/>
+      <point x="326" y="268"/>
+      <point x="312" y="298" type="curve"/>
+      <point x="242" y="260" type="line"/>
+      <point x="281" y="184"/>
+      <point x="306" y="111"/>
+      <point x="306" y="45" type="curve" smooth="yes"/>
+      <point x="306" y="-107"/>
+      <point x="224" y="-182"/>
+      <point x="73" y="-182" type="curve" smooth="yes"/>
+      <point x="18" y="-182"/>
+      <point x="-19" y="-174"/>
+      <point x="-62" y="-160" type="curve"/>
+      <point x="-59" y="-234" type="line"/>
+      <point x="-25" y="-252"/>
+      <point x="21" y="-262"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>alefMaksura-ar.init</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>reh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/28 20:35:33</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
     </dict>
   </lib>
 </glyph>

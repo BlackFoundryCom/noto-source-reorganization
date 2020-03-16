@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehbarreeThreeabove-ar" format="2">
+  <advance width="770"/>
+  <unicode hex="077B"/>
+  <anchor x="341" y="-111" name="bottom"/>
+  <anchor x="347" y="622" name="top"/>
+  <anchor x="346" y="558" name="top_1"/>
+  <outline>
+    <component base="yehbarree-ar"/>
+    <component base="three-persian.small01" xOffset="14" yOffset="-221"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:32</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

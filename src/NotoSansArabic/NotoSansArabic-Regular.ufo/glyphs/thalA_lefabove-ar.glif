@@ -1,22 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="thalAlefabove-ar" format="2">
-  <advance width="477"/>
+  <advance width="486"/>
   <unicode hex="FC5B"/>
-  <anchor x="226" y="-5" name="bottom"/>
-  <anchor x="411" y="702" name="top"/>
+  <anchor x="214" y="-111" name="bottom"/>
+  <anchor x="217" y="-21" name="bottom.dot"/>
+  <anchor x="225" y="965" name="top"/>
+  <anchor x="235" y="506" name="top.dot"/>
   <outline>
     <component base="thal-ar"/>
-    <component base="alefabove-ar" xOffset="340" yOffset="-73"/>
+    <component base="alefabove-ar" xOffset="166" yOffset="246"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
-        <integer>0</integer>
-        <integer>-1</integer>
+        <dict>
+          <key>anchor</key>
+          <string>top</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>alefabove-ar</string>
+        </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/02 14:11:49</string>
     </dict>
   </lib>
 </glyph>

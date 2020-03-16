@@ -1,16 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hehgoalHamzaabove-ar.fina" format="2">
-  <advance width="479"/>
-  <anchor x="206" y="-5" name="bottom"/>
-  <anchor x="184" y="596" name="top"/>
+  <advance width="618"/>
+  <anchor x="279" y="-111" name="bottom"/>
+  <anchor x="281" y="496" name="top"/>
+  <anchor x="281" y="364" name="top.dot"/>
   <outline>
     <component base="hehgoal-ar.fina"/>
-    <component base="hamzaabove-ar" xOffset="66" yOffset="-138"/>
+    <component base="hamzaabove-ar" xOffset="149" yOffset="-68"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>hamzaabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/25 17:31:31</string>
     </dict>
   </lib>
 </glyph>

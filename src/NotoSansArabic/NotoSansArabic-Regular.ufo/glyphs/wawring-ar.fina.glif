@@ -1,14 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="wawring-ar.fina" format="2">
-  <advance width="472"/>
+  <advance width="496"/>
+  <anchor x="211" y="-296" name="bottom"/>
+  <anchor x="237" y="-80" name="center"/>
+  <anchor x="245" y="454" name="top"/>
+  <anchor x="245" y="384" name="top.dot"/>
   <outline>
-    <component base="wawDotcenter-ar.pt.fina"/>
-    <component base="ringArabic" xOffset="27" yOffset="-185"/>
+    <component base="_wawDotcenter-ar.fina"/>
+    <component base="ringArabic" xScale="0.92" yScale="0.92" xOffset="18" yOffset="-213"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/04 18:34:22</string>
+      <string>2020/03/02 14:10:05</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>

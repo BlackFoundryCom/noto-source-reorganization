@@ -1,22 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="meemThreedotsabove-ar.fina" format="2">
-  <advance width="562"/>
-  <guideline x="938" y="465" angle="0"/>
-  <anchor x="281" y="0" name="bottom"/>
-  <anchor x="315" y="657" name="top"/>
+  <advance width="704"/>
+  <anchor x="404" y="-111" name="bottom"/>
+  <anchor x="404" y="-20" name="bottom.dot"/>
+  <anchor x="387" y="529" name="top"/>
+  <anchor x="389" y="426" name="top.dot"/>
   <outline>
     <component base="meem-ar.fina"/>
-    <component base="threedotsabove-ar" xOffset="191" yOffset="-132"/>
+    <component base="threedotsupabove-ar" xOffset="249" yOffset="-6"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
-        <integer>0</integer>
-        <integer>-1</integer>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedotsupabove-ar</string>
+        </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
     </dict>
   </lib>
 </glyph>

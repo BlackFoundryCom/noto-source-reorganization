@@ -1,23 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tcheh-ar" format="2">
-  <advance width="659"/>
+  <advance width="715"/>
   <unicode hex="0686"/>
-  <anchor x="311" y="416" name="top"/>
-  <anchor x="370" y="-394" name="bottom"/>
-  <anchor x="380" y="54" name="center"/>
+  <anchor x="333" y="-435" name="bottom"/>
+  <anchor x="408" y="-36" name="center"/>
+  <anchor x="339" y="580" name="top"/>
+  <anchor x="336" y="504" name="top.dot"/>
   <outline>
     <component base="hah-ar.wide"/>
-    <component base="threedotsdownabove-ar.small" xOffset="232" yOffset="-759"/>
+    <component base="threedotsdowncenter-ar" xOffset="271" yOffset="-245"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
+      <string>2020/02/28 20:37:21</string>
     </dict>
   </lib>
 </glyph>

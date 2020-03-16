@@ -1,17 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ng-ar" format="2">
-  <advance width="882"/>
+  <advance width="940"/>
   <unicode hex="06AD"/>
-  <anchor x="410" y="-21" name="bottom"/>
-  <anchor x="469" y="840" name="top"/>
+  <anchor x="450" y="-111" name="bottom"/>
+  <anchor x="451" y="-20" name="bottom.dot"/>
+  <anchor x="461" y="632" name="top"/>
+  <anchor x="796" y="726" name="top.dot"/>
   <outline>
     <component base="kaf-ar"/>
-    <component base="threedotsupabove-ar" xOffset="324" yOffset="65"/>
+    <component base="threedotsupabove-ar" xScale="0.9" yScale="0.9" xOffset="670" yOffset="337"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedotsupabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/29 21:55:47</string>
     </dict>
   </lib>
 </glyph>

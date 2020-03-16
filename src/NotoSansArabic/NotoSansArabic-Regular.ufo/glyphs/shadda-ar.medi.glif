@@ -1,17 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="shadda-ar.medi" format="2">
-  <advance width="270"/>
+  <advance width="288"/>
   <unicode hex="FE7D"/>
-  <anchor x="135" y="0" name="bottom"/>
-  <anchor x="129" y="658" name="top"/>
   <outline>
     <component base="kashida-ar"/>
-    <component base="shadda-ar" xOffset="-25"/>
+    <component base="shadda-ar" xOffset="-11" yOffset="-97"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/08/02 21:04:12</string>
+      <string>2020/02/26 22:28:25</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>0</integer>

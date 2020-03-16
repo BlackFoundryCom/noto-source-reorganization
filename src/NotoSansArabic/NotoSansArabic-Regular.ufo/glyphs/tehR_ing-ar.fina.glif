@@ -1,22 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tehRing-ar.fina" format="2">
-  <advance width="1093"/>
-  <guideline x="521" y="173" angle="270"/>
-  <guideline x="430" y="507" angle="0"/>
-  <guideline x="441" y="528" angle="0"/>
-  <anchor x="520" y="-146" name="bottom"/>
-  <anchor x="511" y="528" name="top"/>
+  <advance width="1055"/>
+  <anchor x="472" y="-111" name="bottom"/>
+  <anchor x="472" y="-32" name="bottom.dot"/>
+  <anchor x="478" y="475" name="top"/>
+  <anchor x="478" y="305" name="top.dot"/>
   <outline>
     <component base="dotlessbeh-ar.fina"/>
-    <component base="twodotshorizontalabove-ar" xOffset="345" yOffset="-165"/>
-    <component base="ringArabic" xOffset="411" yOffset="-136"/>
+    <component base="twodotshorizontalabove-ar" xOffset="339" yOffset="-127"/>
+    <component base="ringArabic" xOffset="356" yOffset="-150"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>_part.instroke</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/04 18:34:21</string>
+      <string>2020/02/25 17:31:31</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>

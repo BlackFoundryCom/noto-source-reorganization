@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni08B8.init" format="2">
+  <advance width="194"/>
+  <anchor x="83" y="-110" name="bottom"/>
+  <anchor x="84" y="-40" name="bottom.dot"/>
+  <anchor x="104" y="515" name="top"/>
+  <anchor x="107" y="402" name="top.dot"/>
+  <outline>
+    <component base="dotlessbeh-ar.init.wide"/>
+    <component base="tehabove-ar.small" xOffset="-16" yOffset="46"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dotlessbeh-ar.init.wide</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dotlessbeh-ar.init.wide</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:32</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>arabic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

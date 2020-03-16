@@ -1,17 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="peh-ar.medi" format="2">
-  <advance width="373"/>
+  <advance width="417"/>
   <unicode hex="FB59"/>
-  <anchor x="180" y="-304" name="bottom"/>
-  <anchor x="196" y="283" name="top"/>
+  <anchor x="212" y="-110" name="bottom"/>
+  <anchor x="211" y="-32" name="bottom.dot"/>
+  <anchor x="216" y="458" name="top"/>
+  <anchor x="216" y="343" name="top.dot"/>
   <outline>
     <component base="dotlessbeh-ar.medi.wide"/>
-    <component base="threedotsupbelow-ar" xOffset="35" yOffset="-5"/>
+    <component base="threedotsdownbelow-ar" xOffset="78" yOffset="-24"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/03/02 14:58:58</string>
     </dict>
   </lib>
 </glyph>

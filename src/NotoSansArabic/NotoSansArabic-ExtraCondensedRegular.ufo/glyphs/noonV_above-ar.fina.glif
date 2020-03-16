@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonVabove-ar.fina" format="2">
+  <advance width="608"/>
+  <anchor x="265" y="-280" name="bottom"/>
+  <anchor x="266" y="-232" name="bottom.dot"/>
+  <anchor x="281" y="270" name="top.dot"/>
+  <outline>
+    <component base="noonghunna-ar.fina"/>
+    <component base="_dotVabove" xOffset="168" yOffset="-162"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/01 13:52:10</string>
+    </dict>
+  </lib>
+</glyph>

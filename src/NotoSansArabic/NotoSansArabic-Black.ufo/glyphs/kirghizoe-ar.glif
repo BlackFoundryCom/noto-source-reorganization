@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kirghizoe-ar" format="2">
+  <advance width="530"/>
+  <unicode hex="06C5"/>
+  <anchor x="226" y="-290" name="bottom"/>
+  <anchor x="246" y="-59" name="center"/>
+  <anchor x="264" y="518" name="top"/>
+  <anchor x="264" y="442" name="top.dot"/>
+  <outline>
+    <component base="_wawDotcenter-ar"/>
+    <component base="_stroke" yScale="0.8" xOffset="31" yOffset="-49"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 14:32:46</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="waw-ar.isol" format="2">
-  <advance width="447"/>
+  <advance width="490"/>
   <unicode hex="FEED"/>
-  <anchor x="224" y="-240" name="bottom"/>
-  <anchor x="232" y="337" name="top"/>
+  <anchor x="211" y="-296" name="bottom"/>
+  <anchor x="251" y="-84" name="center"/>
+  <anchor x="245" y="454" name="top"/>
+  <anchor x="245" y="384" name="top.dot"/>
   <outline>
     <component base="waw-ar"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/03/02 14:09:56</string>
     </dict>
   </lib>
 </glyph>

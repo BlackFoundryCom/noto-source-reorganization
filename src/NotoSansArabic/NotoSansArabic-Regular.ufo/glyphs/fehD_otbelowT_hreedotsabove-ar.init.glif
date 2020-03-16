@@ -1,17 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fehDotbelowThreedotsabove-ar.init" format="2">
-  <advance width="447"/>
-  <anchor x="202" y="-191" name="bottom"/>
-  <anchor x="225" y="813" name="top"/>
+  <advance width="508"/>
+  <anchor x="275" y="-111" name="bottom"/>
+  <anchor x="276" y="-21" name="bottom.dot"/>
+  <anchor x="253" y="668" name="top"/>
+  <anchor x="257" y="558" name="top.dot"/>
   <outline>
     <component base="dotlessfeh-ar.init"/>
-    <component base="dotbelow-ar" xOffset="126" yOffset="-3"/>
-    <component base="threedotsupabove-ar" xOffset="80" yOffset="38"/>
+    <component base="dotbelow-ar" xOffset="201" yOffset="-19"/>
+    <component base="threedotsupabove-ar" xOffset="117" yOffset="126"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>threedotsupabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/29 21:34:08</string>
     </dict>
   </lib>
 </glyph>

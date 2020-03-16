@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehbarreeHamzaabove-ar" format="2">
+  <advance width="760"/>
+  <unicode hex="06D3"/>
+  <anchor x="335" y="-93" name="bottom"/>
+  <anchor x="341" y="579" name="top"/>
+  <anchor x="340" y="515" name="top_1"/>
+  <outline>
+    <component base="yehbarree-ar"/>
+    <component base="hamzaabove-ar" xOffset="234" yOffset="51"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top_1</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>hamzaabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:32</string>
+    </dict>
+  </lib>
+</glyph>

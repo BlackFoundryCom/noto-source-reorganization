@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yu-ar.fina" format="2">
+  <advance width="424"/>
+  <unicode hex="FBDC"/>
+  <anchor x="181" y="-290" name="bottom"/>
+  <anchor x="213" y="-66" name="center"/>
+  <anchor x="205" y="806" name="top"/>
+  <anchor x="211" y="442" name="top.dot"/>
+  <outline>
+    <component base="waw-ar.fina"/>
+    <component base="alefabove-ar" xOffset="137" yOffset="-72"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 22:29:16</string>
+    </dict>
+  </lib>
+</glyph>

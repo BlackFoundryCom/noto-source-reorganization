@@ -1,16 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kehehThreedotsabove-ar.fina" format="2">
-  <advance width="975"/>
-  <anchor x="410" y="-21" name="bottom"/>
-  <anchor x="673" y="895" name="top"/>
+  <advance width="952"/>
+  <anchor x="402" y="-111" name="bottom"/>
+  <anchor x="402" y="-20" name="bottom.dot"/>
+  <anchor x="845" y="560" name="center"/>
+  <anchor x="328" y="605" name="top"/>
+  <anchor x="592" y="576" name="top.dot"/>
   <outline>
     <component base="keheh-ar.fina"/>
-    <component base="threedotsupabove-ar.v2" xOffset="541" yOffset="-104"/>
+    <component base="threedotsupabove-ar.v2" xScale="0.88293" yScale="0.88293" xOffset="468" yOffset="195"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/29 21:54:17</string>
     </dict>
   </lib>
 </glyph>

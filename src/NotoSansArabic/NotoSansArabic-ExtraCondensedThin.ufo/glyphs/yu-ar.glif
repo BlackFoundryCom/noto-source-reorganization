@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yu-ar" format="2">
+  <advance width="369"/>
+  <unicode hex="06C8"/>
+  <anchor x="161" y="-300" name="bottom"/>
+  <anchor x="193" y="-96" name="center"/>
+  <anchor x="175" y="647" name="top"/>
+  <anchor x="186" y="347" name="top.dot"/>
+  <outline>
+    <component base="waw-ar"/>
+    <component base="alefabove-ar" xOffset="141" yOffset="30"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>alefabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 22:29:16</string>
+    </dict>
+  </lib>
+</glyph>

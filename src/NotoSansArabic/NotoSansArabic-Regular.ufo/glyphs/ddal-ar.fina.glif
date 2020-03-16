@@ -1,12 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ddal-ar.fina" format="2">
-  <advance width="532"/>
+  <advance width="600"/>
   <unicode hex="FB89"/>
-  <anchor x="234" y="-5" name="bottom"/>
-  <anchor x="230" y="847" name="top"/>
+  <anchor x="225" y="-111" name="bottom"/>
+  <anchor x="228" y="-21" name="bottom.dot"/>
+  <anchor x="286" y="590" name="top"/>
+  <anchor x="286" y="506" name="top.dot"/>
   <outline>
     <component base="dal-ar.fina"/>
-    <component base="uniFBC0" xOffset="87" yOffset="-1"/>
+    <component base="uniFBC0" xOffset="117" yOffset="74"/>
   </outline>
   <lib>
     <dict>
@@ -15,7 +17,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>dal-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/03/01 12:03:47</string>
     </dict>
   </lib>
 </glyph>

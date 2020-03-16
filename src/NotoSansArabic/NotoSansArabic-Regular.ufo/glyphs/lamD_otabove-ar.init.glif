@@ -1,16 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lamDotabove-ar.init" format="2">
-  <advance width="260"/>
-  <anchor x="130" y="0" name="bottom"/>
-  <anchor x="131" y="916" name="top"/>
+  <advance width="297"/>
+  <anchor x="110" y="-111" name="bottom"/>
+  <anchor x="112" y="-20" name="bottom.dot"/>
+  <anchor x="163" y="418" name="center"/>
+  <anchor x="148" y="756" name="top"/>
+  <anchor x="148" y="728" name="top.dot"/>
   <outline>
     <component base="lam-ar.init"/>
-    <component base="dotabove-ar" xOffset="55" yOffset="251"/>
+    <component base="dotabove-ar" xOffset="73" yOffset="296"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/28 10:08:33</string>
     </dict>
   </lib>
 </glyph>

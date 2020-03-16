@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ddahal-ar.fina" format="2">
+  <advance width="602"/>
+  <unicode hex="FB83"/>
+  <anchor x="262" y="-111" name="bottom"/>
+  <anchor x="264" y="-21" name="bottom.dot"/>
+  <anchor x="315" y="602" name="top"/>
+  <anchor x="315" y="536" name="top.dot"/>
+  <outline>
+    <component base="dal-ar.fina"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="71" yOffset="-16"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

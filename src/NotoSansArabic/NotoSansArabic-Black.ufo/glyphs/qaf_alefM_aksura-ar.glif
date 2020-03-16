@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="qaf_alefMaksura-ar" format="2">
+  <advance width="845"/>
+  <unicode hex="FC35"/>
+  <anchor x="532" y="901" name="top_1"/>
+  <anchor x="357" y="-241" name="bottom.dot"/>
+  <anchor x="690" y="-281" name="bottom_1"/>
+  <anchor x="357" y="-281" name="bottom_2"/>
+  <anchor x="532" y="645" name="top.dot_1"/>
+  <anchor x="168" y="225" name="top.dot_2"/>
+  <anchor x="157" y="396" name="top_2"/>
+  <outline>
+    <component base="fehDotless_alefMaksura-ar.init"/>
+    <component base="twodotshorizontalabove-ar" xOffset="340" yOffset="95"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot_1</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>behDotless-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>behDotless-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:32</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

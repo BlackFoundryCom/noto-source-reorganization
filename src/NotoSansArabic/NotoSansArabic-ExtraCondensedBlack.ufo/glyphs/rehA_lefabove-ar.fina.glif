@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehAlefabove-ar.fina" format="2">
+  <advance width="406"/>
+  <anchor x="118" y="-308" name="bottom"/>
+  <anchor x="118" y="-252" name="bottom.dot"/>
+  <anchor x="169" y="31" name="center"/>
+  <anchor x="200" y="771" name="top"/>
+  <anchor x="209" y="340" name="top.dot"/>
+  <outline>
+    <component base="reh-ar.fina"/>
+    <component base="alefabove-ar" xOffset="132" yOffset="-107"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>alefabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 20:32:18</string>
+    </dict>
+  </lib>
+</glyph>

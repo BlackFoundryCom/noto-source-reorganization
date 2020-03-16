@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fehThreedotsbelow-ar" format="2">
+  <advance width="1066"/>
+  <unicode hex="06A5"/>
+  <anchor x="512" y="-111" name="bottom"/>
+  <anchor x="767" y="-20" name="bottom.dot"/>
+  <anchor x="388" y="621" name="top"/>
+  <anchor x="770" y="595" name="top.dot"/>
+  <outline>
+    <component base="dotlessfeh-ar"/>
+    <component base="threedotsdownbelow-ar" xOffset="589" yOffset="-11"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 20:24:14</string>
+    </dict>
+  </lib>
+</glyph>

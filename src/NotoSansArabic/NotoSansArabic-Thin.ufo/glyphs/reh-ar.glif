@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="reh-ar" format="2">
+  <advance width="438"/>
+  <unicode hex="0631"/>
+  <anchor x="118" y="-297" name="bottom"/>
+  <anchor x="118" y="-252" name="bottom.dot"/>
+  <anchor x="195" y="1" name="center"/>
+  <anchor x="247" y="481" name="top"/>
+  <anchor x="251" y="350" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="66" y="-260" type="curve" smooth="yes"/>
+      <point x="255" y="-260"/>
+      <point x="352" y="-150"/>
+      <point x="352" y="35" type="curve" smooth="yes"/>
+      <point x="352" y="127"/>
+      <point x="320" y="225"/>
+      <point x="268" y="308" type="curve"/>
+      <point x="246" y="294" type="line"/>
+      <point x="298" y="214"/>
+      <point x="327" y="120"/>
+      <point x="327" y="34" type="curve" smooth="yes"/>
+      <point x="327" y="-139"/>
+      <point x="235" y="-234"/>
+      <point x="68" y="-234" type="curve" smooth="yes"/>
+      <point x="4" y="-234"/>
+      <point x="-33" y="-223"/>
+      <point x="-75" y="-205" type="curve"/>
+      <point x="-75" y="-231" type="line"/>
+      <point x="-42" y="-248"/>
+      <point x="1" y="-260"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 21:16:18</string>
+    </dict>
+  </lib>
+</glyph>

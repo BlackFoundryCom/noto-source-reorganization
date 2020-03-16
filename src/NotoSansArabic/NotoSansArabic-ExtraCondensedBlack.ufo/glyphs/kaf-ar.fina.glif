@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kaf-ar.fina" format="2">
+  <advance width="798"/>
+  <unicode hex="FEDA"/>
+  <anchor x="368" y="-111" name="bottom"/>
+  <anchor x="369" y="-20" name="bottom.dot"/>
+  <anchor x="387" y="667" name="top"/>
+  <anchor x="648" y="744" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="360" y="-15" type="line"/>
+      <point x="489" y="-15"/>
+      <point x="642" y="0"/>
+      <point x="697" y="147" type="curve"/>
+      <point x="639" y="137" type="line"/>
+      <point x="661" y="23"/>
+      <point x="736" y="-10"/>
+      <point x="798" y="-10" type="curve" smooth="yes"/>
+      <point x="851" y="-10"/>
+      <point x="878" y="30"/>
+      <point x="878" y="81" type="curve" smooth="yes"/>
+      <point x="878" y="126"/>
+      <point x="858" y="170"/>
+      <point x="806" y="170" type="curve" smooth="yes"/>
+      <point x="750" y="170"/>
+      <point x="728" y="192"/>
+      <point x="726" y="282" type="curve" smooth="yes"/>
+      <point x="713" y="760" type="line"/>
+      <point x="584" y="760" type="line"/>
+      <point x="597" y="300" type="line" smooth="yes"/>
+      <point x="600" y="179"/>
+      <point x="558" y="165"/>
+      <point x="381" y="165" type="curve"/>
+    </contour>
+    <contour>
+      <point x="293" y="304" type="line"/>
+      <point x="402" y="299"/>
+      <point x="488" y="336"/>
+      <point x="488" y="413" type="curve" smooth="yes"/>
+      <point x="488" y="450"/>
+      <point x="467" y="473"/>
+      <point x="434" y="491" type="curve" smooth="yes"/>
+      <point x="410" y="505"/>
+      <point x="396" y="510"/>
+      <point x="396" y="522" type="curve" smooth="yes"/>
+      <point x="396" y="537"/>
+      <point x="429" y="551"/>
+      <point x="475" y="553" type="curve"/>
+      <point x="469" y="659" type="line"/>
+      <point x="340" y="631"/>
+      <point x="296" y="573"/>
+      <point x="296" y="518" type="curve" smooth="yes"/>
+      <point x="296" y="481"/>
+      <point x="317" y="458"/>
+      <point x="339" y="442" type="curve" smooth="yes"/>
+      <point x="362" y="426"/>
+      <point x="373" y="421"/>
+      <point x="373" y="412" type="curve" smooth="yes"/>
+      <point x="373" y="394"/>
+      <point x="344" y="392"/>
+      <point x="284" y="394" type="curve"/>
+    </contour>
+    <component base="_part.beh.fina" xOffset="5"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dotlessbeh-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 10:12:55</string>
+    </dict>
+  </lib>
+</glyph>

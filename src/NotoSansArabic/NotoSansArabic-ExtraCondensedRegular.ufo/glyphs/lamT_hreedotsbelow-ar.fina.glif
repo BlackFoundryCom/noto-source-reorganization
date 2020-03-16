@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamThreedotsbelow-ar.fina" format="2">
+  <advance width="592"/>
+  <anchor x="258" y="-272" name="bottom"/>
+  <anchor x="258" y="-219" name="bottom.dot"/>
+  <anchor x="452" y="418" name="center"/>
+  <anchor x="166" y="498" name="top"/>
+  <anchor x="444" y="726" name="top.dot"/>
+  <outline>
+    <component base="lam-ar.fina"/>
+    <component base="threedotsdownbelow-ar" xScale="0.98" yScale="0.98" xOffset="154" yOffset="-210"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedotsdownbelow-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 20:24:14</string>
+    </dict>
+  </lib>
+</glyph>

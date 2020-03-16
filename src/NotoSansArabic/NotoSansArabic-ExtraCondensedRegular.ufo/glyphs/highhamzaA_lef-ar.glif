@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="highhamzaAlef-ar" format="2">
+  <advance width="330"/>
+  <unicode hex="0675"/>
+  <anchor x="118" y="-111" name="bottom"/>
+  <anchor x="118" y="-16" name="bottom.dot"/>
+  <anchor x="113" y="788" name="top"/>
+  <outline>
+    <component base="alef-ar"/>
+    <component base="highhamza-ar" xOffset="162" yOffset="51"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 22:36:31</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

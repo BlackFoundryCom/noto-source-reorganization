@@ -1,34 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotlessbeh-ar" format="2">
-  <advance width="993"/>
+  <advance width="973"/>
   <unicode hex="066E"/>
-  <anchor x="486" y="-25" name="bottom"/>
-  <anchor x="486" y="298" name="top"/>
+  <anchor x="480" y="-111" name="bottom"/>
+  <anchor x="480" y="-32" name="bottom.dot"/>
+  <anchor x="482" y="475" name="top"/>
+  <anchor x="482" y="305" name="top.dot"/>
   <outline>
     <contour>
-      <point x="390" y="-21" type="line"/>
-      <point x="816" y="-21"/>
-      <point x="943" y="39"/>
-      <point x="943" y="197" type="curve" smooth="yes"/>
-      <point x="943" y="257"/>
-      <point x="916" y="338"/>
-      <point x="891" y="403" type="curve"/>
-      <point x="814" y="376" type="line"/>
-      <point x="843" y="300"/>
-      <point x="864" y="231"/>
-      <point x="864" y="181" type="curve" smooth="yes"/>
-      <point x="864" y="89"/>
-      <point x="727" y="61"/>
-      <point x="416" y="61" type="curve"/>
+      <point x="413" y="-15" type="line"/>
+      <point x="780" y="-15"/>
+      <point x="915" y="58"/>
+      <point x="915" y="209" type="curve" smooth="yes"/>
+      <point x="915" y="272"/>
+      <point x="899" y="338"/>
+      <point x="875" y="406" type="curve"/>
+      <point x="802" y="383" type="line"/>
+      <point x="825" y="314"/>
+      <point x="836" y="263"/>
+      <point x="836" y="213" type="curve" smooth="yes"/>
+      <point x="836" y="116"/>
+      <point x="717" y="71"/>
+      <point x="439" y="71" type="curve"/>
     </contour>
-    <component base="_part.beh.fina"/>
+    <component base="_part.beh.fina" xOffset="-4"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>seen-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/25 18:32:26</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

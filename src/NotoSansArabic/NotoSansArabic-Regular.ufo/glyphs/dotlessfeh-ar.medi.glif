@@ -1,57 +1,55 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotlessfeh-ar.medi" format="2">
-  <advance width="495"/>
-  <anchor x="243" y="-5" name="bottom"/>
-  <anchor x="246" y="415" name="top"/>
+  <advance width="543"/>
+  <anchor x="257" y="-111" name="bottom"/>
+  <anchor x="258" y="-21" name="bottom.dot"/>
+  <anchor x="271" y="611" name="top"/>
+  <anchor x="274" y="488" name="top.dot"/>
   <outline>
     <contour>
-      <point x="0" y="-5" type="line"/>
-      <point x="73" y="-5"/>
-      <point x="158" y="-1"/>
-      <point x="219" y="17" type="curve" smooth="yes"/>
-      <point x="328" y="49"/>
-      <point x="420" y="119"/>
-      <point x="420" y="233" type="curve" smooth="yes"/>
-      <point x="420" y="322"/>
-      <point x="354" y="415"/>
-      <point x="256" y="415" type="curve" smooth="yes"/>
-      <point x="165" y="415"/>
-      <point x="81" y="332"/>
-      <point x="81" y="225" type="curve" smooth="yes"/>
-      <point x="81" y="142"/>
-      <point x="141" y="89"/>
-      <point x="173" y="65" type="curve"/>
-      <point x="268" y="93" type="line"/>
-      <point x="220" y="114"/>
-      <point x="163" y="159"/>
-      <point x="163" y="223" type="curve" smooth="yes"/>
-      <point x="163" y="277"/>
-      <point x="205" y="333"/>
-      <point x="253" y="333" type="curve" smooth="yes"/>
-      <point x="302" y="333"/>
-      <point x="338" y="272"/>
-      <point x="338" y="227" type="curve" smooth="yes"/>
-      <point x="338" y="159"/>
-      <point x="276" y="115"/>
-      <point x="207" y="94" type="curve" smooth="yes"/>
-      <point x="155" y="79"/>
-      <point x="76" y="77"/>
-      <point x="10" y="77" type="curve"/>
-    </contour>
-    <contour>
-      <point x="495" y="-5" type="curve" smooth="yes"/>
-      <point x="524" y="-5"/>
-      <point x="545" y="16"/>
-      <point x="545" y="38" type="curve" smooth="yes"/>
-      <point x="545" y="59"/>
-      <point x="533" y="77"/>
-      <point x="505" y="77" type="curve" smooth="yes"/>
-      <point x="445" y="77"/>
-      <point x="341" y="83"/>
-      <point x="281" y="92" type="curve"/>
-      <point x="212" y="42" type="line"/>
-      <point x="274" y="16"/>
-      <point x="395" y="-5"/>
+      <point x="0" y="-7" type="line"/>
+      <point x="103" y="-7"/>
+      <point x="211" y="8"/>
+      <point x="282" y="41" type="curve" smooth="yes"/>
+      <point x="384" y="88"/>
+      <point x="463" y="166"/>
+      <point x="463" y="280" type="curve" smooth="yes"/>
+      <point x="463" y="383"/>
+      <point x="400" y="472"/>
+      <point x="275" y="472" type="curve" smooth="yes"/>
+      <point x="165" y="472"/>
+      <point x="78" y="390"/>
+      <point x="78" y="270" type="curve" smooth="yes"/>
+      <point x="78" y="183"/>
+      <point x="122" y="115"/>
+      <point x="199" y="65" type="curve" smooth="yes"/>
+      <point x="269" y="19"/>
+      <point x="368" y="-7"/>
+      <point x="543" y="-7" type="curve" smooth="yes"/>
+      <point x="574" y="-7"/>
+      <point x="590" y="13"/>
+      <point x="590" y="36" type="curve" smooth="yes"/>
+      <point x="590" y="58"/>
+      <point x="578" y="79"/>
+      <point x="549" y="79" type="curve" smooth="yes"/>
+      <point x="382" y="79"/>
+      <point x="290" y="97"/>
+      <point x="240" y="128" type="curve" smooth="yes"/>
+      <point x="183" y="161"/>
+      <point x="151" y="210"/>
+      <point x="151" y="270" type="curve" smooth="yes"/>
+      <point x="151" y="338"/>
+      <point x="196" y="394"/>
+      <point x="272" y="394" type="curve" smooth="yes"/>
+      <point x="348" y="394"/>
+      <point x="390" y="341"/>
+      <point x="390" y="272" type="curve" smooth="yes"/>
+      <point x="390" y="198"/>
+      <point x="339" y="139"/>
+      <point x="257" y="110" type="curve" smooth="yes"/>
+      <point x="195" y="89"/>
+      <point x="103" y="79"/>
+      <point x="6" y="79" type="curve"/>
     </contour>
   </outline>
   <lib>
@@ -59,7 +57,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>_part.instroke</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/28 10:12:55</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="thal-ar" format="2">
+  <advance width="422"/>
+  <unicode hex="0630"/>
+  <anchor x="186" y="-111" name="bottom"/>
+  <anchor x="188" y="-21" name="bottom.dot"/>
+  <anchor x="212" y="602" name="top"/>
+  <anchor x="212" y="536" name="top.dot"/>
+  <outline>
+    <component base="dal-ar"/>
+    <component base="dotabove-ar" xOffset="126" yOffset="-14"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/02 13:47:40</string>
+    </dict>
+  </lib>
+</glyph>

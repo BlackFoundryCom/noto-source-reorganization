@@ -1,12 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uHamzaabove-ar.fina" format="2">
-  <advance width="531"/>
-  <anchor x="294" y="-240" name="bottom"/>
-  <anchor x="202" y="626" name="top"/>
+  <advance width="515"/>
+  <anchor x="255" y="716" name="top"/>
+  <anchor x="211" y="-296" name="bottom"/>
+  <anchor x="251" y="-84" name="center"/>
+  <anchor x="245" y="384" name="top.dot"/>
   <outline>
-    <component base="waw-ar.fina" xOffset="59"/>
-    <component base="hamzaabove-ar" xOffset="329" yOffset="-191"/>
-    <component base="damma-ar" xOffset="23" yOffset="-194"/>
+    <component base="waw-ar.fina"/>
+    <component base="hamzaabove-ar" xScale="0.92" yScale="0.92" xOffset="252" yOffset="18"/>
+    <component base="_damma-ar" xOffset="-10" yOffset="-42"/>
   </outline>
   <lib>
     <dict>
@@ -15,7 +17,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>waw-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/03/01 14:00:49</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>

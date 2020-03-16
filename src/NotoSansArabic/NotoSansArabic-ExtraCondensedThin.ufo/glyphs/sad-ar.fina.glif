@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sad-ar.fina" format="2">
+  <advance width="1127"/>
+  <unicode hex="FEBA"/>
+  <anchor x="751" y="-112" name="bottom"/>
+  <anchor x="751" y="-20" name="bottom.dot"/>
+  <anchor x="566" y="459" name="top"/>
+  <anchor x="839" y="439" name="top.dot"/>
+  <outline>
+    <component base="sad-ar"/>
+    <component base="_part.instroke" xOffset="981"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>noonghunna-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

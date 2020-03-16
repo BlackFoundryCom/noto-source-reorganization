@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam-ar.init" format="2">
+  <advance width="283"/>
+  <unicode hex="FEDF"/>
+  <anchor x="98" y="-111" name="bottom"/>
+  <anchor x="100" y="-20" name="bottom.dot"/>
+  <anchor x="154" y="389" name="center"/>
+  <anchor x="137" y="735" name="top"/>
+  <anchor x="138" y="715" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="0" y="-5" type="line"/>
+      <point x="127" y="-5"/>
+      <point x="178" y="46"/>
+      <point x="172" y="188" type="curve" smooth="yes"/>
+      <point x="150" y="714" type="line"/>
+      <point x="126" y="714" type="line"/>
+      <point x="147" y="189" type="line" smooth="yes"/>
+      <point x="152" y="58"/>
+      <point x="106" y="21"/>
+      <point x="4" y="21" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alef-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 22:03:25</string>
+    </dict>
+  </lib>
+</glyph>

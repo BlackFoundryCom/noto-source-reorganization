@@ -1,24 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dad_reh-ar.fina" format="2">
-  <advance width="1345"/>
+  <advance width="1404"/>
   <unicode hex="FD2C"/>
-  <anchor x="396" y="0" name="caret_1"/>
-  <anchor x="880" y="-18" name="bottom_1"/>
-  <anchor x="83" y="-217" name="bottom_2"/>
-  <anchor x="1048" y="571" name="top_1"/>
-  <anchor x="162" y="351" name="top_2"/>
+  <anchor x="1051" y="667" name="top_1"/>
+  <anchor x="949" y="-112" name="bottom_1"/>
+  <anchor x="130" y="-301" name="bottom_2"/>
+  <anchor x="1050" y="462" name="top.dot_1"/>
+  <anchor x="282" y="297" name="top.dot_2"/>
+  <anchor x="278" y="445" name="top_2"/>
   <outline>
-    <component base="dad-ar.medi" xOffset="396"/>
-    <component base="reh-ar.fina"/>
+    <component base="sad_reh-ar.fina"/>
+    <component base="dotabove-ar" xOffset="975" yOffset="30"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot_1</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>dad-ar.medi</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>reh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>sad-ar.medi</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/28 20:33:51</string>
     </dict>
   </lib>
 </glyph>

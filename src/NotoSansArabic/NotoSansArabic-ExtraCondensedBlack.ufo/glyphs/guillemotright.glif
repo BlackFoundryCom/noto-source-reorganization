@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guillemotright" format="2">
+  <advance width="513"/>
+  <unicode hex="00BB"/>
+  <outline>
+    <contour>
+      <point x="349" y="39" type="line"/>
+      <point x="500" y="274" type="line"/>
+      <point x="500" y="287" type="line"/>
+      <point x="349" y="523" type="line"/>
+      <point x="238" y="450" type="line"/>
+      <point x="345" y="281" type="line"/>
+      <point x="238" y="111" type="line"/>
+    </contour>
+    <contour>
+      <point x="124" y="39" type="line"/>
+      <point x="275" y="274" type="line"/>
+      <point x="275" y="287" type="line"/>
+      <point x="124" y="523" type="line"/>
+      <point x="14" y="450" type="line"/>
+      <point x="120" y="281" type="line"/>
+      <point x="14" y="111" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|guillemotleft</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|guillemotleft</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:32</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hehgoalHamzaabove-ar.fina" format="2">
+  <advance width="619"/>
+  <anchor x="275" y="-111" name="bottom"/>
+  <anchor x="270" y="488" name="top"/>
+  <anchor x="270" y="339" name="top.dot"/>
+  <outline>
+    <component base="hehgoal-ar.fina"/>
+    <component base="hamzaabove-ar" xOffset="143" yOffset="-17"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

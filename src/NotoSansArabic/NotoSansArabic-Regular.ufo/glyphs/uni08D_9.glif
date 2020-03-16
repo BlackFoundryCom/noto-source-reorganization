@@ -1,21 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni08D9" format="2">
   <unicode hex="08D9"/>
-  <anchor x="142" y="0" name="_bottom"/>
-  <anchor x="154" y="-434" name="bottom"/>
+  <anchor x="134" y="-4" name="_bottom"/>
+  <anchor x="145" y="-417" name="bottom"/>
+  <anchor x="135" y="-33" name="top"/>
   <outline>
-    <component base="uni08D8" yOffset="-1054"/>
+    <component base="uni08D8" xOffset="1" yOffset="-866"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>=uni08D8</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>=uni08D8</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/25 17:31:32</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>304</integer>
+      <integer>285</integer>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>

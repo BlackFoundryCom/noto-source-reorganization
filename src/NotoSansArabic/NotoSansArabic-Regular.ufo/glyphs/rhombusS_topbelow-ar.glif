@@ -1,17 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rhombusStopbelow-ar" format="2">
   <unicode hex="06EA"/>
-  <anchor x="128" y="0" name="_bottom"/>
-  <anchor x="128" y="-280" name="bottom"/>
+  <anchor x="132" y="-4" name="_bottom"/>
+  <anchor x="132" y="-261" name="bottom"/>
   <outline>
-    <component base="rhombusStopabove-ar" xOffset="18" yOffset="-878"/>
+    <component base="rhombusStopabove-ar" xOffset="8" yOffset="-735"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/25 17:31:32</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>260</integer>
+      <integer>264</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

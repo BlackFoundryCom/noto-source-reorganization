@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uHamzaabove-ar.fina" format="2">
+  <advance width="412"/>
+  <anchor x="204" y="716" name="top"/>
+  <anchor x="169" y="-296" name="bottom"/>
+  <anchor x="201" y="-84" name="center"/>
+  <anchor x="196" y="384" name="top.dot"/>
+  <outline>
+    <component base="waw-ar.fina"/>
+    <component base="hamzaabove-ar" xScale="0.92" yScale="0.92" xOffset="200" yOffset="28"/>
+    <component base="_damma-ar" xOffset="-8" yOffset="-42"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>waw-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>waw-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/01 14:00:49</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

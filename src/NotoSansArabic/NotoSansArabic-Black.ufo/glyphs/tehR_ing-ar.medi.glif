@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tehRing-ar.medi" format="2">
+  <advance width="445"/>
+  <anchor x="219" y="-111" name="bottom"/>
+  <anchor x="220" y="-28" name="bottom.dot"/>
+  <anchor x="235" y="501" name="top"/>
+  <anchor x="235" y="373" name="top.dot"/>
+  <outline>
+    <component base="yehKashmiri-ar.medi"/>
+    <component base="twodotshorizontalabove-ar" xOffset="43" yOffset="-177"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

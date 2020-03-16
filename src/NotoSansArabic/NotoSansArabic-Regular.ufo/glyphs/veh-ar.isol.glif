@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="veh-ar.isol" format="2">
-  <advance width="983"/>
+  <advance width="1001"/>
   <unicode hex="FB6A"/>
-  <anchor x="460" y="-25" name="bottom"/>
-  <anchor x="761" y="813" name="top"/>
+  <anchor x="478" y="-111" name="bottom"/>
+  <anchor x="733" y="-20" name="bottom.dot"/>
+  <anchor x="354" y="591" name="top"/>
+  <anchor x="736" y="558" name="top.dot"/>
   <outline>
     <component base="veh-ar"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/25 22:41:56</string>
     </dict>
   </lib>
 </glyph>

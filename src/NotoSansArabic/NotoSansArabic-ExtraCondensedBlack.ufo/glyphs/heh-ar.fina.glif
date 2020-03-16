@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="heh-ar.fina" format="2">
+  <advance width="500"/>
+  <unicode hex="FEEA"/>
+  <anchor x="244" y="-111" name="bottom"/>
+  <anchor x="280" y="704" name="top"/>
+  <anchor x="286" y="621" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="500" y="-10" type="curve" smooth="yes"/>
+      <point x="553" y="-10"/>
+      <point x="580" y="30"/>
+      <point x="580" y="81" type="curve" smooth="yes"/>
+      <point x="580" y="126"/>
+      <point x="559" y="170"/>
+      <point x="508" y="170" type="curve" smooth="yes"/>
+      <point x="445" y="170"/>
+      <point x="427" y="189"/>
+      <point x="424" y="264" type="curve" smooth="yes"/>
+      <point x="411" y="628" type="line"/>
+      <point x="279" y="628" type="line"/>
+      <point x="295" y="196" type="line" smooth="yes"/>
+      <point x="301" y="52"/>
+      <point x="368" y="-10"/>
+    </contour>
+    <contour>
+      <point x="234" y="90" type="curve" smooth="yes"/>
+      <point x="269" y="90"/>
+      <point x="302" y="94"/>
+      <point x="342" y="104" type="curve"/>
+      <point x="336" y="262" type="line"/>
+      <point x="310" y="248"/>
+      <point x="278" y="242"/>
+      <point x="250" y="242" type="curve" smooth="yes"/>
+      <point x="200" y="242"/>
+      <point x="173" y="255"/>
+      <point x="173" y="293" type="curve" smooth="yes"/>
+      <point x="173" y="338"/>
+      <point x="214" y="381"/>
+      <point x="326" y="412" type="curve"/>
+      <point x="315" y="559" type="line"/>
+      <point x="158" y="500"/>
+      <point x="44" y="414"/>
+      <point x="44" y="272" type="curve" smooth="yes"/>
+      <point x="44" y="138"/>
+      <point x="123" y="90"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 10:12:55</string>
+    </dict>
+  </lib>
+</glyph>

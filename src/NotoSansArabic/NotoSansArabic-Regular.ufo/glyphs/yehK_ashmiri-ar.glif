@@ -1,12 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yehKashmiri-ar" format="2">
-  <advance width="760"/>
+  <advance width="811"/>
   <unicode hex="0620"/>
-  <anchor x="334" y="-361" name="bottom"/>
-  <anchor x="282" y="293" name="top"/>
+  <anchor x="351" y="-273" name="bottom"/>
+  <anchor x="351" y="-236" name="bottom.dot"/>
+  <anchor x="232" y="352" name="top"/>
+  <anchor x="136" y="202" name="top.dot"/>
   <outline>
     <component base="alefMaksura-ar"/>
-    <component base="ringArabic" xOffset="225" yOffset="-351"/>
+    <component base="ringArabic" xOffset="249" yOffset="-449"/>
   </outline>
   <lib>
     <dict>
@@ -15,10 +17,10 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>alefMaksura-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/04 18:34:22</string>
+      <string>2020/02/25 17:31:31</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
-        <integer>0</integer>
+        <integer>-1</integer>
         <integer>-1</integer>
       </array>
     </dict>

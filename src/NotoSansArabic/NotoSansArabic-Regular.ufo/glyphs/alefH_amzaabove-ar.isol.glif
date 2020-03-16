@@ -1,17 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="alefHamzaabove-ar.isol" format="2">
-  <advance width="235"/>
+  <advance width="277"/>
   <unicode hex="FE83"/>
-  <anchor x="129" y="0" name="bottom"/>
-  <anchor x="102" y="860" name="top"/>
+  <anchor x="145" y="-111" name="bottom"/>
+  <anchor x="145" y="-20" name="bottom.dot"/>
+  <anchor x="130" y="681" name="top"/>
   <outline>
     <component base="alef-ar.short"/>
-    <component base="hamzaabove-ar" xOffset="-16" yOffset="126"/>
+    <component base="hamzaabove-ar" xOffset="-2" yOffset="217"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/25 17:31:31</string>
     </dict>
   </lib>
 </glyph>

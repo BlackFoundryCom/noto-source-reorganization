@@ -13,7 +13,7 @@ import os
 import plistlib
 # from defcon import Font
 
-def readPlist(ufo, family):
+def readPlistFile(ufo, family):
     path, folder = getFile(".plist", "src", family)
     with open(path, "rb") as plist:
         pl = plistlib.load(plist)
@@ -37,7 +37,7 @@ def makeGTables(family, u):
     fileDef = getTxtFile(family, "GDEF")[0]
     # since there is different GPOS table per weight,
     # the scripts reads the plist that provide the matching GPOS .txt file for each ufo
-    filePos = [readPlist(u[:-4], family)]
+    filePos = [readPlistFile(u[:-4], family)]
     tables = [fileDef, fileSub, filePos]
     font = testTools.FakeFont(glyphSet)
     #to do : write the glyphOrder Table ?
@@ -88,5 +88,5 @@ def ufoWithMTIfeatures2font(directory, *output):
             otf2.save(destination + u[:-4] + ".ttf")
 
 
-ufoWithMTIfeatures2font("NotoSansCanadianAboriginal", "ttf")
-# readPlist("NotoMusic-Regular", "NotoMusic")
+# ufoWithMTIfeatures2font("NotoNastaliqUrdu", "ttf")
+# readPlistFile("NotoMusic-Regular", "NotoMusic")

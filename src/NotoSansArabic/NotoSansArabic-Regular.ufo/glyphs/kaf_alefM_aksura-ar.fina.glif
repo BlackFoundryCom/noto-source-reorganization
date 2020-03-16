@@ -1,24 +1,90 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kaf_alefMaksura-ar.fina" format="2">
-  <advance width="1244"/>
+  <advance width="1105"/>
   <unicode hex="FC83"/>
-  <anchor x="736" y="0" name="caret_1"/>
-  <anchor x="899" y="0" name="bottom_1"/>
-  <anchor x="326" y="-232" name="bottom_2"/>
-  <anchor x="906" y="610" name="top_1"/>
-  <anchor x="216" y="150" name="top_2"/>
+  <anchor x="357" y="-244" name="bottom.dot"/>
+  <anchor x="872" y="-111" name="bottom_1"/>
+  <anchor x="357" y="-287" name="bottom_2"/>
+  <anchor x="136" y="198" name="top.dot_2"/>
+  <anchor x="803" y="679" name="top_1"/>
+  <anchor x="365" y="293" name="top_2"/>
   <outline>
-    <component base="kaf-ar.medi" xOffset="736"/>
-    <component base="alefMaksura-ar.fina"/>
+    <contour>
+      <point x="1105" y="-7" type="curve" smooth="yes"/>
+      <point x="1135" y="-7"/>
+      <point x="1152" y="13"/>
+      <point x="1152" y="36" type="curve" smooth="yes"/>
+      <point x="1152" y="58"/>
+      <point x="1140" y="79"/>
+      <point x="1110" y="79" type="curve" smooth="yes"/>
+      <point x="1029" y="79"/>
+      <point x="984" y="119"/>
+      <point x="915" y="201" type="curve" smooth="yes"/>
+      <point x="670" y="486" type="line"/>
+      <point x="659" y="442" type="line"/>
+      <point x="1065" y="638" type="line"/>
+      <point x="1064" y="724" type="line"/>
+      <point x="630" y="506" type="line"/>
+      <point x="615" y="431" type="line"/>
+      <point x="699" y="336"/>
+      <point x="782" y="234"/>
+      <point x="859" y="143" type="curve" smooth="yes"/>
+      <point x="934" y="54"/>
+      <point x="994" y="-7"/>
+    </contour>
+    <contour>
+      <point x="359" y="-245" type="curve" smooth="yes"/>
+      <point x="599" y="-245"/>
+      <point x="741" y="-137"/>
+      <point x="741" y="-31" type="curve" smooth="yes"/>
+      <point x="741" y="6"/>
+      <point x="726" y="38"/>
+      <point x="672" y="64" type="curve"/>
+      <point x="652" y="38" type="line"/>
+      <point x="666" y="32"/>
+      <point x="699" y="20"/>
+      <point x="727" y="20" type="curve" smooth="yes"/>
+      <point x="800" y="20"/>
+      <point x="856" y="65"/>
+      <point x="869" y="170" type="curve"/>
+      <point x="825" y="217" type="line"/>
+      <point x="812" y="132"/>
+      <point x="768" y="98"/>
+      <point x="700" y="98" type="curve" smooth="yes"/>
+      <point x="656" y="98"/>
+      <point x="619" y="110"/>
+      <point x="560" y="131" type="curve"/>
+      <point x="539" y="59" type="line"/>
+      <point x="641" y="24"/>
+      <point x="673" y="7"/>
+      <point x="673" y="-24" type="curve" smooth="yes"/>
+      <point x="673" y="-88"/>
+      <point x="568" y="-159"/>
+      <point x="372" y="-159" type="curve" smooth="yes"/>
+      <point x="200" y="-159"/>
+      <point x="124" y="-101"/>
+      <point x="124" y="8" type="curve" smooth="yes"/>
+      <point x="124" y="60"/>
+      <point x="134" y="109"/>
+      <point x="157" y="181" type="curve"/>
+      <point x="94" y="195" type="line"/>
+      <point x="61" y="116"/>
+      <point x="48" y="51"/>
+      <point x="48" y="-8" type="curve" smooth="yes"/>
+      <point x="48" y="-175"/>
+      <point x="174" y="-245"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>kaf-ar.medi</string>
+      <string>noonghunna-ar</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>alefMaksura-ar.fina</string>
+      <string>kaf-ar.medi</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/26 21:05:06</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

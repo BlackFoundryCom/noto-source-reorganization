@@ -1,19 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fourthroot-ar" format="2">
-  <advance width="622"/>
+  <advance width="638"/>
   <unicode hex="0607"/>
   <outline>
-    <component base="cuberoot_fourthroot-ar.pt"/>
-    <component base="fourthroot-ar.pt" xOffset="192" yOffset="-140"/>
+    <component base="_cuberoot_fourthroot-ar"/>
+    <component base="_fourthroot-ar" xOffset="216" yOffset="-2"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>cuberoot_fourthroot-ar.pt</string>
+      <string>_cuberoot_fourthroot-ar</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>cuberoot_fourthroot-ar.pt</string>
+      <string>_cuberoot_fourthroot-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/25 17:31:32</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

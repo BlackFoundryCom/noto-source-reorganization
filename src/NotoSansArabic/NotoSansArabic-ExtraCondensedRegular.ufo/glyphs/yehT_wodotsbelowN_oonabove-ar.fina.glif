@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehTwodotsbelowNoonabove-ar.fina" format="2">
+  <advance width="660"/>
+  <anchor x="175" y="525" name="top"/>
+  <anchor x="286" y="-287" name="bottom"/>
+  <anchor x="286" y="-244" name="bottom.dot"/>
+  <anchor x="109" y="198" name="top.dot"/>
+  <outline>
+    <component base="alefMaksura-ar.fina"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="173" yOffset="-242"/>
+    <component base="noonabove-ar" xOffset="74" yOffset="-246"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 14:54:42</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>arabic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

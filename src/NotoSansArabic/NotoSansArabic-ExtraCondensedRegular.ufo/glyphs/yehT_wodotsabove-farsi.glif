@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehTwodotsabove-farsi" format="2">
+  <advance width="649"/>
+  <unicode hex="063E"/>
+  <anchor x="281" y="-273" name="bottom"/>
+  <anchor x="281" y="-236" name="bottom.dot"/>
+  <anchor x="186" y="352" name="top"/>
+  <anchor x="109" y="202" name="top.dot"/>
+  <outline>
+    <component base="alefMaksura-ar"/>
+    <component base="twodotshorizontalabove-ar" xOffset="39" yOffset="-205"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

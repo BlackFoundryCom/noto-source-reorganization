@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hahTwodotshorizontalabove-ar" format="2">
+  <advance width="578"/>
+  <unicode hex="0757"/>
+  <anchor x="266" y="-435" name="bottom"/>
+  <anchor x="348" y="-6" name="center"/>
+  <anchor x="265" y="610" name="top"/>
+  <anchor x="262" y="544" name="top.dot"/>
+  <outline>
+    <component base="hah-ar"/>
+    <component base="twodotshorizontalabove-ar" xOffset="108" yOffset="-6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 20:38:04</string>
+    </dict>
+  </lib>
+</glyph>

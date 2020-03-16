@@ -1,17 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dalRing-ar" format="2">
-  <advance width="477"/>
+  <advance width="484"/>
   <unicode hex="0689"/>
-  <anchor x="214" y="-135" name="bottom"/>
-  <anchor x="244" y="471" name="top"/>
+  <anchor x="214" y="-111" name="bottom"/>
+  <anchor x="217" y="-21" name="bottom.dot"/>
+  <anchor x="235" y="590" name="top"/>
+  <anchor x="235" y="506" name="top.dot"/>
   <outline>
     <component base="dal-ar"/>
-    <component base="ringArabic" xOffset="105" yOffset="-125"/>
+    <component base="ringArabic" xOffset="93" yOffset="-145"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/04 18:34:21</string>
+      <string>2020/02/25 17:31:31</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>

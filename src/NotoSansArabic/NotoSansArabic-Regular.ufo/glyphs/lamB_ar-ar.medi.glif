@@ -1,16 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lamBar-ar.medi" format="2">
-  <advance width="300"/>
-  <anchor x="155" y="0" name="bottom"/>
-  <anchor x="144" y="714" name="top"/>
+  <advance width="304"/>
+  <anchor x="167" y="-111" name="bottom"/>
+  <anchor x="167" y="-20" name="bottom.dot"/>
+  <anchor x="171" y="418" name="center"/>
+  <anchor x="162" y="756" name="top"/>
+  <anchor x="162" y="726" name="top.dot"/>
   <outline>
     <component base="lam-ar.medi"/>
-    <component base="_barshort" xOffset="20"/>
+    <component base="_barshort" xOffset="19" yOffset="8"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/04 18:34:22</string>
+      <string>2020/02/25 17:31:32</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>

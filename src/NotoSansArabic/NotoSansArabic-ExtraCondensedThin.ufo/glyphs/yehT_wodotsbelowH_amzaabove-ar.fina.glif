@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehTwodotsbelowHamzaabove-ar.fina" format="2">
+  <advance width="660"/>
+  <anchor x="286" y="-281" name="bottom"/>
+  <anchor x="286" y="-236" name="bottom.dot"/>
+  <anchor x="212" y="259" name="top"/>
+  <anchor x="92" y="181" name="top.dot"/>
+  <outline>
+    <component base="yeh-ar.fina"/>
+    <component base="hamzaabove-ar" xOffset="-10" yOffset="-175"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 10:08:33</string>
+    </dict>
+  </lib>
+</glyph>

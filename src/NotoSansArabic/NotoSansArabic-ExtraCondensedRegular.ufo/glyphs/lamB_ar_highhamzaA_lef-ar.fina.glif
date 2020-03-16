@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamBar_highhamzaAlef-ar.fina" format="2">
+  <advance width="556"/>
+  <anchor x="410" y="830" name="top_1"/>
+  <anchor x="83" y="810" name="top_2"/>
+  <anchor x="130" y="-20" name="bottom.dot"/>
+  <anchor x="394" y="-10" name="bottom.dot_1"/>
+  <anchor x="387" y="-111" name="bottom_1"/>
+  <anchor x="130" y="-111" name="bottom_2"/>
+  <anchor x="418" y="561" name="center"/>
+  <outline>
+    <component base="lamBar_alef-ar.fina.short"/>
+    <component base="highhamza-ar" xScale="0.9" yScale="0.9" xOffset="162" yOffset="210"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>lam_alef-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 22:37:02</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,31 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dal-ar" format="2">
-  <advance width="477"/>
+  <advance width="486"/>
   <unicode hex="062F"/>
-  <anchor x="226" y="-5" name="bottom"/>
-  <anchor x="215" y="457" name="top"/>
+  <anchor x="214" y="-111" name="bottom"/>
+  <anchor x="217" y="-21" name="bottom.dot"/>
+  <anchor x="235" y="590" name="top"/>
+  <anchor x="235" y="506" name="top.dot"/>
   <outline>
     <contour>
-      <point x="35" y="45" type="line"/>
-      <point x="76" y="13"/>
-      <point x="142" y="-6"/>
-      <point x="215" y="-6" type="curve" smooth="yes"/>
-      <point x="380" y="-6"/>
-      <point x="432" y="76"/>
-      <point x="432" y="157" type="curve" smooth="yes"/>
-      <point x="432" y="221"/>
-      <point x="395" y="322"/>
-      <point x="289" y="469" type="curve"/>
-      <point x="220" y="424" type="line"/>
-      <point x="336" y="260"/>
-      <point x="351" y="201"/>
-      <point x="351" y="162" type="curve" smooth="yes"/>
-      <point x="351" y="109"/>
-      <point x="314" y="77"/>
-      <point x="215" y="77" type="curve" smooth="yes"/>
-      <point x="151" y="77"/>
-      <point x="102" y="96"/>
-      <point x="75" y="114" type="curve"/>
+      <point x="191" y="-10" type="curve" smooth="yes"/>
+      <point x="347" y="-10"/>
+      <point x="440" y="43"/>
+      <point x="440" y="152" type="curve" smooth="yes"/>
+      <point x="440" y="255"/>
+      <point x="374" y="380"/>
+      <point x="255" y="517" type="curve"/>
+      <point x="194" y="462" type="line"/>
+      <point x="300" y="344"/>
+      <point x="363" y="231"/>
+      <point x="363" y="167" type="curve" smooth="yes"/>
+      <point x="363" y="105"/>
+      <point x="299" y="76"/>
+      <point x="195" y="76" type="curve" smooth="yes"/>
+      <point x="142" y="76"/>
+      <point x="78" y="87"/>
+      <point x="32" y="108" type="curve"/>
+      <point x="27" y="28" type="line"/>
+      <point x="65" y="5"/>
+      <point x="130" y="-10"/>
     </contour>
   </outline>
   <lib>
@@ -33,7 +35,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>sad-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/28 10:12:55</string>
     </dict>
   </lib>
 </glyph>

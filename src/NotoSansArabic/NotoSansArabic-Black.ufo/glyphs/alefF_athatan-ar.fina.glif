@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefFathatan-ar.fina" format="2">
+  <advance width="486"/>
+  <unicode hex="FD3C"/>
+  <anchor x="172" y="-111" name="bottom"/>
+  <anchor x="172" y="-20" name="bottom.dot"/>
+  <anchor x="410" y="752" name="top"/>
+  <outline>
+    <component base="alef-ar.fina.wide"/>
+    <component base="fathatan-ar" xOffset="241" yOffset="-48"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/26 22:28:25</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

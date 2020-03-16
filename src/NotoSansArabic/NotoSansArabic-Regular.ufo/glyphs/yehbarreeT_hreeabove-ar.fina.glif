@@ -1,16 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yehbarreeThreeabove-ar.fina" format="2">
-  <advance width="549"/>
-  <anchor x="439" y="-298" name="bottom"/>
-  <anchor x="195" y="39" name="top"/>
+  <advance width="656"/>
+  <anchor x="355" y="-341" name="bottom"/>
+  <anchor x="218" y="127" name="top"/>
   <outline>
     <component base="yehbarree-ar.fina"/>
-    <component base="three-persian.small01" xOffset="62" yOffset="-489"/>
+    <component base="three-persian.small01" xOffset="59" yOffset="-378"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/25 17:31:32</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

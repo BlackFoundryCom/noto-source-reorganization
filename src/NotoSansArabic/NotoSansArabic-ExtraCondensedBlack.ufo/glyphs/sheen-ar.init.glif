@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sheen-ar.init" format="2">
+  <advance width="748"/>
+  <unicode hex="FEB7"/>
+  <anchor x="419" y="-111" name="bottom"/>
+  <anchor x="419" y="-20" name="bottom.dot"/>
+  <anchor x="418" y="518" name="top"/>
+  <anchor x="419" y="377" name="top.dot"/>
+  <outline>
+    <component base="seen-ar.init"/>
+    <component base="threedotsupabove-ar" xOffset="265" yOffset="-173"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 22:41:56</string>
+    </dict>
+  </lib>
+</glyph>

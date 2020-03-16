@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="beh_alefMaksura-ar" format="2">
+  <advance width="832"/>
+  <unicode hex="FC09"/>
+  <anchor x="719" y="-224" name="bottom_1"/>
+  <anchor x="718" y="-32" name="bottom.dot_1"/>
+  <anchor x="286" y="-244" name="bottom.dot_2"/>
+  <anchor x="286" y="-287" name="bottom_2"/>
+  <anchor x="726" y="422" name="top.dot_1"/>
+  <anchor x="109" y="198" name="top.dot_2"/>
+  <anchor x="722" y="535" name="top_1"/>
+  <anchor x="292" y="293" name="top_2"/>
+  <outline>
+    <component base="_beh-AlefMaksura_ar.init"/>
+    <component base="dotbelow-ar" xOffset="658" yOffset="-30"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot_1</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotbelow-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_beh-AlefMaksura_ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:32</string>
+    </dict>
+  </lib>
+</glyph>

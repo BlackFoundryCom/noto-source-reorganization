@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamDotabove_alefWasla-ar.fina" format="2">
+  <advance width="687"/>
+  <anchor x="142" y="807" name="top_2"/>
+  <anchor x="167" y="-20" name="bottom.dot"/>
+  <anchor x="481" y="-20" name="bottom.dot_1"/>
+  <anchor x="484" y="-111" name="bottom_1"/>
+  <anchor x="167" y="-111" name="bottom_2"/>
+  <anchor x="523" y="535" name="center"/>
+  <anchor x="520" y="886" name="top_1"/>
+  <outline>
+    <component base="lamDotabove_alef-ar.fina.short"/>
+    <component base="wasla-ar" xOffset="-61" yOffset="203"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top_2</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>wasla-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>lamVabove_alefWasla-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alefWasla-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 21:36:23</string>
+    </dict>
+  </lib>
+</glyph>

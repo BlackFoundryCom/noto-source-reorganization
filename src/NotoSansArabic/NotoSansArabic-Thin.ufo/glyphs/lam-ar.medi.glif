@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam-ar.medi" format="2">
+  <advance width="324"/>
+  <unicode hex="FEE0"/>
+  <anchor x="167" y="-111" name="bottom"/>
+  <anchor x="167" y="-20" name="bottom.dot"/>
+  <anchor x="167" y="389" name="center"/>
+  <anchor x="158" y="735" name="top"/>
+  <anchor x="158" y="715" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="0" y="-5" type="line"/>
+      <point x="107" y="-5"/>
+      <point x="161" y="40"/>
+      <point x="177" y="107" type="curve"/>
+      <point x="170" y="108" type="line"/>
+      <point x="184" y="27"/>
+      <point x="234" y="-5"/>
+      <point x="324" y="-5" type="curve" smooth="yes"/>
+      <point x="332" y="-5"/>
+      <point x="338" y="2"/>
+      <point x="338" y="8" type="curve" smooth="yes"/>
+      <point x="338" y="14"/>
+      <point x="335" y="21"/>
+      <point x="327" y="21" type="curve" smooth="yes"/>
+      <point x="236" y="21"/>
+      <point x="189" y="52"/>
+      <point x="185" y="177" type="curve" smooth="yes"/>
+      <point x="168" y="714" type="line"/>
+      <point x="144" y="714" type="line"/>
+      <point x="161" y="175" type="line" smooth="yes"/>
+      <point x="164" y="70"/>
+      <point x="109" y="21"/>
+      <point x="4" y="21" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/26 20:50:46</string>
+    </dict>
+  </lib>
+</glyph>

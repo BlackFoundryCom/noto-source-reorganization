@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamDotabove_alefHamzabelow-ar" format="2">
+  <advance width="623"/>
+  <anchor x="160" y="-285" name="bottom_2"/>
+  <anchor x="441" y="-16" name="bottom.dot_1"/>
+  <anchor x="161" y="-20" name="bottom.dot_2"/>
+  <anchor x="457" y="-111" name="bottom_1"/>
+  <anchor x="474" y="596" name="center"/>
+  <anchor x="470" y="928" name="top_1"/>
+  <anchor x="137" y="654" name="top_2"/>
+  <outline>
+    <component base="lamDotabove_alef-ar"/>
+    <component base="hamzabelow-ar" xOffset="26" yOffset="-25"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>lam_alef-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>lam_alef-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:32</string>
+    </dict>
+  </lib>
+</glyph>

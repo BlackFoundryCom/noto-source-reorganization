@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="shadda-ar.isol" format="2">
-  <advance width="323"/>
+  <advance width="309"/>
   <unicode hex="FE7C"/>
-  <anchor x="171" y="458" name="_top"/>
-  <anchor x="154" y="748" name="top"/>
   <outline>
     <component base="shadda-ar"/>
   </outline>
@@ -14,7 +12,11 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=shadda-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/25 17:31:32</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

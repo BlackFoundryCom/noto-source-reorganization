@@ -1,16 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gafInvertedstroke-ar.medi" format="2">
-  <advance width="508"/>
-  <anchor x="163" y="0" name="bottom"/>
-  <anchor x="170" y="610" name="top"/>
+  <advance width="510"/>
+  <anchor x="271" y="-111" name="bottom"/>
+  <anchor x="270" y="-20" name="bottom.dot"/>
+  <anchor x="392" y="580" name="center"/>
+  <anchor x="213" y="677" name="top"/>
+  <anchor x="152" y="576" name="top.dot"/>
   <outline>
     <component base="keheh-ar.medi"/>
-    <component base="_invertedstroke" xOffset="209"/>
+    <component base="_invertedstroke" xOffset="210" yOffset="-69"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/04 18:34:22</string>
+      <string>2020/02/25 17:31:31</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>

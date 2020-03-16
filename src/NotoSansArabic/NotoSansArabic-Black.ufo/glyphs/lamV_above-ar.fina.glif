@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamVabove-ar.fina" format="2">
+  <advance width="770"/>
+  <anchor x="338" y="-274" name="bottom"/>
+  <anchor x="338" y="-214" name="bottom.dot"/>
+  <anchor x="583" y="463" name="center"/>
+  <anchor x="225" y="504" name="top"/>
+  <anchor x="573" y="744" name="top.dot"/>
+  <outline>
+    <component base="lam-ar.fina"/>
+    <component base="vabove-ar" xOffset="415" yOffset="194"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 22:41:56</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

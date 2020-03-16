@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefWavyhamzaabove-ar.fina" format="2">
+  <advance width="328"/>
+  <anchor x="172" y="-111" name="bottom"/>
+  <anchor x="172" y="-20" name="bottom.dot"/>
+  <anchor x="145" y="959" name="top"/>
+  <outline>
+    <component base="alef-ar.fina.short"/>
+    <component base="wavyhamzaabove-ar" xOffset="-54" yOffset="118"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 20:45:09</string>
+    </dict>
+  </lib>
+</glyph>

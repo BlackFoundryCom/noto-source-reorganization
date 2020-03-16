@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="twodotstahbelow-ar" format="2">
+  <advance width="251"/>
+  <anchor x="132" y="0" name="_bottom.dot"/>
+  <anchor x="131" y="-288" name="bottom"/>
+  <outline>
+    <component base="_dotabove-ar" xOffset="11" yOffset="-137"/>
+    <component base="_dotabove-ar" xOffset="135" yOffset="-137"/>
+    <component base="_tahabovesmall" yOffset="-719"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 21:29:57</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

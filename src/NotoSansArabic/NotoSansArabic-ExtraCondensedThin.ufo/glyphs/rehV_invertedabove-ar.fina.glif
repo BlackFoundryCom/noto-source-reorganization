@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehVinvertedabove-ar.fina" format="2">
+  <advance width="393"/>
+  <anchor x="94" y="-297" name="bottom"/>
+  <anchor x="94" y="-242" name="bottom.dot"/>
+  <anchor x="150" y="1" name="center"/>
+  <anchor x="198" y="483" name="top"/>
+  <anchor x="201" y="320" name="top.dot"/>
+  <outline>
+    <component base="reh-ar.fina"/>
+    <component base="vinvertedabove-ar" xOffset="107" yOffset="-36"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 10:08:32</string>
+    </dict>
+  </lib>
+</glyph>

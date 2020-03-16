@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehHamzaabove-ar.fina" format="2">
+  <advance width="507"/>
+  <anchor x="148" y="-308" name="bottom"/>
+  <anchor x="148" y="-252" name="bottom.dot"/>
+  <anchor x="211" y="31" name="center"/>
+  <anchor x="257" y="483" name="top"/>
+  <anchor x="261" y="340" name="top.dot"/>
+  <outline>
+    <component base="reh-ar.fina"/>
+    <component base="hamzaabove-ar" xOffset="122" yOffset="-210"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 20:32:03</string>
+    </dict>
+  </lib>
+</glyph>

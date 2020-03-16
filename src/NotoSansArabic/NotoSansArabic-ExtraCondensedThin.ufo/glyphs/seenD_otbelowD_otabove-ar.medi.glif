@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seenDotbelowDotabove-ar.medi" format="2">
+  <advance width="738"/>
+  <guideline x="-1009" y="-118" angle="0"/>
+  <anchor x="379" y="-111" name="bottom"/>
+  <anchor x="379" y="-20" name="bottom.dot"/>
+  <anchor x="377" y="448" name="top"/>
+  <anchor x="379" y="347" name="top.dot"/>
+  <outline>
+    <component base="seen-ar.medi"/>
+    <component base="dotbelow-ar" xOffset="335" yOffset="-20"/>
+    <component base="dotabove-ar" xOffset="335" yOffset="-9"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/26 22:36:32</string>
+    </dict>
+  </lib>
+</glyph>

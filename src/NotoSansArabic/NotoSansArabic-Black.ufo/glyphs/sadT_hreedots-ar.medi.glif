@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sadThreedots-ar.medi" format="2">
+  <advance width="1016"/>
+  <anchor x="560" y="-111" name="bottom"/>
+  <anchor x="560" y="-20" name="bottom.dot"/>
+  <anchor x="568" y="596" name="top"/>
+  <anchor x="646" y="499" name="top.dot"/>
+  <outline>
+    <component base="sad-ar.medi"/>
+    <component base="threedotsupabove-ar" xOffset="453" yOffset="-51"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/26 22:28:25</string>
+    </dict>
+  </lib>
+</glyph>

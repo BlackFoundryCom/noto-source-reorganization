@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotlessbeh-ar.medi.tall" format="2">
+  <advance width="282"/>
+  <anchor x="150" y="-110" name="bottom"/>
+  <anchor x="148" y="-40" name="bottom.dot"/>
+  <anchor x="147" y="451" name="top"/>
+  <anchor x="147" y="343" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="0" y="-5" type="line"/>
+      <point x="86" y="-5"/>
+      <point x="145" y="21"/>
+      <point x="149" y="123" type="curve"/>
+      <point x="138" y="122" type="line"/>
+      <point x="144" y="38"/>
+      <point x="174" y="-5"/>
+      <point x="283" y="-5" type="curve" smooth="yes"/>
+      <point x="290" y="-5"/>
+      <point x="294" y="2"/>
+      <point x="294" y="8" type="curve" smooth="yes"/>
+      <point x="294" y="14"/>
+      <point x="292" y="21"/>
+      <point x="286" y="21" type="curve" smooth="yes"/>
+      <point x="184" y="21"/>
+      <point x="163" y="56"/>
+      <point x="160" y="117" type="curve" smooth="yes"/>
+      <point x="158" y="165"/>
+      <point x="159" y="234"/>
+      <point x="159" y="303" type="curve"/>
+      <point x="135" y="302" type="line"/>
+      <point x="135" y="231"/>
+      <point x="135" y="180"/>
+      <point x="132" y="138" type="curve" smooth="yes"/>
+      <point x="126" y="55"/>
+      <point x="98" y="21"/>
+      <point x="3" y="21" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/02 14:58:32</string>
+    </dict>
+  </lib>
+</glyph>

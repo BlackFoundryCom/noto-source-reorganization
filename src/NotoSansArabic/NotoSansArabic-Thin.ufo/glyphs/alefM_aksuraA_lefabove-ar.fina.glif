@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefMaksuraAlefabove-ar.fina" format="2">
+  <advance width="826"/>
+  <unicode hex="FC90"/>
+  <anchor x="357" y="-291" name="bottom"/>
+  <anchor x="357" y="-246" name="bottom.dot"/>
+  <anchor x="241" y="483" name="top"/>
+  <anchor x="115" y="181" name="top.dot"/>
+  <outline>
+    <component base="alefMaksura-ar.fina"/>
+    <component base="alefabove-ar" xOffset="199" yOffset="-134"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>alefabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

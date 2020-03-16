@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ainThreedots-ar.fina" format="2">
+  <advance width="477"/>
+  <anchor x="266" y="-405" name="bottom"/>
+  <anchor x="259" y="-128" name="center"/>
+  <anchor x="249" y="561" name="top"/>
+  <anchor x="249" y="444" name="top.dot"/>
+  <outline>
+    <component base="ain-ar.fina"/>
+    <component base="threedotsupabove-ar" xOffset="137" yOffset="12"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedotsupabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

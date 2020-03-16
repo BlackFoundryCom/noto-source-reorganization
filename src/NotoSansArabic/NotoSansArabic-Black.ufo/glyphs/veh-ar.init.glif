@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="veh-ar.init" format="2">
+  <advance width="548"/>
+  <unicode hex="FB6C"/>
+  <anchor x="293" y="-111" name="bottom"/>
+  <anchor x="294" y="-21" name="bottom.dot"/>
+  <anchor x="267" y="717" name="top"/>
+  <anchor x="271" y="595" name="top.dot"/>
+  <outline>
+    <component base="dotlessfeh-ar.init"/>
+    <component base="threedotsupabove-ar" xOffset="78" yOffset="45"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 21:34:08</string>
+    </dict>
+  </lib>
+</glyph>

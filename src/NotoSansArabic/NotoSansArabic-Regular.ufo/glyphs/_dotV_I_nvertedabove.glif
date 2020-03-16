@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_dotVInvertedabove" format="2">
+  <advance width="268"/>
+  <anchor x="134" y="432" name="_top.dot"/>
+  <anchor x="135" y="838" name="top"/>
+  <outline>
+    <component base="_dotabove-ar" xScale="0.96" yScale="0.96" xOffset="59" yOffset="649"/>
+    <component base="_vabove" xScale="-1" yScale="-1" xOffset="269" yOffset="1290"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/01 14:11:12</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

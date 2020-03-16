@@ -1,17 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="wawHamzaabove-ar.fina" format="2">
-  <advance width="472"/>
+  <advance width="515"/>
   <unicode hex="FE86"/>
-  <anchor x="235" y="-240" name="bottom"/>
-  <anchor x="221" y="597" name="top"/>
+  <anchor x="211" y="-296" name="bottom"/>
+  <anchor x="251" y="-84" name="center"/>
+  <anchor x="245" y="454" name="top"/>
+  <anchor x="245" y="384" name="top.dot"/>
   <outline>
     <component base="waw-ar.fina"/>
-    <component base="hamzaabove-ar" xOffset="103" yOffset="-137"/>
+    <component base="hamzaabove-ar" xOffset="113" yOffset="-48"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>hamzaabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/03/02 14:10:26</string>
     </dict>
   </lib>
 </glyph>

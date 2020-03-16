@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sad_alefMaksura-ar.fina" format="2">
+  <advance width="1301"/>
+  <unicode hex="FD21"/>
+  <anchor x="281" y="-244" name="bottom.dot_2"/>
+  <anchor x="938" y="-112" name="bottom_1"/>
+  <anchor x="281" y="-281" name="bottom_2"/>
+  <anchor x="1018" y="462" name="top.dot_1"/>
+  <anchor x="109" y="194" name="top.dot_2"/>
+  <anchor x="983" y="559" name="top_1"/>
+  <anchor x="218" y="372" name="top_2"/>
+  <outline>
+    <component base="sad_alefMaksura-ar"/>
+    <component base="_part.instroke" xOffset="1145"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>noonghunna-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>sad-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/26 20:51:29</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

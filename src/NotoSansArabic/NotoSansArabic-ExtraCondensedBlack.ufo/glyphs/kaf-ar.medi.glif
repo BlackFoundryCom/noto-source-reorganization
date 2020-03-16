@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kaf-ar.medi" format="2">
+  <advance width="426"/>
+  <unicode hex="FEDC"/>
+  <anchor x="217" y="-111" name="bottom"/>
+  <anchor x="216" y="-20" name="bottom.dot"/>
+  <anchor x="314" y="580" name="center"/>
+  <anchor x="180" y="704" name="top"/>
+  <anchor x="149" y="612" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="426" y="-10" type="curve" smooth="yes"/>
+      <point x="478" y="-10"/>
+      <point x="506" y="30"/>
+      <point x="506" y="81" type="curve" smooth="yes"/>
+      <point x="506" y="126"/>
+      <point x="485" y="170"/>
+      <point x="434" y="170" type="curve" smooth="yes"/>
+      <point x="384" y="170"/>
+      <point x="343" y="204"/>
+      <point x="302" y="261" type="curve" smooth="yes"/>
+      <point x="109" y="529" type="line"/>
+      <point x="91" y="437" type="line"/>
+      <point x="402" y="586" type="line"/>
+      <point x="402" y="764" type="line"/>
+      <point x="39" y="564" type="line"/>
+      <point x="17" y="418" type="line"/>
+      <point x="87" y="323"/>
+      <point x="151" y="229"/>
+      <point x="217" y="134" type="curve" smooth="yes"/>
+      <point x="270" y="56"/>
+      <point x="330" y="-10"/>
+    </contour>
+    <contour>
+      <point x="0" y="-10" type="line"/>
+      <point x="126" y="-10"/>
+      <point x="200" y="35"/>
+      <point x="240" y="163" type="curve"/>
+      <point x="177" y="248" type="line"/>
+      <point x="153" y="188"/>
+      <point x="117" y="170"/>
+      <point x="8" y="170" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 21:54:02</string>
+    </dict>
+  </lib>
+</glyph>

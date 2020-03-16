@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamDoublebar_alef-ar.fina.short" format="2">
+  <advance width="692"/>
+  <anchor x="163" y="-20" name="bottom.dot"/>
+  <anchor x="493" y="-10" name="bottom.dot_1"/>
+  <anchor x="484" y="-111" name="bottom_1"/>
+  <anchor x="162" y="-111" name="bottom_2"/>
+  <anchor x="522" y="561" name="center"/>
+  <anchor x="513" y="746" name="top_1"/>
+  <anchor x="133" y="610" name="top_2"/>
+  <outline>
+    <component base="lam_alef-ar.fina.short"/>
+    <component base="_doublebar" xScale="0.8" yScale="0.92" xOffset="381" yOffset="205"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 14:14:57</string>
+    </dict>
+  </lib>
+</glyph>

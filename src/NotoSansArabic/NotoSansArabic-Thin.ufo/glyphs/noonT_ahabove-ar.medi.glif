@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonTahabove-ar.medi" format="2">
+  <advance width="354"/>
+  <anchor x="187" y="-110" name="bottom"/>
+  <anchor x="185" y="-40" name="bottom.dot"/>
+  <anchor x="184" y="431" name="top"/>
+  <anchor x="184" y="323" name="top.dot"/>
+  <outline>
+    <component base="alefMaksura-ar.medi"/>
+    <component base="_onedotstah" xOffset="49" yOffset="-33"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/01 12:04:29</string>
+    </dict>
+  </lib>
+</glyph>

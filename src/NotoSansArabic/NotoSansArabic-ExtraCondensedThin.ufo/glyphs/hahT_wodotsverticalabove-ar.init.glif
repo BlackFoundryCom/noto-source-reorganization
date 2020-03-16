@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hahTwodotsverticalabove-ar.init" format="2">
+  <advance width="562"/>
+  <anchor x="302" y="-111" name="bottom"/>
+  <anchor x="302" y="42" name="bottom.dot"/>
+  <anchor x="243" y="491" name="top"/>
+  <anchor x="242" y="409" name="top.dot"/>
+  <outline>
+    <component base="hah-ar.init"/>
+    <component base="twodotsverticalabove-ar" xOffset="197" yOffset="53"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotsverticalabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 21:26:39</string>
+    </dict>
+  </lib>
+</glyph>

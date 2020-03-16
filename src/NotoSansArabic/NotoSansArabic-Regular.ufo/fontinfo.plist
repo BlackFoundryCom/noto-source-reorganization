@@ -3,138 +3,43 @@
 <plist version="1.0">
   <dict>
     <key>ascender</key>
-    <integer>714</integer>
+    <integer>732</integer>
     <key>capHeight</key>
-    <integer>416</integer>
+    <integer>490</integer>
     <key>copyright</key>
-    <string>Copyright 2015-2019 Google LLC. All Rights Reserved.</string>
+    <string>Copyright 2020 Google LLC. All Rights Reserved.</string>
     <key>descender</key>
     <integer>-394</integer>
     <key>familyName</key>
     <string>Noto Sans Arabic</string>
     <key>guidelines</key>
-    <array>
-      <dict>
-        <key>angle</key>
-        <integer>0</integer>
-        <key>name</key>
-        <string> [locked]</string>
-        <key>x</key>
-        <integer>-55</integer>
-        <key>y</key>
-        <integer>77</integer>
-      </dict>
-      <dict>
-        <key>angle</key>
-        <integer>0</integer>
-        <key>name</key>
-        <string> [locked]</string>
-        <key>x</key>
-        <integer>-45</integer>
-        <key>y</key>
-        <integer>416</integer>
-      </dict>
-      <dict>
-        <key>angle</key>
-        <integer>0</integer>
-        <key>name</key>
-        <string> [locked]</string>
-        <key>x</key>
-        <integer>-114</integer>
-        <key>y</key>
-        <integer>-394</integer>
-      </dict>
-      <dict>
-        <key>angle</key>
-        <integer>0</integer>
-        <key>name</key>
-        <string> [locked]</string>
-        <key>x</key>
-        <integer>-55</integer>
-        <key>y</key>
-        <integer>499</integer>
-      </dict>
-      <dict>
-        <key>angle</key>
-        <integer>0</integer>
-        <key>name</key>
-        <string> [locked]</string>
-        <key>x</key>
-        <integer>-52</integer>
-        <key>y</key>
-        <integer>457</integer>
-      </dict>
-      <dict>
-        <key>angle</key>
-        <integer>0</integer>
-        <key>name</key>
-        <string> [locked]</string>
-        <key>x</key>
-        <integer>-39</integer>
-        <key>y</key>
-        <integer>204</integer>
-      </dict>
-      <dict>
-        <key>angle</key>
-        <integer>0</integer>
-        <key>name</key>
-        <string> [locked]</string>
-        <key>x</key>
-        <integer>-15</integer>
-        <key>y</key>
-        <integer>246</integer>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string> [locked]</string>
-        <key>y</key>
-        <integer>670</integer>
-      </dict>
-      <dict>
-        <key>angle</key>
-        <integer>0</integer>
-        <key>x</key>
-        <integer>805</integer>
-        <key>y</key>
-        <integer>839</integer>
-      </dict>
-      <dict>
-        <key>angle</key>
-        <integer>0</integer>
-        <key>name</key>
-        <string> [locked]</string>
-        <key>x</key>
-        <integer>-18</integer>
-        <key>y</key>
-        <integer>-230</integer>
-      </dict>
-    </array>
+    <array/>
     <key>italicAngle</key>
     <integer>0</integer>
     <key>openTypeHeadCreated</key>
-    <string>2019/12/04 18:34:40</string>
+    <string>2020/03/02 09:54:51</string>
     <key>openTypeHheaAscender</key>
-    <integer>1374</integer>
+    <integer>1096</integer>
     <key>openTypeHheaDescender</key>
-    <integer>-738</integer>
+    <integer>-293</integer>
     <key>openTypeHheaLineGap</key>
     <integer>0</integer>
     <key>openTypeNameDescription</key>
-    <string>Designed by Monotype design team.</string>
+    <string>Designed by Mohamad Dakak</string>
     <key>openTypeNameDesigner</key>
-    <string>Nadine Chahine - Monotype Design Team</string>
+    <string>Mohamad Dakak (based on work by Nadine Chahine - Monotype Design Team)</string>
     <key>openTypeNameDesignerURL</key>
-    <string>http://www.monotype.com/studio</string>
+    <string>mhmd.dakak@gmail.com</string>
     <key>openTypeNameLicense</key>
     <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.</string>
     <key>openTypeNameLicenseURL</key>
     <string>http://scripts.sil.org/OFL</string>
     <key>openTypeNameManufacturer</key>
-    <string>Monotype Imaging Inc.</string>
+    <string>Mohamad Dakak</string>
     <key>openTypeNameManufacturerURL</key>
     <string>http://www.google.com/get/noto/</string>
     <key>openTypeNameVersion</key>
-    <string>Version 2.001</string>
+    <string>Version 2.500</string>
     <key>openTypeOS2Selection</key>
     <array>
       <integer>8</integer>
@@ -142,9 +47,9 @@
     <key>openTypeOS2Type</key>
     <array/>
     <key>openTypeOS2TypoAscender</key>
-    <integer>1374</integer>
+    <integer>1096</integer>
     <key>openTypeOS2TypoDescender</key>
-    <integer>-738</integer>
+    <integer>-293</integer>
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
     <key>openTypeOS2UnicodeRanges</key>
@@ -161,19 +66,19 @@
     <key>openTypeOS2VendorID</key>
     <string>GOOG</string>
     <key>openTypeOS2WinAscent</key>
-    <integer>1374</integer>
+    <integer>1096</integer>
     <key>openTypeOS2WinDescent</key>
-    <integer>738</integer>
+    <integer>293</integer>
     <key>postscriptBlueValues</key>
     <array>
       <integer>-15</integer>
       <integer>0</integer>
-      <integer>374</integer>
-      <integer>389</integer>
       <integer>416</integer>
       <integer>431</integer>
-      <integer>714</integer>
-      <integer>729</integer>
+      <integer>490</integer>
+      <integer>505</integer>
+      <integer>732</integer>
+      <integer>747</integer>
     </array>
     <key>postscriptFamilyBlues</key>
     <array/>
@@ -186,11 +91,11 @@
     </array>
     <key>postscriptStemSnapH</key>
     <array>
-      <integer>83</integer>
+      <integer>86</integer>
     </array>
     <key>postscriptStemSnapV</key>
     <array>
-      <integer>82</integer>
+      <integer>78</integer>
     </array>
     <key>postscriptUnderlinePosition</key>
     <integer>-100</integer>
@@ -203,14 +108,14 @@
     <key>styleName</key>
     <string>Regular</string>
     <key>trademark</key>
-    <string>Noto is a trademark of Google LLC</string>
+    <string>Noto is a trademark of Google LLC.</string>
     <key>unitsPerEm</key>
     <integer>1000</integer>
     <key>versionMajor</key>
     <integer>2</integer>
     <key>versionMinor</key>
-    <integer>1</integer>
+    <integer>500</integer>
     <key>xHeight</key>
-    <integer>374</integer>
+    <integer>416</integer>
   </dict>
 </plist>

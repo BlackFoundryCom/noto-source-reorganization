@@ -1,13 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="allah-ar" format="2">
-  <advance width="1284"/>
+  <advance width="1463"/>
   <unicode hex="FDF2"/>
-  <anchor x="0" y="0" name="caret_1"/>
-  <anchor x="-322" y="0" name="caret_2"/>
-  <anchor x="963" y="0" name="caret_3"/>
+  <anchor x="1326" y="-116" name="bottom_1"/>
+  <anchor x="1008" y="-116" name="bottom_2"/>
+  <anchor x="683" y="-116" name="bottom_3"/>
+  <anchor x="288" y="-116" name="bottom_4"/>
+  <anchor x="1315" y="756" name="top_1"/>
+  <anchor x="1030" y="672" name="top_2"/>
+  <anchor x="716" y="663" name="top_3"/>
+  <anchor x="334" y="704" name="top_4"/>
+  <anchor x="1332" y="-16" name="bottom.dot"/>
   <outline>
-    <component base="allah-ar.pt1"/>
-    <component base="allah-ar.pt2" xOffset="459" yOffset="29"/>
+    <component base="lam_lam_heh-ar"/>
+    <component base="alef-ar" xOffset="1184"/>
   </outline>
   <lib>
     <dict>
@@ -16,10 +22,10 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=alef-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/25 17:31:32</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
-        <integer>0</integer>
+        <integer>-1</integer>
         <integer>-1</integer>
       </array>
     </dict>

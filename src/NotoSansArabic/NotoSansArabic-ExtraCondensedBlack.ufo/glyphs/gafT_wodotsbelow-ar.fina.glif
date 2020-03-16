@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gafTwodotsbelow-ar.fina" format="2">
+  <advance width="771"/>
+  <anchor x="244" y="619" name="top"/>
+  <anchor x="320" y="-111" name="bottom"/>
+  <anchor x="320" y="-20" name="bottom.dot"/>
+  <anchor x="674" y="584" name="center"/>
+  <anchor x="471" y="720" name="top.dot"/>
+  <outline>
+    <component base="gaf-ar.fina"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="166" yOffset="-15"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 22:41:56</string>
+    </dict>
+  </lib>
+</glyph>
