@@ -361,7 +361,8 @@ def subsetFonts(family, writingSystem, flavor=["ttf"], familyNewName=" ", jsonpa
     SecureSet = [0]
     coreArabicCodePageRange = [0,6]
     unicodePageRangeDict = {"Cyrillic":latinProCodePageRange, "CyrillicPro":latinProCodePageRange, \
-        "Greek" : greekProCodePageRange, "Latin" : latinProCodePageRange, "ASCII" : ASCII, "SecureSet" : SecureSet, "Core_Arabic" : coreArabicCodePageRange}
+        "Greek" : greekProCodePageRange, "Latin" : latinProCodePageRange, \
+        "ASCII" : ASCII, "SecureSet" : SecureSet, "Core_Arabic" : coreArabicCodePageRange}
     pageRangeToApply = []
     subsetFolder = ""
     for i in writingSystem:
@@ -385,9 +386,9 @@ def subsetFonts(family, writingSystem, flavor=["ttf"], familyNewName=" ", jsonpa
     # if jsonpath == " ":
     #     jsonpath = [folder + json for json in os.listdir(folder) if ".json" in json]
     if family in pan_european_fonts:
-        jsonpath = "lgc_glyphset.json"
+        jsonpath = "subsets/lgc_glyphset.json"
     elif family in arabic_fonts:
-        jsonpath = "arabic_glyphset.json"
+        jsonpath = "subsets/arabic_glyphset.json"
     # keep, pageRangeToApply = readJsonStoredSubset(os.path.join(os.getcwd(), "lgc_glyphset.json"), writingSystem)
     keep, pageRangeToApply = readJsonStoredSubset(jsonpath, writingSystem)
     for i in flavor:
@@ -456,8 +457,7 @@ def secureSetFromLatin(family, formats, jsonpath):
         for i in formats:
             subsetFonts(family, ["SecureSet"], flavor = [i], jsonpath=jsonpath)
     else:
-        folder = getFolder(family)
-        jsonpath = [folder + json for json in os.listdir(folder) if ".json" in json]
+        jsonpath = "subsets/lgc_glyphset.json"
         for i in formats:
             subsetFonts(family, ["SecureSet"], flavor = [i], jsonpath=jsonpath)
 
@@ -581,7 +581,7 @@ def instances(family, *output, newName=" "):
 # mastersUfos2fonts("NotoSansThaana", "woff2")
 # designSpace2Var("NotoSansThaana")
 # subsetFonts("NotoSerif", "SecureSet")
-instances("NotoNastaliqUrdu", "ttf")
+instances("NotoMusic", "ttf")
 # ufoWithMTIfeatures2font("NotoMusic", "ttf")
 # subsetFonts("NotoSerif", "CyrillicPro", familyNewName = "Avocado Sans", flavor=["otf"])
 # subsetFonts("NotoKufiArabic", ["Core_Arabic"], flavor=["ttf"])

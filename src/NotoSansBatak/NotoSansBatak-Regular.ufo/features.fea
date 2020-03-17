@@ -11,7 +11,7 @@ lookup gsub_18_multiple {
     } gsub_18_multiple ;
 
 lookup gsub_0_chained {
-    sub [ uni1BC0  ] [ uni1BF2  ]' lookup gsub_18_multiple ;
+    sub [ uni1BC0 ] [ uni1BF2 ]' lookup gsub_18_multiple ;
     } gsub_0_chained ;
 
 lookup gsub_19_multiple {
@@ -19,7 +19,7 @@ lookup gsub_19_multiple {
     } gsub_19_multiple ;
 
 lookup gsub_1_chained {
-    sub [ uni1BC0  ] [ uni1BF2  ]' lookup gsub_19_multiple ;
+    sub [ uni1BC0 ] [ uni1BF2 ]' lookup gsub_19_multiple ;
     } gsub_1_chained ;
 
 lookup gsub_20_multiple {
@@ -27,7 +27,7 @@ lookup gsub_20_multiple {
     } gsub_20_multiple ;
 
 lookup gsub_2_chained {
-    sub [ uni1BC0  ] [ uni1BF2  ]' lookup gsub_20_multiple ;
+    sub [ uni1BC0 ] [ uni1BF2 ]' lookup gsub_20_multiple ;
     } gsub_2_chained ;
 
 lookup gsub_21_multiple {
@@ -35,7 +35,7 @@ lookup gsub_21_multiple {
     } gsub_21_multiple ;
 
 lookup gsub_3_chained {
-    sub [ uni1BC0  ] [ uni1BF2  ]' lookup gsub_21_multiple ;
+    sub [ uni1BC0 ] [ uni1BF2 ]' lookup gsub_21_multiple ;
     } gsub_3_chained ;
 
 lookup gsub_22_multiple {
@@ -43,7 +43,7 @@ lookup gsub_22_multiple {
     } gsub_22_multiple ;
 
 lookup gsub_4_chained {
-    sub [ uni1BC0  ] [ uni1BF2  ]' lookup gsub_22_multiple ;
+    sub [ uni1BC0 ] [ uni1BF2 ]' lookup gsub_22_multiple ;
     } gsub_4_chained ;
 
 lookup gsub_23_multiple {
@@ -51,7 +51,7 @@ lookup gsub_23_multiple {
     } gsub_23_multiple ;
 
 lookup gsub_5_chained {
-    sub [ uni1BC0  ] [ uni1BF2  ]' lookup gsub_23_multiple ;
+    sub [ uni1BC0 ] [ uni1BF2 ]' lookup gsub_23_multiple ;
     } gsub_5_chained ;
 
 lookup gsub_24_multiple {
@@ -59,7 +59,7 @@ lookup gsub_24_multiple {
     } gsub_24_multiple ;
 
 lookup gsub_6_chained {
-    sub [ uni1BC0  ] [ uni1BF2  ]' lookup gsub_24_multiple ;
+    sub [ uni1BC0 ] [ uni1BF2 ]' lookup gsub_24_multiple ;
     } gsub_6_chained ;
 
 lookup gsub_25_multiple {
@@ -67,7 +67,7 @@ lookup gsub_25_multiple {
     } gsub_25_multiple ;
 
 lookup gsub_7_chained {
-    sub [ uni1BC0  ] [ uni1BF2  ]' lookup gsub_25_multiple ;
+    sub [ uni1BC0 ] [ uni1BF2 ]' lookup gsub_25_multiple ;
     } gsub_7_chained ;
 
 lookup gsub_26_multiple {
@@ -75,7 +75,7 @@ lookup gsub_26_multiple {
     } gsub_26_multiple ;
 
 lookup gsub_8_chained {
-    sub [ uni1BC0  ] [ uni1BF2  ]' lookup gsub_26_multiple ;
+    sub [ uni1BC0 ] [ uni1BF2 ]' lookup gsub_26_multiple ;
     } gsub_8_chained ;
 
 lookup gsub_27_single {
@@ -83,7 +83,7 @@ lookup gsub_27_single {
     } gsub_27_single ;
 
 lookup gsub_9_chained {
-    sub [ uni1BE7  ]' lookup gsub_27_single ;
+    sub [ uni1BE7 ]' lookup gsub_27_single [ uni1BC0 ] ;
     } gsub_9_chained ;
 
 lookup gsub_28_single {
@@ -91,7 +91,7 @@ lookup gsub_28_single {
     } gsub_28_single ;
 
 lookup gsub_10_chained {
-    sub [ uni1BE8  ]' lookup gsub_28_single ;
+    sub [ uni1BE8 ]' lookup gsub_28_single [ uni1BC0 ] ;
     } gsub_10_chained ;
 
 lookup gsub_29_single {
@@ -99,7 +99,7 @@ lookup gsub_29_single {
     } gsub_29_single ;
 
 lookup gsub_11_chained {
-    sub [ uni1BE9  ]' lookup gsub_29_single ;
+    sub [ uni1BE9 ]' lookup gsub_29_single [ uni1BC0 ] ;
     } gsub_11_chained ;
 
 lookup gsub_30_single {
@@ -107,7 +107,7 @@ lookup gsub_30_single {
     } gsub_30_single ;
 
 lookup gsub_12_chained {
-    sub [ uni1BEA  ]' lookup gsub_30_single ;
+    sub [ uni1BEA ]' lookup gsub_30_single [ uni1BC0 ] ;
     } gsub_12_chained ;
 
 lookup gsub_31_single {
@@ -115,7 +115,7 @@ lookup gsub_31_single {
     } gsub_31_single ;
 
 lookup gsub_13_chained {
-    sub [ uni1BEB  ]' lookup gsub_31_single ;
+    sub [ uni1BEB ]' lookup gsub_31_single [ uni1BC0 ] ;
     } gsub_13_chained ;
 
 lookup gsub_32_single {
@@ -123,7 +123,7 @@ lookup gsub_32_single {
     } gsub_32_single ;
 
 lookup gsub_14_chained {
-    sub [ uni1BEC  ]' lookup gsub_32_single ;
+    sub [ uni1BEC ]' lookup gsub_32_single [ uni1BC0 ] ;
     } gsub_14_chained ;
 
 lookup gsub_33_single {
@@ -131,7 +131,7 @@ lookup gsub_33_single {
     } gsub_33_single ;
 
 lookup gsub_15_chained {
-    sub [ uni1BEE  ]' lookup gsub_33_single ;
+    sub [ uni1BEE ]' lookup gsub_33_single [ uni1BC0 ] ;
     } gsub_15_chained ;
 
 lookup gsub_34_single {
@@ -139,7 +139,7 @@ lookup gsub_34_single {
     } gsub_34_single ;
 
 lookup gsub_16_chained {
-    sub [ uni1BEF  ]' lookup gsub_34_single ;
+    sub [ uni1BEF ]' lookup gsub_34_single [ uni1BC0 ] ;
     } gsub_16_chained ;
 
 lookup gsub_35_single {
@@ -147,8 +147,9 @@ lookup gsub_35_single {
     } gsub_35_single ;
 
 lookup gsub_17_chained {
-    sub [ uni1BED  ]' lookup gsub_35_single ;
+    sub [ uni1BED ]' lookup gsub_35_single [ uni1BC0 ] ;
     } gsub_17_chained ;
+
 
 #GPOS
 lookup gpos_0_mark_to_base {
@@ -251,15 +252,15 @@ lookup gpos_1_mark_to_base {
     } gpos_1_mark_to_base ;
 
 lookup gpos_2_mark_to_mark {
-    markClass uni1BF0 <anchor 39 507> @_MARKCLASS_0_lookup_2;
-    markClass uni1BF1 <anchor 29 507> @_MARKCLASS_0_lookup_2;
-    position mark uni1BE6 <anchor -420 791> mark @_MARKCLASS_0_lookup_2;
-    position mark uni1BE8 <anchor -127 908> mark @_MARKCLASS_0_lookup_2;
-    position mark uni1BE9 <anchor -430 683> mark @_MARKCLASS_0_lookup_2;
-    position mark uni1BED <anchor -372 878> mark @_MARKCLASS_0_lookup_2;
-    position mark uni1BEF <anchor -264 830> mark @_MARKCLASS_0_lookup_2;
-    position mark uni1BF0 <anchor 29 712> mark @_MARKCLASS_0_lookup_2;
-    position mark uni1BF1 <anchor 24 810> mark @_MARKCLASS_0_lookup_2;
+	markClass uni1BF0 <anchor 39 507> @_MARKCLASS_0_lookup_2;
+	markClass uni1BF1 <anchor 29 507> @_MARKCLASS_0_lookup_2;
+	position mark uni1BE6 <anchor -420 791> mark @_MARKCLASS_0_lookup_2;
+	position mark uni1BE8 <anchor -127 908> mark @_MARKCLASS_0_lookup_2;
+	position mark uni1BE9 <anchor -430 683> mark @_MARKCLASS_0_lookup_2;
+	position mark uni1BED <anchor -372 878> mark @_MARKCLASS_0_lookup_2;
+	position mark uni1BEF <anchor -264 830> mark @_MARKCLASS_0_lookup_2;
+	position mark uni1BF0 <anchor 29 712> mark @_MARKCLASS_0_lookup_2;
+	position mark uni1BF1 <anchor 24 810> mark @_MARKCLASS_0_lookup_2;
     } gpos_2_mark_to_mark ;
 
 

@@ -142,13 +142,19 @@ stored => position type tab Glyph tab value
 output => position Glyphname <value record with a valur in y advance or x advance>
 """
 def parseSingleGPOS(name, lookup):
+    print(name)
     single_txt = ""
     single_txt += "lookup " + name[2:-2] + " {\n"
+    gpos_single_dico = dict()
     if len(parseLookupflag(lookup[0:6])) != 0:
         single_txt += parseLookupflag(lookup[0:6])
     for j in lookup[4:]:
         if "MarkFilterType" not in j and "MarkAttachmentType" not in j:
             j_list = j.split("\t")
+            if j_list[1] in gpos_single_dico:
+                gpos_single_dico[j_list[1]] = gpos_single_dico[j_list[1]].append({j_list[0]:j_list[2]})
+            else:
+                gpos_single_dico[j_list[1]] = [{j_list[0]:j_list[2]}]
             if "x advance" in j_list[0]:
                 single_txt += "\tposition " + j_list[1] + " < 0 0 " +  j_list[2] + " 0 >;\n"
             elif "y advance" in j_list[0]:
@@ -158,6 +164,19 @@ def parseSingleGPOS(name, lookup):
             elif "y placement" in j_list[0]:
                 single_txt += "\tposition " + j_list[1] + " < 0 " + j_list[2] + " 0 0 >;\n"
     single_txt += "    } " + name[2:-2] + " ;\n\n"
+    # print(gpos_single_dico)
+    # print(name)
+    # print(gpos_single_dico)
+    for i in gpos_single_dico:
+        # print(i)
+        xadv, xplace, yadv, yplace = "0", "0", "0", "0"
+        # print(gpos_single_dico[i])
+        for d in gpos_single_dico[i]:
+            # print(d)
+            if "x advance" in d:
+                xadv = d["x advance"]
+        print("    pos " + i + " < " + xplace + " " + yplace + " " + xadv + " " + yplace + " >;\n")
+    print("\n\n")
     return str(single_txt)
 
 ##########################
@@ -540,7 +559,7 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
                 while "coverage definition end" not in contenu[j]:
                     coverage += contenu[j] + " "
                     j += 1
-                coverage += " ]"
+                coverage += "]"
         backtrackcoverage = coverage
         coverage = ""
     if "inputcoverage definition begin" in contenu:
@@ -552,20 +571,21 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
                     # classList.append(contenu[j])
                     coverage += contenu[j] + " "
                     j += 1
-                coverage += " ]"
+                coverage += "]"
         inputcoverage = coverage
+        # print(inputcoverage)
         coverage = ""
     if "lookaheadcoverage definition begin" in contenu:
         for i in contenu:
-            coverage = " [ "
             if "lookaheadcoverage definition begin" in i:
+                coverage = " [ "
                 j = contenu.index(i) + 1
                 while "coverage definition end" not in contenu[j]:
-                    # classList.append(contenu[j])
                     coverage += contenu[j] + " "
                     j += 1
-        coverage += " ]"
-        lookaheadcoveragecoverage = coverage
+                coverage += "]"
+        lookaheadcoverage = coverage
+        # print("lookahead", name, lookaheadcoveragecoverage)
         coverage = ""
     # RULES
     for i in contenu:
@@ -599,7 +619,7 @@ def parseChainedGPOSGSUB(name, lookup, namesAndContentsLookup, keyword = "pos"):
                     x = x.replace(" ", "")
                     lookahead_in_rule += "@_lookahead_group_" + x + "_" + name[2:-2] + " "
             rule += "".join(input_rule) + lookahead_in_rule + ";\n"
-            print(i, "\n", rule)
+            # print(i, "\n", rule)
         elif "coverage\t" in i:
             x = i.split(",")[1]
             lookup_name = str(namesAndContentsLookup[int(x)][0])[2:].strip("['']")
@@ -699,15 +719,16 @@ def GPOSSGUB_chained_subtable(namesAndContentsLookup, content, name, num, keywor
         coverage = ""
     if "lookaheadcoverage definition begin" in contenu:
         for i in contenu:
-            coverage = " [ "
             if "lookaheadcoverage definition begin" in i:
+                coverage = " [ "
                 j = contenu.index(i) + 1
                 while "coverage definition end" not in contenu[j]:
-                    # classList.append(contenu[j])
                     coverage += contenu[j] + " "
+                    # print(coverage)
                     j += 1
-        coverage += " ]"
-        lookaheadcoveragecoverage = coverage
+                coverage += " ]"
+        lookaheadcoverage = coverage
+        # print("lookahead>", lookaheadcoverage)
         coverage = ""
     # RULES
     for i in contenu:
@@ -1276,4 +1297,4 @@ def mti2fea(family):
 
 
 if __name__ == "__main__":
-    fea_ = mti2fea("NotoSansCaucasianAlbanian")
+    fea_ = mti2fea("NotoSansCham")
