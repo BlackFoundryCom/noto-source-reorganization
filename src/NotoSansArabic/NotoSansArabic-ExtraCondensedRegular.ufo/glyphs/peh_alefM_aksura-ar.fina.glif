@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="peh_alefMaksura-ar.fina" format="2">
+  <advance width="827"/>
+  <anchor x="705" y="-314" name="bottom_1"/>
+  <anchor x="705" y="-32" name="bottom.dot_1"/>
+  <anchor x="281" y="-244" name="bottom.dot_2"/>
+  <anchor x="281" y="-281" name="bottom_2"/>
+  <anchor x="527" y="411" name="top.dot_1"/>
+  <anchor x="109" y="194" name="top.dot_2"/>
+  <anchor x="525" y="534" name="top_1"/>
+  <anchor x="218" y="372" name="top_2"/>
+  <outline>
+    <component base="behAlefMaksura-ar.fina.long"/>
+    <component base="threedotsdownbelow-ar" xOffset="599" yOffset="-23"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot_1</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedotsdownbelow-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>alefMaksura-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 22:05:13</string>
+    </dict>
+  </lib>
+</glyph>

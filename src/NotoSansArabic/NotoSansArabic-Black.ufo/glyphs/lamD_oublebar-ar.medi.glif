@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamDoublebar-ar.medi" format="2">
+  <advance width="352"/>
+  <anchor x="167" y="-111" name="bottom"/>
+  <anchor x="167" y="-20" name="bottom.dot"/>
+  <anchor x="178" y="463" name="center"/>
+  <anchor x="169" y="788" name="top"/>
+  <anchor x="169" y="744" name="top.dot"/>
+  <outline>
+    <component base="lam-ar.medi"/>
+    <component base="_doublebarshort" xScale="0.9" xOffset="39" yOffset="64"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>lam-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>lam-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 14:30:02</string>
+    </dict>
+  </lib>
+</glyph>

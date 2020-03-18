@@ -1,16 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="seenVinvertedabove-ar.fina" format="2">
-  <advance width="1269"/>
-  <anchor x="848" y="0" name="bottom"/>
-  <anchor x="822" y="659" name="top"/>
+  <advance width="1373"/>
+  <anchor x="912" y="-111" name="bottom"/>
+  <anchor x="912" y="-20" name="bottom.dot"/>
+  <anchor x="917" y="483" name="top"/>
+  <anchor x="922" y="361" name="top.dot"/>
   <outline>
     <component base="seen-ar.fina"/>
-    <component base="vinvertedabove-ar" xOffset="706" yOffset="-98"/>
+    <component base="vinvertedabove-ar" xOffset="790" yOffset="-71"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>vinvertedabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/25 17:31:32</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kafRing-ar" format="2">
+  <advance width="722"/>
+  <unicode hex="06AB"/>
+  <anchor x="338" y="-111" name="bottom"/>
+  <anchor x="231" y="570" name="top"/>
+  <anchor x="338" y="-20" name="bottom.dot"/>
+  <anchor x="624" y="555" name="center"/>
+  <anchor x="460" y="586" name="top.dot"/>
+  <outline>
+    <component base="keheh-ar"/>
+    <component base="_ringArabic" xScale="0.94" yScale="0.94" xOffset="518" yOffset="444"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/01 14:08:10</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

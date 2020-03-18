@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hahTahTwodotshorizontalabove-ar" format="2">
+  <advance width="710"/>
+  <unicode hex="076F"/>
+  <anchor x="333" y="-435" name="bottom"/>
+  <anchor x="391" y="-55" name="center"/>
+  <anchor x="344" y="560" name="top"/>
+  <anchor x="342" y="478" name="top.dot"/>
+  <outline>
+    <component base="hah-ar.wide"/>
+    <component base="twodotstahcenter-ar" xOffset="259" yOffset="-227"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>hah-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>hah-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 20:39:00</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seenFourdotsabove-ar.init" format="2">
+  <advance width="687"/>
+  <anchor x="389.14215" y="-109.35387" name="bottom"/>
+  <anchor x="389.14215" y="-19.7034" name="bottom.dot"/>
+  <anchor x="387.17181" y="467.95575" name="top"/>
+  <anchor x="389.14215" y="353.67602999999997" name="top.dot"/>
+  <outline>
+    <component base="seen-ar.init" xScale="0.98517" yScale="0.98517"/>
+    <component base="fourdotsabove-ar" xOffset="286" yOffset="-78"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 14:37:35</string>
+    </dict>
+  </lib>
+</glyph>

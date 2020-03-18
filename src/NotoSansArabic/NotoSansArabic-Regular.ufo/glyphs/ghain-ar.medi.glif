@@ -1,17 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ghain-ar.medi" format="2">
-  <advance width="521"/>
+  <advance width="615"/>
   <unicode hex="FED0"/>
-  <anchor x="251" y="-5" name="bottom"/>
-  <anchor x="275" y="613" name="top"/>
+  <anchor x="309" y="-111" name="bottom"/>
+  <anchor x="309" y="-20" name="bottom.dot"/>
+  <anchor x="325" y="561" name="top"/>
+  <anchor x="325" y="444" name="top.dot"/>
   <outline>
     <component base="ain-ar.medi"/>
-    <component base="dotabove-ar" xOffset="199" yOffset="-52"/>
+    <component base="dotabove-ar" xOffset="250" yOffset="12"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/25 17:31:31</string>
     </dict>
   </lib>
 </glyph>

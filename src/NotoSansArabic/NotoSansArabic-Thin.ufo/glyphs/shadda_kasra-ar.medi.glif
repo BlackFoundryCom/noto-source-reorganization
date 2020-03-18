@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="shadda_kasra-ar.medi" format="2">
+  <advance width="270"/>
+  <unicode hex="FCF4"/>
+  <outline>
+    <component base="kashida-ar"/>
+    <component base="fathatan-ar" yOffset="-73"/>
+    <component base="shadda-ar" xOffset="-3" yOffset="157"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:32</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

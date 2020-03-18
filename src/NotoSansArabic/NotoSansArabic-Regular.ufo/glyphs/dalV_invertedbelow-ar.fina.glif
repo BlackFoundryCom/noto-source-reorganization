@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dalVinvertedbelow-ar.fina" format="2">
-  <advance width="532"/>
-  <anchor x="231" y="-189" name="bottom"/>
-  <anchor x="220" y="457" name="top"/>
+  <advance width="600"/>
+  <anchor x="225" y="-111" name="bottom"/>
+  <anchor x="228" y="-21" name="bottom.dot"/>
+  <anchor x="286" y="590" name="top"/>
+  <anchor x="286" y="506" name="top.dot"/>
   <outline>
     <component base="dal-ar.fina"/>
-    <component base="_vinvertedbelow-ar" xOffset="126" yOffset="-5"/>
+    <component base="_vinvertedbelow-ar" xOffset="100" yOffset="3"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/25 17:31:31</string>
     </dict>
   </lib>
 </glyph>

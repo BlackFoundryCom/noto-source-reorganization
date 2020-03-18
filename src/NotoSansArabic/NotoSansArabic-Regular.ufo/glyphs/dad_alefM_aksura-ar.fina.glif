@@ -1,24 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dad_alefMaksura-ar.fina" format="2">
-  <advance width="1685"/>
+  <advance width="1626"/>
   <unicode hex="FD23"/>
-  <anchor x="736" y="0" name="caret_1"/>
-  <anchor x="1220" y="-18" name="bottom_1"/>
-  <anchor x="326" y="-232" name="bottom_2"/>
-  <anchor x="1388" y="571" name="top_1"/>
-  <anchor x="216" y="150" name="top_2"/>
+  <anchor x="1274" y="667" name="top_1"/>
+  <anchor x="351" y="-244" name="bottom.dot_2"/>
+  <anchor x="1172" y="-112" name="bottom_1"/>
+  <anchor x="351" y="-281" name="bottom_2"/>
+  <anchor x="1273" y="462" name="top.dot_1"/>
+  <anchor x="136" y="194" name="top.dot_2"/>
+  <anchor x="272" y="372" name="top_2"/>
   <outline>
-    <component base="dad-ar.medi" xOffset="736"/>
-    <component base="alefMaksura-ar.fina"/>
+    <component base="sad_alefMaksura-ar.fina"/>
+    <component base="dotabove-ar" xOffset="1198" yOffset="30"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot_1</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>dad-ar.medi</string>
+      <string>sad_alefMaksura-ar</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>alefMaksura-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/28 10:14:12</string>
     </dict>
   </lib>
 </glyph>

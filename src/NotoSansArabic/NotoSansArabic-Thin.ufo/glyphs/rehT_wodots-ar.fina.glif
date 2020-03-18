@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehTwodots-ar.fina" format="2">
+  <advance width="492"/>
+  <anchor x="118" y="-297" name="bottom"/>
+  <anchor x="118" y="-252" name="bottom.dot"/>
+  <anchor x="187" y="1" name="center"/>
+  <anchor x="247" y="483" name="top"/>
+  <anchor x="251" y="320" name="top.dot"/>
+  <outline>
+    <component base="reh-ar.fina"/>
+    <component base="twodotshorizontalabove-ar" xOffset="146" yOffset="-36"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 20:31:21</string>
+    </dict>
+  </lib>
+</glyph>

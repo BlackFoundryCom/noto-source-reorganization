@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ray-ar" format="2">
+  <anchor x="565" y="-309" name="bottom"/>
+  <anchor x="565" y="614" name="top"/>
+  <anchor x="733" y="415" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="369" y="59" type="move"/>
+      <point x="369" y="118"/>
+      <point x="377" y="155"/>
+      <point x="393" y="224" type="curve"/>
+      <point x="267" y="251" type="line"/>
+      <point x="231" y="174"/>
+      <point x="212" y="87"/>
+      <point x="212" y="11" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

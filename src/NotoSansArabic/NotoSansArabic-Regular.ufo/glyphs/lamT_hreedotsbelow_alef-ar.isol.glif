@@ -1,22 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lamThreedotsbelow_alef-ar.isol" format="2">
-  <advance width="582"/>
-  <note>
-uni06B80627.isol
-</note>
-  <anchor x="0" y="0" name="caret_1"/>
-  <anchor x="455" y="0" name="bottom_1"/>
-  <anchor x="159" y="0" name="bottom_2"/>
-  <anchor x="411" y="714" name="top_1"/>
-  <anchor x="98" y="552" name="top_2"/>
+  <advance width="623"/>
+  <anchor x="441" y="-16" name="bottom.dot_1"/>
+  <anchor x="161" y="-20" name="bottom.dot_2"/>
+  <anchor x="443" y="-275" name="bottom_1"/>
+  <anchor x="161" y="-111" name="bottom_2"/>
+  <anchor x="474" y="596" name="center"/>
+  <anchor x="469" y="746" name="top_1"/>
+  <anchor x="137" y="654" name="top_2"/>
   <outline>
-    <component base="lam_alef-ar"/>
-    <component base="threedotsupbelow-ar" xOffset="282"/>
+    <component base="lamThreedotsbelow_alef-ar"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alef-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/04 18:33:12</string>
+      <string>2020/02/28 21:24:16</string>
     </dict>
   </lib>
 </glyph>

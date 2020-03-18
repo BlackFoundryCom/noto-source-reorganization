@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam_alef-ar.fina.short" format="2">
+  <advance width="699"/>
+  <anchor x="156" y="-20" name="bottom.dot"/>
+  <anchor x="512" y="-10" name="bottom.dot_1"/>
+  <anchor x="485" y="-111" name="bottom_1"/>
+  <anchor x="154" y="-110" name="bottom_2"/>
+  <anchor x="520" y="601" name="center"/>
+  <anchor x="508" y="778" name="top_1"/>
+  <anchor x="137" y="647" name="top_2"/>
+  <outline>
+    <contour>
+      <point x="699" y="-10" type="curve" smooth="yes"/>
+      <point x="766" y="-10"/>
+      <point x="799" y="30"/>
+      <point x="799" y="81" type="curve" smooth="yes"/>
+      <point x="799" y="126"/>
+      <point x="773" y="170"/>
+      <point x="709" y="170" type="curve" smooth="yes"/>
+      <point x="628" y="170"/>
+      <point x="614" y="191"/>
+      <point x="610" y="271" type="curve" smooth="yes"/>
+      <point x="587" y="760" type="line"/>
+      <point x="427" y="760" type="line"/>
+      <point x="442" y="439" type="line"/>
+      <point x="450" y="221" type="line" smooth="yes"/>
+      <point x="455" y="83"/>
+      <point x="516" y="-10"/>
+    </contour>
+    <contour>
+      <point x="145" y="-10" type="curve" smooth="yes"/>
+      <point x="324" y="-10"/>
+      <point x="499" y="71"/>
+      <point x="517" y="333" type="curve"/>
+      <point x="442" y="439" type="line"/>
+      <point x="450" y="257"/>
+      <point x="332" y="170"/>
+      <point x="165" y="170" type="curve" smooth="yes"/>
+      <point x="115" y="170"/>
+      <point x="87" y="172"/>
+      <point x="54" y="175" type="curve"/>
+      <point x="41" y="1" type="line"/>
+      <point x="55" y="-2"/>
+      <point x="109" y="-10"/>
+    </contour>
+    <contour>
+      <point x="348" y="168" type="curve"/>
+      <point x="465" y="258" type="line"/>
+      <point x="363" y="396"/>
+      <point x="249" y="517"/>
+      <point x="139" y="639" type="curve"/>
+      <point x="26" y="520" type="line"/>
+      <point x="139" y="402"/>
+      <point x="238" y="295"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 22:07:21</string>
+    </dict>
+  </lib>
+</glyph>

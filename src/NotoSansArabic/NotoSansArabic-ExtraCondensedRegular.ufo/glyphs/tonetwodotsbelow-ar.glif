@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tonetwodotsbelow-ar" format="2">
+  <unicode hex="08EE"/>
+  <anchor x="97" y="-4" name="_bottom"/>
+  <anchor x="97" y="-187" name="bottom"/>
+  <outline>
+    <component base="_dotabove-ar" xScale="0.88" yScale="0.88" xOffset="3" yOffset="-17"/>
+    <component base="_dotabove-ar" xScale="0.88" yScale="0.88" xOffset="88" yOffset="22"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=toneonedotabove-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>toneonedotabove-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 21:27:08</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>198</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

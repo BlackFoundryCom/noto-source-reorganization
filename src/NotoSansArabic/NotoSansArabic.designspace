@@ -4,7 +4,7 @@
     <axis tag="wght" name="Weight" minimum="100" maximum="900" default="400">
       <map input="100" output="26"/>
       <map input="200" output="39"/>
-      <map input="300" output="58"/>
+      <map input="300" output="62"/>
       <map input="400" output="90"/>
       <map input="500" output="108"/>
       <map input="600" output="128"/>
@@ -20,7 +20,7 @@
     </axis>
   </axes>
   <sources>
-    <source filename="NotoSansArabic-Light.ufo" name="Noto Sans Arabic Light" familyname="Noto Sans Arabic" stylename="Light">
+    <source filename="NotoSansArabic-Thin.ufo" name="Noto Sans Arabic Thin" familyname="Noto Sans Arabic" stylename="Thin">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="100"/>
@@ -36,37 +36,25 @@
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
-    <source filename="NotoSansArabic-SemiBold.ufo" name="Noto Sans Arabic SemiBold" familyname="Noto Sans Arabic" stylename="SemiBold">
-      <location>
-        <dimension name="Weight" xvalue="151"/>
-        <dimension name="Width" xvalue="100"/>
-      </location>
-    </source>
-    <source filename="NotoSansArabic-Bold.ufo" name="Noto Sans Arabic Bold" familyname="Noto Sans Arabic" stylename="Bold">
+    <source filename="NotoSansArabic-Black.ufo" name="Noto Sans Arabic Black" familyname="Noto Sans Arabic" stylename="Black">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
-    <source filename="NotoSansArabic-CondensedLight.ufo" name="Noto Sans Arabic Condensed Light" familyname="Noto Sans Arabic" stylename="Condensed Light">
+    <source filename="NotoSansArabic-ExtraCondensedThin.ufo" name="Noto Sans Arabic ExtraCondensed Thin" familyname="Noto Sans Arabic" stylename="ExtraCondensed Thin">
       <location>
         <dimension name="Weight" xvalue="26"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
-    <source filename="NotoSansArabic-Condensed.ufo" name="Noto Sans Arabic Condensed" familyname="Noto Sans Arabic" stylename="Condensed">
+    <source filename="NotoSansArabic-ExtraCondensedRegular.ufo" name="Noto Sans Arabic ExtraCondensed Regular" familyname="Noto Sans Arabic" stylename="ExtraCondensed Regular">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="70"/>
       </location>
     </source>
-    <source filename="NotoSansArabic-CondensedSemiBold.ufo" name="Noto Sans Arabic Condensed SemiBold" familyname="Noto Sans Arabic" stylename="Condensed SemiBold">
-      <location>
-        <dimension name="Weight" xvalue="151"/>
-        <dimension name="Width" xvalue="70"/>
-      </location>
-    </source>
-    <source filename="NotoSansArabic-CondensedBold.ufo" name="Noto Sans Arabic Condensed Bold" familyname="Noto Sans Arabic" stylename="Condensed Bold">
+    <source filename="NotoSansArabic-ExtraCondensedBlack.ufo" name="Noto Sans Arabic ExtraCondensed Black" familyname="Noto Sans Arabic" stylename="ExtraCondensed Black">
       <location>
         <dimension name="Weight" xvalue="190"/>
         <dimension name="Width" xvalue="70"/>
@@ -86,6 +74,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Thin</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -99,14 +95,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic Thin</string>
             </array>
           </array>
         </dict>
@@ -124,6 +112,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>ExtraLight</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -138,21 +134,13 @@
                 <integer>4</integer>
               </array>
             </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic ExtLt</string>
-            </array>
           </array>
         </dict>
       </lib>
     </instance>
     <instance name="Noto Sans Arabic Light" familyname="Noto Sans Arabic" stylename="Light" filename="instance_ufos/NotoSansArabic-Light.ufo" stylemapfamilyname="Noto Sans Arabic Light" stylemapstylename="regular">
       <location>
-        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Weight" xvalue="62"/>
         <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
@@ -161,6 +149,14 @@
         <dict>
           <key>com.schriftgestaltung.customParameters</key>
           <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Light</string>
+            </array>
             <array>
               <string>panose</string>
               <array>
@@ -175,14 +171,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic Light</string>
             </array>
           </array>
         </dict>
@@ -200,6 +188,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Regular</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -213,10 +209,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
             </array>
           </array>
         </dict>
@@ -234,6 +226,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Medium</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -247,14 +247,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic Med</string>
             </array>
           </array>
         </dict>
@@ -272,6 +264,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>SemiBold</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -285,14 +285,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic SemBd</string>
             </array>
           </array>
         </dict>
@@ -310,6 +302,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Bold</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -323,10 +323,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
             </array>
           </array>
         </dict>
@@ -344,6 +340,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>ExtraBold</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -357,14 +361,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic ExtBd</string>
             </array>
           </array>
         </dict>
@@ -382,6 +378,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Black</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -395,14 +399,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic Blk</string>
             </array>
           </array>
         </dict>
@@ -420,6 +416,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Condensed Thin</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -433,14 +437,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic Cond Thin</string>
             </array>
           </array>
         </dict>
@@ -458,6 +454,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Condensed ExtraLight</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -472,21 +476,13 @@
                 <integer>4</integer>
               </array>
             </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic Cond ExtLt</string>
-            </array>
           </array>
         </dict>
       </lib>
     </instance>
     <instance name="Noto Sans Arabic Condensed Light" familyname="Noto Sans Arabic" stylename="Condensed Light" filename="instance_ufos/NotoSansArabic-CondensedLight.ufo" stylemapfamilyname="Noto Sans Arabic Condensed Light" stylemapstylename="regular">
       <location>
-        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Weight" xvalue="62"/>
         <dimension name="Width" xvalue="79"/>
       </location>
       <kerning/>
@@ -495,6 +491,14 @@
         <dict>
           <key>com.schriftgestaltung.customParameters</key>
           <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Condensed Light</string>
+            </array>
             <array>
               <string>panose</string>
               <array>
@@ -509,14 +513,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic Cond Light</string>
             </array>
           </array>
         </dict>
@@ -534,6 +530,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Condensed</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -547,14 +551,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic Cond</string>
             </array>
           </array>
         </dict>
@@ -572,6 +568,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Condensed Medium</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -585,14 +589,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic Cond Med</string>
             </array>
           </array>
         </dict>
@@ -610,6 +606,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Condensed SemiBold</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -624,19 +628,11 @@
                 <integer>4</integer>
               </array>
             </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic Cond SemBd</string>
-            </array>
           </array>
         </dict>
       </lib>
     </instance>
-    <instance name="Noto Sans Arabic Condensed Bold" familyname="Noto Sans Arabic" stylename="Condensed Bold" filename="instance_ufos/NotoSansArabic-CondensedBold.ufo" stylemapfamilyname="Noto Sans Arabic Condensed" stylemapstylename="bold">
+    <instance name="Noto Sans Arabic Condensed Bold" familyname="Noto Sans Arabic" stylename="Condensed Bold" filename="instance_ufos/NotoSansArabic-CondensedBold.ufo" stylemapfamilyname="Noto Sans Arabic Condensed Regular" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="79"/>
@@ -647,6 +643,14 @@
         <dict>
           <key>com.schriftgestaltung.customParameters</key>
           <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Condensed Bold</string>
+            </array>
             <array>
               <string>panose</string>
               <array>
@@ -661,14 +665,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic Cond</string>
             </array>
           </array>
         </dict>
@@ -686,6 +682,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Condensed ExtraBold</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -699,14 +703,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic Cond ExtBd</string>
             </array>
           </array>
         </dict>
@@ -724,6 +720,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>Condensed Black</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -737,14 +741,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic Cond Blk</string>
             </array>
           </array>
         </dict>
@@ -762,6 +758,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>SemiCondensed Thin</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -775,14 +779,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic SemCond Thin</string>
             </array>
           </array>
         </dict>
@@ -800,6 +796,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>SemiCondensed ExtraLight</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -814,21 +818,13 @@
                 <integer>4</integer>
               </array>
             </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic SemCond ExtLt</string>
-            </array>
           </array>
         </dict>
       </lib>
     </instance>
     <instance name="Noto Sans Arabic SemiCondensed Light" familyname="Noto Sans Arabic" stylename="SemiCondensed Light" filename="instance_ufos/NotoSansArabic-SemiCondensedLight.ufo" stylemapfamilyname="Noto Sans Arabic SemiCondensed Light" stylemapstylename="regular">
       <location>
-        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Weight" xvalue="62"/>
         <dimension name="Width" xvalue="89"/>
       </location>
       <kerning/>
@@ -837,6 +833,14 @@
         <dict>
           <key>com.schriftgestaltung.customParameters</key>
           <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>SemiCondensed Light</string>
+            </array>
             <array>
               <string>panose</string>
               <array>
@@ -851,14 +855,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic SemCond Light</string>
             </array>
           </array>
         </dict>
@@ -876,6 +872,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>SemiCondensed</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -889,14 +893,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic SemCond</string>
             </array>
           </array>
         </dict>
@@ -914,6 +910,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>SemiCondensed Medium</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -927,14 +931,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic SemCond Med</string>
             </array>
           </array>
         </dict>
@@ -952,6 +948,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>SemiCondensed SemiBold</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -966,19 +970,11 @@
                 <integer>4</integer>
               </array>
             </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic SemCond SemBd</string>
-            </array>
           </array>
         </dict>
       </lib>
     </instance>
-    <instance name="Noto Sans Arabic SemiCondensed Bold" familyname="Noto Sans Arabic" stylename="SemiCondensed Bold" filename="instance_ufos/NotoSansArabic-SemiCondensedBold.ufo" stylemapfamilyname="Noto Sans Arabic SemiCondensed" stylemapstylename="bold">
+    <instance name="Noto Sans Arabic SemiCondensed Bold" familyname="Noto Sans Arabic" stylename="SemiCondensed Bold" filename="instance_ufos/NotoSansArabic-SemiCondensedBold.ufo" stylemapfamilyname="Noto Sans Arabic SemiCondensed Regular" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="89"/>
@@ -989,6 +985,14 @@
         <dict>
           <key>com.schriftgestaltung.customParameters</key>
           <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>SemiCondensed Bold</string>
+            </array>
             <array>
               <string>panose</string>
               <array>
@@ -1003,14 +1007,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic SemCond</string>
             </array>
           </array>
         </dict>
@@ -1028,6 +1024,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>SemiCondensed ExtraBold</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -1041,14 +1045,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic SemCond ExtBd</string>
             </array>
           </array>
         </dict>
@@ -1066,6 +1062,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>SemiCondensed Black</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -1079,14 +1083,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic SemCond Blk</string>
             </array>
           </array>
         </dict>
@@ -1104,6 +1100,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>ExtraCondensed Thin</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -1117,14 +1121,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic ExtCond Thin</string>
             </array>
           </array>
         </dict>
@@ -1142,6 +1138,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>ExtraCondensed ExtraLight</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -1156,21 +1160,13 @@
                 <integer>4</integer>
               </array>
             </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic ExtCond ExtLt</string>
-            </array>
           </array>
         </dict>
       </lib>
     </instance>
     <instance name="Noto Sans Arabic ExtraCondensed Light" familyname="Noto Sans Arabic" stylename="ExtraCondensed Light" filename="instance_ufos/NotoSansArabic-ExtraCondensedLight.ufo" stylemapfamilyname="Noto Sans Arabic ExtraCondensed Light" stylemapstylename="regular">
       <location>
-        <dimension name="Weight" xvalue="58"/>
+        <dimension name="Weight" xvalue="62"/>
         <dimension name="Width" xvalue="70"/>
       </location>
       <kerning/>
@@ -1179,6 +1175,14 @@
         <dict>
           <key>com.schriftgestaltung.customParameters</key>
           <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>ExtraCondensed Light</string>
+            </array>
             <array>
               <string>panose</string>
               <array>
@@ -1193,14 +1197,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic ExtCond Light</string>
             </array>
           </array>
         </dict>
@@ -1218,6 +1214,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>ExtraCondensed</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -1231,14 +1235,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic ExtCond</string>
             </array>
           </array>
         </dict>
@@ -1256,6 +1252,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>ExtraCondensed Medium</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -1269,14 +1273,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic ExtCond Med</string>
             </array>
           </array>
         </dict>
@@ -1294,6 +1290,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>ExtraCondensed SemiBold</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -1308,19 +1312,11 @@
                 <integer>4</integer>
               </array>
             </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic ExtCond SemBd</string>
-            </array>
           </array>
         </dict>
       </lib>
     </instance>
-    <instance name="Noto Sans Arabic ExtraCondensed Bold" familyname="Noto Sans Arabic" stylename="ExtraCondensed Bold" filename="instance_ufos/NotoSansArabic-ExtraCondensedBold.ufo" stylemapfamilyname="Noto Sans Arabic ExtraCondensed" stylemapstylename="bold">
+    <instance name="Noto Sans Arabic ExtraCondensed Bold" familyname="Noto Sans Arabic" stylename="ExtraCondensed Bold" filename="instance_ufos/NotoSansArabic-ExtraCondensedBold.ufo" stylemapfamilyname="Noto Sans Arabic ExtraCondensed Regular" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="70"/>
@@ -1331,6 +1327,14 @@
         <dict>
           <key>com.schriftgestaltung.customParameters</key>
           <array>
+            <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>ExtraCondensed Bold</string>
+            </array>
             <array>
               <string>panose</string>
               <array>
@@ -1345,14 +1349,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic ExtCond</string>
             </array>
           </array>
         </dict>
@@ -1370,6 +1366,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>ExtraCondensed ExtraBold</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -1383,14 +1387,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic ExtCond ExtBd</string>
             </array>
           </array>
         </dict>
@@ -1408,6 +1404,14 @@
           <key>com.schriftgestaltung.customParameters</key>
           <array>
             <array>
+              <string>preferredFamilyName</string>
+              <string>Noto Sans Arabic</string>
+            </array>
+            <array>
+              <string>preferredSubfamilyName</string>
+              <string>ExtraCondensed Black</string>
+            </array>
+            <array>
               <string>panose</string>
               <array>
                 <integer>2</integer>
@@ -1421,14 +1425,6 @@
                 <integer>2</integer>
                 <integer>4</integer>
               </array>
-            </array>
-            <array>
-              <string>xHeight</string>
-              <string>536</string>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Arabic ExtCond Blk</string>
             </array>
           </array>
         </dict>
@@ -1454,27 +1450,6 @@
           <integer>178</integer>
         </dict>
       </dict>
-      <key>com.github.googlei18n.ufo2ft.featureWriters</key>
-      <array>
-        <dict>
-          <key>class</key>
-          <string>KernFeatureWriter</string>
-          <key>options</key>
-          <dict>
-            <key>mode</key>
-            <string>append</string>
-          </dict>
-        </dict>
-        <dict>
-          <key>class</key>
-          <string>MarkFeatureWriter</string>
-          <key>options</key>
-          <dict>
-            <key>mode</key>
-            <string>skip</string>
-          </dict>
-        </dict>
-      </array>
     </dict>
   </lib>
 </designspace>

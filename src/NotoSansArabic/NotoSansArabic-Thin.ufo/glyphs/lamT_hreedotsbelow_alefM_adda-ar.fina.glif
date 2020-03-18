@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamThreedotsbelow_alefMadda-ar.fina" format="2">
+  <advance width="687"/>
+  <anchor x="140" y="736" name="top_2"/>
+  <anchor x="167" y="-20" name="bottom.dot"/>
+  <anchor x="481" y="-20" name="bottom.dot_1"/>
+  <anchor x="484" y="-243" name="bottom_1"/>
+  <anchor x="167" y="-111" name="bottom_2"/>
+  <anchor x="523" y="535" name="center"/>
+  <anchor x="517" y="725" name="top_1"/>
+  <outline>
+    <component base="lamThreedotsbelow_alef-ar.fina.short"/>
+    <component base="madda-ar" xOffset="-19" yOffset="203"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top_2</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>madda-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>lam_alefMadda-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>lam_alef-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 21:12:48</string>
+    </dict>
+  </lib>
+</glyph>

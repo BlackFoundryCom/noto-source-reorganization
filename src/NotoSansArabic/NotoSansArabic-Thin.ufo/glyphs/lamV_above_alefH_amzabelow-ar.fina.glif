@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamVabove_alefHamzabelow-ar.fina" format="2">
+  <advance width="687"/>
+  <anchor x="187" y="-277" name="bottom_2"/>
+  <anchor x="481" y="-20" name="bottom.dot_1"/>
+  <anchor x="167" y="-20" name="bottom.dot_2"/>
+  <anchor x="484" y="-111" name="bottom_1"/>
+  <anchor x="523" y="535" name="center"/>
+  <anchor x="516" y="921" name="top_1"/>
+  <anchor x="160" y="628" name="top_2"/>
+  <outline>
+    <component base="lamVabove_alef-ar.fina"/>
+    <component base="hamzabelow-ar" xOffset="62" yOffset="-28"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>lam_alef-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>lam_alef-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 22:41:56</string>
+    </dict>
+  </lib>
+</glyph>

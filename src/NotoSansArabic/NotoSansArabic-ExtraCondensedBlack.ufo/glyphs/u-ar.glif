@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="u-ar" format="2">
+  <advance width="428"/>
+  <unicode hex="06C7"/>
+  <anchor x="181" y="-290" name="bottom"/>
+  <anchor x="213" y="-66" name="center"/>
+  <anchor x="211" y="518" name="top"/>
+  <anchor x="211" y="442" name="top.dot"/>
+  <outline>
+    <component base="waw-ar"/>
+    <component base="_damma-ar" xOffset="83" yOffset="-108"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/01 13:58:13</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hehVinvertedabove-ar" format="2">
+  <advance width="768"/>
+  <unicode hex="06FF"/>
+  <anchor x="383" y="-112" name="bottom"/>
+  <anchor x="383" y="619" name="top"/>
+  <anchor x="383" y="564" name="top.dot"/>
+  <outline>
+    <component base="hehDoachashmee-ar"/>
+    <component base="vinvertedabove-ar" xOffset="266" yOffset="208"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>vinvertedabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 22:41:56</string>
+    </dict>
+  </lib>
+</glyph>

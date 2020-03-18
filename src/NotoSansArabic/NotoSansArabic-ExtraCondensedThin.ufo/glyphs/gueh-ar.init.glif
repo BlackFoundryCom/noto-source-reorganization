@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gueh-ar.init" format="2">
+  <advance width="381"/>
+  <unicode hex="FB98"/>
+  <anchor x="150" y="-111" name="bottom"/>
+  <anchor x="150" y="-21" name="bottom.dot"/>
+  <anchor x="294" y="540" name="center"/>
+  <anchor x="178" y="659" name="top"/>
+  <anchor x="97" y="632" name="top.dot"/>
+  <outline>
+    <component base="gaf-ar.init"/>
+    <component base="twodotsverticalbelow-ar" xOffset="107" yOffset="-21"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 21:07:40</string>
+    </dict>
+  </lib>
+</glyph>

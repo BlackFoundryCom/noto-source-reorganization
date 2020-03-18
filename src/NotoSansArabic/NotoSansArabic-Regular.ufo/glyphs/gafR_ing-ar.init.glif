@@ -1,19 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="gafRing-ar.init" format="2">
-  <advance width="412"/>
-  <anchor x="163" y="0" name="bottom"/>
-  <anchor x="150" y="742" name="top"/>
+  <advance width="498"/>
+  <anchor x="191" y="-111" name="bottom"/>
+  <anchor x="191" y="-21" name="bottom.dot"/>
+  <anchor x="372" y="556" name="center"/>
+  <anchor x="226" y="679" name="top"/>
+  <anchor x="148" y="665" name="top.dot"/>
   <outline>
     <component base="gaf-ar.init"/>
-    <component base="ringArabic" xOffset="229" yOffset="468"/>
+    <component base="ringArabic" xOffset="245" yOffset="438"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/04 18:34:22</string>
+      <string>2020/02/29 14:20:50</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
-        <integer>-1</integer>
+        <integer>0</integer>
         <integer>-1</integer>
       </array>
     </dict>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kehehThreedotsupbelow-ar.fina" format="2">
+  <advance width="761"/>
+  <anchor x="322" y="-111" name="bottom"/>
+  <anchor x="322" y="-20" name="bottom.dot"/>
+  <anchor x="676" y="560" name="center"/>
+  <anchor x="262" y="605" name="top"/>
+  <anchor x="488" y="586" name="top.dot"/>
+  <outline>
+    <component base="keheh-ar.fina"/>
+    <component base="threedotsupbelow-ar" xOffset="215" yOffset="-9"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 16:59:27</string>
+    </dict>
+  </lib>
+</glyph>

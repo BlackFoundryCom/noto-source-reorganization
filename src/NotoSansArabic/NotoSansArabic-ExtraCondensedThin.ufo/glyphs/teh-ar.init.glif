@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="teh-ar.init" format="2">
+  <advance width="194"/>
+  <unicode hex="FE97"/>
+  <anchor x="83" y="-110" name="bottom"/>
+  <anchor x="84" y="-40" name="bottom.dot"/>
+  <anchor x="104" y="515" name="top"/>
+  <anchor x="107" y="402" name="top.dot"/>
+  <outline>
+    <component base="dotlessbeh-ar.init.wide"/>
+    <component base="twodotshorizontalabove-ar" xOffset="23" yOffset="46"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

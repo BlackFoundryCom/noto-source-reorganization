@@ -1,18 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni08BB.medi" format="2">
-  <advance width="495"/>
-  <anchor x="243" y="-191" name="bottom"/>
-  <anchor x="246" y="415" name="top"/>
+  <advance width="543"/>
+  <anchor x="257" y="-111" name="bottom"/>
+  <anchor x="258" y="-21" name="bottom.dot"/>
+  <anchor x="271" y="611" name="top"/>
+  <anchor x="274" y="488" name="top.dot"/>
   <outline>
     <component base="dotlessfeh-ar.medi"/>
-    <component base="dotbelow-ar" xOffset="167" yOffset="-3"/>
+    <component base="dotbelow-ar" xOffset="183" yOffset="-19"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/28 15:43:47</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>arabic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

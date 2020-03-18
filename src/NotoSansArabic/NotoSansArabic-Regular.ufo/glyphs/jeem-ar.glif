@@ -1,18 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="jeem-ar" format="2">
-  <advance width="639"/>
+  <advance width="715"/>
   <unicode hex="062C"/>
-  <anchor x="311" y="416" name="top"/>
-  <anchor x="360" y="-394" name="bottom"/>
-  <anchor x="350" y="54" name="center"/>
+  <anchor x="333" y="-435" name="bottom"/>
+  <anchor x="408" y="-36" name="center"/>
+  <anchor x="339" y="580" name="top"/>
+  <anchor x="336" y="504" name="top.dot"/>
   <outline>
     <component base="hah-ar"/>
-    <component base="dotcenter-ar" xOffset="274" yOffset="54"/>
+    <component base="dotcenter-ar" xOffset="332" yOffset="-238"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/25 17:31:31</string>
     </dict>
   </lib>
 </glyph>

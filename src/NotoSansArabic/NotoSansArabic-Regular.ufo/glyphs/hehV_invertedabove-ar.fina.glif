@@ -1,16 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hehVinvertedabove-ar.fina" format="2">
-  <advance width="614"/>
-  <anchor x="414" y="-217" name="bottom"/>
-  <anchor x="400" y="743" name="top"/>
+  <advance width="653"/>
+  <anchor x="404" y="-309" name="bottom"/>
+  <anchor x="404" y="538" name="top"/>
+  <anchor x="404" y="474" name="top.dot"/>
   <outline>
     <component base="hehDoachashmee-ar.fina"/>
-    <component base="vinvertedabove-ar" xOffset="284" yOffset="-14"/>
+    <component base="vinvertedabove-ar" xOffset="272" yOffset="42"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/26 22:48:15</string>
     </dict>
   </lib>
 </glyph>

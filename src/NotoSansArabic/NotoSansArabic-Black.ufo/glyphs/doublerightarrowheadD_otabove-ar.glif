@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="doublerightarrowheadDotabove-ar" format="2">
+  <unicode hex="08FC"/>
+  <anchor x="258" y="590" name="_top"/>
+  <anchor x="259" y="835" name="top"/>
+  <outline>
+    <component base="toneonedotabove-ar" xScale="0.92593" yScale="0.92593" yOffset="82"/>
+    <component base="rightarrowheadabove-ar" xOffset="104"/>
+    <component base="rightarrowheadabove-ar" xOffset="281"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=toneonedotabove-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=rightarrowheadabove-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 21:27:08</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>513</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

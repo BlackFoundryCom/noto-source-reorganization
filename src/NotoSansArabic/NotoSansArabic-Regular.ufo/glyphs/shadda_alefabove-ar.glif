@@ -1,11 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="shadda_alefabove-ar" format="2">
   <unicode hex="FC63"/>
-  <anchor x="171" y="458" name="_top"/>
-  <anchor x="149" y="992" name="top"/>
   <outline>
     <component base="shadda-ar"/>
-    <component base="alefabove-ar" xOffset="76" yOffset="200"/>
+    <component base="alefabove-ar" xOffset="90" yOffset="205"/>
   </outline>
   <lib>
     <dict>
@@ -14,9 +12,14 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>shadda-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/25 17:31:32</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>323</integer>
+      <integer>309</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

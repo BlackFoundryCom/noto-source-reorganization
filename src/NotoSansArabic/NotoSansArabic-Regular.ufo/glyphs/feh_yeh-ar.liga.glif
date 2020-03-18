@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="feh_yeh-ar.liga" format="2">
+  <advance width="808"/>
+  <anchor x="358" y="-432" name="bottom_2"/>
+  <anchor x="357" y="-244" name="bottom.dot"/>
+  <anchor x="666" y="-287" name="bottom_1"/>
+  <anchor x="517" y="590" name="top.dot_1"/>
+  <anchor x="136" y="198" name="top.dot_2"/>
+  <anchor x="519" y="795" name="top_1"/>
+  <anchor x="131" y="372" name="top_2"/>
+  <outline>
+    <component base="feh_alefMaksura-ar.liga"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="216" yOffset="-242"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot_2</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalbelow-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>yeh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>fehDotless-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/02 14:43:17</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

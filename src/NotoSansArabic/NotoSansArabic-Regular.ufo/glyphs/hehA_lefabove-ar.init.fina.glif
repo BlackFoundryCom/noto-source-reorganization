@@ -1,16 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hehAlefabove-ar.init.fina" format="2">
-  <advance width="614"/>
-  <anchor x="414" y="-217" name="bottom"/>
-  <anchor x="392" y="733" name="top"/>
+  <advance width="653"/>
+  <anchor x="404" y="-309" name="bottom"/>
+  <anchor x="393" y="793" name="top"/>
+  <anchor x="404" y="474" name="top.dot"/>
   <outline>
     <component base="hehDoachashmee-ar.fina"/>
-    <component base="alefabove-ar" xOffset="321" yOffset="-42"/>
+    <component base="alefabove-ar" xOffset="334" yOffset="74"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>alefabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/29 22:29:16</string>
     </dict>
   </lib>
 </glyph>

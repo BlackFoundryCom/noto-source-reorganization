@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wavyhamzabelow-ar" format="2">
+  <unicode hex="065F"/>
+  <anchor x="190" y="0" name="_bottom.dot"/>
+  <anchor x="191" y="-292" name="bottom"/>
+  <outline>
+    <component base="_hamzawavy" yOffset="41"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=hamzabelow-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 22:20:55</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>312</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

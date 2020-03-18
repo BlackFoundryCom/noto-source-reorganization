@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gaf-ar.fina" format="2">
+  <advance width="761"/>
+  <unicode hex="FB93"/>
+  <anchor x="322" y="-111" name="bottom"/>
+  <anchor x="231" y="570" name="top"/>
+  <anchor x="322" y="-20" name="bottom.dot"/>
+  <anchor x="676" y="560" name="center"/>
+  <anchor x="465" y="660" name="top.dot"/>
+  <outline>
+    <component base="keheh-ar.fina"/>
+    <component base="_part.Gaf.stroke" xOffset="364" yOffset="121"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 21:54:17</string>
+    </dict>
+  </lib>
+</glyph>

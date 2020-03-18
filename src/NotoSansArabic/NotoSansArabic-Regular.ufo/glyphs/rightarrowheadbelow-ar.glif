@@ -1,21 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rightarrowheadbelow-ar" format="2">
   <unicode hex="08FA"/>
-  <anchor x="113" y="0" name="_bottom"/>
-  <anchor x="116" y="-200" name="bottom"/>
+  <anchor x="121" y="-4" name="_bottom"/>
+  <anchor x="124" y="-217" name="bottom"/>
   <outline>
-    <component base="rightarrowheadabove-ar" yOffset="-799"/>
+    <component base="rightarrowheadabove-ar" yOffset="-709"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>=rightarrowheadabove-ar</string>
+      <string>=|rightarrowheadabove-ar</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>=rightarrowheadabove-ar</string>
+      <string>=|rightarrowheadabove-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/26 20:50:54</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>245</integer>
+      <integer>230</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

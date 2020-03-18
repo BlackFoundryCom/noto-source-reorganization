@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="feh_alefMaksura-ar.liga" format="2">
+  <advance width="628"/>
+  <anchor x="407" y="733" name="top_1"/>
+  <anchor x="286" y="-246" name="bottom.dot"/>
+  <anchor x="520" y="-291" name="bottom_1"/>
+  <anchor x="286" y="-291" name="bottom_2"/>
+  <anchor x="406" y="555" name="top.dot_1"/>
+  <anchor x="92" y="181" name="top.dot_2"/>
+  <anchor x="91" y="356" name="top_2"/>
+  <outline>
+    <component base="fehDotless_alefMaksura-ar.init"/>
+    <component base="dotabove-ar" xOffset="362" yOffset="199"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot_1</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/02 14:43:12</string>
+    </dict>
+  </lib>
+</glyph>

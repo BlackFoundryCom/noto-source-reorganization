@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="meemDotbelow-ar.fina" format="2">
+  <advance width="752"/>
+  <anchor x="441" y="-111" name="bottom"/>
+  <anchor x="441" y="-20" name="bottom.dot"/>
+  <anchor x="438" y="590" name="top"/>
+  <anchor x="440" y="480" name="top.dot"/>
+  <outline>
+    <component base="meem-ar.fina"/>
+    <component base="dotbelow-ar" xOffset="335" yOffset="-15"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 17:20:08</string>
+    </dict>
+  </lib>
+</glyph>

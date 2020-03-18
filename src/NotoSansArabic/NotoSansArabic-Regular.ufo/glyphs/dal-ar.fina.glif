@@ -1,44 +1,46 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dal-ar.fina" format="2">
-  <advance width="532"/>
+  <advance width="600"/>
   <unicode hex="FEAA"/>
-  <anchor x="234" y="-5" name="bottom"/>
-  <anchor x="220" y="457" name="top"/>
+  <anchor x="225" y="-111" name="bottom"/>
+  <anchor x="228" y="-21" name="bottom.dot"/>
+  <anchor x="286" y="590" name="top"/>
+  <anchor x="286" y="506" name="top.dot"/>
   <outline>
     <contour>
-      <point x="215" y="77" type="curve" smooth="yes"/>
-      <point x="151" y="77"/>
-      <point x="102" y="96"/>
-      <point x="75" y="114" type="curve"/>
-      <point x="35" y="45" type="line"/>
-      <point x="76" y="13"/>
-      <point x="142" y="-6"/>
-      <point x="215" y="-6" type="curve" smooth="yes"/>
-      <point x="380" y="-6"/>
-      <point x="421" y="76"/>
-      <point x="421" y="157" type="curve"/>
-      <point x="381" y="125" type="line"/>
-      <point x="398" y="28"/>
-      <point x="466" y="-5"/>
-      <point x="532" y="-5" type="curve" smooth="yes"/>
-      <point x="561" y="-5"/>
-      <point x="582" y="16"/>
-      <point x="582" y="38" type="curve" smooth="yes"/>
-      <point x="582" y="59"/>
-      <point x="569" y="77"/>
-      <point x="541" y="77" type="curve" smooth="yes"/>
-      <point x="509" y="77"/>
-      <point x="465" y="85"/>
-      <point x="438" y="174" type="curve" smooth="yes"/>
-      <point x="414" y="253"/>
-      <point x="366" y="350"/>
-      <point x="289" y="469" type="curve"/>
-      <point x="220" y="424" type="line"/>
-      <point x="291" y="318"/>
-      <point x="351" y="214"/>
-      <point x="351" y="162" type="curve" smooth="yes"/>
-      <point x="351" y="109"/>
-      <point x="314" y="77"/>
+      <point x="185" y="-10" type="curve" smooth="yes"/>
+      <point x="300" y="-10"/>
+      <point x="399" y="38"/>
+      <point x="448" y="102" type="curve"/>
+      <point x="414" y="110" type="line"/>
+      <point x="452" y="28"/>
+      <point x="503" y="-7"/>
+      <point x="597" y="-7" type="curve" smooth="yes"/>
+      <point x="630" y="-7"/>
+      <point x="647" y="12"/>
+      <point x="647" y="38" type="curve" smooth="yes"/>
+      <point x="647" y="59"/>
+      <point x="633" y="79"/>
+      <point x="603" y="79" type="curve" smooth="yes"/>
+      <point x="536" y="79"/>
+      <point x="496" y="97"/>
+      <point x="468" y="160" type="curve" smooth="yes"/>
+      <point x="430" y="245"/>
+      <point x="377" y="386"/>
+      <point x="324" y="517" type="curve"/>
+      <point x="253" y="480" type="line"/>
+      <point x="304" y="359"/>
+      <point x="359" y="226"/>
+      <point x="393" y="143" type="curve"/>
+      <point x="347" y="101"/>
+      <point x="268" y="76"/>
+      <point x="183" y="76" type="curve" smooth="yes"/>
+      <point x="125" y="76"/>
+      <point x="80" y="87"/>
+      <point x="32" y="108" type="curve"/>
+      <point x="27" y="28" type="line"/>
+      <point x="61" y="3"/>
+      <point x="120" y="-10"/>
     </contour>
   </outline>
   <lib>
@@ -48,7 +50,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>_part.instroke</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/28 10:12:55</string>
     </dict>
   </lib>
 </glyph>

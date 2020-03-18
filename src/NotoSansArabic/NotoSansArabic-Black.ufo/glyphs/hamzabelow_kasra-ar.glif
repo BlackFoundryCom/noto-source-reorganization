@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hamzabelow_kasra-ar" format="2">
+  <advance width="272"/>
+  <anchor x="138" y="-10" name="_bottom"/>
+  <anchor x="154" y="-394" name="bottom"/>
+  <outline>
+    <component base="hamzabelow-ar" yOffset="10"/>
+    <component base="kasra-ar" xOffset="-7" yOffset="-253"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:32</string>
+    </dict>
+  </lib>
+</glyph>

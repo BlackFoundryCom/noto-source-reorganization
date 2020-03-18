@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamThreedotsbelow_alefWavyhamzabelow-ar" format="2">
+  <advance width="509"/>
+  <anchor x="138" y="-297" name="bottom_2"/>
+  <anchor x="370" y="-20" name="bottom.dot_1"/>
+  <anchor x="133" y="-20" name="bottom.dot_2"/>
+  <anchor x="371" y="-326" name="bottom_1"/>
+  <anchor x="390" y="622" name="center"/>
+  <anchor x="385" y="778" name="top_1"/>
+  <anchor x="119" y="697" name="top_2"/>
+  <outline>
+    <component base="lamThreedotsbelow_alef-ar"/>
+    <component base="wavyhamzabelow-ar" xOffset="-23" yOffset="-20"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>lam-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alefWavyhamzaabove-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 21:26:35</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

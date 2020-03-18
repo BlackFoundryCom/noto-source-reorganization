@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="e-ar.fina" format="2">
+  <advance width="660"/>
+  <unicode hex="FBE5"/>
+  <anchor x="286" y="-287" name="bottom"/>
+  <anchor x="286" y="-244" name="bottom.dot"/>
+  <anchor x="220" y="293" name="top"/>
+  <anchor x="109" y="198" name="top.dot"/>
+  <outline>
+    <component base="alefMaksura-ar.fina"/>
+    <component base="twodotsverticalbelow-ar" xScale="0.96" yScale="0.96" xOffset="231" yOffset="-244"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 14:34:13</string>
+    </dict>
+  </lib>
+</glyph>

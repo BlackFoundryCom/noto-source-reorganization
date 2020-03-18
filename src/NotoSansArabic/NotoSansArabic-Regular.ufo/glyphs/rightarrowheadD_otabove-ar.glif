@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rightarrowheadDotabove-ar" format="2">
   <unicode hex="08FD"/>
-  <anchor x="161" y="458" name="_top"/>
-  <anchor x="164" y="802" name="top"/>
+  <anchor x="145" y="467" name="_top"/>
+  <anchor x="148" y="694" name="top"/>
   <outline>
-    <component base="rightarrowheadabove-ar" xOffset="89"/>
-    <component base="toneonedotabove-ar" yOffset="-57"/>
+    <component base="rightarrowheadabove-ar" xOffset="91"/>
+    <component base="toneonedotabove-ar" xScale="0.97109" yScale="0.97109" yOffset="66"/>
   </outline>
   <lib>
     <dict>
@@ -14,12 +14,12 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=rightarrowheadabove-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/29 21:27:08</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>334</integer>
+      <integer>321</integer>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
-        <integer>0</integer>
+        <integer>-1</integer>
         <integer>-1</integer>
       </array>
     </dict>

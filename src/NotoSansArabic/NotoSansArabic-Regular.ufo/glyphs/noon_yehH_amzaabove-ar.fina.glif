@@ -1,23 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="noon_yehHamzaabove-ar.fina" format="2">
-  <advance width="1005"/>
-  <anchor x="736" y="0" name="caret_1"/>
-  <anchor x="843" y="-5" name="bottom_1"/>
-  <anchor x="326" y="-232" name="bottom_2"/>
-  <anchor x="864" y="606" name="top_1"/>
-  <anchor x="205" y="416" name="top_2"/>
+  <advance width="998"/>
+  <anchor x="138" y="486" name="top_2"/>
+  <anchor x="862" y="-32" name="bottom.dot_1"/>
+  <anchor x="351" y="-244" name="bottom.dot_2"/>
+  <anchor x="861" y="-111" name="bottom_1"/>
+  <anchor x="351" y="-281" name="bottom_2"/>
+  <anchor x="674" y="415" name="top.dot_1"/>
+  <anchor x="136" y="194" name="top.dot_2"/>
+  <anchor x="676" y="619" name="top_1"/>
   <outline>
-    <component base="noon-ar.init" xOffset="736"/>
-    <component base="yehHamzaabove-ar.fina"/>
+    <component base="noon_alefMaksura-ar.fina"/>
+    <component base="hamzaabove-ar" xOffset="4" yOffset="-238"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot_2</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>hamzaabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>noon-ar.init</string>
+      <string>beh_yehHamzaabove-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>yehHamzaabove-ar.fina</string>
+      <string>behAlefMaksura-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/28 10:12:55</string>
     </dict>
   </lib>
 </glyph>

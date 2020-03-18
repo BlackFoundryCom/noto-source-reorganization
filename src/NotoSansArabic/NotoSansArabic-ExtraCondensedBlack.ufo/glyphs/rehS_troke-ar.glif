@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehStroke-ar" format="2">
+  <advance width="392"/>
+  <unicode hex="075B"/>
+  <anchor x="118" y="-308" name="bottom"/>
+  <anchor x="118" y="-252" name="bottom.dot"/>
+  <anchor x="169" y="31" name="center"/>
+  <anchor x="190" y="513" name="top"/>
+  <anchor x="193" y="360" name="top.dot"/>
+  <outline>
+    <component base="reh-ar"/>
+    <component base="_stroke" xOffset="-3" yOffset="43"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=reh-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 20:31:46</string>
+    </dict>
+  </lib>
+</glyph>

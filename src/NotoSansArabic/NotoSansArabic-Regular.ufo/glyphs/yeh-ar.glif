@@ -1,17 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yeh-ar" format="2">
-  <advance width="760"/>
+  <advance width="811"/>
   <unicode hex="064A"/>
-  <anchor x="359" y="-418" name="bottom"/>
-  <anchor x="216" y="150" name="top"/>
+  <anchor x="352" y="-424" name="bottom"/>
+  <anchor x="351" y="-236" name="bottom.dot"/>
+  <anchor x="232" y="352" name="top"/>
+  <anchor x="136" y="202" name="top.dot"/>
   <outline>
     <component base="alefMaksura-ar"/>
-    <component base="twodotshorizontalbelow-ar" xOffset="215" yOffset="-232"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="210" yOffset="-234"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/29 11:38:51</string>
     </dict>
   </lib>
 </glyph>

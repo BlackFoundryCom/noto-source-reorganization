@@ -1,24 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="beh_alefMaksura-ar" format="2">
-  <advance width="1005"/>
+  <advance width="1040"/>
   <unicode hex="FC09"/>
-  <anchor x="736" y="0" name="caret_1"/>
-  <anchor x="843" y="-191" name="bottom_1"/>
-  <anchor x="326" y="-232" name="bottom_2"/>
-  <anchor x="863" y="404" name="top_1"/>
-  <anchor x="216" y="150" name="top_2"/>
+  <anchor x="899" y="-224" name="bottom_1"/>
+  <anchor x="898" y="-32" name="bottom.dot_1"/>
+  <anchor x="357" y="-244" name="bottom.dot_2"/>
+  <anchor x="357" y="-287" name="bottom_2"/>
+  <anchor x="907" y="422" name="top.dot_1"/>
+  <anchor x="136" y="198" name="top.dot_2"/>
+  <anchor x="903" y="535" name="top_1"/>
+  <anchor x="365" y="293" name="top_2"/>
   <outline>
-    <component base="beh-ar.init" xOffset="736"/>
-    <component base="alefMaksura-ar.fina"/>
+    <component base="_beh-AlefMaksura_ar.init"/>
+    <component base="dotbelow-ar" xOffset="823" yOffset="-30"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>beh-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot_1</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotbelow-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>alefMaksura-ar.fina</string>
+      <string>_beh-AlefMaksura_ar.init</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/25 17:31:32</string>
     </dict>
   </lib>
 </glyph>

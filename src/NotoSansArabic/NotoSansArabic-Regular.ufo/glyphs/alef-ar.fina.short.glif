@@ -1,37 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="alef-ar.fina.short" format="2">
-  <advance width="289"/>
-  <anchor x="134" y="0" name="bottom"/>
-  <anchor x="112" y="594" name="top"/>
+  <advance width="299"/>
+  <anchor x="150" y="-111" name="bottom"/>
+  <anchor x="150" y="-20" name="bottom.dot"/>
+  <anchor x="130" y="679" name="top"/>
   <outline>
     <contour>
-      <point x="289" y="-5" type="curve" smooth="yes"/>
-      <point x="318" y="-5"/>
-      <point x="339" y="16"/>
-      <point x="339" y="38" type="curve" smooth="yes"/>
-      <point x="339" y="59"/>
-      <point x="327" y="77"/>
-      <point x="299" y="77" type="curve" smooth="yes"/>
-      <point x="184" y="77"/>
-      <point x="176" y="101"/>
-      <point x="172" y="199" type="curve" smooth="yes"/>
-      <point x="154" y="644" type="line"/>
-      <point x="72" y="644" type="line"/>
-      <point x="90" y="167" type="line" smooth="yes"/>
-      <point x="95" y="47"/>
-      <point x="128" y="-5"/>
+      <point x="299" y="-7" type="curve"/>
+      <point x="330" y="-7"/>
+      <point x="346" y="13"/>
+      <point x="346" y="36" type="curve" smooth="yes"/>
+      <point x="346" y="58"/>
+      <point x="334" y="79"/>
+      <point x="304" y="79" type="curve"/>
+      <point x="217" y="79"/>
+      <point x="189" y="110"/>
+      <point x="185" y="219" type="curve" smooth="yes"/>
+      <point x="168" y="662" type="line"/>
+      <point x="90" y="662" type="line"/>
+      <point x="108" y="191" type="line" smooth="yes"/>
+      <point x="114" y="52"/>
+      <point x="169" y="-7"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.Export</key>
-      <false/>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>alef-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>_part.instroke</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/27 16:53:58</string>
     </dict>
   </lib>
 </glyph>

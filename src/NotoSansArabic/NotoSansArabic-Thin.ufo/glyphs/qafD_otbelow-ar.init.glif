@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="qafDotbelow-ar.init" format="2">
+  <advance width="482"/>
+  <anchor x="263" y="-111" name="bottom"/>
+  <anchor x="264" y="-21" name="bottom.dot"/>
+  <anchor x="244" y="637" name="top"/>
+  <anchor x="248" y="535" name="top.dot"/>
+  <outline>
+    <component base="qaf-ar.init"/>
+    <component base="dotbelow-ar" xOffset="209" yOffset="-21"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 22:41:56</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,7 +1,11 @@
 import os
 import json
 import shutil
+import defcon
 
+from makeFontsWithTablesFromMtiFiles import *
+
+from fontTools.misc.plistlib    import load as readThePlist
 from fontmake.font_project              import FontProject
 from defcon                             import Font
 from Lib.makeThings                     import ufo2font, ufosToGlyphs
@@ -41,23 +45,27 @@ mergeFonts(baseFanmilyName, familyName of the fonts to inject) => WIP.
 pan_european_fonts = ["NotoSans", "NotoSans-Italic", "NotoSerif", "NotoSerif-Italic", "NotoSansDisplay", "NotoSansDisplay-Italic", "NotoSerifDisplay", "NotoSerifDisplay-Italic", "NotoSansMono"]
 arabic_fonts = ["NotoKufiArabic", "NotoNaskhArabic", "NotoNaskhArabicUI", "NotoNastaliqUrdu", "NotoSansArabic", "NotoSansArabicUI"]
 
-def add_ui_mti_features_to_master_ufos(self):
-    mti_source = self.mti_file_for_UI_Version
-    mti_paths = readPlist(mti_source)
-    for master in self.masters:
-        key = master.info.familyName.replace(" ", "")+"UI-"+master.info.styleName.replace(" ", "")
+
+
+## Code from fontmake
+def add_mti_features_to_master_ufos(family, masters):
+    rdir = os.path.abspath("../src/" + family + "/")
+    mti_paths = readThePlist(open(os.path.join(rdir, family+".plist"), "rb")) # os.path.join(rdir, family+".plist")
+    for master in masters:
+        key = master.info.familyName.replace(" ", "")+"-"+master.info.styleName.replace(" ", "")
         for table, path in mti_paths[key].items():
-            with open(os.path.join(self.mtiFolderPath, path), "rb") as mti_:
+            with open(os.path.join(rdir, path), "rb") as mti_:
                 ufo_path = (
                     "com.github.googlei18n.ufo2ft.mtiFeatures/%s.mti"
                     % table.strip()
                 )
                 master.data[ufo_path] = mti_.read()
             # If we have MTI sources, any Adobe feature files derived from
-            # the Glyphs file should be ignored. We clear it here because
+            # the Glyphs file (and kept in ufos) should be ignored.
+            # We clear it here because
             # it only contains junk information anyway.
             master.features.text = ""
-            # master.save()
+            master.save()
     print("\tufos updated with UI versioned MTI data")
 
 def openDesignSpace(path):
@@ -353,7 +361,8 @@ def subsetFonts(family, writingSystem, flavor=["ttf"], familyNewName=" ", jsonpa
     SecureSet = [0]
     coreArabicCodePageRange = [0,6]
     unicodePageRangeDict = {"Cyrillic":latinProCodePageRange, "CyrillicPro":latinProCodePageRange, \
-        "Greek" : greekProCodePageRange, "Latin" : latinProCodePageRange, "ASCII" : ASCII, "SecureSet" : SecureSet, "Core_Arabic" : coreArabicCodePageRange}
+        "Greek" : greekProCodePageRange, "Latin" : latinProCodePageRange, \
+        "ASCII" : ASCII, "SecureSet" : SecureSet, "Core_Arabic" : coreArabicCodePageRange}
     pageRangeToApply = []
     subsetFolder = ""
     for i in writingSystem:
@@ -377,9 +386,9 @@ def subsetFonts(family, writingSystem, flavor=["ttf"], familyNewName=" ", jsonpa
     # if jsonpath == " ":
     #     jsonpath = [folder + json for json in os.listdir(folder) if ".json" in json]
     if family in pan_european_fonts:
-        jsonpath = "lgc_glyphset.json"
+        jsonpath = "subsets/lgc_glyphset.json"
     elif family in arabic_fonts:
-        jsonpath = "arabic_glyphset.json"
+        jsonpath = "subsets/arabic_glyphset.json"
     # keep, pageRangeToApply = readJsonStoredSubset(os.path.join(os.getcwd(), "lgc_glyphset.json"), writingSystem)
     keep, pageRangeToApply = readJsonStoredSubset(jsonpath, writingSystem)
     for i in flavor:
@@ -448,8 +457,7 @@ def secureSetFromLatin(family, formats, jsonpath):
         for i in formats:
             subsetFonts(family, ["SecureSet"], flavor = [i], jsonpath=jsonpath)
     else:
-        folder = getFolder(family)
-        jsonpath = [folder + json for json in os.listdir(folder) if ".json" in json]
+        jsonpath = "subsets/lgc_glyphset.json"
         for i in formats:
             subsetFonts(family, ["SecureSet"], flavor = [i], jsonpath=jsonpath)
 
@@ -518,6 +526,16 @@ def mastersUfos2fonts(family, *flavors, instances = False):
         ufo2font(family, masters, "otf")
     addSecureSet(family, flavors)
 
+def removeData(family, masters):
+    rdir = os.path.abspath("../src/"+family+"/")
+    for master in masters:
+        master.data = ""
+        # If we have MTI sources, any Adobe feature files derived from
+        # the Glyphs file should be ignored. We clear it here because
+        # it only contains junk information anyway.
+        master.save()
+    print("\tremove mti info")
+
 def instances(family, *output, newName=" "):
     securetSetIsIncluded = pan_european_fonts
     mergeable = ["ttf", "woff2"]
@@ -530,8 +548,19 @@ def instances(family, *output, newName=" "):
     path, folder = getFile(".designspace", "src", family)
     designSpace = openDesignSpace(path)
     destination = folder + "/" + "Instances"
-    # if not os.path.exists(destination):
-    #     os.makedirs(destination)
+    ###
+    ### test if mti
+    for file in os.listdir(folder):
+        if file.endswith(".plist"):
+            # masters = designSpace.loadSourceFonts(defcon.Font)
+            # add_mti_features_to_master_ufos(family, masters)
+            ufoWithMTIfeatures2font(family, output)
+            for i in output:
+                addSecureSet(family, output)
+            if newName != " ":
+                renameFonts(family, newName)
+            return
+    ###
     fp = FontProject()
     fonts = fp.run_from_designspace(expand_features_to_instances=True, use_mutatormath=True, \
         designspace_path = path, interpolate = True, output=("otf"), output_dir = destination)
@@ -545,13 +574,15 @@ def instances(family, *output, newName=" "):
         addSecureSet(family, output)
     if newName != " ":
         renameFonts(family, newName)
+    # removeData(family, masters)
 
 
-
+### TEST FUNCTIONS ###
 # mastersUfos2fonts("NotoSansThaana", "woff2")
 # designSpace2Var("NotoSansThaana")
 # subsetFonts("NotoSerif", "SecureSet")
-# instances("NotoSansArabic", "ttf")
+instances("NotoMusic", "ttf")
+# ufoWithMTIfeatures2font("NotoMusic", "ttf")
 # subsetFonts("NotoSerif", "CyrillicPro", familyNewName = "Avocado Sans", flavor=["otf"])
 # subsetFonts("NotoKufiArabic", ["Core_Arabic"], flavor=["ttf"])
 # mastersUfos2fonts("NotoSansThaana", "woff2")

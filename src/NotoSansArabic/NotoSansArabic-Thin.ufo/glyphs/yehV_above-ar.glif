@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehVabove-ar" format="2">
+  <advance width="789"/>
+  <unicode hex="06CE"/>
+  <anchor x="347" y="-281" name="bottom"/>
+  <anchor x="347" y="-246" name="bottom.dot"/>
+  <anchor x="218" y="306" name="top"/>
+  <anchor x="115" y="181" name="top.dot"/>
+  <outline>
+    <component base="alefMaksura-ar"/>
+    <component base="vabove-ar" xOffset="74" yOffset="-175"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

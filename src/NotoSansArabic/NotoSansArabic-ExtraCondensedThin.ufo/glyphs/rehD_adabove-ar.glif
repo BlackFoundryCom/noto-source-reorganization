@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehDadabove-ar" format="2">
+  <unicode hex="0613"/>
+  <guideline x="31" y="825" angle="0"/>
+  <anchor x="158" y="356" name="_top"/>
+  <anchor x="158" y="656" name="top"/>
+  <outline>
+    <contour>
+      <point x="223" y="420" type="curve" smooth="yes"/>
+      <point x="274" y="420"/>
+      <point x="307" y="451"/>
+      <point x="307" y="518" type="curve" smooth="yes"/>
+      <point x="307" y="545"/>
+      <point x="301" y="579"/>
+      <point x="290" y="606" type="curve"/>
+      <point x="273" y="600" type="line"/>
+      <point x="284" y="571"/>
+      <point x="289" y="545"/>
+      <point x="289" y="517" type="curve" smooth="yes"/>
+      <point x="289" y="460"/>
+      <point x="265" y="439"/>
+      <point x="222" y="439" type="curve" smooth="yes"/>
+      <point x="211" y="439"/>
+      <point x="204" y="441"/>
+      <point x="194" y="443" type="curve"/>
+      <point x="193" y="425" type="line"/>
+      <point x="200" y="422"/>
+      <point x="213" y="420"/>
+    </contour>
+    <contour>
+      <point x="74" y="630" type="curve" smooth="yes"/>
+      <point x="81" y="630"/>
+      <point x="87" y="638"/>
+      <point x="87" y="646" type="curve" smooth="yes"/>
+      <point x="87" y="656"/>
+      <point x="81" y="663"/>
+      <point x="74" y="663" type="curve" smooth="yes"/>
+      <point x="66" y="663"/>
+      <point x="61" y="656"/>
+      <point x="61" y="646" type="curve" smooth="yes"/>
+      <point x="61" y="638"/>
+      <point x="66" y="630"/>
+    </contour>
+    <component base="sadabove-ar" xOffset="-8"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/26 15:01:44</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>326</integer>
+    </dict>
+  </lib>
+</glyph>

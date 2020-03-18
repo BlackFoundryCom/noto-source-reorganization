@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kafswash_yeh-ar.liga" format="2">
+  <advance width="1193"/>
+  <anchor x="286" y="-407" name="bottom_2"/>
+  <anchor x="286" y="-246" name="bottom.dot"/>
+  <anchor x="788" y="-111" name="bottom_1"/>
+  <anchor x="92" y="181" name="top.dot_2"/>
+  <anchor x="760" y="648" name="top_1"/>
+  <anchor x="292" y="289" name="top_2"/>
+  <outline>
+    <component base="kafswash_alefMaksura-ar.liga"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="200" yOffset="-246"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot_2</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalbelow-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>behDotless-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>yeh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/02 14:47:43</string>
+    </dict>
+  </lib>
+</glyph>

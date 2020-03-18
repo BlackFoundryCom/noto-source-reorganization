@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ghainDotbelow-ar.fina" format="2">
+  <advance width="502"/>
+  <anchor x="266" y="-415" name="bottom"/>
+  <anchor x="280" y="-86" name="center"/>
+  <anchor x="256" y="616" name="top"/>
+  <anchor x="256" y="489" name="top.dot"/>
+  <outline>
+    <component base="ain-ar.fina"/>
+    <component base="dotabove-ar" xOffset="170" yOffset="-61"/>
+    <component base="dotcenter-ar" xOffset="194" yOffset="-339"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

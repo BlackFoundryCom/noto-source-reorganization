@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tchehDotabove-ar.fina" format="2">
+  <advance width="791"/>
+  <anchor x="333" y="-435" name="bottom"/>
+  <anchor x="409" y="-25" name="center"/>
+  <anchor x="331" y="610" name="top"/>
+  <anchor x="327" y="544" name="top.dot"/>
+  <outline>
+    <component base="tcheh-ar.fina"/>
+    <component base="dotabove-ar" xOffset="220" yOffset="-6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 10:43:14</string>
+    </dict>
+  </lib>
+</glyph>

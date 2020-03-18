@@ -1,17 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="noonRing-ar" format="2">
-  <advance width="685"/>
+  <advance width="718"/>
   <unicode hex="06BC"/>
-  <anchor x="326" y="-317" name="bottom"/>
-  <anchor x="332" y="551" name="top"/>
+  <anchor x="331" y="-280" name="bottom"/>
+  <anchor x="332" y="-232" name="bottom.dot"/>
+  <anchor x="351" y="268" name="top.dot"/>
   <outline>
     <component base="noon-ar"/>
-    <component base="ringArabic" xOffset="217" yOffset="-307"/>
+    <component base="ringArabic" xOffset="224" yOffset="-370"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/04 18:34:22</string>
+      <string>2020/02/25 17:31:31</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>

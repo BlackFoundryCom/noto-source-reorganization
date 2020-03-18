@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ghain-ar.isol" format="2">
-  <advance width="507"/>
+  <advance width="578"/>
   <unicode hex="FECD"/>
-  <anchor x="343" y="-394" name="bottom"/>
-  <anchor x="242" y="701" name="top"/>
+  <anchor x="333" y="-435" name="bottom"/>
+  <anchor x="368" y="-89" name="center"/>
+  <anchor x="304" y="623" name="top"/>
+  <anchor x="304" y="534" name="top.dot"/>
   <outline>
     <component base="ghain-ar"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/28 20:54:07</string>
     </dict>
   </lib>
 </glyph>

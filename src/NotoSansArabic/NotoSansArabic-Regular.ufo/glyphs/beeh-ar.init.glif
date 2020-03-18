@@ -1,18 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="beeh-ar.init" format="2">
-  <advance width="269"/>
+  <advance width="319"/>
   <unicode hex="FB54"/>
-  <guideline x="130" y="507" angle="0"/>
-  <anchor x="108" y="-321" name="bottom"/>
-  <anchor x="127" y="404" name="top"/>
+  <anchor x="156" y="-111" name="bottom"/>
+  <anchor x="157" y="-32" name="bottom.dot"/>
+  <anchor x="182" y="535" name="top"/>
+  <anchor x="186" y="422" name="top.dot"/>
   <outline>
     <component base="dotlessbeh-ar.init"/>
-    <component base="twodotsverticalbelow-ar" xOffset="31" yOffset="-6"/>
+    <component base="twodotsverticalbelow-ar" xOffset="86" yOffset="-22"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/03/02 14:58:58</string>
     </dict>
   </lib>
 </glyph>

@@ -1,19 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni08B9" format="2">
-  <advance width="367"/>
+  <advance width="458"/>
   <unicode hex="08B9"/>
-  <anchor x="137" y="-214" name="bottom"/>
-  <anchor x="174" y="756" name="top"/>
+  <anchor x="130" y="-301" name="bottom"/>
+  <anchor x="130" y="-252" name="bottom.dot"/>
+  <anchor x="201" y="13" name="center"/>
+  <anchor x="243" y="493" name="top"/>
+  <anchor x="247" y="354" name="top.dot"/>
   <outline>
     <component base="reh-ar"/>
-    <component base="noonabove-ar" xOffset="40" yOffset="-107"/>
+    <component base="noonabove-ar" xOffset="120" yOffset="-78"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>noonabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/28 20:32:30</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>arabic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

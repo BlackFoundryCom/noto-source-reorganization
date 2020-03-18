@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="teh_noon-ar.fina" format="2">
+  <advance width="1118"/>
+  <unicode hex="FC73"/>
+  <anchor x="928" y="639" name="top_1"/>
+  <anchor x="365" y="526" name="top_2"/>
+  <anchor x="883" y="-20" name="bottom.dot"/>
+  <anchor x="885" y="-110" name="bottom_1"/>
+  <anchor x="343" y="-274" name="bottom_2"/>
+  <anchor x="928" y="383" name="top.dot_1"/>
+  <anchor x="363" y="280" name="top.dot_2"/>
+  <outline>
+    <component base="alefMaksura_noonghunna-ar.fina"/>
+    <component base="twodotshorizontalabove-ar" xOffset="736" yOffset="-167"/>
+    <component base="dotabove-ar" xOffset="256" yOffset="-270"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot_1</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalabove-ar</string>
+        </dict>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot_2</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>noon-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>noon-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 10:14:12</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

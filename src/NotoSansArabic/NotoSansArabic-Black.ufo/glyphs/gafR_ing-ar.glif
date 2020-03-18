@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gafRing-ar" format="2">
+  <advance width="984"/>
+  <unicode hex="06B0"/>
+  <anchor x="420" y="-111" name="bottom"/>
+  <anchor x="305" y="619" name="top"/>
+  <anchor x="420" y="-20" name="bottom.dot"/>
+  <anchor x="778" y="579" name="center"/>
+  <anchor x="591" y="727" name="top.dot"/>
+  <outline>
+    <component base="gaf-ar"/>
+    <component base="ringArabic" xOffset="730" yOffset="431"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 21:05:33</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

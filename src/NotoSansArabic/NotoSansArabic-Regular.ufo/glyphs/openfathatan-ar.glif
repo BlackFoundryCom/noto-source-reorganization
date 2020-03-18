@@ -1,19 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="openfathatan-ar" format="2">
   <unicode hex="08F0"/>
-  <guideline x="230" y="809" angle="0"/>
-  <anchor x="162" y="458" name="_top"/>
-  <anchor x="203" y="809" name="top"/>
+  <anchor x="182" y="468" name="_top"/>
+  <anchor x="182" y="719" name="top"/>
   <outline>
-    <component base="fatha-ar" xOffset="106" yOffset="136"/>
-    <component base="fatha-ar"/>
+    <component base="fatha-ar" xOffset="61" yOffset="130"/>
+    <component base="fatha-ar" yOffset="6"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/25 17:31:32</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>380</integer>
+      <integer>355</integer>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>

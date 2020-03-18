@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seenVinvertedabove-ar" format="2">
+  <advance width="1338"/>
+  <unicode hex="077E"/>
+  <anchor x="924" y="-111" name="bottom"/>
+  <anchor x="924" y="-20" name="bottom.dot"/>
+  <anchor x="933" y="532" name="top"/>
+  <anchor x="934" y="391" name="top.dot"/>
+  <outline>
+    <component base="seen-ar"/>
+    <component base="vinvertedabove-ar" xOffset="779" yOffset="-159"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:32</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,21 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rreh-ar.fina" format="2">
-  <advance width="396"/>
+  <advance width="498"/>
   <unicode hex="FB8D"/>
-  <anchor x="83" y="-217" name="bottom"/>
-  <anchor x="172" y="741" name="top"/>
+  <anchor x="130" y="-301" name="bottom"/>
+  <anchor x="130" y="-252" name="bottom.dot"/>
+  <anchor x="196" y="13" name="center"/>
+  <anchor x="251" y="483" name="top"/>
+  <anchor x="255" y="328" name="top.dot"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="uniFBC0" xOffset="29" yOffset="-107"/>
+    <component base="uniFBC0" xOffset="86" yOffset="-104"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uniFBC0</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>reh-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>reh-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/28 20:30:37</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

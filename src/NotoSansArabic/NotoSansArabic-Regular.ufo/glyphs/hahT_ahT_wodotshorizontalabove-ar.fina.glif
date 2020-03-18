@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hahTahTwodotshorizontalabove-ar.fina" format="2">
-  <advance width="719"/>
-  <anchor x="370" y="-394" name="bottom"/>
-  <anchor x="379" y="44" name="center"/>
-  <anchor x="367" y="106" name="top"/>
+  <advance width="754"/>
+  <anchor x="333" y="-435" name="bottom"/>
+  <anchor x="387" y="-49" name="center"/>
+  <anchor x="339" y="580" name="top"/>
+  <anchor x="336" y="504" name="top.dot"/>
   <outline>
     <component base="hah-ar.fina.wide"/>
-    <component base="TahSmallTwoDots" xOffset="219" yOffset="-261"/>
+    <component base="twodotstahcenter-ar" xOffset="256" yOffset="-248"/>
   </outline>
   <lib>
     <dict>
@@ -15,12 +16,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>hah-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
+      <string>2020/02/28 10:43:14</string>
     </dict>
   </lib>
 </glyph>

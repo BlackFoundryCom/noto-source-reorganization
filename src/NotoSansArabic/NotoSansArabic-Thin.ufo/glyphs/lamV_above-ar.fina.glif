@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamVabove-ar.fina" format="2">
+  <advance width="721"/>
+  <anchor x="314" y="-271" name="bottom"/>
+  <anchor x="314" y="-233" name="bottom.dot"/>
+  <anchor x="553" y="389" name="center"/>
+  <anchor x="195" y="494" name="top"/>
+  <anchor x="544" y="715" name="top.dot"/>
+  <outline>
+    <component base="lam-ar.fina"/>
+    <component base="vabove-ar" xOffset="423" yOffset="359"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 22:41:56</string>
+    </dict>
+  </lib>
+</glyph>

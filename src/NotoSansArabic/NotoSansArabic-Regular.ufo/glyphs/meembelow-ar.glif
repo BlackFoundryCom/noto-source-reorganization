@@ -1,21 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="meembelow-ar" format="2">
   <unicode hex="06ED"/>
-  <anchor x="120" y="0" name="_bottom"/>
-  <anchor x="117" y="-300" name="bottom"/>
+  <anchor x="111" y="-4" name="_bottom"/>
+  <anchor x="112" y="-300" name="bottom"/>
   <outline>
-    <component base="meemStopabove-ar" yOffset="-892"/>
+    <component base="meemStopabove-ar" xOffset="-3" yOffset="-774"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>=meemStopabove-ar</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>=meemStopabove-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/25 17:31:32</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>214</integer>
+      <integer>226</integer>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>

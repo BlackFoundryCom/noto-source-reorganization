@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hamzabelow_kasratan-ar" format="2">
-  <anchor x="106" y="0" name="_bottom"/>
-  <anchor x="136" y="-529" name="bottom"/>
+  <advance width="249"/>
+  <anchor x="118" y="-4" name="_bottom"/>
+  <anchor x="135" y="-492" name="bottom"/>
   <outline>
-    <component base="hamzabelow-ar"/>
-    <component base="kasratan-ar" xOffset="-15" yOffset="-269"/>
+    <component base="hamzabelow-ar" yOffset="4"/>
+    <component base="kasratan-ar" xOffset="-12" yOffset="-251"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>242</integer>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Nonspacing</string>
+      <string>2020/02/25 17:31:32</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

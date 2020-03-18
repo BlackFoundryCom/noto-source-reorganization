@@ -3,7 +3,7 @@
 <plist version="1.0">
   <dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1219</string>
+    <string>1286</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisableAllAutomaticBehaviour</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
@@ -406,6 +406,10 @@
       <string>kassahalanttelu</string>
       <string>kassaivowelUItelu</string>
       <string>kassaivoweltelu</string>
+      <string>kassasubscript1UItelu</string>
+      <string>kassasubscript1telu</string>
+      <string>kassasubscriptUItelu</string>
+      <string>kassasubscripttelu</string>
       <string>kassatelu</string>
       <string>kassauvoweltelu</string>
       <string>kasseevoweltelu</string>
@@ -924,6 +928,7 @@
       <string>uni0952</string>
       <string>uni0C00</string>
       <string>uni0C04</string>
+      <string>uni0C77</string>
       <string>uni0C78</string>
       <string>uni0C79</string>
       <string>uni0C7A</string>
@@ -933,6 +938,7 @@
       <string>uni0C7E</string>
       <string>uni0C7F</string>
       <string>uni1CDA</string>
+      <string>uni1CF2</string>
       <string>uni200B</string>
       <string>uni200C</string>
       <string>uni200D</string>
@@ -1358,6 +1364,10 @@
       <string>kassahalanttelu</string>
       <string>kassaivowelUItelu</string>
       <string>kassaivoweltelu</string>
+      <string>kassasubscript1UItelu</string>
+      <string>kassasubscript1telu</string>
+      <string>kassasubscriptUItelu</string>
+      <string>kassasubscripttelu</string>
       <string>kassatelu</string>
       <string>kassauvoweltelu</string>
       <string>kasseevoweltelu</string>
@@ -1876,6 +1886,7 @@
       <string>uni0952</string>
       <string>uni0C00</string>
       <string>uni0C04</string>
+      <string>uni0C77</string>
       <string>uni0C78</string>
       <string>uni0C79</string>
       <string>uni0C7A</string>
@@ -1885,6 +1896,7 @@
       <string>uni0C7E</string>
       <string>uni0C7F</string>
       <string>uni1CDA</string>
+      <string>uni1CF2</string>
       <string>uni200B</string>
       <string>uni200C</string>
       <string>uni200D</string>
@@ -2310,6 +2322,10 @@
       <string>kassahalanttelu</string>
       <string>kassaivowelUItelu</string>
       <string>kassaivoweltelu</string>
+      <string>kassasubscript1UItelu</string>
+      <string>kassasubscript1telu</string>
+      <string>kassasubscriptUItelu</string>
+      <string>kassasubscripttelu</string>
       <string>kassatelu</string>
       <string>kassauvoweltelu</string>
       <string>kasseevoweltelu</string>
@@ -2828,6 +2844,7 @@
       <string>uni0952</string>
       <string>uni0C00</string>
       <string>uni0C04</string>
+      <string>uni0C77</string>
       <string>uni0C78</string>
       <string>uni0C79</string>
       <string>uni0C7A</string>
@@ -2837,6 +2854,7 @@
       <string>uni0C7E</string>
       <string>uni0C7F</string>
       <string>uni1CDA</string>
+      <string>uni1CF2</string>
       <string>uni200B</string>
       <string>uni200C</string>
       <string>uni200D</string>

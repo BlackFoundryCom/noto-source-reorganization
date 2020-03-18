@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="theh_alefMaksura-ar" format="2">
+  <advance width="832"/>
+  <unicode hex="FC13"/>
+  <anchor x="726" y="733" name="top_1"/>
+  <anchor x="718" y="-32" name="bottom.dot_1"/>
+  <anchor x="286" y="-244" name="bottom.dot_2"/>
+  <anchor x="718" y="-111" name="bottom_1"/>
+  <anchor x="286" y="-287" name="bottom_2"/>
+  <anchor x="726" y="422" name="top.dot_1"/>
+  <anchor x="109" y="198" name="top.dot_2"/>
+  <anchor x="292" y="293" name="top_2"/>
+  <outline>
+    <component base="_beh-AlefMaksura_ar.init"/>
+    <component base="threedotsupabove-ar" xOffset="614" yOffset="-10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot_1</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedotsupabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>alefMaksura-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 10:14:12</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

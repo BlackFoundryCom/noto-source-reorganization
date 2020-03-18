@@ -1,11 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="shadda_damma-ar" format="2">
   <unicode hex="FC61"/>
-  <anchor x="172" y="458" name="_top"/>
-  <anchor x="188" y="1044" name="top"/>
   <outline>
-    <component base="shadda-ar" xOffset="1"/>
-    <component base="damma-ar" xOffset="9" yOffset="216"/>
+    <component base="shadda-ar"/>
+    <component base="damma-ar" xOffset="14" yOffset="201"/>
   </outline>
   <lib>
     <dict>
@@ -14,12 +12,12 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=shadda-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/25 17:31:32</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>324</integer>
+      <integer>310</integer>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
-        <integer>0</integer>
+        <integer>-1</integer>
         <integer>-1</integer>
       </array>
     </dict>

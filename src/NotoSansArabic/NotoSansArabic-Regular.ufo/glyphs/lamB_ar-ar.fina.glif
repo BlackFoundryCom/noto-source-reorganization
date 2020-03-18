@@ -1,8 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lamBar-ar.fina" format="2">
-  <advance width="730"/>
-  <anchor x="298" y="-232" name="bottom"/>
-  <anchor x="307" y="457" name="top"/>
+  <advance width="741"/>
+  <anchor x="323" y="-272" name="bottom"/>
+  <anchor x="323" y="-219" name="bottom.dot"/>
+  <anchor x="565" y="418" name="center"/>
+  <anchor x="207" y="498" name="top"/>
+  <anchor x="555" y="726" name="top.dot"/>
   <outline>
     <component base="lam-ar.fina"/>
     <component base="_bar" xOffset="385"/>
@@ -14,10 +17,10 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>lam-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/26 20:50:54</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
-        <integer>0</integer>
+        <integer>-1</integer>
         <integer>-1</integer>
       </array>
     </dict>

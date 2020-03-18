@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="alefMaksura-ar.isol" format="2">
-  <advance width="760"/>
+  <advance width="811"/>
   <unicode hex="FEEF"/>
-  <anchor x="356" y="-232" name="bottom"/>
-  <anchor x="216" y="150" name="top"/>
+  <anchor x="351" y="-273" name="bottom"/>
+  <anchor x="351" y="-236" name="bottom.dot"/>
+  <anchor x="232" y="352" name="top"/>
+  <anchor x="136" y="202" name="top.dot"/>
   <outline>
     <component base="alefMaksura-ar"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/25 17:31:31</string>
     </dict>
   </lib>
 </glyph>

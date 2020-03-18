@@ -1,16 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="keheh-ar.isol" format="2">
-  <advance width="877"/>
+  <advance width="902"/>
   <unicode hex="FB8E"/>
-  <anchor x="410" y="-21" name="bottom"/>
-  <anchor x="673" y="610" name="top"/>
+  <anchor x="422" y="-111" name="bottom"/>
+  <anchor x="422" y="-20" name="bottom.dot"/>
+  <anchor x="780" y="555" name="center"/>
+  <anchor x="289" y="570" name="top"/>
+  <anchor x="552" y="576" name="top.dot"/>
   <outline>
     <component base="keheh-ar"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/29 14:20:06</string>
     </dict>
   </lib>
 </glyph>

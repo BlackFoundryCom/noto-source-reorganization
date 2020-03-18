@@ -1,17 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ainTwodotshorizontalabove-ar" format="2">
-  <advance width="507"/>
+  <advance width="578"/>
   <unicode hex="075D"/>
-  <anchor x="343" y="-394" name="bottom"/>
-  <anchor x="246" y="701" name="top"/>
+  <anchor x="333" y="-435" name="bottom"/>
+  <anchor x="368" y="-89" name="center"/>
+  <anchor x="304" y="623" name="top"/>
+  <anchor x="304" y="534" name="top.dot"/>
   <outline>
     <component base="ain-ar"/>
-    <component base="twodotshorizontalabove-ar" xOffset="99" yOffset="36"/>
+    <component base="twodotshorizontalabove-ar" xOffset="165" yOffset="102"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/28 20:54:07</string>
     </dict>
   </lib>
 </glyph>

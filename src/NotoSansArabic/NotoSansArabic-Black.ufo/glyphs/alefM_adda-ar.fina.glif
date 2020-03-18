@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefMadda-ar.fina" format="2">
+  <advance width="328"/>
+  <unicode hex="FE82"/>
+  <anchor x="172" y="-111" name="bottom"/>
+  <anchor x="172" y="-20" name="bottom.dot"/>
+  <anchor x="156" y="859" name="top"/>
+  <outline>
+    <component base="alef-ar.fina.short"/>
+    <component base="madda-ar" xOffset="-32" yOffset="121"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 20:46:38</string>
+    </dict>
+  </lib>
+</glyph>

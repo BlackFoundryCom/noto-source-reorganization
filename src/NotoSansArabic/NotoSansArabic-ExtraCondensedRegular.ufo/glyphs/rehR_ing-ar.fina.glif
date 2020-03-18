@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rehRing-ar.fina" format="2">
+  <advance width="399"/>
+  <anchor x="105" y="-301" name="bottom"/>
+  <anchor x="105" y="-252" name="bottom.dot"/>
+  <anchor x="158" y="13" name="center"/>
+  <anchor x="202" y="483" name="top"/>
+  <anchor x="205" y="328" name="top.dot"/>
+  <outline>
+    <component base="reh-ar.fina" xOffset="1"/>
+    <component base="_ringArabic" xOffset="114" yOffset="-360"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/01 14:07:43</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

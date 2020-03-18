@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yehThreedotsbelow-ar.fina" format="2">
-  <advance width="736"/>
-  <anchor x="326" y="-531" name="bottom"/>
-  <anchor x="216" y="150" name="top"/>
+  <advance width="825"/>
+  <anchor x="357" y="-287" name="bottom"/>
+  <anchor x="357" y="-244" name="bottom.dot"/>
+  <anchor x="275" y="293" name="top"/>
+  <anchor x="136" y="198" name="top.dot"/>
   <outline>
     <component base="alefMaksura-ar.fina"/>
-    <component base="threedotsupbelow-ar" xOffset="181" yOffset="-232"/>
+    <component base="threedotsdownbelow-ar" xOffset="224" yOffset="-236"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/29 20:24:14</string>
     </dict>
   </lib>
 </glyph>

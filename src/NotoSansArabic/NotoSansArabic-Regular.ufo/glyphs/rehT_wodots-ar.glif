@@ -1,17 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rehTwodots-ar" format="2">
-  <advance width="367"/>
+  <advance width="458"/>
   <unicode hex="0697"/>
-  <anchor x="137" y="-214" name="bottom"/>
-  <anchor x="181" y="553" name="top"/>
+  <anchor x="130" y="-301" name="bottom"/>
+  <anchor x="130" y="-252" name="bottom.dot"/>
+  <anchor x="201" y="13" name="center"/>
+  <anchor x="243" y="493" name="top"/>
+  <anchor x="247" y="354" name="top.dot"/>
   <outline>
     <component base="reh-ar"/>
-    <component base="twodotshorizontalabove-ar" xOffset="34" yOffset="-112"/>
+    <component base="twodotshorizontalabove-ar" xOffset="108" yOffset="-78"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/28 20:31:15</string>
     </dict>
   </lib>
 </glyph>

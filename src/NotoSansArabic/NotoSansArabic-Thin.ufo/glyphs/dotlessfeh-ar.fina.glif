@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotlessfeh-ar.fina" format="2">
+  <advance width="1001"/>
+  <anchor x="437" y="-111" name="bottom"/>
+  <anchor x="731" y="-20" name="bottom.dot"/>
+  <anchor x="730" y="591" name="top"/>
+  <anchor x="733" y="468" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="412" y="-15" type="line"/>
+      <point x="516" y="-15"/>
+      <point x="667" y="6"/>
+      <point x="735" y="38" type="curve" smooth="yes"/>
+      <point x="839" y="87"/>
+      <point x="908" y="156"/>
+      <point x="908" y="260" type="curve" smooth="yes"/>
+      <point x="908" y="361"/>
+      <point x="846" y="435"/>
+      <point x="733" y="435" type="curve" smooth="yes"/>
+      <point x="628" y="435"/>
+      <point x="551" y="360"/>
+      <point x="551" y="251" type="curve" smooth="yes"/>
+      <point x="551" y="164"/>
+      <point x="604" y="98"/>
+      <point x="672" y="58" type="curve" smooth="yes"/>
+      <point x="729" y="24"/>
+      <point x="828" y="-5"/>
+      <point x="1001" y="-5" type="curve" smooth="yes"/>
+      <point x="1009" y="-5"/>
+      <point x="1015" y="0"/>
+      <point x="1015" y="9" type="curve" smooth="yes"/>
+      <point x="1015" y="15"/>
+      <point x="1012" y="21"/>
+      <point x="1004" y="21" type="curve" smooth="yes"/>
+      <point x="851" y="21"/>
+      <point x="749" y="43"/>
+      <point x="692" y="76" type="curve" smooth="yes"/>
+      <point x="618" y="119"/>
+      <point x="576" y="178"/>
+      <point x="576" y="257" type="curve" smooth="yes"/>
+      <point x="576" y="339"/>
+      <point x="633" y="409"/>
+      <point x="732" y="409" type="curve" smooth="yes"/>
+      <point x="831" y="409"/>
+      <point x="883" y="345"/>
+      <point x="883" y="258" type="curve" smooth="yes"/>
+      <point x="883" y="162"/>
+      <point x="814" y="100"/>
+      <point x="720" y="58" type="curve" smooth="yes"/>
+      <point x="661" y="32"/>
+      <point x="521" y="11"/>
+      <point x="416" y="11" type="curve"/>
+    </contour>
+    <component base="_part.beh.fina" xOffset="-10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dotlessbeh-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 10:12:55</string>
+    </dict>
+  </lib>
+</glyph>

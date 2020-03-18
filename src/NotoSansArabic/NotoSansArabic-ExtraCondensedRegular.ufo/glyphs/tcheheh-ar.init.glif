@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcheheh-ar.init" format="2">
+  <advance width="574"/>
+  <unicode hex="FB80"/>
+  <anchor x="314" y="-111" name="bottom"/>
+  <anchor x="314" y="42" name="bottom.dot"/>
+  <anchor x="257" y="511" name="top"/>
+  <anchor x="254" y="435" name="top.dot"/>
+  <outline>
+    <component base="hah-ar.init"/>
+    <component base="fourdotsbelow-ar" xOffset="210" yOffset="42"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

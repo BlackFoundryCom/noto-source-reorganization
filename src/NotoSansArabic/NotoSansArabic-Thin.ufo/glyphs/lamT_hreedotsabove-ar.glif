@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamThreedotsabove-ar" format="2">
+  <advance width="686"/>
+  <unicode hex="06B7"/>
+  <anchor x="314" y="-271" name="bottom"/>
+  <anchor x="314" y="-233" name="bottom.dot"/>
+  <anchor x="553" y="389" name="center"/>
+  <anchor x="195" y="494" name="top"/>
+  <anchor x="544" y="715" name="top.dot"/>
+  <outline>
+    <component base="lam-ar"/>
+    <component base="threedotsupabove-ar" xOffset="438" yOffset="359"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 10:56:44</string>
+    </dict>
+  </lib>
+</glyph>

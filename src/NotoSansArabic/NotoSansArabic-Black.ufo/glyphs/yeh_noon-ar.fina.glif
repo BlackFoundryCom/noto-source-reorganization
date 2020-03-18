@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yeh_noon-ar.fina" format="2">
+  <advance width="1118"/>
+  <unicode hex="FC94"/>
+  <anchor x="884" y="-251" name="bottom_1"/>
+  <anchor x="883" y="-20" name="bottom.dot"/>
+  <anchor x="343" y="-274" name="bottom_2"/>
+  <anchor x="928" y="383" name="top.dot_1"/>
+  <anchor x="363" y="280" name="top.dot_2"/>
+  <anchor x="928" y="501" name="top_1"/>
+  <anchor x="365" y="526" name="top_2"/>
+  <outline>
+    <component base="alefMaksura_noon-ar.fina"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="690" yOffset="-15"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>noon-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>noon-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 10:12:55</string>
+    </dict>
+  </lib>
+</glyph>

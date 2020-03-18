@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alefTwoabove-ar" format="2">
+  <advance width="319"/>
+  <unicode hex="0773"/>
+  <anchor x="204" y="-111" name="bottom"/>
+  <anchor x="204" y="-10" name="bottom.dot"/>
+  <anchor x="192" y="788" name="top"/>
+  <outline>
+    <component base="alef-ar" xOffset="78"/>
+    <component base="two-persian.small01" xOffset="-29" yOffset="57"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=alef-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/26 20:50:46</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

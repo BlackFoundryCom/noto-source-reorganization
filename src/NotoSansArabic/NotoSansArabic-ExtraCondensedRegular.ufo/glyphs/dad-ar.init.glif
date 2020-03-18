@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dad-ar.init" format="2">
+  <advance width="739"/>
+  <unicode hex="FEBF"/>
+  <anchor x="418" y="-112" name="bottom"/>
+  <anchor x="418" y="-20" name="bottom.dot"/>
+  <anchor x="464" y="559" name="top"/>
+  <anchor x="498" y="462" name="top.dot"/>
+  <outline>
+    <component base="sad-ar.init"/>
+    <component base="dotabove-ar" xOffset="438" yOffset="30"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

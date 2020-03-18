@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nyeh-ar" format="2">
+  <advance width="710"/>
+  <unicode hex="0683"/>
+  <anchor x="333" y="-435" name="bottom"/>
+  <anchor x="391" y="-55" name="center"/>
+  <anchor x="344" y="560" name="top"/>
+  <anchor x="342" y="478" name="top.dot"/>
+  <outline>
+    <component base="hah-ar.wide"/>
+    <component base="twodotshorizontalcenter-ar" xOffset="284" yOffset="-221"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 20:37:35</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,17 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="alefWavyhamzabelow-ar" format="2">
-  <advance width="238"/>
+  <advance width="279"/>
   <unicode hex="0673"/>
-  <anchor x="104" y="-295" name="bottom"/>
-  <anchor x="113" y="714" name="top"/>
+  <anchor x="148" y="-111" name="bottom"/>
+  <anchor x="148" y="-16" name="bottom.dot"/>
+  <anchor x="131" y="756" name="top"/>
   <outline>
     <component base="alef-ar"/>
-    <component base="wavyhamzabelow-ar" xOffset="-63"/>
+    <component base="wavyhamzabelow-ar" xOffset="-70" yOffset="-21"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>wavyhamzabelow-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/28 21:45:34</string>
     </dict>
   </lib>
 </glyph>

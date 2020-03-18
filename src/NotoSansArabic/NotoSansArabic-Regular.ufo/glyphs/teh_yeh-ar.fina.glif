@@ -1,24 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="teh_yeh-ar.fina" format="2">
-  <advance width="1109"/>
+  <advance width="998"/>
   <unicode hex="FC75"/>
-  <anchor x="736" y="0" name="caret_1"/>
-  <anchor x="916" y="-5" name="bottom_1"/>
-  <anchor x="329" y="-418" name="bottom_2"/>
-  <anchor x="937" y="485" name="top_1"/>
-  <anchor x="216" y="150" name="top_2"/>
+  <anchor x="352" y="-432" name="bottom_2"/>
+  <anchor x="862" y="-32" name="bottom.dot_1"/>
+  <anchor x="351" y="-244" name="bottom.dot_2"/>
+  <anchor x="861" y="-111" name="bottom_1"/>
+  <anchor x="674" y="415" name="top.dot_1"/>
+  <anchor x="136" y="194" name="top.dot_2"/>
+  <anchor x="675" y="619" name="top_1"/>
+  <anchor x="272" y="372" name="top_2"/>
   <outline>
-    <component base="teh-ar.medi" xOffset="736"/>
-    <component base="yeh-ar.fina"/>
+    <component base="teh_alefMaksura-ar.fina"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="210" yOffset="-242"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>teh-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot_2</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalbelow-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>yeh-ar.fina</string>
+      <string>=beh_alefMaksura-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/28 10:12:55</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

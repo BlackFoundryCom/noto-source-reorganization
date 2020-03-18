@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni08B6.medi" format="2">
+  <advance width="440"/>
+  <anchor x="219" y="-111" name="bottom"/>
+  <anchor x="220" y="-28" name="bottom.dot"/>
+  <anchor x="235" y="501" name="top"/>
+  <anchor x="235" y="373" name="top.dot"/>
+  <outline>
+    <component base="dotlessbeh-ar.medi.wide"/>
+    <component base="dotbelow-ar" xOffset="114" yOffset="-23"/>
+    <component base="meemStopabove-ar" xOffset="110" yOffset="-177"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>meemStopabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/02 14:58:58</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>arabic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

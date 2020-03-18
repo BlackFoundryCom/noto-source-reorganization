@@ -1,19 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni08B7.medi" format="2">
-  <advance width="373"/>
-  <anchor x="180" y="-304" name="bottom"/>
-  <anchor x="217" y="646" name="top"/>
+  <advance width="417"/>
+  <anchor x="212" y="-110" name="bottom"/>
+  <anchor x="211" y="-32" name="bottom.dot"/>
+  <anchor x="216" y="458" name="top"/>
+  <anchor x="216" y="343" name="top.dot"/>
   <outline>
     <component base="dotlessbeh-ar.medi.wide"/>
-    <component base="meemStopabove-ar" xOffset="92" yOffset="-175"/>
-    <component base="threedotsupbelow-ar" xOffset="35" yOffset="-5"/>
+    <component base="meemStopabove-ar" xOffset="109" yOffset="-89"/>
+    <component base="threedotsupbelow-ar" xOffset="77" yOffset="-24"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>meemStopabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/03/02 14:58:58</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>arabic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

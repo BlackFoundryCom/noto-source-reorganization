@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hamzabelow-ar" format="2">
+  <unicode hex="0655"/>
+  <anchor x="111" y="0" name="_bottom.dot"/>
+  <anchor x="119" y="-273" name="bottom"/>
+  <outline>
+    <component base="_hamza" yOffset="-868"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 22:21:22</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>230</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

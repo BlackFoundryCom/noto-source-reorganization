@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="allah-ar" format="2">
+  <advance width="1140"/>
+  <unicode hex="FDF2"/>
+  <anchor x="1039" y="-120" name="bottom_1"/>
+  <anchor x="794" y="-120" name="bottom_2"/>
+  <anchor x="546" y="-120" name="bottom_3"/>
+  <anchor x="234" y="-120" name="bottom_4"/>
+  <anchor x="1027" y="735" name="top_1"/>
+  <anchor x="801" y="656" name="top_2"/>
+  <anchor x="557" y="647" name="top_3"/>
+  <anchor x="269" y="704" name="top_4"/>
+  <anchor x="1042" y="-20" name="bottom.dot"/>
+  <outline>
+    <component base="lam_lam_heh-ar"/>
+    <component base="alef-ar" xOffset="929"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=heh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=alef-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:32</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

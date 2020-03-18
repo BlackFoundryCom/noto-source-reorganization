@@ -1,9 +1,9 @@
-
 #!/usr/bin/env python3
 import os
-from Ufo2fontsFromdesignSpace import *
 import subprocess
 import argparse
+import swaper
+from Ufo2fontsFromdesignSpace import *
 
 def getFolder(directory):
     repo = "src/" + directory + "/"

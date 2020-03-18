@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="_bar" format="2">
-  <advance width="325"/>
+  <advance width="345"/>
+  <anchor x="174" y="433" name="_center"/>
   <outline>
     <contour>
-      <point x="0" y="416" type="line"/>
-      <point x="325" y="416" type="line"/>
-      <point x="325" y="475" type="line"/>
-      <point x="0" y="475" type="line"/>
+      <point x="0" y="408" type="line"/>
+      <point x="345" y="408" type="line"/>
+      <point x="345" y="461" type="line"/>
+      <point x="0" y="461" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -14,7 +15,7 @@
       <key>com.schriftgestaltung.Glyphs.Export</key>
       <false/>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/25 17:31:32</string>
     </dict>
   </lib>
 </glyph>

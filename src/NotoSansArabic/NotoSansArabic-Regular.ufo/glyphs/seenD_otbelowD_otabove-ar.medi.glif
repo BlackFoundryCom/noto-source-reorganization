@@ -1,17 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="seenDotbelowDotabove-ar.medi" format="2">
-  <advance width="850"/>
-  <anchor x="386" y="-191" name="bottom"/>
-  <anchor x="429" y="534" name="top"/>
+  <advance width="950"/>
+  <anchor x="494" y="-111" name="bottom"/>
+  <anchor x="494" y="-20" name="bottom.dot"/>
+  <anchor x="491" y="475" name="top"/>
+  <anchor x="494" y="359" name="top.dot"/>
   <outline>
     <component base="seen-ar.medi"/>
-    <component base="dotbelow-ar" xOffset="310" yOffset="-3"/>
-    <component base="dotabove-ar" xOffset="353" yOffset="-131"/>
+    <component base="dotbelow-ar" xOffset="419" yOffset="-18"/>
+    <component base="dotabove-ar" xOffset="419" yOffset="-73"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/26 22:36:32</string>
     </dict>
   </lib>
 </glyph>

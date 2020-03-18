@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="teh_yeh-ar.fina" format="2">
+  <advance width="994"/>
+  <unicode hex="FC75"/>
+  <anchor x="348" y="-407" name="bottom_2"/>
+  <anchor x="866" y="-40" name="bottom.dot_1"/>
+  <anchor x="347" y="-246" name="bottom.dot_2"/>
+  <anchor x="865" y="-111" name="bottom_1"/>
+  <anchor x="653" y="402" name="top.dot_1"/>
+  <anchor x="115" y="181" name="top.dot_2"/>
+  <anchor x="654" y="580" name="top_1"/>
+  <anchor x="268" y="356" name="top_2"/>
+  <outline>
+    <component base="teh_alefMaksura-ar.fina"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="239" yOffset="-246"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot_2</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalbelow-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=beh_alefMaksura-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 10:12:55</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

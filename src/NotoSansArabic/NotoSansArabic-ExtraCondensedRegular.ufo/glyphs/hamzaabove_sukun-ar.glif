@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hamzaabove_sukun-ar" format="2">
+  <advance width="216"/>
+  <anchor x="110" y="464" name="_top"/>
+  <anchor x="110" y="432" name="_top.dot"/>
+  <outline>
+    <component base="hamzaabove-ar"/>
+    <component base="sukun-ar" xOffset="16" yOffset="255"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:32</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

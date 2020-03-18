@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kafswash_alefMaksura-ar.fina.liga" format="2">
+  <advance width="1242"/>
+  <anchor x="286" y="-244" name="bottom.dot"/>
+  <anchor x="784" y="-111" name="bottom_1"/>
+  <anchor x="286" y="-287" name="bottom_2"/>
+  <anchor x="109" y="198" name="top.dot_2"/>
+  <anchor x="734" y="664" name="top_1"/>
+  <anchor x="292" y="293" name="top_2"/>
+  <outline>
+    <component base="kafswash_alefMaksura-ar.liga"/>
+    <component base="_part.instroke" xOffset="1086"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>noonghunna-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>kaf-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/02 14:47:49</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aleflow-ar" format="2">
+  <advance width="211"/>
+  <unicode hex="08AD"/>
+  <anchor x="102" y="-263" name="bottom"/>
+  <anchor x="95" y="210" name="top"/>
+  <outline>
+    <contour>
+      <point x="100" y="-203" type="curve"/>
+      <point x="124" y="-203" type="line"/>
+      <point x="127" y="-84"/>
+      <point x="123" y="33"/>
+      <point x="109" y="155" type="curve"/>
+      <point x="85" y="153" type="line"/>
+      <point x="99" y="31"/>
+      <point x="103" y="-84"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>alef-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alef-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/26 20:50:54</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alef-ar.fina.short" format="2">
+  <advance width="328"/>
+  <anchor x="172" y="-111" name="bottom"/>
+  <anchor x="172" y="-20" name="bottom.dot"/>
+  <anchor x="145" y="708" name="top"/>
+  <outline>
+    <contour>
+      <point x="328" y="-10" type="curve" smooth="yes"/>
+      <point x="395" y="-10"/>
+      <point x="428" y="30"/>
+      <point x="428" y="81" type="curve" smooth="yes"/>
+      <point x="428" y="126"/>
+      <point x="402" y="170"/>
+      <point x="338" y="170" type="curve" smooth="yes"/>
+      <point x="257" y="170"/>
+      <point x="243" y="191"/>
+      <point x="239" y="271" type="curve" smooth="yes"/>
+      <point x="220" y="690" type="line"/>
+      <point x="60" y="690" type="line"/>
+      <point x="79" y="221" type="line" smooth="yes"/>
+      <point x="85" y="83"/>
+      <point x="145" y="-10"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>alef-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/27 16:53:58</string>
+    </dict>
+  </lib>
+</glyph>

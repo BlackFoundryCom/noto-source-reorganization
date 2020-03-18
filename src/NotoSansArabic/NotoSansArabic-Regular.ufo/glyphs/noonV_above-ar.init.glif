@@ -1,17 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="noonVabove-ar.init" format="2">
-  <advance width="269"/>
-  <anchor x="107" y="-5" name="bottom"/>
-  <anchor x="129" y="933" name="top"/>
+  <advance width="319"/>
+  <anchor x="156" y="-111" name="bottom"/>
+  <anchor x="157" y="-32" name="bottom.dot"/>
+  <anchor x="182" y="535" name="top"/>
+  <anchor x="186" y="422" name="top.dot"/>
   <outline>
     <component base="dotlessbeh-ar.init"/>
-    <component base="dotabove-ar" xOffset="52" yOffset="-59"/>
-    <component base="vabove-ar" xOffset="13" yOffset="176"/>
+    <component base="_dotVabove" xOffset="52" yOffset="-10"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/03/01 13:52:37</string>
     </dict>
   </lib>
 </glyph>

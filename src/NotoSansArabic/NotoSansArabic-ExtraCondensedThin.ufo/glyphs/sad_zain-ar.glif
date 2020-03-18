@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sad_zain-ar" format="2">
+  <advance width="1052"/>
+  <anchor x="237" y="448" name="top_2"/>
+  <anchor x="745" y="-112" name="bottom_1"/>
+  <anchor x="94" y="-297" name="bottom_2"/>
+  <anchor x="833" y="439" name="top.dot_1"/>
+  <anchor x="236" y="270" name="top.dot_2"/>
+  <anchor x="816" y="536" name="top_1"/>
+  <outline>
+    <component base="sad_reh-ar"/>
+    <component base="dotabove-ar" xOffset="192" yOffset="-86"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot_2</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>reh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>behDotless-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 20:33:43</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

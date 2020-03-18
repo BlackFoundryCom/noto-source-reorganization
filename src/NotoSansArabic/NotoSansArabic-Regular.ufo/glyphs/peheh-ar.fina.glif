@@ -1,17 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="peheh-ar.fina" format="2">
-  <advance width="1098"/>
+  <advance width="1040"/>
   <unicode hex="FB6F"/>
-  <anchor x="460" y="-25" name="bottom"/>
-  <anchor x="855" y="742" name="top"/>
+  <anchor x="466" y="-111" name="bottom"/>
+  <anchor x="760" y="-20" name="bottom.dot"/>
+  <anchor x="769" y="611" name="top"/>
+  <anchor x="772" y="488" name="top.dot"/>
   <outline>
     <component base="dotlessfeh-ar.fina"/>
-    <component base="fourdotsabove-ar" xOffset="707" yOffset="-48"/>
+    <component base="fourdotsabove-ar" xOffset="643" yOffset="56"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/25 17:31:31</string>
     </dict>
   </lib>
 </glyph>

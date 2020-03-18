@@ -1,24 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hah-ar.medi" format="2">
-  <advance width="637"/>
+  <advance width="748"/>
   <unicode hex="FEA4"/>
-  <anchor x="261" y="0" name="bottom"/>
-  <anchor x="156" y="352" name="top"/>
+  <anchor x="393" y="-111" name="bottom"/>
+  <anchor x="393" y="42" name="bottom.dot"/>
+  <anchor x="321" y="511" name="top"/>
+  <anchor x="318" y="435" name="top.dot"/>
   <outline>
     <contour>
-      <point x="637" y="-5" type="curve" smooth="yes"/>
-      <point x="666" y="-5"/>
-      <point x="687" y="16"/>
-      <point x="687" y="38" type="curve" smooth="yes"/>
-      <point x="687" y="59"/>
-      <point x="675" y="77"/>
-      <point x="647" y="77" type="curve" smooth="yes"/>
-      <point x="544" y="77"/>
-      <point x="505" y="95"/>
-      <point x="480" y="175" type="curve"/>
-      <point x="421" y="140" type="line"/>
-      <point x="447" y="15"/>
-      <point x="526" y="-5"/>
+      <point x="747" y="-7" type="curve" smooth="yes"/>
+      <point x="778" y="-7"/>
+      <point x="795" y="14"/>
+      <point x="795" y="37" type="curve" smooth="yes"/>
+      <point x="795" y="58"/>
+      <point x="783" y="79"/>
+      <point x="753" y="79" type="curve" smooth="yes"/>
+      <point x="612" y="79"/>
+      <point x="570" y="116"/>
+      <point x="558" y="213" type="curve"/>
+      <point x="502" y="188" type="line"/>
+      <point x="517" y="47"/>
+      <point x="588" y="-7"/>
     </contour>
     <component base="hah-ar.init"/>
   </outline>
@@ -27,7 +29,11 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>_part.instroke</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/25 18:37:21</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

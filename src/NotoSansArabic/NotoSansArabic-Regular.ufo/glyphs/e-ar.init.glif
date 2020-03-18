@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="e-ar.init" format="2">
-  <advance width="269"/>
+  <advance width="319"/>
   <unicode hex="FBE6"/>
-  <anchor x="108" y="-321" name="bottom"/>
-  <anchor x="127" y="404" name="top"/>
+  <anchor x="156" y="-111" name="bottom"/>
+  <anchor x="157" y="-32" name="bottom.dot"/>
+  <anchor x="182" y="535" name="top"/>
+  <anchor x="186" y="422" name="top.dot"/>
   <outline>
     <component base="beeh-ar.init"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/25 17:31:31</string>
     </dict>
   </lib>
 </glyph>

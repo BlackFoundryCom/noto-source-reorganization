@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamThreedotsbelow-ar.medi" format="2">
+  <advance width="352"/>
+  <anchor x="167" y="-111" name="bottom"/>
+  <anchor x="167" y="-20" name="bottom.dot"/>
+  <anchor x="178" y="463" name="center"/>
+  <anchor x="169" y="788" name="top"/>
+  <anchor x="169" y="744" name="top.dot"/>
+  <outline>
+    <component base="lam-ar.medi"/>
+    <component base="threedotsdownbelow-ar" xOffset="-11" yOffset="-11"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 20:24:14</string>
+    </dict>
+  </lib>
+</glyph>

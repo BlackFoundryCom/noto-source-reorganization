@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehThreeabove-farsi" format="2">
+  <advance width="650"/>
+  <unicode hex="0776"/>
+  <anchor x="282" y="-273" name="bottom"/>
+  <anchor x="282" y="-236" name="bottom.dot"/>
+  <anchor x="187" y="352" name="top"/>
+  <anchor x="110" y="202" name="top.dot"/>
+  <outline>
+    <component base="alefMaksura-ar" xOffset="1"/>
+    <component base="three-persian.small01" xOffset="24" yOffset="-230"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>three-persian.small01</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>alefMaksura-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alefMaksura-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/26 20:50:54</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

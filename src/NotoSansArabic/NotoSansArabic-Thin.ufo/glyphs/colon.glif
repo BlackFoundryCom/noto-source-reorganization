@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="colon" format="2">
+  <advance width="222"/>
+  <unicode hex="003A"/>
+  <outline>
+    <contour>
+      <point x="111" y="470" type="curve" smooth="yes"/>
+      <point x="138" y="470"/>
+      <point x="142" y="484"/>
+      <point x="142" y="501" type="curve" smooth="yes"/>
+      <point x="142" y="517"/>
+      <point x="138" y="532"/>
+      <point x="111" y="532" type="curve" smooth="yes"/>
+      <point x="88" y="532"/>
+      <point x="82" y="517"/>
+      <point x="82" y="501" type="curve" smooth="yes"/>
+      <point x="82" y="484"/>
+      <point x="88" y="470"/>
+    </contour>
+    <contour>
+      <point x="111" y="-8" type="curve" smooth="yes"/>
+      <point x="138" y="-8"/>
+      <point x="142" y="6"/>
+      <point x="142" y="23" type="curve" smooth="yes"/>
+      <point x="142" y="39"/>
+      <point x="138" y="54"/>
+      <point x="111" y="54" type="curve" smooth="yes"/>
+      <point x="88" y="54"/>
+      <point x="82" y="39"/>
+      <point x="82" y="23" type="curve" smooth="yes"/>
+      <point x="82" y="6"/>
+      <point x="88" y="-8"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>period</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>period</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:32</string>
+    </dict>
+  </lib>
+</glyph>

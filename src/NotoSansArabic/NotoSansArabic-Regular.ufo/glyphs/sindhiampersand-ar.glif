@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sindhiampersand-ar" format="2">
-  <advance width="411"/>
+  <advance width="458"/>
   <unicode hex="06FD"/>
-  <anchor x="206" y="0" name="bottom"/>
-  <anchor x="227" y="455" name="top"/>
+  <anchor x="237" y="-61" name="bottom"/>
+  <anchor x="230" y="478" name="top"/>
   <outline>
     <component base="hamza-ar"/>
-    <component base="uniFBBC" xOffset="123" yOffset="-32"/>
+    <component base="uniFBBC" xOffset="136" yOffset="-32"/>
   </outline>
   <lib>
     <dict>
@@ -15,7 +15,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>hamza-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/25 17:31:32</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>0</integer>

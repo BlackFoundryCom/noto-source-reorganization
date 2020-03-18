@@ -1,24 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="beh_reh-ar.fina" format="2">
-  <advance width="739"/>
+  <advance width="797"/>
   <unicode hex="FC6A"/>
-  <anchor x="396" y="0" name="caret_1"/>
-  <anchor x="566" y="-191" name="bottom_1"/>
-  <anchor x="83" y="-217" name="bottom_2"/>
-  <anchor x="582" y="283" name="top_1"/>
-  <anchor x="162" y="351" name="top_2"/>
+  <anchor x="619" y="-224" name="bottom_1"/>
+  <anchor x="618" y="-32" name="bottom.dot"/>
+  <anchor x="130" y="-301" name="bottom_2"/>
+  <anchor x="616" y="346" name="top.dot_1"/>
+  <anchor x="265" y="322" name="top.dot_2"/>
+  <anchor x="616" y="458" name="top_1"/>
+  <anchor x="261" y="469" name="top_2"/>
   <outline>
-    <component base="beh-ar.medi" xOffset="396"/>
-    <component base="reh-ar.fina"/>
+    <component base="alefMaksura_reh-ar.fina"/>
+    <component base="dotbelow-ar" xOffset="543" yOffset="-30"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>beh-ar.medi</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>reh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>alefMaksura_reh-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/28 20:32:41</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

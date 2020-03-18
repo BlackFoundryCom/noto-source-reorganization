@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotlessqaf-ar" format="2">
+  <advance width="684"/>
+  <unicode hex="066F"/>
+  <anchor x="318" y="-309" name="bottom"/>
+  <anchor x="318" y="-249" name="bottom.dot"/>
+  <anchor x="318" y="619" name="top"/>
+  <anchor x="452" y="420" name="top.dot"/>
+  <outline>
+    <contour>
+      <point x="326" y="-264" type="curve" smooth="yes"/>
+      <point x="538" y="-264"/>
+      <point x="648" y="-167"/>
+      <point x="648" y="83" type="curve" smooth="yes"/>
+      <point x="648" y="319"/>
+      <point x="570" y="442"/>
+      <point x="464" y="442" type="curve" smooth="yes"/>
+      <point x="362" y="442"/>
+      <point x="295" y="330"/>
+      <point x="295" y="196" type="curve" smooth="yes"/>
+      <point x="295" y="64"/>
+      <point x="341" y="-1"/>
+      <point x="458" y="-1" type="curve" smooth="yes"/>
+      <point x="505" y="-1"/>
+      <point x="560" y="13"/>
+      <point x="589" y="35" type="curve"/>
+      <point x="578" y="175" type="line"/>
+      <point x="536" y="158"/>
+      <point x="513" y="151"/>
+      <point x="481" y="151" type="curve" smooth="yes"/>
+      <point x="426" y="151"/>
+      <point x="406" y="165"/>
+      <point x="406" y="205" type="curve" smooth="yes"/>
+      <point x="406" y="246"/>
+      <point x="426" y="281"/>
+      <point x="460" y="281" type="curve" smooth="yes"/>
+      <point x="498" y="281"/>
+      <point x="532" y="238"/>
+      <point x="532" y="74" type="curve" smooth="yes"/>
+      <point x="532" y="-47"/>
+      <point x="508" y="-86"/>
+      <point x="347" y="-86" type="curve" smooth="yes"/>
+      <point x="218" y="-86"/>
+      <point x="161" y="-57"/>
+      <point x="161" y="51" type="curve" smooth="yes"/>
+      <point x="161" y="110"/>
+      <point x="167" y="157"/>
+      <point x="180" y="226" type="curve"/>
+      <point x="79" y="253" type="line"/>
+      <point x="50" y="176"/>
+      <point x="35" y="79"/>
+      <point x="35" y="3" type="curve" smooth="yes"/>
+      <point x="35" y="-178"/>
+      <point x="132" y="-264"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>noonghunna-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>sad-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 21:34:22</string>
+    </dict>
+  </lib>
+</glyph>

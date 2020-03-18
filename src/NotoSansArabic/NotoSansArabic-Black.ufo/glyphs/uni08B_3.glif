@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni08B3" format="2">
+  <advance width="609"/>
+  <unicode hex="08B3"/>
+  <anchor x="333" y="-435" name="bottom"/>
+  <anchor x="392" y="-65" name="center"/>
+  <anchor x="315" y="660" name="top"/>
+  <anchor x="315" y="572" name="top.dot"/>
+  <outline>
+    <component base="ain-ar"/>
+    <component base="threedotsdowncenter-ar" xScale="0.7" yScale="0.7" xOffset="261" yOffset="-244"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 20:54:07</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>arabic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

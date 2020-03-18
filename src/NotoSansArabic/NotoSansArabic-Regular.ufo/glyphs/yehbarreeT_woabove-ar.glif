@@ -1,20 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yehbarreeTwoabove-ar" format="2">
-  <advance width="942"/>
+  <advance width="963"/>
   <unicode hex="077A"/>
-  <anchor x="471" y="-21" name="bottom"/>
-  <anchor x="194" y="416" name="top"/>
+  <anchor x="419" y="-93" name="bottom"/>
+  <anchor x="426" y="579" name="top"/>
+  <anchor x="425" y="515" name="top_1"/>
   <outline>
     <component base="yehbarree-ar"/>
-    <component base="two-persian.small01" xOffset="40" yOffset="-185"/>
+    <component base="two-persian.small01" xOffset="33" yOffset="-164"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/25 17:31:32</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
-        <integer>0</integer>
+        <integer>-1</integer>
         <integer>-1</integer>
       </array>
     </dict>

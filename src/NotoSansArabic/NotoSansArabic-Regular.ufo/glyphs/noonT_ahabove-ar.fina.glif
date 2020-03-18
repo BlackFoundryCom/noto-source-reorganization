@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="noonTahabove-ar.fina" format="2">
-  <advance width="730"/>
-  <anchor x="313" y="-232" name="bottom"/>
-  <anchor x="331" y="817" name="top"/>
+  <advance width="760"/>
+  <anchor x="331" y="-280" name="bottom"/>
+  <anchor x="332" y="-232" name="bottom.dot"/>
+  <anchor x="351" y="270" name="top.dot"/>
   <outline>
     <component base="noonghunna-ar.fina"/>
-    <component base="dotabove-ar" xOffset="256" yOffset="-168"/>
-    <component base="uniFBC0" xOffset="188" yOffset="-31"/>
+    <component base="_onedotstah" xOffset="198" yOffset="-162"/>
   </outline>
   <lib>
     <dict>
@@ -15,13 +15,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>_part.instroke</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
+      <string>2020/03/01 12:02:08</string>
     </dict>
   </lib>
 </glyph>

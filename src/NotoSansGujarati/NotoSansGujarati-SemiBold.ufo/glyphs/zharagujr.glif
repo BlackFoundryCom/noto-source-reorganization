@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zharagujr" format="2">
+  <advance width="889"/>
+  <outline>
+    <contour>
+      <point x="253" y="75" type="curve" smooth="yes"/>
+      <point x="286" y="75"/>
+      <point x="313" y="100"/>
+      <point x="313" y="136" type="curve" smooth="yes"/>
+      <point x="313" y="173"/>
+      <point x="286" y="199"/>
+      <point x="253" y="199" type="curve" smooth="yes"/>
+      <point x="220" y="199"/>
+      <point x="193" y="173"/>
+      <point x="193" y="136" type="curve" smooth="yes"/>
+      <point x="193" y="100"/>
+      <point x="220" y="75"/>
+    </contour>
+    <contour>
+      <point x="163" y="-42" type="curve" smooth="yes"/>
+      <point x="196" y="-42"/>
+      <point x="222" y="-14"/>
+      <point x="222" y="21" type="curve" smooth="yes"/>
+      <point x="222" y="55"/>
+      <point x="197" y="82"/>
+      <point x="163" y="82" type="curve" smooth="yes"/>
+      <point x="128" y="82"/>
+      <point x="103" y="55"/>
+      <point x="103" y="21" type="curve" smooth="yes"/>
+      <point x="103" y="-14"/>
+      <point x="128" y="-42"/>
+    </contour>
+    <contour>
+      <point x="312" y="-65" type="curve" smooth="yes"/>
+      <point x="346" y="-65"/>
+      <point x="371" y="-37"/>
+      <point x="371" y="-2" type="curve" smooth="yes"/>
+      <point x="371" y="32"/>
+      <point x="346" y="59"/>
+      <point x="312" y="59" type="curve" smooth="yes"/>
+      <point x="278" y="59"/>
+      <point x="252" y="32"/>
+      <point x="252" y="-2" type="curve" smooth="yes"/>
+      <point x="252" y="-37"/>
+      <point x="278" y="-65"/>
+    </contour>
+    <component base="jagujr"/>
+    <component base="vattugujr" xOffset="835"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>jagujr</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/10 09:14:53</string>
+    </dict>
+  </lib>
+</glyph>

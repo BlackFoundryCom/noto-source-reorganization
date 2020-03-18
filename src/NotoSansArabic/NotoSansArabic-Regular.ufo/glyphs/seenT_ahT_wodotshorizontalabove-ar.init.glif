@@ -1,25 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="seenTahTwodotshorizontalabove-ar.init" format="2">
-  <advance width="784"/>
-  <anchor x="386" y="-5" name="bottom"/>
-  <anchor x="437" y="870" name="top"/>
+  <advance width="872"/>
+  <anchor x="494" y="-111" name="bottom"/>
+  <anchor x="494" y="-20" name="bottom.dot"/>
+  <anchor x="491" y="475" name="top"/>
+  <anchor x="494" y="359" name="top.dot"/>
   <outline>
     <component base="seen-ar.init"/>
-    <component base="twodotshorizontalabove-ar" xOffset="286" yOffset="-131"/>
-    <component base="uniFBC0" xOffset="294" yOffset="22"/>
+    <component base="_twodotstah" xOffset="341" yOffset="-73"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>seen-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
+      <string>2020/03/01 11:56:46</string>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="threedotsupabove-ar.v2" format="2">
+  <anchor x="94" y="356" name="_top.dot"/>
+  <anchor x="94" y="563" name="top"/>
+  <outline>
+    <component base="dotabove-ar" yOffset="-77"/>
+    <component base="dotabove-ar" xOffset="90" yOffset="-16"/>
+    <component base="dotabove-ar" xOffset="9" yOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 21:51:01</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>178</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

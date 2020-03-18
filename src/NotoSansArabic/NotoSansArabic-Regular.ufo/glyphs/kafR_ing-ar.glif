@@ -1,20 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kafRing-ar" format="2">
-  <advance width="877"/>
+  <advance width="902"/>
   <unicode hex="06AB"/>
-  <anchor x="410" y="-21" name="bottom"/>
-  <anchor x="673" y="610" name="top"/>
+  <anchor x="422" y="-111" name="bottom"/>
+  <anchor x="289" y="570" name="top"/>
+  <anchor x="422" y="-20" name="bottom.dot"/>
+  <anchor x="780" y="555" name="center"/>
+  <anchor x="552" y="576" name="top.dot"/>
   <outline>
     <component base="keheh-ar"/>
-    <component base="ringArabic" xOffset="690" yOffset="467"/>
+    <component base="_ringArabic" xScale="0.94" yScale="0.94" xOffset="653" yOffset="444"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/12/04 18:34:22</string>
+      <string>2020/03/01 14:08:10</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
-        <integer>-1</integer>
+        <integer>0</integer>
         <integer>-1</integer>
       </array>
     </dict>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lam_alefThreeabove-ar.fina" format="2">
+  <advance width="687"/>
+  <anchor x="83" y="773" name="top_2"/>
+  <anchor x="167" y="-20" name="bottom.dot"/>
+  <anchor x="481" y="-20" name="bottom.dot_1"/>
+  <anchor x="484" y="-111" name="bottom_1"/>
+  <anchor x="167" y="-111" name="bottom_2"/>
+  <anchor x="523" y="535" name="center"/>
+  <anchor x="517" y="725" name="top_1"/>
+  <outline>
+    <component base="lam_alef-ar.fina.short"/>
+    <component base="three-persian.small01" xOffset="-52" yOffset="98"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>alefWasla-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>lam_alef-ar.fina.short</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 21:41:01</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

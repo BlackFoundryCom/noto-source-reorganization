@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="highhamzaWaw-ar" format="2">
+  <advance width="444"/>
+  <unicode hex="0676"/>
+  <anchor x="154" y="582" name="top"/>
+  <anchor x="169" y="-293" name="bottom"/>
+  <anchor x="201" y="-81" name="center"/>
+  <anchor x="196" y="387" name="top.dot"/>
+  <outline>
+    <component base="waw-ar" yOffset="3"/>
+    <component base="highhamza-ar" xOffset="248" yOffset="-48"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/02 14:10:57</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

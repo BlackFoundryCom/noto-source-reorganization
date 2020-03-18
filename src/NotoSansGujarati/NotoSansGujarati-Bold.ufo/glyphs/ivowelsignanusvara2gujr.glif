@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ivowelsignanusvara2gujr" format="2">
+  <advance width="316"/>
+  <guideline x="323" y="896" angle="0"/>
+  <outline>
+    <contour>
+      <point x="791" y="724" type="curve" smooth="yes"/>
+      <point x="842" y="724"/>
+      <point x="878" y="760"/>
+      <point x="878" y="810" type="curve" smooth="yes"/>
+      <point x="878" y="859"/>
+      <point x="842" y="896"/>
+      <point x="791" y="896" type="curve" smooth="yes"/>
+      <point x="739" y="896"/>
+      <point x="703" y="859"/>
+      <point x="703" y="810" type="curve" smooth="yes"/>
+      <point x="703" y="760"/>
+      <point x="739" y="724"/>
+    </contour>
+    <component base="ivowelsign2gujr"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>aavowelsigngujr</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/10 09:13:57</string>
+    </dict>
+  </lib>
+</glyph>

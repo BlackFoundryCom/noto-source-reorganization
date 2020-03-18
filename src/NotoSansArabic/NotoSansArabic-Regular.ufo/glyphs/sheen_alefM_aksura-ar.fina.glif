@@ -1,24 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sheen_alefMaksura-ar.fina" format="2">
-  <advance width="1586"/>
+  <advance width="1616"/>
   <unicode hex="FD19"/>
-  <anchor x="736" y="0" name="caret_1"/>
-  <anchor x="1122" y="-5" name="bottom_1"/>
-  <anchor x="326" y="-232" name="bottom_2"/>
-  <anchor x="1167" y="644" name="top_1"/>
-  <anchor x="216" y="150" name="top_2"/>
+  <anchor x="1150" y="671" name="top_1"/>
+  <anchor x="351" y="-244" name="bottom.dot_2"/>
+  <anchor x="1150" y="-111" name="bottom_1"/>
+  <anchor x="351" y="-281" name="bottom_2"/>
+  <anchor x="1150" y="359" name="top.dot_1"/>
+  <anchor x="136" y="194" name="top.dot_2"/>
+  <anchor x="272" y="372" name="top_2"/>
   <outline>
-    <component base="sheen-ar.medi" xOffset="736"/>
-    <component base="alefMaksura-ar.fina"/>
+    <component base="seen_alefMaksura-ar.fina"/>
+    <component base="threedotsupabove-ar" xOffset="1010" yOffset="-73"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot_1</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedotsupabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>sheen-ar.medi</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>alefMaksura-ar.fina</string>
+      <string>seen_alefMaksura-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/28 10:12:55</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

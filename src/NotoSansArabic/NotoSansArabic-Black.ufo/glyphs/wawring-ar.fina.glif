@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="wawring-ar.fina" format="2">
+  <advance width="556"/>
+  <anchor x="226" y="-290" name="bottom"/>
+  <anchor x="246" y="-59" name="center"/>
+  <anchor x="264" y="518" name="top"/>
+  <anchor x="264" y="442" name="top.dot"/>
+  <outline>
+    <component base="_wawDotcenter-ar.fina"/>
+    <component base="ringArabic" xScale="0.8" yScale="0.8" xOffset="1" yOffset="-145"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/03/02 14:10:05</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

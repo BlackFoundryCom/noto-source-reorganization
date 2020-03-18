@@ -1,17 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sadTwodotsbelow-ar.medi" format="2">
-  <advance width="949"/>
-  <guideline x="1461" y="473" angle="0"/>
-  <anchor x="487" y="-204" name="bottom"/>
-  <anchor x="651" y="369" name="top"/>
+  <advance width="977"/>
+  <anchor x="523" y="-112" name="bottom"/>
+  <anchor x="523" y="-20" name="bottom.dot"/>
+  <anchor x="580" y="559" name="top"/>
+  <anchor x="623" y="462" name="top.dot"/>
   <outline>
     <component base="sad-ar.medi"/>
-    <component base="twodotshorizontalbelow-ar" xOffset="343" yOffset="-18"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="382" yOffset="-18"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/26 22:28:25</string>
     </dict>
   </lib>
 </glyph>

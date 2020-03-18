@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sukun-ar.isol" format="2">
-  <advance width="235"/>
+  <advance width="229"/>
   <unicode hex="FE7E"/>
-  <anchor x="113" y="458" name="_top"/>
-  <anchor x="122" y="789" name="top"/>
   <outline>
     <component base="sukun-ar"/>
   </outline>
@@ -14,7 +12,11 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=ring-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/25 17:31:32</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

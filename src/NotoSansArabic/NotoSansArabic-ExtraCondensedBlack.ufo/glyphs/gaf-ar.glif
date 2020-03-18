@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gaf-ar" format="2">
+  <advance width="764"/>
+  <unicode hex="06AF"/>
+  <anchor x="244" y="619" name="top"/>
+  <anchor x="336" y="-111" name="bottom"/>
+  <anchor x="336" y="-20" name="bottom.dot"/>
+  <anchor x="622" y="579" name="center"/>
+  <anchor x="463" y="720" name="top.dot"/>
+  <outline>
+    <component base="keheh-ar"/>
+    <component base="_part.Gaf.stroke" xOffset="346" yOffset="22"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 21:53:26</string>
+    </dict>
+  </lib>
+</glyph>

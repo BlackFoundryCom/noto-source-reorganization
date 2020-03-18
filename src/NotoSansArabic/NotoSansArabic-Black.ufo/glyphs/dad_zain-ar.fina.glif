@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dad_zain-ar.fina" format="2">
+  <advance width="1434"/>
+  <anchor x="263" y="586" name="top_2"/>
+  <anchor x="978" y="-111" name="bottom_1"/>
+  <anchor x="148" y="-308" name="bottom_2"/>
+  <anchor x="1064" y="499" name="top.dot_1"/>
+  <anchor x="261" y="340" name="top.dot_2"/>
+  <anchor x="1066" y="745" name="top_1"/>
+  <outline>
+    <component base="dad_reh-ar.fina"/>
+    <component base="dotabove-ar" xOffset="154" yOffset="-210"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot_2</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>reh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>sad-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 20:33:56</string>
+    </dict>
+  </lib>
+</glyph>

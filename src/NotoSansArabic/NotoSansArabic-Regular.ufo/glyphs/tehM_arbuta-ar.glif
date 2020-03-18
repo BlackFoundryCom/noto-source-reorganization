@@ -1,17 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tehMarbuta-ar" format="2">
-  <advance width="405"/>
+  <advance width="492"/>
   <unicode hex="0629"/>
-  <anchor x="207" y="0" name="bottom"/>
-  <anchor x="212" y="659" name="top"/>
+  <anchor x="239" y="-111" name="bottom"/>
+  <anchor x="227" y="612" name="top"/>
+  <anchor x="227" y="543" name="top.dot"/>
   <outline>
     <component base="heh-ar"/>
-    <component base="twodotshorizontalabove-ar" xOffset="65" yOffset="-6"/>
+    <component base="twodotshorizontalabove-ar" xOffset="88" yOffset="111"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/25 17:31:31</string>
     </dict>
   </lib>
 </glyph>

@@ -1,11 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="behThreedotshorizontalbelow-ar.init" format="2">
   <advance width="299"/>
-  <anchor x="113" y="-220" name="bottom"/>
-  <anchor x="147" y="404" name="top"/>
+  <anchor x="136" y="-112" name="bottom"/>
+  <anchor x="138" y="-32" name="bottom.dot"/>
+  <anchor x="160" y="535" name="top"/>
+  <anchor x="164" y="418" name="top.dot"/>
   <outline>
     <component base="dotlessbeh-ar.init.wide"/>
-    <component base="_dots.horz.below" xOffset="-95" yOffset="-12"/>
+    <component base="_dots.horz.below" xOffset="-48" yOffset="-6"/>
   </outline>
   <lib>
     <dict>
@@ -14,7 +16,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>dotlessbeh-ar.init.wide</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/03/02 14:58:58</string>
     </dict>
   </lib>
 </glyph>

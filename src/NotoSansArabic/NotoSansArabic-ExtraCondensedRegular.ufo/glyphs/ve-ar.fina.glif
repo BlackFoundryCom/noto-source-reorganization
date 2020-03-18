@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ve-ar.fina" format="2">
+  <advance width="412"/>
+  <unicode hex="FBDF"/>
+  <anchor x="169" y="-296" name="bottom"/>
+  <anchor x="201" y="-84" name="center"/>
+  <anchor x="196" y="454" name="top"/>
+  <anchor x="196" y="384" name="top.dot"/>
+  <outline>
+    <component base="waw-ar.fina"/>
+    <component base="threedotsupabove-ar" xOffset="84" yOffset="-48"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedotsupabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

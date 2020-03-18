@@ -1,24 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sad_alefMaksura-ar.fina" format="2">
-  <advance width="1685"/>
+  <advance width="1626"/>
   <unicode hex="FD21"/>
-  <anchor x="736" y="0" name="caret_1"/>
-  <anchor x="1220" y="-18" name="bottom_1"/>
-  <anchor x="326" y="-232" name="bottom_2"/>
-  <anchor x="1387" y="369" name="top_1"/>
-  <anchor x="216" y="150" name="top_2"/>
+  <anchor x="351" y="-244" name="bottom.dot_2"/>
+  <anchor x="1172" y="-112" name="bottom_1"/>
+  <anchor x="351" y="-281" name="bottom_2"/>
+  <anchor x="1273" y="462" name="top.dot_1"/>
+  <anchor x="136" y="194" name="top.dot_2"/>
+  <anchor x="1229" y="559" name="top_1"/>
+  <anchor x="272" y="372" name="top_2"/>
   <outline>
-    <component base="sad-ar.medi" xOffset="736"/>
-    <component base="alefMaksura-ar.fina"/>
+    <component base="sad_alefMaksura-ar"/>
+    <component base="_part.instroke" xOffset="1431"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>sad-ar.medi</string>
+      <string>noonghunna-ar</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>alefMaksura-ar.fina</string>
+      <string>sad-ar.medi</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/26 20:51:29</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

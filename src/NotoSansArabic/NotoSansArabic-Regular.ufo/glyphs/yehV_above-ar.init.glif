@@ -1,17 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yehVabove-ar.init" format="2">
   <advance width="299"/>
-  <anchor x="116" y="-191" name="bottom"/>
-  <anchor x="148" y="731" name="top"/>
+  <anchor x="136" y="-112" name="bottom"/>
+  <anchor x="138" y="-32" name="bottom.dot"/>
+  <anchor x="160" y="535" name="top"/>
+  <anchor x="164" y="418" name="top.dot"/>
   <outline>
     <component base="dotlessbeh-ar.init.wide"/>
-    <component base="vabove-ar" xOffset="32" yOffset="-26"/>
-    <component base="twodotshorizontalbelow-ar" xOffset="-28" yOffset="-5"/>
+    <component base="vabove-ar" xOffset="29" yOffset="-14"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="-3" yOffset="-30"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>vabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/03/02 14:58:58</string>
     </dict>
   </lib>
 </glyph>

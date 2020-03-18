@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamThreedotsabove_alef-ar.fina" format="2">
+  <advance width="709"/>
+  <anchor x="514" y="1108" name="top_1"/>
+  <anchor x="512" y="-10" name="bottom.dot_1"/>
+  <anchor x="166" y="-20" name="bottom.dot_2"/>
+  <anchor x="495" y="-111" name="bottom_1"/>
+  <anchor x="164" y="-110" name="bottom_2"/>
+  <anchor x="530" y="601" name="center"/>
+  <anchor x="147" y="697" name="top_2"/>
+  <outline>
+    <component base="lam_alef-ar.fina"/>
+    <component base="threedotsupabove-ar" xScale="0.9" yScale="0.9" xOffset="344" yOffset="256"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top_1</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedotsupabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>lam_alef-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>_part.instroke</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 14:12:52</string>
+    </dict>
+  </lib>
+</glyph>

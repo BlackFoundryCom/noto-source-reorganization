@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hahThreedotsupbelow-ar.init" format="2">
+  <advance width="703"/>
+  <guideline x="448" y="-114" angle="0"/>
+  <anchor x="377" y="-111" name="bottom"/>
+  <anchor x="377" y="42" name="bottom.dot"/>
+  <anchor x="304" y="491" name="top"/>
+  <anchor x="302" y="409" name="top.dot"/>
+  <outline>
+    <component base="hah-ar.init"/>
+    <component base="threedotsupbelow-ar" xOffset="269" yOffset="51"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 17:00:04</string>
+    </dict>
+  </lib>
+</glyph>

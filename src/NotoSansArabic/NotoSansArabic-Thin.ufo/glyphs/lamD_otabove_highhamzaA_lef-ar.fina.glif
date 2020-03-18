@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamDotabove_highhamzaAlef-ar.fina" format="2">
+  <advance width="687"/>
+  <anchor x="139" y="758" name="top_2"/>
+  <anchor x="167" y="-20" name="bottom.dot"/>
+  <anchor x="481" y="-20" name="bottom.dot_1"/>
+  <anchor x="484" y="-111" name="bottom_1"/>
+  <anchor x="167" y="-111" name="bottom_2"/>
+  <anchor x="523" y="535" name="center"/>
+  <anchor x="520" y="886" name="top_1"/>
+  <outline>
+    <component base="lamDotabove_alef-ar.fina.short"/>
+    <component base="highhamza-ar" xScale="0.9" yScale="0.9" xOffset="238" yOffset="190"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>lam_alef-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 14:12:26</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

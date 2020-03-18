@@ -1,26 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni08D8" format="2">
   <unicode hex="08D8"/>
-  <anchor x="162" y="458" name="_top"/>
-  <anchor x="145" y="979" name="top"/>
+  <anchor x="134" y="833" name="top"/>
   <outline>
-    <contour>
-      <point x="40" y="576" type="line"/>
-      <point x="264" y="641" type="line"/>
-      <point x="264" y="696" type="line"/>
-      <point x="40" y="630" type="line"/>
-    </contour>
-    <component base="noonabove-ar" xOffset="17" yOffset="110"/>
+    <component base="fatha-ar" xScale="0.96098" yScale="0.96098"/>
+    <component base="noonabove-ar" xScale="0.96" yScale="0.96" xOffset="11" yOffset="94"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/29 22:27:30</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>304</integer>
+      <integer>283</integer>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
-        <integer>-1</integer>
+        <integer>1</integer>
+        <integer>0</integer>
       </array>
     </dict>
   </lib>

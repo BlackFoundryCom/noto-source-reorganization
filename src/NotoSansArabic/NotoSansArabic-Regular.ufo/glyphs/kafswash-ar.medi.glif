@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kafswash-ar.medi" format="2">
-  <advance width="838"/>
-  <anchor x="391" y="-5" name="bottom"/>
-  <anchor x="455" y="546" name="top"/>
+  <advance width="968"/>
+  <anchor x="324" y="-111" name="bottom"/>
+  <anchor x="339" y="664" name="top"/>
   <outline>
     <component base="kafswash-ar.init"/>
-    <component base="_part.instroke" xOffset="665"/>
+    <component base="_part.instroke" xOffset="773"/>
   </outline>
   <lib>
     <dict>
@@ -14,10 +14,10 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>_part.instroke</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/26 20:51:00</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
-        <integer>0</integer>
+        <integer>-1</integer>
         <integer>-1</integer>
       </array>
     </dict>

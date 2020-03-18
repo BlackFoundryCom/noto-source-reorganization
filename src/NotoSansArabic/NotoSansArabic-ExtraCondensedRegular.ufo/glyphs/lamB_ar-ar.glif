@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lamBar-ar" format="2">
+  <advance width="557"/>
+  <unicode hex="076A"/>
+  <anchor x="258" y="-272" name="bottom"/>
+  <anchor x="258" y="-219" name="bottom.dot"/>
+  <anchor x="452" y="418" name="center"/>
+  <anchor x="166" y="498" name="top"/>
+  <anchor x="444" y="726" name="top.dot"/>
+  <outline>
+    <component base="lam-ar"/>
+    <component base="_bar" xOffset="292" yOffset="8"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>lam-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:32</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

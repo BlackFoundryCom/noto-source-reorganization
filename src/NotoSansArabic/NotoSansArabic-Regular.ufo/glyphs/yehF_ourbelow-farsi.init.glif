@@ -1,11 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yehFourbelow-farsi.init" format="2">
-  <advance width="299"/>
-  <anchor x="113" y="-5" name="bottom"/>
-  <anchor x="147" y="404" name="top"/>
+  <advance width="318"/>
+  <anchor x="136" y="-112" name="bottom"/>
+  <anchor x="138" y="-32" name="bottom.dot"/>
+  <anchor x="160" y="535" name="top"/>
+  <anchor x="164" y="418" name="top.dot"/>
   <outline>
     <component base="dotlessbeh-ar.init.wide"/>
-    <component base="four-persian.small01" xOffset="35" yOffset="-896"/>
+    <component base="four-persianbelow-ar" xOffset="32" yOffset="-32"/>
   </outline>
   <lib>
     <dict>
@@ -14,11 +16,11 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>dotlessbeh-ar.init.wide</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/03/02 14:58:58</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
-        <integer>0</integer>
         <integer>-1</integer>
+        <integer>0</integer>
       </array>
     </dict>
   </lib>

@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni08BD" format="2">
-  <advance width="685"/>
+  <advance width="692"/>
   <unicode hex="08BD"/>
-  <anchor x="313" y="-232" name="bottom"/>
-  <anchor x="331" y="295" name="top"/>
+  <anchor x="331" y="-280" name="bottom"/>
+  <anchor x="332" y="-232" name="bottom.dot"/>
+  <anchor x="351" y="268" name="top.dot"/>
   <outline>
     <component base="noonghunna-ar"/>
   </outline>
@@ -12,7 +13,7 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/25 17:31:31</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>arabic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

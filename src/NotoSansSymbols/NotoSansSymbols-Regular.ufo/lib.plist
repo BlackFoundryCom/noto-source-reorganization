@@ -2,14 +2,45 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>GSOffsetHorizontal</key>
+    <integer>55</integer>
+    <key>GSOffsetVertical</key>
+    <integer>50</integer>
+    <key>com.schriftgestaltung.Glyphs.glyphUserData.copyleft</key>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>C</string>
+      </dict>
+    </dict>
+    <key>com.schriftgestaltung.Glyphs.glyphUserData.raisedMrSign</key>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>source</key>
+        <string>R</string>
+      </dict>
+    </dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>996</string>
+    <string>1286</string>
+    <key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
+    <array>
+      <dict>
+        <key>Name</key>
+        <string>Weight</string>
+        <key>Tag</key>
+        <string>wght</string>
+      </dict>
+    </array>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
     <string></string>
+    <key>com.schriftgestaltung.customParameter.GSFont.Enforce Compatibility Check</key>
+    <integer>1</integer>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
-    <integer>0</integer>
+    <integer>1</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
     <integer>0</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue1</key>
@@ -24,8 +55,6 @@
     <integer>90</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
     <integer>100</integer>
-    <key>com.schriftgestaltung.customParameter.GSFontMaster.xHeight</key>
-    <string>536</string>
     <key>com.schriftgestaltung.fontMasterOrder</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.keyboardIncrement</key>
@@ -488,6 +517,7 @@
       <string>control</string>
       <string>copperAntimoniate-alchemical</string>
       <string>copperOre-alchemical</string>
+      <string>copyleft</string>
       <string>counterbore</string>
       <string>countersink</string>
       <string>crocusOfCopper-alchemical</string>
@@ -880,8 +910,8 @@
       <string>one_zero.sansSerifCircled</string>
       <string>one_zero_period</string>
       <string>onethousand-roman</string>
-      <string>open-circuit-outputh-typesymbol</string>
-      <string>open-circuit-outputl-typesymbol</string>
+      <string>openCircuitOutputHType</string>
+      <string>openCircuitOutputLType</string>
       <string>ophiuchus</string>
       <string>opposition</string>
       <string>orthodoxCross</string>
@@ -898,8 +928,8 @@
       <string>p.paren</string>
       <string>pallas</string>
       <string>partiallyRecycledPaperSymbol</string>
-      <string>passive-pull-down-outputsymbol</string>
-      <string>passive-pull-up-outputsymbol</string>
+      <string>passivePullDownOutputsymbol</string>
+      <string>passivePullUpOutputsymbol</string>
       <string>peace</string>
       <string>pentagram</string>
       <string>permanentPaperSign</string>
@@ -941,6 +971,7 @@
       <string>r.paren</string>
       <string>raisedMcSign</string>
       <string>raisedMdSign</string>
+      <string>raisedMrSign</string>
       <string>realgar-alchemical</string>
       <string>realgar2-alchemical</string>
       <string>recycledPaperSymbol</string>
@@ -1034,7 +1065,7 @@
       <string>slope</string>
       <string>smile</string>
       <string>soap-alchemical</string>
-      <string>software-functionsymbol</string>
+      <string>softwareFunctionsymbol</string>
       <string>southEastArrow</string>
       <string>southWestArrow</string>
       <string>space</string>
@@ -1129,37 +1160,37 @@
       <string>u.001_encupwardpointingtricomb</string>
       <string>u.circled</string>
       <string>u.paren</string>
-      <string>u1f12a</string>
-      <string>u1f12b</string>
-      <string>u1f12c</string>
-      <string>u1f12d</string>
-      <string>u1f12e</string>
-      <string>u1f18a</string>
-      <string>u1f18b</string>
-      <string>u1f18c</string>
-      <string>u1f18d</string>
-      <string>u1f18e</string>
-      <string>u1f18f</string>
-      <string>u1f190</string>
-      <string>u1f19b</string>
-      <string>u1f19c</string>
-      <string>u1f19d</string>
-      <string>u1f19e</string>
-      <string>u1f19f</string>
-      <string>u1f1a0</string>
-      <string>u1f1a1</string>
-      <string>u1f1a2</string>
-      <string>u1f1a3</string>
-      <string>u1f1a4</string>
-      <string>u1f1a5</string>
-      <string>u1f1a6</string>
-      <string>u1f1a7</string>
-      <string>u1f1a8</string>
-      <string>u1f1a9</string>
-      <string>u1f1aa</string>
-      <string>u1f1ab</string>
-      <string>u1f1ac</string>
-      <string>u1f54f</string>
+      <string>u1F12A</string>
+      <string>u1F12B</string>
+      <string>u1F12C</string>
+      <string>u1F12D</string>
+      <string>u1F12E</string>
+      <string>u1F18A</string>
+      <string>u1F18B</string>
+      <string>u1F18C</string>
+      <string>u1F18D</string>
+      <string>u1F18E</string>
+      <string>u1F18F</string>
+      <string>u1F190</string>
+      <string>u1F19B</string>
+      <string>u1F19C</string>
+      <string>u1F19D</string>
+      <string>u1F19E</string>
+      <string>u1F19F</string>
+      <string>u1F1A0</string>
+      <string>u1F1A1</string>
+      <string>u1F1A2</string>
+      <string>u1F1A3</string>
+      <string>u1F1A4</string>
+      <string>u1F1A5</string>
+      <string>u1F1A6</string>
+      <string>u1F1A7</string>
+      <string>u1F1A8</string>
+      <string>u1F1A9</string>
+      <string>u1F1AA</string>
+      <string>u1F1AB</string>
+      <string>u1F1AC</string>
+      <string>u1F54F</string>
       <string>umbrellaOnGround</string>
       <string>undosymbol</string>
       <string>unmarriedPartnershipSymbol</string>
@@ -1192,7 +1223,7 @@
       <string>verticallineextension</string>
       <string>verticaltriangle-dentistry</string>
       <string>vesta</string>
-      <string>viewdataDquare</string>
+      <string>viewdataSquare</string>
       <string>vinegar-alchemical</string>
       <string>vinegar2-alchemical</string>
       <string>vinegar3-alchemical</string>
@@ -1710,6 +1741,7 @@
       <string>control</string>
       <string>copperAntimoniate-alchemical</string>
       <string>copperOre-alchemical</string>
+      <string>copyleft</string>
       <string>counterbore</string>
       <string>countersink</string>
       <string>crocusOfCopper-alchemical</string>
@@ -2102,8 +2134,8 @@
       <string>one_zero.sansSerifCircled</string>
       <string>one_zero_period</string>
       <string>onethousand-roman</string>
-      <string>open-circuit-outputh-typesymbol</string>
-      <string>open-circuit-outputl-typesymbol</string>
+      <string>openCircuitOutputHType</string>
+      <string>openCircuitOutputLType</string>
       <string>ophiuchus</string>
       <string>opposition</string>
       <string>orthodoxCross</string>
@@ -2120,8 +2152,8 @@
       <string>p.paren</string>
       <string>pallas</string>
       <string>partiallyRecycledPaperSymbol</string>
-      <string>passive-pull-down-outputsymbol</string>
-      <string>passive-pull-up-outputsymbol</string>
+      <string>passivePullDownOutputsymbol</string>
+      <string>passivePullUpOutputsymbol</string>
       <string>peace</string>
       <string>pentagram</string>
       <string>permanentPaperSign</string>
@@ -2163,6 +2195,7 @@
       <string>r.paren</string>
       <string>raisedMcSign</string>
       <string>raisedMdSign</string>
+      <string>raisedMrSign</string>
       <string>realgar-alchemical</string>
       <string>realgar2-alchemical</string>
       <string>recycledPaperSymbol</string>
@@ -2256,7 +2289,7 @@
       <string>slope</string>
       <string>smile</string>
       <string>soap-alchemical</string>
-      <string>software-functionsymbol</string>
+      <string>softwareFunctionsymbol</string>
       <string>southEastArrow</string>
       <string>southWestArrow</string>
       <string>space</string>
@@ -2351,37 +2384,37 @@
       <string>u.001_encupwardpointingtricomb</string>
       <string>u.circled</string>
       <string>u.paren</string>
-      <string>u1f12a</string>
-      <string>u1f12b</string>
-      <string>u1f12c</string>
-      <string>u1f12d</string>
-      <string>u1f12e</string>
-      <string>u1f18a</string>
-      <string>u1f18b</string>
-      <string>u1f18c</string>
-      <string>u1f18d</string>
-      <string>u1f18e</string>
-      <string>u1f18f</string>
-      <string>u1f190</string>
-      <string>u1f19b</string>
-      <string>u1f19c</string>
-      <string>u1f19d</string>
-      <string>u1f19e</string>
-      <string>u1f19f</string>
-      <string>u1f1a0</string>
-      <string>u1f1a1</string>
-      <string>u1f1a2</string>
-      <string>u1f1a3</string>
-      <string>u1f1a4</string>
-      <string>u1f1a5</string>
-      <string>u1f1a6</string>
-      <string>u1f1a7</string>
-      <string>u1f1a8</string>
-      <string>u1f1a9</string>
-      <string>u1f1aa</string>
-      <string>u1f1ab</string>
-      <string>u1f1ac</string>
-      <string>u1f54f</string>
+      <string>u1F12A</string>
+      <string>u1F12B</string>
+      <string>u1F12C</string>
+      <string>u1F12D</string>
+      <string>u1F12E</string>
+      <string>u1F18A</string>
+      <string>u1F18B</string>
+      <string>u1F18C</string>
+      <string>u1F18D</string>
+      <string>u1F18E</string>
+      <string>u1F18F</string>
+      <string>u1F190</string>
+      <string>u1F19B</string>
+      <string>u1F19C</string>
+      <string>u1F19D</string>
+      <string>u1F19E</string>
+      <string>u1F19F</string>
+      <string>u1F1A0</string>
+      <string>u1F1A1</string>
+      <string>u1F1A2</string>
+      <string>u1F1A3</string>
+      <string>u1F1A4</string>
+      <string>u1F1A5</string>
+      <string>u1F1A6</string>
+      <string>u1F1A7</string>
+      <string>u1F1A8</string>
+      <string>u1F1A9</string>
+      <string>u1F1AA</string>
+      <string>u1F1AB</string>
+      <string>u1F1AC</string>
+      <string>u1F54F</string>
       <string>umbrellaOnGround</string>
       <string>undosymbol</string>
       <string>unmarriedPartnershipSymbol</string>
@@ -2414,7 +2447,7 @@
       <string>verticallineextension</string>
       <string>verticaltriangle-dentistry</string>
       <string>vesta</string>
-      <string>viewdataDquare</string>
+      <string>viewdataSquare</string>
       <string>vinegar-alchemical</string>
       <string>vinegar2-alchemical</string>
       <string>vinegar3-alchemical</string>
@@ -3493,10 +3526,10 @@
       <string>uni2491</string>
       <key>onethousand-roman</key>
       <string>uni217F</string>
-      <key>open-circuit-outputh-typesymbol</key>
-      <string>opencircuitoutputhtypesymbol</string>
-      <key>open-circuit-outputl-typesymbol</key>
-      <string>opencircuitoutputltypesymbol</string>
+      <key>openCircuitOutputHType</key>
+      <string>uni238F</string>
+      <key>openCircuitOutputLType</key>
+      <string>uni2390</string>
       <key>ophiuchus</key>
       <string>uni26CE</string>
       <key>opposition</key>
@@ -3515,10 +3548,10 @@
       <string>uni26B4</string>
       <key>partiallyRecycledPaperSymbol</key>
       <string>uni267D</string>
-      <key>passive-pull-down-outputsymbol</key>
-      <string>passivepulldownoutputsymbol</string>
-      <key>passive-pull-up-outputsymbol</key>
-      <string>passivepullupoutputsymbol</string>
+      <key>passivePullDownOutputsymbol</key>
+      <string>uni2391</string>
+      <key>passivePullUpOutputsymbol</key>
+      <string>uni2392</string>
       <key>peace</key>
       <string>uni262E</string>
       <key>pentagram</key>
@@ -3717,8 +3750,8 @@
       <string>uni2323</string>
       <key>soap-alchemical</key>
       <string>u1F754</string>
-      <key>software-functionsymbol</key>
-      <string>softwarefunctionsymbol</string>
+      <key>softwareFunctionsymbol</key>
+      <string>uni2394</string>
       <key>southEastArrow</key>
       <string>uni2198</string>
       <key>southWestArrow</key>
@@ -3899,6 +3932,8 @@
       <string>uni23C3</string>
       <key>vesta</key>
       <string>uni26B6</string>
+      <key>viewdataSquare</key>
+      <string>uni2317</string>
       <key>vinegar-alchemical</key>
       <string>u1F70A</string>
       <key>vinegar2-alchemical</key>

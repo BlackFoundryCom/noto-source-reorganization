@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftarrowheadbelow-ar" format="2">
+  <unicode hex="08F9"/>
+  <anchor x="89" y="-4" name="_bottom"/>
+  <anchor x="87" y="-232" name="bottom"/>
+  <outline>
+    <component base="leftarrowheadabove-ar" xOffset="-3" yOffset="-713"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|leftarrowheadabove-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|leftarrowheadabove-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/26 20:50:54</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>184</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

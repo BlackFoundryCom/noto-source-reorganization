@@ -1,12 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tah-ar.fina" format="2">
-  <advance width="831"/>
+  <advance width="911"/>
   <unicode hex="FEC2"/>
-  <anchor x="369" y="-13" name="bottom"/>
-  <anchor x="516" y="374" name="top"/>
+  <anchor x="423" y="-112" name="bottom"/>
+  <anchor x="423" y="-20" name="bottom.dot"/>
+  <anchor x="581" y="566" name="top"/>
+  <anchor x="592" y="460" name="top.dot"/>
   <outline>
     <component base="tah-ar"/>
-    <component base="_part.instroke" xOffset="658"/>
+    <component base="_part.instroke" xOffset="716"/>
   </outline>
   <lib>
     <dict>
@@ -15,10 +17,10 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>_part.instroke</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/25 17:31:31</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
-        <integer>0</integer>
+        <integer>-1</integer>
         <integer>-1</integer>
       </array>
     </dict>

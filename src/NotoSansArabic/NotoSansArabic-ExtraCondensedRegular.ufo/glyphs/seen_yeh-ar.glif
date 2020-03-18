@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seen_yeh-ar" format="2">
+  <advance width="1222"/>
+  <unicode hex="FCFC"/>
+  <anchor x="282" y="-432" name="bottom_2"/>
+  <anchor x="281" y="-244" name="bottom.dot_2"/>
+  <anchor x="920" y="-111" name="bottom_1"/>
+  <anchor x="920" y="359" name="top.dot_1"/>
+  <anchor x="109" y="194" name="top.dot_2"/>
+  <anchor x="918" y="475" name="top_1"/>
+  <anchor x="218" y="372" name="top_2"/>
+  <outline>
+    <component base="seen_alefMaksura-ar"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="168" yOffset="-242"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot_2</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalbelow-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>seen_alefMaksura-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>seen-ar.init</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 10:12:55</string>
+    </dict>
+  </lib>
+</glyph>

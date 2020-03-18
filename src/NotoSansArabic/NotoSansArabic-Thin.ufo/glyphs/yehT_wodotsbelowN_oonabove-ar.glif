@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehTwodotsbelowNoonabove-ar" format="2">
+  <advance width="789"/>
+  <unicode hex="08BA"/>
+  <guideline x="-1178" y="-301" angle="0"/>
+  <anchor x="200" y="524" name="top"/>
+  <anchor x="347" y="-281" name="bottom"/>
+  <anchor x="347" y="-246" name="bottom.dot"/>
+  <anchor x="115" y="181" name="top.dot"/>
+  <outline>
+    <component base="alefMaksura-ar"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="239" yOffset="-246"/>
+    <component base="noonabove-ar" xOffset="81" yOffset="-165"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 14:54:42</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>arabic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

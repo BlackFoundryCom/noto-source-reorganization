@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="rnoon-ar.fina" format="2">
-  <advance width="730"/>
+  <advance width="760"/>
   <unicode hex="FBA1"/>
-  <anchor x="313" y="-232" name="bottom"/>
-  <anchor x="341" y="685" name="top"/>
+  <anchor x="331" y="-280" name="bottom"/>
+  <anchor x="332" y="-232" name="bottom.dot"/>
+  <anchor x="351" y="270" name="top.dot"/>
   <outline>
     <component base="noonghunna-ar.fina"/>
-    <component base="uniFBC0" xOffset="198" yOffset="-163"/>
+    <component base="uniFBC0" xOffset="182" yOffset="-162"/>
   </outline>
   <lib>
     <dict>
@@ -15,7 +16,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>noonghunna-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/25 17:31:31</string>
     </dict>
   </lib>
 </glyph>

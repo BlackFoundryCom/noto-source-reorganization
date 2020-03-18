@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kehehTwodotshorizontalabove-ar" format="2">
+  <advance width="955"/>
+  <unicode hex="063B"/>
+  <anchor x="420" y="-111" name="bottom"/>
+  <anchor x="420" y="-20" name="bottom.dot"/>
+  <anchor x="778" y="579" name="center"/>
+  <anchor x="305" y="619" name="top"/>
+  <anchor x="601" y="612" name="top.dot"/>
+  <outline>
+    <component base="keheh-ar"/>
+    <component base="twodotshorizontalabove-ar.v2" xScale="0.74" yScale="0.74" xOffset="451" yOffset="205"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 21:53:26</string>
+    </dict>
+  </lib>
+</glyph>

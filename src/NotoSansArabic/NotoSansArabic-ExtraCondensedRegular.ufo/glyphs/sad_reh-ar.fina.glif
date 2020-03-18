@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sad_reh-ar.fina" format="2">
+  <advance width="1123"/>
+  <unicode hex="FD2B"/>
+  <anchor x="759" y="-112" name="bottom_1"/>
+  <anchor x="104" y="-301" name="bottom_2"/>
+  <anchor x="840" y="462" name="top.dot_1"/>
+  <anchor x="226" y="297" name="top.dot_2"/>
+  <anchor x="806" y="559" name="top_1"/>
+  <anchor x="222" y="445" name="top_2"/>
+  <outline>
+    <component base="sad_reh-ar"/>
+    <component base="_part.instroke" xOffset="967"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>reh-ar.fina</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>sad-ar.medi</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 20:33:40</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.65,0.48,0.2,1</string>
+    </dict>
+  </lib>
+</glyph>

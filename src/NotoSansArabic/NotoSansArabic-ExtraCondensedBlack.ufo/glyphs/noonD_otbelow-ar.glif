@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonDotbelow-ar" format="2">
+  <advance width="590"/>
+  <unicode hex="06B9"/>
+  <anchor x="274" y="-274" name="bottom"/>
+  <anchor x="275" y="-214" name="bottom.dot"/>
+  <anchor x="290" y="280" name="top.dot"/>
+  <outline>
+    <component base="noon-ar"/>
+    <component base="dotbelow-ar" xOffset="190" yOffset="-209"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

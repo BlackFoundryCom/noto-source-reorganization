@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oe-ar" format="2">
+  <advance width="461"/>
+  <unicode hex="06C6"/>
+  <anchor x="201" y="-300" name="bottom"/>
+  <anchor x="241" y="-96" name="center"/>
+  <anchor x="233" y="413" name="top"/>
+  <anchor x="233" y="347" name="top.dot"/>
+  <outline>
+    <component base="waw-ar"/>
+    <component base="vabove-ar" xOffset="112" yOffset="-9"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

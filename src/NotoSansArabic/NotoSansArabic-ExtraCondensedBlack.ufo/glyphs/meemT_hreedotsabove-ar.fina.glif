@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="meemThreedotsabove-ar.fina" format="2">
+  <advance width="602"/>
+  <guideline x="4" y="596" angle="0"/>
+  <anchor x="353" y="-111" name="bottom"/>
+  <anchor x="353" y="-20" name="bottom.dot"/>
+  <anchor x="350" y="590" name="top"/>
+  <anchor x="352" y="480" name="top.dot"/>
+  <outline>
+    <component base="meem-ar.fina"/>
+    <component base="threedotsupabove-ar" xOffset="198" yOffset="-70"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>threedotsupabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

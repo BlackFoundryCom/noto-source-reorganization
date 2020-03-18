@@ -1,16 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="reh-ar.isol" format="2">
-  <advance width="367"/>
+  <advance width="458"/>
   <unicode hex="FEAD"/>
-  <anchor x="137" y="-214" name="bottom"/>
-  <anchor x="176" y="351" name="top"/>
+  <anchor x="130" y="-301" name="bottom"/>
+  <anchor x="130" y="-252" name="bottom.dot"/>
+  <anchor x="201" y="13" name="center"/>
+  <anchor x="243" y="493" name="top"/>
+  <anchor x="247" y="354" name="top.dot"/>
   <outline>
     <component base="reh-ar"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/28 20:30:05</string>
     </dict>
   </lib>
 </glyph>

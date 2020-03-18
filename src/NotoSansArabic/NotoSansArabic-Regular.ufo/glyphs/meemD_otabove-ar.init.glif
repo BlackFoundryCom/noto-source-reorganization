@@ -1,17 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="meemDotabove-ar.init" format="2">
-  <advance width="525"/>
-  <guideline x="938" y="465" angle="0"/>
-  <anchor x="263" y="0" name="bottom"/>
-  <anchor x="305" y="560" name="top"/>
+  <advance width="610"/>
+  <anchor x="381" y="-111" name="bottom"/>
+  <anchor x="381" y="-20" name="bottom.dot"/>
+  <anchor x="394" y="528" name="top"/>
+  <anchor x="394" y="425" name="top.dot"/>
   <outline>
     <component base="meem-ar.init"/>
-    <component base="dotabove-ar" xOffset="229" yOffset="-105"/>
+    <component base="dotabove-ar" xOffset="319" yOffset="-7"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/28 10:08:33</string>
     </dict>
   </lib>
 </glyph>

@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uHamzaabove-ar.isol" format="2">
-  <advance width="597"/>
+  <advance width="518"/>
   <unicode hex="FBDD"/>
-  <anchor x="285" y="-240" name="bottom"/>
-  <anchor x="202" y="626" name="top"/>
+  <anchor x="211" y="-296" name="bottom"/>
+  <anchor x="251" y="-84" name="center"/>
+  <anchor x="255" y="716" name="top"/>
+  <anchor x="245" y="384" name="top.dot"/>
   <outline>
     <component base="uHamzaabove-ar"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/28 17:36:27</string>
     </dict>
   </lib>
 </glyph>

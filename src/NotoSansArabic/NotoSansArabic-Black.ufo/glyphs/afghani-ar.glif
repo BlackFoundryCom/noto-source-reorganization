@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afghani-ar" format="2">
+  <advance width="548"/>
+  <unicode hex="060B"/>
+  <anchor x="294" y="-367" name="bottom"/>
+  <anchor x="294" y="-21" name="bottom.dot"/>
+  <anchor x="267" y="717" name="top"/>
+  <anchor x="271" y="595" name="top.dot"/>
+  <outline>
+    <component base="dotlessfeh-ar.init"/>
+    <component base="dotabove-ar" xOffset="164" yOffset="45"/>
+    <component base="alefbelow-ar" xOffset="207" yOffset="-111"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 21:34:08</string>
+    </dict>
+  </lib>
+</glyph>

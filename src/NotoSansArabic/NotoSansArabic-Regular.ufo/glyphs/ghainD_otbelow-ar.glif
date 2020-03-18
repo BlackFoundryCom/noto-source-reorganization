@@ -1,24 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ghainDotbelow-ar" format="2">
-  <advance width="507"/>
+  <advance width="578"/>
   <unicode hex="06FC"/>
-  <anchor x="343" y="-394" name="bottom"/>
-  <anchor x="326" y="-38" name="top"/>
+  <anchor x="333" y="-435" name="bottom"/>
+  <anchor x="368" y="-89" name="center"/>
+  <anchor x="304" y="623" name="top"/>
+  <anchor x="304" y="534" name="top.dot"/>
   <outline>
     <component base="ain-ar"/>
-    <component base="dotabove-ar" xOffset="166" yOffset="36"/>
-    <component base="dotabove-ar" xOffset="250" yOffset="-703"/>
+    <component base="dotabove-ar" xOffset="229" yOffset="102"/>
+    <component base="dotcenter-ar" xOffset="292" yOffset="-291"/>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>-1</integer>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotabove-ar</string>
+        </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/29 12:22:36</string>
     </dict>
   </lib>
 </glyph>

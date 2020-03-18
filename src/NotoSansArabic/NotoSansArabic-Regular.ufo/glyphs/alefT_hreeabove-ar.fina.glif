@@ -1,18 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="alefThreeabove-ar.fina" format="2">
-  <advance width="369"/>
-  <anchor x="214" y="0" name="bottom"/>
-  <anchor x="190" y="714" name="top"/>
+  <advance width="376"/>
+  <anchor x="216" y="-111" name="bottom"/>
+  <anchor x="216" y="-17" name="bottom.dot"/>
+  <anchor x="182" y="756" name="top"/>
   <outline>
-    <component base="alef-ar.fina" xOffset="78"/>
-    <component base="three-persian.small01" xOffset="-20" yOffset="74"/>
+    <component base="alef-ar.fina" xOffset="50"/>
+    <component base="three-persian.small01" xOffset="-6" yOffset="154"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>alefTwoabove-ar</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=alef-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/26 20:51:00</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>-1</integer>

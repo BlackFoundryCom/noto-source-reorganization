@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tehMarbuta-ar.fina" format="2">
+  <advance width="625"/>
+  <unicode hex="FE94"/>
+  <anchor x="305" y="-111" name="bottom"/>
+  <anchor x="350" y="704" name="top"/>
+  <anchor x="358" y="621" name="top.dot"/>
+  <outline>
+    <component base="heh-ar.fina"/>
+    <component base="twodotshorizontalabove-ar" xOffset="166" yOffset="71"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

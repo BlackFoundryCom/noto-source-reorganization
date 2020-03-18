@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kafDotabove-ar.fina" format="2">
-  <advance width="922"/>
-  <anchor x="410" y="-21" name="bottom"/>
-  <anchor x="467" y="730" name="top"/>
+  <advance width="960"/>
+  <anchor x="450" y="-111" name="bottom"/>
+  <anchor x="451" y="-20" name="bottom.dot"/>
+  <anchor x="462" y="632" name="top"/>
+  <anchor x="793" y="726" name="top.dot"/>
   <outline>
     <component base="kaf-ar.fina"/>
-    <component base="dotabove-ar" xOffset="391" yOffset="65"/>
+    <component base="dotabove-ar" xOffset="718" yOffset="294"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/29 21:26:40</string>
     </dict>
   </lib>
 </glyph>

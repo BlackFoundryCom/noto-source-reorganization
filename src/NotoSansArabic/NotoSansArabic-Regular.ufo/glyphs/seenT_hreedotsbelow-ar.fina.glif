@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="seenThreedotsbelow-ar.fina" format="2">
-  <advance width="1269"/>
-  <anchor x="848" y="-299" name="bottom"/>
-  <anchor x="821" y="332" name="top"/>
+  <advance width="1373"/>
+  <anchor x="912" y="-111" name="bottom"/>
+  <anchor x="912" y="-20" name="bottom.dot"/>
+  <anchor x="917" y="483" name="top"/>
+  <anchor x="922" y="361" name="top.dot"/>
   <outline>
     <component base="seen-ar.fina"/>
-    <component base="threedotsupbelow-ar" xOffset="703"/>
+    <component base="threedotsdownbelow-ar" xOffset="779" yOffset="-12"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/29 20:24:14</string>
     </dict>
   </lib>
 </glyph>

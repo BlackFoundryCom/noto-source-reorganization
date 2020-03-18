@@ -1,17 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="meemDotbelow-ar" format="2">
-  <advance width="484"/>
+  <advance width="563"/>
   <unicode hex="0766"/>
-  <anchor x="260" y="-186" name="bottom"/>
-  <anchor x="263" y="382" name="top"/>
+  <anchor x="318" y="-111" name="bottom"/>
+  <anchor x="318" y="-20" name="bottom.dot"/>
+  <anchor x="278" y="528" name="top"/>
+  <anchor x="280" y="425" name="top.dot"/>
   <outline>
     <component base="meem-ar"/>
-    <component base="dotbelow-ar" xOffset="184" yOffset="2"/>
+    <component base="dotbelow-ar" xOffset="243" yOffset="-18"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/28 17:19:28</string>
     </dict>
   </lib>
 </glyph>

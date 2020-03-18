@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noon-ar.fina" format="2">
+  <advance width="618"/>
+  <unicode hex="FEE6"/>
+  <guideline x="5" y="548" angle="0"/>
+  <anchor x="274" y="-274" name="bottom"/>
+  <anchor x="275" y="-214" name="bottom.dot"/>
+  <anchor x="290" y="280" name="top.dot"/>
+  <outline>
+    <component base="noonghunna-ar.fina"/>
+    <component base="dotabove-ar" xOffset="204" yOffset="-270"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

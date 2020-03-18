@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ainTwodotshorizontalabove-ar.fina" format="2">
+  <advance width="628"/>
+  <anchor x="333" y="-415" name="bottom"/>
+  <anchor x="350" y="-86" name="center"/>
+  <anchor x="320" y="616" name="top"/>
+  <anchor x="320" y="489" name="top.dot"/>
+  <outline>
+    <component base="ain-ar.fina"/>
+    <component base="twodotshorizontalabove-ar" xOffset="128" yOffset="-61"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:32</string>
+    </dict>
+  </lib>
+</glyph>

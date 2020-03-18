@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tehRing-ar.init" format="2">
+  <advance width="403"/>
+  <anchor x="185" y="-114" name="bottom"/>
+  <anchor x="189" y="-28" name="bottom.dot"/>
+  <anchor x="208" y="565" name="top"/>
+  <anchor x="211" y="442" name="top.dot"/>
+  <outline>
+    <component base="yehKashmiri-ar.init"/>
+    <component base="twodotshorizontalabove-ar" xOffset="19" yOffset="-108"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/28 19:43:53</string>
+    </dict>
+  </lib>
+</glyph>

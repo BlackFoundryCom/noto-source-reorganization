@@ -1,0 +1,1385 @@
+languagesystem cham dflt;
+
+@GDEF_base = [uni25CC zero_cham one_cham two_cham three_cham four_cham five_cham six_cham seven_cham eight_cham nine_cham ka_cham kha_cham ga_cham gha_cham ngue_cham nga_cham cha_cham chha_cham ja_cham jha_cham nhue_cham nha_cham nhja_cham ta_cham tha_cham da_cham dha_cham nue_cham na_cham dda_cham pa_cham ppa_cham pha_cham ba_cham bha_cham mue_cham ma_cham bba_cham ya_cham ra_cham la_cham va_cham ssa_cham sa_cham ha_cham kFinal_cham gFinal_cham ngFinal_cham chFinal_cham tFinal_cham nFinal_cham pFinal_cham yFinal_cham rFinal_cham lFinal_cham ssFinal_cham hSignFinal_cham a_cham i_cham u_cham e_cham ai_cham o_cham yaMedial_cham raMedial_cham oSign_cham aiSign_cham na_cham.calt ma_cham.calt bba_cham.calt va_cham.calt raMedial_cham_pre raMedial_cham_pre.low raMedial_cham_pre.low.alt ];
+@GDEF_mark = [laMedial_cham laMedial_cham.narrow waMedial_cham waMedial_cham.narrow laMedial_waMedial_cham laMedial_uSign_cham laMedial_ueSign_cham waMedial_uSign_cham waMedial_ueSign_cham ngSignFinal_cham mSignFinal_cham aaSign_cham aaSign_oeSign_cham iSign_cham iiSign_cham eiSign_cham auSign_cham uSign_cham uSign_cham.narrow oeSign_cham ueSign_cham oeSign_auSign_cham auSign_mSignFinal_cham oeSign_ngSignFinal_cham oeSign_mSignFinal_cham iSign_mSignFinal_cham laMed_waMed_uSign_cham laMed_waMed_ueSign_cham ];
+	@_MarkAttachmentType_1 = [ laMedial_cham laMedial_cham.narrow waMedial_cham waMedial_cham.narrow laMedial_waMedial_cham laMedial_uSign_cham laMedial_ueSign_cham
+	waMedial_uSign_cham waMedial_ueSign_cham uSign_cham uSign_cham.narrow ueSign_cham laMed_waMed_uSign_cham laMed_waMed_ueSign_cham
+	];
+	@_MarkAttachmentType_2 = [ ngSignFinal_cham mSignFinal_cham iSign_cham iiSign_cham eiSign_cham auSign_cham oeSign_cham
+	oeSign_auSign_cham auSign_mSignFinal_cham oeSign_ngSignFinal_cham oeSign_mSignFinal_cham iSign_mSignFinal_cham ];
+
+	@_FilterSet_0 = [ laMedial_cham waMedial_cham uSign_cham ueSign_cham ];
+
+
+#GSUB
+lookup gsub_0_single {
+	sub raMedial_cham by raMedial_cham_pre ;
+    } gsub_0_single ;
+
+lookup gsub_1_single {
+	sub raMedial_cham_pre by raMedial_cham_pre.low ;
+    } gsub_1_single ;
+
+lookup gsub_2_single {
+	sub raMedial_cham_pre by raMedial_cham_pre.low.alt ;
+    } gsub_2_single ;
+
+lookup gsub_4_ligature {
+    sub iSign_cham mSignFinal_cham by iSign_mSignFinal_cham ;
+    sub auSign_cham mSignFinal_cham by auSign_mSignFinal_cham ;
+    sub oeSign_cham ngSignFinal_cham by oeSign_ngSignFinal_cham ;
+    sub oeSign_cham mSignFinal_cham by oeSign_mSignFinal_cham ;
+    sub oeSign_cham aaSign_cham by aaSign_oeSign_cham ;
+    sub oeSign_cham auSign_cham by oeSign_auSign_cham ;
+    } gsub_4_ligature ;
+
+lookup gsub_5_ligature {
+    lookupflag UseMarkFilteringSet @_FilterSet_0 ;
+    sub laMedial_cham waMedial_cham uSign_cham by laMed_waMed_uSign_cham ;
+    sub laMedial_cham waMedial_cham ueSign_cham by laMed_waMed_ueSign_cham ;
+    sub laMedial_cham waMedial_cham by laMedial_waMedial_cham ;
+    sub laMedial_cham uSign_cham by laMedial_uSign_cham ;
+    sub laMedial_cham ueSign_cham by laMedial_ueSign_cham ;
+    sub laMedial_cham.narrow uSign_cham by laMedial_uSign_cham ;
+    sub laMedial_cham.narrow ueSign_cham by laMedial_ueSign_cham ;
+    sub waMedial_cham uSign_cham by waMedial_uSign_cham ;
+    sub waMedial_cham ueSign_cham by waMedial_ueSign_cham ;
+    } gsub_5_ligature ;
+
+lookup gsub_10_single {
+	sub na_cham by na_cham.calt ;
+	sub ma_cham by ma_cham.calt ;
+	sub bba_cham by bba_cham.calt ;
+	sub va_cham by va_cham.calt ;
+	sub laMedial_cham by laMedial_cham.narrow ;
+	sub waMedial_cham by waMedial_cham.narrow ;
+	sub uSign_cham by uSign_cham.narrow ;
+	sub comma by comma.cham ;
+	sub hyphen by hyphen.cham ;
+	sub period by period.cham ;
+    } gsub_10_single ;
+
+lookup gsub_3_chained {
+    sub [ raMedial_cham_pre ]' lookup gsub_1_single [ nga_cham nha_cham nhja_cham na_cham dda_cham na_cham.calt ] ;
+	subtable;
+    sub [ raMedial_cham_pre  ]' lookup gsub_2_single [ ma_cham bba_cham va_cham ma_cham.calt bba_cham.calt va_cham.calt  ] ;
+
+    } gsub_3_chained ;
+
+lookup gsub_6_chained {
+    sub [ comma.cham period.cham zero_cham one_cham two_cham three_cham four_cham five_cham six_cham seven_cham eight_cham nine_cham ka_cham kha_cham ga_cham gha_cham ngue_cham nga_cham cha_cham chha_cham ja_cham jha_cham nhue_cham nha_cham nhja_cham ta_cham tha_cham da_cham dha_cham nue_cham na_cham dda_cham pa_cham ppa_cham pha_cham ba_cham bha_cham mue_cham ma_cham bba_cham ya_cham ra_cham la_cham va_cham ssa_cham sa_cham ha_cham kFinal_cham gFinal_cham ngFinal_cham chFinal_cham tFinal_cham nFinal_cham pFinal_cham yFinal_cham rFinal_cham lFinal_cham ssFinal_cham hSignFinal_cham a_cham i_cham u_cham e_cham ai_cham o_cham yaMedial_cham raMedial_cham laMedial_cham waMedial_cham laMedial_waMedial_cham ngSignFinal_cham mSignFinal_cham oSign_cham aiSign_cham aaSign_cham aaSign_oeSign_cham iSign_cham iiSign_cham eiSign_cham auSign_cham uSign_cham oeSign_cham ueSign_cham oeSign_auSign_cham auSign_mSignFinal_cham oeSign_ngSignFinal_cham oeSign_mSignFinal_cham iSign_mSignFinal_cham danda_cham doubleDanda_cham tripleDanda_cham spiral_cham ] [ comma hyphen period ]' lookup gsub_10_single ;
+    } gsub_6_chained ;
+
+lookup gsub_7_chained {
+    sub [ ga_cham jha_cham ta_cham da_cham nue_cham na_cham dda_cham ppa_cham ba_cham ma_cham bba_cham ra_cham la_cham va_cham ssa_cham ] [ laMedial_cham waMedial_cham uSign_cham ]' lookup gsub_10_single ;
+    } gsub_7_chained ;
+
+lookup gsub_8_chained {
+    sub [ ka_cham kha_cham ga_cham gha_cham ngue_cham nga_cham cha_cham chha_cham ja_cham jha_cham nhue_cham nha_cham nhja_cham ta_cham tha_cham da_cham dha_cham nue_cham na_cham dda_cham pa_cham ppa_cham pha_cham ba_cham bha_cham mue_cham ma_cham bba_cham ya_cham ra_cham la_cham va_cham ssa_cham sa_cham ha_cham ] [ laMedial_cham waMedial_cham uSign_cham ]' lookup gsub_10_single [ yaMedial_cham ] ;
+    } gsub_8_chained ;
+
+lookup gsub_9_chained {
+    sub [ na_cham ma_cham bba_cham va_cham ]' lookup gsub_10_single [ laMedial_waMedial_cham laMedial_uSign_cham laMedial_ueSign_cham waMedial_uSign_cham waMedial_ueSign_cham ] ;
+    } gsub_9_chained ;
+
+
+#GPOS
+lookup gpos_0_pair {
+	@_firstclass_group_1_gpos_0_pair = [ aaSign_cham ];
+
+	@_secondclass_group_1_gpos_0_pair = [ six_cham seven_cham jha_cham pa_cham pha_cham ra_cham sa_cham
+	ha_cham pFinal_cham rFinal_cham ];
+
+	position @_firstclass_group_1_gpos_0_pair @_secondclass_group_1_gpos_0_pair -240 ;
+	position @_firstclass_group_1_gpos_0_pair @_secondclass_group_1_gpos_0_pair 245 ;
+	position @_firstclass_group_1_gpos_0_pair @_secondclass_group_1_gpos_0_pair 100 ;
+	position @_firstclass_group_1_gpos_0_pair @_secondclass_group_1_gpos_0_pair 405 ;
+	position @_firstclass_group_1_gpos_0_pair @_secondclass_group_1_gpos_0_pair 200 ;
+	position @_firstclass_group_1_gpos_0_pair @_secondclass_group_1_gpos_0_pair 210 ;
+	position @_firstclass_group_1_gpos_0_pair @_secondclass_group_1_gpos_0_pair 62 ;
+	position @_firstclass_group_1_gpos_0_pair @_secondclass_group_1_gpos_0_pair 295 ;
+	position @_firstclass_group_1_gpos_0_pair @_secondclass_group_1_gpos_0_pair 467 ;
+    } gpos_0_pair ;
+
+lookup gpos_1_single {
+	position aaSign_oeSign_cham < 0 0 207 0 >;
+    } gpos_1_single ;
+
+lookup gpos_2_single {
+	position aaSign_cham < 0 0 35 0 >;
+    } gpos_2_single ;
+
+lookup gpos_3_single {
+	position ngSignFinal_cham < 0 0 -198 0 >;
+    } gpos_3_single ;
+
+lookup gpos_4_single {
+	position auSign_cham < 0 0 -50 0 >;
+	position oeSign_auSign_cham < 0 0 -50 0 >;
+	position auSign_mSignFinal_cham < 0 0 -50 0 >;
+    } gpos_4_single ;
+
+lookup gpos_5_single {
+	position iSign_cham < 0 0 -60 0 >;
+	position iiSign_cham < 0 0 -60 0 >;
+    } gpos_5_single ;
+
+lookup gpos_6_single {
+	position iSign_mSignFinal_cham < 0 0 145 0 >;
+    } gpos_6_single ;
+
+lookup gpos_7_single {
+	position oeSign_cham < 0 0 -160 0 >;
+	position oeSign_ngSignFinal_cham < 0 0 -160 0 >;
+	position oeSign_mSignFinal_cham < 0 0 -160 0 >;
+    } gpos_7_single ;
+
+lookup gpos_8_single {
+	position eiSign_cham < 0 0 -15 0 >;
+    } gpos_8_single ;
+
+lookup gpos_10_pair {
+    lookupflag IgnoreMarks  ;
+	@_firstclass_group_1_gpos_10_pair = [ ma_cham.calt ];
+
+	@_secondclass_group_1_gpos_10_pair = [ eight_cham cha_cham chha_cham nue_cham na_cham dda_cham chFinal_cham nFinal_cham ];
+	@_secondclass_group_2_gpos_10_pair = [ danda_cham doubleDanda_cham tripleDanda_cham ];
+	@_secondclass_group_3_gpos_10_pair = [ three_cham four_cham ga_cham nhue_cham nha_cham nhja_cham ta_cham
+	la_cham gFinal_cham tFinal_cham lFinal_cham i_cham ai_cham ];
+	@_secondclass_group_4_gpos_10_pair = [ six_cham seven_cham jha_cham pa_cham pha_cham ra_cham sa_cham
+	ha_cham pFinal_cham rFinal_cham ];
+	@_secondclass_group_5_gpos_10_pair = [ ka_cham kha_cham kFinal_cham ];
+	@_secondclass_group_6_gpos_10_pair = [ five_cham a_cham o_cham ];
+	@_secondclass_group_7_gpos_10_pair = [ oSign_cham aiSign_cham ];
+	@_secondclass_group_8_gpos_10_pair = [ raMedial_cham raMedial_cham_pre raMedial_cham_pre.low raMedial_cham_pre.low.alt ];
+	@_secondclass_group_9_gpos_10_pair = [ spiral_cham ];
+	@_secondclass_group_10_gpos_10_pair = [ u_cham ];
+
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_1_gpos_10_pair 146 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_2_gpos_10_pair 230 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_3_gpos_10_pair 200 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_4_gpos_10_pair 250 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_5_gpos_10_pair 240 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_6_gpos_10_pair 105 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_7_gpos_10_pair 135 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_8_gpos_10_pair 160 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_9_gpos_10_pair 250 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_10_gpos_10_pair 180 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_1_gpos_10_pair -21 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_1_gpos_10_pair -92 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_2_gpos_10_pair -90 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_1_gpos_10_pair -22 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_1_gpos_10_pair -78 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_2_gpos_10_pair -32 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_1_gpos_10_pair -20 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_2_gpos_10_pair -95 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_3_gpos_10_pair -38 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_1_gpos_10_pair 80 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_2_gpos_10_pair 220 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_3_gpos_10_pair 170 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_4_gpos_10_pair 180 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_5_gpos_10_pair 220 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_6_gpos_10_pair 95 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_7_gpos_10_pair 125 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_8_gpos_10_pair 126 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_9_gpos_10_pair 210 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_10_gpos_10_pair 110 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_1_gpos_10_pair -50 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_2_gpos_10_pair -98 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_3_gpos_10_pair -199 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_1_gpos_10_pair -120 ;
+	position @_firstclass_group_1_gpos_10_pair @_secondclass_group_2_gpos_10_pair 75 ;
+    } gpos_10_pair ;
+
+lookup gpos_11_mark_to_base {
+    markClass ngSignFinal_cham <anchor -256 653> @_MARKCLASS_0_lookup_11;
+    markClass mSignFinal_cham <anchor -256 653> @_MARKCLASS_0_lookup_11;
+    markClass aaSign_cham <anchor -37 441> @_MARKCLASS_1_lookup_11;
+    markClass aaSign_oeSign_cham <anchor -37 441> @_MARKCLASS_1_lookup_11;
+    markClass iSign_cham <anchor -256 653> @_MARKCLASS_0_lookup_11;
+    markClass iiSign_cham <anchor -256 653> @_MARKCLASS_0_lookup_11;
+    markClass eiSign_cham <anchor -256 653> @_MARKCLASS_0_lookup_11;
+    markClass auSign_cham <anchor -256 653> @_MARKCLASS_0_lookup_11;
+    markClass oeSign_cham <anchor -256 653> @_MARKCLASS_0_lookup_11;
+    markClass oeSign_auSign_cham <anchor -256 653> @_MARKCLASS_0_lookup_11;
+    markClass auSign_mSignFinal_cham <anchor -256 653> @_MARKCLASS_0_lookup_11;
+    markClass oeSign_ngSignFinal_cham <anchor -256 653> @_MARKCLASS_0_lookup_11;
+    markClass oeSign_mSignFinal_cham <anchor -256 653> @_MARKCLASS_0_lookup_11;
+    markClass iSign_mSignFinal_cham <anchor -256 653> @_MARKCLASS_0_lookup_11;
+    position base uni25CC <anchor 297 653> mark @_MARKCLASS_0_lookup_11;
+    position base uni25CC <anchor 574 441> mark @_MARKCLASS_1_lookup_11;
+    position base zero_cham <anchor 360 653> mark @_MARKCLASS_0_lookup_11;
+    position base zero_cham <anchor 656 441> mark @_MARKCLASS_1_lookup_11;
+    position base two_cham <anchor 815 953> mark @_MARKCLASS_0_lookup_11;
+    position base two_cham <anchor 986 741> mark @_MARKCLASS_1_lookup_11;
+    position base four_cham <anchor 879 664> mark @_MARKCLASS_0_lookup_11;
+    position base four_cham <anchor 879 441> mark @_MARKCLASS_1_lookup_11;
+    position base five_cham <anchor 340 653> mark @_MARKCLASS_0_lookup_11;
+    position base five_cham <anchor 628 441> mark @_MARKCLASS_1_lookup_11;
+    position base seven_cham <anchor 690 653> mark @_MARKCLASS_0_lookup_11;
+    position base seven_cham <anchor 965 441> mark @_MARKCLASS_1_lookup_11;
+    position base eight_cham <anchor 834 653> mark @_MARKCLASS_0_lookup_11;
+    position base eight_cham <anchor 1070 441> mark @_MARKCLASS_1_lookup_11;
+    position base nine_cham <anchor 854 653> mark @_MARKCLASS_0_lookup_11;
+    position base nine_cham <anchor 1128 441> mark @_MARKCLASS_1_lookup_11;
+    position base ka_cham <anchor 689 653> mark @_MARKCLASS_0_lookup_11;
+    position base ka_cham <anchor 912 441> mark @_MARKCLASS_1_lookup_11;
+    position base kha_cham <anchor 1186 653> mark @_MARKCLASS_0_lookup_11;
+    position base kha_cham <anchor 1414 441> mark @_MARKCLASS_1_lookup_11;
+    position base ga_cham <anchor 681 653> mark @_MARKCLASS_0_lookup_11;
+    position base ga_cham <anchor 903 441> mark @_MARKCLASS_1_lookup_11;
+    position base gha_cham <anchor 1227 653> mark @_MARKCLASS_0_lookup_11;
+    position base gha_cham <anchor 1450 441> mark @_MARKCLASS_1_lookup_11;
+    position base ngue_cham <anchor 943 653> mark @_MARKCLASS_0_lookup_11;
+    position base ngue_cham <anchor 1222 441> mark @_MARKCLASS_1_lookup_11;
+    position base nga_cham <anchor 943 653> mark @_MARKCLASS_0_lookup_11;
+    position base nga_cham <anchor 1222 441> mark @_MARKCLASS_1_lookup_11;
+    position base cha_cham <anchor 834 653> mark @_MARKCLASS_0_lookup_11;
+    position base cha_cham <anchor 1062 441> mark @_MARKCLASS_1_lookup_11;
+    position base chha_cham <anchor 1480 653> mark @_MARKCLASS_0_lookup_11;
+    position base chha_cham <anchor 1730 441> mark @_MARKCLASS_1_lookup_11;
+    position base ja_cham <anchor 1226 653> mark @_MARKCLASS_0_lookup_11;
+    position base ja_cham <anchor 1449 441> mark @_MARKCLASS_1_lookup_11;
+    position base jha_cham <anchor 1390 653> mark @_MARKCLASS_0_lookup_11;
+    position base jha_cham <anchor 1648 441> mark @_MARKCLASS_1_lookup_11;
+    position base nhue_cham <anchor 1190 653> mark @_MARKCLASS_0_lookup_11;
+    position base nhue_cham <anchor 1418 441> mark @_MARKCLASS_1_lookup_11;
+    position base nha_cham <anchor 1190 653> mark @_MARKCLASS_0_lookup_11;
+    position base nha_cham <anchor 1418 441> mark @_MARKCLASS_1_lookup_11;
+    position base nhja_cham <anchor 1190 653> mark @_MARKCLASS_0_lookup_11;
+    position base nhja_cham <anchor 1418 441> mark @_MARKCLASS_1_lookup_11;
+    position base ta_cham <anchor 679 653> mark @_MARKCLASS_0_lookup_11;
+    position base ta_cham <anchor 902 441> mark @_MARKCLASS_1_lookup_11;
+    position base tha_cham <anchor 973 653> mark @_MARKCLASS_0_lookup_11;
+    position base tha_cham <anchor 1223 441> mark @_MARKCLASS_1_lookup_11;
+    position base da_cham <anchor 898 653> mark @_MARKCLASS_0_lookup_11;
+    position base da_cham <anchor 1150 441> mark @_MARKCLASS_1_lookup_11;
+    position base dha_cham <anchor 897 653> mark @_MARKCLASS_0_lookup_11;
+    position base dha_cham <anchor 1150 441> mark @_MARKCLASS_1_lookup_11;
+    position base nue_cham <anchor 903 653> mark @_MARKCLASS_0_lookup_11;
+    position base nue_cham <anchor 1149 441> mark @_MARKCLASS_1_lookup_11;
+    position base na_cham <anchor 904 653> mark @_MARKCLASS_0_lookup_11;
+    position base na_cham <anchor 1151 441> mark @_MARKCLASS_1_lookup_11;
+    position base dda_cham <anchor 904 653> mark @_MARKCLASS_0_lookup_11;
+    position base dda_cham <anchor 1151 441> mark @_MARKCLASS_1_lookup_11;
+    position base pa_cham <anchor 1017 653> mark @_MARKCLASS_0_lookup_11;
+    position base pa_cham <anchor 1240 441> mark @_MARKCLASS_1_lookup_11;
+    position base ppa_cham <anchor 898 653> mark @_MARKCLASS_0_lookup_11;
+    position base ppa_cham <anchor 1150 441> mark @_MARKCLASS_1_lookup_11;
+    position base pha_cham <anchor 1416 653> mark @_MARKCLASS_0_lookup_11;
+    position base pha_cham <anchor 1666 441> mark @_MARKCLASS_1_lookup_11;
+    position base ba_cham <anchor 854 653> mark @_MARKCLASS_0_lookup_11;
+    position base ba_cham <anchor 1112 441> mark @_MARKCLASS_1_lookup_11;
+    position base bha_cham <anchor 1181 653> mark @_MARKCLASS_0_lookup_11;
+    position base bha_cham <anchor 1404 441> mark @_MARKCLASS_1_lookup_11;
+    position base mue_cham <anchor 898 653> mark @_MARKCLASS_0_lookup_11;
+    position base mue_cham <anchor 1150 441> mark @_MARKCLASS_1_lookup_11;
+    position base ma_cham <anchor 897 653> mark @_MARKCLASS_0_lookup_11;
+    position base ma_cham <anchor 1150 441> mark @_MARKCLASS_1_lookup_11;
+    position base bba_cham <anchor 897 653> mark @_MARKCLASS_0_lookup_11;
+    position base bba_cham <anchor 1150 441> mark @_MARKCLASS_1_lookup_11;
+    position base ya_cham <anchor 1204 653> mark @_MARKCLASS_0_lookup_11;
+    position base ya_cham <anchor 1427 441> mark @_MARKCLASS_1_lookup_11;
+    position base ra_cham <anchor 687 653> mark @_MARKCLASS_0_lookup_11;
+    position base ra_cham <anchor 945 441> mark @_MARKCLASS_1_lookup_11;
+    position base la_cham <anchor 708 653> mark @_MARKCLASS_0_lookup_11;
+    position base la_cham <anchor 905 441> mark @_MARKCLASS_1_lookup_11;
+    position base va_cham <anchor 897 653> mark @_MARKCLASS_0_lookup_11;
+    position base va_cham <anchor 1150 441> mark @_MARKCLASS_1_lookup_11;
+    position base ssa_cham <anchor 937 653> mark @_MARKCLASS_0_lookup_11;
+    position base ssa_cham <anchor 1189 441> mark @_MARKCLASS_1_lookup_11;
+    position base sa_cham <anchor 1047 653> mark @_MARKCLASS_0_lookup_11;
+    position base sa_cham <anchor 1244 441> mark @_MARKCLASS_1_lookup_11;
+    position base ha_cham <anchor 1020 653> mark @_MARKCLASS_0_lookup_11;
+    position base ha_cham <anchor 1240 441> mark @_MARKCLASS_1_lookup_11;
+    position base kFinal_cham <anchor 689 653> mark @_MARKCLASS_0_lookup_11;
+    position base kFinal_cham <anchor 926 441> mark @_MARKCLASS_1_lookup_11;
+    position base gFinal_cham <anchor 684 653> mark @_MARKCLASS_0_lookup_11;
+    position base gFinal_cham <anchor 925 441> mark @_MARKCLASS_1_lookup_11;
+    position base ngFinal_cham <anchor 960 653> mark @_MARKCLASS_0_lookup_11;
+    position base ngFinal_cham <anchor 1253 441> mark @_MARKCLASS_1_lookup_11;
+    position base chFinal_cham <anchor 820 653> mark @_MARKCLASS_0_lookup_11;
+    position base chFinal_cham <anchor 1074 441> mark @_MARKCLASS_1_lookup_11;
+    position base tFinal_cham <anchor 684 653> mark @_MARKCLASS_0_lookup_11;
+    position base tFinal_cham <anchor 925 441> mark @_MARKCLASS_1_lookup_11;
+    position base nFinal_cham <anchor 904 653> mark @_MARKCLASS_0_lookup_11;
+    position base nFinal_cham <anchor 1170 441> mark @_MARKCLASS_1_lookup_11;
+    position base pFinal_cham <anchor 1017 653> mark @_MARKCLASS_0_lookup_11;
+    position base pFinal_cham <anchor 1255 441> mark @_MARKCLASS_1_lookup_11;
+    position base yFinal_cham <anchor 1209 653> mark @_MARKCLASS_0_lookup_11;
+    position base yFinal_cham <anchor 1450 441> mark @_MARKCLASS_1_lookup_11;
+    position base rFinal_cham <anchor 690 653> mark @_MARKCLASS_0_lookup_11;
+    position base rFinal_cham <anchor 965 441> mark @_MARKCLASS_1_lookup_11;
+    position base lFinal_cham <anchor 699 653> mark @_MARKCLASS_0_lookup_11;
+    position base lFinal_cham <anchor 925 441> mark @_MARKCLASS_1_lookup_11;
+    position base ssFinal_cham <anchor 932 653> mark @_MARKCLASS_0_lookup_11;
+    position base ssFinal_cham <anchor 1198 441> mark @_MARKCLASS_1_lookup_11;
+    position base hSignFinal_cham <anchor 340 653> mark @_MARKCLASS_0_lookup_11;
+    position base hSignFinal_cham <anchor 632 441> mark @_MARKCLASS_1_lookup_11;
+    position base a_cham <anchor 1048 653> mark @_MARKCLASS_0_lookup_11;
+    position base a_cham <anchor 1301 441> mark @_MARKCLASS_1_lookup_11;
+    position base i_cham <anchor 699 653> mark @_MARKCLASS_0_lookup_11;
+    position base i_cham <anchor 931 441> mark @_MARKCLASS_1_lookup_11;
+    position base u_cham <anchor 333 653> mark @_MARKCLASS_0_lookup_11;
+    position base u_cham <anchor 632 441> mark @_MARKCLASS_1_lookup_11;
+    position base e_cham <anchor 842 917> mark @_MARKCLASS_0_lookup_11;
+    position base e_cham <anchor 1093 719> mark @_MARKCLASS_1_lookup_11;
+    position base ai_cham <anchor 699 653> mark @_MARKCLASS_0_lookup_11;
+    position base ai_cham <anchor 930 441> mark @_MARKCLASS_1_lookup_11;
+    position base o_cham <anchor 337 653> mark @_MARKCLASS_0_lookup_11;
+    position base o_cham <anchor 630 441> mark @_MARKCLASS_1_lookup_11;
+    position base yaMedial_cham <anchor 356 653> mark @_MARKCLASS_0_lookup_11;
+    position base yaMedial_cham <anchor 609 441> mark @_MARKCLASS_1_lookup_11;
+    position base na_cham.calt <anchor 904 653> mark @_MARKCLASS_0_lookup_11;
+    position base na_cham.calt <anchor 1151 441> mark @_MARKCLASS_1_lookup_11;
+    position base ma_cham.calt <anchor 897 653> mark @_MARKCLASS_0_lookup_11;
+    position base ma_cham.calt <anchor 1150 441> mark @_MARKCLASS_1_lookup_11;
+    position base bba_cham.calt <anchor 897 653> mark @_MARKCLASS_0_lookup_11;
+    position base bba_cham.calt <anchor 1150 441> mark @_MARKCLASS_1_lookup_11;
+    position base va_cham.calt <anchor 897 653> mark @_MARKCLASS_0_lookup_11;
+    position base va_cham.calt <anchor 1150 441> mark @_MARKCLASS_1_lookup_11;
+    } gpos_11_mark_to_base ;
+
+lookup gpos_12_mark_to_base {
+    lookupflag MarkAttachmentType @_MarkAttachmentType_1  ;
+    markClass laMedial_cham <anchor -110 272> @_MARKCLASS_0_lookup_12;
+    markClass laMedial_cham.narrow <anchor -313 272> @_MARKCLASS_0_lookup_12;
+    markClass waMedial_cham <anchor -104 272> @_MARKCLASS_0_lookup_12;
+    markClass waMedial_cham.narrow <anchor -59 272> @_MARKCLASS_0_lookup_12;
+    markClass laMedial_waMedial_cham <anchor -151 272> @_MARKCLASS_1_lookup_12;
+    markClass laMedial_uSign_cham <anchor -124 272> @_MARKCLASS_1_lookup_12;
+    markClass laMedial_ueSign_cham <anchor -154 272> @_MARKCLASS_1_lookup_12;
+    markClass waMedial_uSign_cham <anchor -124 272> @_MARKCLASS_1_lookup_12;
+    markClass waMedial_ueSign_cham <anchor 40 272> @_MARKCLASS_1_lookup_12;
+    markClass uSign_cham <anchor -135 272> @_MARKCLASS_0_lookup_12;
+    markClass uSign_cham.narrow <anchor -4 272> @_MARKCLASS_0_lookup_12;
+    markClass ueSign_cham <anchor -110 272> @_MARKCLASS_0_lookup_12;
+    markClass laMed_waMed_uSign_cham <anchor -151 272> @_MARKCLASS_1_lookup_12;
+    markClass laMed_waMed_ueSign_cham <anchor -151 272> @_MARKCLASS_1_lookup_12;
+    position base uni25CC <anchor 348 63> mark @_MARKCLASS_0_lookup_12;
+    position base uni25CC <anchor 348 63> mark @_MARKCLASS_1_lookup_12;
+    position base zero_cham <anchor 357 -29> mark @_MARKCLASS_0_lookup_12;
+    position base zero_cham <anchor 357 -29> mark @_MARKCLASS_1_lookup_12;
+    position base two_cham <anchor 533 -29> mark @_MARKCLASS_0_lookup_12;
+    position base two_cham <anchor 533 -29> mark @_MARKCLASS_1_lookup_12;
+    position base four_cham <anchor 355 -29> mark @_MARKCLASS_0_lookup_12;
+    position base four_cham <anchor 355 -29> mark @_MARKCLASS_1_lookup_12;
+    position base five_cham <anchor 381 -29> mark @_MARKCLASS_0_lookup_12;
+    position base five_cham <anchor 381 -29> mark @_MARKCLASS_1_lookup_12;
+    position base seven_cham <anchor 983 -320> mark @_MARKCLASS_0_lookup_12;
+    position base seven_cham <anchor 983 -320> mark @_MARKCLASS_1_lookup_12;
+    position base eight_cham <anchor 1018 -320> mark @_MARKCLASS_0_lookup_12;
+    position base eight_cham <anchor 1018 -320> mark @_MARKCLASS_1_lookup_12;
+    position base nine_cham <anchor 1147 -320> mark @_MARKCLASS_0_lookup_12;
+    position base nine_cham <anchor 1147 -320> mark @_MARKCLASS_1_lookup_12;
+    position base ka_cham <anchor 835 272> mark @_MARKCLASS_0_lookup_12;
+    position base ka_cham <anchor 835 272> mark @_MARKCLASS_1_lookup_12;
+    position base kha_cham <anchor 1337 272> mark @_MARKCLASS_0_lookup_12;
+    position base kha_cham <anchor 1337 272> mark @_MARKCLASS_1_lookup_12;
+    position base ga_cham <anchor 829 272> mark @_MARKCLASS_0_lookup_12;
+    position base ga_cham <anchor 929 272> mark @_MARKCLASS_1_lookup_12;
+    position base gha_cham <anchor 1373 275> mark @_MARKCLASS_0_lookup_12;
+    position base gha_cham <anchor 1373 275> mark @_MARKCLASS_1_lookup_12;
+    position base ngue_cham <anchor 1137 272> mark @_MARKCLASS_0_lookup_12;
+    position base ngue_cham <anchor 1187 272> mark @_MARKCLASS_1_lookup_12;
+    position base nga_cham <anchor 1137 272> mark @_MARKCLASS_0_lookup_12;
+    position base nga_cham <anchor 1197 272> mark @_MARKCLASS_1_lookup_12;
+    position base cha_cham <anchor 985 272> mark @_MARKCLASS_0_lookup_12;
+    position base cha_cham <anchor 985 272> mark @_MARKCLASS_1_lookup_12;
+    position base chha_cham <anchor 1655 272> mark @_MARKCLASS_0_lookup_12;
+    position base chha_cham <anchor 1705 272> mark @_MARKCLASS_1_lookup_12;
+    position base ja_cham <anchor 1372 272> mark @_MARKCLASS_0_lookup_12;
+    position base ja_cham <anchor 1372 272> mark @_MARKCLASS_1_lookup_12;
+    position base jha_cham <anchor 1570 272> mark @_MARKCLASS_0_lookup_12;
+    position base jha_cham <anchor 1720 272> mark @_MARKCLASS_1_lookup_12;
+    position base nhue_cham <anchor 1341 272> mark @_MARKCLASS_0_lookup_12;
+    position base nhue_cham <anchor 1341 272> mark @_MARKCLASS_1_lookup_12;
+    position base nha_cham <anchor 1341 272> mark @_MARKCLASS_0_lookup_12;
+    position base nha_cham <anchor 1341 272> mark @_MARKCLASS_1_lookup_12;
+    position base nhja_cham <anchor 1341 272> mark @_MARKCLASS_0_lookup_12;
+    position base nhja_cham <anchor 1341 272> mark @_MARKCLASS_1_lookup_12;
+    position base ta_cham <anchor 825 272> mark @_MARKCLASS_0_lookup_12;
+    position base ta_cham <anchor 955 272> mark @_MARKCLASS_1_lookup_12;
+    position base tha_cham <anchor 1148 272> mark @_MARKCLASS_0_lookup_12;
+    position base tha_cham <anchor 1228 272> mark @_MARKCLASS_1_lookup_12;
+    position base da_cham <anchor 1069 272> mark @_MARKCLASS_0_lookup_12;
+    position base da_cham <anchor 1199 272> mark @_MARKCLASS_1_lookup_12;
+    position base dha_cham <anchor 1075 272> mark @_MARKCLASS_0_lookup_12;
+    position base dha_cham <anchor 1075 272> mark @_MARKCLASS_1_lookup_12;
+    position base nue_cham <anchor 1074 272> mark @_MARKCLASS_0_lookup_12;
+    position base nue_cham <anchor 1214 272> mark @_MARKCLASS_1_lookup_12;
+    position base na_cham <anchor 1074 272> mark @_MARKCLASS_0_lookup_12;
+    position base na_cham <anchor 1252 312> mark @_MARKCLASS_1_lookup_12;
+    position base dda_cham <anchor 1074 272> mark @_MARKCLASS_0_lookup_12;
+    position base dda_cham <anchor 1224 272> mark @_MARKCLASS_1_lookup_12;
+    position base pa_cham <anchor 1163 272> mark @_MARKCLASS_0_lookup_12;
+    position base pa_cham <anchor 1163 272> mark @_MARKCLASS_1_lookup_12;
+    position base ppa_cham <anchor 1069 272> mark @_MARKCLASS_0_lookup_12;
+    position base ppa_cham <anchor 1269 272> mark @_MARKCLASS_1_lookup_12;
+    position base pha_cham <anchor 1591 272> mark @_MARKCLASS_0_lookup_12;
+    position base pha_cham <anchor 1671 272> mark @_MARKCLASS_1_lookup_12;
+    position base ba_cham <anchor 1034 272> mark @_MARKCLASS_0_lookup_12;
+    position base ba_cham <anchor 1244 272> mark @_MARKCLASS_1_lookup_12;
+    position base bha_cham <anchor 1327 272> mark @_MARKCLASS_0_lookup_12;
+    position base bha_cham <anchor 1327 272> mark @_MARKCLASS_1_lookup_12;
+    position base mue_cham <anchor 1069 273> mark @_MARKCLASS_0_lookup_12;
+    position base mue_cham <anchor 1159 273> mark @_MARKCLASS_1_lookup_12;
+    position base ma_cham <anchor 1155 372> mark @_MARKCLASS_0_lookup_12;
+    position base ma_cham <anchor 1365 362> mark @_MARKCLASS_1_lookup_12;
+    position base bba_cham <anchor 1125 272> mark @_MARKCLASS_0_lookup_12;
+    position base bba_cham <anchor 1315 272> mark @_MARKCLASS_1_lookup_12;
+    position base ya_cham <anchor 1350 272> mark @_MARKCLASS_0_lookup_12;
+    position base ya_cham <anchor 1350 272> mark @_MARKCLASS_1_lookup_12;
+    position base ra_cham <anchor 867 272> mark @_MARKCLASS_0_lookup_12;
+    position base ra_cham <anchor 1047 272> mark @_MARKCLASS_1_lookup_12;
+    position base la_cham <anchor 828 272> mark @_MARKCLASS_0_lookup_12;
+    position base la_cham <anchor 948 272> mark @_MARKCLASS_1_lookup_12;
+    position base va_cham <anchor 1135 272> mark @_MARKCLASS_0_lookup_12;
+    position base va_cham <anchor 1325 272> mark @_MARKCLASS_1_lookup_12;
+    position base ssa_cham <anchor 1108 272> mark @_MARKCLASS_0_lookup_12;
+    position base ssa_cham <anchor 1108 272> mark @_MARKCLASS_1_lookup_12;
+    position base sa_cham <anchor 1167 272> mark @_MARKCLASS_0_lookup_12;
+    position base sa_cham <anchor 1167 272> mark @_MARKCLASS_1_lookup_12;
+    position base ha_cham <anchor 1036 262> mark @_MARKCLASS_0_lookup_12;
+    position base ha_cham <anchor 1036 262> mark @_MARKCLASS_1_lookup_12;
+    position base a_cham <anchor 1226 272> mark @_MARKCLASS_0_lookup_12;
+    position base a_cham <anchor 1226 272> mark @_MARKCLASS_1_lookup_12;
+    position base i_cham <anchor 883 -320> mark @_MARKCLASS_0_lookup_12;
+    position base i_cham <anchor 883 -320> mark @_MARKCLASS_1_lookup_12;
+    position base u_cham <anchor 574 -29> mark @_MARKCLASS_0_lookup_12;
+    position base u_cham <anchor 574 -29> mark @_MARKCLASS_1_lookup_12;
+    position base e_cham <anchor 805 -29> mark @_MARKCLASS_0_lookup_12;
+    position base e_cham <anchor 805 -29> mark @_MARKCLASS_1_lookup_12;
+    position base ai_cham <anchor 757 -346> mark @_MARKCLASS_0_lookup_12;
+    position base ai_cham <anchor 757 -346> mark @_MARKCLASS_1_lookup_12;
+    position base o_cham <anchor 557 -29> mark @_MARKCLASS_0_lookup_12;
+    position base o_cham <anchor 557 -29> mark @_MARKCLASS_1_lookup_12;
+    position base yaMedial_cham <anchor 534 272> mark @_MARKCLASS_0_lookup_12;
+    position base yaMedial_cham <anchor 534 272> mark @_MARKCLASS_1_lookup_12;
+    position base oSign_cham <anchor 387 125> mark @_MARKCLASS_0_lookup_12;
+    position base oSign_cham <anchor 387 125> mark @_MARKCLASS_1_lookup_12;
+    position base na_cham.calt <anchor 1292 272> mark @_MARKCLASS_0_lookup_12;
+    position base na_cham.calt <anchor 1292 272> mark @_MARKCLASS_1_lookup_12;
+    position base ma_cham.calt <anchor 1350 362> mark @_MARKCLASS_0_lookup_12;
+    position base ma_cham.calt <anchor 1368 375> mark @_MARKCLASS_1_lookup_12;
+    position base bba_cham.calt <anchor 1310 272> mark @_MARKCLASS_0_lookup_12;
+    position base bba_cham.calt <anchor 1310 272> mark @_MARKCLASS_1_lookup_12;
+    position base va_cham.calt <anchor 1310 272> mark @_MARKCLASS_0_lookup_12;
+    position base va_cham.calt <anchor 1310 272> mark @_MARKCLASS_1_lookup_12;
+    } gpos_12_mark_to_base ;
+
+lookup gpos_13_mark_to_mark {
+	markClass ngSignFinal_cham <anchor -256 653> @_MARKCLASS_0_lookup_13;
+	markClass mSignFinal_cham <anchor -256 653> @_MARKCLASS_0_lookup_13;
+	markClass iSign_cham <anchor -256 653> @_MARKCLASS_0_lookup_13;
+	markClass iiSign_cham <anchor -256 653> @_MARKCLASS_0_lookup_13;
+	markClass eiSign_cham <anchor -256 653> @_MARKCLASS_0_lookup_13;
+	markClass auSign_cham <anchor -256 653> @_MARKCLASS_0_lookup_13;
+	markClass oeSign_cham <anchor -256 653> @_MARKCLASS_0_lookup_13;
+	markClass oeSign_auSign_cham <anchor -256 653> @_MARKCLASS_0_lookup_13;
+	markClass auSign_mSignFinal_cham <anchor -256 653> @_MARKCLASS_0_lookup_13;
+	markClass oeSign_ngSignFinal_cham <anchor -256 653> @_MARKCLASS_0_lookup_13;
+	markClass oeSign_mSignFinal_cham <anchor -256 653> @_MARKCLASS_0_lookup_13;
+	markClass iSign_mSignFinal_cham <anchor -256 653> @_MARKCLASS_0_lookup_13;
+	position mark auSign_cham <anchor -72 1021> mark @_MARKCLASS_0_lookup_13;
+    } gpos_13_mark_to_mark ;
+
+lookup gpos_14_single {
+	position laMedial_cham < 114 0 0 0 >;
+	position laMedial_cham < 0 -85 0 0 >;
+	position laMedial_cham.narrow < 14 0 0 0 >;
+	position laMedial_cham.narrow < 0 -85 0 0 >;
+	position waMedial_cham < 14 0 0 0 >;
+	position waMedial_cham < 0 -85 0 0 >;
+	position waMedial_cham.narrow < 14 0 0 0 >;
+	position waMedial_cham.narrow < 0 -85 0 0 >;
+	position laMedial_waMedial_cham < 114 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -85 0 0 >;
+	position laMedial_uSign_cham < 114 0 0 0 >;
+	position laMedial_uSign_cham < 0 -85 0 0 >;
+	position laMedial_ueSign_cham < 114 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -85 0 0 >;
+	position waMedial_uSign_cham < 114 0 0 0 >;
+	position waMedial_uSign_cham < 0 -85 0 0 >;
+	position waMedial_ueSign_cham < 114 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -85 0 0 >;
+    } gpos_14_single ;
+
+lookup gpos_15_single {
+	position laMedial_cham < 182 0 0 0 >;
+	position laMedial_cham < 0 -113 0 0 >;
+	position laMedial_cham.narrow < 82 0 0 0 >;
+	position laMedial_cham.narrow < 0 -113 0 0 >;
+	position waMedial_cham < 82 0 0 0 >;
+	position waMedial_cham < 0 -113 0 0 >;
+	position waMedial_cham.narrow < 82 0 0 0 >;
+	position waMedial_cham.narrow < 0 -113 0 0 >;
+	position laMedial_waMedial_cham < 182 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -113 0 0 >;
+	position laMedial_uSign_cham < 182 0 0 0 >;
+	position laMedial_uSign_cham < 0 -113 0 0 >;
+	position laMedial_ueSign_cham < 182 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -113 0 0 >;
+	position waMedial_uSign_cham < 182 0 0 0 >;
+	position waMedial_uSign_cham < 0 -113 0 0 >;
+	position waMedial_ueSign_cham < 182 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -113 0 0 >;
+    } gpos_15_single ;
+
+lookup gpos_16_single {
+	position laMedial_cham < -128 0 0 0 >;
+	position laMedial_cham < 0 -44 0 0 >;
+	position laMedial_cham.narrow < -228 0 0 0 >;
+	position laMedial_cham.narrow < 0 -44 0 0 >;
+	position waMedial_cham < -228 0 0 0 >;
+	position waMedial_cham < 0 -44 0 0 >;
+	position waMedial_cham.narrow < -228 0 0 0 >;
+	position waMedial_cham.narrow < 0 -44 0 0 >;
+	position laMedial_waMedial_cham < -128 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -44 0 0 >;
+	position laMedial_uSign_cham < -128 0 0 0 >;
+	position laMedial_uSign_cham < 0 -44 0 0 >;
+	position laMedial_ueSign_cham < -128 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -44 0 0 >;
+	position waMedial_uSign_cham < -128 0 0 0 >;
+	position waMedial_uSign_cham < 0 -44 0 0 >;
+	position waMedial_ueSign_cham < -128 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -44 0 0 >;
+    } gpos_16_single ;
+
+lookup gpos_17_single {
+	position laMedial_cham < -105 0 0 0 >;
+	position laMedial_cham < 0 -53 0 0 >;
+	position laMedial_cham.narrow < -205 0 0 0 >;
+	position laMedial_cham.narrow < 0 -53 0 0 >;
+	position waMedial_cham < -205 0 0 0 >;
+	position waMedial_cham < 0 -53 0 0 >;
+	position waMedial_cham.narrow < -205 0 0 0 >;
+	position waMedial_cham.narrow < 0 -53 0 0 >;
+	position laMedial_waMedial_cham < -105 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -53 0 0 >;
+	position laMedial_uSign_cham < -105 0 0 0 >;
+	position laMedial_uSign_cham < 0 -53 0 0 >;
+	position laMedial_ueSign_cham < -105 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -53 0 0 >;
+	position waMedial_uSign_cham < -105 0 0 0 >;
+	position waMedial_uSign_cham < 0 -53 0 0 >;
+	position waMedial_ueSign_cham < -105 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -53 0 0 >;
+    } gpos_17_single ;
+
+lookup gpos_18_single {
+	position laMedial_cham < -10 0 0 0 >;
+	position laMedial_cham < 0 -106 0 0 >;
+	position laMedial_cham.narrow < -110 0 0 0 >;
+	position laMedial_cham.narrow < 0 -106 0 0 >;
+	position waMedial_cham < -110 0 0 0 >;
+	position waMedial_cham < 0 -106 0 0 >;
+	position waMedial_cham.narrow < -110 0 0 0 >;
+	position waMedial_cham.narrow < 0 -106 0 0 >;
+	position laMedial_waMedial_cham < -10 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -106 0 0 >;
+	position laMedial_uSign_cham < -10 0 0 0 >;
+	position laMedial_uSign_cham < 0 -106 0 0 >;
+	position laMedial_ueSign_cham < -10 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -106 0 0 >;
+	position waMedial_uSign_cham < -10 0 0 0 >;
+	position waMedial_uSign_cham < 0 -106 0 0 >;
+	position waMedial_ueSign_cham < -10 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -106 0 0 >;
+    } gpos_18_single ;
+
+lookup gpos_19_single {
+	position laMedial_cham < 56 0 0 0 >;
+	position laMedial_cham < 0 -85 0 0 >;
+	position laMedial_cham.narrow < -44 0 0 0 >;
+	position laMedial_cham.narrow < 0 -85 0 0 >;
+	position waMedial_cham < -44 0 0 0 >;
+	position waMedial_cham < 0 -85 0 0 >;
+	position waMedial_cham.narrow < -44 0 0 0 >;
+	position waMedial_cham.narrow < 0 -85 0 0 >;
+	position laMedial_waMedial_cham < 56 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -85 0 0 >;
+	position laMedial_uSign_cham < 56 0 0 0 >;
+	position laMedial_uSign_cham < 0 -85 0 0 >;
+	position laMedial_ueSign_cham < 56 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -85 0 0 >;
+	position waMedial_uSign_cham < 56 0 0 0 >;
+	position waMedial_uSign_cham < 0 -85 0 0 >;
+	position waMedial_ueSign_cham < 56 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -85 0 0 >;
+    } gpos_19_single ;
+
+lookup gpos_20_single {
+	position laMedial_cham < 65 0 0 0 >;
+	position laMedial_cham < 0 -103 0 0 >;
+	position laMedial_cham.narrow < -35 0 0 0 >;
+	position laMedial_cham.narrow < 0 -103 0 0 >;
+	position waMedial_cham < -35 0 0 0 >;
+	position waMedial_cham < 0 -103 0 0 >;
+	position waMedial_cham.narrow < -35 0 0 0 >;
+	position waMedial_cham.narrow < 0 -103 0 0 >;
+	position laMedial_waMedial_cham < 65 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -103 0 0 >;
+	position laMedial_uSign_cham < 65 0 0 0 >;
+	position laMedial_uSign_cham < 0 -103 0 0 >;
+	position laMedial_ueSign_cham < 65 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -103 0 0 >;
+	position waMedial_uSign_cham < 65 0 0 0 >;
+	position waMedial_uSign_cham < 0 -103 0 0 >;
+	position waMedial_ueSign_cham < 65 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -103 0 0 >;
+    } gpos_20_single ;
+
+lookup gpos_21_single {
+	position laMedial_cham < -16 0 0 0 >;
+	position laMedial_cham < 0 -103 0 0 >;
+	position laMedial_cham.narrow < -116 0 0 0 >;
+	position laMedial_cham.narrow < 0 -103 0 0 >;
+	position waMedial_cham < -116 0 0 0 >;
+	position waMedial_cham < 0 -103 0 0 >;
+	position waMedial_cham.narrow < -116 0 0 0 >;
+	position waMedial_cham.narrow < 0 -103 0 0 >;
+	position laMedial_waMedial_cham < -16 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -103 0 0 >;
+	position laMedial_uSign_cham < -16 0 0 0 >;
+	position laMedial_uSign_cham < 0 -103 0 0 >;
+	position laMedial_ueSign_cham < -16 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -103 0 0 >;
+	position waMedial_uSign_cham < -16 0 0 0 >;
+	position waMedial_uSign_cham < 0 -103 0 0 >;
+	position waMedial_ueSign_cham < -16 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -103 0 0 >;
+    } gpos_21_single ;
+
+lookup gpos_22_single {
+	position laMedial_cham < 49 0 0 0 >;
+	position laMedial_cham < 0 -85 0 0 >;
+	position laMedial_cham.narrow < -51 0 0 0 >;
+	position laMedial_cham.narrow < 0 -85 0 0 >;
+	position waMedial_cham < -51 0 0 0 >;
+	position waMedial_cham < 0 -85 0 0 >;
+	position waMedial_cham.narrow < -51 0 0 0 >;
+	position waMedial_cham.narrow < 0 -85 0 0 >;
+	position laMedial_waMedial_cham < 49 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -85 0 0 >;
+	position laMedial_uSign_cham < 49 0 0 0 >;
+	position laMedial_uSign_cham < 0 -85 0 0 >;
+	position laMedial_ueSign_cham < 49 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -85 0 0 >;
+	position waMedial_uSign_cham < 49 0 0 0 >;
+	position waMedial_uSign_cham < 0 -85 0 0 >;
+	position waMedial_ueSign_cham < 49 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -85 0 0 >;
+    } gpos_22_single ;
+
+lookup gpos_23_single {
+	position laMedial_cham < -111 0 0 0 >;
+	position laMedial_cham < 0 -6 0 0 >;
+	position laMedial_cham.narrow < -211 0 0 0 >;
+	position laMedial_cham.narrow < 0 -6 0 0 >;
+	position waMedial_cham < -211 0 0 0 >;
+	position waMedial_cham < 0 -6 0 0 >;
+	position waMedial_cham.narrow < -211 0 0 0 >;
+	position waMedial_cham.narrow < 0 -6 0 0 >;
+	position laMedial_waMedial_cham < -111 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -6 0 0 >;
+	position laMedial_uSign_cham < -111 0 0 0 >;
+	position laMedial_uSign_cham < 0 -6 0 0 >;
+	position laMedial_ueSign_cham < -111 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -6 0 0 >;
+	position waMedial_uSign_cham < -111 0 0 0 >;
+	position waMedial_uSign_cham < 0 -6 0 0 >;
+	position waMedial_ueSign_cham < -111 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -6 0 0 >;
+    } gpos_23_single ;
+
+lookup gpos_24_single {
+	position laMedial_cham < -2 0 0 0 >;
+	position laMedial_cham < 0 -88 0 0 >;
+	position laMedial_cham.narrow < -102 0 0 0 >;
+	position laMedial_cham.narrow < 0 -88 0 0 >;
+	position waMedial_cham < -102 0 0 0 >;
+	position waMedial_cham < 0 -88 0 0 >;
+	position waMedial_cham.narrow < -102 0 0 0 >;
+	position waMedial_cham.narrow < 0 -88 0 0 >;
+	position laMedial_waMedial_cham < -2 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -88 0 0 >;
+	position laMedial_uSign_cham < -2 0 0 0 >;
+	position laMedial_uSign_cham < 0 -88 0 0 >;
+	position laMedial_ueSign_cham < -2 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -88 0 0 >;
+	position waMedial_uSign_cham < -2 0 0 0 >;
+	position waMedial_uSign_cham < 0 -88 0 0 >;
+	position waMedial_ueSign_cham < -2 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -88 0 0 >;
+    } gpos_24_single ;
+
+lookup gpos_25_single {
+	position laMedial_cham < 77 0 0 0 >;
+	position laMedial_cham < 0 -87 0 0 >;
+	position laMedial_cham.narrow < -23 0 0 0 >;
+	position laMedial_cham.narrow < 0 -87 0 0 >;
+	position waMedial_cham < -23 0 0 0 >;
+	position waMedial_cham < 0 -87 0 0 >;
+	position waMedial_cham.narrow < -23 0 0 0 >;
+	position waMedial_cham.narrow < 0 -87 0 0 >;
+	position laMedial_waMedial_cham < 77 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -87 0 0 >;
+	position laMedial_uSign_cham < 77 0 0 0 >;
+	position laMedial_uSign_cham < 0 -87 0 0 >;
+	position laMedial_ueSign_cham < 77 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -87 0 0 >;
+	position waMedial_uSign_cham < 77 0 0 0 >;
+	position waMedial_uSign_cham < 0 -87 0 0 >;
+	position waMedial_ueSign_cham < 77 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -87 0 0 >;
+    } gpos_25_single ;
+
+lookup gpos_26_single {
+	position laMedial_cham < -119 0 0 0 >;
+	position laMedial_cham < 0 -24 0 0 >;
+	position laMedial_cham.narrow < -219 0 0 0 >;
+	position laMedial_cham.narrow < 0 -24 0 0 >;
+	position waMedial_cham < -219 0 0 0 >;
+	position waMedial_cham < 0 -24 0 0 >;
+	position waMedial_cham.narrow < -219 0 0 0 >;
+	position waMedial_cham.narrow < 0 -24 0 0 >;
+	position laMedial_waMedial_cham < -119 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -24 0 0 >;
+	position laMedial_uSign_cham < -119 0 0 0 >;
+	position laMedial_uSign_cham < 0 -24 0 0 >;
+	position laMedial_ueSign_cham < -119 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -24 0 0 >;
+	position waMedial_uSign_cham < -119 0 0 0 >;
+	position waMedial_uSign_cham < 0 -24 0 0 >;
+	position waMedial_ueSign_cham < -119 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -24 0 0 >;
+    } gpos_26_single ;
+
+lookup gpos_27_single {
+	position laMedial_cham < -82 0 0 0 >;
+	position laMedial_cham < 0 -44 0 0 >;
+	position laMedial_cham.narrow < -182 0 0 0 >;
+	position laMedial_cham.narrow < 0 -44 0 0 >;
+	position waMedial_cham < -182 0 0 0 >;
+	position waMedial_cham < 0 -44 0 0 >;
+	position waMedial_cham.narrow < -182 0 0 0 >;
+	position waMedial_cham.narrow < 0 -44 0 0 >;
+	position laMedial_waMedial_cham < -82 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -44 0 0 >;
+	position laMedial_uSign_cham < -82 0 0 0 >;
+	position laMedial_uSign_cham < 0 -44 0 0 >;
+	position laMedial_ueSign_cham < -82 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -44 0 0 >;
+	position waMedial_uSign_cham < -82 0 0 0 >;
+	position waMedial_uSign_cham < 0 -44 0 0 >;
+	position waMedial_ueSign_cham < -82 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -44 0 0 >;
+    } gpos_27_single ;
+
+lookup gpos_28_single {
+	position laMedial_cham < 80 0 0 0 >;
+	position laMedial_cham < 0 -90 0 0 >;
+	position laMedial_cham.narrow < -20 0 0 0 >;
+	position laMedial_cham.narrow < 0 -90 0 0 >;
+	position waMedial_cham < -20 0 0 0 >;
+	position waMedial_cham < 0 -90 0 0 >;
+	position waMedial_cham.narrow < -20 0 0 0 >;
+	position waMedial_cham.narrow < 0 -90 0 0 >;
+	position laMedial_waMedial_cham < 80 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -90 0 0 >;
+	position laMedial_uSign_cham < 80 0 0 0 >;
+	position laMedial_uSign_cham < 0 -90 0 0 >;
+	position laMedial_ueSign_cham < 80 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -90 0 0 >;
+	position waMedial_uSign_cham < 80 0 0 0 >;
+	position waMedial_uSign_cham < 0 -90 0 0 >;
+	position waMedial_ueSign_cham < 80 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -90 0 0 >;
+    } gpos_28_single ;
+
+lookup gpos_29_single {
+	position laMedial_cham < 293 0 0 0 >;
+	position laMedial_cham < 0 -170 0 0 >;
+	position laMedial_cham.narrow < 193 0 0 0 >;
+	position laMedial_cham.narrow < 0 -170 0 0 >;
+	position waMedial_cham < 193 0 0 0 >;
+	position waMedial_cham < 0 -170 0 0 >;
+	position waMedial_cham.narrow < 193 0 0 0 >;
+	position waMedial_cham.narrow < 0 -170 0 0 >;
+	position laMedial_waMedial_cham < 293 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -170 0 0 >;
+	position laMedial_uSign_cham < 293 0 0 0 >;
+	position laMedial_uSign_cham < 0 -170 0 0 >;
+	position laMedial_ueSign_cham < 293 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -170 0 0 >;
+	position waMedial_uSign_cham < 293 0 0 0 >;
+	position waMedial_uSign_cham < 0 -170 0 0 >;
+	position waMedial_ueSign_cham < 293 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -170 0 0 >;
+    } gpos_29_single ;
+
+lookup gpos_30_single {
+	position laMedial_cham < 6 0 0 0 >;
+	position laMedial_cham < 0 -96 0 0 >;
+	position laMedial_cham.narrow < -94 0 0 0 >;
+	position laMedial_cham.narrow < 0 -96 0 0 >;
+	position waMedial_cham < -94 0 0 0 >;
+	position waMedial_cham < 0 -96 0 0 >;
+	position waMedial_cham.narrow < -94 0 0 0 >;
+	position waMedial_cham.narrow < 0 -96 0 0 >;
+	position laMedial_waMedial_cham < 6 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -96 0 0 >;
+	position laMedial_uSign_cham < 6 0 0 0 >;
+	position laMedial_uSign_cham < 0 -96 0 0 >;
+	position laMedial_ueSign_cham < 6 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -96 0 0 >;
+	position waMedial_uSign_cham < 6 0 0 0 >;
+	position waMedial_uSign_cham < 0 -96 0 0 >;
+	position waMedial_ueSign_cham < 6 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -96 0 0 >;
+    } gpos_30_single ;
+
+lookup gpos_31_single {
+	position laMedial_cham < 228 0 0 0 >;
+	position laMedial_cham < 0 -97 0 0 >;
+	position laMedial_cham.narrow < 128 0 0 0 >;
+	position laMedial_cham.narrow < 0 -97 0 0 >;
+	position waMedial_cham < 128 0 0 0 >;
+	position waMedial_cham < 0 -97 0 0 >;
+	position waMedial_cham.narrow < 128 0 0 0 >;
+	position waMedial_cham.narrow < 0 -97 0 0 >;
+	position laMedial_waMedial_cham < 228 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -97 0 0 >;
+	position laMedial_uSign_cham < 228 0 0 0 >;
+	position laMedial_uSign_cham < 0 -97 0 0 >;
+	position laMedial_ueSign_cham < 228 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -97 0 0 >;
+	position waMedial_uSign_cham < 228 0 0 0 >;
+	position waMedial_uSign_cham < 0 -97 0 0 >;
+	position waMedial_ueSign_cham < 228 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -97 0 0 >;
+    } gpos_31_single ;
+
+lookup gpos_32_single {
+	position laMedial_cham < -40 0 0 0 >;
+	position laMedial_cham < 0 -80 0 0 >;
+	position laMedial_cham.narrow < -140 0 0 0 >;
+	position laMedial_cham.narrow < 0 -80 0 0 >;
+	position waMedial_cham < -140 0 0 0 >;
+	position waMedial_cham < 0 -80 0 0 >;
+	position waMedial_cham.narrow < -140 0 0 0 >;
+	position waMedial_cham.narrow < 0 -80 0 0 >;
+	position laMedial_waMedial_cham < -40 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -80 0 0 >;
+	position laMedial_uSign_cham < -40 0 0 0 >;
+	position laMedial_uSign_cham < 0 -80 0 0 >;
+	position laMedial_ueSign_cham < -40 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -80 0 0 >;
+	position waMedial_uSign_cham < -40 0 0 0 >;
+	position waMedial_uSign_cham < 0 -80 0 0 >;
+	position waMedial_ueSign_cham < -40 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -80 0 0 >;
+    } gpos_32_single ;
+
+lookup gpos_33_single {
+	position laMedial_cham < -21 0 0 0 >;
+	position laMedial_cham < 0 -105 0 0 >;
+	position laMedial_cham.narrow < -121 0 0 0 >;
+	position laMedial_cham.narrow < 0 -105 0 0 >;
+	position waMedial_cham < -121 0 0 0 >;
+	position waMedial_cham < 0 -105 0 0 >;
+	position waMedial_cham.narrow < -121 0 0 0 >;
+	position waMedial_cham.narrow < 0 -105 0 0 >;
+	position laMedial_waMedial_cham < -21 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -105 0 0 >;
+	position laMedial_uSign_cham < -21 0 0 0 >;
+	position laMedial_uSign_cham < 0 -105 0 0 >;
+	position laMedial_ueSign_cham < -21 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -105 0 0 >;
+	position waMedial_uSign_cham < -21 0 0 0 >;
+	position waMedial_uSign_cham < 0 -105 0 0 >;
+	position waMedial_ueSign_cham < -21 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -105 0 0 >;
+    } gpos_33_single ;
+
+lookup gpos_34_single {
+	position laMedial_cham < 55 0 0 0 >;
+	position laMedial_cham < 0 -120 0 0 >;
+	position laMedial_cham.narrow < -45 0 0 0 >;
+	position laMedial_cham.narrow < 0 -120 0 0 >;
+	position waMedial_cham < -45 0 0 0 >;
+	position waMedial_cham < 0 -120 0 0 >;
+	position waMedial_cham.narrow < -45 0 0 0 >;
+	position waMedial_cham.narrow < 0 -120 0 0 >;
+	position laMedial_waMedial_cham < 55 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -120 0 0 >;
+	position laMedial_uSign_cham < 55 0 0 0 >;
+	position laMedial_uSign_cham < 0 -120 0 0 >;
+	position laMedial_ueSign_cham < 55 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -120 0 0 >;
+	position waMedial_uSign_cham < 55 0 0 0 >;
+	position waMedial_uSign_cham < 0 -120 0 0 >;
+	position waMedial_ueSign_cham < 55 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -120 0 0 >;
+    } gpos_34_single ;
+
+lookup gpos_35_single {
+	position laMedial_cham < 50 0 0 0 >;
+	position laMedial_cham < 0 -100 0 0 >;
+	position laMedial_cham.narrow < -50 0 0 0 >;
+	position laMedial_cham.narrow < 0 -100 0 0 >;
+	position waMedial_cham < -50 0 0 0 >;
+	position waMedial_cham < 0 -100 0 0 >;
+	position waMedial_cham.narrow < -50 0 0 0 >;
+	position waMedial_cham.narrow < 0 -100 0 0 >;
+	position laMedial_waMedial_cham < 50 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -100 0 0 >;
+	position laMedial_uSign_cham < 50 0 0 0 >;
+	position laMedial_uSign_cham < 0 -100 0 0 >;
+	position laMedial_ueSign_cham < 50 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -100 0 0 >;
+	position waMedial_uSign_cham < 50 0 0 0 >;
+	position waMedial_uSign_cham < 0 -100 0 0 >;
+	position waMedial_ueSign_cham < 50 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -100 0 0 >;
+    } gpos_35_single ;
+
+lookup gpos_36_single {
+	position laMedial_cham < -26 0 0 0 >;
+	position laMedial_cham < 0 -99 0 0 >;
+	position laMedial_cham.narrow < -126 0 0 0 >;
+	position laMedial_cham.narrow < 0 -99 0 0 >;
+	position waMedial_cham < -126 0 0 0 >;
+	position waMedial_cham < 0 -99 0 0 >;
+	position waMedial_cham.narrow < -126 0 0 0 >;
+	position waMedial_cham.narrow < 0 -99 0 0 >;
+	position laMedial_waMedial_cham < -26 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -99 0 0 >;
+	position laMedial_uSign_cham < -26 0 0 0 >;
+	position laMedial_uSign_cham < 0 -99 0 0 >;
+	position laMedial_ueSign_cham < -26 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -99 0 0 >;
+	position waMedial_uSign_cham < -26 0 0 0 >;
+	position waMedial_uSign_cham < 0 -99 0 0 >;
+	position waMedial_ueSign_cham < -26 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -99 0 0 >;
+    } gpos_36_single ;
+
+lookup gpos_37_single {
+	position laMedial_cham < 91 0 0 0 >;
+	position laMedial_cham < 0 -95 0 0 >;
+	position laMedial_cham.narrow < -9 0 0 0 >;
+	position laMedial_cham.narrow < 0 -95 0 0 >;
+	position waMedial_cham < -9 0 0 0 >;
+	position waMedial_cham < 0 -95 0 0 >;
+	position waMedial_cham.narrow < -9 0 0 0 >;
+	position waMedial_cham.narrow < 0 -95 0 0 >;
+	position laMedial_waMedial_cham < 91 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -95 0 0 >;
+	position laMedial_uSign_cham < 91 0 0 0 >;
+	position laMedial_uSign_cham < 0 -95 0 0 >;
+	position laMedial_ueSign_cham < 91 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -95 0 0 >;
+	position waMedial_uSign_cham < 91 0 0 0 >;
+	position waMedial_uSign_cham < 0 -95 0 0 >;
+	position waMedial_ueSign_cham < 91 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -95 0 0 >;
+    } gpos_37_single ;
+
+lookup gpos_38_single {
+	position laMedial_cham < -10 0 0 0 >;
+	position laMedial_cham < 0 -100 0 0 >;
+	position laMedial_cham.narrow < -110 0 0 0 >;
+	position laMedial_cham.narrow < 0 -100 0 0 >;
+	position waMedial_cham < -110 0 0 0 >;
+	position waMedial_cham < 0 -100 0 0 >;
+	position waMedial_cham.narrow < -110 0 0 0 >;
+	position waMedial_cham.narrow < 0 -100 0 0 >;
+	position laMedial_waMedial_cham < -10 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -100 0 0 >;
+	position laMedial_uSign_cham < -10 0 0 0 >;
+	position laMedial_uSign_cham < 0 -100 0 0 >;
+	position laMedial_ueSign_cham < -10 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -100 0 0 >;
+	position waMedial_uSign_cham < -10 0 0 0 >;
+	position waMedial_uSign_cham < 0 -100 0 0 >;
+	position waMedial_ueSign_cham < -10 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -100 0 0 >;
+    } gpos_38_single ;
+
+lookup gpos_39_single {
+	position laMedial_cham < -12 0 0 0 >;
+	position laMedial_cham < 0 -95 0 0 >;
+	position laMedial_cham.narrow < -112 0 0 0 >;
+	position laMedial_cham.narrow < 0 -95 0 0 >;
+	position waMedial_cham < -112 0 0 0 >;
+	position waMedial_cham < 0 -95 0 0 >;
+	position waMedial_cham.narrow < -112 0 0 0 >;
+	position waMedial_cham.narrow < 0 -95 0 0 >;
+	position laMedial_waMedial_cham < -12 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -95 0 0 >;
+	position laMedial_uSign_cham < -12 0 0 0 >;
+	position laMedial_uSign_cham < 0 -95 0 0 >;
+	position laMedial_ueSign_cham < -12 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -95 0 0 >;
+	position waMedial_uSign_cham < -12 0 0 0 >;
+	position waMedial_uSign_cham < 0 -95 0 0 >;
+	position waMedial_ueSign_cham < -12 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -95 0 0 >;
+    } gpos_39_single ;
+
+lookup gpos_40_single {
+	position laMedial_cham < 136 0 0 0 >;
+	position laMedial_cham < 0 -89 0 0 >;
+	position laMedial_cham.narrow < 36 0 0 0 >;
+	position laMedial_cham.narrow < 0 -89 0 0 >;
+	position waMedial_cham < 36 0 0 0 >;
+	position waMedial_cham < 0 -89 0 0 >;
+	position waMedial_cham.narrow < 36 0 0 0 >;
+	position waMedial_cham.narrow < 0 -89 0 0 >;
+	position laMedial_waMedial_cham < 136 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -89 0 0 >;
+	position laMedial_uSign_cham < 136 0 0 0 >;
+	position laMedial_uSign_cham < 0 -89 0 0 >;
+	position laMedial_ueSign_cham < 136 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -89 0 0 >;
+	position waMedial_uSign_cham < 136 0 0 0 >;
+	position waMedial_uSign_cham < 0 -89 0 0 >;
+	position waMedial_ueSign_cham < 136 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -89 0 0 >;
+    } gpos_40_single ;
+
+lookup gpos_41_single {
+	position laMedial_cham < 95 0 0 0 >;
+	position laMedial_cham < 0 -86 0 0 >;
+	position laMedial_cham.narrow < -5 0 0 0 >;
+	position laMedial_cham.narrow < 0 -86 0 0 >;
+	position waMedial_cham < -5 0 0 0 >;
+	position waMedial_cham < 0 -86 0 0 >;
+	position waMedial_cham.narrow < -5 0 0 0 >;
+	position waMedial_cham.narrow < 0 -86 0 0 >;
+	position laMedial_waMedial_cham < 95 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -86 0 0 >;
+	position laMedial_uSign_cham < 95 0 0 0 >;
+	position laMedial_uSign_cham < 0 -86 0 0 >;
+	position laMedial_ueSign_cham < 95 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -86 0 0 >;
+	position waMedial_uSign_cham < 95 0 0 0 >;
+	position waMedial_uSign_cham < 0 -86 0 0 >;
+	position waMedial_ueSign_cham < 95 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -86 0 0 >;
+    } gpos_41_single ;
+
+lookup gpos_42_single {
+	position laMedial_cham < -142 0 0 0 >;
+	position laMedial_cham < 0 -2 0 0 >;
+	position laMedial_cham.narrow < -242 0 0 0 >;
+	position laMedial_cham.narrow < 0 -2 0 0 >;
+	position waMedial_cham < -242 0 0 0 >;
+	position waMedial_cham < 0 -2 0 0 >;
+	position waMedial_cham.narrow < -242 0 0 0 >;
+	position waMedial_cham.narrow < 0 -2 0 0 >;
+	position laMedial_waMedial_cham < -142 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -2 0 0 >;
+	position laMedial_uSign_cham < -142 0 0 0 >;
+	position laMedial_uSign_cham < 0 -2 0 0 >;
+	position laMedial_ueSign_cham < -142 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -2 0 0 >;
+	position waMedial_uSign_cham < -142 0 0 0 >;
+	position waMedial_uSign_cham < 0 -2 0 0 >;
+	position waMedial_ueSign_cham < -142 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -2 0 0 >;
+    } gpos_42_single ;
+
+lookup gpos_43_single {
+	position laMedial_cham < -10 0 0 0 >;
+	position laMedial_cham < 0 -113 0 0 >;
+	position laMedial_cham.narrow < -110 0 0 0 >;
+	position laMedial_cham.narrow < 0 -113 0 0 >;
+	position waMedial_cham < -110 0 0 0 >;
+	position waMedial_cham < 0 -113 0 0 >;
+	position waMedial_cham.narrow < -110 0 0 0 >;
+	position waMedial_cham.narrow < 0 -113 0 0 >;
+	position laMedial_waMedial_cham < -10 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -113 0 0 >;
+	position laMedial_uSign_cham < -10 0 0 0 >;
+	position laMedial_uSign_cham < 0 -113 0 0 >;
+	position laMedial_ueSign_cham < -10 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -113 0 0 >;
+	position waMedial_uSign_cham < -10 0 0 0 >;
+	position waMedial_uSign_cham < 0 -113 0 0 >;
+	position waMedial_ueSign_cham < -10 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -113 0 0 >;
+    } gpos_43_single ;
+
+lookup gpos_44_single {
+	position laMedial_cham < 63 0 0 0 >;
+	position laMedial_cham < 0 -108 0 0 >;
+	position laMedial_cham.narrow < -37 0 0 0 >;
+	position laMedial_cham.narrow < 0 -108 0 0 >;
+	position waMedial_cham < -37 0 0 0 >;
+	position waMedial_cham < 0 -108 0 0 >;
+	position waMedial_cham.narrow < -37 0 0 0 >;
+	position waMedial_cham.narrow < 0 -108 0 0 >;
+	position laMedial_waMedial_cham < 63 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -108 0 0 >;
+	position laMedial_uSign_cham < 63 0 0 0 >;
+	position laMedial_uSign_cham < 0 -108 0 0 >;
+	position laMedial_ueSign_cham < 63 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -108 0 0 >;
+	position waMedial_uSign_cham < 63 0 0 0 >;
+	position waMedial_uSign_cham < 0 -108 0 0 >;
+	position waMedial_ueSign_cham < 63 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -108 0 0 >;
+    } gpos_44_single ;
+
+lookup gpos_45_single {
+	position laMedial_cham < 4 0 0 0 >;
+	position laMedial_cham < 0 -105 0 0 >;
+	position laMedial_cham.narrow < -96 0 0 0 >;
+	position laMedial_cham.narrow < 0 -105 0 0 >;
+	position waMedial_cham < -96 0 0 0 >;
+	position waMedial_cham < 0 -105 0 0 >;
+	position waMedial_cham.narrow < -96 0 0 0 >;
+	position waMedial_cham.narrow < 0 -105 0 0 >;
+	position laMedial_waMedial_cham < 4 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -105 0 0 >;
+	position laMedial_uSign_cham < 4 0 0 0 >;
+	position laMedial_uSign_cham < 0 -105 0 0 >;
+	position laMedial_ueSign_cham < 4 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -105 0 0 >;
+	position waMedial_uSign_cham < 4 0 0 0 >;
+	position waMedial_uSign_cham < 0 -105 0 0 >;
+	position waMedial_ueSign_cham < 4 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -105 0 0 >;
+    } gpos_45_single ;
+
+lookup gpos_46_single {
+	position laMedial_cham < 182 0 0 0 >;
+	position laMedial_cham < 0 -105 0 0 >;
+	position laMedial_cham.narrow < 82 0 0 0 >;
+	position laMedial_cham.narrow < 0 -105 0 0 >;
+	position waMedial_cham < 82 0 0 0 >;
+	position waMedial_cham < 0 -105 0 0 >;
+	position waMedial_cham.narrow < 82 0 0 0 >;
+	position waMedial_cham.narrow < 0 -105 0 0 >;
+	position laMedial_waMedial_cham < 182 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -105 0 0 >;
+	position laMedial_uSign_cham < 182 0 0 0 >;
+	position laMedial_uSign_cham < 0 -105 0 0 >;
+	position laMedial_ueSign_cham < 182 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -105 0 0 >;
+	position waMedial_uSign_cham < 182 0 0 0 >;
+	position waMedial_uSign_cham < 0 -105 0 0 >;
+	position waMedial_ueSign_cham < 182 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -105 0 0 >;
+    } gpos_46_single ;
+
+lookup gpos_47_single {
+	position laMedial_cham < -127 0 0 0 >;
+	position laMedial_cham < 0 -30 0 0 >;
+	position laMedial_cham.narrow < -227 0 0 0 >;
+	position laMedial_cham.narrow < 0 -30 0 0 >;
+	position waMedial_cham < -227 0 0 0 >;
+	position waMedial_cham < 0 -30 0 0 >;
+	position waMedial_cham.narrow < -227 0 0 0 >;
+	position waMedial_cham.narrow < 0 -30 0 0 >;
+	position laMedial_waMedial_cham < -127 0 0 0 >;
+	position laMedial_waMedial_cham < 0 -30 0 0 >;
+	position laMedial_uSign_cham < -127 0 0 0 >;
+	position laMedial_uSign_cham < 0 -30 0 0 >;
+	position laMedial_ueSign_cham < -127 0 0 0 >;
+	position laMedial_ueSign_cham < 0 -30 0 0 >;
+	position waMedial_uSign_cham < -127 0 0 0 >;
+	position waMedial_uSign_cham < 0 -30 0 0 >;
+	position waMedial_ueSign_cham < -127 0 0 0 >;
+	position waMedial_ueSign_cham < 0 -30 0 0 >;
+    } gpos_47_single ;
+
+lookup gpos_9_chained {
+	@_impacted_group_1_gpos_9_chained = [ eiSign_cham ];
+	@_impacted_group_2_gpos_9_chained = [ oeSign_cham oeSign_ngSignFinal_cham oeSign_mSignFinal_cham ];
+	@_impacted_group_3_gpos_9_chained = [ iSign_mSignFinal_cham ];
+	@_impacted_group_4_gpos_9_chained = [ iSign_cham iiSign_cham ];
+	@_impacted_group_5_gpos_9_chained = [ auSign_cham oeSign_auSign_cham auSign_mSignFinal_cham ];
+	@_impacted_group_6_gpos_9_chained = [ ngSignFinal_cham ];
+	@_impacted_group_7_gpos_9_chained = [ aaSign_cham ];
+	@_impacted_group_8_gpos_9_chained = [ aaSign_oeSign_cham ];
+
+	@_lookahead_group_1_gpos_9_chained = [ raMedial_cham raMedial_cham_pre raMedial_cham_pre.low raMedial_cham_pre.low.alt ];
+	@_lookahead_group_2_gpos_9_chained = [ space ];
+
+    pos @_impacted_group_1_gpos_9_chained' lookup gpos_8_single@_lookahead_group_2_gpos_9_chained @_lookahead_group_1_gpos_9_chained ;
+    pos @_impacted_group_2_gpos_9_chained' lookup gpos_7_single@_lookahead_group_2_gpos_9_chained @_lookahead_group_1_gpos_9_chained ;
+    pos @_impacted_group_3_gpos_9_chained' lookup gpos_6_single@_lookahead_group_2_gpos_9_chained @_lookahead_group_1_gpos_9_chained ;
+    pos @_impacted_group_4_gpos_9_chained' lookup gpos_5_single@_lookahead_group_2_gpos_9_chained @_lookahead_group_1_gpos_9_chained ;
+    pos @_impacted_group_5_gpos_9_chained' lookup gpos_4_single@_lookahead_group_2_gpos_9_chained @_lookahead_group_1_gpos_9_chained ;
+    pos @_impacted_group_6_gpos_9_chained' lookup gpos_3_single@_lookahead_group_2_gpos_9_chained @_lookahead_group_1_gpos_9_chained ;
+    pos @_impacted_group_7_gpos_9_chained' lookup gpos_2_single@_lookahead_group_2_gpos_9_chained @_lookahead_group_1_gpos_9_chained ;
+    pos @_impacted_group_8_gpos_9_chained' lookup gpos_1_single@_lookahead_group_2_gpos_9_chained @_lookahead_group_1_gpos_9_chained ;
+
+    } gpos_9_chained ;
+
+lookup gpos_48_chained {
+	@_backtrack_group_1_gpos_48_chained = [ ba_cham ];
+	@_backtrack_group_2_gpos_48_chained = [ bba_cham ];
+	@_backtrack_group_3_gpos_48_chained = [ bha_cham ];
+	@_backtrack_group_4_gpos_48_chained = [ cha_cham ];
+	@_backtrack_group_5_gpos_48_chained = [ chha_cham ];
+	@_backtrack_group_6_gpos_48_chained = [ da_cham ];
+	@_backtrack_group_7_gpos_48_chained = [ dda_cham ];
+	@_backtrack_group_8_gpos_48_chained = [ dha_cham ];
+	@_backtrack_group_9_gpos_48_chained = [ ga_cham ];
+	@_backtrack_group_10_gpos_48_chained = [ gha_cham ];
+	@_backtrack_group_11_gpos_48_chained = [ ja_cham ];
+	@_backtrack_group_12_gpos_48_chained = [ jha_cham ];
+	@_backtrack_group_13_gpos_48_chained = [ ka_cham ];
+	@_backtrack_group_14_gpos_48_chained = [ kha_cham ];
+	@_backtrack_group_15_gpos_48_chained = [ la_cham ];
+	@_backtrack_group_16_gpos_48_chained = [ ma_cham ];
+	@_backtrack_group_17_gpos_48_chained = [ mue_cham ];
+	@_backtrack_group_18_gpos_48_chained = [ na_cham ];
+	@_backtrack_group_19_gpos_48_chained = [ nga_cham ];
+	@_backtrack_group_20_gpos_48_chained = [ ngue_cham ];
+	@_backtrack_group_21_gpos_48_chained = [ nha_cham ];
+	@_backtrack_group_22_gpos_48_chained = [ nhja_cham ];
+	@_backtrack_group_23_gpos_48_chained = [ nhue_cham ];
+	@_backtrack_group_24_gpos_48_chained = [ nue_cham ];
+	@_backtrack_group_25_gpos_48_chained = [ pa_cham ];
+	@_backtrack_group_26_gpos_48_chained = [ pha_cham ];
+	@_backtrack_group_27_gpos_48_chained = [ ppa_cham ];
+	@_backtrack_group_28_gpos_48_chained = [ ra_cham ];
+	@_backtrack_group_29_gpos_48_chained = [ sa_cham ];
+	@_backtrack_group_30_gpos_48_chained = [ ssa_cham ];
+	@_backtrack_group_31_gpos_48_chained = [ ta_cham ];
+	@_backtrack_group_32_gpos_48_chained = [ tha_cham ];
+	@_backtrack_group_33_gpos_48_chained = [ va_cham ];
+	@_backtrack_group_34_gpos_48_chained = [ ya_cham ];
+
+	@_impacted_group_1_gpos_48_chained = [ laMedial_cham laMedial_cham.narrow waMedial_cham waMedial_cham.narrow laMedial_waMedial_cham laMedial_uSign_cham laMedial_ueSign_cham waMedial_uSign_cham waMedial_ueSign_cham ];
+
+	@_lookahead_group_1_gpos_48_chained = [ yaMedial_cham ];
+
+    pos @_backtrack_group_1_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_14_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_2_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_15_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_3_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_16_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_4_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_17_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_5_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_18_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_6_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_19_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_7_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_20_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_8_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_21_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_9_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_22_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_10_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_23_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_11_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_24_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_12_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_25_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_13_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_26_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_14_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_27_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_15_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_28_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_16_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_29_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_17_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_30_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_18_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_31_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_19_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_32_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_20_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_33_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_21_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_34_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_22_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_35_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_23_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_36_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_24_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_37_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_25_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_38_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_26_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_39_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_27_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_40_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_28_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_41_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_29_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_42_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_30_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_43_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_31_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_44_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_32_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_45_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_33_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_46_single@_lookahead_group_1_gpos_48_chained ;
+    pos @_backtrack_group_34_gpos_48_chained @_impacted_group_1_gpos_48_chained' lookup gpos_47_single@_lookahead_group_1_gpos_48_chained ;
+
+    } gpos_48_chained ;
+
+
+#FEATURES LIST
+feature calt {
+	script cham ;
+		language dflt ;
+			lookup gsub_7_chained;
+			lookup gsub_8_chained;
+			lookup gsub_9_chained;
+		} calt;
+
+feature ccmp {
+	script cham ;
+		language dflt ;
+			lookup gsub_4_ligature;
+		} ccmp;
+
+feature clig {
+	script cham ;
+		language dflt ;
+			lookup gsub_6_chained;
+		} clig;
+
+feature liga {
+	script cham ;
+		language dflt ;
+			lookup gsub_5_ligature;
+		} liga;
+
+feature locl {
+	script cham ;
+		language dflt ;
+			lookup gsub_6_chained;
+		} locl;
+
+feature pref {
+	script cham ;
+		language dflt ;
+			lookup gsub_0_single;
+		} pref;
+
+feature pres {
+	script cham ;
+		language dflt ;
+			lookup gsub_3_chained;
+		} pres;
+
+feature dist {
+	script cham ;
+		language dflt ;
+			lookup gpos_48_chained;
+			lookup gpos_9_chained;
+		} dist;
+
+feature kern {
+	script cham ;
+		language dflt ;
+			lookup gpos_10_pair;
+			lookup gpos_0_pair;
+		} kern;
+
+feature mark {
+	script cham ;
+		language dflt ;
+			lookup gpos_11_mark_to_base;
+			lookup gpos_12_mark_to_base;
+		} mark;
+
+feature mkmk {
+	script cham ;
+		language dflt ;
+			lookup gpos_13_mark_to_mark;
+		} mkmk;
+
+
+#GDEF
+
+table GDEF {
+  GlyphClassDef
+		@GDEF_base,
+		,
+		@GDEF_mark,
+		;
+
+} GDEF;

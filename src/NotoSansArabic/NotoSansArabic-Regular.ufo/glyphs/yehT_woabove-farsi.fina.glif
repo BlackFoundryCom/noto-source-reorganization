@@ -1,24 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yehTwoabove-farsi.fina" format="2">
-  <advance width="736"/>
-  <anchor x="326" y="-232" name="bottom"/>
-  <anchor x="216" y="150" name="top"/>
+  <advance width="828"/>
+  <anchor x="360" y="-287" name="bottom"/>
+  <anchor x="360" y="-244" name="bottom.dot"/>
+  <anchor x="278" y="293" name="top"/>
+  <anchor x="139" y="198" name="top.dot"/>
   <outline>
-    <component base="alefMaksura-ar.fina"/>
-    <component base="two-persian.small01" xOffset="126" yOffset="-378"/>
+    <component base="alefMaksura-ar.fina" xOffset="3"/>
+    <component base="two-persian.small01" xOffset="30" yOffset="-234"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>two-persian.small01</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>alefMaksura-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>alefMaksura-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/25 17:31:31</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
+        <integer>-1</integer>
         <integer>0</integer>
-        <integer>1</integer>
       </array>
     </dict>
   </lib>

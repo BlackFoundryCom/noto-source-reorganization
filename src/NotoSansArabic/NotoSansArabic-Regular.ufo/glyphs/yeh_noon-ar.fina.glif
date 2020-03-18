@@ -1,24 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="yeh_noon-ar.fina" format="2">
-  <advance width="1103"/>
+  <advance width="1072"/>
   <unicode hex="FC94"/>
-  <anchor x="730" y="0" name="caret_1"/>
-  <anchor x="913" y="-191" name="bottom_1"/>
-  <anchor x="313" y="-232" name="bottom_2"/>
-  <anchor x="926" y="283" name="top_1"/>
-  <anchor x="332" y="497" name="top_2"/>
+  <anchor x="878" y="-221" name="bottom_1"/>
+  <anchor x="877" y="-32" name="bottom.dot"/>
+  <anchor x="331" y="-280" name="bottom_2"/>
+  <anchor x="894" y="346" name="top.dot_1"/>
+  <anchor x="351" y="268" name="top.dot_2"/>
+  <anchor x="894" y="458" name="top_1"/>
+  <anchor x="352" y="472" name="top_2"/>
   <outline>
-    <component base="yeh-ar.medi" xOffset="730"/>
-    <component base="noon-ar.fina"/>
+    <component base="alefMaksura_noon-ar.fina"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="736" yOffset="-30"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>bottom.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalbelow-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>yeh-ar.medi</string>
+      <string>noon-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>noon-ar.fina</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/28 10:12:55</string>
     </dict>
   </lib>
 </glyph>

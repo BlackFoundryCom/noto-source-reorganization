@@ -1,25 +1,38 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="wawThreeAbove-ar" format="2">
-  <advance width="447"/>
+  <advance width="490"/>
   <unicode hex="0779"/>
-  <anchor x="224" y="-240" name="bottom"/>
-  <anchor x="232" y="337" name="top"/>
+  <anchor x="211" y="-296" name="bottom"/>
+  <anchor x="251" y="-84" name="center"/>
+  <anchor x="245" y="454" name="top"/>
+  <anchor x="245" y="384" name="top.dot"/>
   <outline>
     <component base="waw-ar"/>
-    <component base="three-persian.small01" xOffset="34" yOffset="-237"/>
+    <component base="three-persian.small01" xOffset="136" yOffset="-48"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>three-persian.small01</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>waw-ar</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>waw-ar</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/03/02 14:10:36</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>0</integer>
-        <integer>-1</integer>
+        <integer>1</integer>
       </array>
     </dict>
   </lib>

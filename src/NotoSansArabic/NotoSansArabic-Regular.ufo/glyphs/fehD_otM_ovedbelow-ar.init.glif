@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fehDotMovedbelow-ar.init" format="2">
-  <advance width="447"/>
-  <anchor x="202" y="-191" name="bottom"/>
-  <anchor x="222" y="501" name="top"/>
+  <advance width="508"/>
+  <anchor x="275" y="-111" name="bottom"/>
+  <anchor x="276" y="-21" name="bottom.dot"/>
+  <anchor x="253" y="668" name="top"/>
+  <anchor x="257" y="558" name="top.dot"/>
   <outline>
     <component base="dotlessfeh-ar.init"/>
-    <component base="dotbelow-ar" xOffset="126" yOffset="-3"/>
+    <component base="dotbelow-ar" xOffset="201" yOffset="-19"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:53</string>
+      <string>2020/02/25 22:41:56</string>
     </dict>
   </lib>
 </glyph>

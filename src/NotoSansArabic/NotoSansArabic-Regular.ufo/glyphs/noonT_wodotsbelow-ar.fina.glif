@@ -1,16 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="noonTwodotsbelow-ar.fina" format="2">
-  <advance width="730"/>
-  <anchor x="316" y="-418" name="bottom"/>
-  <anchor x="332" y="497" name="top"/>
+  <advance width="760"/>
+  <anchor x="331" y="-280" name="bottom"/>
+  <anchor x="332" y="-232" name="bottom.dot"/>
+  <anchor x="351" y="270" name="top.dot"/>
   <outline>
     <component base="noon-ar.fina"/>
-    <component base="twodotshorizontalbelow-ar" xOffset="172" yOffset="-232"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="191" yOffset="-230"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:52</string>
+      <string>2020/02/25 17:31:32</string>
     </dict>
   </lib>
 </glyph>

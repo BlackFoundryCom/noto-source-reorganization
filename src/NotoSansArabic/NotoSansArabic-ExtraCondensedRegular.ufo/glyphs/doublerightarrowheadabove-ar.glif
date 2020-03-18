@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="doublerightarrowheadabove-ar" format="2">
+  <unicode hex="08FB"/>
+  <anchor x="163" y="467" name="_top"/>
+  <anchor x="165" y="694" name="top"/>
+  <outline>
+    <component base="rightarrowheadabove-ar"/>
+    <component base="rightarrowheadabove-ar" xOffset="142"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=rightarrowheadabove-ar</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=rightarrowheadabove-ar</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/26 20:51:00</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>326</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

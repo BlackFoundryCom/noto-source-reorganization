@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="noonThreedotsabove-ar" format="2">
+  <advance width="737"/>
+  <unicode hex="06BD"/>
+  <anchor x="343" y="-274" name="bottom"/>
+  <anchor x="344" y="-214" name="bottom.dot"/>
+  <anchor x="363" y="280" name="top.dot"/>
+  <outline>
+    <component base="noonghunna-ar"/>
+    <component base="threedotsupabove-ar" xOffset="170" yOffset="-270"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/25 17:31:31</string>
+    </dict>
+  </lib>
+</glyph>

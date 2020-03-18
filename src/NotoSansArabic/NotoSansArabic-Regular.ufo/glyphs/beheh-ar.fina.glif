@@ -1,17 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="beheh-ar.fina" format="2">
-  <advance width="1093"/>
+  <advance width="1055"/>
   <unicode hex="FB5B"/>
-  <anchor x="469" y="-348" name="bottom"/>
-  <anchor x="487" y="298" name="top"/>
+  <anchor x="472" y="-111" name="bottom"/>
+  <anchor x="472" y="-32" name="bottom.dot"/>
+  <anchor x="478" y="475" name="top"/>
+  <anchor x="478" y="305" name="top.dot"/>
   <outline>
     <component base="dotlessbeh-ar.fina"/>
-    <component base="fourdotsbelow-ar" xOffset="322" yOffset="-25"/>
+    <component base="fourdotsbelow-ar" xOffset="342" yOffset="-32"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2016/07/29 13:30:51</string>
+      <string>2020/02/26 22:28:25</string>
     </dict>
   </lib>
 </glyph>

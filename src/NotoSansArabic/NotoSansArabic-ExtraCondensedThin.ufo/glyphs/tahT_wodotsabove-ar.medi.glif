@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tahTwodotsabove-ar.medi" format="2">
+  <advance width="649"/>
+  <anchor x="247" y="-112" name="bottom"/>
+  <anchor x="247" y="-20" name="bottom.dot"/>
+  <anchor x="358" y="536" name="top"/>
+  <anchor x="375" y="439" name="top.dot"/>
+  <outline>
+    <component base="tah-ar.medi"/>
+    <component base="twodotshorizontalabove-ar" xOffset="291" yOffset="83"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>anchor</key>
+          <string>top.dot</string>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>twodotshorizontalabove-ar</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/02/26 22:28:25</string>
+    </dict>
+  </lib>
+</glyph>
