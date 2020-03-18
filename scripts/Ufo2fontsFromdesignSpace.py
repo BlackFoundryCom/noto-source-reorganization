@@ -581,7 +581,7 @@ def instances(family, *output, newName=" "):
 # mastersUfos2fonts("NotoSansThaana", "woff2")
 # designSpace2Var("NotoSansThaana")
 # subsetFonts("NotoSerif", "SecureSet")
-instances("NotoMusic", "ttf")
+# instances("NotoMusic", "ttf")
 # ufoWithMTIfeatures2font("NotoMusic", "ttf")
 # subsetFonts("NotoSerif", "CyrillicPro", familyNewName = "Avocado Sans", flavor=["otf"])
 # subsetFonts("NotoKufiArabic", ["Core_Arabic"], flavor=["ttf"])
