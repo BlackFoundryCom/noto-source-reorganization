@@ -37,6 +37,7 @@ def ufo2font(directory, ufolist, *output, fromInstances=False):
                 os.makedirs(destination)
             otf = compileOTF(ufo, removeOverlaps=True, useProductionNames = False, featureWriters = featureWriters)
             otf.save(destination + i[:-4] + ".otf")
+            print(destination + i[:-4] + ".otf saved")
         if "ttf" in output:
             destination = folder + "TTF/"
             if not os.path.exists(destination):

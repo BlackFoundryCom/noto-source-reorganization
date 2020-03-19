@@ -140,19 +140,19 @@ def renamer(f, newName, codePageRange = []):
 def designSpace2Var(family):
     """ syntax :
     """
-    print("Load {}.designspace".format(family))
+    print(">>Load the {} designspace".format(family))
     path, folder = getFile(".designspace", "src", family)
-    print("CWD:>",os.getcwd())
+    # print("CWD:>",os.getcwd())
     designSpace = openDesignSpace(path)
-    print("Load fonts")
+    print("\tLoad "+family+" files")
     designSpace.loadSourceFonts(Font)
-    print("Start to build Variable Tables")
+    print("\tStart to build Variable Tables")
     font, _, _ = varLib.build(compileInterpolatableTTFsFromDS(designSpace, \
                     featureWriters = [KernFeatureWriter(mode="append"), MarkFeatureWriter]), optimize=False)
     destination = folder + "/fonts/VAR"
     if not os.path.exists(destination):
         os.makedirs(destination)
-    print("Variable font generated")
+    print("\t"+family+" Variable Font generated\n")
     font.save(os.path.join(destination, family + "-VF.ttf"))
 
 def makeCompatibleOTF(family):
@@ -336,7 +336,8 @@ def readJsonStoredSubset(jsonpath, writingSystem):
     SecureSet = [0]
     coreArabicCodePageRange = [0,6]
     unicodePageRangeDict = {"Cyrillic":latinProCodePageRange, "CyrillicPro":latinProCodePageRange, \
-        "Greek" : greekProCodePageRange, "Latin" : latinProCodePageRange, "ASCII" : ASCII, "SecureSet" : SecureSet, "Core_Arabic" : coreArabicCodePageRange}
+        "Greek" : greekProCodePageRange, "Latin" : latinProCodePageRange, "ASCII" : \
+        ASCII, "SecureSet" : SecureSet, "Core_Arabic" : coreArabicCodePageRange}
     pageRangeToApply = []
     with open(jsonpath, 'r') as subsetDict:
         subset = json.load(subsetDict)
@@ -475,10 +476,7 @@ def addSecureSet(family, flavorz):
                 shared += "-Italic"
     print("A securet set of basic glyphs will be added from {}".format(shared))
     folder = getFolder(family)
-    #READ THE JSON STORED IN THE FAMILY IN WICH YOU WANT TO ADD THE SECURE SET. IF THERE IS NO JSON.
-    #IT RETURN AN EMPTY LIST. THEN THE secureSetFromLatin WILL USE THE DEFAULT ONE IN THE LATIN FAMILY TO SUBSET
-    #(stored in the "shared" variable)
-    jsonpath = [folder + json for json in os.listdir(folder) if ".json" in json]
+    jsonpath = "subsets/secureset2add.json"
     secureSetFromLatin(shared, flavorz, jsonpath)
     # sharedFolder = getFolder(shared + "fonts/SecureSet_subset/" + shared + "SecureSet")
     ftpath = getFolder(family) + "fonts/"
@@ -526,19 +524,12 @@ def mastersUfos2fonts(family, *flavors, instances = False):
         ufo2font(family, masters, "otf")
     addSecureSet(family, flavors)
 
-def removeData(family, masters):
-    rdir = os.path.abspath("../src/"+family+"/")
-    for master in masters:
-        master.data = ""
-        # If we have MTI sources, any Adobe feature files derived from
-        # the Glyphs file should be ignored. We clear it here because
-        # it only contains junk information anyway.
-        master.save()
-    print("\tremove mti info")
-
 def instances(family, *output, newName=" "):
+    if len(output) == 1 and "otf" in output:
+        makeOtfFamily(family, newName=newName, onlyOtf=True)
+        return
     securetSetIsIncluded = pan_european_fonts
-    mergeable = ["ttf", "woff2"]
+    mergeable = ["ttf", "woff2", "woff"]
     if family not in securetSetIsIncluded:
         temp = list(set(mergeable) & set(output))
         if len(temp) == 0:
@@ -548,40 +539,71 @@ def instances(family, *output, newName=" "):
     path, folder = getFile(".designspace", "src", family)
     designSpace = openDesignSpace(path)
     destination = folder + "/" + "Instances"
+    print(output)
     ###
     ### test if mti
     for file in os.listdir(folder):
         if file.endswith(".plist"):
-            # masters = designSpace.loadSourceFonts(defcon.Font)
-            # add_mti_features_to_master_ufos(family, masters)
+            # INJECT COMPILED TABLE IN FONTS
             ufoWithMTIfeatures2font(family, output)
             for i in output:
                 addSecureSet(family, output)
             if newName != " ":
                 renameFonts(family, newName)
             return
-    ###
+    ### if OT features:
     fp = FontProject()
-    fonts = fp.run_from_designspace(expand_features_to_instances=True, use_mutatormath=True, \
+    fonts = fp.run_from_designspace(expand_features_to_instances=True, use_mutatormath=False, \
         designspace_path = path, interpolate = True, output=("otf"), output_dir = destination)
     ufolist = list()
     for ufo in os.listdir(os.path.join(folder, "instance_ufos")):
         if ufo[-4:] == ".ufo":
             ufolist.append(ufo)
     instancesFolder = family+"/instance_ufos"
-    for i in output:
-        ufo2font(instancesFolder, ufolist, i, fromInstances=True)
-        addSecureSet(family, output)
+    for o in output:
+        print(o)
+        ufo2font(instancesFolder, ufolist, o, fromInstances=True)
+        if "ttf" in output:
+            print()
+            addSecureSet(family, output)
+        if "otf" in output:
+            makeOtfFamily(family, newName=newName)
     if newName != " ":
         renameFonts(family, newName)
-    # removeData(family, masters)
+
+def makeOtfFamily(family, newName=" ", onlyOtf=False):
+    print("Please note that non-latin OTF fonts can't have the figures and punctuation from Latin merged in it")
+    output = "otf"
+    path, folder = getFile(".designspace", "src", family)
+    designSpace = openDesignSpace(path)
+    destination = folder + "/" + "Instances"
+    ### test if mti
+    for file in os.listdir(folder):
+        if file.endswith(".plist"):
+            # INJECT COMPILED TABLE IN FONTS
+            ufoWithMTIfeatures2font(family, output)
+            if newName != " ":
+                renameFonts(family, newName)
+            return
+    if onlyOtf is True:
+        fp = FontProject()
+        fonts = fp.run_from_designspace(expand_features_to_instances=True, use_mutatormath=False, \
+            designspace_path = path, interpolate = True, output=("otf"), output_dir = destination)
+    ufolist = list()
+    for ufo in os.listdir(os.path.join(folder, "instance_ufos")):
+        if ufo[-4:] == ".ufo":
+            ufolist.append(ufo)
+    instancesFolder = family+"/instance_ufos"
+    ufo2font(instancesFolder, ufolist, output, fromInstances=True)
+    if newName != " ":
+        renameFonts(family, newName)
 
 
 ### TEST FUNCTIONS ###
 # mastersUfos2fonts("NotoSansThaana", "woff2")
 # designSpace2Var("NotoSansThaana")
 # subsetFonts("NotoSerif", "SecureSet")
-# instances("NotoMusic", "ttf")
+# instances("NotoKufiArabic", "otf")
 # ufoWithMTIfeatures2font("NotoMusic", "ttf")
 # subsetFonts("NotoSerif", "CyrillicPro", familyNewName = "Avocado Sans", flavor=["otf"])
 # subsetFonts("NotoKufiArabic", ["Core_Arabic"], flavor=["ttf"])

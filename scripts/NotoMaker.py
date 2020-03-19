@@ -33,7 +33,9 @@ def create_arg_parser():
     parser.add_argument("--static", help="extract one static instances from a variable font. Give the path of the folder family")
     parser.add_argument("-r", nargs = "*", help="give a new name to the family. In put the new name then the folder path\
             If no format is given, the script rename every fonts folder it will find in /fonts")
-    parser.add_argument("-test", nargs = "*", help="test")
+    parser.add_argument("--allVF", nargs = '?', help="Generate all typefaces as Variable fonts, when possible")
+    parser.add_argument("--allOTF", nargs = '?', help="Generate all typefaces as otf flavored fonts, when possible")
+    parser.add_argument("--allTTF", nargs = '?', help="Generate all typefaces as otf flavored fonts, when possible")
     args = parser.parse_args()
     return args
 
@@ -209,6 +211,48 @@ def main():
         else:
             makeOneInstanceFromVF(familyName, locationList[int(static)])
             print(familyName, styles[int(static)], "extracted")
+    elif "--allVF" in sys.argv:
+        # paths = [i for i in ]
+        path = os.path.abspath(os.path.join(os.path.dirname(sys.argv[0]), os.pardir, 'scripts'))
+        os.chdir(path)
+        failing = []
+        folders = [os.path.join("../src/", i) for i in os.listdir("../src")]
+        for familyPath in folders:
+            try:
+                designSpace2Var(os.path.split(familyPath)[1])
+            except:
+                failing.append(familyPath.split("/")[-1])
+        if len(failing) > 0:
+            for i in failing:
+                print(i + " has not been generated.")
+    elif "--allOTF" in sys.argv:
+        # paths = [i for i in ]
+        path = os.path.abspath(os.path.join(os.path.dirname(sys.argv[0]), os.pardir, 'scripts'))
+        os.chdir(path)
+        failing = []
+        folders = [os.path.join("../src/", i) for i in os.listdir("../src")]
+        for familyPath in folders:
+            try:
+                makeOtfFamily(os.path.split(familyPath)[1], newName=" ", onlyOtf=True)
+            except:
+                failing.append(familyPath.split("/")[-1])
+        if len(failing) > 0:
+            for i in failing:
+                print(i + " has not been generated.")
+    elif "--allTTF" in sys.argv:
+        # paths = [i for i in ]
+        path = os.path.abspath(os.path.join(os.path.dirname(sys.argv[0]), os.pardir, 'scripts'))
+        os.chdir(path)
+        failing = []
+        folders = [os.path.join("../src/", i) for i in os.listdir("../src")]
+        for familyPath in folders:
+            try:
+                instances(os.path.split(familyPath)[1], 'ttf')
+            except:
+                failing.append(familyPath.split("/")[-1])
+        if len(failing) > 0:
+            for i in failing:
+                print(i + " has not been generated.")
 
 
 

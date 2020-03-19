@@ -1296,5 +1296,5 @@ def mti2fea(family):
 
 
 
-if __name__ == "__main__":
-    fea_ = mti2fea("NotoSansCham")
+# if __name__ == "__main__":
+#     fea_ = mti2fea("NotoSansCham")

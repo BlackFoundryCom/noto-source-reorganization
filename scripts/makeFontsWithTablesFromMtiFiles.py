@@ -74,19 +74,41 @@ def ufoWithMTIfeatures2font(directory, *output):
             otf2['GPOS'] = TABLES[2]
             os.remove(destination + u[:-4] + ".otf")
             otf2.save(destination + u[:-4] + ".otf")
+            print(destination + u[:-4] + ".otf")
+            print("done")
         if "ttf" in output:
             destination = folder + "TTF/"
             if not os.path.exists(destination):
                 os.makedirs(destination)
-            otf = compileTTF(ufo, removeOverlaps=True)
-            otf.save(destination + u[:-4] + ".ttf")
-            otf2 = ttLib.TTFont(destination + u[:-4] + ".ttf")
-            otf2['GDEF'] = TABLES[0]
-            otf2['GSUB'] = TABLES[1]
-            otf2['GPOS'] = TABLES[2]
+            ttf = compileTTF(ufo, removeOverlaps=True)
+            ttf.save(destination + u[:-4] + ".ttf")
+            ttf2 = ttLib.TTFont(destination + u[:-4] + ".ttf")
+            ttf2['GDEF'] = TABLES[0]
+            ttf2['GSUB'] = TABLES[1]
+            ttf2['GPOS'] = TABLES[2]
             os.remove(destination + u[:-4] + ".ttf")
-            otf2.save(destination + u[:-4] + ".ttf")
+            ttf2.save(destination + u[:-4] + ".ttf")
+        ### WEB
+        # if "woff2" in output:
+        #     destination = folder + "WOFF2/"
+        #     if not os.path.exists(destination):
+        #         os.makedirs(destination)
+        #     if "ttf" not in output:
+        #         ttf = compileTTF(ufo, removeOverlaps=True)
+        #         ttf['GDEF'] = TABLES[0]
+        #         ttf['GSUB'] = TABLES[1]
+        #         ttf['GPOS'] = TABLES[2]
+        #     ttf.flavor = "woff2"
+        #     ttf.save(destination + u[:-4] + ".woff2")
+        # if "woff" in output:
+        #     destination = folder + "WOFF/"
+        #     if not os.path.exists(destination):
+        #         os.makedirs(destination)
+        #     if "ttf" not in output and "woff2" not in output:
+        #         ttf = compileTTF(ufo, removeOverlaps=True)
+        #     ttf.flavor = "woff"
+        #     ttf.save(destination + u[:-4] + ".woff")
 
 
-# ufoWithMTIfeatures2font("NotoMusic", "ttf")
+# ufoWithMTIfeatures2font("NotoMusic", "otf")
 # readPlistFile("NotoMusic-Regular", "NotoMusic")
