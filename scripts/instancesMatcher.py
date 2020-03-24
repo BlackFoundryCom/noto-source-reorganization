@@ -1,28 +1,36 @@
-from Lib.makeThings import ufo2font
-from Lib.findThings import getFile, getFolder
-from fontTools.designspaceLib import DesignSpaceDocument, AxisDescriptor, SourceDescriptor, InstanceDescriptor, BaseDocReader
-from fontTools.designspaceLib import *
-from fontTools.ttLib import TTFont
-from defcon import Font
-from fontTools.varLib.mutator import instantiateVariableFont
-from fontTools import varLib, ttLib
-from defcon import Font
-from ufo2ft import compileInterpolatableOTFsFromDS, compileInterpolatableTTFsFromDS, postProcessor
-from ufo2ft import compileTTF
-from fontTools.subset import Subsetter
-from fontTools.subset import Options
 import os
 import json
-from fontTools.merge import Merger
 import shutil
-from fontmake.font_project import FontProject
-from ufo2ft.featureWriters import (
-    KernFeatureWriter,
-    MarkFeatureWriter,
-    loadFeatureWriters,
-    ast,
-)
+
 from Ufo2fontsFromdesignSpace import *
+from Lib.makeThings           import ufo2font
+from Lib.findThings           import getFile, getFolder
+
+from fontTools.designspaceLib import *
+from fontTools.ttLib          import TTFont
+from fontTools.varLib.mutator import instantiateVariableFont
+from fontTools                import varLib, ttLib
+from defcon                   import Font
+from ufo2ft                   import compileInterpolatableOTFsFromDS, compileInterpolatableTTFsFromDS, postProcessor
+from ufo2ft                   import compileTTF
+from fontTools.subset         import Subsetter
+from fontTools.subset         import Options
+from fontTools.merge          import Merger
+from fontmake.font_project    import FontProject
+from ufo2ft.featureWriters    import (
+                                     KernFeatureWriter,
+                                     MarkFeatureWriter,
+                                     loadFeatureWriters,
+                                     ast,
+                                     )
+from fontTools.designspaceLib import (
+                                     DesignSpaceDocument,
+                                     AxisDescriptor,
+                                     SourceDescriptor,
+                                     InstanceDescriptor,
+                                     BaseDocReader
+                                     )
+
 
 """
 
@@ -186,7 +194,7 @@ def mergeFonts(masterfont, *fontsToAdd):
             #     print("it extract the" % "instance, the merges all of them " % font)
 
 
-#mergeFonts("NotoSans", "NotoSansArabic") #> working
-mergeFonts("NotoSans", "NotoSansThaana") #> working
+mergeFonts("NotoSans", "NotoSansArabic") #> working
+# mergeFonts("NotoSans", "NotoSansThaana") #> working
 # mergeFonts("NotoSerifHebrew", "NotoKufiArabic", "NotoSerif") #> working
 # mergeFonts("NotoSansThaana", "NotoSerifHebrew") # not woking because no GSUB in NotoSansThaana that is given in second to the merger

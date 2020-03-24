@@ -5,10 +5,10 @@ import ufo2ft
 from ufo2ft.featureCompiler import FeatureCompiler
 from ufo2ft.outlineCompiler import OutlineOTFCompiler
 import os
-from Lib.makeThings import ufo2font, ufosToGlyphs
+from Lib.makeThings import ufo2font
 from Lib.findThings import getFile, getFolder
 import shutil
-from Ufo2fontsFromdesignSpace import instances
+from Ufo2fontsFromdesignSpace import designSpace2Instances
 
 
 

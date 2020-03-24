@@ -82,24 +82,25 @@ def setBit(int_type, offset):
     return(int_type | mask)
 
 def renameFonts(family, newName, *flavors, codePageRange = []):
-    saveName = newName.replace(" ", "")
+    familyFolder = getFolder(family)
+    # saveName = newName.replace(" ", "")
     formats = ["OTF", "TTF", "WOFF2", "WOFF", 'instances']
     for i in flavors:
-        if os.path.exists((getFolder(family) + "fonts/" + i.upper())):
+        if os.path.exists(os.path.join(familyFolder, "fonts/" + i.upper())):
             pass
         else:
             designSpace2Instances(family, i)
-    path = getFolder(family) + "fonts/"
-    fontsFolders = [path + i for i in os.listdir(
-        path) if i.split("/")[-1] in formats]
+    path = os.path.join(familyFolder, "fonts")
+    fontsFolders = [os.path.join(path, i) for i in os.listdir(
+                    path) if i.split("/")[-1] in formats]
     for folder in fontsFolders:
         fonts = [folder + "/" + font for font in os.listdir(
             folder) if font.split(".")[-1].upper() in formats]
         for f in fonts:
             renamedFont, WeightName = renamer(f, newName, codePageRange)
             format_ = f.split(".")[1].upper()
-            destination = getFolder(family) + "/" + newName + "/" + format_
-            fontName = saveName + "-" + ''.join(
+            destination = os.path.join(familyFolder, newName, format_)
+            fontName = newName.replace(" ", "") + "-" + ''.join(
                 WeightName.split(' ')) + "." + f.split(".")[1]
             if not os.path.exists(destination):
                 os.makedirs(destination)
@@ -127,17 +128,17 @@ def renamer(f, newName, codePageRange = []):
                 namerecord.string = newName + " " + WeightName
         if namerecord.nameID == 3:
             unicID = namerecord.string.split(";")
-            newUnicID = unicID[0] +";"+ unicID[1] +";"+ ''.join(newName.split(
-                ' ')) +"-"+ ''.join(WeightName.split(' '))
+            newUnicID = unicID[0] +";"+ unicID[1] +";" + \
+                ''.join(newName.split(' ')) +"-"+ ''.join(WeightName.split(' '))
             namerecord.string = newUnicID
         if namerecord.nameID == 4:
             namerecord.string = newName + " " + WeightName
         if namerecord.nameID == 6:
-            namerecord.string = ''.join(newName.split(' ')) + '-' + ''.join(
-                WeightName.split(' '))
+            namerecord.string = ''.join(newName.split(' ')) + \
+                                    '-' + ''.join(WeightName.split(' '))
         if namerecord.nameID == 7:
-            namerecord.string = "Noto (from which this font is a modification\
-            ) is a trademark of Google Inc."
+            namerecord.string = "Noto (from which this font is a modification)\
+                                is a trademark of Google Inc."
         if namerecord.nameID == 16:
             namerecord.string = newName
     os2cp1 = renamedFont['OS/2'].ulCodePageRange1
@@ -195,10 +196,11 @@ def designSpace2Var(family):
         print("\tLoad "+family+" files")
         designSpace.loadSourceFonts(Font)
         print("\tStart to build Variable Tables")
+        feature_Writers = [KernFeatureWriter(mode="append"), MarkFeatureWriter]
 
         font, _, _ = varLib.build(compileInterpolatableTTFsFromDS(
-            designSpace, featureWriters = [KernFeatureWriter(
-                mode="append"), MarkFeatureWriter]), optimize=False)
+                                designSpace,featureWriters = feature_Writers),
+                            optimize=False)
         destination = folder + "/fonts/VAR"
         if not os.path.exists(destination):
             os.makedirs(destination)
@@ -404,8 +406,8 @@ def readJsonStoredSubset(jsonpath, writingSystem):
         keep += i
     return keep, pageRangeToApply
 
-def subsetFonts(family, writingSystem, flavor=[
-    "ttf"], familyNewName=" ", jsonpath = " ", keepFea=True):
+def subsetFonts(family, writingSystem, flavor=["ttf"],
+                familyNewName=" ", jsonpath = " ", keepFea=True):
     if len(flavor) == 0:
         flavor = ["ttf"]
     latinProCodePageRange = [0, 1, 4, 7, 8]
@@ -428,6 +430,7 @@ def subsetFonts(family, writingSystem, flavor=[
     formats = ["ttf", "woff", "woff2", "otf"]
     toKeep = list()
     folder = getFolder(family)
+    folderFonts = os.path.join(folder, "fonts")
     options = Options()
     options.layout_features = '*'  # keep all GSUB/GPOS features
     # options.legacy_kern = True  # keep kern table
@@ -447,10 +450,12 @@ def subsetFonts(family, writingSystem, flavor=[
         jsonpath = "subsets/arabic_glyphset.json"
     keep, pageRangeToApply = readJsonStoredSubset(jsonpath, writingSystem)
     for i in flavor:
-        if not os.path.exists(folder + "/fonts/" + i.upper()):
+        if not os.path.exists(os.path.join(folderFonts, i.upper())):
+            print(">> Make {} fonts.".format(family))
             designSpace2Instances(family, i)
     for i in flavor:
-        fontspath = [folder + "fonts/" + i.upper() + "/" + font for font in os.listdir(folder + "fonts/" + i.upper())]
+        fontspath = [os.path.join(folderFonts, i.upper(), font) \
+                    for font in os.listdir(folder + "/fonts/" + i.upper())]
         for f in fontspath:
             if f.split(".")[-1] in formats:
                 newfont = TTFont(f)
@@ -464,13 +469,12 @@ def subsetFonts(family, writingSystem, flavor=[
                 subsetter = Subsetter(options=options)
                 subsetter.populate(glyphs=keep)
                 subsetter.subset(newfont)
-                destination = folder + "fonts/" + subsetFolder + "_subset/fonts/"
-                # print("destination>>", destination)
-                if not os.path.exists(destination + i.upper()):
-                    os.makedirs(destination + i.upper())
-                newfont.save(destination + i.upper() + "/" + family + subsetFolder + "-" + WeightName +"." + i)
+                destination = os.path.join(folder, "fonts", subsetFolder + "_subset", "fonts")
+                if not os.path.exists(os.path.join(destination,  i.upper())):
+                    os.makedirs(os.path.join(destination, i.upper()))
+                subsetName = family + subsetFolder + "-" + WeightName +"." + i
+                newfont.save(os.path.join(destination, i.upper(), subsetName))
     folder = family + "/fonts/" + subsetFolder + "_subset"
-    # print(pageRangeToApply)
     if familyNewName != " ":
         renameFonts(folder, familyNewName, codePageRange = pageRangeToApply)
     else:
@@ -533,9 +537,9 @@ def addSecureSet(family, flavorz):
     jsonpath = "subsets/secureset2add.json"
     secureSetFromLatin(shared, flavorz, jsonpath)
     # sharedFolder = getFolder(shared + "fonts/SecureSet_subset/" + shared + "SecureSet")
-    ftpath = getFolder(family) + "fonts/"
+    ftpath = folder + "/fonts/"
     fontsFolders = [ftpath + i for i in os.listdir(ftpath) if i.split("/")[-1] in flavors]
-    sharedPath = getFolder(shared) + "fonts/SecureSet_subset/" + shared + "SecureSet/"
+    sharedPath = getFolder(shared) + "/fonts/SecureSet_subset/" + shared + "SecureSet/"
     secureSetFontsFolders = [sharedPath + i for i in os.listdir(sharedPath) if i.split("/")[-1] in flavors]
     for folder in fontsFolders:
         fonts = [folder + "/" + font for font in os.listdir(folder) if font.split(".")[-1].upper() in flavors]
@@ -593,7 +597,7 @@ def designSpace2Instances(family, *output, newName=" "):
     path, folder = getFile(".designspace", family)
     designSpace = openDesignSpace(path)
     destination = folder + "/" + "Instances"
-    print(output)
+    # print(output)
     ###
     ### test if mti
     for file in os.listdir(folder):
@@ -664,12 +668,13 @@ def makeOtfFamily(family, newName=" ", onlyOtf=False):
 
 ### TEST FUNCTIONS ###
 # mastersUfos2fonts("NotoSansThaana", "woff2")
-designSpace2Var("NotoSansGurmukhi")
-# subsetFonts("NotoSerif", "SecureSet")
+# designSpace2Var("NotoSansArabic")
+# subsetFonts("NotoKufiArabic", "Core_Arabic")
 # designSpace2Instances("NotoKufiArabic", "otf")
 # ufoWithMTIfeatures2font("NotoMusic", "ttf")
-# subsetFonts("NotoSerif", "CyrillicPro", familyNewName = "Avocado Sans", flavor=["otf"])
-# subsetFonts("NotoKufiArabic", ["Core_Arabic"], flavor=["ttf"])
+# subsetFonts("NotoSans", "CyrillicPro", familyNewName = "Avocado Sans", flavor=["ttf"])
+subsetFonts("NotoNaskhArabicUI", "Core_Arabic")
+# subsetFonts("NotoSans", "SecureSet")
 # mastersUfos2fonts("NotoSansThaana", "woff2")
 # renameFonts("NotoSans", "Tomato Soup")
 # mergeFonts("NotoSans","NotoNastaliqUrdu")
@@ -679,5 +684,5 @@ designSpace2Var("NotoSansGurmukhi")
 # mastersUfos2fonts("NotoSansThaana", "ttf")
 # ufosToGlyphs("NotoSansThaana")
 # ufo2font("NotoSans", ["NotoSans-Bold.ufo"], "ttf")
-# designSpace2Instances("NotoSansThaana")
+# designSpace2Instances("NotoMusic")
 # mergeFonts("NotoSansThaana", "NotoSerifHebrew")
