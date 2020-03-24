@@ -36,6 +36,7 @@ def create_arg_parser():
     parser.add_argument("--allVF", nargs = '?', help="Generate all typefaces as Variable fonts, when possible")
     parser.add_argument("--allOTF", nargs = '?', help="Generate all typefaces as otf flavored fonts, when possible")
     parser.add_argument("--allTTF", nargs = '?', help="Generate all typefaces as otf flavored fonts, when possible")
+    parser.add_argument("--salt", help="Set I.alt and J.alt stylistic alternate shapes as default")
     args = parser.parse_args()
     return args
 
@@ -144,21 +145,21 @@ def main():
                 if family in subsetableFamilies:
                     formats = args.f
                     for phormat in formats:
-                        instances(os.path.split(familyPath)[1], str(phormat))
+                        designSpace2Instances(os.path.split(familyPath)[1], str(phormat))
                 else:
                     prettyLog("A securet set of basic latin glyphs will be merged into {fam}.\
                         \nAnd since fontTools can only merge ttf fonts, {fam} will be outputed as such".format(fam = family))
                     # if "woff2" not in args.f:
                     if len(set(["woff", "woff2"]+args.f)) == len(set(args.f)+2):
-                        instances(os.path.split(familyPath)[1], "ttf")
+                        designSpace2Instances(os.path.split(familyPath)[1], "ttf")
                     elif "woff2" in args.f:
                         if "ttf" in args.f:
-                            instances(os.path.split(familyPath)[1], "ttf", "woff2")
+                            designSpace2Instances(os.path.split(familyPath)[1], "ttf", "woff2")
                         else:
-                            instances(os.path.split(familyPath)[1], "woff2")
+                            designSpace2Instances(os.path.split(familyPath)[1], "woff2")
             else:
                 prettyLog("The family will be generated as ttf")
-                instances(os.path.split(familyPath)[1])
+                designSpace2Instances(os.path.split(familyPath)[1])
     #####################
     # RENAME THE FAMILY #
     #####################
@@ -211,6 +212,9 @@ def main():
         else:
             makeOneInstanceFromVF(familyName, locationList[int(static)])
             print(familyName, styles[int(static)], "extracted")
+    #######################################################
+    # 3 commands to generate all families in VF, TTF, OTF #
+    #######################################################
     elif "--allVF" in sys.argv:
         # paths = [i for i in ]
         path = os.path.abspath(os.path.join(os.path.dirname(sys.argv[0]), os.pardir, 'scripts'))
@@ -247,12 +251,23 @@ def main():
         folders = [os.path.join("../src/", i) for i in os.listdir("../src")]
         for familyPath in folders:
             try:
-                instances(os.path.split(familyPath)[1], 'ttf')
+                designSpace2Instances(os.path.split(familyPath)[1], 'ttf')
             except:
                 failing.append(familyPath.split("/")[-1])
         if len(failing) > 0:
             for i in failing:
                 print(i + " has not been generated.")
+    ############################
+    # SWAP I/I.alt and J/J.alt #
+    ############################
+    elif "--salt" in sys.argv:
+        path = os.path.abspath(os.path.join(os.path.dirname(args.salt), os.pardir, 'scripts'))
+        familyPath = args.salt
+        family = os.path.split(familyPath)[1]
+        if os.path.exists(familyPath):
+            os.chdir(path)
+        swaper.swaper(os.path.split(familyPath)[1])
+
 
 
 

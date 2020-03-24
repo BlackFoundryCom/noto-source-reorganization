@@ -1,24 +1,31 @@
-from fontTools import ufoLib, ttLib
-from defcon import Font
-from ufo2ft import compileOTF, compileTTF
-from ufo2ft.featureCompiler import FeatureCompiler
-from ufo2ft.outlineCompiler import OutlineOTFCompiler
-from glyphsLib import to_ufos, to_ufos, to_glyphs
-import glyphsLib
-from Lib.findThings import getFile, getFolder
-import brotli
-import glob
-from fontTools.designspaceLib import DesignSpaceDocument
-# from fontTools.designspaceLib import DesignSpaceDocument, AxisDescriptor, SourceDescriptor, InstanceDescriptor
 import os
-from ufo2ft.featureWriters import (
-    KernFeatureWriter,
-    MarkFeatureWriter,
-    loadFeatureWriters,
-    ast,
-)
+
+from fontTools                  import (ufoLib, ttLib)
+from defcon                     import Font
+from ufo2ft                     import (compileOTF, compileTTF)
+from ufo2ft.featureCompiler     import FeatureCompiler
+from ufo2ft.outlineCompiler     import OutlineOTFCompiler
+from fontTools.designspaceLib   import DesignSpaceDocument
+from ufo2ft.featureWriters      import (KernFeatureWriter,
+                                        MarkFeatureWriter,
+                                        loadFeatureWriters,
+                                        ast,
+                                        )
 # import ttfautohint
 
+
+def getFile(extension, directory):
+    repo = "src/" + directory + "/"
+    cwd = os.getcwd()
+    rdir = os.path.abspath(os.path.join(cwd, os.pardir, repo))
+    source = rdir + "/" + directory + extension
+    return source, rdir
+
+def getFolder(directory):
+    repo = "src/" + directory + "/"
+    cwd = os.getcwd()
+    rdir = os.path.abspath(os.path.join(cwd, os.pardir, repo)) + "/"
+    return rdir
 
 def ufo2font(directory, ufolist, *output, fromInstances=False):
     path = getFolder(directory)
@@ -67,18 +74,18 @@ def ufo2font(directory, ufolist, *output, fromInstances=False):
             ttf.save(destination + i[:-4] + ".woff")
 
 
-def ufosToGlyphs(family):
-    repo = "src/" + family + "/"
-    cwd = os.getcwd()
-    rdir = os.path.abspath(os.path.join(cwd, os.pardir, repo))
-    source = rdir + "/" + family + ".designspace"
-    ds = DesignSpaceDocument()
-    ds.read(source)
-    font = to_glyphs(ds)
-    destination = rdir + "/Glyphs/"
-    if not os.path.exists(destination):
-        os.makedirs(destination)
-    font.save(destination + family + ".glyphs")
+# def ufosToGlyphs(family):
+#     repo = "src/" + family + "/"
+#     cwd = os.getcwd()
+#     rdir = os.path.abspath(os.path.join(cwd, os.pardir, repo))
+#     source = rdir + "/" + family + ".designspace"
+#     ds = DesignSpaceDocument()
+#     ds.read(source)
+#     font = to_glyphs(ds)
+#     destination = rdir + "/Glyphs/"
+#     if not os.path.exists(destination):
+#         os.makedirs(destination)
+#     font.save(destination + family + ".glyphs")
 
 if __name__ == '__main__':
     print("lib imported")

@@ -1,4 +1,4 @@
-from Lib.makeThings import ufo2font, ufosToGlyphs
+from Lib.makeThings import ufo2font
 from Lib.findThings import getFile, getFolder
 from fontTools.designspaceLib import DesignSpaceDocument, AxisDescriptor, SourceDescriptor, InstanceDescriptor, BaseDocReader
 from fontTools.designspaceLib import *

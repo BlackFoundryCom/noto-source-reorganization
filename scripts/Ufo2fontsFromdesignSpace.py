@@ -3,70 +3,74 @@ import json
 import shutil
 import defcon
 
-from makeFontsWithTablesFromMtiFiles import *
+from makeFontsWithMtiFea             import (ufoWithMTIfeatures2font,
+                                            makeAllVersions,
+                                            makeVFWithMti)
 
-from fontTools.misc.plistlib    import load as readThePlist
-from fontmake.font_project              import FontProject
-from defcon                             import Font
-from Lib.makeThings                     import ufo2font, ufosToGlyphs
-from Lib.findThings                     import getFile, getFolder
-from fontTools.designspaceLib           import *
-from fontTools.ttLib                    import TTFont
-from fontTools.ttLib.tables._n_a_m_e    import makeName
-from fontTools.varLib.mutator           import instantiateVariableFont
-from fontTools                          import varLib, ttLib
-from fontTools.subset                   import Subsetter
-from fontTools.subset                   import Options
-from fontTools.merge                    import Merger
-from ufo2ft.featureWriters              import (KernFeatureWriter,
-                                        MarkFeatureWriter,
-                                        loadFeatureWriters,
-                                        ast
-                                        )
-from ufo2ft                             import (compileInterpolatableOTFsFromDS,
-                                        compileInterpolatableTTFsFromDS,
-                                        postProcessor,
-                                        compileTTF
-                                        )
+from Lib.makeThings                  import ufo2font
+
+from fontmake.font_project           import FontProject
+
+from defcon                          import Font
+
+from fontTools.ttLib.tables._n_a_m_e import makeName
+from fontTools.designspaceLib        import *
+from fontTools.ttLib                 import TTFont
+from fontTools.varLib.mutator        import instantiateVariableFont
+from fontTools                       import varLib, ttLib
+from fontTools.subset                import Subsetter
+from fontTools.subset                import Options
+from fontTools.merge                 import Merger
+from fontTools.misc.plistlib         import load as readThePlist
+
+from ufo2ft.featureCompiler          import MtiFeatureCompiler
+from ufo2ft.featureWriters           import (KernFeatureWriter,
+                                            MarkFeatureWriter,
+                                            loadFeatureWriters,
+                                            ast
+                                            )
+from ufo2ft                          import (compileInterpolatableTTFsFromDS,
+                                            postProcessor,
+                                            compileTTF
+                                            )
 
 
 """
-useful functions:
-mastersUfos2fonts(familyName, formats you want) => read a design space, find masters files, generate fonts
-designSpace2Var(familyName) => read designspace, make var font if ufos are compatible
-makeTTFInstancesFromVF(familyName) => take the variable if it exists (if not make it)
-                                        and extract static instances from it
-                                        by reading the designspace
-renameFonts(familyName, newName, formats you want) => needs the original fonts first, if not make
-mergeFonts(baseFanmilyName, familyName of the fonts to inject) => WIP.
+provide a bunch of functions to work on Noto fonts:
+mastersUfos2fonts(familyName, formats you want)
+    => read a design space, find masters files, generate fonts
+designSpace2Var(familyName)
+    => read designspace, make var font if ufos are compatible
+makeTTFInstancesFromVF(familyName)
+    => take the variable if it exists (if not make it)
+       and extract static instances from it
+       by reading the designspace
+renameFonts(familyName, newName, formats you want)
+    => needs the original fonts first, if not make
+mergeFonts(baseFanmilyName, familyName of the fonts to inject)
+    => WIP.
 
 """
 
-pan_european_fonts = ["NotoSans", "NotoSans-Italic", "NotoSerif", "NotoSerif-Italic", "NotoSansDisplay", "NotoSansDisplay-Italic", "NotoSerifDisplay", "NotoSerifDisplay-Italic", "NotoSansMono"]
-arabic_fonts = ["NotoKufiArabic", "NotoNaskhArabic", "NotoNaskhArabicUI", "NotoNastaliqUrdu", "NotoSansArabic", "NotoSansArabicUI"]
+pan_european_fonts  =  ["NotoSans", "NotoSans-Italic",
+                        "NotoSerif", "NotoSerif-Italic",
+                        "NotoSansDisplay", "NotoSansDisplay-Italic",
+                        "NotoSerifDisplay", "NotoSerifDisplay-Italic",
+                        "NotoSansMono"]
+arabic_fonts = ["NotoKufiArabic", "NotoNaskhArabic",
+                "NotoNaskhArabicUI", "NotoNastaliqUrdu",
+                "NotoSansArabic", "NotoSansArabicUI"]
 
+def getFile(extension, directory):
+    repo = "../src/" + directory + "/"
+    cwd = os.getcwd()
+    rdir = os.path.abspath(repo)
+    source = rdir + "/" + directory + extension
+    return source, rdir
 
-
-## Code from fontmake
-def add_mti_features_to_master_ufos(family, masters):
-    rdir = os.path.abspath("../src/" + family + "/")
-    mti_paths = readThePlist(open(os.path.join(rdir, family+".plist"), "rb")) # os.path.join(rdir, family+".plist")
-    for master in masters:
-        key = master.info.familyName.replace(" ", "")+"-"+master.info.styleName.replace(" ", "")
-        for table, path in mti_paths[key].items():
-            with open(os.path.join(rdir, path), "rb") as mti_:
-                ufo_path = (
-                    "com.github.googlei18n.ufo2ft.mtiFeatures/%s.mti"
-                    % table.strip()
-                )
-                master.data[ufo_path] = mti_.read()
-            # If we have MTI sources, any Adobe feature files derived from
-            # the Glyphs file (and kept in ufos) should be ignored.
-            # We clear it here because
-            # it only contains junk information anyway.
-            master.features.text = ""
-            master.save()
-    print("\tufos updated with UI versioned MTI data")
+def getFolder(directory):
+    rdir = os.path.abspath(os.path.join("../src/", directory))
+    return rdir
 
 def openDesignSpace(path):
     designSpace = DesignSpaceDocument()
@@ -84,17 +88,19 @@ def renameFonts(family, newName, *flavors, codePageRange = []):
         if os.path.exists((getFolder(family) + "fonts/" + i.upper())):
             pass
         else:
-            # mastersUfos2fonts(family, i)
-            instances(family, i)
+            designSpace2Instances(family, i)
     path = getFolder(family) + "fonts/"
-    fontsFolders = [path + i for i in os.listdir(path) if i.split("/")[-1] in formats]
+    fontsFolders = [path + i for i in os.listdir(
+        path) if i.split("/")[-1] in formats]
     for folder in fontsFolders:
-        fonts = [folder + "/" + font for font in os.listdir(folder) if font.split(".")[-1].upper() in formats]
+        fonts = [folder + "/" + font for font in os.listdir(
+            folder) if font.split(".")[-1].upper() in formats]
         for f in fonts:
             renamedFont, WeightName = renamer(f, newName, codePageRange)
             format_ = f.split(".")[1].upper()
             destination = getFolder(family) + "/" + newName + "/" + format_
-            fontName = saveName + "-" + ''.join(WeightName.split(' ')) + "." + f.split(".")[1]
+            fontName = saveName + "-" + ''.join(
+                WeightName.split(' ')) + "." + f.split(".")[1]
             if not os.path.exists(destination):
                 os.makedirs(destination)
             renamedFont.save(os.path.join(destination, fontName))
@@ -102,7 +108,8 @@ def renameFonts(family, newName, *flavors, codePageRange = []):
 
 def renamer(f, newName, codePageRange = []):
     renamedFont = ttLib.TTFont(f)
-    #First : GET THE STYLE NAME EITHER IN namerecord2 if the font is a RBIBI font or in namerecord 17 in other cases
+    # First : GET THE STYLE NAME EITHER IN namerecord2
+    # if the font is a RBIBI font or in namerecord 17 in other cases
     for namerecord in renamedFont['name'].names:
         namerecord.string = namerecord.toUnicode()
         if namerecord.nameID == 2:
@@ -112,7 +119,7 @@ def renamer(f, newName, codePageRange = []):
     #Then Change the name everywhere
     for namerecord in renamedFont['name'].names:
         namerecord.string = namerecord.toUnicode()
-        # Create the naming of the font Family + style if the style is non RBIBI
+        # Create naming of the font Family + style if the style is non RBIBI
         if namerecord.nameID == 1:
             if WeightName in ["Bold", "Regular", "Italic", "Bold Italic"]:
                 namerecord.string = newName
@@ -120,14 +127,17 @@ def renamer(f, newName, codePageRange = []):
                 namerecord.string = newName + " " + WeightName
         if namerecord.nameID == 3:
             unicID = namerecord.string.split(";")
-            newUnicID = unicID[0] +";"+ unicID[1] +";"+ ''.join(newName.split(' ')) +"-"+ ''.join(WeightName.split(' '))
+            newUnicID = unicID[0] +";"+ unicID[1] +";"+ ''.join(newName.split(
+                ' ')) +"-"+ ''.join(WeightName.split(' '))
             namerecord.string = newUnicID
         if namerecord.nameID == 4:
             namerecord.string = newName + " " + WeightName
         if namerecord.nameID == 6:
-            namerecord.string = ''.join(newName.split(' ')) + '-' + ''.join(WeightName.split(' '))
+            namerecord.string = ''.join(newName.split(' ')) + '-' + ''.join(
+                WeightName.split(' '))
         if namerecord.nameID == 7:
-            namerecord.string = "Noto (from which this font is a modification) is a trademark of Google Inc."
+            namerecord.string = "Noto (from which this font is a modification\
+            ) is a trademark of Google Inc."
         if namerecord.nameID == 16:
             namerecord.string = newName
     os2cp1 = renamedFont['OS/2'].ulCodePageRange1
@@ -135,34 +145,67 @@ def renamer(f, newName, codePageRange = []):
     if len(codePageRange) > 0:
         for i in codePageRange:
             os2cp1 = setBit(os2cp1, i)
+
     return renamedFont, WeightName
 
-def designSpace2Var(family):
-    """ syntax :
-    """
-    print(">>Load the {} designspace".format(family))
-    path, folder = getFile(".designspace", "src", family)
-    # print("CWD:>",os.getcwd())
-    designSpace = openDesignSpace(path)
-    print("\tLoad "+family+" files")
-    designSpace.loadSourceFonts(Font)
-    print("\tStart to build Variable Tables")
-    font, _, _ = varLib.build(compileInterpolatableTTFsFromDS(designSpace, \
-                    featureWriters = [KernFeatureWriter(mode="append"), MarkFeatureWriter]), optimize=False)
+
+def designSpaceAndMti2VF(family):
+    dspath, folder = getFile(".designspace", family)
+    designSpace = openDesignSpace(dspath)
+    mti_source = os.path.join(folder, family+".plist")
+    mti_paths = readThePlist(open(mti_source, "rb"))
+    masters = designSpace.loadSourceFonts(Font)
+    for master in masters:
+        key = master.info.familyName.replace(
+            " ", "")+"-"+master.info.styleName.replace(" ", "")
+        for table, path in mti_paths[key].items():
+            with open(os.path.join(folder, path), "rb") as mti_:
+                ufo_path = (
+                    "com.github.googlei18n.ufo2ft.mtiFeatures/%s.mti"
+                    % table.strip()
+                )
+                master.data[ufo_path] = mti_.read()
+            # If we have MTI sources, any Adobe feature files derived from
+            # the Glyphs file should be ignored. We clear it here because
+            # it only contains junk information anyway.
+            master.features.text = ""
+    font, _, _ = varLib.build(compileInterpolatableTTFsFromDS(
+        designSpace, featureCompilerClass = MtiFeatureCompiler))
     destination = folder + "/fonts/VAR"
     if not os.path.exists(destination):
         os.makedirs(destination)
     print("\t"+family+" Variable Font generated\n")
     font.save(os.path.join(destination, family + "-VF.ttf"))
 
-def makeCompatibleOTF(family):
-    path, folder = getFile("_cleaned.designspace", "src", family)
-    designSpace = openDesignSpace(path)
-    designSpace.loadSourceFonts(Font)
-    for s in compileInterpolatableOTFsFromDS(designSpace).sources:
-        name = s.name.replace(" ", "") + ".otf"
-        otf = s.font
-        otf.save(folder + "/_compatibles/" + name)
+
+def checkIfMti(family):
+    mti = False
+    for i in os.listdir(getFile(".designspace", family)[1]):
+        if i.endswith(".plist"):
+            mti = True
+    return mti
+
+
+def designSpace2Var(family):
+    mti = checkIfMti(family)
+    if mti is False:
+        print(">>Load the {} designspace".format(family))
+        path, folder = getFile(".designspace", family)
+        designSpace = openDesignSpace(path)
+        print("\tLoad "+family+" files")
+        designSpace.loadSourceFonts(Font)
+        print("\tStart to build Variable Tables")
+
+        font, _, _ = varLib.build(compileInterpolatableTTFsFromDS(
+            designSpace, featureWriters = [KernFeatureWriter(
+                mode="append"), MarkFeatureWriter]), optimize=False)
+        destination = folder + "/fonts/VAR"
+        if not os.path.exists(destination):
+            os.makedirs(destination)
+        print("\t"+family+" Variable Font generated\n")
+        font.save(os.path.join(destination, family + "-VF.ttf"))
+    else:
+        makeAllVersions(family)
 
 def stockDSstylename(designspace):
     loca2styleNameDict = dict()
@@ -173,7 +216,7 @@ def stockDSstylename(designspace):
     return loca2styleNameDict, familyName
 
 def makeOneInstanceFromVF(family, loca):
-    path, folder = getFile(".designspace", "src", family)
+    path, folder = getFile(".designspace", family)
     ds = openDesignSpace(path)
     axesName = dict()
     ax = dict()
@@ -239,12 +282,15 @@ def makeOneInstanceFromVF(family, loca):
         if namerecord.nameID == 5:
             namerecord.string = 'Version %s.%s' % (V_major, V_minor)
         if namerecord.nameID == 3:
-            PSName = ''.join(familyName.split(' ')) + '-' + ''.join(styleName.split(' '))
-            namerecord.string = '%s.%s' % (V_major, V_minor) +';'+ '%s' % PSName + ';'
+            PSName = ''.join(familyName.split(
+                ' ')) + '-' + ''.join(styleName.split(' '))
+            namerecord.string = '%s.%s' % (
+                V_major, V_minor) +';'+ '%s' % PSName + ';'
         if namerecord.nameID == 4:
             namerecord.string = familyName + " " + styleName
         if namerecord.nameID == 6:
-            namerecord.string = ''.join(familyName.split(' ')) + '-' + ''.join(styleName.split(' '))
+            namerecord.string = ''.join(familyName.split(
+                ' ')) + '-' + ''.join(styleName.split(' '))
         if namerecord.nameID == 16:
             namerecord.string = familyName
         if namerecord.nameID == 17:
@@ -254,7 +300,7 @@ def makeOneInstanceFromVF(family, loca):
 
 def makeTTFInstancesFromVF(family):
     axesName = dict()
-    path, folder = getFile(".designspace", "src", family)
+    path, folder = getFile(".designspace", family)
     designSpace = openDesignSpace(path)
     loca = dict()
     maps = dict()
@@ -281,7 +327,6 @@ def makeTTFInstancesFromVF(family):
                 for i in maps[name]:
                     if int(location[name]) == int(i[1]):
                         locationValue = i[0]
-                        # print(instance.name," entry: ", location[name], ", Real value:", locationValue)
                         loca[axesName[name]] = round(locationValue)
             else:
                 loca[axesName[name]] = int(location[name])
@@ -316,12 +361,15 @@ def makeTTFInstancesFromVF(family):
             if namerecord.nameID == 5:
                 namerecord.string = 'Version %s.%s' % (V_major, V_minor)
             if namerecord.nameID == 3:
-                PSName = ''.join(familyName.split(' ')) + '-' + ''.join(styleName.split(' '))
-                namerecord.string = '%s.%s' % (V_major, V_minor) +';'+ '%s' % PSName + ';'
+                PSName = ''.join(familyName.split(' ')) + '-' + ''.join(
+                    styleName.split(' '))
+                namerecord.string = '%s.%s' % (
+                    V_major, V_minor) +';'+ '%s' % PSName + ';'
             if namerecord.nameID == 4:
                 namerecord.string = familyName + " " + styleName
             if namerecord.nameID == 6:
-                namerecord.string = ''.join(familyName.split(' ')) + '-' + ''.join(styleName.split(' '))
+                namerecord.string = ''.join(familyName.split(
+                    ' ')) + '-' + ''.join(styleName.split(' '))
         destination = folder + "/fonts/instances/"
         if not os.path.exists(destination):
             os.makedirs(destination)
@@ -335,9 +383,13 @@ def readJsonStoredSubset(jsonpath, writingSystem):
     ASCII = [0, 1]
     SecureSet = [0]
     coreArabicCodePageRange = [0,6]
-    unicodePageRangeDict = {"Cyrillic":latinProCodePageRange, "CyrillicPro":latinProCodePageRange, \
-        "Greek" : greekProCodePageRange, "Latin" : latinProCodePageRange, "ASCII" : \
-        ASCII, "SecureSet" : SecureSet, "Core_Arabic" : coreArabicCodePageRange}
+    unicodePageRangeDict = {"Cyrillic":latinProCodePageRange,
+                            "CyrillicPro":latinProCodePageRange,
+                            "Greek" : greekProCodePageRange,
+                            "Latin" : latinProCodePageRange,
+                            "ASCII" : ASCII,
+                            "SecureSet" : SecureSet,
+                            "Core_Arabic" : coreArabicCodePageRange}
     pageRangeToApply = []
     with open(jsonpath, 'r') as subsetDict:
         subset = json.load(subsetDict)
@@ -352,7 +404,8 @@ def readJsonStoredSubset(jsonpath, writingSystem):
         keep += i
     return keep, pageRangeToApply
 
-def subsetFonts(family, writingSystem, flavor=["ttf"], familyNewName=" ", jsonpath = " "):
+def subsetFonts(family, writingSystem, flavor=[
+    "ttf"], familyNewName=" ", jsonpath = " ", keepFea=True):
     if len(flavor) == 0:
         flavor = ["ttf"]
     latinProCodePageRange = [0, 1, 4, 7, 8]
@@ -361,9 +414,13 @@ def subsetFonts(family, writingSystem, flavor=["ttf"], familyNewName=" ", jsonpa
     ASCII = [0, 1]
     SecureSet = [0]
     coreArabicCodePageRange = [0,6]
-    unicodePageRangeDict = {"Cyrillic":latinProCodePageRange, "CyrillicPro":latinProCodePageRange, \
-        "Greek" : greekProCodePageRange, "Latin" : latinProCodePageRange, \
-        "ASCII" : ASCII, "SecureSet" : SecureSet, "Core_Arabic" : coreArabicCodePageRange}
+    unicodePageRangeDict = {"Cyrillic":latinProCodePageRange,
+                            "CyrillicPro":latinProCodePageRange,
+                            "Greek" : greekProCodePageRange,
+                            "Latin" : latinProCodePageRange,
+                            "ASCII" : ASCII,
+                            "SecureSet" : SecureSet,
+                            "Core_Arabic" : coreArabicCodePageRange}
     pageRangeToApply = []
     subsetFolder = ""
     for i in writingSystem:
@@ -384,17 +441,14 @@ def subsetFonts(family, writingSystem, flavor=["ttf"], familyNewName=" ", jsonpa
     options.ignore_missing_glyphs = True
     options.prune_unicode_ranges = True
     keep = []
-    # if jsonpath == " ":
-    #     jsonpath = [folder + json for json in os.listdir(folder) if ".json" in json]
     if family in pan_european_fonts:
         jsonpath = "subsets/lgc_glyphset.json"
     elif family in arabic_fonts:
         jsonpath = "subsets/arabic_glyphset.json"
-    # keep, pageRangeToApply = readJsonStoredSubset(os.path.join(os.getcwd(), "lgc_glyphset.json"), writingSystem)
     keep, pageRangeToApply = readJsonStoredSubset(jsonpath, writingSystem)
     for i in flavor:
         if not os.path.exists(folder + "/fonts/" + i.upper()):
-            instances(family, i)
+            designSpace2Instances(family, i)
     for i in flavor:
         fontspath = [folder + "fonts/" + i.upper() + "/" + font for font in os.listdir(folder + "fonts/" + i.upper())]
         for f in fontspath:
@@ -430,7 +484,7 @@ def newFolderForMerged(directory):
     rdir = os.path.abspath(os.path.join(cwd, os.pardir, repo)) + "/"
     return rdir
 
-def basicMerger(masterfont, *fontsToAdd, onlySecureSet=False): #path of actual fonts
+def basicMerger(masterfont, *fontsToAdd, onlySecureSet=False):#actual fonts path
     fontsPath = []
     fontsPath.append(masterfont)
     for ft in fontsToAdd:
@@ -456,11 +510,11 @@ def basicMerger(masterfont, *fontsToAdd, onlySecureSet=False): #path of actual f
 def secureSetFromLatin(family, formats, jsonpath):
     if len(jsonpath) != 0:
         for i in formats:
-            subsetFonts(family, ["SecureSet"], flavor = [i], jsonpath=jsonpath)
+            subsetFonts(family, ["SecureSet"], flavor =[i], jsonpath=jsonpath)
     else:
         jsonpath = "subsets/lgc_glyphset.json"
         for i in formats:
-            subsetFonts(family, ["SecureSet"], flavor = [i], jsonpath=jsonpath)
+            subsetFonts(family, ["SecureSet"], flavor =[i], jsonpath=jsonpath)
 
 def addSecureSet(family, flavorz):
     shared = ""
@@ -507,7 +561,7 @@ def mastersUfos2fonts(family, *flavors, instances = False):
     if len(flavors) == 0:
         flavors = "ttf"
     masters = []
-    path, folder = getFile(".designspace", "src", family)
+    path, folder = getFile(".designspace", family)
     designSpace = DesignSpaceDocument()
     designSpace.read(path)
     shared = ""
@@ -524,7 +578,7 @@ def mastersUfos2fonts(family, *flavors, instances = False):
         ufo2font(family, masters, "otf")
     addSecureSet(family, flavors)
 
-def instances(family, *output, newName=" "):
+def designSpace2Instances(family, *output, newName=" "):
     if len(output) == 1 and "otf" in output:
         makeOtfFamily(family, newName=newName, onlyOtf=True)
         return
@@ -536,7 +590,7 @@ def instances(family, *output, newName=" "):
             output = ["ttf"]
         else:
             output = temp
-    path, folder = getFile(".designspace", "src", family)
+    path, folder = getFile(".designspace", family)
     designSpace = openDesignSpace(path)
     destination = folder + "/" + "Instances"
     print(output)
@@ -553,8 +607,10 @@ def instances(family, *output, newName=" "):
             return
     ### if OT features:
     fp = FontProject()
-    fonts = fp.run_from_designspace(expand_features_to_instances=True, use_mutatormath=False, \
-        designspace_path = path, interpolate = True, output=("otf"), output_dir = destination)
+    fonts = fp.run_from_designspace(
+        expand_features_to_instances=True, use_mutatormath=False,
+        designspace_path = path, interpolate = True, output=("otf"),
+        output_dir = destination)
     ufolist = list()
     for ufo in os.listdir(os.path.join(folder, "instance_ufos")):
         if ufo[-4:] == ".ufo":
@@ -572,9 +628,10 @@ def instances(family, *output, newName=" "):
         renameFonts(family, newName)
 
 def makeOtfFamily(family, newName=" ", onlyOtf=False):
-    print("Please note that non-latin OTF fonts can't have the figures and punctuation from Latin merged in it")
+    print("Please note that non-latin OTF fonts can't have the \
+        figures and punctuation from Latin merged in it")
     output = "otf"
-    path, folder = getFile(".designspace", "src", family)
+    path, folder = getFile(".designspace", family)
     designSpace = openDesignSpace(path)
     destination = folder + "/" + "Instances"
     ### test if mti
@@ -587,8 +644,14 @@ def makeOtfFamily(family, newName=" ", onlyOtf=False):
             return
     if onlyOtf is True:
         fp = FontProject()
-        fonts = fp.run_from_designspace(expand_features_to_instances=True, use_mutatormath=False, \
-            designspace_path = path, interpolate = True, output=("otf"), output_dir = destination)
+        fonts = fp.run_from_designspace(
+            expand_features_to_instances=True,
+            use_mutatormath=False,
+            designspace_path = path,
+            interpolate = True,
+            output=("otf"),
+            output_dir = destination
+            )
     ufolist = list()
     for ufo in os.listdir(os.path.join(folder, "instance_ufos")):
         if ufo[-4:] == ".ufo":
@@ -601,20 +664,20 @@ def makeOtfFamily(family, newName=" ", onlyOtf=False):
 
 ### TEST FUNCTIONS ###
 # mastersUfos2fonts("NotoSansThaana", "woff2")
-# designSpace2Var("NotoSansThaana")
+designSpace2Var("NotoSansGurmukhi")
 # subsetFonts("NotoSerif", "SecureSet")
-# instances("NotoKufiArabic", "otf")
+# designSpace2Instances("NotoKufiArabic", "otf")
 # ufoWithMTIfeatures2font("NotoMusic", "ttf")
 # subsetFonts("NotoSerif", "CyrillicPro", familyNewName = "Avocado Sans", flavor=["otf"])
 # subsetFonts("NotoKufiArabic", ["Core_Arabic"], flavor=["ttf"])
 # mastersUfos2fonts("NotoSansThaana", "woff2")
 # renameFonts("NotoSans", "Tomato Soup")
 # mergeFonts("NotoSans","NotoNastaliqUrdu")
-# designSpace2Var("NotoSansThaana")
+# designSpace2Var("NotoSerifTelugu")
 # makeTTFInstancesFromVF("NotoSerif")
 # makeOneInstanceFromVF("NotoSansThaana", {'wght': 190.0})
 # mastersUfos2fonts("NotoSansThaana", "ttf")
 # ufosToGlyphs("NotoSansThaana")
 # ufo2font("NotoSans", ["NotoSans-Bold.ufo"], "ttf")
-# instances("NotoSansThaana")
+# designSpace2Instances("NotoSansThaana")
 # mergeFonts("NotoSansThaana", "NotoSerifHebrew")

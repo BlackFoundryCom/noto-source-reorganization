@@ -211,4 +211,4 @@ def slimer(family):
 	print(family, "Regular is located at", mini, "and", family, "Bold is located at", maxi)
 	reduceDesignSpace(path, tag2Name["wght"], mini, maxi)
 
-slimer("NotoSans-Italic")
+# slimer("NotoSans-Italic")

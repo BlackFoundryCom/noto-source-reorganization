@@ -102,7 +102,7 @@ def swaper(family):
     folder = os.path.split(getFolder(family))[0]+"/"
     newFolder = os.path.abspath(os.path.join(folder, os.pardir, family+"AltIJ"))
     print(newFolder)
-    ext = ["ufo", "designspace", "txt", "plist", "json"]
+    ext = ["ufo", "designspace", "txt", "plist"]
     if not os.path.exists(newFolder):
         os.makedirs(newFolder)
     folderContent = list()

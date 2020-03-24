@@ -3,7 +3,7 @@ import shutil
 import getopt
 import glyphsLib
 import defcon
-from fontTools.designspaceLib           import *
+from fontTools.designspaceLib   import *
 # import ufoLib2
 from fontTools.ttLib            import TTFont
 from fontTools                  import varLib
@@ -304,3 +304,9 @@ class SlimVariableFontsWithMti():
             slimUIFont = self.renamer()
             print("\tSaving " + self.familyName + "UI-VF.ttf\n")
             slimUIFont.save(os.path.join("../fonts", "%sUI-VF.ttf"%self.familyName))
+
+
+def makePath(family):
+    path, folder = getFile(".designspace", "src", family)
+if __name__ == "__main__":
+    fea_ = mti2fea("NotoKufiArabic")
