@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="eMatra_kannada" format="2">
   <unicode hex="0CC6"/>
-  <anchor x="0" y="433" name="_top"/>
   <outline>
     <contour>
       <point x="-270" y="433" type="line"/>
@@ -50,11 +49,11 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Letter</string>
+      <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>kannada</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Other</string>
+      <string>Nonspacing</string>
     </dict>
   </lib>
 </glyph>

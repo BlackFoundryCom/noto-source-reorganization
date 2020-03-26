@@ -8,7 +8,6 @@
     </array>
     <key>public.kern1.KND_aaMatra_R</key>
     <array>
-      <string>llVocalic_kannada</string>
       <string>aaMatra_kannada</string>
       <string>ghaa_kannada</string>
       <string>ngaa_kannada</string>
@@ -16,6 +15,7 @@
       <string>jaa_kannada</string>
       <string>nyaa_kannada</string>
       <string>ttaa_kannada</string>
+      <string>phaa_kannada</string>
       <string>nnaa_kannada</string>
       <string>rraa_kannada</string>
       <string>lllaa_kannada</string>
@@ -31,6 +31,7 @@
     <key>public.kern1.KND_ailength_R</key>
     <array>
       <string>ailength_kannada</string>
+      <string>t_ailength_kannada.below</string>
     </array>
     <key>public.kern1.KND_auMatra_R</key>
     <array>
@@ -42,6 +43,7 @@
       <string>nyau_kannada</string>
       <string>ttau_kannada</string>
       <string>nnau_kannada</string>
+      <string>phau_kannada</string>
       <string>rrau_kannada</string>
       <string>lllau_kannada</string>
     </array>
@@ -109,6 +111,7 @@
       <string>cha_kannada.below</string>
       <string>pa_kannada.below</string>
       <string>pha_kannada.below</string>
+      <string>pha_nukta_kannada.below</string>
     </array>
     <key>public.kern1.KND_cha_R</key>
     <array>
@@ -225,6 +228,7 @@
     <key>public.kern1.KND_ja-below_R</key>
     <array>
       <string>ja_kannada.below</string>
+      <string>ja_nukta_kannada.below</string>
     </array>
     <key>public.kern1.KND_je_R</key>
     <array>
@@ -295,10 +299,12 @@
     <key>public.kern1.KND_lVocalicMatra_R</key>
     <array>
       <string>lVocalicMatra_kannada</string>
+      <string>llVocalicMatra_kannada</string>
     </array>
     <key>public.kern1.KND_lVocalic_R</key>
     <array>
       <string>lVocalic_kannada</string>
+      <string>llVocalic_kannada</string>
     </array>
     <key>public.kern1.KND_l_R</key>
     <array>
@@ -326,10 +332,6 @@
     <key>public.kern1.KND_li_R</key>
     <array>
       <string>li_kannada</string>
-    </array>
-    <key>public.kern1.KND_llVocalicMatra_R</key>
-    <array>
-      <string>llVocalicMatra_kannada</string>
     </array>
     <key>public.kern1.KND_ll_R</key>
     <array>
@@ -366,6 +368,7 @@
       <string>mi_kannada</string>
       <string>yi_kannada</string>
       <string>ghu_kannada</string>
+      <string>ju_kannada</string>
       <string>llu_kannada</string>
       <string>me_kannada</string>
       <string>ye_kannada</string>
@@ -491,6 +494,7 @@
     <key>public.kern1.KND_rVocalicMatra_R</key>
     <array>
       <string>rVocalicMatra_kannada</string>
+      <string>t_rVocalicMatra_kannada.below</string>
     </array>
     <key>public.kern1.KND_ra-below_R</key>
     <array>
@@ -581,14 +585,6 @@
     <array>
       <string>ta_kannada.base</string>
     </array>
-    <key>public.kern1.KND_t_ailength-below_R</key>
-    <array>
-      <string>t_ailength_kannada.below</string>
-    </array>
-    <key>public.kern1.KND_t_rVocalicMatra_R</key>
-    <array>
-      <string>t_rVocalicMatra_kannada.below</string>
-    </array>
     <key>public.kern1.KND_t_ya_R</key>
     <array>
       <string>t_ya_kannada.below</string>
@@ -678,12 +674,15 @@
       <string>uuMatra_kannada</string>
       <string>oMatra_kannada</string>
       <string>ghuu_kannada</string>
+      <string>juu_kannada</string>
       <string>phuu_kannada</string>
       <string>puu_kannada</string>
       <string>lluu_kannada</string>
       <string>vuu_kannada</string>
       <string>gho_kannada</string>
       <string>ngo_kannada</string>
+      <string>jo_kannada</string>
+      <string>jho_kannada</string>
       <string>nyo_kannada</string>
       <string>po_kannada</string>
       <string>pho_kannada</string>
@@ -784,22 +783,15 @@
       <string>li_kannada</string>
       <string>le_kannada</string>
       <string>la_kannada.base</string>
+      <string>l_kannada</string>
     </array>
     <key>public.kern2.KND_aaMatra_L</key>
     <array>
       <string>aaMatra_kannada</string>
     </array>
-    <key>public.kern2.KND_ai_L</key>
-    <array>
-      <string>ai_kannada</string>
-    </array>
     <key>public.kern2.KND_ailength_L</key>
     <array>
       <string>ailength_kannada</string>
-    </array>
-    <key>public.kern2.KND_au_L</key>
-    <array>
-      <string>au_kannada</string>
     </array>
     <key>public.kern2.KND_ba-below_L</key>
     <array>
@@ -820,6 +812,7 @@
       <string>chi_kannada</string>
       <string>che_kannada</string>
       <string>cha_kannada.base</string>
+      <string>ch_kannada</string>
     </array>
     <key>public.kern2.KND_dda-below_L</key>
     <array>
@@ -830,10 +823,13 @@
     <array>
       <string>dda_kannada</string>
       <string>da_kannada</string>
+      <string>di_kannada</string>
       <string>dde_kannada</string>
       <string>de_kannada</string>
       <string>dda_kannada.base</string>
       <string>da_kannada.base</string>
+      <string>dd_kannada</string>
+      <string>d_kannada</string>
     </array>
     <key>public.kern2.KND_ddha_L</key>
     <array>
@@ -846,19 +842,22 @@
       <string>ddha_kannada.base</string>
       <string>tha_kannada.base</string>
       <string>dha_kannada.base</string>
+      <string>ddh_kannada</string>
+      <string>th_kannada</string>
+      <string>dh_kannada</string>
     </array>
     <key>public.kern2.KND_ddi_L</key>
     <array>
       <string>ddi_kannada</string>
       <string>ddhi_kannada</string>
       <string>thi_kannada</string>
-      <string>di_kannada</string>
       <string>dhi_kannada</string>
     </array>
     <key>public.kern2.KND_e_L</key>
     <array>
       <string>e_kannada</string>
       <string>ee_kannada</string>
+      <string>ai_kannada</string>
     </array>
     <key>public.kern2.KND_ga-below_L</key>
     <array>
@@ -869,6 +868,7 @@
       <string>ga_kannada</string>
       <string>ge_kannada</string>
       <string>ga_kannada.base</string>
+      <string>g_kannada</string>
     </array>
     <key>public.kern2.KND_gha-below_L</key>
     <array>
@@ -883,6 +883,7 @@
       <string>va_kannada</string>
       <string>ssa_kannada</string>
       <string>ghaa_kannada</string>
+      <string>phaa_kannada</string>
       <string>ghu_kannada</string>
       <string>pu_kannada</string>
       <string>phu_kannada</string>
@@ -903,12 +904,19 @@
       <string>mo_kannada</string>
       <string>vo_kannada</string>
       <string>ghau_kannada</string>
+      <string>phau_kannada</string>
       <string>gha_kannada.base</string>
       <string>pa_kannada.base</string>
       <string>pha_kannada.base</string>
       <string>ma_kannada.base</string>
       <string>va_kannada.base</string>
       <string>ssa_kannada.base</string>
+      <string>gh_kannada</string>
+      <string>p_kannada</string>
+      <string>ph_kannada</string>
+      <string>m_kannada</string>
+      <string>v_kannada</string>
+      <string>ss_kannada</string>
     </array>
     <key>public.kern2.KND_ghi_L</key>
     <array>
@@ -930,6 +938,7 @@
       <string>ha_kannada</string>
       <string>he_kannada</string>
       <string>ha_kannada.base</string>
+      <string>h_kannada</string>
     </array>
     <key>public.kern2.KND_halant_L</key>
     <array>
@@ -950,6 +959,7 @@
     <key>public.kern2.KND_ja-below_L</key>
     <array>
       <string>ja_kannada.below</string>
+      <string>ja_nukta_kannada.below</string>
     </array>
     <key>public.kern2.KND_jha-below_L</key>
     <array>
@@ -963,9 +973,13 @@
       <string>jhe_kannada</string>
       <string>tthe_kannada</string>
       <string>re_kannada</string>
+      <string>jho_kannada</string>
       <string>jha_kannada.base</string>
       <string>ttha_kannada.base</string>
       <string>ra_kannada.base</string>
+      <string>jh_kannada</string>
+      <string>tth_kannada</string>
+      <string>r_kannada</string>
     </array>
     <key>public.kern2.KND_jhi_L</key>
     <array>
@@ -983,9 +997,7 @@
       <string>ka_kannada</string>
       <string>ke_kannada</string>
       <string>ka_kannada.base</string>
-      <string>k_ssa_kannada</string>
-      <string>k_sse_kannada</string>
-      <string>k_ssa_kannada.base</string>
+      <string>k_kannada</string>
     </array>
     <key>public.kern2.KND_kha-below_L</key>
     <array>
@@ -997,11 +1009,19 @@
       <string>khi_kannada</string>
       <string>khe_kannada</string>
       <string>kha_kannada.base</string>
+      <string>kh_kannada</string>
     </array>
     <key>public.kern2.KND_ki_L</key>
     <array>
       <string>ki_kannada</string>
+    </array>
+    <key>public.kern2.KND_kssa_L</key>
+    <array>
+      <string>k_ssa_kannada</string>
+      <string>k_sse_kannada</string>
       <string>k_ssi_kannada</string>
+      <string>k_ssa_kannada.base</string>
+      <string>k_ss_kannada</string>
     </array>
     <key>public.kern2.KND_lVocalicMatra_L</key>
     <array>
@@ -1034,6 +1054,7 @@
       <string>lle_kannada</string>
       <string>llo_kannada</string>
       <string>lla_kannada.base</string>
+      <string>ll_kannada</string>
     </array>
     <key>public.kern2.KND_ma-below_L</key>
     <array>
@@ -1053,6 +1074,7 @@
       <string>na_kannada</string>
       <string>ne_kannada</string>
       <string>na_kannada.base</string>
+      <string>n_kannada</string>
     </array>
     <key>public.kern2.KND_nga-below_L</key>
     <array>
@@ -1077,6 +1099,7 @@
       <string>nne_kannada</string>
       <string>nnau_kannada</string>
       <string>nna_kannada.base</string>
+      <string>nn_kannada</string>
     </array>
     <key>public.kern2.KND_nya-below_L</key>
     <array>
@@ -1092,11 +1115,13 @@
       <string>nyo_kannada</string>
       <string>nyau_kannada</string>
       <string>nya_kannada.base</string>
+      <string>ny_kannada</string>
     </array>
     <key>public.kern2.KND_o_L</key>
     <array>
       <string>o_kannada</string>
       <string>oo_kannada</string>
+      <string>au_kannada</string>
       <string>nga_kannada</string>
       <string>ca_kannada</string>
       <string>ja_kannada</string>
@@ -1110,12 +1135,15 @@
       <string>ji_kannada</string>
       <string>bi_kannada</string>
       <string>bhi_kannada</string>
+      <string>ju_kannada</string>
+      <string>juu_kannada</string>
       <string>nge_kannada</string>
       <string>ce_kannada</string>
       <string>je_kannada</string>
       <string>be_kannada</string>
       <string>bhe_kannada</string>
       <string>ngo_kannada</string>
+      <string>jo_kannada</string>
       <string>ngau_kannada</string>
       <string>cau_kannada</string>
       <string>jau_kannada</string>
@@ -1124,12 +1152,23 @@
       <string>ja_kannada.base</string>
       <string>ba_kannada.base</string>
       <string>bha_kannada.base</string>
+      <string>j_nya_kannada</string>
+      <string>j_nye_kannada</string>
+      <string>j_nyi_kannada</string>
+      <string>j_nya_kannada.base</string>
+      <string>ng_kannada</string>
+      <string>c_kannada</string>
+      <string>j_kannada</string>
+      <string>b_kannada</string>
+      <string>bh_kannada</string>
+      <string>j_ny_kannada</string>
     </array>
     <key>public.kern2.KND_pa-below_L</key>
     <array>
       <string>pa_kannada.below</string>
       <string>pha_kannada.below</string>
       <string>ssa_kannada.below</string>
+      <string>pha_nukta_kannada.below</string>
     </array>
     <key>public.kern2.KND_rVocalicMatra_L</key>
     <array>
@@ -1170,6 +1209,8 @@
       <string>lllau_kannada</string>
       <string>rra_kannada.base</string>
       <string>llla_kannada.base</string>
+      <string>rr_kannada</string>
+      <string>lll_kannada</string>
     </array>
     <key>public.kern2.KND_sa-below_L</key>
     <array>
@@ -1178,8 +1219,11 @@
     <key>public.kern2.KND_sa_L</key>
     <array>
       <string>sa_kannada</string>
+      <string>jihvamuliya_kannada</string>
       <string>se_kannada</string>
       <string>sa_kannada.base</string>
+      <string>s_kannada</string>
+      <string>uni1CF2</string>
     </array>
     <key>public.kern2.KND_sha-below_L</key>
     <array>
@@ -1190,6 +1234,7 @@
       <string>sha_kannada</string>
       <string>she_kannada</string>
       <string>sha_kannada.base</string>
+      <string>sh_kannada</string>
     </array>
     <key>public.kern2.KND_shi_L</key>
     <array>
@@ -1221,6 +1266,7 @@
       <string>ti_kannada</string>
       <string>te_kannada</string>
       <string>ta_kannada.base</string>
+      <string>t_kannada</string>
     </array>
     <key>public.kern2.KND_tha-below_L</key>
     <array>
@@ -1240,6 +1286,7 @@
       <string>tte_kannada</string>
       <string>ttau_kannada</string>
       <string>tta_kannada.base</string>
+      <string>tt_kannada</string>
     </array>
     <key>public.kern2.KND_ttha-below_L</key>
     <array>
@@ -1277,6 +1324,7 @@
       <string>ye_kannada</string>
       <string>yo_kannada</string>
       <string>ya_kannada.base</string>
+      <string>y_kannada</string>
     </array>
     <key>public.kern2.LTN_asterisk_L</key>
     <array>

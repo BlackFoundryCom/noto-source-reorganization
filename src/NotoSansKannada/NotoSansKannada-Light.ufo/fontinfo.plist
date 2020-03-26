@@ -13,7 +13,32 @@
     <key>familyName</key>
     <string>Noto Sans Kannada</string>
     <key>guidelines</key>
-    <array/>
+    <array>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>x</key>
+        <integer>-62</integer>
+        <key>y</key>
+        <integer>-364</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>x</key>
+        <integer>-351</integer>
+        <key>y</key>
+        <integer>809</integer>
+      </dict>
+      <dict>
+        <key>angle</key>
+        <integer>0</integer>
+        <key>x</key>
+        <integer>-257</integer>
+        <key>y</key>
+        <integer>604</integer>
+      </dict>
+    </array>
     <key>italicAngle</key>
     <integer>0</integer>
     <key>openTypeHeadCreated</key>
@@ -33,7 +58,7 @@
     <key>openTypeNameManufacturerURL</key>
     <string>http://www.google.com/get/noto/</string>
     <key>openTypeNameVersion</key>
-    <string>Version 2.000</string>
+    <string>Version 2.001</string>
     <key>openTypeOS2Selection</key>
     <array>
       <integer>8</integer>
@@ -86,7 +111,7 @@
     <key>versionMajor</key>
     <integer>2</integer>
     <key>versionMinor</key>
-    <integer>0</integer>
+    <integer>1</integer>
     <key>xHeight</key>
     <integer>540</integer>
   </dict>

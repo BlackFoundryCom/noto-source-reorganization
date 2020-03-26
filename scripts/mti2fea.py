@@ -145,7 +145,6 @@ def parseSingleGPOS(name, lookup):
     print(name)
     single_txt = ""
     single_txt += "lookup " + name[2:-2] + " {\n"
-    gpos_single_dico = dict()
     if len(parseLookupflag(lookup[0:6])) != 0:
         single_txt += parseLookupflag(lookup[0:6])
     for j in lookup[4:]:
@@ -164,27 +163,36 @@ def parseSingleGPOS(name, lookup):
             elif "y placement" in j_list[0]:
                 single_txt += "\tposition " + j_list[1] + " < 0 " + j_list[2] + " 0 0 >;\n"
     single_txt += "    } " + name[2:-2] + " ;\n\n"
+    #
+    # WIP TRY TO PARSE THIS FEATURE WITH A DICT.
+    # THE IDEA IS TO MERGE IN ONE LINE THE RULES THAT ARE
+    # DISPATCHED ON SEVERAL LIGNE IN MTI TXT
+    # EX: IF A GLYPH HAS X ADVANCE AND X PLACEMENT MODIFICATION MTI FILE WILL HAVE:
+    #  > x advance    alif    -56
+    #  > x placement  alif    -56
+    #
+    # when OT features ask for:
+    #  > pos alif <-56 0 -56 0>
+    #
+    # gpos_single_dico = dict()
     # print(gpos_single_dico)
     # print(name)
     # print(gpos_single_dico)
-    for i in gpos_single_dico:
-        # print(i)
-        xadv, xplace, yadv, yplace = "0", "0", "0", "0"
-        # print(gpos_single_dico[i])
-        for d in gpos_single_dico[i]:
-            # print(d)
-            if "x advance" in d:
-                xadv = d["x advance"]
-        print("    pos " + i + " < " + xplace + " " + yplace + " " + xadv + " " + yplace + " >;\n")
-    print("\n\n")
+    # for i in gpos_single_dico:
+    #     # print(i)
+    #     xadv, xplace, yadv, yplace = "0", "0", "0", "0"
+    #     # print(gpos_single_dico[i])
+    #     for d in gpos_single_dico[i]:
+    #         # print(d)
+    #         if "x advance" in d:
+    #             xadv = d["x advance"]
+    #     print("    pos " + i + " < " + xplace + " " + yplace + " " + xadv + " " + yplace + " >;\n")
+    # print("\n\n")
     return str(single_txt)
 
 ##########################
 #### GPOS LookupType 2 ###
 ##########################
-"""
-
-"""
 def parseKernsetGPOS(name, lookup):
     # NEDD TO MAKE THE RTL VERSION, and THE Y VERSION
     kernset_txt = ""

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="j_ny_kannada" format="2">
+  <advance width="1008"/>
+  <anchor x="390" y="0" name="bottom"/>
+  <anchor x="373" y="561" name="top"/>
+  <anchor x="533" y="445" name="topright"/>
+  <outline>
+    <component base="ja_kannada.base"/>
+    <component base="nya_kannada.below" xOffset="589" yOffset="-25"/>
+    <component base="halant_kannada.calt" xOffset="1008"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>halant_kannada</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>kannada</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

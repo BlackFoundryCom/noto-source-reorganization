@@ -228,7 +228,7 @@ def main():
             for loc in i.location:
                 loca[axesName[loc]] = i.location[loc]
             locationList.append(loca)
-            print(familyName, i.styleName, 
+            print(familyName, i.styleName,
                     "--> ["+ str(locationList.index(loca)) +"]")
             styles.append(i.styleName)
         prettyLog("Which static instances do you want? \
@@ -254,12 +254,23 @@ def main():
             os.path.join(os.path.dirname(sys.argv[0]), os.pardir, 'scripts'))
         os.chdir(path)
         failing = []
-        folders = [os.path.join("../src/", i) for i in os.listdir("../src")]
+        folders = [os.path.join("../src/", i) for i in list(
+            filter(lambda x: x!=(".DS_Store"), os.listdir("../src")))]
+        # folders = [os.path.join("../src/", i) for i in os.listdir("../src")]
+        ###
         for familyPath in folders:
-            try:
-                designSpace2Var(os.path.split(familyPath)[1])
-            except:
-                failing.append(familyPath.split("/")[-1])
+            ufoList = list()
+            for element in os.listdir(familyPath):
+                if element.endswith(".ufo"):
+                    ufoList.append(element)
+            if len(ufoList) > 1:
+                try:
+                    makeVanillaFamily(os.path.split(familyPath)[1], 'ttf')
+                except:
+                    failing.append(familyPath.split("/")[-1])
+            else:
+                print("\t>>> " + os.path.split(familyPath)[1].strip(),
+                        "family has only one master.")
         if len(failing) > 0:
             for i in failing:
                 print(i + " has not been generated.")
@@ -269,7 +280,8 @@ def main():
             os.path.join(os.path.dirname(sys.argv[0]), os.pardir, 'scripts'))
         os.chdir(path)
         failing = []
-        folders = [os.path.join("../src/", i) for i in os.listdir("../src")]
+        folders = [os.path.join("../src/", i) for i in list(
+            filter(lambda x: x!=(".DS_Store"), os.listdir("../src")))]
         for familyPath in folders:
             try:
                 makeOtfFamily(os.path.split(familyPath)[1],
@@ -285,10 +297,11 @@ def main():
             os.path.join(os.path.dirname(sys.argv[0]), os.pardir, 'scripts'))
         os.chdir(path)
         failing = []
-        folders = [os.path.join("../src/", i) for i in os.listdir("../src")]
+        folders = [os.path.join("../src/", i) for i in list(
+            filter(lambda x: x!=(".DS_Store"), os.listdir("../src")))]
         for familyPath in folders:
             try:
-                designSpace2Instances(os.path.split(familyPath)[1], 'ttf')
+                makeVanillaFamily(os.path.split(familyPath)[1], 'ttf')
             except:
                 failing.append(familyPath.split("/")[-1])
         if len(failing) > 0:

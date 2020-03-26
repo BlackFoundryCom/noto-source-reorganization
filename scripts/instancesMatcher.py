@@ -194,7 +194,7 @@ def mergeFonts(masterfont, *fontsToAdd):
             #     print("it extract the" % "instance, the merges all of them " % font)
 
 
-mergeFonts("NotoSans", "NotoSansArabic") #> working
+# mergeFonts("NotoSans", "NotoSansArabic") #> working
 # mergeFonts("NotoSans", "NotoSansThaana") #> working
 # mergeFonts("NotoSerifHebrew", "NotoKufiArabic", "NotoSerif") #> working
 # mergeFonts("NotoSansThaana", "NotoSerifHebrew") # not woking because no GSUB in NotoSansThaana that is given in second to the merger

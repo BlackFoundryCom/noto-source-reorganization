@@ -21,11 +21,18 @@ So far NotoMaker has the following options:
 
 -r : rename the fonts.
 
+--salt : Set I.alt and J.alt stylistic alternate shapes as default in the generated font(s).
+
 --allVF, --allOTF and --allTTF : These 3 commands don't need folder path since they work on all families.
 
-In order to use it you need:
--fontTools(4.2.5)
--ufo2ft (2.9.1)
--defcon (0.6.0)
--fontmake (2.0.3)
+NotoMaker needs Python 3.6. Regarding the librairies, it needs:
+-[fontTools (4.6.0)](https://github.com/fonttools/fonttools)
+-[ufo2ft (2.9.1)](https://github.com/googlefonts/ufo2ft) []
+-[defcon (0.6.0)](https://github.com/robotools/defcon)
+-[fontmake (2.0.3)](https://github.com/googlefonts/fontmake)
+-[ufoLib2 (0.6.2)](https://github.com/fonttools/ufoLib2)
+
+If you don't have them already installed in your OS, you can download them from github
+and install them with pip3, using the  `pip3 install -e .` command once in the folder.
+
 

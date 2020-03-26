@@ -603,7 +603,6 @@ def designSpace2Instances(family, *output, newName=" "):
     path, folder = getFile(".designspace", family)
     designSpace = openDesignSpace(path)
     destination = folder + "/" + "Instances"
-    # print(output)
     ###
     ### test if mti
     for file in os.listdir(folder):
@@ -637,9 +636,43 @@ def designSpace2Instances(family, *output, newName=" "):
     if newName != " ":
         renameFonts(family, newName)
 
+def makeVanillaFamily(family, *output, newName=" "):
+    if family not in pan_european_fonts:
+        print("Please note that these fonts may lack\n \
+        basic figures and punctuation.")
+    path, folder = getFile(".designspace", family)
+    designSpace = openDesignSpace(path)
+    destination = folder + "/" + "Instances"
+    ### test if mti
+    for file in os.listdir(folder):
+        if file.endswith(".plist"):
+            # INJECT COMPILED TABLE IN FONTS
+            ufoWithMTIfeatures2font(family, output)
+            if newName != " ":
+                renameFonts(family, newName)
+            return
+    fp = FontProject()
+    fonts = fp.run_from_designspace(
+        expand_features_to_instances=True,
+        use_mutatormath=False,
+        designspace_path = path,
+        interpolate = True,
+        output=("otf"),
+        output_dir = destination
+        )
+    ufolist = list()
+    for ufo in os.listdir(os.path.join(folder, "instance_ufos")):
+        if ufo[-4:] == ".ufo":
+            ufolist.append(ufo)
+    instancesFolder = family+"/instance_ufos"
+    ufo2font(instancesFolder, ufolist, output, fromInstances=True)
+    if newName != " ":
+        renameFonts(family, newName)
+
 def makeOtfFamily(family, newName=" ", onlyOtf=False):
-    print("Please note that non-latin OTF fonts can't have\n \
-        the figures and punctuation from Latin merged in it")
+    if family not in pan_european_fonts:
+        print("Please note that non-latin OTF fonts can't have\n \
+            the figures and punctuation from Latin merged in it")
     output = "otf"
     path, folder = getFile(".designspace", family)
     designSpace = openDesignSpace(path)
@@ -674,7 +707,7 @@ def makeOtfFamily(family, newName=" ", onlyOtf=False):
 
 ### TEST FUNCTIONS ###
 # mastersUfos2fonts("NotoSansThaana", "woff2")
-makeTTFInstancesFromVF("NotoSansArabic")
+# makeTTFInstancesFromVF("NotoSerifSinhala")
 # subsetFonts("NotoKufiArabic", "Core_Arabic")
 # designSpace2Instances("NotoKufiArabic", "otf")
 # ufoWithMTIfeatures2font("NotoMusic", "ttf")

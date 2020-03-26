@@ -52,7 +52,81 @@
           <array>
             <array>
               <string>Replace Feature</string>
-              <string>dist; script knda; lookup sglAdjust_1 { pos @OT_allBelowGlyphs &lt;0 0 2 0&gt;; } sglAdjust_1;lookup ssa_drop_th { pos [ssa_kannada sse_kannada] [kha_kannada.below ga_kannada.below nga_kannada.below ja_kannada.below jha_kannada.below nya_kannada.below ta_kannada.below ttha_kannada.below dda_kannada.below ddha_kannada.below nna_kannada.below tha_kannada.below da_kannada.below dha_kannada.below ya_kannada.below rra_kannada.below la_kannada.below lla_kannada.below va_kannada.below sha_kannada.below sa_kannada.below ha_kannada.below llla_kannada.below rVocalicMatra_kannada rrVocalicMatra_kannada ailength_kannada]' &lt;0 -44 0 0&gt;; pos [na_kannada ssa_kannada sse_kannada] [lVocalicMatra_kannada llVocalicMatra_kannada]' &lt;0 -20 0 0&gt;; } ssa_drop_th;lookup sanskrit_Matra_th { pos llVocalicMatra_kannada' space &lt;0 0 526 0&gt;; pos rrVocalicMatra_kannada' space &lt;0 0 371 0&gt;; pos llVocalicMatra_kannada' &lt;0 0 98 0&gt; @OT_allBase @OT_allBelowGlyphs; } sanskrit_Matra_th;lookup ra_below_th { pos ka_kannada.below ra_kannada.below' &lt;140 -226 140 0&gt;; pos kha_kannada.below ra_kannada.below' &lt;136 -237 136 0&gt;; pos ga_kannada.below ra_kannada.below' &lt;186 -170 186 0&gt;; pos gha_kannada.below ra_kannada.below' &lt;316 -354 316 0&gt;; pos nga_kannada.below ra_kannada.below' &lt;223 -230 223 0&gt;; pos ca_kannada.below ra_kannada.below' &lt;188 -229 188 0&gt;; pos cha_kannada.below ra_kannada.below' &lt;209 -354 209 0&gt;; pos ja_kannada.below ra_kannada.below' &lt;271 -230 271 0&gt;; pos jha_kannada.below ra_kannada.below' &lt;405 -359 405 0&gt;; pos nya_kannada.below ra_kannada.below' &lt;220 -322 220 0&gt;; pos tta_kannada.below ra_kannada.below' &lt;139 -225 139 0&gt;; pos ttha_kannada.below ra_kannada.below' &lt;154 -230 154 0&gt;; pos dda_kannada.below ra_kannada.below' &lt;240 -212 240 0&gt;; pos ddha_kannada.below ra_kannada.below' &lt;240 -335 240 0&gt;; pos nna_kannada.below ra_kannada.below' &lt;279 -231 279 0&gt;; pos ta_kannada.below ra_kannada.below' &lt;118 -107 118 0&gt;; pos tha_kannada.below ra_kannada.below' &lt;259 -341 259 0&gt;; pos da_kannada.below ra_kannada.below' &lt;259 -212 259 0&gt;; pos dha_kannada.below ra_kannada.below' &lt;259 -341 259 0&gt;; pos na_kannada.below ra_kannada.below' &lt;229 -215 229 0&gt;; pos pa_kannada.below ra_kannada.below' &lt;209 -225 209 0&gt;; pos pha_kannada.below ra_kannada.below' &lt;209 -354 209 0&gt;; pos ba_kannada.below ra_kannada.below' &lt;209 -231 209 0&gt;; pos bha_kannada.below ra_kannada.below' &lt;209 -354 209 0&gt;; pos ma_kannada.below ra_kannada.below' &lt;316 -225 316 0&gt;; pos ya_kannada.below ra_kannada.below' &lt;205 -268 205 0&gt;; pos ra_kannada.below ra_kannada.below' &lt;132 -136 132 0&gt;; pos rra_kannada.below ra_kannada.below' &lt;263 -231 263 0&gt;; pos la_kannada.below ra_kannada.below' &lt;245 -169 245 0&gt;; pos lla_kannada.below ra_kannada.below' &lt;154 -231 154 0&gt;; pos va_kannada.below ra_kannada.below' &lt;145 -251 145 0&gt;; pos sha_kannada.below ra_kannada.below' &lt;199 -255 199 0&gt;; pos ssa_kannada.below ra_kannada.below' &lt;209 -309 209 0&gt;; pos sa_kannada.below ra_kannada.below' &lt;216 -191 216 0&gt;; pos ha_kannada.below ra_kannada.below' &lt;323 -173 323 0&gt;; pos llla_kannada.below ra_kannada.below' &lt;263 -231 263 0&gt;; pos k_ssa_kannada.below ra_kannada.below' &lt;241 -497 241 0&gt;; pos j_nya_kannada.below ra_kannada.below' &lt;268 -554 268 0&gt;; pos t_ya_kannada.below ra_kannada.below' &lt;205 -310 205 0&gt;; } ra_below_th;lookup halant_space_th { ignore pos @OT_allBelowGlyphs [halant_kannada halant_kannada.calt]'; pos @OT_baseVariants [halant_kannada halant_kannada.calt]' &lt;0 0 244 0&gt;; } halant_space_th;lookup belowGlyphsShift_th { pos [ja_kannada ji_kannada je_kannada ja_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;136 0 136 0&gt;; pos [pha_kannada phi_kannada phe_kannada pha_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;220 0 220 0&gt;; pos [ra_kannada ri_kannada re_kannada ra_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;190 0 190 0&gt;; } belowGlyphsShift_th;script knd2; lookup ssa_drop_th ; lookup sanskrit_Matra_th ; lookup ra_below_th ; lookup halant_space_th ; lookup belowGlyphsShift_th ;</string>
+              <string>dist;
+ script knda;
+ lookup sglAdjust_1 { pos @OT_allBelowGlyphs &lt;0 0 2 0&gt;;
+ } sglAdjust_1;
+lookup ssa_drop_th { pos [ssa_kannada sse_kannada] [kha_kannada.below ga_kannada.below nga_kannada.below ja_kannada.below jha_kannada.below nya_kannada.below ta_kannada.below ttha_kannada.below dda_kannada.below ddha_kannada.below nna_kannada.below tha_kannada.below da_kannada.below dha_kannada.below ya_kannada.below rra_kannada.below la_kannada.below lla_kannada.below va_kannada.below sha_kannada.below sa_kannada.below ha_kannada.below llla_kannada.below rVocalicMatra_kannada rrVocalicMatra_kannada ailength_kannada ja_nukta_kannada.below]' &lt;0 -44 0 0&gt;;
+ pos [na_kannada ssa_kannada sse_kannada] [lVocalicMatra_kannada llVocalicMatra_kannada]' &lt;0 -20 0 0&gt;;
+ } ssa_drop_th;
+lookup sanskrit_Matra_th {
+ pos rrVocalicMatra_kannada' space &lt;0 0 371 0&gt;;
+ } sanskrit_Matra_th;
+lookup ra_below_th { 
+ pos ka_kannada.below ra_kannada.below' &lt;140 -226 140 0&gt;;
+ pos kha_kannada.below ra_kannada.below' &lt;166 -237 166 0&gt;;
+ pos ga_kannada.below ra_kannada.below' &lt;186 -230 186 0&gt;;
+ pos gha_kannada.below ra_kannada.below' &lt;316 -304 316 0&gt;;
+ pos nga_kannada.below ra_kannada.below' &lt;223 -250 223 0&gt;;
+ pos ca_kannada.below ra_kannada.below' &lt;188 -250 188 0&gt;;
+ pos cha_kannada.below ra_kannada.below' &lt;209 -304 209 0&gt;;
+ pos ja_kannada.below ra_kannada.below' &lt;271 -250 271 0&gt;;
+ pos jha_kannada.below ra_kannada.below' &lt;405 -309 405 0&gt;;
+ pos nya_kannada.below ra_kannada.below' &lt;220 -322 220 0&gt;;
+ pos tta_kannada.below ra_kannada.below' &lt;139 -250 139 0&gt;;
+ pos ttha_kannada.below ra_kannada.below' &lt;154 -250 154 0&gt;;
+ pos dda_kannada.below ra_kannada.below' &lt;240 -250 240 0&gt;;
+ pos ddha_kannada.below ra_kannada.below' &lt;240 -304 240 0&gt;;
+ pos nna_kannada.below ra_kannada.below' &lt;279 -250 279 0&gt;;
+ pos ta_kannada.below ra_kannada.below' &lt;118 -137 118 0&gt;;
+ pos tha_kannada.below ra_kannada.below' &lt;259 -304 259 0&gt;;
+ pos da_kannada.below ra_kannada.below' &lt;259 -250 259 0&gt;;
+ pos dha_kannada.below ra_kannada.below' &lt;259 -304 259 0&gt;;
+ pos na_kannada.below ra_kannada.below' &lt;229 -215 229 0&gt;;
+ pos pa_kannada.below ra_kannada.below' &lt;209 -250 209 0&gt;;
+ pos pha_kannada.below ra_kannada.below' &lt;209 -304 209 0&gt;;
+ pos ba_kannada.below ra_kannada.below' &lt;219 -250 219 0&gt;;
+ pos bha_kannada.below ra_kannada.below' &lt;209 -304 209 0&gt;;
+ pos ma_kannada.below ra_kannada.below' &lt;316 -225 316 0&gt;;
+ pos ya_kannada.below ra_kannada.below' &lt;205 -268 205 0&gt;;
+ pos ra_kannada.below ra_kannada.below' &lt;132 -136 132 0&gt;;
+ pos rra_kannada.below ra_kannada.below' &lt;263 -250 263 0&gt;;
+ pos la_kannada.below ra_kannada.below' &lt;245 -209 245 0&gt;;
+ pos lla_kannada.below ra_kannada.below' &lt;154 -231 154 0&gt;;
+ pos va_kannada.below ra_kannada.below' &lt;145 -251 145 0&gt;;
+ pos sha_kannada.below ra_kannada.below' &lt;199 -255 199 0&gt;;
+ pos ssa_kannada.below ra_kannada.below' &lt;209 -309 209 0&gt;;
+ pos sa_kannada.below ra_kannada.below' &lt;216 -221 216 0&gt;;
+ pos ha_kannada.below ra_kannada.below' &lt;323 -173 323 0&gt;;
+ pos llla_kannada.below ra_kannada.below' &lt;263 -231 263 0&gt;;
+ pos k_ssa_kannada.below ra_kannada.below' &lt;241 -497 241 0&gt;;
+ pos j_nya_kannada.below ra_kannada.below' &lt;268 -554 268 0&gt;;
+ pos t_ya_kannada.below ra_kannada.below' &lt;205 -310 205 0&gt;;
+ pos ja_nukta_kannada.below ra_kannada.below' &lt;271 -304 271 0&gt;;
+ pos pha_nukta_kannada.below ra_kannada.below' &lt;209 -304 209 0&gt;;
+ pos j_nya_kannada ra_kannada.below' &lt;0 -322 0 0&gt;;
+ pos j_nye_kannada ra_kannada.below' &lt;0 -322 0 0&gt;;
+ pos j_nyi_kannada ra_kannada.below' &lt;0 -322 0 0&gt;;
+ pos k_ssa_kannada ra_kannada.below' &lt;0 -209 0 0&gt;;
+ pos k_sse_kannada ra_kannada.below' &lt;0 -209 0 0&gt;;
+ pos k_ssi_kannada ra_kannada.below' &lt;0 -209 0 0&gt;;
+ } ra_below_th;
+lookup halant_space_th {
+ pos dottedCircle [halant_kannada halant_kannada.calt]' &lt;244 0 244 0&gt;;
+ pos [jihvamuliya_kannada upadhmaniya_kannada]' &lt;0 0 244 0&gt; [ka_kannada.below kha_kannada.below pa_kannada.below pha_kannada.below] halant_kannada;
+ } halant_space_th;
+lookup belowGlyphsShift_th { 
+ pos [ja_kannada ji_kannada je_kannada ja_kannada.base] @OT_nuktas @OT_nukta_shift' &lt;50 -50 50 0&gt;;
+ pos [pha_kannada phi_kannada phe_kannada] @OT_nuktas @OT_nukta_shift' &lt;70 -50 70 0&gt;;
+ pos @OT_allBase @OT_nuktas @OT_nukta_shift' &lt;0 -100 0 0&gt;;
+ } belowGlyphsShift_th;
+script knd2;
+ lookup ssa_drop_th ;
+ lookup sanskrit_Matra_th ;
+ lookup ra_below_th ;
+ lookup halant_space_th ;
+ lookup belowGlyphsShift_th ;
+</string>
             </array>
             <array>
               <string>panose</string>
@@ -93,7 +167,81 @@
           <array>
             <array>
               <string>Replace Feature</string>
-              <string>dist; script knda; lookup sglAdjust_1 { pos @OT_allBelowGlyphs &lt;0 0 2 0&gt;; } sglAdjust_1;lookup ssa_drop_el { pos [ssa_kannada sse_kannada] [kha_kannada.below ga_kannada.below nga_kannada.below ja_kannada.below jha_kannada.below nya_kannada.below ta_kannada.below ttha_kannada.below dda_kannada.below ddha_kannada.below nna_kannada.below tha_kannada.below da_kannada.below dha_kannada.below ya_kannada.below rra_kannada.below la_kannada.below lla_kannada.below va_kannada.below sha_kannada.below sa_kannada.below ha_kannada.below llla_kannada.below rVocalicMatra_kannada rrVocalicMatra_kannada ailength_kannada]' &lt;0 -46 0 0&gt;; pos [na_kannada ssa_kannada sse_kannada] [lVocalicMatra_kannada llVocalicMatra_kannada]' &lt;0 -20 0 0&gt;; } ssa_drop_el;lookup sanskrit_Matra_el { pos llVocalicMatra_kannada' space &lt;0 0 536 0&gt;; pos rrVocalicMatra_kannada' space &lt;0 0 376 0&gt;; pos llVocalicMatra_kannada' &lt;0 0 102 0&gt; @OT_allBase @OT_allBelowGlyphs; } sanskrit_Matra_el;lookup ra_below_el { pos ka_kannada.below ra_kannada.below' &lt;145 -231 145 0&gt;; pos kha_kannada.below ra_kannada.below' &lt;145 -246 145 0&gt;; pos ga_kannada.below ra_kannada.below' &lt;193 -179 193 0&gt;; pos gha_kannada.below ra_kannada.below' &lt;329 -363 329 0&gt;; pos nga_kannada.below ra_kannada.below' &lt;229 -238 229 0&gt;; pos ca_kannada.below ra_kannada.below' &lt;197 -238 197 0&gt;; pos cha_kannada.below ra_kannada.below' &lt;217 -363 217 0&gt;; pos ja_kannada.below ra_kannada.below' &lt;284 -238 284 0&gt;; pos jha_kannada.below ra_kannada.below' &lt;406 -371 406 0&gt;; pos nya_kannada.below ra_kannada.below' &lt;221 -330 221 0&gt;; pos tta_kannada.below ra_kannada.below' &lt;153 -230 153 0&gt;; pos ttha_kannada.below ra_kannada.below' &lt;163 -238 163 0&gt;; pos dda_kannada.below ra_kannada.below' &lt;251 -218 251 0&gt;; pos ddha_kannada.below ra_kannada.below' &lt;251 -344 251 0&gt;; pos nna_kannada.below ra_kannada.below' &lt;288 -238 288 0&gt;; pos ta_kannada.below ra_kannada.below' &lt;128 -119 128 0&gt;; pos tha_kannada.below ra_kannada.below' &lt;269 -351 269 0&gt;; pos da_kannada.below ra_kannada.below' &lt;269 -218 269 0&gt;; pos dha_kannada.below ra_kannada.below' &lt;269 -351 269 0&gt;; pos na_kannada.below ra_kannada.below' &lt;240 -222 240 0&gt;; pos pa_kannada.below ra_kannada.below' &lt;218 -230 218 0&gt;; pos pha_kannada.below ra_kannada.below' &lt;218 -363 218 0&gt;; pos ba_kannada.below ra_kannada.below' &lt;218 -239 218 0&gt;; pos bha_kannada.below ra_kannada.below' &lt;218 -363 218 0&gt;; pos ma_kannada.below ra_kannada.below' &lt;323 -230 323 0&gt;; pos ya_kannada.below ra_kannada.below' &lt;210 -273 210 0&gt;; pos ra_kannada.below ra_kannada.below' &lt;144 -143 144 0&gt;; pos rra_kannada.below ra_kannada.below' &lt;272 -239 272 0&gt;; pos la_kannada.below ra_kannada.below' &lt;251 -178 251 0&gt;; pos lla_kannada.below ra_kannada.below' &lt;164 -239 164 0&gt;; pos va_kannada.below ra_kannada.below' &lt;153 -257 153 0&gt;; pos sha_kannada.below ra_kannada.below' &lt;204 -262 204 0&gt;; pos ssa_kannada.below ra_kannada.below' &lt;220 -315 220 0&gt;; pos sa_kannada.below ra_kannada.below' &lt;226 -196 226 0&gt;; pos ha_kannada.below ra_kannada.below' &lt;328 -179 328 0&gt;; pos llla_kannada.below ra_kannada.below' &lt;272 -239 272 0&gt;; pos k_ssa_kannada.below ra_kannada.below' &lt;249 -506 249 0&gt;; pos j_nya_kannada.below ra_kannada.below' &lt;275 -566 275 0&gt;; pos t_ya_kannada.below ra_kannada.below' &lt;211 -313 211 0&gt;; } ra_below_el;lookup halant_space_el { ignore pos @OT_allBelowGlyphs [halant_kannada halant_kannada.calt]'; pos @OT_baseVariants [halant_kannada halant_kannada.calt]' &lt;0 0 258 0&gt;; } halant_space_el;lookup belowGlyphsShift_el { pos [ja_kannada ji_kannada je_kannada ja_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;144 0 144 0&gt;; pos [pha_kannada phi_kannada phe_kannada pha_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;230 0 230 0&gt;; pos [ra_kannada ri_kannada re_kannada ra_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;200 0 200 0&gt;; } belowGlyphsShift_el;script knd2; lookup ssa_drop_el ; lookup sanskrit_Matra_el ; lookup ra_below_el ; lookup halant_space_el ; lookup belowGlyphsShift_el ;</string>
+              <string>dist;
+ script knda;
+ lookup sglAdjust_1 { pos @OT_allBelowGlyphs &lt;0 0 2 0&gt;;
+ } sglAdjust_1;
+lookup ssa_drop_el { pos [ssa_kannada sse_kannada] [kha_kannada.below ga_kannada.below nga_kannada.below ja_kannada.below jha_kannada.below nya_kannada.below ta_kannada.below ttha_kannada.below dda_kannada.below ddha_kannada.below nna_kannada.below tha_kannada.below da_kannada.below dha_kannada.below ya_kannada.below rra_kannada.below la_kannada.below lla_kannada.below va_kannada.below sha_kannada.below sa_kannada.below ha_kannada.below llla_kannada.below rVocalicMatra_kannada rrVocalicMatra_kannada ailength_kannada ja_nukta_kannada.below]' &lt;0 -46 0 0&gt;;
+ pos [na_kannada ssa_kannada sse_kannada] [lVocalicMatra_kannada llVocalicMatra_kannada]' &lt;0 -20 0 0&gt;;
+ } ssa_drop_el;
+lookup sanskrit_Matra_el { 
+ pos rrVocalicMatra_kannada' space &lt;0 0 376 0&gt;;
+ } sanskrit_Matra_el;
+lookup ra_below_el { 
+ pos ka_kannada.below ra_kannada.below' &lt;145 -231 145 0&gt;;
+ pos kha_kannada.below ra_kannada.below' &lt;145 -256 145 0&gt;;
+ pos ga_kannada.below ra_kannada.below' &lt;213 -222 213 0&gt;;
+ pos gha_kannada.below ra_kannada.below' &lt;317 -323 317 0&gt;;
+ pos nga_kannada.below ra_kannada.below' &lt;229 -238 229 0&gt;;
+ pos ca_kannada.below ra_kannada.below' &lt;197 -238 197 0&gt;;
+ pos cha_kannada.below ra_kannada.below' &lt;217 -323 217 0&gt;;
+ pos ja_kannada.below ra_kannada.below' &lt;284 -238 284 0&gt;;
+ pos jha_kannada.below ra_kannada.below' &lt;406 -323 406 0&gt;;
+ pos nya_kannada.below ra_kannada.below' &lt;221 -323 221 0&gt;;
+ pos tta_kannada.below ra_kannada.below' &lt;153 -240 153 0&gt;;
+ pos ttha_kannada.below ra_kannada.below' &lt;163 -238 163 0&gt;;
+ pos dda_kannada.below ra_kannada.below' &lt;251 -240 251 0&gt;;
+ pos ddha_kannada.below ra_kannada.below' &lt;251 -323 251 0&gt;;
+ pos nna_kannada.below ra_kannada.below' &lt;288 -240 288 0&gt;;
+ pos ta_kannada.below ra_kannada.below' &lt;128 -119 128 0&gt;;
+ pos tha_kannada.below ra_kannada.below' &lt;269 -323 269 0&gt;;
+ pos da_kannada.below ra_kannada.below' &lt;269 -240 269 0&gt;;
+ pos dha_kannada.below ra_kannada.below' &lt;269 -323 269 0&gt;;
+ pos na_kannada.below ra_kannada.below' &lt;240 -222 240 0&gt;;
+ pos pa_kannada.below ra_kannada.below' &lt;218 -240 218 0&gt;;
+ pos pha_kannada.below ra_kannada.below' &lt;218 -323 218 0&gt;;
+ pos ba_kannada.below ra_kannada.below' &lt;218 -239 218 0&gt;;
+ pos bha_kannada.below ra_kannada.below' &lt;218 -323 218 0&gt;;
+ pos ma_kannada.below ra_kannada.below' &lt;323 -230 323 0&gt;;
+ pos ya_kannada.below ra_kannada.below' &lt;210 -273 210 0&gt;;
+ pos ra_kannada.below ra_kannada.below' &lt;144 -143 144 0&gt;;
+ pos rra_kannada.below ra_kannada.below' &lt;272 -239 272 0&gt;;
+ pos la_kannada.below ra_kannada.below' &lt;251 -198 251 0&gt;;
+ pos lla_kannada.below ra_kannada.below' &lt;164 -239 164 0&gt;;
+ pos va_kannada.below ra_kannada.below' &lt;173 -257 173 0&gt;;
+ pos sha_kannada.below ra_kannada.below' &lt;204 -262 204 0&gt;;
+ pos ssa_kannada.below ra_kannada.below' &lt;230 -315 230 0&gt;;
+ pos sa_kannada.below ra_kannada.below' &lt;246 -216 246 0&gt;;
+ pos ha_kannada.below ra_kannada.below' &lt;328 -209 328 0&gt;;
+ pos llla_kannada.below ra_kannada.below' &lt;272 -239 272 0&gt;;
+ pos k_ssa_kannada.below ra_kannada.below' &lt;249 -506 249 0&gt;;
+ pos j_nya_kannada.below ra_kannada.below' &lt;275 -566 275 0&gt;;
+ pos t_ya_kannada.below ra_kannada.below' &lt;211 -313 211 0&gt;;
+ pos ja_nukta_kannada.below ra_kannada.below' &lt;284 -323 284 0&gt;;
+ pos pha_nukta_kannada.below ra_kannada.below' &lt;218 -333 218 0&gt;;
+ pos j_nya_kannada ra_kannada.below' &lt;0 -323 0 0&gt;;
+ pos j_nye_kannada ra_kannada.below' &lt;0 -323 0 0&gt;;
+ pos j_nyi_kannada ra_kannada.below' &lt;0 -323 0 0&gt;;
+ pos k_ssa_kannada ra_kannada.below' &lt;0 -215 0 0&gt;;
+ pos k_sse_kannada ra_kannada.below' &lt;0 -215 0 0&gt;;
+ pos k_ssi_kannada ra_kannada.below' &lt;0 -215 0 0&gt;;
+ } ra_below_el;
+lookup halant_space_el {
+ pos dottedCircle [halant_kannada halant_kannada.calt]' &lt;258 0 258 0&gt;;
+ pos [jihvamuliya_kannada upadhmaniya_kannada]' &lt;0 0 258 0&gt; [ka_kannada.below kha_kannada.below pa_kannada.below pha_kannada.below] halant_kannada;
+ } halant_space_el;
+lookup belowGlyphsShift_el { 
+ pos [ja_kannada ji_kannada je_kannada ja_kannada.base] @OT_nuktas @OT_nukta_shift' &lt;50 -50 50 0&gt;;
+ pos [pha_kannada phi_kannada phe_kannada] @OT_nuktas @OT_nukta_shift' &lt;70 -50 70 0&gt;;
+ pos @OT_allBase @OT_nuktas @OT_nukta_shift' &lt;0 -100 0 0&gt;;
+ } belowGlyphsShift_el;
+script knd2;
+ lookup ssa_drop_el ;
+ lookup sanskrit_Matra_el ;
+ lookup ra_below_el ;
+ lookup halant_space_el ;
+ lookup belowGlyphsShift_el ;
+</string>
             </array>
             <array>
               <string>panose</string>
@@ -134,7 +282,81 @@
           <array>
             <array>
               <string>Replace Feature</string>
-              <string>dist; script knda; lookup sglAdjust_1 { pos @OT_allBelowGlyphs &lt;0 0 2 0&gt;; } sglAdjust_1;lookup ssa_drop_lt { pos [ssa_kannada sse_kannada] [kha_kannada.below ga_kannada.below nga_kannada.below ja_kannada.below jha_kannada.below nya_kannada.below ta_kannada.below ttha_kannada.below dda_kannada.below ddha_kannada.below nna_kannada.below tha_kannada.below da_kannada.below dha_kannada.below ya_kannada.below rra_kannada.below la_kannada.below lla_kannada.below va_kannada.below sha_kannada.below sa_kannada.below ha_kannada.below llla_kannada.below rVocalicMatra_kannada rrVocalicMatra_kannada ailength_kannada]' &lt;0 -46 0 0&gt;; pos [na_kannada ssa_kannada sse_kannada] [lVocalicMatra_kannada llVocalicMatra_kannada]' &lt;0 -22 0 0&gt;; } ssa_drop_lt;lookup sanskrit_Matra_lt { pos llVocalicMatra_kannada' space &lt;0 0 566 0&gt;; pos rrVocalicMatra_kannada' space &lt;0 0 448 0&gt;; pos llVocalicMatra_kannada' &lt;0 0 102 0&gt; @OT_allBase @OT_allBelowGlyphs; } sanskrit_Matra_lt;lookup ra_below_lt { pos ka_kannada.below ra_kannada.below' &lt;166 -248 166 0&gt;; pos kha_kannada.below ra_kannada.below' &lt;173 -270 173 0&gt;; pos ga_kannada.below ra_kannada.below' &lt;217 -203 217 0&gt;; pos gha_kannada.below ra_kannada.below' &lt;363 -386 363 0&gt;; pos nga_kannada.below ra_kannada.below' &lt;252 -260 252 0&gt;; pos ca_kannada.below ra_kannada.below' &lt;225 -260 225 0&gt;; pos cha_kannada.below ra_kannada.below' &lt;243 -386 243 0&gt;; pos ja_kannada.below ra_kannada.below' &lt;317 -260 317 0&gt;; pos jha_kannada.below ra_kannada.below' &lt;420 -398 420 0&gt;; pos nya_kannada.below ra_kannada.below' &lt;237 -352 237 0&gt;; pos tta_kannada.below ra_kannada.below' &lt;188 -248 188 0&gt;; pos ttha_kannada.below ra_kannada.below' &lt;191 -260 191 0&gt;; pos dda_kannada.below ra_kannada.below' &lt;282 -236 282 0&gt;; pos ddha_kannada.below ra_kannada.below' &lt;282 -366 282 0&gt;; pos nna_kannada.below ra_kannada.below' &lt;314 -258 314 0&gt;; pos ta_kannada.below ra_kannada.below' &lt;156 -146 156 0&gt;; pos tha_kannada.below ra_kannada.below' &lt;298 -375 298 0&gt;; pos da_kannada.below ra_kannada.below' &lt;298 -236 298 0&gt;; pos dha_kannada.below ra_kannada.below' &lt;298 -375 298 0&gt;; pos na_kannada.below ra_kannada.below' &lt;271 -241 271 0&gt;; pos pa_kannada.below ra_kannada.below' &lt;244 -248 244 0&gt;; pos pha_kannada.below ra_kannada.below' &lt;244 -386 244 0&gt;; pos ba_kannada.below ra_kannada.below' &lt;244 -259 244 0&gt;; pos bha_kannada.below ra_kannada.below' &lt;244 -386 244 0&gt;; pos ma_kannada.below ra_kannada.below' &lt;348 -248 348 0&gt;; pos ya_kannada.below ra_kannada.below' &lt;231 -291 231 0&gt;; pos ra_kannada.below ra_kannada.below' &lt;175 -163 175 0&gt;; pos rra_kannada.below ra_kannada.below' &lt;302 -259 302 0&gt;; pos la_kannada.below ra_kannada.below' &lt;274 -201 274 0&gt;; pos lla_kannada.below ra_kannada.below' &lt;193 -259 193 0&gt;; pos va_kannada.below ra_kannada.below' &lt;178 -274 178 0&gt;; pos sha_kannada.below ra_kannada.below' &lt;226 -281 226 0&gt;; pos ssa_kannada.below ra_kannada.below' &lt;251 -333 251 0&gt;; pos sa_kannada.below ra_kannada.below' &lt;255 -214 255 0&gt;; pos ha_kannada.below ra_kannada.below' &lt;349 -198 349 0&gt;; pos llla_kannada.below ra_kannada.below' &lt;302 -259 302 0&gt;; pos k_ssa_kannada.below ra_kannada.below' &lt;274 -528 274 0&gt;; pos j_nya_kannada.below ra_kannada.below' &lt;300 -594 300 0&gt;; pos t_ya_kannada.below ra_kannada.below' &lt;238 -329 238 0&gt;; } ra_below_lt;lookup halant_space_lt { ignore pos @OT_allBelowGlyphs [halant_kannada halant_kannada.calt]'; pos @OT_baseVariants [halant_kannada halant_kannada.calt]' &lt;0 0 266 0&gt;; } halant_space_lt;lookup belowGlyphsShift_lt { pos [ja_kannada ji_kannada je_kannada ja_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;152 0 152 0&gt;; pos [pha_kannada phi_kannada phe_kannada pha_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;240 0 240 0&gt;; pos [ra_kannada ri_kannada re_kannada ra_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;210 0 210 0&gt;; } belowGlyphsShift_lt;script knd2; lookup ssa_drop_lt ; lookup sanskrit_Matra_lt ; lookup ra_below_lt ; lookup halant_space_lt ; lookup belowGlyphsShift_lt ;</string>
+              <string>dist;
+ script knda;
+ lookup sglAdjust_1 { pos @OT_allBelowGlyphs &lt;0 0 2 0&gt;;
+ } sglAdjust_1;
+lookup ssa_drop_lt { pos [ssa_kannada sse_kannada] [kha_kannada.below ga_kannada.below nga_kannada.below ja_kannada.below jha_kannada.below nya_kannada.below ta_kannada.below ttha_kannada.below dda_kannada.below ddha_kannada.below nna_kannada.below tha_kannada.below da_kannada.below dha_kannada.below ya_kannada.below rra_kannada.below la_kannada.below lla_kannada.below va_kannada.below sha_kannada.below sa_kannada.below ha_kannada.below llla_kannada.below rVocalicMatra_kannada rrVocalicMatra_kannada ailength_kannada ja_nukta_kannada.below]' &lt;0 -46 0 0&gt;;
+ pos [na_kannada ssa_kannada sse_kannada] [lVocalicMatra_kannada llVocalicMatra_kannada]' &lt;0 -22 0 0&gt;;
+ } ssa_drop_lt;
+lookup sanskrit_Matra_lt { 
+ pos rrVocalicMatra_kannada' space &lt;0 0 448 0&gt;;
+ } sanskrit_Matra_lt;
+lookup ra_below_lt { 
+ pos ka_kannada.below ra_kannada.below' &lt;166 -248 166 0&gt;;
+ pos kha_kannada.below ra_kannada.below' &lt;173 -270 173 0&gt;;
+ pos ga_kannada.below ra_kannada.below' &lt;217 -220 217 0&gt;;
+ pos gha_kannada.below ra_kannada.below' &lt;317 -335 317 0&gt;;
+ pos nga_kannada.below ra_kannada.below' &lt;252 -260 252 0&gt;;
+ pos ca_kannada.below ra_kannada.below' &lt;225 -260 225 0&gt;;
+ pos cha_kannada.below ra_kannada.below' &lt;243 -335 243 0&gt;;
+ pos ja_kannada.below ra_kannada.below' &lt;317 -260 317 0&gt;;
+ pos jha_kannada.below ra_kannada.below' &lt;420 -335 420 0&gt;;
+ pos nya_kannada.below ra_kannada.below' &lt;237 -335 237 0&gt;;
+ pos tta_kannada.below ra_kannada.below' &lt;188 -248 188 0&gt;;
+ pos ttha_kannada.below ra_kannada.below' &lt;191 -260 191 0&gt;;
+ pos dda_kannada.below ra_kannada.below' &lt;282 -239 282 0&gt;;
+ pos ddha_kannada.below ra_kannada.below' &lt;282 -335 282 0&gt;;
+ pos nna_kannada.below ra_kannada.below' &lt;314 -258 314 0&gt;;
+ pos ta_kannada.below ra_kannada.below' &lt;156 -146 156 0&gt;;
+ pos tha_kannada.below ra_kannada.below' &lt;298 -335 298 0&gt;;
+ pos da_kannada.below ra_kannada.below' &lt;298 -239 298 0&gt;;
+ pos dha_kannada.below ra_kannada.below' &lt;298 -335 298 0&gt;;
+ pos na_kannada.below ra_kannada.below' &lt;271 -241 271 0&gt;;
+ pos pa_kannada.below ra_kannada.below' &lt;244 -248 244 0&gt;;
+ pos pha_kannada.below ra_kannada.below' &lt;244 -335 244 0&gt;;
+ pos ba_kannada.below ra_kannada.below' &lt;244 -259 244 0&gt;;
+ pos bha_kannada.below ra_kannada.below' &lt;244 -335 244 0&gt;;
+ pos ma_kannada.below ra_kannada.below' &lt;348 -248 348 0&gt;;
+ pos ya_kannada.below ra_kannada.below' &lt;231 -291 231 0&gt;;
+ pos ra_kannada.below ra_kannada.below' &lt;175 -163 175 0&gt;;
+ pos rra_kannada.below ra_kannada.below' &lt;302 -259 302 0&gt;;
+ pos la_kannada.below ra_kannada.below' &lt;274 -201 274 0&gt;;
+ pos lla_kannada.below ra_kannada.below' &lt;193 -259 193 0&gt;;
+ pos va_kannada.below ra_kannada.below' &lt;178 -274 178 0&gt;;
+ pos sha_kannada.below ra_kannada.below' &lt;226 -281 226 0&gt;;
+ pos ssa_kannada.below ra_kannada.below' &lt;251 -333 251 0&gt;;
+ pos sa_kannada.below ra_kannada.below' &lt;255 -214 255 0&gt;;
+ pos ha_kannada.below ra_kannada.below' &lt;349 -198 349 0&gt;;
+ pos llla_kannada.below ra_kannada.below' &lt;302 -259 302 0&gt;;
+ pos k_ssa_kannada.below ra_kannada.below' &lt;274 -528 274 0&gt;;
+ pos j_nya_kannada.below ra_kannada.below' &lt;300 -594 300 0&gt;;
+ pos t_ya_kannada.below ra_kannada.below' &lt;238 -329 238 0&gt;;
+ pos ja_nukta_kannada.below ra_kannada.below' &lt;317 -335 317 0&gt;;
+ pos pha_nukta_kannada.below ra_kannada.below' &lt;244 -339 244 0&gt;;
+ pos j_nya_kannada ra_kannada.below' &lt;0 -335 0 0&gt;;
+ pos j_nye_kannada ra_kannada.below' &lt;0 -335 0 0&gt;;
+ pos j_nyi_kannada ra_kannada.below' &lt;0 -335 0 0&gt;;
+ pos k_ssa_kannada ra_kannada.below' &lt;0 -233 0 0&gt;;
+ pos k_sse_kannada ra_kannada.below' &lt;0 -233 0 0&gt;;
+ pos k_ssi_kannada ra_kannada.below' &lt;0 -233 0 0&gt;;
+ } ra_below_lt;
+lookup halant_space_lt {
+ pos dottedCircle [halant_kannada halant_kannada.calt]' &lt;266 0 266 0&gt;;
+ pos [jihvamuliya_kannada upadhmaniya_kannada]' &lt;0 0 244 0&gt; [ka_kannada.below kha_kannada.below pa_kannada.below pha_kannada.below] halant_kannada;
+ } halant_space_lt;
+lookup belowGlyphsShift_lt { 
+ pos [ja_kannada ji_kannada je_kannada ja_kannada.base] @OT_nuktas @OT_nukta_shift' &lt;50 -50 50 0&gt;;
+ pos [pha_kannada phi_kannada phe_kannada] @OT_nuktas @OT_nukta_shift' &lt;70 -50 70 0&gt;;
+ pos @OT_allBase @OT_nuktas @OT_nukta_shift' &lt;0 -100 0 0&gt;;
+ } belowGlyphsShift_lt;
+script knd2;
+ lookup ssa_drop_lt ;
+ lookup sanskrit_Matra_lt ;
+ lookup ra_below_lt ;
+ lookup halant_space_lt ;
+ lookup belowGlyphsShift_lt ;
+</string>
             </array>
             <array>
               <string>panose</string>
@@ -212,7 +434,81 @@
           <array>
             <array>
               <string>Replace Feature</string>
-              <string>dist; script knda; lookup sglAdjust_1 { pos @OT_allBelowGlyphs &lt;0 0 2 0&gt;; } sglAdjust_1;lookup ssa_drop_md { pos [ssa_kannada sse_kannada] [kha_kannada.below ga_kannada.below nga_kannada.below ca_kannada.below cha_kannada.below ja_kannada.below jha_kannada.below nya_kannada.below ta_kannada.below ttha_kannada.below dda_kannada.below ddha_kannada.below nna_kannada.below tha_kannada.below da_kannada.below dha_kannada.below ya_kannada.below rra_kannada.below la_kannada.below lla_kannada.below va_kannada.below sha_kannada.below sa_kannada.below ha_kannada.below llla_kannada.below rVocalicMatra_kannada rrVocalicMatra_kannada ailength_kannada]' &lt;0 -52 0 0&gt;; pos [na_kannada ssa_kannada sse_kannada] [lVocalicMatra_kannada llVocalicMatra_kannada]' &lt;0 -26 0 0&gt;; } ssa_drop_md;lookup sanskrit_Matra_md { pos llVocalicMatra_kannada' space &lt;0 0 610 0&gt;; pos rrVocalicMatra_kannada' space &lt;0 0 458 0&gt;; pos llVocalicMatra_kannada' &lt;0 0 126 0&gt; @OT_allBase @OT_allBelowGlyphs; } sanskrit_Matra_md;lookup ra_below_md { pos ka_kannada.below ra_kannada.below' &lt;143 -248 143 0&gt;; pos kha_kannada.below ra_kannada.below' &lt;161 -282 161 0&gt;; pos ga_kannada.below ra_kannada.below' &lt;210 -208 210 0&gt;; pos gha_kannada.below ra_kannada.below' &lt;368 -393 368 0&gt;; pos nga_kannada.below ra_kannada.below' &lt;232 -268 232 0&gt;; pos ca_kannada.below ra_kannada.below' &lt;208 -267 208 0&gt;; pos cha_kannada.below ra_kannada.below' &lt;230 -395 230 0&gt;; pos ja_kannada.below ra_kannada.below' &lt;313 -268 313 0&gt;; pos jha_kannada.below ra_kannada.below' &lt;392 -414 392 0&gt;; pos nya_kannada.below ra_kannada.below' &lt;210 -360 210 0&gt;; pos tta_kannada.below ra_kannada.below' &lt;186 -251 186 0&gt;; pos ttha_kannada.below ra_kannada.below' &lt;178 -268 178 0&gt;; pos dda_kannada.below ra_kannada.below' &lt;280 -243 280 0&gt;; pos ddha_kannada.below ra_kannada.below' &lt;280 -377 280 0&gt;; pos nna_kannada.below ra_kannada.below' &lt;297 -265 297 0&gt;; pos ta_kannada.below ra_kannada.below' &lt;140 -163 140 0&gt;; pos tha_kannada.below ra_kannada.below' &lt;292 -388 292 0&gt;; pos da_kannada.below ra_kannada.below' &lt;292 -243 292 0&gt;; pos dha_kannada.below ra_kannada.below' &lt;292 -388 292 0&gt;; pos na_kannada.below ra_kannada.below' &lt;267 -244 267 0&gt;; pos pa_kannada.below ra_kannada.below' &lt;232 -248 232 0&gt;; pos pha_kannada.below ra_kannada.below' &lt;232 -394 232 0&gt;; pos ba_kannada.below ra_kannada.below' &lt;232 -266 232 0&gt;; pos bha_kannada.below ra_kannada.below' &lt;232 -393 232 0&gt;; pos ma_kannada.below ra_kannada.below' &lt;328 -248 328 0&gt;; pos ya_kannada.below ra_kannada.below' &lt;213 -292 213 0&gt;; pos ra_kannada.below ra_kannada.below' &lt;173 -173 173 0&gt;; pos rra_kannada.below ra_kannada.below' &lt;294 -270 294 0&gt;; pos la_kannada.below ra_kannada.below' &lt;255 -214 255 0&gt;; pos lla_kannada.below ra_kannada.below' &lt;186 -271 186 0&gt;; pos va_kannada.below ra_kannada.below' &lt;166 -286 166 0&gt;; pos sha_kannada.below ra_kannada.below' &lt;207 -286 207 0&gt;; pos ssa_kannada.below ra_kannada.below' &lt;243 -335 243 0&gt;; pos sa_kannada.below ra_kannada.below' &lt;249 -216 249 0&gt;; pos ha_kannada.below ra_kannada.below' &lt;324 -200 324 0&gt;; pos llla_kannada.below ra_kannada.below' &lt;297 -270 297 0&gt;; pos k_ssa_kannada.below ra_kannada.below' &lt;255 -539 255 0&gt;; pos j_nya_kannada.below ra_kannada.below' &lt;284 -618 284 0&gt;; pos t_ya_kannada.below ra_kannada.below' &lt;226 -333 226 0&gt;; } ra_below_md;lookup halant_space_md { ignore pos @OT_allBelowGlyphs [halant_kannada halant_kannada.calt]'; pos @OT_baseVariants [halant_kannada halant_kannada.calt]' &lt;0 0 278 0&gt;; } halant_space_md;lookup belowGlyphsShift_md { pos [ja_kannada ji_kannada je_kannada ja_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;160 0 160 0&gt;; pos [pha_kannada phi_kannada phe_kannada pha_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;260 0 260 0&gt;; pos [ra_kannada ri_kannada re_kannada ra_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;230 0 230 0&gt;; } belowGlyphsShift_md;script knd2; lookup ssa_drop_md ; lookup sanskrit_Matra_md ; lookup ra_below_md ; lookup halant_space_md ; lookup belowGlyphsShift_md ;</string>
+              <string>dist;
+ script knda;
+ lookup sglAdjust_1 { pos @OT_allBelowGlyphs &lt;0 0 2 0&gt;;
+ } sglAdjust_1;
+lookup ssa_drop_md { pos [ssa_kannada sse_kannada] [kha_kannada.below ga_kannada.below nga_kannada.below ca_kannada.below cha_kannada.below ja_kannada.below jha_kannada.below nya_kannada.below ta_kannada.below ttha_kannada.below dda_kannada.below ddha_kannada.below nna_kannada.below tha_kannada.below da_kannada.below dha_kannada.below ya_kannada.below rra_kannada.below la_kannada.below lla_kannada.below va_kannada.below sha_kannada.below sa_kannada.below ha_kannada.below llla_kannada.below rVocalicMatra_kannada rrVocalicMatra_kannada ailength_kannada ja_nukta_kannada.below]' &lt;0 -52 0 0&gt;;
+ pos [na_kannada ssa_kannada sse_kannada] [lVocalicMatra_kannada llVocalicMatra_kannada]' &lt;0 -26 0 0&gt;;
+ } ssa_drop_md;
+lookup sanskrit_Matra_md { 
+ pos rrVocalicMatra_kannada' space &lt;0 0 458 0&gt;;
+ } sanskrit_Matra_md;
+lookup ra_below_md { 
+ pos ka_kannada.below ra_kannada.below' &lt;143 -248 143 0&gt;;
+ pos kha_kannada.below ra_kannada.below' &lt;161 -282 161 0&gt;;
+ pos ga_kannada.below ra_kannada.below' &lt;210 -211 210 0&gt;;
+ pos gha_kannada.below ra_kannada.below' &lt;324 -344 324 0&gt;;
+ pos nga_kannada.below ra_kannada.below' &lt;232 -268 232 0&gt;;
+ pos ca_kannada.below ra_kannada.below' &lt;208 -267 208 0&gt;;
+ pos cha_kannada.below ra_kannada.below' &lt;230 -344 230 0&gt;;
+ pos ja_kannada.below ra_kannada.below' &lt;313 -268 313 0&gt;;
+ pos jha_kannada.below ra_kannada.below' &lt;392 -344 392 0&gt;;
+ pos nya_kannada.below ra_kannada.below' &lt;210 -344 210 0&gt;;
+ pos tta_kannada.below ra_kannada.below' &lt;186 -251 186 0&gt;;
+ pos ttha_kannada.below ra_kannada.below' &lt;178 -268 178 0&gt;;
+ pos dda_kannada.below ra_kannada.below' &lt;280 -243 280 0&gt;;
+ pos ddha_kannada.below ra_kannada.below' &lt;280 -344 280 0&gt;;
+ pos nna_kannada.below ra_kannada.below' &lt;297 -265 297 0&gt;;
+ pos ta_kannada.below ra_kannada.below' &lt;140 -163 140 0&gt;;
+ pos tha_kannada.below ra_kannada.below' &lt;292 -344 292 0&gt;;
+ pos da_kannada.below ra_kannada.below' &lt;292 -243 292 0&gt;;
+ pos dha_kannada.below ra_kannada.below' &lt;292 -344 292 0&gt;;
+ pos na_kannada.below ra_kannada.below' &lt;267 -244 267 0&gt;;
+ pos pa_kannada.below ra_kannada.below' &lt;232 -248 232 0&gt;;
+ pos pha_kannada.below ra_kannada.below' &lt;232 -344 232 0&gt;;
+ pos ba_kannada.below ra_kannada.below' &lt;232 -266 232 0&gt;;
+ pos bha_kannada.below ra_kannada.below' &lt;232 -344 232 0&gt;;
+ pos ma_kannada.below ra_kannada.below' &lt;328 -248 328 0&gt;;
+ pos ya_kannada.below ra_kannada.below' &lt;213 -292 213 0&gt;;
+ pos ra_kannada.below ra_kannada.below' &lt;173 -173 173 0&gt;;
+ pos rra_kannada.below ra_kannada.below' &lt;294 -270 294 0&gt;;
+ pos la_kannada.below ra_kannada.below' &lt;255 -214 255 0&gt;;
+ pos lla_kannada.below ra_kannada.below' &lt;186 -271 186 0&gt;;
+ pos va_kannada.below ra_kannada.below' &lt;166 -286 166 0&gt;;
+ pos sha_kannada.below ra_kannada.below' &lt;207 -286 207 0&gt;;
+ pos ssa_kannada.below ra_kannada.below' &lt;243 -335 243 0&gt;;
+ pos sa_kannada.below ra_kannada.below' &lt;249 -216 249 0&gt;;
+ pos ha_kannada.below ra_kannada.below' &lt;324 -200 324 0&gt;;
+ pos llla_kannada.below ra_kannada.below' &lt;297 -270 297 0&gt;;
+ pos k_ssa_kannada.below ra_kannada.below' &lt;255 -539 255 0&gt;;
+ pos j_nya_kannada.below ra_kannada.below' &lt;284 -618 284 0&gt;;
+ pos t_ya_kannada.below ra_kannada.below' &lt;226 -333 226 0&gt;;
+ pos ja_nukta_kannada.below ra_kannada.below' &lt;313 -344 313 0&gt;;
+ pos pha_nukta_kannada.below ra_kannada.below' &lt;232 -344 232 0&gt;;
+ pos j_nya_kannada ra_kannada.below' &lt;0 -344 0 0&gt;;
+ pos j_nye_kannada ra_kannada.below' &lt;0 -344 0 0&gt;;
+ pos j_nyi_kannada ra_kannada.below' &lt;0 -344 0 0&gt;;
+ pos k_ssa_kannada ra_kannada.below' &lt;0 -235 0 0&gt;;
+ pos k_sse_kannada ra_kannada.below' &lt;0 -235 0 0&gt;;
+ pos k_ssi_kannada ra_kannada.below' &lt;0 -235 0 0&gt;;
+ } ra_below_md;
+lookup halant_space_md {
+ pos dottedCircle [halant_kannada halant_kannada.calt]' &lt;278 0 278 0&gt;;
+ pos [jihvamuliya_kannada upadhmaniya_kannada]' &lt;0 0 278 0&gt; [ka_kannada.below kha_kannada.below pa_kannada.below pha_kannada.below] halant_kannada;
+ } halant_space_md;
+lookup belowGlyphsShift_md { 
+ pos [ja_kannada ji_kannada je_kannada ja_kannada.base] @OT_nuktas @OT_nukta_shift' &lt;50 -50 50 0&gt;;
+ pos [pha_kannada phi_kannada phe_kannada] @OT_nuktas @OT_nukta_shift' &lt;70 -50 70 0&gt;;
+ pos @OT_allBase @OT_nuktas @OT_nukta_shift' &lt;0 -100 0 0&gt;;
+ } belowGlyphsShift_md;
+script knd2;
+ lookup ssa_drop_md ;
+ lookup sanskrit_Matra_md ;
+ lookup ra_below_md ;
+ lookup halant_space_md ;
+ lookup belowGlyphsShift_md ;
+</string>
             </array>
             <array>
               <string>panose</string>
@@ -253,7 +549,81 @@
           <array>
             <array>
               <string>Replace Feature</string>
-              <string>dist; script knda; lookup sglAdjust_1 { pos @OT_allBelowGlyphs &lt;0 0 2 0&gt;; } sglAdjust_1;lookup ssa_drop_sb { pos [ssa_kannada sse_kannada] [kha_kannada.below ga_kannada.below nga_kannada.below ca_kannada.below cha_kannada.below ja_kannada.below jha_kannada.below nya_kannada.below ta_kannada.below ttha_kannada.below dda_kannada.below ddha_kannada.below nna_kannada.below tha_kannada.below da_kannada.below dha_kannada.below ya_kannada.below rra_kannada.below la_kannada.below lla_kannada.below va_kannada.below sha_kannada.below sa_kannada.below ha_kannada.below llla_kannada.below rVocalicMatra_kannada rrVocalicMatra_kannada ailength_kannada]' &lt;0 -54 0 0&gt;; pos [na_kannada ssa_kannada sse_kannada] [lVocalicMatra_kannada llVocalicMatra_kannada]' &lt;0 -28 0 0&gt;; } ssa_drop_sb;lookup sanskrit_Matra_sb { pos llVocalicMatra_kannada' space &lt;0 0 616 0&gt;; pos rrVocalicMatra_kannada' space &lt;0 0 422 0&gt;; pos llVocalicMatra_kannada' &lt;0 0 132 0&gt; @OT_allBase @OT_allBelowGlyphs; } sanskrit_Matra_sb;lookup ra_below_sb { pos ka_kannada.below ra_kannada.below' &lt;151 -233 151 0&gt;; pos kha_kannada.below ra_kannada.below' &lt;172 -274 172 0&gt;; pos ga_kannada.below ra_kannada.below' &lt;233 -189 233 0&gt;; pos gha_kannada.below ra_kannada.below' &lt;390 -377 390 0&gt;; pos nga_kannada.below ra_kannada.below' &lt;241 -255 241 0&gt;; pos ca_kannada.below ra_kannada.below' &lt;212 -252 212 0&gt;; pos cha_kannada.below ra_kannada.below' &lt;243 -383 243 0&gt;; pos ja_kannada.below ra_kannada.below' &lt;325 -255 325 0&gt;; pos jha_kannada.below ra_kannada.below' &lt;404 -402 404 0&gt;; pos nya_kannada.below ra_kannada.below' &lt;222 -348 222 0&gt;; pos tta_kannada.below ra_kannada.below' &lt;195 -240 195 0&gt;; pos ttha_kannada.below ra_kannada.below' &lt;187 -255 187 0&gt;; pos dda_kannada.below ra_kannada.below' &lt;297 -234 297 0&gt;; pos ddha_kannada.below ra_kannada.below' &lt;297 -368 297 0&gt;; pos nna_kannada.below ra_kannada.below' &lt;303 -252 303 0&gt;; pos ta_kannada.below ra_kannada.below' &lt;145 -151 145 0&gt;; pos tha_kannada.below ra_kannada.below' &lt;308 -379 308 0&gt;; pos da_kannada.below ra_kannada.below' &lt;308 -234 308 0&gt;; pos dha_kannada.below ra_kannada.below' &lt;308 -379 308 0&gt;; pos na_kannada.below ra_kannada.below' &lt;284 -229 284 0&gt;; pos pa_kannada.below ra_kannada.below' &lt;245 -233 245 0&gt;; pos pha_kannada.below ra_kannada.below' &lt;245 -380 245 0&gt;; pos ba_kannada.below ra_kannada.below' &lt;245 -253 245 0&gt;; pos bha_kannada.below ra_kannada.below' &lt;245 -377 245 0&gt;; pos ma_kannada.below ra_kannada.below' &lt;333 -233 333 0&gt;; pos ya_kannada.below ra_kannada.below' &lt;227 -278 227 0&gt;; pos ra_kannada.below ra_kannada.below' &lt;190 -168 190 0&gt;; pos rra_kannada.below ra_kannada.below' &lt;308 -265 308 0&gt;; pos la_kannada.below ra_kannada.below' &lt;267 -206 267 0&gt;; pos lla_kannada.below ra_kannada.below' &lt;201 -265 201 0&gt;; pos va_kannada.below ra_kannada.below' &lt;180 -285 180 0&gt;; pos sha_kannada.below ra_kannada.below' &lt;220 -274 220 0&gt;; pos ssa_kannada.below ra_kannada.below' &lt;253 -320 253 0&gt;; pos sa_kannada.below ra_kannada.below' &lt;265 -203 265 0&gt;; pos ha_kannada.below ra_kannada.below' &lt;330 -186 330 0&gt;; pos llla_kannada.below ra_kannada.below' &lt;315 -265 315 0&gt;; pos k_ssa_kannada.below ra_kannada.below' &lt;262 -527 262 0&gt;; pos j_nya_kannada.below ra_kannada.below' &lt;293 -616 293 0&gt;; pos t_ya_kannada.below ra_kannada.below' &lt;239 -326 239 0&gt;; } ra_below_sb;lookup halant_space_sb { ignore pos @OT_allBelowGlyphs [halant_kannada halant_kannada.calt]'; pos @OT_baseVariants [halant_kannada halant_kannada.calt]' &lt;0 0 288 0&gt;; } halant_space_sb;lookup belowGlyphsShift_sb { pos [ja_kannada ji_kannada je_kannada ja_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;166 0 166 0&gt;; pos [pha_kannada phi_kannada phe_kannada pha_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;270 0 270 0&gt;; pos [ra_kannada ri_kannada re_kannada ra_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;240 0 240 0&gt;; } belowGlyphsShift_sb;script knd2; lookup ssa_drop_sb ; lookup sanskrit_Matra_sb ; lookup ra_below_sb ; lookup halant_space_sb ; lookup belowGlyphsShift_sb ;</string>
+              <string>dist;
+ script knda;
+ lookup sglAdjust_1 { pos @OT_allBelowGlyphs &lt;0 0 2 0&gt;;
+ } sglAdjust_1;
+lookup ssa_drop_sb { pos [ssa_kannada sse_kannada] [kha_kannada.below ga_kannada.below nga_kannada.below ca_kannada.below cha_kannada.below ja_kannada.below jha_kannada.below nya_kannada.below ta_kannada.below ttha_kannada.below dda_kannada.below ddha_kannada.below nna_kannada.below tha_kannada.below da_kannada.below dha_kannada.below ya_kannada.below rra_kannada.below la_kannada.below lla_kannada.below va_kannada.below sha_kannada.below sa_kannada.below ha_kannada.below llla_kannada.below rVocalicMatra_kannada rrVocalicMatra_kannada ailength_kannada ja_nukta_kannada.below]' &lt;0 -54 0 0&gt;;
+ pos [na_kannada ssa_kannada sse_kannada] [lVocalicMatra_kannada llVocalicMatra_kannada]' &lt;0 -28 0 0&gt;;
+ } ssa_drop_sb;
+lookup sanskrit_Matra_sb { 
+ pos rrVocalicMatra_kannada' space &lt;0 0 422 0&gt;;
+ } sanskrit_Matra_sb;
+lookup ra_below_sb { 
+ pos ka_kannada.below ra_kannada.below' &lt;151 -233 151 0&gt;;
+ pos kha_kannada.below ra_kannada.below' &lt;172 -274 172 0&gt;;
+ pos ga_kannada.below ra_kannada.below' &lt;233 -215 233 0&gt;;
+ pos gha_kannada.below ra_kannada.below' &lt;335 -344 335 0&gt;;
+ pos nga_kannada.below ra_kannada.below' &lt;241 -255 241 0&gt;;
+ pos ca_kannada.below ra_kannada.below' &lt;212 -252 212 0&gt;;
+ pos cha_kannada.below ra_kannada.below' &lt;243 -344 243 0&gt;;
+ pos ja_kannada.below ra_kannada.below' &lt;325 -255 325 0&gt;;
+ pos jha_kannada.below ra_kannada.below' &lt;404 -344 404 0&gt;;
+ pos nya_kannada.below ra_kannada.below' &lt;222 -344 222 0&gt;;
+ pos tta_kannada.below ra_kannada.below' &lt;195 -240 195 0&gt;;
+ pos ttha_kannada.below ra_kannada.below' &lt;187 -255 187 0&gt;;
+ pos dda_kannada.below ra_kannada.below' &lt;297 -234 297 0&gt;;
+ pos ddha_kannada.below ra_kannada.below' &lt;297 -344 297 0&gt;;
+ pos nna_kannada.below ra_kannada.below' &lt;303 -252 303 0&gt;;
+ pos ta_kannada.below ra_kannada.below' &lt;145 -151 145 0&gt;;
+ pos tha_kannada.below ra_kannada.below' &lt;308 -344 308 0&gt;;
+ pos da_kannada.below ra_kannada.below' &lt;308 -234 308 0&gt;;
+ pos dha_kannada.below ra_kannada.below' &lt;308 -344 308 0&gt;;
+ pos na_kannada.below ra_kannada.below' &lt;284 -229 284 0&gt;;
+ pos pa_kannada.below ra_kannada.below' &lt;245 -233 245 0&gt;;
+ pos pha_kannada.below ra_kannada.below' &lt;245 -344 245 0&gt;;
+ pos ba_kannada.below ra_kannada.below' &lt;245 -253 245 0&gt;;
+ pos bha_kannada.below ra_kannada.below' &lt;245 -344 245 0&gt;;
+ pos ma_kannada.below ra_kannada.below' &lt;333 -233 333 0&gt;;
+ pos ya_kannada.below ra_kannada.below' &lt;227 -278 227 0&gt;;
+ pos ra_kannada.below ra_kannada.below' &lt;190 -168 190 0&gt;;
+ pos rra_kannada.below ra_kannada.below' &lt;308 -265 308 0&gt;;
+ pos la_kannada.below ra_kannada.below' &lt;267 -206 267 0&gt;;
+ pos lla_kannada.below ra_kannada.below' &lt;201 -265 201 0&gt;;
+ pos va_kannada.below ra_kannada.below' &lt;180 -285 180 0&gt;;
+ pos sha_kannada.below ra_kannada.below' &lt;220 -274 220 0&gt;;
+ pos ssa_kannada.below ra_kannada.below' &lt;253 -320 253 0&gt;;
+ pos sa_kannada.below ra_kannada.below' &lt;265 -203 265 0&gt;;
+ pos ha_kannada.below ra_kannada.below' &lt;330 -186 330 0&gt;;
+ pos llla_kannada.below ra_kannada.below' &lt;315 -265 315 0&gt;;
+ pos k_ssa_kannada.below ra_kannada.below' &lt;262 -527 262 0&gt;;
+ pos j_nya_kannada.below ra_kannada.below' &lt;293 -616 293 0&gt;;
+ pos t_ya_kannada.below ra_kannada.below' &lt;239 -326 239 0&gt;;
+ pos ja_nukta_kannada.below ra_kannada.below' &lt;325 -344 325 0&gt;;
+ pos pha_nukta_kannada.below ra_kannada.below' &lt;245 -344 245 0&gt;;
+ pos j_nya_kannada ra_kannada.below' &lt;0 -344 0 0&gt;;
+ pos j_nye_kannada ra_kannada.below' &lt;0 -344 0 0&gt;;
+ pos j_nyi_kannada ra_kannada.below' &lt;0 -344 0 0&gt;;
+ pos k_ssa_kannada ra_kannada.below' &lt;0 -220 0 0&gt;;
+ pos k_sse_kannada ra_kannada.below' &lt;0 -220 0 0&gt;;
+ pos k_ssi_kannada ra_kannada.below' &lt;0 -220 0 0&gt;;
+ } ra_below_sb;
+lookup halant_space_sb {
+ pos dottedCircle [halant_kannada halant_kannada.calt]' &lt;288 0 288 0&gt;;
+ pos [jihvamuliya_kannada upadhmaniya_kannada]' &lt;0 0 288 0&gt; [ka_kannada.below kha_kannada.below pa_kannada.below pha_kannada.below] halant_kannada;
+ } halant_space_sb;
+lookup belowGlyphsShift_sb { 
+ pos [ja_kannada ji_kannada je_kannada ja_kannada.base] @OT_nuktas @OT_nukta_shift' &lt;50 -50 50 0&gt;;
+ pos [pha_kannada phi_kannada phe_kannada] @OT_nuktas @OT_nukta_shift' &lt;70 -50 70 0&gt;;
+ pos @OT_allBase @OT_nuktas @OT_nukta_shift' &lt;0 -100 0 0&gt;;
+ } belowGlyphsShift_sb;
+script knd2;
+ lookup ssa_drop_sb ;
+ lookup sanskrit_Matra_sb ;
+ lookup ra_below_sb ;
+ lookup halant_space_sb ;
+ lookup belowGlyphsShift_sb ;
+</string>
             </array>
             <array>
               <string>panose</string>
@@ -294,7 +664,81 @@
           <array>
             <array>
               <string>Replace Feature</string>
-              <string>dist; script knda; lookup sglAdjust_1 { pos @OT_allBelowGlyphs &lt;0 0 2 0&gt;; } sglAdjust_1;lookup ssa_drop_bd { pos [ssa_kannada sse_kannada] [kha_kannada.below ga_kannada.below nga_kannada.below ca_kannada.below cha_kannada.below ja_kannada.below jha_kannada.below nya_kannada.below ta_kannada.below ttha_kannada.below dda_kannada.below ddha_kannada.below nna_kannada.below tha_kannada.below da_kannada.below dha_kannada.below ya_kannada.below rra_kannada.below la_kannada.below lla_kannada.below va_kannada.below sha_kannada.below sa_kannada.below ha_kannada.below llla_kannada.below rVocalicMatra_kannada rrVocalicMatra_kannada ailength_kannada]' &lt;0 -54 0 0&gt;; pos [na_kannada ssa_kannada sse_kannada] [lVocalicMatra_kannada llVocalicMatra_kannada]' &lt;0 -30 0 0&gt;; } ssa_drop_bd;lookup sanskrit_Matra_bd { pos llVocalicMatra_kannada' space &lt;0 0 620 0&gt;; pos rrVocalicMatra_kannada' space &lt;0 0 440 0&gt;; pos llVocalicMatra_kannada' &lt;0 0 122 0&gt; @OT_allBase @OT_allBelowGlyphs; } sanskrit_Matra_bd;lookup ra_below_bd { pos ka_kannada.below ra_kannada.below' &lt;151 -248 151 0&gt;; pos kha_kannada.below ra_kannada.below' &lt;174 -295 174 0&gt;; pos ga_kannada.below ra_kannada.below' &lt;249 -200 249 0&gt;; pos gha_kannada.below ra_kannada.below' &lt;404 -391 404 0&gt;; pos nga_kannada.below ra_kannada.below' &lt;241 -273 241 0&gt;; pos ca_kannada.below ra_kannada.below' &lt;207 -268 207 0&gt;; pos cha_kannada.below ra_kannada.below' &lt;248 -401 248 0&gt;; pos ja_kannada.below ra_kannada.below' &lt;329 -273 329 0&gt;; pos jha_kannada.below ra_kannada.below' &lt;408 -420 408 0&gt;; pos nya_kannada.below ra_kannada.below' &lt;225 -366 225 0&gt;; pos tta_kannada.below ra_kannada.below' &lt;196 -259 196 0&gt;; pos ttha_kannada.below ra_kannada.below' &lt;186 -273 186 0&gt;; pos dda_kannada.below ra_kannada.below' &lt;306 -256 306 0&gt;; pos ddha_kannada.below ra_kannada.below' &lt;306 -388 306 0&gt;; pos nna_kannada.below ra_kannada.below' &lt;299 -271 299 0&gt;; pos ta_kannada.below ra_kannada.below' &lt;141 -168 141 0&gt;; pos tha_kannada.below ra_kannada.below' &lt;315 -400 315 0&gt;; pos da_kannada.below ra_kannada.below' &lt;315 -256 315 0&gt;; pos dha_kannada.below ra_kannada.below' &lt;315 -400 315 0&gt;; pos na_kannada.below ra_kannada.below' &lt;292 -246 292 0&gt;; pos pa_kannada.below ra_kannada.below' &lt;250 -248 250 0&gt;; pos pha_kannada.below ra_kannada.below' &lt;250 -396 250 0&gt;; pos ba_kannada.below ra_kannada.below' &lt;250 -271 250 0&gt;; pos bha_kannada.below ra_kannada.below' &lt;250 -391 250 0&gt;; pos ma_kannada.below ra_kannada.below' &lt;330 -248 330 0&gt;; pos ya_kannada.below ra_kannada.below' &lt;232 -294 232 0&gt;; pos ra_kannada.below ra_kannada.below' &lt;200 -195 200 0&gt;; pos rra_kannada.below ra_kannada.below' &lt;313 -289 313 0&gt;; pos la_kannada.below ra_kannada.below' &lt;270 -227 270 0&gt;; pos lla_kannada.below ra_kannada.below' &lt;208 -291 208 0&gt;; pos va_kannada.below ra_kannada.below' &lt;187 -314 187 0&gt;; pos sha_kannada.below ra_kannada.below' &lt;226 -291 226 0&gt;; pos ssa_kannada.below ra_kannada.below' &lt;254 -334 254 0&gt;; pos sa_kannada.below ra_kannada.below' &lt;272 -220 272 0&gt;; pos ha_kannada.below ra_kannada.below' &lt;327 -200 327 0&gt;; pos llla_kannada.below ra_kannada.below' &lt;325 -289 325 0&gt;; pos k_ssa_kannada.below ra_kannada.below' &lt;260 -545 260 0&gt;; pos j_nya_kannada.below ra_kannada.below' &lt;295 -645 295 0&gt;; pos t_ya_kannada.below ra_kannada.below' &lt;244 -349 244 0&gt;; } ra_below_bd;lookup halant_space_bd { ignore pos @OT_allBelowGlyphs [halant_kannada halant_kannada.calt]'; pos @OT_baseVariants [halant_kannada halant_kannada.calt]' &lt;0 0 268 0&gt;; } halant_space_bd;lookup belowGlyphsShift_bd { pos [ja_kannada ji_kannada je_kannada ja_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;170 0 170 0&gt;; pos [pha_kannada phi_kannada phe_kannada pha_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;280 0 280 0&gt;; pos [ra_kannada ri_kannada re_kannada ra_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;250 0 250 0&gt;; } belowGlyphsShift_bd;script knd2; lookup ssa_drop_bd ; lookup sanskrit_Matra_bd ; lookup ra_below_bd ; lookup halant_space_bd ; lookup belowGlyphsShift_bd ;</string>
+              <string>dist;
+ script knda;
+ lookup sglAdjust_1 { pos @OT_allBelowGlyphs &lt;0 0 2 0&gt;;
+ } sglAdjust_1;
+lookup ssa_drop_bd { pos [ssa_kannada sse_kannada] [kha_kannada.below ga_kannada.below nga_kannada.below ca_kannada.below cha_kannada.below ja_kannada.below jha_kannada.below nya_kannada.below ta_kannada.below ttha_kannada.below dda_kannada.below ddha_kannada.below nna_kannada.below tha_kannada.below da_kannada.below dha_kannada.below ya_kannada.below rra_kannada.below la_kannada.below lla_kannada.below va_kannada.below sha_kannada.below sa_kannada.below ha_kannada.below llla_kannada.below rVocalicMatra_kannada rrVocalicMatra_kannada ailength_kannada ja_nukta_kannada.below]' &lt;0 -54 0 0&gt;;
+ pos [na_kannada ssa_kannada sse_kannada] [lVocalicMatra_kannada llVocalicMatra_kannada]' &lt;0 -30 0 0&gt;;
+ } ssa_drop_bd;
+lookup sanskrit_Matra_bd { 
+ pos rrVocalicMatra_kannada' space &lt;0 0 440 0&gt;;
+ } sanskrit_Matra_bd;
+lookup ra_below_bd { 
+ pos ka_kannada.below ra_kannada.below' &lt;151 -248 151 0&gt;;
+ pos kha_kannada.below ra_kannada.below' &lt;174 -295 174 0&gt;;
+ pos ga_kannada.below ra_kannada.below' &lt;249 -222 249 0&gt;;
+ pos gha_kannada.below ra_kannada.below' &lt;350 -344 350 0&gt;;
+ pos nga_kannada.below ra_kannada.below' &lt;241 -273 241 0&gt;;
+ pos ca_kannada.below ra_kannada.below' &lt;207 -268 207 0&gt;;
+ pos cha_kannada.below ra_kannada.below' &lt;248 -344 248 0&gt;;
+ pos ja_kannada.below ra_kannada.below' &lt;329 -273 329 0&gt;;
+ pos jha_kannada.below ra_kannada.below' &lt;408 -344 408 0&gt;;
+ pos nya_kannada.below ra_kannada.below' &lt;225 -344 225 0&gt;;
+ pos tta_kannada.below ra_kannada.below' &lt;196 -259 196 0&gt;;
+ pos ttha_kannada.below ra_kannada.below' &lt;186 -273 186 0&gt;;
+ pos dda_kannada.below ra_kannada.below' &lt;306 -256 306 0&gt;;
+ pos ddha_kannada.below ra_kannada.below' &lt;306 -344 306 0&gt;;
+ pos nna_kannada.below ra_kannada.below' &lt;299 -271 299 0&gt;;
+ pos ta_kannada.below ra_kannada.below' &lt;141 -168 141 0&gt;;
+ pos tha_kannada.below ra_kannada.below' &lt;315 -344 315 0&gt;;
+ pos da_kannada.below ra_kannada.below' &lt;315 -256 315 0&gt;;
+ pos dha_kannada.below ra_kannada.below' &lt;315 -344 315 0&gt;;
+ pos na_kannada.below ra_kannada.below' &lt;292 -246 292 0&gt;;
+ pos pa_kannada.below ra_kannada.below' &lt;250 -248 250 0&gt;;
+ pos pha_kannada.below ra_kannada.below' &lt;250 -344 250 0&gt;;
+ pos ba_kannada.below ra_kannada.below' &lt;250 -271 250 0&gt;;
+ pos bha_kannada.below ra_kannada.below' &lt;250 -344 250 0&gt;;
+ pos ma_kannada.below ra_kannada.below' &lt;330 -248 330 0&gt;;
+ pos ya_kannada.below ra_kannada.below' &lt;232 -294 232 0&gt;;
+ pos ra_kannada.below ra_kannada.below' &lt;200 -195 200 0&gt;;
+ pos rra_kannada.below ra_kannada.below' &lt;313 -289 313 0&gt;;
+ pos la_kannada.below ra_kannada.below' &lt;270 -227 270 0&gt;;
+ pos lla_kannada.below ra_kannada.below' &lt;208 -291 208 0&gt;;
+ pos va_kannada.below ra_kannada.below' &lt;187 -314 187 0&gt;;
+ pos sha_kannada.below ra_kannada.below' &lt;226 -291 226 0&gt;;
+ pos ssa_kannada.below ra_kannada.below' &lt;254 -334 254 0&gt;;
+ pos sa_kannada.below ra_kannada.below' &lt;272 -220 272 0&gt;;
+ pos ha_kannada.below ra_kannada.below' &lt;327 -200 327 0&gt;;
+ pos llla_kannada.below ra_kannada.below' &lt;325 -289 325 0&gt;;
+ pos k_ssa_kannada.below ra_kannada.below' &lt;260 -545 260 0&gt;;
+ pos j_nya_kannada.below ra_kannada.below' &lt;295 -645 295 0&gt;;
+ pos t_ya_kannada.below ra_kannada.below' &lt;244 -349 244 0&gt;;
+ pos ja_nukta_kannada.below ra_kannada.below' &lt;329 -344 329 0&gt;;
+ pos pha_nukta_kannada.below ra_kannada.below' &lt;250 -344 250 0&gt;;
+ pos j_nya_kannada ra_kannada.below' &lt;0 -344 0 0&gt;;
+ pos j_nye_kannada ra_kannada.below' &lt;0 -344 0 0&gt;;
+ pos j_nyi_kannada ra_kannada.below' &lt;0 -344 0 0&gt;;
+ pos k_ssa_kannada ra_kannada.below' &lt;0 -234 0 0&gt;;
+ pos k_sse_kannada ra_kannada.below' &lt;0 -234 0 0&gt;;
+ pos k_ssi_kannada ra_kannada.below' &lt;0 -234 0 0&gt;;
+ } ra_below_bd;
+lookup halant_space_bd {
+ pos dottedCircle [halant_kannada halant_kannada.calt]' &lt;268 0 268 0&gt;;
+ pos [jihvamuliya_kannada upadhmaniya_kannada]' &lt;0 0 268 0&gt; [ka_kannada.below kha_kannada.below pa_kannada.below pha_kannada.below] halant_kannada;
+ } halant_space_bd;
+lookup belowGlyphsShift_bd { 
+ pos [ja_kannada ji_kannada je_kannada ja_kannada.base] @OT_nuktas @OT_nukta_shift' &lt;50 -50 50 0&gt;;
+ pos [pha_kannada phi_kannada phe_kannada] @OT_nuktas @OT_nukta_shift' &lt;70 -50 70 0&gt;;
+ pos @OT_allBase @OT_nuktas @OT_nukta_shift' &lt;0 -100 0 0&gt;;
+ } belowGlyphsShift_bd;
+script knd2;
+ lookup ssa_drop_bd ;
+ lookup sanskrit_Matra_bd ;
+ lookup ra_below_bd ;
+ lookup halant_space_bd ;
+ lookup belowGlyphsShift_bd ;
+</string>
             </array>
             <array>
               <string>panose</string>
@@ -335,7 +779,82 @@
           <array>
             <array>
               <string>Replace Feature</string>
-              <string>dist; script knda; lookup sglAdjust_1 { pos @OT_allBelowGlyphs &lt;0 0 2 0&gt;; } sglAdjust_1;lookup ssa_drop_eb { pos [ssa_kannada sse_kannada] [kha_kannada.below ga_kannada.below nga_kannada.below ca_kannada.below cha_kannada.below ja_kannada.below jha_kannada.below nya_kannada.below ta_kannada.below ttha_kannada.below dda_kannada.below ddha_kannada.below nna_kannada.below tha_kannada.below da_kannada.below dha_kannada.below ya_kannada.below rra_kannada.below la_kannada.below lla_kannada.below va_kannada.below sha_kannada.below sa_kannada.below ha_kannada.below llla_kannada.below rVocalicMatra_kannada rrVocalicMatra_kannada ailength_kannada]' &lt;0 -56 0 0&gt;; pos [na_kannada ssa_kannada sse_kannada] [lVocalicMatra_kannada llVocalicMatra_kannada]' &lt;0 -34 0 0&gt;; } ssa_drop_eb;lookup sanskrit_Matra_eb { pos llVocalicMatra_kannada' space &lt;0 0 620 0&gt;; pos rrVocalicMatra_kannada' space &lt;0 0 456 0&gt;; pos llVocalicMatra_kannada' &lt;0 0 126 0&gt; @OT_allBase @OT_allBelowGlyphs; } sanskrit_Matra_eb;lookup ra_below_eb { pos ka_kannada.below ra_kannada.below' &lt;149 -233 149 0&gt;; pos kha_kannada.below ra_kannada.below' &lt;174 -287 174 0&gt;; pos ga_kannada.below ra_kannada.below' &lt;253 -181 253 0&gt;; pos gha_kannada.below ra_kannada.below' &lt;413 -375 413 0&gt;; pos nga_kannada.below ra_kannada.below' &lt;236 -260 236 0&gt;; pos ca_kannada.below ra_kannada.below' &lt;203 -255 203 0&gt;; pos cha_kannada.below ra_kannada.below' &lt;250 -389 250 0&gt;; pos ja_kannada.below ra_kannada.below' &lt;330 -260 330 0&gt;; pos jha_kannada.below ra_kannada.below' &lt;410 -407 410 0&gt;; pos nya_kannada.below ra_kannada.below' &lt;222 -354 222 0&gt;; pos tta_kannada.below ra_kannada.below' &lt;193 -249 193 0&gt;; pos ttha_kannada.below ra_kannada.below' &lt;182 -260 182 0&gt;; pos dda_kannada.below ra_kannada.below' &lt;305 -249 305 0&gt;; pos ddha_kannada.below ra_kannada.below' &lt;305 -377 305 0&gt;; pos nna_kannada.below ra_kannada.below' &lt;295 -260 295 0&gt;; pos ta_kannada.below ra_kannada.below' &lt;134 -155 134 0&gt;; pos tha_kannada.below ra_kannada.below' &lt;318 -391 318 0&gt;; pos da_kannada.below ra_kannada.below' &lt;318 -249 318 0&gt;; pos dha_kannada.below ra_kannada.below' &lt;318 -391 318 0&gt;; pos na_kannada.below ra_kannada.below' &lt;296 -232 296 0&gt;; pos pa_kannada.below ra_kannada.below' &lt;251 -233 251 0&gt;; pos pha_kannada.below ra_kannada.below' &lt;251 -383 251 0&gt;; pos ba_kannada.below ra_kannada.below' &lt;251 -260 251 0&gt;; pos bha_kannada.below ra_kannada.below' &lt;251 -375 251 0&gt;; pos ma_kannada.below ra_kannada.below' &lt;326 -233 326 0&gt;; pos ya_kannada.below ra_kannada.below' &lt;235 -281 235 0&gt;; pos ra_kannada.below ra_kannada.below' &lt;206 -191 206 0&gt;; pos rra_kannada.below ra_kannada.below' &lt;318 -284 318 0&gt;; pos la_kannada.below ra_kannada.below' &lt;274 -218 274 0&gt;; pos lla_kannada.below ra_kannada.below' &lt;208 -286 208 0&gt;; pos va_kannada.below ra_kannada.below' &lt;191 -314 191 0&gt;; pos sha_kannada.below ra_kannada.below' &lt;224 -279 224 0&gt;; pos ssa_kannada.below ra_kannada.below' &lt;255 -320 255 0&gt;; pos sa_kannada.below ra_kannada.below' &lt;273 -207 273 0&gt;; pos ha_kannada.below ra_kannada.below' &lt;318 -186 318 0&gt;; pos llla_kannada.below ra_kannada.below' &lt;333 -284 333 0&gt;; pos k_ssa_kannada.below ra_kannada.below' &lt;255 -534 255 0&gt;; pos j_nya_kannada.below ra_kannada.below' &lt;296 -643 296 0&gt;; pos t_ya_kannada.below ra_kannada.below' &lt;262 -344 262 0&gt;; } ra_below_eb;lookup halant_space_eb { ignore pos @OT_allBelowGlyphs [halant_kannada halant_kannada.calt]'; pos @OT_baseVariants [halant_kannada halant_kannada.calt]' &lt;0 0 304 0&gt;; } halant_space_eb;lookup belowGlyphsShift_eb { pos [ja_kannada ji_kannada je_kannada ja_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;166 0 166 0&gt;; pos [pha_kannada phi_kannada phe_kannada pha_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;300 0 300 0&gt;; pos [ra_kannada ri_kannada re_kannada ra_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;270 0 270 0&gt;; } belowGlyphsShift_eb;script knd2; lookup ssa_drop_eb ; lookup sanskrit_Matra_eb ; lookup ra_below_eb ; lookup halant_space_eb ; lookup belowGlyphsShift_eb ;</string>
+              <string>dist;
+ script knda;
+ lookup sglAdjust_1 { pos @OT_allBelowGlyphs &lt;0 0 2 0&gt;;
+ } sglAdjust_1;
+lookup ssa_drop_eb { pos [ssa_kannada sse_kannada] [kha_kannada.below ga_kannada.below nga_kannada.below ca_kannada.below cha_kannada.below ja_kannada.below jha_kannada.below nya_kannada.below ta_kannada.below ttha_kannada.below dda_kannada.below ddha_kannada.below nna_kannada.below tha_kannada.below da_kannada.below dha_kannada.below ya_kannada.below rra_kannada.below la_kannada.below lla_kannada.below va_kannada.below sha_kannada.below sa_kannada.below ha_kannada.below llla_kannada.below rVocalicMatra_kannada rrVocalicMatra_kannada ailength_kannada ja_nukta_kannada.below]' &lt;0 -56 0 0&gt;;
+ pos [na_kannada ssa_kannada sse_kannada] [lVocalicMatra_kannada llVocalicMatra_kannada]' &lt;0 -34 0 0&gt;;
+ } ssa_drop_eb;
+lookup sanskrit_Matra_eb { 
+ pos rrVocalicMatra_kannada' space &lt;0 0 456 0&gt;;
+ } sanskrit_Matra_eb;
+lookup ra_below_eb { 
+ pos ka_kannada.below ra_kannada.below' &lt;149 -233 149 0&gt;;
+ pos kha_kannada.below ra_kannada.below' &lt;174 -287 174 0&gt;;
+ pos ga_kannada.below ra_kannada.below' &lt;253 -222 253 0&gt;;
+ pos gha_kannada.below ra_kannada.below' &lt;360 -344 360 0&gt;;
+ pos nga_kannada.below ra_kannada.below' &lt;236 -260 236 0&gt;;
+ pos ca_kannada.below ra_kannada.below' &lt;203 -255 203 0&gt;;
+ pos cha_kannada.below ra_kannada.below' &lt;250 -344 250 0&gt;;
+ pos ja_kannada.below ra_kannada.below' &lt;330 -260 330 0&gt;;
+ pos jha_kannada.below ra_kannada.below' &lt;410 -344 410 0&gt;;
+ pos nya_kannada.below ra_kannada.below' &lt;222 -344 222 0&gt;;
+ pos tta_kannada.below ra_kannada.below' &lt;193 -249 193 0&gt;;
+ pos ttha_kannada.below ra_kannada.below' &lt;182 -260 182 0&gt;;
+ pos dda_kannada.below ra_kannada.below' &lt;305 -249 305 0&gt;;
+ pos ddha_kannada.below ra_kannada.below' &lt;305 -344 305 0&gt;;
+ pos nna_kannada.below ra_kannada.below' &lt;295 -260 295 0&gt;;
+ pos ta_kannada.below ra_kannada.below' &lt;134 -155 134 0&gt;;
+ pos tha_kannada.below ra_kannada.below' &lt;318 -344 318 0&gt;;
+ pos da_kannada.below ra_kannada.below' &lt;318 -249 318 0&gt;;
+ pos dha_kannada.below ra_kannada.below' &lt;318 -344 318 0&gt;;
+ pos na_kannada.below ra_kannada.below' &lt;296 -232 296 0&gt;;
+ pos pa_kannada.below ra_kannada.below' &lt;251 -233 251 0&gt;;
+ pos pha_kannada.below ra_kannada.below' &lt;251 -344 251 0&gt;;
+ pos ba_kannada.below ra_kannada.below' &lt;251 -260 251 0&gt;;
+ pos bha_kannada.below ra_kannada.below' &lt;251 -344 251 0&gt;;
+ pos ma_kannada.below ra_kannada.below' &lt;326 -233 326 0&gt;;
+ pos ya_kannada.below ra_kannada.below' &lt;235 -281 235 0&gt;;
+ pos ra_kannada.below ra_kannada.below' &lt;206 -191 206 0&gt;;
+ pos rra_kannada.below ra_kannada.below' &lt;318 -284 318 0&gt;;
+ pos la_kannada.below ra_kannada.below' &lt;274 -218 274 0&gt;;
+ pos lla_kannada.below ra_kannada.below' &lt;208 -286 208 0&gt;;
+ pos va_kannada.below ra_kannada.below' &lt;191 -314 191 0&gt;;
+ pos sha_kannada.below ra_kannada.below' &lt;224 -279 224 0&gt;;
+ pos ssa_kannada.below ra_kannada.below' &lt;255 -320 255 0&gt;;
+ pos sa_kannada.below ra_kannada.below' &lt;273 -207 273 0&gt;;
+ pos ha_kannada.below ra_kannada.below' &lt;318 -186 318 0&gt;;
+ pos llla_kannada.below ra_kannada.below' &lt;333 -284 333 0&gt;;
+ pos k_ssa_kannada.below ra_kannada.below' &lt;255 -534 255 0&gt;;
+ pos j_nya_kannada.below ra_kannada.below' &lt;296 -643 296 0&gt;;
+ pos t_ya_kannada.below ra_kannada.below' &lt;262 -344 262 0&gt;;
+ pos ja_nukta_kannada.below ra_kannada.below' &lt;330 -344 330 0&gt;;
+ pos pha_nukta_kannada.below ra_kannada.below' &lt;251 -344 251 0&gt;;
+ pos pha_nukta_kannada.below ra_kannada.below' &lt;250 -344 250 0&gt;;
+ pos j_nya_kannada ra_kannada.below' &lt;0 -344 0 0&gt;;
+ pos j_nye_kannada ra_kannada.below' &lt;0 -344 0 0&gt;;
+ pos j_nyi_kannada ra_kannada.below' &lt;0 -344 0 0&gt;;
+ pos k_ssa_kannada ra_kannada.below' &lt;0 -220 0 0&gt;;
+ pos k_sse_kannada ra_kannada.below' &lt;0 -220 0 0&gt;;
+ pos k_ssi_kannada ra_kannada.below' &lt;0 -220 0 0&gt;;
+ } ra_below_eb;
+lookup halant_space_eb {
+ pos dottedCircle [halant_kannada halant_kannada.calt]' &lt;304 0 304 0&gt;;
+ pos [jihvamuliya_kannada upadhmaniya_kannada]' &lt;0 0 304 0&gt; [ka_kannada.below kha_kannada.below pa_kannada.below pha_kannada.below] halant_kannada;
+ } halant_space_eb;
+lookup belowGlyphsShift_eb { 
+ pos [ja_kannada ji_kannada je_kannada ja_kannada.base] @OT_nuktas @OT_nukta_shift' &lt;50 -50 50 0&gt;;
+ pos [pha_kannada phi_kannada phe_kannada] @OT_nuktas @OT_nukta_shift' &lt;70 -50 70 0&gt;;
+ pos @OT_allBase @OT_nuktas @OT_nukta_shift' &lt;0 -100 0 0&gt;;
+ } belowGlyphsShift_eb;
+script knd2;
+ lookup ssa_drop_eb ;
+ lookup sanskrit_Matra_eb ;
+ lookup ra_below_eb ;
+ lookup halant_space_eb ;
+ lookup belowGlyphsShift_eb ;
+</string>
             </array>
             <array>
               <string>panose</string>
@@ -376,7 +895,82 @@
           <array>
             <array>
               <string>Replace Feature</string>
-              <string>dist; script knda; lookup sglAdjust_1 { pos @OT_allBelowGlyphs &lt;0 0 2 0&gt;; } sglAdjust_1;lookup ssa_drop_bk { pos [ssa_kannada sse_kannada] [kha_kannada.below ga_kannada.below nga_kannada.below ca_kannada.below cha_kannada.below ja_kannada.below jha_kannada.below nya_kannada.below ta_kannada.below ttha_kannada.below dda_kannada.below ddha_kannada.below nna_kannada.below tha_kannada.below da_kannada.below dha_kannada.below ya_kannada.below rra_kannada.below la_kannada.below lla_kannada.below va_kannada.below sha_kannada.below sa_kannada.below ha_kannada.below llla_kannada.below rVocalicMatra_kannada rrVocalicMatra_kannada ailength_kannada]' &lt;0 -58 0 0&gt;; pos [na_kannada ssa_kannada sse_kannada] [lVocalicMatra_kannada llVocalicMatra_kannada]' &lt;0 -34 0 0&gt;; } ssa_drop_bk;lookup sanskrit_Matra_bk { pos llVocalicMatra_kannada' space &lt;0 0 538 0&gt;; pos rrVocalicMatra_kannada' space &lt;0 0 512 0&gt;; pos llVocalicMatra_kannada' &lt;0 0 132 0&gt; @OT_allBase @OT_allBelowGlyphs; } sanskrit_Matra_bk;lookup ra_below_bk { pos ka_kannada.below ra_kannada.below' &lt;149 -248 149 0&gt;; pos kha_kannada.below ra_kannada.below' &lt;175 -306 175 0&gt;; pos ga_kannada.below ra_kannada.below' &lt;259 -192 259 0&gt;; pos gha_kannada.below ra_kannada.below' &lt;421 -388 421 0&gt;; pos nga_kannada.below ra_kannada.below' &lt;234 -277 234 0&gt;; pos ca_kannada.below ra_kannada.below' &lt;201 -272 201 0&gt;; pos cha_kannada.below ra_kannada.below' &lt;252 -406 252 0&gt;; pos ja_kannada.below ra_kannada.below' &lt;332 -277 332 0&gt;; pos jha_kannada.below ra_kannada.below' &lt;414 -424 414 0&gt;; pos nya_kannada.below ra_kannada.below' &lt;221 -371 221 0&gt;; pos tta_kannada.below ra_kannada.below' &lt;192 -267 192 0&gt;; pos ttha_kannada.below ra_kannada.below' &lt;179 -277 179 0&gt;; pos dda_kannada.below ra_kannada.below' &lt;306 -269 306 0&gt;; pos ddha_kannada.below ra_kannada.below' &lt;306 -396 306 0&gt;; pos nna_kannada.below ra_kannada.below' &lt;293 -277 293 0&gt;; pos ta_kannada.below ra_kannada.below' &lt;130 -171 130 0&gt;; pos tha_kannada.below ra_kannada.below' &lt;322 -410 322 0&gt;; pos da_kannada.below ra_kannada.below' &lt;322 -269 322 0&gt;; pos dha_kannada.below ra_kannada.below' &lt;322 -410 322 0&gt;; pos na_kannada.below ra_kannada.below' &lt;300 -248 300 0&gt;; pos pa_kannada.below ra_kannada.below' &lt;254 -248 254 0&gt;; pos pha_kannada.below ra_kannada.below' &lt;254 -398 254 0&gt;; pos ba_kannada.below ra_kannada.below' &lt;254 -277 254 0&gt;; pos bha_kannada.below ra_kannada.below' &lt;254 -388 254 0&gt;; pos ma_kannada.below ra_kannada.below' &lt;324 -248 324 0&gt;; pos ya_kannada.below ra_kannada.below' &lt;240 -296 240 0&gt;; pos ra_kannada.below ra_kannada.below' &lt;212 -214 212 0&gt;; pos rra_kannada.below ra_kannada.below' &lt;323 -306 323 0&gt;; pos la_kannada.below ra_kannada.below' &lt;278 -238 278 0&gt;; pos lla_kannada.below ra_kannada.below' &lt;209 -309 209 0&gt;; pos va_kannada.below ra_kannada.below' &lt;196 -341 196 0&gt;; pos sha_kannada.below ra_kannada.below' &lt;224 -296 224 0&gt;; pos ssa_kannada.below ra_kannada.below' &lt;256 -334 256 0&gt;; pos sa_kannada.below ra_kannada.below' &lt;275 -224 275 0&gt;; pos ha_kannada.below ra_kannada.below' &lt;313 -200 313 0&gt;; pos llla_kannada.below ra_kannada.below' &lt;342 -306 342 0&gt;; pos k_ssa_kannada.below ra_kannada.below' &lt;252 -551 252 0&gt;; pos j_nya_kannada.below ra_kannada.below' &lt;299 -667 299 0&gt;; pos t_ya_kannada.below ra_kannada.below' &lt;278 -366 278 0&gt;; } ra_below_bk;lookup halant_space_bk { ignore pos @OT_allBelowGlyphs [halant_kannada halant_kannada.calt]'; pos @OT_baseVariants [halant_kannada halant_kannada.calt]' &lt;0 0 310 0&gt;; } halant_space_bk;lookup belowGlyphsShift_bk { pos [ja_kannada ji_kannada je_kannada ja_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;166 0 166 0&gt;; pos [pha_kannada phi_kannada phe_kannada pha_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;320 0 320 0&gt;; pos [ra_kannada ri_kannada re_kannada ra_kannada.base] @OT_nuktas @OT_allBelowGlyphs' &lt;290 0 290 0&gt;; } belowGlyphsShift_bk;script knd2; lookup ssa_drop_bk ; lookup sanskrit_Matra_bk ; lookup ra_below_bk ; lookup halant_space_bk ; lookup belowGlyphsShift_bk ;</string>
+              <string>dist;
+ script knda;
+ lookup sglAdjust_1 { pos @OT_allBelowGlyphs &lt;0 0 2 0&gt;;
+ } sglAdjust_1;
+lookup ssa_drop_bk { pos [ssa_kannada sse_kannada] [kha_kannada.below ga_kannada.below nga_kannada.below ca_kannada.below cha_kannada.below ja_kannada.below jha_kannada.below nya_kannada.below ta_kannada.below ttha_kannada.below dda_kannada.below ddha_kannada.below nna_kannada.below tha_kannada.below da_kannada.below dha_kannada.below ya_kannada.below rra_kannada.below la_kannada.below lla_kannada.below va_kannada.below sha_kannada.below sa_kannada.below ha_kannada.below llla_kannada.below rVocalicMatra_kannada rrVocalicMatra_kannada ailength_kannada ja_nukta_kannada.below]' &lt;0 -58 0 0&gt;;
+ pos [na_kannada ssa_kannada sse_kannada] [lVocalicMatra_kannada llVocalicMatra_kannada]' &lt;0 -34 0 0&gt;;
+ } ssa_drop_bk;
+lookup sanskrit_Matra_bk { 
+ pos rrVocalicMatra_kannada' space &lt;0 0 512 0&gt;;
+ } sanskrit_Matra_bk;
+lookup ra_below_bk { 
+ pos ka_kannada.below ra_kannada.below' &lt;149 -248 149 0&gt;;
+ pos kha_kannada.below ra_kannada.below' &lt;175 -306 175 0&gt;;
+ pos ga_kannada.below ra_kannada.below' &lt;259 -222 259 0&gt;;
+ pos gha_kannada.below ra_kannada.below' &lt;370 -344 370 0&gt;;
+ pos nga_kannada.below ra_kannada.below' &lt;234 -277 234 0&gt;;
+ pos ca_kannada.below ra_kannada.below' &lt;201 -272 201 0&gt;;
+ pos cha_kannada.below ra_kannada.below' &lt;252 -344 252 0&gt;;
+ pos ja_kannada.below ra_kannada.below' &lt;332 -277 332 0&gt;;
+ pos jha_kannada.below ra_kannada.below' &lt;414 -344 414 0&gt;;
+ pos nya_kannada.below ra_kannada.below' &lt;221 -344 221 0&gt;;
+ pos tta_kannada.below ra_kannada.below' &lt;192 -267 192 0&gt;;
+ pos ttha_kannada.below ra_kannada.below' &lt;179 -277 179 0&gt;;
+ pos dda_kannada.below ra_kannada.below' &lt;306 -269 306 0&gt;;
+ pos ddha_kannada.below ra_kannada.below' &lt;306 -344 306 0&gt;;
+ pos nna_kannada.below ra_kannada.below' &lt;293 -277 293 0&gt;;
+ pos ta_kannada.below ra_kannada.below' &lt;130 -171 130 0&gt;;
+ pos tha_kannada.below ra_kannada.below' &lt;322 -344 322 0&gt;;
+ pos da_kannada.below ra_kannada.below' &lt;322 -269 322 0&gt;;
+ pos dha_kannada.below ra_kannada.below' &lt;322 -344 322 0&gt;;
+ pos na_kannada.below ra_kannada.below' &lt;300 -248 300 0&gt;;
+ pos pa_kannada.below ra_kannada.below' &lt;254 -248 254 0&gt;;
+ pos pha_kannada.below ra_kannada.below' &lt;254 -344 254 0&gt;;
+ pos ba_kannada.below ra_kannada.below' &lt;254 -277 254 0&gt;;
+ pos bha_kannada.below ra_kannada.below' &lt;254 -344 254 0&gt;;
+ pos ma_kannada.below ra_kannada.below' &lt;324 -248 324 0&gt;;
+ pos ya_kannada.below ra_kannada.below' &lt;240 -296 240 0&gt;;
+ pos ra_kannada.below ra_kannada.below' &lt;212 -214 212 0&gt;;
+ pos rra_kannada.below ra_kannada.below' &lt;323 -306 323 0&gt;;
+ pos la_kannada.below ra_kannada.below' &lt;278 -238 278 0&gt;;
+ pos lla_kannada.below ra_kannada.below' &lt;209 -309 209 0&gt;;
+ pos va_kannada.below ra_kannada.below' &lt;196 -341 196 0&gt;;
+ pos sha_kannada.below ra_kannada.below' &lt;224 -296 224 0&gt;;
+ pos ssa_kannada.below ra_kannada.below' &lt;256 -334 256 0&gt;;
+ pos sa_kannada.below ra_kannada.below' &lt;275 -224 275 0&gt;;
+ pos ha_kannada.below ra_kannada.below' &lt;313 -200 313 0&gt;;
+ pos llla_kannada.below ra_kannada.below' &lt;342 -306 342 0&gt;;
+ pos k_ssa_kannada.below ra_kannada.below' &lt;252 -551 252 0&gt;;
+ pos j_nya_kannada.below ra_kannada.below' &lt;299 -667 299 0&gt;;
+ pos t_ya_kannada.below ra_kannada.below' &lt;278 -366 278 0&gt;;
+ pos ja_nukta_kannada.below ra_kannada.below' &lt;332 -344 332 0&gt;;
+ pos pha_nukta_kannada.below ra_kannada.below' &lt;254 -344 254 0&gt;;
+ pos pha_nukta_kannada.below ra_kannada.below' &lt;250 -344 250 0&gt;;
+ pos j_nya_kannada ra_kannada.below' &lt;0 -344 0 0&gt;;
+ pos j_nye_kannada ra_kannada.below' &lt;0 -344 0 0&gt;;
+ pos j_nyi_kannada ra_kannada.below' &lt;0 -344 0 0&gt;;
+ pos k_ssa_kannada ra_kannada.below' &lt;0 -234 0 0&gt;;
+ pos k_sse_kannada ra_kannada.below' &lt;0 -234 0 0&gt;;
+ pos k_ssi_kannada ra_kannada.below' &lt;0 -234 0 0&gt;;
+ } ra_below_bk;
+lookup halant_space_bk {
+ pos dottedCircle [halant_kannada halant_kannada.calt]' &lt;310 0 310 0&gt;;
+ pos [jihvamuliya_kannada upadhmaniya_kannada]' &lt;0 0 310 0&gt; [ka_kannada.below kha_kannada.below pa_kannada.below pha_kannada.below] halant_kannada;
+ } halant_space_bk;
+lookup belowGlyphsShift_bk { 
+ pos [ja_kannada ji_kannada je_kannada ja_kannada.base] @OT_nuktas @OT_nukta_shift' &lt;50 -50 50 0&gt;;
+ pos [pha_kannada phi_kannada phe_kannada] @OT_nuktas @OT_nukta_shift' &lt;70 -50 70 0&gt;;
+ pos @OT_allBase @OT_nuktas @OT_nukta_shift' &lt;0 -100 0 0&gt;;
+ } belowGlyphsShift_bk;
+script knd2;
+ lookup ssa_drop_bk ;
+ lookup sanskrit_Matra_bk ;
+ lookup ra_below_bk ;
+ lookup halant_space_bk ;
+ lookup belowGlyphsShift_bk ;
+</string>
             </array>
             <array>
               <string>panose</string>

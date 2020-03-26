@@ -3,11 +3,11 @@
   <advance width="255"/>
   <anchor x="125" y="-111" name="bottom"/>
   <anchor x="126" y="-32" name="bottom.dot"/>
-  <anchor x="149" y="767" name="top"/>
+  <anchor x="149" y="787" name="top"/>
   <anchor x="149" y="422" name="top.dot"/>
   <outline>
     <component base="alefMaksura-ar.init"/>
-    <component base="highhamza-ar" xOffset="198" yOffset="30"/>
+    <component base="highhamza-ar" xOffset="198" yOffset="50"/>
   </outline>
   <lib>
     <dict>
@@ -23,7 +23,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2020/02/29 22:37:24</string>
+      <string>2020/03/14 18:57:22</string>
     </dict>
   </lib>
 </glyph>

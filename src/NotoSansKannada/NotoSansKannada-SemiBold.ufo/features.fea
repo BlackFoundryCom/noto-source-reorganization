@@ -3,6 +3,6 @@ table GDEF {
   GlyphClassDef
     , # Base
     , # Liga
-    [uni0951 uni0952 uni1CDA], # Mark
+    [uni0951 uni0952 uni1CD0 uni1CD2 uni1CDA uni1CF2 uni1CF4], # Mark
     ;
 } GDEF;
