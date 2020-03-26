@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="j_nye_kannada" format="2">
   <advance width="729"/>
+  <anchor x="364" y="503" name="top"/>
   <anchor x="371" y="0" name="bottom"/>
-  <anchor x="351" y="755" name="top"/>
   <outline>
     <component base="je_kannada"/>
     <component base="nya_kannada.below" xOffset="542" yOffset="-17"/>
@@ -12,9 +12,9 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
-      <string>latin</string>
+      <string>kannada</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Lowercase</string>
+      <string>Other</string>
       <key>com.schriftgestaltung.componentsAlignment</key>
       <array>
         <integer>0</integer>

@@ -518,7 +518,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Noto Sans Arabic Condensed" familyname="Noto Sans Arabic" stylename="Condensed" filename="instance_ufos/NotoSansArabic-Condensed.ufo" stylemapfamilyname="Noto Sans Arabic Condensed" stylemapstylename="regular">
+    <instance name="Noto Sans Arabic Condensed Regular" familyname="Noto Sans Arabic" stylename="Condensed Regular" filename="instance_ufos/NotoSansArabic-CondensedRegular.ufo" stylemapfamilyname="Noto Sans Arabic Condensed" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="79"/>
@@ -535,7 +535,7 @@
             </array>
             <array>
               <string>preferredSubfamilyName</string>
-              <string>Condensed</string>
+              <string>Condensed Regular</string>
             </array>
             <array>
               <string>panose</string>
@@ -860,7 +860,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Noto Sans Arabic SemiCondensed" familyname="Noto Sans Arabic" stylename="SemiCondensed" filename="instance_ufos/NotoSansArabic-SemiCondensed.ufo" stylemapfamilyname="Noto Sans Arabic SemiCondensed" stylemapstylename="regular">
+    <instance name="Noto Sans Arabic SemiCondensed Regular" familyname="Noto Sans Arabic" stylename="SemiCondensed Regular" filename="instance_ufos/NotoSansArabic-SemiCondensedRegular.ufo" stylemapfamilyname="Noto Sans Arabic SemiCondensed" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="89"/>
@@ -877,7 +877,7 @@
             </array>
             <array>
               <string>preferredSubfamilyName</string>
-              <string>SemiCondensed</string>
+              <string>SemiCondensed Regular</string>
             </array>
             <array>
               <string>panose</string>
@@ -1202,7 +1202,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Noto Sans Arabic ExtraCondensed" familyname="Noto Sans Arabic" stylename="ExtraCondensed" filename="instance_ufos/NotoSansArabic-ExtraCondensed.ufo" stylemapfamilyname="Noto Sans Arabic ExtraCondensed" stylemapstylename="regular">
+    <instance name="Noto Sans Arabic ExtraCondensed Regular" familyname="Noto Sans Arabic" stylename="ExtraCondensed Regular" filename="instance_ufos/NotoSansArabic-ExtraCondensedRegular.ufo" stylemapfamilyname="Noto Sans Arabic ExtraCondensed" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="90"/>
         <dimension name="Width" xvalue="70"/>
@@ -1219,7 +1219,7 @@
             </array>
             <array>
               <string>preferredSubfamilyName</string>
-              <string>ExtraCondensed</string>
+              <string>ExtraCondensed Regular</string>
             </array>
             <array>
               <string>panose</string>

@@ -1,132 +1,57 @@
 # Prefix: Languagesystems
 languagesystem DFLT dflt;
-languagesystem latn dflt;
 
 feature ccmp {
-script latn;
+script DFLT;
+#script copt;
 
 #keycaps with space and dottedCircle
 lookup keycap {
-sub space enclosingkeycapcomb by space_20E3;
-sub enclosingkeycapcomb space by space_20E3;
-sub dottedCircle enclosingkeycapcomb by dottedCircle_20E3;
-sub enclosingkeycapcomb dottedCircle by dottedCircle_20E3;
-sub numbersign enclosingkeycapcomb by numbersign_20E3;
-sub asterisk enclosingkeycapcomb by asterisk_20E3;
-sub zero enclosingkeycapcomb by zero_20E3;
-sub one enclosingkeycapcomb by one_20E3;
-sub two enclosingkeycapcomb by two_20E3;
-sub three enclosingkeycapcomb by three_20E3;
-sub four enclosingkeycapcomb by four_20E3;
-sub five enclosingkeycapcomb by five_20E3;
-sub six enclosingkeycapcomb by six_20E3;
-sub seven enclosingkeycapcomb by seven_20E3;
-sub eight enclosingkeycapcomb by eight_20E3;
-sub nine enclosingkeycapcomb by nine_20E3;
+	sub space enclosingkeycapcomb by space_20E3;
+	sub enclosingkeycapcomb space by space_20E3;
+	sub dottedCircle enclosingkeycapcomb by dottedCircle_20E3;
+	sub enclosingkeycapcomb dottedCircle by dottedCircle_20E3;
+	sub numbersign enclosingkeycapcomb by numbersign_20E3;
+	sub asterisk enclosingkeycapcomb by asterisk_20E3;
+	sub zero enclosingkeycapcomb by zero_20E3;
+	sub one enclosingkeycapcomb by one_20E3;
+	sub two enclosingkeycapcomb by two_20E3;
+	sub three enclosingkeycapcomb by three_20E3;
+	sub four enclosingkeycapcomb by four_20E3;
+	sub five enclosingkeycapcomb by five_20E3;
+	sub six enclosingkeycapcomb by six_20E3;
+	sub seven enclosingkeycapcomb by seven_20E3;
+	sub eight enclosingkeycapcomb by eight_20E3;
+	sub nine enclosingkeycapcomb by nine_20E3;
 } keycap;
 
 #coptic with space and dottedCircle
 lookup ccmp0 {
-sub space u102e0 by space_u102e0;
-sub u102e0 space by space_u102e0;
-sub dottedCircle u102e0 by dottedCircle_u102e0;
-sub u102e0 dottedCircle by dottedCircle_u102e0;
-sub u102e1 u102e0 by u102e1_u102e0;
-sub u102e2 u102e0 by u102e2_u102e0;
-sub u102e3 u102e0 by u102e3_u102e0;
-sub u102e4 u102e0 by u102e4_u102e0;
-sub u102e5 u102e0 by u102e5_u102e0;
-sub u102e6 u102e0 by u102e6_u102e0;
-sub u102e7 u102e0 by u102e7_u102e0;
-sub u102e8 u102e0 by u102e8_u102e0;
-sub u102e9 u102e0 by u102e9_u102e0;
-sub u102ea u102e0 by u102ea_u102e0;
-sub u102eb u102e0 by u102eb_u102e0;
-sub u102ec u102e0 by u102ec_u102e0;
-sub u102ed u102e0 by u102ed_u102e0;
-sub u102ee u102e0 by u102ee_u102e0;
-sub u102ef u102e0 by u102ef_u102e0;
-sub u102f0 u102e0 by u102f0_u102e0;
-sub u102f1 u102e0 by u102f1_u102e0;
-sub u102f2 u102e0 by u102f2_u102e0;
-sub u102f3 u102e0 by u102f3_u102e0;
-sub u102f4 u102e0 by u102f4_u102e0;
-sub u102f5 u102e0 by u102f5_u102e0;
-sub u102f6 u102e0 by u102f6_u102e0;
-sub u102f7 u102e0 by u102f7_u102e0;
-sub u102f8 u102e0 by u102f8_u102e0;
-sub u102f9 u102e0 by u102f9_u102e0;
-sub u102fa u102e0 by u102fa_u102e0;
-sub u102fb u102e0 by u102fb_u102e0;
+	sub space u102E0 by space_u102E0;
+#	sub u102E0 space by space_u102E0;
 } ccmp0;
 
 #phaistos disc with space and dottedCircle
 lookup ccmp1 {
-sub space gobliquestroke-phaistosDisc by sp_gobliquestr-phaistosDisc;
-sub gobliquestroke-phaistosDisc space by sp_gobliquestr-phaistosDisc;
-sub dottedCircle gobliquestroke-phaistosDisc by dotCirc_gobliquestr-phaistosDisc;
-sub gobliquestroke-phaistosDisc dottedCircle by dotCirc_gobliquestr-phaistosDisc;
-sub pedestrian-phaistosDisc gobliquestroke-phaistosDisc by pedestrian_gobliquestroke-phaistosDisc;
-sub plumedHead-phaistosDisc gobliquestroke-phaistosDisc by plumedHead_gobliquestroke-phaistosDisc;
-sub tattooedHead-phaistosDisc gobliquestroke-phaistosDisc by tattooedHead_gobliquestroke-phaistosDisc;
-sub captive-phaistosDisc gobliquestroke-phaistosDisc by captive_gobliquestroke-phaistosDisc;
-sub child-phaistosDisc gobliquestroke-phaistosDisc by child_gobliquestroke-phaistosDisc;
-sub woman-phaistosDisc gobliquestroke-phaistosDisc by woman_gobliquestroke-phaistosDisc;
-sub helmet-phaistosDisc gobliquestroke-phaistosDisc by helmet_gobliquestroke-phaistosDisc;
-sub gauntlet-phaistosDisc gobliquestroke-phaistosDisc by gauntlet_gobliquestroke-phaistosDisc;
-sub tiara-phaistosDisc gobliquestroke-phaistosDisc by tiara_gobliquestroke-phaistosDisc;
-sub arrow-phaistosDisc gobliquestroke-phaistosDisc by arrow_gobliquestroke-phaistosDisc;
-sub bow-phaistosDisc gobliquestroke-phaistosDisc by bow_gobliquestroke-phaistosDisc;
-sub shield-phaistosDisc gobliquestroke-phaistosDisc by shield_gobliquestroke-phaistosDisc;
-sub club-phaistosDisc gobliquestroke-phaistosDisc by club_gobliquestroke-phaistosDisc;
-sub manacles-phaistosDisc gobliquestroke-phaistosDisc by manacles_gobliquestroke-phaistosDisc;
-sub mattock-phaistosDisc gobliquestroke-phaistosDisc by mattock_gobliquestroke-phaistosDisc;
-sub saw-phaistosDisc gobliquestroke-phaistosDisc by saw_gobliquestroke-phaistosDisc;
-sub lid-phaistosDisc gobliquestroke-phaistosDisc by lid_gobliquestroke-phaistosDisc;
-sub boomerang-phaistosDisc gobliquestroke-phaistosDisc by boomerang_gobliquestroke-phaistosDisc;
-sub carpentryPlane-phaistosDisc gobliquestroke-phaistosDisc by carpentryPlane_gobliquestroke-phaistosDisc;
-sub dolium-phaistosDisc gobliquestroke-phaistosDisc by dolium_gobliquestroke-phaistosDisc;
-sub comb-phaistosDisc gobliquestroke-phaistosDisc by comb_gobliquestroke-phaistosDisc;
-sub sling-phaistosDisc gobliquestroke-phaistosDisc by sling_gobliquestroke-phaistosDisc;
-sub column-phaistosDisc gobliquestroke-phaistosDisc by column_gobliquestroke-phaistosDisc;
-sub beehive-phaistosDisc gobliquestroke-phaistosDisc by beehive_gobliquestroke-phaistosDisc;
-sub ship-phaistosDisc gobliquestroke-phaistosDisc by ship_gobliquestroke-phaistosDisc;
-sub horn-phaistosDisc gobliquestroke-phaistosDisc by horn_gobliquestroke-phaistosDisc;
-sub hide-phaistosDisc gobliquestroke-phaistosDisc by hide_gobliquestroke-phaistosDisc;
-sub bullsLeg-phaistosDisc gobliquestroke-phaistosDisc by bullsLeg_gobliquestroke-phaistosDisc;
-sub cat-phaistosDisc gobliquestroke-phaistosDisc by cat_gobliquestroke-phaistosDisc;
-sub ram-phaistosDisc gobliquestroke-phaistosDisc by ram_gobliquestroke-phaistosDisc;
-sub eagle-phaistosDisc gobliquestroke-phaistosDisc by eagle_gobliquestroke-phaistosDisc;
-sub dove-phaistosDisc gobliquestroke-phaistosDisc by dove_gobliquestroke-phaistosDisc;
-sub tunny-phaistosDisc gobliquestroke-phaistosDisc by tunny_gobliquestroke-phaistosDisc;
-sub bee-phaistosDisc gobliquestroke-phaistosDisc by bee_gobliquestroke-phaistosDisc;
-sub planeTree-phaistosDisc gobliquestroke-phaistosDisc by planeTree_gobliquestroke-phaistosDisc;
-sub vine-phaistosDisc gobliquestroke-phaistosDisc by vine_gobliquestroke-phaistosDisc;
-sub papyrus-phaistosDisc gobliquestroke-phaistosDisc by papyrus_gobliquestroke-phaistosDisc;
-sub rosette-phaistosDisc gobliquestroke-phaistosDisc by rosette_gobliquestroke-phaistosDisc;
-sub lily-phaistosDisc gobliquestroke-phaistosDisc by lily_gobliquestroke-phaistosDisc;
-sub oxBack-phaistosDisc gobliquestroke-phaistosDisc by oxBack_gobliquestroke-phaistosDisc;
-sub flute-phaistosDisc gobliquestroke-phaistosDisc by flute_gobliquestroke-phaistosDisc;
-sub grater-phaistosDisc gobliquestroke-phaistosDisc by grater_gobliquestroke-phaistosDisc;
-sub strainer-phaistosDisc gobliquestroke-phaistosDisc by strainer_gobliquestroke-phaistosDisc;
-sub axe-phaistosDisc gobliquestroke-phaistosDisc by axe_gobliquestroke-phaistosDisc;
-sub wavyBand-phaistosDisc gobliquestroke-phaistosDisc by wavyBand_gobliquestroke-phaistosDisc;
+	sub space gobliquestroke-phaistosDisc by sp_gobliquestr-phaistosDisc;
+#	sub gobliquestroke-phaistosDisc space by sp_gobliquestr-phaistosDisc;
 } ccmp1;
-
+	
 #enclosingscreencomb with space and dottedCircle
 lookup ccmp2 {
-sub space enclosingscreencomb by space_enclosingscreencomb;
-sub enclosingscreencomb space by space_enclosingscreencomb;
-sub dottedCircle enclosingscreencomb by dottedCircle_enclosingscreencomb;
-sub enclosingscreencomb dottedCircle by dottedCircle_enclosingscreencomb;
+	sub space enclosingscreencomb by space_enclosingscreencomb;
+	sub enclosingscreencomb space by space_enclosingscreencomb;
+	sub dottedCircle enclosingscreencomb by dottedCircle_enclosingscreencomb;
+	sub enclosingscreencomb dottedCircle by dottedCircle_enclosingscreencomb;
 } ccmp2;
+
 } ccmp;
 
 table GDEF {
   # automatic
   GlyphClassDef
-    [zero one two three four five six seven eight nine asterisk numbersign u102e1 u102e2 u102e3 u102e4 u102e5 u102e6 u102e7 u102e8 u102e9 u102ea u102eb u102ec u102ed u102ee u102ef u102f0 u102f1 u102f2 u102f3 u102f4 u102f5 u102f6 u102f7 u102f8 u102f9 u102fa u102fb pedestrian-phaistosDisc pedestrian_gobliquestroke-phaistosDisc plumedHead-phaistosDisc plumedHead_gobliquestroke-phaistosDisc tattooedHead-phaistosDisc tattooedHead_gobliquestroke-phaistosDisc captive-phaistosDisc captive_gobliquestroke-phaistosDisc child-phaistosDisc child_gobliquestroke-phaistosDisc woman-phaistosDisc woman_gobliquestroke-phaistosDisc helmet-phaistosDisc helmet_gobliquestroke-phaistosDisc gauntlet-phaistosDisc gauntlet_gobliquestroke-phaistosDisc tiara-phaistosDisc tiara_gobliquestroke-phaistosDisc arrow-phaistosDisc arrow_gobliquestroke-phaistosDisc bow-phaistosDisc bow_gobliquestroke-phaistosDisc shield-phaistosDisc shield_gobliquestroke-phaistosDisc club-phaistosDisc manacles-phaistosDisc manacles_gobliquestroke-phaistosDisc mattock-phaistosDisc mattock_gobliquestroke-phaistosDisc saw-phaistosDisc saw_gobliquestroke-phaistosDisc lid-phaistosDisc lid_gobliquestroke-phaistosDisc boomerang-phaistosDisc boomerang_gobliquestroke-phaistosDisc carpentryPlane-phaistosDisc carpentryPlane_gobliquestroke-phaistosDisc dolium-phaistosDisc dolium_gobliquestroke-phaistosDisc comb-phaistosDisc comb_gobliquestroke-phaistosDisc sling-phaistosDisc sling_gobliquestroke-phaistosDisc column-phaistosDisc column_gobliquestroke-phaistosDisc beehive-phaistosDisc beehive_gobliquestroke-phaistosDisc ship-phaistosDisc ship_gobliquestroke-phaistosDisc horn-phaistosDisc horn_gobliquestroke-phaistosDisc hide-phaistosDisc hide_gobliquestroke-phaistosDisc bullsLeg-phaistosDisc bullsLeg_gobliquestroke-phaistosDisc cat-phaistosDisc cat_gobliquestroke-phaistosDisc ram-phaistosDisc ram_gobliquestroke-phaistosDisc eagle-phaistosDisc eagle_gobliquestroke-phaistosDisc dove-phaistosDisc dove_gobliquestroke-phaistosDisc tunny-phaistosDisc tunny_gobliquestroke-phaistosDisc bee-phaistosDisc bee_gobliquestroke-phaistosDisc planeTree-phaistosDisc planeTree_gobliquestroke-phaistosDisc vine-phaistosDisc vine_gobliquestroke-phaistosDisc papyrus-phaistosDisc papyrus_gobliquestroke-phaistosDisc rosette-phaistosDisc rosette_gobliquestroke-phaistosDisc lily-phaistosDisc lily_gobliquestroke-phaistosDisc oxBack-phaistosDisc oxBack_gobliquestroke-phaistosDisc flute-phaistosDisc flute_gobliquestroke-phaistosDisc grater-phaistosDisc grater_gobliquestroke-phaistosDisc strainer-phaistosDisc strainer_gobliquestroke-phaistosDisc axe-phaistosDisc axe_gobliquestroke-phaistosDisc wavyBand-phaistosDisc wavyBand_gobliquestroke-phaistosDisc u102e1_u102e0 u102e2_u102e0 u102e3_u102e0 u102e4_u102e0 u102e5_u102e0 u102e6_u102e0 u102e7_u102e0 u102e8_u102e0 u102e9_u102e0 u102ea_u102e0 u102eb_u102e0 u102ec_u102e0 u102ed_u102e0 u102ee_u102e0 u102ef_u102e0 u102f0_u102e0 u102f1_u102e0 u102f2_u102e0 u102f3_u102e0 u102f4_u102e0 u102f5_u102e0 u102f6_u102e0 u102f7_u102e0 u102f8_u102e0 u102f9_u102e0 u102fa_u102e0 u102fb_u102e0], # Base
-    [club_gobliquestroke-phaistosDisc zero_20E3 one_20E3 two_20E3 three_20E3 four_20E3 five_20E3 six_20E3 seven_20E3 eight_20E3 nine_20E3 asterisk_20E3 numbersign_20E3], # Liga
-    [u102e0 gobliquestroke-phaistosDisc], # Mark
+    [zero one two three four five six seven eight nine asterisk numbersign dottedCircle pedestrian-phaistosDisc plumedHead-phaistosDisc tattooedHead-phaistosDisc captive-phaistosDisc child-phaistosDisc woman-phaistosDisc helmet-phaistosDisc gauntlet-phaistosDisc tiara-phaistosDisc arrow-phaistosDisc bow-phaistosDisc shield-phaistosDisc club-phaistosDisc manacles-phaistosDisc mattock-phaistosDisc saw-phaistosDisc lid-phaistosDisc boomerang-phaistosDisc carpentryPlane-phaistosDisc dolium-phaistosDisc comb-phaistosDisc sling-phaistosDisc column-phaistosDisc beehive-phaistosDisc ship-phaistosDisc horn-phaistosDisc hide-phaistosDisc bullsLeg-phaistosDisc cat-phaistosDisc ram-phaistosDisc eagle-phaistosDisc dove-phaistosDisc tunny-phaistosDisc bee-phaistosDisc planeTree-phaistosDisc vine-phaistosDisc papyrus-phaistosDisc rosette-phaistosDisc lily-phaistosDisc oxBack-phaistosDisc flute-phaistosDisc grater-phaistosDisc strainer-phaistosDisc axe-phaistosDisc wavyBand-phaistosDisc u102E1 u102E2 u102E3 u102E4 u102E5 u102E6 u102E7 u102E8 u102E9 u102EA u102EB u102EC u102ED u102EE u102EF u102F0 u102F1 u102F2 u102F3 u102F4 u102F5 u102F6 u102F7 u102F8 u102F9 u102FA u102FB dottedCircle_enclosingscreencomb], # Base
+    [zero_20E3 one_20E3 two_20E3 three_20E3 four_20E3 five_20E3 six_20E3 seven_20E3 eight_20E3 nine_20E3 asterisk_20E3 numbersign_20E3], # Liga
+    [u102E0 gobliquestroke-phaistosDisc], # Mark
     ;
 } GDEF;

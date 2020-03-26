@@ -2,6 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>anusvara_kannada</key>
+    <dict>
+      <key>public.kern2.KND_ddi_L</key>
+      <integer>0</integer>
+    </dict>
+    <key>jihvamuliya_kannada</key>
+    <dict>
+      <key>eMatra_kannada</key>
+      <integer>120</integer>
+      <key>public.kern2.KND_ka-below_L</key>
+      <integer>80</integer>
+      <key>public.kern2.KND_kha-below_L</key>
+      <integer>70</integer>
+    </dict>
     <key>public.kern1.KND_a_R</key>
     <dict>
       <key>public.kern2.LTN_comma_L</key>
@@ -40,7 +54,7 @@
       <key>public.kern2.KND_rVocalicMatra_L</key>
       <integer>34</integer>
       <key>public.kern2.KND_ra-below_L</key>
-      <integer>46</integer>
+      <integer>37</integer>
       <key>public.kern2.KND_sa-below_L</key>
       <integer>28</integer>
       <key>public.kern2.KND_sha-below_L</key>
@@ -72,6 +86,10 @@
     </dict>
     <key>public.kern1.KND_ailength_R</key>
     <dict>
+      <key>anusvara_kannada</key>
+      <integer>70</integer>
+      <key>public.kern2.KND_a_L</key>
+      <integer>40</integer>
       <key>public.kern2.KND_ailength_L</key>
       <integer>458</integer>
       <key>public.kern2.KND_ba-below_L</key>
@@ -95,7 +113,7 @@
       <key>public.kern2.KND_ga-below_L</key>
       <integer>418</integer>
       <key>public.kern2.KND_ga_L</key>
-      <integer>98</integer>
+      <integer>109</integer>
       <key>public.kern2.KND_gha-below_L</key>
       <integer>552</integer>
       <key>public.kern2.KND_gha_L</key>
@@ -110,6 +128,8 @@
       <integer>68</integer>
       <key>public.kern2.KND_hi_L</key>
       <integer>98</integer>
+      <key>public.kern2.KND_ii_L</key>
+      <integer>50</integer>
       <key>public.kern2.KND_j-nya_L</key>
       <integer>436</integer>
       <key>public.kern2.KND_ja-below_L</key>
@@ -123,13 +143,15 @@
       <key>public.kern2.KND_ka-below_L</key>
       <integer>430</integer>
       <key>public.kern2.KND_ka_L</key>
-      <integer>30</integer>
+      <integer>35</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>574</integer>
       <key>public.kern2.KND_kha_L</key>
       <integer>122</integer>
       <key>public.kern2.KND_ki_L</key>
       <integer>40</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>101</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>458</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -145,7 +167,7 @@
       <key>public.kern2.KND_na-below_L</key>
       <integer>476</integer>
       <key>public.kern2.KND_na_L</key>
-      <integer>88</integer>
+      <integer>98</integer>
       <key>public.kern2.KND_nga-below_L</key>
       <integer>476</integer>
       <key>public.kern2.KND_ni_L</key>
@@ -164,6 +186,8 @@
       <integer>520</integer>
       <key>public.kern2.KND_rVocalicMatra_L</key>
       <integer>418</integer>
+      <key>public.kern2.KND_rVocalic_L</key>
+      <integer>80</integer>
       <key>public.kern2.KND_reph_L</key>
       <integer>88</integer>
       <key>public.kern2.KND_rra-below_L</key>
@@ -198,6 +222,8 @@
       <integer>84</integer>
       <key>public.kern2.KND_ttha-below_L</key>
       <integer>456</integer>
+      <key>public.kern2.KND_u_L</key>
+      <integer>60</integer>
       <key>public.kern2.KND_va-below_L</key>
       <integer>584</integer>
       <key>public.kern2.KND_ya-below_L</key>
@@ -230,6 +256,8 @@
       <integer>24</integer>
       <key>underscore</key>
       <integer>154</integer>
+      <key>visarga_kannada</key>
+      <integer>90</integer>
     </dict>
     <key>public.kern1.KND_auMatra_R</key>
     <dict>
@@ -365,6 +393,8 @@
       <integer>584</integer>
       <key>public.kern2.KND_kha_L</key>
       <integer>34</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>100</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>464</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -915,6 +945,8 @@
       <integer>552</integer>
       <key>public.kern2.KND_kha_L</key>
       <integer>40</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>80</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>446</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -1154,6 +1186,8 @@
       <integer>578</integer>
       <key>public.kern2.KND_kha_L</key>
       <integer>40</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>100</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>470</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -1474,6 +1508,8 @@
       <integer>480</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>634</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>120</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>498</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -1953,6 +1989,8 @@
       <integer>410</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>564</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>70</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>422</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -2200,6 +2238,8 @@
       <integer>122</integer>
       <key>public.kern2.KND_ki_L</key>
       <integer>74</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>230</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>602</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -2488,6 +2528,8 @@
       <integer>542</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>668</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>190</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>566</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -2680,6 +2722,8 @@
       <integer>436</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>614</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>70</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>458</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -2773,6 +2817,8 @@
       <integer>516</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>676</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>160</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>534</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -2996,6 +3042,8 @@
       <integer>600</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>750</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>250</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>620</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -3188,6 +3236,8 @@
       <integer>356</integer>
       <key>public.kern2.KND_rVocalicMatra_L</key>
       <integer>250</integer>
+      <key>public.kern2.KND_ra-below_L</key>
+      <integer>30</integer>
       <key>public.kern2.KND_rra-below_L</key>
       <integer>314</integer>
       <key>public.kern2.KND_sa-below_L</key>
@@ -3249,6 +3299,8 @@
       <integer>398</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>596</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>30</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>396</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -3417,6 +3469,8 @@
       <integer>354</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>488</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>30</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>392</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -3606,6 +3660,8 @@
       <integer>370</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>514</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>40</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>398</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -3671,6 +3727,8 @@
     </dict>
     <key>public.kern1.KND_kha_R</key>
     <dict>
+      <key>public.kern2.KND_a_L</key>
+      <integer>0</integer>
       <key>public.kern2.KND_ailength_L</key>
       <integer>40</integer>
       <key>public.kern2.KND_ba-below_L</key>
@@ -3746,89 +3804,93 @@
     <key>public.kern1.KND_kssa_R</key>
     <dict>
       <key>public.kern2.KND_aaMatra_L</key>
-      <integer>52</integer>
+      <integer>0</integer>
       <key>public.kern2.KND_ailength_L</key>
-      <integer>474</integer>
+      <integer>304</integer>
       <key>public.kern2.KND_ba-below_L</key>
-      <integer>544</integer>
+      <integer>394</integer>
       <key>public.kern2.KND_ca-below_L</key>
-      <integer>520</integer>
+      <integer>360</integer>
       <key>public.kern2.KND_cha-below_L</key>
-      <integer>556</integer>
+      <integer>398</integer>
       <key>public.kern2.KND_dda-below_L</key>
-      <integer>466</integer>
+      <integer>306</integer>
       <key>public.kern2.KND_ga-below_L</key>
-      <integer>436</integer>
+      <integer>286</integer>
       <key>public.kern2.KND_gha-below_L</key>
-      <integer>550</integer>
+      <integer>400</integer>
       <key>public.kern2.KND_ha-below_L</key>
-      <integer>488</integer>
+      <integer>338</integer>
       <key>public.kern2.KND_j-nya_L</key>
-      <integer>440</integer>
+      <integer>280</integer>
       <key>public.kern2.KND_ja-below_L</key>
-      <integer>396</integer>
+      <integer>256</integer>
       <key>public.kern2.KND_jha-below_L</key>
-      <integer>726</integer>
+      <integer>552</integer>
       <key>public.kern2.KND_ka-below_L</key>
-      <integer>426</integer>
+      <integer>296</integer>
       <key>public.kern2.KND_kha-below_L</key>
-      <integer>576</integer>
+      <integer>416</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
-      <integer>464</integer>
+      <integer>304</integer>
       <key>public.kern2.KND_la-below_L</key>
-      <integer>488</integer>
+      <integer>338</integer>
       <key>public.kern2.KND_lla-below_L</key>
-      <integer>502</integer>
+      <integer>342</integer>
       <key>public.kern2.KND_ma-below_L</key>
-      <integer>388</integer>
+      <integer>218</integer>
       <key>public.kern2.KND_na-below_L</key>
-      <integer>484</integer>
+      <integer>324</integer>
       <key>public.kern2.KND_nga-below_L</key>
-      <integer>490</integer>
+      <integer>335</integer>
       <key>public.kern2.KND_nna-below_L</key>
-      <integer>474</integer>
+      <integer>330</integer>
       <key>public.kern2.KND_nya-below_L</key>
-      <integer>648</integer>
+      <integer>478</integer>
       <key>public.kern2.KND_pa-below_L</key>
-      <integer>542</integer>
+      <integer>382</integer>
       <key>public.kern2.KND_rVocalicMatra_L</key>
-      <integer>434</integer>
+      <integer>284</integer>
+      <key>public.kern2.KND_ra-below_L</key>
+      <integer>65</integer>
       <key>public.kern2.KND_rra-below_L</key>
-      <integer>498</integer>
+      <integer>348</integer>
       <key>public.kern2.KND_sa-below_L</key>
-      <integer>440</integer>
+      <integer>270</integer>
       <key>public.kern2.KND_sha-below_L</key>
-      <integer>440</integer>
+      <integer>250</integer>
       <key>public.kern2.KND_t_ailength-below_L</key>
-      <integer>684</integer>
+      <integer>474</integer>
       <key>public.kern2.KND_t_rVocalicMatra_L</key>
-      <integer>644</integer>
+      <integer>444</integer>
       <key>public.kern2.KND_t_ya_L</key>
-      <integer>684</integer>
+      <integer>484</integer>
       <key>public.kern2.KND_ta-below_L</key>
-      <integer>642</integer>
+      <integer>442</integer>
       <key>public.kern2.KND_tha-below_L</key>
-      <integer>462</integer>
+      <integer>302</integer>
       <key>public.kern2.KND_tta-below_L</key>
-      <integer>616</integer>
+      <integer>446</integer>
       <key>public.kern2.KND_ttha-below_L</key>
-      <integer>472</integer>
+      <integer>312</integer>
+      <key>public.kern2.KND_uMatra_L</key>
+      <integer>-30</integer>
       <key>public.kern2.KND_uuMatra_L</key>
-      <integer>44</integer>
+      <integer>-36</integer>
       <key>public.kern2.KND_va-below_L</key>
-      <integer>610</integer>
+      <integer>440</integer>
       <key>public.kern2.KND_ya-below_L</key>
-      <integer>424</integer>
+      <integer>264</integer>
       <key>public.kern2.LTN_braceleft_L</key>
-      <integer>126</integer>
+      <integer>0</integer>
       <key>public.kern2.LTN_comma_L</key>
-      <integer>166</integer>
+      <integer>36</integer>
       <key>public.kern2.LTN_period_L</key>
-      <integer>74</integer>
+      <integer>0</integer>
       <key>public.kern2.LTN_semicolon_L</key>
-      <integer>166</integer>
+      <integer>0</integer>
       <key>public.kern2.LTN_slash_L</key>
-      <integer>180</integer>
+      <integer>20</integer>
     </dict>
     <key>public.kern1.KND_lVocalicMatra_R</key>
     <dict>
@@ -3858,6 +3920,8 @@
       <integer>528</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>698</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>160</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>532</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -4024,6 +4088,8 @@
       <integer>470</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>598</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>120</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>488</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -4207,91 +4273,6 @@
       <key>public.kern2.LTN_slash_L</key>
       <integer>-20</integer>
     </dict>
-    <key>public.kern1.KND_llVocalicMatra_R</key>
-    <dict>
-      <key>public.kern2.KND_ailength_L</key>
-      <integer>1050</integer>
-      <key>public.kern2.KND_ba-below_L</key>
-      <integer>1098</integer>
-      <key>public.kern2.KND_ca-below_L</key>
-      <integer>1074</integer>
-      <key>public.kern2.KND_dda-below_L</key>
-      <integer>1036</integer>
-      <key>public.kern2.KND_ga-below_L</key>
-      <integer>1006</integer>
-      <key>public.kern2.KND_gha-below_L</key>
-      <integer>1142</integer>
-      <key>public.kern2.KND_ha-below_L</key>
-      <integer>1060</integer>
-      <key>public.kern2.KND_j-nya_L</key>
-      <integer>1030</integer>
-      <key>public.kern2.KND_ja-below_L</key>
-      <integer>972</integer>
-      <key>public.kern2.KND_jha-below_L</key>
-      <integer>1284</integer>
-      <key>public.kern2.KND_ka-below_L</key>
-      <integer>1000</integer>
-      <key>public.kern2.KND_kha-below_L</key>
-      <integer>1172</integer>
-      <key>public.kern2.KND_lVocalicMatra_L</key>
-      <integer>1030</integer>
-      <key>public.kern2.KND_la-below_L</key>
-      <integer>1044</integer>
-      <key>public.kern2.KND_lla-below_L</key>
-      <integer>1050</integer>
-      <key>public.kern2.KND_ma-below_L</key>
-      <integer>948</integer>
-      <key>public.kern2.KND_na-below_L</key>
-      <integer>1060</integer>
-      <key>public.kern2.KND_nga-below_L</key>
-      <integer>1054</integer>
-      <key>public.kern2.KND_nna-below_L</key>
-      <integer>1060</integer>
-      <key>public.kern2.KND_nya-below_L</key>
-      <integer>1182</integer>
-      <key>public.kern2.KND_pa-below_L</key>
-      <integer>1118</integer>
-      <key>public.kern2.KND_rVocalicMatra_L</key>
-      <integer>1010</integer>
-      <key>public.kern2.KND_rra-below_L</key>
-      <integer>1064</integer>
-      <key>public.kern2.KND_sa-below_L</key>
-      <integer>1016</integer>
-      <key>public.kern2.KND_sha-below_L</key>
-      <integer>1016</integer>
-      <key>public.kern2.KND_t_ailength-below_L</key>
-      <integer>1260</integer>
-      <key>public.kern2.KND_t_rVocalicMatra_L</key>
-      <integer>1230</integer>
-      <key>public.kern2.KND_t_ya_L</key>
-      <integer>1270</integer>
-      <key>public.kern2.KND_ta-below_L</key>
-      <integer>1230</integer>
-      <key>public.kern2.KND_tha-below_L</key>
-      <integer>1030</integer>
-      <key>public.kern2.KND_ttha-below_L</key>
-      <integer>1050</integer>
-      <key>public.kern2.KND_va-below_L</key>
-      <integer>1176</integer>
-      <key>public.kern2.KND_ya-below_L</key>
-      <integer>986</integer>
-      <key>public.kern2.LTN_braceleft_L</key>
-      <integer>650</integer>
-      <key>public.kern2.LTN_bracketleft_L</key>
-      <integer>654</integer>
-      <key>public.kern2.LTN_colon_L</key>
-      <integer>450</integer>
-      <key>public.kern2.LTN_comma_L</key>
-      <integer>722</integer>
-      <key>public.kern2.LTN_parenright_L</key>
-      <integer>660</integer>
-      <key>public.kern2.LTN_period_L</key>
-      <integer>596</integer>
-      <key>public.kern2.LTN_question_L</key>
-      <integer>356</integer>
-      <key>public.kern2.LTN_semicolon_L</key>
-      <integer>668</integer>
-    </dict>
     <key>public.kern1.KND_ll_R</key>
     <dict>
       <key>public.kern2.KND_ailength_L</key>
@@ -4405,6 +4386,8 @@
       <integer>502</integer>
       <key>public.kern2.KND_kha_L</key>
       <integer>24</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>50</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>416</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -4631,6 +4614,8 @@
       <integer>670</integer>
       <key>public.kern2.KND_kha_L</key>
       <integer>84</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>140</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>550</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -4673,6 +4658,8 @@
       <integer>88</integer>
       <key>public.kern2.KND_sha-below_L</key>
       <integer>504</integer>
+      <key>public.kern2.KND_sha_L</key>
+      <integer>40</integer>
       <key>public.kern2.KND_shi_L</key>
       <integer>54</integer>
       <key>public.kern2.KND_si_L</key>
@@ -4878,6 +4865,8 @@
       <integer>622</integer>
       <key>public.kern2.KND_kha_L</key>
       <integer>40</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>70</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>440</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -4918,6 +4907,8 @@
       <integer>64</integer>
       <key>public.kern2.KND_sha-below_L</key>
       <integer>460</integer>
+      <key>public.kern2.KND_sha_L</key>
+      <integer>10</integer>
       <key>public.kern2.KND_shi_L</key>
       <integer>30</integer>
       <key>public.kern2.KND_si_L</key>
@@ -4962,6 +4953,8 @@
       <integer>40</integer>
       <key>public.kern2.LTN_semicolon_L</key>
       <integer>108</integer>
+      <key>visarga_kannada</key>
+      <integer>20</integer>
     </dict>
     <key>public.kern1.KND_na_R</key>
     <dict>
@@ -5119,6 +5112,8 @@
       <integer>448</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>592</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>90</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>466</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -5235,10 +5230,6 @@
     <dict>
       <key>public.kern2.KND_a_L</key>
       <integer>-58</integer>
-      <key>public.kern2.KND_ai_L</key>
-      <integer>-62</integer>
-      <key>public.kern2.KND_au_L</key>
-      <integer>22</integer>
       <key>public.kern2.KND_cha_L</key>
       <integer>-66</integer>
       <key>public.kern2.KND_dda_L</key>
@@ -5324,10 +5315,6 @@
     <dict>
       <key>public.kern2.KND_a_L</key>
       <integer>-56</integer>
-      <key>public.kern2.KND_ai_L</key>
-      <integer>-64</integer>
-      <key>public.kern2.KND_au_L</key>
-      <integer>8</integer>
       <key>public.kern2.KND_cha_L</key>
       <integer>-56</integer>
       <key>public.kern2.KND_dda_L</key>
@@ -5570,6 +5557,8 @@
       <integer>516</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>650</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>160</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>542</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -5828,6 +5817,8 @@
       <integer>414</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>524</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>70</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>442</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -5968,10 +5959,6 @@
     <dict>
       <key>public.kern2.KND_a_L</key>
       <integer>-58</integer>
-      <key>public.kern2.KND_ai_L</key>
-      <integer>-58</integer>
-      <key>public.kern2.KND_au_L</key>
-      <integer>22</integer>
       <key>public.kern2.KND_cha_L</key>
       <integer>-62</integer>
       <key>public.kern2.KND_dda_L</key>
@@ -6061,10 +6048,6 @@
     <dict>
       <key>public.kern2.KND_a_L</key>
       <integer>-56</integer>
-      <key>public.kern2.KND_ai_L</key>
-      <integer>-56</integer>
-      <key>public.kern2.KND_au_L</key>
-      <integer>18</integer>
       <key>public.kern2.KND_cha_L</key>
       <integer>-42</integer>
       <key>public.kern2.KND_dda_L</key>
@@ -6621,8 +6604,12 @@
     </dict>
     <key>public.kern1.KND_rVocalicMatra_R</key>
     <dict>
+      <key>anusvara_kannada</key>
+      <integer>10</integer>
       <key>bracketleft</key>
       <integer>34</integer>
+      <key>public.kern2.KND_a_L</key>
+      <integer>0</integer>
       <key>public.kern2.KND_ailength_L</key>
       <integer>488</integer>
       <key>public.kern2.KND_ba-below_L</key>
@@ -6677,6 +6664,8 @@
       <integer>582</integer>
       <key>public.kern2.KND_kha_L</key>
       <integer>84</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>120</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>484</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -6711,6 +6700,8 @@
       <integer>546</integer>
       <key>public.kern2.KND_rVocalicMatra_L</key>
       <integer>450</integer>
+      <key>public.kern2.KND_rVocalic_L</key>
+      <integer>40</integer>
       <key>public.kern2.KND_reph_L</key>
       <integer>54</integer>
       <key>public.kern2.KND_rra-below_L</key>
@@ -6723,6 +6714,8 @@
       <integer>118</integer>
       <key>public.kern2.KND_sha-below_L</key>
       <integer>424</integer>
+      <key>public.kern2.KND_sha_L</key>
+      <integer>60</integer>
       <key>public.kern2.KND_shi_L</key>
       <integer>74</integer>
       <key>public.kern2.KND_si_L</key>
@@ -6782,8 +6775,12 @@
     </dict>
     <key>public.kern1.KND_ra-below_R</key>
     <dict>
+      <key>anusvara_kannada</key>
+      <integer>28</integer>
+      <key>public.kern2.KND_a_L</key>
+      <integer>20</integer>
       <key>public.kern2.KND_ailength_L</key>
-      <integer>482</integer>
+      <integer>365</integer>
       <key>public.kern2.KND_ba-below_L</key>
       <integer>486</integer>
       <key>public.kern2.KND_ca-below_L</key>
@@ -6832,10 +6829,14 @@
       <integer>24</integer>
       <key>public.kern2.KND_ka-below_L</key>
       <integer>354</integer>
+      <key>public.kern2.KND_ka_L</key>
+      <integer>10</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>462</integer>
       <key>public.kern2.KND_kha_L</key>
       <integer>68</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>40</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>396</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -6870,6 +6871,8 @@
       <integer>432</integer>
       <key>public.kern2.KND_rVocalicMatra_L</key>
       <integer>346</integer>
+      <key>public.kern2.KND_rVocalic_L</key>
+      <integer>50</integer>
       <key>public.kern2.KND_reph_L</key>
       <integer>48</integer>
       <key>public.kern2.KND_rra-below_L</key>
@@ -6882,6 +6885,8 @@
       <integer>64</integer>
       <key>public.kern2.KND_sha-below_L</key>
       <integer>296</integer>
+      <key>public.kern2.KND_sha_L</key>
+      <integer>45</integer>
       <key>public.kern2.KND_shi_L</key>
       <integer>68</integer>
       <key>public.kern2.KND_si_L</key>
@@ -6904,10 +6909,12 @@
       <integer>34</integer>
       <key>public.kern2.KND_ttha-below_L</key>
       <integer>374</integer>
+      <key>public.kern2.KND_u_L</key>
+      <integer>20</integer>
       <key>public.kern2.KND_va-below_L</key>
       <integer>468</integer>
       <key>public.kern2.KND_ya-below_L</key>
-      <integer>350</integer>
+      <integer>320</integer>
       <key>public.kern2.KND_ya_L</key>
       <integer>34</integer>
       <key>public.kern2.LTN_braceleft_L</key>
@@ -6932,11 +6939,15 @@
       <integer>24</integer>
       <key>public.kern2.LTN_semicolon_L</key>
       <integer>78</integer>
+      <key>visarga_kannada</key>
+      <integer>60</integer>
     </dict>
     <key>public.kern1.KND_rrVocalicMatra_R</key>
     <dict>
+      <key>anusvara_kannada</key>
+      <integer>280</integer>
       <key>public.kern2.KND_a_L</key>
-      <integer>298</integer>
+      <integer>308</integer>
       <key>public.kern2.KND_ailength_L</key>
       <integer>806</integer>
       <key>public.kern2.KND_ba-below_L</key>
@@ -6995,6 +7006,8 @@
       <integer>396</integer>
       <key>public.kern2.KND_ki_L</key>
       <integer>322</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>450</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>814</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -7045,6 +7058,8 @@
       <integer>444</integer>
       <key>public.kern2.KND_sha-below_L</key>
       <integer>722</integer>
+      <key>public.kern2.KND_sha_L</key>
+      <integer>360</integer>
       <key>public.kern2.KND_shi_L</key>
       <integer>396</integer>
       <key>public.kern2.KND_si_L</key>
@@ -7199,6 +7214,8 @@
       <integer>496</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>650</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>150</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>520</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -7311,10 +7328,6 @@
     <dict>
       <key>public.kern2.KND_a_L</key>
       <integer>-58</integer>
-      <key>public.kern2.KND_ai_L</key>
-      <integer>-62</integer>
-      <key>public.kern2.KND_au_L</key>
-      <integer>18</integer>
       <key>public.kern2.KND_cha_L</key>
       <integer>-58</integer>
       <key>public.kern2.KND_dda_L</key>
@@ -7400,10 +7413,6 @@
     <dict>
       <key>public.kern2.KND_a_L</key>
       <integer>-22</integer>
-      <key>public.kern2.KND_ai_L</key>
-      <integer>-8</integer>
-      <key>public.kern2.KND_au_L</key>
-      <integer>22</integer>
       <key>public.kern2.KND_cha_L</key>
       <integer>-4</integer>
       <key>public.kern2.KND_dda_L</key>
@@ -7604,6 +7613,8 @@
       <integer>598</integer>
       <key>public.kern2.KND_kha_L</key>
       <integer>48</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>110</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>482</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -7642,6 +7653,8 @@
       <integer>512</integer>
       <key>public.kern2.KND_sa-below_L</key>
       <integer>442</integer>
+      <key>public.kern2.KND_sa_L</key>
+      <integer>90</integer>
       <key>public.kern2.KND_sha-below_L</key>
       <integer>426</integer>
       <key>public.kern2.KND_shi_L</key>
@@ -7860,6 +7873,8 @@
       <integer>568</integer>
       <key>public.kern2.KND_kha_L</key>
       <integer>4</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>70</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>434</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -8163,6 +8178,8 @@
       <integer>602</integer>
       <key>public.kern2.KND_kha_L</key>
       <integer>48</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>110</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>486</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -8382,312 +8399,6 @@
       <key>public.kern2.KND_ya-below_L</key>
       <integer>268</integer>
     </dict>
-    <key>public.kern1.KND_t_ailength-below_R</key>
-    <dict>
-      <key>public.kern2.KND_ailength_L</key>
-      <integer>454</integer>
-      <key>public.kern2.KND_ba-below_L</key>
-      <integer>522</integer>
-      <key>public.kern2.KND_ca-below_L</key>
-      <integer>492</integer>
-      <key>public.kern2.KND_cha-below_L</key>
-      <integer>534</integer>
-      <key>public.kern2.KND_cha_L</key>
-      <integer>68</integer>
-      <key>public.kern2.KND_dda-below_L</key>
-      <integer>442</integer>
-      <key>public.kern2.KND_dda_L</key>
-      <integer>78</integer>
-      <key>public.kern2.KND_ddha_L</key>
-      <integer>78</integer>
-      <key>public.kern2.KND_ddi_L</key>
-      <integer>78</integer>
-      <key>public.kern2.KND_e_L</key>
-      <integer>108</integer>
-      <key>public.kern2.KND_ga-below_L</key>
-      <integer>416</integer>
-      <key>public.kern2.KND_ga_L</key>
-      <integer>112</integer>
-      <key>public.kern2.KND_gha-below_L</key>
-      <integer>554</integer>
-      <key>public.kern2.KND_gha_L</key>
-      <integer>84</integer>
-      <key>public.kern2.KND_ghi_L</key>
-      <integer>98</integer>
-      <key>public.kern2.KND_gi_L</key>
-      <integer>108</integer>
-      <key>public.kern2.KND_ha-below_L</key>
-      <integer>478</integer>
-      <key>public.kern2.KND_ha_L</key>
-      <integer>74</integer>
-      <key>public.kern2.KND_hi_L</key>
-      <integer>92</integer>
-      <key>public.kern2.KND_j-nya_L</key>
-      <integer>414</integer>
-      <key>public.kern2.KND_ja-below_L</key>
-      <integer>390</integer>
-      <key>public.kern2.KND_jha-below_L</key>
-      <integer>704</integer>
-      <key>public.kern2.KND_jha_L</key>
-      <integer>48</integer>
-      <key>public.kern2.KND_jhi_L</key>
-      <integer>58</integer>
-      <key>public.kern2.KND_ka-below_L</key>
-      <integer>438</integer>
-      <key>public.kern2.KND_ka_L</key>
-      <integer>40</integer>
-      <key>public.kern2.KND_kha-below_L</key>
-      <integer>576</integer>
-      <key>public.kern2.KND_kha_L</key>
-      <integer>108</integer>
-      <key>public.kern2.KND_ki_L</key>
-      <integer>34</integer>
-      <key>public.kern2.KND_lVocalicMatra_L</key>
-      <integer>464</integer>
-      <key>public.kern2.KND_la-below_L</key>
-      <integer>472</integer>
-      <key>public.kern2.KND_length_L</key>
-      <integer>54</integer>
-      <key>public.kern2.KND_lla-below_L</key>
-      <integer>480</integer>
-      <key>public.kern2.KND_ma-below_L</key>
-      <integer>366</integer>
-      <key>public.kern2.KND_mi_L</key>
-      <integer>92</integer>
-      <key>public.kern2.KND_na-below_L</key>
-      <integer>482</integer>
-      <key>public.kern2.KND_na_L</key>
-      <integer>98</integer>
-      <key>public.kern2.KND_nga-below_L</key>
-      <integer>478</integer>
-      <key>public.kern2.KND_ni_L</key>
-      <integer>102</integer>
-      <key>public.kern2.KND_nna-below_L</key>
-      <integer>462</integer>
-      <key>public.kern2.KND_nna_L</key>
-      <integer>98</integer>
-      <key>public.kern2.KND_nnaa_L</key>
-      <integer>92</integer>
-      <key>public.kern2.KND_nya-below_L</key>
-      <integer>612</integer>
-      <key>public.kern2.KND_o_L</key>
-      <integer>88</integer>
-      <key>public.kern2.KND_pa-below_L</key>
-      <integer>520</integer>
-      <key>public.kern2.KND_rVocalicMatra_L</key>
-      <integer>420</integer>
-      <key>public.kern2.KND_reph_L</key>
-      <integer>98</integer>
-      <key>public.kern2.KND_rra-below_L</key>
-      <integer>486</integer>
-      <key>public.kern2.KND_rra_L</key>
-      <integer>68</integer>
-      <key>public.kern2.KND_sa-below_L</key>
-      <integer>416</integer>
-      <key>public.kern2.KND_sa_L</key>
-      <integer>118</integer>
-      <key>public.kern2.KND_sha-below_L</key>
-      <integer>404</integer>
-      <key>public.kern2.KND_shi_L</key>
-      <integer>112</integer>
-      <key>public.kern2.KND_si_L</key>
-      <integer>112</integer>
-      <key>public.kern2.KND_t_ailength-below_L</key>
-      <integer>662</integer>
-      <key>public.kern2.KND_t_rVocalicMatra_L</key>
-      <integer>640</integer>
-      <key>public.kern2.KND_t_ya_L</key>
-      <integer>682</integer>
-      <key>public.kern2.KND_ta-below_L</key>
-      <integer>638</integer>
-      <key>public.kern2.KND_ta_L</key>
-      <integer>74</integer>
-      <key>public.kern2.KND_tha-below_L</key>
-      <integer>448</integer>
-      <key>public.kern2.KND_tta-below_L</key>
-      <integer>576</integer>
-      <key>public.kern2.KND_tta_L</key>
-      <integer>68</integer>
-      <key>public.kern2.KND_ttha-below_L</key>
-      <integer>458</integer>
-      <key>public.kern2.KND_va-below_L</key>
-      <integer>602</integer>
-      <key>public.kern2.KND_ya-below_L</key>
-      <integer>410</integer>
-      <key>public.kern2.KND_ya_L</key>
-      <integer>68</integer>
-      <key>public.kern2.LTN_braceleft_L</key>
-      <integer>132</integer>
-      <key>public.kern2.LTN_bracketleft_L</key>
-      <integer>118</integer>
-      <key>public.kern2.LTN_colon_L</key>
-      <integer>68</integer>
-      <key>public.kern2.LTN_comma_L</key>
-      <integer>170</integer>
-      <key>public.kern2.LTN_exclam_L</key>
-      <integer>74</integer>
-      <key>public.kern2.LTN_parenleft_L</key>
-      <integer>78</integer>
-      <key>public.kern2.LTN_parenright_L</key>
-      <integer>112</integer>
-      <key>public.kern2.LTN_period_L</key>
-      <integer>162</integer>
-      <key>public.kern2.LTN_semicolon_L</key>
-      <integer>132</integer>
-    </dict>
-    <key>public.kern1.KND_t_rVocalicMatra_R</key>
-    <dict>
-      <key>public.kern2.KND_ailength_L</key>
-      <integer>478</integer>
-      <key>public.kern2.KND_ba-below_L</key>
-      <integer>554</integer>
-      <key>public.kern2.KND_ca-below_L</key>
-      <integer>524</integer>
-      <key>public.kern2.KND_cha-below_L</key>
-      <integer>558</integer>
-      <key>public.kern2.KND_cha_L</key>
-      <integer>20</integer>
-      <key>public.kern2.KND_dda-below_L</key>
-      <integer>470</integer>
-      <key>public.kern2.KND_dda_L</key>
-      <integer>48</integer>
-      <key>public.kern2.KND_ddha_L</key>
-      <integer>48</integer>
-      <key>public.kern2.KND_ddi_L</key>
-      <integer>40</integer>
-      <key>public.kern2.KND_e_L</key>
-      <integer>74</integer>
-      <key>public.kern2.KND_ga-below_L</key>
-      <integer>434</integer>
-      <key>public.kern2.KND_ga_L</key>
-      <integer>112</integer>
-      <key>public.kern2.KND_gha-below_L</key>
-      <integer>576</integer>
-      <key>public.kern2.KND_gha_L</key>
-      <integer>48</integer>
-      <key>public.kern2.KND_ghi_L</key>
-      <integer>68</integer>
-      <key>public.kern2.KND_gi_L</key>
-      <integer>98</integer>
-      <key>public.kern2.KND_ha-below_L</key>
-      <integer>504</integer>
-      <key>public.kern2.KND_ha_L</key>
-      <integer>34</integer>
-      <key>public.kern2.KND_hi_L</key>
-      <integer>34</integer>
-      <key>public.kern2.KND_j-nya_L</key>
-      <integer>452</integer>
-      <key>public.kern2.KND_ja-below_L</key>
-      <integer>416</integer>
-      <key>public.kern2.KND_jha-below_L</key>
-      <integer>716</integer>
-      <key>public.kern2.KND_jhi_L</key>
-      <integer>10</integer>
-      <key>public.kern2.KND_ka-below_L</key>
-      <integer>456</integer>
-      <key>public.kern2.KND_kha-below_L</key>
-      <integer>590</integer>
-      <key>public.kern2.KND_kha_L</key>
-      <integer>74</integer>
-      <key>public.kern2.KND_lVocalicMatra_L</key>
-      <integer>482</integer>
-      <key>public.kern2.KND_la-below_L</key>
-      <integer>494</integer>
-      <key>public.kern2.KND_lla-below_L</key>
-      <integer>514</integer>
-      <key>public.kern2.KND_ma-below_L</key>
-      <integer>384</integer>
-      <key>public.kern2.KND_mi_L</key>
-      <integer>64</integer>
-      <key>public.kern2.KND_na-below_L</key>
-      <integer>496</integer>
-      <key>public.kern2.KND_na_L</key>
-      <integer>68</integer>
-      <key>public.kern2.KND_nga-below_L</key>
-      <integer>496</integer>
-      <key>public.kern2.KND_ni_L</key>
-      <integer>78</integer>
-      <key>public.kern2.KND_nna-below_L</key>
-      <integer>484</integer>
-      <key>public.kern2.KND_nna_L</key>
-      <integer>54</integer>
-      <key>public.kern2.KND_nnaa_L</key>
-      <integer>74</integer>
-      <key>public.kern2.KND_nya-below_L</key>
-      <integer>640</integer>
-      <key>public.kern2.KND_o_L</key>
-      <integer>64</integer>
-      <key>public.kern2.KND_pa-below_L</key>
-      <integer>548</integer>
-      <key>public.kern2.KND_rVocalicMatra_L</key>
-      <integer>448</integer>
-      <key>public.kern2.KND_reph_L</key>
-      <integer>44</integer>
-      <key>public.kern2.KND_rra-below_L</key>
-      <integer>504</integer>
-      <key>public.kern2.KND_rra_L</key>
-      <integer>20</integer>
-      <key>public.kern2.KND_sa-below_L</key>
-      <integer>438</integer>
-      <key>public.kern2.KND_sa_L</key>
-      <integer>108</integer>
-      <key>public.kern2.KND_sha-below_L</key>
-      <integer>422</integer>
-      <key>public.kern2.KND_shi_L</key>
-      <integer>74</integer>
-      <key>public.kern2.KND_si_L</key>
-      <integer>98</integer>
-      <key>public.kern2.KND_t_ailength-below_L</key>
-      <integer>684</integer>
-      <key>public.kern2.KND_t_rVocalicMatra_L</key>
-      <integer>664</integer>
-      <key>public.kern2.KND_t_ya_L</key>
-      <integer>706</integer>
-      <key>public.kern2.KND_ta-below_L</key>
-      <integer>656</integer>
-      <key>public.kern2.KND_ta_L</key>
-      <integer>24</integer>
-      <key>public.kern2.KND_tha-below_L</key>
-      <integer>466</integer>
-      <key>public.kern2.KND_tta-below_L</key>
-      <integer>600</integer>
-      <key>public.kern2.KND_tta_L</key>
-      <integer>20</integer>
-      <key>public.kern2.KND_ttha-below_L</key>
-      <integer>476</integer>
-      <key>public.kern2.KND_va-below_L</key>
-      <integer>604</integer>
-      <key>public.kern2.KND_ya-below_L</key>
-      <integer>448</integer>
-      <key>public.kern2.KND_ya_L</key>
-      <integer>20</integer>
-      <key>public.kern2.LTN_braceleft_L</key>
-      <integer>162</integer>
-      <key>public.kern2.LTN_bracketleft_L</key>
-      <integer>162</integer>
-      <key>public.kern2.LTN_colon_L</key>
-      <integer>34</integer>
-      <key>public.kern2.LTN_comma_L</key>
-      <integer>200</integer>
-      <key>public.kern2.LTN_exclam_L</key>
-      <integer>40</integer>
-      <key>public.kern2.LTN_parenleft_L</key>
-      <integer>40</integer>
-      <key>public.kern2.LTN_parenright_L</key>
-      <integer>152</integer>
-      <key>public.kern2.LTN_period_L</key>
-      <integer>132</integer>
-      <key>public.kern2.LTN_question_L</key>
-      <integer>34</integer>
-      <key>public.kern2.LTN_quoteleft_L</key>
-      <integer>-40</integer>
-      <key>public.kern2.LTN_quoteright_L</key>
-      <integer>-44</integer>
-      <key>public.kern2.LTN_semicolon_L</key>
-      <integer>166</integer>
-      <key>public.kern2.PCT_braceleft_L</key>
-      <integer>30</integer>
-    </dict>
     <key>public.kern1.KND_t_ya_R</key>
     <dict>
       <key>public.kern2.KND_ailength_L</key>
@@ -8746,6 +8457,8 @@
       <integer>88</integer>
       <key>public.kern2.KND_ki_L</key>
       <integer>4</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>70</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>434</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -8873,6 +8586,8 @@
       <integer>354</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>474</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>20</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>390</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -8959,7 +8674,7 @@
       <key>public.kern2.KND_rVocalicMatra_L</key>
       <integer>30</integer>
       <key>public.kern2.KND_ra-below_L</key>
-      <integer>48</integer>
+      <integer>42</integer>
       <key>public.kern2.KND_sa-below_L</key>
       <integer>30</integer>
       <key>public.kern2.KND_sha-below_L</key>
@@ -9084,6 +8799,8 @@
       <integer>502</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>646</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>150</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>516</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -9385,6 +9102,8 @@
       <integer>544</integer>
       <key>public.kern2.KND_kha_L</key>
       <integer>48</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>50</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>410</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -9618,6 +9337,8 @@
       <integer>384</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>528</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>40</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>410</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -9924,6 +9645,8 @@
       <integer>502</integer>
       <key>public.kern2.KND_kha_L</key>
       <integer>40</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>20</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>386</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -10091,6 +9814,10 @@
     </dict>
     <key>public.kern1.KND_ya-below_R</key>
     <dict>
+      <key>anusvara_kannada</key>
+      <integer>20</integer>
+      <key>public.kern2.KND_a_L</key>
+      <integer>30</integer>
       <key>public.kern2.KND_ailength_L</key>
       <integer>442</integer>
       <key>public.kern2.KND_ba-below_L</key>
@@ -10135,14 +9862,20 @@
       <integer>372</integer>
       <key>public.kern2.KND_jha-below_L</key>
       <integer>672</integer>
+      <key>public.kern2.KND_jha_L</key>
+      <integer>13</integer>
       <key>public.kern2.KND_jhi_L</key>
       <integer>30</integer>
       <key>public.kern2.KND_ka-below_L</key>
       <integer>406</integer>
+      <key>public.kern2.KND_ka_L</key>
+      <integer>10</integer>
       <key>public.kern2.KND_kha-below_L</key>
       <integer>550</integer>
       <key>public.kern2.KND_kha_L</key>
-      <integer>88</integer>
+      <integer>78</integer>
+      <key>public.kern2.KND_kssa_L</key>
+      <integer>60</integer>
       <key>public.kern2.KND_lVocalicMatra_L</key>
       <integer>424</integer>
       <key>public.kern2.KND_la-below_L</key>
@@ -10182,13 +9915,15 @@
       <key>public.kern2.KND_rra-below_L</key>
       <integer>454</integer>
       <key>public.kern2.KND_rra_L</key>
-      <integer>30</integer>
+      <integer>40</integer>
       <key>public.kern2.KND_sa-below_L</key>
       <integer>408</integer>
       <key>public.kern2.KND_sa_L</key>
       <integer>102</integer>
       <key>public.kern2.KND_sha-below_L</key>
       <integer>392</integer>
+      <key>public.kern2.KND_sha_L</key>
+      <integer>70</integer>
       <key>public.kern2.KND_shi_L</key>
       <integer>84</integer>
       <key>public.kern2.KND_si_L</key>
@@ -10239,28 +9974,18 @@
       <integer>112</integer>
       <key>public.kern2.PCT_braceleft_L</key>
       <integer>34</integer>
-    </dict>
-    <key>public.kern1.LTN_braceleft_R</key>
-    <dict>
-      <key>public.kern2.KND_au_L</key>
-      <integer>40</integer>
-    </dict>
-    <key>public.kern1.LTN_bracketleft_R</key>
-    <dict>
-      <key>public.kern2.KND_au_L</key>
-      <integer>48</integer>
+      <key>visarga_kannada</key>
+      <integer>70</integer>
     </dict>
     <key>public.kern1.LTN_parenleft_R</key>
     <dict>
-      <key>public.kern2.KND_au_L</key>
-      <integer>44</integer>
       <key>public.kern2.KND_lla_L</key>
       <integer>-44</integer>
     </dict>
-    <key>public.kern1.LTN_quoteleft_R</key>
+    <key>reph_kannada</key>
     <dict>
-      <key>public.kern2.KND_au_L</key>
-      <integer>40</integer>
+      <key>anusvara_kannada</key>
+      <integer>-33</integer>
     </dict>
   </dict>
 </plist>

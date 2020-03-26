@@ -3,9 +3,9 @@
 <plist version="1.0">
   <dict>
     <key>GSCornerRadius</key>
-    <integer>200</integer>
+    <integer>46</integer>
     <key>GSOffsetHorizontal</key>
-    <integer>24</integer>
+    <integer>10</integer>
     <key>GSOffsetMakeStroke</key>
     <integer>1</integer>
     <key>GSOffsetPosition</key>
@@ -13,11 +13,11 @@
     <key>GSOffsetProportional</key>
     <integer>1</integer>
     <key>GSOffsetVertical</key>
-    <integer>0</integer>
+    <integer>20</integer>
     <key>angle</key>
     <integer>0</integer>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1075</string>
+    <string>1286</string>
     <key>com.schriftgestaltung.customParameter.GSFont.Disable Subroutines</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
@@ -25,7 +25,7 @@
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
-    <integer>0</integer>
+    <integer>1</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
     <integer>0</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue1</key>
@@ -66,7 +66,9 @@
       <string>CR</string>
       <string>DEL</string>
       <string>NULL</string>
-      <string>acknowledge-control</string>
+      <string>_eyes</string>
+      <string>_face</string>
+      <string>acknowledgeControl</string>
       <string>admissionTickets</string>
       <string>airplane</string>
       <string>airplaneSmall</string>
@@ -79,18 +81,18 @@
       <string>anticlockwiseTriangleTopUShapedArrow</string>
       <string>aroura-greek</string>
       <string>arrow-phaistosDisc</string>
-      <string>arrow_gobliquestroke-phaistosDisc</string>
       <string>artabe-greek</string>
       <string>as-roman</string>
       <string>asterisk</string>
       <string>asterisk_20E3</string>
+      <string>autumn-mahjong</string>
       <string>axe-phaistosDisc</string>
-      <string>axe_gobliquestroke-phaistosDisc</string>
       <string>babySymbol</string>
+      <string>back-mahjong</string>
       <string>backOfEnvelope</string>
       <string>backslantedSouthArrowWithHookedTail</string>
       <string>backslantedSouthArrowWithHorizontalTail</string>
-      <string>backspace-control</string>
+      <string>backspaceControl</string>
       <string>balloonSpokedAsterisk</string>
       <string>ballotBoldScriptX</string>
       <string>ballotBox</string>
@@ -103,6 +105,7 @@
       <string>ballotBoxWithX</string>
       <string>ballotScriptX</string>
       <string>ballotX</string>
+      <string>bamboo-mahjong</string>
       <string>barChart</string>
       <string>baseball</string>
       <string>beachUmbrella</string>
@@ -110,10 +113,8 @@
       <string>beamedDescendingMusicalNotes</string>
       <string>bed</string>
       <string>bee-phaistosDisc</string>
-      <string>bee_gobliquestroke-phaistosDisc</string>
       <string>beehive-phaistosDisc</string>
-      <string>beehive_gobliquestroke-phaistosDisc</string>
-      <string>bell-control</string>
+      <string>bellControl</string>
       <string>bellhopBell</string>
       <string>bellsymbol</string>
       <string>bentDownThenNorthEastArrow</string>
@@ -230,12 +231,10 @@
       <string>book</string>
       <string>books</string>
       <string>boomerang-phaistosDisc</string>
-      <string>boomerang_gobliquestroke-phaistosDisc</string>
       <string>bottomHalfBlackCircle</string>
       <string>bottomHalfBlackDiamond</string>
       <string>bouquetOfFlowers</string>
       <string>bow-phaistosDisc</string>
-      <string>bow_gobliquestroke-phaistosDisc</string>
       <string>boysSymbol</string>
       <string>buildingConstruction</string>
       <string>bullet</string>
@@ -244,26 +243,22 @@
       <string>bullhorn</string>
       <string>bullhornWithSoundWaves</string>
       <string>bullsLeg-phaistosDisc</string>
-      <string>bullsLeg_gobliquestroke-phaistosDisc</string>
       <string>bullseye</string>
       <string>camera</string>
       <string>camping</string>
-      <string>cancel-control</string>
+      <string>cancelControl</string>
       <string>cancellationX</string>
       <string>candle</string>
       <string>capslock</string>
       <string>captive-phaistosDisc</string>
-      <string>captive_gobliquestroke-phaistosDisc</string>
       <string>carSliding</string>
       <string>cardFileBox</string>
       <string>cardIndexDividers</string>
       <string>carpentryPlane-phaistosDisc</string>
-      <string>carpentryPlane_gobliquestroke-phaistosDisc</string>
-      <string>carriageReturn-control</string>
+      <string>carriageReturnControl</string>
       <string>carystianfivehundred-ancientGreek</string>
       <string>cat</string>
       <string>cat-phaistosDisc</string>
-      <string>cat_gobliquestroke-phaistosDisc</string>
       <string>caution</string>
       <string>centurial-roman</string>
       <string>chains</string>
@@ -273,8 +268,8 @@
       <string>checkerBoard</string>
       <string>checkmark</string>
       <string>child-phaistosDisc</string>
-      <string>child_gobliquestroke-phaistosDisc</string>
       <string>chipmunk</string>
+      <string>chrysanthemum-mahjong</string>
       <string>circledBoldX</string>
       <string>circledInformationSource</string>
       <string>circledX</string>
@@ -320,12 +315,9 @@
       <string>club-phaistosDisc</string>
       <string>clubBlackSuit</string>
       <string>clubWhiteSuit</string>
-      <string>club_gobliquestroke-phaistosDisc</string>
       <string>cocktailGlass</string>
       <string>column-phaistosDisc</string>
-      <string>column_gobliquestroke-phaistosDisc</string>
       <string>comb-phaistosDisc</string>
-      <string>comb_gobliquestroke-phaistosDisc</string>
       <string>comet</string>
       <string>compression</string>
       <string>controlKnobs</string>
@@ -341,10 +333,10 @@
       <string>cyrenaictwodrachmas-ancientGreek</string>
       <string>daggerKnife</string>
       <string>darkSunglasses</string>
-      <string>dataLinkEscape-control</string>
+      <string>dataLinkEscapeControl</string>
       <string>decreaseFontSizeSymbol</string>
-      <string>delete-control</string>
-      <string>deleteFormTwo-control</string>
+      <string>deleteControl</string>
+      <string>deleteFormTwoControl</string>
       <string>deleteLeftKey</string>
       <string>deleterightKey</string>
       <string>delphicfivemnas-ancientGreek</string>
@@ -354,10 +346,10 @@
       <string>desertIsland</string>
       <string>desktopComputer</string>
       <string>desktopWindow</string>
-      <string>deviceControlFour-control</string>
-      <string>deviceControlOne-control</string>
-      <string>deviceControlThree-control</string>
-      <string>deviceControlTwo-control</string>
+      <string>deviceControlFourControl</string>
+      <string>deviceControlOneControl</string>
+      <string>deviceControlThreeControl</string>
+      <string>deviceControlTwoControl</string>
       <string>diagonalcrosshatchFillSquare</string>
       <string>diamondBlackSuit</string>
       <string>diamondTarget</string>
@@ -382,8 +374,6 @@
       <string>documentWithTextAndPicture</string>
       <string>dog</string>
       <string>dolium-phaistosDisc</string>
-      <string>dolium_gobliquestroke-phaistosDisc</string>
-      <string>dotCirc_gobliquestr-phaistosDisc</string>
       <string>dotmath</string>
       <string>dots1-braille</string>
       <string>dots12-braille</string>
@@ -643,12 +633,10 @@
       <string>dottedCircle</string>
       <string>dottedCircle_20E3</string>
       <string>dottedCircle_enclosingscreencomb</string>
-      <string>dottedCircle_u102e0</string>
       <string>dottedSquare</string>
       <string>doubleVerticalBar</string>
       <string>dove-phaistosDisc</string>
       <string>doveOfPeace</string>
-      <string>dove_gobliquestroke-phaistosDisc</string>
       <string>downAndUpTriangleArrow</string>
       <string>downArrow.blackCircled</string>
       <string>downArrowWithEquilateralArrowhead</string>
@@ -691,13 +679,16 @@
       <string>driveSlowSign</string>
       <string>dupondius-roman</string>
       <string>eagle-phaistosDisc</string>
-      <string>eagle_gobliquestroke-phaistosDisc</string>
       <string>ear</string>
       <string>earthGlobeAmericas</string>
       <string>earthGlobeAsiaAustralia</string>
       <string>earthGlobeEuropeAfrica</string>
       <string>earthTrigram</string>
+      <string>eastWind-mahjong</string>
       <string>eight</string>
+      <string>eightOfBamboos-mahjong</string>
+      <string>eightOfCharacters-mahjong</string>
+      <string>eightOfCircles-mahjong</string>
       <string>eightPetalledOutlinedBlackFlorette</string>
       <string>eightPointedBlackStar</string>
       <string>eightPointedPinwheelStar</string>
@@ -714,17 +705,17 @@
       <string>emptyPages</string>
       <string>enclosingkeycapcomb</string>
       <string>enclosingscreencomb</string>
-      <string>endOfMedium-control</string>
-      <string>endOfText-control</string>
-      <string>endOfTransmission-control</string>
-      <string>endOfTransmissionBlock-control</string>
-      <string>enquiry-control</string>
+      <string>endOfMediumControl</string>
+      <string>endOfTextControl</string>
+      <string>endOfTransmissionBlockControl</string>
+      <string>endOfTransmissionControl</string>
+      <string>enquiryControl</string>
       <string>envelope</string>
       <string>envelopeWithLightning</string>
       <string>epidaureanfivehundred-ancientGreek</string>
       <string>epidaureantwo-ancientGreek</string>
       <string>epidaureantwodrachmas-ancientGreek</string>
-      <string>escape-control</string>
+      <string>escapeControl</string>
       <string>extraterrestrialAlien</string>
       <string>extremelyHeavyFiveSpokedAsterisk</string>
       <string>extremelyHeavyGreekCross</string>
@@ -744,7 +735,7 @@
       <string>fiftythousand-atticGreek</string>
       <string>fiftythousandstaters-atticGreek</string>
       <string>fileCabinet</string>
-      <string>fileSeparator-control</string>
+      <string>fileSeparatorControl</string>
       <string>filledRect</string>
       <string>filmFrames</string>
       <string>filmProjector</string>
@@ -754,6 +745,9 @@
       <string>five</string>
       <string>five-atticGreek</string>
       <string>fiveObols-greek</string>
+      <string>fiveOfBamboos-mahjong</string>
+      <string>fiveOfCharacters-mahjong</string>
+      <string>fiveOfCircles-mahjong</string>
       <string>five_20E3</string>
       <string>fivehundred-atticGreek</string>
       <string>fivehundredstaters-atticGreek</string>
@@ -764,17 +758,19 @@
       <string>fivethousandtalents-atticGreek</string>
       <string>floralHeart</string>
       <string>flute-phaistosDisc</string>
-      <string>flute_gobliquestroke-phaistosDisc</string>
       <string>flyingEnvelope</string>
       <string>fog</string>
       <string>folder</string>
       <string>forkKnifePlate</string>
-      <string>formFeed-control</string>
+      <string>formFeedControl</string>
       <string>four</string>
       <string>fourBalloonSpokedAsterisk</string>
       <string>fourClubSpokedAsterisk</string>
       <string>fourCornerArrowsCirclingAnticlockwise</string>
       <string>fourObols-greek</string>
+      <string>fourOfBamboos-mahjong</string>
+      <string>fourOfCharacters-mahjong</string>
+      <string>fourOfCircles-mahjong</string>
       <string>fourPointedBlackStar</string>
       <string>fourTeardropSpokedAsterisk</string>
       <string>four_20E3</string>
@@ -783,15 +779,14 @@
       <string>frameWithTiles</string>
       <string>fullMoonSymbol</string>
       <string>gauntlet-phaistosDisc</string>
-      <string>gauntlet_gobliquestroke-phaistosDisc</string>
       <string>girlsSymbol</string>
       <string>gobliquestroke-phaistosDisc</string>
       <string>golfer</string>
       <string>graduationCap</string>
       <string>gramma-greek</string>
       <string>grater-phaistosDisc</string>
-      <string>grater_gobliquestroke-phaistosDisc</string>
-      <string>groupSeparator-control</string>
+      <string>greenDragon-mahjong</string>
+      <string>groupSeparatorControl</string>
       <string>hammerAndWrench</string>
       <string>hardDisk</string>
       <string>headphone</string>
@@ -873,13 +868,11 @@
       <string>heavyrightpointinganglequotationmarkornament</string>
       <string>helmet-phaistosDisc</string>
       <string>helmetWithWhiteCross</string>
-      <string>helmet_gobliquestroke-phaistosDisc</string>
       <string>heraeumoneplethron-ancientGreek</string>
       <string>hermionianfifty-ancientGreek</string>
       <string>hermionianone-ancientGreek</string>
       <string>hermionianten-ancientGreek</string>
       <string>hide-phaistosDisc</string>
-      <string>hide_gobliquestroke-phaistosDisc</string>
       <string>highVoltageSign</string>
       <string>hole</string>
       <string>hollowQuiltSquareOrnament</string>
@@ -887,9 +880,8 @@
       <string>horizontalBlackHexagon</string>
       <string>horizontalBlackOctagon</string>
       <string>horizontalFillSquare</string>
-      <string>horizontalTabulation-control</string>
+      <string>horizontalTabulationControl</string>
       <string>horn-phaistosDisc</string>
-      <string>horn_gobliquestroke-phaistosDisc</string>
       <string>hotBeverage</string>
       <string>hotPepper</string>
       <string>hotsprings</string>
@@ -905,6 +897,7 @@
       <string>interlinearannotationterminator</string>
       <string>inverseBullet</string>
       <string>inverseWhiteCircle</string>
+      <string>joker-mahjong</string>
       <string>joystick</string>
       <string>keyboard</string>
       <string>keyboardAndMouse</string>
@@ -979,7 +972,6 @@
       <string>leftdblTriangleArrow</string>
       <string>levelSlider</string>
       <string>lid-phaistosDisc</string>
-      <string>lid_gobliquestroke-phaistosDisc</string>
       <string>ligatureOpenEtOrnament</string>
       <string>lightCheckMark</string>
       <string>lightEightSpokedAsterisk</string>
@@ -1000,8 +992,7 @@
       <string>lightningMoodBubble</string>
       <string>lightrighttortoiseshellbracketornament</string>
       <string>lily-phaistosDisc</string>
-      <string>lily_gobliquestroke-phaistosDisc</string>
-      <string>lineFeed-control</string>
+      <string>lineFeedControl</string>
       <string>linkedPaperclips</string>
       <string>lips</string>
       <string>litra-greek</string>
@@ -1033,10 +1024,8 @@
       <string>lozenge</string>
       <string>manInBusinessSuitLevitating</string>
       <string>manacles-phaistosDisc</string>
-      <string>manacles_gobliquestroke-phaistosDisc</string>
       <string>mantelpieceClock</string>
       <string>mattock-phaistosDisc</string>
-      <string>mattock_gobliquestroke-phaistosDisc</string>
       <string>maximize</string>
       <string>mediumBlackCircle</string>
       <string>mediumBlackSmallSquare</string>
@@ -1073,6 +1062,7 @@
       <string>metro</string>
       <string>militaryMedal</string>
       <string>minimize</string>
+      <string>modernPentathlon</string>
       <string>moneyBag</string>
       <string>monogramForYang</string>
       <string>monogramForYin</string>
@@ -1085,11 +1075,14 @@
       <string>nationalPark</string>
       <string>naxianfivehundred-ancientGreek</string>
       <string>nbspace</string>
-      <string>negativeAcknowledge-control</string>
-      <string>newline-control</string>
+      <string>negativeAcknowledgeControl</string>
+      <string>newlineControl</string>
       <string>newlineLeft</string>
       <string>newlineRight</string>
       <string>nine</string>
+      <string>nineOfBamboos-mahjong</string>
+      <string>nineOfCharacters-mahjong</string>
+      <string>nineOfCircles-mahjong</string>
       <string>nine_20E3</string>
       <string>noEntry</string>
       <string>noPiracy</string>
@@ -1114,6 +1107,7 @@
       <string>northWestTriangleArrowToBar</string>
       <string>northWestVineLeaf</string>
       <string>northWestWhiteArrow</string>
+      <string>northWind-mahjong</string>
       <string>northeastPointingAirplane</string>
       <string>notCheckmark</string>
       <string>notchedLeftSemicircleWithThreeDots</string>
@@ -1121,10 +1115,11 @@
       <string>note</string>
       <string>notePad</string>
       <string>notePage</string>
-      <string>null-control</string>
+      <string>nullControl</string>
       <string>numbersign</string>
       <string>numbersign_20E3</string>
       <string>obol-greek</string>
+      <string>observerEyeSymbol</string>
       <string>ocrAmountOfCheck</string>
       <string>ocrBeltBuckle</string>
       <string>ocrBowTie</string>
@@ -1146,6 +1141,9 @@
       <string>oncomingPoliceCar</string>
       <string>one</string>
       <string>oneButtonMouse</string>
+      <string>oneOfBamboos-mahjong</string>
+      <string>oneOfCharacters-mahjong</string>
+      <string>oneOfCircles-mahjong</string>
       <string>one_20E3</string>
       <string>onedrachma-atticGreek</string>
       <string>onehalf-atticGreek</string>
@@ -1170,25 +1168,23 @@
       <string>opticalDisc</string>
       <string>opticalDiscIcon</string>
       <string>optionKey</string>
+      <string>orchid-mahjong</string>
       <string>ounkia-greek</string>
       <string>outboxTray</string>
       <string>outlinedBlackStar</string>
       <string>outlinedGreekCross</string>
       <string>overlap</string>
       <string>oxBack-phaistosDisc</string>
-      <string>oxBack_gobliquestroke-phaistosDisc</string>
       <string>package</string>
       <string>page</string>
       <string>pageWithCircledText</string>
       <string>pager</string>
       <string>pages</string>
       <string>papyrus-phaistosDisc</string>
-      <string>papyrus_gobliquestroke-phaistosDisc</string>
       <string>passengerShip</string>
       <string>pawnBlackChess</string>
       <string>pawnWhiteChess</string>
       <string>pedestrian-phaistosDisc</string>
-      <string>pedestrian_gobliquestroke-phaistosDisc</string>
       <string>penOverStampedEnvelope</string>
       <string>pencil</string>
       <string>performingArts</string>
@@ -1196,9 +1192,8 @@
       <string>pick</string>
       <string>pinwheelStar</string>
       <string>planeTree-phaistosDisc</string>
-      <string>planeTree_gobliquestroke-phaistosDisc</string>
+      <string>plum-mahjong</string>
       <string>plumedHead-phaistosDisc</string>
-      <string>plumedHead_gobliquestroke-phaistosDisc</string>
       <string>pocketCalculator</string>
       <string>portableStereo</string>
       <string>positionIndicator</string>
@@ -1218,8 +1213,8 @@
       <string>raisedHand</string>
       <string>raisedHandWithFingersSplayed</string>
       <string>ram-phaistosDisc</string>
-      <string>ram_gobliquestroke-phaistosDisc</string>
-      <string>recordSeparator-control</string>
+      <string>recordSeparatorControl</string>
+      <string>redDragon-mahjong</string>
       <string>reminderRibbon</string>
       <string>restrictedLeftEntry1</string>
       <string>restrictedLeftEntry2</string>
@@ -1241,6 +1236,7 @@
       <string>ribbonArrowRightUp</string>
       <string>ribbonArrowUpLeft</string>
       <string>ribbonArrowUpRight</string>
+      <string>rifle</string>
       <string>rightAngerBubble</string>
       <string>rightArrow.blackCircled</string>
       <string>rightArrowWithEquilateralArrowhead</string>
@@ -1336,7 +1332,6 @@
       <string>rookWhiteChess</string>
       <string>rosette</string>
       <string>rosette-phaistosDisc</string>
-      <string>rosette_gobliquestroke-phaistosDisc</string>
       <string>rotatedFloralHeartBullet</string>
       <string>rotatedHeavyBlackHeartBullet</string>
       <string>rotatedLightFourPointedBlackCusp</string>
@@ -1348,12 +1343,14 @@
       <string>sansSerifInterrobangOrnament</string>
       <string>satellite</string>
       <string>saw-phaistosDisc</string>
-      <string>saw_gobliquestroke-phaistosDisc</string>
       <string>screen</string>
       <string>scriptLigatureEtOrnament</string>
       <string>semuncia-roman</string>
       <string>sestertius-roman</string>
       <string>seven</string>
+      <string>sevenOfBamboos-mahjong</string>
+      <string>sevenOfCharacters-mahjong</string>
+      <string>sevenOfCircles-mahjong</string>
       <string>seven_20E3</string>
       <string>sextans-roman</string>
       <string>sextula-roman</string>
@@ -1362,11 +1359,9 @@
       <string>shamrock</string>
       <string>shield</string>
       <string>shield-phaistosDisc</string>
-      <string>shield_gobliquestroke-phaistosDisc</string>
-      <string>shiftIn-control</string>
-      <string>shiftOut-control</string>
+      <string>shiftInControl</string>
+      <string>shiftOutControl</string>
       <string>ship-phaistosDisc</string>
-      <string>ship_gobliquestroke-phaistosDisc</string>
       <string>shoppingBags</string>
       <string>shortBackslantedSouthArrow</string>
       <string>shortBentDownThenNorthEastArrow</string>
@@ -1383,6 +1378,9 @@
       <string>siliqua-roman</string>
       <string>sinusoid-greek</string>
       <string>six</string>
+      <string>sixOfBamboos-mahjong</string>
+      <string>sixOfCharacters-mahjong</string>
+      <string>sixOfCircles-mahjong</string>
       <string>sixPetalledBlackAndWhiteFlorette</string>
       <string>sixPointedBlackStar</string>
       <string>sixPointedPinwheelStar</string>
@@ -1393,7 +1391,6 @@
       <string>slantedNorthArrowWithHorizontalTail</string>
       <string>sleuthOrSpy</string>
       <string>sling-phaistosDisc</string>
-      <string>sling_gobliquestroke-phaistosDisc</string>
       <string>snowCappedMountain</string>
       <string>snowboarder</string>
       <string>snowflake</string>
@@ -1401,7 +1398,7 @@
       <string>snowmanWithoutSnow</string>
       <string>soccerBall</string>
       <string>softShellFloppyDisk</string>
-      <string>software-functionsymbol</string>
+      <string>softwareFunctionsymbol</string>
       <string>solidQuiltSquareOrnament</string>
       <string>solidQuiltSquareOrnamentInBlackSquare</string>
       <string>southEastBlackArrow</string>
@@ -1423,12 +1420,13 @@
       <string>southWestTriangleArrowToBar</string>
       <string>southWestVineLeaf</string>
       <string>southWestWhiteArrow</string>
+      <string>southWind-mahjong</string>
       <string>sp_gobliquestr-phaistosDisc</string>
       <string>space</string>
-      <string>space-control</string>
+      <string>spaceControl</string>
       <string>space_20E3</string>
       <string>space_enclosingscreencomb</string>
-      <string>space_u102e0</string>
+      <string>space_u102E0</string>
       <string>spadeBlackSuit</string>
       <string>spadeWhiteSuit</string>
       <string>sparkle</string>
@@ -1441,6 +1439,7 @@
       <string>spiderWeb</string>
       <string>spiralCalendarPad</string>
       <string>spiralNotePad</string>
+      <string>spring-mahjong</string>
       <string>squarePositionIndicator</string>
       <string>squareTarget</string>
       <string>squaredKey</string>
@@ -1448,17 +1447,17 @@
       <string>stadium</string>
       <string>stampedEnvelope</string>
       <string>staroperator</string>
-      <string>startOfHeading-control</string>
-      <string>startOfText-control</string>
+      <string>startOfHeadingControl</string>
+      <string>startOfTextControl</string>
       <string>stockChart</string>
       <string>stopwatch</string>
       <string>strainer-phaistosDisc</string>
-      <string>strainer_gobliquestroke-phaistosDisc</string>
       <string>stratianfiftymnas-ancientGreek</string>
       <string>stressOutlinedWhiteStar</string>
       <string>studioMicrophone</string>
-      <string>substitute-control</string>
-      <string>substituteFormTwo-control</string>
+      <string>substituteControl</string>
+      <string>substituteFormTwoControl</string>
+      <string>summer-mahjong</string>
       <string>sunBehindCloud</string>
       <string>sunSymbol</string>
       <string>sunWithRays</string>
@@ -1466,14 +1465,13 @@
       <string>swashAmpersandOrnament</string>
       <string>swimmer</string>
       <string>symbolForMarksChapter</string>
-      <string>synchronousIdle-control</string>
+      <string>synchronousIdleControl</string>
       <string>tabKeyHorizontal</string>
       <string>tabKeyVertical</string>
       <string>talent-greek</string>
       <string>tapeCartridge</string>
       <string>tapeDrive</string>
       <string>tattooedHead-phaistosDisc</string>
-      <string>tattooedHead_gobliquestroke-phaistosDisc</string>
       <string>tauRho-greek</string>
       <string>teardropSpokedAsterisk</string>
       <string>telephoneLocationSign</string>
@@ -1510,6 +1508,9 @@
       <string>threeLinesConvergingRight</string>
       <string>threeNetworkedComputers</string>
       <string>threeObols-greek</string>
+      <string>threeOfBamboos-mahjong</string>
+      <string>threeOfCharacters-mahjong</string>
+      <string>threeOfCircles-mahjong</string>
       <string>threePointedBlackStar</string>
       <string>threeRaysAbove</string>
       <string>threeRaysBelow</string>
@@ -1524,7 +1525,6 @@
       <string>thunderTrigram</string>
       <string>thunderstorm</string>
       <string>tiara-phaistosDisc</string>
-      <string>tiara_gobliquestroke-phaistosDisc</string>
       <string>tightTrifoliateSnowflake</string>
       <string>timerClock</string>
       <string>topHalfBlackCircle</string>
@@ -1542,7 +1542,6 @@
       <string>trophy</string>
       <string>tryblionBase-greek</string>
       <string>tunny-phaistosDisc</string>
-      <string>tunny_gobliquestroke-phaistosDisc</string>
       <string>turnedBlackPentagon</string>
       <string>turnedBlackShogiPiece</string>
       <string>turnedNorthEastLeaf</string>
@@ -1555,428 +1554,506 @@
       <string>two</string>
       <string>twoButtonMouse</string>
       <string>twoObols-greek</string>
+      <string>twoOfBamboos-mahjong</string>
+      <string>twoOfCharacters-mahjong</string>
+      <string>twoOfCircles-mahjong</string>
       <string>twoSpeechBubbles</string>
       <string>two_20E3</string>
       <string>twothirds-greek</string>
-      <string>u102e0</string>
-      <string>u102e1</string>
-      <string>u102e1_u102e0</string>
-      <string>u102e2</string>
-      <string>u102e2_u102e0</string>
-      <string>u102e3</string>
-      <string>u102e3_u102e0</string>
-      <string>u102e4</string>
-      <string>u102e4_u102e0</string>
-      <string>u102e5</string>
-      <string>u102e5_u102e0</string>
-      <string>u102e6</string>
-      <string>u102e6_u102e0</string>
-      <string>u102e7</string>
-      <string>u102e7_u102e0</string>
-      <string>u102e8</string>
-      <string>u102e8_u102e0</string>
-      <string>u102e9</string>
-      <string>u102e9_u102e0</string>
-      <string>u102ea</string>
-      <string>u102ea_u102e0</string>
-      <string>u102eb</string>
-      <string>u102eb_u102e0</string>
-      <string>u102ec</string>
-      <string>u102ec_u102e0</string>
-      <string>u102ed</string>
-      <string>u102ed_u102e0</string>
-      <string>u102ee</string>
-      <string>u102ee_u102e0</string>
-      <string>u102ef</string>
-      <string>u102ef_u102e0</string>
-      <string>u102f0</string>
-      <string>u102f0_u102e0</string>
-      <string>u102f1</string>
-      <string>u102f1_u102e0</string>
-      <string>u102f2</string>
-      <string>u102f2_u102e0</string>
-      <string>u102f3</string>
-      <string>u102f3_u102e0</string>
-      <string>u102f4</string>
-      <string>u102f4_u102e0</string>
-      <string>u102f5</string>
-      <string>u102f5_u102e0</string>
-      <string>u102f6</string>
-      <string>u102f6_u102e0</string>
-      <string>u102f7</string>
-      <string>u102f7_u102e0</string>
-      <string>u102f8</string>
-      <string>u102f8_u102e0</string>
-      <string>u102f9</string>
-      <string>u102f9_u102e0</string>
-      <string>u102fa</string>
-      <string>u102fa_u102e0</string>
-      <string>u102fb</string>
-      <string>u102fb_u102e0</string>
-      <string>u10e60</string>
-      <string>u10e61</string>
-      <string>u10e62</string>
-      <string>u10e63</string>
-      <string>u10e64</string>
-      <string>u10e65</string>
-      <string>u10e66</string>
-      <string>u10e67</string>
-      <string>u10e68</string>
-      <string>u10e69</string>
-      <string>u10e6a</string>
-      <string>u10e6b</string>
-      <string>u10e6c</string>
-      <string>u10e6d</string>
-      <string>u10e6e</string>
-      <string>u10e6f</string>
-      <string>u10e70</string>
-      <string>u10e71</string>
-      <string>u10e72</string>
-      <string>u10e73</string>
-      <string>u10e74</string>
-      <string>u10e75</string>
-      <string>u10e76</string>
-      <string>u10e77</string>
-      <string>u10e78</string>
-      <string>u10e79</string>
-      <string>u10e7a</string>
-      <string>u10e7b</string>
-      <string>u10e7c</string>
-      <string>u10e7d</string>
-      <string>u10e7e</string>
-      <string>u1d300</string>
-      <string>u1d301</string>
-      <string>u1d302</string>
-      <string>u1d303</string>
-      <string>u1d304</string>
-      <string>u1d305</string>
-      <string>u1d306</string>
-      <string>u1d307</string>
-      <string>u1d308</string>
-      <string>u1d309</string>
-      <string>u1d30a</string>
-      <string>u1d30b</string>
-      <string>u1d30c</string>
-      <string>u1d30d</string>
-      <string>u1d30e</string>
-      <string>u1d30f</string>
-      <string>u1d310</string>
-      <string>u1d311</string>
-      <string>u1d312</string>
-      <string>u1d313</string>
-      <string>u1d314</string>
-      <string>u1d315</string>
-      <string>u1d316</string>
-      <string>u1d317</string>
-      <string>u1d318</string>
-      <string>u1d319</string>
-      <string>u1d31a</string>
-      <string>u1d31b</string>
-      <string>u1d31c</string>
-      <string>u1d31d</string>
-      <string>u1d31e</string>
-      <string>u1d31f</string>
-      <string>u1d320</string>
-      <string>u1d321</string>
-      <string>u1d322</string>
-      <string>u1d323</string>
-      <string>u1d324</string>
-      <string>u1d325</string>
-      <string>u1d326</string>
-      <string>u1d327</string>
-      <string>u1d328</string>
-      <string>u1d329</string>
-      <string>u1d32a</string>
-      <string>u1d32b</string>
-      <string>u1d32c</string>
-      <string>u1d32d</string>
-      <string>u1d32e</string>
-      <string>u1d32f</string>
-      <string>u1d330</string>
-      <string>u1d331</string>
-      <string>u1d332</string>
-      <string>u1d333</string>
-      <string>u1d334</string>
-      <string>u1d335</string>
-      <string>u1d336</string>
-      <string>u1d337</string>
-      <string>u1d338</string>
-      <string>u1d339</string>
-      <string>u1d33a</string>
-      <string>u1d33b</string>
-      <string>u1d33c</string>
-      <string>u1d33d</string>
-      <string>u1d33e</string>
-      <string>u1d33f</string>
-      <string>u1d340</string>
-      <string>u1d341</string>
-      <string>u1d342</string>
-      <string>u1d343</string>
-      <string>u1d344</string>
-      <string>u1d345</string>
-      <string>u1d346</string>
-      <string>u1d347</string>
-      <string>u1d348</string>
-      <string>u1d349</string>
-      <string>u1d34a</string>
-      <string>u1d34b</string>
-      <string>u1d34c</string>
-      <string>u1d34d</string>
-      <string>u1d34e</string>
-      <string>u1d34f</string>
-      <string>u1d350</string>
-      <string>u1d351</string>
-      <string>u1d352</string>
-      <string>u1d353</string>
-      <string>u1d354</string>
-      <string>u1d355</string>
-      <string>u1d356</string>
-      <string>u1d360</string>
-      <string>u1d361</string>
-      <string>u1d362</string>
-      <string>u1d363</string>
-      <string>u1d364</string>
-      <string>u1d365</string>
-      <string>u1d366</string>
-      <string>u1d367</string>
-      <string>u1d368</string>
-      <string>u1d369</string>
-      <string>u1d36a</string>
-      <string>u1d36b</string>
-      <string>u1d36c</string>
-      <string>u1d36d</string>
-      <string>u1d36e</string>
-      <string>u1d36f</string>
-      <string>u1d370</string>
-      <string>u1d371</string>
-      <string>u1f000</string>
-      <string>u1f001</string>
-      <string>u1f002</string>
-      <string>u1f003</string>
-      <string>u1f004</string>
-      <string>u1f005</string>
-      <string>u1f006</string>
-      <string>u1f007</string>
-      <string>u1f008</string>
-      <string>u1f009</string>
-      <string>u1f00a</string>
-      <string>u1f00b</string>
-      <string>u1f00c</string>
-      <string>u1f00d</string>
-      <string>u1f00e</string>
-      <string>u1f00f</string>
-      <string>u1f010</string>
-      <string>u1f011</string>
-      <string>u1f012</string>
-      <string>u1f013</string>
-      <string>u1f014</string>
-      <string>u1f015</string>
-      <string>u1f016</string>
-      <string>u1f017</string>
-      <string>u1f018</string>
-      <string>u1f019</string>
-      <string>u1f01a</string>
-      <string>u1f01b</string>
-      <string>u1f01c</string>
-      <string>u1f01d</string>
-      <string>u1f01e</string>
-      <string>u1f01f</string>
-      <string>u1f020</string>
-      <string>u1f021</string>
-      <string>u1f022</string>
-      <string>u1f023</string>
-      <string>u1f024</string>
-      <string>u1f025</string>
-      <string>u1f026</string>
-      <string>u1f027</string>
-      <string>u1f028</string>
-      <string>u1f029</string>
-      <string>u1f02a</string>
-      <string>u1f02b</string>
-      <string>u1f030</string>
-      <string>u1f031</string>
-      <string>u1f032</string>
-      <string>u1f033</string>
-      <string>u1f034</string>
-      <string>u1f035</string>
-      <string>u1f036</string>
-      <string>u1f037</string>
-      <string>u1f038</string>
-      <string>u1f039</string>
-      <string>u1f03a</string>
-      <string>u1f03b</string>
-      <string>u1f03c</string>
-      <string>u1f03d</string>
-      <string>u1f03e</string>
-      <string>u1f03f</string>
-      <string>u1f040</string>
-      <string>u1f041</string>
-      <string>u1f042</string>
-      <string>u1f043</string>
-      <string>u1f044</string>
-      <string>u1f045</string>
-      <string>u1f046</string>
-      <string>u1f047</string>
-      <string>u1f048</string>
-      <string>u1f049</string>
-      <string>u1f04a</string>
-      <string>u1f04b</string>
-      <string>u1f04c</string>
-      <string>u1f04d</string>
-      <string>u1f04e</string>
-      <string>u1f04f</string>
-      <string>u1f050</string>
-      <string>u1f051</string>
-      <string>u1f052</string>
-      <string>u1f053</string>
-      <string>u1f054</string>
-      <string>u1f055</string>
-      <string>u1f056</string>
-      <string>u1f057</string>
-      <string>u1f058</string>
-      <string>u1f059</string>
-      <string>u1f05a</string>
-      <string>u1f05b</string>
-      <string>u1f05c</string>
-      <string>u1f05d</string>
-      <string>u1f05e</string>
-      <string>u1f05f</string>
-      <string>u1f060</string>
-      <string>u1f061</string>
-      <string>u1f062</string>
-      <string>u1f063</string>
-      <string>u1f064</string>
-      <string>u1f065</string>
-      <string>u1f066</string>
-      <string>u1f067</string>
-      <string>u1f068</string>
-      <string>u1f069</string>
-      <string>u1f06a</string>
-      <string>u1f06b</string>
-      <string>u1f06c</string>
-      <string>u1f06d</string>
-      <string>u1f06e</string>
-      <string>u1f06f</string>
-      <string>u1f070</string>
-      <string>u1f071</string>
-      <string>u1f072</string>
-      <string>u1f073</string>
-      <string>u1f074</string>
-      <string>u1f075</string>
-      <string>u1f076</string>
-      <string>u1f077</string>
-      <string>u1f078</string>
-      <string>u1f079</string>
-      <string>u1f07a</string>
-      <string>u1f07b</string>
-      <string>u1f07c</string>
-      <string>u1f07d</string>
-      <string>u1f07e</string>
-      <string>u1f07f</string>
-      <string>u1f080</string>
-      <string>u1f081</string>
-      <string>u1f082</string>
-      <string>u1f083</string>
-      <string>u1f084</string>
-      <string>u1f085</string>
-      <string>u1f086</string>
-      <string>u1f087</string>
-      <string>u1f088</string>
-      <string>u1f089</string>
-      <string>u1f08a</string>
-      <string>u1f08b</string>
-      <string>u1f08c</string>
-      <string>u1f08d</string>
-      <string>u1f08e</string>
-      <string>u1f08f</string>
-      <string>u1f090</string>
-      <string>u1f091</string>
-      <string>u1f092</string>
-      <string>u1f093</string>
-      <string>u1f0a0</string>
-      <string>u1f0a1</string>
-      <string>u1f0a2</string>
-      <string>u1f0a3</string>
-      <string>u1f0a4</string>
-      <string>u1f0a5</string>
-      <string>u1f0a6</string>
-      <string>u1f0a7</string>
-      <string>u1f0a8</string>
-      <string>u1f0a9</string>
-      <string>u1f0aa</string>
-      <string>u1f0ab</string>
-      <string>u1f0ac</string>
-      <string>u1f0ad</string>
-      <string>u1f0ae</string>
-      <string>u1f0b1</string>
-      <string>u1f0b2</string>
-      <string>u1f0b3</string>
-      <string>u1f0b4</string>
-      <string>u1f0b5</string>
-      <string>u1f0b6</string>
-      <string>u1f0b7</string>
-      <string>u1f0b8</string>
-      <string>u1f0b9</string>
-      <string>u1f0ba</string>
-      <string>u1f0bb</string>
-      <string>u1f0bc</string>
-      <string>u1f0bd</string>
-      <string>u1f0be</string>
-      <string>u1f0bf</string>
-      <string>u1f0c1</string>
-      <string>u1f0c2</string>
-      <string>u1f0c3</string>
-      <string>u1f0c4</string>
-      <string>u1f0c5</string>
-      <string>u1f0c6</string>
-      <string>u1f0c7</string>
-      <string>u1f0c8</string>
-      <string>u1f0c9</string>
-      <string>u1f0ca</string>
-      <string>u1f0cb</string>
-      <string>u1f0cc</string>
-      <string>u1f0cd</string>
-      <string>u1f0ce</string>
-      <string>u1f0cf</string>
-      <string>u1f0d1</string>
-      <string>u1f0d2</string>
-      <string>u1f0d3</string>
-      <string>u1f0d4</string>
-      <string>u1f0d5</string>
-      <string>u1f0d6</string>
-      <string>u1f0d7</string>
-      <string>u1f0d8</string>
-      <string>u1f0d9</string>
-      <string>u1f0da</string>
-      <string>u1f0db</string>
-      <string>u1f0dc</string>
-      <string>u1f0dd</string>
-      <string>u1f0de</string>
-      <string>u1f0df</string>
-      <string>u1f0e0</string>
-      <string>u1f0e1</string>
-      <string>u1f0e2</string>
-      <string>u1f0e3</string>
-      <string>u1f0e4</string>
-      <string>u1f0e5</string>
-      <string>u1f0e6</string>
-      <string>u1f0e7</string>
-      <string>u1f0e8</string>
-      <string>u1f0e9</string>
-      <string>u1f0ea</string>
-      <string>u1f0eb</string>
-      <string>u1f0ec</string>
-      <string>u1f0ed</string>
-      <string>u1f0ee</string>
-      <string>u1f0ef</string>
-      <string>u1f0f0</string>
-      <string>u1f0f1</string>
-      <string>u1f0f2</string>
-      <string>u1f0f3</string>
-      <string>u1f0f4</string>
-      <string>u1f0f5</string>
-      <string>u1f93b</string>
-      <string>u1f946</string>
+      <string>u102E0</string>
+      <string>u102E1</string>
+      <string>u102E2</string>
+      <string>u102E3</string>
+      <string>u102E4</string>
+      <string>u102E5</string>
+      <string>u102E6</string>
+      <string>u102E7</string>
+      <string>u102E8</string>
+      <string>u102E9</string>
+      <string>u102EA</string>
+      <string>u102EB</string>
+      <string>u102EC</string>
+      <string>u102ED</string>
+      <string>u102EE</string>
+      <string>u102EF</string>
+      <string>u102F0</string>
+      <string>u102F1</string>
+      <string>u102F2</string>
+      <string>u102F3</string>
+      <string>u102F4</string>
+      <string>u102F5</string>
+      <string>u102F6</string>
+      <string>u102F7</string>
+      <string>u102F8</string>
+      <string>u102F9</string>
+      <string>u102FA</string>
+      <string>u102FB</string>
+      <string>u10E60</string>
+      <string>u10E61</string>
+      <string>u10E62</string>
+      <string>u10E63</string>
+      <string>u10E64</string>
+      <string>u10E65</string>
+      <string>u10E66</string>
+      <string>u10E67</string>
+      <string>u10E68</string>
+      <string>u10E69</string>
+      <string>u10E6A</string>
+      <string>u10E6B</string>
+      <string>u10E6C</string>
+      <string>u10E6D</string>
+      <string>u10E6E</string>
+      <string>u10E6F</string>
+      <string>u10E70</string>
+      <string>u10E71</string>
+      <string>u10E72</string>
+      <string>u10E73</string>
+      <string>u10E74</string>
+      <string>u10E75</string>
+      <string>u10E76</string>
+      <string>u10E77</string>
+      <string>u10E78</string>
+      <string>u10E79</string>
+      <string>u10E7A</string>
+      <string>u10E7B</string>
+      <string>u10E7C</string>
+      <string>u10E7D</string>
+      <string>u10E7E</string>
+      <string>u1D2E0</string>
+      <string>u1D2E1</string>
+      <string>u1D2E2</string>
+      <string>u1D2E3</string>
+      <string>u1D2E4</string>
+      <string>u1D2E5</string>
+      <string>u1D2E6</string>
+      <string>u1D2E7</string>
+      <string>u1D2E8</string>
+      <string>u1D2E9</string>
+      <string>u1D2EA</string>
+      <string>u1D2EB</string>
+      <string>u1D2EC</string>
+      <string>u1D2ED</string>
+      <string>u1D2EE</string>
+      <string>u1D2EF</string>
+      <string>u1D2F0</string>
+      <string>u1D2F1</string>
+      <string>u1D2F2</string>
+      <string>u1D2F3</string>
+      <string>u1D300</string>
+      <string>u1D301</string>
+      <string>u1D302</string>
+      <string>u1D303</string>
+      <string>u1D304</string>
+      <string>u1D305</string>
+      <string>u1D306</string>
+      <string>u1D307</string>
+      <string>u1D308</string>
+      <string>u1D309</string>
+      <string>u1D30A</string>
+      <string>u1D30B</string>
+      <string>u1D30C</string>
+      <string>u1D30D</string>
+      <string>u1D30E</string>
+      <string>u1D30F</string>
+      <string>u1D310</string>
+      <string>u1D311</string>
+      <string>u1D312</string>
+      <string>u1D313</string>
+      <string>u1D314</string>
+      <string>u1D315</string>
+      <string>u1D316</string>
+      <string>u1D317</string>
+      <string>u1D318</string>
+      <string>u1D319</string>
+      <string>u1D31A</string>
+      <string>u1D31B</string>
+      <string>u1D31C</string>
+      <string>u1D31D</string>
+      <string>u1D31E</string>
+      <string>u1D31F</string>
+      <string>u1D320</string>
+      <string>u1D321</string>
+      <string>u1D322</string>
+      <string>u1D323</string>
+      <string>u1D324</string>
+      <string>u1D325</string>
+      <string>u1D326</string>
+      <string>u1D327</string>
+      <string>u1D328</string>
+      <string>u1D329</string>
+      <string>u1D32A</string>
+      <string>u1D32B</string>
+      <string>u1D32C</string>
+      <string>u1D32D</string>
+      <string>u1D32E</string>
+      <string>u1D32F</string>
+      <string>u1D330</string>
+      <string>u1D331</string>
+      <string>u1D332</string>
+      <string>u1D333</string>
+      <string>u1D334</string>
+      <string>u1D335</string>
+      <string>u1D336</string>
+      <string>u1D337</string>
+      <string>u1D338</string>
+      <string>u1D339</string>
+      <string>u1D33A</string>
+      <string>u1D33B</string>
+      <string>u1D33C</string>
+      <string>u1D33D</string>
+      <string>u1D33E</string>
+      <string>u1D33F</string>
+      <string>u1D340</string>
+      <string>u1D341</string>
+      <string>u1D342</string>
+      <string>u1D343</string>
+      <string>u1D344</string>
+      <string>u1D345</string>
+      <string>u1D346</string>
+      <string>u1D347</string>
+      <string>u1D348</string>
+      <string>u1D349</string>
+      <string>u1D34A</string>
+      <string>u1D34B</string>
+      <string>u1D34C</string>
+      <string>u1D34D</string>
+      <string>u1D34E</string>
+      <string>u1D34F</string>
+      <string>u1D350</string>
+      <string>u1D351</string>
+      <string>u1D352</string>
+      <string>u1D353</string>
+      <string>u1D354</string>
+      <string>u1D355</string>
+      <string>u1D356</string>
+      <string>u1D360</string>
+      <string>u1D361</string>
+      <string>u1D362</string>
+      <string>u1D363</string>
+      <string>u1D364</string>
+      <string>u1D365</string>
+      <string>u1D366</string>
+      <string>u1D367</string>
+      <string>u1D368</string>
+      <string>u1D369</string>
+      <string>u1D36A</string>
+      <string>u1D36B</string>
+      <string>u1D36C</string>
+      <string>u1D36D</string>
+      <string>u1D36E</string>
+      <string>u1D36F</string>
+      <string>u1D370</string>
+      <string>u1D371</string>
+      <string>u1D372</string>
+      <string>u1D373</string>
+      <string>u1D374</string>
+      <string>u1D375</string>
+      <string>u1D376</string>
+      <string>u1D377</string>
+      <string>u1D378</string>
+      <string>u1F030</string>
+      <string>u1F031</string>
+      <string>u1F032</string>
+      <string>u1F033</string>
+      <string>u1F034</string>
+      <string>u1F035</string>
+      <string>u1F036</string>
+      <string>u1F037</string>
+      <string>u1F038</string>
+      <string>u1F039</string>
+      <string>u1F03A</string>
+      <string>u1F03B</string>
+      <string>u1F03C</string>
+      <string>u1F03D</string>
+      <string>u1F03E</string>
+      <string>u1F03F</string>
+      <string>u1F040</string>
+      <string>u1F041</string>
+      <string>u1F042</string>
+      <string>u1F043</string>
+      <string>u1F044</string>
+      <string>u1F045</string>
+      <string>u1F046</string>
+      <string>u1F047</string>
+      <string>u1F048</string>
+      <string>u1F049</string>
+      <string>u1F04A</string>
+      <string>u1F04B</string>
+      <string>u1F04C</string>
+      <string>u1F04D</string>
+      <string>u1F04E</string>
+      <string>u1F04F</string>
+      <string>u1F050</string>
+      <string>u1F051</string>
+      <string>u1F052</string>
+      <string>u1F053</string>
+      <string>u1F054</string>
+      <string>u1F055</string>
+      <string>u1F056</string>
+      <string>u1F057</string>
+      <string>u1F058</string>
+      <string>u1F059</string>
+      <string>u1F05A</string>
+      <string>u1F05B</string>
+      <string>u1F05C</string>
+      <string>u1F05D</string>
+      <string>u1F05E</string>
+      <string>u1F05F</string>
+      <string>u1F060</string>
+      <string>u1F061</string>
+      <string>u1F062</string>
+      <string>u1F063</string>
+      <string>u1F064</string>
+      <string>u1F065</string>
+      <string>u1F066</string>
+      <string>u1F067</string>
+      <string>u1F068</string>
+      <string>u1F069</string>
+      <string>u1F06A</string>
+      <string>u1F06B</string>
+      <string>u1F06C</string>
+      <string>u1F06D</string>
+      <string>u1F06E</string>
+      <string>u1F06F</string>
+      <string>u1F070</string>
+      <string>u1F071</string>
+      <string>u1F072</string>
+      <string>u1F073</string>
+      <string>u1F074</string>
+      <string>u1F075</string>
+      <string>u1F076</string>
+      <string>u1F077</string>
+      <string>u1F078</string>
+      <string>u1F079</string>
+      <string>u1F07A</string>
+      <string>u1F07B</string>
+      <string>u1F07C</string>
+      <string>u1F07D</string>
+      <string>u1F07E</string>
+      <string>u1F07F</string>
+      <string>u1F080</string>
+      <string>u1F081</string>
+      <string>u1F082</string>
+      <string>u1F083</string>
+      <string>u1F084</string>
+      <string>u1F085</string>
+      <string>u1F086</string>
+      <string>u1F087</string>
+      <string>u1F088</string>
+      <string>u1F089</string>
+      <string>u1F08A</string>
+      <string>u1F08B</string>
+      <string>u1F08C</string>
+      <string>u1F08D</string>
+      <string>u1F08E</string>
+      <string>u1F08F</string>
+      <string>u1F090</string>
+      <string>u1F091</string>
+      <string>u1F092</string>
+      <string>u1F093</string>
+      <string>u1F0A0</string>
+      <string>u1F0A1</string>
+      <string>u1F0A2</string>
+      <string>u1F0A3</string>
+      <string>u1F0A4</string>
+      <string>u1F0A5</string>
+      <string>u1F0A6</string>
+      <string>u1F0A7</string>
+      <string>u1F0A8</string>
+      <string>u1F0A9</string>
+      <string>u1F0AA</string>
+      <string>u1F0AB</string>
+      <string>u1F0AC</string>
+      <string>u1F0AD</string>
+      <string>u1F0AE</string>
+      <string>u1F0B1</string>
+      <string>u1F0B2</string>
+      <string>u1F0B3</string>
+      <string>u1F0B4</string>
+      <string>u1F0B5</string>
+      <string>u1F0B6</string>
+      <string>u1F0B7</string>
+      <string>u1F0B8</string>
+      <string>u1F0B9</string>
+      <string>u1F0BA</string>
+      <string>u1F0BB</string>
+      <string>u1F0BC</string>
+      <string>u1F0BD</string>
+      <string>u1F0BE</string>
+      <string>u1F0BF</string>
+      <string>u1F0C1</string>
+      <string>u1F0C2</string>
+      <string>u1F0C3</string>
+      <string>u1F0C4</string>
+      <string>u1F0C5</string>
+      <string>u1F0C6</string>
+      <string>u1F0C7</string>
+      <string>u1F0C8</string>
+      <string>u1F0C9</string>
+      <string>u1F0CA</string>
+      <string>u1F0CB</string>
+      <string>u1F0CC</string>
+      <string>u1F0CD</string>
+      <string>u1F0CE</string>
+      <string>u1F0CF</string>
+      <string>u1F0D1</string>
+      <string>u1F0D2</string>
+      <string>u1F0D3</string>
+      <string>u1F0D4</string>
+      <string>u1F0D5</string>
+      <string>u1F0D6</string>
+      <string>u1F0D7</string>
+      <string>u1F0D8</string>
+      <string>u1F0D9</string>
+      <string>u1F0DA</string>
+      <string>u1F0DB</string>
+      <string>u1F0DC</string>
+      <string>u1F0DD</string>
+      <string>u1F0DE</string>
+      <string>u1F0DF</string>
+      <string>u1F0E0</string>
+      <string>u1F0E1</string>
+      <string>u1F0E2</string>
+      <string>u1F0E3</string>
+      <string>u1F0E4</string>
+      <string>u1F0E5</string>
+      <string>u1F0E6</string>
+      <string>u1F0E7</string>
+      <string>u1F0E8</string>
+      <string>u1F0E9</string>
+      <string>u1F0EA</string>
+      <string>u1F0EB</string>
+      <string>u1F0EC</string>
+      <string>u1F0ED</string>
+      <string>u1F0EE</string>
+      <string>u1F0EF</string>
+      <string>u1F0F0</string>
+      <string>u1F0F1</string>
+      <string>u1F0F2</string>
+      <string>u1F0F3</string>
+      <string>u1F0F4</string>
+      <string>u1F0F5</string>
+      <string>u1F6D3</string>
+      <string>u1F6D4</string>
+      <string>u1F6D5</string>
+      <string>u1F6F7</string>
+      <string>u1F6F8</string>
+      <string>u1F6F9</string>
+      <string>u1F6FA</string>
+      <string>u1F7D5</string>
+      <string>u1F7D6</string>
+      <string>u1F7D7</string>
+      <string>u1F7D8</string>
+      <string>u1F7E0</string>
+      <string>u1F7E1</string>
+      <string>u1F7E2</string>
+      <string>u1F7E3</string>
+      <string>u1F7E4</string>
+      <string>u1F7E5</string>
+      <string>u1F7E6</string>
+      <string>u1F7E7</string>
+      <string>u1F7E8</string>
+      <string>u1F7E9</string>
+      <string>u1F7EA</string>
+      <string>u1F7EB</string>
+      <string>u1FA00</string>
+      <string>u1FA01</string>
+      <string>u1FA02</string>
+      <string>u1FA03</string>
+      <string>u1FA04</string>
+      <string>u1FA05</string>
+      <string>u1FA06</string>
+      <string>u1FA07</string>
+      <string>u1FA08</string>
+      <string>u1FA09</string>
+      <string>u1FA0A</string>
+      <string>u1FA0B</string>
+      <string>u1FA0C</string>
+      <string>u1FA0D</string>
+      <string>u1FA0E</string>
+      <string>u1FA0F</string>
+      <string>u1FA10</string>
+      <string>u1FA11</string>
+      <string>u1FA12</string>
+      <string>u1FA13</string>
+      <string>u1FA14</string>
+      <string>u1FA15</string>
+      <string>u1FA16</string>
+      <string>u1FA17</string>
+      <string>u1FA18</string>
+      <string>u1FA19</string>
+      <string>u1FA1A</string>
+      <string>u1FA1B</string>
+      <string>u1FA1C</string>
+      <string>u1FA1D</string>
+      <string>u1FA1E</string>
+      <string>u1FA1F</string>
+      <string>u1FA20</string>
+      <string>u1FA21</string>
+      <string>u1FA22</string>
+      <string>u1FA23</string>
+      <string>u1FA24</string>
+      <string>u1FA25</string>
+      <string>u1FA26</string>
+      <string>u1FA27</string>
+      <string>u1FA28</string>
+      <string>u1FA29</string>
+      <string>u1FA2A</string>
+      <string>u1FA2B</string>
+      <string>u1FA2C</string>
+      <string>u1FA2D</string>
+      <string>u1FA2E</string>
+      <string>u1FA2F</string>
+      <string>u1FA30</string>
+      <string>u1FA31</string>
+      <string>u1FA32</string>
+      <string>u1FA33</string>
+      <string>u1FA34</string>
+      <string>u1FA35</string>
+      <string>u1FA36</string>
+      <string>u1FA37</string>
+      <string>u1FA38</string>
+      <string>u1FA39</string>
+      <string>u1FA3A</string>
+      <string>u1FA3B</string>
+      <string>u1FA3C</string>
+      <string>u1FA3D</string>
+      <string>u1FA3E</string>
+      <string>u1FA3F</string>
+      <string>u1FA40</string>
+      <string>u1FA41</string>
+      <string>u1FA42</string>
+      <string>u1FA43</string>
+      <string>u1FA44</string>
+      <string>u1FA45</string>
+      <string>u1FA46</string>
+      <string>u1FA47</string>
+      <string>u1FA48</string>
+      <string>u1FA49</string>
+      <string>u1FA4A</string>
+      <string>u1FA4B</string>
+      <string>u1FA4C</string>
+      <string>u1FA4D</string>
+      <string>u1FA4E</string>
+      <string>u1FA4F</string>
+      <string>u1FA50</string>
+      <string>u1FA51</string>
+      <string>u1FA52</string>
+      <string>u1FA53</string>
+      <string>u1FA60</string>
+      <string>u1FA61</string>
+      <string>u1FA62</string>
+      <string>u1FA63</string>
+      <string>u1FA64</string>
+      <string>u1FA65</string>
+      <string>u1FA66</string>
+      <string>u1FA67</string>
+      <string>u1FA68</string>
+      <string>u1FA69</string>
+      <string>u1FA6A</string>
+      <string>u1FA6B</string>
+      <string>u1FA6C</string>
+      <string>u1FA6D</string>
       <string>umbrella</string>
       <string>umbrellaWithRainDrops</string>
       <string>uncertaintySign</string>
@@ -2047,10 +2124,55 @@
       <string>uni23FC</string>
       <string>uni23FD</string>
       <string>uni23FE</string>
+      <string>uni2BBA</string>
+      <string>uni2BBB</string>
+      <string>uni2BBC</string>
+      <string>uni2BC9</string>
+      <string>uni2BD2</string>
+      <string>uni2BD3</string>
+      <string>uni2BD4</string>
+      <string>uni2BD5</string>
+      <string>uni2BD6</string>
+      <string>uni2BD7</string>
+      <string>uni2BD8</string>
+      <string>uni2BD9</string>
+      <string>uni2BDA</string>
+      <string>uni2BDB</string>
+      <string>uni2BDC</string>
+      <string>uni2BDD</string>
+      <string>uni2BDE</string>
+      <string>uni2BDF</string>
+      <string>uni2BE0</string>
+      <string>uni2BE1</string>
+      <string>uni2BE2</string>
+      <string>uni2BE3</string>
+      <string>uni2BE4</string>
+      <string>uni2BE5</string>
+      <string>uni2BE6</string>
+      <string>uni2BE7</string>
+      <string>uni2BE8</string>
+      <string>uni2BE9</string>
+      <string>uni2BEA</string>
+      <string>uni2BEB</string>
       <string>uni2BEC</string>
       <string>uni2BED</string>
       <string>uni2BEE</string>
       <string>uni2BEF</string>
+      <string>uni2BF0</string>
+      <string>uni2BF1</string>
+      <string>uni2BF2</string>
+      <string>uni2BF3</string>
+      <string>uni2BF4</string>
+      <string>uni2BF5</string>
+      <string>uni2BF6</string>
+      <string>uni2BF7</string>
+      <string>uni2BF8</string>
+      <string>uni2BF9</string>
+      <string>uni2BFA</string>
+      <string>uni2BFB</string>
+      <string>uni2BFC</string>
+      <string>uni2BFD</string>
+      <string>uni2BFF</string>
       <string>uni4DC0</string>
       <string>uni4DC1</string>
       <string>uni4DC2</string>
@@ -2115,7 +2237,7 @@
       <string>uni4DFD</string>
       <string>uni4DFE</string>
       <string>uni4DFF</string>
-      <string>unitSeparator-control</string>
+      <string>unitSeparatorControl</string>
       <string>upArrow.blackCircled</string>
       <string>upArrowOnPedestalHorizontalWhiteBar</string>
       <string>upArrowOnPedestalVerticalWhiteBar</string>
@@ -2195,7 +2317,7 @@
       <string>verticalBisectingLineWhiteSquare</string>
       <string>verticalFillCircle</string>
       <string>verticalFillSquare</string>
-      <string>verticalTabulation-control</string>
+      <string>verticalTabulationControl</string>
       <string>verticallinemiddledot</string>
       <string>veryBoldGreekCross</string>
       <string>veryHeavyEightPointedBlackStar</string>
@@ -2212,15 +2334,14 @@
       <string>videoCamera</string>
       <string>videoGame</string>
       <string>vine-phaistosDisc</string>
-      <string>vine_gobliquestroke-phaistosDisc</string>
       <string>warningSign</string>
       <string>wastebasket</string>
       <string>watch</string>
       <string>waterTrigram</string>
       <string>wavingWhiteFlag</string>
       <string>wavyBand-phaistosDisc</string>
-      <string>wavyBand_gobliquestroke-phaistosDisc</string>
       <string>weightLifter</string>
+      <string>westWind-mahjong</string>
       <string>wheelchairSymbol</string>
       <string>whiteArrowShaftWidthOne</string>
       <string>whiteArrowShaftWidthTwoThirds</string>
@@ -2235,6 +2356,7 @@
       <string>whiteDiamondWithBlackVerySmallDiamond</string>
       <string>whiteDownBackhandIndex</string>
       <string>whiteDownLeftHandIndex</string>
+      <string>whiteDragon-mahjong</string>
       <string>whiteDraughtsKing</string>
       <string>whiteDraughtsMan</string>
       <string>whiteFlorette</string>
@@ -2327,9 +2449,9 @@
       <string>wideHeadedUpVeryHeavyBarbArrow</string>
       <string>windBlowingFace</string>
       <string>windTrigram</string>
+      <string>winter-mahjong</string>
       <string>wiredKeyboard</string>
       <string>woman-phaistosDisc</string>
-      <string>woman_gobliquestroke-phaistosDisc</string>
       <string>womensSymbol</string>
       <string>worldMap</string>
       <string>writingHand</string>
@@ -2342,8 +2464,8 @@
     </array>
     <key>public.postscriptNames</key>
     <dict>
-      <key>acknowledge-control</key>
-      <string>acknowledgecontrol</string>
+      <key>acknowledgeControl</key>
+      <string>uni2406</string>
       <key>admissionTickets</key>
       <string>u1F39F</string>
       <key>airplane</key>
@@ -2368,26 +2490,26 @@
       <string>u10187</string>
       <key>arrow-phaistosDisc</key>
       <string>u101D9</string>
-      <key>arrow_gobliquestroke-phaistosDisc</key>
-      <string>arrow_gobliquestrokephaistosDisc</string>
       <key>artabe-greek</key>
       <string>u10186</string>
       <key>as-roman</key>
       <string>u1019A</string>
+      <key>autumn-mahjong</key>
+      <string>autumnmahjong</string>
       <key>axe-phaistosDisc</key>
       <string>u101FB</string>
-      <key>axe_gobliquestroke-phaistosDisc</key>
-      <string>axe_gobliquestrokephaistosDisc</string>
       <key>babySymbol</key>
       <string>u1F6BC</string>
+      <key>back-mahjong</key>
+      <string>backmahjong</string>
       <key>backOfEnvelope</key>
       <string>u1F582</string>
       <key>backslantedSouthArrowWithHookedTail</key>
       <string>uni2B5B</string>
       <key>backslantedSouthArrowWithHorizontalTail</key>
       <string>uni2B5D</string>
-      <key>backspace-control</key>
-      <string>backspacecontrol</string>
+      <key>backspaceControl</key>
+      <string>uni2408</string>
       <key>balloonSpokedAsterisk</key>
       <string>uni2749</string>
       <key>ballotBoldScriptX</key>
@@ -2412,6 +2534,8 @@
       <string>u1F5F4</string>
       <key>ballotX</key>
       <string>uni2717</string>
+      <key>bamboo-mahjong</key>
+      <string>bamboomahjong</string>
       <key>barChart</key>
       <string>u1F4CA</string>
       <key>baseball</key>
@@ -2426,14 +2550,10 @@
       <string>u1F6CF</string>
       <key>bee-phaistosDisc</key>
       <string>u101F1</string>
-      <key>bee_gobliquestroke-phaistosDisc</key>
-      <string>bee_gobliquestrokephaistosDisc</string>
       <key>beehive-phaistosDisc</key>
       <string>u101E7</string>
-      <key>beehive_gobliquestroke-phaistosDisc</key>
-      <string>beehive_gobliquestrokephaistosDisc</string>
-      <key>bell-control</key>
-      <string>bellcontrol</string>
+      <key>bellControl</key>
+      <string>uni2407</string>
       <key>bellhopBell</key>
       <string>u1F6CE</string>
       <key>bellsymbol</key>
@@ -2666,8 +2786,6 @@
       <string>u1F4DA</string>
       <key>boomerang-phaistosDisc</key>
       <string>u101E1</string>
-      <key>boomerang_gobliquestroke-phaistosDisc</key>
-      <string>boomerang_gobliquestrokephaistosDisc</string>
       <key>bottomHalfBlackCircle</key>
       <string>uni2BCB</string>
       <key>bottomHalfBlackDiamond</key>
@@ -2676,8 +2794,6 @@
       <string>u1F395</string>
       <key>bow-phaistosDisc</key>
       <string>u101DA</string>
-      <key>bow_gobliquestroke-phaistosDisc</key>
-      <string>bow_gobliquestrokephaistosDisc</string>
       <key>boysSymbol</key>
       <string>u1F6C9</string>
       <key>buildingConstruction</key>
@@ -2692,16 +2808,14 @@
       <string>u1F56C</string>
       <key>bullsLeg-phaistosDisc</key>
       <string>u101EB</string>
-      <key>bullsLeg_gobliquestroke-phaistosDisc</key>
-      <string>bullsLeg_gobliquestrokephaistosDisc</string>
       <key>bullseye</key>
       <string>uni25CE</string>
       <key>camera</key>
       <string>u1F4F7</string>
       <key>camping</key>
       <string>u1F3D5</string>
-      <key>cancel-control</key>
-      <string>cancelcontrol</string>
+      <key>cancelControl</key>
+      <string>uni2418</string>
       <key>cancellationX</key>
       <string>u1F5D9</string>
       <key>candle</key>
@@ -2710,8 +2824,6 @@
       <string>uni21EA</string>
       <key>captive-phaistosDisc</key>
       <string>u101D3</string>
-      <key>captive_gobliquestroke-phaistosDisc</key>
-      <string>captive_gobliquestrokephaistosDisc</string>
       <key>carSliding</key>
       <string>uni26D0</string>
       <key>cardFileBox</key>
@@ -2720,18 +2832,14 @@
       <string>u1F5C2</string>
       <key>carpentryPlane-phaistosDisc</key>
       <string>u101E2</string>
-      <key>carpentryPlane_gobliquestroke-phaistosDisc</key>
-      <string>carpentryPlane_gobliquestrokephaistosDisc</string>
-      <key>carriageReturn-control</key>
-      <string>carriageReturncontrol</string>
+      <key>carriageReturnControl</key>
+      <string>uni240D</string>
       <key>carystianfivehundred-ancientGreek</key>
       <string>u1016F</string>
       <key>cat</key>
       <string>u1F408</string>
       <key>cat-phaistosDisc</key>
       <string>u101EC</string>
-      <key>cat_gobliquestroke-phaistosDisc</key>
-      <string>u1F408_u101FD</string>
       <key>caution</key>
       <string>uni2621</string>
       <key>centurial-roman</key>
@@ -2750,10 +2858,10 @@
       <string>uni2713</string>
       <key>child-phaistosDisc</key>
       <string>u101D4</string>
-      <key>child_gobliquestroke-phaistosDisc</key>
-      <string>u1F9D2_u101FD</string>
       <key>chipmunk</key>
       <string>u1F43F</string>
+      <key>chrysanthemum-mahjong</key>
+      <string>chrysanthemummahjong</string>
       <key>circledBoldX</key>
       <string>uni2BBF</string>
       <key>circledInformationSource</key>
@@ -2844,18 +2952,12 @@
       <string>club</string>
       <key>clubWhiteSuit</key>
       <string>uni2667</string>
-      <key>club_gobliquestroke-phaistosDisc</key>
-      <string>club_u101FD</string>
       <key>cocktailGlass</key>
       <string>u1F378</string>
       <key>column-phaistosDisc</key>
       <string>u101E6</string>
-      <key>column_gobliquestroke-phaistosDisc</key>
-      <string>column_gobliquestrokephaistosDisc</string>
       <key>comb-phaistosDisc</key>
       <string>u101E4</string>
-      <key>comb_gobliquestroke-phaistosDisc</key>
-      <string>comb_gobliquestrokephaistosDisc</string>
       <key>comet</key>
       <string>uni2604</string>
       <key>compression</key>
@@ -2886,14 +2988,14 @@
       <string>u1F5E1</string>
       <key>darkSunglasses</key>
       <string>u1F576</string>
-      <key>dataLinkEscape-control</key>
-      <string>dataLinkEscapecontrol</string>
+      <key>dataLinkEscapeControl</key>
+      <string>uni2410</string>
       <key>decreaseFontSizeSymbol</key>
       <string>u1F5DB</string>
-      <key>delete-control</key>
-      <string>deletecontrol</string>
-      <key>deleteFormTwo-control</key>
-      <string>deleteFormTwocontrol</string>
+      <key>deleteControl</key>
+      <string>uni2421</string>
+      <key>deleteFormTwoControl</key>
+      <string>uni2425</string>
       <key>deleteLeftKey</key>
       <string>uni232B</string>
       <key>deleterightKey</key>
@@ -2912,14 +3014,14 @@
       <string>u1F5A5</string>
       <key>desktopWindow</key>
       <string>u1F5D4</string>
-      <key>deviceControlFour-control</key>
-      <string>deviceControlFourcontrol</string>
-      <key>deviceControlOne-control</key>
-      <string>deviceControlOnecontrol</string>
-      <key>deviceControlThree-control</key>
-      <string>deviceControlThreecontrol</string>
-      <key>deviceControlTwo-control</key>
-      <string>deviceControlTwocontrol</string>
+      <key>deviceControlFourControl</key>
+      <string>uni2414</string>
+      <key>deviceControlOneControl</key>
+      <string>uni2411</string>
+      <key>deviceControlThreeControl</key>
+      <string>uni2413</string>
+      <key>deviceControlTwoControl</key>
+      <string>uni2412</string>
       <key>diagonalcrosshatchFillSquare</key>
       <string>uni25A9</string>
       <key>diamondBlackSuit</key>
@@ -2968,10 +3070,6 @@
       <string>u1F415</string>
       <key>dolium-phaistosDisc</key>
       <string>u101E3</string>
-      <key>dolium_gobliquestroke-phaistosDisc</key>
-      <string>dolium_gobliquestrokephaistosDisc</string>
-      <key>dotCirc_gobliquestr-phaistosDisc</key>
-      <string>dotCirc_gobliquestrphaistosDisc</string>
       <key>dots1-braille</key>
       <string>uni2801</string>
       <key>dots12-braille</key>
@@ -3494,8 +3592,6 @@
       <string>u101EF</string>
       <key>doveOfPeace</key>
       <string>u1F54A</string>
-      <key>dove_gobliquestroke-phaistosDisc</key>
-      <string>dove_gobliquestrokephaistosDisc</string>
       <key>downAndUpTriangleArrow</key>
       <string>uni2B83</string>
       <key>downArrow.blackCircled</key>
@@ -3580,8 +3676,6 @@
       <string>u10199</string>
       <key>eagle-phaistosDisc</key>
       <string>u101EE</string>
-      <key>eagle_gobliquestroke-phaistosDisc</key>
-      <string>u1F985_u101FD</string>
       <key>ear</key>
       <string>u1F442</string>
       <key>earthGlobeAmericas</key>
@@ -3592,6 +3686,14 @@
       <string>u1F30D</string>
       <key>earthTrigram</key>
       <string>uni2637</string>
+      <key>eastWind-mahjong</key>
+      <string>eastWindmahjong</string>
+      <key>eightOfBamboos-mahjong</key>
+      <string>eightOfBamboosmahjong</string>
+      <key>eightOfCharacters-mahjong</key>
+      <string>eightOfCharactersmahjong</string>
+      <key>eightOfCircles-mahjong</key>
+      <string>eightOfCirclesmahjong</string>
       <key>eightPetalledOutlinedBlackFlorette</key>
       <string>uni2741</string>
       <key>eightPointedBlackStar</key>
@@ -3622,16 +3724,16 @@
       <string>uni20E3</string>
       <key>enclosingscreencomb</key>
       <string>uni20E2</string>
-      <key>endOfMedium-control</key>
-      <string>endOfMediumcontrol</string>
-      <key>endOfText-control</key>
-      <string>endOfTextcontrol</string>
-      <key>endOfTransmission-control</key>
-      <string>endOfTransmissioncontrol</string>
-      <key>endOfTransmissionBlock-control</key>
-      <string>endOfTransmissionBlockcontrol</string>
-      <key>enquiry-control</key>
-      <string>enquirycontrol</string>
+      <key>endOfMediumControl</key>
+      <string>uni2419</string>
+      <key>endOfTextControl</key>
+      <string>uni2403</string>
+      <key>endOfTransmissionBlockControl</key>
+      <string>uni2417</string>
+      <key>endOfTransmissionControl</key>
+      <string>uni2404</string>
+      <key>enquiryControl</key>
+      <string>uni2405</string>
       <key>envelope</key>
       <string>uni2709</string>
       <key>envelopeWithLightning</key>
@@ -3642,8 +3744,8 @@
       <string>u1015B</string>
       <key>epidaureantwodrachmas-ancientGreek</key>
       <string>u1015E</string>
-      <key>escape-control</key>
-      <string>escapecontrol</string>
+      <key>escapeControl</key>
+      <string>uni241B</string>
       <key>extraterrestrialAlien</key>
       <string>u1F47D</string>
       <key>extremelyHeavyFiveSpokedAsterisk</key>
@@ -3682,8 +3784,8 @@
       <string>u10156</string>
       <key>fileCabinet</key>
       <string>u1F5C4</string>
-      <key>fileSeparator-control</key>
-      <string>fileSeparatorcontrol</string>
+      <key>fileSeparatorControl</key>
+      <string>uni241C</string>
       <key>filledRect</key>
       <string>filledrect</string>
       <key>filmFrames</key>
@@ -3700,6 +3802,12 @@
       <string>u10143</string>
       <key>fiveObols-greek</key>
       <string>u10180</string>
+      <key>fiveOfBamboos-mahjong</key>
+      <string>fiveOfBamboosmahjong</string>
+      <key>fiveOfCharacters-mahjong</key>
+      <string>fiveOfCharactersmahjong</string>
+      <key>fiveOfCircles-mahjong</key>
+      <string>fiveOfCirclesmahjong</string>
       <key>fivehundred-atticGreek</key>
       <string>u10145</string>
       <key>fivehundredstaters-atticGreek</key>
@@ -3718,8 +3826,6 @@
       <string>uni2766</string>
       <key>flute-phaistosDisc</key>
       <string>u101F8</string>
-      <key>flute_gobliquestroke-phaistosDisc</key>
-      <string>flute_gobliquestrokephaistosDisc</string>
       <key>flyingEnvelope</key>
       <string>u1F585</string>
       <key>fog</key>
@@ -3728,8 +3834,8 @@
       <string>u1F5C0</string>
       <key>forkKnifePlate</key>
       <string>u1F37D</string>
-      <key>formFeed-control</key>
-      <string>formFeedcontrol</string>
+      <key>formFeedControl</key>
+      <string>uni240C</string>
       <key>fourBalloonSpokedAsterisk</key>
       <string>uni2723</string>
       <key>fourClubSpokedAsterisk</key>
@@ -3738,6 +3844,12 @@
       <string>uni2B94</string>
       <key>fourObols-greek</key>
       <string>u1017F</string>
+      <key>fourOfBamboos-mahjong</key>
+      <string>fourOfBamboosmahjong</string>
+      <key>fourOfCharacters-mahjong</key>
+      <string>fourOfCharactersmahjong</string>
+      <key>fourOfCircles-mahjong</key>
+      <string>fourOfCirclesmahjong</string>
       <key>fourPointedBlackStar</key>
       <string>u1F7C6</string>
       <key>fourTeardropSpokedAsterisk</key>
@@ -3752,8 +3864,6 @@
       <string>u1F315</string>
       <key>gauntlet-phaistosDisc</key>
       <string>u101D7</string>
-      <key>gauntlet_gobliquestroke-phaistosDisc</key>
-      <string>gauntlet_gobliquestrokephaistosDisc</string>
       <key>girlsSymbol</key>
       <string>u1F6CA</string>
       <key>gobliquestroke-phaistosDisc</key>
@@ -3766,10 +3876,10 @@
       <string>u10188</string>
       <key>grater-phaistosDisc</key>
       <string>u101F9</string>
-      <key>grater_gobliquestroke-phaistosDisc</key>
-      <string>grater_gobliquestrokephaistosDisc</string>
-      <key>groupSeparator-control</key>
-      <string>groupSeparatorcontrol</string>
+      <key>greenDragon-mahjong</key>
+      <string>greenDragonmahjong</string>
+      <key>groupSeparatorControl</key>
+      <string>uni241D</string>
       <key>hammerAndWrench</key>
       <string>u1F6E0</string>
       <key>hardDisk</key>
@@ -3932,8 +4042,6 @@
       <string>u101D6</string>
       <key>helmetWithWhiteCross</key>
       <string>uni26D1</string>
-      <key>helmet_gobliquestroke-phaistosDisc</key>
-      <string>helmet_gobliquestrokephaistosDisc</string>
       <key>heraeumoneplethron-ancientGreek</key>
       <string>u10158</string>
       <key>hermionianfifty-ancientGreek</key>
@@ -3944,8 +4052,6 @@
       <string>u10162</string>
       <key>hide-phaistosDisc</key>
       <string>u101EA</string>
-      <key>hide_gobliquestroke-phaistosDisc</key>
-      <string>hide_gobliquestrokephaistosDisc</string>
       <key>highVoltageSign</key>
       <string>uni26A1</string>
       <key>hole</key>
@@ -3960,12 +4066,10 @@
       <string>uni2BC3</string>
       <key>horizontalFillSquare</key>
       <string>uni25A4</string>
-      <key>horizontalTabulation-control</key>
-      <string>horizontalTabulationcontrol</string>
+      <key>horizontalTabulationControl</key>
+      <string>uni2409</string>
       <key>horn-phaistosDisc</key>
       <string>u101E9</string>
-      <key>horn_gobliquestroke-phaistosDisc</key>
-      <string>horn_gobliquestrokephaistosDisc</string>
       <key>hotBeverage</key>
       <string>uni2615</string>
       <key>hotPepper</key>
@@ -3996,6 +4100,8 @@
       <string>invbullet</string>
       <key>inverseWhiteCircle</key>
       <string>invcircle</string>
+      <key>joker-mahjong</key>
+      <string>jokermahjong</string>
       <key>joystick</key>
       <string>u1F579</string>
       <key>keyboard</key>
@@ -4144,8 +4250,6 @@
       <string>u1F39A</string>
       <key>lid-phaistosDisc</key>
       <string>u101E0</string>
-      <key>lid_gobliquestroke-phaistosDisc</key>
-      <string>lid_gobliquestrokephaistosDisc</string>
       <key>ligatureOpenEtOrnament</key>
       <string>u1F672</string>
       <key>lightCheckMark</key>
@@ -4186,10 +4290,8 @@
       <string>uni2773</string>
       <key>lily-phaistosDisc</key>
       <string>u101F6</string>
-      <key>lily_gobliquestroke-phaistosDisc</key>
-      <string>lily_gobliquestrokephaistosDisc</string>
-      <key>lineFeed-control</key>
-      <string>lineFeedcontrol</string>
+      <key>lineFeedControl</key>
+      <string>uni240A</string>
       <key>linkedPaperclips</key>
       <string>u1F587</string>
       <key>lips</key>
@@ -4250,14 +4352,10 @@
       <string>u1F574</string>
       <key>manacles-phaistosDisc</key>
       <string>u101DD</string>
-      <key>manacles_gobliquestroke-phaistosDisc</key>
-      <string>manacles_gobliquestrokephaistosDisc</string>
       <key>mantelpieceClock</key>
       <string>u1F570</string>
       <key>mattock-phaistosDisc</key>
       <string>u101DE</string>
-      <key>mattock_gobliquestroke-phaistosDisc</key>
-      <string>mattock_gobliquestrokephaistosDisc</string>
       <key>maximize</key>
       <string>u1F5D6</string>
       <key>mediumBlackCircle</key>
@@ -4330,6 +4428,8 @@
       <string>u1F396</string>
       <key>minimize</key>
       <string>u1F5D5</string>
+      <key>modernPentathlon</key>
+      <string>u1F93B</string>
       <key>moneyBag</key>
       <string>u1F4B0</string>
       <key>monogramForYang</key>
@@ -4354,14 +4454,20 @@
       <string>u10170</string>
       <key>nbspace</key>
       <string>uni00A0</string>
-      <key>negativeAcknowledge-control</key>
-      <string>negativeAcknowledgecontrol</string>
-      <key>newline-control</key>
-      <string>newlinecontrol</string>
+      <key>negativeAcknowledgeControl</key>
+      <string>uni2415</string>
+      <key>newlineControl</key>
+      <string>uni2424</string>
       <key>newlineLeft</key>
       <string>uni2B92</string>
       <key>newlineRight</key>
       <string>uni2B93</string>
+      <key>nineOfBamboos-mahjong</key>
+      <string>nineOfBamboosmahjong</string>
+      <key>nineOfCharacters-mahjong</key>
+      <string>nineOfCharactersmahjong</string>
+      <key>nineOfCircles-mahjong</key>
+      <string>nineOfCirclesmahjong</string>
       <key>noEntry</key>
       <string>uni26D4</string>
       <key>noPiracy</key>
@@ -4408,6 +4514,8 @@
       <string>u1F658</string>
       <key>northWestWhiteArrow</key>
       <string>uni2B01</string>
+      <key>northWind-mahjong</key>
+      <string>northWindmahjong</string>
       <key>northeastPointingAirplane</key>
       <string>u1F6EA</string>
       <key>notCheckmark</key>
@@ -4422,8 +4530,8 @@
       <string>u1F5CA</string>
       <key>notePage</key>
       <string>u1F5C9</string>
-      <key>null-control</key>
-      <string>nullcontrol</string>
+      <key>nullControl</key>
+      <string>uni2400</string>
       <key>obol-greek</key>
       <string>u1017C</string>
       <key>ocrAmountOfCheck</key>
@@ -4466,6 +4574,12 @@
       <string>u1F694</string>
       <key>oneButtonMouse</key>
       <string>u1F5AF</string>
+      <key>oneOfBamboos-mahjong</key>
+      <string>oneOfBamboosmahjong</string>
+      <key>oneOfCharacters-mahjong</key>
+      <string>oneOfCharactersmahjong</string>
+      <key>oneOfCircles-mahjong</key>
+      <string>oneOfCirclesmahjong</string>
       <key>onedrachma-atticGreek</key>
       <string>u10142</string>
       <key>onehalf-atticGreek</key>
@@ -4512,6 +4626,8 @@
       <string>u1F5B8</string>
       <key>optionKey</key>
       <string>uni2325</string>
+      <key>orchid-mahjong</key>
+      <string>orchidmahjong</string>
       <key>ounkia-greek</key>
       <string>u10184</string>
       <key>outboxTray</key>
@@ -4524,8 +4640,6 @@
       <string>u1F5D7</string>
       <key>oxBack-phaistosDisc</key>
       <string>u101F7</string>
-      <key>oxBack_gobliquestroke-phaistosDisc</key>
-      <string>oxBack_gobliquestrokephaistosDisc</string>
       <key>package</key>
       <string>u1F4E6</string>
       <key>page</key>
@@ -4538,8 +4652,6 @@
       <string>u1F5D0</string>
       <key>papyrus-phaistosDisc</key>
       <string>u101F4</string>
-      <key>papyrus_gobliquestroke-phaistosDisc</key>
-      <string>papyrus_gobliquestrokephaistosDisc</string>
       <key>passengerShip</key>
       <string>u1F6F3</string>
       <key>pawnBlackChess</key>
@@ -4548,8 +4660,6 @@
       <string>uni2659</string>
       <key>pedestrian-phaistosDisc</key>
       <string>u101D0</string>
-      <key>pedestrian_gobliquestroke-phaistosDisc</key>
-      <string>u1F6B6_u101FD</string>
       <key>penOverStampedEnvelope</key>
       <string>u1F586</string>
       <key>pencil</key>
@@ -4564,12 +4674,10 @@
       <string>uni272F</string>
       <key>planeTree-phaistosDisc</key>
       <string>u101F2</string>
-      <key>planeTree_gobliquestroke-phaistosDisc</key>
-      <string>planeTree_gobliquestrokephaistosDisc</string>
+      <key>plum-mahjong</key>
+      <string>plummahjong</string>
       <key>plumedHead-phaistosDisc</key>
       <string>u101D1</string>
-      <key>plumedHead_gobliquestroke-phaistosDisc</key>
-      <string>plumedHead_gobliquestrokephaistosDisc</string>
       <key>pocketCalculator</key>
       <string>u1F5A9</string>
       <key>portableStereo</key>
@@ -4608,10 +4716,10 @@
       <string>u1F590</string>
       <key>ram-phaistosDisc</key>
       <string>u101ED</string>
-      <key>ram_gobliquestroke-phaistosDisc</key>
-      <string>u1F40F_u101FD</string>
-      <key>recordSeparator-control</key>
-      <string>recordSeparatorcontrol</string>
+      <key>recordSeparatorControl</key>
+      <string>uni241E</string>
+      <key>redDragon-mahjong</key>
+      <string>redDragonmahjong</string>
       <key>reminderRibbon</key>
       <string>u1F397</string>
       <key>restrictedLeftEntry1</key>
@@ -4654,6 +4762,8 @@
       <string>uni2BB2</string>
       <key>ribbonArrowUpRight</key>
       <string>uni2BB3</string>
+      <key>rifle</key>
+      <string>u1F946</string>
       <key>rightAngerBubble</key>
       <string>u1F5EF</string>
       <key>rightArrow.blackCircled</key>
@@ -4844,8 +4954,6 @@
       <string>u1F3F5</string>
       <key>rosette-phaistosDisc</key>
       <string>u101F5</string>
-      <key>rosette_gobliquestroke-phaistosDisc</key>
-      <string>u1F3F5_u101FD</string>
       <key>rotatedFloralHeartBullet</key>
       <string>uni2767</string>
       <key>rotatedHeavyBlackHeartBullet</key>
@@ -4868,8 +4976,6 @@
       <string>u1F6F0</string>
       <key>saw-phaistosDisc</key>
       <string>u101DF</string>
-      <key>saw_gobliquestroke-phaistosDisc</key>
-      <string>saw_gobliquestrokephaistosDisc</string>
       <key>screen</key>
       <string>u1F5B5</string>
       <key>scriptLigatureEtOrnament</key>
@@ -4878,6 +4984,12 @@
       <string>u10192</string>
       <key>sestertius-roman</key>
       <string>u10198</string>
+      <key>sevenOfBamboos-mahjong</key>
+      <string>sevenOfBamboosmahjong</string>
+      <key>sevenOfCharacters-mahjong</key>
+      <string>sevenOfCharactersmahjong</string>
+      <key>sevenOfCircles-mahjong</key>
+      <string>sevenOfCirclesmahjong</string>
       <key>sextans-roman</key>
       <string>u10190</string>
       <key>sextula-roman</key>
@@ -4892,16 +5004,12 @@
       <string>u1F6E1</string>
       <key>shield-phaistosDisc</key>
       <string>u101DB</string>
-      <key>shield_gobliquestroke-phaistosDisc</key>
-      <string>u1F6E1_u101FD</string>
-      <key>shiftIn-control</key>
-      <string>shiftIncontrol</string>
-      <key>shiftOut-control</key>
-      <string>shiftOutcontrol</string>
+      <key>shiftInControl</key>
+      <string>uni240F</string>
+      <key>shiftOutControl</key>
+      <string>uni240E</string>
       <key>ship-phaistosDisc</key>
       <string>u101E8</string>
-      <key>ship_gobliquestroke-phaistosDisc</key>
-      <string>u1F6A2_u101FD</string>
       <key>shoppingBags</key>
       <string>u1F6CD</string>
       <key>shortBackslantedSouthArrow</key>
@@ -4932,6 +5040,12 @@
       <string>u10195</string>
       <key>sinusoid-greek</key>
       <string>u1018C</string>
+      <key>sixOfBamboos-mahjong</key>
+      <string>sixOfBamboosmahjong</string>
+      <key>sixOfCharacters-mahjong</key>
+      <string>sixOfCharactersmahjong</string>
+      <key>sixOfCircles-mahjong</key>
+      <string>sixOfCirclesmahjong</string>
       <key>sixPetalledBlackAndWhiteFlorette</key>
       <string>uni273E</string>
       <key>sixPointedBlackStar</key>
@@ -4950,8 +5064,6 @@
       <string>u1F575</string>
       <key>sling-phaistosDisc</key>
       <string>u101E5</string>
-      <key>sling_gobliquestroke-phaistosDisc</key>
-      <string>sling_gobliquestrokephaistosDisc</string>
       <key>snowCappedMountain</key>
       <string>u1F3D4</string>
       <key>snowboarder</key>
@@ -4966,8 +5078,8 @@
       <string>uni26BD</string>
       <key>softShellFloppyDisk</key>
       <string>u1F5AC</string>
-      <key>software-functionsymbol</key>
-      <string>softwarefunctionsymbol</string>
+      <key>softwareFunctionsymbol</key>
+      <string>uni2394</string>
       <key>solidQuiltSquareOrnament</key>
       <string>u1F66A</string>
       <key>solidQuiltSquareOrnamentInBlackSquare</key>
@@ -5010,10 +5122,12 @@
       <string>u1F659</string>
       <key>southWestWhiteArrow</key>
       <string>uni2B03</string>
+      <key>southWind-mahjong</key>
+      <string>southWindmahjong</string>
       <key>sp_gobliquestr-phaistosDisc</key>
       <string>sp_gobliquestrphaistosDisc</string>
-      <key>space-control</key>
-      <string>spacecontrol</string>
+      <key>spaceControl</key>
+      <string>uni2420</string>
       <key>space_enclosingscreencomb</key>
       <string>uni002020E2</string>
       <key>spadeBlackSuit</key>
@@ -5040,6 +5154,8 @@
       <string>u1F5D3</string>
       <key>spiralNotePad</key>
       <string>u1F5D2</string>
+      <key>spring-mahjong</key>
+      <string>springmahjong</string>
       <key>squarePositionIndicator</key>
       <string>uni2BD0</string>
       <key>squareTarget</key>
@@ -5054,28 +5170,28 @@
       <string>u1F583</string>
       <key>staroperator</key>
       <string>uni22C6</string>
-      <key>startOfHeading-control</key>
-      <string>startOfHeadingcontrol</string>
-      <key>startOfText-control</key>
-      <string>startOfTextcontrol</string>
+      <key>startOfHeadingControl</key>
+      <string>uni2401</string>
+      <key>startOfTextControl</key>
+      <string>uni2402</string>
       <key>stockChart</key>
       <string>u1F5E0</string>
       <key>stopwatch</key>
       <string>uni23F1</string>
       <key>strainer-phaistosDisc</key>
       <string>u101FA</string>
-      <key>strainer_gobliquestroke-phaistosDisc</key>
-      <string>strainer_gobliquestrokephaistosDisc</string>
       <key>stratianfiftymnas-ancientGreek</key>
       <string>u10174</string>
       <key>stressOutlinedWhiteStar</key>
       <string>uni2729</string>
       <key>studioMicrophone</key>
       <string>u1F399</string>
-      <key>substitute-control</key>
-      <string>substitutecontrol</string>
-      <key>substituteFormTwo-control</key>
-      <string>substituteFormTwocontrol</string>
+      <key>substituteControl</key>
+      <string>uni241A</string>
+      <key>substituteFormTwoControl</key>
+      <string>uni2426</string>
+      <key>summer-mahjong</key>
+      <string>summermahjong</string>
       <key>sunBehindCloud</key>
       <string>uni26C5</string>
       <key>sunSymbol</key>
@@ -5090,8 +5206,8 @@
       <string>u1F3CA</string>
       <key>symbolForMarksChapter</key>
       <string>u1F545</string>
-      <key>synchronousIdle-control</key>
-      <string>synchronousIdlecontrol</string>
+      <key>synchronousIdleControl</key>
+      <string>uni2416</string>
       <key>tabKeyHorizontal</key>
       <string>uni2B7E</string>
       <key>tabKeyVertical</key>
@@ -5104,8 +5220,6 @@
       <string>uni2707</string>
       <key>tattooedHead-phaistosDisc</key>
       <string>u101D2</string>
-      <key>tattooedHead_gobliquestroke-phaistosDisc</key>
-      <string>tattooedHead_gobliquestrokephaistosDisc</string>
       <key>tauRho-greek</key>
       <string>u101A0</string>
       <key>teardropSpokedAsterisk</key>
@@ -5176,6 +5290,12 @@
       <string>u1F5A7</string>
       <key>threeObols-greek</key>
       <string>u1017E</string>
+      <key>threeOfBamboos-mahjong</key>
+      <string>threeOfBamboosmahjong</string>
+      <key>threeOfCharacters-mahjong</key>
+      <string>threeOfCharactersmahjong</string>
+      <key>threeOfCircles-mahjong</key>
+      <string>threeOfCirclesmahjong</string>
       <key>threePointedBlackStar</key>
       <string>u1F7C2</string>
       <key>threeRaysAbove</key>
@@ -5202,8 +5322,6 @@
       <string>uni2608</string>
       <key>tiara-phaistosDisc</key>
       <string>u101D8</string>
-      <key>tiara_gobliquestroke-phaistosDisc</key>
-      <string>tiara_gobliquestrokephaistosDisc</string>
       <key>tightTrifoliateSnowflake</key>
       <string>uni2745</string>
       <key>timerClock</key>
@@ -5238,8 +5356,6 @@
       <string>u10189</string>
       <key>tunny-phaistosDisc</key>
       <string>u101F0</string>
-      <key>tunny_gobliquestroke-phaistosDisc</key>
-      <string>tunny_gobliquestrokephaistosDisc</string>
       <key>turnedBlackPentagon</key>
       <string>uni2BC2</string>
       <key>turnedBlackShogiPiece</key>
@@ -5262,6 +5378,12 @@
       <string>u1F5B0</string>
       <key>twoObols-greek</key>
       <string>u1017D</string>
+      <key>twoOfBamboos-mahjong</key>
+      <string>twoOfBamboosmahjong</string>
+      <key>twoOfCharacters-mahjong</key>
+      <string>twoOfCharactersmahjong</string>
+      <key>twoOfCircles-mahjong</key>
+      <string>twoOfCirclesmahjong</string>
       <key>twoSpeechBubbles</key>
       <string>u1F5EA</string>
       <key>twothirds-greek</key>
@@ -5274,8 +5396,8 @@
       <string>uni2BD1</string>
       <key>uncia-roman</key>
       <string>u10191</string>
-      <key>unitSeparator-control</key>
-      <string>unitSeparatorcontrol</string>
+      <key>unitSeparatorControl</key>
+      <string>uni241F</string>
       <key>upArrow.blackCircled</key>
       <string>uni2B89</string>
       <key>upArrowOnPedestalHorizontalWhiteBar</key>
@@ -5434,8 +5556,8 @@
       <string>uni25CD</string>
       <key>verticalFillSquare</key>
       <string>uni25A5</string>
-      <key>verticalTabulation-control</key>
-      <string>verticalTabulationcontrol</string>
+      <key>verticalTabulationControl</key>
+      <string>uni240B</string>
       <key>verticallinemiddledot</key>
       <string>uni237F</string>
       <key>veryBoldGreekCross</key>
@@ -5468,8 +5590,6 @@
       <string>u1F3AE</string>
       <key>vine-phaistosDisc</key>
       <string>u101F3</string>
-      <key>vine_gobliquestroke-phaistosDisc</key>
-      <string>vine_gobliquestrokephaistosDisc</string>
       <key>warningSign</key>
       <string>uni26A0</string>
       <key>wastebasket</key>
@@ -5482,10 +5602,10 @@
       <string>u1F3F3</string>
       <key>wavyBand-phaistosDisc</key>
       <string>u101FC</string>
-      <key>wavyBand_gobliquestroke-phaistosDisc</key>
-      <string>wavyBand_gobliquestrokephaistosDisc</string>
       <key>weightLifter</key>
       <string>u1F3CB</string>
+      <key>westWind-mahjong</key>
+      <string>westWindmahjong</string>
       <key>wheelchairSymbol</key>
       <string>uni267F</string>
       <key>whiteArrowShaftWidthOne</key>
@@ -5514,6 +5634,8 @@
       <string>u1F447</string>
       <key>whiteDownLeftHandIndex</key>
       <string>u1F597</string>
+      <key>whiteDragon-mahjong</key>
+      <string>whiteDragonmahjong</string>
       <key>whiteDraughtsKing</key>
       <string>uni26C1</string>
       <key>whiteDraughtsMan</key>
@@ -5698,12 +5820,12 @@
       <string>u1F32C</string>
       <key>windTrigram</key>
       <string>uni2634</string>
+      <key>winter-mahjong</key>
+      <string>wintermahjong</string>
       <key>wiredKeyboard</key>
       <string>u1F5AE</string>
       <key>woman-phaistosDisc</key>
       <string>u101D5</string>
-      <key>woman_gobliquestroke-phaistosDisc</key>
-      <string>u1F469_u101FD</string>
       <key>womensSymbol</key>
       <string>u1F6BA</string>
       <key>worldMap</key>

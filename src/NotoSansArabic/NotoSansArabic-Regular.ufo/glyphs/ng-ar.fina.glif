@@ -5,10 +5,10 @@
   <anchor x="450" y="-111" name="bottom"/>
   <anchor x="451" y="-20" name="bottom.dot"/>
   <anchor x="462" y="632" name="top"/>
-  <anchor x="793" y="726" name="top.dot"/>
+  <anchor x="462" y="622" name="top.dot"/>
   <outline>
     <component base="kaf-ar.fina"/>
-    <component base="threedotsupabove-ar" xScale="0.9" yScale="0.9" xOffset="667" yOffset="337"/>
+    <component base="threedotsupabove-ar" xScale="0.9" yScale="0.9" xOffset="336" yOffset="233"/>
   </outline>
   <lib>
     <dict>
@@ -24,7 +24,7 @@
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2020/02/29 20:24:14</string>
+      <string>2020/03/13 18:16:21</string>
     </dict>
   </lib>
 </glyph>

@@ -56755,18 +56755,11 @@
       </dict>
     </dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1075</string>
-    <key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
-    <array>
-      <dict>
-        <key>Name</key>
-        <string>Weight</string>
-        <key>Tag</key>
-        <string>wght</string>
-      </dict>
-    </array>
+    <string>1296</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
     <string></string>
+    <key>com.schriftgestaltung.customParameter.GSFont.Use Extension Kerning</key>
+    <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
@@ -56811,6 +56804,8 @@
       <string>ai_kannada</string>
       <string>ailength_kannada</string>
       <string>anudatta_deva</string>
+      <string>anudatta_deva.low</string>
+      <string>anudatta_deva.lower</string>
       <string>anusvara_kannada</string>
       <string>asciicircum</string>
       <string>asciitilde</string>
@@ -56818,12 +56813,14 @@
       <string>auMatra_kannada</string>
       <string>au_kannada</string>
       <string>avagraha_kannada</string>
+      <string>b_kannada</string>
       <string>ba_kannada</string>
       <string>ba_kannada.base</string>
       <string>ba_kannada.below</string>
       <string>backslash</string>
       <string>bar</string>
       <string>be_kannada</string>
+      <string>bh_kannada</string>
       <string>bha_kannada</string>
       <string>bha_kannada.base</string>
       <string>bha_kannada.below</string>
@@ -56834,13 +56831,18 @@
       <string>braceright</string>
       <string>bracketleft</string>
       <string>bracketright</string>
+      <string>c_kannada</string>
       <string>ca_kannada</string>
       <string>ca_kannada.base</string>
       <string>ca_kannada.below</string>
       <string>caa_kannada</string>
+      <string>candrabindu_1CDA_knda</string>
+      <string>candrabindu_anudatta_knda</string>
       <string>candrabindu_kannada</string>
+      <string>candrabindu_udatta_knda</string>
       <string>cau_kannada</string>
       <string>ce_kannada</string>
+      <string>ch_kannada</string>
       <string>cha_kannada</string>
       <string>cha_kannada.base</string>
       <string>cha_kannada.below</string>
@@ -56849,15 +56851,18 @@
       <string>ci_kannada</string>
       <string>colon</string>
       <string>comma</string>
+      <string>d_kannada</string>
       <string>da_kannada</string>
       <string>da_kannada.base</string>
       <string>da_kannada.below</string>
       <string>danda_deva</string>
       <string>dbldanda_deva</string>
+      <string>dd_kannada</string>
       <string>dda_kannada</string>
       <string>dda_kannada.base</string>
       <string>dda_kannada.below</string>
       <string>dde_kannada</string>
+      <string>ddh_kannada</string>
       <string>ddha_kannada</string>
       <string>ddha_kannada.base</string>
       <string>ddha_kannada.below</string>
@@ -56865,6 +56870,7 @@
       <string>ddhi_kannada</string>
       <string>ddi_kannada</string>
       <string>de_kannada</string>
+      <string>dh_kannada</string>
       <string>dha_kannada</string>
       <string>dha_kannada.base</string>
       <string>dha_kannada.below</string>
@@ -56895,10 +56901,12 @@
       <string>fractionOneSixteenth_cinf</string>
       <string>fractionThreeQuarters_cinf</string>
       <string>fractionThreeSixteenths_cinf</string>
+      <string>g_kannada</string>
       <string>ga_kannada</string>
       <string>ga_kannada.base</string>
       <string>ga_kannada.below</string>
       <string>ge_kannada</string>
+      <string>gh_kannada</string>
       <string>gha_kannada</string>
       <string>gha_kannada.base</string>
       <string>gha_kannada.below</string>
@@ -56911,6 +56919,7 @@
       <string>ghuu_kannada</string>
       <string>gi_kannada</string>
       <string>greater</string>
+      <string>h_kannada</string>
       <string>ha_kannada</string>
       <string>ha_kannada.base</string>
       <string>ha_kannada.below</string>
@@ -56923,6 +56932,8 @@
       <string>i_kannada</string>
       <string>iiMatra_kannada</string>
       <string>ii_kannada</string>
+      <string>j_kannada</string>
+      <string>j_ny_kannada</string>
       <string>j_nya_kannada</string>
       <string>j_nya_kannada.base</string>
       <string>j_nya_kannada.below</string>
@@ -56931,17 +56942,25 @@
       <string>ja_kannada</string>
       <string>ja_kannada.base</string>
       <string>ja_kannada.below</string>
+      <string>ja_nukta_kannada.below</string>
       <string>jaa_kannada</string>
       <string>jau_kannada</string>
       <string>je_kannada</string>
+      <string>jh_kannada</string>
       <string>jha_kannada</string>
       <string>jha_kannada.base</string>
       <string>jha_kannada.below</string>
       <string>jhe_kannada</string>
       <string>jhi_kannada</string>
+      <string>jho_kannada</string>
       <string>ji_kannada</string>
       <string>jihvamuliyaSign_vedic</string>
       <string>jihvamuliya_kannada</string>
+      <string>jo_kannada</string>
+      <string>ju_kannada</string>
+      <string>juu_kannada</string>
+      <string>k_kannada</string>
+      <string>k_ss_kannada</string>
       <string>k_ssa_kannada</string>
       <string>k_ssa_kannada.base</string>
       <string>k_ssa_kannada.below</string>
@@ -56951,6 +56970,7 @@
       <string>ka_kannada.base</string>
       <string>ka_kannada.below</string>
       <string>ke_kannada</string>
+      <string>kh_kannada</string>
       <string>kha_kannada</string>
       <string>kha_kannada.base</string>
       <string>kha_kannada.below</string>
@@ -56959,6 +56979,7 @@
       <string>ki_kannada</string>
       <string>lVocalicMatra_kannada</string>
       <string>lVocalic_kannada</string>
+      <string>l_kannada</string>
       <string>la_kannada</string>
       <string>la_kannada.base</string>
       <string>la_kannada.below</string>
@@ -56968,11 +56989,13 @@
       <string>li_kannada</string>
       <string>llVocalicMatra_kannada</string>
       <string>llVocalic_kannada</string>
+      <string>ll_kannada</string>
       <string>lla_kannada</string>
       <string>lla_kannada.base</string>
       <string>lla_kannada.below</string>
       <string>lle_kannada</string>
       <string>lli_kannada</string>
+      <string>lll_kannada</string>
       <string>llla_kannada</string>
       <string>llla_kannada.base</string>
       <string>llla_kannada.below</string>
@@ -56984,6 +57007,7 @@
       <string>llo_kannada</string>
       <string>llu_kannada</string>
       <string>lluu_kannada</string>
+      <string>m_kannada</string>
       <string>ma_kannada</string>
       <string>ma_kannada.base</string>
       <string>ma_kannada.below</string>
@@ -56992,11 +57016,13 @@
       <string>minus</string>
       <string>mo_kannada</string>
       <string>multiply</string>
+      <string>n_kannada</string>
       <string>na_kannada</string>
       <string>na_kannada.base</string>
       <string>na_kannada.below</string>
       <string>nbspace</string>
       <string>ne_kannada</string>
+      <string>ng_kannada</string>
       <string>nga_kannada</string>
       <string>nga_kannada.base</string>
       <string>nga_kannada.below</string>
@@ -57008,6 +57034,7 @@
       <string>ni_kannada</string>
       <string>nine</string>
       <string>nine_kannada</string>
+      <string>nn_kannada</string>
       <string>nna_kannada</string>
       <string>nna_kannada.base</string>
       <string>nna_kannada.below</string>
@@ -57016,11 +57043,10 @@
       <string>nne_kannada</string>
       <string>nni_kannada</string>
       <string>nukta_kannada</string>
-      <string>nukta_kannada.below</string>
-      <string>nukta_kannada.below.calt</string>
       <string>nukta_kannada.calt</string>
       <string>nukta_kannada.calt.01</string>
       <string>numbersign</string>
+      <string>ny_kannada</string>
       <string>nya_kannada</string>
       <string>nya_kannada.base</string>
       <string>nya_kannada.below</string>
@@ -57035,6 +57061,7 @@
       <string>one_kannada</string>
       <string>ooMatra_kannada</string>
       <string>oo_kannada</string>
+      <string>p_kannada</string>
       <string>pa_kannada</string>
       <string>pa_kannada.base</string>
       <string>pa_kannada.below</string>
@@ -57043,9 +57070,13 @@
       <string>pe_kannada</string>
       <string>percent</string>
       <string>period</string>
+      <string>ph_kannada</string>
       <string>pha_kannada</string>
       <string>pha_kannada.base</string>
       <string>pha_kannada.below</string>
+      <string>pha_nukta_kannada.below</string>
+      <string>phaa_kannada</string>
+      <string>phau_kannada</string>
       <string>phe_kannada</string>
       <string>phi_kannada</string>
       <string>pho_kannada</string>
@@ -57065,6 +57096,7 @@
       <string>quotesingle</string>
       <string>rVocalicMatra_kannada</string>
       <string>rVocalic_kannada</string>
+      <string>r_kannada</string>
       <string>ra_kannada</string>
       <string>ra_kannada.base</string>
       <string>ra_kannada.below</string>
@@ -57073,6 +57105,7 @@
       <string>ri_kannada</string>
       <string>rrVocalicMatra_kannada</string>
       <string>rrVocalic_kannada</string>
+      <string>rr_kannada</string>
       <string>rra_kannada</string>
       <string>rra_kannada.base</string>
       <string>rra_kannada.below</string>
@@ -57082,6 +57115,7 @@
       <string>rri_kannada</string>
       <string>rro_kannada</string>
       <string>rupeeIndian</string>
+      <string>s_kannada</string>
       <string>sa_kannada</string>
       <string>sa_kannada.base</string>
       <string>sa_kannada.below</string>
@@ -57089,6 +57123,7 @@
       <string>semicolon</string>
       <string>seven</string>
       <string>seven_kannada</string>
+      <string>sh_kannada</string>
       <string>sh_ri_kannada</string>
       <string>sha_kannada</string>
       <string>sha_kannada.base</string>
@@ -57101,18 +57136,21 @@
       <string>slash</string>
       <string>space</string>
       <string>spacingCandrabindu_kannada</string>
+      <string>ss_kannada</string>
       <string>ssa_kannada</string>
       <string>ssa_kannada.base</string>
       <string>ssa_kannada.below</string>
       <string>sse_kannada</string>
       <string>ssi_kannada</string>
       <string>t_ailength_kannada.below</string>
+      <string>t_kannada</string>
       <string>t_rVocalicMatra_kannada.below</string>
       <string>t_ya_kannada.below</string>
       <string>ta_kannada</string>
       <string>ta_kannada.base</string>
       <string>ta_kannada.below</string>
       <string>te_kannada</string>
+      <string>th_kannada</string>
       <string>tha_kannada</string>
       <string>tha_kannada.base</string>
       <string>tha_kannada.below</string>
@@ -57121,12 +57159,14 @@
       <string>three</string>
       <string>three_kannada</string>
       <string>ti_kannada</string>
+      <string>tt_kannada</string>
       <string>tta_kannada</string>
       <string>tta_kannada.base</string>
       <string>tta_kannada.below</string>
       <string>ttaa_kannada</string>
       <string>ttau_kannada</string>
       <string>tte_kannada</string>
+      <string>tth_kannada</string>
       <string>ttha_kannada</string>
       <string>ttha_kannada.base</string>
       <string>ttha_kannada.below</string>
@@ -57140,10 +57180,16 @@
       <string>udatta_deva</string>
       <string>underscore</string>
       <string>uni00AD</string>
+      <string>uni0C84</string>
+      <string>uni1CD0</string>
+      <string>uni1CD2</string>
+      <string>uni1CF2</string>
+      <string>uni1CF4</string>
       <string>uni2010</string>
       <string>upadhmaniya_kannada</string>
       <string>uuMatra_kannada</string>
       <string>uu_kannada</string>
+      <string>v_kannada</string>
       <string>va_kannada</string>
       <string>va_kannada.base</string>
       <string>va_kannada.below</string>
@@ -57153,6 +57199,7 @@
       <string>vo_kannada</string>
       <string>vu_kannada</string>
       <string>vuu_kannada</string>
+      <string>y_kannada</string>
       <string>ya_kannada</string>
       <string>ya_kannada.base</string>
       <string>ya_kannada.below</string>
@@ -57174,6 +57221,8 @@
       <string>ai_kannada</string>
       <string>ailength_kannada</string>
       <string>anudatta_deva</string>
+      <string>anudatta_deva.low</string>
+      <string>anudatta_deva.lower</string>
       <string>anusvara_kannada</string>
       <string>asciicircum</string>
       <string>asciitilde</string>
@@ -57181,12 +57230,14 @@
       <string>auMatra_kannada</string>
       <string>au_kannada</string>
       <string>avagraha_kannada</string>
+      <string>b_kannada</string>
       <string>ba_kannada</string>
       <string>ba_kannada.base</string>
       <string>ba_kannada.below</string>
       <string>backslash</string>
       <string>bar</string>
       <string>be_kannada</string>
+      <string>bh_kannada</string>
       <string>bha_kannada</string>
       <string>bha_kannada.base</string>
       <string>bha_kannada.below</string>
@@ -57197,13 +57248,18 @@
       <string>braceright</string>
       <string>bracketleft</string>
       <string>bracketright</string>
+      <string>c_kannada</string>
       <string>ca_kannada</string>
       <string>ca_kannada.base</string>
       <string>ca_kannada.below</string>
       <string>caa_kannada</string>
+      <string>candrabindu_1CDA_knda</string>
+      <string>candrabindu_anudatta_knda</string>
       <string>candrabindu_kannada</string>
+      <string>candrabindu_udatta_knda</string>
       <string>cau_kannada</string>
       <string>ce_kannada</string>
+      <string>ch_kannada</string>
       <string>cha_kannada</string>
       <string>cha_kannada.base</string>
       <string>cha_kannada.below</string>
@@ -57212,15 +57268,18 @@
       <string>ci_kannada</string>
       <string>colon</string>
       <string>comma</string>
+      <string>d_kannada</string>
       <string>da_kannada</string>
       <string>da_kannada.base</string>
       <string>da_kannada.below</string>
       <string>danda_deva</string>
       <string>dbldanda_deva</string>
+      <string>dd_kannada</string>
       <string>dda_kannada</string>
       <string>dda_kannada.base</string>
       <string>dda_kannada.below</string>
       <string>dde_kannada</string>
+      <string>ddh_kannada</string>
       <string>ddha_kannada</string>
       <string>ddha_kannada.base</string>
       <string>ddha_kannada.below</string>
@@ -57228,6 +57287,7 @@
       <string>ddhi_kannada</string>
       <string>ddi_kannada</string>
       <string>de_kannada</string>
+      <string>dh_kannada</string>
       <string>dha_kannada</string>
       <string>dha_kannada.base</string>
       <string>dha_kannada.below</string>
@@ -57258,10 +57318,12 @@
       <string>fractionOneSixteenth_cinf</string>
       <string>fractionThreeQuarters_cinf</string>
       <string>fractionThreeSixteenths_cinf</string>
+      <string>g_kannada</string>
       <string>ga_kannada</string>
       <string>ga_kannada.base</string>
       <string>ga_kannada.below</string>
       <string>ge_kannada</string>
+      <string>gh_kannada</string>
       <string>gha_kannada</string>
       <string>gha_kannada.base</string>
       <string>gha_kannada.below</string>
@@ -57274,6 +57336,7 @@
       <string>ghuu_kannada</string>
       <string>gi_kannada</string>
       <string>greater</string>
+      <string>h_kannada</string>
       <string>ha_kannada</string>
       <string>ha_kannada.base</string>
       <string>ha_kannada.below</string>
@@ -57286,6 +57349,8 @@
       <string>i_kannada</string>
       <string>iiMatra_kannada</string>
       <string>ii_kannada</string>
+      <string>j_kannada</string>
+      <string>j_ny_kannada</string>
       <string>j_nya_kannada</string>
       <string>j_nya_kannada.base</string>
       <string>j_nya_kannada.below</string>
@@ -57294,17 +57359,25 @@
       <string>ja_kannada</string>
       <string>ja_kannada.base</string>
       <string>ja_kannada.below</string>
+      <string>ja_nukta_kannada.below</string>
       <string>jaa_kannada</string>
       <string>jau_kannada</string>
       <string>je_kannada</string>
+      <string>jh_kannada</string>
       <string>jha_kannada</string>
       <string>jha_kannada.base</string>
       <string>jha_kannada.below</string>
       <string>jhe_kannada</string>
       <string>jhi_kannada</string>
+      <string>jho_kannada</string>
       <string>ji_kannada</string>
       <string>jihvamuliyaSign_vedic</string>
       <string>jihvamuliya_kannada</string>
+      <string>jo_kannada</string>
+      <string>ju_kannada</string>
+      <string>juu_kannada</string>
+      <string>k_kannada</string>
+      <string>k_ss_kannada</string>
       <string>k_ssa_kannada</string>
       <string>k_ssa_kannada.base</string>
       <string>k_ssa_kannada.below</string>
@@ -57314,6 +57387,7 @@
       <string>ka_kannada.base</string>
       <string>ka_kannada.below</string>
       <string>ke_kannada</string>
+      <string>kh_kannada</string>
       <string>kha_kannada</string>
       <string>kha_kannada.base</string>
       <string>kha_kannada.below</string>
@@ -57322,6 +57396,7 @@
       <string>ki_kannada</string>
       <string>lVocalicMatra_kannada</string>
       <string>lVocalic_kannada</string>
+      <string>l_kannada</string>
       <string>la_kannada</string>
       <string>la_kannada.base</string>
       <string>la_kannada.below</string>
@@ -57331,11 +57406,13 @@
       <string>li_kannada</string>
       <string>llVocalicMatra_kannada</string>
       <string>llVocalic_kannada</string>
+      <string>ll_kannada</string>
       <string>lla_kannada</string>
       <string>lla_kannada.base</string>
       <string>lla_kannada.below</string>
       <string>lle_kannada</string>
       <string>lli_kannada</string>
+      <string>lll_kannada</string>
       <string>llla_kannada</string>
       <string>llla_kannada.base</string>
       <string>llla_kannada.below</string>
@@ -57347,6 +57424,7 @@
       <string>llo_kannada</string>
       <string>llu_kannada</string>
       <string>lluu_kannada</string>
+      <string>m_kannada</string>
       <string>ma_kannada</string>
       <string>ma_kannada.base</string>
       <string>ma_kannada.below</string>
@@ -57355,11 +57433,13 @@
       <string>minus</string>
       <string>mo_kannada</string>
       <string>multiply</string>
+      <string>n_kannada</string>
       <string>na_kannada</string>
       <string>na_kannada.base</string>
       <string>na_kannada.below</string>
       <string>nbspace</string>
       <string>ne_kannada</string>
+      <string>ng_kannada</string>
       <string>nga_kannada</string>
       <string>nga_kannada.base</string>
       <string>nga_kannada.below</string>
@@ -57371,6 +57451,7 @@
       <string>ni_kannada</string>
       <string>nine</string>
       <string>nine_kannada</string>
+      <string>nn_kannada</string>
       <string>nna_kannada</string>
       <string>nna_kannada.base</string>
       <string>nna_kannada.below</string>
@@ -57379,11 +57460,10 @@
       <string>nne_kannada</string>
       <string>nni_kannada</string>
       <string>nukta_kannada</string>
-      <string>nukta_kannada.below</string>
-      <string>nukta_kannada.below.calt</string>
       <string>nukta_kannada.calt</string>
       <string>nukta_kannada.calt.01</string>
       <string>numbersign</string>
+      <string>ny_kannada</string>
       <string>nya_kannada</string>
       <string>nya_kannada.base</string>
       <string>nya_kannada.below</string>
@@ -57398,6 +57478,7 @@
       <string>one_kannada</string>
       <string>ooMatra_kannada</string>
       <string>oo_kannada</string>
+      <string>p_kannada</string>
       <string>pa_kannada</string>
       <string>pa_kannada.base</string>
       <string>pa_kannada.below</string>
@@ -57406,9 +57487,13 @@
       <string>pe_kannada</string>
       <string>percent</string>
       <string>period</string>
+      <string>ph_kannada</string>
       <string>pha_kannada</string>
       <string>pha_kannada.base</string>
       <string>pha_kannada.below</string>
+      <string>pha_nukta_kannada.below</string>
+      <string>phaa_kannada</string>
+      <string>phau_kannada</string>
       <string>phe_kannada</string>
       <string>phi_kannada</string>
       <string>pho_kannada</string>
@@ -57428,6 +57513,7 @@
       <string>quotesingle</string>
       <string>rVocalicMatra_kannada</string>
       <string>rVocalic_kannada</string>
+      <string>r_kannada</string>
       <string>ra_kannada</string>
       <string>ra_kannada.base</string>
       <string>ra_kannada.below</string>
@@ -57436,6 +57522,7 @@
       <string>ri_kannada</string>
       <string>rrVocalicMatra_kannada</string>
       <string>rrVocalic_kannada</string>
+      <string>rr_kannada</string>
       <string>rra_kannada</string>
       <string>rra_kannada.base</string>
       <string>rra_kannada.below</string>
@@ -57445,6 +57532,7 @@
       <string>rri_kannada</string>
       <string>rro_kannada</string>
       <string>rupeeIndian</string>
+      <string>s_kannada</string>
       <string>sa_kannada</string>
       <string>sa_kannada.base</string>
       <string>sa_kannada.below</string>
@@ -57452,6 +57540,7 @@
       <string>semicolon</string>
       <string>seven</string>
       <string>seven_kannada</string>
+      <string>sh_kannada</string>
       <string>sh_ri_kannada</string>
       <string>sha_kannada</string>
       <string>sha_kannada.base</string>
@@ -57464,18 +57553,21 @@
       <string>slash</string>
       <string>space</string>
       <string>spacingCandrabindu_kannada</string>
+      <string>ss_kannada</string>
       <string>ssa_kannada</string>
       <string>ssa_kannada.base</string>
       <string>ssa_kannada.below</string>
       <string>sse_kannada</string>
       <string>ssi_kannada</string>
       <string>t_ailength_kannada.below</string>
+      <string>t_kannada</string>
       <string>t_rVocalicMatra_kannada.below</string>
       <string>t_ya_kannada.below</string>
       <string>ta_kannada</string>
       <string>ta_kannada.base</string>
       <string>ta_kannada.below</string>
       <string>te_kannada</string>
+      <string>th_kannada</string>
       <string>tha_kannada</string>
       <string>tha_kannada.base</string>
       <string>tha_kannada.below</string>
@@ -57484,12 +57576,14 @@
       <string>three</string>
       <string>three_kannada</string>
       <string>ti_kannada</string>
+      <string>tt_kannada</string>
       <string>tta_kannada</string>
       <string>tta_kannada.base</string>
       <string>tta_kannada.below</string>
       <string>ttaa_kannada</string>
       <string>ttau_kannada</string>
       <string>tte_kannada</string>
+      <string>tth_kannada</string>
       <string>ttha_kannada</string>
       <string>ttha_kannada.base</string>
       <string>ttha_kannada.below</string>
@@ -57503,10 +57597,16 @@
       <string>udatta_deva</string>
       <string>underscore</string>
       <string>uni00AD</string>
+      <string>uni0C84</string>
+      <string>uni1CD0</string>
+      <string>uni1CD2</string>
+      <string>uni1CF2</string>
+      <string>uni1CF4</string>
       <string>uni2010</string>
       <string>upadhmaniya_kannada</string>
       <string>uuMatra_kannada</string>
       <string>uu_kannada</string>
+      <string>v_kannada</string>
       <string>va_kannada</string>
       <string>va_kannada.base</string>
       <string>va_kannada.below</string>
@@ -57516,6 +57616,7 @@
       <string>vo_kannada</string>
       <string>vu_kannada</string>
       <string>vuu_kannada</string>
+      <string>y_kannada</string>
       <string>ya_kannada</string>
       <string>ya_kannada.base</string>
       <string>ya_kannada.below</string>
