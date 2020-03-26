@@ -140,7 +140,7 @@ def main():
         familyPath = args.var
         if os.path.exists(familyPath):
             os.chdir(path)
-            designSpace2Var(os.path.split(familyPath)[1])
+            makeVariableFonts(os.path.split(familyPath)[1])
     ############################################
     # FAST GENERATING INSTANCES FROM VARIABLES #
     ############################################

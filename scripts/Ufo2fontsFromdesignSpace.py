@@ -186,28 +186,31 @@ def checkIfMti(family):
             mti = True
     return mti
 
-
-def designSpace2Var(family):
+def makeVariableFonts(family):
     mti = checkIfMti(family)
     if mti is False:
-        print(">>Load the {} designspace".format(family))
-        path, folder = getFile(".designspace", family)
-        designSpace = openDesignSpace(path)
-        print("\tLoad "+family+" files")
-        designSpace.loadSourceFonts(Font)
-        print("\tStart to build Variable Tables")
-        feature_Writers = [KernFeatureWriter(mode="append"), MarkFeatureWriter]
-
-        font, _, _ = varLib.build(compileInterpolatableTTFsFromDS(
-                                designSpace,featureWriters = feature_Writers),
-                            optimize=False)
-        destination = folder + "/fonts/VAR"
-        if not os.path.exists(destination):
-            os.makedirs(destination)
-        print("\t"+family+" Variable Font generated\n")
-        font.save(os.path.join(destination, family + "-VF.ttf"))
+        designSpace2Var(family)
     else:
-        makeAllVersions(family)
+        makeVFWithMti(family)
+
+
+def designSpace2Var(family):
+    print(">>Load the {} designspace".format(family))
+    path, folder = getFile(".designspace", family)
+    designSpace = openDesignSpace(path)
+    print("\tLoad "+family+" files")
+    designSpace.loadSourceFonts(Font)
+    print("\tStart to build Variable Tables")
+    feature_Writers = [KernFeatureWriter(mode="append"), MarkFeatureWriter]
+
+    font, _, _ = varLib.build(compileInterpolatableTTFsFromDS(
+                            designSpace,featureWriters = feature_Writers),
+                        optimize=False)
+    destination = folder + "/fonts/VAR"
+    if not os.path.exists(destination):
+        os.makedirs(destination)
+    print("\t"+family+" Variable Font generated\n")
+    font.save(os.path.join(destination, family + "-VF.ttf"))
 
 def stockDSstylename(designspace):
     loca2styleNameDict = dict()
@@ -250,7 +253,7 @@ def makeOneInstanceFromVF(family, loca):
     varFontPath = folder + "/fonts/VAR/" + family + "-VF.ttf"
     if not os.path.exists(varFontPath):
         print("Make Variable first")
-        designSpace2Var(family)
+        makeVariableFonts(family)
     varFont = TTFont(varFontPath)
     revision = varFont['head'].fontRevision
     V_major = str(revision).split(".")[0]
@@ -312,7 +315,7 @@ def makeTTFInstancesFromVF(family):
     varFontPath = folder + "/fonts/VAR/" + family + "-VF.ttf"
     if not os.path.exists(varFontPath):
         print("Make Variable first")
-        designSpace2Var(family)
+        makeVariableFonts(family)
     varFont = TTFont(varFontPath)
     revision = varFont['head'].fontRevision
     V_major = str(revision).split(".")[0]
@@ -469,7 +472,8 @@ def subsetFonts(family, writingSystem, flavor=["ttf"],
                 subsetter = Subsetter(options=options)
                 subsetter.populate(glyphs=keep)
                 subsetter.subset(newfont)
-                destination = os.path.join(folder, "fonts", subsetFolder + "_subset", "fonts")
+                destination = os.path.join(
+                    folder, "fonts", subsetFolder + "_subset", "fonts")
                 if not os.path.exists(os.path.join(destination,  i.upper())):
                     os.makedirs(os.path.join(destination, i.upper()))
                 subsetName = family + subsetFolder + "-" + WeightName +"." + i
@@ -538,23 +542,25 @@ def addSecureSet(family, flavorz):
     secureSetFromLatin(shared, flavorz, jsonpath)
     # sharedFolder = getFolder(shared + "fonts/SecureSet_subset/" + shared + "SecureSet")
     ftpath = folder + "/fonts/"
-    fontsFolders = [ftpath + i for i in os.listdir(ftpath) if i.split("/")[-1] in flavors]
+    fontsFolders = [ftpath + i for i in os.listdir(
+        ftpath) if i.split("/")[-1] in flavors]
     sharedPath = getFolder(shared) + "/fonts/SecureSet_subset/" + shared + "SecureSet/"
-    secureSetFontsFolders = [sharedPath + i for i in os.listdir(sharedPath) if i.split("/")[-1] in flavors]
+    secureSetFontsFolders = [sharedPath + i for i in os.listdir(
+        sharedPath) if i.split("/")[-1] in flavors]
     for folder in fontsFolders:
-        fonts = [folder + "/" + font for font in os.listdir(folder) if font.split(".")[-1].upper() in flavors]
+        fonts = [folder + "/" + font for font in os.listdir(
+            folder) if font.split(".")[-1].upper() in flavors]
         for f in fonts:
             style = os.path.split(f)[1].replace(family+"-", "").split(".")[0]
             #sharedFolder = getFolder(shared + "/fonts/SecureSet_subset/" + shared + "SecureSet/" + f.split(".")[-1].upper())
             #secureSetFontsFolder = [sharedPath + i for i in os.listdir(sharedPath) if i.split("/")[-1] == f.split("/")[-1]]
             # for secureSetFonts in os.listdir(sharedFolder):
             for secureSetFontsFolder in secureSetFontsFolders:
-                if secureSetFontsFolder.split("/")[-1] == f.split(".")[-1].upper():
-                    # print("ok", secureSetFontsFolder)
+                if secureSetFontsFolder.split(
+                    "/")[-1] == f.split(".")[-1].upper():
                     for secureSetFont in os.listdir(secureSetFontsFolder):
-                        # print(secureSetFont)
-                        styleShared = os.path.split(secureSetFont)[1].replace(shared+"SecureSet-", "").split(".")[0]
-                        # print(styleShared)
+                        styleShared = os.path.split(secureSetFont)[1].replace(
+                            shared+"SecureSet-", "").split(".")[0]
                         if style == styleShared:
                             ft2add = secureSetFontsFolder+"/"+secureSetFont
                             basicMerger(f, ft2add, onlySecureSet=True)
@@ -632,8 +638,8 @@ def designSpace2Instances(family, *output, newName=" "):
         renameFonts(family, newName)
 
 def makeOtfFamily(family, newName=" ", onlyOtf=False):
-    print("Please note that non-latin OTF fonts can't have the \
-        figures and punctuation from Latin merged in it")
+    print("Please note that non-latin OTF fonts can't have\n \
+        the figures and punctuation from Latin merged in it")
     output = "otf"
     path, folder = getFile(".designspace", family)
     designSpace = openDesignSpace(path)
@@ -668,12 +674,12 @@ def makeOtfFamily(family, newName=" ", onlyOtf=False):
 
 ### TEST FUNCTIONS ###
 # mastersUfos2fonts("NotoSansThaana", "woff2")
-# designSpace2Var("NotoSansArabic")
+makeTTFInstancesFromVF("NotoSansArabic")
 # subsetFonts("NotoKufiArabic", "Core_Arabic")
 # designSpace2Instances("NotoKufiArabic", "otf")
 # ufoWithMTIfeatures2font("NotoMusic", "ttf")
 # subsetFonts("NotoSans", "CyrillicPro", familyNewName = "Avocado Sans", flavor=["ttf"])
-subsetFonts("NotoNaskhArabicUI", "Core_Arabic")
+# subsetFonts("NotoNaskhArabicUI", "Core_Arabic")
 # subsetFonts("NotoSans", "SecureSet")
 # mastersUfos2fonts("NotoSansThaana", "woff2")
 # renameFonts("NotoSans", "Tomato Soup")

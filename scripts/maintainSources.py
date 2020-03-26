@@ -18,19 +18,6 @@ from ufo2ft.featureWriters import (
 from ufo2ft.featureCompiler import FeatureCompiler, MtiFeatureCompiler
 from ufo2ft.outlineCompiler import OutlineOTFCompiler
 
-"""
-    TODO:
-    — dl noto sources repo with submodule with Action?
-    — Convert Glyphs sources into UFO + Designspace folders DONE
-    — Clean Designspace ?
-    — Clean glyph order Done
-    — rewrite kerning.plist and groups.plist WIP
-    — Check if ufo2ft needs to have "featureCompilerClass = MtiFeatureCompiler" in arg to generate features
-        or if it detects the com.github.googlei18n.ufo2ft.mtiFeatures/*.mti data
-    — For now copy mti files in the font folder
-"""
-
-
 class sourcesBuilder():
 
     def __init__(self, fileName, hasMtiFiles = False):
@@ -38,9 +25,9 @@ class sourcesBuilder():
         self.fileName = fileName
         self.foldername = self.fileName.split(".")[0].replace("MM", "").strip("-")
         if hasMtiFiles:
-            self.destination = os.path.join("../src", os.path.dirname(self.foldername))
+            self.destination = os.path.join("../srcTest", os.path.dirname(self.foldername))
         else:
-            self.destination = os.path.join("../src", self.foldername)
+            self.destination = os.path.join("../srcTest", self.foldername)
         self.sourcePath = os.path.join(self.notoSourcesPath, self.fileName)
 
     def convertion(self):
@@ -48,6 +35,14 @@ class sourcesBuilder():
             os.makedirs(self.destination)
         self.ufos, self.designspace_path = glyphsLib.build_masters(self.sourcePath, self.destination)
         self.cleanedUfos = self.cleanUfos()
+
+        for i in os.listdir(self.destination):
+            if i.endswith(".designspace") and "-" in i:
+                old = os.path.abspath(os.path.join(self.destination, i))
+                print(self.foldername)
+                new = os.path.abspath(os.path.join(self.destination, i.split("-")[0] + ".designspace"))
+                print(old, "\n",new)
+                os.rename(old, new)
 
         return self.designspace_path, self.cleanUfos
 
@@ -63,9 +58,9 @@ class sourcesBuilder():
 
 # class test():
 #     def __init__(self, folderName):
-#         self.notoSourcesPath = "../noto-source/src/"
+#         self.notoSourcesPath = "../noto-source/srcTest/"
 #         self.folderName = folderName
-#         self.destination = os.path.join("../src", self.folderName)
+#         self.destination = os.path.join("../srcTest", self.folderName)
 #         for i in os.listdir(os.path.join(self.notoSourcesPath, self.folderName)):
 #             if i.endswith(".glyphs"):
 #                 print(self.folderName+"/"+i)
@@ -75,13 +70,13 @@ class sourcesBuilder():
 # class test2():
 
 #     def __init__(self, fileName, hasMtiFiles = False):
-#         self.notoSourcesPath = "../noto-source/src"
+#         self.notoSourcesPath = "../noto-source/srcTest"
 #         self.fileName = fileName
 #         self.foldername = self.fileName.split(".")[0].replace("-MM", "")
 #         if hasMtiFiles:
-#             self.destination = os.path.join("../src", os.path.dirname(self.foldername))
+#             self.destination = os.path.join("../srcTest", os.path.dirname(self.foldername))
 #         else:
-#             self.destination = os.path.join("../src", self.foldername)
+#             self.destination = os.path.join("../srcTest", self.foldername)
 #         self.sourcePath = os.path.join(self.notoSourcesPath, self.fileName)
 #         print(self.destination)
 
@@ -89,9 +84,9 @@ class sourcesBuilder():
 class complexSourcesBuilder():
 
     def __init__(self, folderName):
-        self.notoSourcesPath = "../noto-source/src/"
+        self.notoSourcesPath = "../temp"
         self.folderName = folderName
-        self.destination = os.path.join("../src", self.folderName)
+        self.destination = os.path.join("../srcTest", self.folderName)
         for i in os.listdir(os.path.join(self.notoSourcesPath, self.folderName)):
             if i.endswith(".glyphs"):
                 typeface = sourcesBuilder(self.folderName+"/"+i, hasMtiFiles=True)
@@ -166,7 +161,7 @@ if __name__ == '__main__':
                     typeface = sourcesBuilder(i)
                     typeface.convertion()
                     ####
-                    # for j in os.listdir(os.path.join("../src", i)):
+                    # for j in os.listdir(os.path.join("../srcTest", i)):
                     #     if j.endswith(".designspace"):
                     #         if "-" in j:
                     #             clean = i + ".designspace"
@@ -178,8 +173,8 @@ if __name__ == '__main__':
                     fail.append(i)
             elif os.path.isdir(os.path.join(source2update, i)):
                 print(i)
-                for i in os.listdir(os.path.join(source2update, i)):
-                    if i.endswith(".glyphs"):
+                for f in os.listdir(os.path.join(source2update, i)):
+                    if f.endswith(".glyphs"):
                         glyphsFile = True
                 if glyphsFile is True:
                     try:
@@ -188,28 +183,33 @@ if __name__ == '__main__':
                     except:
                         fail.append(i)
                 else:
+                    if "MM" in i:
+                        foldername.replace("MM", "").strip("-")
+                    destination = os.path.join("../srcTest", foldername)
                     familyFolder = os.path.join(source2update, i)
                     for f in os.listdir(familyFolder):
-                        if f.endswith(".txt") or f.endswith(".plist"):
+                        if f.endswith(".ufo") or f.endswith(".fea") or f.endswith(".designspace"):
                             shutil.copyfile(os.path.join(familyFolder, f), os.path.join(destination, f))
-                            if f.endswith(".plist") and "-" in f:
-                                old = os.path.abspath(os.path.join(destination, f))
-                                cleaned = f.split("-")[0] + ".plist"
-                                new = os.path.abspath(os.path.join(destination, cleaned))
-                                os.rename(old, new)
 
     for f in fail:
         print(f, "didn't work")
-    # for i in os.listdir("../src"):
+    # for i in os.listdir(source2update):
+    #     if i != ".DS_Store":
+    #         shutil.rmtree(os.path.join(source2update,i))
+
+
+
+
+    # for i in os.listdir("../srcTest"):
     #     if "DS_Store" not in i:
-    #         for j in os.listdir(os.path.join("../src", i)):
+    #         for j in os.listdir(os.path.join("../srcTest", i)):
     #             if j.endswith(".designspace"):
     #                 if "-" in j:
     #                     clean = i + ".designspace"
     #                     old = os.path.abspath(os.path.join(os.getcwd(), os.pardir, "src", i, j))
     #                     new = os.path.abspath(os.path.join(os.getcwd(), os.pardir, "src", i, clean))
     #                     os.rename(old, new)
-            # for j in os.listdir(os.path.join("../src", i)):
+            # for j in os.listdir(os.path.join("../srcTest", i)):
             #     if j.endswith(".designspace"):
             #         if j.split(".")[0] != i:
             #             print(i, "\n",j.split(".")[0])
