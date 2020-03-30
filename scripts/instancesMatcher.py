@@ -3,7 +3,6 @@ import json
 import shutil
 
 from Ufo2fontsFromdesignSpace import *
-from Lib.makeThings           import ufo2font
 from Lib.findThings           import getFile, getFolder
 
 from fontTools.designspaceLib import *

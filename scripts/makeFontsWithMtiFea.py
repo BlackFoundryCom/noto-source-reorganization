@@ -1,14 +1,14 @@
-# from fontTools.feaLib import ast
-from fontTools.misc import testTools
-from fontTools import ufoLib
-from fontTools  import varLib, ttLib, mtiLib
-from fontTools.otlLib import builder
-from fontTools.ttLib.tables import otTables, otBase
-from fontTools.designspaceLib import DesignSpaceDocument
-from defcon import Font
-from ufo2ft import compileOTF, compileTTF
 import os
 import plistlib
+
+from fontTools.misc             import testTools
+from fontTools                  import ufoLib
+from fontTools                  import varLib, ttLib, mtiLib
+from fontTools.otlLib           import builder
+from fontTools.ttLib.tables     import otTables, otBase
+from fontTools.designspaceLib   import DesignSpaceDocument
+from defcon                     import Font
+from ufo2ft                     import compileOTF, compileTTF
 from ufo2ft                     import compileInterpolatableTTFsFromDS
 from fontTools.misc.plistlib    import load as readPlist
 from ufo2ft.featureCompiler     import MtiFeatureCompiler
@@ -20,114 +20,111 @@ from ufo2ft.featureWriters      import (
                                         )
 
 
-def getTxtFile(directory, GTXT):
-    rdir = os.path.abspath(os.path.join("../src", directory))
-    GTXTpath = [rdir + "/" + i for i in os.listdir(rdir) if i[-8:] == GTXT + ".txt"]
-    return GTXTpath, rdir
+def ufoWithMTIfeatures2font(family, output):
+    if len(output) == 0:
+        output = "ttf"
+    ft = FontsWithMti(family, output)
+    ft.ufoWithMTIfeatures2fonts()
 
-def getFile(extension, directory):
-    repo = "../src/" + directory + "/"
-    cwd = os.getcwd()
-    rdir = os.path.abspath(repo)
-    source = rdir + "/" + directory + extension
-    return source, rdir
 
-def getFolder(directory):
-    rdir = os.path.abspath(os.path.join("../src/", directory))
-    return rdir
 
-def readPlistFile(ufo, family):
-    path, folder = getFile(".plist", family)
-    with open(path, "rb") as plist:
-        pl = plistlib.load(plist)
-        gxxxPath = (pl[ufo])
-    gpostxt = folder + "/" +(gxxxPath['GPOS'])
-    return gpostxt
+##########################################################
 
-def makeGTables(family, u):
-    masters = []
-    path, folder = getFile(".designspace", family)
-    designSpace = DesignSpaceDocument()
-    designSpace.read(path)
-    for s in designSpace.sources:
-        masters.append(family + "-" + s.styleName.replace(" ", "") + ".ufo")
-    # ufo = folder + "/" + masters[0]
-    ufo = folder + "/" + u
-    ufo = ufoLib.UFOReader(ufo)
-    go = Font(folder + "/" + masters[0]).glyphOrder
-    glyphSet = list(ufo.getGlyphSet().contents.keys())
-    fileSub = getTxtFile(family, "GSUB")[0]
-    fileDef = getTxtFile(family, "GDEF")[0]
-    # since there is different GPOS tables per weight,
-    # the scripts reads the plist
-    # that provide the matching GPOS/GSUB text file for each ufo
-    filePos = [readPlistFile(u[:-4], family)]
-    tables = [fileDef, fileSub, filePos]
-    font = testTools.FakeFont(glyphSet)
-    #to do : write the glyphOrder Table ?
-    TABLES = list()
-    for i in tables:
-        # print(i)
-        mtiFile = open(i[0], 'rt', encoding="utf-8")
-        tokenizer = mtiLib.Tokenizer(mtiFile)
-        TABLES.append(mtiLib.parseTable(tokenizer, font))
-    return TABLES
+class FontsWithMti():
 
-def ufoWithMTIfeatures2font(directory, *output):
-    # TABLES = makeGTables(directory)
-    path = getFolder(directory)
-    ufolist = [x for x in os.listdir(path) if x[-3:] == "ufo"]
-    print(ufolist)
-    for u in ufolist:
-        TABLES = makeGTables(directory, u)
-        ufoSource = os.path.join(path,u)
-        destination = ""
-        ufo = Font(ufoSource)
-        folder = os.path.join(path, "fonts")
-        if "otf" in output:
-            destination = os.path.join(folder, "OTF")
-            if not os.path.exists(destination):
-                os.makedirs(destination)
-            otf = compileOTF(ufo, removeOverlaps=True)
-            otf.save(os.path.join(destination, u[:-4] + ".otf"))
-            otf2 = ttLib.TTFont(os.path.join(destination, u[:-4] + ".otf"))
-            otf2['GDEF'] = TABLES[0]
-            otf2['GSUB'] = TABLES[1]
-            otf2['GPOS'] = TABLES[2]
-            os.remove(os.path.join(destination, u[:-4] + ".otf"))
-            otf2.save(os.path.join(destination, u[:-4] + ".otf"))
-        if "ttf" in output:
-            destination = os.path.join(folder, "TTF")
-            if not os.path.exists(destination):
-                os.makedirs(destination)
-            ttf = compileTTF(ufo, removeOverlaps=True)
-            ttf.save(os.path.join(destination,  u[:-4] + ".ttf"))
-            ttf2 = ttLib.TTFont(os.path.join(destination, u[:-4] + ".ttf"))
-            ttf2['GDEF'] = TABLES[0]
-            ttf2['GSUB'] = TABLES[1]
-            ttf2['GPOS'] = TABLES[2]
-            os.remove(os.path.join(destination, u[:-4] + ".ttf"))
-            ttf2.save(os.path.join(destination, u[:-4] + ".ttf"))
-        ### WEB
-        # if "woff2" in output:
-        #     destination = folder + "WOFF2/"
-        #     if not os.path.exists(destination):
-        #         os.makedirs(destination)
-        #     if "ttf" not in output:
-        #         ttf = compileTTF(ufo, removeOverlaps=True)
-        #         ttf['GDEF'] = TABLES[0]
-        #         ttf['GSUB'] = TABLES[1]
-        #         ttf['GPOS'] = TABLES[2]
-        #     ttf.flavor = "woff2"
-        #     ttf.save(destination + u[:-4] + ".woff2")
-        # if "woff" in output:
-        #     destination = folder + "WOFF/"
-        #     if not os.path.exists(destination):
-        #         os.makedirs(destination)
-        #     if "ttf" not in output and "woff2" not in output:
-        #         ttf = compileTTF(ufo, removeOverlaps=True)
-        #     ttf.flavor = "woff"
-        #     ttf.save(destination + u[:-4] + ".woff")
+    def __init__(self, directory, output):
+        self.directory = directory
+        self.familyPath = os.path.abspath(os.path.join("../src/", directory))
+        self.output = output
+
+    def getTxtFile(self, GTXT):
+        rdir = os.path.abspath(os.path.join("../src", self.directory))
+        GTXTpath = [rdir + "/" + i for i in os.listdir(
+            rdir) if i[-8:] == GTXT + ".txt"]
+        return GTXTpath, rdir
+
+    def getFile(self, extension):
+        repo = "../src/" + self.directory + "/"
+        cwd = os.getcwd()
+        rdir = os.path.abspath(repo)
+        source = rdir + "/" + self.directory + extension
+        return source, rdir
+
+    # def getFolder(self):
+    #     rdir = os.path.abspath(os.path.join("../src/", self.directory))
+    #     return rdir
+
+    def readPlistFile(self, ufo):
+        path, folder = self.getFile(".plist")
+        with open(path, "rb") as plist:
+            pl = plistlib.load(plist)
+            gxxxPath = (pl[ufo])
+        gpostxt = folder + "/" +(gxxxPath['GPOS'])
+        return gpostxt
+
+    def makeGTables(self, u):
+        masters = []
+        path, folder = self.getFile(".designspace")
+        designSpace = DesignSpaceDocument()
+        designSpace.read(path)
+        for s in designSpace.sources:
+            masters.append(self.directory + "-" + s.styleName.replace(" ", "") + ".ufo")
+        # ufo = folder + "/" + masters[0]
+        ufo = folder + "/" + u
+        ufo = ufoLib.UFOReader(ufo)
+        go = Font(folder + "/" + masters[0]).glyphOrder
+        glyphSet = list(ufo.getGlyphSet().contents.keys())
+        fileSub = self.getTxtFile("GSUB")[0]
+        fileDef = self.getTxtFile("GDEF")[0]
+        # since there is different GPOS tables per weight,
+        # the scripts reads the plist
+        # that provide the matching GPOS/GSUB text file for each ufo
+        filePos = [self.readPlistFile(u[:-4])]
+        tables = [fileDef, fileSub, filePos]
+        font = testTools.FakeFont(glyphSet)
+        #to do : write the glyphOrder Table ?
+        TABLES = list()
+        for i in tables:
+            mtiFile = open(i[0], 'rt', encoding="utf-8")
+            tokenizer = mtiLib.Tokenizer(mtiFile)
+            TABLES.append(mtiLib.parseTable(tokenizer, font))
+        return TABLES
+
+    def ufoWithMTIfeatures2fonts(self):
+        # TABLES = makeGTables(self.directory)
+        ufolist = [x for x in os.listdir(self.familyPath) if x[-3:] == "ufo"]
+        for u in ufolist:
+            TABLES = self.makeGTables(u)
+            ufoSource = os.path.join(self.familyPath,u)
+            destination = ""
+            ufo = Font(ufoSource)
+            folder = os.path.join(self.familyPath, "fonts")
+            if "otf" in self.output:
+                destination = os.path.join(folder, "OTF")
+                if not os.path.exists(destination):
+                    os.makedirs(destination)
+                otf = compileOTF(ufo, removeOverlaps=True)
+                otf.save(os.path.join(destination, u[:-4] + ".otf"))
+                otf2 = ttLib.TTFont(os.path.join(destination, u[:-4] + ".otf"))
+                otf2['GDEF'] = TABLES[0]
+                otf2['GSUB'] = TABLES[1]
+                otf2['GPOS'] = TABLES[2]
+                os.remove(os.path.join(destination, u[:-4] + ".otf"))
+                otf2.save(os.path.join(destination, u[:-4] + ".otf"))
+            if "ttf" in self.output:
+                destination = os.path.join(folder, "TTF")
+                if not os.path.exists(destination):
+                    os.makedirs(destination)
+                ttf = compileTTF(ufo, removeOverlaps=True)
+                ttf.save(os.path.join(destination,  u[:-4] + ".ttf"))
+                ttf2 = ttLib.TTFont(os.path.join(destination, u[:-4] + ".ttf"))
+                ttf2['GDEF'] = TABLES[0]
+                ttf2['GSUB'] = TABLES[1]
+                ttf2['GPOS'] = TABLES[2]
+                os.remove(os.path.join(destination, u[:-4] + ".ttf"))
+                ttf2.save(os.path.join(destination, u[:-4] + ".ttf"))
+
+##########################################################
 
 class variableFontsWithMti():
 
@@ -169,11 +166,11 @@ class variableFontsWithMti():
             if not os.path.exists(destination):
                 os.makedirs(destination)
             path = os.path.join(destination, self.familyName+"UI-VF.ttf")
-            vfontUI = self.renamer()
+            vfontUI = self.renamer_()
             vfontUI.save(path)
             print("\t"+self.familyName+"UI Variable Font generated\n")
 
-    def renamer(self):
+    def renamer_(self):
         renamedFont = self.vfont
         newName = self.familyName + " UI"
         # First : GET THE STYLE NAME EITHER IN namerecord *2*
@@ -292,7 +289,7 @@ def makeVFWithMti(family):
     vf.add_mti_features_to_master_ufos()
     vf.makeVarFont()
 
-def makeAllVersions(family):
+def makeAllVFversions(family):
     path = os.path.join("../src", family)
     plistNumber = []
     for i in os.listdir(path):
@@ -311,5 +308,7 @@ def makeAllVersions(family):
         vfUI.makeVarFont()
     elif len(plistNumber) == 1:
         makeVFWithMti(family)
+
+
 # TEST
-# makeAllVersions("NotoSerifTelugu")
+# ufoWithMTIfeatures2font("NotoSerifTelugu", "ttf")

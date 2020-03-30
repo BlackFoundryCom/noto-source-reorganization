@@ -1,10 +1,7 @@
 import os
-import shutil
-import getopt
-import glyphsLib
 import defcon
+
 from fontTools.designspaceLib   import *
-# import ufoLib2
 from fontTools.ttLib            import TTFont
 from fontTools                  import varLib
 from fontTools.varLib           import instancer
@@ -21,7 +18,7 @@ from ufo2ft.featureWriters      import (
 
 class slimVariableFonts():
 
-    def __init__(self, dirpath):
+    def __init__(self, mtiFolderPath):
         self.dirpath = dirpath
 
     @property
@@ -29,9 +26,11 @@ class slimVariableFonts():
         return defcon.Font(self.ufos[0]).info.familyName.replace(" ", "")
 
     def load(self):
-        self.ufos = [os.path.join(self.dirpath, i) for i in os.listdir(self.dirpath) if i.endswith(".ufo")]
+        self.ufos = [os.path.join(self.dirpath, i) for i in os.listdir(
+            self.dirpath) if i.endswith(".ufo")]
         print("Start working on", self.familyName)
-        designSpacePath = os.path.join(self.dirpath, os.path.basename(self.dirpath)+".designspace")
+        designSpacePath = os.path.join(self.dirpath, os.path.basename(
+            self.dirpath)+".designspace")
         self.designSpaceDocument = DesignSpaceDocument()
         self.designSpaceDocument.read(designSpacePath)
 
@@ -132,28 +131,22 @@ class SlimVariableFontsWithMti():
                     namerecord.string = newName + " " + WeightName
             if namerecord.nameID == 3:
                 unicID = namerecord.string.split(";")
-                newUnicID = "4.444"+ ";"+ unicID[1] +";"+ ''.join(newName.split(' ')) +"-"+ ''.join(WeightName.split(' '))
+                newUnicID = "4.444"+ ";"+ unicID[1] +";"+ ''.join(
+                    newName.split(' ')) +"-"+ ''.join(WeightName.split(' '))
                 namerecord.string = newUnicID
             if namerecord.nameID == 4:
                 namerecord.string = newName + " " + WeightName
             if namerecord.nameID == 5:
                 namerecord.string = "Version 4.444"
             if namerecord.nameID == 6:
-                namerecord.string = ''.join(newName.split(' ')) + '-' + ''.join(WeightName.split(' '))
+                namerecord.string = ''.join(newName.split(
+                    ' ')) + '-' + ''.join(WeightName.split(' '))
             if namerecord.nameID == 7:
                 namerecord.string = "Noto (from which this font is a modification) is a trademark of Google Inc."
             if namerecord.nameID == 16:
                 namerecord.string = newName
 
         return renamedFont
-
-    @property
-    def glyphFiles(self):
-        for i in os.listdir(self.mtiFolderPath):
-            if i.endswith(".glyphs"):
-                # gl = open(i)
-                gl = open(os.path.join(self.mtiFolderPath, i))
-        return gl
 
     @property
     def mti_file(self):
@@ -183,7 +176,7 @@ class SlimVariableFontsWithMti():
 
     @property
     def familyName(self):
-        return self.masters[0].info.familyName.replace(" ", "")
+        return self.mtiFolderPath.split("/")[-1]
 
     def add_mti_features_to_master_ufos(self):
         if self.UIVersionedFeaturesExists:
@@ -192,7 +185,8 @@ class SlimVariableFontsWithMti():
             mti_source = self.simple_mti_file
         mti_paths = readPlist(mti_source)
         for master in self.masters:
-            key = master.info.familyName.replace(" ", "")+"-"+master.info.styleName.replace(" ", "")
+            key = master.info.familyName.replace(
+                " ", "")+"-"+master.info.styleName.replace(" ", "")
             for table, path in mti_paths[key].items():
                 with open(os.path.join(self.mtiFolderPath, path), "rb") as mti_:
                     ufo_path = (
@@ -211,7 +205,8 @@ class SlimVariableFontsWithMti():
         mti_source = self.mti_file_for_UI_Version
         mti_paths = readPlist(mti_source)
         for master in self.masters:
-            key = master.info.familyName.replace(" ", "")+"UI-"+master.info.styleName.replace(" ", "")
+            key = master.info.familyName.replace(
+                " ", "")+"UI-"+master.info.styleName.replace(" ", "")
             for table, path in mti_paths[key].items():
                 with open(os.path.join(self.mtiFolderPath, path), "rb") as mti_:
                     ufo_path = (
@@ -227,8 +222,13 @@ class SlimVariableFontsWithMti():
         print("\tufos updated with UI versioned MTI data")
 
     def load(self):
-        font = glyphsLib.parser.load(self.glyphFiles)
-        self.designSpaceDocument = glyphsLib.builder.to_designspace(font)
+        self.ufos = [os.path.join(self.mtiFolderPath, i) for i in os.listdir(
+            self.mtiFolderPath) if i.endswith(".ufo")]
+        print("Start working on", self.familyName)
+        designSpacePath = os.path.join(self.mtiFolderPath, os.path.basename(
+            self.mtiFolderPath)+".designspace")
+        self.designSpaceDocument = DesignSpaceDocument()
+        self.designSpaceDocument.read(designSpacePath)
 
 
     def findRegularBoldDefaultLocation(self):
@@ -268,15 +268,18 @@ class SlimVariableFontsWithMti():
         vfont, _, _ = varLib.build(compileInterpolatableTTFsFromDS(
                 self.designSpaceDocument,
                 featureCompilerClass = MtiFeatureCompiler,
-                featureWriters = [KernFeatureWriter(mode="append"),
-                MarkFeatureWriter()]
+                featureWriters = None
                 ), optimize=False)
 
-        fullfontsFolder = "../fullfonts"
+        fullfontsFolder = os.path.join(self.mtiFolderPath, "fonts/VAR")
         if not os.path.exists(fullfontsFolder):
             os.makedirs(fullfontsFolder)
-        path = os.path.join(fullfontsFolder, self.familyName+"-VF.ttf")
-        vfont.save(path)
+        if self.makeUIVersion is False:
+            path = os.path.join(fullfontsFolder, self.familyName+"-VF.ttf")
+            vfont.save(path)
+        else:
+            path = os.path.join(fullfontsFolder, self.familyName+"-UI-VF.ttf")
+            vfont.save(path)
 
         vfont = TTFont(path)
 
@@ -294,19 +297,51 @@ class SlimVariableFontsWithMti():
                 if namerecord.nameID == 3:
                     unicID = namerecord.string.split(";")
                     newID = "4.444"+ ";" + unicID[1] + ";" + unicID[2]
-                    print("\tdebug:", newID)
+                    print("\tnew unic ID:", newID)
                     namerecord.string = newID
                 if namerecord.nameID == 5:
                     namerecord.string = "Version 4.444"
-            print("\tSaving " + self.familyName + "-VF.ttf\n")
-            self.slimft.save(os.path.join("../fonts", "%s-VF.ttf"%self.familyName))
+            print("\tSaving " + self.familyName + "-Slim-VF.ttf\n")
+            slimFontFolder = os.path.join(fullfontsFolder + "/SlimVF")
+            if not os.path.exists(slimFontFolder):
+                os.makedirs(slimFontFolder)
+            self.slimft.save(os.path.join(
+                slimFontFolder, "%s-Slim-VF.ttf"%self.familyName))
         else:
             slimUIFont = self.renamer()
-            print("\tSaving " + self.familyName + "UI-VF.ttf\n")
-            slimUIFont.save(os.path.join("../fonts", "%sUI-VF.ttf"%self.familyName))
+            print("\tSaving " + self.familyName + "-Slim-UI-VF.ttf\n")
+            slimFontFolder = os.path.join(fullfontsFolder + "/SlimVF")
+            if not os.path.exists(slimFontFolder):
+                os.makedirs(slimFontFolder)
+            slimUIFont.save(os.path.join(
+                slimFontFolder, "%s-Slim-UI-VF.ttf"%self.familyName))
 
+def getFolder(directory):
+    rdir = os.path.abspath(os.path.join("../src/", directory))
+    return rdir
 
-def makePath(family):
-    path, folder = getFile(".designspace", "src", family)
-if __name__ == "__main__":
-    fea_ = mti2fea("NotoKufiArabic")
+def makeSlimVF(family):
+    pathFolder = getFolder(family)
+    ft = slimVariableFonts(dir_)
+    ft.load()
+    ft.makeVarFont()
+
+def makeNormalAndUIVersions(family):
+    pathFolder = getFolder(family)
+    plistNumber = []
+    for i in os.listdir(pathFolder):
+        if i.endswith(".plist"):
+            plistNumber.append(i)
+    if len(plistNumber) > 1:
+        vf = SlimVariableFontsWithMti(
+            pathFolder, UIVersionedFeatures=True, makeUIVersion=False)
+        vf.load()
+        vf.add_mti_features_to_master_ufos()
+        vf.makeVarFont()
+        vfUI = SlimVariableFontsWithMti(
+            pathFolder, UIVersionedFeatures=True, makeUIVersion=True)
+        vfUI.load()
+        vfUI.add_ui_mti_features_to_master_ufos()
+        vfUI.makeVarFont()
+    elif len(plistNumber) == 1:
+        makeVFWithMti(family)

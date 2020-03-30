@@ -1,13 +1,12 @@
+import os
+import shutil
+import ufo2ft
+
 from fontTools import ttLib
 from defcon import Font
 from fontTools.designspaceLib import *
-import ufo2ft
 from ufo2ft.featureCompiler import FeatureCompiler
 from ufo2ft.outlineCompiler import OutlineOTFCompiler
-import os
-from Lib.makeThings import ufo2font
-from Lib.findThings import getFile, getFolder
-import shutil
 from Ufo2fontsFromdesignSpace import designSpace2Instances
 
 
@@ -99,19 +98,18 @@ def alterner(ufo):
 
 def swaper(family):
     ufosFolder = []
-    folder = os.path.split(getFolder(family))[0]+"/"
-    newFolder = os.path.abspath(os.path.join(folder, os.pardir, family+"AltIJ"))
-    print(newFolder)
+    folder = os.path.abspath(os.path.join("../src", family))
+    # folder = os.path.split(os.path.abspath(os.path.join("../src/", family)))[0]+"/"
+    newFolder = os.path.abspath(os.path.join(folder, family+"AltIJ"))
+    print(folder, newFolder)
     ext = ["ufo", "designspace", "txt", "plist"]
     if not os.path.exists(newFolder):
         os.makedirs(newFolder)
     folderContent = list()
     for i in ext:
-        temp = [folder + u for u in os.listdir(folder) if u.endswith(i)]
+        temp = [os.path.join(folder, u) for u in os.listdir(folder) if u.endswith(i)]
         for t in temp:
             folderContent.append(t)
-    for i in folderContent:
-        print(i)
     for i in folderContent:
         if i.endswith(".ufo"):
             name = os.path.basename(i)
@@ -121,4 +119,6 @@ def swaper(family):
         else:
             shutil.copy(i, newFolder)
     os.rename(newFolder+"/"+family+".designspace", newFolder+"/"+family+".designspace")
-    instances(family+"AltIJ", newName=family+"AltIJ")
+    designSpace2Instances(family+"AltIJ", newName=family+"AltIJ")
+
+# swaper("NotoSans")

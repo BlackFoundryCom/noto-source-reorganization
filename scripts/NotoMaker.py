@@ -4,6 +4,7 @@ import subprocess
 import argparse
 import swaper
 from Ufo2fontsFromdesignSpace import *
+from instancesMatcher import mergeFonts
 
 def getFolder(directory):
     repo = "src/" + directory + "/"
@@ -152,7 +153,7 @@ def main():
         if os.path.exists(familyPath):
             os.chdir(path)
             makeTTFInstancesFromVF(family)
-        if family not in subsetableFamilies:
+        if family not in pan_european_fonts:
             addSecureSet(family, ["ttf"])
     ##############################
     # GENERATING THE FULL FAMILY #
@@ -165,29 +166,37 @@ def main():
         if os.path.exists(familyPath):
             os.chdir(path)
             if "-f" in sys.argv:
-                if family in subsetableFamilies:
+                output = []
+                for f in args.f:
+                    output.append(f.strip(','))
+                if family in pan_european_fonts:
                     formats = args.f
                     for phormat in formats:
+                        print("start")
                         designSpace2Instances(
                             os.path.split(familyPath)[1], str(phormat))
                 else:
-                    prettyLog("A securet set of basic latin glyphs \
-                        will be merged into {fam}.\
-                        \nAnd since fontTools can only merge ttf fonts, \
-                        {fam} will be outputed as such".format(fam = family))
-                    # if "woff2" not in args.f:
-                    if len(set(["woff", "woff2"]+args.f)) == len(set(args.f)+2):
-                        designSpace2Instances(
-                            os.path.split(familyPath)[1], "ttf")
-                    elif "woff2" in args.f:
-                        if "ttf" in args.f:
+                    # prettyLog("A securet set of basic latin glyphs will be merged into {fam}.\
+                    #     \nAnd since fontTools can only merge ttf fonts, {fam} will be outputed as such".format(fam = family))
+                    if "otf" in output:
+                        designSpace2Instances(os.path.split(familyPath)[1], "otf")
+                        output.remove("otf")
+                        print(output)
+                        if len(output) == 0:
+                            return
+                    # print(output)
+                    if "woff" in output or "woff2" in output:
+                        if "woff2" not in output:
                             designSpace2Instances(
-                                os.path.split(familyPath)[1], "ttf", "woff2")
+                            os.path.split(familyPath)[1], "ttf", "woff")
                         else:
                             designSpace2Instances(
-                                os.path.split(familyPath)[1], "woff2")
+                            os.path.split(familyPath)[1], "ttf", "woff2", "woff")
+                    else:
+                        designSpace2Instances(os.path.split(familyPath)[1], "ttf")
             else:
-                prettyLog("The family will be generated as ttf")
+                prettyLog("The family will be generated as ttf. \
+                    If non-latin, a 'securet set' of basic latin glyphs will be added.")
                 designSpace2Instances(os.path.split(familyPath)[1])
     #####################
     # RENAME THE FAMILY #
@@ -249,33 +258,34 @@ def main():
     # 3 commands to generate all families in VF, TTF, OTF #
     #######################################################
     elif "--allVF" in sys.argv:
-        # paths = [i for i in ]
         path = os.path.abspath(
             os.path.join(os.path.dirname(sys.argv[0]), os.pardir, 'scripts'))
         os.chdir(path)
         failing = []
         folders = [os.path.join("../src/", i) for i in list(
             filter(lambda x: x!=(".DS_Store"), os.listdir("../src")))]
-        # folders = [os.path.join("../src/", i) for i in os.listdir("../src")]
-        ###
         for familyPath in folders:
+            n = os.path.split(familyPath)[1].strip()
             ufoList = list()
             for element in os.listdir(familyPath):
                 if element.endswith(".ufo"):
                     ufoList.append(element)
             if len(ufoList) > 1:
                 try:
-                    makeVanillaFamily(os.path.split(familyPath)[1], 'ttf')
+                    makeVariableFonts(os.path.split(familyPath)[1])
                 except:
+                print("\t>>> " + n + "Variable has failed.\n\
+                        \tA static ttf version of the family will be generated.")
+                    makeVanillaFamily(os.path.split(familyPath)[1], 'ttf')
                     failing.append(familyPath.split("/")[-1])
             else:
-                print("\t>>> " + os.path.split(familyPath)[1].strip(),
-                        "family has only one master.")
+                print("\t>>> " + n + "family has only one master.\n\
+                        \tA static ttf will be generated instead.")
+                makeVanillaFamily(os.path.split(familyPath)[1], 'ttf')
         if len(failing) > 0:
             for i in failing:
-                print(i + " has not been generated.")
+                print(i + " has not been generated as a Variable.")
     elif "--allOTF" in sys.argv:
-        # paths = [i for i in ]
         path = os.path.abspath(
             os.path.join(os.path.dirname(sys.argv[0]), os.pardir, 'scripts'))
         os.chdir(path)
@@ -292,7 +302,6 @@ def main():
             for i in failing:
                 print(i + " has not been generated.")
     elif "--allTTF" in sys.argv:
-        # paths = [i for i in ]
         path = os.path.abspath(
             os.path.join(os.path.dirname(sys.argv[0]), os.pardir, 'scripts'))
         os.chdir(path)
