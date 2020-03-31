@@ -26,8 +26,6 @@ def ufoWithMTIfeatures2font(family, output):
     ft = FontsWithMti(family, output)
     ft.ufoWithMTIfeatures2fonts()
 
-
-
 ##########################################################
 
 class FontsWithMti():
@@ -259,7 +257,7 @@ class variableFontsWithMti():
                 # the Glyphs file should be ignored. We clear it here because
                 # it only contains junk information anyway.
                 master.features.text = ""
-                # master.save()
+                # Don't save the ufo, to keep them clean from mti data
         print("\tufos updated with MTI data")
 
     def add_ui_mti_features_to_master_ufos(self):
@@ -279,7 +277,7 @@ class variableFontsWithMti():
                 # the Glyphs file should be ignored. We clear it here because
                 # it only contains junk information anyway.
                 master.features.text = ""
-                # master.save()
+                # Don't save the ufo, to keep them clean from mti data
         print("\tufos updated with UI versioned MTI data")
 
 def makeVFWithMti(family):

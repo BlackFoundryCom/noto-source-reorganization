@@ -229,7 +229,7 @@ def stockDSstylename(designspace):
 
 def makeOneInstanceFromVF(family, loca):
     family = "".join(family.split(" "))
-    print(family)
+    # print(family)
     path, folder = getFile(".designspace", family)
     ds = openDesignSpace(path)
     axesName = dict()
@@ -244,7 +244,7 @@ def makeOneInstanceFromVF(family, loca):
     location = str(loca)
     ##### READ THE MAP #####
     for tag in loca:
-        print(loca, tag)
+        print(">>> Now creating the", loca, "instance of "+ family)
         name = ax[tag]
         if name in maps:
             for i in maps[name]:
@@ -261,13 +261,13 @@ def makeOneInstanceFromVF(family, loca):
         os.makedirs(destination)
     varFontPath = folder + "/fonts/VAR/" + family + "-VF.ttf"
     if not os.path.exists(varFontPath):
-        print("Make Variable first")
+        print("\nMake Variable first")
         makeVariableFonts(family)
     varFont = TTFont(varFontPath)
     revision = varFont['head'].fontRevision
     V_major = str(revision).split(".")[0]
     V_minor = str(revision).split(".")[1]
-    fontName = '-'.join([familyName, styleName.replace(" ", "")]) + '.ttf'
+    fontName = '-'.join([familyName.replace(" ", ""), styleName.replace(" ", "")]) + '.ttf'
     # familyName = instance.familyName
     static = instantiateVariableFont(varFont, loca, inplace=False)
     # print(static['name'].names)
@@ -500,7 +500,6 @@ def newFolderForMerged(directory):
     repo = "src/" + directory + "/"
     cwd = os.getcwd()
     rdir = os.path.abspath(os.path.join(cwd, os.pardir, repo)) + "/"
-    print("rdir", rdir)
     return rdir
 
 def basicMerger(masterfont, *fontsToAdd, onlySecureSet=False):
@@ -688,9 +687,9 @@ def designSpace2Instances(family, *output, newName=" "):
         renameFonts(family, newName)
 
 def makeVanillaFamily(family, *output, newName=" "):
-    if family not in pan_european_fonts:
-        print("Please note that these fonts may lack")
-        print("basic figures and punctuation.")
+    # if family not in pan_european_fonts:
+    #     print("Please note that these fonts may lack")
+    #     print("basic figures and punctuation.")
     path, folder = getFile(".designspace", family)
     designSpace = openDesignSpace(path)
     destination = folder + "/" + "Instances"

@@ -55,6 +55,9 @@ def create_arg_parser():
                 "Generate all typefaces as otf flavored fonts, when possible")
     parser.add_argument("--salt", help=
                 "Set I.alt and J.alt stylistic alternate shapes as default")
+    parser.add_argument("--merge", nargs = "*", help=
+                "Merge the matching styles of 2 families. \
+                Please give the folder path of each family.")
     args = parser.parse_args()
     return args
 
@@ -274,8 +277,8 @@ def main():
                 try:
                     makeVariableFonts(os.path.split(familyPath)[1])
                 except:
-                print("\t>>> " + n + "Variable has failed.\n\
-                        \tA static ttf version of the family will be generated.")
+                    print("\t>>> " + n + "Variable has failed.\n\
+                        \t\tA static ttf version of the family will be generated.")
                     makeVanillaFamily(os.path.split(familyPath)[1], 'ttf')
                     failing.append(familyPath.split("/")[-1])
             else:
@@ -327,6 +330,16 @@ def main():
         if os.path.exists(familyPath):
             os.chdir(path)
         swaper.swaper(os.path.split(familyPath)[1])
+    ###############
+    # MERGE FONTS #
+    ###############
+    elif "--merge" in sys.argv:
+        path = os.path.abspath(
+            os.path.join(os.path.dirname(args.merge[0]), os.pardir, 'scripts'))
+        os.chdir(path)
+        master = os.path.basename(args.merge[0])
+        slave = os.path.basename(args.merge[1])
+        mergeFonts(master, slave)
 
 
 if __name__ == '__main__':

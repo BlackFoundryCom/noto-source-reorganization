@@ -8,8 +8,7 @@ from fontTools.varLib           import instancer
 from ufo2ft                     import compileInterpolatableTTFsFromDS
 from fontTools.misc.plistlib    import load as readPlist
 from ufo2ft.featureCompiler     import MtiFeatureCompiler
-from ufo2ft.featureWriters      import (
-                                        KernFeatureWriter,
+from ufo2ft.featureWriters      import (KernFeatureWriter,
                                         MarkFeatureWriter,
                                         loadFeatureWriters,
                                         ast,
@@ -18,7 +17,7 @@ from ufo2ft.featureWriters      import (
 
 class slimVariableFonts():
 
-    def __init__(self, mtiFolderPath):
+    def __init__(self, dirpath):
         self.dirpath = dirpath
 
     @property
@@ -322,7 +321,7 @@ def getFolder(directory):
 
 def makeSlimVF(family):
     pathFolder = getFolder(family)
-    ft = slimVariableFonts(dir_)
+    ft = slimVariableFonts(pathFolder)
     ft.load()
     ft.makeVarFont()
 
@@ -345,3 +344,4 @@ def makeNormalAndUIVersions(family):
         vfUI.makeVarFont()
     elif len(plistNumber) == 1:
         makeVFWithMti(family)
+makeSlimVF("NotoSans")

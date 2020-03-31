@@ -3,7 +3,6 @@ import json
 import shutil
 
 from Ufo2fontsFromdesignSpace import *
-from Lib.findThings           import getFile, getFolder
 
 from fontTools.designspaceLib import *
 from fontTools.ttLib          import TTFont
@@ -31,10 +30,16 @@ from fontTools.designspaceLib import (
                                      )
 
 
-"""
+# def getFile(extension, directory):
+#     repo = "../src/" + directory + "/"
+#     cwd = os.getcwd()
+#     rdir = os.path.abspath(repo)
+#     source = rdir + "/" + directory + extension
+#     return source, rdir
 
-
-"""
+# def getFolder(directory):
+#     rdir = os.path.abspath(os.path.join("../src/", directory))
+#     return rdir
 
 def compareLocation(masterDesignSpace, dsList, slaveAxes, masterAxes, neutralLocation):
     trad = {"Weight": "wght", "Width" : "wdth"}
@@ -45,32 +50,14 @@ def compareLocation(masterDesignSpace, dsList, slaveAxes, masterAxes, neutralLoc
     diffAxes  = set(slaveAxes) - set(masterAxes)
     for s in masterDesignSpace.sources:
         for dimension in s.location:
-            # print(dimension, s.location[dim], s.filename)
             masterSourcesLoca.append([dimension, s.location[dimension], s.filename])
     for dsSlave in dsList:
         for srcSlave in dsSlave.sources:
             for dimSlave in srcSlave.location:
-                # print(dimSlave, srcSlave.location[dimSlave], srcSlave.filename)
-                # if trad[dimSlave] in diffAxes:
-                #     print(srcSlave.location[dimSlave], neutralLocation[trad[dimSlave]])
                 if trad[dimSlave] in diffAxes and srcSlave.location[dimSlave] == neutralLocation[trad[dimSlave]]:
                     slaveSourcesLoca.append([dimSlave, srcSlave.location[dimSlave], srcSlave.filename])
-                    # for aaa in commonAxes:
-                    #     print(trad2[aaa])
-                    #     print(srcSlave.filename, srcSlave.location[trad2[aaa]])
-                # print(slaveSourcesLoca)
         allSlaveSourcesLoca.append(slaveSourcesLoca)
         print("all >> ", allSlaveSourcesLoca)
-    # for family in allSlaveSourcesLoca:
-    #     print(family)
-        # for font in family:
-        #     print(font)
-            # for i in  masterSourcesLoca:
-            #     # if font[1] == i[1]:
-            # # if font[1] in masterSourcesLoca:
-            #     print(font[1], i[1])
-
-    # print(masterSourcesLoca, allSlaveSourcesLoca)
 
 def compareStyles(masterDesignSpace, dsList):
     masterStyles = dict()
@@ -80,11 +67,11 @@ def compareStyles(masterDesignSpace, dsList):
     todo = list()
     matchingInstances = list()
     for i in masterDesignSpace.instances:
-        masterStyles[i.styleName] = (i.familyName, i.styleName, i.location)
+        masterStyles[i.styleName] = ("".join(i.familyName.split(" ")), i.styleName, i.location)
     for ds in dsList:
         for i in ds.instances:
             if i.styleName in masterStyles:
-                slaveStyles[i.styleName] = (i.familyName, i.styleName, i.location)
+                slaveStyles[i.styleName] = ("".join(i.familyName.split(" ")), i.styleName, i.location)
                 if i.styleName not in matchingStyles:
                     refactoredStyleName = i.styleName.replace(" ", "")
                     matchingStyles.append(refactoredStyleName)
@@ -98,7 +85,6 @@ def compareStyles(masterDesignSpace, dsList):
         except:
             pass
         todo.append(matchingInstances)
-        print("\n", matchingInstances)
         matchingInstances = []
 
     return todo
@@ -112,12 +98,13 @@ def getDesignspace(masterfont, *fontsToAdd):
     testLocation = list()
     masterAxes = list()
     trad = {"Weight": "wght", "Width" : "wdth"}
-    path, folder = getFile(".designspace", "src", masterfont)
+    path, folder = getFile(".designspace", masterfont)
     masterDesignSpace = DesignSpaceDocument()
     masterDesignSpace.read(path)
-    #read masterdesignspace of each fonts to merge into master family, and put it in a list
+    # read masterdesignspace of each fonts to merge into master family,
+    # and put it in a list
     for f in fontsToAdd:
-        path = getFile(".designspace", "src", f)[0]
+        path = getFile(".designspace", f)[0]
         designSpace = DesignSpaceDocument()
         designSpace.read(path)
         dsList.append(designSpace)
@@ -129,11 +116,7 @@ def getDesignspace(masterfont, *fontsToAdd):
     for a in masterDesignSpace.axes:
         if a.tag in slaveAxes:
             masterAxes.append(a.tag)
-    #test with sets
-    # commonAxes = set(slaveAxes) & set(masterAxes)
-    # diffAxes  = set(slaveAxes) - set(masterAxes)
-    # print("Axes in common: ",  commonAxes)
-    # print("Axes NOT in common: ", diffAxes)
+
     return masterDesignSpace, dsList, slaveAxes, masterAxes, neutralLocation
 
 def simpleMerger(fontsPath, style, newName, onlySecureSet=False): #path of actual fonts
@@ -146,7 +129,9 @@ def simpleMerger(fontsPath, style, newName, onlySecureSet=False): #path of actua
         os.makedirs(destination)
     mergedFontPath = os.path.join(destination, "NotoCombined"+style+".ttf")
     mergedFont.save(mergedFontPath)
+    print(mergedFontPath)
     renameFonts("NotoCombined", newName)
+
     return os.path.abspath(os.path.join(destination, os.pardir))
 
 def mergeFonts(masterfont, *fontsToAdd):
@@ -158,42 +143,49 @@ def mergeFonts(masterfont, *fontsToAdd):
     for i in fontsToAdd:
         basefonts.append(i)
     for i in basefonts:
-        varFontPath = getFile(".designspace", "src", i)[1] + "/fonts/VAR/" + i + "-VF.ttf"
-        if not os.path.exists(varFontPath):
-            designSpace2Var(i)
-        else:
-            print(i, "Variable already exists")
-    print("todo", todo)
+        varFontPath = getFile(".designspace", i)[1] + "/fonts/VAR/" + i + "-VF.ttf"
     for match in todo:
         if len(match) > 0:
             todolist = []
             for instance in match:
-                loca = dict()
-                style = instance[1]
-                location = instance[2]
-                for loc in location:
-                    loca[trad[loc]] = location[loc]
-                    #print("loca\t", loca, instance[0])
-                makeOneInstanceFromVF(instance[0], loca)
-                path = getFolder(instance[0]) + "fonts/static"
-                todolist.append(os.path.join(path, instance[0]+"-"+instance[1]+".ttf"))
+                ufoList = list()
+                familyPath = getFolder(instance[0])
+                for element in os.listdir(familyPath):
+                    if element.endswith(".ufo"):
+                        ufoList.append(element)
+                if len(ufoList) > 1:
+                    loca = dict()
+                    style = instance[1]
+                    location = instance[2]
+                    for loc in location:
+                        loca[trad[loc]] = location[loc]
+                    makeOneInstanceFromVF(instance[0], loca)
+                    path = getFolder(instance[0]) + "/fonts/static"
+                    todolist.append(os.path.join(path, instance[0]+"-"+instance[1]+".ttf"))
+                else:
+                    style = instance[1]
+                    makeVanillaFamily(os.path.split(familyPath)[1], 'ttf')
+                    path = getFolder(instance[0]) + "/fonts/TTF"
+                    todolist.append(os.path.join(path, instance[0]+"-"+instance[1]+".ttf"))
+            # print(todolist)
             newName = masterfont.replace("Noto", "")
             for i in fontsToAdd:
                 newName += i.replace("Noto", "")
             temp = simpleMerger(todolist, style, newName)
     shutil.rmtree(temp)
 
-    # if len(todo) != 0:
-    #     print("Now it makes variable of each fam")
-        # print(type(todo))
-        # for match in todo:
-        #     print(match)
-            # for i in match:
-            #     print(i)
-            #     print("it extract the" % "instance, the merges all of them " % font)
-
-
-# mergeFonts("NotoSans", "NotoSansArabic") #> working
-# mergeFonts("NotoSans", "NotoSansThaana") #> working
-# mergeFonts("NotoSerifHebrew", "NotoKufiArabic", "NotoSerif") #> working
-# mergeFonts("NotoSansThaana", "NotoSerifHebrew") # not woking because no GSUB in NotoSansThaana that is given in second to the merger
+#############
+### TEST ####
+#############
+def testMerge():
+    l = [mergeFonts("NotoSans", "NotoSansArabic"), #> working
+        mergeFonts("NotoMusic", "NotoSansThaana"), #> working
+        mergeFonts("NotoSerifHebrew", "NotoKufiArabic", "NotoSerif"), #> working
+        mergeFonts("NotoSansThaana", "NotoSerifHebrew") # not woking
+        ]                                               # because no GSUB in NotoSansThaana
+                                                        # that is given in second to the merger
+    for i in l:
+        try:
+            i
+        except Exception as e:
+            pass
