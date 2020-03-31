@@ -136,7 +136,7 @@ def main():
         print(f, "didn't work")
     # REMOVE GLYPHS AND UFO SOURCE FROM TEMP FOLDER
     for to_rm in os.listdir(source2update):
-        if to_rm != ".DS_Store":
+        if to_rm != ".DS_Store" and to_rm != "update.md":
             if os.path.isdir(os.path.join(source2update, to_rm)):
                 shutil.rmtree(os.path.join(source2update, to_rm))
             else:
