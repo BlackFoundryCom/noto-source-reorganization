@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Shruu" format="2">
   <advance width="987"/>
+  <anchor x="500" y="600" name="AnusCandra"/>
+  <anchor x="881" y="352" name="AA_alt"/>
+  <anchor x="790" y="445" name="AI"/>
+  <anchor x="770" y="450" name="E"/>
+  <anchor x="510" y="0" name="Pa"/>
+  <anchor x="802" y="470" name="Repha"/>
+  <anchor x="520" y="20" name="UU"/>
+  <anchor x="485" y="0" name="Virama"/>
+  <anchor x="515" y="0" name="VocL"/>
+  <anchor x="515" y="0" name="VocR"/>
+  <anchor x="510" y="0" name="Ya"/>
   <outline>
     <contour>
       <point x="411" y="-174" type="curve" smooth="yes"/>
@@ -40,7 +51,11 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/24 03:39:20</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

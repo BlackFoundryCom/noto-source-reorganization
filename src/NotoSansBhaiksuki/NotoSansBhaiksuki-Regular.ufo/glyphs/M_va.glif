@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Mva" format="2">
   <advance width="736"/>
+  <anchor x="642" y="390" name="AA_alt"/>
+  <anchor x="355" y="600" name="AnusCandra"/>
   <outline>
     <component base="Va.sub" xOffset="-68" yOffset="-37"/>
     <component base="Ma.above"/>
@@ -10,7 +12,11 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/24 03:52:37</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

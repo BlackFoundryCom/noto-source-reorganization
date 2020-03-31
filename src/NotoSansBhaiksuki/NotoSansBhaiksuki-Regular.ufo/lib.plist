@@ -5,7 +5,7 @@
     <key>com.github.googlei18n.ufo2ft.useProductionNames</key>
     <false/>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>998</string>
+    <string>1300</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
     <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -29,7 +29,7 @@
     <key>com.schriftgestaltung.fontMasterOrder</key>
     <integer>0</integer>
     <key>com.schriftgestaltung.keyboardIncrement</key>
-    <integer>0</integer>
+    <integer>1</integer>
     <key>com.schriftgestaltung.weight</key>
     <string>Regular</string>
     <key>com.schriftgestaltung.weightValue</key>
@@ -38,8 +38,6 @@
     <string>Regular</string>
     <key>com.schriftgestaltung.widthValue</key>
     <integer>100</integer>
-    <key>com.typemytype.robofont.segmentType</key>
-    <string>curve</string>
     <key>public.glyphOrder</key>
     <array>
       <string>.notdef</string>
@@ -56,6 +54,8 @@
       <string>A_indi</string>
       <string>Anusvara</string>
       <string>Anusvara.alt</string>
+      <string>Anusvara.alt.reph</string>
+      <string>Anusvara.reph</string>
       <string>Arrowhead</string>
       <string>Avagraha</string>
       <string>Ba</string>
@@ -100,6 +100,8 @@
       <string>Cai</string>
       <string>Candrabindu</string>
       <string>Candrabindu.alt</string>
+      <string>Candrabindu.alt.reph</string>
+      <string>Candrabindu.reph</string>
       <string>Cau</string>
       <string>Cca</string>
       <string>Ccai</string>
@@ -499,6 +501,7 @@
       <string>Nnsa</string>
       <string>Nnvu</string>
       <string>Nnya</string>
+      <string>Nnye</string>
       <string>No</string>
       <string>No_ya</string>
       <string>Nrr</string>

@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gja" format="2">
   <advance width="766"/>
+  <anchor x="663" y="361" name="AA_alt"/>
+  <anchor x="315" y="574" name="AnusCandra"/>
   <outline>
     <contour>
       <point x="455" y="-240" type="curve" smooth="yes"/>
@@ -106,7 +108,11 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/24 03:55:38</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

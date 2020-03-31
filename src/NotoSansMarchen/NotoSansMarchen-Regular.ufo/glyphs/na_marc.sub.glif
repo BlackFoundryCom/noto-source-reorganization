@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="na_marc.sub" format="2">
   <unicode hex="11C9D"/>
+  <anchor x="-247" y="118" name="_bottom"/>
+  <anchor x="-247" y="-540" name="bottom"/>
+  <anchor x="-83" y="-450" name="wa_ra_mkmk"/>
   <outline>
     <contour>
       <point x="-38" y="-18" type="line"/>
@@ -34,9 +37,11 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/13 22:26:47</string>
+      <string>2020/03/23 02:05:05</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>marc</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
     </dict>
   </lib>
 </glyph>

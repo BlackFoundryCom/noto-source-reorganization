@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tata" format="2">
   <advance width="600"/>
+  <anchor x="440" y="388" name="AA"/>
+  <anchor x="260" y="600" name="AnusCandra"/>
+  <anchor x="340" y="-140" name="Pa"/>
+  <anchor x="265" y="480" name="Repha"/>
+  <anchor x="355" y="-110" name="UU"/>
+  <anchor x="365" y="-140" name="Virama"/>
+  <anchor x="345" y="-95" name="VocL"/>
+  <anchor x="355" y="-105" name="VocR"/>
+  <anchor x="340" y="-140" name="Ya"/>
   <outline>
     <contour>
       <point x="349" y="-170" type="curve"/>
@@ -62,8 +71,12 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/19 07:49:16</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
     </dict>
   </lib>
 </glyph>

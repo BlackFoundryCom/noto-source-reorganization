@@ -1,6 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ggrau" format="2">
   <advance width="928"/>
+  <anchor x="475" y="880" name="AnusCandra"/>
+  <anchor x="425" y="-35" name="Pa"/>
+  <anchor x="420" y="-20" name="UU"/>
+  <anchor x="430" y="-40" name="Virama"/>
+  <anchor x="430" y="-40" name="VocL"/>
+  <anchor x="425" y="-35" name="Ya"/>
   <outline>
     <contour>
       <point x="375" y="522" type="curve"/>
@@ -53,12 +59,16 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>Ga</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Ga</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/19 07:49:16</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
     </dict>
   </lib>
 </glyph>

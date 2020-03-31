@@ -1,6 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ki" format="2">
   <advance width="575"/>
+  <anchor x="269" y="617" name="AnusCandra"/>
+  <anchor x="240" y="0" name="Pa"/>
+  <anchor x="275" y="510" name="Repha"/>
+  <anchor x="280" y="0" name="VocL"/>
+  <anchor x="265" y="0" name="VocR"/>
+  <anchor x="240" y="0" name="Ya"/>
   <outline>
     <contour>
       <point x="459" y="-95" type="curve"/>
@@ -71,8 +77,12 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:37</string>
+      <string>2020/01/24 05:47:11</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
     </dict>
   </lib>
 </glyph>

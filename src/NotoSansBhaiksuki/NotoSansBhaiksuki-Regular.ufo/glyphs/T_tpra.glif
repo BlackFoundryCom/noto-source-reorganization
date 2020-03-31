@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ttpra" format="2">
   <advance width="1209"/>
+  <guideline x="402" y="-13" angle="214.0243"/>
+  <anchor x="1107" y="350" name="AA_alt"/>
+  <anchor x="650" y="600" name="AnusCandra"/>
   <outline>
     <contour>
       <point x="600" y="-70" type="curve"/>
@@ -127,7 +130,11 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/19 07:49:16</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

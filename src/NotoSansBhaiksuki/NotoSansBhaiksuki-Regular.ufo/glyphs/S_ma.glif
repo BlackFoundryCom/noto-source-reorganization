@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Sma" format="2">
   <advance width="914"/>
+  <anchor x="682" y="390" name="AA_alt"/>
+  <anchor x="420" y="600" name="AnusCandra"/>
+  <anchor x="435" y="5" name="Pa"/>
+  <anchor x="570" y="480" name="Repha"/>
+  <anchor x="535" y="25" name="UU"/>
+  <anchor x="365" y="0" name="Virama"/>
+  <anchor x="465" y="0" name="VocL"/>
+  <anchor x="245" y="35" name="VocR_wide"/>
+  <anchor x="475" y="15" name="Ya"/>
   <outline>
     <contour>
       <point x="478" y="-285" type="curve" smooth="yes"/>
@@ -59,7 +68,11 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/24 03:38:11</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

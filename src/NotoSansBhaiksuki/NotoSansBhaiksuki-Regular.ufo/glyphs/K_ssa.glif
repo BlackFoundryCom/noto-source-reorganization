@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Kssa" format="2">
   <advance width="594"/>
+  <anchor x="440" y="388" name="AA"/>
+  <anchor x="280" y="600" name="AnusCandra"/>
+  <anchor x="265" y="0" name="Pa"/>
+  <anchor x="265" y="480" name="Repha"/>
+  <anchor x="270" y="0" name="UU"/>
+  <anchor x="250" y="0" name="Virama"/>
+  <anchor x="265" y="0" name="VocL"/>
+  <anchor x="255" y="0" name="VocR"/>
+  <anchor x="265" y="0" name="Ya"/>
   <outline>
     <contour>
       <point x="266" y="-10" type="curve" smooth="yes"/>
@@ -69,8 +78,12 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/26 05:27:58</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
     </dict>
   </lib>
 </glyph>

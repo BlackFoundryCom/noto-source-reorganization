@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Gma" format="2">
   <advance width="744"/>
+  <anchor x="611" y="400" name="AA_alt"/>
+  <anchor x="275" y="600" name="AnusCandra"/>
   <outline>
     <contour>
       <point x="328" y="-115" type="curve" smooth="yes"/>
@@ -93,7 +95,11 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/19 07:49:16</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

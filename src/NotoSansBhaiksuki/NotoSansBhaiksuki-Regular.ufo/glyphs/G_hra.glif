@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ghra" format="2">
   <advance width="936"/>
+  <anchor x="831" y="400" name="AA_alt"/>
+  <anchor x="575" y="600" name="AnusCandra"/>
+  <anchor x="635" y="20" name="Pa"/>
+  <anchor x="740" y="480" name="Repha"/>
+  <anchor x="620" y="45" name="UU"/>
+  <anchor x="540" y="0" name="Virama"/>
+  <anchor x="685" y="0" name="VocL"/>
+  <anchor x="525" y="75" name="VocR_wide"/>
+  <anchor x="635" y="20" name="Ya"/>
   <outline>
     <contour>
       <point x="371" y="-175" type="curve" smooth="yes"/>
@@ -44,7 +53,11 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Gha</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/19 07:49:16</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

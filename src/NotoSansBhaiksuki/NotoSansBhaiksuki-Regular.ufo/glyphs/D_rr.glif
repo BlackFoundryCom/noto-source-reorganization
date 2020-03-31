@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Drr" format="2">
   <advance width="694"/>
+  <anchor x="442" y="600" name="AnusCandra"/>
+  <anchor x="449" y="482" name="Repha"/>
+  <anchor x="607" y="388" name="AA"/>
+  <anchor x="457" y="10" name="Pa"/>
+  <anchor x="477" y="0" name="UU"/>
+  <anchor x="502" y="0" name="Virama"/>
+  <anchor x="467" y="0" name="VocL"/>
+  <anchor x="452" y="0" name="VocR"/>
+  <anchor x="457" y="10" name="Ya"/>
   <outline>
     <contour>
       <point x="298" y="-185" type="curve" smooth="yes"/>
@@ -33,7 +42,11 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/24 03:27:16</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

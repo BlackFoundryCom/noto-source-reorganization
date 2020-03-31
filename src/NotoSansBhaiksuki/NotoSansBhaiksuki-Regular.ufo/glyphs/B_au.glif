@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Bau" format="2">
   <advance width="834"/>
+  <anchor x="398" y="600" name="AnusCandra"/>
   <outline>
     <component base="AA_vwl.alt" xOffset="675" yOffset="-6"/>
     <component base="Be"/>
@@ -8,8 +9,12 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/24 03:25:41</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
     </dict>
   </lib>
 </glyph>

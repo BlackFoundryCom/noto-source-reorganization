@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Dadha" format="2">
   <advance width="724"/>
+  <anchor x="475" y="388" name="AA"/>
+  <anchor x="305" y="600" name="AnusCandra"/>
+  <anchor x="295" y="-100" name="Pa"/>
+  <anchor x="300" y="480" name="Repha"/>
+  <anchor x="300" y="-85" name="UU"/>
+  <anchor x="320" y="-80" name="Virama"/>
+  <anchor x="300" y="-85" name="VocL"/>
+  <anchor x="295" y="-80" name="VocR"/>
+  <anchor x="295" y="-100" name="Ya"/>
   <outline>
     <contour>
       <point x="306" y="-105" type="curve" smooth="yes"/>
@@ -75,8 +84,12 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/19 07:49:16</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
     </dict>
   </lib>
 </glyph>

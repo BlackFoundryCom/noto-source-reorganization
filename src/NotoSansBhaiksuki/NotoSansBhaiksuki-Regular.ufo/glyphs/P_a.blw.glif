@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Pa.blw" format="2">
+  <anchor x="-150" y="-151" name="UU"/>
+  <anchor x="-45" y="-235" name="VocR"/>
+  <anchor x="-120" y="0" name="_Pa"/>
   <outline>
     <contour>
       <point x="87" y="-251" type="curve"/>
@@ -44,8 +47,16 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:37</string>
+      <string>2020/01/20 06:05:38</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

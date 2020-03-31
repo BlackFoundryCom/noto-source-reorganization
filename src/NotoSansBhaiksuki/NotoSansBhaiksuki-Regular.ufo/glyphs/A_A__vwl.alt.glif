@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="AA_vwl.alt" format="2">
+  <guideline x="154" y="343" angle="136.647"/>
+  <anchor x="0" y="400" name="_AA_alt"/>
   <outline>
     <contour>
       <point x="86" y="251" type="line"/>
@@ -21,8 +23,16 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:37</string>
+      <string>2020/01/17 17:51:21</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

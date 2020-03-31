@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Skrr" format="2">
   <advance width="924"/>
+  <anchor x="562" y="600" name="AnusCandra"/>
+  <anchor x="830" y="400" name="AA_alt"/>
+  <anchor x="583" y="15" name="Pa"/>
+  <anchor x="718" y="490" name="Repha"/>
+  <anchor x="683" y="35" name="UU"/>
+  <anchor x="513" y="10" name="Virama"/>
+  <anchor x="613" y="10" name="VocL"/>
+  <anchor x="393" y="45" name="VocR_wide"/>
+  <anchor x="623" y="25" name="Ya"/>
   <outline>
     <contour>
       <point x="454" y="-258" type="curve" smooth="yes"/>
@@ -57,7 +66,11 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/24 03:38:23</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

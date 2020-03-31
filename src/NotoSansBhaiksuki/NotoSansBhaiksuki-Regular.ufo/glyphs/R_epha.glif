@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Repha" format="2">
+  <anchor x="140" y="580" name="AA"/>
+  <anchor x="25" y="789" name="AnusCandraAlt"/>
+  <anchor x="0" y="480" name="_Repha"/>
   <outline>
     <contour>
       <point x="38" y="490" type="line"/>
@@ -26,8 +29,16 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:37</string>
+      <string>2020/01/24 03:12:50</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

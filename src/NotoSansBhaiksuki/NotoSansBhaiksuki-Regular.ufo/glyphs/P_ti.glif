@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Pti" format="2">
   <advance width="551"/>
+  <anchor x="251" y="600" name="AnusCandra"/>
+  <anchor x="247" y="13" name="Pa"/>
+  <anchor x="247" y="13" name="Ya"/>
   <outline>
     <contour>
       <point x="229" y="-325" type="curve"/>
@@ -44,7 +47,11 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Pi_bhks</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/24 03:46:34</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

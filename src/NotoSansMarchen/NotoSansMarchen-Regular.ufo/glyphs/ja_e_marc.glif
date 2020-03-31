@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ja_e_marc" format="2">
   <advance width="513"/>
+  <anchor x="267" y="-68" name="bottom"/>
+  <anchor x="254" y="718" name="top"/>
   <outline>
     <contour>
       <point x="326" y="73" type="curve" smooth="yes"/>
@@ -51,9 +53,11 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>ja_marc</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/13 22:26:47</string>
+      <string>2020/03/23 02:05:05</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>marc</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

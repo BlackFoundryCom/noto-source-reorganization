@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Anusvara" format="2">
   <unicode hex="11C3D"/>
+  <anchor x="0" y="600" name="_AnusCandra"/>
   <outline>
     <contour>
       <point x="-28" y="610" type="curve" smooth="yes"/>
@@ -33,8 +34,16 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:37</string>
+      <string>2020/01/20 06:04:32</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
     </dict>
   </lib>
 </glyph>

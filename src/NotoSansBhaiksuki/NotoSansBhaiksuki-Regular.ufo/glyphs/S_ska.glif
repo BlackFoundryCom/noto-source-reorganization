@@ -1,6 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Sska" format="2">
   <advance width="735"/>
+  <anchor x="641" y="390" name="AA_alt"/>
+  <anchor x="364" y="600" name="AnusCandra"/>
+  <anchor x="205" y="-200" name="Pa"/>
+  <anchor x="540" y="480" name="Repha"/>
+  <anchor x="294" y="-201" name="UU"/>
+  <anchor x="290" y="-216" name="Virama"/>
+  <anchor x="330" y="-217" name="VocL"/>
+  <anchor x="275" y="-200" name="Ya"/>
   <outline>
     <contour>
       <point x="550" y="-160" type="curve"/>
@@ -121,8 +129,12 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/19 07:49:16</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
     </dict>
   </lib>
 </glyph>

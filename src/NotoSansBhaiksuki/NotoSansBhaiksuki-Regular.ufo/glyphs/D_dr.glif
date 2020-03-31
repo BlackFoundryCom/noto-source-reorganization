@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Ddr" format="2">
   <advance width="694"/>
+  <anchor x="620" y="388" name="AA"/>
+  <anchor x="465" y="600" name="AnusCandra"/>
+  <anchor x="440" y="-60" name="Pa"/>
+  <anchor x="460" y="480" name="Repha"/>
+  <anchor x="450" y="-40" name="UU"/>
+  <anchor x="445" y="-50" name="Virama"/>
+  <anchor x="440" y="-45" name="VocL"/>
+  <anchor x="450" y="-55" name="VocR"/>
+  <anchor x="440" y="-60" name="Ya"/>
   <outline>
     <contour>
       <point x="361" y="-240" type="curve" smooth="yes"/>
@@ -39,7 +48,11 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/19 07:49:16</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

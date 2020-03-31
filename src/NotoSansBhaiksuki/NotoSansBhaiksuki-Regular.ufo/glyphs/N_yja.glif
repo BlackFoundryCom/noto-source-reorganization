@@ -1,6 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Nyja" format="2">
   <advance width="756"/>
+  <anchor x="335" y="600" name="AnusCandra"/>
+  <anchor x="617.3042" y="-1.7939999999999827" name="AA_alt"/>
+  <anchor x="420.045" y="-296.092" name="Pa"/>
+  <anchor x="535.3779999999999" y="69.79199999999997" name="Repha"/>
+  <anchor x="396.183" y="-312.0" name="Virama"/>
+  <anchor x="451.861" y="-312.0" name="VocL"/>
+  <anchor x="356.413" y="-312.0" name="VocR_wide"/>
+  <anchor x="420.045" y="-296.092" name="Ya"/>
   <outline>
     <contour>
       <point x="47" y="98" type="curve"/>
@@ -66,7 +74,11 @@
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/24 03:22:35</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

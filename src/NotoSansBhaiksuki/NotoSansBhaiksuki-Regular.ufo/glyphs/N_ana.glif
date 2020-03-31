@@ -1,6 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Nana" format="2">
   <advance width="461"/>
+  <anchor x="420" y="388" name="AA"/>
+  <anchor x="230" y="600" name="AnusCandra"/>
+  <anchor x="250" y="-80" name="Pa"/>
+  <anchor x="240" y="480" name="Repha"/>
+  <anchor x="255" y="-45" name="UU"/>
+  <anchor x="285" y="-95" name="Virama"/>
+  <anchor x="220" y="-35" name="VocL"/>
+  <anchor x="250" y="-35" name="VocR"/>
+  <anchor x="250" y="-80" name="Ya"/>
   <outline>
     <contour>
       <point x="237" y="-105" type="curve"/>
@@ -64,8 +73,12 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/19 07:49:16</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
     </dict>
   </lib>
 </glyph>

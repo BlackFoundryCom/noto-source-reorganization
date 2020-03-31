@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Shva" format="2">
   <advance width="857"/>
+  <anchor x="752" y="352" name="AA_alt"/>
+  <anchor x="375" y="600" name="AnusCandra"/>
+  <anchor x="655" y="426" name="E"/>
   <outline>
     <contour>
       <point x="587" y="134" type="line"/>
@@ -69,7 +72,11 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Sha</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:38</string>
+      <string>2020/01/19 07:49:16</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

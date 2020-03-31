@@ -2,6 +2,18 @@
 <glyph name="Tta" format="2">
   <advance width="989"/>
   <unicode hex="11C18"/>
+  <guideline x="837" y="484" angle="136.647"/>
+  <anchor x="887" y="350" name="AA_alt"/>
+  <anchor x="800" y="445" name="AI"/>
+  <anchor x="430" y="600" name="AnusCandra"/>
+  <anchor x="800" y="450" name="E"/>
+  <anchor x="525" y="75" name="Pa"/>
+  <anchor x="280" y="480" name="Repha"/>
+  <anchor x="525" y="90" name="UU"/>
+  <anchor x="360" y="40" name="Virama"/>
+  <anchor x="505" y="55" name="VocL"/>
+  <anchor x="205" y="170" name="VocR_wide"/>
+  <anchor x="525" y="75" name="Ya"/>
   <outline>
     <contour>
       <point x="515" y="30" type="line"/>
@@ -56,8 +68,16 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:37</string>
+      <string>2020/01/19 07:49:16</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
     </dict>
   </lib>
 </glyph>

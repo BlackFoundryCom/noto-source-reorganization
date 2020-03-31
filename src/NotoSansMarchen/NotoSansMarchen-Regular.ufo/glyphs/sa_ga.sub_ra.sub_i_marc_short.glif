@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sa_ga.sub_ra.sub_i_marc_short" format="2">
   <advance width="704"/>
+  <anchor x="531" y="718" name="candrabindu_narrow"/>
+  <anchor x="464" y="718" name="top"/>
   <outline>
     <contour>
       <point x="342" y="678" type="curve"/>
@@ -86,9 +88,11 @@
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>sa_marc</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/13 22:26:48</string>
+      <string>2020/03/23 02:05:05</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>marc</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

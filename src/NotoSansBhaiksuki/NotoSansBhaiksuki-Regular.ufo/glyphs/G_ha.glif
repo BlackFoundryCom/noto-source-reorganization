@@ -2,6 +2,15 @@
 <glyph name="Gha" format="2">
   <advance width="736"/>
   <unicode hex="11C11"/>
+  <anchor x="631" y="400" name="AA_alt"/>
+  <anchor x="375" y="600" name="AnusCandra"/>
+  <anchor x="435" y="20" name="Pa"/>
+  <anchor x="540" y="480" name="Repha"/>
+  <anchor x="420" y="45" name="UU"/>
+  <anchor x="340" y="0" name="Virama"/>
+  <anchor x="485" y="0" name="VocL"/>
+  <anchor x="325" y="75" name="VocR_wide"/>
+  <anchor x="435" y="20" name="Ya"/>
   <outline>
     <contour>
       <point x="473" y="-10" type="curve" smooth="yes"/>
@@ -80,8 +89,16 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/07/03 19:48:37</string>
+      <string>2020/01/19 07:49:16</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>bhks</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
     </dict>
   </lib>
 </glyph>
