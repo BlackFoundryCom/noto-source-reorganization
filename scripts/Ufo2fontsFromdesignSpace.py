@@ -202,12 +202,12 @@ def makeVariableFonts(family):
 #         makeAllVFversions(family)
 
 def designSpace2Var(family):
-    print(">>Load the {} designspace".format(family))
+    print(">>> Load the {} designspace".format(family))
     path, folder = getFile(".designspace", family)
     designSpace = openDesignSpace(path)
-    print("\tLoad "+family+" files")
+    print("    Load "+family+" files")
     designSpace.loadSourceFonts(Font)
-    print("\tStart to build Variable Tables")
+    print("    Start to build Variable Tables")
     feature_Writers = [KernFeatureWriter(mode="append"), MarkFeatureWriter]
 
     font, _, _ = varLib.build(compileInterpolatableTTFsFromDS(
@@ -216,8 +216,8 @@ def designSpace2Var(family):
     destination = folder + "/fonts/VAR"
     if not os.path.exists(destination):
         os.makedirs(destination)
-    print("\t"+family+" Variable Font generated\n")
     font.save(os.path.join(destination, family + "-VF.ttf"))
+    print("    " + family + " Variable Font generated\n")
 
 def stockDSstylename(designspace):
     loca2styleNameDict = dict()
@@ -768,12 +768,12 @@ def makeOtfFamily(family, newName=" ", onlyOtf=False):
 # mastersUfos2fonts("NotoSansThaana", "woff2")
 # renameFonts("NotoSans", "Tomato Soup")
 # mergeFonts("NotoSans","NotoNastaliqUrdu")
-# designSpace2Var("NotoSerifTelugu")
+# designSpace2Var("NotoSansArabicUI")
 # makeTTFInstancesFromVF("NotoSerif")
 # makeOneInstanceFromVF("NotoSansThaana", {'wght': 190.0})
 # mastersUfos2fonts("NotoSansThaana", "ttf")
 # ufosToGlyphs("NotoSansThaana")
 # ufo2font("NotoSans", ["NotoSans-Bold.ufo"], "ttf")
-# designSpace2Instances("NotoMusic", "woff")
+# designSpace2Instances("NotoSansArabic", "woff")
 # mergeFonts("NotoSansThaana", "NotoSerifHebrew")
 # addSecureSet("NotoSansArabic", "ttf")

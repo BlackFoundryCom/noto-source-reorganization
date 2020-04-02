@@ -142,9 +142,17 @@ def main():
         path = os.path.abspath(
             os.path.join(os.path.dirname(args.var), os.pardir, 'scripts'))
         familyPath = args.var
+        failing = []
         if os.path.exists(familyPath):
             os.chdir(path)
-            makeVariableFonts(os.path.split(familyPath)[1])
+            try:
+                makeVariableFonts(os.path.split(familyPath)[1])
+            except:
+                failing.append(os.path.split(familyPath)[1])
+        if len(failing) > 0:
+            for i in failing:
+                print("Warning: " + i + " has not been generated.")
+
     ############################################
     # FAST GENERATING INSTANCES FROM VARIABLES #
     ############################################
@@ -198,8 +206,7 @@ def main():
                     else:
                         designSpace2Instances(os.path.split(familyPath)[1], "ttf")
             else:
-                prettyLog("The family will be generated as ttf. \
-                    If non-latin, a 'securet set' of basic latin glyphs will be added.")
+                prettyLog("The family will be generated as ttf. If non-latin, a 'securet set' of basic latin glyphs will be added.")
                 designSpace2Instances(os.path.split(familyPath)[1])
     #####################
     # RENAME THE FAMILY #
@@ -229,34 +236,45 @@ def main():
         styles = list()
         os.chdir(path)
         axesName = dict()
-        family = args.static
-        familyName = os.path.split(family)[1]
-        dsPath = os.path.join(family, familyName + ".designspace")
+        familPath = args.static
+        familyName = os.path.split(familPath)[1]
+        dsPath = os.path.join(familPath, familyName + ".designspace")
         ds = openDesignSpace(dsPath)
-        for a in ds.axes:
-            axesName[a.name] = a.tag
-        for i in ds.instances:
-            loca = dict()
-            for loc in i.location:
-                loca[axesName[loc]] = i.location[loc]
-            locationList.append(loca)
-            print(familyName, i.styleName,
-                    "--> ["+ str(locationList.index(loca)) +"]")
-            styles.append(i.styleName)
-        prettyLog("Which static instances do you want? \
-                  input the corresponding number:")
-        static = input(":")
-        if "-" in static:
-            scale = static.split("-")
-            for s in range(int(scale[0]), int(scale[1])):
-                makeOneInstanceFromVF(familyName, locationList[int(s)])
-        elif "," in static:
-            instancesList = static.split(", ")
-            for il in instancesList:
-                makeOneInstanceFromVF(familyName, locationList[int(il)])
+        ###
+        ufoList = list()
+        for element in os.listdir(familPath):
+            if element.endswith(".ufo"):
+                ufoList.append(element)
+        if len(ufoList) > 1:
+        ###
+            for a in ds.axes:
+                axesName[a.name] = a.tag
+            for i in ds.instances:
+                loca = dict()
+                for loc in i.location:
+                    loca[axesName[loc]] = i.location[loc]
+                locationList.append(loca)
+                print(familyName, i.styleName, "--> ["+ str(locationList.index(loca)) +"]")
+                styles.append(i.styleName)
+            prettyLog("Which static instance(s) do you want? input the corresponding number(s):")
+            static = input(":")
+            if "-" in static:
+                scale = static.split("-")
+                for s in range(int(scale[0]), int(scale[1])):
+                    makeOneInstanceFromVF(familyName, locationList[int(s)])
+            elif "," in static:
+                instancesList = static.split(", ")
+                for il in instancesList:
+                    makeOneInstanceFromVF(familyName, locationList[int(il)])
+            else:
+                makeOneInstanceFromVF(familyName, locationList[int(static)])
+                print(familyName, styles[int(static)], "extracted")
         else:
-            makeOneInstanceFromVF(familyName, locationList[int(static)])
-            print(familyName, styles[int(static)], "extracted")
+            print("\n>>> " + familyName + " family has only one master.\n    A static ttf can be generated instead.")
+            prettyLog("Do you want the static ttf to be generated? : y/n")
+            static = input(">>> ")
+            if "y" in static:
+                makeVanillaFamily(familyName, 'ttf')
     #######################################################
     # 3 commands to generate all families in VF, TTF, OTF #
     #######################################################
@@ -277,13 +295,11 @@ def main():
                 try:
                     makeVariableFonts(os.path.split(familyPath)[1])
                 except:
-                    print("\t>>> " + n + "Variable has failed.\n\
-                        \t\tA static ttf version of the family will be generated.")
+                    print("\t>>> " + n + "Variable has failed.\n\t\tA static ttf version of the family will be generated.")
                     makeVanillaFamily(os.path.split(familyPath)[1], 'ttf')
                     failing.append(familyPath.split("/")[-1])
             else:
-                print("\t>>> " + n + "family has only one master.\n\
-                        \tA static ttf will be generated instead.")
+                print("\t>>> " + n + "family has only one master.\n\tA static ttf will be generated instead.")
                 makeVanillaFamily(os.path.split(familyPath)[1], 'ttf')
         if len(failing) > 0:
             for i in failing:

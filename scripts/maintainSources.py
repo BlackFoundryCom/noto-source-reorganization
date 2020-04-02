@@ -3,6 +3,7 @@ import shutil
 import glyphsLib
 import ufoLib2
 import sys
+from fontTools.designspaceLib   import DesignSpaceDocument
 
 class sourcesBuilder():
 
@@ -23,12 +24,22 @@ class sourcesBuilder():
         if os.path.exists(self.destination):
             shutil.rmtree(self.destination)
 
+    @property
+    def notExportedGlyphs(self):
+        notExportedGlyphsList = []
+        GSft = glyphsLib.GSFont(self.sourcePath)
+        for g in GSft.glyphs:
+            if g.export is False:
+                notExportedGlyphsList.append(g.name)
+        return notExportedGlyphsList
+
     def convertion(self):
         if not os.path.exists(self.destination):
             os.makedirs(self.destination)
         self.ufos, self.designspace_path = glyphsLib.build_masters(
                                             self.sourcePath, self.destination)
         self.cleanedUfos = self.cleanUfos()
+        self.addSkipExport2designspace()
 
         for i in os.listdir(self.destination):
             if i.endswith(".designspace") and "-" in i:
@@ -39,14 +50,44 @@ class sourcesBuilder():
 
         return self.designspace_path, self.cleanUfos
 
+    @property
+    def designSpace(self):
+        designspace = DesignSpaceDocument()
+        designspace.read(self.designspace_path)
+        return designspace
+
+    def addSkipExport2designspace(self):
+        ds = self.designSpace
+        notExportedGlyphsList_ = self.notExportedGlyphs
+        if len(notExportedGlyphsList_) != 0:
+            ds.lib["public.skipExportGlyphs"]=notExportedGlyphsList_
+        # content.write(designspace_path)
+        ds.write(self.designspace_path)
+
     def cleanUfos(self):
         glyphOrder = list()
+        notExportedGlyphsList_ = self.notExportedGlyphs
         for ufoPath in self.ufos:
             ufo = ufoLib2.Font.open(os.path.join(self.destination, ufoPath))
             for g in ufo:
-                glyphOrder.append(g.name)
+                if g.name not in notExportedGlyphsList_:
+                    glyphOrder.append(g.name)
             ufo.glyphOrder = glyphOrder
+            if len(notExportedGlyphsList_) != 0:
+                ufo.lib["public.skipExportGlyphs"]=notExportedGlyphsList_
+                ufo = self.cleanFeaFromSkippedGlyphs(ufo, notExportedGlyphsList_)
             ufo.save()
+
+    def cleanFeaFromSkippedGlyphs(self, ufo, skippedGLyphs):
+        cleanFea = ""
+        for line in ufo.features.text.split("\n"):
+            for gname in skippedGLyphs:
+                line = line.replace(gname, "")
+            cleanFea += line + "\n"
+        ufo.features.text = cleanFea
+
+        return ufo
+
 
 class complexSourcesBuilder():
 

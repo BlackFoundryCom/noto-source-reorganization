@@ -1306,5 +1306,5 @@ def mti2fea(family, insertInUfo=False, exportFea=True):
             ft.save()
 
 
-# if __name__ == "__main__":
-#     fea_ = mti2fea("NotoSansCham")
+if __name__ == "__main__":
+    fea_ = mti2fea("NotoSansOriya")
