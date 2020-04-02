@@ -768,7 +768,7 @@ def makeOtfFamily(family, newName=" ", onlyOtf=False):
 # mastersUfos2fonts("NotoSansThaana", "woff2")
 # renameFonts("NotoSans", "Tomato Soup")
 # mergeFonts("NotoSans","NotoNastaliqUrdu")
-# designSpace2Var("NotoSansArabicUI")
+# designSpace2Var("NotoKufiArabic")
 # makeTTFInstancesFromVF("NotoSerif")
 # makeOneInstanceFromVF("NotoSansThaana", {'wght': 190.0})
 # mastersUfos2fonts("NotoSansThaana", "ttf")
