@@ -4,8 +4,6 @@
   <dict>
     <key>com.schriftgestaltung.appVersion</key>
     <string>1060</string>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -276,6 +274,19 @@
       <string>uni25CC</string>
       <string>vert.2</string>
       <string>vertical</string>
+    </array>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>arrow</string>
+      <string>horizontal</string>
+      <string>u1E822.short</string>
+      <string>horiz.2</string>
+      <string>vert.2</string>
+      <string>vertical</string>
+      <string>horiz.1</string>
+      <string>dot3</string>
+      <string>dot2</string>
+      <string>dot1</string>
     </array>
   </dict>
 </plist>

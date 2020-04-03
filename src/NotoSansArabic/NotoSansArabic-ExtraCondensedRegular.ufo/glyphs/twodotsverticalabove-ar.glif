@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="twodotsverticalabove-ar" format="2">
+  <advance width="118"/>
   <unicode hex="FBBD"/>
   <anchor x="63" y="432" name="_top.dot"/>
   <anchor x="62" y="726" name="top"/>
@@ -9,14 +10,24 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2020/02/29 21:25:14</string>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>118</integer>
-      <key>com.schriftgestaltung.componentsAlignment</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_dotabove-ar</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>_dotabove-ar</string>
+        </dict>
       </array>
     </dict>
   </lib>

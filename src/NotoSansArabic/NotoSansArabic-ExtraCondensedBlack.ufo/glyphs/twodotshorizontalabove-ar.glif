@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="twodotshorizontalabove-ar" format="2">
+  <advance width="310"/>
   <unicode hex="FBB4"/>
   <anchor x="154" y="550" name="_top.dot"/>
   <anchor x="154" y="816" name="top"/>
@@ -8,13 +9,16 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2020/02/29 21:23:35</string>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>310</integer>
-      <key>com.schriftgestaltung.componentsAlignment</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
-        <integer>-1</integer>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_twodotshorizontalabove-ar</string>
+        </dict>
       </array>
     </dict>
   </lib>

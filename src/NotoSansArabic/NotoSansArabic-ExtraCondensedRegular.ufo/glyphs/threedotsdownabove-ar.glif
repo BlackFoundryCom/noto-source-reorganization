@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="threedotsdownabove-ar" format="2">
+  <advance width="222"/>
   <unicode hex="FBB8"/>
   <anchor x="110" y="432" name="_top.dot"/>
   <anchor x="113" y="712" name="top"/>
@@ -8,13 +9,16 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2020/02/29 22:32:12</string>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>222</integer>
-      <key>com.schriftgestaltung.componentsAlignment</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
-        <integer>-1</integer>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_threedotsupabove-ar</string>
+        </dict>
       </array>
     </dict>
   </lib>

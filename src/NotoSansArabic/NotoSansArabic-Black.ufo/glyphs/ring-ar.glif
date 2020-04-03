@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ring-ar" format="2">
+  <advance width="259"/>
   <unicode hex="FBBF"/>
   <anchor x="133" y="590" name="_top"/>
   <anchor x="133" y="552" name="_top.dot"/>
@@ -7,12 +8,4 @@
   <outline>
     <component base="ringbelow-ar" yOffset="-2"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2020/02/25 17:31:32</string>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>259</integer>
-    </dict>
-  </lib>
 </glyph>

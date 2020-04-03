@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotabove-ar" format="2">
+  <advance width="121"/>
   <unicode hex="FBB2"/>
   <anchor x="60" y="432" name="_top.dot"/>
   <anchor x="61" y="636" name="top"/>
@@ -8,13 +9,16 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2020/03/13 18:13:17</string>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>121</integer>
-      <key>com.schriftgestaltung.componentsAlignment</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
-        <integer>-1</integer>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>_dotabove-ar</string>
+        </dict>
       </array>
     </dict>
   </lib>

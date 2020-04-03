@@ -6,8 +6,6 @@
     <false/>
     <key>com.schriftgestaltung.appVersion</key>
     <string>1300</string>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -934,5 +932,31 @@
       <key>ii-vwl-part</key>
       <string>iivwlpart</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>Pa.alt</string>
+      <string>AA_vwl.alt2</string>
+      <string>E_vwl.alt2</string>
+      <string>O_vwl.alt</string>
+      <string>AU_vwl.alt</string>
+      <string>ii-vwl-part</string>
+      <string>vwl_pt1</string>
+      <string>vwl_pt2</string>
+      <string>vwl_pt3</string>
+      <string>Arrowhead</string>
+      <string>Cch</string>
+      <string>Shc</string>
+      <string>Sau.above</string>
+      <string>Si.above</string>
+      <string>Da.above</string>
+      <string>Dha.above</string>
+      <string>Pa.above</string>
+      <string>Ba.above</string>
+      <string>Ma.above</string>
+      <string>Sa.above</string>
+      <string>Ba.blw</string>
+      <string>Sa.blw</string>
+      <string>Va.sub</string>
+    </array>
   </dict>
 </plist>

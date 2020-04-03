@@ -21,8 +21,6 @@
         <string>wdth</string>
       </dict>
     </array>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -43,8 +41,6 @@
     <integer>70</integer>
     <key>com.schriftgestaltung.fontMasterOrder</key>
     <integer>3</integer>
-    <key>com.schriftgestaltung.glyphOrder</key>
-    <false/>
     <key>com.schriftgestaltung.keyboardIncrement</key>
     <integer>1</integer>
     <key>com.schriftgestaltung.weight</key>
@@ -7067,9 +7063,9 @@
       <key>dotStopabove-ar</key>
       <string>uni06EC</string>
       <key>dotabove-ar</key>
-      <string>uniFBB2</string>
+      <string>dotabovear</string>
       <key>dotbelow-ar</key>
-      <string>uniFBB3</string>
+      <string>dotbelowar</string>
       <key>dotcenter-ar</key>
       <string>dotcenterar</string>
       <key>dotlessbeh-ar</key>
@@ -7271,11 +7267,11 @@
       <key>four-persiancenter-ar</key>
       <string>fourpersiancenterar</string>
       <key>fourdotsabove-ar</key>
-      <string>uniFBBA</string>
+      <string>fourdotsabovear</string>
       <key>fourdotsabove-ar.small</key>
-      <string>uniFBBA.small</string>
+      <string>fourdotsabovear.small</string>
       <key>fourdotsbelow-ar</key>
-      <string>uniFBBB</string>
+      <string>fourdotsbelowar</string>
       <key>fourdotscenter-ar</key>
       <string>fourdotscenterar</string>
       <key>fourthroot-ar</key>
@@ -8729,7 +8725,7 @@
       <key>righttoleftmark</key>
       <string>uni200F</string>
       <key>ring-ar</key>
-      <string>uniFBBF</string>
+      <string>ringar</string>
       <key>ringbelow-ar</key>
       <string>ringbelowar</string>
       <key>rnoon-ar</key>
@@ -9045,7 +9041,7 @@
       <key>tahabove-ar</key>
       <string>uni0615</string>
       <key>tahbelow-ar</key>
-      <string>uniFBC1</string>
+      <string>tahbelowar</string>
       <key>tahcenter-ar</key>
       <string>tahcenterar</string>
       <key>takhallusabove-ar</key>
@@ -9215,17 +9211,17 @@
       <key>threedotsabove-ar</key>
       <string>uni06DB</string>
       <key>threedotsdownabove-ar</key>
-      <string>uniFBB8</string>
+      <string>threedotsdownabovear</string>
       <key>threedotsdownbelow-ar</key>
-      <string>uniFBB9</string>
+      <string>threedotsdownbelowar</string>
       <key>threedotsdowncenter-ar</key>
       <string>threedotsdowncenterar</string>
       <key>threedotsupabove-ar</key>
-      <string>uniFBB6</string>
+      <string>threedotsupabovear</string>
       <key>threedotsupabove-ar.v2</key>
-      <string>uniFBB6.v2</string>
+      <string>threedotsupabovear.v2</string>
       <key>threedotsupbelow-ar</key>
-      <string>uniFBB7</string>
+      <string>threedotsupbelowar</string>
       <key>threedotsupcenter-ar</key>
       <string>threedotsupcenterar</string>
       <key>toneloopabove-ar</key>
@@ -9267,11 +9263,11 @@
       <key>two-persian.small01</key>
       <string>uni06F2.small01</string>
       <key>twodotshorizontalabove-ar</key>
-      <string>uniFBB4</string>
+      <string>twodotshorizontalabovear</string>
       <key>twodotshorizontalabove-ar.v2</key>
-      <string>uniFBB4.v2</string>
+      <string>twodotshorizontalabovear.v2</string>
       <key>twodotshorizontalbelow-ar</key>
-      <string>uniFBB5</string>
+      <string>twodotshorizontalbelowar</string>
       <key>twodotshorizontalcenter-ar</key>
       <string>twodotshorizontalcenterar</string>
       <key>twodotstahbelow-ar</key>
@@ -9279,9 +9275,9 @@
       <key>twodotstahcenter-ar</key>
       <string>twodotstahcenterar</string>
       <key>twodotsverticalabove-ar</key>
-      <string>uniFBBD</string>
+      <string>twodotsverticalabovear</string>
       <key>twodotsverticalbelow-ar</key>
-      <string>uniFBBE</string>
+      <string>twodotsverticalbelowar</string>
       <key>twodotsverticalcenter-ar</key>
       <string>twodotsverticalcenterar</string>
       <key>u-ar</key>
@@ -9645,5 +9641,43 @@
       <key>zerowidthspace</key>
       <string>uni200B</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>lam_lam_heh-ar</string>
+      <string>two-persian.small01</string>
+      <string>three-persian.small01</string>
+      <string>four-persian.small01</string>
+      <string>dotcenter-ar</string>
+      <string>twodotshorizontalabove-ar.v2</string>
+      <string>threedotsupabove-ar.v2</string>
+      <string>fourdotsabove-ar.small</string>
+      <string>wasla-ar</string>
+      <string>wavyhamzaabove-ar</string>
+      <string>_part.Gaf.stroke</string>
+      <string>_part.beh.fina</string>
+      <string>_part.instroke</string>
+      <string>_fourthroot-ar</string>
+      <string>_yehRohingya-ar.fina</string>
+      <string>_yehRohingya-ar</string>
+      <string>four-persianbelow-ar</string>
+      <string>four-persiancenter-ar</string>
+      <string>_dots.horz.below</string>
+      <string>ringArabic</string>
+      <string>TahSmallTwoDots</string>
+      <string>_stroke</string>
+      <string>_invertedstroke</string>
+      <string>_doublebar</string>
+      <string>_doublebarshort</string>
+      <string>_hehgoalcomma</string>
+      <string>_bar</string>
+      <string>_barshort</string>
+      <string>_stroke.wide</string>
+      <string>tehabove-ar.small</string>
+      <string>_vbelow-ar</string>
+      <string>_vinvertedbelow-ar</string>
+      <string>_dotVInvertedabove</string>
+      <string>_dotVabove</string>
+      <string>_ringArabic</string>
+    </array>
   </dict>
 </plist>

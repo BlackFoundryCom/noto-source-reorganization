@@ -88,6 +88,8 @@ def main():
     #         prettyLog("You must enter a valid folder path")
     # else:
     #     prettyLog("Usage : script path [--option] list of options [--command] family folder path")
+
+
     ##############
     # SUBSETTING #
     ##############
@@ -145,10 +147,18 @@ def main():
         failing = []
         if os.path.exists(familyPath):
             os.chdir(path)
-            try:
-                makeVariableFonts(os.path.split(familyPath)[1])
-            except:
-                failing.append(os.path.split(familyPath)[1])
+            ufoList = list()
+            for element in os.listdir(familyPath):
+                if element.endswith(".ufo"):
+                    ufoList.append(element)
+            if len(ufoList) > 1:
+                try:
+                    makeVariableFonts(os.path.split(familyPath)[1])
+                except:
+                    failing.append(os.path.split(familyPath)[1])
+            else:
+                print("\n>>> " + os.path.split(familyPath)[1] + "family has only one master.\n    A static ttf will be generated instead.")
+                makeVanillaFamily(os.path.split(familyPath)[1], 'ttf')
         if len(failing) > 0:
             for i in failing:
                 print("Warning: " + i + " has not been generated.")

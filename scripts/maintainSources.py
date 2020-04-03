@@ -44,10 +44,10 @@ class sourcesBuilder():
         for i in os.listdir(self.destination):
             if i.endswith(".designspace") and "-" in i:
                 old = os.path.abspath(os.path.join(self.destination, i))
-                new=os.path.abspath(os.path.join(
-                    self.destination, i.split(".")[0].replace("MM","").strip("-") + ".designspace"))
-                # new = os.path.abspath(os.path.join(
-                #     self.destination, i.split("-")[0] + ".designspace"))
+                new=os.path.abspath(os.path.join(self.destination, i.split(
+                        ".")[0].replace("MM","").strip("-") + ".designspace"))
+                if "Regular" in new:
+                    new=new.replace("-Regular","")
                 os.rename(old, new)
 
         return self.designspace_path, self.cleanUfos
@@ -80,13 +80,6 @@ class sourcesBuilder():
             ufo.save()
 
     def cleanFeaFromSkippedGlyphs(self, ufo, skippedGLyphs):
-        # cleanFea = ""
-        # for line in ufo.features.text.split("\n"):
-        #     for gname in skippedGLyphs:
-        #         line = line.replace(" "+gname, " ")
-        #         line = line.replace("["+gname, "")
-        #     cleanFea += line + "\n"
-        # cleanFea = ufo.features.text
         cleanFea = ufo.features.text
         for gname in skippedGLyphs:
             cleanFea = cleanFea.replace(" "+gname+" ", " ")
@@ -140,6 +133,7 @@ def copyContent(family, scriptsFolder):
 
 
 def main():
+    # translated = ["NotoMusic"]
     scriptsFolder = os.path.split(sys.argv[0])[0]
     # os.chdir(os.path.split(sys.argv[0])[0])
     source2update = os.path.join(scriptsFolder,"../sandbox")
@@ -183,6 +177,7 @@ def main():
                     copyContent(i, scriptsFolder)
     for f in fail:
         print(f, "didn't work")
+
     # REMOVE GLYPHS AND UFO SOURCE FROM TEMP FOLDER
     for to_rm in os.listdir(source2update):
         if to_rm != ".DS_Store" and to_rm != "update.md":

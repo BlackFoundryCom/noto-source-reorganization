@@ -99,8 +99,8 @@ feature kern {
 table GDEF {
   # automatic
   GlyphClassDef
-    [A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z Alif-adlam Daali-adlam Laam-adlam Miim-adlam Ba-adlam Sinnyiiyhe-adlam Pe-adlam Bhe-adlam Ra-adlam E-adlam Fa-adlam I-adlam O-adlam Dha-adlam Yhe-adlam Waw-adlam Nun-adlam Kaf-adlam Ya-adlam U-adlam Jiim-adlam Chi-adlam Ha-adlam Qaaf-adlam Ga-adlam Nya-adlam Tu-adlam Nha-adlam Va-adlam Kha-adlam Gbe-adlam Zal-adlam Kpo-adlam Sha-adlam alif-adlam daali-adlam laam-adlam miim-adlam ba-adlam sinnyiiyhe-adlam pe-adlam bhe-adlam ra-adlam e-adlam fa-adlam i-adlam o-adlam dha-adlam yhe-adlam waw-adlam nun-adlam kaf-adlam ya-adlam u-adlam jiim-adlam chi-adlam ha-adlam qaaf-adlam ga-adlam nya-adlam tu-adlam nha-adlam va-adlam kha-adlam gbe-adlam zal-adlam kpo-adlam sha-adlam daali-adlam.medi], # Base
+    [ Alif-adlam Ba-adlam Bhe-adlam Chi-adlam Daali-adlam Dha-adlam E-adlam Fa-adlam Ga-adlam Gbe-adlam Ha-adlam I-adlam Jiim-adlam Kaf-adlam Kha-adlam Kpo-adlam Laam-adlam Miim-adlam Nha-adlam Nun-adlam Nya-adlam O-adlam Pe-adlam Qaaf-adlam Ra-adlam Sha-adlam Sinnyiiyhe-adlam Tu-adlam U-adlam Va-adlam Waw-adlam Ya-adlam Yhe-adlam Zal-adlam alif-adlam ba-adlam bhe-adlam chi-adlam daali-adlam daali-adlam.medi dha-adlam e-adlam fa-adlam ga-adlam gbe-adlam ha-adlam i-adlam jiim-adlam kaf-adlam kha-adlam kpo-adlam laam-adlam miim-adlam nha-adlam nun-adlam nya-adlam o-adlam pe-adlam qaaf-adlam ra-adlam sha-adlam sinnyiiyhe-adlam tu-adlam u-adlam va-adlam waw-adlam ya-adlam yhe-adlam zal-adlam], # Base
     , # Liga
-    [aliflengthencomb-adlam vowellengthencomb-adlam gemination-adlam hamza-adlam consonantmodcomb-adlam gemconsonantmodcomb-adlam hoortobbhere-adlam hoortobbhere-adlam.below aliflengthencomb-adlam.case vowellengthencomb-adlam.case gemination-adlam.case], # Mark
+    [aliflengthencomb-adlam aliflengthencomb-adlam.case consonantmodcomb-adlam gemconsonantmodcomb-adlam gemination-adlam gemination-adlam.case hamza-adlam hoortobbhere-adlam hoortobbhere-adlam.below vowellengthencomb-adlam vowellengthencomb-adlam.case], # Mark
     ;
 } GDEF;

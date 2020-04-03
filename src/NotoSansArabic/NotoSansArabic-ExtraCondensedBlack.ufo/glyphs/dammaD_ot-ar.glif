@@ -9,19 +9,23 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>toneonedotabove-ar</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>=toneonedotabove-ar</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=damma-ar</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2020/02/29 20:19:46</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>330</integer>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

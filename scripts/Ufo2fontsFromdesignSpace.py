@@ -86,6 +86,8 @@ def renameFonts(family, newName, *flavors, codePageRange = []):
     familyFolder = getFolder(family)
     # saveName = newName.replace(" ", "")
     formats = ["OTF", "TTF", "WOFF2", "WOFF", 'instances']
+    if len(flavors) == 0:
+        flavors = ["TTF"]
     for i in flavors:
         if os.path.exists(os.path.join(familyFolder, "fonts/" + i.upper())):
             pass
@@ -421,6 +423,7 @@ def readJsonStoredSubset(jsonpath, writingSystem):
 
 def subsetFonts(family, writingSystem, flavor=["ttf"],
                 familyNewName=" ", jsonpath = " ", keepFea=True):
+    print(familyNewName)
     # if len(flavor) == 0:
     flavor = ["ttf"]
     latinProCodePageRange = [0, 1, 4, 7, 8]
@@ -465,7 +468,7 @@ def subsetFonts(family, writingSystem, flavor=["ttf"],
     for i in flavor:
         if not os.path.exists(os.path.join(folderFonts, i.upper())):
             print(">> Make {} fonts.".format(family))
-            designSpace2Instances(family, i)
+            designSpace2Instances(family, i, secureSet=False)
     for i in flavor:
         fontspath = [os.path.join(folderFonts, i.upper(), font) \
                     for font in os.listdir(folder + "/fonts/" + i.upper())]
@@ -546,7 +549,7 @@ def addSecureSet(family, flavorz):
             shared = "NotoSans"
             if "Italic" in family:
                 shared += "-Italic"
-    print("A securet set of basic glyphs will be added from {}".format(shared))
+    print("A secure set of basic glyphs will be added from {}".format(shared))
     folder = getFolder(family)
     jsonpath = "subsets/secureset2add.json"
     secureSetFromLatin(shared, flavorz, jsonpath)
@@ -558,7 +561,6 @@ def addSecureSet(family, flavorz):
     secureSetFontsFolders = [sharedPath + i for i in os.listdir(
         sharedPath) if i.split("/")[-1] in flavors]
     for folder in fontsFolders:
-        print(folder, fontsFolders)
         fonts = [folder + "/" + font for font in os.listdir(
             folder) if font.split(".")[-1].upper() in flavors]
         for f in fonts:
@@ -574,7 +576,6 @@ def addSecureSet(family, flavorz):
                     for secureSetFont in os.listdir(secureSetFontsFolder):
                         styleShared = os.path.split(secureSetFont)[1].replace(
                         shared+"SecureSet-", "").split(".")[0]
-                        # print(styleShared)
                         if style == styleShared:
                             ft2add = secureSetFontsFolder+"/"+secureSetFont
                             basicMerger(f, ft2add, onlySecureSet=True)
@@ -603,7 +604,7 @@ def mastersUfos2fonts(family, *flavors, instances = False):
     if "otf" in flavors:
         ufo2font(family, masters, "otf")
 
-def designSpace2Instances(family, *output, newName=" "):
+def designSpace2Instances(family, *output, newName=" ", secureSet=True):
     if len(output) == 1 and "otf" in output:
         makeOtfFamily(family, newName=newName, onlyOtf=True)
         return
@@ -629,8 +630,9 @@ def designSpace2Instances(family, *output, newName=" "):
             print("Make fonts with Mti files")
             # INJECT COMPILED TABLE IN FONTS
             ufoWithMTIfeatures2font(family, output)
-            for i in output:
-                addSecureSet(family, output)
+            if secureSet is True:
+                for i in output:
+                    addSecureSet(family, output)
             if newName != " ":
                 renameFonts(family, newName)
             if "woff" in output:
@@ -664,7 +666,8 @@ def designSpace2Instances(family, *output, newName=" "):
     instancesFolder = family+"/instance_ufos"
     if "ttf" in output:
         ufo2font(instancesFolder, ufolist, "ttf", fromInstances=True)
-        addSecureSet(family, output)
+        if secureSet:
+            addSecureSet(family, output)
     if "woff" in output:
         destination = os.path.join(folder, "fonts/WOFF")
         if not os.path.exists(destination):
@@ -766,7 +769,7 @@ def makeOtfFamily(family, newName=" ", onlyOtf=False):
 # subsetFonts("NotoNaskhArabicUI", "Core_Arabic")
 # subsetFonts("NotoSans", "SecureSet")
 # mastersUfos2fonts("NotoSansThaana", "woff2")
-# renameFonts("NotoSans", "Tomato Soup")
+# renameFonts("NotoMusic", "Tomato Soup", 'otf')
 # mergeFonts("NotoSans","NotoNastaliqUrdu")
 # designSpace2Var("NotoSans-Italic")
 # makeTTFInstancesFromVF("NotoSerif")
@@ -774,6 +777,6 @@ def makeOtfFamily(family, newName=" ", onlyOtf=False):
 # mastersUfos2fonts("NotoSansThaana", "ttf")
 # ufosToGlyphs("NotoSansThaana")
 # ufo2font("NotoSans", ["NotoSans-Bold.ufo"], "ttf")
-# designSpace2Instances("NotoSansArabic", "woff")
+# designSpace2Instances("NotoMusic", "woff", newName="Tomato")
 # mergeFonts("NotoSansThaana", "NotoSerifHebrew")
 # addSecureSet("NotoSansArabic", "ttf")

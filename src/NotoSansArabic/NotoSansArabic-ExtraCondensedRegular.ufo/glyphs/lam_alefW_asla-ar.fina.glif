@@ -17,6 +17,16 @@
       <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
         <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>lam_alef-ar.fina.short</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
           <key>anchor</key>
           <string>top_2</string>
           <key>index</key>
@@ -29,13 +39,6 @@
       <string>lam_alefWasla-ar</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>alefWasla-ar.fina</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2020/02/28 21:29:06</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>
