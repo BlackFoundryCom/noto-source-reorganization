@@ -44,8 +44,10 @@ class sourcesBuilder():
         for i in os.listdir(self.destination):
             if i.endswith(".designspace") and "-" in i:
                 old = os.path.abspath(os.path.join(self.destination, i))
-                new = os.path.abspath(os.path.join(
-                    self.destination, i.split("-")[0] + ".designspace"))
+                new=os.path.abspath(os.path.join(
+                    self.destination, i.split(".")[0].replace("MM","").strip("-") + ".designspace"))
+                # new = os.path.abspath(os.path.join(
+                #     self.destination, i.split("-")[0] + ".designspace"))
                 os.rename(old, new)
 
         return self.designspace_path, self.cleanUfos
@@ -61,7 +63,6 @@ class sourcesBuilder():
         notExportedGlyphsList_ = self.notExportedGlyphs
         if len(notExportedGlyphsList_) != 0:
             ds.lib["public.skipExportGlyphs"]=notExportedGlyphsList_
-        # content.write(designspace_path)
         ds.write(self.designspace_path)
 
     def cleanUfos(self):
@@ -70,20 +71,27 @@ class sourcesBuilder():
         for ufoPath in self.ufos:
             ufo = ufoLib2.Font.open(os.path.join(self.destination, ufoPath))
             for g in ufo:
-                if g.name not in notExportedGlyphsList_:
-                    glyphOrder.append(g.name)
+                # if g.name not in notExportedGlyphsList_:
+                glyphOrder.append(g.name)
             ufo.glyphOrder = glyphOrder
             if len(notExportedGlyphsList_) != 0:
-                ufo.lib["public.skipExportGlyphs"]=notExportedGlyphsList_
+                ufo.lib["public.skipExportGlyphs"] = notExportedGlyphsList_
                 ufo = self.cleanFeaFromSkippedGlyphs(ufo, notExportedGlyphsList_)
             ufo.save()
 
     def cleanFeaFromSkippedGlyphs(self, ufo, skippedGLyphs):
-        cleanFea = ""
-        for line in ufo.features.text.split("\n"):
-            for gname in skippedGLyphs:
-                line = line.replace(gname, "")
-            cleanFea += line + "\n"
+        # cleanFea = ""
+        # for line in ufo.features.text.split("\n"):
+        #     for gname in skippedGLyphs:
+        #         line = line.replace(" "+gname, " ")
+        #         line = line.replace("["+gname, "")
+        #     cleanFea += line + "\n"
+        # cleanFea = ufo.features.text
+        cleanFea = ufo.features.text
+        for gname in skippedGLyphs:
+            cleanFea = cleanFea.replace(" "+gname+" ", " ")
+            cleanFea = cleanFea.replace("["+gname+" ", "[ ")
+            cleanFea = cleanFea.replace(" "+gname+"]", " ]")
         ufo.features.text = cleanFea
 
         return ufo
@@ -118,7 +126,7 @@ class complexSourcesBuilder():
 def copyContent(family, scriptsFolder):
     source2update=os.path.join(scriptsFolder, os.pardir, "sandbox")
     foldername = family
-    print("> start to copy", family, "folder content in src folder")
+    print(">>> start to copy", family, "folder content in src folder")
     if "MM" in family:
         foldername = family.replace("MM", "").strip("-")
     destination = os.path.join(scriptsFolder, os.pardir, "src", foldername)
@@ -128,7 +136,7 @@ def copyContent(family, scriptsFolder):
     if os.path.exists(destination):
         shutil.rmtree(destination)
     shutil.copytree(src, dst)
-    print("\t", family.strip(), "folder content copied.\n")
+    print("    ", family.strip(), "folder content copied.\n")
 
 
 def main():
@@ -141,14 +149,14 @@ def main():
         # Case 1. parse glyphs files
         if i.startswith("Noto"):
             if i.endswith(".glyphs"):
-                print("> start to convert", i)
+                print(">>> start to convert", i)
                 try:
                     typeface = sourcesBuilder(i)
                     typeface.convertion()
-                    print("\t", i.strip(), "converted.\n")
+                    print("    ", i.strip(), "converted.\n")
                 except:
                     fail.append(i)
-                    print("\t", i.strip(), "NOT converted.\n")
+                    print("    ", i.strip(), "NOT converted.\n")
 
         # Case 2. It's a folder. I can contains GLyphs file + mti files
         # or ufo + designspace + features files
@@ -160,14 +168,14 @@ def main():
 
                 # Case 2a. It's a folder with Glyphs file + mti features
                 if glyphsFile is True:
-                    print("> start to convert", i)
+                    print(">>> start to convert", i)
                     try:
                         typeface = complexSourcesBuilder(i)
                         typeface.copy_mti_files()
-                        print("\t", i.strip(), "converted. MTI files copied.\n")
+                        print("    ", i.strip(), "converted. MTI files copied.\n")
                     except:
                         fail.append(i)
-                        print("\t", i.strip(), "NOT converted.\n")
+                        print("    ", i.strip(), "NOT converted.\n")
 
                 # Case 2b. No Glyphs file. We assume it containes ufos
                 # and directly copy it the src folder
