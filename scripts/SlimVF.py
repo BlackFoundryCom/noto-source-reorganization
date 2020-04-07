@@ -11,7 +11,7 @@ from ufo2ft.featureCompiler     import MtiFeatureCompiler
 from ufo2ft.featureWriters      import (KernFeatureWriter,
                                         MarkFeatureWriter,
                                         loadFeatureWriters,
-                                        ast,
+                                        ast
                                         )
 
 
@@ -344,4 +344,5 @@ def makeNormalAndUIVersions(family):
         vfUI.makeVarFont()
     elif len(plistNumber) == 1:
         makeVFWithMti(family)
-makeSlimVF("NotoSans")
+# TEST
+# makeSlimVF("NotoSans")

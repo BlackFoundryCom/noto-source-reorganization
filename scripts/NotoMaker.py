@@ -157,7 +157,9 @@ def main():
                 except:
                     failing.append(os.path.split(familyPath)[1])
             else:
-                print("\n>>> " + os.path.split(familyPath)[1] + "family has only one master.\n    A static ttf will be generated instead.")
+                print("\n>>> " + os.path.split(familyPath)[1] + \
+                    "family has only one master.\n"\
+                    "A static ttf will be generated instead.")
                 makeVanillaFamily(os.path.split(familyPath)[1], 'ttf')
         if len(failing) > 0:
             for i in failing:
@@ -200,7 +202,8 @@ def main():
                     # prettyLog("A securet set of basic latin glyphs will be merged into {fam}.\
                     #     \nAnd since fontTools can only merge ttf fonts, {fam} will be outputed as such".format(fam = family))
                     if "otf" in output:
-                        designSpace2Instances(os.path.split(familyPath)[1], "otf")
+                        designSpace2Instances(
+                            os.path.split(familyPath)[1], "otf")
                         output.remove("otf")
                         print(output)
                         if len(output) == 0:
@@ -212,11 +215,14 @@ def main():
                             os.path.split(familyPath)[1], "ttf", "woff")
                         else:
                             designSpace2Instances(
-                            os.path.split(familyPath)[1], "ttf", "woff2", "woff")
+                            os.path.split(familyPath)[1], "ttf","woff2","woff")
                     else:
-                        designSpace2Instances(os.path.split(familyPath)[1], "ttf")
+                        designSpace2Instances(
+                            os.path.split(familyPath)[1], "ttf")
             else:
-                prettyLog("The family will be generated as ttf. If non-latin, a 'securet set' of basic latin glyphs will be added.")
+                prettyLog("The family will be generated as ttf."\
+                          " If non-latin, a 'securet set'"\
+                          " of basic latin glyphs will be added.")
                 designSpace2Instances(os.path.split(familyPath)[1])
     #####################
     # RENAME THE FAMILY #
@@ -264,9 +270,11 @@ def main():
                 for loc in i.location:
                     loca[axesName[loc]] = i.location[loc]
                 locationList.append(loca)
-                print(familyName, i.styleName, "--> ["+ str(locationList.index(loca)) +"]")
+                print(familyName, i.styleName, "--> [" +\
+                      str(locationList.index(loca)) +"]")
                 styles.append(i.styleName)
-            prettyLog("Which static instance(s) do you want? input the corresponding number(s):")
+            prettyLog("Which static instance(s) do you want?"\
+                      "input the corresponding number(s):")
             static = input(":")
             if "-" in static:
                 scale = static.split("-")
@@ -280,7 +288,8 @@ def main():
                 makeOneInstanceFromVF(familyName, locationList[int(static)])
                 print(familyName, styles[int(static)], "extracted")
         else:
-            print("\n>>> " + familyName + " family has only one master.\n    A static ttf can be generated instead.")
+            print("\n>>> " + familyName + " family has only one master.\n"\
+                  "        A static ttf can be generated instead.")
             prettyLog("Do you want the static ttf to be generated? : y/n")
             static = input(">>> ")
             if "y" in static:
@@ -305,11 +314,14 @@ def main():
                 try:
                     makeVariableFonts(os.path.split(familyPath)[1])
                 except:
-                    print("\t>>> " + n + "Variable has failed.\n\t\tA static ttf version of the family will be generated.")
+                    print("    >>> " + n + "Variable has failed.\n"\
+                          "        A static ttf version of the family"\
+                          "will be generated.")
                     makeVanillaFamily(os.path.split(familyPath)[1], 'ttf')
                     failing.append(familyPath.split("/")[-1])
             else:
-                print("\t>>> " + n + "family has only one master.\n\tA static ttf will be generated instead.")
+                print("    >>> " + n + "family has only one master.\n"\
+                      "        A static ttf will be generated instead.")
                 makeVanillaFamily(os.path.split(familyPath)[1], 'ttf')
         if len(failing) > 0:
             for i in failing:

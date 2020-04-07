@@ -9,7 +9,7 @@ from fontTools.designspaceLib   import DesignSpaceDocument
 from ufo2ft.featureWriters      import (KernFeatureWriter,
                                         MarkFeatureWriter,
                                         loadFeatureWriters,
-                                        ast,
+                                        ast
                                         )
 
 

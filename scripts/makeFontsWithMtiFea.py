@@ -123,7 +123,6 @@ class FontsWithMti():
                 ttf2.save(os.path.join(destination, u[:-4] + ".ttf"))
 
 ##########################################################
-
 class variableFontsWithMti():
 
     def __init__(self, mtiFolderPath,
