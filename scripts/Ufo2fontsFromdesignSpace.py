@@ -269,7 +269,8 @@ def makeOneInstanceFromVF(family, loca):
     revision = varFont['head'].fontRevision
     V_major = str(revision).split(".")[0]
     V_minor = str(revision).split(".")[1]
-    fontName = '-'.join([familyName.replace(" ", ""), styleName.replace(" ", "")]) + '.ttf'
+    fontName = '-'.join([familyName.replace(
+        " ", ""), styleName.replace(" ", "")]) + '.ttf'
     # familyName = instance.familyName
     static = instantiateVariableFont(varFont, loca, inplace=False)
     # print(static['name'].names)
@@ -641,7 +642,9 @@ def designSpace2Instances(family, *output, newName=" ", secureSet=True):
                     os.makedirs(destination)
                 for ttf in os.listdir(os.path.join(folder, "fonts/TTF")):
                     if ttf.endswith("ttf"):
-                        woff = ttLib.TTFont(os.path.join(folder, "fonts/TTF", ttf))
+                        woff = ttLib.TTFont(
+                            os.path.join(folder, "fonts/TTF", ttf)
+                            )
                         woff.flavor = "woff"
                         woff.save(os.path.join(destination, ttf[:-4] + ".woff"))
             if "woff2" in output:
@@ -650,10 +653,14 @@ def designSpace2Instances(family, *output, newName=" ", secureSet=True):
                     os.makedirs(destination)
                 for ttf in os.listdir(os.path.join(folder, "fonts/TTF")):
                     if ttf.endswith("ttf"):
-                        woff = ttLib.TTFont(os.path.join(folder, "fonts/TTF", ttf))
+                        woff = ttLib.TTFont(
+                            os.path.join(folder, "fonts/TTF", ttf)
+                            )
                         woff.flavor = "woff2"
-                        woff.save(os.path.join(destination, ttf[:-4] + ".woff2"))
+                        woff.save(
+                            os.path.join(destination, ttf[:-4] + ".woff2"))
             return
+
     fp = FontProject()
     fonts = fp.run_from_designspace(
         expand_features_to_instances=True, use_mutatormath=False,
@@ -664,10 +671,12 @@ def designSpace2Instances(family, *output, newName=" ", secureSet=True):
         if ufo[-4:] == ".ufo":
             ufolist.append(ufo)
     instancesFolder = family+"/instance_ufos"
+
     if "ttf" in output:
         ufo2font(instancesFolder, ufolist, "ttf", fromInstances=True)
         if secureSet:
             addSecureSet(family, output)
+
     if "woff" in output:
         destination = os.path.join(folder, "fonts/WOFF")
         if not os.path.exists(destination):
@@ -677,6 +686,7 @@ def designSpace2Instances(family, *output, newName=" ", secureSet=True):
                 woff = ttLib.TTFont(os.path.join(folder, "fonts/TTF", ttf))
                 woff.flavor = "woff"
                 woff.save(os.path.join(destination, ttf[:-4] + ".woff"))
+
     if "woff2" in output:
         destination = os.path.join(folder, "fonts/WOFF2")
         if not os.path.exists(destination):
@@ -686,6 +696,7 @@ def designSpace2Instances(family, *output, newName=" ", secureSet=True):
                 woff = ttLib.TTFont(os.path.join(folder, "fonts/TTF", ttf))
                 woff.flavor = "woff2"
                 woff.save(os.path.join(destination, ttf[:-4] + ".woff2"))
+
     if newName != " ":
         renameFonts(family, newName)
 

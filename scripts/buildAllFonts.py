@@ -79,7 +79,7 @@ class generateAll():
             basicStylePath_ = os.path.join(self.familyPath, os.basename(
                                         self.familyPath).strip()+"-Italic.ufo")
         print("    >>> " + self.n + "Variable has failed.\n        "\
-              "A static ttf version of the 'Regular' weight"\
+              "        A static ttf version of the 'Regular' weight"\
               "\n        will be generated instead.")
 
         return basicStylePath_
@@ -96,12 +96,12 @@ class generateAll():
                          MarkFeatureWriter])
         ttf.save(os.path.join(self.destination,
                         os.path.basename(ufoSource)[:-4] + ".ttf"))
-        print("    " +os.path.basename(ufoSource)[:-4]+ " has been generated.")
+        print("    " +os.path.basename(ufoSource)[:-4]+ " has been generated.\n")
 
     def designSpace2Var(self):
         ds = self.designSpace
         family = os.path.basename(self.familyPath)
-        print(">>> Load the {} designspace".format(family))
+        print("\n>>> Load the {} designspace".format(family))
         print("    Load "+family+" files")
         ds.loadSourceFonts(Font)
         print("    Start to build Variable Tables")
@@ -166,24 +166,26 @@ class generateAll():
                             self.familyPath,
                             self.destination,
                             UIVersionedFeatures=True,
-                            makeUIVersion=False)
+                            makeUIVersion=False,
+                            oneMaster=True)
         sglMasterWthMti.load()
-        sglMasterWthMti.add_mti_features_to_master()
+        # sglMasterWthMti.add_mti_features_to_master()
         sglMasterWthMti.makeStaticFont()
         sglMstrWthMtiUI = fontsWithMti(
                             self.familyPath,
                             self.destination,
                             UIVersionedFeatures=True,
-                            makeUIVersion=True)
+                            makeUIVersion=True,
+                            oneMaster=True)
         sglMstrWthMtiUI.load()
-        sglMstrWthMtiUI.add_ui_mti_features_to_master()
+        # sglMstrWthMtiUI.add_ui_mti_features_to_master()
         sglMstrWthMtiUI.makeStaticFontUI()
 
     def makeOneMasterFamilyWithMti(self):
         sglMasterWthMti = fontsWithMti(self.familyPath,
-                                       self.destination)
+                                       self.destination,
+                                       oneMaster=True)
         sglMasterWthMti.load()
-        sglMasterWthMti.add_mti_features_to_master()
         sglMasterWthMti.makeStaticFont()
 
 
@@ -208,7 +210,7 @@ class generateAll():
                         try:
                             self.makeOneMaster(self.regularStylePath)
                         except:
-                            self.failing.append(ufo)
+                            self.failing.append(self.n)
                 #########################################################
                 # CASE 1.b => MULTIPLE MASTERS FAMILY WITH MTI FEATURES #
                 else:
@@ -224,8 +226,8 @@ class generateAll():
             #############################
             # CASE 2 => ONLY ONE MASTER #
             else:
-                print("\nINFO:" + self.n + " family has only one master.\n"\
-                      "     A static ttf will be generated instead.")
+                print(">>> " + self.n + " family has only one master.\n"\
+                      "    A static ttf will be generated instead.")
                 ufo = self.ufoList[0]
                 if len(self.checkIfMti) == 0:
                 ################################################
@@ -256,13 +258,13 @@ class generateAll():
             for i in self.MMfailing:
                 if i not in self.failing:
                     print(i + " has not been generated as Variable")
-                    print("but as fallback the" + i + "-Regular has been made.")
+                    print("but as fallback one static style has been built.")
                 else:
-                    print(i + " has not been generated.")
+                    print(i + " has not been generated.\n")
 
         if len(self.failing) > 0:
             for i in self.failing:
-                print(i + " has not been generated.")
+                print(i + " has not been generated.\n")
 
 
 #############################################
@@ -274,33 +276,42 @@ class fontsWithMti():
                  mtiFolderPath,
                  destination,
                  UIVersionedFeatures=False,
-                 makeUIVersion=False):
+                 makeUIVersion=False,
+                 oneMaster=False):
         self.mtiFolderPath = mtiFolderPath
         self.UIVersionedFeaturesExists = UIVersionedFeatures
         self.makeUIVersion = makeUIVersion
         self.destination = destination
+        self.oneMaster = oneMaster
 
     def load(self):
         self.ufos = [os.path.join(self.mtiFolderPath, i) for i in os.listdir(
             self.mtiFolderPath) if i.endswith(".ufo")]
-        print(">>> Load {}.designspace".format(self.familyName))
-        # print("Start working on", self.familyName)
+        if self.oneMaster is False:
+            print(">>> Load {}.designspace".format(self.familyName))
+        else:
+            print("    Load {}.designspace".format(self.familyName))
         designSpacePath = os.path.join(self.mtiFolderPath, os.path.basename(
             self.mtiFolderPath)+".designspace")
         self.designSpaceDocument = DesignSpaceDocument()
         self.designSpaceDocument.read(designSpacePath)
 
-
     @property
     def basicStylePath(self):
         if "Italic" not in os.path.basename(self.mtiFolderPath):
-            basicStylePath_ = os.path.join(self.mtiFolderPath, os.basename(
+            basicStylePath_= os.path.join(self.mtiFolderPath, os.path.basename(
                                     self.mtiFolderPath).strip()+"-Regular.ufo")
+            if not os.path.exists(basicStylePath_):
+                basicStylePath_= os.path.join(self.mtiFolderPath, os.path.basename(
+                                    self.mtiFolderPath).strip()+"-Light.ufo")
+            if not os.path.exists(basicStylePath_):
+                basicStylePath_= os.path.join(self.mtiFolderPath, os.path.basename(
+                                    self.mtiFolderPath).strip()+"-Thin.ufo")
         else:
             basicStylePath_ = os.path.join(self.mtiFolderPath, os.basename(
                                         self.mtiFolderPath).strip()+"-Italic.ufo")
-        print("    >>> " + n + "Variable has failed.\n        "\
-              "A static ttf version of the 'Regular' weight"\
+        print("    >>> " + os.path.basename(self.mtiFolderPath) + "Variable has failed."\
+              "\n        A static ttf version of the 'Regular' weight"\
               "\n        will be generated instead.")
 
         return basicStylePath_
@@ -317,7 +328,7 @@ class fontsWithMti():
         self.designSpaceDocument.read(designSpacePath)
 
     def makeStaticFont(self):
-        ufoSource = Font(self.ufos[0])
+        ufoSource = self.add_mti_features_to_master()[0]
         staticTTF = compileTTF(ufoSource,
                          removeOverlaps=True,
                          useProductionNames = False,
@@ -325,22 +336,22 @@ class fontsWithMti():
                          featureWriters = None)
         staticTTF.save(os.path.join(self.destination,
                             os.path.basename(self.ufos[0])[:-4] + ".ttf"))
-        print("    " + os.path.basename(self.ufos[0])[:-4] +" generated")
+        print("    " + os.path.basename(self.ufos[0])[:-4] +" generated\n")
 
     def makeStaticFontUI(self):
-        ufoSource = Font(self.ufos[0])
+        ufoSource = self.add_ui_mti_features_to_master()[0]
         self.staticTTF_UI = compileTTF(ufoSource,
                          removeOverlaps=True,
                          useProductionNames = False,
                          featureCompilerClass = MtiFeatureCompiler,
                          featureWriters = None)
-        self.staticTTF_UI = self.renamer_()
+        self.staticTTF_UI = self.renamer_(single=True)
         self.staticTTF_UI.save(os.path.join(self.destination,
                             os.path.basename(self.ufos[0])[:-4] + "-UI.ttf"))
-        print("    " + os.path.basename(self.ufos[0])[:-4] +"-UI generated")
+        print("    " + os.path.basename(self.ufos[0])[:-4] +"-UI generated\n")
 
     def makeVarFont(self, mti = False):
-        # self.designSpaceDocument.loadSourceFonts(Font)
+        self.designSpaceDocument.loadSourceFonts(Font)
         print("\tStart to build Variable Tables")
         self.vfont, _, _ = varLib.build(compileInterpolatableTTFsFromDS(
                 self.designSpaceDocument,
@@ -348,18 +359,12 @@ class fontsWithMti():
                 featureWriters = None
                 ), optimize=False)
         if self.makeUIVersion is False:
-            destination = os.path.join(self.mtiFolderPath, "fonts/VAR")
-            if not os.path.exists(destination):
-                os.makedirs(destination)
-            path = os.path.join(destination, self.familyName+"-VF.ttf")
+            path = os.path.join(self.destination, self.familyName+"-VF.ttf")
+            print(path)
             self.vfont.save(path)
             print("\t"+self.familyName+" Variable Font generated\n")
         else:
-            destination = os.path.join(
-                self.mtiFolderPath, "fonts/"+self.familyName+"UI/VAR")
-            if not os.path.exists(destination):
-                os.makedirs(destination)
-            path = os.path.join(destination, self.familyName+"UI-VF.ttf")
+            path = os.path.join(self.destination, self.familyName+"UI-VF.ttf")
             vfontUI = self.renamer_()
             vfontUI.save(path)
             print("\t"+self.familyName+"UI Variable Font generated\n")
@@ -436,6 +441,7 @@ class fontsWithMti():
         return self.mtiFolderPath.split("/")[-1]
 
     def add_mti_features_to_master(self):
+        ufoWithMtiData = []
         if self.UIVersionedFeaturesExists:
             mti_source = self.mti_file
         else:
@@ -455,10 +461,13 @@ class fontsWithMti():
                 # the Glyphs file should be ignored. We clear it here because
                 # it only contains junk information anyway.
                 master.features.text = ""
+                ufoWithMtiData.append(master)
                 # Don't save the ufo, to keep them clean from mti data
-        print("\tufos updated with MTI data")
+        print("    ufos updated with MTI data")
+        return ufoWithMtiData
 
     def add_ui_mti_features_to_master(self):
+        ufoWithMtiData = []
         mti_source = self.mti_file_for_UI_Version
         mti_paths = readPlist(mti_source)
         for master in self.masters:
@@ -476,7 +485,9 @@ class fontsWithMti():
                 # it only contains junk information anyway.
                 master.features.text = ""
                 # Don't save the ufo, to keep them clean from mti data
-        print("\tufos updated with UI versioned MTI data")
+                ufoWithMtiData.append(master)
+        print("    ufos updated with UI versioned MTI data")
+        return ufoWithMtiData
 
 
 def main():
