@@ -10,8 +10,6 @@
     <integer>30</integer>
     <key>com.schriftgestaltung.appVersion</key>
     <string>1264</string>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -414,6 +412,14 @@
       <string>u16F9F</string>
       <string>uni00A0</string>
       <string>uni25CC</string>
+    </array>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>ring.full</string>
+      <string>ring.half</string>
+      <string>ring.23</string>
+      <string>ring.l34</string>
+      <string>ring.r34</string>
     </array>
   </dict>
 </plist>

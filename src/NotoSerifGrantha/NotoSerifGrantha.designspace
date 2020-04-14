@@ -55,4 +55,22 @@
       </lib>
     </instance>
   </instances>
+  <lib>
+    <dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>_part.viramalig_loop</string>
+        <string>_part.iMatra</string>
+        <string>_part.ii_straight</string>
+        <string>_part.rVocalicMatra</string>
+        <string>_part.ravattu</string>
+        <string>_part.rrVocalicMatra</string>
+        <string>doublevocalic.right</string>
+        <string>ba.base</string>
+        <string>ca.base</string>
+        <string>gha.base</string>
+        <string>pa.base</string>
+      </array>
+    </dict>
+  </lib>
 </designspace>

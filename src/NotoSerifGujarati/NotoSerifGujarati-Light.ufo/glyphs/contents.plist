@@ -28,6 +28,8 @@
     <string>anudatta.glif</string>
     <key>anusvara-gujarati</key>
     <string>anusvara-gujarati.glif</string>
+    <key>anusvara-gujarati.alt</key>
+    <string>anusvara-gujarati.alt.glif</string>
     <key>anusvara-gujarati.calt</key>
     <string>anusvara-gujarati.calt.glif</string>
     <key>asciicircum</key>
@@ -82,6 +84,8 @@
     <string>ca-gujarati.glif</string>
     <key>candraBindu-gujarati</key>
     <string>candraB_indu-gujarati.glif</string>
+    <key>candraBindu-gujarati.alt</key>
+    <string>candraB_indu-gujarati.alt.glif</string>
     <key>ch_va-gujarati</key>
     <string>ch_va-gujarati.glif</string>
     <key>ch_ya-gujarati</key>
@@ -256,6 +260,8 @@
     <string>i-gujarati.glif</string>
     <key>iMatra-gujarati</key>
     <string>iM_atra-gujarati.glif</string>
+    <key>iMatra-gujarati.00</key>
+    <string>iM_atra-gujarati.00.glif</string>
     <key>iMatra-gujarati.01</key>
     <string>iM_atra-gujarati.01.glif</string>
     <key>iMatra-gujarati.02</key>
@@ -776,6 +782,88 @@
     <string>underscore.glif</string>
     <key>uni00AD</key>
     <string>uni00A_D_.glif</string>
+    <key>uni0AFA</key>
+    <string>uni0A_F_A_.glif</string>
+    <key>uni0AFA_rephgujr</key>
+    <string>uni0A_F_A__rephgujr.glif</string>
+    <key>uni0AFB</key>
+    <string>uni0A_F_B_.glif</string>
+    <key>uni0AFB_uni0AFA</key>
+    <string>uni0A_F_B__uni0A_F_A_.glif</string>
+    <key>uni0AFC</key>
+    <string>uni0A_F_C_.glif</string>
+    <key>uni0AFD</key>
+    <string>uni0A_F_D_.glif</string>
+    <key>uni0AFD_aivowelgujr</key>
+    <string>uni0A_F_D__aivowelgujr.glif</string>
+    <key>uni0AFD_aivowelgujr_rephgujr</key>
+    <string>uni0A_F_D__aivowelgujr_rephgujr.glif</string>
+    <key>uni0AFD_auvowelgujr</key>
+    <string>uni0A_F_D__auvowelgujr.glif</string>
+    <key>uni0AFD_evowelgujr</key>
+    <string>uni0A_F_D__evowelgujr.glif</string>
+    <key>uni0AFD_evowelgujr_rephgujr</key>
+    <string>uni0A_F_D__evowelgujr_rephgujr.glif</string>
+    <key>uni0AFD_iiMatra-gujarati</key>
+    <string>uni0A_F_D__iiM_atra-gujarati.glif</string>
+    <key>uni0AFD_ovowelgujr</key>
+    <string>uni0A_F_D__ovowelgujr.glif</string>
+    <key>uni0AFD_rephgujr</key>
+    <string>uni0A_F_D__rephgujr.glif</string>
+    <key>uni0AFD_uni0AFA</key>
+    <string>uni0A_F_D__uni0A_F_A_.glif</string>
+    <key>uni0AFD_uni0AFA.alt</key>
+    <string>uni0A_F_D__uni0A_F_A_.alt.glif</string>
+    <key>uni0AFD_uni0AFB</key>
+    <string>uni0A_F_D__uni0A_F_B_.glif</string>
+    <key>uni0AFD_uni0AFB.alt</key>
+    <string>uni0A_F_D__uni0A_F_B_.alt.glif</string>
+    <key>uni0AFD_uni0AFC</key>
+    <string>uni0A_F_D__uni0A_F_C_.glif</string>
+    <key>uni0AFE</key>
+    <string>uni0A_F_E_.glif</string>
+    <key>uni0AFE_aivowelgujr</key>
+    <string>uni0A_F_E__aivowelgujr.glif</string>
+    <key>uni0AFE_aivowelgujr_rephgujr</key>
+    <string>uni0A_F_E__aivowelgujr_rephgujr.glif</string>
+    <key>uni0AFE_auvowelgujr</key>
+    <string>uni0A_F_E__auvowelgujr.glif</string>
+    <key>uni0AFE_evowelgujr</key>
+    <string>uni0A_F_E__evowelgujr.glif</string>
+    <key>uni0AFE_evowelgujr_rephgujr</key>
+    <string>uni0A_F_E__evowelgujr_rephgujr.glif</string>
+    <key>uni0AFE_iiMatra-gujarati</key>
+    <string>uni0A_F_E__iiM_atra-gujarati.glif</string>
+    <key>uni0AFE_ovowelgujr</key>
+    <string>uni0A_F_E__ovowelgujr.glif</string>
+    <key>uni0AFE_rephgujr</key>
+    <string>uni0A_F_E__rephgujr.glif</string>
+    <key>uni0AFE_uni0AFA</key>
+    <string>uni0A_F_E__uni0A_F_A_.glif</string>
+    <key>uni0AFE_uni0AFB</key>
+    <string>uni0A_F_E__uni0A_F_B_.glif</string>
+    <key>uni0AFF</key>
+    <string>uni0A_F_F_.glif</string>
+    <key>uni0AFF_aivowelgujr</key>
+    <string>uni0A_F_F__aivowelgujr.glif</string>
+    <key>uni0AFF_aivowelgujr_rephgujr</key>
+    <string>uni0A_F_F__aivowelgujr_rephgujr.glif</string>
+    <key>uni0AFF_auvowelgujr</key>
+    <string>uni0A_F_F__auvowelgujr.glif</string>
+    <key>uni0AFF_evowelgujr</key>
+    <string>uni0A_F_F__evowelgujr.glif</string>
+    <key>uni0AFF_evowelgujr_rephgujr</key>
+    <string>uni0A_F_F__evowelgujr_rephgujr.glif</string>
+    <key>uni0AFF_iiMatra-gujarati</key>
+    <string>uni0A_F_F__iiM_atra-gujarati.glif</string>
+    <key>uni0AFF_ovowelgujr</key>
+    <string>uni0A_F_F__ovowelgujr.glif</string>
+    <key>uni0AFF_rephgujr</key>
+    <string>uni0A_F_F__rephgujr.glif</string>
+    <key>uni0AFF_uni0AFA</key>
+    <string>uni0A_F_F__uni0A_F_A_.glif</string>
+    <key>uni0AFF_uni0AFB</key>
+    <string>uni0A_F_F__uni0A_F_B_.glif</string>
     <key>uni2010</key>
     <string>uni2010.glif</string>
     <key>uu-gujarati</key>

@@ -51,4 +51,16 @@
       </lib>
     </instance>
   </instances>
+  <lib>
+    <dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>MongolianDot</string>
+        <string>tail</string>
+        <string>u182C.iniFem</string>
+        <string>MongolianRing</string>
+        <string>LeftTail</string>
+      </array>
+    </dict>
+  </lib>
 </designspace>

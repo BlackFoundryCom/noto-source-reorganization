@@ -20,8 +20,6 @@
     <string>1286</string>
     <key>com.schriftgestaltung.customParameter.GSFont.Disable Subroutines</key>
     <true/>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -66,8 +64,6 @@
       <string>CR</string>
       <string>DEL</string>
       <string>NULL</string>
-      <string>_eyes</string>
-      <string>_face</string>
       <string>acknowledgeControl</string>
       <string>admissionTickets</string>
       <string>airplane</string>
@@ -2495,13 +2491,13 @@
       <key>as-roman</key>
       <string>u1019A</string>
       <key>autumn-mahjong</key>
-      <string>autumnmahjong</string>
+      <string>u1F028</string>
       <key>axe-phaistosDisc</key>
       <string>u101FB</string>
       <key>babySymbol</key>
       <string>u1F6BC</string>
       <key>back-mahjong</key>
-      <string>backmahjong</string>
+      <string>u1F02B</string>
       <key>backOfEnvelope</key>
       <string>u1F582</string>
       <key>backslantedSouthArrowWithHookedTail</key>
@@ -2535,7 +2531,7 @@
       <key>ballotX</key>
       <string>uni2717</string>
       <key>bamboo-mahjong</key>
-      <string>bamboomahjong</string>
+      <string>u1F024</string>
       <key>barChart</key>
       <string>u1F4CA</string>
       <key>baseball</key>
@@ -2861,7 +2857,7 @@
       <key>chipmunk</key>
       <string>u1F43F</string>
       <key>chrysanthemum-mahjong</key>
-      <string>chrysanthemummahjong</string>
+      <string>u1F025</string>
       <key>circledBoldX</key>
       <string>uni2BBF</string>
       <key>circledInformationSource</key>
@@ -3687,13 +3683,13 @@
       <key>earthTrigram</key>
       <string>uni2637</string>
       <key>eastWind-mahjong</key>
-      <string>eastWindmahjong</string>
+      <string>u1F000</string>
       <key>eightOfBamboos-mahjong</key>
-      <string>eightOfBamboosmahjong</string>
+      <string>u1F017</string>
       <key>eightOfCharacters-mahjong</key>
-      <string>eightOfCharactersmahjong</string>
+      <string>u1F00E</string>
       <key>eightOfCircles-mahjong</key>
-      <string>eightOfCirclesmahjong</string>
+      <string>u1F020</string>
       <key>eightPetalledOutlinedBlackFlorette</key>
       <string>uni2741</string>
       <key>eightPointedBlackStar</key>
@@ -3803,11 +3799,11 @@
       <key>fiveObols-greek</key>
       <string>u10180</string>
       <key>fiveOfBamboos-mahjong</key>
-      <string>fiveOfBamboosmahjong</string>
+      <string>u1F014</string>
       <key>fiveOfCharacters-mahjong</key>
-      <string>fiveOfCharactersmahjong</string>
+      <string>u1F00B</string>
       <key>fiveOfCircles-mahjong</key>
-      <string>fiveOfCirclesmahjong</string>
+      <string>u1F01D</string>
       <key>fivehundred-atticGreek</key>
       <string>u10145</string>
       <key>fivehundredstaters-atticGreek</key>
@@ -3845,11 +3841,11 @@
       <key>fourObols-greek</key>
       <string>u1017F</string>
       <key>fourOfBamboos-mahjong</key>
-      <string>fourOfBamboosmahjong</string>
+      <string>u1F013</string>
       <key>fourOfCharacters-mahjong</key>
-      <string>fourOfCharactersmahjong</string>
+      <string>u1F00A</string>
       <key>fourOfCircles-mahjong</key>
-      <string>fourOfCirclesmahjong</string>
+      <string>u1F01C</string>
       <key>fourPointedBlackStar</key>
       <string>u1F7C6</string>
       <key>fourTeardropSpokedAsterisk</key>
@@ -3877,7 +3873,7 @@
       <key>grater-phaistosDisc</key>
       <string>u101F9</string>
       <key>greenDragon-mahjong</key>
-      <string>greenDragonmahjong</string>
+      <string>u1F005</string>
       <key>groupSeparatorControl</key>
       <string>uni241D</string>
       <key>hammerAndWrench</key>
@@ -4101,7 +4097,7 @@
       <key>inverseWhiteCircle</key>
       <string>invcircle</string>
       <key>joker-mahjong</key>
-      <string>jokermahjong</string>
+      <string>u1F02A</string>
       <key>joystick</key>
       <string>u1F579</string>
       <key>keyboard</key>
@@ -4463,11 +4459,11 @@
       <key>newlineRight</key>
       <string>uni2B93</string>
       <key>nineOfBamboos-mahjong</key>
-      <string>nineOfBamboosmahjong</string>
+      <string>u1F018</string>
       <key>nineOfCharacters-mahjong</key>
-      <string>nineOfCharactersmahjong</string>
+      <string>u1F00F</string>
       <key>nineOfCircles-mahjong</key>
-      <string>nineOfCirclesmahjong</string>
+      <string>u1F021</string>
       <key>noEntry</key>
       <string>uni26D4</string>
       <key>noPiracy</key>
@@ -4515,7 +4511,7 @@
       <key>northWestWhiteArrow</key>
       <string>uni2B01</string>
       <key>northWind-mahjong</key>
-      <string>northWindmahjong</string>
+      <string>u1F003</string>
       <key>northeastPointingAirplane</key>
       <string>u1F6EA</string>
       <key>notCheckmark</key>
@@ -4534,6 +4530,8 @@
       <string>uni2400</string>
       <key>obol-greek</key>
       <string>u1017C</string>
+      <key>observerEyeSymbol</key>
+      <string>uni23FF</string>
       <key>ocrAmountOfCheck</key>
       <string>uni2447</string>
       <key>ocrBeltBuckle</key>
@@ -4575,11 +4573,11 @@
       <key>oneButtonMouse</key>
       <string>u1F5AF</string>
       <key>oneOfBamboos-mahjong</key>
-      <string>oneOfBamboosmahjong</string>
+      <string>u1F010</string>
       <key>oneOfCharacters-mahjong</key>
-      <string>oneOfCharactersmahjong</string>
+      <string>u1F007</string>
       <key>oneOfCircles-mahjong</key>
-      <string>oneOfCirclesmahjong</string>
+      <string>u1F019</string>
       <key>onedrachma-atticGreek</key>
       <string>u10142</string>
       <key>onehalf-atticGreek</key>
@@ -4627,7 +4625,7 @@
       <key>optionKey</key>
       <string>uni2325</string>
       <key>orchid-mahjong</key>
-      <string>orchidmahjong</string>
+      <string>u1F023</string>
       <key>ounkia-greek</key>
       <string>u10184</string>
       <key>outboxTray</key>
@@ -4675,7 +4673,7 @@
       <key>planeTree-phaistosDisc</key>
       <string>u101F2</string>
       <key>plum-mahjong</key>
-      <string>plummahjong</string>
+      <string>u1F022</string>
       <key>plumedHead-phaistosDisc</key>
       <string>u101D1</string>
       <key>pocketCalculator</key>
@@ -4719,7 +4717,7 @@
       <key>recordSeparatorControl</key>
       <string>uni241E</string>
       <key>redDragon-mahjong</key>
-      <string>redDragonmahjong</string>
+      <string>u1F004</string>
       <key>reminderRibbon</key>
       <string>u1F397</string>
       <key>restrictedLeftEntry1</key>
@@ -4985,11 +4983,11 @@
       <key>sestertius-roman</key>
       <string>u10198</string>
       <key>sevenOfBamboos-mahjong</key>
-      <string>sevenOfBamboosmahjong</string>
+      <string>u1F016</string>
       <key>sevenOfCharacters-mahjong</key>
-      <string>sevenOfCharactersmahjong</string>
+      <string>u1F00D</string>
       <key>sevenOfCircles-mahjong</key>
-      <string>sevenOfCirclesmahjong</string>
+      <string>u1F01F</string>
       <key>sextans-roman</key>
       <string>u10190</string>
       <key>sextula-roman</key>
@@ -5041,11 +5039,11 @@
       <key>sinusoid-greek</key>
       <string>u1018C</string>
       <key>sixOfBamboos-mahjong</key>
-      <string>sixOfBamboosmahjong</string>
+      <string>u1F015</string>
       <key>sixOfCharacters-mahjong</key>
-      <string>sixOfCharactersmahjong</string>
+      <string>u1F00C</string>
       <key>sixOfCircles-mahjong</key>
-      <string>sixOfCirclesmahjong</string>
+      <string>u1F01E</string>
       <key>sixPetalledBlackAndWhiteFlorette</key>
       <string>uni273E</string>
       <key>sixPointedBlackStar</key>
@@ -5123,7 +5121,7 @@
       <key>southWestWhiteArrow</key>
       <string>uni2B03</string>
       <key>southWind-mahjong</key>
-      <string>southWindmahjong</string>
+      <string>u1F001</string>
       <key>sp_gobliquestr-phaistosDisc</key>
       <string>sp_gobliquestrphaistosDisc</string>
       <key>spaceControl</key>
@@ -5155,7 +5153,7 @@
       <key>spiralNotePad</key>
       <string>u1F5D2</string>
       <key>spring-mahjong</key>
-      <string>springmahjong</string>
+      <string>u1F026</string>
       <key>squarePositionIndicator</key>
       <string>uni2BD0</string>
       <key>squareTarget</key>
@@ -5191,7 +5189,7 @@
       <key>substituteFormTwoControl</key>
       <string>uni2426</string>
       <key>summer-mahjong</key>
-      <string>summermahjong</string>
+      <string>u1F027</string>
       <key>sunBehindCloud</key>
       <string>uni26C5</string>
       <key>sunSymbol</key>
@@ -5291,11 +5289,11 @@
       <key>threeObols-greek</key>
       <string>u1017E</string>
       <key>threeOfBamboos-mahjong</key>
-      <string>threeOfBamboosmahjong</string>
+      <string>u1F012</string>
       <key>threeOfCharacters-mahjong</key>
-      <string>threeOfCharactersmahjong</string>
+      <string>u1F009</string>
       <key>threeOfCircles-mahjong</key>
-      <string>threeOfCirclesmahjong</string>
+      <string>u1F01B</string>
       <key>threePointedBlackStar</key>
       <string>u1F7C2</string>
       <key>threeRaysAbove</key>
@@ -5379,11 +5377,11 @@
       <key>twoObols-greek</key>
       <string>u1017D</string>
       <key>twoOfBamboos-mahjong</key>
-      <string>twoOfBamboosmahjong</string>
+      <string>u1F011</string>
       <key>twoOfCharacters-mahjong</key>
-      <string>twoOfCharactersmahjong</string>
+      <string>u1F008</string>
       <key>twoOfCircles-mahjong</key>
-      <string>twoOfCirclesmahjong</string>
+      <string>u1F01A</string>
       <key>twoSpeechBubbles</key>
       <string>u1F5EA</string>
       <key>twothirds-greek</key>
@@ -5605,7 +5603,7 @@
       <key>weightLifter</key>
       <string>u1F3CB</string>
       <key>westWind-mahjong</key>
-      <string>westWindmahjong</string>
+      <string>u1F002</string>
       <key>wheelchairSymbol</key>
       <string>uni267F</string>
       <key>whiteArrowShaftWidthOne</key>
@@ -5635,7 +5633,7 @@
       <key>whiteDownLeftHandIndex</key>
       <string>u1F597</string>
       <key>whiteDragon-mahjong</key>
-      <string>whiteDragonmahjong</string>
+      <string>u1F006</string>
       <key>whiteDraughtsKing</key>
       <string>uni26C1</string>
       <key>whiteDraughtsMan</key>
@@ -5821,7 +5819,7 @@
       <key>windTrigram</key>
       <string>uni2634</string>
       <key>winter-mahjong</key>
-      <string>wintermahjong</string>
+      <string>u1F029</string>
       <key>wiredKeyboard</key>
       <string>u1F5AE</string>
       <key>woman-phaistosDisc</key>
@@ -5841,6 +5839,11 @@
       <key>zero-greek</key>
       <string>u1018A</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>_face</string>
+      <string>_eyes</string>
+    </array>
     <key>width</key>
     <integer>70</integer>
   </dict>

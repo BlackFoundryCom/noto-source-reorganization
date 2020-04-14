@@ -6,8 +6,6 @@
     <string>983</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisableAllAutomaticBehaviour</key>
     <true/>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -5278,5 +5276,11 @@
       <key>zerodeva</key>
       <string>uni0966</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>candrabindusmalldeva</string>
+      <string>awcomponentdeva</string>
+      <string>nuktasmalldeva</string>
+    </array>
   </dict>
 </plist>

@@ -4,8 +4,6 @@
   <dict>
     <key>com.schriftgestaltung.appVersion</key>
     <string>1060</string>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -41,15 +39,6 @@
       <string>.notdef</string>
       <string>CR</string>
       <string>NULL</string>
-      <string>bar.1</string>
-      <string>bar.1.001</string>
-      <string>bar.2</string>
-      <string>bar.3</string>
-      <string>bar.4</string>
-      <string>circle.cross</string>
-      <string>circle.med</string>
-      <string>cross.sm</string>
-      <string>smiley.sm</string>
       <string>space</string>
       <string>u10600</string>
       <string>u10601</string>
@@ -393,14 +382,26 @@
       <string>u10766</string>
       <string>u10767</string>
       <string>uni00A0</string>
-      <string>vertbar.full</string>
-      <string>vertbar.med</string>
-      <string>vertbar.sm</string>
     </array>
     <key>public.postscriptNames</key>
     <dict>
       <key>cross.sm</key>
       <string>uni271D.sm</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>bar.1</string>
+      <string>bar.2</string>
+      <string>bar.3</string>
+      <string>vertbar.med</string>
+      <string>circle.med</string>
+      <string>vertbar.full</string>
+      <string>vertbar.sm</string>
+      <string>bar.4</string>
+      <string>smiley.sm</string>
+      <string>circle.cross</string>
+      <string>cross.sm</string>
+      <string>bar.1.001</string>
+    </array>
   </dict>
 </plist>

@@ -18,7 +18,7 @@ from ufo2ft.featureWriters      import (KernFeatureWriter,
 
 
 
-class generateAll():
+class generate():
 
     def __init__(self, scriptsFolder):
         self.failing = list()
@@ -491,7 +491,7 @@ class fontsWithMti():
 
 
 def main():
-    mif = generateAll(os.path.split(sys.argv[0])[0])
+    mif = generate(os.path.split(sys.argv[0])[0])
     mif.multipleMastersVSsingleMaster()
 
 

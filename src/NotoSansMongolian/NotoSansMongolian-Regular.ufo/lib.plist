@@ -6,8 +6,6 @@
     <false/>
     <key>com.schriftgestaltung.appVersion</key>
     <string>1264</string>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -1620,5 +1618,13 @@
       <key>dottedcircle</key>
       <string>uni25CC</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>MongolianDot</string>
+      <string>tail</string>
+      <string>u182C.iniFem</string>
+      <string>MongolianRing</string>
+      <string>LeftTail</string>
+    </array>
   </dict>
 </plist>

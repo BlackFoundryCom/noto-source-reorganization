@@ -21,8 +21,6 @@
         <string>wdth</string>
       </dict>
     </array>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -4981,5 +4979,13 @@
       <key>au</key>
       <string>uniA737</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>_i.alt</string>
+      <string>_ai.alt</string>
+      <string>ha_tail.alt</string>
+      <string>_ii.alt</string>
+      <string>tall_aa.alt</string>
+    </array>
   </dict>
 </plist>

@@ -23,8 +23,6 @@
         <string>wdth</string>
       </dict>
     </array>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -1001,5 +999,20 @@
       <key>vasubscriptguru</key>
       <string>uni0A4D0A35</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>rasubscript1guru</string>
+      <string>hasubscript1guru</string>
+      <string>vasubscript1guru</string>
+      <string>addakbaraltguru</string>
+      <string>umatralowguru</string>
+      <string>uumatralowguru</string>
+      <string>oomatra1guru</string>
+      <string>oomatrabindi1guru</string>
+      <string>umatralow1guru</string>
+      <string>uraaddakguru</string>
+      <string>nuktaaltguru</string>
+      <string>bindialtguru</string>
+    </array>
   </dict>
 </plist>

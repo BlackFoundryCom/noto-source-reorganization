@@ -10,8 +10,6 @@
     <string>1286</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisableAllAutomaticBehaviour</key>
     <true/>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -855,5 +853,83 @@
       <key>sfthyphen.telu</key>
       <string>uni00AD.telu</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>kaalttelu</string>
+      <string>khaalttelu</string>
+      <string>gaalttelu</string>
+      <string>ghaalttelu</string>
+      <string>ghaalt2telu</string>
+      <string>ghaalt3telu</string>
+      <string>caalt1telu</string>
+      <string>chaalt1telu</string>
+      <string>jaalttelu</string>
+      <string>jhaalttelu</string>
+      <string>jhaalt2telu</string>
+      <string>ttaalttelu</string>
+      <string>ttaalt2telu</string>
+      <string>tthaalttelu</string>
+      <string>ddaalttelu</string>
+      <string>ddhaalttelu</string>
+      <string>taalttelu</string>
+      <string>thaalttelu</string>
+      <string>daalttelu</string>
+      <string>dhaalttelu</string>
+      <string>naalt1telu</string>
+      <string>paalttelu</string>
+      <string>paalt2telu</string>
+      <string>paalt3telu</string>
+      <string>phaalttelu</string>
+      <string>phaalt2telu</string>
+      <string>phaalt3telu</string>
+      <string>baalt1telu</string>
+      <string>bhaalt1telu</string>
+      <string>maalt1telu</string>
+      <string>yaalttelu</string>
+      <string>yaalt2telu</string>
+      <string>raalttelu</string>
+      <string>laalttelu</string>
+      <string>llaalttelu</string>
+      <string>vaalttelu</string>
+      <string>vaalt1telu</string>
+      <string>shaalttelu</string>
+      <string>ssaalttelu</string>
+      <string>ssaalt2telu</string>
+      <string>ssaalt3telu</string>
+      <string>saalttelu</string>
+      <string>saalt2telu</string>
+      <string>saalt3telu</string>
+      <string>haalttelu</string>
+      <string>haalt3telu</string>
+      <string>hattelu</string>
+      <string>aavowelsign1telu</string>
+      <string>aavowelsign2telu</string>
+      <string>auvowelsign1telu</string>
+      <string>auvowelsign2telu</string>
+      <string>auvowelsign3telu</string>
+      <string>auvowelsign6telu</string>
+      <string>ovowelsign1telu</string>
+      <string>oovowelsign1telu</string>
+      <string>ovowelsign2telu</string>
+      <string>oovowelsign2telu</string>
+      <string>ovowelsign3telu</string>
+      <string>oovowelsign3telu</string>
+      <string>evowelsignfronttelu</string>
+      <string>evowelsignnarrowtelu</string>
+      <string>evowelsignmediumtelu</string>
+      <string>evowelsignwidetelu</string>
+      <string>evowelsignwidertelu</string>
+      <string>evowelsignttatelu</string>
+      <string>eevowelsignfronttelu</string>
+      <string>eevowelsignnarrowtelu</string>
+      <string>eevowelsignwidetelu</string>
+      <string>eevowelsignwidertelu</string>
+      <string>ailengthmarknarrowtelu</string>
+      <string>ailengthmarkwidetelu</string>
+      <string>ailengthmarkwidertelu</string>
+      <string>ssasubscriptforkssatelu</string>
+      <string>ngaalttelu</string>
+      <string>nyaalttelu</string>
+    </array>
   </dict>
 </plist>

@@ -28,14 +28,19 @@ uni1285
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>na-ethiopic</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>na-ethiopic</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/06/27 13:53:56</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

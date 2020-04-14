@@ -4,9 +4,15 @@
 
 @iMatraLengths = [ iMatra-gujarati.01 iMatra-gujarati.02 iMatra-gujarati iMatra-gujarati.04 iMatra-gujarati.05 iMatra-gujarati.06 iMatra-gujarati.07 iMatra-gujarati.08 iMatra-gujarati.09 iMatra-gujarati.10 ];
 
-@markClass_dynamic = [ rakar-gujarati halant-gujarati reph-gujarati reph_anusvara-gujarati anusvara-gujarati ];
+@markClass_nukta = [ uni0AFC uni0AFB uni0AFD uni0AFE uni0AFF ];
 
-@markClass_dynamic_ukars = [ uMatra-gujarati uuMatra-gujarati uMatra-gujarati.alt uuMatra-gujarati.alt uMatra-gujarati.calt ];
+@topMarks = [ candraBindu-gujarati anusvara-gujarati eCandraMatra-gujarati eMatra-gujarati aiMatra-gujarati uni0AFA uni0AFB uni0AFC uni0AFD uni0AFE uni0AFF reph-gujarati reph_anusvara-gujarati eCandraReph-gujarati eCandraReph_anusvara-gujarati eMatra_reph-gujarati eMatra_reph_anusvara-gujarati aiMatra_reph-gujarati aiMatra_reph_anusvara-gujarati udatta uni0AFD_uni0AFA uni0AFE_uni0AFA uni0AFF_uni0AFA uni0AFD_uni0AFA.alt uni0AFA_rephgujr uni0AFD_uni0AFB uni0AFE_uni0AFB uni0AFF_uni0AFB uni0AFD_uni0AFB.alt uni0AFD_evowelgujr uni0AFD_aivowelgujr uni0AFE_evowelgujr uni0AFE_aivowelgujr uni0AFF_evowelgujr uni0AFF_aivowelgujr uni0AFD_uni0AFC uni0AFD_rephgujr uni0AFE_rephgujr uni0AFF_rephgujr candraBindu-gujarati.alt anusvara-gujarati.alt  ];
+
+@bottomMarks = [ rakar-gujarati halant-gujarati uMatra-gujarati uuMatra-gujarati uMatra-gujarati.alt uuMatra-gujarati.alt uMatra-gujarati.calt ];
+
+@bottomMarksShadda = [ halant-gujarati uni0AFB ];
+
+@markClass_dynamic = [ rakar-gujarati halant-gujarati reph-gujarati reph_anusvara-gujarati anusvara-gujarati ];
 
 # Prefix: Languagesystems
 languagesystem DFLT dflt;
@@ -15,6 +21,18 @@ languagesystem gjr2 dflt;
 
 
 # Prefix: referencelookups
+lookup iMatra00 {
+		sub iMatra-gujarati by iMatra-gujarati.00 ;
+} iMatra00 ;
+
+lookup iMatra01 {
+		sub iMatra-gujarati by iMatra-gujarati.01 ;
+} iMatra01 ;
+
+lookup iMatra02 {
+		sub iMatra-gujarati by iMatra-gujarati.02 ;
+} iMatra02 ;
+
 lookup iMatraReph {
 	sub iMatra-gujarati.01 by iMatra_reph-gujarati.01;
 	sub iMatra-gujarati.02 by iMatra_reph-gujarati.02;
@@ -74,8 +92,25 @@ lookup decomposeMatras {
 	sub oCandraMatra-gujarati by aaMatra-gujarati eCandraMatra-gujarati;
 	sub oMatra-gujarati by aaMatra-gujarati eMatra-gujarati;
 	sub auMatra-gujarati by aaMatra-gujarati aiMatra-gujarati;
+	sub e-gujarati by a-gujarati eMatra-gujarati;
+	sub ai-gujarati by a-gujarati aiMatra-gujarati;
+	sub o-gujarati by aa-gujarati eMatra-gujarati;
+	sub au-gujarati by aa-gujarati aiMatra-gujarati;
+	sub eCandra-gujarati by a-gujarati eCandraMatra-gujarati;
+	sub oCandra-gujarati by aa-gujarati eCandraMatra-gujarati;
 } decomposeMatras ;
 
+
+lookup joinMaddah {
+lookupflag IgnoreBaseGlyphs;
+    sub uni0AFD uni0AFC by uni0AFD_uni0AFC;
+    sub uni0AFD eMatra-gujarati reph-gujarati by uni0AFD_evowelgujr_rephgujr;
+    sub uni0AFD aiMatra-gujarati reph-gujarati by uni0AFD_aivowelgujr_rephgujr;
+    sub uni0AFE eMatra-gujarati reph-gujarati by uni0AFE_evowelgujr_rephgujr;
+    sub uni0AFE aiMatra-gujarati reph-gujarati by uni0AFE_aivowelgujr_rephgujr;
+    sub uni0AFF eMatra-gujarati reph-gujarati by uni0AFF_evowelgujr_rephgujr;
+    sub uni0AFF aiMatra-gujarati reph-gujarati by uni0AFF_aivowelgujr_rephgujr;
+} joinMaddah ; 
 
 feature akhn {
 script gujr ;
@@ -103,7 +138,8 @@ lookup reph ;
 feature rkrf {
 script gjr2 ;
 lookup rakaarForms {
-lookupflag MarkAttachmentType @markClass_dynamic;
+lookupflag UseMarkFilteringSet @bottomMarks;
+    # use halant, ignore nukta's and shadda
 	sub ka-gujarati halant-gujarati ra-gujarati by k_ra-gujarati;
 	sub kha-gujarati halant-gujarati ra-gujarati by kh_ra-gujarati;
 	sub ga-gujarati halant-gujarati ra-gujarati by g_ra-gujarati;
@@ -154,7 +190,8 @@ lookup belowBaseForm_gjr2 {
 feature half {
 script gujr ;
 lookup halfForms {
-lookupflag MarkAttachmentType @markClass_dynamic ;
+lookupflag UseMarkFilteringSet @bottomMarks ;
+	# use halant, ignore nukta's and shadda
 	sub ka-gujarati halant-gujarati by k-gujarati;
 	sub kha-gujarati halant-gujarati by kh-gujarati;
 	sub ga-gujarati halant-gujarati by g-gujarati;
@@ -192,13 +229,17 @@ lookupflag MarkAttachmentType @markClass_dynamic ;
 } halfForms ;
 
 lookup halfForms_akhands {
+lookupflag UseMarkFilteringSet @bottomMarks ;
+    # use halant, do not ignore nukta's and shadda
 	sub k_ssa-gujarati halant-gujarati by k_ss-gujarati;
 	sub j_nya-gujarati halant-gujarati by j_ny-gujarati;
-	sub t_ta-gujarati halant-gujarati by t_t-gujarati;
+	# cannot work: sub t_ta-gujarati halant-gujarati by t_t-gujarati;
+	sub t-gujarati t-gujarati by t_t-gujarati;
 } halfForms_akhands ;
 
 lookup halfForms_rakaar {
-lookupflag MarkAttachmentType @markClass_dynamic;
+lookupflag UseMarkFilteringSet @bottomMarks;
+    # use halant, ignore nukta's and shadda
 	sub k_ra-gujarati halant-gujarati by k_r-gujarati;
 	sub kh_ra-gujarati halant-gujarati by kh_r-gujarati;
 	sub g_ra-gujarati halant-gujarati by g_r-gujarati;
@@ -226,6 +267,8 @@ lookupflag MarkAttachmentType @markClass_dynamic;
 } halfForms_rakaar ;
 
 lookup halfForms_akhands_rakaar {
+lookupflag UseMarkFilteringSet @bottomMarks;
+    # use halant, ignore nukta's and shadda
 	sub k_ss_ra-gujarati halant-gujarati by k_ss_r-gujarati;
 	sub j_ny_ra-gujarati halant-gujarati by j_ny_r-gujarati;
 } halfForms_akhands_rakaar ;
@@ -241,7 +284,8 @@ lookup halfForms_akhands_rakaar ;
 feature cjct {
 script gjr2 ;
 lookup conjuncts {
-lookupflag MarkAttachmentType @markClass_dynamic ;
+lookupflag UseMarkFilteringSet @bottomMarksShadda;
+	# ignore nukta's but not shadda ??
 	sub ng-gujarati ka-gujarati by ng_ka-gujarati;
 	sub ng-gujarati ga-gujarati by ng_ga-gujarati;
 	sub ng-gujarati gha-gujarati by ng_gha-gujarati;
@@ -275,8 +319,19 @@ lookupflag MarkAttachmentType @markClass_dynamic ;
 
 feature pres {
 script gujr ;
+#2020
+lookup iMatraTopNukta {
+	 sub iMatra-gujarati' lookup iMatra00 jha-gujarati uni0AFF ;
+	 sub iMatra-gujarati' lookup iMatra01 ga-gujarati uni0AFD ;
+     sub iMatra-gujarati' lookup iMatra02 [kha-gujarati jha-gujarati sa-gujarati] [uni0AFD uni0AFE] ;
+     sub iMatra-gujarati' lookup iMatra00 [ka-gujarati ga-gujarati ta-gujarati ha-gujarati] uni0AFD ;
+} iMatraTopNukta ;
+
+
+
 lookup rakaarForms_gujr {
-lookupflag MarkAttachmentType @markClass_dynamic;
+lookupflag UseMarkFilteringSet @bottomMarks;
+    # use rakar, ignore nukta's and shadda
 	sub ka-gujarati rakar-gujarati by k_ra-gujarati;
 	sub kha-gujarati rakar-gujarati by kh_ra-gujarati;
 	sub ga-gujarati rakar-gujarati by g_ra-gujarati;
@@ -311,7 +366,8 @@ lookupflag MarkAttachmentType @markClass_dynamic;
 } rakaarForms_gujr ;
 
 lookup biConsonantConjuncts {
-lookupflag MarkAttachmentType @markClass_dynamic ;
+lookupflag UseMarkFilteringSet @markClass_nukta;
+    # use top marks, ignore low nukta
 	sub k-gujarati ka-gujarati by k_ka-gujarati;
 	sub k-gujarati kha-gujarati by k_kha-gujarati;
 	sub k-gujarati da-gujarati by k_da-gujarati;
@@ -369,7 +425,8 @@ lookupflag MarkAttachmentType @markClass_dynamic ;
 } biConsonantConjuncts ;
 
 lookup conjuncts_gujr {
-lookupflag MarkAttachmentType @markClass_dynamic ;
+lookupflag UseMarkFilteringSet @markClass_dynamic;
+    # use top marks, ignore low nukta
 	sub ng-gujarati ka-gujarati by ng_ka-gujarati;
 	sub ng-gujarati ga-gujarati by ng_ga-gujarati;
 	sub ng-gujarati gha-gujarati by ng_gha-gujarati;
@@ -400,110 +457,125 @@ lookupflag MarkAttachmentType @markClass_dynamic ;
 } conjuncts_gujr ;
 
 lookup biConsonantConjuncts_b {
-lookupflag MarkAttachmentType @markClass_dynamic ;
+lookupflag UseMarkFilteringSet @markClass_dynamic;
+ 	# ignore nukta
 	ignore sub j-gujarati' ja-gujarati' [iiMatra-gujarati aaMatra-gujarati oCandraMatra-gujarati oMatra-gujarati auMatra-gujarati];
 	sub j-gujarati' lookup ja_ligs ja-gujarati' ;
 } biConsonantConjuncts_b ;
 
 
 lookup triConsonantConjuncts {
-lookupflag MarkAttachmentType @markClass_dynamic ;
+lookupflag UseMarkFilteringSet @markClass_dynamic;
+	# ignore nukta
 	sub t-gujarati t_ya-gujarati by t_t_ya-gujarati;
 	sub s-gujarati t_ra-gujarati by s_t_ra-gujarati;
 } triConsonantConjuncts ;
 
+
 lookup iMatraAlternates {
-lookupflag MarkAttachmentType @markClass_dynamic ;
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' [tta-gujarati ttha-gujarati dda-gujarati da-gujarati pha-gujarati ra-gujarati d_ra-gujarati dd_dda-gujarati dd_ddha-gujarati d_da-gujarati d_na-gujarati] by [iMatra-gujarati.01 iMatra_reph-gujarati.01 iMatra_reph_anusvara-gujarati.01 iMatra_anusvara-gujarati.01];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' [ka-gujarati nga-gujarati ddha-gujarati ta-gujarati na-gujarati pa-gujarati va-gujarati ha-gujarati k_ra-gujarati n_ra-gujarati p_ra-gujarati ph_ra-gujarati v_ra-gujarati h_ra-gujarati ng_ka-gujarati ng_ma-gujarati tt_tta-gujarati tt_ttha-gujarati tt_va-gujarati tth_ttha-gujarati ddh_ddha-gujarati d_ba-gujarati p_tta-gujarati p_ta-gujarati p_na-gujarati ss_tta-gujarati d_ga-gujarati d_va-gujarati ng_gha-gujarati h_la-gujarati h_va-gujarati h_nna-gujarati h_na-gujarati ] by [iMatra-gujarati.02 iMatra_reph-gujarati.02 iMatra_reph_anusvara-gujarati.02 iMatra_anusvara-gujarati.02];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' [cha-gujarati ja-gujarati jha-gujarati nya-gujarati ba-gujarati la-gujarati lla-gujarati sha-gujarati sa-gujarati jh_ra-gujarati ny_ra-gujarati b_ra-gujarati ll_ra-gujarati sh_ra-gujarati k_ssa-gujarati ch_va-gujarati t_ta-gujarati d_gha-gujarati d_dha-gujarati d_bha-gujarati d_ma-gujarati n_tta-gujarati p_da-gujarati sh_na-gujarati sh_la-gujarati sh_va-gujarati ] by [iMatra-gujarati.04 iMatra_reph-gujarati.04 iMatra_reph_anusvara-gujarati.04 iMatra_anusvara-gujarati.04];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' [kha-gujarati nna-gujarati nna-gujarati.calt nn_ra-gujarati nn_ra-gujarati.calt bha-gujarati zh_ra-gujarati kh_ra-gujarati j_ra-gujarati bh_ra-gujarati s_ra-gujarati k_ss_ra-gujarati j_ny_ra-gujarati j_nya-gujarati t_ka-gujarati v_da-gujarati sh_ca-gujarati h_ma-gujarati h_ya-gujarati zha-gujarati] by [iMatra-gujarati.05 iMatra_reph-gujarati.05 iMatra_reph_anusvara-gujarati.05 iMatra_anusvara-gujarati.05];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' [ja_aaMatra-gujarati ja_iiMatra-gujarati zha_aaMatra-gujarati zha_iiMatra-gujarati k_ka-gujarati k_da-gujarati ny_ca-gujarati ny_ja-gujarati t_t_ya-gujarati t_ma-gujarati t_ya-gujarati l_ka-gujarati s_ka-gujarati s_tta-gujarati s_ttha-gujarati s_dda-gujarati s_t_ra-gujarati s_pha-gujarati ] by [iMatra-gujarati.06 iMatra_reph-gujarati.06 iMatra_reph_anusvara-gujarati.06 iMatra_anusvara-gujarati.06];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' [k_ya-gujarati j_ra_aaMatra-gujarati j_ra_iiMatra-gujarati k_pa-gujarati ng_ya-gujarati tt_ya-gujarati dd_ya-gujarati t_sa-gujarati n_sa-gujarati ph_ya-gujarati l_ya-gujarati ll_ya-gujarati s_tha-gujarati s_ma-gujarati ] by [iMatra-gujarati.07 iMatra_reph-gujarati.07 iMatra_reph_anusvara-gujarati.07 iMatra_anusvara-gujarati.07];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' [ddh_ya-gujarati b_la-gujarati l_sa-gujarati ] by [iMatra-gujarati.08 iMatra_reph-gujarati.08 iMatra_reph_anusvara-gujarati.08 iMatra_anusvara-gujarati.08];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' [k_kha-gujarati ch_ya-gujarati j_ma-gujarati j_ya-gujarati ] by [iMatra-gujarati.09 iMatra_reph-gujarati.09 iMatra_reph_anusvara-gujarati.09 iMatra_anusvara-gujarati.09];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' [j_ja-gujarati ] by [iMatra-gujarati.10 iMatra_reph-gujarati.10 iMatra_reph_anusvara-gujarati.10 iMatra_anusvara-gujarati.10];
+#lookupflag MarkAttachmentType @markClass_dynamic ;
+lookupflag IgnoreMarks ;
+	# ignore nukta vattu
+	sub iMatra-gujarati' [tta-gujarati ttha-gujarati dda-gujarati da-gujarati pha-gujarati ra-gujarati d_ra-gujarati dd_dda-gujarati dd_ddha-gujarati d_da-gujarati d_na-gujarati] by iMatra-gujarati.01;
+	sub iMatra-gujarati' [ka-gujarati nga-gujarati ddha-gujarati ta-gujarati na-gujarati pa-gujarati va-gujarati ha-gujarati k_ra-gujarati n_ra-gujarati p_ra-gujarati ph_ra-gujarati v_ra-gujarati h_ra-gujarati ng_ka-gujarati ng_ma-gujarati tt_tta-gujarati tt_ttha-gujarati tt_va-gujarati tth_ttha-gujarati ddh_ddha-gujarati d_ba-gujarati p_tta-gujarati p_ta-gujarati p_na-gujarati ss_tta-gujarati d_ga-gujarati d_va-gujarati ng_gha-gujarati h_la-gujarati h_va-gujarati h_nna-gujarati h_na-gujarati ] by iMatra-gujarati.02;
+	sub iMatra-gujarati' [cha-gujarati ja-gujarati jha-gujarati nya-gujarati ba-gujarati la-gujarati lla-gujarati sha-gujarati sa-gujarati jh_ra-gujarati ny_ra-gujarati b_ra-gujarati ll_ra-gujarati sh_ra-gujarati k_ssa-gujarati ch_va-gujarati t_ta-gujarati d_gha-gujarati d_dha-gujarati d_bha-gujarati d_ma-gujarati n_tta-gujarati p_da-gujarati sh_na-gujarati sh_va-gujarati ] by iMatra-gujarati.04;
+	sub iMatra-gujarati' [kha-gujarati nna-gujarati nna-gujarati.calt nn_ra-gujarati nn_ra-gujarati.calt bha-gujarati zh_ra-gujarati kh_ra-gujarati j_ra-gujarati bh_ra-gujarati s_ra-gujarati k_ss_ra-gujarati j_ny_ra-gujarati j_nya-gujarati t_ka-gujarati v_da-gujarati sh_ca-gujarati h_ma-gujarati h_ya-gujarati zha-gujarati] by iMatra-gujarati.05;
+	sub iMatra-gujarati' [ja_aaMatra-gujarati ja_iiMatra-gujarati zha_aaMatra-gujarati zha_iiMatra-gujarati k_ka-gujarati k_da-gujarati ny_ca-gujarati ny_ja-gujarati t_t_ya-gujarati t_ma-gujarati t_ya-gujarati l_ka-gujarati s_ka-gujarati s_tta-gujarati s_ttha-gujarati s_dda-gujarati s_t_ra-gujarati s_pha-gujarati ] by iMatra-gujarati.06;
+	sub iMatra-gujarati' [k_ya-gujarati j_ra_aaMatra-gujarati j_ra_iiMatra-gujarati k_pa-gujarati ng_ya-gujarati tt_ya-gujarati dd_ya-gujarati t_sa-gujarati n_sa-gujarati ph_ya-gujarati l_ya-gujarati ll_ya-gujarati s_tha-gujarati s_ma-gujarati ] by iMatra-gujarati.07;
+	sub iMatra-gujarati' [ddh_ya-gujarati b_la-gujarati l_sa-gujarati sh_la-gujarati] by iMatra-gujarati.08;
+	sub iMatra-gujarati' [k_kha-gujarati ch_ya-gujarati j_ma-gujarati j_ya-gujarati ] by iMatra-gujarati.09;
+	sub iMatra-gujarati' [j_ja-gujarati ] by iMatra-gujarati.10;
 } iMatraAlternates ;
 
 lookup iMatraAlternates_b {
-lookupflag MarkAttachmentType @markClass_dynamic ;
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' m-gujarati da-gujarati by [iMatra-gujarati.04 iMatra_reph-gujarati.04 iMatra_reph_anusvara-gujarati.04 iMatra_anusvara-gujarati.04];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' n-gujarati [tta-gujarati ttha-gujarati dda-gujarati ddha-gujarati] by [iMatra-gujarati.04 iMatra_reph-gujarati.04 iMatra_reph_anusvara-gujarati.04 iMatra_anusvara-gujarati.04];
+#lookupflag MarkAttachmentType @markClass_dynamic ;
+lookupflag IgnoreMarks ;
+	sub iMatra-gujarati' m-gujarati da-gujarati by iMatra-gujarati.04;
+	sub iMatra-gujarati' n-gujarati [tta-gujarati ttha-gujarati dda-gujarati ddha-gujarati] by iMatra-gujarati.04;
 } iMatraAlternates_b ;
 
 lookup iMatraAlternates_c {
-lookupflag MarkAttachmentType @markClass_dynamic ;
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' l-gujarati da-gujarati by [iMatra-gujarati.05 iMatra_reph-gujarati.05 iMatra_reph_anusvara-gujarati.05 iMatra_anusvara-gujarati.05];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' s-gujarati da-gujarati by [iMatra-gujarati.05 iMatra_reph-gujarati.05 iMatra_reph_anusvara-gujarati.05 iMatra_anusvara-gujarati.05];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' p-gujarati pa-gujarati by [iMatra-gujarati.05 iMatra_reph-gujarati.05 iMatra_reph_anusvara-gujarati.05 iMatra_anusvara-gujarati.05];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' n-gujarati [ta-gujarati ya-gujarati va-gujarati ha-gujarati] by [iMatra-gujarati.05 iMatra_reph-gujarati.05 iMatra_reph_anusvara-gujarati.05 iMatra_anusvara-gujarati.05];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' g-gujarati da-gujarati by [iMatra-gujarati.05 iMatra_reph-gujarati.05 iMatra_reph_anusvara-gujarati.05 iMatra_anusvara-gujarati.05];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' t-gujarati pa-gujarati by [iMatra-gujarati.05 iMatra_reph-gujarati.05 iMatra_reph_anusvara-gujarati.05 iMatra_anusvara-gujarati.05];
+#lookupflag MarkAttachmentType @markClass_dynamic ;
+lookupflag IgnoreMarks ;
+	sub iMatra-gujarati' l-gujarati da-gujarati by iMatra-gujarati.05;
+	sub iMatra-gujarati' s-gujarati da-gujarati by iMatra-gujarati.05;
+	sub iMatra-gujarati' p-gujarati pa-gujarati by iMatra-gujarati.05;
+	sub iMatra-gujarati' n-gujarati [ta-gujarati ya-gujarati va-gujarati ha-gujarati] by iMatra-gujarati.05;
+	sub iMatra-gujarati' g-gujarati da-gujarati by iMatra-gujarati.05;
+	sub iMatra-gujarati' t-gujarati pa-gujarati by iMatra-gujarati.05;
 } iMatraAlternates_c ;
 
 lookup iMatraAlternates_d {
-lookupflag MarkAttachmentType @markClass_dynamic ;
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' sh-gujarati da-gujarati by [iMatra-gujarati.06 iMatra_reph-gujarati.06 iMatra_reph_anusvara-gujarati.06 iMatra_anusvara-gujarati.06];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' dh-gujarati [ya-gujarati va-gujarati] by [iMatra-gujarati.06 iMatra_reph-gujarati.06 iMatra_reph_anusvara-gujarati.06 iMatra_anusvara-gujarati.06];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' m-gujarati [ta-gujarati ma-gujarati ya-gujarati ha-gujarati] by [iMatra-gujarati.06 iMatra_reph-gujarati.06 iMatra_reph_anusvara-gujarati.06 iMatra_anusvara-gujarati.06];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' l-gujarati dda-gujarati by [iMatra-gujarati.06 iMatra_reph-gujarati.06 iMatra_reph_anusvara-gujarati.06 iMatra_anusvara-gujarati.06];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' c-gujarati va-gujarati by [iMatra-gujarati.06 iMatra_reph-gujarati.06 iMatra_reph_anusvara-gujarati.06 iMatra_anusvara-gujarati.06];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' v-gujarati [ya-gujarati va-gujarati] by [iMatra-gujarati.06 iMatra_reph-gujarati.06 iMatra_reph_anusvara-gujarati.06 iMatra_anusvara-gujarati.06];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' th-gujarati [ya-gujarati va-gujarati] by [iMatra-gujarati.06 iMatra_reph-gujarati.06 iMatra_reph_anusvara-gujarati.06 iMatra_anusvara-gujarati.06];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' gh-gujarati [ya-gujarati va-gujarati] by [iMatra-gujarati.06 iMatra_reph-gujarati.06 iMatra_reph_anusvara-gujarati.06 iMatra_anusvara-gujarati.06];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' p-gujarati ca-gujarati by [iMatra-gujarati.06 iMatra_reph-gujarati.06 iMatra_reph_anusvara-gujarati.06 iMatra_anusvara-gujarati.06];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' g-gujarati va-gujarati by [iMatra-gujarati.06 iMatra_reph-gujarati.06 iMatra_reph_anusvara-gujarati.06 iMatra_anusvara-gujarati.06];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' ss-gujarati [ma-gujarati ya-gujarati] by [iMatra-gujarati.06 iMatra_reph-gujarati.06 iMatra_reph_anusvara-gujarati.06 iMatra_anusvara-gujarati.06];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' b-gujarati da-gujarati by [iMatra-gujarati.06 iMatra_reph-gujarati.06 iMatra_reph_anusvara-gujarati.06 iMatra_anusvara-gujarati.06];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' y-gujarati ya-gujarati by [iMatra-gujarati.06 iMatra_reph-gujarati.06 iMatra_reph_anusvara-gujarati.06 iMatra_anusvara-gujarati.06];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' t-gujarati [ca-gujarati tha-gujarati va-gujarati] by [iMatra-gujarati.06 iMatra_reph-gujarati.06 iMatra_reph_anusvara-gujarati.06 iMatra_anusvara-gujarati.06];
+#lookupflag MarkAttachmentType @markClass_dynamic ;
+lookupflag IgnoreMarks ;
+	sub iMatra-gujarati' sh-gujarati da-gujarati by iMatra-gujarati.06;
+	sub iMatra-gujarati' dh-gujarati [ya-gujarati va-gujarati] by iMatra-gujarati.06;
+	sub iMatra-gujarati' m-gujarati [ta-gujarati ma-gujarati ya-gujarati ha-gujarati] by iMatra-gujarati.06;
+	sub iMatra-gujarati' l-gujarati dda-gujarati by iMatra-gujarati.06;
+	sub iMatra-gujarati' c-gujarati va-gujarati by iMatra-gujarati.06;
+	sub iMatra-gujarati' v-gujarati [ya-gujarati va-gujarati] by iMatra-gujarati.06;
+	sub iMatra-gujarati' th-gujarati [ya-gujarati va-gujarati] by iMatra-gujarati.06;
+	sub iMatra-gujarati' gh-gujarati [ya-gujarati va-gujarati] by iMatra-gujarati.06;
+	sub iMatra-gujarati' p-gujarati ca-gujarati by iMatra-gujarati.06;
+	sub iMatra-gujarati' g-gujarati va-gujarati by iMatra-gujarati.06;
+	sub iMatra-gujarati' ss-gujarati [ma-gujarati ya-gujarati] by iMatra-gujarati.06;
+	sub iMatra-gujarati' b-gujarati da-gujarati by iMatra-gujarati.06;
+	sub iMatra-gujarati' y-gujarati ya-gujarati by iMatra-gujarati.06;
+	sub iMatra-gujarati' t-gujarati [ca-gujarati tha-gujarati va-gujarati] by iMatra-gujarati.06;
 } iMatraAlternates_d ;
 
 lookup iMatraAlternates_e {
-lookupflag MarkAttachmentType @markClass_dynamic ;
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' sh-gujarati [ta-gujarati ma-gujarati ya-gujarati] by [iMatra-gujarati.07 iMatra_reph-gujarati.07 iMatra_reph_anusvara-gujarati.07 iMatra_anusvara-gujarati.07];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' m-gujarati la-gujarati by [iMatra-gujarati.07 iMatra_reph-gujarati.07 iMatra_reph_anusvara-gujarati.07 iMatra_anusvara-gujarati.07];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' l-gujarati [ta-gujarati pa-gujarati la-gujarati ha-gujarati] by [iMatra-gujarati.07 iMatra_reph-gujarati.07 iMatra_reph_anusvara-gujarati.07 iMatra_anusvara-gujarati.07];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' c-gujarati [ca-gujarati cha-gujarati ya-gujarati la-gujarati] by [iMatra-gujarati.07 iMatra_reph-gujarati.07 iMatra_reph_anusvara-gujarati.07 iMatra_anusvara-gujarati.07];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' s-gujarati [ta-gujarati pa-gujarati ya-gujarati la-gujarati va-gujarati p_ra-gujarati] by [iMatra-gujarati.07 iMatra_reph-gujarati.07 iMatra_reph_anusvara-gujarati.07 iMatra_anusvara-gujarati.07];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' gh-gujarati gha-gujarati by [iMatra-gujarati.07 iMatra_reph-gujarati.07 iMatra_reph_anusvara-gujarati.07 iMatra_anusvara-gujarati.07];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' ph-gujarati [ta-gujarati na-gujarati ya-gujarati] by [iMatra-gujarati.07 iMatra_reph-gujarati.07 iMatra_reph_anusvara-gujarati.07 iMatra_anusvara-gujarati.07];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' g-gujarati [ga-gujarati ma-gujarati ya-gujarati la-gujarati sa-gujarati] by [iMatra-gujarati.07 iMatra_reph-gujarati.07 iMatra_reph_anusvara-gujarati.07 iMatra_anusvara-gujarati.07];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' j-gujarati [da-gujarati ya-gujarati] by [iMatra-gujarati.07 iMatra_reph-gujarati.07 iMatra_reph_anusvara-gujarati.07 iMatra_anusvara-gujarati.07];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' k-gujarati [ta-gujarati ya-gujarati va-gujarati] by [iMatra-gujarati.07 iMatra_reph-gujarati.07 iMatra_reph_anusvara-gujarati.07 iMatra_anusvara-gujarati.07];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' kh-gujarati [ta-gujarati da-gujarati] by [iMatra-gujarati.07 iMatra_reph-gujarati.07 iMatra_reph_anusvara-gujarati.07 iMatra_anusvara-gujarati.07];	
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' t-gujarati [kha-gujarati ba-gujarati bha-gujarati] by [iMatra-gujarati.07 iMatra_reph-gujarati.07 iMatra_reph_anusvara-gujarati.07 iMatra_anusvara-gujarati.07];
+#lookupflag MarkAttachmentType @markClass_dynamic ;
+lookupflag IgnoreMarks ;
+	sub iMatra-gujarati' sh-gujarati [ta-gujarati ma-gujarati ya-gujarati] by iMatra-gujarati.07;
+	sub iMatra-gujarati' m-gujarati la-gujarati by iMatra-gujarati.07;
+	sub iMatra-gujarati' l-gujarati [ta-gujarati pa-gujarati la-gujarati ha-gujarati] by iMatra-gujarati.07;
+	sub iMatra-gujarati' c-gujarati [ca-gujarati cha-gujarati ya-gujarati la-gujarati] by iMatra-gujarati.07;
+	sub iMatra-gujarati' s-gujarati [ta-gujarati pa-gujarati ya-gujarati la-gujarati va-gujarati p_ra-gujarati] by iMatra-gujarati.07;
+	sub iMatra-gujarati' gh-gujarati gha-gujarati by iMatra-gujarati.07;
+	sub iMatra-gujarati' ph-gujarati [ta-gujarati na-gujarati ya-gujarati] by iMatra-gujarati.07;
+	sub iMatra-gujarati' g-gujarati [ga-gujarati ma-gujarati ya-gujarati la-gujarati sa-gujarati] by iMatra-gujarati.07;
+	sub iMatra-gujarati' j-gujarati [da-gujarati ya-gujarati] by iMatra-gujarati.07;
+	sub iMatra-gujarati' k-gujarati [ta-gujarati ya-gujarati va-gujarati] by iMatra-gujarati.07;
+	sub iMatra-gujarati' kh-gujarati [ta-gujarati da-gujarati] by iMatra-gujarati.07;	
+	sub iMatra-gujarati' t-gujarati [kha-gujarati ba-gujarati bha-gujarati] by iMatra-gujarati.07;
 } iMatraAlternates_e ;
 
 lookup iMatraAlternates_f {
-lookupflag MarkAttachmentType @markClass_dynamic ;
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' l-gujarati [kha-gujarati ja-gujarati ba-gujarati] by [iMatra-gujarati.08 iMatra_reph-gujarati.08 iMatra_reph_anusvara-gujarati.08 iMatra_anusvara-gujarati.08];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' c-gujarati nna-gujarati by [iMatra-gujarati.08 iMatra_reph-gujarati.08 iMatra_reph_anusvara-gujarati.08 iMatra_anusvara-gujarati.08];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' bh-gujarati [ya-gujarati la-gujarati] by [iMatra-gujarati.08 iMatra_reph-gujarati.08 iMatra_reph_anusvara-gujarati.08 iMatra_anusvara-gujarati.08];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' s-gujarati [kha-gujarati ja-gujarati sa-gujarati] by [iMatra-gujarati.08 iMatra_reph-gujarati.08 iMatra_reph_anusvara-gujarati.08 iMatra_anusvara-gujarati.08];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' ph-gujarati la-gujarati by [iMatra-gujarati.08 iMatra_reph-gujarati.08 iMatra_reph_anusvara-gujarati.08 iMatra_anusvara-gujarati.08];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' j-gujarati [ka-gujarati pa-gujarati ma-gujarati va-gujarati] by [iMatra-gujarati.08 iMatra_reph-gujarati.08 iMatra_reph_anusvara-gujarati.08 iMatra_anusvara-gujarati.08];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' k-gujarati [ba-gujarati la-gujarati sa-gujarati] by [iMatra-gujarati.08 iMatra_reph-gujarati.08 iMatra_reph_anusvara-gujarati.08 iMatra_anusvara-gujarati.08];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' kh-gujarati [ya-gujarati la-gujarati va-gujarati] by [iMatra-gujarati.08 iMatra_reph-gujarati.08 iMatra_reph_anusvara-gujarati.08 iMatra_anusvara-gujarati.08];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' nn-gujarati [ta-gujarati nna-gujarati] by [iMatra-gujarati.08 iMatra_reph-gujarati.08 iMatra_reph_anusvara-gujarati.08 iMatra_anusvara-gujarati.08];
+#lookupflag MarkAttachmentType @markClass_dynamic ;
+lookupflag IgnoreMarks ;
+	sub iMatra-gujarati' l-gujarati [kha-gujarati ja-gujarati ba-gujarati] by iMatra-gujarati.08;
+	sub iMatra-gujarati' c-gujarati nna-gujarati by iMatra-gujarati.08;
+	sub iMatra-gujarati' bh-gujarati [ya-gujarati la-gujarati] by iMatra-gujarati.08;
+	sub iMatra-gujarati' s-gujarati [kha-gujarati ja-gujarati sa-gujarati] by iMatra-gujarati.08;
+	sub iMatra-gujarati' ph-gujarati la-gujarati by iMatra-gujarati.08;
+	sub iMatra-gujarati' j-gujarati [ka-gujarati pa-gujarati ma-gujarati va-gujarati] by iMatra-gujarati.08;
+	sub iMatra-gujarati' k-gujarati [ba-gujarati la-gujarati sa-gujarati] by iMatra-gujarati.08;
+	sub iMatra-gujarati' kh-gujarati [ya-gujarati la-gujarati va-gujarati] by iMatra-gujarati.08;
+	sub iMatra-gujarati' nn-gujarati [ta-gujarati nna-gujarati] by iMatra-gujarati.08;
 } iMatraAlternates_f ;
 
 lookup iMatraAlternates_g {
-lookupflag MarkAttachmentType @markClass_dynamic ;
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' j-gujarati la-gujarati by [iMatra-gujarati.09 iMatra_reph-gujarati.09 iMatra_reph_anusvara-gujarati.09 iMatra_anusvara-gujarati.09];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' kh-gujarati kha-gujarati by [iMatra-gujarati.09 iMatra_reph-gujarati.09 iMatra_reph_anusvara-gujarati.09 iMatra_anusvara-gujarati.09];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' k-gujarati s-gujarati [pa-gujarati p_ra-gujarati] by [iMatra-gujarati.09 iMatra_reph-gujarati.09 iMatra_reph_anusvara-gujarati.09 iMatra_anusvara-gujarati.09];
+#lookupflag MarkAttachmentType @markClass_dynamic ;
+lookupflag IgnoreMarks ;
+	sub iMatra-gujarati' j-gujarati la-gujarati by iMatra-gujarati.09;
+	sub iMatra-gujarati' kh-gujarati kha-gujarati by iMatra-gujarati.09;
+	sub iMatra-gujarati' k-gujarati s-gujarati [pa-gujarati p_ra-gujarati] by iMatra-gujarati.09;
 } iMatraAlternates_g ;
 
 lookup iMatraAlternates_h {
-lookupflag MarkAttachmentType @markClass_dynamic ;
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' j-gujarati ba-gujarati by [iMatra-gujarati.10 iMatra_reph-gujarati.10 iMatra_reph_anusvara-gujarati.10 iMatra_anusvara-gujarati.10];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' kh-gujarati nna-gujarati by [iMatra-gujarati.10 iMatra_reph-gujarati.10 iMatra_reph_anusvara-gujarati.10 iMatra_anusvara-gujarati.10];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' s-gujarati p-gujarati la-gujarati by [iMatra-gujarati.10 iMatra_reph-gujarati.10 iMatra_reph_anusvara-gujarati.10 iMatra_anusvara-gujarati.10];
-	sub [iMatra-gujarati iMatra_reph-gujarati iMatra_reph_anusvara-gujarati iMatra_anusvara-gujarati]' k-gujarati s-gujarati p-gujarati la-gujarati by [iMatra-gujarati.10 iMatra_reph-gujarati.10 iMatra_reph_anusvara-gujarati.10 iMatra_anusvara-gujarati.10];
+#lookupflag MarkAttachmentType @markClass_dynamic ;
+lookupflag IgnoreMarks ;
+	sub iMatra-gujarati' j-gujarati ba-gujarati by iMatra-gujarati.10;
+	sub iMatra-gujarati' kh-gujarati nna-gujarati by iMatra-gujarati.10;
+	sub iMatra-gujarati' s-gujarati p-gujarati la-gujarati by iMatra-gujarati.10;
+	sub iMatra-gujarati' k-gujarati s-gujarati p-gujarati la-gujarati by iMatra-gujarati.10;
 } iMatraAlternates_h ;
 
 script gjr2 ;
+# 2020
+lookup iMatraTopNukta ;
+#
 lookup triConsonantConjuncts ;
 lookup biConsonantConjuncts ;
 lookup biConsonantConjuncts_b ;
@@ -519,20 +591,72 @@ lookup iMatraAlternates_h ;
 
 feature abvs {
 script gujr ;
+# 2020
+lookup splitVowels {
+     sub [e-gujarati ai-gujarati o-gujarati au-gujarati]' lookup decomposeMatras uni0AFD;
+     sub [oCandraMatra-gujarati oMatra-gujarati auMatra-gujarati eCandra-gujarati e-gujarati ai-gujarati oCandra-gujarati o-gujarati au-gujarati ]' lookup decomposeMatras reph-gujarati;
+} splitVowels ;
+#
+lookup joinMarks {
+     sub uni0AFD' lookup joinMaddah aaMatra-gujarati' uni0AFC';
+     sub [uni0AFD uni0AFE uni0AFF]' lookup joinMaddah aaMatra-gujarati' [eMatra-gujarati aiMatra-gujarati]' reph-gujarati' ;
+} joinMarks ;
+
+
 lookup compositeMarksAbove {
+lookupflag UseMarkFilteringSet @topMarks ;
 	sub reph-gujarati anusvara-gujarati by reph_anusvara-gujarati;
 	sub eCandraMatra-gujarati reph-gujarati by eCandraReph-gujarati;
 	sub eCandraMatra-gujarati reph-gujarati anusvara-gujarati by eCandraReph_anusvara-gujarati;
 	sub eMatra-gujarati reph-gujarati by eMatra_reph-gujarati;
+	sub reph-gujarati eMatra-gujarati by eMatra_reph-gujarati;
 	sub eMatra-gujarati reph-gujarati anusvara-gujarati by eMatra_reph_anusvara-gujarati;
 	sub aiMatra-gujarati reph-gujarati by aiMatra_reph-gujarati;
 	sub aiMatra-gujarati reph-gujarati anusvara-gujarati by aiMatra_reph_anusvara-gujarati;
 	sub reph-gujarati iiMatra-gujarati by iiMatra_reph-gujarati;
+	sub iiMatra-gujarati reph-gujarati by iiMatra_reph-gujarati;
 	sub reph-gujarati iiMatra-gujarati anusvara-gujarati by iiMatra_reph_anusvara-gujarati;
+	sub iiMatra-gujarati reph-gujarati anusvara-gujarati by iiMatra_reph_anusvara-gujarati;
+	# 2020
+	sub uni0AFB uni0AFA by uni0AFB_uni0AFA; 
+	sub uni0AFD uni0AFA by uni0AFD_uni0AFA;
+	sub uni0AFE uni0AFA by uni0AFE_uni0AFA;
+	sub uni0AFF uni0AFA by uni0AFF_uni0AFA;
+	sub reph-gujarati uni0AFA by uni0AFA_rephgujr;
+    sub uni0AFD uni0AFB by uni0AFD_uni0AFB; 
+    sub uni0AFE uni0AFB by uni0AFE_uni0AFB;
+    sub uni0AFF uni0AFB by uni0AFF_uni0AFB;
+    sub uni0AFD eMatra-gujarati  by uni0AFD_evowelgujr;
+    sub eMatra-gujarati uni0AFD  by uni0AFD_evowelgujr;
+    sub uni0AFD aiMatra-gujarati by uni0AFD_aivowelgujr;
+    sub aiMatra-gujarati uni0AFD by uni0AFD_aivowelgujr;
+    sub uni0AFE eMatra-gujarati  by uni0AFE_evowelgujr;
+    sub uni0AFE aiMatra-gujarati by uni0AFE_aivowelgujr;
+    sub uni0AFF eMatra-gujarati  by uni0AFF_evowelgujr;
+    sub uni0AFF aiMatra-gujarati  by uni0AFF_aivowelgujr;
+	sub uni0AFD uni0AFC by uni0AFD_uni0AFC;
+	sub uni0AFD reph-gujarati by uni0AFD_rephgujr;
+	sub uni0AFE reph-gujarati by uni0AFE_rephgujr;
+	sub uni0AFF reph-gujarati by uni0AFF_rephgujr;
+	sub uni0AFD oMatra-gujarati by uni0AFD_ovowelgujr;
+    sub uni0AFD auMatra-gujarati by uni0AFD_auvowelgujr;
+    sub uni0AFD iiMatra-gujarati by uni0AFD_iiMatra-gujarati;
+    sub uni0AFE iiMatra-gujarati by uni0AFE_iiMatra-gujarati;
+    sub uni0AFF iiMatra-gujarati by uni0AFF_iiMatra-gujarati;
+    sub uni0AFE oMatra-gujarati by uni0AFE_ovowelgujr;
+    sub uni0AFE auMatra-gujarati by uni0AFE_auvowelgujr;
+    sub uni0AFF oMatra-gujarati by uni0AFF_ovowelgujr;
+    sub uni0AFF auMatra-gujarati by uni0AFF_auvowelgujr; 
+    sub uni0AFD eMatra-gujarati reph-gujarati by uni0AFD_evowelgujr_rephgujr;
+    sub uni0AFD aiMatra-gujarati reph-gujarati by uni0AFD_aivowelgujr_rephgujr;
+    sub uni0AFE eMatra-gujarati reph-gujarati by uni0AFE_evowelgujr_rephgujr;
+    sub uni0AFE aiMatra-gujarati reph-gujarati by uni0AFE_aivowelgujr_rephgujr;
+    sub uni0AFF eMatra-gujarati reph-gujarati by uni0AFF_evowelgujr_rephgujr;
+    sub uni0AFF aiMatra-gujarati reph-gujarati by uni0AFF_aivowelgujr_rephgujr;
 } compositeMarksAbove ;
 
 lookup iMatraLigs_gujr {
-lookupflag MarkAttachmentType @markClass_dynamic ;
+lookupflag UseMarkFilteringSet @topMarks ;
 # ignore certain combinations
 	ignore sub @iMatraLengths' k-gujarati' s-gujarati' p_ra-gujarati' anusvara-gujarati';
 	ignore sub @iMatraLengths' k-gujarati' s-gujarati' p_ra-gujarati' reph-gujarati';
@@ -555,20 +679,21 @@ lookupflag MarkAttachmentType @markClass_dynamic ;
 } iMatraLigs_gujr ;
 
 script gjr2 ;
+lookup splitVowels ;
+lookup joinMarks ;
 lookup iMatraLigs_gujr ;
 lookup compositeMarksAbove ;
-
 } abvs;
 
 feature blws {
 script gujr ;
 lookup alternateUkars {
-lookupflag MarkAttachmentType @markClass_dynamic_ukars ;
+lookupflag UseMarkFilteringSet @bottomMarks ;
 	sub [ng_ka-gujarati ng_ga-gujarati ng_gha-gujarati ng_ma-gujarati ch_va-gujarati tt_va-gujarati tth_ttha-gujarati dd_dda-gujarati dd_ddha-gujarati ddh_ddha-gujarati d_ga-gujarati d_gha-gujarati d_dha-gujarati d_na-gujarati d_ba-gujarati d_bha-gujarati d_va-gujarati pha-gujarati ph_ra-gujarati s_pha-gujarati d_da-gujarati] [uMatra-gujarati uuMatra-gujarati]' by [uMatra-gujarati.alt uuMatra-gujarati.alt];
 } alternateUkars ;
 
 lookup compositeMarksBelow {
-lookupflag IgnoreBaseGlyphs;
+lookupflag 0;
 	sub rakar-gujarati uMatra-gujarati by rakar_uMatra-gujarati;
 	sub rakar-gujarati uuMatra-gujarati by rakar_uuMatra-gujarati;
 	sub rakar-gujarati rVocalicMatra-gujarati by rakar_rVocalicMatra-gujarati;
@@ -641,11 +766,17 @@ feature calt {
 script gujr ;
 lookup useAlternates {
 	sub [nna-gujarati nn_ra-gujarati]' [uMatra-gujarati uuMatra-gujarati rVocalicMatra-gujarati rrVocalicMatra-gujarati lVocalicMatra-gujarati llVocalicMatra-gujarati] by [nna-gujarati.calt nn_ra-gujarati.calt];
+	# 2020
+	sub [ka-gujarati ha-gujarati] [uni0AFD_uni0AFA uni0AFD_uni0AFB]' by [uni0AFD_uni0AFA.alt uni0AFD_uni0AFB.alt];
+	# work around Glyphs bug
+	sub [eMatra-gujarati aiMatra-gujarati] [candraBindu-gujarati anusvara-gujarati]' by [candraBindu-gujarati.alt anusvara-gujarati.alt] ;
 } useAlternates ;
 
 lookup alternateUMatra {
 	sub [nna-gujarati.calt nn_ra-gujarati.calt k_ssa-gujarati k_ss_ra-gujarati h_nna-gujarati h_na-gujarati h_la-gujarati h_va-gujarati j_nya-gujarati] uMatra-gujarati' by uMatra-gujarati.calt;
 } alternateUMatra ;
+
+
 
 script gjr2 ;
 lookup useAlternates ;
@@ -655,8 +786,8 @@ lookup alternateUMatra ;
 table GDEF {
   # automatic
   GlyphClassDef
-    [a-gujarati aa-gujarati i-gujarati ii-gujarati u-gujarati uu-gujarati rVocalic-gujarati lVocalic-gujarati eCandra-gujarati e-gujarati ai-gujarati oCandra-gujarati o-gujarati au-gujarati ka-gujarati kha-gujarati ga-gujarati gha-gujarati nga-gujarati ca-gujarati cha-gujarati ja-gujarati jha-gujarati nya-gujarati tta-gujarati ttha-gujarati dda-gujarati ddha-gujarati nna-gujarati nna-gujarati.calt ta-gujarati tha-gujarati da-gujarati dha-gujarati na-gujarati pa-gujarati pha-gujarati ba-gujarati bha-gujarati ma-gujarati ya-gujarati ra-gujarati la-gujarati lla-gujarati va-gujarati sha-gujarati ssa-gujarati sa-gujarati ha-gujarati zha-gujarati aaMatra-gujarati iMatra-gujarati iiMatra-gujarati oCandraMatra-gujarati oMatra-gujarati auMatra-gujarati rrVocalic-gujarati llVocalic-gujarati iMatra-gujarati.01 iMatra-gujarati.02 iMatra-gujarati.04 iMatra-gujarati.05 iMatra-gujarati.06 iMatra-gujarati.07 iMatra-gujarati.08 iMatra-gujarati.09 iMatra-gujarati.10 iMatra_reph-gujarati.01 iMatra_reph-gujarati.02 iMatra_reph-gujarati iMatra_reph-gujarati.04 iMatra_reph-gujarati.05 iMatra_reph-gujarati.06 iMatra_reph-gujarati.07 iMatra_reph-gujarati.08 iMatra_reph-gujarati.09 iMatra_reph-gujarati.10 iMatra_reph_anusvara-gujarati.01 iMatra_reph_anusvara-gujarati.02 iMatra_reph_anusvara-gujarati iMatra_reph_anusvara-gujarati.04 iMatra_reph_anusvara-gujarati.05 iMatra_reph_anusvara-gujarati.06 iMatra_reph_anusvara-gujarati.07 iMatra_reph_anusvara-gujarati.08 iMatra_reph_anusvara-gujarati.09 iMatra_reph_anusvara-gujarati.10 iMatra_anusvara-gujarati.01 iMatra_anusvara-gujarati.02 iMatra_anusvara-gujarati iMatra_anusvara-gujarati.04 iMatra_anusvara-gujarati.05 iMatra_anusvara-gujarati.06 iMatra_anusvara-gujarati.07 iMatra_anusvara-gujarati.08 iMatra_anusvara-gujarati.09 iMatra_anusvara-gujarati.10 ja_aaMatra-gujarati ja_iiMatra-gujarati zha_aaMatra-gujarati zha_iiMatra-gujarati zh_ra-gujarati zh_ra_aaMatra-gujarati zh_ra_iiMatra-gujarati da_rVocalicMatra-gujarati ra_uMatra-gujarati ha_rVocalicMatra-gujarati k-gujarati kh-gujarati g-gujarati ng-gujarati j-gujarati jh-gujarati tt-gujarati tth-gujarati dd-gujarati ddh-gujarati d-gujarati ph-gujarati r-gujarati zh-gujarati j_ra_aaMatra-gujarati j_ra_iiMatra-gujarati k_r-gujarati kh_r-gujarati g_r-gujarati j_r-gujarati ph_r-gujarati dottedCircle], # Base
+    [a-gujarati aa-gujarati i-gujarati ii-gujarati u-gujarati uu-gujarati rVocalic-gujarati lVocalic-gujarati eCandra-gujarati e-gujarati ai-gujarati oCandra-gujarati o-gujarati au-gujarati ka-gujarati kha-gujarati ga-gujarati gha-gujarati nga-gujarati ca-gujarati cha-gujarati ja-gujarati jha-gujarati nya-gujarati tta-gujarati ttha-gujarati dda-gujarati ddha-gujarati nna-gujarati nna-gujarati.calt ta-gujarati tha-gujarati da-gujarati dha-gujarati na-gujarati pa-gujarati pha-gujarati ba-gujarati bha-gujarati ma-gujarati ya-gujarati ra-gujarati la-gujarati lla-gujarati va-gujarati sha-gujarati ssa-gujarati sa-gujarati ha-gujarati zha-gujarati aaMatra-gujarati iMatra-gujarati iiMatra-gujarati oCandraMatra-gujarati oMatra-gujarati auMatra-gujarati rrVocalic-gujarati llVocalic-gujarati rupee-gujarati iMatra-gujarati.01 iMatra-gujarati.02 iMatra-gujarati.04 iMatra-gujarati.05 iMatra-gujarati.06 iMatra-gujarati.07 iMatra-gujarati.08 iMatra-gujarati.09 iMatra-gujarati.10 iMatra_reph-gujarati.01 iMatra_reph-gujarati.02 iMatra_reph-gujarati iMatra_reph-gujarati.04 iMatra_reph-gujarati.05 iMatra_reph-gujarati.06 iMatra_reph-gujarati.07 iMatra_reph-gujarati.08 iMatra_reph-gujarati.09 iMatra_reph-gujarati.10 iMatra_reph_anusvara-gujarati.01 iMatra_reph_anusvara-gujarati.02 iMatra_reph_anusvara-gujarati iMatra_reph_anusvara-gujarati.04 iMatra_reph_anusvara-gujarati.05 iMatra_reph_anusvara-gujarati.06 iMatra_reph_anusvara-gujarati.07 iMatra_reph_anusvara-gujarati.08 iMatra_reph_anusvara-gujarati.09 iMatra_reph_anusvara-gujarati.10 iMatra_anusvara-gujarati.01 iMatra_anusvara-gujarati.02 iMatra_anusvara-gujarati iMatra_anusvara-gujarati.04 iMatra_anusvara-gujarati.05 iMatra_anusvara-gujarati.06 iMatra_anusvara-gujarati.07 iMatra_anusvara-gujarati.08 iMatra_anusvara-gujarati.09 iMatra_anusvara-gujarati.10 ja_aaMatra-gujarati ja_iiMatra-gujarati zha_aaMatra-gujarati zha_iiMatra-gujarati zh_ra-gujarati zh_ra_aaMatra-gujarati zh_ra_iiMatra-gujarati da_rVocalicMatra-gujarati ra_uMatra-gujarati ra_uuMatra-gujarati ha_rVocalicMatra-gujarati k-gujarati kh-gujarati g-gujarati ng-gujarati j-gujarati jh-gujarati tt-gujarati tth-gujarati dd-gujarati ddh-gujarati d-gujarati ph-gujarati r-gujarati zh-gujarati j_ra_aaMatra-gujarati j_ra_iiMatra-gujarati k_r-gujarati kh_r-gujarati g_r-gujarati j_r-gujarati ph_r-gujarati dottedCircle uni0AFD_ovowelgujr uni0AFD_auvowelgujr uni0AFE_ovowelgujr uni0AFE_auvowelgujr uni0AFF_ovowelgujr uni0AFF_auvowelgujr uni0AFD_iiMatra-gujarati uni0AFE_iiMatra-gujarati uni0AFF_iiMatra-gujarati], # Base
     [k_ss-gujarati k_ra-gujarati kh_ra-gujarati g_ra-gujarati gh_ra-gujarati c_ra-gujarati j_ra-gujarati jh_ra-gujarati ny_ra-gujarati nn_ra-gujarati nn_ra-gujarati.calt t_ra-gujarati th_ra-gujarati d_ra-gujarati dh_ra-gujarati n_ra-gujarati p_ra-gujarati ph_ra-gujarati b_ra-gujarati bh_ra-gujarati m_ra-gujarati y_ra-gujarati l_ra-gujarati ll_ra-gujarati v_ra-gujarati sh_ra-gujarati ss_ra-gujarati s_ra-gujarati h_ra-gujarati k_ss_ra-gujarati j_ny_ra-gujarati k_ka-gujarati k_kha-gujarati k_da-gujarati k_pa-gujarati k_ya-gujarati k_ssa-gujarati g_na-gujarati gh_na-gujarati ng_ka-gujarati ng_ga-gujarati ng_gha-gujarati ng_ma-gujarati ng_ya-gujarati ch_ya-gujarati ch_va-gujarati j_ja-gujarati j_nya-gujarati j_ma-gujarati j_ya-gujarati ny_ca-gujarati ny_ja-gujarati tt_tta-gujarati tt_ttha-gujarati tt_ya-gujarati tt_va-gujarati tth_ttha-gujarati dd_dda-gujarati dd_ddha-gujarati dd_ya-gujarati ddh_ddha-gujarati ddh_ya-gujarati t_ka-gujarati t_ta-gujarati t_t_ya-gujarati t_na-gujarati t_ma-gujarati t_ya-gujarati t_sa-gujarati th_na-gujarati d_ga-gujarati d_gha-gujarati d_da-gujarati d_dha-gujarati d_na-gujarati d_ba-gujarati d_bha-gujarati d_ma-gujarati d_ya-gujarati d_va-gujarati dh_na-gujarati n_tta-gujarati n_na-gujarati n_sa-gujarati p_tta-gujarati p_ttha-gujarati p_ta-gujarati p_da-gujarati p_na-gujarati ph_ya-gujarati b_la-gujarati m_na-gujarati l_ka-gujarati l_ya-gujarati l_sa-gujarati ll_ya-gujarati v_da-gujarati sh_ca-gujarati sh_na-gujarati sh_la-gujarati sh_va-gujarati ss_tta-gujarati ss_ttha-gujarati s_ka-gujarati s_tta-gujarati s_ttha-gujarati s_dda-gujarati s_t_ra-gujarati s_tha-gujarati s_pha-gujarati s_ma-gujarati h_nna-gujarati h_na-gujarati h_ma-gujarati h_ya-gujarati h_la-gujarati h_va-gujarati], # Liga
-    [candraBindu-gujarati anusvara-gujarati nukta-gujarati uMatra-gujarati uuMatra-gujarati rVocalicMatra-gujarati rrVocalicMatra-gujarati eCandraMatra-gujarati eMatra-gujarati aiMatra-gujarati halant-gujarati lVocalicMatra-gujarati llVocalicMatra-gujarati anusvara-gujarati.calt uMatra-gujarati.alt uuMatra-gujarati.alt rakar-gujarati rakar_uMatra-gujarati rakar_uuMatra-gujarati rakar_rVocalicMatra-gujarati rakar_rrVocalicMatra-gujarati rakar_halant-gujarati rakar_lVocalicMatra-gujarati rakar_llVocalicMatra-gujarati reph-gujarati reph_anusvara-gujarati eMatra_reph-gujarati eMatra_reph_anusvara-gujarati aiMatra_reph-gujarati aiMatra_reph_anusvara-gujarati uMatra-gujarati.calt udatta anudatta], # Mark
+    [candraBindu-gujarati anusvara-gujarati nukta-gujarati uMatra-gujarati uuMatra-gujarati rVocalicMatra-gujarati rrVocalicMatra-gujarati eCandraMatra-gujarati eMatra-gujarati aiMatra-gujarati halant-gujarati lVocalicMatra-gujarati llVocalicMatra-gujarati uni0AFA uni0AFB uni0AFC uni0AFD uni0AFE uni0AFF uMatra-gujarati.alt uuMatra-gujarati.alt rakar-gujarati rakar_uMatra-gujarati rakar_uuMatra-gujarati rakar_rVocalicMatra-gujarati rakar_rrVocalicMatra-gujarati rakar_halant-gujarati rakar_lVocalicMatra-gujarati rakar_llVocalicMatra-gujarati reph-gujarati reph_anusvara-gujarati eMatra_reph-gujarati eMatra_reph_anusvara-gujarati aiMatra_reph-gujarati aiMatra_reph_anusvara-gujarati uMatra-gujarati.calt udatta anudatta uni0AFB_uni0AFA uni0AFD_uni0AFA uni0AFE_uni0AFA uni0AFF_uni0AFA uni0AFD_uni0AFA.alt uni0AFA_rephgujr uni0AFD_uni0AFB uni0AFE_uni0AFB uni0AFF_uni0AFB uni0AFD_uni0AFB.alt uni0AFD_evowelgujr uni0AFD_aivowelgujr uni0AFE_evowelgujr uni0AFE_aivowelgujr uni0AFF_evowelgujr uni0AFF_aivowelgujr uni0AFD_uni0AFC uni0AFD_rephgujr uni0AFE_rephgujr uni0AFF_rephgujr uni0AFD_evowelgujr_rephgujr uni0AFD_aivowelgujr_rephgujr uni0AFE_evowelgujr_rephgujr uni0AFE_aivowelgujr_rephgujr uni0AFF_evowelgujr_rephgujr uni0AFF_aivowelgujr_rephgujr candraBindu-gujarati.alt anusvara-gujarati.alt], # Mark
     ;
 } GDEF;

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="creditsigntamil" format="2">
-  <advance width="1233"/>
+  <advance width="1169"/>
   <unicode hex="0BF7"/>
   <outline>
     <contour>
@@ -94,8 +94,8 @@
       <point x="909" y="88"/>
       <point x="902" y="69" type="curve"/>
       <point x="902" y="0" type="line"/>
-      <point x="1095" y="0" type="line"/>
-      <point x="1095" y="104" type="line"/>
+      <point x="1153" y="0" type="line"/>
+      <point x="1153" y="104" type="line"/>
       <point x="993" y="104" type="line"/>
       <point x="1015" y="85" type="line"/>
       <point x="1024" y="115"/>
@@ -113,17 +113,5 @@
       <point x="649" y="47"/>
       <point x="694" y="-5"/>
     </contour>
-    <contour>
-      <point x="1081" y="0" type="line"/>
-      <point x="1193" y="0" type="line"/>
-      <point x="1193" y="370" type="line"/>
-      <point x="1081" y="370" type="line"/>
-    </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/03/28 12:19:03</string>
-    </dict>
-  </lib>
 </glyph>

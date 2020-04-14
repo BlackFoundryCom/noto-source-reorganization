@@ -87,4 +87,15 @@
       </lib>
     </instance>
   </instances>
+  <lib>
+    <dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>finalcons-mark</string>
+        <string>belowmk1</string>
+        <string>belowmk2</string>
+        <string>abovemk1</string>
+      </array>
+    </dict>
+  </lib>
 </designspace>

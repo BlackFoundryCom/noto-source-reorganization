@@ -67,16 +67,21 @@ uni1386
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>leftsingleflag</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>baashort</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>ballsmall</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/06/27 13:53:56</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

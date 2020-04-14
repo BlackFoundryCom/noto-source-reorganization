@@ -6,8 +6,6 @@
     <string>939</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisableAllAutomaticBehaviour</key>
     <true/>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -1985,5 +1983,9 @@
       <key>sfthyphen.sinh</key>
       <string>uni00AD.sinh</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>rvocalicbasesinh</string>
+    </array>
   </dict>
 </plist>

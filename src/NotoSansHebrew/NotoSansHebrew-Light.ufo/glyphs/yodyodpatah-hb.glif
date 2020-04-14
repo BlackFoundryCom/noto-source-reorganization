@@ -22,13 +22,16 @@ yodyod_patah
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/08/18 20:02:36</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
       <array>
-        <integer>0</integer>
-        <integer>0</integer>
-        <integer>-1</integer>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>patah-hb</string>
+        </dict>
       </array>
     </dict>
   </lib>

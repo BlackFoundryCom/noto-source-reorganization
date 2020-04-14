@@ -1321,4 +1321,4 @@ def mti2fea(family, insertInUfo=False, exportFea=True):
 
 
 if __name__ == "__main__":
-    fea_ = mti2fea("NotoSerifAhom", insertInUfo=True)
+    fea_ = mti2fea("NotoSansNKo", insertInUfo=True)

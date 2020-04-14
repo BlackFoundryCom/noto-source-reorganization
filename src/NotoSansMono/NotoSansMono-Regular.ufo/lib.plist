@@ -112,8 +112,6 @@
     </dict>
     <key>com.schriftgestaltung.appVersion</key>
     <string>1271</string>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -9496,5 +9494,19 @@
       <key>znotationrightimagebracket</key>
       <string>uni2988</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>caroncommaaccent</string>
+      <string>commaaccentrotate</string>
+      <string>hook</string>
+      <string>cyrillichookleft</string>
+      <string>cyrillicbighookUC</string>
+      <string>cyrillic_otmark</string>
+      <string>psilivaria_firsttonechinese</string>
+      <string>dasiavaria_firsttonechinese</string>
+      <string>psilioxia_firsttonechinese</string>
+      <string>dasiaoxia_firsttonechinese</string>
+      <string>cyrillicbighooklc</string>
+    </array>
   </dict>
 </plist>

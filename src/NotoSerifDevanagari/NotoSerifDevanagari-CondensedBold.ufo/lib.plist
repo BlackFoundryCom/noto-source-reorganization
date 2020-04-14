@@ -101134,8 +101134,6 @@
         <string>wdth</string>
       </dict>
     </array>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -109680,5 +109678,11 @@
       <key>zha-deva</key>
       <string>uni0979</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>_part.IImatra</string>
+      <string>_part.Imatra</string>
+      <string>_part.iiMatra_reph</string>
+    </array>
   </dict>
 </plist>

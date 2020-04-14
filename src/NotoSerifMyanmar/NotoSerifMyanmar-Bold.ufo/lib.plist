@@ -21,8 +21,6 @@
         <string>wdth</string>
       </dict>
     </array>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.Variation Font Origin</key>
     <string>Light</string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -2301,5 +2299,29 @@
       <key>au</key>
       <string>uniA737</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>nya.deep</string>
+      <string>ha_tlg</string>
+      <string>medial_wa_ha_short</string>
+      <string>medial_wa_ha_ovl_short</string>
+      <string>_aa_phk</string>
+      <string>_tall_aa_cond</string>
+      <string>_i.alt</string>
+      <string>_ii.alt</string>
+      <string>_ii_mon.alt</string>
+      <string>_ai.alt</string>
+      <string>_ai_khm</string>
+      <string>kinzi.cond</string>
+      <string>ra_mark.cond</string>
+      <string>tone4_khm</string>
+      <string>ttha.sub.alt</string>
+      <string>great_nnya.clipped</string>
+      <string>loopasatstem</string>
+      <string>loopedbowl</string>
+      <string>_centredot</string>
+      <string>_centrering</string>
+      <string>asatstem</string>
+    </array>
   </dict>
 </plist>

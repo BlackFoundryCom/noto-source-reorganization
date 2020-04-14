@@ -145,8 +145,6 @@
         <string>wdth</string>
       </dict>
     </array>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
@@ -196,8 +194,6 @@
       <string>anusvara-beng</string>
       <string>asciicircum</string>
       <string>asciitilde</string>
-      <string>assacross</string>
-      <string>assastroke</string>
       <string>asterisk</string>
       <string>au-beng</string>
       <string>auLength-beng</string>
@@ -806,8 +802,6 @@
       <string>anusvara-beng</string>
       <string>asciicircum</string>
       <string>asciitilde</string>
-      <string>assacross</string>
-      <string>assastroke</string>
       <string>asterisk</string>
       <string>au-beng</string>
       <string>auLength-beng</string>
@@ -1416,8 +1410,6 @@
       <string>anusvara-beng</string>
       <string>asciicircum</string>
       <string>asciitilde</string>
-      <string>assacross</string>
-      <string>assastroke</string>
       <string>asterisk</string>
       <string>au-beng</string>
       <string>auLength-beng</string>
@@ -2026,8 +2018,6 @@
       <string>anusvara-beng</string>
       <string>asciicircum</string>
       <string>asciitilde</string>
-      <string>assacross</string>
-      <string>assastroke</string>
       <string>asterisk</string>
       <string>au-beng</string>
       <string>auLength-beng</string>
@@ -3731,5 +3721,10 @@
       <key>zerowidthspace</key>
       <string>uni200B</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>assacross</string>
+      <string>assastroke</string>
+    </array>
   </dict>
 </plist>

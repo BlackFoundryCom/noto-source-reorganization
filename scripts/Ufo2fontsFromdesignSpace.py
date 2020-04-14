@@ -788,6 +788,6 @@ def makeOtfFamily(family, newName=" ", onlyOtf=False):
 # mastersUfos2fonts("NotoSansThaana", "ttf")
 # ufosToGlyphs("NotoSansThaana")
 # ufo2font("NotoSans", ["NotoSans-Bold.ufo"], "ttf")
-# designSpace2Instances("NotoMusic", "woff", newName="Tomato")
+# designSpace2Instances("NotoSansNko", "ttf", secureSet=False)
 # mergeFonts("NotoSansThaana", "NotoSerifHebrew")
 # addSecureSet("NotoSansArabic", "ttf")

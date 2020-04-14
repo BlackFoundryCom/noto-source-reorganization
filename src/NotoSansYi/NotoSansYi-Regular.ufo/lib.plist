@@ -4,8 +4,6 @@
   <dict>
     <key>com.schriftgestaltung.appVersion</key>
     <string>964</string>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -1289,6 +1287,9 @@
       <string>uniFF63</string>
       <string>uniFF64</string>
       <string>uniFF65</string>
+    </array>
+    <key>public.skipExportGlyphs</key>
+    <array>
       <string>yi_mark</string>
     </array>
   </dict>

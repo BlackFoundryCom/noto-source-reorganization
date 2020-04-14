@@ -1328,4 +1328,13 @@ lookup contextual_candrabindu_pos {
       </lib>
     </instance>
   </instances>
+  <lib>
+    <dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>assacross</string>
+        <string>assastroke</string>
+      </array>
+    </dict>
+  </lib>
 </designspace>

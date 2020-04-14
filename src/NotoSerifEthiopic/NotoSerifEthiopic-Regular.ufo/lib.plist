@@ -3108,8 +3108,6 @@
     </dict>
     <key>com.schriftgestaltung.appVersion</key>
     <string>998</string>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.Use Extension Kerning</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -3153,10 +3151,6 @@
       <string>aaPharyngeal-ethiopic</string>
       <string>ba-ethiopic</string>
       <string>baa-ethiopic</string>
-      <string>baashort</string>
-      <string>ballbig</string>
-      <string>ballsmall</string>
-      <string>baselinebowl</string>
       <string>bba-ethiopic</string>
       <string>bbaa-ethiopic</string>
       <string>bbe-ethiopic</string>
@@ -3169,11 +3163,6 @@
       <string>bi-ethiopic</string>
       <string>bo-ethiopic</string>
       <string>boa-ethiopic</string>
-      <string>bone</string>
-      <string>bone.alt</string>
-      <string>bonelong</string>
-      <string>bonemiddle</string>
-      <string>boshort</string>
       <string>bu-ethiopic</string>
       <string>bwa-ethiopic</string>
       <string>bwaSebatbeit-ethiopic</string>
@@ -3265,12 +3254,10 @@
       <string>eightFin-ethiopic</string>
       <string>eightIni-ethiopic</string>
       <string>eightMed-ethiopic</string>
-      <string>eightform</string>
       <string>eighty-ethiopic</string>
       <string>eightyFin-ethiopic</string>
       <string>eightyIni-ethiopic</string>
       <string>eightyMed-ethiopic</string>
-      <string>eightyform</string>
       <string>ellipsisvertical</string>
       <string>fa-ethiopic</string>
       <string>faa-ethiopic</string>
@@ -3281,27 +3268,19 @@
       <string>fiftyFin-ethiopic</string>
       <string>fiftyIni-ethiopic</string>
       <string>fiftyMed-ethiopic</string>
-      <string>fiftyform</string>
       <string>five-ethiopic</string>
       <string>fiveFin-ethiopic</string>
       <string>fiveIni-ethiopic</string>
       <string>fiveMed-ethiopic</string>
-      <string>fiveform</string>
-      <string>flagstick</string>
       <string>fo-ethiopic</string>
-      <string>footlong</string>
-      <string>footmiddle</string>
-      <string>footright</string>
       <string>forty-ethiopic</string>
       <string>fortyFin-ethiopic</string>
       <string>fortyIni-ethiopic</string>
       <string>fortyMed-ethiopic</string>
-      <string>fortyform</string>
       <string>four-ethiopic</string>
       <string>fourFin-ethiopic</string>
       <string>fourIni-ethiopic</string>
       <string>fourMed-ethiopic</string>
-      <string>fourform</string>
       <string>fu-ethiopic</string>
       <string>fwa-ethiopic</string>
       <string>fwaSebatbeit-ethiopic</string>
@@ -3345,7 +3324,6 @@
       <string>gyu-ethiopic</string>
       <string>ha-ethiopic</string>
       <string>haa-ethiopic</string>
-      <string>halfbone</string>
       <string>he-ethiopic</string>
       <string>hee-ethiopic</string>
       <string>hha-ethiopic</string>
@@ -3365,7 +3343,6 @@
       <string>hundredFin-ethiopic</string>
       <string>hundredIni-ethiopic</string>
       <string>hundredMed-ethiopic</string>
-      <string>hundredform</string>
       <string>hyphen</string>
       <string>hyphentwo</string>
       <string>iGlottal-ethiopic</string>
@@ -3377,7 +3354,6 @@
       <string>ji-ethiopic</string>
       <string>jo-ethiopic</string>
       <string>joa-ethiopic</string>
-      <string>jstem</string>
       <string>ju-ethiopic</string>
       <string>jwa-ethiopic</string>
       <string>ka-ethiopic</string>
@@ -3418,12 +3394,9 @@
       <string>laa-ethiopic</string>
       <string>le-ethiopic</string>
       <string>lee-ethiopic</string>
-      <string>leftdoubleflag</string>
-      <string>leftsingleflag</string>
       <string>li-ethiopic</string>
       <string>lo-ethiopic</string>
       <string>loa-ethiopic</string>
-      <string>lollipop</string>
       <string>lu-ethiopic</string>
       <string>lwa-ethiopic</string>
       <string>ma-ethiopic</string>
@@ -3431,8 +3404,6 @@
       <string>me-ethiopic</string>
       <string>mee-ethiopic</string>
       <string>mi-ethiopic</string>
-      <string>midring</string>
-      <string>midringshort</string>
       <string>mo-ethiopic</string>
       <string>moa-ethiopic</string>
       <string>mu-ethiopic</string>
@@ -3452,21 +3423,13 @@
       <string>nineFin-ethiopic</string>
       <string>nineIni-ethiopic</string>
       <string>nineMed-ethiopic</string>
-      <string>nineform</string>
       <string>ninety-ethiopic</string>
       <string>ninetyFin-ethiopic</string>
       <string>ninetyIni-ethiopic</string>
       <string>ninetyMed-ethiopic</string>
-      <string>ninetyform</string>
       <string>no-ethiopic</string>
       <string>noa-ethiopic</string>
-      <string>nose</string>
       <string>nu-ethiopic</string>
-      <string>numeral</string>
-      <string>numeral_fina</string>
-      <string>numeral_init</string>
-      <string>numeral_medi</string>
-      <string>numeralnarrow</string>
       <string>nwa-ethiopic</string>
       <string>nya-ethiopic</string>
       <string>nyaa-ethiopic</string>
@@ -3484,7 +3447,6 @@
       <string>oneFin-ethiopic</string>
       <string>oneIni-ethiopic</string>
       <string>oneMed-ethiopic</string>
-      <string>oneform</string>
       <string>pa-ethiopic</string>
       <string>paa-ethiopic</string>
       <string>paragraphseparator-ethiopic</string>
@@ -3548,10 +3510,6 @@
       <string>re-ethiopic</string>
       <string>ree-ethiopic</string>
       <string>ri-ethiopic</string>
-      <string>rightbulb</string>
-      <string>rightbulbsmall</string>
-      <string>rightdoubleflag</string>
-      <string>rightsingleflag</string>
       <string>rikrik-ethiopic</string>
       <string>ro-ethiopic</string>
       <string>roa-ethiopic</string>
@@ -3568,12 +3526,10 @@
       <string>sevenFin-ethiopic</string>
       <string>sevenIni-ethiopic</string>
       <string>sevenMed-ethiopic</string>
-      <string>sevenform</string>
       <string>seventy-ethiopic</string>
       <string>seventyFin-ethiopic</string>
       <string>seventyIni-ethiopic</string>
       <string>seventyMed-ethiopic</string>
-      <string>seventyform</string>
       <string>sha-ethiopic</string>
       <string>shaa-ethiopic</string>
       <string>she-ethiopic</string>
@@ -3582,8 +3538,6 @@
       <string>sho-ethiopic</string>
       <string>shoa-ethiopic</string>
       <string>shortRikrik-ethiopic</string>
-      <string>shortnarch</string>
-      <string>shorttoploops</string>
       <string>shu-ethiopic</string>
       <string>shwa-ethiopic</string>
       <string>si-ethiopic</string>
@@ -3591,12 +3545,10 @@
       <string>sixFin-ethiopic</string>
       <string>sixIni-ethiopic</string>
       <string>sixMed-ethiopic</string>
-      <string>sixform</string>
       <string>sixty-ethiopic</string>
       <string>sixtyFin-ethiopic</string>
       <string>sixtyIni-ethiopic</string>
       <string>sixtyMed-ethiopic</string>
-      <string>sixtyform</string>
       <string>so-ethiopic</string>
       <string>soa-ethiopic</string>
       <string>space</string>
@@ -3607,7 +3559,6 @@
       <string>ssi-ethiopic</string>
       <string>sso-ethiopic</string>
       <string>ssu-ethiopic</string>
-      <string>stem1</string>
       <string>su-ethiopic</string>
       <string>swa-ethiopic</string>
       <string>sza-ethiopic</string>
@@ -3626,12 +3577,10 @@
       <string>tenFin-ethiopic</string>
       <string>tenIni-ethiopic</string>
       <string>tenMed-ethiopic</string>
-      <string>tenform</string>
       <string>tenthousand-ethiopic</string>
       <string>tenthousandFin-ethiopic</string>
       <string>tenthousandIni-ethiopic</string>
       <string>tenthousandMed-ethiopic</string>
-      <string>tenthousandform</string>
       <string>tha-ethiopic</string>
       <string>thaa-ethiopic</string>
       <string>the-ethiopic</string>
@@ -3641,20 +3590,17 @@
       <string>thirtyFin-ethiopic</string>
       <string>thirtyIni-ethiopic</string>
       <string>thirtyMed-ethiopic</string>
-      <string>thirtyform</string>
       <string>tho-ethiopic</string>
       <string>thoa-ethiopic</string>
       <string>three-ethiopic</string>
       <string>threeFin-ethiopic</string>
       <string>threeIni-ethiopic</string>
       <string>threeMed-ethiopic</string>
-      <string>threeform</string>
       <string>thu-ethiopic</string>
       <string>thwa-ethiopic</string>
       <string>ti-ethiopic</string>
       <string>to-ethiopic</string>
       <string>toa-ethiopic</string>
-      <string>topball</string>
       <string>tsa-ethiopic</string>
       <string>tsaa-ethiopic</string>
       <string>tse-ethiopic</string>
@@ -3675,12 +3621,10 @@
       <string>twentyFin-ethiopic</string>
       <string>twentyIni-ethiopic</string>
       <string>twentyMed-ethiopic</string>
-      <string>twentyform</string>
       <string>two-ethiopic</string>
       <string>twoFin-ethiopic</string>
       <string>twoIni-ethiopic</string>
       <string>twoMed-ethiopic</string>
-      <string>twoform</string>
       <string>tza-ethiopic</string>
       <string>tzaa-ethiopic</string>
       <string>tze-ethiopic</string>
@@ -3692,8 +3636,6 @@
       <string>uGlottal-ethiopic</string>
       <string>uPharyngeal-ethiopic</string>
       <string>uni25CC</string>
-      <string>upperloop</string>
-      <string>upperloopsmall</string>
       <string>va-ethiopic</string>
       <string>vaa-ethiopic</string>
       <string>ve-ethiopic</string>
@@ -3706,14 +3648,9 @@
       <string>wa-ethiopic</string>
       <string>waGlottal-ethiopic</string>
       <string>waa-ethiopic</string>
-      <string>watertap</string>
       <string>we-ethiopic</string>
       <string>wee-ethiopic</string>
-      <string>whatnot</string>
-      <string>whatnotflat</string>
       <string>wi-ethiopic</string>
-      <string>winghat</string>
-      <string>winghatshort</string>
       <string>wo-ethiopic</string>
       <string>woa-ethiopic</string>
       <string>wordspace-ethiopic</string>
@@ -3780,10 +3717,6 @@
       <string>aaPharyngeal-ethiopic</string>
       <string>ba-ethiopic</string>
       <string>baa-ethiopic</string>
-      <string>baashort</string>
-      <string>ballbig</string>
-      <string>ballsmall</string>
-      <string>baselinebowl</string>
       <string>bba-ethiopic</string>
       <string>bbaa-ethiopic</string>
       <string>bbe-ethiopic</string>
@@ -3796,11 +3729,6 @@
       <string>bi-ethiopic</string>
       <string>bo-ethiopic</string>
       <string>boa-ethiopic</string>
-      <string>bone</string>
-      <string>bone.alt</string>
-      <string>bonelong</string>
-      <string>bonemiddle</string>
-      <string>boshort</string>
       <string>bu-ethiopic</string>
       <string>bwa-ethiopic</string>
       <string>bwaSebatbeit-ethiopic</string>
@@ -3892,12 +3820,10 @@
       <string>eightFin-ethiopic</string>
       <string>eightIni-ethiopic</string>
       <string>eightMed-ethiopic</string>
-      <string>eightform</string>
       <string>eighty-ethiopic</string>
       <string>eightyFin-ethiopic</string>
       <string>eightyIni-ethiopic</string>
       <string>eightyMed-ethiopic</string>
-      <string>eightyform</string>
       <string>ellipsisvertical</string>
       <string>fa-ethiopic</string>
       <string>faa-ethiopic</string>
@@ -3908,27 +3834,19 @@
       <string>fiftyFin-ethiopic</string>
       <string>fiftyIni-ethiopic</string>
       <string>fiftyMed-ethiopic</string>
-      <string>fiftyform</string>
       <string>five-ethiopic</string>
       <string>fiveFin-ethiopic</string>
       <string>fiveIni-ethiopic</string>
       <string>fiveMed-ethiopic</string>
-      <string>fiveform</string>
-      <string>flagstick</string>
       <string>fo-ethiopic</string>
-      <string>footlong</string>
-      <string>footmiddle</string>
-      <string>footright</string>
       <string>forty-ethiopic</string>
       <string>fortyFin-ethiopic</string>
       <string>fortyIni-ethiopic</string>
       <string>fortyMed-ethiopic</string>
-      <string>fortyform</string>
       <string>four-ethiopic</string>
       <string>fourFin-ethiopic</string>
       <string>fourIni-ethiopic</string>
       <string>fourMed-ethiopic</string>
-      <string>fourform</string>
       <string>fu-ethiopic</string>
       <string>fwa-ethiopic</string>
       <string>fwaSebatbeit-ethiopic</string>
@@ -3972,7 +3890,6 @@
       <string>gyu-ethiopic</string>
       <string>ha-ethiopic</string>
       <string>haa-ethiopic</string>
-      <string>halfbone</string>
       <string>he-ethiopic</string>
       <string>hee-ethiopic</string>
       <string>hha-ethiopic</string>
@@ -3992,7 +3909,6 @@
       <string>hundredFin-ethiopic</string>
       <string>hundredIni-ethiopic</string>
       <string>hundredMed-ethiopic</string>
-      <string>hundredform</string>
       <string>hyphen</string>
       <string>hyphentwo</string>
       <string>iGlottal-ethiopic</string>
@@ -4004,7 +3920,6 @@
       <string>ji-ethiopic</string>
       <string>jo-ethiopic</string>
       <string>joa-ethiopic</string>
-      <string>jstem</string>
       <string>ju-ethiopic</string>
       <string>jwa-ethiopic</string>
       <string>ka-ethiopic</string>
@@ -4045,12 +3960,9 @@
       <string>laa-ethiopic</string>
       <string>le-ethiopic</string>
       <string>lee-ethiopic</string>
-      <string>leftdoubleflag</string>
-      <string>leftsingleflag</string>
       <string>li-ethiopic</string>
       <string>lo-ethiopic</string>
       <string>loa-ethiopic</string>
-      <string>lollipop</string>
       <string>lu-ethiopic</string>
       <string>lwa-ethiopic</string>
       <string>ma-ethiopic</string>
@@ -4058,8 +3970,6 @@
       <string>me-ethiopic</string>
       <string>mee-ethiopic</string>
       <string>mi-ethiopic</string>
-      <string>midring</string>
-      <string>midringshort</string>
       <string>mo-ethiopic</string>
       <string>moa-ethiopic</string>
       <string>mu-ethiopic</string>
@@ -4079,21 +3989,13 @@
       <string>nineFin-ethiopic</string>
       <string>nineIni-ethiopic</string>
       <string>nineMed-ethiopic</string>
-      <string>nineform</string>
       <string>ninety-ethiopic</string>
       <string>ninetyFin-ethiopic</string>
       <string>ninetyIni-ethiopic</string>
       <string>ninetyMed-ethiopic</string>
-      <string>ninetyform</string>
       <string>no-ethiopic</string>
       <string>noa-ethiopic</string>
-      <string>nose</string>
       <string>nu-ethiopic</string>
-      <string>numeral</string>
-      <string>numeral_fina</string>
-      <string>numeral_init</string>
-      <string>numeral_medi</string>
-      <string>numeralnarrow</string>
       <string>nwa-ethiopic</string>
       <string>nya-ethiopic</string>
       <string>nyaa-ethiopic</string>
@@ -4111,7 +4013,6 @@
       <string>oneFin-ethiopic</string>
       <string>oneIni-ethiopic</string>
       <string>oneMed-ethiopic</string>
-      <string>oneform</string>
       <string>pa-ethiopic</string>
       <string>paa-ethiopic</string>
       <string>paragraphseparator-ethiopic</string>
@@ -4175,10 +4076,6 @@
       <string>re-ethiopic</string>
       <string>ree-ethiopic</string>
       <string>ri-ethiopic</string>
-      <string>rightbulb</string>
-      <string>rightbulbsmall</string>
-      <string>rightdoubleflag</string>
-      <string>rightsingleflag</string>
       <string>rikrik-ethiopic</string>
       <string>ro-ethiopic</string>
       <string>roa-ethiopic</string>
@@ -4195,12 +4092,10 @@
       <string>sevenFin-ethiopic</string>
       <string>sevenIni-ethiopic</string>
       <string>sevenMed-ethiopic</string>
-      <string>sevenform</string>
       <string>seventy-ethiopic</string>
       <string>seventyFin-ethiopic</string>
       <string>seventyIni-ethiopic</string>
       <string>seventyMed-ethiopic</string>
-      <string>seventyform</string>
       <string>sha-ethiopic</string>
       <string>shaa-ethiopic</string>
       <string>she-ethiopic</string>
@@ -4209,8 +4104,6 @@
       <string>sho-ethiopic</string>
       <string>shoa-ethiopic</string>
       <string>shortRikrik-ethiopic</string>
-      <string>shortnarch</string>
-      <string>shorttoploops</string>
       <string>shu-ethiopic</string>
       <string>shwa-ethiopic</string>
       <string>si-ethiopic</string>
@@ -4218,12 +4111,10 @@
       <string>sixFin-ethiopic</string>
       <string>sixIni-ethiopic</string>
       <string>sixMed-ethiopic</string>
-      <string>sixform</string>
       <string>sixty-ethiopic</string>
       <string>sixtyFin-ethiopic</string>
       <string>sixtyIni-ethiopic</string>
       <string>sixtyMed-ethiopic</string>
-      <string>sixtyform</string>
       <string>so-ethiopic</string>
       <string>soa-ethiopic</string>
       <string>space</string>
@@ -4234,7 +4125,6 @@
       <string>ssi-ethiopic</string>
       <string>sso-ethiopic</string>
       <string>ssu-ethiopic</string>
-      <string>stem1</string>
       <string>su-ethiopic</string>
       <string>swa-ethiopic</string>
       <string>sza-ethiopic</string>
@@ -4253,12 +4143,10 @@
       <string>tenFin-ethiopic</string>
       <string>tenIni-ethiopic</string>
       <string>tenMed-ethiopic</string>
-      <string>tenform</string>
       <string>tenthousand-ethiopic</string>
       <string>tenthousandFin-ethiopic</string>
       <string>tenthousandIni-ethiopic</string>
       <string>tenthousandMed-ethiopic</string>
-      <string>tenthousandform</string>
       <string>tha-ethiopic</string>
       <string>thaa-ethiopic</string>
       <string>the-ethiopic</string>
@@ -4268,20 +4156,17 @@
       <string>thirtyFin-ethiopic</string>
       <string>thirtyIni-ethiopic</string>
       <string>thirtyMed-ethiopic</string>
-      <string>thirtyform</string>
       <string>tho-ethiopic</string>
       <string>thoa-ethiopic</string>
       <string>three-ethiopic</string>
       <string>threeFin-ethiopic</string>
       <string>threeIni-ethiopic</string>
       <string>threeMed-ethiopic</string>
-      <string>threeform</string>
       <string>thu-ethiopic</string>
       <string>thwa-ethiopic</string>
       <string>ti-ethiopic</string>
       <string>to-ethiopic</string>
       <string>toa-ethiopic</string>
-      <string>topball</string>
       <string>tsa-ethiopic</string>
       <string>tsaa-ethiopic</string>
       <string>tse-ethiopic</string>
@@ -4302,12 +4187,10 @@
       <string>twentyFin-ethiopic</string>
       <string>twentyIni-ethiopic</string>
       <string>twentyMed-ethiopic</string>
-      <string>twentyform</string>
       <string>two-ethiopic</string>
       <string>twoFin-ethiopic</string>
       <string>twoIni-ethiopic</string>
       <string>twoMed-ethiopic</string>
-      <string>twoform</string>
       <string>tza-ethiopic</string>
       <string>tzaa-ethiopic</string>
       <string>tze-ethiopic</string>
@@ -4319,8 +4202,6 @@
       <string>uGlottal-ethiopic</string>
       <string>uPharyngeal-ethiopic</string>
       <string>uni25CC</string>
-      <string>upperloop</string>
-      <string>upperloopsmall</string>
       <string>va-ethiopic</string>
       <string>vaa-ethiopic</string>
       <string>ve-ethiopic</string>
@@ -4333,14 +4214,9 @@
       <string>wa-ethiopic</string>
       <string>waGlottal-ethiopic</string>
       <string>waa-ethiopic</string>
-      <string>watertap</string>
       <string>we-ethiopic</string>
       <string>wee-ethiopic</string>
-      <string>whatnot</string>
-      <string>whatnotflat</string>
       <string>wi-ethiopic</string>
-      <string>winghat</string>
-      <string>winghatshort</string>
       <string>wo-ethiopic</string>
       <string>woa-ethiopic</string>
       <string>wordspace-ethiopic</string>
@@ -5526,5 +5402,69 @@
       <key>zzu-ethiopic</key>
       <string>uni2DB1</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>lollipop</string>
+      <string>nose</string>
+      <string>tenthousandform</string>
+      <string>hundredform</string>
+      <string>ninetyform</string>
+      <string>eightyform</string>
+      <string>seventyform</string>
+      <string>sixtyform</string>
+      <string>fiftyform</string>
+      <string>fortyform</string>
+      <string>thirtyform</string>
+      <string>twentyform</string>
+      <string>tenform</string>
+      <string>nineform</string>
+      <string>eightform</string>
+      <string>sevenform</string>
+      <string>sixform</string>
+      <string>fiveform</string>
+      <string>fourform</string>
+      <string>threeform</string>
+      <string>twoform</string>
+      <string>oneform</string>
+      <string>rightsingleflag</string>
+      <string>rightdoubleflag</string>
+      <string>baselinebowl</string>
+      <string>leftsingleflag</string>
+      <string>leftdoubleflag</string>
+      <string>flagstick</string>
+      <string>watertap</string>
+      <string>shortnarch</string>
+      <string>rightbulb</string>
+      <string>shorttoploops</string>
+      <string>midring</string>
+      <string>midringshort</string>
+      <string>stem1</string>
+      <string>jstem</string>
+      <string>baashort</string>
+      <string>boshort</string>
+      <string>rightbulbsmall</string>
+      <string>ballsmall</string>
+      <string>ballbig</string>
+      <string>upperloop</string>
+      <string>upperloopsmall</string>
+      <string>topball</string>
+      <string>bone</string>
+      <string>bonelong</string>
+      <string>footright</string>
+      <string>numeral</string>
+      <string>numeralnarrow</string>
+      <string>winghat</string>
+      <string>winghatshort</string>
+      <string>bonemiddle</string>
+      <string>footmiddle</string>
+      <string>footlong</string>
+      <string>whatnot</string>
+      <string>whatnotflat</string>
+      <string>numeral_init</string>
+      <string>numeral_medi</string>
+      <string>numeral_fina</string>
+      <string>bone.alt</string>
+      <string>halfbone</string>
+    </array>
   </dict>
 </plist>

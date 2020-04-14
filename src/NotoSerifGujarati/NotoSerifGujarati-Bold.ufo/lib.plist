@@ -7684,7 +7684,7 @@
       </dict>
     </dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1075</string>
+    <string>1296</string>
     <key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
     <array>
       <dict>
@@ -7694,8 +7694,6 @@
         <string>wght</string>
       </dict>
     </array>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
@@ -7743,6 +7741,7 @@
       <string>aiMatra_reph_anusvara-gujarati</string>
       <string>anudatta</string>
       <string>anusvara-gujarati</string>
+      <string>anusvara-gujarati.alt</string>
       <string>anusvara-gujarati.calt</string>
       <string>asciicircum</string>
       <string>asciitilde</string>
@@ -7770,6 +7769,7 @@
       <string>c_ra-gujarati</string>
       <string>ca-gujarati</string>
       <string>candraBindu-gujarati</string>
+      <string>candraBindu-gujarati.alt</string>
       <string>ch_va-gujarati</string>
       <string>ch_ya-gujarati</string>
       <string>cha-gujarati</string>
@@ -7857,6 +7857,7 @@
       <string>hyphen</string>
       <string>i-gujarati</string>
       <string>iMatra-gujarati</string>
+      <string>iMatra-gujarati.00</string>
       <string>iMatra-gujarati.01</string>
       <string>iMatra-gujarati.02</string>
       <string>iMatra-gujarati.04</string>
@@ -8117,6 +8118,47 @@
       <string>udatta</string>
       <string>underscore</string>
       <string>uni00AD</string>
+      <string>uni0AFA</string>
+      <string>uni0AFA_rephgujr</string>
+      <string>uni0AFB</string>
+      <string>uni0AFB_uni0AFA</string>
+      <string>uni0AFC</string>
+      <string>uni0AFD</string>
+      <string>uni0AFD_aivowelgujr</string>
+      <string>uni0AFD_aivowelgujr_rephgujr</string>
+      <string>uni0AFD_auvowelgujr</string>
+      <string>uni0AFD_evowelgujr</string>
+      <string>uni0AFD_evowelgujr_rephgujr</string>
+      <string>uni0AFD_iiMatra-gujarati</string>
+      <string>uni0AFD_ovowelgujr</string>
+      <string>uni0AFD_rephgujr</string>
+      <string>uni0AFD_uni0AFA</string>
+      <string>uni0AFD_uni0AFA.alt</string>
+      <string>uni0AFD_uni0AFB</string>
+      <string>uni0AFD_uni0AFB.alt</string>
+      <string>uni0AFD_uni0AFC</string>
+      <string>uni0AFE</string>
+      <string>uni0AFE_aivowelgujr</string>
+      <string>uni0AFE_aivowelgujr_rephgujr</string>
+      <string>uni0AFE_auvowelgujr</string>
+      <string>uni0AFE_evowelgujr</string>
+      <string>uni0AFE_evowelgujr_rephgujr</string>
+      <string>uni0AFE_iiMatra-gujarati</string>
+      <string>uni0AFE_ovowelgujr</string>
+      <string>uni0AFE_rephgujr</string>
+      <string>uni0AFE_uni0AFA</string>
+      <string>uni0AFE_uni0AFB</string>
+      <string>uni0AFF</string>
+      <string>uni0AFF_aivowelgujr</string>
+      <string>uni0AFF_aivowelgujr_rephgujr</string>
+      <string>uni0AFF_auvowelgujr</string>
+      <string>uni0AFF_evowelgujr</string>
+      <string>uni0AFF_evowelgujr_rephgujr</string>
+      <string>uni0AFF_iiMatra-gujarati</string>
+      <string>uni0AFF_ovowelgujr</string>
+      <string>uni0AFF_rephgujr</string>
+      <string>uni0AFF_uni0AFA</string>
+      <string>uni0AFF_uni0AFB</string>
       <string>uni2010</string>
       <string>uu-gujarati</string>
       <string>uuMatra-gujarati</string>
@@ -8156,6 +8198,7 @@
       <string>aiMatra_reph_anusvara-gujarati</string>
       <string>anudatta</string>
       <string>anusvara-gujarati</string>
+      <string>anusvara-gujarati.alt</string>
       <string>anusvara-gujarati.calt</string>
       <string>asciicircum</string>
       <string>asciitilde</string>
@@ -8183,6 +8226,7 @@
       <string>c_ra-gujarati</string>
       <string>ca-gujarati</string>
       <string>candraBindu-gujarati</string>
+      <string>candraBindu-gujarati.alt</string>
       <string>ch_va-gujarati</string>
       <string>ch_ya-gujarati</string>
       <string>cha-gujarati</string>
@@ -8270,6 +8314,7 @@
       <string>hyphen</string>
       <string>i-gujarati</string>
       <string>iMatra-gujarati</string>
+      <string>iMatra-gujarati.00</string>
       <string>iMatra-gujarati.01</string>
       <string>iMatra-gujarati.02</string>
       <string>iMatra-gujarati.04</string>
@@ -8530,6 +8575,47 @@
       <string>udatta</string>
       <string>underscore</string>
       <string>uni00AD</string>
+      <string>uni0AFA</string>
+      <string>uni0AFA_rephgujr</string>
+      <string>uni0AFB</string>
+      <string>uni0AFB_uni0AFA</string>
+      <string>uni0AFC</string>
+      <string>uni0AFD</string>
+      <string>uni0AFD_aivowelgujr</string>
+      <string>uni0AFD_aivowelgujr_rephgujr</string>
+      <string>uni0AFD_auvowelgujr</string>
+      <string>uni0AFD_evowelgujr</string>
+      <string>uni0AFD_evowelgujr_rephgujr</string>
+      <string>uni0AFD_iiMatra-gujarati</string>
+      <string>uni0AFD_ovowelgujr</string>
+      <string>uni0AFD_rephgujr</string>
+      <string>uni0AFD_uni0AFA</string>
+      <string>uni0AFD_uni0AFA.alt</string>
+      <string>uni0AFD_uni0AFB</string>
+      <string>uni0AFD_uni0AFB.alt</string>
+      <string>uni0AFD_uni0AFC</string>
+      <string>uni0AFE</string>
+      <string>uni0AFE_aivowelgujr</string>
+      <string>uni0AFE_aivowelgujr_rephgujr</string>
+      <string>uni0AFE_auvowelgujr</string>
+      <string>uni0AFE_evowelgujr</string>
+      <string>uni0AFE_evowelgujr_rephgujr</string>
+      <string>uni0AFE_iiMatra-gujarati</string>
+      <string>uni0AFE_ovowelgujr</string>
+      <string>uni0AFE_rephgujr</string>
+      <string>uni0AFE_uni0AFA</string>
+      <string>uni0AFE_uni0AFB</string>
+      <string>uni0AFF</string>
+      <string>uni0AFF_aivowelgujr</string>
+      <string>uni0AFF_aivowelgujr_rephgujr</string>
+      <string>uni0AFF_auvowelgujr</string>
+      <string>uni0AFF_evowelgujr</string>
+      <string>uni0AFF_evowelgujr_rephgujr</string>
+      <string>uni0AFF_iiMatra-gujarati</string>
+      <string>uni0AFF_ovowelgujr</string>
+      <string>uni0AFF_rephgujr</string>
+      <string>uni0AFF_uni0AFA</string>
+      <string>uni0AFF_uni0AFB</string>
       <string>uni2010</string>
       <string>uu-gujarati</string>
       <string>uuMatra-gujarati</string>
@@ -8569,6 +8655,7 @@
       <string>aiMatra_reph_anusvara-gujarati</string>
       <string>anudatta</string>
       <string>anusvara-gujarati</string>
+      <string>anusvara-gujarati.alt</string>
       <string>anusvara-gujarati.calt</string>
       <string>asciicircum</string>
       <string>asciitilde</string>
@@ -8596,6 +8683,7 @@
       <string>c_ra-gujarati</string>
       <string>ca-gujarati</string>
       <string>candraBindu-gujarati</string>
+      <string>candraBindu-gujarati.alt</string>
       <string>ch_va-gujarati</string>
       <string>ch_ya-gujarati</string>
       <string>cha-gujarati</string>
@@ -8683,6 +8771,7 @@
       <string>hyphen</string>
       <string>i-gujarati</string>
       <string>iMatra-gujarati</string>
+      <string>iMatra-gujarati.00</string>
       <string>iMatra-gujarati.01</string>
       <string>iMatra-gujarati.02</string>
       <string>iMatra-gujarati.04</string>
@@ -8943,6 +9032,47 @@
       <string>udatta</string>
       <string>underscore</string>
       <string>uni00AD</string>
+      <string>uni0AFA</string>
+      <string>uni0AFA_rephgujr</string>
+      <string>uni0AFB</string>
+      <string>uni0AFB_uni0AFA</string>
+      <string>uni0AFC</string>
+      <string>uni0AFD</string>
+      <string>uni0AFD_aivowelgujr</string>
+      <string>uni0AFD_aivowelgujr_rephgujr</string>
+      <string>uni0AFD_auvowelgujr</string>
+      <string>uni0AFD_evowelgujr</string>
+      <string>uni0AFD_evowelgujr_rephgujr</string>
+      <string>uni0AFD_iiMatra-gujarati</string>
+      <string>uni0AFD_ovowelgujr</string>
+      <string>uni0AFD_rephgujr</string>
+      <string>uni0AFD_uni0AFA</string>
+      <string>uni0AFD_uni0AFA.alt</string>
+      <string>uni0AFD_uni0AFB</string>
+      <string>uni0AFD_uni0AFB.alt</string>
+      <string>uni0AFD_uni0AFC</string>
+      <string>uni0AFE</string>
+      <string>uni0AFE_aivowelgujr</string>
+      <string>uni0AFE_aivowelgujr_rephgujr</string>
+      <string>uni0AFE_auvowelgujr</string>
+      <string>uni0AFE_evowelgujr</string>
+      <string>uni0AFE_evowelgujr_rephgujr</string>
+      <string>uni0AFE_iiMatra-gujarati</string>
+      <string>uni0AFE_ovowelgujr</string>
+      <string>uni0AFE_rephgujr</string>
+      <string>uni0AFE_uni0AFA</string>
+      <string>uni0AFE_uni0AFB</string>
+      <string>uni0AFF</string>
+      <string>uni0AFF_aivowelgujr</string>
+      <string>uni0AFF_aivowelgujr_rephgujr</string>
+      <string>uni0AFF_auvowelgujr</string>
+      <string>uni0AFF_evowelgujr</string>
+      <string>uni0AFF_evowelgujr_rephgujr</string>
+      <string>uni0AFF_iiMatra-gujarati</string>
+      <string>uni0AFF_ovowelgujr</string>
+      <string>uni0AFF_rephgujr</string>
+      <string>uni0AFF_uni0AFA</string>
+      <string>uni0AFF_uni0AFB</string>
       <string>uni2010</string>
       <string>uu-gujarati</string>
       <string>uuMatra-gujarati</string>
@@ -8982,6 +9112,7 @@
       <string>aiMatra_reph_anusvara-gujarati</string>
       <string>anudatta</string>
       <string>anusvara-gujarati</string>
+      <string>anusvara-gujarati.alt</string>
       <string>anusvara-gujarati.calt</string>
       <string>asciicircum</string>
       <string>asciitilde</string>
@@ -9009,6 +9140,7 @@
       <string>c_ra-gujarati</string>
       <string>ca-gujarati</string>
       <string>candraBindu-gujarati</string>
+      <string>candraBindu-gujarati.alt</string>
       <string>ch_va-gujarati</string>
       <string>ch_ya-gujarati</string>
       <string>cha-gujarati</string>
@@ -9096,6 +9228,7 @@
       <string>hyphen</string>
       <string>i-gujarati</string>
       <string>iMatra-gujarati</string>
+      <string>iMatra-gujarati.00</string>
       <string>iMatra-gujarati.01</string>
       <string>iMatra-gujarati.02</string>
       <string>iMatra-gujarati.04</string>
@@ -9356,6 +9489,47 @@
       <string>udatta</string>
       <string>underscore</string>
       <string>uni00AD</string>
+      <string>uni0AFA</string>
+      <string>uni0AFA_rephgujr</string>
+      <string>uni0AFB</string>
+      <string>uni0AFB_uni0AFA</string>
+      <string>uni0AFC</string>
+      <string>uni0AFD</string>
+      <string>uni0AFD_aivowelgujr</string>
+      <string>uni0AFD_aivowelgujr_rephgujr</string>
+      <string>uni0AFD_auvowelgujr</string>
+      <string>uni0AFD_evowelgujr</string>
+      <string>uni0AFD_evowelgujr_rephgujr</string>
+      <string>uni0AFD_iiMatra-gujarati</string>
+      <string>uni0AFD_ovowelgujr</string>
+      <string>uni0AFD_rephgujr</string>
+      <string>uni0AFD_uni0AFA</string>
+      <string>uni0AFD_uni0AFA.alt</string>
+      <string>uni0AFD_uni0AFB</string>
+      <string>uni0AFD_uni0AFB.alt</string>
+      <string>uni0AFD_uni0AFC</string>
+      <string>uni0AFE</string>
+      <string>uni0AFE_aivowelgujr</string>
+      <string>uni0AFE_aivowelgujr_rephgujr</string>
+      <string>uni0AFE_auvowelgujr</string>
+      <string>uni0AFE_evowelgujr</string>
+      <string>uni0AFE_evowelgujr_rephgujr</string>
+      <string>uni0AFE_iiMatra-gujarati</string>
+      <string>uni0AFE_ovowelgujr</string>
+      <string>uni0AFE_rephgujr</string>
+      <string>uni0AFE_uni0AFA</string>
+      <string>uni0AFE_uni0AFB</string>
+      <string>uni0AFF</string>
+      <string>uni0AFF_aivowelgujr</string>
+      <string>uni0AFF_aivowelgujr_rephgujr</string>
+      <string>uni0AFF_auvowelgujr</string>
+      <string>uni0AFF_evowelgujr</string>
+      <string>uni0AFF_evowelgujr_rephgujr</string>
+      <string>uni0AFF_iiMatra-gujarati</string>
+      <string>uni0AFF_ovowelgujr</string>
+      <string>uni0AFF_rephgujr</string>
+      <string>uni0AFF_uni0AFA</string>
+      <string>uni0AFF_uni0AFB</string>
       <string>uni2010</string>
       <string>uu-gujarati</string>
       <string>uuMatra-gujarati</string>
@@ -9403,6 +9577,8 @@
       <string>aiMatra_reph_anusvaragujarati</string>
       <key>anusvara-gujarati</key>
       <string>uni0A82</string>
+      <key>anusvara-gujarati.alt</key>
+      <string>uni0A82.alt</string>
       <key>anusvara-gujarati.calt</key>
       <string>uni0A82.calt</string>
       <key>au-gujarati</key>
@@ -9439,6 +9615,8 @@
       <string>uni0A9A</string>
       <key>candraBindu-gujarati</key>
       <string>uni0A81</string>
+      <key>candraBindu-gujarati.alt</key>
+      <string>uni0A81.alt</string>
       <key>ch_va-gujarati</key>
       <string>ch_vagujarati</string>
       <key>ch_ya-gujarati</key>
@@ -9585,6 +9763,8 @@
       <string>uni0A87</string>
       <key>iMatra-gujarati</key>
       <string>uni0ABF</string>
+      <key>iMatra-gujarati.00</key>
+      <string>uni0ABF.00</string>
       <key>iMatra-gujarati.01</key>
       <string>uni0ABF.01</string>
       <key>iMatra-gujarati.02</key>
@@ -10049,6 +10229,14 @@
       <string>uni0AC1.alt</string>
       <key>uMatra-gujarati.calt</key>
       <string>uni0AC1.calt</string>
+      <key>uni0AFA_rephgujr</key>
+      <string>uni0AFA_uni0AB00ACD</string>
+      <key>uni0AFD_iiMatra-gujarati</key>
+      <string>uni0AFD_iiMatragujarati</string>
+      <key>uni0AFE_iiMatra-gujarati</key>
+      <string>uni0AFE_iiMatragujarati</string>
+      <key>uni0AFF_iiMatra-gujarati</key>
+      <string>uni0AFF_iiMatragujarati</string>
       <key>uu-gujarati</key>
       <string>uni0A8A</string>
       <key>uuMatra-gujarati</key>
@@ -10098,5 +10286,9 @@
       <key>zha_iiMatra-gujarati</key>
       <string>zha_iiMatragujarati</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>anusvara-gujarati.calt</string>
+    </array>
   </dict>
 </plist>

@@ -3,6 +3,6 @@ table GDEF {
   GlyphClassDef
     , # Base
     , # Liga
-    [I_khar U_khar vocR_khar E_khar O_khar Lengthmark_khar Doublering_khar Anusvara_khar Visarga_khar I_diagonal I_diagonal_short I_horizontal I_vertical E_vertical O_diag.short U.alt U.alt2 U.alt3 vocR.short vocR.shorter vocR.wide SubYa_khar SubRa_khar SubLa_khar SubVa_khar], # Mark
+    [I_khar U_khar vocR_khar E_khar O_khar Lengthmark_khar Doublering_khar Anusvara_khar Visarga_khar I_diagonal I_diagonal_short I_vertical E_vertical O_diag.short U.alt U.alt2 U.alt3 vocR.short vocR.shorter vocR.wide SubYa_khar SubRa_khar SubLa_khar SubVa_khar], # Mark
     ;
 } GDEF;

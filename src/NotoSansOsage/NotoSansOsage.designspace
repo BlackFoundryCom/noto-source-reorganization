@@ -83,4 +83,14 @@
       </lib>
     </instance>
   </instances>
+  <lib>
+    <dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>vertbar</string>
+        <string>horizbar1</string>
+        <string>horizbar2</string>
+      </array>
+    </dict>
+  </lib>
 </designspace>

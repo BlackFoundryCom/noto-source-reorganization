@@ -51,4 +51,16 @@
       </lib>
     </instance>
   </instances>
+  <lib>
+    <dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>bar.left</string>
+        <string>bar.right</string>
+        <string>barlong.right</string>
+        <string>dots</string>
+        <string>dot1</string>
+      </array>
+    </dict>
+  </lib>
 </designspace>

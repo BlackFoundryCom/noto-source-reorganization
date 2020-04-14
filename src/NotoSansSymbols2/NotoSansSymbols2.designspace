@@ -51,4 +51,13 @@
       </lib>
     </instance>
   </instances>
+  <lib>
+    <dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>_face</string>
+        <string>_eyes</string>
+      </array>
+    </dict>
+  </lib>
 </designspace>

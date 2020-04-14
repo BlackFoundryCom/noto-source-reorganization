@@ -23,104 +23,245 @@ from ufo2ft.featureWriters      import (
 def ufoWithMTIfeatures2font(family, output):
     if len(output) == 0:
         output = "ttf"
-    ft = FontsWithMti(family, output)
+    ft = fontsWithMti(family, output)
     ft.ufoWithMTIfeatures2fonts()
 
+
 ##########################################################
+class fontsWithMti():
 
-class FontsWithMti():
-
-    def __init__(self, directory, output):
+    def __init__(self,
+                directory,
+                output):
+        self.mtiFolderPath = os.path.abspath(os.path.join("../src/", directory))
         self.directory = directory
-        self.familyPath = os.path.abspath(os.path.join("../src/", directory))
         self.output = output
 
-    def getTxtFile(self, GTXT):
-        rdir = os.path.abspath(os.path.join("../src", self.directory))
-        GTXTpath = [rdir + "/" + i for i in os.listdir(
-            rdir) if i[-8:] == GTXT + ".txt"]
-        return GTXTpath, rdir
+    def load(self):
+        self.ufos = [os.path.join(self.mtiFolderPath, i) for i in os.listdir(
+            self.mtiFolderPath) if i.endswith(".ufo")]
+        print(">>> Load {}.designspace".format(self.familyName))
+        designSpacePath = os.path.join(self.mtiFolderPath, os.path.basename(
+            self.mtiFolderPath)+".designspace")
+        self.designSpaceDocument = DesignSpaceDocument()
+        self.designSpaceDocument.read(designSpacePath)
 
-    def getFile(self, extension):
-        repo = "../src/" + self.directory + "/"
-        cwd = os.getcwd()
-        rdir = os.path.abspath(repo)
-        source = rdir + "/" + self.directory + extension
-        return source, rdir
+    def makeStaticFont(self, ufoSource, otfFlavor = False):
+        if otfFlavor is True:
+            staticTTF = compileOTF(ufoSource,
+                         removeOverlaps=True,
+                         useProductionNames = False,
+                         featureCompilerClass = MtiFeatureCompiler,
+                         featureWriters = None)
+        else:
+            staticTTF = compileTTF(ufoSource,
+                         removeOverlaps=True,
+                         useProductionNames = False,
+                         featureCompilerClass = MtiFeatureCompiler,
+                         featureWriters = None)
+        return staticTTF
 
-    # def getFolder(self):
-    #     rdir = os.path.abspath(os.path.join("../src/", self.directory))
-    #     return rdir
+    def makeStaticFontUI(self, ufoSource, otfFlavor = False):
+        if otfFlavor is True:
+            self.static_UI = compileOTF(ufoSource,
+                     removeOverlaps=True,
+                     useProductionNames = False,
+                     featureCompilerClass = MtiFeatureCompiler,
+                     featureWriters = None)
+        else:
+            self.static_UI = compileTTF(ufoSource,
+                     removeOverlaps=True,
+                     useProductionNames = False,
+                     featureCompilerClass = MtiFeatureCompiler,
+                     featureWriters = None)
+        self.static_UI = self.renamer_(single=True)
+        print("    " + os.path.basename(self.ufos[0])[:-4] +"-UI generated\n")
+        return self.static_UI
 
-    def readPlistFile(self, ufo):
-        path, folder = self.getFile(".plist")
-        with open(path, "rb") as plist:
-            pl = plistlib.load(plist)
-            gxxxPath = (pl[ufo])
-        gpostxt = folder + "/" +(gxxxPath['GPOS'])
-        return gpostxt
 
-    def makeGTables(self, u):
-        masters = []
-        path, folder = self.getFile(".designspace")
-        designSpace = DesignSpaceDocument()
-        designSpace.read(path)
-        for s in designSpace.sources:
-            masters.append(self.directory + "-" + s.styleName.replace(" ", "") + ".ufo")
-        # ufo = folder + "/" + masters[0]
-        ufo = folder + "/" + u
-        ufo = ufoLib.UFOReader(ufo)
-        go = Font(folder + "/" + masters[0]).glyphOrder
-        glyphSet = list(ufo.getGlyphSet().contents.keys())
-        fileSub = self.getTxtFile("GSUB")[0]
-        fileDef = self.getTxtFile("GDEF")[0]
-        # since there is different GPOS tables per weight,
-        # the scripts reads the plist
-        # that provide the matching GPOS/GSUB text file for each ufo
-        filePos = [self.readPlistFile(u[:-4])]
-        tables = [fileDef, fileSub, filePos]
-        font = testTools.FakeFont(glyphSet)
-        #to do : write the glyphOrder Table ?
-        TABLES = list()
-        for i in tables:
-            mtiFile = open(i[0], 'rt', encoding="utf-8")
-            tokenizer = mtiLib.Tokenizer(mtiFile)
-            TABLES.append(mtiLib.parseTable(tokenizer, font))
-        return TABLES
+    def renamer_(self):
+        renamedFont = self.static_UI
+        # if single is True:
+        #     renamedFont = self.staticTTF_UI
+        # else:
+        #     renamedFont = self.vfont
+        newName = self.familyName + " UI"
+        # First : GET THE STYLE NAME EITHER IN namerecord *2*
+        # IF the font is a RBIBI font
+        # and in namerecord *17* in other cases
+        for namerecord in renamedFont['name'].names:
+            namerecord.string = namerecord.toUnicode()
+            if namerecord.nameID == 2:
+                WeightName = namerecord.string
+            if namerecord.nameID == 5:
+                version = namerecord.string
+            if namerecord.nameID == 17:
+                WeightName = namerecord.string
+        #Then Change the name everywhere
+        for namerecord in renamedFont['name'].names:
+            namerecord.string = namerecord.toUnicode()
+            # Create the naming of the font Family
+            # (+ StyleName if the style is non RBIBI)
+            if namerecord.nameID == 1:
+                if WeightName in ["Bold", "Regular", "Italic", "Bold Italic"]:
+                    namerecord.string = newName
+                else:
+                    namerecord.string = newName + " " + WeightName
+            if namerecord.nameID == 3:
+                unicID = namerecord.string.split(";")
+                newUnicID = version + ";"+ unicID[1] +";"+ ''.join(
+                    newName.split(' ')) +"-"+ ''.join(WeightName.split(' '))
+                namerecord.string = newUnicID
+            if namerecord.nameID == 4:
+                namerecord.string = newName + " " + WeightName
+            if namerecord.nameID == 6:
+                namerecord.string = ''.join(newName.split(
+                    ' ')) + '-' + ''.join(WeightName.split(' '))
+            if namerecord.nameID == 16:
+                namerecord.string = newName
+
+        return renamedFont
+
+    @property
+    def plistNumber(self):
+        plistNumber = []
+        for i in os.listdir(self.mtiFolderPath):
+            if i.endswith(".plist"):
+                plistNumber.append(i)
+        return plistNumber
+
+    @property
+    def mti_file(self):
+        for i in os.listdir(self.mtiFolderPath):
+            if i.endswith(".plist") and "UI" not in i:
+                path = os.path.join(self.mtiFolderPath, i)
+                return open(path, "rb")
+
+    @property
+    def simple_mti_file(self):
+        for i in os.listdir(self.mtiFolderPath):
+            if i.endswith(".plist"):
+                path = os.path.join(self.mtiFolderPath, i)
+                return open(path, "rb")
+
+    @property
+    def mti_file_for_UI_Version(self):
+        for i in os.listdir(self.mtiFolderPath):
+            if i.endswith(".plist") and "UI" in i:
+                path = os.path.join(self.mtiFolderPath, i)
+                return open(path, "rb")
+
+    @property
+    def masters(self):
+        return self.designSpaceDocument.loadSourceFonts(Font)
+
+    @property
+    def familyName(self):
+        return self.mtiFolderPath.split("/")[-1]
+
+    def add_mti_features_to_masters(self, UIVersionedFeaturesExists=False):
+        ufosWithMtiData = []
+        if UIVersionedFeaturesExists:
+            mti_source = self.mti_file
+        else:
+            mti_source = self.simple_mti_file
+        mti_paths = readPlist(mti_source)
+        for master in self.masters:
+            key = master.info.familyName.replace(
+                " ", "")+"-"+master.info.styleName.replace(" ", "")
+            for table, path in mti_paths[key].items():
+                with open(os.path.join(self.mtiFolderPath, path), "rb") as mti_:
+                    ufo_path = (
+                        "com.github.googlei18n.ufo2ft.mtiFeatures/%s.mti"
+                        % table.strip()
+                    )
+                    master.data[ufo_path] = mti_.read()
+                # If we have MTI sources, any Adobe feature files derived from
+                # the Glyphs file should be ignored. We clear it here because
+                # it only contains junk information anyway.
+                master.features.text = ""
+                ufosWithMtiData.append(master)
+                # Don't save the ufo, to keep them clean from mti data
+        print("    ufos updated with MTI data")
+        return ufosWithMtiData
+
+    def add_ui_mti_features_to_masters(self):
+        ufosWithMtiData = []
+        mti_source = self.mti_file_for_UI_Version
+        mti_paths = readPlist(mti_source)
+        for master in self.masters:
+            key = master.info.familyName.replace(
+                " ", "")+"UI-"+master.info.styleName.replace(" ", "")
+            for table, path in mti_paths[key].items():
+                with open(os.path.join(self.mtiFolderPath, path), "rb") as mti_:
+                    ufo_path = (
+                        "com.github.googlei18n.ufo2ft.mtiFeatures/%s.mti"
+                        % table.strip()
+                    )
+                    master.data[ufo_path] = mti_.read()
+                # If we have MTI sources, any Adobe feature files derived from
+                # the Glyphs file should be ignored. We clear it here because
+                # it only contains junk information anyway.
+                master.features.text = ""
+                # Don't save the ufo, to keep them clean from mti data
+                ufosWithMtiData.append(master)
+        print("    ufos updated with UI versioned MTI data")
+        return ufosWithMtiData
 
     def ufoWithMTIfeatures2fonts(self):
-        # TABLES = makeGTables(self.directory)
-        ufolist = [x for x in os.listdir(self.familyPath) if x[-3:] == "ufo"]
-        for u in ufolist:
-            TABLES = self.makeGTables(u)
-            ufoSource = os.path.join(self.familyPath,u)
-            destination = ""
-            ufo = Font(ufoSource)
-            folder = os.path.join(self.familyPath, "fonts")
-            if "otf" in self.output:
-                destination = os.path.join(folder, "OTF")
-                if not os.path.exists(destination):
-                    os.makedirs(destination)
-                otf = compileOTF(ufo, removeOverlaps=True)
-                otf.save(os.path.join(destination, u[:-4] + ".otf"))
-                otf2 = ttLib.TTFont(os.path.join(destination, u[:-4] + ".otf"))
-                otf2['GDEF'] = TABLES[0]
-                otf2['GSUB'] = TABLES[1]
-                otf2['GPOS'] = TABLES[2]
-                os.remove(os.path.join(destination, u[:-4] + ".otf"))
-                otf2.save(os.path.join(destination, u[:-4] + ".otf"))
-            if "ttf" in self.output:
-                destination = os.path.join(folder, "TTF")
-                if not os.path.exists(destination):
-                    os.makedirs(destination)
-                ttf = compileTTF(ufo, removeOverlaps=True)
-                ttf.save(os.path.join(destination,  u[:-4] + ".ttf"))
-                ttf2 = ttLib.TTFont(os.path.join(destination, u[:-4] + ".ttf"))
-                ttf2['GDEF'] = TABLES[0]
-                ttf2['GSUB'] = TABLES[1]
-                ttf2['GPOS'] = TABLES[2]
-                os.remove(os.path.join(destination, u[:-4] + ".ttf"))
-                ttf2.save(os.path.join(destination, u[:-4] + ".ttf"))
+        self.load()
+        if len(self.plistNumber) == 1:
+            ufoWithMtiData = self.add_mti_features_to_masters()
+            for u in ufoWithMtiData:
+                destination = ""
+                folder = os.path.join(self.mtiFolderPath, "fonts")
+                if "otf" in self.output:
+                    destination = os.path.join(folder, "OTF")
+                    if not os.path.exists(destination):
+                        os.makedirs(destination)
+                    otf = self.makeStaticFont(u, otfFlavor = True)
+                    otf.save(os.path.join(destination, os.path.basename(u._path)[:-4] + ".otf"))
+                if "ttf" in self.output:
+                    destination = os.path.join(folder, "TTF")
+                    if not os.path.exists(destination):
+                        os.makedirs(destination)
+                    ttf = self.makeStaticFont(u)
+                    ttf.save(os.path.join(destination, os.path.basename(u._path)[:-4] + ".ttf"))
+        else:
+            ufoWithMtiData = self.add_mti_features_to_masters(UIVersionedFeaturesExists=True)
+            for u in ufoWithMtiData:
+                destination = ""
+                folder = os.path.join(self.mtiFolderPath, "fonts")
+                if "ttf" in self.output:
+                    destination = os.path.join(folder, "TTF")
+                    if not os.path.exists(destination):
+                        os.makedirs(destination)
+                    ttf = self.makeStaticFont(u)
+                    ttf.save(os.path.join(destination, os.path.basename(u._path)[:-4] + ".ttf"))
+                if "otf" in self.output:
+                    destination = os.path.join(folder, "OTF")
+                    if not os.path.exists(destination):
+                        os.makedirs(destination)
+                    otf = self.makeStaticFont(u, otfFlavor = True)
+                    otf.save(os.path.join(destination, os.path.basename(u._path)[:-4] + ".otf"))
+
+            ufoWithMtiUIData = self.add_ui_mti_features_to_masters()
+            for u in ufoWithMtiUIData:
+                destination = ""
+                folder = os.path.join(self.mtiFolderPath, self.familyName)
+                if "ttf" in self.output:
+                    destination = os.path.join(folder, "TTF")
+                    if not os.path.exists(destination):
+                        os.makedirs(destination)
+                    UIttf = self.makeUIVersion()
+                    UIttf.save(os.path.join(destination, os.path.basename(u._path) + "UI.ttf"))
+                if "otf" in self.output:
+                    destination = os.path.join(folder, "OTF")
+                    if not os.path.exists(destination):
+                        os.makedirs(destination)
+                    UIttf = self.makeUIVersion(otfFlavor = True)
+                    UIttf.save(os.path.join(destination, os.path.basename(u._path) + "UI.otf"))
+
 
 ##########################################################
 class variableFontsWithMti():
@@ -308,4 +449,4 @@ def makeAllVFversions(family):
 
 
 # TEST
-# ufoWithMTIfeatures2font("NotoSerifTelugu", "ttf")
+# ufoWithMTIfeatures2font("NotoSansOldHungarian", "otf")

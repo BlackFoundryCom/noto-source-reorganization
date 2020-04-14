@@ -7,17 +7,29 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>saalt3telu</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>evowelsignfronttelu</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>uvowelsigntelu</string>
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>=saalttelu+15</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2020/01/21 19:05:42</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

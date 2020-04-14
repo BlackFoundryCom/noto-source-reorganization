@@ -247,7 +247,7 @@ sub uunuktaguru addakguru by uunuktaaddakguru;
 #} abvs1;
 # lookup abvs2 {
 # Format 2
-# ignore sub [rasubscript1guru hasubscript1guru] [eematraaddakguru aimatraaddakguru oomatraaddakguru]' .notdef ;
+# ignore sub [ ] [eematraaddakguru aimatraaddakguru oomatraaddakguru]' .notdef ;
 # } abvs2;
 script guru;
 lookup abvs0 ; 
@@ -257,7 +257,7 @@ lookup abvs0 ;
 #} abvs4;
 # lookup abvs5 {
 # Format 2
-# ignore sub [rasubscript1guru hasubscript1guru] [eematraaddakguru aimatraaddakguru oomatraaddakguru]' .notdef ;
+# ignore sub [ ] [eematraaddakguru aimatraaddakguru oomatraaddakguru]' .notdef ;
 # } abvs5;
 
 } abvs;
@@ -332,7 +332,7 @@ sub hanuktaguru halantguru by hanuktaprehalfguru;
 table GDEF {
   # automatic
   GlyphClassDef
-    [aguru aaguru iguru iiguru uguru uuguru eeguru aiguru ooguru auguru kaguru khaguru gaguru ghaguru ngaguru caguru chaguru jaguru jhaguru nyaguru ttaguru tthaguru ddaguru ddhaguru nnaguru taguru thaguru daguru dhaguru naguru paguru phaguru baguru bhaguru maguru yaguru raguru laguru lanuktaguru vaguru sanuktaguru saguru haguru aamatraguru imatraguru aumatraguru khanuktaguru ganuktaguru januktaguru rraguru phanuktaguru tippiguru addakguru iriguru uraguru unuktaguru uunuktaguru kanuktaguru ghanuktaguru nganuktaguru canuktaguru chanuktaguru jhanuktaguru nyanuktaguru ttanuktaguru tthanuktaguru ddhanuktaguru nnanuktaguru tanuktaguru thanuktaguru danuktaguru dhanuktaguru nanuktaguru panuktaguru banuktaguru bhanuktaguru manuktaguru yanuktaguru ranuktaguru vanuktaguru hanuktaguru kaprehalfguru khaprehalfguru gaprehalfguru ghaprehalfguru ngaprehalfguru caprehalfguru chaprehalfguru japrehalfguru jhaprehalfguru nyaprehalfguru ttaprehalfguru tthaprehalfguru ddaprehalfguru ddhaprehalfguru nnaprehalfguru taprehalfguru thaprehalfguru daprehalfguru dhaprehalfguru naprehalfguru paprehalfguru phaprehalfguru baprehalfguru bhaprehalfguru maprehalfguru yaprehalfguru raprehalfguru laprehalfguru vaprehalfguru saprehalfguru haprehalfguru kanuktaprehalfguru khanuktaprehalfguru ganuktaprehalfguru ghanuktaprehalfguru nganuktaprehalfguru canuktaprehalfguru chanuktaprehalfguru jhanuktaprehalfguru nyanuktaprehalfguru ttanuktaprehalfguru tthanuktaprehalfguru ddanuktaprehalfguru ddhanuktaprehalfguru nnanuktaprehalfguru tanuktaprehalfguru thanuktaprehalfguru danuktaprehalfguru dhanuktaprehalfguru nanuktaprehalfguru panuktaprehalfguru phanuktaprehalfguru banuktaprehalfguru bhanuktaprehalfguru manuktaprehalfguru yanuktaprehalfguru ranuktaprehalfguru lanuktaprehalfguru vanuktaprehalfguru hanuktaprehalfguru yapostformguru karaguru nuutippiguru phunuktaguru phuunuktaguru iibindiguru ubindiguru uubindiguru eebindiguru aibindiguru oobindiguru aubindiguru ubindinuktaguru uubindinuktaguru iiaddakguru uaddakguru uuaddakguru eeaddakguru aiaddakguru ooaddakguru auaddakguru unuktaaddakguru uunuktaaddakguru uraaddakguru], # Base
+    [aguru aaguru iguru iiguru uguru uuguru eeguru aiguru ooguru auguru kaguru khaguru gaguru ghaguru ngaguru caguru chaguru jaguru jhaguru nyaguru ttaguru tthaguru ddaguru ddhaguru nnaguru taguru thaguru daguru dhaguru naguru paguru phaguru baguru bhaguru maguru yaguru raguru laguru lanuktaguru vaguru sanuktaguru saguru haguru aamatraguru imatraguru aumatraguru khanuktaguru ganuktaguru januktaguru rraguru phanuktaguru tippiguru addakguru iriguru uraguru unuktaguru uunuktaguru kanuktaguru ghanuktaguru nganuktaguru canuktaguru chanuktaguru jhanuktaguru nyanuktaguru ttanuktaguru tthanuktaguru ddhanuktaguru nnanuktaguru tanuktaguru thanuktaguru danuktaguru dhanuktaguru nanuktaguru panuktaguru banuktaguru bhanuktaguru manuktaguru yanuktaguru ranuktaguru vanuktaguru hanuktaguru kaprehalfguru khaprehalfguru gaprehalfguru ghaprehalfguru ngaprehalfguru caprehalfguru chaprehalfguru japrehalfguru jhaprehalfguru nyaprehalfguru ttaprehalfguru tthaprehalfguru ddaprehalfguru ddhaprehalfguru nnaprehalfguru taprehalfguru thaprehalfguru daprehalfguru dhaprehalfguru naprehalfguru paprehalfguru phaprehalfguru baprehalfguru bhaprehalfguru maprehalfguru yaprehalfguru raprehalfguru laprehalfguru vaprehalfguru saprehalfguru haprehalfguru kanuktaprehalfguru khanuktaprehalfguru ganuktaprehalfguru ghanuktaprehalfguru nganuktaprehalfguru canuktaprehalfguru chanuktaprehalfguru jhanuktaprehalfguru nyanuktaprehalfguru ttanuktaprehalfguru tthanuktaprehalfguru ddanuktaprehalfguru ddhanuktaprehalfguru nnanuktaprehalfguru tanuktaprehalfguru thanuktaprehalfguru danuktaprehalfguru dhanuktaprehalfguru nanuktaprehalfguru panuktaprehalfguru phanuktaprehalfguru banuktaprehalfguru bhanuktaprehalfguru manuktaprehalfguru yanuktaprehalfguru ranuktaprehalfguru lanuktaprehalfguru vanuktaprehalfguru hanuktaprehalfguru yapostformguru karaguru nuutippiguru phunuktaguru phuunuktaguru iibindiguru ubindiguru uubindiguru eebindiguru aibindiguru oobindiguru aubindiguru ubindinuktaguru uubindinuktaguru iiaddakguru uaddakguru uuaddakguru eeaddakguru aiaddakguru ooaddakguru auaddakguru unuktaaddakguru uunuktaaddakguru ], # Base
     , # Liga
     [rasubscriptguru hasubscriptguru vasubscriptguru udattadeva anudattadeva], # Mark
     ;

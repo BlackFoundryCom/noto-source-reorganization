@@ -51,4 +51,23 @@
       </lib>
     </instance>
   </instances>
+  <lib>
+    <dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>bar.1</string>
+        <string>bar.2</string>
+        <string>bar.3</string>
+        <string>vertbar.med</string>
+        <string>circle.med</string>
+        <string>vertbar.full</string>
+        <string>vertbar.sm</string>
+        <string>bar.4</string>
+        <string>smiley.sm</string>
+        <string>circle.cross</string>
+        <string>cross.sm</string>
+        <string>bar.1.001</string>
+      </array>
+    </dict>
+  </lib>
 </designspace>

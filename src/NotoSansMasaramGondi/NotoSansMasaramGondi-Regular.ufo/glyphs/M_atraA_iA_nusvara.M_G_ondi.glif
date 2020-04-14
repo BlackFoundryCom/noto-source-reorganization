@@ -7,15 +7,19 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>Anusvara.MGondi</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>MatraIAnusvara.MGondi</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2019/10/22 12:17:12</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

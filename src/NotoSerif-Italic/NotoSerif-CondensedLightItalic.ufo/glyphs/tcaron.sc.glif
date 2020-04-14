@@ -11,21 +11,33 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>t.sc</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>caroncomb.sc</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>t.sc</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/11/15 23:22:34</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Smallcaps</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

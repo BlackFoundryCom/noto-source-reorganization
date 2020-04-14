@@ -12,11 +12,13 @@
       <map input="800" output="175"/>
       <map input="900" output="194"/>
     </axis>
+    <axis tag="wdth" name="Width" minimum="100" maximum="100" default="100"/>
   </axes>
   <sources>
     <source filename="NotoSerifGurmukhi-Light.ufo" name="Noto Serif Gurmukhi Light" familyname="Noto Serif Gurmukhi" stylename="Light">
       <location>
         <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
     </source>
     <source filename="NotoSerifGurmukhi-Regular.ufo" name="Noto Serif Gurmukhi Regular" familyname="Noto Serif Gurmukhi" stylename="Regular">
@@ -26,11 +28,13 @@
       <info copy="1"/>
       <location>
         <dimension name="Weight" xvalue="94"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
     </source>
     <source filename="NotoSerifGurmukhi-Bold.ufo" name="Noto Serif Gurmukhi Bold" familyname="Noto Serif Gurmukhi" stylename="Bold">
       <location>
         <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
     </source>
   </sources>
@@ -38,6 +42,7 @@
     <instance name="Noto Serif Gurmukhi Thin" familyname="Noto Serif Gurmukhi" stylename="Thin" filename="instance_ufos/NotoSerifGurmukhi-Thin.ufo" stylemapfamilyname="Noto Serif Gurmukhi Thin" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="28"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
@@ -103,6 +108,7 @@
     <instance name="Noto Serif Gurmukhi ExtraLight" familyname="Noto Serif Gurmukhi" stylename="ExtraLight" filename="instance_ufos/NotoSerifGurmukhi-ExtraLight.ufo" stylemapfamilyname="Noto Serif Gurmukhi ExtraLight" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="42"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
@@ -168,6 +174,7 @@
     <instance name="Noto Serif Gurmukhi Light" familyname="Noto Serif Gurmukhi" stylename="Light" filename="instance_ufos/NotoSerifGurmukhi-Light.ufo" stylemapfamilyname="Noto Serif Gurmukhi Light" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="64"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
@@ -233,6 +240,7 @@
     <instance name="Noto Serif Gurmukhi Regular" familyname="Noto Serif Gurmukhi" stylename="Regular" filename="instance_ufos/NotoSerifGurmukhi-Regular.ufo" stylemapfamilyname="Noto Serif Gurmukhi" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="94"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
@@ -298,6 +306,7 @@
     <instance name="Noto Serif Gurmukhi Medium" familyname="Noto Serif Gurmukhi" stylename="Medium" filename="instance_ufos/NotoSerifGurmukhi-Medium.ufo" stylemapfamilyname="Noto Serif Gurmukhi Medium" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="110"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
@@ -363,6 +372,7 @@
     <instance name="Noto Serif Gurmukhi SemiBold" familyname="Noto Serif Gurmukhi" stylename="SemiBold" filename="instance_ufos/NotoSerifGurmukhi-SemiBold.ufo" stylemapfamilyname="Noto Serif Gurmukhi SemiBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="130"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
@@ -428,6 +438,7 @@
     <instance name="Noto Serif Gurmukhi Bold" familyname="Noto Serif Gurmukhi" stylename="Bold" filename="instance_ufos/NotoSerifGurmukhi-Bold.ufo" stylemapfamilyname="Noto Serif Gurmukhi" stylemapstylename="bold">
       <location>
         <dimension name="Weight" xvalue="152"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
@@ -493,6 +504,7 @@
     <instance name="Noto Serif Gurmukhi ExtraBold" familyname="Noto Serif Gurmukhi" stylename="ExtraBold" filename="instance_ufos/NotoSerifGurmukhi-ExtraBold.ufo" stylemapfamilyname="Noto Serif Gurmukhi ExtraBold" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="175"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
@@ -558,6 +570,7 @@
     <instance name="Noto Serif Gurmukhi Black" familyname="Noto Serif Gurmukhi" stylename="Black" filename="instance_ufos/NotoSerifGurmukhi-Black.ufo" stylemapfamilyname="Noto Serif Gurmukhi Black" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="194"/>
+        <dimension name="Width" xvalue="100"/>
       </location>
       <kerning/>
       <info/>
@@ -632,6 +645,21 @@
         <key>UUID0</key>
         <dict/>
       </dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>rasubscript1guru</string>
+        <string>hasubscript1guru</string>
+        <string>vasubscript1guru</string>
+        <string>addakbaraltguru</string>
+        <string>umatralowguru</string>
+        <string>uumatralowguru</string>
+        <string>oomatra1guru</string>
+        <string>oomatrabindi1guru</string>
+        <string>umatralow1guru</string>
+        <string>uraaddakguru</string>
+        <string>nuktaaltguru</string>
+        <string>bindialtguru</string>
+      </array>
     </dict>
   </lib>
 </designspace>

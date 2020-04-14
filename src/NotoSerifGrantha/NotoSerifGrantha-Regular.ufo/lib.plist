@@ -8,8 +8,6 @@
     <false/>
     <key>com.schriftgestaltung.appVersion</key>
     <string>1271</string>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -545,6 +543,20 @@
       <key>nbspace</key>
       <string>uni00A0</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>_part.viramalig_loop</string>
+      <string>_part.iMatra</string>
+      <string>_part.ii_straight</string>
+      <string>_part.rVocalicMatra</string>
+      <string>_part.ravattu</string>
+      <string>_part.rrVocalicMatra</string>
+      <string>doublevocalic.right</string>
+      <string>ba.base</string>
+      <string>ca.base</string>
+      <string>gha.base</string>
+      <string>pa.base</string>
+    </array>
     <key>width</key>
     <integer>72</integer>
   </dict>

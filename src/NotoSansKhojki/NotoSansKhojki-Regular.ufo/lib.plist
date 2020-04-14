@@ -6,8 +6,6 @@
     <false/>
     <key>com.schriftgestaltung.appVersion</key>
     <string>1208</string>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -218,6 +216,10 @@
       <string>uniA838</string>
       <string>uniA839</string>
       <string>virama</string>
+    </array>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>RA.alt2</string>
     </array>
   </dict>
 </plist>

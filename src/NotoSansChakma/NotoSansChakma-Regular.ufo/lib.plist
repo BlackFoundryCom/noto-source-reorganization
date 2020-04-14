@@ -8,8 +8,6 @@
     <false/>
     <key>com.schriftgestaltung.appVersion</key>
     <string>1075</string>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <string></string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -270,6 +268,13 @@
       <key>nbspace</key>
       <string>uni00A0</string>
     </dict>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>bottom11112</string>
+      <string>bottom11111</string>
+      <string>ttaa_tthaa_left</string>
+      <string>ra.legs</string>
+    </array>
     <key>width</key>
     <integer>80</integer>
   </dict>

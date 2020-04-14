@@ -51,4 +51,16 @@
       </lib>
     </instance>
   </instances>
+  <lib>
+    <dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>ring.full</string>
+        <string>ring.half</string>
+        <string>ring.23</string>
+        <string>ring.l34</string>
+        <string>ring.r34</string>
+      </array>
+    </dict>
+  </lib>
 </designspace>
