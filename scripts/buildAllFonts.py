@@ -25,11 +25,16 @@ class generate():
         self.MMfailing = list()
         self.scriptsFolder = scriptsFolder
         self.srcPath = os.path.join(self.scriptsFolder, os.pardir, "src")
-        self.destination = os.path.join(self.scriptsFolder, os.pardir, "Fonts")
+        self.destination = os.path.join(
+            self.scriptsFolder, os.pardir, "Fonts", "variable_ttf")
         self.sourcesFolders = [os.path.join(self.srcPath, i) for i in list(
             filter(lambda x: x!=(".DS_Store"), os.listdir(self.srcPath)))]
+        self.staticPath = os.path.join(
+            self.destination, os.pardir, "instances_ttf")
         if not os.path.exists(self.destination):
             os.makedirs(self.destination)
+        if not os.path.exists(self.staticPath):
+            os.makedirs(self.staticPath)
 
     ############
     # PROPERTY #
@@ -94,7 +99,7 @@ class generate():
                          useProductionNames = False,
                          featureWriters = [KernFeatureWriter(mode="append"),
                          MarkFeatureWriter])
-        ttf.save(os.path.join(self.destination,
+        ttf.save(os.path.join(self.staticPath,
                         os.path.basename(ufoSource)[:-4] + ".ttf"))
         print("    " +os.path.basename(ufoSource)[:-4]+ " has been generated.\n")
 
@@ -334,7 +339,7 @@ class fontsWithMti():
                          useProductionNames = False,
                          featureCompilerClass = MtiFeatureCompiler,
                          featureWriters = None)
-        staticTTF.save(os.path.join(self.destination,
+        staticTTF.save(os.path.join(self.staticPath,
                             os.path.basename(self.ufos[0])[:-4] + ".ttf"))
         print("    " + os.path.basename(self.ufos[0])[:-4] +" generated\n")
 
@@ -346,7 +351,7 @@ class fontsWithMti():
                          featureCompilerClass = MtiFeatureCompiler,
                          featureWriters = None)
         self.staticTTF_UI = self.renamer_(single=True)
-        self.staticTTF_UI.save(os.path.join(self.destination,
+        self.staticTTF_UI.save(os.path.join(self.staticPath,
                             os.path.basename(self.ufos[0])[:-4] + "-UI.ttf"))
         print("    " + os.path.basename(self.ufos[0])[:-4] +"-UI generated\n")
 
