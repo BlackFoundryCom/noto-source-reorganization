@@ -101,7 +101,7 @@ class generate():
                          MarkFeatureWriter])
         ttf.save(os.path.join(self.staticPath,
                         os.path.basename(ufoSource)[:-4] + ".ttf"))
-        print("    " +os.path.basename(ufoSource)[:-4]+ " has been generated.\n")
+        print("    " +os.path.basename(ufoSource)[:-4]+" has been generated.\n")
 
     def designSpace2Var(self):
         ds = self.designSpace
@@ -241,17 +241,17 @@ class generate():
                         self.makeOneMaster(os.path.join(self.familyPath, ufo))
                     except :
                         self.failing.append(ufo)
-                ############################
+                #################################################
                 # CASE 2.b => ONLY ONE MASTER WITH MTI FEATURES #
                 else:
-                    #########################################################
-                    # CASE 2.b.alpha => ONLY ONE MASTER WITH MTI  AND UI VERSION #
+                    ###########################################################
+                    # CASE 2.b.alpha => ONLY 1 MASTER WITH MTI AND UI VERSION #
                     if len(self.plistNumber) > 1:
                         try:
                             self.make2VersionsForOneMasterWithMti()
                         except:
                             self.failing.append(ufo)
-                    ##############################
+                    ###########################################################
                     # CASE 2.b.beta => ONLY ONE MASTER WITH MTI AND 1 VERSION #
                     elif len(self.plistNumber) == 1:
                         try:
@@ -288,6 +288,45 @@ class fontsWithMti():
         self.makeUIVersion = makeUIVersion
         self.destination = destination
         self.oneMaster = oneMaster
+
+
+    ############
+    # PROPERTY #
+    ############
+
+    @property
+    def mti_file(self):
+        for i in os.listdir(self.mtiFolderPath):
+            if i.endswith(".plist") and "UI" not in i:
+                path = os.path.join(self.mtiFolderPath, i)
+                return open(path, "rb")
+
+    @property
+    def simple_mti_file(self):
+        for i in os.listdir(self.mtiFolderPath):
+            if i.endswith(".plist"):
+                path = os.path.join(self.mtiFolderPath, i)
+                return open(path, "rb")
+
+    @property
+    def mti_file_for_UI_Version(self):
+        for i in os.listdir(self.mtiFolderPath):
+            if i.endswith(".plist") and "UI" in i:
+                path = os.path.join(self.mtiFolderPath, i)
+                return open(path, "rb")
+
+    @property
+    def masters(self):
+        return self.designSpaceDocument.loadSourceFonts(Font)
+
+    @property
+    def familyName(self):
+        return self.mtiFolderPath.split("/")[-1]
+
+
+    ###############
+    #  FUNCTIONS  #
+    ###############
 
     def load(self):
         self.ufos = [os.path.join(self.mtiFolderPath, i) for i in os.listdir(
@@ -415,35 +454,6 @@ class fontsWithMti():
                 namerecord.string = newName
 
         return renamedFont
-
-    @property
-    def mti_file(self):
-        for i in os.listdir(self.mtiFolderPath):
-            if i.endswith(".plist") and "UI" not in i:
-                path = os.path.join(self.mtiFolderPath, i)
-                return open(path, "rb")
-
-    @property
-    def simple_mti_file(self):
-        for i in os.listdir(self.mtiFolderPath):
-            if i.endswith(".plist"):
-                path = os.path.join(self.mtiFolderPath, i)
-                return open(path, "rb")
-
-    @property
-    def mti_file_for_UI_Version(self):
-        for i in os.listdir(self.mtiFolderPath):
-            if i.endswith(".plist") and "UI" in i:
-                path = os.path.join(self.mtiFolderPath, i)
-                return open(path, "rb")
-
-    @property
-    def masters(self):
-        return self.designSpaceDocument.loadSourceFonts(Font)
-
-    @property
-    def familyName(self):
-        return self.mtiFolderPath.split("/")[-1]
 
     def add_mti_features_to_master(self):
         ufoWithMtiData = []
