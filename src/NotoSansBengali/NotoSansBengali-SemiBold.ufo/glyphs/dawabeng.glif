@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dawabeng" format="2">
+  <advance width="650"/>
+  <outline>
+    <contour>
+      <point x="193" y="-45" type="curve"/>
+      <point x="178" y="-122" type="line"/>
+      <point x="246" y="-131"/>
+      <point x="300" y="-147"/>
+      <point x="349" y="-176" type="curve"/>
+      <point x="388" y="-118" type="line"/>
+      <point x="337" y="-81"/>
+      <point x="277" y="-56"/>
+    </contour>
+    <component base="dababeng"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>dababeng</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,4 +1,6 @@
-@aiLengthUmbrellaLetters = [ ka-oriya
+@NonAboveMarks = [ nukta-oriya uMatra-oriya uuMatra-oriya rVocalicMatra-oriya rrVocalicMatra-oriya lVocalicMatra-oriya llVocalicMatra-oriya halant-oriya ka-oriya.below kha-oriya.below ga-oriya.below gha-oriya.below nga-oriya.below ca-oriya.below cha-oriya.below ja-oriya.below jha-oriya.below tta-oriya.below ttha-oriya.below dda-oriya.below ddha-oriya.below nna-oriya.below ta-oriya.below tha-oriya.below da-oriya.below dha-oriya.below na-oriya.below pa-oriya.below pha-oriya.below ba-oriya.below bha-oriya.below ma-oriya.below ya-oriya.below ra-oriya.below la-oriya.below lla-oriya.below va-oriya.below sha-oriya.below ssa-oriya.below sa-oriya.below ha-oriya.below kassa-oriya.below iMatra-oriya.below rephauLength-oriya rephauLengthcandraBindu-oriya rauMatra-oriya.below rauuMatra-oriya.below rarVocalicMatra-oriya.below rarrVocalicMatra-oriya.below ];
+
+@aiLengthUmbrellaLetters = [  ka-oriya
 nga-oriya
 ca-oriya
 cha-oriya
@@ -17,24 +19,24 @@ va-oriya
 ha-oriya
 rra-oriya
 rha-oriya
-ka_ra-oriya
-nga_ra-oriya
-ca_ra-oriya
-cha_ra-oriya
-ja_ra-oriya
-dda_ra-oriya
-ddha_ra-oriya
-ta_ra-oriya
-da_ra-oriya
-na_ra-oriya
-ba_ra-oriya
-bha_ra-oriya
-la_ra-oriya
-lla_ra-oriya
-va_ra-oriya
-ha_ra-oriya
-rra_ra-oriya
-rha_ra-oriya
+kara-oriya
+ngara-oriya
+cara-oriya
+chara-oriya
+jara-oriya
+ddara-oriya
+ddhara-oriya
+tara-oriya
+dara-oriya
+nara-oriya
+bara-oriya
+bhara-oriya
+lara-oriya
+llara-oriya
+vara-oriya
+hara-oriya
+rrara-oriya
+rhara-oriya
 ka-oriya.base
 nga-oriya.base
 ca-oriya.base
@@ -54,82 +56,82 @@ va-oriya.base
 ha-oriya.base
 rra-oriya.base
 rha-oriya.base
-ka_ka-oriya
-ka_ca-oriya
-ka_ta-oriya
-ka_ta_ra-oriya
-ka_ta_ra_alt-oriya
-ka_tta-oriya
-ka_va-oriya
-ka_lla-oriya
-ka_sa-oriya
-nga_ka-oriya
-nga_ka_ta-oriya
-nga_ka_ssa-oriya
-ca_ca-oriya
-ca_cha-oriya
-ja_ja-oriya
-ja_ja_va-oriya
-ja_jha-oriya
-ja_va-oriya
-dda_ga-oriya
-dda_dda-oriya
-ta_ka-oriya
-ta_ka_ra-oriya
-ta_ta-oriya
-ta_ta_va-oriya
-ta_ta_ra-oriya
-ta_tha-oriya
-ta_na-oriya
-ta_va-oriya
-da_ga-oriya
-da_gha-oriya
-da_da-oriya
-da_dha-oriya
-da_dha_va-oriya
-da_va-oriya
-da_bha-oriya
-na_ta-oriya
-na_ta_ra-oriya
-na_ta_va-oriya
-na_tha-oriya
-na_da-oriya
-na_da_ra-oriya
-na_da_va-oriya
-na_dha-oriya
-na_dha_va-oriya
-na_dha_ra-oriya
-na_na-oriya
-ba_ja-oriya
-ba_da-oriya
-ba_dha-oriya
-ba_ba-oriya
-lla_ka-oriya
-lla_lla-oriya
-lla_pa-oriya
-lla_pha-oriya
-la_ka-oriya
-la_ga-oriya
-la_pa-oriya
-la_pha-oriya
-la_ma-oriya
-la_la-oriya
-la_lla-oriya
-ha_ka-oriya
-ha_ja-oriya
-ha_na-oriya
-ha_ma-oriya
-ha_la-oriya
-ha_lla-oriya
-ha_va-oriya
-ha_u-oriya
-ha_uu-oriya
-ha_rVocalic-oriya
-ta_ra_uMatra-oriya
-da_ra_uMatra-oriya
- ];
+kaka-oriya
+kaca-oriya
+kata-oriya
+katara-oriya
+kataraalt-oriya
+katta-oriya
+kava-oriya
+kalla-oriya
+kasa-oriya
+ngaka-oriya
+ngakata-oriya
+ngakassa-oriya
+caca-oriya
+cacha-oriya
+jaja-oriya
+jajava-oriya
+jajha-oriya
+java-oriya
+ddaga-oriya
+ddadda-oriya
+taka-oriya
+takara-oriya
+tata-oriya
+tatava-oriya
+tatara-oriya
+tatha-oriya
+tana-oriya
+tava-oriya
+daga-oriya
+dagha-oriya
+dada-oriya
+dadha-oriya
+dadhava-oriya
+dava-oriya
+dabha-oriya
+nata-oriya
+natara-oriya
+natava-oriya
+natha-oriya
+nada-oriya
+nadara-oriya
+nadava-oriya
+nadha-oriya
+nadhava-oriya
+nadhara-oriya
+nana-oriya
+baja-oriya
+bada-oriya
+badha-oriya
+baba-oriya
+llaka-oriya
+llalla-oriya
+llapa-oriya
+llapha-oriya
+laka-oriya
+laga-oriya
+lapa-oriya
+lapha-oriya
+lama-oriya
+lala-oriya
+lalla-oriya
+haka-oriya
+haja-oriya
+hana-oriya
+hama-oriya
+hala-oriya
+halla-oriya
+hava-oriya
+hau-oriya
+hauu-oriya
+harVocalic-oriya
+tarauMatra-oriya
+darauMatra-oriya
+  ];
 
-@aiLengthStemLetters = [ kha-oriya
+@aiLengthStemLetters = [  kha-oriya
 ga-oriya
 gha-oriya
 tta-oriya
@@ -143,20 +145,20 @@ sha-oriya
 ssa-oriya
 sa-oriya
 yya-oriya
-kha_ra-oriya
-ga_ra-oriya
-gha_ra-oriya
-tta_ra-oriya
-nna_ra-oriya
-tha_ra-oriya
-dha_ra-oriya
-pa_ra-oriya
-ma_ra-oriya
-ya_ra-oriya
-sha_ra-oriya
-ssa_ra-oriya
-sa_ra-oriya
-yya_ra-oriya
+khara-oriya
+gara-oriya
+ghara-oriya
+ttara-oriya
+nnara-oriya
+thara-oriya
+dhara-oriya
+para-oriya
+mara-oriya
+yara-oriya
+shara-oriya
+ssara-oriya
+sara-oriya
+yyara-oriya
 kha-oriya.base
 ga-oriya.base
 gha-oriya.base
@@ -170,105 +172,105 @@ ya-oriya.base
 sha-oriya.base
 ssa-oriya.base
 sa-oriya.base
-ka_ssa-oriya.base
-ka_ssa-oriya
-ka_ssa_nna-oriya
-ka_ssa_ma-oriya
-ka_ssa_ra-oriya
-ga_da-oriya
-ga_dha-oriya
-ga_na-oriya
-ga_lla-oriya
-gha_na-oriya
-tta_tta-oriya
-nna_tta-oriya
-nna_ttha-oriya
-nna_dda-oriya
-nna_dda_ra-oriya
-nna_ddha-oriya
-nna_nna-oriya
-ta_pa-oriya
-ta_ma-oriya
-ta_sa-oriya
-ta_sa_na-oriya
-dha_va-oriya
-dha_ya-oriya
-dha_yya-oriya
-pa_ka-oriya
-pa_ta-oriya
-pa_tta-oriya
-pa_pa-oriya
-pa_lla-oriya
-pa_sa-oriya
-ma_pa-oriya
-ma_pa_ra-oriya
-ma_ba-oriya
-ma_bha-oriya
-ma_bha_ra-oriya
-ma_ma-oriya
-sha_ca-oriya
-sha_cha-oriya
-sha_va-oriya
-sha_lla-oriya
-ssa_ka-oriya
-ssa_ka_ra-oriya
-ssa_tta-oriya
-ssa_ttha-oriya
-ssa_nna-oriya
-ssa_pa-oriya
-ssa_pha-oriya
-sa_ka-oriya
-sa_kha-oriya
-sa_ta-oriya
-sa_ta_ra-oriya
-sa_tha-oriya
-sa_na-oriya
-sa_pa-oriya
-sa_pha-oriya
-sa_va-oriya
-sa_ma-oriya
-nna_tta_halant-oriya
-nna_dda_halant-oriya
-ssa_tta_halant-oriya
-sa_pa_rVocalicMatra-oriya
- ];
+kassa-oriya.base
+kassa-oriya
+kassanna-oriya
+kassama-oriya
+kassara-oriya
+gada-oriya
+gadha-oriya
+gana-oriya
+galla-oriya
+ghana-oriya
+ttatta-oriya
+nnatta-oriya
+nnattha-oriya
+nnadda-oriya
+nnaddara-oriya
+nnaddha-oriya
+nnanna-oriya
+tapa-oriya
+tama-oriya
+tasa-oriya
+tasana-oriya
+dhava-oriya
+dhaya-oriya
+dhayya-oriya
+paka-oriya
+pata-oriya
+patta-oriya
+papa-oriya
+palla-oriya
+pasa-oriya
+mapa-oriya
+mapara-oriya
+maba-oriya
+mabha-oriya
+mabhara-oriya
+mama-oriya
+shaca-oriya
+shacha-oriya
+shava-oriya
+shalla-oriya
+ssaka-oriya
+ssakara-oriya
+ssatta-oriya
+ssattha-oriya
+ssanna-oriya
+ssapa-oriya
+ssapha-oriya
+saka-oriya
+sakha-oriya
+sata-oriya
+satara-oriya
+satha-oriya
+sana-oriya
+sapa-oriya
+sapha-oriya
+sava-oriya
+sama-oriya
+nnattahalant-oriya
+nnaddahalant-oriya
+ssattahalant-oriya
+saparVocalicMatra-oriya
+  ];
 
-@iMatraWideLetters = [ nya-oriya
+@iMatraWideLetters = [  nya-oriya
 bha-oriya
 la-oriya
 lla-oriya
 yya-oriya
-ka_ta-oriya
-ka_ta_ra-oriya
-nga_kha-oriya
-nga_ga-oriya
-nga_gha-oriya
-nya_ja-oriya
-nya_jha-oriya
-da_da-oriya
-da_dha-oriya
-da_dha_va-oriya
-da_bha-oriya
-ba_da-oriya
-ba_ba-oriya
-ma_pa-oriya
-ma_pa_ra-oriya
-ma_pha-oriya
-ma_ba-oriya
-ma_bha-oriya
-ma_bha_ra-oriya
-ma_ma-oriya
-lla_ka-oriya
-lla_lla-oriya
-lla_pa-oriya
-lla_pha-oriya
-la_ka-oriya
-la_ga-oriya
-la_pa-oriya
-la_pha-oriya
-la_ma-oriya
-la_la-oriya
-la_lla-oriya ];
+kata-oriya
+katara-oriya
+ngakha-oriya
+ngaga-oriya
+ngagha-oriya
+nyaja-oriya
+nyajha-oriya
+dada-oriya
+dadha-oriya
+dadhava-oriya
+dabha-oriya
+bada-oriya
+baba-oriya
+mapa-oriya
+mapara-oriya
+mapha-oriya
+maba-oriya
+mabha-oriya
+mabhara-oriya
+mama-oriya
+llaka-oriya
+llalla-oriya
+llapa-oriya
+llapha-oriya
+laka-oriya
+laga-oriya
+lapa-oriya
+lapha-oriya
+lama-oriya
+lala-oriya
+lalla-oriya  ];
 
 # Prefix: Languagesystems
 # automatic
@@ -279,13 +281,17 @@ languagesystem ory2 dflt;
 
 feature aalt {
 # automatic
+feature akhn;
 feature nukt;
 feature rphf;
 feature blwf;
 feature pstf;
 feature cjct;
+feature pres;
+feature blws;
 feature psts;
 feature abvs;
+feature haln;
 feature calt;
 feature ss01;
 feature ss02;
@@ -293,11 +299,16 @@ feature ss03;
 
 } aalt;
 
+feature akhn {
+script ory2;
+sub ka-oriya halant-oriya ssa-oriya by kassa-oriya;
+sub ja-oriya halant-oriya nya-oriya by janya-oriya;
+} akhn;
+
 feature nukt {
 script ory2;
 	sub dda-oriya nukta-oriya by rra-oriya;
 	sub ddha-oriya nukta-oriya by rha-oriya;
-
 } nukt;
 
 feature rphf {
@@ -308,322 +319,44 @@ sub ra-oriya halant-oriya by reph-oriya;
 } rphf;
 
 feature blwf {
-# notes:
-# # PUT THIS IN WINDOW > MACRO PANEL AND PRESS RUN:
-# 
-# vowels = ("halant-oriya", "uMatra-oriya", "uuMatra-oriya", "rVocalicMatra-oriya", "rrVocalicMatra-oriya", "lVocalicMatra-oriya", "llVocalicMatra-oriya")
-# suffix="-oriya"
-# for g in Font.glyphs:
-# 	if g.name.endswith(suffix) and g.name.count("_") == 2 and not "candraBindu" in g.name:
-# 		splitnames = g.name.replace("-oriya","").split("_")
-# 		print "sub %s halant-oriya %s %s%s by %s;" % (
-# 			splitnames[0] + suffix,
-# 			splitnames[1] + suffix,
-# 			"" if splitnames[2]+"-oriya" in vowels else "halant-oriya ",
-# 			splitnames[2] + suffix,
-# 			g.name,
-# 			)
-# EXCEPTION OVERRIDES:
-
 script ory2;
-sub ka-oriya halant-oriya ta-oriya halant-oriya ra-oriya by ka_ta_ra-oriya;
-sub ka-oriya halant-oriya ssa-oriya halant-oriya nna-oriya by ka_ssa_nna-oriya;
-sub ka-oriya halant-oriya ssa-oriya halant-oriya ma-oriya by ka_ssa_ma-oriya;
-sub ka-oriya halant-oriya ssa-oriya halant-oriya ra-oriya by ka_ssa_ra-oriya;
-sub nga-oriya halant-oriya ka-oriya halant-oriya ta-oriya by nga_ka_ta-oriya;
-sub nga-oriya halant-oriya ka-oriya halant-oriya ssa-oriya by nga_ka_ssa-oriya;
-sub ja-oriya halant-oriya ja-oriya halant-oriya va-oriya by ja_ja_va-oriya;
-sub nna-oriya halant-oriya dda-oriya halant-oriya ra-oriya by nna_dda_ra-oriya;
-sub ta-oriya halant-oriya ka-oriya halant-oriya ra-oriya by ta_ka_ra-oriya;
-sub ta-oriya halant-oriya ta-oriya halant-oriya va-oriya by ta_ta_va-oriya;
-sub ta-oriya halant-oriya ta-oriya halant-oriya ra-oriya by ta_ta_ra-oriya;
-sub ta-oriya halant-oriya pa-oriya halant-oriya ra-oriya by ta_pa_ra-oriya;
-sub ta-oriya halant-oriya sa-oriya halant-oriya na-oriya by ta_sa_na-oriya;
-sub da-oriya halant-oriya dha-oriya halant-oriya va-oriya by da_dha_va-oriya;
-sub na-oriya halant-oriya ta-oriya halant-oriya ra-oriya by na_ta_ra-oriya;
-sub na-oriya halant-oriya ta-oriya halant-oriya va-oriya by na_ta_va-oriya;
-sub na-oriya halant-oriya da-oriya halant-oriya ra-oriya by na_da_ra-oriya;
-sub na-oriya halant-oriya da-oriya halant-oriya va-oriya by na_da_va-oriya;
-sub na-oriya halant-oriya dha-oriya halant-oriya va-oriya by na_dha_va-oriya;
-sub na-oriya halant-oriya dha-oriya halant-oriya ra-oriya by na_dha_ra-oriya;
-sub ma-oriya halant-oriya pa-oriya halant-oriya ra-oriya by ma_pa_ra-oriya;
-sub ma-oriya halant-oriya bha-oriya halant-oriya ra-oriya by ma_bha_ra-oriya;
-sub ssa-oriya halant-oriya ka-oriya halant-oriya ra-oriya by ssa_ka_ra-oriya;
-sub ssa-oriya halant-oriya tta-oriya halant-oriya ra-oriya by ssa_tta_ra-oriya;
-sub sa-oriya halant-oriya ta-oriya halant-oriya ra-oriya by sa_ta_ra-oriya;
-sub nna-oriya halant-oriya tta-oriya halant-oriya by nna_tta_halant-oriya;
-sub nna-oriya halant-oriya dda-oriya halant-oriya by nna_dda_halant-oriya;
-sub ta-oriya halant-oriya ra-oriya uMatra-oriya by ta_ra_uMatra-oriya;
-sub da-oriya halant-oriya ra-oriya uMatra-oriya by da_ra_uMatra-oriya;
-sub na-oriya halant-oriya ta-oriya uMatra-oriya by na_ta_uMatra-oriya;
-sub ssa-oriya halant-oriya tta-oriya halant-oriya by ssa_tta_halant-oriya;
-sub sa-oriya halant-oriya pa-oriya rVocalicMatra-oriya by sa_pa_rVocalicMatra-oriya;
-
-} blwf;
-
-feature blwf {
-# automatic
-script ory2;
-ignore sub halant-oriya' [ka-oriya kha-oriya ga-oriya gha-oriya nga-oriya ca-oriya cha-oriya ja-oriya jha-oriya tta-oriya ttha-oriya dda-oriya ddha-oriya nna-oriya ta-oriya tha-oriya da-oriya dha-oriya na-oriya pa-oriya pha-oriya ba-oriya bha-oriya ma-oriya ya-oriya ra-oriya la-oriya lla-oriya va-oriya sha-oriya ssa-oriya sa-oriya ha-oriya]' [halant-oriya uMatra-oriya uuMatra-oriya rVocalicMatra-oriya rrVocalicMatra-oriya lVocalicMatra-oriya llVocalicMatra-oriya];
-sub halant-oriya' ka-oriya' by ka-oriya.below;
-sub halant-oriya' kha-oriya' by kha-oriya.below;
-sub halant-oriya' ga-oriya' by ga-oriya.below;
-sub halant-oriya' gha-oriya' by gha-oriya.below;
-sub halant-oriya' nga-oriya' by nga-oriya.below;
-sub halant-oriya' ca-oriya' by ca-oriya.below;
-sub halant-oriya' cha-oriya' by cha-oriya.below;
-sub halant-oriya' ja-oriya' by ja-oriya.below;
-sub halant-oriya' jha-oriya' by jha-oriya.below;
-sub halant-oriya' tta-oriya' by tta-oriya.below;
-sub halant-oriya' ttha-oriya' by ttha-oriya.below;
-sub halant-oriya' dda-oriya' by dda-oriya.below;
-sub halant-oriya' ddha-oriya' by ddha-oriya.below;
-sub halant-oriya' nna-oriya' by nna-oriya.below;
-sub halant-oriya' ta-oriya' by ta-oriya.below;
-sub halant-oriya' tha-oriya' by tha-oriya.below;
-sub halant-oriya' da-oriya' by da-oriya.below;
-sub halant-oriya' dha-oriya' by dha-oriya.below;
-sub halant-oriya' na-oriya' by na-oriya.below;
-sub halant-oriya' pa-oriya' by pa-oriya.below;
-sub halant-oriya' pha-oriya' by pha-oriya.below;
-sub halant-oriya' ba-oriya' by ba-oriya.below;
-sub halant-oriya' bha-oriya' by bha-oriya.below;
-sub halant-oriya' ma-oriya' by ma-oriya.below;
-sub halant-oriya' ya-oriya' by ya-oriya.below;
-sub halant-oriya' ra-oriya' by ra-oriya.below;
-sub halant-oriya' la-oriya' by la-oriya.below;
-sub halant-oriya' lla-oriya' by lla-oriya.below;
-sub halant-oriya' va-oriya' by va-oriya.below;
-sub halant-oriya' sha-oriya' by sha-oriya.below;
-sub halant-oriya' ssa-oriya' by ssa-oriya.below;
-sub halant-oriya' sa-oriya' by sa-oriya.below;
-sub halant-oriya' ha-oriya' by ha-oriya.below;
+ignore sub halant-oriya' [ka-oriya kha-oriya ga-oriya gha-oriya nga-oriya ca-oriya cha-oriya ja-oriya jha-oriya tta-oriya ttha-oriya dda-oriya ddha-oriya nna-oriya ta-oriya tha-oriya da-oriya dha-oriya na-oriya pa-oriya pha-oriya ba-oriya bha-oriya ma-oriya ya-oriya ra-oriya la-oriya lla-oriya va-oriya sha-oriya ssa-oriya sa-oriya ha-oriya]' [uMatra-oriya uuMatra-oriya rVocalicMatra-oriya rrVocalicMatra-oriya lVocalicMatra-oriya llVocalicMatra-oriya];
+sub halant-oriya ka-oriya by ka-oriya.below;
+sub halant-oriya kha-oriya by kha-oriya.below;
+sub halant-oriya ga-oriya by ga-oriya.below;
+sub halant-oriya gha-oriya by gha-oriya.below;
+sub halant-oriya nga-oriya by nga-oriya.below;
+sub halant-oriya ca-oriya by ca-oriya.below;
+sub halant-oriya cha-oriya by cha-oriya.below;
+sub halant-oriya ja-oriya by ja-oriya.below;
+sub halant-oriya jha-oriya by jha-oriya.below;
+sub halant-oriya tta-oriya by tta-oriya.below;
+sub halant-oriya ttha-oriya by ttha-oriya.below;
+sub halant-oriya dda-oriya by dda-oriya.below;
+sub halant-oriya ddha-oriya by ddha-oriya.below;
+sub halant-oriya nna-oriya by nna-oriya.below;
+sub halant-oriya ta-oriya by ta-oriya.below;
+sub halant-oriya tha-oriya by tha-oriya.below;
+sub halant-oriya da-oriya by da-oriya.below;
+sub halant-oriya dha-oriya by dha-oriya.below;
+sub halant-oriya na-oriya by na-oriya.below;
+sub halant-oriya pa-oriya by pa-oriya.below;
+sub halant-oriya pha-oriya by pha-oriya.below;
+sub halant-oriya ba-oriya by ba-oriya.below;
+sub halant-oriya bha-oriya by bha-oriya.below;
+sub halant-oriya ma-oriya by ma-oriya.below;
+sub halant-oriya ya-oriya by ya-oriya.below;
+sub halant-oriya ra-oriya by ra-oriya.below;
+sub halant-oriya la-oriya by la-oriya.below;
+sub halant-oriya lla-oriya by lla-oriya.below;
+sub halant-oriya va-oriya by va-oriya.below;
+sub halant-oriya sha-oriya by sha-oriya.below;
+sub halant-oriya ssa-oriya by ssa-oriya.below;
+sub halant-oriya sa-oriya by sa-oriya.below;
+sub halant-oriya ha-oriya by ha-oriya.below;
 sub halant-oriya wa-oriya by va-oriya.below;
-sub halant-oriya ra-oriya uMatra-oriya by ra_uMatra-oriya.below;
-sub halant-oriya ra-oriya uuMatra-oriya by ra_uuMatra-oriya.below;
-sub halant-oriya ra-oriya rVocalicMatra-oriya by ra_rVocalicMatra-oriya.below;
-sub halant-oriya ra-oriya rrVocalicMatra-oriya by ra_rrVocalicMatra-oriya.below;
-
-ignore sub ta-oriya.base pa-oriya.below ra-oriya.below';
-sub [ka-oriya kha-oriya ga-oriya gha-oriya nga-oriya ca-oriya cha-oriya ja-oriya jha-oriya nya-oriya tta-oriya ttha-oriya dda-oriya ddha-oriya nna-oriya ta-oriya tha-oriya da-oriya dha-oriya na-oriya pa-oriya pha-oriya ba-oriya bha-oriya ma-oriya ya-oriya ra-oriya la-oriya lla-oriya va-oriya sha-oriya ssa-oriya sa-oriya ha-oriya rra-oriya rha-oriya wa-oriya]' [ka-oriya.below kha-oriya.below ga-oriya.below gha-oriya.below nga-oriya.below ca-oriya.below cha-oriya.below ja-oriya.below jha-oriya.below tta-oriya.below ttha-oriya.below dda-oriya.below ddha-oriya.below nna-oriya.below ta-oriya.below tha-oriya.below da-oriya.below dha-oriya.below na-oriya.below pa-oriya.below pha-oriya.below ba-oriya.below bha-oriya.below ma-oriya.below ya-oriya.below la-oriya.below lla-oriya.below va-oriya.below sha-oriya.below ssa-oriya.below sa-oriya.below ha-oriya.below] by [ka-oriya.base kha-oriya.base ga-oriya.base gha-oriya.base nga-oriya.base ca-oriya.base cha-oriya.base ja-oriya.base jha-oriya.base nya-oriya.base tta-oriya.base ttha-oriya.base dda-oriya.base ddha-oriya.base nna-oriya.base ta-oriya.base tha-oriya.base da-oriya.base dha-oriya.base na-oriya.base pa-oriya.base pha-oriya.base ba-oriya.base bha-oriya.base ma-oriya.base ya-oriya.base ra-oriya.base la-oriya.base lla-oriya.base va-oriya.base sha-oriya.base ssa-oriya.base sa-oriya.base ha-oriya.base rra-oriya.base rha-oriya.base wa-oriya.base];
-sub [ka-oriya.below kha-oriya.below ga-oriya.below gha-oriya.below nga-oriya.below ca-oriya.below cha-oriya.below ja-oriya.below jha-oriya.below tta-oriya.below ttha-oriya.below dda-oriya.below ddha-oriya.below nna-oriya.below ta-oriya.below tha-oriya.below da-oriya.below dha-oriya.below na-oriya.below pa-oriya.below pha-oriya.below ba-oriya.below bha-oriya.below ma-oriya.below ya-oriya.below ra-oriya.below la-oriya.below lla-oriya.below va-oriya.below sha-oriya.below ssa-oriya.below sa-oriya.below ha-oriya.below] [ka-oriya.below kha-oriya.below ga-oriya.below gha-oriya.below nga-oriya.below ca-oriya.below cha-oriya.below ja-oriya.below jha-oriya.below tta-oriya.below ttha-oriya.below dda-oriya.below ddha-oriya.below nna-oriya.below ta-oriya.below tha-oriya.below da-oriya.below dha-oriya.below na-oriya.below pa-oriya.below pha-oriya.below ba-oriya.below bha-oriya.below ma-oriya.below ya-oriya.below ra-oriya.below la-oriya.below lla-oriya.below va-oriya.below sha-oriya.below ssa-oriya.below sa-oriya.below ha-oriya.below]' by [ka-oriya.single kha-oriya.single ga-oriya.single gha-oriya.single nga-oriya.single ca-oriya.single cha-oriya.single ja-oriya.single jha-oriya.single tta-oriya.single ttha-oriya.single dda-oriya.single ddha-oriya.single nna-oriya.single ta-oriya.single tha-oriya.single da-oriya.single dha-oriya.single na-oriya.single pa-oriya.single pha-oriya.single ba-oriya.single bha-oriya.single ma-oriya.single ya-oriya.single ra-oriya.single la-oriya.single lla-oriya.single va-oriya.single sha-oriya.single ssa-oriya.single sa-oriya.single ha-oriya.single];
-
-sub [kha-oriya tha-oriya dha-oriya] iMatra-oriya' by iMatra-oriya.below;
-
+sub halant-oriya kassa-oriya by kassa-oriya.below;
 } blwf;
-
-feature cjct {
-# automatic
-script ory2;
-lookup cjct_Halforiya {
-	sub nna-oriya.base dda-oriya.below halant-oriya halant-oriya by nna_dda_halant-oriya;
-	sub nna-oriya.base tta-oriya.below halant-oriya halant-oriya by nna_tta_halant-oriya;
-	sub ssa-oriya.base tta-oriya.below halant-oriya halant-oriya by ssa_tta_halant-oriya;
-	sub ha-oriya halant-oriya rVocalic-oriya by ha_rVocalic-oriya;
-	sub ha-oriya halant-oriya u-oriya by ha_u-oriya;
-	sub ha-oriya halant-oriya uu-oriya by ha_uu-oriya;
-} cjct_Halforiya;
-lookup cjct_oriya {
-	sub da-oriya.base dha-oriya.below va-oriya.single by da_dha_va-oriya;
-	sub da-oriya ra-oriya.below halant-oriya uMatra-oriya by da_ra_uMatra-oriya;
-	sub ja-oriya.base ja-oriya.below va-oriya.single by ja_ja_va-oriya;
-	sub ka-oriya.base ssa-oriya.below ma-oriya.single by ka_ssa_ma-oriya;
-	sub ka-oriya.base ssa-oriya.below nna-oriya.single by ka_ssa_nna-oriya;
-	sub ka-oriya.base ssa-oriya.below ra-oriya.single by ka_ssa_ra-oriya;
-	sub ka-oriya.base ta-oriya.below ra-oriya.single by ka_ta_ra-oriya;
-	sub ma-oriya.base bha-oriya.below ra-oriya.single by ma_bha_ra-oriya;
-	sub ma-oriya.base pa-oriya.below ra-oriya.single by ma_pa_ra-oriya;
-	sub na-oriya.base da-oriya.below ra-oriya.single by na_da_ra-oriya;
-	sub na-oriya.base da-oriya.below va-oriya.single by na_da_va-oriya;
-	sub na-oriya.base dha-oriya.below ra-oriya.single by na_dha_ra-oriya;
-	sub na-oriya.base dha-oriya.below va-oriya.single by na_dha_va-oriya;
-	sub na-oriya.base ta-oriya.below ra-oriya.single by na_ta_ra-oriya;
-	sub na-oriya.base ta-oriya.below halant-oriya uMatra-oriya by na_ta_uMatra-oriya;
-	sub na-oriya.base ta-oriya.below va-oriya.single by na_ta_va-oriya;
-	sub nga-oriya.base ka-oriya.below ssa-oriya.single by nga_ka_ssa-oriya;
-	sub nga-oriya.base ka-oriya.below ta-oriya.single by nga_ka_ta-oriya;
-	sub nna-oriya.base dda-oriya.below ra-oriya.single by nna_dda_ra-oriya;
-	sub sa-oriya.base pa-oriya.below halant-oriya rVocalicMatra-oriya by sa_pa_rVocalicMatra-oriya;
-	sub sa-oriya.base ta-oriya.below ra-oriya.single by sa_ta_ra-oriya;
-	sub ssa-oriya.base ka-oriya.below ra-oriya.single by ssa_ka_ra-oriya;
-	sub ssa-oriya.base tta-oriya.below ra-oriya.single by ssa_tta_ra-oriya;
-	sub ta-oriya.base ka-oriya.below ra-oriya.single by ta_ka_ra-oriya;
-	sub ta-oriya.base pa-oriya.below ra-oriya.single by ta_pa_ra-oriya;
-	sub ta-oriya ra-oriya.below halant-oriya uMatra-oriya by ta_ra_uMatra-oriya;
-	sub ta-oriya.base sa-oriya.below na-oriya.single by ta_sa_na-oriya;
-	sub ta-oriya.base ta-oriya.below ra-oriya.single by ta_ta_ra-oriya;
-	sub ta-oriya.base ta-oriya.below va-oriya.single by ta_ta_va-oriya;
-	sub ba-oriya.base ba-oriya.below by ba_ba-oriya;
-	sub ba-oriya halant-oriya ba-oriya by ba_ba-oriya;
-	sub ba-oriya.base da-oriya.below by ba_da-oriya;
-	sub ba-oriya halant-oriya da-oriya by ba_da-oriya;
-	sub ba-oriya.base dha-oriya.below by ba_dha-oriya;
-	sub ba-oriya.base ja-oriya.below by ba_ja-oriya;
-	sub ba-oriya ra-oriya.below by ba_ra-oriya;
-	sub bha-oriya ra-oriya.below by bha_ra-oriya;
-	sub ca-oriya.base ca-oriya.below by ca_ca-oriya;
-	sub ca-oriya halant-oriya ca-oriya by ca_ca-oriya;
-	sub ca-oriya.base cha-oriya.below by ca_cha-oriya;
-	sub ca-oriya ra-oriya.below by ca_ra-oriya;
-	sub cha-oriya ra-oriya.below by cha_ra-oriya;
-	sub da-oriya.base bha-oriya.below by da_bha-oriya;
-	sub da-oriya halant-oriya bha-oriya by da_bha-oriya;
-	sub da-oriya.base da-oriya.below by da_da-oriya;
-	sub da-oriya halant-oriya da-oriya by da_da-oriya;
-	sub da-oriya.base dha-oriya.below by da_dha-oriya;
-	sub da-oriya halant-oriya dha-oriya by da_dha-oriya;
-	sub da-oriya.base ga-oriya.below by da_ga-oriya;
-	sub da-oriya.base gha-oriya.below by da_gha-oriya;
-	sub da-oriya ra-oriya.below by da_ra-oriya;
-	sub da-oriya.base va-oriya.below by da_va-oriya;
-	sub dda-oriya.base dda-oriya.below by dda_dda-oriya;
-	sub dda-oriya.base ga-oriya.below by dda_ga-oriya;
-	sub dda-oriya ra-oriya.below by dda_ra-oriya;
-	sub ddha-oriya ra-oriya.below by ddha_ra-oriya;
-	sub dha-oriya ra-oriya.below by dha_ra-oriya;
-	sub dha-oriya.base va-oriya.below by dha_va-oriya;
-	sub dha-oriya.base ya-oriya.below by dha_ya-oriya;
-	sub dha-oriya halant-oriya yya-oriya by dha_yya-oriya;
-	sub dha-oriya halant-oriya yya-oriya by dha_yya-oriya;
-	sub ga-oriya.base da-oriya.below by ga_da-oriya;
-	sub ga-oriya.base dha-oriya.below by ga_dha-oriya;
-	sub ga-oriya.base lla-oriya.below by ga_lla-oriya;
-	sub ga-oriya.base na-oriya.below by ga_na-oriya;
-	sub ga-oriya ra-oriya.below by ga_ra-oriya;
-	sub gha-oriya.base na-oriya.below by gha_na-oriya;
-	sub gha-oriya ra-oriya.below by gha_ra-oriya;
-	sub ha-oriya.base ja-oriya.below by ha_ja-oriya;
-	sub ha-oriya.base ka-oriya.below by ha_ka-oriya;
-	sub ha-oriya.base la-oriya.below by ha_la-oriya;
-	sub ha-oriya.base lla-oriya.below by ha_lla-oriya;
-	sub ha-oriya.base ma-oriya.below by ha_ma-oriya;
-	sub ha-oriya.base na-oriya.below by ha_na-oriya;
-	sub ha-oriya ra-oriya.below by ha_ra-oriya;
-	sub ha-oriya.base va-oriya.below by ha_va-oriya;
-	sub ja-oriya.base ja-oriya.below by ja_ja-oriya;
-	sub ja-oriya.base jha-oriya.below by ja_jha-oriya;
-	sub ja-oriya halant-oriya nya-oriya by ja_nya-oriya;
-	sub ja-oriya halant-oriya nya-oriya by ja_nya-oriya;
-	sub ja-oriya ra-oriya.below by ja_ra-oriya;
-	sub ja-oriya.base va-oriya.below by ja_va-oriya;
-	sub jha-oriya ra-oriya.below by jha_ra-oriya;
-	sub ka-oriya.base ca-oriya.below by ka_ca-oriya;
-	sub ka-oriya.base ka-oriya.below by ka_ka-oriya;
-	sub ka-oriya.base lla-oriya.below by ka_lla-oriya;
-	sub ka-oriya ra-oriya.below by ka_ra-oriya;
-	sub ka-oriya.base sa-oriya.below by ka_sa-oriya;
-	sub ka-oriya.base ssa-oriya.below by ka_ssa-oriya;
-	sub ka-oriya halant-oriya ssa-oriya by ka_ssa-oriya;
-	sub ka-oriya.base ta-oriya.below by ka_ta-oriya;
-	sub ka-oriya.base tta-oriya.below by ka_tta-oriya;
-	sub ka-oriya.base va-oriya.below by ka_va-oriya;
-	sub kha-oriya ra-oriya.below by kha_ra-oriya;
-	sub la-oriya.base ga-oriya.below by la_ga-oriya;
-	sub la-oriya.base ka-oriya.below by la_ka-oriya;
-	sub la-oriya.base la-oriya.below by la_la-oriya;
-	sub la-oriya.base lla-oriya.below by la_lla-oriya;
-	sub la-oriya.base ma-oriya.below by la_ma-oriya;
-	sub la-oriya.base pa-oriya.below by la_pa-oriya;
-	sub la-oriya.base pha-oriya.below by la_pha-oriya;
-	sub la-oriya ra-oriya.below by la_ra-oriya;
-	sub lla-oriya.base ka-oriya.below by lla_ka-oriya;
-	sub lla-oriya.base lla-oriya.below by lla_lla-oriya;
-	sub lla-oriya.base pa-oriya.below by lla_pa-oriya;
-	sub lla-oriya.base pha-oriya.below by lla_pha-oriya;
-	sub lla-oriya ra-oriya.below by lla_ra-oriya;
-	sub ma-oriya.base ba-oriya.below by ma_ba-oriya;
-	sub ma-oriya.base bha-oriya.below by ma_bha-oriya;
-	sub ma-oriya.base ma-oriya.below by ma_ma-oriya;
-	sub ma-oriya.base pa-oriya.below by ma_pa-oriya;
-	sub ma-oriya halant-oriya pa-oriya by ma_pa-oriya;
-	sub ma-oriya.base pha-oriya.below by ma_pha-oriya;
-	sub ma-oriya halant-oriya pha-oriya by ma_pha-oriya;
-	sub ma-oriya ra-oriya.below by ma_ra-oriya;
-	sub na-oriya.base da-oriya.below by na_da-oriya;
-	sub na-oriya halant-oriya da-oriya by na_da-oriya;
-	sub na-oriya.base dha-oriya.below by na_dha-oriya;
-	sub na-oriya halant-oriya dha-oriya by na_dha-oriya;
-	sub na-oriya.base na-oriya.below by na_na-oriya;
-	sub na-oriya ra-oriya.below by na_ra-oriya;
-	sub na-oriya.base ta-oriya.below by na_ta-oriya;
-	sub na-oriya.base tha-oriya.below by na_tha-oriya;
-	sub nga-oriya.base ga-oriya.below by nga_ga-oriya;
-	sub nga-oriya halant-oriya ga-oriya by nga_ga-oriya;
-	sub nga-oriya.base gha-oriya.below by nga_gha-oriya;
-	sub nga-oriya halant-oriya gha-oriya by nga_gha-oriya;
-	sub nga-oriya.base ka-oriya.below by nga_ka-oriya;
-	sub nga-oriya halant-oriya ka-oriya by nga_ka-oriya;
-	sub nga-oriya.base kha-oriya.below by nga_kha-oriya;
-	sub nga-oriya halant-oriya kha-oriya by nga_kha-oriya;
-	sub nga-oriya ra-oriya.below by nga_ra-oriya;
-	sub nna-oriya.base dda-oriya.below by nna_dda-oriya;
-	sub nna-oriya.base ddha-oriya.below by nna_ddha-oriya;
-	sub nna-oriya.base nna-oriya.below by nna_nna-oriya;
-	sub nna-oriya ra-oriya.below by nna_ra-oriya;
-	sub nna-oriya.base tta-oriya.below by nna_tta-oriya;
-	sub nna-oriya.base ttha-oriya.below by nna_ttha-oriya;
-	sub nya-oriya.base ca-oriya.below by nya_ca-oriya;
-	sub nya-oriya halant-oriya ca-oriya by nya_ca-oriya;
-	sub nya-oriya.base cha-oriya.below by nya_cha-oriya;
-	sub nya-oriya.base ja-oriya.below by nya_ja-oriya;
-	sub nya-oriya halant-oriya ja-oriya by nya_ja-oriya;
-	sub nya-oriya.base jha-oriya.below by nya_jha-oriya;
-	sub nya-oriya halant-oriya jha-oriya by nya_jha-oriya;
-	sub nya-oriya ra-oriya.below by nya_ra-oriya;
-	sub pa-oriya.base ka-oriya.below by pa_ka-oriya;
-	sub pa-oriya.base lla-oriya.below by pa_lla-oriya;
-	sub pa-oriya.base pa-oriya.below by pa_pa-oriya;
-	sub pa-oriya ra-oriya.below by pa_ra-oriya;
-	sub pa-oriya.base sa-oriya.below by pa_sa-oriya;
-	sub pa-oriya.base ta-oriya.below by pa_ta-oriya;
-	sub pa-oriya.base tta-oriya.below by pa_tta-oriya;
-	sub pha-oriya ra-oriya.below by pha_ra-oriya;
-	sub rha-oriya ra-oriya.below by rha_ra-oriya;
-	sub rra-oriya ra-oriya.below by rra_ra-oriya;
-	sub sa-oriya.base ka-oriya.below by sa_ka-oriya;
-	sub sa-oriya.base kha-oriya.below by sa_kha-oriya;
-	sub sa-oriya.base ma-oriya.below by sa_ma-oriya;
-	sub sa-oriya.base na-oriya.below by sa_na-oriya;
-	sub sa-oriya.base pa-oriya.below by sa_pa-oriya;
-	sub sa-oriya.base pha-oriya.below by sa_pha-oriya;
-	sub sa-oriya ra-oriya.below by sa_ra-oriya;
-	sub sa-oriya.base ta-oriya.below by sa_ta-oriya;
-	sub sa-oriya.base tha-oriya.below by sa_tha-oriya;
-	sub sa-oriya.base va-oriya.below by sa_va-oriya;
-	sub sha-oriya.base ca-oriya.below by sha_ca-oriya;
-	sub sha-oriya.base cha-oriya.below by sha_cha-oriya;
-	sub sha-oriya.base lla-oriya.below by sha_lla-oriya;
-	sub sha-oriya ra-oriya.below by sha_ra-oriya;
-	sub sha-oriya.base va-oriya.below by sha_va-oriya;
-	sub ssa-oriya.base ka-oriya.below by ssa_ka-oriya;
-	sub ssa-oriya.base nna-oriya.below by ssa_nna-oriya;
-	sub ssa-oriya.base pa-oriya.below by ssa_pa-oriya;
-	sub ssa-oriya.base pha-oriya.below by ssa_pha-oriya;
-	sub ssa-oriya ra-oriya.below by ssa_ra-oriya;
-	sub ssa-oriya.base tta-oriya.below by ssa_tta-oriya;
-	sub ssa-oriya.base ttha-oriya.below by ssa_ttha-oriya;
-	sub ta-oriya.base ka-oriya.below by ta_ka-oriya;
-	sub ta-oriya.base ma-oriya.below by ta_ma-oriya;
-	sub ta-oriya.base na-oriya.below by ta_na-oriya;
-	sub ta-oriya.base pa-oriya.below by ta_pa-oriya;
-	sub ta-oriya ra-oriya.below by ta_ra-oriya;
-	sub ta-oriya.base sa-oriya.below by ta_sa-oriya;
-	sub ta-oriya.base ta-oriya.below by ta_ta-oriya;
-	sub ta-oriya halant-oriya ta-oriya by ta_ta-oriya;
-	sub ta-oriya.base tha-oriya.below by ta_tha-oriya;
-	sub ta-oriya.base va-oriya.below by ta_va-oriya;
-	sub tha-oriya ra-oriya.below by tha_ra-oriya;
-	sub tta-oriya ra-oriya.below by tta_ra-oriya;
-	sub tta-oriya.base tta-oriya.below by tta_tta-oriya;
-	sub tta-oriya halant-oriya tta-oriya by tta_tta-oriya;
-	sub ttha-oriya ra-oriya.below by ttha_ra-oriya;
-	sub va-oriya ra-oriya.below by va_ra-oriya;
-	sub wa-oriya ra-oriya.below by wa_ra-oriya;
-	sub ya-oriya ra-oriya.below by ya_ra-oriya;
-	sub yya-oriya ra-oriya.below by yya_ra-oriya;
-} cjct_oriya;
-
-} cjct;
 
 feature pstf {
 # automatic
@@ -634,58 +367,269 @@ lookup Pstf_oriya {
 
 } pstf;
 
+feature cjct {
+script ory2;
+
+sub yya-oriya ra-oriya.below by yyara-oriya;
+} cjct;
+
+feature pres {
+script ory2;
+  lookupflag MarkAttachmentType @NonAboveMarks;
+	sub [ka-oriya kha-oriya ga-oriya gha-oriya nga-oriya ca-oriya cha-oriya ja-oriya jha-oriya nya-oriya tta-oriya ttha-oriya dda-oriya ddha-oriya nna-oriya ta-oriya tha-oriya da-oriya dha-oriya na-oriya pa-oriya pha-oriya ba-oriya bha-oriya ma-oriya ya-oriya ra-oriya la-oriya lla-oriya va-oriya sha-oriya ssa-oriya sa-oriya ha-oriya rra-oriya rha-oriya wa-oriya kassa-oriya]' [ka-oriya.below kha-oriya.below ga-oriya.below gha-oriya.below nga-oriya.below ca-oriya.below cha-oriya.below ja-oriya.below jha-oriya.below tta-oriya.below ttha-oriya.below dda-oriya.below ddha-oriya.below nna-oriya.below ta-oriya.below tha-oriya.below da-oriya.below dha-oriya.below na-oriya.below pa-oriya.below pha-oriya.below ba-oriya.below bha-oriya.below ma-oriya.below ya-oriya.below la-oriya.below lla-oriya.below va-oriya.below sha-oriya.below ssa-oriya.below sa-oriya.below ha-oriya.below kassa-oriya.below] by [ka-oriya.base kha-oriya.base ga-oriya.base gha-oriya.base nga-oriya.base ca-oriya.base cha-oriya.base ja-oriya.base jha-oriya.base nya-oriya.base tta-oriya.base ttha-oriya.base dda-oriya.base ddha-oriya.base nna-oriya.base ta-oriya.base tha-oriya.base da-oriya.base dha-oriya.base na-oriya.base pa-oriya.base pha-oriya.base ba-oriya.base bha-oriya.base ma-oriya.base ya-oriya.base ra-oriya.base la-oriya.base lla-oriya.base va-oriya.base sha-oriya.base ssa-oriya.base sa-oriya.base ha-oriya.base rra-oriya.base rha-oriya.base wa-oriya.base kassa-oriya.base];
+} pres;
+
+feature blws {
+script ory2;
+  lookupflag MarkAttachmentType @NonAboveMarks;
+	sub [ka-oriya.below kha-oriya.below ga-oriya.below gha-oriya.below nga-oriya.below ca-oriya.below cha-oriya.below ja-oriya.below jha-oriya.below tta-oriya.below ttha-oriya.below dda-oriya.below ddha-oriya.below nna-oriya.below ta-oriya.below tha-oriya.below da-oriya.below dha-oriya.below na-oriya.below pa-oriya.below pha-oriya.below ba-oriya.below bha-oriya.below ma-oriya.below ya-oriya.below ra-oriya.below la-oriya.below lla-oriya.below va-oriya.below sha-oriya.below ssa-oriya.below sa-oriya.below ha-oriya.below kassa-oriya.below] [ka-oriya.below kha-oriya.below ga-oriya.below gha-oriya.below nga-oriya.below ca-oriya.below cha-oriya.below ja-oriya.below jha-oriya.below tta-oriya.below ttha-oriya.below dda-oriya.below ddha-oriya.below nna-oriya.below ta-oriya.below tha-oriya.below da-oriya.below dha-oriya.below na-oriya.below pa-oriya.below pha-oriya.below ba-oriya.below bha-oriya.below ma-oriya.below ya-oriya.below ra-oriya.below la-oriya.below lla-oriya.below va-oriya.below sha-oriya.below ssa-oriya.below sa-oriya.below ha-oriya.below]' by [ka-oriya.single kha-oriya.single ga-oriya.single gha-oriya.single nga-oriya.single ca-oriya.single cha-oriya.single ja-oriya.single jha-oriya.single tta-oriya.single ttha-oriya.single dda-oriya.single ddha-oriya.single nna-oriya.single ta-oriya.single tha-oriya.single da-oriya.single dha-oriya.single na-oriya.single pa-oriya.single pha-oriya.single ba-oriya.single bha-oriya.single ma-oriya.single ya-oriya.single ra-oriya.single la-oriya.single lla-oriya.single va-oriya.single sha-oriya.single ssa-oriya.single sa-oriya.single ha-oriya.single];
+
+	sub da-oriya.base dha-oriya.below va-oriya.single by dadhava-oriya;
+	sub ja-oriya.base ja-oriya.below va-oriya.single by jajava-oriya;
+	sub ka-oriya.base ta-oriya.below ra-oriya.single by katara-oriya;
+	sub ma-oriya.base bha-oriya.below ra-oriya.single by mabhara-oriya;
+	sub ma-oriya.base pa-oriya.below ra-oriya.single by mapara-oriya;
+	sub na-oriya.base da-oriya.below ra-oriya.single by nadara-oriya;
+	sub na-oriya.base da-oriya.below va-oriya.single by nadava-oriya;
+	sub na-oriya.base dha-oriya.below ra-oriya.single by nadhara-oriya;
+	sub na-oriya.base dha-oriya.below va-oriya.single by nadhava-oriya;
+	sub na-oriya.base ta-oriya.below ra-oriya.single by natara-oriya;
+	sub na-oriya.base ta-oriya.below va-oriya.single by natava-oriya;
+	sub nga-oriya.base ka-oriya.below ssa-oriya.single by ngakassa-oriya;
+	sub nga-oriya.base ka-oriya.below ta-oriya.single by ngakata-oriya;
+	sub nna-oriya.base dda-oriya.below ra-oriya.single by nnaddara-oriya;
+	sub sa-oriya.base ta-oriya.below ra-oriya.single by satara-oriya;
+	sub ssa-oriya.base ka-oriya.below ra-oriya.single by ssakara-oriya;
+	sub ssa-oriya.base tta-oriya.below ra-oriya.single by ssattara-oriya;
+	sub ta-oriya.base ka-oriya.below ra-oriya.single by takara-oriya;
+	sub ta-oriya.base pa-oriya.below ra-oriya.single by tapara-oriya;
+	sub ta-oriya.base sa-oriya.below na-oriya.single by tasana-oriya;
+	sub ta-oriya.base ta-oriya.below ra-oriya.single by tatara-oriya;
+	sub ta-oriya.base ta-oriya.below va-oriya.single by tatava-oriya;
+	sub ba-oriya.base ba-oriya.below by baba-oriya;
+	sub ba-oriya.base da-oriya.below by bada-oriya;
+	sub ba-oriya.base dha-oriya.below by badha-oriya;
+	sub ba-oriya.base ja-oriya.below by baja-oriya;
+	sub ba-oriya.base ra-oriya.below by bara-oriya;
+	sub bha-oriya.base ra-oriya.below by bhara-oriya;
+	sub ca-oriya.base ca-oriya.below by caca-oriya;
+	sub ca-oriya.base cha-oriya.below by cacha-oriya;
+	sub ca-oriya.base ra-oriya.below by cara-oriya;
+	sub cha-oriya.base ra-oriya.below by chara-oriya;
+	sub da-oriya.base bha-oriya.below by dabha-oriya;
+	sub da-oriya.base da-oriya.below by dada-oriya;
+	sub da-oriya.base dha-oriya.below by dadha-oriya;
+	sub da-oriya.base ga-oriya.below by daga-oriya;
+	sub da-oriya.base gha-oriya.below by dagha-oriya;
+	sub da-oriya.base ra-oriya.below by dara-oriya;
+	sub da-oriya.base va-oriya.below by dava-oriya;
+	sub dda-oriya.base dda-oriya.below by ddadda-oriya;
+	sub dda-oriya.base ga-oriya.below by ddaga-oriya;
+	sub dda-oriya.base ra-oriya.below by ddara-oriya;
+	sub ddha-oriya.base ra-oriya.below by ddhara-oriya;
+	sub dha-oriya.base ra-oriya.below by dhara-oriya;
+	sub dha-oriya.base va-oriya.below by dhava-oriya;
+	sub dha-oriya.base ya-oriya.below by dhaya-oriya;
+	sub dha-oriya.base yya-oriya.post by dhayya-oriya;
+	sub ga-oriya.base da-oriya.below by gada-oriya;
+	sub ga-oriya.base dha-oriya.below by gadha-oriya;
+	sub ga-oriya.base lla-oriya.below by galla-oriya;
+	sub ga-oriya.base na-oriya.below by gana-oriya;
+	sub ga-oriya.base ra-oriya.below by gara-oriya;
+	sub gha-oriya.base na-oriya.below by ghana-oriya;
+	sub gha-oriya.base ra-oriya.below by ghara-oriya;
+	sub ha-oriya.base ja-oriya.below by haja-oriya;
+	sub ha-oriya.base ka-oriya.below by haka-oriya;
+	sub ha-oriya.base la-oriya.below by hala-oriya;
+	sub ha-oriya.base lla-oriya.below by halla-oriya;
+	sub ha-oriya.base ma-oriya.below by hama-oriya;
+	sub ha-oriya.base na-oriya.below by hana-oriya;
+	sub ha-oriya.base ra-oriya.below by hara-oriya;
+	sub ha-oriya.base va-oriya.below by hava-oriya;
+	sub ja-oriya.base ja-oriya.below by jaja-oriya;
+	sub ja-oriya.base jha-oriya.below by jajha-oriya;
+	sub ja-oriya.base ra-oriya.below by jara-oriya;
+	sub ja-oriya.base va-oriya.below by java-oriya;
+	sub jha-oriya.base ra-oriya.below by jhara-oriya;
+	sub ka-oriya.base ca-oriya.below by kaca-oriya;
+	sub ka-oriya.base ka-oriya.below by kaka-oriya;
+	sub ka-oriya.base lla-oriya.below by kalla-oriya;
+	sub ka-oriya.base ra-oriya.below by kara-oriya;
+	sub ka-oriya.base sa-oriya.below by kasa-oriya;
+	sub ka-oriya.base ssa-oriya.below by kassa-oriya;
+	sub ka-oriya.base ta-oriya.below by kata-oriya;
+	sub ka-oriya.base tta-oriya.below by katta-oriya;
+	sub ka-oriya.base va-oriya.below by kava-oriya;
+	sub kha-oriya.base ra-oriya.below by khara-oriya;
+	sub la-oriya.base ga-oriya.below by laga-oriya;
+	sub la-oriya.base ka-oriya.below by laka-oriya;
+	sub la-oriya.base la-oriya.below by lala-oriya;
+	sub la-oriya.base lla-oriya.below by lalla-oriya;
+	sub la-oriya.base ma-oriya.below by lama-oriya;
+	sub la-oriya.base pa-oriya.below by lapa-oriya;
+	sub la-oriya.base pha-oriya.below by lapha-oriya;
+	sub la-oriya.base ra-oriya.below by lara-oriya;
+	sub lla-oriya.base ka-oriya.below by llaka-oriya;
+	sub lla-oriya.base lla-oriya.below by llalla-oriya;
+	sub lla-oriya.base pa-oriya.below by llapa-oriya;
+	sub lla-oriya.base pha-oriya.below by llapha-oriya;
+	sub lla-oriya.base ra-oriya.below by llara-oriya;
+	sub ma-oriya.base ba-oriya.below by maba-oriya;
+	sub ma-oriya.base bha-oriya.below by mabha-oriya;
+	sub ma-oriya.base ma-oriya.below by mama-oriya;
+	sub ma-oriya.base pa-oriya.below by mapa-oriya;
+	sub ma-oriya.base pha-oriya.below by mapha-oriya;
+	sub ma-oriya.base ra-oriya.below by mara-oriya;
+	sub na-oriya.base da-oriya.below by nada-oriya;
+	sub na-oriya.base dha-oriya.below by nadha-oriya;
+	sub na-oriya.base na-oriya.below by nana-oriya;
+	sub na-oriya.base ra-oriya.below by nara-oriya;
+	sub na-oriya.base ta-oriya.below by nata-oriya;
+	sub na-oriya.base tha-oriya.below by natha-oriya;
+	sub nga-oriya.base ga-oriya.below by ngaga-oriya;
+	sub nga-oriya.base gha-oriya.below by ngagha-oriya;
+	sub nga-oriya.base ka-oriya.below by ngaka-oriya;
+	sub nga-oriya.base kha-oriya.below by ngakha-oriya;
+	sub nga-oriya.base ra-oriya.below by ngara-oriya;
+	sub nna-oriya.base dda-oriya.below by nnadda-oriya;
+	sub nna-oriya.base ddha-oriya.below by nnaddha-oriya;
+	sub nna-oriya.base nna-oriya.below by nnanna-oriya;
+	sub nna-oriya.base ra-oriya.below by nnara-oriya;
+	sub nna-oriya.base tta-oriya.below by nnatta-oriya;
+	sub nna-oriya.base ttha-oriya.below by nnattha-oriya;
+	sub nya-oriya.base ca-oriya.below by nyaca-oriya;
+	sub nya-oriya.base cha-oriya.below by nyacha-oriya;
+	sub nya-oriya.base ja-oriya.below by nyaja-oriya;
+	sub nya-oriya.base jha-oriya.below by nyajha-oriya;
+	sub nya-oriya.base ra-oriya.below by nyara-oriya;
+	sub pa-oriya.base ka-oriya.below by paka-oriya;
+	sub pa-oriya.base lla-oriya.below by palla-oriya;
+	sub pa-oriya.base pa-oriya.below by papa-oriya;
+	sub pa-oriya.base ra-oriya.below by para-oriya;
+	sub pa-oriya.base sa-oriya.below by pasa-oriya;
+	sub pa-oriya.base ta-oriya.below by pata-oriya;
+	sub pa-oriya.base tta-oriya.below by patta-oriya;
+	sub pha-oriya.base ra-oriya.below by phara-oriya;
+	sub rha-oriya.base ra-oriya.below by rhara-oriya;
+	sub rra-oriya.base ra-oriya.below by rrara-oriya;
+	sub sa-oriya.base ka-oriya.below by saka-oriya;
+	sub sa-oriya.base kha-oriya.below by sakha-oriya;
+	sub sa-oriya.base ma-oriya.below by sama-oriya;
+	sub sa-oriya.base na-oriya.below by sana-oriya;
+	sub sa-oriya.base pa-oriya.below by sapa-oriya;
+	sub sa-oriya.base pha-oriya.below by sapha-oriya;
+	sub sa-oriya.base ra-oriya.below by sara-oriya;
+	sub sa-oriya.base ta-oriya.below by sata-oriya;
+	sub sa-oriya.base tha-oriya.below by satha-oriya;
+	sub sa-oriya.base va-oriya.below by sava-oriya;
+	sub sha-oriya.base ca-oriya.below by shaca-oriya;
+	sub sha-oriya.base cha-oriya.below by shacha-oriya;
+	sub sha-oriya.base lla-oriya.below by shalla-oriya;
+	sub sha-oriya.base ra-oriya.below by shara-oriya;
+	sub sha-oriya.base va-oriya.below by shava-oriya;
+	sub ssa-oriya.base ka-oriya.below by ssaka-oriya;
+	sub ssa-oriya.base nna-oriya.below by ssanna-oriya;
+	sub ssa-oriya.base pa-oriya.below by ssapa-oriya;
+	sub ssa-oriya.base pha-oriya.below by ssapha-oriya;
+	sub ssa-oriya.base ra-oriya.below by ssara-oriya;
+	sub ssa-oriya.base tta-oriya.below by ssatta-oriya;
+	sub ssa-oriya.base ttha-oriya.below by ssattha-oriya;
+	sub ta-oriya.base ka-oriya.below by taka-oriya;
+	sub ta-oriya.base ma-oriya.below by tama-oriya;
+	sub ta-oriya.base na-oriya.below by tana-oriya;
+	sub ta-oriya.base pa-oriya.below by tapa-oriya;
+	sub ta-oriya.base ra-oriya.below by tara-oriya;
+	sub ta-oriya.base sa-oriya.below by tasa-oriya;
+	sub ta-oriya.base ta-oriya.below by tata-oriya;
+	sub ta-oriya.base tha-oriya.below by tatha-oriya;
+	sub ta-oriya.base va-oriya.below by tava-oriya;
+	sub tha-oriya.base ra-oriya.below by thara-oriya;
+	sub tta-oriya.base ra-oriya.below by ttara-oriya;
+	sub tta-oriya.base tta-oriya.below by ttatta-oriya;
+	sub ttha-oriya.base ra-oriya.below by tthara-oriya;
+	sub va-oriya.base ra-oriya.below by vara-oriya;
+	sub wa-oriya.base ra-oriya.below by wara-oriya;
+	sub ya-oriya.base ra-oriya.below by yara-oriya;
+	sub kassa-oriya.base ma-oriya.below by kassama-oriya;
+	sub kassa-oriya.base nna-oriya.below by kassanna-oriya;
+	sub kassa-oriya.base ra-oriya.below by kassara-oriya;
+
+
+	sub dara-oriya uMatra-oriya by darauMatra-oriya;
+	sub nata-oriya uMatra-oriya by natauMatra-oriya;
+	sub sapa-oriya rVocalicMatra-oriya by saparVocalicMatra-oriya;
+	sub tara-oriya uMatra-oriya by tarauMatra-oriya;
+	sub ha-oriya rVocalic-oriya by harVocalic-oriya;
+	sub ha-oriya u-oriya by hau-oriya;
+	sub ha-oriya uu-oriya by hauu-oriya;
+
+
+
+
+	sub ra-oriya.below uMatra-oriya by rauMatra-oriya.below;
+	sub ra-oriya.below uuMatra-oriya by rauuMatra-oriya.below;
+	sub ra-oriya.below rVocalicMatra-oriya by rarVocalicMatra-oriya.below;
+	sub ra-oriya.below rrVocalicMatra-oriya by rarrVocalicMatra-oriya.below;
+} blws;
+
 feature psts {
 # automatic
 script ory2;
-	sub iMatra-oriya reph-oriya candraBindu-oriya by iMatra_reph_candraBindu-oriya;
-	sub reph-oriya iMatra-oriya candraBindu-oriya by iMatra_reph_candraBindu-oriya;
-	sub reph-oriya aiLength-oriya candraBindu-oriya by reph_aiLength_candraBindu-oriya;
-	sub reph-oriya auLength-oriya candraBindu-oriya by reph_auLength_candraBindu-oriya;
-	sub aiLength-oriya candraBindu-oriya by aiLength_candraBindu-oriya;
-	sub auLength-oriya candraBindu-oriya by auLength_candraBindu-oriya;
-	sub iMatra-oriya candraBindu-oriya by iMatra_candraBindu-oriya;
-	sub iMatra-oriya reph-oriya by iMatra_reph-oriya;
-	sub reph-oriya iMatra-oriya by iMatra_reph-oriya;
-	sub ka-oriya.below ssa-oriya.below by ka_ssa-oriya.below;
-	sub reph-oriya aiLength-oriya by reph_aiLength-oriya;
-	sub reph-oriya auLength-oriya by reph_auLength-oriya;
-	sub reph-oriya candraBindu-oriya by reph_candraBindu-oriya;
+	sub iMatra-oriya reph-oriya candraBindu-oriya by iMatrarephcandraBindu-oriya;
+	sub reph-oriya iMatra-oriya candraBindu-oriya by iMatrarephcandraBindu-oriya;
+	sub reph-oriya aiLength-oriya candraBindu-oriya by rephaiLengthcandraBindu-oriya;
+	sub reph-oriya auLength-oriya candraBindu-oriya by rephauLengthcandraBindu-oriya;
+	sub aiLength-oriya candraBindu-oriya by aiLengthcandraBindu-oriya;
+	sub auLength-oriya candraBindu-oriya by auLengthcandraBindu-oriya;
+	sub iMatra-oriya candraBindu-oriya by iMatracandraBindu-oriya;
+	sub iMatra-oriya reph-oriya by iMatrareph-oriya;
+	sub reph-oriya iMatra-oriya by iMatrareph-oriya;
+	sub ka-oriya.below ssa-oriya.below by kassa-oriya.below;
+	sub reph-oriya aiLength-oriya by rephaiLength-oriya;
+	sub reph-oriya auLength-oriya by rephauLength-oriya;
+	sub reph-oriya candraBindu-oriya by rephcandraBindu-oriya;
 
 } psts;
 
 feature abvs {
-# automatic
 script ory2;
-lookup Abvs1_oriya {
-	sub iMatra-oriya reph-oriya candraBindu-oriya by iMatra_reph_candraBindu-oriya;
-	sub reph-oriya aiLength-oriya candraBindu-oriya by reph_aiLength_candraBindu-oriya;
-	sub reph-oriya auLength-oriya candraBindu-oriya by reph_auLength_candraBindu-oriya;
-	sub aiLength-oriya candraBindu-oriya by aiLength_candraBindu-oriya;
-	sub auLength-oriya candraBindu-oriya by auLength_candraBindu-oriya;
-	sub iMatra-oriya candraBindu-oriya by iMatra_candraBindu-oriya;
-	sub iMatra-oriya reph-oriya by iMatra_reph-oriya;
-	sub ka-oriya.below ssa-oriya.below by ka_ssa-oriya.below;
-	sub reph-oriya aiLength-oriya by reph_aiLength-oriya;
-	sub reph-oriya auLength-oriya by reph_auLength-oriya;
-	sub reph-oriya candraBindu-oriya by reph_candraBindu-oriya;
-} Abvs1_oriya;
 
+	sub [kha-oriya tha-oriya dha-oriya] iMatra-oriya' by iMatra-oriya.below;
+
+	sub iMatra-oriya reph-oriya candraBindu-oriya by iMatrarephcandraBindu-oriya;
+	sub reph-oriya aiLength-oriya candraBindu-oriya by rephaiLengthcandraBindu-oriya;
+	sub reph-oriya auLength-oriya candraBindu-oriya by rephauLengthcandraBindu-oriya;
+	sub aiLength-oriya candraBindu-oriya by aiLengthcandraBindu-oriya;
+	sub auLength-oriya candraBindu-oriya by auLengthcandraBindu-oriya;
+	sub iMatra-oriya candraBindu-oriya by iMatracandraBindu-oriya;
+	sub iMatra-oriya reph-oriya by iMatrareph-oriya;
+	sub ka-oriya.below ssa-oriya.below by kassa-oriya.below;
+	sub reph-oriya aiLength-oriya by rephaiLength-oriya;
+	sub reph-oriya auLength-oriya by rephauLength-oriya;
+	sub reph-oriya candraBindu-oriya by rephcandraBindu-oriya;
 } abvs;
+
+feature haln {
+script ory2;
+	sub nnadda-oriya halant-oriya by nnaddahalant-oriya;
+	sub nnatta-oriya halant-oriya by nnattahalant-oriya;
+	sub ssatta-oriya halant-oriya by ssattahalant-oriya;
+} haln;
 
 feature calt {
 script ory2;
 
 lookup calt1 {
-	sub @aiLengthUmbrellaLetters [aiLength-oriya aiLength_candraBindu-oriya reph_aiLength-oriya reph_aiLength_candraBindu-oriya]' by [aiLength-oriya.umbrella aiLength_candraBindu-oriya.umbrella reph_aiLength-oriya.umbrella reph_aiLength_candraBindu-oriya.umbrella];
-	sub @aiLengthStemLetters [aiLength-oriya aiLength_candraBindu-oriya reph_aiLength-oriya reph_aiLength_candraBindu-oriya]' by [aiLength-oriya.stem aiLength_candraBindu-oriya.stem reph_aiLength-oriya.stem reph_aiLength_candraBindu-oriya.stem];
+	sub @aiLengthUmbrellaLetters [aiLength-oriya aiLengthcandraBindu-oriya rephaiLength-oriya rephaiLengthcandraBindu-oriya]' by [aiLength-oriya.umbrella aiLengthcandraBindu-oriya.umbrella rephaiLength-oriya.umbrella rephaiLengthcandraBindu-oriya.umbrella];
+	sub @aiLengthStemLetters [aiLength-oriya aiLengthcandraBindu-oriya rephaiLength-oriya rephaiLengthcandraBindu-oriya]' by [aiLength-oriya.stem aiLengthcandraBindu-oriya.stem rephaiLength-oriya.stem rephaiLengthcandraBindu-oriya.stem];
 } calt1;
 
 
 lookup calt2 {
 	sub @iMatraWideLetters iMatra-oriya' by iMatra-oriya.wide;
-	sub @iMatraWideLetters iMatra_candraBindu-oriya' by iMatra_candraBindu-oriya.wide;
-	sub @iMatraWideLetters iMatra_reph-oriya' by iMatra_reph-oriya.wide;
-	sub @iMatraWideLetters iMatra_reph_candraBindu-oriya' by iMatra_reph_candraBindu-oriya.wide;	
+	sub @iMatraWideLetters iMatracandraBindu-oriya' by iMatracandraBindu-oriya.wide;
+	sub @iMatraWideLetters iMatrareph-oriya' by iMatrareph-oriya.wide;
+	sub @iMatraWideLetters iMatrarephcandraBindu-oriya' by iMatrarephcandraBindu-oriya.wide;	
 } calt2;
 } calt;
 
@@ -693,7 +637,7 @@ feature ss01 {
 # notes:
 # Name: KaTaRa Alternate
 script ory2;
-	sub ka_ta_ra-oriya by ka_ta_ra_alt-oriya;
+	sub katara-oriya by kataraalt-oriya;
 } ss01;
 
 feature ss02 {
@@ -731,8 +675,8 @@ script ory2;
 table GDEF {
   # automatic
   GlyphClassDef
-    [a-oriya aa-oriya i-oriya ii-oriya u-oriya uu-oriya rVocalic-oriya lVocalic-oriya e-oriya o-oriya ka-oriya kha-oriya ga-oriya gha-oriya nga-oriya ca-oriya cha-oriya ja-oriya jha-oriya nya-oriya tta-oriya ttha-oriya dda-oriya ddha-oriya nna-oriya ta-oriya tha-oriya da-oriya dha-oriya na-oriya pa-oriya pha-oriya ba-oriya bha-oriya ma-oriya ya-oriya ra-oriya la-oriya lla-oriya va-oriya sha-oriya ssa-oriya sa-oriya ha-oriya wa-oriya aaMatra-oriya iiMatra-oriya oMatra-oriya yya-oriya rra-oriya rha-oriya ka-oriya.base kha-oriya.base ga-oriya.base gha-oriya.base nga-oriya.base ca-oriya.base cha-oriya.base ja-oriya.base jha-oriya.base nya-oriya.base tta-oriya.base ttha-oriya.base dda-oriya.base ddha-oriya.base nna-oriya.base ta-oriya.base tha-oriya.base da-oriya.base dha-oriya.base na-oriya.base pa-oriya.base pha-oriya.base ba-oriya.base bha-oriya.base ma-oriya.base ya-oriya.base ra-oriya.base la-oriya.base lla-oriya.base va-oriya.base sha-oriya.base ssa-oriya.base sa-oriya.base ha-oriya.base rra-oriya.base rha-oriya.base wa-oriya.base ta_alt-oriya.below a-oriya.REV_BRACKET.141 bha-oriya.REV_BRACKET.141 cha-oriya.REV_BRACKET.141 dda-oriya.REV_BRACKET.141 ddha-oriya.REV_BRACKET.141 e-oriya.REV_BRACKET.141 ha-oriya.REV_BRACKET.141 i-oriya.REV_BRACKET.141 ii-oriya.REV_BRACKET.141 ja-oriya.REV_BRACKET.141 ja-oriya.base.REV_BRACKET.141 ka-oriya.REV_BRACKET.141 nga-oriya.REV_BRACKET.141 ssa-oriya.REV_BRACKET.141 ta-oriya.REV_BRACKET.141 u-oriya.REV_BRACKET.141 uu-oriya.REV_BRACKET.141 va-oriya.REV_BRACKET.141 va-oriya.base.REV_BRACKET.141], # Base
-    [ka_ra-oriya kha_ra-oriya ga_ra-oriya gha_ra-oriya nga_ra-oriya ca_ra-oriya cha_ra-oriya ja_ra-oriya jha_ra-oriya nya_ra-oriya tta_ra-oriya ttha_ra-oriya dda_ra-oriya ddha_ra-oriya nna_ra-oriya ta_ra-oriya tha_ra-oriya da_ra-oriya dha_ra-oriya na_ra-oriya pa_ra-oriya pha_ra-oriya ba_ra-oriya bha_ra-oriya ma_ra-oriya ya_ra-oriya la_ra-oriya lla_ra-oriya va_ra-oriya sha_ra-oriya ssa_ra-oriya sa_ra-oriya ha_ra-oriya wa_ra-oriya rra_ra-oriya rha_ra-oriya yya_ra-oriya ka_ssa-oriya.base ka_ka-oriya ka_ca-oriya ka_ta-oriya ka_ta_ra-oriya ka_ta_ra_alt-oriya ka_tta-oriya ka_va-oriya ka_lla-oriya ka_ssa-oriya ka_ssa_nna-oriya ka_ssa_ma-oriya ka_ssa_ra-oriya ka_sa-oriya ga_da-oriya ga_dha-oriya ga_na-oriya ga_lla-oriya gha_na-oriya nga_ka-oriya nga_ka_ta-oriya nga_ka_ssa-oriya nga_kha-oriya nga_ga-oriya nga_gha-oriya ca_ca-oriya ca_cha-oriya ja_ja-oriya ja_ja_va-oriya ja_jha-oriya ja_nya-oriya ja_va-oriya nya_ca-oriya nya_cha-oriya nya_ja-oriya nya_jha-oriya tta_tta-oriya dda_ga-oriya dda_dda-oriya nna_tta-oriya nna_ttha-oriya nna_dda-oriya nna_dda_ra-oriya nna_ddha-oriya nna_nna-oriya ta_ka-oriya ta_ka_ra-oriya ta_ta-oriya ta_ta_va-oriya ta_ta_ra-oriya ta_tha-oriya ta_na-oriya ta_pa-oriya ta_pa_ra-oriya ta_va-oriya ta_ma-oriya ta_sa-oriya ta_sa_na-oriya da_ga-oriya da_gha-oriya da_da-oriya da_dha-oriya da_dha_va-oriya da_va-oriya da_bha-oriya dha_va-oriya dha_ya-oriya dha_yya-oriya na_ta-oriya na_ta_ra-oriya na_ta_va-oriya na_tha-oriya na_da-oriya na_da_ra-oriya na_da_va-oriya na_dha-oriya na_dha_va-oriya na_dha_ra-oriya na_na-oriya pa_ka-oriya pa_ta-oriya pa_tta-oriya pa_pa-oriya pa_lla-oriya pa_sa-oriya ba_ja-oriya ba_da-oriya ba_dha-oriya ba_ba-oriya ma_pa-oriya ma_pa_ra-oriya ma_pha-oriya ma_ba-oriya ma_bha-oriya ma_bha_ra-oriya ma_ma-oriya lla_ka-oriya lla_lla-oriya lla_pa-oriya lla_pha-oriya la_ka-oriya la_ga-oriya la_pa-oriya la_pha-oriya la_ma-oriya la_la-oriya la_lla-oriya sha_ca-oriya sha_cha-oriya sha_va-oriya sha_lla-oriya ssa_ka-oriya ssa_ka_ra-oriya ssa_tta-oriya ssa_tta_ra-oriya ssa_ttha-oriya ssa_nna-oriya ssa_pa-oriya ssa_pha-oriya sa_ka-oriya sa_kha-oriya sa_ta-oriya sa_ta_ra-oriya sa_tha-oriya sa_na-oriya sa_pa-oriya sa_pha-oriya sa_va-oriya sa_ma-oriya ha_ka-oriya ha_ja-oriya ha_na-oriya ha_ma-oriya ha_la-oriya ha_lla-oriya ha_va-oriya ha_u-oriya ha_uu-oriya ha_rVocalic-oriya nna_tta_halant-oriya nna_dda_halant-oriya ta_ra_uMatra-oriya da_ra_uMatra-oriya na_ta_uMatra-oriya ssa_tta_halant-oriya sa_pa_rVocalicMatra-oriya bha_ra-oriya.REV_BRACKET.141 cha_ra-oriya.REV_BRACKET.141 dda_ra-oriya.REV_BRACKET.141 ja_ra-oriya.REV_BRACKET.141 ka_ra-oriya.REV_BRACKET.141 nga_ra-oriya.REV_BRACKET.141 va_ra-oriya.REV_BRACKET.141], # Liga
-    [candraBindu-oriya nukta-oriya iMatra-oriya iMatra-oriya.wide uMatra-oriya uuMatra-oriya rVocalicMatra-oriya rrVocalicMatra-oriya lVocalicMatra-oriya llVocalicMatra-oriya aiLength-oriya aiLength-oriya.stem aiLength-oriya.umbrella halant-oriya reph-oriya ka-oriya.below kha-oriya.below ga-oriya.below gha-oriya.below nga-oriya.below ca-oriya.below cha-oriya.below ja-oriya.below jha-oriya.below tta-oriya.below ttha-oriya.below dda-oriya.below ddha-oriya.below nna-oriya.below ta-oriya.below tha-oriya.below da-oriya.below dha-oriya.below na-oriya.below pa-oriya.below pha-oriya.below ba-oriya.below bha-oriya.below ma-oriya.below ya-oriya.below ra-oriya.below la-oriya.below lla-oriya.below va-oriya.below sha-oriya.below ssa-oriya.below sa-oriya.below ha-oriya.below ka_ssa-oriya.below iMatra-oriya.below reph_candraBindu-oriya iMatra_candraBindu-oriya iMatra_candraBindu-oriya.wide iMatra_reph-oriya iMatra_reph-oriya.wide iMatra_reph_candraBindu-oriya iMatra_reph_candraBindu-oriya.wide aiLength_candraBindu-oriya aiLength_candraBindu-oriya.stem aiLength_candraBindu-oriya.umbrella reph_aiLength-oriya reph_aiLength-oriya.stem reph_aiLength-oriya.umbrella reph_aiLength_candraBindu-oriya reph_aiLength_candraBindu-oriya.stem reph_aiLength_candraBindu-oriya.umbrella reph_auLength-oriya reph_auLength_candraBindu-oriya ra_uMatra-oriya.below ra_uuMatra-oriya.below ra_rVocalicMatra-oriya.below ra_rrVocalicMatra-oriya.below candraBindu-oriya.REV_BRACKET.141 lVocalicMatra-oriya.REV_BRACKET.141 llVocalicMatra-oriya.REV_BRACKET.141 rrVocalicMatra-oriya.REV_BRACKET.141 uuMatra-oriya.REV_BRACKET.141], # Mark
+    [a-oriya aa-oriya i-oriya ii-oriya u-oriya uu-oriya rVocalic-oriya lVocalic-oriya e-oriya o-oriya ka-oriya kha-oriya ga-oriya gha-oriya nga-oriya ca-oriya cha-oriya ja-oriya jha-oriya nya-oriya tta-oriya ttha-oriya dda-oriya ddha-oriya nna-oriya ta-oriya tha-oriya da-oriya dha-oriya na-oriya pa-oriya pha-oriya ba-oriya bha-oriya ma-oriya ya-oriya ra-oriya la-oriya lla-oriya va-oriya sha-oriya ssa-oriya sa-oriya ha-oriya wa-oriya aaMatra-oriya iiMatra-oriya oMatra-oriya yya-oriya rra-oriya rha-oriya kara-oriya khara-oriya gara-oriya ghara-oriya ngara-oriya cara-oriya chara-oriya jara-oriya jhara-oriya nyara-oriya ttara-oriya tthara-oriya ddara-oriya ddhara-oriya nnara-oriya tara-oriya thara-oriya dara-oriya dhara-oriya nara-oriya para-oriya phara-oriya bara-oriya bhara-oriya mara-oriya yara-oriya lara-oriya llara-oriya vara-oriya shara-oriya ssara-oriya sara-oriya hara-oriya wara-oriya rrara-oriya rhara-oriya yyara-oriya ka-oriya.base kha-oriya.base ga-oriya.base gha-oriya.base nga-oriya.base ca-oriya.base cha-oriya.base ja-oriya.base jha-oriya.base nya-oriya.base tta-oriya.base ttha-oriya.base dda-oriya.base ddha-oriya.base nna-oriya.base ta-oriya.base tha-oriya.base da-oriya.base dha-oriya.base na-oriya.base pa-oriya.base pha-oriya.base ba-oriya.base bha-oriya.base ma-oriya.base ya-oriya.base ra-oriya.base la-oriya.base lla-oriya.base va-oriya.base sha-oriya.base ssa-oriya.base sa-oriya.base ha-oriya.base rra-oriya.base rha-oriya.base wa-oriya.base kassa-oriya.base taalt-oriya.below kaka-oriya kaca-oriya kata-oriya katara-oriya kataraalt-oriya katta-oriya kava-oriya kalla-oriya kassa-oriya kassanna-oriya kassama-oriya kassara-oriya kasa-oriya gada-oriya gadha-oriya gana-oriya galla-oriya ghana-oriya ngaka-oriya ngakata-oriya ngakassa-oriya ngakha-oriya ngaga-oriya ngagha-oriya caca-oriya cacha-oriya jaja-oriya jajava-oriya jajha-oriya janya-oriya java-oriya nyaca-oriya nyacha-oriya nyaja-oriya nyajha-oriya ttatta-oriya ddaga-oriya ddadda-oriya nnatta-oriya nnattha-oriya nnadda-oriya nnaddara-oriya nnaddha-oriya nnanna-oriya taka-oriya takara-oriya tata-oriya tatava-oriya tatara-oriya tatha-oriya tana-oriya tapa-oriya tapara-oriya tava-oriya tama-oriya tasa-oriya tasana-oriya daga-oriya dagha-oriya dada-oriya dadha-oriya dadhava-oriya dava-oriya dabha-oriya dhava-oriya dhaya-oriya dhayya-oriya nata-oriya natara-oriya natava-oriya natha-oriya nada-oriya nadara-oriya nadava-oriya nadha-oriya nadhava-oriya nadhara-oriya nana-oriya paka-oriya pata-oriya patta-oriya papa-oriya palla-oriya pasa-oriya baja-oriya bada-oriya badha-oriya baba-oriya mapa-oriya mapara-oriya mapha-oriya maba-oriya mabha-oriya mabhara-oriya mama-oriya llaka-oriya llalla-oriya llapa-oriya llapha-oriya laka-oriya laga-oriya lapa-oriya lapha-oriya lama-oriya lala-oriya lalla-oriya shaca-oriya shacha-oriya shava-oriya shalla-oriya ssaka-oriya ssakara-oriya ssatta-oriya ssattara-oriya ssattha-oriya ssanna-oriya ssapa-oriya ssapha-oriya saka-oriya sakha-oriya sata-oriya satara-oriya satha-oriya sana-oriya sapa-oriya sapha-oriya sava-oriya sama-oriya haka-oriya haja-oriya hana-oriya hama-oriya hala-oriya halla-oriya hava-oriya hau-oriya hauu-oriya harVocalic-oriya nnattahalant-oriya nnaddahalant-oriya tarauMatra-oriya darauMatra-oriya natauMatra-oriya ssattahalant-oriya saparVocalicMatra-oriya a-oriya.REV_BRACKET.141 bha-oriya.REV_BRACKET.141 bhara-oriya.REV_BRACKET.141 cha-oriya.REV_BRACKET.141 chara-oriya.REV_BRACKET.141 dda-oriya.REV_BRACKET.141 ddara-oriya.REV_BRACKET.141 ddha-oriya.REV_BRACKET.141 e-oriya.REV_BRACKET.141 ha-oriya.REV_BRACKET.141 i-oriya.REV_BRACKET.141 ii-oriya.REV_BRACKET.141 ja-oriya.REV_BRACKET.141 ja-oriya.base.REV_BRACKET.141 jara-oriya.REV_BRACKET.141 ka-oriya.REV_BRACKET.141 kara-oriya.REV_BRACKET.141 nga-oriya.REV_BRACKET.141 ngara-oriya.REV_BRACKET.141 ssa-oriya.REV_BRACKET.141 ta-oriya.REV_BRACKET.141 u-oriya.REV_BRACKET.141 uu-oriya.REV_BRACKET.141 va-oriya.REV_BRACKET.141 va-oriya.base.REV_BRACKET.141 vara-oriya.REV_BRACKET.141], # Base
+    , # Liga
+    [candraBindu-oriya nukta-oriya iMatra-oriya iMatra-oriya.wide uMatra-oriya uuMatra-oriya rVocalicMatra-oriya rrVocalicMatra-oriya lVocalicMatra-oriya llVocalicMatra-oriya aiLength-oriya aiLength-oriya.stem aiLength-oriya.umbrella halant-oriya reph-oriya ka-oriya.below kha-oriya.below ga-oriya.below gha-oriya.below nga-oriya.below ca-oriya.below cha-oriya.below ja-oriya.below jha-oriya.below tta-oriya.below ttha-oriya.below dda-oriya.below ddha-oriya.below nna-oriya.below ta-oriya.below tha-oriya.below da-oriya.below dha-oriya.below na-oriya.below pa-oriya.below pha-oriya.below ba-oriya.below bha-oriya.below ma-oriya.below ya-oriya.below ra-oriya.below la-oriya.below lla-oriya.below va-oriya.below sha-oriya.below ssa-oriya.below sa-oriya.below ha-oriya.below kassa-oriya.below iMatra-oriya.below rauMatra-oriya.below rauuMatra-oriya.below rarVocalicMatra-oriya.below rarrVocalicMatra-oriya.below candraBindu-oriya.REV_BRACKET.141 lVocalicMatra-oriya.REV_BRACKET.141 llVocalicMatra-oriya.REV_BRACKET.141 rrVocalicMatra-oriya.REV_BRACKET.141 uuMatra-oriya.REV_BRACKET.141], # Mark
     ;
 } GDEF;

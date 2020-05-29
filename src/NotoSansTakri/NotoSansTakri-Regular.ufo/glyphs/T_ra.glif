@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Tra" format="2">
   <advance width="510"/>
+  <anchor x="255" y="-130" name="bottom"/>
+  <anchor x="400" y="455" name="bottomright"/>
+  <anchor x="250" y="684" name="top"/>
+  <anchor x="290" y="684" name="topright"/>
   <outline>
     <contour>
       <point x="165" y="-12" type="curve" smooth="yes"/>
@@ -62,6 +66,10 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/05/17 00:46:08</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>takr</string>
     </dict>
   </lib>
 </glyph>

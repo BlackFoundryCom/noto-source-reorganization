@@ -17,7 +17,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Noto Sans Takri Regular" familyname="Noto Sans Takri" stylename="Regular" filename="instance_ufos/NotoSansTakri-Regular.ufo" stylemapfamilyname="Noto Sans Takri" stylemapstylename="regular">
+    <instance name="Noto Sans Takri Regular" familyname="Noto Sans Takri" stylename="Regular" filename="instance_ufos/NotoSansTakri-Regular.ufo">
       <location>
         <dimension name="Weight" xvalue="100"/>
       </location>
@@ -47,8 +47,48 @@
               <string>536</string>
             </array>
           </array>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>UUID0</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
         </dict>
       </lib>
     </instance>
   </instances>
+  <lib>
+    <dict>
+      <key>LWPluginVersion</key>
+      <string>1429</string>
+      <key>com.github.googlei18n.ufo2ft.featureWriters</key>
+      <array>
+        <dict>
+          <key>class</key>
+          <string>KernFeatureWriter</string>
+          <key>options</key>
+          <dict>
+            <key>mode</key>
+            <string>append</string>
+          </dict>
+        </dict>
+        <dict>
+          <key>class</key>
+          <string>MarkFeatureWriter</string>
+          <key>options</key>
+          <dict>
+            <key>mode</key>
+            <string>skip</string>
+          </dict>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </designspace>

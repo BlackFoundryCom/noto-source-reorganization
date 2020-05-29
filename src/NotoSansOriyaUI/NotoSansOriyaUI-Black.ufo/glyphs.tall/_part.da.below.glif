@@ -5,36 +5,35 @@
   <anchor x="327" y="205" name="vertical"/>
   <outline>
     <contour>
-      <point x="257" y="-114" type="curve" smooth="yes"/>
+      <point x="257" y="-114" type="curve"/>
+      <point x="257" y="-114" type="line"/>
       <point x="342" y="-114"/>
       <point x="427" y="-63"/>
       <point x="427" y="43" type="curve"/>
       <point x="344" y="57" type="line"/>
       <point x="344" y="19"/>
       <point x="318" y="-7"/>
-      <point x="285" y="-7" type="curve" smooth="yes"/>
+      <point x="285" y="-7" type="curve"/>
       <point x="255" y="-7"/>
       <point x="244" y="13"/>
-      <point x="244" y="41" type="curve" smooth="yes"/>
-      <point x="244" y="77"/>
-      <point x="262" y="125"/>
-      <point x="284" y="164" type="curve"/>
-      <point x="293" y="146" type="line"/>
-      <point x="157" y="196" type="line"/>
-      <point x="178" y="192" type="line"/>
-      <point x="136" y="143"/>
-      <point x="114" y="84"/>
-      <point x="114" y="30" type="curve" smooth="yes"/>
+      <point x="244" y="41" type="curve"/>
+      <point x="244" y="73.309"/>
+      <point x="258.499" y="115.285"/>
+      <point x="277.375" y="151.744" type="curve"/>
+      <point x="175.599" y="189.162" type="line"/>
+      <point x="135.162" y="140.733"/>
+      <point x="114" y="82.962"/>
+      <point x="114" y="30" type="curve"/>
       <point x="114" y="-48"/>
       <point x="161" y="-114"/>
     </contour>
     <contour>
+      <point x="337" y="-57" type="line"/>
       <point x="327" y="-151" type="line"/>
       <point x="497" y="-151" type="line"/>
       <point x="497" y="205" type="line"/>
       <point x="327" y="205" type="line"/>
       <point x="327" y="-48" type="line"/>
-      <point x="337" y="-57" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -52,24 +51,6 @@
       </dict>
       <key>com.schriftgestaltung.Glyphs.Export</key>
       <false/>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>0</integer>
-          <key>origin</key>
-          <array>
-            <integer>1</integer>
-            <integer>1</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Cap</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.smartComponentAxes</key>
       <array>
         <dict>

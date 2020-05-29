@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="comma" format="2">
+  <advance width="278"/>
+  <unicode hex="002C"/>
+  <note>
+comma
+</note>
+  <outline>
+    <contour>
+      <point x="53" y="-136" type="curve"/>
+      <point x="75" y="-190" type="line"/>
+      <point x="120.33" y="-170.67"/>
+      <point x="156" y="-142.83"/>
+      <point x="182" y="-106.5" type="curve" smooth="yes"/>
+      <point x="208" y="-70.17"/>
+      <point x="221" y="-28.33"/>
+      <point x="221" y="19" type="curve" smooth="yes"/>
+      <point x="221" y="52.33"/>
+      <point x="214.17" y="78.67"/>
+      <point x="200.5" y="98" type="curve" smooth="yes"/>
+      <point x="186.83" y="117.33"/>
+      <point x="168" y="127"/>
+      <point x="144" y="127" type="curve" smooth="yes"/>
+      <point x="124.67" y="127"/>
+      <point x="108.33" y="121"/>
+      <point x="95" y="109" type="curve" smooth="yes"/>
+      <point x="81.67" y="97"/>
+      <point x="75" y="81.67"/>
+      <point x="75" y="63" type="curve" smooth="yes"/>
+      <point x="75" y="43"/>
+      <point x="81.5" y="27.33"/>
+      <point x="94.5" y="16" type="curve" smooth="yes"/>
+      <point x="107.5" y="4.67"/>
+      <point x="123.33" y="-1"/>
+      <point x="142" y="-1" type="curve" smooth="yes"/>
+      <point x="146.67" y="-1"/>
+      <point x="150.33" y="-0.67"/>
+      <point x="153" y="0" type="curve"/>
+      <point x="151.67" y="-62"/>
+      <point x="118.33" y="-107.33"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>-1</integer>
+            <integer>128</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>153</integer>
+            <integer>68</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

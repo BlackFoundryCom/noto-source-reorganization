@@ -20,12 +20,12 @@
       </conditionset>
       <sub name="a-oriya" with="a-oriya.REV_BRACKET.141"/>
       <sub name="bha-oriya" with="bha-oriya.REV_BRACKET.141"/>
-      <sub name="bha_ra-oriya" with="bha_ra-oriya.REV_BRACKET.141"/>
+      <sub name="bhara-oriya" with="bhara-oriya.REV_BRACKET.141"/>
       <sub name="candraBindu-oriya" with="candraBindu-oriya.REV_BRACKET.141"/>
       <sub name="cha-oriya" with="cha-oriya.REV_BRACKET.141"/>
-      <sub name="cha_ra-oriya" with="cha_ra-oriya.REV_BRACKET.141"/>
+      <sub name="chara-oriya" with="chara-oriya.REV_BRACKET.141"/>
       <sub name="dda-oriya" with="dda-oriya.REV_BRACKET.141"/>
-      <sub name="dda_ra-oriya" with="dda_ra-oriya.REV_BRACKET.141"/>
+      <sub name="ddara-oriya" with="ddara-oriya.REV_BRACKET.141"/>
       <sub name="ddha-oriya" with="ddha-oriya.REV_BRACKET.141"/>
       <sub name="e-oriya" with="e-oriya.REV_BRACKET.141"/>
       <sub name="five-oriya" with="five-oriya.REV_BRACKET.141"/>
@@ -34,13 +34,13 @@
       <sub name="ii-oriya" with="ii-oriya.REV_BRACKET.141"/>
       <sub name="ja-oriya" with="ja-oriya.REV_BRACKET.141"/>
       <sub name="ja-oriya.base" with="ja-oriya.base.REV_BRACKET.141"/>
-      <sub name="ja_ra-oriya" with="ja_ra-oriya.REV_BRACKET.141"/>
+      <sub name="jara-oriya" with="jara-oriya.REV_BRACKET.141"/>
       <sub name="ka-oriya" with="ka-oriya.REV_BRACKET.141"/>
-      <sub name="ka_ra-oriya" with="ka_ra-oriya.REV_BRACKET.141"/>
+      <sub name="kara-oriya" with="kara-oriya.REV_BRACKET.141"/>
       <sub name="lVocalicMatra-oriya" with="lVocalicMatra-oriya.REV_BRACKET.141"/>
       <sub name="llVocalicMatra-oriya" with="llVocalicMatra-oriya.REV_BRACKET.141"/>
       <sub name="nga-oriya" with="nga-oriya.REV_BRACKET.141"/>
-      <sub name="nga_ra-oriya" with="nga_ra-oriya.REV_BRACKET.141"/>
+      <sub name="ngara-oriya" with="ngara-oriya.REV_BRACKET.141"/>
       <sub name="nine-oriya" with="nine-oriya.REV_BRACKET.141"/>
       <sub name="one-oriya" with="one-oriya.REV_BRACKET.141"/>
       <sub name="rrVocalicMatra-oriya" with="rrVocalicMatra-oriya.REV_BRACKET.141"/>
@@ -55,7 +55,7 @@
       <sub name="uuMatra-oriya" with="uuMatra-oriya.REV_BRACKET.141"/>
       <sub name="va-oriya" with="va-oriya.REV_BRACKET.141"/>
       <sub name="va-oriya.base" with="va-oriya.base.REV_BRACKET.141"/>
-      <sub name="va_ra-oriya" with="va_ra-oriya.REV_BRACKET.141"/>
+      <sub name="vara-oriya" with="vara-oriya.REV_BRACKET.141"/>
     </rule>
   </rules>
   <sources>
@@ -350,10 +350,10 @@
       <string>1366</string>
       <key>public.skipExportGlyphs</key>
       <array>
-        <string>ta_ra-oriya.below</string>
-        <string>bha_alt-oriya.below</string>
+        <string>tara-oriya.below</string>
+        <string>bhaalt-oriya.below</string>
         <string>_part.da.below</string>
-        <string>_part_ta-oriya.below</string>
+        <string>partta-oriya.below</string>
         <string>_part.pha</string>
         <string>_part.ra.below</string>
         <string>_cap.overlap</string>

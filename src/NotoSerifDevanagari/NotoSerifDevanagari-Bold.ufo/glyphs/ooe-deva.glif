@@ -2,15 +2,11 @@
 <glyph name="ooe-deva" format="2">
   <advance width="1049"/>
   <unicode hex="0974"/>
-  <anchor x="709" y="20" name="bottom_1"/>
-  <anchor x="989" y="20" name="bottom_2"/>
-  <anchor x="400" y="0" name="bottom_right_1"/>
-  <anchor x="737" y="-10" name="bottom_right_2"/>
-  <anchor x="709" y="627" name="candra_1"/>
-  <anchor x="989" y="627" name="candra_2"/>
+  <anchor x="989" y="20" name="bottom"/>
+  <anchor x="737" y="-10" name="bottom_right"/>
+  <anchor x="1263" y="622" name="candra"/>
   <anchor x="273" y="-50" name="nukta"/>
-  <anchor x="709" y="627" name="top_1"/>
-  <anchor x="1158" y="662" name="top_2"/>
+  <anchor x="1158" y="662" name="top"/>
   <outline>
     <component base="a-deva"/>
     <component base="ooeMatra-deva" xOffset="769"/>

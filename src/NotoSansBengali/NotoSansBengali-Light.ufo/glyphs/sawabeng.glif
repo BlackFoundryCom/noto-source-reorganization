@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sawabeng" format="2">
+  <advance width="684"/>
+  <outline>
+    <contour>
+      <point x="272" y="132" type="curve"/>
+      <point x="263" y="108" type="line"/>
+      <point x="340" y="81"/>
+      <point x="399" y="40"/>
+      <point x="446" y="-11" type="curve"/>
+      <point x="465" y="4" type="line"/>
+      <point x="413" y="63"/>
+      <point x="349" y="104"/>
+    </contour>
+    <component base="sababeng"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>sababeng</string>
+    </dict>
+  </lib>
+</glyph>

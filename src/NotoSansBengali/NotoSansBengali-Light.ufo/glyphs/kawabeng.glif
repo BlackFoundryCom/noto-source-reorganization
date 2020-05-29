@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kawabeng" format="2">
+  <advance width="704"/>
+  <outline>
+    <contour>
+      <point x="118" y="54" type="curve"/>
+      <point x="111" y="29" type="line"/>
+      <point x="176" y="13"/>
+      <point x="236" y="-15"/>
+      <point x="289" y="-58" type="curve"/>
+      <point x="305" y="-39" type="line"/>
+      <point x="248" y="8"/>
+      <point x="184" y="37"/>
+    </contour>
+    <component base="kababeng"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>kababeng</string>
+    </dict>
+  </lib>
+</glyph>

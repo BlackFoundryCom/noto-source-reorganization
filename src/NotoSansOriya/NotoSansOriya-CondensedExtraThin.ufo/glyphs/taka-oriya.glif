@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="taka-oriya" format="2">
+  <advance width="544"/>
+  <note>
+takaorya
+</note>
+  <guideline x="414" y="-28" angle="90"/>
+  <anchor x="388" y="0" name="bottom"/>
+  <anchor x="414" y="0" name="bottom_ra"/>
+  <anchor x="414" y="10" name="bottom_ta"/>
+  <anchor x="274" y="658" name="top"/>
+  <anchor x="471" y="658" name="topright"/>
+  <outline>
+    <component base="taalt-oriya.below" xOffset="276"/>
+    <component base="ka-oriya"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ca-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ca-oriya</string>
+    </dict>
+  </lib>
+</glyph>

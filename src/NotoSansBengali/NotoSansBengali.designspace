@@ -36,7 +36,7 @@
         <dimension name="Width" xvalue="100"/>
       </location>
     </source>
-    <source filename="NotoSansBengali-SemiBold.ufo" name="Noto Sans Bengali SemiBold" familyname="Noto Sans Bengali" stylename="SemiBold">
+    <source filename="NotoSansBengali-SemiBold.ufo" name="Noto Sans Bengali Semi Bold" familyname="Noto Sans Bengali" stylename="Semi Bold">
       <location>
         <dimension name="Weight" xvalue="151"/>
         <dimension name="Width" xvalue="100"/>
@@ -88,7 +88,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Keep Glyphs</string>
@@ -580,6 +580,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -728,11 +730,49 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
+                <string>crossbeng</string>
+                <string>wavebeng</string>
+                <string>ivowelcrossbeng</string>
+                <string>ivowelwavebeng</string>
+                <string>iivowelcrossbeng</string>
+                <string>iivowelwavebeng</string>
+                <string>auvowelcrossbeng</string>
+                <string>auvowelwavebeng</string>
+                <string>aulengthmarkshortbeng</string>
+                <string>ivowelsignshortbeng</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>kawabeng</string>
+                <string>gawabeng</string>
+                <string>tawabeng</string>
+                <string>dawabeng</string>
+                <string>mawabeng</string>
+                <string>sawabeng</string>
+                <string>tatawabeng</string>
+                <string>satawabeng</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali Thin</string>
             </array>
           </array>
         </dict>
@@ -770,7 +810,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Keep Glyphs</string>
@@ -1262,6 +1302,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -1410,11 +1452,49 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
+                <string>crossbeng</string>
+                <string>wavebeng</string>
+                <string>ivowelcrossbeng</string>
+                <string>ivowelwavebeng</string>
+                <string>iivowelcrossbeng</string>
+                <string>iivowelwavebeng</string>
+                <string>auvowelcrossbeng</string>
+                <string>auvowelwavebeng</string>
+                <string>aulengthmarkshortbeng</string>
+                <string>ivowelsignshortbeng</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>kawabeng</string>
+                <string>gawabeng</string>
+                <string>tawabeng</string>
+                <string>dawabeng</string>
+                <string>mawabeng</string>
+                <string>sawabeng</string>
+                <string>tatawabeng</string>
+                <string>satawabeng</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali ExtLt</string>
             </array>
           </array>
         </dict>
@@ -1452,7 +1532,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Keep Glyphs</string>
@@ -1944,6 +2024,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -2092,11 +2174,49 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
+                <string>crossbeng</string>
+                <string>wavebeng</string>
+                <string>ivowelcrossbeng</string>
+                <string>ivowelwavebeng</string>
+                <string>iivowelcrossbeng</string>
+                <string>iivowelwavebeng</string>
+                <string>auvowelcrossbeng</string>
+                <string>auvowelwavebeng</string>
+                <string>aulengthmarkshortbeng</string>
+                <string>ivowelsignshortbeng</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>kawabeng</string>
+                <string>gawabeng</string>
+                <string>tawabeng</string>
+                <string>dawabeng</string>
+                <string>mawabeng</string>
+                <string>sawabeng</string>
+                <string>tatawabeng</string>
+                <string>satawabeng</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali Light</string>
             </array>
           </array>
         </dict>
@@ -2134,7 +2254,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Keep Glyphs</string>
@@ -2626,6 +2746,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -2774,6 +2896,48 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
+                <string>crossbeng</string>
+                <string>wavebeng</string>
+                <string>ivowelcrossbeng</string>
+                <string>ivowelwavebeng</string>
+                <string>iivowelcrossbeng</string>
+                <string>iivowelwavebeng</string>
+                <string>auvowelcrossbeng</string>
+                <string>auvowelwavebeng</string>
+                <string>aulengthmarkshortbeng</string>
+                <string>ivowelsignshortbeng</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>kawabeng</string>
+                <string>gawabeng</string>
+                <string>tawabeng</string>
+                <string>dawabeng</string>
+                <string>mawabeng</string>
+                <string>sawabeng</string>
+                <string>tatawabeng</string>
+                <string>satawabeng</string>
               </array>
             </array>
           </array>
@@ -2812,7 +2976,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Keep Glyphs</string>
@@ -3304,6 +3468,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -3452,11 +3618,49 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
+                <string>crossbeng</string>
+                <string>wavebeng</string>
+                <string>ivowelcrossbeng</string>
+                <string>ivowelwavebeng</string>
+                <string>iivowelcrossbeng</string>
+                <string>iivowelwavebeng</string>
+                <string>auvowelcrossbeng</string>
+                <string>auvowelwavebeng</string>
+                <string>aulengthmarkshortbeng</string>
+                <string>ivowelsignshortbeng</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>kawabeng</string>
+                <string>gawabeng</string>
+                <string>tawabeng</string>
+                <string>dawabeng</string>
+                <string>mawabeng</string>
+                <string>sawabeng</string>
+                <string>tatawabeng</string>
+                <string>satawabeng</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali Med</string>
             </array>
           </array>
         </dict>
@@ -3494,7 +3698,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Keep Glyphs</string>
@@ -3986,6 +4190,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -4134,11 +4340,49 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
+                <string>crossbeng</string>
+                <string>wavebeng</string>
+                <string>ivowelcrossbeng</string>
+                <string>ivowelwavebeng</string>
+                <string>iivowelcrossbeng</string>
+                <string>iivowelwavebeng</string>
+                <string>auvowelcrossbeng</string>
+                <string>auvowelwavebeng</string>
+                <string>aulengthmarkshortbeng</string>
+                <string>ivowelsignshortbeng</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>kawabeng</string>
+                <string>gawabeng</string>
+                <string>tawabeng</string>
+                <string>dawabeng</string>
+                <string>mawabeng</string>
+                <string>sawabeng</string>
+                <string>tatawabeng</string>
+                <string>satawabeng</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali SemBd</string>
             </array>
           </array>
         </dict>
@@ -4176,7 +4420,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Keep Glyphs</string>
@@ -4668,6 +4912,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -4816,6 +5062,48 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
+                <string>crossbeng</string>
+                <string>wavebeng</string>
+                <string>ivowelcrossbeng</string>
+                <string>ivowelwavebeng</string>
+                <string>iivowelcrossbeng</string>
+                <string>iivowelwavebeng</string>
+                <string>auvowelcrossbeng</string>
+                <string>auvowelwavebeng</string>
+                <string>aulengthmarkshortbeng</string>
+                <string>ivowelsignshortbeng</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>kawabeng</string>
+                <string>gawabeng</string>
+                <string>tawabeng</string>
+                <string>dawabeng</string>
+                <string>mawabeng</string>
+                <string>sawabeng</string>
+                <string>tatawabeng</string>
+                <string>satawabeng</string>
               </array>
             </array>
           </array>
@@ -4854,7 +5142,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Keep Glyphs</string>
@@ -5346,6 +5634,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -5494,11 +5784,49 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
+                <string>crossbeng</string>
+                <string>wavebeng</string>
+                <string>ivowelcrossbeng</string>
+                <string>ivowelwavebeng</string>
+                <string>iivowelcrossbeng</string>
+                <string>iivowelwavebeng</string>
+                <string>auvowelcrossbeng</string>
+                <string>auvowelwavebeng</string>
+                <string>aulengthmarkshortbeng</string>
+                <string>ivowelsignshortbeng</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>kawabeng</string>
+                <string>gawabeng</string>
+                <string>tawabeng</string>
+                <string>dawabeng</string>
+                <string>mawabeng</string>
+                <string>sawabeng</string>
+                <string>tatawabeng</string>
+                <string>satawabeng</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali ExtBd</string>
             </array>
           </array>
         </dict>
@@ -5536,7 +5864,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Keep Glyphs</string>
@@ -6028,6 +6356,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -6176,11 +6506,49 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
+                <string>crossbeng</string>
+                <string>wavebeng</string>
+                <string>ivowelcrossbeng</string>
+                <string>ivowelwavebeng</string>
+                <string>iivowelcrossbeng</string>
+                <string>iivowelwavebeng</string>
+                <string>auvowelcrossbeng</string>
+                <string>auvowelwavebeng</string>
+                <string>aulengthmarkshortbeng</string>
+                <string>ivowelsignshortbeng</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>kawabeng</string>
+                <string>gawabeng</string>
+                <string>tawabeng</string>
+                <string>dawabeng</string>
+                <string>mawabeng</string>
+                <string>sawabeng</string>
+                <string>tatawabeng</string>
+                <string>satawabeng</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali Blk</string>
             </array>
           </array>
         </dict>
@@ -6218,7 +6586,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Keep Glyphs</string>
@@ -6710,6 +7078,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -6858,11 +7228,49 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
+                <string>crossbeng</string>
+                <string>wavebeng</string>
+                <string>ivowelcrossbeng</string>
+                <string>ivowelwavebeng</string>
+                <string>iivowelcrossbeng</string>
+                <string>iivowelwavebeng</string>
+                <string>auvowelcrossbeng</string>
+                <string>auvowelwavebeng</string>
+                <string>aulengthmarkshortbeng</string>
+                <string>ivowelsignshortbeng</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>kawabeng</string>
+                <string>gawabeng</string>
+                <string>tawabeng</string>
+                <string>dawabeng</string>
+                <string>mawabeng</string>
+                <string>sawabeng</string>
+                <string>tatawabeng</string>
+                <string>satawabeng</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali SemCond</string>
             </array>
           </array>
         </dict>
@@ -6900,7 +7308,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Keep Glyphs</string>
@@ -7392,6 +7800,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -7540,11 +7950,49 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
+                <string>crossbeng</string>
+                <string>wavebeng</string>
+                <string>ivowelcrossbeng</string>
+                <string>ivowelwavebeng</string>
+                <string>iivowelcrossbeng</string>
+                <string>iivowelwavebeng</string>
+                <string>auvowelcrossbeng</string>
+                <string>auvowelwavebeng</string>
+                <string>aulengthmarkshortbeng</string>
+                <string>ivowelsignshortbeng</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>kawabeng</string>
+                <string>gawabeng</string>
+                <string>tawabeng</string>
+                <string>dawabeng</string>
+                <string>mawabeng</string>
+                <string>sawabeng</string>
+                <string>tatawabeng</string>
+                <string>satawabeng</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali Cond</string>
             </array>
           </array>
         </dict>
@@ -7582,7 +8030,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Keep Glyphs</string>
@@ -8074,6 +8522,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -8222,11 +8672,49 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
+                <string>crossbeng</string>
+                <string>wavebeng</string>
+                <string>ivowelcrossbeng</string>
+                <string>ivowelwavebeng</string>
+                <string>iivowelcrossbeng</string>
+                <string>iivowelwavebeng</string>
+                <string>auvowelcrossbeng</string>
+                <string>auvowelwavebeng</string>
+                <string>aulengthmarkshortbeng</string>
+                <string>ivowelsignshortbeng</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>kawabeng</string>
+                <string>gawabeng</string>
+                <string>tawabeng</string>
+                <string>dawabeng</string>
+                <string>mawabeng</string>
+                <string>sawabeng</string>
+                <string>tatawabeng</string>
+                <string>satawabeng</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali ExtCond</string>
             </array>
           </array>
         </dict>
@@ -8296,7 +8784,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Reencode Glyphs</string>
@@ -8305,6 +8793,7 @@
                 <string>rrvocalicvowelsignUIbeng=09C4</string>
                 <string>lvocalicvowelsignUIbeng=09E2</string>
                 <string>llvocalicvowelsignUIbeng=09E3</string>
+                <string>uni1CE1.UI=1CE1</string>
               </array>
             </array>
             <array>
@@ -8794,6 +9283,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -8936,11 +9427,32 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabindbeng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1.UI</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali Thin</string>
             </array>
           </array>
         </dict>
@@ -9010,7 +9522,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Reencode Glyphs</string>
@@ -9019,6 +9531,7 @@
                 <string>rrvocalicvowelsignUIbeng=09C4</string>
                 <string>lvocalicvowelsignUIbeng=09E2</string>
                 <string>llvocalicvowelsignUIbeng=09E3</string>
+                <string>uni1CE1.UI=1CE1</string>
               </array>
             </array>
             <array>
@@ -9508,6 +10021,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -9650,11 +10165,32 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabindbeng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1.UI</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali ExtLt</string>
             </array>
           </array>
         </dict>
@@ -9724,7 +10260,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Reencode Glyphs</string>
@@ -9733,6 +10269,7 @@
                 <string>rrvocalicvowelsignUIbeng=09C4</string>
                 <string>lvocalicvowelsignUIbeng=09E2</string>
                 <string>llvocalicvowelsignUIbeng=09E3</string>
+                <string>uni1CE1.UI=1CE1</string>
               </array>
             </array>
             <array>
@@ -10222,6 +10759,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -10364,11 +10903,32 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabindbeng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1.UI</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali Light</string>
             </array>
           </array>
         </dict>
@@ -10438,7 +10998,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Reencode Glyphs</string>
@@ -10447,6 +11007,7 @@
                 <string>rrvocalicvowelsignUIbeng=09C4</string>
                 <string>lvocalicvowelsignUIbeng=09E2</string>
                 <string>llvocalicvowelsignUIbeng=09E3</string>
+                <string>uni1CE1.UI=1CE1</string>
               </array>
             </array>
             <array>
@@ -10936,6 +11497,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -11078,6 +11641,31 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabindbeng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1.UI</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
               </array>
             </array>
           </array>
@@ -11148,7 +11736,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Reencode Glyphs</string>
@@ -11157,6 +11745,7 @@
                 <string>rrvocalicvowelsignUIbeng=09C4</string>
                 <string>lvocalicvowelsignUIbeng=09E2</string>
                 <string>llvocalicvowelsignUIbeng=09E3</string>
+                <string>uni1CE1.UI=1CE1</string>
               </array>
             </array>
             <array>
@@ -11646,6 +12235,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -11788,11 +12379,32 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabindbeng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1.UI</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali Med</string>
             </array>
           </array>
         </dict>
@@ -11862,7 +12474,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Reencode Glyphs</string>
@@ -11871,6 +12483,7 @@
                 <string>rrvocalicvowelsignUIbeng=09C4</string>
                 <string>lvocalicvowelsignUIbeng=09E2</string>
                 <string>llvocalicvowelsignUIbeng=09E3</string>
+                <string>uni1CE1.UI=1CE1</string>
               </array>
             </array>
             <array>
@@ -12360,6 +12973,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -12502,11 +13117,32 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabindbeng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1.UI</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali SemBd</string>
             </array>
           </array>
         </dict>
@@ -12576,7 +13212,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Reencode Glyphs</string>
@@ -12585,6 +13221,7 @@
                 <string>rrvocalicvowelsignUIbeng=09C4</string>
                 <string>lvocalicvowelsignUIbeng=09E2</string>
                 <string>llvocalicvowelsignUIbeng=09E3</string>
+                <string>uni1CE1.UI=1CE1</string>
               </array>
             </array>
             <array>
@@ -13074,6 +13711,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -13216,6 +13855,31 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabindbeng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1.UI</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
               </array>
             </array>
           </array>
@@ -13286,7 +13950,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Reencode Glyphs</string>
@@ -13295,6 +13959,7 @@
                 <string>rrvocalicvowelsignUIbeng=09C4</string>
                 <string>lvocalicvowelsignUIbeng=09E2</string>
                 <string>llvocalicvowelsignUIbeng=09E3</string>
+                <string>uni1CE1.UI=1CE1</string>
               </array>
             </array>
             <array>
@@ -13784,6 +14449,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -13926,11 +14593,32 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabindbeng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1.UI</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali ExtBd</string>
             </array>
           </array>
         </dict>
@@ -14000,7 +14688,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Reencode Glyphs</string>
@@ -14009,6 +14697,7 @@
                 <string>rrvocalicvowelsignUIbeng=09C4</string>
                 <string>lvocalicvowelsignUIbeng=09E2</string>
                 <string>llvocalicvowelsignUIbeng=09E3</string>
+                <string>uni1CE1.UI=1CE1</string>
               </array>
             </array>
             <array>
@@ -14498,6 +15187,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -14640,11 +15331,32 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabindbeng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1.UI</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali Blk</string>
             </array>
           </array>
         </dict>
@@ -14714,7 +15426,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Reencode Glyphs</string>
@@ -14723,6 +15435,7 @@
                 <string>rrvocalicvowelsignUIbeng=09C4</string>
                 <string>lvocalicvowelsignUIbeng=09E2</string>
                 <string>llvocalicvowelsignUIbeng=09E3</string>
+                <string>uni1CE1.UI=1CE1</string>
               </array>
             </array>
             <array>
@@ -15212,6 +15925,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -15354,11 +16069,32 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabindbeng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1.UI</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali SemCond</string>
             </array>
           </array>
         </dict>
@@ -15428,7 +16164,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Reencode Glyphs</string>
@@ -15437,6 +16173,7 @@
                 <string>rrvocalicvowelsignUIbeng=09C4</string>
                 <string>lvocalicvowelsignUIbeng=09E2</string>
                 <string>llvocalicvowelsignUIbeng=09E3</string>
+                <string>uni1CE1.UI=1CE1</string>
               </array>
             </array>
             <array>
@@ -15926,6 +16663,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -16068,11 +16807,32 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabindbeng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1.UI</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali Cond</string>
             </array>
           </array>
         </dict>
@@ -16142,7 +16902,7 @@
             </array>
             <array>
               <string>xHeight</string>
-              <integer>536</integer>
+              <string>536</string>
             </array>
             <array>
               <string>Reencode Glyphs</string>
@@ -16151,6 +16911,7 @@
                 <string>rrvocalicvowelsignUIbeng=09C4</string>
                 <string>lvocalicvowelsignUIbeng=09E2</string>
                 <string>llvocalicvowelsignUIbeng=09E3</string>
+                <string>uni1CE1.UI=1CE1</string>
               </array>
             </array>
             <array>
@@ -16640,6 +17401,8 @@
                 <string>hrvocalicbeng</string>
                 <string>candrabindualtbeng</string>
                 <string>rephcandrabindubeng</string>
+                <string>rephcandrabindualtbeng</string>
+                <string>ivowelsigncandrabindbeng</string>
                 <string>iivowelsigncandrabindbeng</string>
                 <string>rephiivowelsignbeng</string>
                 <string>iivowelsigncandrabindurephbeng</string>
@@ -16782,11 +17545,32 @@
                 <string>uni200D</string>
                 <string>uni2010</string>
                 <string>uni25CC</string>
+                <string>uni09FC</string>
+                <string>uni09FD</string>
+                <string>uni09FE</string>
+                <string>ivowelsign1beng</string>
+                <string>ivowelsign2beng</string>
+                <string>ivowelsign3beng</string>
+                <string>ivowelsign4beng</string>
+                <string>ivowelsigncandrabindbeng</string>
+                <string>ivowelsigncandrabind1beng</string>
+                <string>ivowelsigncandrabind2beng</string>
+                <string>ivowelsigncandrabind3beng</string>
+                <string>ivowelsigncandrabind4beng</string>
+                <string>uni1CD0</string>
+                <string>uni1CD2</string>
+                <string>uni1CD5</string>
+                <string>uni1CD6</string>
+                <string>uni1CD8</string>
+                <string>uni1CE1.UI</string>
+                <string>uni1CEA</string>
+                <string>uni1CED</string>
+                <string>uni1CF2</string>
+                <string>uni1CF5</string>
+                <string>uni1CF6</string>
+                <string>uni1CF7</string>
+                <string>uniA8F1</string>
               </array>
-            </array>
-            <array>
-              <string>styleMapFamilyName</string>
-              <string>Noto Sans Bengali ExtCond</string>
             </array>
           </array>
         </dict>

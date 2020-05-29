@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="u1B1B7.vert" format="2">
+  <advance width="1024"/>
+  <note>
+u1B1B7.vert
+</note>
+  <outline>
+    <contour>
+      <point x="626" y="817" type="curve"/>
+      <point x="548" y="824" type="line"/>
+      <point x="526.67" y="670"/>
+      <point x="487.33" y="549.33"/>
+      <point x="430" y="462" type="curve"/>
+      <point x="456" y="448" type="line"/>
+      <point x="353" y="732" type="line"/>
+      <point x="280" y="705" type="line"/>
+      <point x="395" y="391" type="line"/>
+      <point x="468" y="380" type="line"/>
+      <point x="545.33" y="490.67"/>
+      <point x="598" y="636.33"/>
+    </contour>
+    <contour>
+      <point x="764" y="544" type="curve"/>
+      <point x="693" y="580" type="line"/>
+      <point x="621.67" y="418.67"/>
+      <point x="482.33" y="296.67"/>
+      <point x="275" y="214" type="curve"/>
+      <point x="306" y="141" type="line"/>
+      <point x="531.33" y="232.33"/>
+      <point x="684" y="366.67"/>
+    </contour>
+    <contour>
+      <point x="634" y="413" type="curve"/>
+      <point x="567" y="353" type="line"/>
+      <point x="571.67" y="332.33"/>
+      <point x="574" y="311.33"/>
+      <point x="574" y="290" type="curve" smooth="yes"/>
+      <point x="574" y="228"/>
+      <point x="548.5" y="172.5"/>
+      <point x="497.5" y="123.5" type="curve" smooth="yes"/>
+      <point x="446.5" y="74.5"/>
+      <point x="367.33" y="29.67"/>
+      <point x="260" y="-11" type="curve"/>
+      <point x="287" y="-86" type="line"/>
+      <point x="410.33" y="-38"/>
+      <point x="502" y="17.67"/>
+      <point x="562" y="81" type="curve" smooth="yes"/>
+      <point x="622" y="144.33"/>
+      <point x="652" y="217.33"/>
+      <point x="652" y="300" type="curve" smooth="yes"/>
+      <point x="652" y="336"/>
+      <point x="646" y="373.67"/>
+    </contour>
+    <contour>
+      <point x="451" y="-283" type="curve"/>
+      <point x="527" y="-296" type="line"/>
+      <point x="555.67" y="-180"/>
+      <point x="560.33" y="-51"/>
+      <point x="541" y="91" type="curve"/>
+      <point x="465" y="76" type="line"/>
+      <point x="483" y="-58"/>
+      <point x="478.33" y="-177.67"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>380</integer>
+            <integer>21</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>u</string>
+            <string>p</string>
+          </array>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>451</integer>
+            <integer>76</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>548</integer>
+            <integer>78</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>574</integer>
+            <integer>78</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

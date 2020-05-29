@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ddadda-oriya" format="2">
+  <advance width="653"/>
+  <note>
+ddaddaorya
+</note>
+  <guideline x="479" y="502" angle="90"/>
+  <guideline x="591" y="502" angle="90"/>
+  <anchor x="466" y="110" name="bottom"/>
+  <anchor x="316" y="8" name="nukta"/>
+  <anchor x="318" y="658" name="top"/>
+  <anchor x="550" y="658" name="topright"/>
+  <outline>
+    <component base="dda-oriya.below" xOffset="199"/>
+    <component base="dda-oriya.base"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>dda-oriya.below</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dda-oriya.base</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dda-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dda-oriya</string>
+    </dict>
+  </lib>
+</glyph>

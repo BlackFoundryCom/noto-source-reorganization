@@ -4,9 +4,15 @@
   <unicode hex="A6CF"/>
   <outline>
     <contour>
+      <point x="205" y="643" type="line"/>
+      <point x="502" y="643" type="line"/>
+      <point x="502" y="714" type="line"/>
+      <point x="205" y="714" type="line"/>
+    </contour>
+    <contour>
       <point x="42" y="179" type="line"/>
       <point x="133" y="179" type="line"/>
-      <point x="176" y="347" type="line"/>
+      <point x="176" y="347" type="line" smooth="yes"/>
       <point x="191" y="405"/>
       <point x="206" y="469"/>
       <point x="211" y="507" type="curve"/>
@@ -45,17 +51,11 @@
       <point x="400" y="126" type="line"/>
       <point x="311" y="126" type="line"/>
     </contour>
-    <contour>
-      <point x="205" y="643" type="line"/>
-      <point x="502" y="643" type="line"/>
-      <point x="502" y="714" type="line"/>
-      <point x="205" y="714" type="line"/>
-    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/02/24 16:23:59</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

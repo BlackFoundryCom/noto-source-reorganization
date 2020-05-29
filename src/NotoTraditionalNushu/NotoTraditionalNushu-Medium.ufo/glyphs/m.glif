@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="m" format="2">
+  <advance width="926"/>
+  <unicode hex="006D"/>
+  <note>
+m
+</note>
+  <outline>
+    <contour>
+      <point x="167" y="543" type="line"/>
+      <point x="92" y="543" type="line"/>
+      <point x="92" y="0" type="line"/>
+      <point x="183" y="0" type="line"/>
+      <point x="183" y="394" type="line"/>
+      <point x="232.33" y="449.33"/>
+      <point x="278" y="477"/>
+      <point x="320" y="477" type="curve" smooth="yes"/>
+      <point x="354.67" y="477"/>
+      <point x="380.17" y="465.5"/>
+      <point x="396.5" y="442.5" type="curve" smooth="yes"/>
+      <point x="412.83" y="419.5"/>
+      <point x="421" y="382.67"/>
+      <point x="421" y="332" type="curve" smooth="yes"/>
+      <point x="421" y="0" type="line"/>
+      <point x="512" y="0" type="line"/>
+      <point x="512" y="394" type="line"/>
+      <point x="562.67" y="449.33"/>
+      <point x="608.33" y="477"/>
+      <point x="649" y="477" type="curve" smooth="yes"/>
+      <point x="683.67" y="477"/>
+      <point x="709.17" y="465.5"/>
+      <point x="725.5" y="442.5" type="curve" smooth="yes"/>
+      <point x="741.83" y="419.5"/>
+      <point x="750" y="382.67"/>
+      <point x="750" y="332" type="curve" smooth="yes"/>
+      <point x="750" y="0" type="line"/>
+      <point x="841" y="0" type="line"/>
+      <point x="841" y="344" type="line" smooth="yes"/>
+      <point x="841" y="486"/>
+      <point x="786" y="557"/>
+      <point x="676" y="557" type="curve" smooth="yes"/>
+      <point x="620" y="557"/>
+      <point x="560.33" y="522.33"/>
+      <point x="497" y="453" type="curve"/>
+      <point x="473" y="522.33"/>
+      <point x="423" y="557"/>
+      <point x="347" y="557" type="curve" smooth="yes"/>
+      <point x="290.33" y="557"/>
+      <point x="234" y="526"/>
+      <point x="178" y="464" type="curve"/>
+      <point x="175" y="464" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>0</integer>
+            <integer>21</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>u</string>
+            <string>p</string>
+          </array>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>543</integer>
+            <integer>-20</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <array>
+            <string>d</string>
+            <string>o</string>
+            <string>w</string>
+            <string>n</string>
+          </array>
+          <key>type</key>
+          <string>TopGhost</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>477</integer>
+            <integer>80</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

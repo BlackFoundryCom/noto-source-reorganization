@@ -3,7 +3,7 @@
 <plist version="1.0">
   <dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>983</string>
+    <string>1230</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisableAllAutomaticBehaviour</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -81,7 +81,6 @@
       <string>auvowelsignrephdeva</string>
       <string>avagrahadeva</string>
       <string>awanusvaradeva</string>
-      <string>awcomponentdeva</string>
       <string>awdeva</string>
       <string>awvowelsignanusvaradeva</string>
       <string>awvowelsigncandrabindudeva</string>
@@ -89,6 +88,14 @@
       <string>awvowelsignrephanusvaradeva</string>
       <string>awvowelsignrephcandrabindudeva</string>
       <string>awvowelsignrephdeva</string>
+      <string>ayanusvaradeva</string>
+      <string>ayanusvaravowelsigndeva</string>
+      <string>aydeva</string>
+      <string>ayvowelsigncandrabindudeva</string>
+      <string>ayvowelsigndeva</string>
+      <string>ayvowelsignrephanusvaradeva</string>
+      <string>ayvowelsignrephcandrabindudeva</string>
+      <string>ayvowelsignrephdeva</string>
       <string>babardeva</string>
       <string>backslash.deva</string>
       <string>badeva</string>
@@ -534,8 +541,11 @@
       <string>maprehalfdeva</string>
       <string>maradeva</string>
       <string>maraprehalfdeva</string>
+      <string>marwariddaddadeva</string>
+      <string>marwariddaddhadeva</string>
       <string>marwariddadeva</string>
       <string>marwariddaradeva</string>
+      <string>marwariddayadeva</string>
       <string>minus.deva</string>
       <string>multiply.deva</string>
       <string>naddadeva</string>
@@ -684,6 +694,7 @@
       <string>raraprehalfdeva</string>
       <string>raudeva</string>
       <string>rauudeva</string>
+      <string>rayadeva</string>
       <string>rephanusvaradeva</string>
       <string>rephcandrabindudeva</string>
       <string>rephdeva</string>
@@ -740,6 +751,7 @@
       <string>shaprehalfdevaMAR</string>
       <string>sharadeva</string>
       <string>sharaprehalfdeva</string>
+      <string>sharvocalicdeva</string>
       <string>shavadeva</string>
       <string>six.deva</string>
       <string>sixdeva</string>
@@ -836,13 +848,10 @@
       <string>uni097D</string>
       <string>uni1CD0</string>
       <string>uni1CD0.UI</string>
-      <string>uni1CD0.low</string>
       <string>uni1CD1</string>
       <string>uni1CD1.UI</string>
-      <string>uni1CD1.low</string>
       <string>uni1CD2</string>
       <string>uni1CD2.UI</string>
-      <string>uni1CD2.low</string>
       <string>uni1CD3</string>
       <string>uni1CD4</string>
       <string>uni1CD5</string>
@@ -879,7 +888,6 @@
       <string>uni1CF3</string>
       <string>uni1CF4</string>
       <string>uni1CF4.UI</string>
-      <string>uni1CF4.low</string>
       <string>uni1CF5</string>
       <string>uni1CF6</string>
       <string>uni1CF8</string>
@@ -891,7 +899,6 @@
       <string>uni20B9.deva</string>
       <string>uni20F0</string>
       <string>uni20F0.UI</string>
-      <string>uni20F0.low</string>
       <string>uni25CC</string>
       <string>uniA830</string>
       <string>uniA831</string>
@@ -905,58 +912,40 @@
       <string>uniA839</string>
       <string>uniA8E0</string>
       <string>uniA8E0.UI</string>
-      <string>uniA8E0.low</string>
       <string>uniA8E1</string>
       <string>uniA8E1.UI</string>
-      <string>uniA8E1.low</string>
       <string>uniA8E2</string>
       <string>uniA8E2.UI</string>
-      <string>uniA8E2.low</string>
       <string>uniA8E3</string>
       <string>uniA8E3.UI</string>
-      <string>uniA8E3.low</string>
       <string>uniA8E4</string>
       <string>uniA8E4.UI</string>
-      <string>uniA8E4.low</string>
       <string>uniA8E5</string>
       <string>uniA8E5.UI</string>
-      <string>uniA8E5.low</string>
       <string>uniA8E6</string>
       <string>uniA8E6.UI</string>
-      <string>uniA8E6.low</string>
       <string>uniA8E7</string>
       <string>uniA8E7.UI</string>
-      <string>uniA8E7.low</string>
       <string>uniA8E8</string>
       <string>uniA8E8.UI</string>
-      <string>uniA8E8.low</string>
       <string>uniA8E9</string>
       <string>uniA8E9.UI</string>
-      <string>uniA8E9.low</string>
       <string>uniA8EA</string>
       <string>uniA8EA.UI</string>
-      <string>uniA8EA.low</string>
       <string>uniA8EB</string>
       <string>uniA8EB.UI</string>
-      <string>uniA8EB.low</string>
       <string>uniA8EC</string>
       <string>uniA8EC.UI</string>
-      <string>uniA8EC.low</string>
       <string>uniA8ED</string>
       <string>uniA8ED.UI</string>
-      <string>uniA8ED.low</string>
       <string>uniA8EE</string>
       <string>uniA8EE.UI</string>
-      <string>uniA8EE.low</string>
       <string>uniA8EF</string>
       <string>uniA8EF.UI</string>
-      <string>uniA8EF.low</string>
       <string>uniA8F0</string>
       <string>uniA8F0.UI</string>
-      <string>uniA8F0.low</string>
       <string>uniA8F1</string>
       <string>uniA8F1.UI</string>
-      <string>uniA8F1.low</string>
       <string>uniA8F2</string>
       <string>uniA8F3</string>
       <string>uniA8F4</string>
@@ -1087,7 +1076,6 @@
       <string>auvowelsignrephdeva</string>
       <string>avagrahadeva</string>
       <string>awanusvaradeva</string>
-      <string>awcomponentdeva</string>
       <string>awdeva</string>
       <string>awvowelsignanusvaradeva</string>
       <string>awvowelsigncandrabindudeva</string>
@@ -1095,6 +1083,14 @@
       <string>awvowelsignrephanusvaradeva</string>
       <string>awvowelsignrephcandrabindudeva</string>
       <string>awvowelsignrephdeva</string>
+      <string>ayanusvaradeva</string>
+      <string>ayanusvaravowelsigndeva</string>
+      <string>aydeva</string>
+      <string>ayvowelsigncandrabindudeva</string>
+      <string>ayvowelsigndeva</string>
+      <string>ayvowelsignrephanusvaradeva</string>
+      <string>ayvowelsignrephcandrabindudeva</string>
+      <string>ayvowelsignrephdeva</string>
       <string>babardeva</string>
       <string>backslash.deva</string>
       <string>badeva</string>
@@ -1540,8 +1536,11 @@
       <string>maprehalfdeva</string>
       <string>maradeva</string>
       <string>maraprehalfdeva</string>
+      <string>marwariddaddadeva</string>
+      <string>marwariddaddhadeva</string>
       <string>marwariddadeva</string>
       <string>marwariddaradeva</string>
+      <string>marwariddayadeva</string>
       <string>minus.deva</string>
       <string>multiply.deva</string>
       <string>naddadeva</string>
@@ -1690,6 +1689,7 @@
       <string>raraprehalfdeva</string>
       <string>raudeva</string>
       <string>rauudeva</string>
+      <string>rayadeva</string>
       <string>rephanusvaradeva</string>
       <string>rephcandrabindudeva</string>
       <string>rephdeva</string>
@@ -1746,6 +1746,7 @@
       <string>shaprehalfdevaMAR</string>
       <string>sharadeva</string>
       <string>sharaprehalfdeva</string>
+      <string>sharvocalicdeva</string>
       <string>shavadeva</string>
       <string>six.deva</string>
       <string>sixdeva</string>
@@ -1842,13 +1843,10 @@
       <string>uni097D</string>
       <string>uni1CD0</string>
       <string>uni1CD0.UI</string>
-      <string>uni1CD0.low</string>
       <string>uni1CD1</string>
       <string>uni1CD1.UI</string>
-      <string>uni1CD1.low</string>
       <string>uni1CD2</string>
       <string>uni1CD2.UI</string>
-      <string>uni1CD2.low</string>
       <string>uni1CD3</string>
       <string>uni1CD4</string>
       <string>uni1CD5</string>
@@ -1885,7 +1883,6 @@
       <string>uni1CF3</string>
       <string>uni1CF4</string>
       <string>uni1CF4.UI</string>
-      <string>uni1CF4.low</string>
       <string>uni1CF5</string>
       <string>uni1CF6</string>
       <string>uni1CF8</string>
@@ -1897,7 +1894,6 @@
       <string>uni20B9.deva</string>
       <string>uni20F0</string>
       <string>uni20F0.UI</string>
-      <string>uni20F0.low</string>
       <string>uni25CC</string>
       <string>uniA830</string>
       <string>uniA831</string>
@@ -1911,58 +1907,40 @@
       <string>uniA839</string>
       <string>uniA8E0</string>
       <string>uniA8E0.UI</string>
-      <string>uniA8E0.low</string>
       <string>uniA8E1</string>
       <string>uniA8E1.UI</string>
-      <string>uniA8E1.low</string>
       <string>uniA8E2</string>
       <string>uniA8E2.UI</string>
-      <string>uniA8E2.low</string>
       <string>uniA8E3</string>
       <string>uniA8E3.UI</string>
-      <string>uniA8E3.low</string>
       <string>uniA8E4</string>
       <string>uniA8E4.UI</string>
-      <string>uniA8E4.low</string>
       <string>uniA8E5</string>
       <string>uniA8E5.UI</string>
-      <string>uniA8E5.low</string>
       <string>uniA8E6</string>
       <string>uniA8E6.UI</string>
-      <string>uniA8E6.low</string>
       <string>uniA8E7</string>
       <string>uniA8E7.UI</string>
-      <string>uniA8E7.low</string>
       <string>uniA8E8</string>
       <string>uniA8E8.UI</string>
-      <string>uniA8E8.low</string>
       <string>uniA8E9</string>
       <string>uniA8E9.UI</string>
-      <string>uniA8E9.low</string>
       <string>uniA8EA</string>
       <string>uniA8EA.UI</string>
-      <string>uniA8EA.low</string>
       <string>uniA8EB</string>
       <string>uniA8EB.UI</string>
-      <string>uniA8EB.low</string>
       <string>uniA8EC</string>
       <string>uniA8EC.UI</string>
-      <string>uniA8EC.low</string>
       <string>uniA8ED</string>
       <string>uniA8ED.UI</string>
-      <string>uniA8ED.low</string>
       <string>uniA8EE</string>
       <string>uniA8EE.UI</string>
-      <string>uniA8EE.low</string>
       <string>uniA8EF</string>
       <string>uniA8EF.UI</string>
-      <string>uniA8EF.low</string>
       <string>uniA8F0</string>
       <string>uniA8F0.UI</string>
-      <string>uniA8F0.low</string>
       <string>uniA8F1</string>
       <string>uniA8F1.UI</string>
-      <string>uniA8F1.low</string>
       <string>uniA8F2</string>
       <string>uniA8F3</string>
       <string>uniA8F4</string>
@@ -2093,7 +2071,6 @@
       <string>auvowelsignrephdeva</string>
       <string>avagrahadeva</string>
       <string>awanusvaradeva</string>
-      <string>awcomponentdeva</string>
       <string>awdeva</string>
       <string>awvowelsignanusvaradeva</string>
       <string>awvowelsigncandrabindudeva</string>
@@ -2101,6 +2078,14 @@
       <string>awvowelsignrephanusvaradeva</string>
       <string>awvowelsignrephcandrabindudeva</string>
       <string>awvowelsignrephdeva</string>
+      <string>ayanusvaradeva</string>
+      <string>ayanusvaravowelsigndeva</string>
+      <string>aydeva</string>
+      <string>ayvowelsigncandrabindudeva</string>
+      <string>ayvowelsigndeva</string>
+      <string>ayvowelsignrephanusvaradeva</string>
+      <string>ayvowelsignrephcandrabindudeva</string>
+      <string>ayvowelsignrephdeva</string>
       <string>babardeva</string>
       <string>backslash.deva</string>
       <string>badeva</string>
@@ -2546,8 +2531,11 @@
       <string>maprehalfdeva</string>
       <string>maradeva</string>
       <string>maraprehalfdeva</string>
+      <string>marwariddaddadeva</string>
+      <string>marwariddaddhadeva</string>
       <string>marwariddadeva</string>
       <string>marwariddaradeva</string>
+      <string>marwariddayadeva</string>
       <string>minus.deva</string>
       <string>multiply.deva</string>
       <string>naddadeva</string>
@@ -2696,6 +2684,7 @@
       <string>raraprehalfdeva</string>
       <string>raudeva</string>
       <string>rauudeva</string>
+      <string>rayadeva</string>
       <string>rephanusvaradeva</string>
       <string>rephcandrabindudeva</string>
       <string>rephdeva</string>
@@ -2752,6 +2741,7 @@
       <string>shaprehalfdevaMAR</string>
       <string>sharadeva</string>
       <string>sharaprehalfdeva</string>
+      <string>sharvocalicdeva</string>
       <string>shavadeva</string>
       <string>six.deva</string>
       <string>sixdeva</string>
@@ -2848,13 +2838,10 @@
       <string>uni097D</string>
       <string>uni1CD0</string>
       <string>uni1CD0.UI</string>
-      <string>uni1CD0.low</string>
       <string>uni1CD1</string>
       <string>uni1CD1.UI</string>
-      <string>uni1CD1.low</string>
       <string>uni1CD2</string>
       <string>uni1CD2.UI</string>
-      <string>uni1CD2.low</string>
       <string>uni1CD3</string>
       <string>uni1CD4</string>
       <string>uni1CD5</string>
@@ -2891,7 +2878,6 @@
       <string>uni1CF3</string>
       <string>uni1CF4</string>
       <string>uni1CF4.UI</string>
-      <string>uni1CF4.low</string>
       <string>uni1CF5</string>
       <string>uni1CF6</string>
       <string>uni1CF8</string>
@@ -2903,7 +2889,6 @@
       <string>uni20B9.deva</string>
       <string>uni20F0</string>
       <string>uni20F0.UI</string>
-      <string>uni20F0.low</string>
       <string>uni25CC</string>
       <string>uniA830</string>
       <string>uniA831</string>
@@ -2917,58 +2902,40 @@
       <string>uniA839</string>
       <string>uniA8E0</string>
       <string>uniA8E0.UI</string>
-      <string>uniA8E0.low</string>
       <string>uniA8E1</string>
       <string>uniA8E1.UI</string>
-      <string>uniA8E1.low</string>
       <string>uniA8E2</string>
       <string>uniA8E2.UI</string>
-      <string>uniA8E2.low</string>
       <string>uniA8E3</string>
       <string>uniA8E3.UI</string>
-      <string>uniA8E3.low</string>
       <string>uniA8E4</string>
       <string>uniA8E4.UI</string>
-      <string>uniA8E4.low</string>
       <string>uniA8E5</string>
       <string>uniA8E5.UI</string>
-      <string>uniA8E5.low</string>
       <string>uniA8E6</string>
       <string>uniA8E6.UI</string>
-      <string>uniA8E6.low</string>
       <string>uniA8E7</string>
       <string>uniA8E7.UI</string>
-      <string>uniA8E7.low</string>
       <string>uniA8E8</string>
       <string>uniA8E8.UI</string>
-      <string>uniA8E8.low</string>
       <string>uniA8E9</string>
       <string>uniA8E9.UI</string>
-      <string>uniA8E9.low</string>
       <string>uniA8EA</string>
       <string>uniA8EA.UI</string>
-      <string>uniA8EA.low</string>
       <string>uniA8EB</string>
       <string>uniA8EB.UI</string>
-      <string>uniA8EB.low</string>
       <string>uniA8EC</string>
       <string>uniA8EC.UI</string>
-      <string>uniA8EC.low</string>
       <string>uniA8ED</string>
       <string>uniA8ED.UI</string>
-      <string>uniA8ED.low</string>
       <string>uniA8EE</string>
       <string>uniA8EE.UI</string>
-      <string>uniA8EE.low</string>
       <string>uniA8EF</string>
       <string>uniA8EF.UI</string>
-      <string>uniA8EF.low</string>
       <string>uniA8F0</string>
       <string>uniA8F0.UI</string>
-      <string>uniA8F0.low</string>
       <string>uniA8F1</string>
       <string>uniA8F1.UI</string>
-      <string>uniA8F1.low</string>
       <string>uniA8F2</string>
       <string>uniA8F3</string>
       <string>uniA8F4</string>
@@ -3099,7 +3066,6 @@
       <string>auvowelsignrephdeva</string>
       <string>avagrahadeva</string>
       <string>awanusvaradeva</string>
-      <string>awcomponentdeva</string>
       <string>awdeva</string>
       <string>awvowelsignanusvaradeva</string>
       <string>awvowelsigncandrabindudeva</string>
@@ -3107,6 +3073,14 @@
       <string>awvowelsignrephanusvaradeva</string>
       <string>awvowelsignrephcandrabindudeva</string>
       <string>awvowelsignrephdeva</string>
+      <string>ayanusvaradeva</string>
+      <string>ayanusvaravowelsigndeva</string>
+      <string>aydeva</string>
+      <string>ayvowelsigncandrabindudeva</string>
+      <string>ayvowelsigndeva</string>
+      <string>ayvowelsignrephanusvaradeva</string>
+      <string>ayvowelsignrephcandrabindudeva</string>
+      <string>ayvowelsignrephdeva</string>
       <string>babardeva</string>
       <string>backslash.deva</string>
       <string>badeva</string>
@@ -3552,8 +3526,11 @@
       <string>maprehalfdeva</string>
       <string>maradeva</string>
       <string>maraprehalfdeva</string>
+      <string>marwariddaddadeva</string>
+      <string>marwariddaddhadeva</string>
       <string>marwariddadeva</string>
       <string>marwariddaradeva</string>
+      <string>marwariddayadeva</string>
       <string>minus.deva</string>
       <string>multiply.deva</string>
       <string>naddadeva</string>
@@ -3702,6 +3679,7 @@
       <string>raraprehalfdeva</string>
       <string>raudeva</string>
       <string>rauudeva</string>
+      <string>rayadeva</string>
       <string>rephanusvaradeva</string>
       <string>rephcandrabindudeva</string>
       <string>rephdeva</string>
@@ -3758,6 +3736,7 @@
       <string>shaprehalfdevaMAR</string>
       <string>sharadeva</string>
       <string>sharaprehalfdeva</string>
+      <string>sharvocalicdeva</string>
       <string>shavadeva</string>
       <string>six.deva</string>
       <string>sixdeva</string>
@@ -3854,13 +3833,10 @@
       <string>uni097D</string>
       <string>uni1CD0</string>
       <string>uni1CD0.UI</string>
-      <string>uni1CD0.low</string>
       <string>uni1CD1</string>
       <string>uni1CD1.UI</string>
-      <string>uni1CD1.low</string>
       <string>uni1CD2</string>
       <string>uni1CD2.UI</string>
-      <string>uni1CD2.low</string>
       <string>uni1CD3</string>
       <string>uni1CD4</string>
       <string>uni1CD5</string>
@@ -3897,7 +3873,6 @@
       <string>uni1CF3</string>
       <string>uni1CF4</string>
       <string>uni1CF4.UI</string>
-      <string>uni1CF4.low</string>
       <string>uni1CF5</string>
       <string>uni1CF6</string>
       <string>uni1CF8</string>
@@ -3909,7 +3884,6 @@
       <string>uni20B9.deva</string>
       <string>uni20F0</string>
       <string>uni20F0.UI</string>
-      <string>uni20F0.low</string>
       <string>uni25CC</string>
       <string>uniA830</string>
       <string>uniA831</string>
@@ -3923,58 +3897,40 @@
       <string>uniA839</string>
       <string>uniA8E0</string>
       <string>uniA8E0.UI</string>
-      <string>uniA8E0.low</string>
       <string>uniA8E1</string>
       <string>uniA8E1.UI</string>
-      <string>uniA8E1.low</string>
       <string>uniA8E2</string>
       <string>uniA8E2.UI</string>
-      <string>uniA8E2.low</string>
       <string>uniA8E3</string>
       <string>uniA8E3.UI</string>
-      <string>uniA8E3.low</string>
       <string>uniA8E4</string>
       <string>uniA8E4.UI</string>
-      <string>uniA8E4.low</string>
       <string>uniA8E5</string>
       <string>uniA8E5.UI</string>
-      <string>uniA8E5.low</string>
       <string>uniA8E6</string>
       <string>uniA8E6.UI</string>
-      <string>uniA8E6.low</string>
       <string>uniA8E7</string>
       <string>uniA8E7.UI</string>
-      <string>uniA8E7.low</string>
       <string>uniA8E8</string>
       <string>uniA8E8.UI</string>
-      <string>uniA8E8.low</string>
       <string>uniA8E9</string>
       <string>uniA8E9.UI</string>
-      <string>uniA8E9.low</string>
       <string>uniA8EA</string>
       <string>uniA8EA.UI</string>
-      <string>uniA8EA.low</string>
       <string>uniA8EB</string>
       <string>uniA8EB.UI</string>
-      <string>uniA8EB.low</string>
       <string>uniA8EC</string>
       <string>uniA8EC.UI</string>
-      <string>uniA8EC.low</string>
       <string>uniA8ED</string>
       <string>uniA8ED.UI</string>
-      <string>uniA8ED.low</string>
       <string>uniA8EE</string>
       <string>uniA8EE.UI</string>
-      <string>uniA8EE.low</string>
       <string>uniA8EF</string>
       <string>uniA8EF.UI</string>
-      <string>uniA8EF.low</string>
       <string>uniA8F0</string>
       <string>uniA8F0.UI</string>
-      <string>uniA8F0.low</string>
       <string>uniA8F1</string>
       <string>uniA8F1.UI</string>
-      <string>uniA8F1.low</string>
       <string>uniA8F2</string>
       <string>uniA8F3</string>
       <string>uniA8F4</string>
@@ -4105,7 +4061,6 @@
       <string>auvowelsignrephdeva</string>
       <string>avagrahadeva</string>
       <string>awanusvaradeva</string>
-      <string>awcomponentdeva</string>
       <string>awdeva</string>
       <string>awvowelsignanusvaradeva</string>
       <string>awvowelsigncandrabindudeva</string>
@@ -4113,6 +4068,14 @@
       <string>awvowelsignrephanusvaradeva</string>
       <string>awvowelsignrephcandrabindudeva</string>
       <string>awvowelsignrephdeva</string>
+      <string>ayanusvaradeva</string>
+      <string>ayanusvaravowelsigndeva</string>
+      <string>aydeva</string>
+      <string>ayvowelsigncandrabindudeva</string>
+      <string>ayvowelsigndeva</string>
+      <string>ayvowelsignrephanusvaradeva</string>
+      <string>ayvowelsignrephcandrabindudeva</string>
+      <string>ayvowelsignrephdeva</string>
       <string>babardeva</string>
       <string>backslash.deva</string>
       <string>badeva</string>
@@ -4558,8 +4521,11 @@
       <string>maprehalfdeva</string>
       <string>maradeva</string>
       <string>maraprehalfdeva</string>
+      <string>marwariddaddadeva</string>
+      <string>marwariddaddhadeva</string>
       <string>marwariddadeva</string>
       <string>marwariddaradeva</string>
+      <string>marwariddayadeva</string>
       <string>minus.deva</string>
       <string>multiply.deva</string>
       <string>naddadeva</string>
@@ -4708,6 +4674,7 @@
       <string>raraprehalfdeva</string>
       <string>raudeva</string>
       <string>rauudeva</string>
+      <string>rayadeva</string>
       <string>rephanusvaradeva</string>
       <string>rephcandrabindudeva</string>
       <string>rephdeva</string>
@@ -4764,6 +4731,7 @@
       <string>shaprehalfdevaMAR</string>
       <string>sharadeva</string>
       <string>sharaprehalfdeva</string>
+      <string>sharvocalicdeva</string>
       <string>shavadeva</string>
       <string>six.deva</string>
       <string>sixdeva</string>
@@ -4860,13 +4828,10 @@
       <string>uni097D</string>
       <string>uni1CD0</string>
       <string>uni1CD0.UI</string>
-      <string>uni1CD0.low</string>
       <string>uni1CD1</string>
       <string>uni1CD1.UI</string>
-      <string>uni1CD1.low</string>
       <string>uni1CD2</string>
       <string>uni1CD2.UI</string>
-      <string>uni1CD2.low</string>
       <string>uni1CD3</string>
       <string>uni1CD4</string>
       <string>uni1CD5</string>
@@ -4903,7 +4868,6 @@
       <string>uni1CF3</string>
       <string>uni1CF4</string>
       <string>uni1CF4.UI</string>
-      <string>uni1CF4.low</string>
       <string>uni1CF5</string>
       <string>uni1CF6</string>
       <string>uni1CF8</string>
@@ -4915,7 +4879,6 @@
       <string>uni20B9.deva</string>
       <string>uni20F0</string>
       <string>uni20F0.UI</string>
-      <string>uni20F0.low</string>
       <string>uni25CC</string>
       <string>uniA830</string>
       <string>uniA831</string>
@@ -4929,58 +4892,40 @@
       <string>uniA839</string>
       <string>uniA8E0</string>
       <string>uniA8E0.UI</string>
-      <string>uniA8E0.low</string>
       <string>uniA8E1</string>
       <string>uniA8E1.UI</string>
-      <string>uniA8E1.low</string>
       <string>uniA8E2</string>
       <string>uniA8E2.UI</string>
-      <string>uniA8E2.low</string>
       <string>uniA8E3</string>
       <string>uniA8E3.UI</string>
-      <string>uniA8E3.low</string>
       <string>uniA8E4</string>
       <string>uniA8E4.UI</string>
-      <string>uniA8E4.low</string>
       <string>uniA8E5</string>
       <string>uniA8E5.UI</string>
-      <string>uniA8E5.low</string>
       <string>uniA8E6</string>
       <string>uniA8E6.UI</string>
-      <string>uniA8E6.low</string>
       <string>uniA8E7</string>
       <string>uniA8E7.UI</string>
-      <string>uniA8E7.low</string>
       <string>uniA8E8</string>
       <string>uniA8E8.UI</string>
-      <string>uniA8E8.low</string>
       <string>uniA8E9</string>
       <string>uniA8E9.UI</string>
-      <string>uniA8E9.low</string>
       <string>uniA8EA</string>
       <string>uniA8EA.UI</string>
-      <string>uniA8EA.low</string>
       <string>uniA8EB</string>
       <string>uniA8EB.UI</string>
-      <string>uniA8EB.low</string>
       <string>uniA8EC</string>
       <string>uniA8EC.UI</string>
-      <string>uniA8EC.low</string>
       <string>uniA8ED</string>
       <string>uniA8ED.UI</string>
-      <string>uniA8ED.low</string>
       <string>uniA8EE</string>
       <string>uniA8EE.UI</string>
-      <string>uniA8EE.low</string>
       <string>uniA8EF</string>
       <string>uniA8EF.UI</string>
-      <string>uniA8EF.low</string>
       <string>uniA8F0</string>
       <string>uniA8F0.UI</string>
-      <string>uniA8F0.low</string>
       <string>uniA8F1</string>
       <string>uniA8F1.UI</string>
-      <string>uniA8F1.low</string>
       <string>uniA8F2</string>
       <string>uniA8F3</string>
       <string>uniA8F4</string>
@@ -5111,7 +5056,6 @@
       <string>auvowelsignrephdeva</string>
       <string>avagrahadeva</string>
       <string>awanusvaradeva</string>
-      <string>awcomponentdeva</string>
       <string>awdeva</string>
       <string>awvowelsignanusvaradeva</string>
       <string>awvowelsigncandrabindudeva</string>
@@ -5119,6 +5063,14 @@
       <string>awvowelsignrephanusvaradeva</string>
       <string>awvowelsignrephcandrabindudeva</string>
       <string>awvowelsignrephdeva</string>
+      <string>ayanusvaradeva</string>
+      <string>ayanusvaravowelsigndeva</string>
+      <string>aydeva</string>
+      <string>ayvowelsigncandrabindudeva</string>
+      <string>ayvowelsigndeva</string>
+      <string>ayvowelsignrephanusvaradeva</string>
+      <string>ayvowelsignrephcandrabindudeva</string>
+      <string>ayvowelsignrephdeva</string>
       <string>babardeva</string>
       <string>backslash.deva</string>
       <string>badeva</string>
@@ -5564,8 +5516,11 @@
       <string>maprehalfdeva</string>
       <string>maradeva</string>
       <string>maraprehalfdeva</string>
+      <string>marwariddaddadeva</string>
+      <string>marwariddaddhadeva</string>
       <string>marwariddadeva</string>
       <string>marwariddaradeva</string>
+      <string>marwariddayadeva</string>
       <string>minus.deva</string>
       <string>multiply.deva</string>
       <string>naddadeva</string>
@@ -5714,6 +5669,7 @@
       <string>raraprehalfdeva</string>
       <string>raudeva</string>
       <string>rauudeva</string>
+      <string>rayadeva</string>
       <string>rephanusvaradeva</string>
       <string>rephcandrabindudeva</string>
       <string>rephdeva</string>
@@ -5770,6 +5726,7 @@
       <string>shaprehalfdevaMAR</string>
       <string>sharadeva</string>
       <string>sharaprehalfdeva</string>
+      <string>sharvocalicdeva</string>
       <string>shavadeva</string>
       <string>six.deva</string>
       <string>sixdeva</string>
@@ -5866,13 +5823,10 @@
       <string>uni097D</string>
       <string>uni1CD0</string>
       <string>uni1CD0.UI</string>
-      <string>uni1CD0.low</string>
       <string>uni1CD1</string>
       <string>uni1CD1.UI</string>
-      <string>uni1CD1.low</string>
       <string>uni1CD2</string>
       <string>uni1CD2.UI</string>
-      <string>uni1CD2.low</string>
       <string>uni1CD3</string>
       <string>uni1CD4</string>
       <string>uni1CD5</string>
@@ -5909,7 +5863,6 @@
       <string>uni1CF3</string>
       <string>uni1CF4</string>
       <string>uni1CF4.UI</string>
-      <string>uni1CF4.low</string>
       <string>uni1CF5</string>
       <string>uni1CF6</string>
       <string>uni1CF8</string>
@@ -5921,7 +5874,6 @@
       <string>uni20B9.deva</string>
       <string>uni20F0</string>
       <string>uni20F0.UI</string>
-      <string>uni20F0.low</string>
       <string>uni25CC</string>
       <string>uniA830</string>
       <string>uniA831</string>
@@ -5935,58 +5887,40 @@
       <string>uniA839</string>
       <string>uniA8E0</string>
       <string>uniA8E0.UI</string>
-      <string>uniA8E0.low</string>
       <string>uniA8E1</string>
       <string>uniA8E1.UI</string>
-      <string>uniA8E1.low</string>
       <string>uniA8E2</string>
       <string>uniA8E2.UI</string>
-      <string>uniA8E2.low</string>
       <string>uniA8E3</string>
       <string>uniA8E3.UI</string>
-      <string>uniA8E3.low</string>
       <string>uniA8E4</string>
       <string>uniA8E4.UI</string>
-      <string>uniA8E4.low</string>
       <string>uniA8E5</string>
       <string>uniA8E5.UI</string>
-      <string>uniA8E5.low</string>
       <string>uniA8E6</string>
       <string>uniA8E6.UI</string>
-      <string>uniA8E6.low</string>
       <string>uniA8E7</string>
       <string>uniA8E7.UI</string>
-      <string>uniA8E7.low</string>
       <string>uniA8E8</string>
       <string>uniA8E8.UI</string>
-      <string>uniA8E8.low</string>
       <string>uniA8E9</string>
       <string>uniA8E9.UI</string>
-      <string>uniA8E9.low</string>
       <string>uniA8EA</string>
       <string>uniA8EA.UI</string>
-      <string>uniA8EA.low</string>
       <string>uniA8EB</string>
       <string>uniA8EB.UI</string>
-      <string>uniA8EB.low</string>
       <string>uniA8EC</string>
       <string>uniA8EC.UI</string>
-      <string>uniA8EC.low</string>
       <string>uniA8ED</string>
       <string>uniA8ED.UI</string>
-      <string>uniA8ED.low</string>
       <string>uniA8EE</string>
       <string>uniA8EE.UI</string>
-      <string>uniA8EE.low</string>
       <string>uniA8EF</string>
       <string>uniA8EF.UI</string>
-      <string>uniA8EF.low</string>
       <string>uniA8F0</string>
       <string>uniA8F0.UI</string>
-      <string>uniA8F0.low</string>
       <string>uniA8F1</string>
       <string>uniA8F1.UI</string>
-      <string>uniA8F1.low</string>
       <string>uniA8F2</string>
       <string>uniA8F3</string>
       <string>uniA8F4</string>
@@ -6117,7 +6051,6 @@
       <string>auvowelsignrephdeva</string>
       <string>avagrahadeva</string>
       <string>awanusvaradeva</string>
-      <string>awcomponentdeva</string>
       <string>awdeva</string>
       <string>awvowelsignanusvaradeva</string>
       <string>awvowelsigncandrabindudeva</string>
@@ -6125,6 +6058,14 @@
       <string>awvowelsignrephanusvaradeva</string>
       <string>awvowelsignrephcandrabindudeva</string>
       <string>awvowelsignrephdeva</string>
+      <string>ayanusvaradeva</string>
+      <string>ayanusvaravowelsigndeva</string>
+      <string>aydeva</string>
+      <string>ayvowelsigncandrabindudeva</string>
+      <string>ayvowelsigndeva</string>
+      <string>ayvowelsignrephanusvaradeva</string>
+      <string>ayvowelsignrephcandrabindudeva</string>
+      <string>ayvowelsignrephdeva</string>
       <string>babardeva</string>
       <string>backslash.deva</string>
       <string>badeva</string>
@@ -6570,8 +6511,11 @@
       <string>maprehalfdeva</string>
       <string>maradeva</string>
       <string>maraprehalfdeva</string>
+      <string>marwariddaddadeva</string>
+      <string>marwariddaddhadeva</string>
       <string>marwariddadeva</string>
       <string>marwariddaradeva</string>
+      <string>marwariddayadeva</string>
       <string>minus.deva</string>
       <string>multiply.deva</string>
       <string>naddadeva</string>
@@ -6720,6 +6664,7 @@
       <string>raraprehalfdeva</string>
       <string>raudeva</string>
       <string>rauudeva</string>
+      <string>rayadeva</string>
       <string>rephanusvaradeva</string>
       <string>rephcandrabindudeva</string>
       <string>rephdeva</string>
@@ -6776,6 +6721,7 @@
       <string>shaprehalfdevaMAR</string>
       <string>sharadeva</string>
       <string>sharaprehalfdeva</string>
+      <string>sharvocalicdeva</string>
       <string>shavadeva</string>
       <string>six.deva</string>
       <string>sixdeva</string>
@@ -6872,13 +6818,10 @@
       <string>uni097D</string>
       <string>uni1CD0</string>
       <string>uni1CD0.UI</string>
-      <string>uni1CD0.low</string>
       <string>uni1CD1</string>
       <string>uni1CD1.UI</string>
-      <string>uni1CD1.low</string>
       <string>uni1CD2</string>
       <string>uni1CD2.UI</string>
-      <string>uni1CD2.low</string>
       <string>uni1CD3</string>
       <string>uni1CD4</string>
       <string>uni1CD5</string>
@@ -6915,7 +6858,6 @@
       <string>uni1CF3</string>
       <string>uni1CF4</string>
       <string>uni1CF4.UI</string>
-      <string>uni1CF4.low</string>
       <string>uni1CF5</string>
       <string>uni1CF6</string>
       <string>uni1CF8</string>
@@ -6927,7 +6869,6 @@
       <string>uni20B9.deva</string>
       <string>uni20F0</string>
       <string>uni20F0.UI</string>
-      <string>uni20F0.low</string>
       <string>uni25CC</string>
       <string>uniA830</string>
       <string>uniA831</string>
@@ -6941,58 +6882,40 @@
       <string>uniA839</string>
       <string>uniA8E0</string>
       <string>uniA8E0.UI</string>
-      <string>uniA8E0.low</string>
       <string>uniA8E1</string>
       <string>uniA8E1.UI</string>
-      <string>uniA8E1.low</string>
       <string>uniA8E2</string>
       <string>uniA8E2.UI</string>
-      <string>uniA8E2.low</string>
       <string>uniA8E3</string>
       <string>uniA8E3.UI</string>
-      <string>uniA8E3.low</string>
       <string>uniA8E4</string>
       <string>uniA8E4.UI</string>
-      <string>uniA8E4.low</string>
       <string>uniA8E5</string>
       <string>uniA8E5.UI</string>
-      <string>uniA8E5.low</string>
       <string>uniA8E6</string>
       <string>uniA8E6.UI</string>
-      <string>uniA8E6.low</string>
       <string>uniA8E7</string>
       <string>uniA8E7.UI</string>
-      <string>uniA8E7.low</string>
       <string>uniA8E8</string>
       <string>uniA8E8.UI</string>
-      <string>uniA8E8.low</string>
       <string>uniA8E9</string>
       <string>uniA8E9.UI</string>
-      <string>uniA8E9.low</string>
       <string>uniA8EA</string>
       <string>uniA8EA.UI</string>
-      <string>uniA8EA.low</string>
       <string>uniA8EB</string>
       <string>uniA8EB.UI</string>
-      <string>uniA8EB.low</string>
       <string>uniA8EC</string>
       <string>uniA8EC.UI</string>
-      <string>uniA8EC.low</string>
       <string>uniA8ED</string>
       <string>uniA8ED.UI</string>
-      <string>uniA8ED.low</string>
       <string>uniA8EE</string>
       <string>uniA8EE.UI</string>
-      <string>uniA8EE.low</string>
       <string>uniA8EF</string>
       <string>uniA8EF.UI</string>
-      <string>uniA8EF.low</string>
       <string>uniA8F0</string>
       <string>uniA8F0.UI</string>
-      <string>uniA8F0.low</string>
       <string>uniA8F1</string>
       <string>uniA8F1.UI</string>
-      <string>uniA8F1.low</string>
       <string>uniA8F2</string>
       <string>uniA8F3</string>
       <string>uniA8F4</string>
@@ -7123,7 +7046,6 @@
       <string>auvowelsignrephdeva</string>
       <string>avagrahadeva</string>
       <string>awanusvaradeva</string>
-      <string>awcomponentdeva</string>
       <string>awdeva</string>
       <string>awvowelsignanusvaradeva</string>
       <string>awvowelsigncandrabindudeva</string>
@@ -7131,6 +7053,14 @@
       <string>awvowelsignrephanusvaradeva</string>
       <string>awvowelsignrephcandrabindudeva</string>
       <string>awvowelsignrephdeva</string>
+      <string>ayanusvaradeva</string>
+      <string>ayanusvaravowelsigndeva</string>
+      <string>aydeva</string>
+      <string>ayvowelsigncandrabindudeva</string>
+      <string>ayvowelsigndeva</string>
+      <string>ayvowelsignrephanusvaradeva</string>
+      <string>ayvowelsignrephcandrabindudeva</string>
+      <string>ayvowelsignrephdeva</string>
       <string>babardeva</string>
       <string>backslash.deva</string>
       <string>badeva</string>
@@ -7576,8 +7506,11 @@
       <string>maprehalfdeva</string>
       <string>maradeva</string>
       <string>maraprehalfdeva</string>
+      <string>marwariddaddadeva</string>
+      <string>marwariddaddhadeva</string>
       <string>marwariddadeva</string>
       <string>marwariddaradeva</string>
+      <string>marwariddayadeva</string>
       <string>minus.deva</string>
       <string>multiply.deva</string>
       <string>naddadeva</string>
@@ -7726,6 +7659,7 @@
       <string>raraprehalfdeva</string>
       <string>raudeva</string>
       <string>rauudeva</string>
+      <string>rayadeva</string>
       <string>rephanusvaradeva</string>
       <string>rephcandrabindudeva</string>
       <string>rephdeva</string>
@@ -7782,6 +7716,7 @@
       <string>shaprehalfdevaMAR</string>
       <string>sharadeva</string>
       <string>sharaprehalfdeva</string>
+      <string>sharvocalicdeva</string>
       <string>shavadeva</string>
       <string>six.deva</string>
       <string>sixdeva</string>
@@ -7878,13 +7813,10 @@
       <string>uni097D</string>
       <string>uni1CD0</string>
       <string>uni1CD0.UI</string>
-      <string>uni1CD0.low</string>
       <string>uni1CD1</string>
       <string>uni1CD1.UI</string>
-      <string>uni1CD1.low</string>
       <string>uni1CD2</string>
       <string>uni1CD2.UI</string>
-      <string>uni1CD2.low</string>
       <string>uni1CD3</string>
       <string>uni1CD4</string>
       <string>uni1CD5</string>
@@ -7921,7 +7853,6 @@
       <string>uni1CF3</string>
       <string>uni1CF4</string>
       <string>uni1CF4.UI</string>
-      <string>uni1CF4.low</string>
       <string>uni1CF5</string>
       <string>uni1CF6</string>
       <string>uni1CF8</string>
@@ -7933,7 +7864,6 @@
       <string>uni20B9.deva</string>
       <string>uni20F0</string>
       <string>uni20F0.UI</string>
-      <string>uni20F0.low</string>
       <string>uni25CC</string>
       <string>uniA830</string>
       <string>uniA831</string>
@@ -7947,58 +7877,40 @@
       <string>uniA839</string>
       <string>uniA8E0</string>
       <string>uniA8E0.UI</string>
-      <string>uniA8E0.low</string>
       <string>uniA8E1</string>
       <string>uniA8E1.UI</string>
-      <string>uniA8E1.low</string>
       <string>uniA8E2</string>
       <string>uniA8E2.UI</string>
-      <string>uniA8E2.low</string>
       <string>uniA8E3</string>
       <string>uniA8E3.UI</string>
-      <string>uniA8E3.low</string>
       <string>uniA8E4</string>
       <string>uniA8E4.UI</string>
-      <string>uniA8E4.low</string>
       <string>uniA8E5</string>
       <string>uniA8E5.UI</string>
-      <string>uniA8E5.low</string>
       <string>uniA8E6</string>
       <string>uniA8E6.UI</string>
-      <string>uniA8E6.low</string>
       <string>uniA8E7</string>
       <string>uniA8E7.UI</string>
-      <string>uniA8E7.low</string>
       <string>uniA8E8</string>
       <string>uniA8E8.UI</string>
-      <string>uniA8E8.low</string>
       <string>uniA8E9</string>
       <string>uniA8E9.UI</string>
-      <string>uniA8E9.low</string>
       <string>uniA8EA</string>
       <string>uniA8EA.UI</string>
-      <string>uniA8EA.low</string>
       <string>uniA8EB</string>
       <string>uniA8EB.UI</string>
-      <string>uniA8EB.low</string>
       <string>uniA8EC</string>
       <string>uniA8EC.UI</string>
-      <string>uniA8EC.low</string>
       <string>uniA8ED</string>
       <string>uniA8ED.UI</string>
-      <string>uniA8ED.low</string>
       <string>uniA8EE</string>
       <string>uniA8EE.UI</string>
-      <string>uniA8EE.low</string>
       <string>uniA8EF</string>
       <string>uniA8EF.UI</string>
-      <string>uniA8EF.low</string>
       <string>uniA8F0</string>
       <string>uniA8F0.UI</string>
-      <string>uniA8F0.low</string>
       <string>uniA8F1</string>
       <string>uniA8F1.UI</string>
-      <string>uniA8F1.low</string>
       <string>uniA8F2</string>
       <string>uniA8F3</string>
       <string>uniA8F4</string>
@@ -8297,7 +8209,6 @@
     <key>public.skipExportGlyphs</key>
     <array>
       <string>candrabindusmalldeva</string>
-      <string>awcomponentdeva</string>
       <string>nuktasmalldeva</string>
     </array>
   </dict>

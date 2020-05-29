@@ -2,15 +2,12 @@
 <glyph name="oShort-deva" format="2">
   <advance width="815"/>
   <unicode hex="0912"/>
-  <anchor x="544" y="10" name="bottom_1"/>
-  <anchor x="761" y="10" name="bottom_2"/>
-  <anchor x="289" y="0" name="bottom_right_1"/>
-  <anchor x="566" y="-8" name="bottom_right_2"/>
-  <anchor x="543" y="625" name="candra_1"/>
-  <anchor x="762" y="625" name="candra_2"/>
+  <anchor x="803" y="802" name="#topRight"/>
+  <anchor x="761" y="10" name="bottom"/>
+  <anchor x="566" y="-8" name="bottom_right"/>
+  <anchor x="762" y="625" name="candra"/>
   <anchor x="207" y="-38" name="nukta"/>
-  <anchor x="543" y="625" name="top_1"/>
-  <anchor x="762" y="625" name="top_2"/>
+  <anchor x="762" y="625" name="top"/>
   <outline>
     <component base="a-deva"/>
     <component base="oShortMatra-deva" xOffset="598"/>

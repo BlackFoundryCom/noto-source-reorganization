@@ -2,11 +2,9 @@
 <glyph name="uniA6D2" format="2">
   <advance width="520"/>
   <unicode hex="A6D2"/>
+  <guideline x="190" y="662" angle="291.8014"/>
   <outline>
     <contour>
-      <point x="383" y="-10" type="line"/>
-      <point x="383" y="84" type="line"/>
-      <point x="247" y="156" type="line"/>
       <point x="318" y="227" type="line" smooth="yes"/>
       <point x="419" y="328"/>
       <point x="491" y="422"/>
@@ -30,12 +28,15 @@
       <point x="181" y="192" type="line"/>
       <point x="25" y="275" type="line"/>
       <point x="25" y="181" type="line"/>
+      <point x="383" y="-10" type="line"/>
+      <point x="383" y="84" type="line"/>
+      <point x="247" y="156" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/02/24 16:23:59</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
     </dict>
   </lib>
 </glyph>

@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>com.github.googlei18n.ufo2ft.useProductionNames</key>
-    <true/>
     <key>com.schriftgestaltung.Glyphs.glyphUserData..notdef</key>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
@@ -101055,70 +101053,7 @@
       <integer>5</integer>
     </dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1245</string>
-    <key>com.schriftgestaltung.customParameter.GSFont.AnchorColors</key>
-    <dict>
-      <key>#topRight</key>
-      <array>
-        <real>0.30203</real>
-        <real>0.29562</real>
-        <real>0.22613</real>
-      </array>
-      <key>bottom</key>
-      <array>
-        <real>0.48999</real>
-        <real>0.21833</real>
-        <real>0.17675</real>
-      </array>
-      <key>bottom1</key>
-      <array>
-        <real>0.49642</real>
-        <real>0.12721</real>
-        <real>0.21472</real>
-      </array>
-      <key>bottom_right</key>
-      <array>
-        <real>0.01065</real>
-        <real>0.27201</real>
-        <real>0.045</real>
-      </array>
-      <key>candra</key>
-      <array>
-        <real>0.20832</real>
-        <real>0.36012</real>
-        <real>0.42512</real>
-      </array>
-      <key>intme</key>
-      <array>
-        <real>0.02439</real>
-        <real>0.43481</real>
-        <real>0.14245</real>
-      </array>
-      <key>nukta</key>
-      <array>
-        <real>0.02503</real>
-        <real>0.07503</real>
-        <real>0.21175</real>
-      </array>
-      <key>top</key>
-      <array>
-        <real>0.10797</real>
-        <real>0.44098</real>
-        <real>0.12691</real>
-      </array>
-      <key>topRight</key>
-      <array>
-        <real>0.22281</real>
-        <real>0.07424</real>
-        <real>0.37204</real>
-      </array>
-      <key>topright</key>
-      <array>
-        <real>0.28863</real>
-        <real>0.36132</real>
-        <real>0.47041</real>
-      </array>
-    </dict>
+    <string>1306</string>
     <key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
     <array>
       <dict>
@@ -101216,6 +101151,12 @@
       <string>awMatra_reph-deva</string>
       <string>awMatra_rephCandrabindu-deva</string>
       <string>awMatra_rephanusvara-deva</string>
+      <string>ay-deva</string>
+      <string>ayMatra-deva</string>
+      <string>ayMatra_candraBindu-deva</string>
+      <string>ayMatra_reph-deva</string>
+      <string>ayMatra_rephCandrabindu-deva</string>
+      <string>ayMatra_rephanusvara-deva</string>
       <string>b-deva</string>
       <string>b_nukta-deva</string>
       <string>b_r-deva</string>
@@ -101670,6 +101611,10 @@
       <string>m_ra_nukta-deva</string>
       <string>ma-deva</string>
       <string>ma_nukta-deva</string>
+      <string>marwaridd_dda-deva</string>
+      <string>marwaridd_ddha-deva</string>
+      <string>marwaridd_ra-deva</string>
+      <string>marwaridd_ya-deva</string>
       <string>marwaridda-deva</string>
       <string>minus</string>
       <string>multiply</string>
@@ -101785,6 +101730,7 @@
       <string>rVocalicMatra-deva</string>
       <string>r_r-deva</string>
       <string>r_ra-deva</string>
+      <string>r_ya-deva</string>
       <string>ra-deva</string>
       <string>ra_uMatra-deva</string>
       <string>ra_uMatra_nukta-deva</string>
@@ -102079,6 +102025,12 @@
       <string>awMatra_reph-deva</string>
       <string>awMatra_rephCandrabindu-deva</string>
       <string>awMatra_rephanusvara-deva</string>
+      <string>ay-deva</string>
+      <string>ayMatra-deva</string>
+      <string>ayMatra_candraBindu-deva</string>
+      <string>ayMatra_reph-deva</string>
+      <string>ayMatra_rephCandrabindu-deva</string>
+      <string>ayMatra_rephanusvara-deva</string>
       <string>b-deva</string>
       <string>b_nukta-deva</string>
       <string>b_r-deva</string>
@@ -102533,6 +102485,10 @@
       <string>m_ra_nukta-deva</string>
       <string>ma-deva</string>
       <string>ma_nukta-deva</string>
+      <string>marwaridd_dda-deva</string>
+      <string>marwaridd_ddha-deva</string>
+      <string>marwaridd_ra-deva</string>
+      <string>marwaridd_ya-deva</string>
       <string>marwaridda-deva</string>
       <string>minus</string>
       <string>multiply</string>
@@ -102648,6 +102604,7 @@
       <string>rVocalicMatra-deva</string>
       <string>r_r-deva</string>
       <string>r_ra-deva</string>
+      <string>r_ya-deva</string>
       <string>ra-deva</string>
       <string>ra_uMatra-deva</string>
       <string>ra_uMatra_nukta-deva</string>
@@ -102942,6 +102899,12 @@
       <string>awMatra_reph-deva</string>
       <string>awMatra_rephCandrabindu-deva</string>
       <string>awMatra_rephanusvara-deva</string>
+      <string>ay-deva</string>
+      <string>ayMatra-deva</string>
+      <string>ayMatra_candraBindu-deva</string>
+      <string>ayMatra_reph-deva</string>
+      <string>ayMatra_rephCandrabindu-deva</string>
+      <string>ayMatra_rephanusvara-deva</string>
       <string>b-deva</string>
       <string>b_nukta-deva</string>
       <string>b_r-deva</string>
@@ -103396,6 +103359,10 @@
       <string>m_ra_nukta-deva</string>
       <string>ma-deva</string>
       <string>ma_nukta-deva</string>
+      <string>marwaridd_dda-deva</string>
+      <string>marwaridd_ddha-deva</string>
+      <string>marwaridd_ra-deva</string>
+      <string>marwaridd_ya-deva</string>
       <string>marwaridda-deva</string>
       <string>minus</string>
       <string>multiply</string>
@@ -103511,6 +103478,7 @@
       <string>rVocalicMatra-deva</string>
       <string>r_r-deva</string>
       <string>r_ra-deva</string>
+      <string>r_ya-deva</string>
       <string>ra-deva</string>
       <string>ra_uMatra-deva</string>
       <string>ra_uMatra_nukta-deva</string>
@@ -103805,6 +103773,12 @@
       <string>awMatra_reph-deva</string>
       <string>awMatra_rephCandrabindu-deva</string>
       <string>awMatra_rephanusvara-deva</string>
+      <string>ay-deva</string>
+      <string>ayMatra-deva</string>
+      <string>ayMatra_candraBindu-deva</string>
+      <string>ayMatra_reph-deva</string>
+      <string>ayMatra_rephCandrabindu-deva</string>
+      <string>ayMatra_rephanusvara-deva</string>
       <string>b-deva</string>
       <string>b_nukta-deva</string>
       <string>b_r-deva</string>
@@ -104259,6 +104233,10 @@
       <string>m_ra_nukta-deva</string>
       <string>ma-deva</string>
       <string>ma_nukta-deva</string>
+      <string>marwaridd_dda-deva</string>
+      <string>marwaridd_ddha-deva</string>
+      <string>marwaridd_ra-deva</string>
+      <string>marwaridd_ya-deva</string>
       <string>marwaridda-deva</string>
       <string>minus</string>
       <string>multiply</string>
@@ -104374,6 +104352,7 @@
       <string>rVocalicMatra-deva</string>
       <string>r_r-deva</string>
       <string>r_ra-deva</string>
+      <string>r_ya-deva</string>
       <string>ra-deva</string>
       <string>ra_uMatra-deva</string>
       <string>ra_uMatra_nukta-deva</string>
@@ -104668,6 +104647,12 @@
       <string>awMatra_reph-deva</string>
       <string>awMatra_rephCandrabindu-deva</string>
       <string>awMatra_rephanusvara-deva</string>
+      <string>ay-deva</string>
+      <string>ayMatra-deva</string>
+      <string>ayMatra_candraBindu-deva</string>
+      <string>ayMatra_reph-deva</string>
+      <string>ayMatra_rephCandrabindu-deva</string>
+      <string>ayMatra_rephanusvara-deva</string>
       <string>b-deva</string>
       <string>b_nukta-deva</string>
       <string>b_r-deva</string>
@@ -105122,6 +105107,10 @@
       <string>m_ra_nukta-deva</string>
       <string>ma-deva</string>
       <string>ma_nukta-deva</string>
+      <string>marwaridd_dda-deva</string>
+      <string>marwaridd_ddha-deva</string>
+      <string>marwaridd_ra-deva</string>
+      <string>marwaridd_ya-deva</string>
       <string>marwaridda-deva</string>
       <string>minus</string>
       <string>multiply</string>
@@ -105237,6 +105226,7 @@
       <string>rVocalicMatra-deva</string>
       <string>r_r-deva</string>
       <string>r_ra-deva</string>
+      <string>r_ya-deva</string>
       <string>ra-deva</string>
       <string>ra_uMatra-deva</string>
       <string>ra_uMatra_nukta-deva</string>
@@ -105531,6 +105521,12 @@
       <string>awMatra_reph-deva</string>
       <string>awMatra_rephCandrabindu-deva</string>
       <string>awMatra_rephanusvara-deva</string>
+      <string>ay-deva</string>
+      <string>ayMatra-deva</string>
+      <string>ayMatra_candraBindu-deva</string>
+      <string>ayMatra_reph-deva</string>
+      <string>ayMatra_rephCandrabindu-deva</string>
+      <string>ayMatra_rephanusvara-deva</string>
       <string>b-deva</string>
       <string>b_nukta-deva</string>
       <string>b_r-deva</string>
@@ -105985,6 +105981,10 @@
       <string>m_ra_nukta-deva</string>
       <string>ma-deva</string>
       <string>ma_nukta-deva</string>
+      <string>marwaridd_dda-deva</string>
+      <string>marwaridd_ddha-deva</string>
+      <string>marwaridd_ra-deva</string>
+      <string>marwaridd_ya-deva</string>
       <string>marwaridda-deva</string>
       <string>minus</string>
       <string>multiply</string>
@@ -106100,6 +106100,7 @@
       <string>rVocalicMatra-deva</string>
       <string>r_r-deva</string>
       <string>r_ra-deva</string>
+      <string>r_ya-deva</string>
       <string>ra-deva</string>
       <string>ra_uMatra-deva</string>
       <string>ra_uMatra_nukta-deva</string>
@@ -106394,6 +106395,12 @@
       <string>awMatra_reph-deva</string>
       <string>awMatra_rephCandrabindu-deva</string>
       <string>awMatra_rephanusvara-deva</string>
+      <string>ay-deva</string>
+      <string>ayMatra-deva</string>
+      <string>ayMatra_candraBindu-deva</string>
+      <string>ayMatra_reph-deva</string>
+      <string>ayMatra_rephCandrabindu-deva</string>
+      <string>ayMatra_rephanusvara-deva</string>
       <string>b-deva</string>
       <string>b_nukta-deva</string>
       <string>b_r-deva</string>
@@ -106848,6 +106855,10 @@
       <string>m_ra_nukta-deva</string>
       <string>ma-deva</string>
       <string>ma_nukta-deva</string>
+      <string>marwaridd_dda-deva</string>
+      <string>marwaridd_ddha-deva</string>
+      <string>marwaridd_ra-deva</string>
+      <string>marwaridd_ya-deva</string>
       <string>marwaridda-deva</string>
       <string>minus</string>
       <string>multiply</string>
@@ -106963,6 +106974,7 @@
       <string>rVocalicMatra-deva</string>
       <string>r_r-deva</string>
       <string>r_ra-deva</string>
+      <string>r_ya-deva</string>
       <string>ra-deva</string>
       <string>ra_uMatra-deva</string>
       <string>ra_uMatra_nukta-deva</string>
@@ -107257,6 +107269,12 @@
       <string>awMatra_reph-deva</string>
       <string>awMatra_rephCandrabindu-deva</string>
       <string>awMatra_rephanusvara-deva</string>
+      <string>ay-deva</string>
+      <string>ayMatra-deva</string>
+      <string>ayMatra_candraBindu-deva</string>
+      <string>ayMatra_reph-deva</string>
+      <string>ayMatra_rephCandrabindu-deva</string>
+      <string>ayMatra_rephanusvara-deva</string>
       <string>b-deva</string>
       <string>b_nukta-deva</string>
       <string>b_r-deva</string>
@@ -107711,6 +107729,10 @@
       <string>m_ra_nukta-deva</string>
       <string>ma-deva</string>
       <string>ma_nukta-deva</string>
+      <string>marwaridd_dda-deva</string>
+      <string>marwaridd_ddha-deva</string>
+      <string>marwaridd_ra-deva</string>
+      <string>marwaridd_ya-deva</string>
       <string>marwaridda-deva</string>
       <string>minus</string>
       <string>multiply</string>
@@ -107826,6 +107848,7 @@
       <string>rVocalicMatra-deva</string>
       <string>r_r-deva</string>
       <string>r_ra-deva</string>
+      <string>r_ya-deva</string>
       <string>ra-deva</string>
       <string>ra_uMatra-deva</string>
       <string>ra_uMatra_nukta-deva</string>
@@ -108151,6 +108174,18 @@
       <string>awMatra_rephCandrabindudeva</string>
       <key>awMatra_rephanusvara-deva</key>
       <string>awMatra_rephanusvaradeva</string>
+      <key>ay-deva</key>
+      <string>aydeva</string>
+      <key>ayMatra-deva</key>
+      <string>ayMatradeva</string>
+      <key>ayMatra_candraBindu-deva</key>
+      <string>ayMatra_candraBindudeva</string>
+      <key>ayMatra_reph-deva</key>
+      <string>ayMatra_rephdeva</string>
+      <key>ayMatra_rephCandrabindu-deva</key>
+      <string>ayMatra_rephCandrabindudeva</string>
+      <key>ayMatra_rephanusvara-deva</key>
+      <string>ayMatra_rephanusvaradeva</string>
       <key>b-deva</key>
       <string>uni092C094D</string>
       <key>b_nukta-deva</key>
@@ -109019,6 +109054,14 @@
       <string>uni092E</string>
       <key>ma_nukta-deva</key>
       <string>uni092E093C</string>
+      <key>marwaridd_dda-deva</key>
+      <string>marwaridd_ddadeva</string>
+      <key>marwaridd_ddha-deva</key>
+      <string>marwaridd_ddhadeva</string>
+      <key>marwaridd_ra-deva</key>
+      <string>marwaridd_radeva</string>
+      <key>marwaridd_ya-deva</key>
+      <string>marwaridd_yadeva</string>
       <key>marwaridda-deva</key>
       <string>uni0978</string>
       <key>n-deva</key>
@@ -109215,6 +109258,8 @@
       <string>uni0930094D094D0930094D</string>
       <key>r_ra-deva</key>
       <string>uni0930094D0930</string>
+      <key>r_ya-deva</key>
+      <string>uni0930200D094D092F</string>
       <key>ra-deva</key>
       <string>uni0930</string>
       <key>ra_uMatra-deva</key>

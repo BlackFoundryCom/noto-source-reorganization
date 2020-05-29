@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="nukta_rrVocalicMatra-deva" format="2">
+  <anchor x="6" y="20" name="_bottom"/>
+  <anchor x="-237" y="-245" name="nukta"/>
   <outline>
     <component base="rrVocalicMatra-deva" xOffset="103" yOffset="20"/>
     <component base="nukta-deva" xOffset="19" yOffset="-33"/>

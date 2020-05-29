@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="mawabeng" format="2">
+  <advance width="471"/>
+  <outline>
+    <contour>
+      <point x="135" y="114" type="curve"/>
+      <point x="111" y="63" type="line"/>
+      <point x="160" y="44"/>
+      <point x="198" y="20"/>
+      <point x="238" y="-19" type="curve"/>
+      <point x="278" y="14" type="line"/>
+      <point x="243" y="58"/>
+      <point x="195" y="92"/>
+    </contour>
+    <component base="mababeng"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>mababeng</string>
+    </dict>
+  </lib>
+</glyph>

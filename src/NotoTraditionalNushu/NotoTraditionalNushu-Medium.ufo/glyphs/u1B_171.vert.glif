@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="u1B171.vert" format="2">
+  <advance width="1024"/>
+  <note>
+u1B171.vert
+</note>
+  <outline>
+    <contour>
+      <point x="291" y="105" type="curve"/>
+      <point x="338" y="38" type="line"/>
+      <point x="480" y="141.33"/>
+      <point x="585.67" y="262.67"/>
+      <point x="655" y="402" type="curve" smooth="yes"/>
+      <point x="715.67" y="526.67"/>
+      <point x="751.33" y="666"/>
+      <point x="762" y="820" type="curve"/>
+      <point x="680" y="824" type="line"/>
+      <point x="670.67" y="681.33"/>
+      <point x="637.67" y="552.67"/>
+      <point x="581" y="438" type="curve" smooth="yes"/>
+      <point x="519" y="311.33"/>
+      <point x="422.33" y="200.33"/>
+    </contour>
+    <contour>
+      <point x="262" y="-228" type="curve"/>
+      <point x="308" y="-296" type="line"/>
+      <point x="376" y="-250"/>
+      <point x="444" y="-197.33"/>
+      <point x="512" y="-138" type="curve" smooth="yes"/>
+      <point x="572" y="-85.33"/>
+      <point x="626" y="-30"/>
+      <point x="674" y="28" type="curve"/>
+      <point x="610" y="79" type="line"/>
+      <point x="567.33" y="27.67"/>
+      <point x="516.67" y="-24"/>
+      <point x="458" y="-76" type="curve" smooth="yes"/>
+      <point x="396.67" y="-130"/>
+      <point x="331.33" y="-180.67"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>680</integer>
+            <integer>82</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

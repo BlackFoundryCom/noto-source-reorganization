@@ -88,8 +88,6 @@
     <string>avagrahadeva.glif</string>
     <key>awanusvaradeva</key>
     <string>awanusvaradeva.glif</string>
-    <key>awcomponentdeva</key>
-    <string>awcomponentdeva.glif</string>
     <key>awdeva</key>
     <string>awdeva.glif</string>
     <key>awvowelsignanusvaradeva</key>
@@ -104,6 +102,22 @@
     <string>awvowelsignrephcandrabindudeva.glif</string>
     <key>awvowelsignrephdeva</key>
     <string>awvowelsignrephdeva.glif</string>
+    <key>ayanusvaradeva</key>
+    <string>ayanusvaradeva.glif</string>
+    <key>ayanusvaravowelsigndeva</key>
+    <string>ayanusvaravowelsigndeva.glif</string>
+    <key>aydeva</key>
+    <string>aydeva.glif</string>
+    <key>ayvowelsigncandrabindudeva</key>
+    <string>ayvowelsigncandrabindudeva.glif</string>
+    <key>ayvowelsigndeva</key>
+    <string>ayvowelsigndeva.glif</string>
+    <key>ayvowelsignrephanusvaradeva</key>
+    <string>ayvowelsignrephanusvaradeva.glif</string>
+    <key>ayvowelsignrephcandrabindudeva</key>
+    <string>ayvowelsignrephcandrabindudeva.glif</string>
+    <key>ayvowelsignrephdeva</key>
+    <string>ayvowelsignrephdeva.glif</string>
     <key>babardeva</key>
     <string>babardeva.glif</string>
     <key>backslash.deva</key>
@@ -994,10 +1008,16 @@
     <string>maradeva.glif</string>
     <key>maraprehalfdeva</key>
     <string>maraprehalfdeva.glif</string>
+    <key>marwariddaddadeva</key>
+    <string>marwariddaddadeva.glif</string>
+    <key>marwariddaddhadeva</key>
+    <string>marwariddaddhadeva.glif</string>
     <key>marwariddadeva</key>
     <string>marwariddadeva.glif</string>
     <key>marwariddaradeva</key>
     <string>marwariddaradeva.glif</string>
+    <key>marwariddayadeva</key>
+    <string>marwariddayadeva.glif</string>
     <key>minus.deva</key>
     <string>minus.deva.glif</string>
     <key>multiply.deva</key>
@@ -1294,6 +1314,8 @@
     <string>raudeva.glif</string>
     <key>rauudeva</key>
     <string>rauudeva.glif</string>
+    <key>rayadeva</key>
+    <string>rayadeva.glif</string>
     <key>rephanusvaradeva</key>
     <string>rephanusvaradeva.glif</string>
     <key>rephcandrabindudeva</key>
@@ -1406,6 +1428,8 @@
     <string>sharadeva.glif</string>
     <key>sharaprehalfdeva</key>
     <string>sharaprehalfdeva.glif</string>
+    <key>sharvocalicdeva</key>
+    <string>sharvocalicdeva.glif</string>
     <key>shavadeva</key>
     <string>shavadeva.glif</string>
     <key>six.deva</key>
@@ -1598,20 +1622,14 @@
     <string>uni1C_D_0.glif</string>
     <key>uni1CD0.UI</key>
     <string>uni1C_D_0.U_I_.glif</string>
-    <key>uni1CD0.low</key>
-    <string>uni1C_D_0.low.glif</string>
     <key>uni1CD1</key>
     <string>uni1C_D_1.glif</string>
     <key>uni1CD1.UI</key>
     <string>uni1C_D_1.U_I_.glif</string>
-    <key>uni1CD1.low</key>
-    <string>uni1C_D_1.low.glif</string>
     <key>uni1CD2</key>
     <string>uni1C_D_2.glif</string>
     <key>uni1CD2.UI</key>
     <string>uni1C_D_2.U_I_.glif</string>
-    <key>uni1CD2.low</key>
-    <string>uni1C_D_2.low.glif</string>
     <key>uni1CD3</key>
     <string>uni1C_D_3.glif</string>
     <key>uni1CD4</key>
@@ -1684,8 +1702,6 @@
     <string>uni1C_F_4.glif</string>
     <key>uni1CF4.UI</key>
     <string>uni1C_F_4.U_I_.glif</string>
-    <key>uni1CF4.low</key>
-    <string>uni1C_F_4.low.glif</string>
     <key>uni1CF5</key>
     <string>uni1C_F_5.glif</string>
     <key>uni1CF6</key>
@@ -1708,8 +1724,6 @@
     <string>uni20F_0.glif</string>
     <key>uni20F0.UI</key>
     <string>uni20F_0.U_I_.glif</string>
-    <key>uni20F0.low</key>
-    <string>uni20F_0.low.glif</string>
     <key>uni25CC</key>
     <string>uni25C_C_.glif</string>
     <key>uniA830</key>
@@ -1736,110 +1750,74 @@
     <string>uniA_8E_0.glif</string>
     <key>uniA8E0.UI</key>
     <string>uniA_8E_0.U_I_.glif</string>
-    <key>uniA8E0.low</key>
-    <string>uniA_8E_0.low.glif</string>
     <key>uniA8E1</key>
     <string>uniA_8E_1.glif</string>
     <key>uniA8E1.UI</key>
     <string>uniA_8E_1.U_I_.glif</string>
-    <key>uniA8E1.low</key>
-    <string>uniA_8E_1.low.glif</string>
     <key>uniA8E2</key>
     <string>uniA_8E_2.glif</string>
     <key>uniA8E2.UI</key>
     <string>uniA_8E_2.U_I_.glif</string>
-    <key>uniA8E2.low</key>
-    <string>uniA_8E_2.low.glif</string>
     <key>uniA8E3</key>
     <string>uniA_8E_3.glif</string>
     <key>uniA8E3.UI</key>
     <string>uniA_8E_3.U_I_.glif</string>
-    <key>uniA8E3.low</key>
-    <string>uniA_8E_3.low.glif</string>
     <key>uniA8E4</key>
     <string>uniA_8E_4.glif</string>
     <key>uniA8E4.UI</key>
     <string>uniA_8E_4.U_I_.glif</string>
-    <key>uniA8E4.low</key>
-    <string>uniA_8E_4.low.glif</string>
     <key>uniA8E5</key>
     <string>uniA_8E_5.glif</string>
     <key>uniA8E5.UI</key>
     <string>uniA_8E_5.U_I_.glif</string>
-    <key>uniA8E5.low</key>
-    <string>uniA_8E_5.low.glif</string>
     <key>uniA8E6</key>
     <string>uniA_8E_6.glif</string>
     <key>uniA8E6.UI</key>
     <string>uniA_8E_6.U_I_.glif</string>
-    <key>uniA8E6.low</key>
-    <string>uniA_8E_6.low.glif</string>
     <key>uniA8E7</key>
     <string>uniA_8E_7.glif</string>
     <key>uniA8E7.UI</key>
     <string>uniA_8E_7.U_I_.glif</string>
-    <key>uniA8E7.low</key>
-    <string>uniA_8E_7.low.glif</string>
     <key>uniA8E8</key>
     <string>uniA_8E_8.glif</string>
     <key>uniA8E8.UI</key>
     <string>uniA_8E_8.U_I_.glif</string>
-    <key>uniA8E8.low</key>
-    <string>uniA_8E_8.low.glif</string>
     <key>uniA8E9</key>
     <string>uniA_8E_9.glif</string>
     <key>uniA8E9.UI</key>
     <string>uniA_8E_9.U_I_.glif</string>
-    <key>uniA8E9.low</key>
-    <string>uniA_8E_9.low.glif</string>
     <key>uniA8EA</key>
     <string>uniA_8E_A_.glif</string>
     <key>uniA8EA.UI</key>
     <string>uniA_8E_A_.U_I_.glif</string>
-    <key>uniA8EA.low</key>
-    <string>uniA_8E_A_.low.glif</string>
     <key>uniA8EB</key>
     <string>uniA_8E_B_.glif</string>
     <key>uniA8EB.UI</key>
     <string>uniA_8E_B_.U_I_.glif</string>
-    <key>uniA8EB.low</key>
-    <string>uniA_8E_B_.low.glif</string>
     <key>uniA8EC</key>
     <string>uniA_8E_C_.glif</string>
     <key>uniA8EC.UI</key>
     <string>uniA_8E_C_.U_I_.glif</string>
-    <key>uniA8EC.low</key>
-    <string>uniA_8E_C_.low.glif</string>
     <key>uniA8ED</key>
     <string>uniA_8E_D_.glif</string>
     <key>uniA8ED.UI</key>
     <string>uniA_8E_D_.U_I_.glif</string>
-    <key>uniA8ED.low</key>
-    <string>uniA_8E_D_.low.glif</string>
     <key>uniA8EE</key>
     <string>uniA_8E_E_.glif</string>
     <key>uniA8EE.UI</key>
     <string>uniA_8E_E_.U_I_.glif</string>
-    <key>uniA8EE.low</key>
-    <string>uniA_8E_E_.low.glif</string>
     <key>uniA8EF</key>
     <string>uniA_8E_F_.glif</string>
     <key>uniA8EF.UI</key>
     <string>uniA_8E_F_.U_I_.glif</string>
-    <key>uniA8EF.low</key>
-    <string>uniA_8E_F_.low.glif</string>
     <key>uniA8F0</key>
     <string>uniA_8F_0.glif</string>
     <key>uniA8F0.UI</key>
     <string>uniA_8F_0.U_I_.glif</string>
-    <key>uniA8F0.low</key>
-    <string>uniA_8F_0.low.glif</string>
     <key>uniA8F1</key>
     <string>uniA_8F_1.glif</string>
     <key>uniA8F1.UI</key>
     <string>uniA_8F_1.U_I_.glif</string>
-    <key>uniA8F1.low</key>
-    <string>uniA_8F_1.low.glif</string>
     <key>uniA8F2</key>
     <string>uniA_8F_2.glif</string>
     <key>uniA8F3</key>

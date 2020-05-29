@@ -2,21 +2,7 @@
 <glyph name="awanusvaradeva" format="2">
   <advance width="677"/>
   <outline>
-    <contour>
-      <point x="592" y="846" type="curve" smooth="yes"/>
-      <point x="592" y="820"/>
-      <point x="606" y="809"/>
-      <point x="620" y="809" type="curve" smooth="yes"/>
-      <point x="637" y="809"/>
-      <point x="649" y="819"/>
-      <point x="649" y="846" type="curve" smooth="yes"/>
-      <point x="649" y="870"/>
-      <point x="638" y="883"/>
-      <point x="621" y="883" type="curve" smooth="yes"/>
-      <point x="605" y="883"/>
-      <point x="592" y="871"/>
-    </contour>
     <component base="aadeva"/>
-    <component base="awcomponentdeva" xOffset="677"/>
+    <component base="ayanusvaravowelsigndeva" xOffset="677"/>
   </outline>
 </glyph>

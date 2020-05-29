@@ -3,7 +3,8 @@ import shutil
 import glyphsLib
 import ufoLib2
 import sys
-from fontTools.designspaceLib   import DesignSpaceDocument
+from datetime import date
+from fontTools.designspaceLib import DesignSpaceDocument
 
 class sourcesBuilder():
 
@@ -136,12 +137,13 @@ def main():
     # translated = ["NotoMusic"]
     scriptsFolder = os.path.split(sys.argv[0])[0]
     # os.chdir(os.path.split(sys.argv[0])[0])
-    source2update = os.path.join(scriptsFolder,"../sandbox")
-    fail = []
+    source2update = os.path.join(scriptsFolder, "../sandbox")
+    fail, updated = list(), list()
     for i in os.listdir(source2update):
         glyphsFile = False
         # Case 1. parse glyphs files
         if i.startswith("Noto"):
+            updated.append(i.replace(".glyphs", ""))
             if i.endswith(".glyphs"):
                 print(">>> start to convert", i)
                 try:
@@ -185,6 +187,14 @@ def main():
                 shutil.rmtree(os.path.join(source2update, to_rm))
             else:
                 os.remove(os.path.join(source2update, to_rm))
+
+    update_text_path = os.path.join(source2update, "update.md")
+    today = "########################\nUpdate of the " + date.today().strftime("%d/%m/%Y") + "\n"
+    with open(update_text_path, "a") as text:
+        text.write(today)
+        for i in updated:
+            text.write(i+"\n")
+
 
 if __name__ == '__main__':
     import sys

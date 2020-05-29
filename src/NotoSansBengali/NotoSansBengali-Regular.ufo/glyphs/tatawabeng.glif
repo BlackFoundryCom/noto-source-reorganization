@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tatawabeng" format="2">
+  <advance width="723"/>
+  <outline>
+    <contour>
+      <point x="250" y="-178" type="curve"/>
+      <point x="240" y="-238" type="line"/>
+      <point x="310" y="-247"/>
+      <point x="365" y="-268"/>
+      <point x="409" y="-299" type="curve"/>
+      <point x="443" y="-254" type="line"/>
+      <point x="395" y="-217"/>
+      <point x="330" y="-188"/>
+    </contour>
+    <component base="tatababeng"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>tatababeng</string>
+    </dict>
+  </lib>
+</glyph>

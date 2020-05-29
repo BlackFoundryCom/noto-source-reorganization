@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rayadeva" format="2">
+  <advance width="1041"/>
+  <outline>
+    <contour>
+      <point x="827" y="109" type="line"/>
+      <point x="827" y="0" type="line"/>
+      <point x="961" y="0" type="line"/>
+      <point x="961" y="512" type="line"/>
+      <point x="1055" y="512" type="line"/>
+      <point x="1055" y="622" type="line"/>
+      <point x="400" y="622" type="line"/>
+      <point x="420" y="512" type="line"/>
+      <point x="827" y="512" type="line"/>
+      <point x="827" y="164" type="line"/>
+      <point x="855" y="216" type="line"/>
+      <point x="817" y="169"/>
+      <point x="766" y="144"/>
+      <point x="711" y="144" type="curve" smooth="yes"/>
+      <point x="658" y="144"/>
+      <point x="626" y="168"/>
+      <point x="603" y="220" type="curve"/>
+      <point x="594" y="187" type="line"/>
+      <point x="665" y="210"/>
+      <point x="699" y="262"/>
+      <point x="699" y="318" type="curve" smooth="yes"/>
+      <point x="699" y="358"/>
+      <point x="686" y="390"/>
+      <point x="660" y="412" type="curve" smooth="yes"/>
+      <point x="630" y="437"/>
+      <point x="594" y="452"/>
+      <point x="487" y="452" type="curve" smooth="yes"/>
+      <point x="325" y="452" type="line"/>
+      <point x="324" y="353" type="line"/>
+      <point x="488" y="353" type="line" smooth="yes"/>
+      <point x="526" y="353"/>
+      <point x="537" y="352"/>
+      <point x="548" y="347" type="curve" smooth="yes"/>
+      <point x="559" y="342"/>
+      <point x="565" y="329"/>
+      <point x="565" y="317" type="curve" smooth="yes"/>
+      <point x="565" y="279"/>
+      <point x="518" y="258"/>
+      <point x="464" y="249" type="curve"/>
+      <point x="504" y="107"/>
+      <point x="579" y="34"/>
+      <point x="699" y="34" type="curve" smooth="yes"/>
+      <point x="761" y="34"/>
+      <point x="813" y="47"/>
+      <point x="859" y="78" type="curve"/>
+    </contour>
+    <component base="radeva"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dayadeva</string>
+    </dict>
+  </lib>
+</glyph>

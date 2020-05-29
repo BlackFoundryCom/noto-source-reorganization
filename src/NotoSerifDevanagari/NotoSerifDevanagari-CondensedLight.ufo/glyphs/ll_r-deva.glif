@@ -1,7 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ll_r-deva" format="2">
   <advance width="463"/>
-  <anchor x="245" y="10" name="nukta"/>
+  <anchor x="279" y="-47" name="bottom"/>
+  <anchor x="236" y="-65" name="bottom_right"/>
+  <anchor x="241" y="-96" name="nukta"/>
   <outline>
     <component base="ll-deva"/>
     <component base="rakar-deva" xOffset="260" yOffset="64"/>

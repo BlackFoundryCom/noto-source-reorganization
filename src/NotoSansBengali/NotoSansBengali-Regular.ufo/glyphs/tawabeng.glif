@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tawabeng" format="2">
+  <advance width="660"/>
+  <outline>
+    <contour>
+      <point x="192" y="7" type="curve"/>
+      <point x="182" y="-53" type="line"/>
+      <point x="252" y="-62"/>
+      <point x="307" y="-83"/>
+      <point x="351" y="-114" type="curve"/>
+      <point x="385" y="-69" type="line"/>
+      <point x="337" y="-32"/>
+      <point x="272" y="-3"/>
+    </contour>
+    <component base="tababeng"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>tababeng</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="paka-oriya" format="2">
+  <advance width="541"/>
+  <guideline x="449" y="177" angle="90"/>
+  <guideline x="509" y="173" angle="90"/>
+  <anchor x="436" y="110" name="bottom"/>
+  <anchor x="449" y="106" name="bottom_ta"/>
+  <anchor x="239" y="658" name="top"/>
+  <anchor x="436" y="658" name="topright"/>
+  <outline>
+    <component base="pa-oriya.base"/>
+    <component base="ka-oriya.below" xOffset="211"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>pa-oriya</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ka-oriya.below</string>
+    </dict>
+  </lib>
+</glyph>

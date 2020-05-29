@@ -2,62 +2,13 @@
 <glyph name="awvowelsignrephcandrabindudeva" format="2">
   <advance width="259"/>
   <outline>
-    <contour>
-      <point x="89" y="551" type="line"/>
-      <point x="89" y="0" type="line"/>
-      <point x="170" y="0" type="line"/>
-      <point x="170" y="551" type="line"/>
-      <point x="273" y="551" type="line"/>
-      <point x="273" y="622" type="line"/>
-      <point x="0" y="622" type="line"/>
-      <point x="0" y="551" type="line"/>
-    </contour>
-    <contour>
-      <point x="4" y="615" type="curve"/>
-      <point x="62" y="615" type="line"/>
-      <point x="36" y="729"/>
-      <point x="-6" y="753"/>
-      <point x="-69" y="753" type="curve" smooth="yes"/>
-      <point x="-92" y="753"/>
-      <point x="-114" y="750"/>
-      <point x="-131" y="750" type="curve" smooth="yes"/>
-      <point x="-179" y="750"/>
-      <point x="-201" y="761"/>
-      <point x="-227" y="825" type="curve"/>
-      <point x="-293" y="801" type="line"/>
-      <point x="-250" y="695"/>
-      <point x="-201" y="683"/>
-      <point x="-138" y="683" type="curve" smooth="yes"/>
-      <point x="-114" y="683"/>
-      <point x="-93" y="686"/>
-      <point x="-78" y="686" type="curve" smooth="yes"/>
-      <point x="-48" y="686"/>
-      <point x="-19" y="675"/>
-    </contour>
-    <contour>
-      <point x="85" y="683" type="curve"/>
-      <point x="140" y="703" type="line"/>
-      <point x="140" y="771"/>
-      <point x="104" y="795"/>
-      <point x="50" y="813" type="curve" smooth="yes"/>
-      <point x="21" y="824" type="line" smooth="yes"/>
-      <point x="-27" y="840"/>
-      <point x="-32" y="856"/>
-      <point x="-32" y="882" type="curve" smooth="yes"/>
-      <point x="-32" y="889"/>
-      <point x="-32" y="893"/>
-      <point x="-31" y="896" type="curve"/>
-      <point x="-101" y="895" type="line"/>
-      <point x="-102" y="891"/>
-      <point x="-102" y="887"/>
-      <point x="-102" y="883" type="curve" smooth="yes"/>
-      <point x="-102" y="812"/>
-      <point x="-74" y="785"/>
-      <point x="0" y="761" type="curve" smooth="yes"/>
-      <point x="14" y="756" type="line" smooth="yes"/>
-      <point x="57" y="742"/>
-      <point x="74" y="722"/>
-    </contour>
-    <component base="rephcandrabindudeva" xOffset="312"/>
+    <component base="aavowelsigndeva"/>
+    <component base="ayvowelsignrephcandrabindudeva" xOffset="259"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>aavowelsigndeva</string>
+    </dict>
+  </lib>
 </glyph>

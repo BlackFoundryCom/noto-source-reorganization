@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="satawabeng" format="2">
+  <advance width="690"/>
+  <outline>
+    <contour>
+      <point x="245" y="-147" type="curve"/>
+      <point x="238" y="-172" type="line"/>
+      <point x="309" y="-188"/>
+      <point x="359" y="-211"/>
+      <point x="416" y="-252" type="curve"/>
+      <point x="432" y="-233" type="line"/>
+      <point x="376" y="-189"/>
+      <point x="315" y="-163"/>
+    </contour>
+    <component base="satababeng"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>satababeng</string>
+    </dict>
+  </lib>
+</glyph>

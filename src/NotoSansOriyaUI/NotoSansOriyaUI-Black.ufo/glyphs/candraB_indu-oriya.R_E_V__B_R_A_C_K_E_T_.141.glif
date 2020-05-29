@@ -6,14 +6,15 @@ candrabinduorya
   <anchor x="400" y="751" name="_topright"/>
   <outline>
     <contour>
-      <point x="400" y="771" type="curve" smooth="yes"/>
+      <point x="400" y="771" type="curve"/>
+      <point x="400" y="771" type="line"/>
       <point x="524" y="771"/>
       <point x="612" y="851"/>
       <point x="629" y="1013" type="curve"/>
       <point x="501" y="1027" type="line"/>
       <point x="494" y="923"/>
       <point x="458" y="879"/>
-      <point x="400" y="879" type="curve" smooth="yes"/>
+      <point x="400" y="879" type="curve"/>
       <point x="342" y="879"/>
       <point x="306" y="923"/>
       <point x="299" y="1027" type="curve"/>
@@ -22,16 +23,17 @@ candrabinduorya
       <point x="276" y="771"/>
     </contour>
     <contour>
-      <point x="400" y="900" type="curve" smooth="yes"/>
+      <point x="400" y="900" type="curve"/>
+      <point x="400" y="900" type="line"/>
       <point x="443" y="900"/>
       <point x="470" y="925"/>
-      <point x="470" y="973" type="curve" smooth="yes"/>
+      <point x="470" y="973" type="curve"/>
       <point x="470" y="1018"/>
       <point x="443" y="1042"/>
-      <point x="400" y="1042" type="curve" smooth="yes"/>
+      <point x="400" y="1042" type="curve"/>
       <point x="358" y="1042"/>
       <point x="330" y="1018"/>
-      <point x="330" y="973" type="curve" smooth="yes"/>
+      <point x="330" y="973" type="curve"/>
       <point x="330" y="927"/>
       <point x="358" y="900"/>
     </contour>

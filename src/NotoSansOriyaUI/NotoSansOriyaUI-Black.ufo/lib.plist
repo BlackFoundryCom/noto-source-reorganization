@@ -43,7 +43,7 @@
       </dict>
     </dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1271</string>
+    <string>1286</string>
     <key>com.schriftgestaltung.customName</key>
     <string>Black</string>
     <key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
@@ -60,11 +60,6 @@
         <key>Tag</key>
         <string>wdth</string>
       </dict>
-    </array>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <array>
-      <string> </string>
-      <string> </string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.Keep UI-Font Bounding Box</key>
     <integer>1</integer>
@@ -85,7 +80,7 @@ The very condensed and very heavy styles should be used carefully; not intended 
 
 _part.ra.below _cap.overlap _part.da.below
 These glyphs were originally smart components. They were used in all those glyphs:
-ka_ra-oriya kha_ra-oriya ga_ra-oriya gha_ra-oriya nga_ra-oriya ca_ra-oriya cha_ra-oriya ja_ra-oriya jha_ra-oriya nya_ra-oriya tta_ra-oriya ttha_ra-oriya dda_ra-oriya nna_ra-oriya ta_ra-oriya tha_ra-oriya da_ra-oriya dha_ra-oriya na_ra-oriya pa_ra-oriya pha_ra-oriya ba_ra-oriya bha_ra-oriya ma_ra-oriya ya_ra-oriya la_ra-oriya lla_ra-oriya va_ra-oriya sha_ra-oriya ssa_ra-oriya sa_ra-oriya ha_ra-oriya wa_ra-oriya rra_ra-oriya rha_ra-oriya yya_ra-oriya ka_va-oriya ka_ssa_ra-oriya ja_va-oriya ta_ka_ra-oriya ta_ta_va-oriya ta_ta_ra-oriya ta_pa_ra-oriya ta_va-oriya da_dha_va-oriya da_va-oriya dha_va-oriya na_da_ra-oriya na_da_va-oriya na_dha_va-oriya na_dha_ra-oriya ma_pa_ra-oriya ma_ba-oriya sha_va-oriya sa_va-oriya 
+kara-oriya khara-oriya gara-oriya ghara-oriya ngara-oriya cara-oriya chara-oriya jara-oriya jhara-oriya nyara-oriya ttara-oriya tthara-oriya ddara-oriya nnara-oriya tara-oriya thara-oriya dara-oriya dhara-oriya nara-oriya para-oriya phara-oriya bara-oriya bhara-oriya mara-oriya yara-oriya lara-oriya llara-oriya vara-oriya shara-oriya ssara-oriya sara-oriya hara-oriya wara-oriya rrara-oriya rhara-oriya yyara-oriya kava-oriya kassara-oriya java-oriya takara-oriya tatava-oriya tatara-oriya tapara-oriya tava-oriya dadhava-oriya dava-oriya dhava-oriya nadara-oriya nadava-oriya nadhava-oriya nadhara-oriya mapara-oriya maba-oriya shava-oriya sava-oriya 
 
 
 *
@@ -141,7 +136,6 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>_part.da.below</string>
       <string>_part.pha</string>
       <string>_part.ra.below</string>
-      <string>_part_ta-oriya.below</string>
       <string>a-oriya</string>
       <string>a-oriya.REV_BRACKET.141</string>
       <string>aa-oriya</string>
@@ -150,44 +144,44 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>aiLength-oriya</string>
       <string>aiLength-oriya.stem</string>
       <string>aiLength-oriya.umbrella</string>
-      <string>aiLength_candraBindu-oriya</string>
-      <string>aiLength_candraBindu-oriya.stem</string>
-      <string>aiLength_candraBindu-oriya.umbrella</string>
+      <string>aiLengthcandraBindu-oriya</string>
+      <string>aiLengthcandraBindu-oriya.stem</string>
+      <string>aiLengthcandraBindu-oriya.umbrella</string>
       <string>aiMatra-oriya</string>
-      <string>ai_candraBindu-oriya</string>
-      <string>ai_reph-oriya</string>
-      <string>ai_reph_candraBindu-oriya</string>
+      <string>aicandraBindu-oriya</string>
+      <string>aireph-oriya</string>
+      <string>airephcandraBindu-oriya</string>
       <string>anusvara-oriya</string>
       <string>asciicircum</string>
       <string>asciitilde</string>
       <string>asterisk</string>
       <string>au-oriya</string>
       <string>auLength-oriya</string>
-      <string>auLength_candraBindu-oriya</string>
+      <string>auLengthcandraBindu-oriya</string>
       <string>auMatra-oriya</string>
-      <string>au_candraBindu-oriya</string>
-      <string>au_reph-oriya</string>
-      <string>au_reph_candraBindu-oriya</string>
+      <string>aucandraBindu-oriya</string>
+      <string>aureph-oriya</string>
+      <string>aurephcandraBindu-oriya</string>
       <string>avagraha-oriya</string>
       <string>ba-oriya</string>
       <string>ba-oriya.base</string>
       <string>ba-oriya.below</string>
       <string>ba-oriya.single</string>
-      <string>ba_ba-oriya</string>
-      <string>ba_da-oriya</string>
-      <string>ba_dha-oriya</string>
-      <string>ba_ja-oriya</string>
-      <string>ba_ra-oriya</string>
+      <string>baba-oriya</string>
       <string>backslash</string>
+      <string>bada-oriya</string>
+      <string>badha-oriya</string>
+      <string>baja-oriya</string>
       <string>bar</string>
+      <string>bara-oriya</string>
       <string>bha-oriya</string>
       <string>bha-oriya.REV_BRACKET.141</string>
       <string>bha-oriya.base</string>
       <string>bha-oriya.below</string>
       <string>bha-oriya.single</string>
-      <string>bha_alt-oriya.below</string>
-      <string>bha_ra-oriya</string>
-      <string>bha_ra-oriya.REV_BRACKET.141</string>
+      <string>bhaalt-oriya.below</string>
+      <string>bhara-oriya</string>
+      <string>bhara-oriya.REV_BRACKET.141</string>
       <string>braceleft</string>
       <string>braceright</string>
       <string>bracketleft</string>
@@ -196,58 +190,58 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>ca-oriya.base</string>
       <string>ca-oriya.below</string>
       <string>ca-oriya.single</string>
-      <string>ca_ca-oriya</string>
-      <string>ca_cha-oriya</string>
-      <string>ca_ra-oriya</string>
+      <string>caca-oriya</string>
+      <string>cacha-oriya</string>
       <string>candraBindu-oriya</string>
       <string>candraBindu-oriya.REV_BRACKET.141</string>
+      <string>cara-oriya</string>
       <string>cha-oriya</string>
       <string>cha-oriya.REV_BRACKET.141</string>
       <string>cha-oriya.base</string>
       <string>cha-oriya.below</string>
       <string>cha-oriya.single</string>
-      <string>cha_ra-oriya</string>
-      <string>cha_ra-oriya.REV_BRACKET.141</string>
+      <string>chara-oriya</string>
+      <string>chara-oriya.REV_BRACKET.141</string>
       <string>colon</string>
       <string>comma</string>
       <string>da-oriya</string>
       <string>da-oriya.base</string>
       <string>da-oriya.below</string>
       <string>da-oriya.single</string>
-      <string>da_bha-oriya</string>
-      <string>da_da-oriya</string>
-      <string>da_dha-oriya</string>
-      <string>da_dha_va-oriya</string>
-      <string>da_ga-oriya</string>
-      <string>da_gha-oriya</string>
-      <string>da_ra-oriya</string>
-      <string>da_ra_uMatra-oriya</string>
-      <string>da_va-oriya</string>
+      <string>dabha-oriya</string>
+      <string>dada-oriya</string>
+      <string>dadha-oriya</string>
+      <string>dadhava-oriya</string>
+      <string>daga-oriya</string>
+      <string>dagha-oriya</string>
       <string>danda</string>
+      <string>dara-oriya</string>
+      <string>darauMatra-oriya</string>
+      <string>dava-oriya</string>
       <string>dbldanda</string>
       <string>dda-oriya</string>
       <string>dda-oriya.REV_BRACKET.141</string>
       <string>dda-oriya.base</string>
       <string>dda-oriya.below</string>
       <string>dda-oriya.single</string>
-      <string>dda_dda-oriya</string>
-      <string>dda_ga-oriya</string>
-      <string>dda_ra-oriya</string>
-      <string>dda_ra-oriya.REV_BRACKET.141</string>
+      <string>ddadda-oriya</string>
+      <string>ddaga-oriya</string>
+      <string>ddara-oriya</string>
+      <string>ddara-oriya.REV_BRACKET.141</string>
       <string>ddha-oriya</string>
       <string>ddha-oriya.REV_BRACKET.141</string>
       <string>ddha-oriya.base</string>
       <string>ddha-oriya.below</string>
       <string>ddha-oriya.single</string>
-      <string>ddha_ra-oriya</string>
+      <string>ddhara-oriya</string>
       <string>dha-oriya</string>
       <string>dha-oriya.base</string>
       <string>dha-oriya.below</string>
       <string>dha-oriya.single</string>
-      <string>dha_ra-oriya</string>
-      <string>dha_va-oriya</string>
-      <string>dha_ya-oriya</string>
-      <string>dha_yya-oriya</string>
+      <string>dhara-oriya</string>
+      <string>dhava-oriya</string>
+      <string>dhaya-oriya</string>
+      <string>dhayya-oriya</string>
       <string>divide</string>
       <string>dottedCircle</string>
       <string>e-oriya</string>
@@ -269,47 +263,47 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>ga-oriya.base</string>
       <string>ga-oriya.below</string>
       <string>ga-oriya.single</string>
-      <string>ga_da-oriya</string>
-      <string>ga_dha-oriya</string>
-      <string>ga_lla-oriya</string>
-      <string>ga_na-oriya</string>
-      <string>ga_ra-oriya</string>
+      <string>gada-oriya</string>
+      <string>gadha-oriya</string>
+      <string>galla-oriya</string>
+      <string>gana-oriya</string>
+      <string>gara-oriya</string>
       <string>gha-oriya</string>
       <string>gha-oriya.base</string>
       <string>gha-oriya.below</string>
       <string>gha-oriya.single</string>
-      <string>gha_na-oriya</string>
-      <string>gha_ra-oriya</string>
+      <string>ghana-oriya</string>
+      <string>ghara-oriya</string>
       <string>greater</string>
       <string>ha-oriya</string>
       <string>ha-oriya.REV_BRACKET.141</string>
       <string>ha-oriya.base</string>
       <string>ha-oriya.below</string>
       <string>ha-oriya.single</string>
-      <string>ha_ja-oriya</string>
-      <string>ha_ka-oriya</string>
-      <string>ha_la-oriya</string>
-      <string>ha_lla-oriya</string>
-      <string>ha_ma-oriya</string>
-      <string>ha_na-oriya</string>
-      <string>ha_rVocalic-oriya</string>
-      <string>ha_ra-oriya</string>
-      <string>ha_u-oriya</string>
-      <string>ha_uu-oriya</string>
-      <string>ha_va-oriya</string>
+      <string>haja-oriya</string>
+      <string>haka-oriya</string>
+      <string>hala-oriya</string>
       <string>halant-oriya</string>
+      <string>halla-oriya</string>
+      <string>hama-oriya</string>
+      <string>hana-oriya</string>
+      <string>harVocalic-oriya</string>
+      <string>hara-oriya</string>
+      <string>hau-oriya</string>
+      <string>hauu-oriya</string>
+      <string>hava-oriya</string>
       <string>hyphen</string>
       <string>i-oriya</string>
       <string>i-oriya.REV_BRACKET.141</string>
       <string>iMatra-oriya</string>
       <string>iMatra-oriya.below</string>
       <string>iMatra-oriya.wide</string>
-      <string>iMatra_candraBindu-oriya</string>
-      <string>iMatra_candraBindu-oriya.wide</string>
-      <string>iMatra_reph-oriya</string>
-      <string>iMatra_reph-oriya.wide</string>
-      <string>iMatra_reph_candraBindu-oriya</string>
-      <string>iMatra_reph_candraBindu-oriya.wide</string>
+      <string>iMatracandraBindu-oriya</string>
+      <string>iMatracandraBindu-oriya.wide</string>
+      <string>iMatrareph-oriya</string>
+      <string>iMatrareph-oriya.wide</string>
+      <string>iMatrarephcandraBindu-oriya</string>
+      <string>iMatrarephcandraBindu-oriya.wide</string>
       <string>ii-oriya</string>
       <string>ii-oriya.REV_BRACKET.141</string>
       <string>iiMatra-oriya</string>
@@ -320,45 +314,45 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>ja-oriya.base.REV_BRACKET.141</string>
       <string>ja-oriya.below</string>
       <string>ja-oriya.single</string>
-      <string>ja_ja-oriya</string>
-      <string>ja_ja_va-oriya</string>
-      <string>ja_jha-oriya</string>
-      <string>ja_nya-oriya</string>
-      <string>ja_ra-oriya</string>
-      <string>ja_ra-oriya.REV_BRACKET.141</string>
-      <string>ja_va-oriya</string>
+      <string>jaja-oriya</string>
+      <string>jajava-oriya</string>
+      <string>jajha-oriya</string>
+      <string>janya-oriya</string>
+      <string>jara-oriya</string>
+      <string>jara-oriya.REV_BRACKET.141</string>
+      <string>java-oriya</string>
       <string>jha-oriya</string>
       <string>jha-oriya.base</string>
       <string>jha-oriya.below</string>
       <string>jha-oriya.single</string>
-      <string>jha_ra-oriya</string>
+      <string>jhara-oriya</string>
       <string>ka-oriya</string>
       <string>ka-oriya.REV_BRACKET.141</string>
       <string>ka-oriya.base</string>
       <string>ka-oriya.below</string>
       <string>ka-oriya.single</string>
-      <string>ka_ca-oriya</string>
-      <string>ka_ka-oriya</string>
-      <string>ka_lla-oriya</string>
-      <string>ka_ra-oriya</string>
-      <string>ka_ra-oriya.REV_BRACKET.141</string>
-      <string>ka_sa-oriya</string>
-      <string>ka_ssa-oriya</string>
-      <string>ka_ssa-oriya.base</string>
-      <string>ka_ssa-oriya.below</string>
-      <string>ka_ssa_ma-oriya</string>
-      <string>ka_ssa_nna-oriya</string>
-      <string>ka_ssa_ra-oriya</string>
-      <string>ka_ta-oriya</string>
-      <string>ka_ta_ra-oriya</string>
-      <string>ka_ta_ra_alt-oriya</string>
-      <string>ka_tta-oriya</string>
-      <string>ka_va-oriya</string>
+      <string>kaca-oriya</string>
+      <string>kaka-oriya</string>
+      <string>kalla-oriya</string>
+      <string>kara-oriya</string>
+      <string>kara-oriya.REV_BRACKET.141</string>
+      <string>kasa-oriya</string>
+      <string>kassa-oriya</string>
+      <string>kassa-oriya.base</string>
+      <string>kassa-oriya.below</string>
+      <string>kassama-oriya</string>
+      <string>kassanna-oriya</string>
+      <string>kassara-oriya</string>
+      <string>kata-oriya</string>
+      <string>katara-oriya</string>
+      <string>kataraalt-oriya</string>
+      <string>katta-oriya</string>
+      <string>kava-oriya</string>
       <string>kha-oriya</string>
       <string>kha-oriya.base</string>
       <string>kha-oriya.below</string>
       <string>kha-oriya.single</string>
-      <string>kha_ra-oriya</string>
+      <string>khara-oriya</string>
       <string>lVocalic-oriya</string>
       <string>lVocalicMatra-oriya</string>
       <string>lVocalicMatra-oriya.REV_BRACKET.141</string>
@@ -366,14 +360,14 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>la-oriya.base</string>
       <string>la-oriya.below</string>
       <string>la-oriya.single</string>
-      <string>la_ga-oriya</string>
-      <string>la_ka-oriya</string>
-      <string>la_la-oriya</string>
-      <string>la_lla-oriya</string>
-      <string>la_ma-oriya</string>
-      <string>la_pa-oriya</string>
-      <string>la_pha-oriya</string>
-      <string>la_ra-oriya</string>
+      <string>laga-oriya</string>
+      <string>laka-oriya</string>
+      <string>lala-oriya</string>
+      <string>lalla-oriya</string>
+      <string>lama-oriya</string>
+      <string>lapa-oriya</string>
+      <string>lapha-oriya</string>
+      <string>lara-oriya</string>
       <string>less</string>
       <string>llVocalic-oriya</string>
       <string>llVocalicMatra-oriya</string>
@@ -382,56 +376,56 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>lla-oriya.base</string>
       <string>lla-oriya.below</string>
       <string>lla-oriya.single</string>
-      <string>lla_ka-oriya</string>
-      <string>lla_lla-oriya</string>
-      <string>lla_pa-oriya</string>
-      <string>lla_pha-oriya</string>
-      <string>lla_ra-oriya</string>
+      <string>llaka-oriya</string>
+      <string>llalla-oriya</string>
+      <string>llapa-oriya</string>
+      <string>llapha-oriya</string>
+      <string>llara-oriya</string>
       <string>ma-oriya</string>
       <string>ma-oriya.base</string>
       <string>ma-oriya.below</string>
       <string>ma-oriya.single</string>
-      <string>ma_ba-oriya</string>
-      <string>ma_bha-oriya</string>
-      <string>ma_bha_ra-oriya</string>
-      <string>ma_ma-oriya</string>
-      <string>ma_pa-oriya</string>
-      <string>ma_pa_ra-oriya</string>
-      <string>ma_pha-oriya</string>
-      <string>ma_ra-oriya</string>
+      <string>maba-oriya</string>
+      <string>mabha-oriya</string>
+      <string>mabhara-oriya</string>
+      <string>mama-oriya</string>
+      <string>mapa-oriya</string>
+      <string>mapara-oriya</string>
+      <string>mapha-oriya</string>
+      <string>mara-oriya</string>
       <string>minus</string>
       <string>multiply</string>
       <string>na-oriya</string>
       <string>na-oriya.base</string>
       <string>na-oriya.below</string>
       <string>na-oriya.single</string>
-      <string>na_da-oriya</string>
-      <string>na_da_ra-oriya</string>
-      <string>na_da_va-oriya</string>
-      <string>na_dha-oriya</string>
-      <string>na_dha_ra-oriya</string>
-      <string>na_dha_va-oriya</string>
-      <string>na_na-oriya</string>
-      <string>na_ra-oriya</string>
-      <string>na_ta-oriya</string>
-      <string>na_ta_ra-oriya</string>
-      <string>na_ta_uMatra-oriya</string>
-      <string>na_ta_va-oriya</string>
-      <string>na_tha-oriya</string>
+      <string>nada-oriya</string>
+      <string>nadara-oriya</string>
+      <string>nadava-oriya</string>
+      <string>nadha-oriya</string>
+      <string>nadhara-oriya</string>
+      <string>nadhava-oriya</string>
+      <string>nana-oriya</string>
+      <string>nara-oriya</string>
+      <string>nata-oriya</string>
+      <string>natara-oriya</string>
+      <string>natauMatra-oriya</string>
+      <string>natava-oriya</string>
+      <string>natha-oriya</string>
       <string>nbspace</string>
       <string>nga-oriya</string>
       <string>nga-oriya.REV_BRACKET.141</string>
       <string>nga-oriya.base</string>
       <string>nga-oriya.below</string>
       <string>nga-oriya.single</string>
-      <string>nga_ga-oriya</string>
-      <string>nga_gha-oriya</string>
-      <string>nga_ka-oriya</string>
-      <string>nga_ka_ssa-oriya</string>
-      <string>nga_ka_ta-oriya</string>
-      <string>nga_kha-oriya</string>
-      <string>nga_ra-oriya</string>
-      <string>nga_ra-oriya.REV_BRACKET.141</string>
+      <string>ngaga-oriya</string>
+      <string>ngagha-oriya</string>
+      <string>ngaka-oriya</string>
+      <string>ngakassa-oriya</string>
+      <string>ngakata-oriya</string>
+      <string>ngakha-oriya</string>
+      <string>ngara-oriya</string>
+      <string>ngara-oriya.REV_BRACKET.141</string>
       <string>nine</string>
       <string>nine-oriya</string>
       <string>nine-oriya.REV_BRACKET.141</string>
@@ -439,24 +433,24 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>nna-oriya.base</string>
       <string>nna-oriya.below</string>
       <string>nna-oriya.single</string>
-      <string>nna_dda-oriya</string>
-      <string>nna_dda_halant-oriya</string>
-      <string>nna_dda_ra-oriya</string>
-      <string>nna_ddha-oriya</string>
-      <string>nna_nna-oriya</string>
-      <string>nna_ra-oriya</string>
-      <string>nna_tta-oriya</string>
-      <string>nna_tta_halant-oriya</string>
-      <string>nna_ttha-oriya</string>
+      <string>nnadda-oriya</string>
+      <string>nnaddahalant-oriya</string>
+      <string>nnaddara-oriya</string>
+      <string>nnaddha-oriya</string>
+      <string>nnanna-oriya</string>
+      <string>nnara-oriya</string>
+      <string>nnatta-oriya</string>
+      <string>nnattahalant-oriya</string>
+      <string>nnattha-oriya</string>
       <string>nukta-oriya</string>
       <string>numbersign</string>
       <string>nya-oriya</string>
       <string>nya-oriya.base</string>
-      <string>nya_ca-oriya</string>
-      <string>nya_cha-oriya</string>
-      <string>nya_ja-oriya</string>
-      <string>nya_jha-oriya</string>
-      <string>nya_ra-oriya</string>
+      <string>nyaca-oriya</string>
+      <string>nyacha-oriya</string>
+      <string>nyaja-oriya</string>
+      <string>nyajha-oriya</string>
+      <string>nyara-oriya</string>
       <string>o-oriya</string>
       <string>oMatra-oriya</string>
       <string>om-oriya</string>
@@ -471,22 +465,23 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>pa-oriya.base</string>
       <string>pa-oriya.below</string>
       <string>pa-oriya.single</string>
-      <string>pa_ka-oriya</string>
-      <string>pa_lla-oriya</string>
-      <string>pa_pa-oriya</string>
-      <string>pa_ra-oriya</string>
-      <string>pa_sa-oriya</string>
-      <string>pa_ta-oriya</string>
-      <string>pa_tta-oriya</string>
+      <string>paka-oriya</string>
+      <string>palla-oriya</string>
+      <string>papa-oriya</string>
+      <string>para-oriya</string>
       <string>parenleft</string>
       <string>parenright</string>
+      <string>partta-oriya.below</string>
+      <string>pasa-oriya</string>
+      <string>pata-oriya</string>
+      <string>patta-oriya</string>
       <string>percent</string>
       <string>period</string>
       <string>pha-oriya</string>
       <string>pha-oriya.base</string>
       <string>pha-oriya.below</string>
       <string>pha-oriya.single</string>
-      <string>pha_ra-oriya</string>
+      <string>phara-oriya</string>
       <string>plus</string>
       <string>question</string>
       <string>quotedbl</string>
@@ -501,46 +496,46 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>ra-oriya.base</string>
       <string>ra-oriya.below</string>
       <string>ra-oriya.single</string>
-      <string>ra_rVocalicMatra-oriya.below</string>
-      <string>ra_rrVocalicMatra-oriya.below</string>
-      <string>ra_uMatra-oriya.below</string>
-      <string>ra_uuMatra-oriya.below</string>
+      <string>rarVocalicMatra-oriya.below</string>
+      <string>rarrVocalicMatra-oriya.below</string>
+      <string>rauMatra-oriya.below</string>
+      <string>rauuMatra-oriya.below</string>
       <string>reph-oriya</string>
-      <string>reph_aiLength-oriya</string>
-      <string>reph_aiLength-oriya.stem</string>
-      <string>reph_aiLength-oriya.umbrella</string>
-      <string>reph_aiLength_candraBindu-oriya</string>
-      <string>reph_aiLength_candraBindu-oriya.stem</string>
-      <string>reph_aiLength_candraBindu-oriya.umbrella</string>
-      <string>reph_auLength-oriya</string>
-      <string>reph_auLength_candraBindu-oriya</string>
-      <string>reph_candraBindu-oriya</string>
+      <string>rephaiLength-oriya</string>
+      <string>rephaiLength-oriya.stem</string>
+      <string>rephaiLength-oriya.umbrella</string>
+      <string>rephaiLengthcandraBindu-oriya</string>
+      <string>rephaiLengthcandraBindu-oriya.stem</string>
+      <string>rephaiLengthcandraBindu-oriya.umbrella</string>
+      <string>rephauLength-oriya</string>
+      <string>rephauLengthcandraBindu-oriya</string>
+      <string>rephcandraBindu-oriya</string>
       <string>rha-oriya</string>
       <string>rha-oriya.base</string>
-      <string>rha_ra-oriya</string>
+      <string>rhara-oriya</string>
       <string>rrVocalic-oriya</string>
       <string>rrVocalicMatra-oriya</string>
       <string>rrVocalicMatra-oriya.REV_BRACKET.141</string>
       <string>rra-oriya</string>
       <string>rra-oriya.base</string>
-      <string>rra_ra-oriya</string>
+      <string>rrara-oriya</string>
       <string>rupeeIndian</string>
       <string>sa-oriya</string>
       <string>sa-oriya.base</string>
       <string>sa-oriya.below</string>
       <string>sa-oriya.single</string>
-      <string>sa_ka-oriya</string>
-      <string>sa_kha-oriya</string>
-      <string>sa_ma-oriya</string>
-      <string>sa_na-oriya</string>
-      <string>sa_pa-oriya</string>
-      <string>sa_pa_rVocalicMatra-oriya</string>
-      <string>sa_pha-oriya</string>
-      <string>sa_ra-oriya</string>
-      <string>sa_ta-oriya</string>
-      <string>sa_ta_ra-oriya</string>
-      <string>sa_tha-oriya</string>
-      <string>sa_va-oriya</string>
+      <string>saka-oriya</string>
+      <string>sakha-oriya</string>
+      <string>sama-oriya</string>
+      <string>sana-oriya</string>
+      <string>sapa-oriya</string>
+      <string>saparVocalicMatra-oriya</string>
+      <string>sapha-oriya</string>
+      <string>sara-oriya</string>
+      <string>sata-oriya</string>
+      <string>satara-oriya</string>
+      <string>satha-oriya</string>
+      <string>sava-oriya</string>
       <string>semicolon</string>
       <string>seven</string>
       <string>seven-oriya</string>
@@ -549,11 +544,11 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>sha-oriya.base</string>
       <string>sha-oriya.below</string>
       <string>sha-oriya.single</string>
-      <string>sha_ca-oriya</string>
-      <string>sha_cha-oriya</string>
-      <string>sha_lla-oriya</string>
-      <string>sha_ra-oriya</string>
-      <string>sha_va-oriya</string>
+      <string>shaca-oriya</string>
+      <string>shacha-oriya</string>
+      <string>shalla-oriya</string>
+      <string>shara-oriya</string>
+      <string>shava-oriya</string>
       <string>six</string>
       <string>six-oriya</string>
       <string>six-oriya.REV_BRACKET.141</string>
@@ -565,43 +560,43 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>ssa-oriya.base</string>
       <string>ssa-oriya.below</string>
       <string>ssa-oriya.single</string>
-      <string>ssa_ka-oriya</string>
-      <string>ssa_ka_ra-oriya</string>
-      <string>ssa_nna-oriya</string>
-      <string>ssa_pa-oriya</string>
-      <string>ssa_pha-oriya</string>
-      <string>ssa_ra-oriya</string>
-      <string>ssa_tta-oriya</string>
-      <string>ssa_tta_halant-oriya</string>
-      <string>ssa_tta_ra-oriya</string>
-      <string>ssa_ttha-oriya</string>
+      <string>ssaka-oriya</string>
+      <string>ssakara-oriya</string>
+      <string>ssanna-oriya</string>
+      <string>ssapa-oriya</string>
+      <string>ssapha-oriya</string>
+      <string>ssara-oriya</string>
+      <string>ssatta-oriya</string>
+      <string>ssattahalant-oriya</string>
+      <string>ssattara-oriya</string>
+      <string>ssattha-oriya</string>
       <string>ta-oriya</string>
       <string>ta-oriya.REV_BRACKET.141</string>
       <string>ta-oriya.base</string>
       <string>ta-oriya.below</string>
       <string>ta-oriya.single</string>
-      <string>ta_alt-oriya.below</string>
-      <string>ta_ka-oriya</string>
-      <string>ta_ka_ra-oriya</string>
-      <string>ta_ma-oriya</string>
-      <string>ta_na-oriya</string>
-      <string>ta_pa-oriya</string>
-      <string>ta_pa_ra-oriya</string>
-      <string>ta_ra-oriya</string>
-      <string>ta_ra-oriya.below</string>
-      <string>ta_ra_uMatra-oriya</string>
-      <string>ta_sa-oriya</string>
-      <string>ta_sa_na-oriya</string>
-      <string>ta_ta-oriya</string>
-      <string>ta_ta_ra-oriya</string>
-      <string>ta_ta_va-oriya</string>
-      <string>ta_tha-oriya</string>
-      <string>ta_va-oriya</string>
+      <string>taalt-oriya.below</string>
+      <string>taka-oriya</string>
+      <string>takara-oriya</string>
+      <string>tama-oriya</string>
+      <string>tana-oriya</string>
+      <string>tapa-oriya</string>
+      <string>tapara-oriya</string>
+      <string>tara-oriya</string>
+      <string>tara-oriya.below</string>
+      <string>tarauMatra-oriya</string>
+      <string>tasa-oriya</string>
+      <string>tasana-oriya</string>
+      <string>tata-oriya</string>
+      <string>tatara-oriya</string>
+      <string>tatava-oriya</string>
+      <string>tatha-oriya</string>
+      <string>tava-oriya</string>
       <string>tha-oriya</string>
       <string>tha-oriya.base</string>
       <string>tha-oriya.below</string>
       <string>tha-oriya.single</string>
-      <string>tha_ra-oriya</string>
+      <string>thara-oriya</string>
       <string>three</string>
       <string>three-oriya</string>
       <string>three-oriya.REV_BRACKET.141</string>
@@ -611,13 +606,13 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>tta-oriya.base</string>
       <string>tta-oriya.below</string>
       <string>tta-oriya.single</string>
-      <string>tta_ra-oriya</string>
-      <string>tta_tta-oriya</string>
+      <string>ttara-oriya</string>
+      <string>ttatta-oriya</string>
       <string>ttha-oriya</string>
       <string>ttha-oriya.base</string>
       <string>ttha-oriya.below</string>
       <string>ttha-oriya.single</string>
-      <string>ttha_ra-oriya</string>
+      <string>tthara-oriya</string>
       <string>two</string>
       <string>two-oriya</string>
       <string>two-oriya.REV_BRACKET.141</string>
@@ -635,20 +630,20 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>va-oriya.base.REV_BRACKET.141</string>
       <string>va-oriya.below</string>
       <string>va-oriya.single</string>
-      <string>va_ra-oriya</string>
-      <string>va_ra-oriya.REV_BRACKET.141</string>
+      <string>vara-oriya</string>
+      <string>vara-oriya.REV_BRACKET.141</string>
       <string>visarga-oriya</string>
       <string>wa-oriya</string>
       <string>wa-oriya.base</string>
-      <string>wa_ra-oriya</string>
+      <string>wara-oriya</string>
       <string>ya-oriya</string>
       <string>ya-oriya.base</string>
       <string>ya-oriya.below</string>
       <string>ya-oriya.single</string>
-      <string>ya_ra-oriya</string>
+      <string>yara-oriya</string>
       <string>yya-oriya</string>
       <string>yya-oriya.post</string>
-      <string>yya_ra-oriya</string>
+      <string>yyara-oriya</string>
       <string>zero</string>
       <string>zero-oriya</string>
       <string>zerowidthjoiner</string>
@@ -661,7 +656,6 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>_part.da.below</string>
       <string>_part.pha</string>
       <string>_part.ra.below</string>
-      <string>_part_ta-oriya.below</string>
       <string>a-oriya</string>
       <string>a-oriya.REV_BRACKET.141</string>
       <string>aa-oriya</string>
@@ -670,44 +664,44 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>aiLength-oriya</string>
       <string>aiLength-oriya.stem</string>
       <string>aiLength-oriya.umbrella</string>
-      <string>aiLength_candraBindu-oriya</string>
-      <string>aiLength_candraBindu-oriya.stem</string>
-      <string>aiLength_candraBindu-oriya.umbrella</string>
+      <string>aiLengthcandraBindu-oriya</string>
+      <string>aiLengthcandraBindu-oriya.stem</string>
+      <string>aiLengthcandraBindu-oriya.umbrella</string>
       <string>aiMatra-oriya</string>
-      <string>ai_candraBindu-oriya</string>
-      <string>ai_reph-oriya</string>
-      <string>ai_reph_candraBindu-oriya</string>
+      <string>aicandraBindu-oriya</string>
+      <string>aireph-oriya</string>
+      <string>airephcandraBindu-oriya</string>
       <string>anusvara-oriya</string>
       <string>asciicircum</string>
       <string>asciitilde</string>
       <string>asterisk</string>
       <string>au-oriya</string>
       <string>auLength-oriya</string>
-      <string>auLength_candraBindu-oriya</string>
+      <string>auLengthcandraBindu-oriya</string>
       <string>auMatra-oriya</string>
-      <string>au_candraBindu-oriya</string>
-      <string>au_reph-oriya</string>
-      <string>au_reph_candraBindu-oriya</string>
+      <string>aucandraBindu-oriya</string>
+      <string>aureph-oriya</string>
+      <string>aurephcandraBindu-oriya</string>
       <string>avagraha-oriya</string>
       <string>ba-oriya</string>
       <string>ba-oriya.base</string>
       <string>ba-oriya.below</string>
       <string>ba-oriya.single</string>
-      <string>ba_ba-oriya</string>
-      <string>ba_da-oriya</string>
-      <string>ba_dha-oriya</string>
-      <string>ba_ja-oriya</string>
-      <string>ba_ra-oriya</string>
+      <string>baba-oriya</string>
       <string>backslash</string>
+      <string>bada-oriya</string>
+      <string>badha-oriya</string>
+      <string>baja-oriya</string>
       <string>bar</string>
+      <string>bara-oriya</string>
       <string>bha-oriya</string>
       <string>bha-oriya.REV_BRACKET.141</string>
       <string>bha-oriya.base</string>
       <string>bha-oriya.below</string>
       <string>bha-oriya.single</string>
-      <string>bha_alt-oriya.below</string>
-      <string>bha_ra-oriya</string>
-      <string>bha_ra-oriya.REV_BRACKET.141</string>
+      <string>bhaalt-oriya.below</string>
+      <string>bhara-oriya</string>
+      <string>bhara-oriya.REV_BRACKET.141</string>
       <string>braceleft</string>
       <string>braceright</string>
       <string>bracketleft</string>
@@ -716,58 +710,58 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>ca-oriya.base</string>
       <string>ca-oriya.below</string>
       <string>ca-oriya.single</string>
-      <string>ca_ca-oriya</string>
-      <string>ca_cha-oriya</string>
-      <string>ca_ra-oriya</string>
+      <string>caca-oriya</string>
+      <string>cacha-oriya</string>
       <string>candraBindu-oriya</string>
       <string>candraBindu-oriya.REV_BRACKET.141</string>
+      <string>cara-oriya</string>
       <string>cha-oriya</string>
       <string>cha-oriya.REV_BRACKET.141</string>
       <string>cha-oriya.base</string>
       <string>cha-oriya.below</string>
       <string>cha-oriya.single</string>
-      <string>cha_ra-oriya</string>
-      <string>cha_ra-oriya.REV_BRACKET.141</string>
+      <string>chara-oriya</string>
+      <string>chara-oriya.REV_BRACKET.141</string>
       <string>colon</string>
       <string>comma</string>
       <string>da-oriya</string>
       <string>da-oriya.base</string>
       <string>da-oriya.below</string>
       <string>da-oriya.single</string>
-      <string>da_bha-oriya</string>
-      <string>da_da-oriya</string>
-      <string>da_dha-oriya</string>
-      <string>da_dha_va-oriya</string>
-      <string>da_ga-oriya</string>
-      <string>da_gha-oriya</string>
-      <string>da_ra-oriya</string>
-      <string>da_ra_uMatra-oriya</string>
-      <string>da_va-oriya</string>
+      <string>dabha-oriya</string>
+      <string>dada-oriya</string>
+      <string>dadha-oriya</string>
+      <string>dadhava-oriya</string>
+      <string>daga-oriya</string>
+      <string>dagha-oriya</string>
       <string>danda</string>
+      <string>dara-oriya</string>
+      <string>darauMatra-oriya</string>
+      <string>dava-oriya</string>
       <string>dbldanda</string>
       <string>dda-oriya</string>
       <string>dda-oriya.REV_BRACKET.141</string>
       <string>dda-oriya.base</string>
       <string>dda-oriya.below</string>
       <string>dda-oriya.single</string>
-      <string>dda_dda-oriya</string>
-      <string>dda_ga-oriya</string>
-      <string>dda_ra-oriya</string>
-      <string>dda_ra-oriya.REV_BRACKET.141</string>
+      <string>ddadda-oriya</string>
+      <string>ddaga-oriya</string>
+      <string>ddara-oriya</string>
+      <string>ddara-oriya.REV_BRACKET.141</string>
       <string>ddha-oriya</string>
       <string>ddha-oriya.REV_BRACKET.141</string>
       <string>ddha-oriya.base</string>
       <string>ddha-oriya.below</string>
       <string>ddha-oriya.single</string>
-      <string>ddha_ra-oriya</string>
+      <string>ddhara-oriya</string>
       <string>dha-oriya</string>
       <string>dha-oriya.base</string>
       <string>dha-oriya.below</string>
       <string>dha-oriya.single</string>
-      <string>dha_ra-oriya</string>
-      <string>dha_va-oriya</string>
-      <string>dha_ya-oriya</string>
-      <string>dha_yya-oriya</string>
+      <string>dhara-oriya</string>
+      <string>dhava-oriya</string>
+      <string>dhaya-oriya</string>
+      <string>dhayya-oriya</string>
       <string>divide</string>
       <string>dottedCircle</string>
       <string>e-oriya</string>
@@ -789,47 +783,47 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>ga-oriya.base</string>
       <string>ga-oriya.below</string>
       <string>ga-oriya.single</string>
-      <string>ga_da-oriya</string>
-      <string>ga_dha-oriya</string>
-      <string>ga_lla-oriya</string>
-      <string>ga_na-oriya</string>
-      <string>ga_ra-oriya</string>
+      <string>gada-oriya</string>
+      <string>gadha-oriya</string>
+      <string>galla-oriya</string>
+      <string>gana-oriya</string>
+      <string>gara-oriya</string>
       <string>gha-oriya</string>
       <string>gha-oriya.base</string>
       <string>gha-oriya.below</string>
       <string>gha-oriya.single</string>
-      <string>gha_na-oriya</string>
-      <string>gha_ra-oriya</string>
+      <string>ghana-oriya</string>
+      <string>ghara-oriya</string>
       <string>greater</string>
       <string>ha-oriya</string>
       <string>ha-oriya.REV_BRACKET.141</string>
       <string>ha-oriya.base</string>
       <string>ha-oriya.below</string>
       <string>ha-oriya.single</string>
-      <string>ha_ja-oriya</string>
-      <string>ha_ka-oriya</string>
-      <string>ha_la-oriya</string>
-      <string>ha_lla-oriya</string>
-      <string>ha_ma-oriya</string>
-      <string>ha_na-oriya</string>
-      <string>ha_rVocalic-oriya</string>
-      <string>ha_ra-oriya</string>
-      <string>ha_u-oriya</string>
-      <string>ha_uu-oriya</string>
-      <string>ha_va-oriya</string>
+      <string>haja-oriya</string>
+      <string>haka-oriya</string>
+      <string>hala-oriya</string>
       <string>halant-oriya</string>
+      <string>halla-oriya</string>
+      <string>hama-oriya</string>
+      <string>hana-oriya</string>
+      <string>harVocalic-oriya</string>
+      <string>hara-oriya</string>
+      <string>hau-oriya</string>
+      <string>hauu-oriya</string>
+      <string>hava-oriya</string>
       <string>hyphen</string>
       <string>i-oriya</string>
       <string>i-oriya.REV_BRACKET.141</string>
       <string>iMatra-oriya</string>
       <string>iMatra-oriya.below</string>
       <string>iMatra-oriya.wide</string>
-      <string>iMatra_candraBindu-oriya</string>
-      <string>iMatra_candraBindu-oriya.wide</string>
-      <string>iMatra_reph-oriya</string>
-      <string>iMatra_reph-oriya.wide</string>
-      <string>iMatra_reph_candraBindu-oriya</string>
-      <string>iMatra_reph_candraBindu-oriya.wide</string>
+      <string>iMatracandraBindu-oriya</string>
+      <string>iMatracandraBindu-oriya.wide</string>
+      <string>iMatrareph-oriya</string>
+      <string>iMatrareph-oriya.wide</string>
+      <string>iMatrarephcandraBindu-oriya</string>
+      <string>iMatrarephcandraBindu-oriya.wide</string>
       <string>ii-oriya</string>
       <string>ii-oriya.REV_BRACKET.141</string>
       <string>iiMatra-oriya</string>
@@ -840,45 +834,45 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>ja-oriya.base.REV_BRACKET.141</string>
       <string>ja-oriya.below</string>
       <string>ja-oriya.single</string>
-      <string>ja_ja-oriya</string>
-      <string>ja_ja_va-oriya</string>
-      <string>ja_jha-oriya</string>
-      <string>ja_nya-oriya</string>
-      <string>ja_ra-oriya</string>
-      <string>ja_ra-oriya.REV_BRACKET.141</string>
-      <string>ja_va-oriya</string>
+      <string>jaja-oriya</string>
+      <string>jajava-oriya</string>
+      <string>jajha-oriya</string>
+      <string>janya-oriya</string>
+      <string>jara-oriya</string>
+      <string>jara-oriya.REV_BRACKET.141</string>
+      <string>java-oriya</string>
       <string>jha-oriya</string>
       <string>jha-oriya.base</string>
       <string>jha-oriya.below</string>
       <string>jha-oriya.single</string>
-      <string>jha_ra-oriya</string>
+      <string>jhara-oriya</string>
       <string>ka-oriya</string>
       <string>ka-oriya.REV_BRACKET.141</string>
       <string>ka-oriya.base</string>
       <string>ka-oriya.below</string>
       <string>ka-oriya.single</string>
-      <string>ka_ca-oriya</string>
-      <string>ka_ka-oriya</string>
-      <string>ka_lla-oriya</string>
-      <string>ka_ra-oriya</string>
-      <string>ka_ra-oriya.REV_BRACKET.141</string>
-      <string>ka_sa-oriya</string>
-      <string>ka_ssa-oriya</string>
-      <string>ka_ssa-oriya.base</string>
-      <string>ka_ssa-oriya.below</string>
-      <string>ka_ssa_ma-oriya</string>
-      <string>ka_ssa_nna-oriya</string>
-      <string>ka_ssa_ra-oriya</string>
-      <string>ka_ta-oriya</string>
-      <string>ka_ta_ra-oriya</string>
-      <string>ka_ta_ra_alt-oriya</string>
-      <string>ka_tta-oriya</string>
-      <string>ka_va-oriya</string>
+      <string>kaca-oriya</string>
+      <string>kaka-oriya</string>
+      <string>kalla-oriya</string>
+      <string>kara-oriya</string>
+      <string>kara-oriya.REV_BRACKET.141</string>
+      <string>kasa-oriya</string>
+      <string>kassa-oriya</string>
+      <string>kassa-oriya.base</string>
+      <string>kassa-oriya.below</string>
+      <string>kassama-oriya</string>
+      <string>kassanna-oriya</string>
+      <string>kassara-oriya</string>
+      <string>kata-oriya</string>
+      <string>katara-oriya</string>
+      <string>kataraalt-oriya</string>
+      <string>katta-oriya</string>
+      <string>kava-oriya</string>
       <string>kha-oriya</string>
       <string>kha-oriya.base</string>
       <string>kha-oriya.below</string>
       <string>kha-oriya.single</string>
-      <string>kha_ra-oriya</string>
+      <string>khara-oriya</string>
       <string>lVocalic-oriya</string>
       <string>lVocalicMatra-oriya</string>
       <string>lVocalicMatra-oriya.REV_BRACKET.141</string>
@@ -886,14 +880,14 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>la-oriya.base</string>
       <string>la-oriya.below</string>
       <string>la-oriya.single</string>
-      <string>la_ga-oriya</string>
-      <string>la_ka-oriya</string>
-      <string>la_la-oriya</string>
-      <string>la_lla-oriya</string>
-      <string>la_ma-oriya</string>
-      <string>la_pa-oriya</string>
-      <string>la_pha-oriya</string>
-      <string>la_ra-oriya</string>
+      <string>laga-oriya</string>
+      <string>laka-oriya</string>
+      <string>lala-oriya</string>
+      <string>lalla-oriya</string>
+      <string>lama-oriya</string>
+      <string>lapa-oriya</string>
+      <string>lapha-oriya</string>
+      <string>lara-oriya</string>
       <string>less</string>
       <string>llVocalic-oriya</string>
       <string>llVocalicMatra-oriya</string>
@@ -902,56 +896,56 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>lla-oriya.base</string>
       <string>lla-oriya.below</string>
       <string>lla-oriya.single</string>
-      <string>lla_ka-oriya</string>
-      <string>lla_lla-oriya</string>
-      <string>lla_pa-oriya</string>
-      <string>lla_pha-oriya</string>
-      <string>lla_ra-oriya</string>
+      <string>llaka-oriya</string>
+      <string>llalla-oriya</string>
+      <string>llapa-oriya</string>
+      <string>llapha-oriya</string>
+      <string>llara-oriya</string>
       <string>ma-oriya</string>
       <string>ma-oriya.base</string>
       <string>ma-oriya.below</string>
       <string>ma-oriya.single</string>
-      <string>ma_ba-oriya</string>
-      <string>ma_bha-oriya</string>
-      <string>ma_bha_ra-oriya</string>
-      <string>ma_ma-oriya</string>
-      <string>ma_pa-oriya</string>
-      <string>ma_pa_ra-oriya</string>
-      <string>ma_pha-oriya</string>
-      <string>ma_ra-oriya</string>
+      <string>maba-oriya</string>
+      <string>mabha-oriya</string>
+      <string>mabhara-oriya</string>
+      <string>mama-oriya</string>
+      <string>mapa-oriya</string>
+      <string>mapara-oriya</string>
+      <string>mapha-oriya</string>
+      <string>mara-oriya</string>
       <string>minus</string>
       <string>multiply</string>
       <string>na-oriya</string>
       <string>na-oriya.base</string>
       <string>na-oriya.below</string>
       <string>na-oriya.single</string>
-      <string>na_da-oriya</string>
-      <string>na_da_ra-oriya</string>
-      <string>na_da_va-oriya</string>
-      <string>na_dha-oriya</string>
-      <string>na_dha_ra-oriya</string>
-      <string>na_dha_va-oriya</string>
-      <string>na_na-oriya</string>
-      <string>na_ra-oriya</string>
-      <string>na_ta-oriya</string>
-      <string>na_ta_ra-oriya</string>
-      <string>na_ta_uMatra-oriya</string>
-      <string>na_ta_va-oriya</string>
-      <string>na_tha-oriya</string>
+      <string>nada-oriya</string>
+      <string>nadara-oriya</string>
+      <string>nadava-oriya</string>
+      <string>nadha-oriya</string>
+      <string>nadhara-oriya</string>
+      <string>nadhava-oriya</string>
+      <string>nana-oriya</string>
+      <string>nara-oriya</string>
+      <string>nata-oriya</string>
+      <string>natara-oriya</string>
+      <string>natauMatra-oriya</string>
+      <string>natava-oriya</string>
+      <string>natha-oriya</string>
       <string>nbspace</string>
       <string>nga-oriya</string>
       <string>nga-oriya.REV_BRACKET.141</string>
       <string>nga-oriya.base</string>
       <string>nga-oriya.below</string>
       <string>nga-oriya.single</string>
-      <string>nga_ga-oriya</string>
-      <string>nga_gha-oriya</string>
-      <string>nga_ka-oriya</string>
-      <string>nga_ka_ssa-oriya</string>
-      <string>nga_ka_ta-oriya</string>
-      <string>nga_kha-oriya</string>
-      <string>nga_ra-oriya</string>
-      <string>nga_ra-oriya.REV_BRACKET.141</string>
+      <string>ngaga-oriya</string>
+      <string>ngagha-oriya</string>
+      <string>ngaka-oriya</string>
+      <string>ngakassa-oriya</string>
+      <string>ngakata-oriya</string>
+      <string>ngakha-oriya</string>
+      <string>ngara-oriya</string>
+      <string>ngara-oriya.REV_BRACKET.141</string>
       <string>nine</string>
       <string>nine-oriya</string>
       <string>nine-oriya.REV_BRACKET.141</string>
@@ -959,24 +953,24 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>nna-oriya.base</string>
       <string>nna-oriya.below</string>
       <string>nna-oriya.single</string>
-      <string>nna_dda-oriya</string>
-      <string>nna_dda_halant-oriya</string>
-      <string>nna_dda_ra-oriya</string>
-      <string>nna_ddha-oriya</string>
-      <string>nna_nna-oriya</string>
-      <string>nna_ra-oriya</string>
-      <string>nna_tta-oriya</string>
-      <string>nna_tta_halant-oriya</string>
-      <string>nna_ttha-oriya</string>
+      <string>nnadda-oriya</string>
+      <string>nnaddahalant-oriya</string>
+      <string>nnaddara-oriya</string>
+      <string>nnaddha-oriya</string>
+      <string>nnanna-oriya</string>
+      <string>nnara-oriya</string>
+      <string>nnatta-oriya</string>
+      <string>nnattahalant-oriya</string>
+      <string>nnattha-oriya</string>
       <string>nukta-oriya</string>
       <string>numbersign</string>
       <string>nya-oriya</string>
       <string>nya-oriya.base</string>
-      <string>nya_ca-oriya</string>
-      <string>nya_cha-oriya</string>
-      <string>nya_ja-oriya</string>
-      <string>nya_jha-oriya</string>
-      <string>nya_ra-oriya</string>
+      <string>nyaca-oriya</string>
+      <string>nyacha-oriya</string>
+      <string>nyaja-oriya</string>
+      <string>nyajha-oriya</string>
+      <string>nyara-oriya</string>
       <string>o-oriya</string>
       <string>oMatra-oriya</string>
       <string>om-oriya</string>
@@ -991,22 +985,23 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>pa-oriya.base</string>
       <string>pa-oriya.below</string>
       <string>pa-oriya.single</string>
-      <string>pa_ka-oriya</string>
-      <string>pa_lla-oriya</string>
-      <string>pa_pa-oriya</string>
-      <string>pa_ra-oriya</string>
-      <string>pa_sa-oriya</string>
-      <string>pa_ta-oriya</string>
-      <string>pa_tta-oriya</string>
+      <string>paka-oriya</string>
+      <string>palla-oriya</string>
+      <string>papa-oriya</string>
+      <string>para-oriya</string>
       <string>parenleft</string>
       <string>parenright</string>
+      <string>partta-oriya.below</string>
+      <string>pasa-oriya</string>
+      <string>pata-oriya</string>
+      <string>patta-oriya</string>
       <string>percent</string>
       <string>period</string>
       <string>pha-oriya</string>
       <string>pha-oriya.base</string>
       <string>pha-oriya.below</string>
       <string>pha-oriya.single</string>
-      <string>pha_ra-oriya</string>
+      <string>phara-oriya</string>
       <string>plus</string>
       <string>question</string>
       <string>quotedbl</string>
@@ -1021,46 +1016,46 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>ra-oriya.base</string>
       <string>ra-oriya.below</string>
       <string>ra-oriya.single</string>
-      <string>ra_rVocalicMatra-oriya.below</string>
-      <string>ra_rrVocalicMatra-oriya.below</string>
-      <string>ra_uMatra-oriya.below</string>
-      <string>ra_uuMatra-oriya.below</string>
+      <string>rarVocalicMatra-oriya.below</string>
+      <string>rarrVocalicMatra-oriya.below</string>
+      <string>rauMatra-oriya.below</string>
+      <string>rauuMatra-oriya.below</string>
       <string>reph-oriya</string>
-      <string>reph_aiLength-oriya</string>
-      <string>reph_aiLength-oriya.stem</string>
-      <string>reph_aiLength-oriya.umbrella</string>
-      <string>reph_aiLength_candraBindu-oriya</string>
-      <string>reph_aiLength_candraBindu-oriya.stem</string>
-      <string>reph_aiLength_candraBindu-oriya.umbrella</string>
-      <string>reph_auLength-oriya</string>
-      <string>reph_auLength_candraBindu-oriya</string>
-      <string>reph_candraBindu-oriya</string>
+      <string>rephaiLength-oriya</string>
+      <string>rephaiLength-oriya.stem</string>
+      <string>rephaiLength-oriya.umbrella</string>
+      <string>rephaiLengthcandraBindu-oriya</string>
+      <string>rephaiLengthcandraBindu-oriya.stem</string>
+      <string>rephaiLengthcandraBindu-oriya.umbrella</string>
+      <string>rephauLength-oriya</string>
+      <string>rephauLengthcandraBindu-oriya</string>
+      <string>rephcandraBindu-oriya</string>
       <string>rha-oriya</string>
       <string>rha-oriya.base</string>
-      <string>rha_ra-oriya</string>
+      <string>rhara-oriya</string>
       <string>rrVocalic-oriya</string>
       <string>rrVocalicMatra-oriya</string>
       <string>rrVocalicMatra-oriya.REV_BRACKET.141</string>
       <string>rra-oriya</string>
       <string>rra-oriya.base</string>
-      <string>rra_ra-oriya</string>
+      <string>rrara-oriya</string>
       <string>rupeeIndian</string>
       <string>sa-oriya</string>
       <string>sa-oriya.base</string>
       <string>sa-oriya.below</string>
       <string>sa-oriya.single</string>
-      <string>sa_ka-oriya</string>
-      <string>sa_kha-oriya</string>
-      <string>sa_ma-oriya</string>
-      <string>sa_na-oriya</string>
-      <string>sa_pa-oriya</string>
-      <string>sa_pa_rVocalicMatra-oriya</string>
-      <string>sa_pha-oriya</string>
-      <string>sa_ra-oriya</string>
-      <string>sa_ta-oriya</string>
-      <string>sa_ta_ra-oriya</string>
-      <string>sa_tha-oriya</string>
-      <string>sa_va-oriya</string>
+      <string>saka-oriya</string>
+      <string>sakha-oriya</string>
+      <string>sama-oriya</string>
+      <string>sana-oriya</string>
+      <string>sapa-oriya</string>
+      <string>saparVocalicMatra-oriya</string>
+      <string>sapha-oriya</string>
+      <string>sara-oriya</string>
+      <string>sata-oriya</string>
+      <string>satara-oriya</string>
+      <string>satha-oriya</string>
+      <string>sava-oriya</string>
       <string>semicolon</string>
       <string>seven</string>
       <string>seven-oriya</string>
@@ -1069,11 +1064,11 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>sha-oriya.base</string>
       <string>sha-oriya.below</string>
       <string>sha-oriya.single</string>
-      <string>sha_ca-oriya</string>
-      <string>sha_cha-oriya</string>
-      <string>sha_lla-oriya</string>
-      <string>sha_ra-oriya</string>
-      <string>sha_va-oriya</string>
+      <string>shaca-oriya</string>
+      <string>shacha-oriya</string>
+      <string>shalla-oriya</string>
+      <string>shara-oriya</string>
+      <string>shava-oriya</string>
       <string>six</string>
       <string>six-oriya</string>
       <string>six-oriya.REV_BRACKET.141</string>
@@ -1085,43 +1080,43 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>ssa-oriya.base</string>
       <string>ssa-oriya.below</string>
       <string>ssa-oriya.single</string>
-      <string>ssa_ka-oriya</string>
-      <string>ssa_ka_ra-oriya</string>
-      <string>ssa_nna-oriya</string>
-      <string>ssa_pa-oriya</string>
-      <string>ssa_pha-oriya</string>
-      <string>ssa_ra-oriya</string>
-      <string>ssa_tta-oriya</string>
-      <string>ssa_tta_halant-oriya</string>
-      <string>ssa_tta_ra-oriya</string>
-      <string>ssa_ttha-oriya</string>
+      <string>ssaka-oriya</string>
+      <string>ssakara-oriya</string>
+      <string>ssanna-oriya</string>
+      <string>ssapa-oriya</string>
+      <string>ssapha-oriya</string>
+      <string>ssara-oriya</string>
+      <string>ssatta-oriya</string>
+      <string>ssattahalant-oriya</string>
+      <string>ssattara-oriya</string>
+      <string>ssattha-oriya</string>
       <string>ta-oriya</string>
       <string>ta-oriya.REV_BRACKET.141</string>
       <string>ta-oriya.base</string>
       <string>ta-oriya.below</string>
       <string>ta-oriya.single</string>
-      <string>ta_alt-oriya.below</string>
-      <string>ta_ka-oriya</string>
-      <string>ta_ka_ra-oriya</string>
-      <string>ta_ma-oriya</string>
-      <string>ta_na-oriya</string>
-      <string>ta_pa-oriya</string>
-      <string>ta_pa_ra-oriya</string>
-      <string>ta_ra-oriya</string>
-      <string>ta_ra-oriya.below</string>
-      <string>ta_ra_uMatra-oriya</string>
-      <string>ta_sa-oriya</string>
-      <string>ta_sa_na-oriya</string>
-      <string>ta_ta-oriya</string>
-      <string>ta_ta_ra-oriya</string>
-      <string>ta_ta_va-oriya</string>
-      <string>ta_tha-oriya</string>
-      <string>ta_va-oriya</string>
+      <string>taalt-oriya.below</string>
+      <string>taka-oriya</string>
+      <string>takara-oriya</string>
+      <string>tama-oriya</string>
+      <string>tana-oriya</string>
+      <string>tapa-oriya</string>
+      <string>tapara-oriya</string>
+      <string>tara-oriya</string>
+      <string>tara-oriya.below</string>
+      <string>tarauMatra-oriya</string>
+      <string>tasa-oriya</string>
+      <string>tasana-oriya</string>
+      <string>tata-oriya</string>
+      <string>tatara-oriya</string>
+      <string>tatava-oriya</string>
+      <string>tatha-oriya</string>
+      <string>tava-oriya</string>
       <string>tha-oriya</string>
       <string>tha-oriya.base</string>
       <string>tha-oriya.below</string>
       <string>tha-oriya.single</string>
-      <string>tha_ra-oriya</string>
+      <string>thara-oriya</string>
       <string>three</string>
       <string>three-oriya</string>
       <string>three-oriya.REV_BRACKET.141</string>
@@ -1131,13 +1126,13 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>tta-oriya.base</string>
       <string>tta-oriya.below</string>
       <string>tta-oriya.single</string>
-      <string>tta_ra-oriya</string>
-      <string>tta_tta-oriya</string>
+      <string>ttara-oriya</string>
+      <string>ttatta-oriya</string>
       <string>ttha-oriya</string>
       <string>ttha-oriya.base</string>
       <string>ttha-oriya.below</string>
       <string>ttha-oriya.single</string>
-      <string>ttha_ra-oriya</string>
+      <string>tthara-oriya</string>
       <string>two</string>
       <string>two-oriya</string>
       <string>two-oriya.REV_BRACKET.141</string>
@@ -1155,20 +1150,20 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>va-oriya.base.REV_BRACKET.141</string>
       <string>va-oriya.below</string>
       <string>va-oriya.single</string>
-      <string>va_ra-oriya</string>
-      <string>va_ra-oriya.REV_BRACKET.141</string>
+      <string>vara-oriya</string>
+      <string>vara-oriya.REV_BRACKET.141</string>
       <string>visarga-oriya</string>
       <string>wa-oriya</string>
       <string>wa-oriya.base</string>
-      <string>wa_ra-oriya</string>
+      <string>wara-oriya</string>
       <string>ya-oriya</string>
       <string>ya-oriya.base</string>
       <string>ya-oriya.below</string>
       <string>ya-oriya.single</string>
-      <string>ya_ra-oriya</string>
+      <string>yara-oriya</string>
       <string>yya-oriya</string>
       <string>yya-oriya.post</string>
-      <string>yya_ra-oriya</string>
+      <string>yyara-oriya</string>
       <string>zero</string>
       <string>zero-oriya</string>
       <string>zerowidthjoiner</string>
@@ -1177,8 +1172,6 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
     </array>
     <key>public.postscriptNames</key>
     <dict>
-      <key>_part_ta-oriya.below</key>
-      <string>_part_taoriya.below</string>
       <key>a-oriya</key>
       <string>uni0B05</string>
       <key>a-oriya.REV_BRACKET.141</key>
@@ -1195,36 +1188,36 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B56.stem</string>
       <key>aiLength-oriya.umbrella</key>
       <string>uni0B56.umbrella</string>
-      <key>aiLength_candraBindu-oriya</key>
-      <string>aiLength_candraBinduoriya</string>
-      <key>aiLength_candraBindu-oriya.stem</key>
-      <string>aiLength_candraBinduoriya.stem</string>
-      <key>aiLength_candraBindu-oriya.umbrella</key>
-      <string>aiLength_candraBinduoriya.umbrella</string>
+      <key>aiLengthcandraBindu-oriya</key>
+      <string>aiLengthcandraBinduoriya</string>
+      <key>aiLengthcandraBindu-oriya.stem</key>
+      <string>aiLengthcandraBinduoriya.stem</string>
+      <key>aiLengthcandraBindu-oriya.umbrella</key>
+      <string>aiLengthcandraBinduoriya.umbrella</string>
       <key>aiMatra-oriya</key>
       <string>uni0B48</string>
-      <key>ai_candraBindu-oriya</key>
-      <string>ai_candraBinduoriya</string>
-      <key>ai_reph-oriya</key>
-      <string>ai_rephoriya</string>
-      <key>ai_reph_candraBindu-oriya</key>
-      <string>ai_reph_candraBinduoriya</string>
+      <key>aicandraBindu-oriya</key>
+      <string>aicandraBinduoriya</string>
+      <key>aireph-oriya</key>
+      <string>airephoriya</string>
+      <key>airephcandraBindu-oriya</key>
+      <string>airephcandraBinduoriya</string>
       <key>anusvara-oriya</key>
       <string>uni0B02</string>
       <key>au-oriya</key>
       <string>uni0B14</string>
       <key>auLength-oriya</key>
       <string>uni0B57</string>
-      <key>auLength_candraBindu-oriya</key>
-      <string>auLength_candraBinduoriya</string>
+      <key>auLengthcandraBindu-oriya</key>
+      <string>auLengthcandraBinduoriya</string>
       <key>auMatra-oriya</key>
       <string>uni0B4C</string>
-      <key>au_candraBindu-oriya</key>
-      <string>uniA7370B01</string>
-      <key>au_reph-oriya</key>
-      <string>uniA7370B300B4D</string>
-      <key>au_reph_candraBindu-oriya</key>
-      <string>au_reph_candraBinduoriya</string>
+      <key>aucandraBindu-oriya</key>
+      <string>aucandraBinduoriya</string>
+      <key>aureph-oriya</key>
+      <string>aurephoriya</string>
+      <key>aurephcandraBindu-oriya</key>
+      <string>aurephcandraBinduoriya</string>
       <key>avagraha-oriya</key>
       <string>uni0B3D</string>
       <key>ba-oriya</key>
@@ -1235,16 +1228,16 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B2C</string>
       <key>ba-oriya.single</key>
       <string>uni0B4D0B2C.single</string>
-      <key>ba_ba-oriya</key>
-      <string>ba_baoriya</string>
-      <key>ba_da-oriya</key>
-      <string>ba_daoriya</string>
-      <key>ba_dha-oriya</key>
-      <string>ba_dhaoriya</string>
-      <key>ba_ja-oriya</key>
-      <string>ba_jaoriya</string>
-      <key>ba_ra-oriya</key>
-      <string>ba_raoriya</string>
+      <key>baba-oriya</key>
+      <string>babaoriya</string>
+      <key>bada-oriya</key>
+      <string>badaoriya</string>
+      <key>badha-oriya</key>
+      <string>badhaoriya</string>
+      <key>baja-oriya</key>
+      <string>bajaoriya</string>
+      <key>bara-oriya</key>
+      <string>baraoriya</string>
       <key>bha-oriya</key>
       <string>uni0B2D</string>
       <key>bha-oriya.REV_BRACKET.141</key>
@@ -1255,12 +1248,12 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B2D</string>
       <key>bha-oriya.single</key>
       <string>uni0B4D0B2D.single</string>
-      <key>bha_alt-oriya.below</key>
-      <string>bha_altoriya.below</string>
-      <key>bha_ra-oriya</key>
-      <string>bha_raoriya</string>
-      <key>bha_ra-oriya.REV_BRACKET.141</key>
-      <string>bha_raoriya.REV_BRACKET.141</string>
+      <key>bhaalt-oriya.below</key>
+      <string>bhaaltoriya.below</string>
+      <key>bhara-oriya</key>
+      <string>bharaoriya</string>
+      <key>bhara-oriya.REV_BRACKET.141</key>
+      <string>bharaoriya.REV_BRACKET.141</string>
       <key>ca-oriya</key>
       <string>uni0B1A</string>
       <key>ca-oriya.base</key>
@@ -1269,16 +1262,16 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B1A</string>
       <key>ca-oriya.single</key>
       <string>uni0B4D0B1A.single</string>
-      <key>ca_ca-oriya</key>
-      <string>ca_caoriya</string>
-      <key>ca_cha-oriya</key>
-      <string>ca_chaoriya</string>
-      <key>ca_ra-oriya</key>
-      <string>ca_raoriya</string>
+      <key>caca-oriya</key>
+      <string>cacaoriya</string>
+      <key>cacha-oriya</key>
+      <string>cachaoriya</string>
       <key>candraBindu-oriya</key>
       <string>uni0B01</string>
       <key>candraBindu-oriya.REV_BRACKET.141</key>
       <string>uni0B01.REV_BRACKET.141</string>
+      <key>cara-oriya</key>
+      <string>caraoriya</string>
       <key>cha-oriya</key>
       <string>uni0B1B</string>
       <key>cha-oriya.REV_BRACKET.141</key>
@@ -1289,10 +1282,10 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B1B</string>
       <key>cha-oriya.single</key>
       <string>uni0B4D0B1B.single</string>
-      <key>cha_ra-oriya</key>
-      <string>cha_raoriya</string>
-      <key>cha_ra-oriya.REV_BRACKET.141</key>
-      <string>cha_raoriya.REV_BRACKET.141</string>
+      <key>chara-oriya</key>
+      <string>charaoriya</string>
+      <key>chara-oriya.REV_BRACKET.141</key>
+      <string>charaoriya.REV_BRACKET.141</string>
       <key>da-oriya</key>
       <string>uni0B26</string>
       <key>da-oriya.base</key>
@@ -1301,26 +1294,26 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B26</string>
       <key>da-oriya.single</key>
       <string>uni0B4D0B26.single</string>
-      <key>da_bha-oriya</key>
-      <string>da_bhaoriya</string>
-      <key>da_da-oriya</key>
-      <string>da_daoriya</string>
-      <key>da_dha-oriya</key>
-      <string>da_dhaoriya</string>
-      <key>da_dha_va-oriya</key>
-      <string>da_dha_vaoriya</string>
-      <key>da_ga-oriya</key>
-      <string>da_gaoriya</string>
-      <key>da_gha-oriya</key>
-      <string>da_ghaoriya</string>
-      <key>da_ra-oriya</key>
-      <string>da_raoriya</string>
-      <key>da_ra_uMatra-oriya</key>
-      <string>da_ra_uMatraoriya</string>
-      <key>da_va-oriya</key>
-      <string>da_vaoriya</string>
+      <key>dabha-oriya</key>
+      <string>dabhaoriya</string>
+      <key>dada-oriya</key>
+      <string>dadaoriya</string>
+      <key>dadha-oriya</key>
+      <string>dadhaoriya</string>
+      <key>dadhava-oriya</key>
+      <string>dadhavaoriya</string>
+      <key>daga-oriya</key>
+      <string>dagaoriya</string>
+      <key>dagha-oriya</key>
+      <string>daghaoriya</string>
       <key>danda</key>
       <string>uni0964</string>
+      <key>dara-oriya</key>
+      <string>daraoriya</string>
+      <key>darauMatra-oriya</key>
+      <string>darauMatraoriya</string>
+      <key>dava-oriya</key>
+      <string>davaoriya</string>
       <key>dbldanda</key>
       <string>uni0965</string>
       <key>dda-oriya</key>
@@ -1333,14 +1326,14 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B21</string>
       <key>dda-oriya.single</key>
       <string>uni0B4D0B21.single</string>
-      <key>dda_dda-oriya</key>
-      <string>dda_ddaoriya</string>
-      <key>dda_ga-oriya</key>
-      <string>dda_gaoriya</string>
-      <key>dda_ra-oriya</key>
-      <string>dda_raoriya</string>
-      <key>dda_ra-oriya.REV_BRACKET.141</key>
-      <string>dda_raoriya.REV_BRACKET.141</string>
+      <key>ddadda-oriya</key>
+      <string>ddaddaoriya</string>
+      <key>ddaga-oriya</key>
+      <string>ddagaoriya</string>
+      <key>ddara-oriya</key>
+      <string>ddaraoriya</string>
+      <key>ddara-oriya.REV_BRACKET.141</key>
+      <string>ddaraoriya.REV_BRACKET.141</string>
       <key>ddha-oriya</key>
       <string>uni0B22</string>
       <key>ddha-oriya.REV_BRACKET.141</key>
@@ -1351,8 +1344,8 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B22</string>
       <key>ddha-oriya.single</key>
       <string>uni0B4D0B22.single</string>
-      <key>ddha_ra-oriya</key>
-      <string>ddha_raoriya</string>
+      <key>ddhara-oriya</key>
+      <string>ddharaoriya</string>
       <key>dha-oriya</key>
       <string>uni0B27</string>
       <key>dha-oriya.base</key>
@@ -1361,14 +1354,14 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B27</string>
       <key>dha-oriya.single</key>
       <string>uni0B4D0B27.single</string>
-      <key>dha_ra-oriya</key>
-      <string>dha_raoriya</string>
-      <key>dha_va-oriya</key>
-      <string>dha_vaoriya</string>
-      <key>dha_ya-oriya</key>
-      <string>dha_yaoriya</string>
-      <key>dha_yya-oriya</key>
-      <string>dha_yyaoriya</string>
+      <key>dhara-oriya</key>
+      <string>dharaoriya</string>
+      <key>dhava-oriya</key>
+      <string>dhavaoriya</string>
+      <key>dhaya-oriya</key>
+      <string>dhayaoriya</string>
+      <key>dhayya-oriya</key>
+      <string>dhayyaoriya</string>
       <key>dottedCircle</key>
       <string>uni25CC</string>
       <key>e-oriya</key>
@@ -1393,16 +1386,16 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B17</string>
       <key>ga-oriya.single</key>
       <string>uni0B4D0B17.single</string>
-      <key>ga_da-oriya</key>
-      <string>ga_daoriya</string>
-      <key>ga_dha-oriya</key>
-      <string>ga_dhaoriya</string>
-      <key>ga_lla-oriya</key>
-      <string>ga_llaoriya</string>
-      <key>ga_na-oriya</key>
-      <string>ga_naoriya</string>
-      <key>ga_ra-oriya</key>
-      <string>ga_raoriya</string>
+      <key>gada-oriya</key>
+      <string>gadaoriya</string>
+      <key>gadha-oriya</key>
+      <string>gadhaoriya</string>
+      <key>galla-oriya</key>
+      <string>gallaoriya</string>
+      <key>gana-oriya</key>
+      <string>ganaoriya</string>
+      <key>gara-oriya</key>
+      <string>garaoriya</string>
       <key>gha-oriya</key>
       <string>uni0B18</string>
       <key>gha-oriya.base</key>
@@ -1411,10 +1404,10 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B18</string>
       <key>gha-oriya.single</key>
       <string>uni0B4D0B18.single</string>
-      <key>gha_na-oriya</key>
-      <string>gha_naoriya</string>
-      <key>gha_ra-oriya</key>
-      <string>gha_raoriya</string>
+      <key>ghana-oriya</key>
+      <string>ghanaoriya</string>
+      <key>ghara-oriya</key>
+      <string>gharaoriya</string>
       <key>ha-oriya</key>
       <string>uni0B39</string>
       <key>ha-oriya.REV_BRACKET.141</key>
@@ -1425,30 +1418,30 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B39</string>
       <key>ha-oriya.single</key>
       <string>uni0B4D0B39.single</string>
-      <key>ha_ja-oriya</key>
-      <string>ha_jaoriya</string>
-      <key>ha_ka-oriya</key>
-      <string>ha_kaoriya</string>
-      <key>ha_la-oriya</key>
-      <string>ha_laoriya</string>
-      <key>ha_lla-oriya</key>
-      <string>ha_llaoriya</string>
-      <key>ha_ma-oriya</key>
-      <string>ha_maoriya</string>
-      <key>ha_na-oriya</key>
-      <string>ha_naoriya</string>
-      <key>ha_rVocalic-oriya</key>
-      <string>ha_rVocalicoriya</string>
-      <key>ha_ra-oriya</key>
-      <string>ha_raoriya</string>
-      <key>ha_u-oriya</key>
-      <string>ha_uoriya</string>
-      <key>ha_uu-oriya</key>
-      <string>ha_uuoriya</string>
-      <key>ha_va-oriya</key>
-      <string>ha_vaoriya</string>
+      <key>haja-oriya</key>
+      <string>hajaoriya</string>
+      <key>haka-oriya</key>
+      <string>hakaoriya</string>
+      <key>hala-oriya</key>
+      <string>halaoriya</string>
       <key>halant-oriya</key>
       <string>uni0B4D</string>
+      <key>halla-oriya</key>
+      <string>hallaoriya</string>
+      <key>hama-oriya</key>
+      <string>hamaoriya</string>
+      <key>hana-oriya</key>
+      <string>hanaoriya</string>
+      <key>harVocalic-oriya</key>
+      <string>harVocalicoriya</string>
+      <key>hara-oriya</key>
+      <string>haraoriya</string>
+      <key>hau-oriya</key>
+      <string>hauoriya</string>
+      <key>hauu-oriya</key>
+      <string>hauuoriya</string>
+      <key>hava-oriya</key>
+      <string>havaoriya</string>
       <key>i-oriya</key>
       <string>uni0B07</string>
       <key>i-oriya.REV_BRACKET.141</key>
@@ -1459,18 +1452,18 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B3F.below</string>
       <key>iMatra-oriya.wide</key>
       <string>uni0B3F.wide</string>
-      <key>iMatra_candraBindu-oriya</key>
-      <string>iMatra_candraBinduoriya</string>
-      <key>iMatra_candraBindu-oriya.wide</key>
-      <string>iMatra_candraBinduoriya.wide</string>
-      <key>iMatra_reph-oriya</key>
-      <string>iMatra_rephoriya</string>
-      <key>iMatra_reph-oriya.wide</key>
-      <string>iMatra_rephoriya.wide</string>
-      <key>iMatra_reph_candraBindu-oriya</key>
-      <string>iMatra_reph_candraBinduoriya</string>
-      <key>iMatra_reph_candraBindu-oriya.wide</key>
-      <string>iMatra_reph_candraBinduoriya.wide</string>
+      <key>iMatracandraBindu-oriya</key>
+      <string>iMatracandraBinduoriya</string>
+      <key>iMatracandraBindu-oriya.wide</key>
+      <string>iMatracandraBinduoriya.wide</string>
+      <key>iMatrareph-oriya</key>
+      <string>iMatrarephoriya</string>
+      <key>iMatrareph-oriya.wide</key>
+      <string>iMatrarephoriya.wide</string>
+      <key>iMatrarephcandraBindu-oriya</key>
+      <string>iMatrarephcandraBinduoriya</string>
+      <key>iMatrarephcandraBindu-oriya.wide</key>
+      <string>iMatrarephcandraBinduoriya.wide</string>
       <key>ii-oriya</key>
       <string>uni0B08</string>
       <key>ii-oriya.REV_BRACKET.141</key>
@@ -1491,20 +1484,20 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B1C</string>
       <key>ja-oriya.single</key>
       <string>uni0B4D0B1C.single</string>
-      <key>ja_ja-oriya</key>
-      <string>ja_jaoriya</string>
-      <key>ja_ja_va-oriya</key>
-      <string>ja_ja_vaoriya</string>
-      <key>ja_jha-oriya</key>
-      <string>ja_jhaoriya</string>
-      <key>ja_nya-oriya</key>
-      <string>ja_nyaoriya</string>
-      <key>ja_ra-oriya</key>
-      <string>ja_raoriya</string>
-      <key>ja_ra-oriya.REV_BRACKET.141</key>
-      <string>ja_raoriya.REV_BRACKET.141</string>
-      <key>ja_va-oriya</key>
-      <string>ja_vaoriya</string>
+      <key>jaja-oriya</key>
+      <string>jajaoriya</string>
+      <key>jajava-oriya</key>
+      <string>jajavaoriya</string>
+      <key>jajha-oriya</key>
+      <string>jajhaoriya</string>
+      <key>janya-oriya</key>
+      <string>janyaoriya</string>
+      <key>jara-oriya</key>
+      <string>jaraoriya</string>
+      <key>jara-oriya.REV_BRACKET.141</key>
+      <string>jaraoriya.REV_BRACKET.141</string>
+      <key>java-oriya</key>
+      <string>javaoriya</string>
       <key>jha-oriya</key>
       <string>uni0B1D</string>
       <key>jha-oriya.base</key>
@@ -1513,8 +1506,8 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B1D</string>
       <key>jha-oriya.single</key>
       <string>uni0B4D0B1D.single</string>
-      <key>jha_ra-oriya</key>
-      <string>jha_raoriya</string>
+      <key>jhara-oriya</key>
+      <string>jharaoriya</string>
       <key>ka-oriya</key>
       <string>uni0B15</string>
       <key>ka-oriya.REV_BRACKET.141</key>
@@ -1525,40 +1518,40 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B15</string>
       <key>ka-oriya.single</key>
       <string>uni0B4D0B15.single</string>
-      <key>ka_ca-oriya</key>
-      <string>ka_caoriya</string>
-      <key>ka_ka-oriya</key>
-      <string>ka_kaoriya</string>
-      <key>ka_lla-oriya</key>
-      <string>ka_llaoriya</string>
-      <key>ka_ra-oriya</key>
-      <string>ka_raoriya</string>
-      <key>ka_ra-oriya.REV_BRACKET.141</key>
-      <string>ka_raoriya.REV_BRACKET.141</string>
-      <key>ka_sa-oriya</key>
-      <string>ka_saoriya</string>
-      <key>ka_ssa-oriya</key>
-      <string>ka_ssaoriya</string>
-      <key>ka_ssa-oriya.base</key>
-      <string>ka_ssaoriya.base</string>
-      <key>ka_ssa-oriya.below</key>
-      <string>ka_ssaoriya.below</string>
-      <key>ka_ssa_ma-oriya</key>
-      <string>ka_ssa_maoriya</string>
-      <key>ka_ssa_nna-oriya</key>
-      <string>ka_ssa_nnaoriya</string>
-      <key>ka_ssa_ra-oriya</key>
-      <string>ka_ssa_raoriya</string>
-      <key>ka_ta-oriya</key>
-      <string>ka_taoriya</string>
-      <key>ka_ta_ra-oriya</key>
-      <string>ka_ta_raoriya</string>
-      <key>ka_ta_ra_alt-oriya</key>
-      <string>ka_ta_ra_altoriya</string>
-      <key>ka_tta-oriya</key>
-      <string>ka_ttaoriya</string>
-      <key>ka_va-oriya</key>
-      <string>ka_vaoriya</string>
+      <key>kaca-oriya</key>
+      <string>kacaoriya</string>
+      <key>kaka-oriya</key>
+      <string>kakaoriya</string>
+      <key>kalla-oriya</key>
+      <string>kallaoriya</string>
+      <key>kara-oriya</key>
+      <string>karaoriya</string>
+      <key>kara-oriya.REV_BRACKET.141</key>
+      <string>karaoriya.REV_BRACKET.141</string>
+      <key>kasa-oriya</key>
+      <string>kasaoriya</string>
+      <key>kassa-oriya</key>
+      <string>kassaoriya</string>
+      <key>kassa-oriya.base</key>
+      <string>kassaoriya.base</string>
+      <key>kassa-oriya.below</key>
+      <string>kassaoriya.below</string>
+      <key>kassama-oriya</key>
+      <string>kassamaoriya</string>
+      <key>kassanna-oriya</key>
+      <string>kassannaoriya</string>
+      <key>kassara-oriya</key>
+      <string>kassaraoriya</string>
+      <key>kata-oriya</key>
+      <string>kataoriya</string>
+      <key>katara-oriya</key>
+      <string>kataraoriya</string>
+      <key>kataraalt-oriya</key>
+      <string>kataraaltoriya</string>
+      <key>katta-oriya</key>
+      <string>kattaoriya</string>
+      <key>kava-oriya</key>
+      <string>kavaoriya</string>
       <key>kha-oriya</key>
       <string>uni0B16</string>
       <key>kha-oriya.base</key>
@@ -1567,8 +1560,8 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B16</string>
       <key>kha-oriya.single</key>
       <string>uni0B4D0B16.single</string>
-      <key>kha_ra-oriya</key>
-      <string>kha_raoriya</string>
+      <key>khara-oriya</key>
+      <string>kharaoriya</string>
       <key>lVocalic-oriya</key>
       <string>uni0B0C</string>
       <key>lVocalicMatra-oriya</key>
@@ -1583,22 +1576,22 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B32</string>
       <key>la-oriya.single</key>
       <string>uni0B4D0B32.single</string>
-      <key>la_ga-oriya</key>
-      <string>la_gaoriya</string>
-      <key>la_ka-oriya</key>
-      <string>la_kaoriya</string>
-      <key>la_la-oriya</key>
-      <string>la_laoriya</string>
-      <key>la_lla-oriya</key>
-      <string>la_llaoriya</string>
-      <key>la_ma-oriya</key>
-      <string>la_maoriya</string>
-      <key>la_pa-oriya</key>
-      <string>la_paoriya</string>
-      <key>la_pha-oriya</key>
-      <string>la_phaoriya</string>
-      <key>la_ra-oriya</key>
-      <string>la_raoriya</string>
+      <key>laga-oriya</key>
+      <string>lagaoriya</string>
+      <key>laka-oriya</key>
+      <string>lakaoriya</string>
+      <key>lala-oriya</key>
+      <string>lalaoriya</string>
+      <key>lalla-oriya</key>
+      <string>lallaoriya</string>
+      <key>lama-oriya</key>
+      <string>lamaoriya</string>
+      <key>lapa-oriya</key>
+      <string>lapaoriya</string>
+      <key>lapha-oriya</key>
+      <string>laphaoriya</string>
+      <key>lara-oriya</key>
+      <string>laraoriya</string>
       <key>llVocalic-oriya</key>
       <string>uni0B61</string>
       <key>llVocalicMatra-oriya</key>
@@ -1613,16 +1606,16 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B33</string>
       <key>lla-oriya.single</key>
       <string>uni0B4D0B33.single</string>
-      <key>lla_ka-oriya</key>
-      <string>lla_kaoriya</string>
-      <key>lla_lla-oriya</key>
-      <string>lla_llaoriya</string>
-      <key>lla_pa-oriya</key>
-      <string>lla_paoriya</string>
-      <key>lla_pha-oriya</key>
-      <string>lla_phaoriya</string>
-      <key>lla_ra-oriya</key>
-      <string>lla_raoriya</string>
+      <key>llaka-oriya</key>
+      <string>llakaoriya</string>
+      <key>llalla-oriya</key>
+      <string>llallaoriya</string>
+      <key>llapa-oriya</key>
+      <string>llapaoriya</string>
+      <key>llapha-oriya</key>
+      <string>llaphaoriya</string>
+      <key>llara-oriya</key>
+      <string>llaraoriya</string>
       <key>ma-oriya</key>
       <string>uni0B2E</string>
       <key>ma-oriya.base</key>
@@ -1631,22 +1624,22 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B2E</string>
       <key>ma-oriya.single</key>
       <string>uni0B4D0B2E.single</string>
-      <key>ma_ba-oriya</key>
-      <string>ma_baoriya</string>
-      <key>ma_bha-oriya</key>
-      <string>ma_bhaoriya</string>
-      <key>ma_bha_ra-oriya</key>
-      <string>ma_bha_raoriya</string>
-      <key>ma_ma-oriya</key>
-      <string>ma_maoriya</string>
-      <key>ma_pa-oriya</key>
-      <string>ma_paoriya</string>
-      <key>ma_pa_ra-oriya</key>
-      <string>ma_pa_raoriya</string>
-      <key>ma_pha-oriya</key>
-      <string>ma_phaoriya</string>
-      <key>ma_ra-oriya</key>
-      <string>ma_raoriya</string>
+      <key>maba-oriya</key>
+      <string>mabaoriya</string>
+      <key>mabha-oriya</key>
+      <string>mabhaoriya</string>
+      <key>mabhara-oriya</key>
+      <string>mabharaoriya</string>
+      <key>mama-oriya</key>
+      <string>mamaoriya</string>
+      <key>mapa-oriya</key>
+      <string>mapaoriya</string>
+      <key>mapara-oriya</key>
+      <string>maparaoriya</string>
+      <key>mapha-oriya</key>
+      <string>maphaoriya</string>
+      <key>mara-oriya</key>
+      <string>maraoriya</string>
       <key>na-oriya</key>
       <string>uni0B28</string>
       <key>na-oriya.base</key>
@@ -1655,32 +1648,32 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B28</string>
       <key>na-oriya.single</key>
       <string>uni0B4D0B28.single</string>
-      <key>na_da-oriya</key>
-      <string>na_daoriya</string>
-      <key>na_da_ra-oriya</key>
-      <string>na_da_raoriya</string>
-      <key>na_da_va-oriya</key>
-      <string>na_da_vaoriya</string>
-      <key>na_dha-oriya</key>
-      <string>na_dhaoriya</string>
-      <key>na_dha_ra-oriya</key>
-      <string>na_dha_raoriya</string>
-      <key>na_dha_va-oriya</key>
-      <string>na_dha_vaoriya</string>
-      <key>na_na-oriya</key>
-      <string>na_naoriya</string>
-      <key>na_ra-oriya</key>
-      <string>na_raoriya</string>
-      <key>na_ta-oriya</key>
-      <string>na_taoriya</string>
-      <key>na_ta_ra-oriya</key>
-      <string>na_ta_raoriya</string>
-      <key>na_ta_uMatra-oriya</key>
-      <string>na_ta_uMatraoriya</string>
-      <key>na_ta_va-oriya</key>
-      <string>na_ta_vaoriya</string>
-      <key>na_tha-oriya</key>
-      <string>na_thaoriya</string>
+      <key>nada-oriya</key>
+      <string>nadaoriya</string>
+      <key>nadara-oriya</key>
+      <string>nadaraoriya</string>
+      <key>nadava-oriya</key>
+      <string>nadavaoriya</string>
+      <key>nadha-oriya</key>
+      <string>nadhaoriya</string>
+      <key>nadhara-oriya</key>
+      <string>nadharaoriya</string>
+      <key>nadhava-oriya</key>
+      <string>nadhavaoriya</string>
+      <key>nana-oriya</key>
+      <string>nanaoriya</string>
+      <key>nara-oriya</key>
+      <string>naraoriya</string>
+      <key>nata-oriya</key>
+      <string>nataoriya</string>
+      <key>natara-oriya</key>
+      <string>nataraoriya</string>
+      <key>natauMatra-oriya</key>
+      <string>natauMatraoriya</string>
+      <key>natava-oriya</key>
+      <string>natavaoriya</string>
+      <key>natha-oriya</key>
+      <string>nathaoriya</string>
       <key>nbspace</key>
       <string>uni00A0</string>
       <key>nga-oriya</key>
@@ -1693,22 +1686,22 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B19</string>
       <key>nga-oriya.single</key>
       <string>uni0B4D0B19.single</string>
-      <key>nga_ga-oriya</key>
-      <string>nga_gaoriya</string>
-      <key>nga_gha-oriya</key>
-      <string>nga_ghaoriya</string>
-      <key>nga_ka-oriya</key>
-      <string>nga_kaoriya</string>
-      <key>nga_ka_ssa-oriya</key>
-      <string>nga_ka_ssaoriya</string>
-      <key>nga_ka_ta-oriya</key>
-      <string>nga_ka_taoriya</string>
-      <key>nga_kha-oriya</key>
-      <string>nga_khaoriya</string>
-      <key>nga_ra-oriya</key>
-      <string>nga_raoriya</string>
-      <key>nga_ra-oriya.REV_BRACKET.141</key>
-      <string>nga_raoriya.REV_BRACKET.141</string>
+      <key>ngaga-oriya</key>
+      <string>ngagaoriya</string>
+      <key>ngagha-oriya</key>
+      <string>ngaghaoriya</string>
+      <key>ngaka-oriya</key>
+      <string>ngakaoriya</string>
+      <key>ngakassa-oriya</key>
+      <string>ngakassaoriya</string>
+      <key>ngakata-oriya</key>
+      <string>ngakataoriya</string>
+      <key>ngakha-oriya</key>
+      <string>ngakhaoriya</string>
+      <key>ngara-oriya</key>
+      <string>ngaraoriya</string>
+      <key>ngara-oriya.REV_BRACKET.141</key>
+      <string>ngaraoriya.REV_BRACKET.141</string>
       <key>nine-oriya</key>
       <string>uni0B6F</string>
       <key>nine-oriya.REV_BRACKET.141</key>
@@ -1721,40 +1714,40 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B23</string>
       <key>nna-oriya.single</key>
       <string>uni0B4D0B23.single</string>
-      <key>nna_dda-oriya</key>
-      <string>nna_ddaoriya</string>
-      <key>nna_dda_halant-oriya</key>
-      <string>nna_dda_halantoriya</string>
-      <key>nna_dda_ra-oriya</key>
-      <string>nna_dda_raoriya</string>
-      <key>nna_ddha-oriya</key>
-      <string>nna_ddhaoriya</string>
-      <key>nna_nna-oriya</key>
-      <string>nna_nnaoriya</string>
-      <key>nna_ra-oriya</key>
-      <string>nna_raoriya</string>
-      <key>nna_tta-oriya</key>
-      <string>nna_ttaoriya</string>
-      <key>nna_tta_halant-oriya</key>
-      <string>nna_tta_halantoriya</string>
-      <key>nna_ttha-oriya</key>
-      <string>nna_tthaoriya</string>
+      <key>nnadda-oriya</key>
+      <string>nnaddaoriya</string>
+      <key>nnaddahalant-oriya</key>
+      <string>nnaddahalantoriya</string>
+      <key>nnaddara-oriya</key>
+      <string>nnaddaraoriya</string>
+      <key>nnaddha-oriya</key>
+      <string>nnaddhaoriya</string>
+      <key>nnanna-oriya</key>
+      <string>nnannaoriya</string>
+      <key>nnara-oriya</key>
+      <string>nnaraoriya</string>
+      <key>nnatta-oriya</key>
+      <string>nnattaoriya</string>
+      <key>nnattahalant-oriya</key>
+      <string>nnattahalantoriya</string>
+      <key>nnattha-oriya</key>
+      <string>nnatthaoriya</string>
       <key>nukta-oriya</key>
       <string>uni0B3C</string>
       <key>nya-oriya</key>
       <string>uni0B1E</string>
       <key>nya-oriya.base</key>
       <string>uni0B1E.base</string>
-      <key>nya_ca-oriya</key>
-      <string>nya_caoriya</string>
-      <key>nya_cha-oriya</key>
-      <string>nya_chaoriya</string>
-      <key>nya_ja-oriya</key>
-      <string>nya_jaoriya</string>
-      <key>nya_jha-oriya</key>
-      <string>nya_jhaoriya</string>
-      <key>nya_ra-oriya</key>
-      <string>nya_raoriya</string>
+      <key>nyaca-oriya</key>
+      <string>nyacaoriya</string>
+      <key>nyacha-oriya</key>
+      <string>nyachaoriya</string>
+      <key>nyaja-oriya</key>
+      <string>nyajaoriya</string>
+      <key>nyajha-oriya</key>
+      <string>nyajhaoriya</string>
+      <key>nyara-oriya</key>
+      <string>nyaraoriya</string>
       <key>o-oriya</key>
       <string>uni0B13</string>
       <key>oMatra-oriya</key>
@@ -1781,20 +1774,22 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B2A</string>
       <key>pa-oriya.single</key>
       <string>uni0B4D0B2A.single</string>
-      <key>pa_ka-oriya</key>
-      <string>pa_kaoriya</string>
-      <key>pa_lla-oriya</key>
-      <string>pa_llaoriya</string>
-      <key>pa_pa-oriya</key>
-      <string>pa_paoriya</string>
-      <key>pa_ra-oriya</key>
-      <string>pa_raoriya</string>
-      <key>pa_sa-oriya</key>
-      <string>pa_saoriya</string>
-      <key>pa_ta-oriya</key>
-      <string>pa_taoriya</string>
-      <key>pa_tta-oriya</key>
-      <string>pa_ttaoriya</string>
+      <key>paka-oriya</key>
+      <string>pakaoriya</string>
+      <key>palla-oriya</key>
+      <string>pallaoriya</string>
+      <key>papa-oriya</key>
+      <string>papaoriya</string>
+      <key>para-oriya</key>
+      <string>paraoriya</string>
+      <key>partta-oriya.below</key>
+      <string>parttaoriya.below</string>
+      <key>pasa-oriya</key>
+      <string>pasaoriya</string>
+      <key>pata-oriya</key>
+      <string>pataoriya</string>
+      <key>patta-oriya</key>
+      <string>pattaoriya</string>
       <key>pha-oriya</key>
       <string>uni0B2B</string>
       <key>pha-oriya.base</key>
@@ -1803,8 +1798,8 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B2B</string>
       <key>pha-oriya.single</key>
       <string>uni0B4D0B2B.single</string>
-      <key>pha_ra-oriya</key>
-      <string>pha_raoriya</string>
+      <key>phara-oriya</key>
+      <string>pharaoriya</string>
       <key>rVocalic-oriya</key>
       <string>uni0B0B</string>
       <key>rVocalicMatra-oriya</key>
@@ -1817,40 +1812,40 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B30</string>
       <key>ra-oriya.single</key>
       <string>uni0B4D0B30.single</string>
-      <key>ra_rVocalicMatra-oriya.below</key>
-      <string>ra_rVocalicMatraoriya.below</string>
-      <key>ra_rrVocalicMatra-oriya.below</key>
-      <string>ra_rrVocalicMatraoriya.below</string>
-      <key>ra_uMatra-oriya.below</key>
-      <string>ra_uMatraoriya.below</string>
-      <key>ra_uuMatra-oriya.below</key>
-      <string>ra_uuMatraoriya.below</string>
+      <key>rarVocalicMatra-oriya.below</key>
+      <string>rarVocalicMatraoriya.below</string>
+      <key>rarrVocalicMatra-oriya.below</key>
+      <string>rarrVocalicMatraoriya.below</string>
+      <key>rauMatra-oriya.below</key>
+      <string>rauMatraoriya.below</string>
+      <key>rauuMatra-oriya.below</key>
+      <string>rauuMatraoriya.below</string>
       <key>reph-oriya</key>
       <string>uni0B300B4D</string>
-      <key>reph_aiLength-oriya</key>
-      <string>reph_aiLengthoriya</string>
-      <key>reph_aiLength-oriya.stem</key>
-      <string>reph_aiLengthoriya.stem</string>
-      <key>reph_aiLength-oriya.umbrella</key>
-      <string>reph_aiLengthoriya.umbrella</string>
-      <key>reph_aiLength_candraBindu-oriya</key>
-      <string>reph_aiLength_candraBinduoriya</string>
-      <key>reph_aiLength_candraBindu-oriya.stem</key>
-      <string>reph_aiLength_candraBinduoriya.stem</string>
-      <key>reph_aiLength_candraBindu-oriya.umbrella</key>
-      <string>reph_aiLength_candraBinduoriya.umbrella</string>
-      <key>reph_auLength-oriya</key>
-      <string>reph_auLengthoriya</string>
-      <key>reph_auLength_candraBindu-oriya</key>
-      <string>reph_auLength_candraBinduoriya</string>
-      <key>reph_candraBindu-oriya</key>
-      <string>reph_candraBinduoriya</string>
+      <key>rephaiLength-oriya</key>
+      <string>rephaiLengthoriya</string>
+      <key>rephaiLength-oriya.stem</key>
+      <string>rephaiLengthoriya.stem</string>
+      <key>rephaiLength-oriya.umbrella</key>
+      <string>rephaiLengthoriya.umbrella</string>
+      <key>rephaiLengthcandraBindu-oriya</key>
+      <string>rephaiLengthcandraBinduoriya</string>
+      <key>rephaiLengthcandraBindu-oriya.stem</key>
+      <string>rephaiLengthcandraBinduoriya.stem</string>
+      <key>rephaiLengthcandraBindu-oriya.umbrella</key>
+      <string>rephaiLengthcandraBinduoriya.umbrella</string>
+      <key>rephauLength-oriya</key>
+      <string>rephauLengthoriya</string>
+      <key>rephauLengthcandraBindu-oriya</key>
+      <string>rephauLengthcandraBinduoriya</string>
+      <key>rephcandraBindu-oriya</key>
+      <string>rephcandraBinduoriya</string>
       <key>rha-oriya</key>
       <string>uni0B5D</string>
       <key>rha-oriya.base</key>
       <string>uni0B5D.base</string>
-      <key>rha_ra-oriya</key>
-      <string>rha_raoriya</string>
+      <key>rhara-oriya</key>
+      <string>rharaoriya</string>
       <key>rrVocalic-oriya</key>
       <string>uni0B60</string>
       <key>rrVocalicMatra-oriya</key>
@@ -1861,8 +1856,8 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B5C</string>
       <key>rra-oriya.base</key>
       <string>uni0B5C.base</string>
-      <key>rra_ra-oriya</key>
-      <string>rra_raoriya</string>
+      <key>rrara-oriya</key>
+      <string>rraraoriya</string>
       <key>rupeeIndian</key>
       <string>uni20B9</string>
       <key>sa-oriya</key>
@@ -1873,30 +1868,30 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B38</string>
       <key>sa-oriya.single</key>
       <string>uni0B4D0B38.single</string>
-      <key>sa_ka-oriya</key>
-      <string>sa_kaoriya</string>
-      <key>sa_kha-oriya</key>
-      <string>sa_khaoriya</string>
-      <key>sa_ma-oriya</key>
-      <string>sa_maoriya</string>
-      <key>sa_na-oriya</key>
-      <string>sa_naoriya</string>
-      <key>sa_pa-oriya</key>
-      <string>sa_paoriya</string>
-      <key>sa_pa_rVocalicMatra-oriya</key>
-      <string>sa_pa_rVocalicMatraoriya</string>
-      <key>sa_pha-oriya</key>
-      <string>sa_phaoriya</string>
-      <key>sa_ra-oriya</key>
-      <string>sa_raoriya</string>
-      <key>sa_ta-oriya</key>
-      <string>sa_taoriya</string>
-      <key>sa_ta_ra-oriya</key>
-      <string>sa_ta_raoriya</string>
-      <key>sa_tha-oriya</key>
-      <string>sa_thaoriya</string>
-      <key>sa_va-oriya</key>
-      <string>sa_vaoriya</string>
+      <key>saka-oriya</key>
+      <string>sakaoriya</string>
+      <key>sakha-oriya</key>
+      <string>sakhaoriya</string>
+      <key>sama-oriya</key>
+      <string>samaoriya</string>
+      <key>sana-oriya</key>
+      <string>sanaoriya</string>
+      <key>sapa-oriya</key>
+      <string>sapaoriya</string>
+      <key>saparVocalicMatra-oriya</key>
+      <string>saparVocalicMatraoriya</string>
+      <key>sapha-oriya</key>
+      <string>saphaoriya</string>
+      <key>sara-oriya</key>
+      <string>saraoriya</string>
+      <key>sata-oriya</key>
+      <string>sataoriya</string>
+      <key>satara-oriya</key>
+      <string>sataraoriya</string>
+      <key>satha-oriya</key>
+      <string>sathaoriya</string>
+      <key>sava-oriya</key>
+      <string>savaoriya</string>
       <key>seven-oriya</key>
       <string>uni0B6D</string>
       <key>seven-oriya.REV_BRACKET.141</key>
@@ -1909,16 +1904,16 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B36</string>
       <key>sha-oriya.single</key>
       <string>uni0B4D0B36.single</string>
-      <key>sha_ca-oriya</key>
-      <string>sha_caoriya</string>
-      <key>sha_cha-oriya</key>
-      <string>sha_chaoriya</string>
-      <key>sha_lla-oriya</key>
-      <string>sha_llaoriya</string>
-      <key>sha_ra-oriya</key>
-      <string>sha_raoriya</string>
-      <key>sha_va-oriya</key>
-      <string>sha_vaoriya</string>
+      <key>shaca-oriya</key>
+      <string>shacaoriya</string>
+      <key>shacha-oriya</key>
+      <string>shachaoriya</string>
+      <key>shalla-oriya</key>
+      <string>shallaoriya</string>
+      <key>shara-oriya</key>
+      <string>sharaoriya</string>
+      <key>shava-oriya</key>
+      <string>shavaoriya</string>
       <key>six-oriya</key>
       <string>uni0B6C</string>
       <key>six-oriya.REV_BRACKET.141</key>
@@ -1935,26 +1930,26 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B37</string>
       <key>ssa-oriya.single</key>
       <string>uni0B4D0B37.single</string>
-      <key>ssa_ka-oriya</key>
-      <string>ssa_kaoriya</string>
-      <key>ssa_ka_ra-oriya</key>
-      <string>ssa_ka_raoriya</string>
-      <key>ssa_nna-oriya</key>
-      <string>ssa_nnaoriya</string>
-      <key>ssa_pa-oriya</key>
-      <string>ssa_paoriya</string>
-      <key>ssa_pha-oriya</key>
-      <string>ssa_phaoriya</string>
-      <key>ssa_ra-oriya</key>
-      <string>ssa_raoriya</string>
-      <key>ssa_tta-oriya</key>
-      <string>ssa_ttaoriya</string>
-      <key>ssa_tta_halant-oriya</key>
-      <string>ssa_tta_halantoriya</string>
-      <key>ssa_tta_ra-oriya</key>
-      <string>ssa_tta_raoriya</string>
-      <key>ssa_ttha-oriya</key>
-      <string>ssa_tthaoriya</string>
+      <key>ssaka-oriya</key>
+      <string>ssakaoriya</string>
+      <key>ssakara-oriya</key>
+      <string>ssakaraoriya</string>
+      <key>ssanna-oriya</key>
+      <string>ssannaoriya</string>
+      <key>ssapa-oriya</key>
+      <string>ssapaoriya</string>
+      <key>ssapha-oriya</key>
+      <string>ssaphaoriya</string>
+      <key>ssara-oriya</key>
+      <string>ssaraoriya</string>
+      <key>ssatta-oriya</key>
+      <string>ssattaoriya</string>
+      <key>ssattahalant-oriya</key>
+      <string>ssattahalantoriya</string>
+      <key>ssattara-oriya</key>
+      <string>ssattaraoriya</string>
+      <key>ssattha-oriya</key>
+      <string>ssatthaoriya</string>
       <key>ta-oriya</key>
       <string>uni0B24</string>
       <key>ta-oriya.REV_BRACKET.141</key>
@@ -1965,40 +1960,40 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B24</string>
       <key>ta-oriya.single</key>
       <string>uni0B4D0B24.single</string>
-      <key>ta_alt-oriya.below</key>
-      <string>ta_altoriya.below</string>
-      <key>ta_ka-oriya</key>
-      <string>ta_kaoriya</string>
-      <key>ta_ka_ra-oriya</key>
-      <string>ta_ka_raoriya</string>
-      <key>ta_ma-oriya</key>
-      <string>ta_maoriya</string>
-      <key>ta_na-oriya</key>
-      <string>ta_naoriya</string>
-      <key>ta_pa-oriya</key>
-      <string>ta_paoriya</string>
-      <key>ta_pa_ra-oriya</key>
-      <string>ta_pa_raoriya</string>
-      <key>ta_ra-oriya</key>
-      <string>ta_raoriya</string>
-      <key>ta_ra-oriya.below</key>
-      <string>ta_raoriya.below</string>
-      <key>ta_ra_uMatra-oriya</key>
-      <string>ta_ra_uMatraoriya</string>
-      <key>ta_sa-oriya</key>
-      <string>ta_saoriya</string>
-      <key>ta_sa_na-oriya</key>
-      <string>ta_sa_naoriya</string>
-      <key>ta_ta-oriya</key>
-      <string>ta_taoriya</string>
-      <key>ta_ta_ra-oriya</key>
-      <string>ta_ta_raoriya</string>
-      <key>ta_ta_va-oriya</key>
-      <string>ta_ta_vaoriya</string>
-      <key>ta_tha-oriya</key>
-      <string>ta_thaoriya</string>
-      <key>ta_va-oriya</key>
-      <string>ta_vaoriya</string>
+      <key>taalt-oriya.below</key>
+      <string>taaltoriya.below</string>
+      <key>taka-oriya</key>
+      <string>takaoriya</string>
+      <key>takara-oriya</key>
+      <string>takaraoriya</string>
+      <key>tama-oriya</key>
+      <string>tamaoriya</string>
+      <key>tana-oriya</key>
+      <string>tanaoriya</string>
+      <key>tapa-oriya</key>
+      <string>tapaoriya</string>
+      <key>tapara-oriya</key>
+      <string>taparaoriya</string>
+      <key>tara-oriya</key>
+      <string>taraoriya</string>
+      <key>tara-oriya.below</key>
+      <string>taraoriya.below</string>
+      <key>tarauMatra-oriya</key>
+      <string>tarauMatraoriya</string>
+      <key>tasa-oriya</key>
+      <string>tasaoriya</string>
+      <key>tasana-oriya</key>
+      <string>tasanaoriya</string>
+      <key>tata-oriya</key>
+      <string>tataoriya</string>
+      <key>tatara-oriya</key>
+      <string>tataraoriya</string>
+      <key>tatava-oriya</key>
+      <string>tatavaoriya</string>
+      <key>tatha-oriya</key>
+      <string>tathaoriya</string>
+      <key>tava-oriya</key>
+      <string>tavaoriya</string>
       <key>tha-oriya</key>
       <string>uni0B25</string>
       <key>tha-oriya.base</key>
@@ -2007,8 +2002,8 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B25</string>
       <key>tha-oriya.single</key>
       <string>uni0B4D0B25.single</string>
-      <key>tha_ra-oriya</key>
-      <string>tha_raoriya</string>
+      <key>thara-oriya</key>
+      <string>tharaoriya</string>
       <key>three-oriya</key>
       <string>uni0B69</string>
       <key>three-oriya.REV_BRACKET.141</key>
@@ -2025,10 +2020,10 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B1F</string>
       <key>tta-oriya.single</key>
       <string>uni0B4D0B1F.single</string>
-      <key>tta_ra-oriya</key>
-      <string>tta_raoriya</string>
-      <key>tta_tta-oriya</key>
-      <string>tta_ttaoriya</string>
+      <key>ttara-oriya</key>
+      <string>ttaraoriya</string>
+      <key>ttatta-oriya</key>
+      <string>ttattaoriya</string>
       <key>ttha-oriya</key>
       <string>uni0B20</string>
       <key>ttha-oriya.base</key>
@@ -2037,8 +2032,8 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B20</string>
       <key>ttha-oriya.single</key>
       <string>uni0B4D0B20.single</string>
-      <key>ttha_ra-oriya</key>
-      <string>ttha_raoriya</string>
+      <key>tthara-oriya</key>
+      <string>ttharaoriya</string>
       <key>two-oriya</key>
       <string>uni0B68</string>
       <key>two-oriya.REV_BRACKET.141</key>
@@ -2069,18 +2064,18 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B35</string>
       <key>va-oriya.single</key>
       <string>uni0B4D0B35.single</string>
-      <key>va_ra-oriya</key>
-      <string>va_raoriya</string>
-      <key>va_ra-oriya.REV_BRACKET.141</key>
-      <string>va_raoriya.REV_BRACKET.141</string>
+      <key>vara-oriya</key>
+      <string>varaoriya</string>
+      <key>vara-oriya.REV_BRACKET.141</key>
+      <string>varaoriya.REV_BRACKET.141</string>
       <key>visarga-oriya</key>
       <string>uni0B03</string>
       <key>wa-oriya</key>
       <string>uni0B71</string>
       <key>wa-oriya.base</key>
       <string>uni0B71.base</string>
-      <key>wa_ra-oriya</key>
-      <string>wa_raoriya</string>
+      <key>wara-oriya</key>
+      <string>waraoriya</string>
       <key>ya-oriya</key>
       <string>uni0B2F</string>
       <key>ya-oriya.base</key>
@@ -2089,14 +2084,14 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
       <string>uni0B4D0B2F</string>
       <key>ya-oriya.single</key>
       <string>uni0B4D0B2F.single</string>
-      <key>ya_ra-oriya</key>
-      <string>ya_raoriya</string>
+      <key>yara-oriya</key>
+      <string>yaraoriya</string>
       <key>yya-oriya</key>
       <string>uni0B5F</string>
       <key>yya-oriya.post</key>
       <string>uni0B4D0B5F</string>
-      <key>yya_ra-oriya</key>
-      <string>yya_raoriya</string>
+      <key>yyara-oriya</key>
+      <string>yyaraoriya</string>
       <key>zero-oriya</key>
       <string>uni0B66</string>
       <key>zerowidthjoiner</key>
@@ -2108,10 +2103,10 @@ The UI Glyphs source file is a copy of the original Glyphs source file. The only
     </dict>
     <key>public.skipExportGlyphs</key>
     <array>
-      <string>ta_ra-oriya.below</string>
-      <string>bha_alt-oriya.below</string>
+      <string>tara-oriya.below</string>
+      <string>bhaalt-oriya.below</string>
       <string>_part.da.below</string>
-      <string>_part_ta-oriya.below</string>
+      <string>partta-oriya.below</string>
       <string>_part.pha</string>
       <string>_part.ra.below</string>
       <string>_cap.overlap</string>

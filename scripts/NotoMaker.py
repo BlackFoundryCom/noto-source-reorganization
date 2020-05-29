@@ -107,9 +107,9 @@ def main():
         if family in pan_european_fonts + arabic_fonts:
             if args.script is None:
                 if family in pan_european_fonts:
-                    jsonpath = os.path.join(path, "lgc_glyphset.json")
+                    jsonpath = os.path.join(path, "subsets", "lgc_glyphset.json")
                 else:
-                    jsonpath = os.path.join(path, "arabic_glyphset.json")
+                    jsonpath = os.path.join(path, "subsets", "arabic_glyphset.json")
                 prettyLog(
                     "You have not give a subset. List of available subsets:")
                 with open(jsonpath, 'r') as subsetDict:

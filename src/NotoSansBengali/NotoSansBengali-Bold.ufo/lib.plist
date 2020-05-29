@@ -2,14 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>GSOffsetHorizontal</key>
+    <integer>8</integer>
+    <key>GSOffsetVertical</key>
+    <integer>5</integer>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>983</string>
+    <string>1230</string>
     <key>com.schriftgestaltung.customParameter.GSFont.DisableAllAutomaticBehaviour</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
     <integer>0</integer>
+    <key>com.schriftgestaltung.customParameter.GSFontMaster.Master Icon Glyph Name</key>
+    <string>kabeng</string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>
     <integer>0</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue1</key>
@@ -53,7 +59,10 @@
       <string>asterisk.beng</string>
       <string>aubeng</string>
       <string>aulengthmarkbeng</string>
+      <string>aulengthmarkshortbeng</string>
+      <string>auvowelcrossbeng</string>
       <string>auvowelsignbeng</string>
+      <string>auvowelwavebeng</string>
       <string>avagrahabeng</string>
       <string>bababeng</string>
       <string>babeng</string>
@@ -110,6 +119,7 @@
       <string>charasquishbeng</string>
       <string>colon.beng</string>
       <string>comma.beng</string>
+      <string>crossbeng</string>
       <string>dababeng</string>
       <string>dabasquishbeng</string>
       <string>dabeng</string>
@@ -132,6 +142,7 @@
       <string>darabeng</string>
       <string>darubeng</string>
       <string>daruubeng</string>
+      <string>dawabeng</string>
       <string>dbldandadeva</string>
       <string>ddababeng</string>
       <string>ddabeng</string>
@@ -189,6 +200,7 @@
       <string>garabeng</string>
       <string>garubeng</string>
       <string>garuubeng</string>
+      <string>gawabeng</string>
       <string>ghababeng</string>
       <string>ghabeng</string>
       <string>ghahalfbeng</string>
@@ -218,6 +230,7 @@
       <string>iibeng</string>
       <string>iivowelcandrabindurephaltbeng</string>
       <string>iivowelcandrabindurephshortbeng</string>
+      <string>iivowelcrossbeng</string>
       <string>iivowelsignaltbeng</string>
       <string>iivowelsignbeng</string>
       <string>iivowelsigncandrabindbeng</string>
@@ -225,8 +238,21 @@
       <string>iivowelsigncandrabindurephbeng</string>
       <string>iivowelsigncandrabindushortbeng</string>
       <string>iivowelsignshortbeng</string>
+      <string>iivowelwavebeng</string>
       <string>issharbeng</string>
+      <string>ivowelcrossbeng</string>
+      <string>ivowelsign1beng</string>
+      <string>ivowelsign2beng</string>
+      <string>ivowelsign3beng</string>
+      <string>ivowelsign4beng</string>
       <string>ivowelsignbeng</string>
+      <string>ivowelsigncandrabind1beng</string>
+      <string>ivowelsigncandrabind2beng</string>
+      <string>ivowelsigncandrabind3beng</string>
+      <string>ivowelsigncandrabind4beng</string>
+      <string>ivowelsigncandrabindbeng</string>
+      <string>ivowelsignshortbeng</string>
+      <string>ivowelwavebeng</string>
       <string>jababeng</string>
       <string>jabeng</string>
       <string>jahalfbeng</string>
@@ -270,6 +296,7 @@
       <string>katarabeng</string>
       <string>kattabeng</string>
       <string>kattarabeng</string>
+      <string>kawabeng</string>
       <string>khababeng</string>
       <string>khabeng</string>
       <string>khahalfbeng</string>
@@ -329,6 +356,7 @@
       <string>masabeng</string>
       <string>matabeng</string>
       <string>matasquishbeng</string>
+      <string>mawabeng</string>
       <string>minus.beng</string>
       <string>multiply.beng</string>
       <string>nababeng</string>
@@ -452,6 +480,7 @@
       <string>rarabeng</string>
       <string>rarasquishbeng</string>
       <string>rephbeng</string>
+      <string>rephcandrabindualtbeng</string>
       <string>rephcandrabinduaumarkbeng</string>
       <string>rephcandrabindubeng</string>
       <string>rephiivowelsignaltbeng</string>
@@ -515,6 +544,7 @@
       <string>satabeng</string>
       <string>satarabeng</string>
       <string>satasquishbeng</string>
+      <string>satawabeng</string>
       <string>sathabeng</string>
       <string>sattabeng</string>
       <string>sattarabeng</string>
@@ -522,6 +552,7 @@
       <string>sattariibeng</string>
       <string>sattiibeng</string>
       <string>satubeng</string>
+      <string>sawabeng</string>
       <string>semicolon.beng</string>
       <string>seven.beng</string>
       <string>sevenbeng</string>
@@ -580,7 +611,9 @@
       <string>tarubeng</string>
       <string>tatababeng</string>
       <string>tatabeng</string>
+      <string>tatawabeng</string>
       <string>tathabeng</string>
+      <string>tawabeng</string>
       <string>thababeng</string>
       <string>thabeng</string>
       <string>thahalfbeng</string>
@@ -631,6 +664,22 @@
       <string>uni09F8</string>
       <string>uni09F9</string>
       <string>uni09FB</string>
+      <string>uni09FC</string>
+      <string>uni09FD</string>
+      <string>uni09FE</string>
+      <string>uni1CD0</string>
+      <string>uni1CD2</string>
+      <string>uni1CD5</string>
+      <string>uni1CD6</string>
+      <string>uni1CD8</string>
+      <string>uni1CE1</string>
+      <string>uni1CE1.UI</string>
+      <string>uni1CEA</string>
+      <string>uni1CED</string>
+      <string>uni1CF2</string>
+      <string>uni1CF5</string>
+      <string>uni1CF6</string>
+      <string>uni1CF7</string>
       <string>uni200B</string>
       <string>uni200C</string>
       <string>uni200D</string>
@@ -674,6 +723,7 @@
       <string>wanuktahalfbeng</string>
       <string>warabeng</string>
       <string>warasquishbeng</string>
+      <string>wavebeng</string>
       <string>yababeng</string>
       <string>yabeng</string>
       <string>yahalfbeng</string>
@@ -704,7 +754,10 @@
       <string>asterisk.beng</string>
       <string>aubeng</string>
       <string>aulengthmarkbeng</string>
+      <string>aulengthmarkshortbeng</string>
+      <string>auvowelcrossbeng</string>
       <string>auvowelsignbeng</string>
+      <string>auvowelwavebeng</string>
       <string>avagrahabeng</string>
       <string>bababeng</string>
       <string>babeng</string>
@@ -761,6 +814,7 @@
       <string>charasquishbeng</string>
       <string>colon.beng</string>
       <string>comma.beng</string>
+      <string>crossbeng</string>
       <string>dababeng</string>
       <string>dabasquishbeng</string>
       <string>dabeng</string>
@@ -783,6 +837,7 @@
       <string>darabeng</string>
       <string>darubeng</string>
       <string>daruubeng</string>
+      <string>dawabeng</string>
       <string>dbldandadeva</string>
       <string>ddababeng</string>
       <string>ddabeng</string>
@@ -840,6 +895,7 @@
       <string>garabeng</string>
       <string>garubeng</string>
       <string>garuubeng</string>
+      <string>gawabeng</string>
       <string>ghababeng</string>
       <string>ghabeng</string>
       <string>ghahalfbeng</string>
@@ -869,6 +925,7 @@
       <string>iibeng</string>
       <string>iivowelcandrabindurephaltbeng</string>
       <string>iivowelcandrabindurephshortbeng</string>
+      <string>iivowelcrossbeng</string>
       <string>iivowelsignaltbeng</string>
       <string>iivowelsignbeng</string>
       <string>iivowelsigncandrabindbeng</string>
@@ -876,8 +933,21 @@
       <string>iivowelsigncandrabindurephbeng</string>
       <string>iivowelsigncandrabindushortbeng</string>
       <string>iivowelsignshortbeng</string>
+      <string>iivowelwavebeng</string>
       <string>issharbeng</string>
+      <string>ivowelcrossbeng</string>
+      <string>ivowelsign1beng</string>
+      <string>ivowelsign2beng</string>
+      <string>ivowelsign3beng</string>
+      <string>ivowelsign4beng</string>
       <string>ivowelsignbeng</string>
+      <string>ivowelsigncandrabind1beng</string>
+      <string>ivowelsigncandrabind2beng</string>
+      <string>ivowelsigncandrabind3beng</string>
+      <string>ivowelsigncandrabind4beng</string>
+      <string>ivowelsigncandrabindbeng</string>
+      <string>ivowelsignshortbeng</string>
+      <string>ivowelwavebeng</string>
       <string>jababeng</string>
       <string>jabeng</string>
       <string>jahalfbeng</string>
@@ -921,6 +991,7 @@
       <string>katarabeng</string>
       <string>kattabeng</string>
       <string>kattarabeng</string>
+      <string>kawabeng</string>
       <string>khababeng</string>
       <string>khabeng</string>
       <string>khahalfbeng</string>
@@ -980,6 +1051,7 @@
       <string>masabeng</string>
       <string>matabeng</string>
       <string>matasquishbeng</string>
+      <string>mawabeng</string>
       <string>minus.beng</string>
       <string>multiply.beng</string>
       <string>nababeng</string>
@@ -1103,6 +1175,7 @@
       <string>rarabeng</string>
       <string>rarasquishbeng</string>
       <string>rephbeng</string>
+      <string>rephcandrabindualtbeng</string>
       <string>rephcandrabinduaumarkbeng</string>
       <string>rephcandrabindubeng</string>
       <string>rephiivowelsignaltbeng</string>
@@ -1166,6 +1239,7 @@
       <string>satabeng</string>
       <string>satarabeng</string>
       <string>satasquishbeng</string>
+      <string>satawabeng</string>
       <string>sathabeng</string>
       <string>sattabeng</string>
       <string>sattarabeng</string>
@@ -1173,6 +1247,7 @@
       <string>sattariibeng</string>
       <string>sattiibeng</string>
       <string>satubeng</string>
+      <string>sawabeng</string>
       <string>semicolon.beng</string>
       <string>seven.beng</string>
       <string>sevenbeng</string>
@@ -1231,7 +1306,9 @@
       <string>tarubeng</string>
       <string>tatababeng</string>
       <string>tatabeng</string>
+      <string>tatawabeng</string>
       <string>tathabeng</string>
+      <string>tawabeng</string>
       <string>thababeng</string>
       <string>thabeng</string>
       <string>thahalfbeng</string>
@@ -1282,6 +1359,22 @@
       <string>uni09F8</string>
       <string>uni09F9</string>
       <string>uni09FB</string>
+      <string>uni09FC</string>
+      <string>uni09FD</string>
+      <string>uni09FE</string>
+      <string>uni1CD0</string>
+      <string>uni1CD2</string>
+      <string>uni1CD5</string>
+      <string>uni1CD6</string>
+      <string>uni1CD8</string>
+      <string>uni1CE1</string>
+      <string>uni1CE1.UI</string>
+      <string>uni1CEA</string>
+      <string>uni1CED</string>
+      <string>uni1CF2</string>
+      <string>uni1CF5</string>
+      <string>uni1CF6</string>
+      <string>uni1CF7</string>
       <string>uni200B</string>
       <string>uni200C</string>
       <string>uni200D</string>
@@ -1325,6 +1418,7 @@
       <string>wanuktahalfbeng</string>
       <string>warabeng</string>
       <string>warasquishbeng</string>
+      <string>wavebeng</string>
       <string>yababeng</string>
       <string>yabeng</string>
       <string>yahalfbeng</string>
@@ -1355,7 +1449,10 @@
       <string>asterisk.beng</string>
       <string>aubeng</string>
       <string>aulengthmarkbeng</string>
+      <string>aulengthmarkshortbeng</string>
+      <string>auvowelcrossbeng</string>
       <string>auvowelsignbeng</string>
+      <string>auvowelwavebeng</string>
       <string>avagrahabeng</string>
       <string>bababeng</string>
       <string>babeng</string>
@@ -1412,6 +1509,7 @@
       <string>charasquishbeng</string>
       <string>colon.beng</string>
       <string>comma.beng</string>
+      <string>crossbeng</string>
       <string>dababeng</string>
       <string>dabasquishbeng</string>
       <string>dabeng</string>
@@ -1434,6 +1532,7 @@
       <string>darabeng</string>
       <string>darubeng</string>
       <string>daruubeng</string>
+      <string>dawabeng</string>
       <string>dbldandadeva</string>
       <string>ddababeng</string>
       <string>ddabeng</string>
@@ -1491,6 +1590,7 @@
       <string>garabeng</string>
       <string>garubeng</string>
       <string>garuubeng</string>
+      <string>gawabeng</string>
       <string>ghababeng</string>
       <string>ghabeng</string>
       <string>ghahalfbeng</string>
@@ -1520,6 +1620,7 @@
       <string>iibeng</string>
       <string>iivowelcandrabindurephaltbeng</string>
       <string>iivowelcandrabindurephshortbeng</string>
+      <string>iivowelcrossbeng</string>
       <string>iivowelsignaltbeng</string>
       <string>iivowelsignbeng</string>
       <string>iivowelsigncandrabindbeng</string>
@@ -1527,8 +1628,21 @@
       <string>iivowelsigncandrabindurephbeng</string>
       <string>iivowelsigncandrabindushortbeng</string>
       <string>iivowelsignshortbeng</string>
+      <string>iivowelwavebeng</string>
       <string>issharbeng</string>
+      <string>ivowelcrossbeng</string>
+      <string>ivowelsign1beng</string>
+      <string>ivowelsign2beng</string>
+      <string>ivowelsign3beng</string>
+      <string>ivowelsign4beng</string>
       <string>ivowelsignbeng</string>
+      <string>ivowelsigncandrabind1beng</string>
+      <string>ivowelsigncandrabind2beng</string>
+      <string>ivowelsigncandrabind3beng</string>
+      <string>ivowelsigncandrabind4beng</string>
+      <string>ivowelsigncandrabindbeng</string>
+      <string>ivowelsignshortbeng</string>
+      <string>ivowelwavebeng</string>
       <string>jababeng</string>
       <string>jabeng</string>
       <string>jahalfbeng</string>
@@ -1572,6 +1686,7 @@
       <string>katarabeng</string>
       <string>kattabeng</string>
       <string>kattarabeng</string>
+      <string>kawabeng</string>
       <string>khababeng</string>
       <string>khabeng</string>
       <string>khahalfbeng</string>
@@ -1631,6 +1746,7 @@
       <string>masabeng</string>
       <string>matabeng</string>
       <string>matasquishbeng</string>
+      <string>mawabeng</string>
       <string>minus.beng</string>
       <string>multiply.beng</string>
       <string>nababeng</string>
@@ -1754,6 +1870,7 @@
       <string>rarabeng</string>
       <string>rarasquishbeng</string>
       <string>rephbeng</string>
+      <string>rephcandrabindualtbeng</string>
       <string>rephcandrabinduaumarkbeng</string>
       <string>rephcandrabindubeng</string>
       <string>rephiivowelsignaltbeng</string>
@@ -1817,6 +1934,7 @@
       <string>satabeng</string>
       <string>satarabeng</string>
       <string>satasquishbeng</string>
+      <string>satawabeng</string>
       <string>sathabeng</string>
       <string>sattabeng</string>
       <string>sattarabeng</string>
@@ -1824,6 +1942,7 @@
       <string>sattariibeng</string>
       <string>sattiibeng</string>
       <string>satubeng</string>
+      <string>sawabeng</string>
       <string>semicolon.beng</string>
       <string>seven.beng</string>
       <string>sevenbeng</string>
@@ -1882,7 +2001,9 @@
       <string>tarubeng</string>
       <string>tatababeng</string>
       <string>tatabeng</string>
+      <string>tatawabeng</string>
       <string>tathabeng</string>
+      <string>tawabeng</string>
       <string>thababeng</string>
       <string>thabeng</string>
       <string>thahalfbeng</string>
@@ -1933,6 +2054,22 @@
       <string>uni09F8</string>
       <string>uni09F9</string>
       <string>uni09FB</string>
+      <string>uni09FC</string>
+      <string>uni09FD</string>
+      <string>uni09FE</string>
+      <string>uni1CD0</string>
+      <string>uni1CD2</string>
+      <string>uni1CD5</string>
+      <string>uni1CD6</string>
+      <string>uni1CD8</string>
+      <string>uni1CE1</string>
+      <string>uni1CE1.UI</string>
+      <string>uni1CEA</string>
+      <string>uni1CED</string>
+      <string>uni1CF2</string>
+      <string>uni1CF5</string>
+      <string>uni1CF6</string>
+      <string>uni1CF7</string>
       <string>uni200B</string>
       <string>uni200C</string>
       <string>uni200D</string>
@@ -1976,6 +2113,7 @@
       <string>wanuktahalfbeng</string>
       <string>warabeng</string>
       <string>warasquishbeng</string>
+      <string>wavebeng</string>
       <string>yababeng</string>
       <string>yabeng</string>
       <string>yahalfbeng</string>
@@ -2006,7 +2144,10 @@
       <string>asterisk.beng</string>
       <string>aubeng</string>
       <string>aulengthmarkbeng</string>
+      <string>aulengthmarkshortbeng</string>
+      <string>auvowelcrossbeng</string>
       <string>auvowelsignbeng</string>
+      <string>auvowelwavebeng</string>
       <string>avagrahabeng</string>
       <string>bababeng</string>
       <string>babeng</string>
@@ -2063,6 +2204,7 @@
       <string>charasquishbeng</string>
       <string>colon.beng</string>
       <string>comma.beng</string>
+      <string>crossbeng</string>
       <string>dababeng</string>
       <string>dabasquishbeng</string>
       <string>dabeng</string>
@@ -2085,6 +2227,7 @@
       <string>darabeng</string>
       <string>darubeng</string>
       <string>daruubeng</string>
+      <string>dawabeng</string>
       <string>dbldandadeva</string>
       <string>ddababeng</string>
       <string>ddabeng</string>
@@ -2142,6 +2285,7 @@
       <string>garabeng</string>
       <string>garubeng</string>
       <string>garuubeng</string>
+      <string>gawabeng</string>
       <string>ghababeng</string>
       <string>ghabeng</string>
       <string>ghahalfbeng</string>
@@ -2171,6 +2315,7 @@
       <string>iibeng</string>
       <string>iivowelcandrabindurephaltbeng</string>
       <string>iivowelcandrabindurephshortbeng</string>
+      <string>iivowelcrossbeng</string>
       <string>iivowelsignaltbeng</string>
       <string>iivowelsignbeng</string>
       <string>iivowelsigncandrabindbeng</string>
@@ -2178,8 +2323,21 @@
       <string>iivowelsigncandrabindurephbeng</string>
       <string>iivowelsigncandrabindushortbeng</string>
       <string>iivowelsignshortbeng</string>
+      <string>iivowelwavebeng</string>
       <string>issharbeng</string>
+      <string>ivowelcrossbeng</string>
+      <string>ivowelsign1beng</string>
+      <string>ivowelsign2beng</string>
+      <string>ivowelsign3beng</string>
+      <string>ivowelsign4beng</string>
       <string>ivowelsignbeng</string>
+      <string>ivowelsigncandrabind1beng</string>
+      <string>ivowelsigncandrabind2beng</string>
+      <string>ivowelsigncandrabind3beng</string>
+      <string>ivowelsigncandrabind4beng</string>
+      <string>ivowelsigncandrabindbeng</string>
+      <string>ivowelsignshortbeng</string>
+      <string>ivowelwavebeng</string>
       <string>jababeng</string>
       <string>jabeng</string>
       <string>jahalfbeng</string>
@@ -2223,6 +2381,7 @@
       <string>katarabeng</string>
       <string>kattabeng</string>
       <string>kattarabeng</string>
+      <string>kawabeng</string>
       <string>khababeng</string>
       <string>khabeng</string>
       <string>khahalfbeng</string>
@@ -2282,6 +2441,7 @@
       <string>masabeng</string>
       <string>matabeng</string>
       <string>matasquishbeng</string>
+      <string>mawabeng</string>
       <string>minus.beng</string>
       <string>multiply.beng</string>
       <string>nababeng</string>
@@ -2405,6 +2565,7 @@
       <string>rarabeng</string>
       <string>rarasquishbeng</string>
       <string>rephbeng</string>
+      <string>rephcandrabindualtbeng</string>
       <string>rephcandrabinduaumarkbeng</string>
       <string>rephcandrabindubeng</string>
       <string>rephiivowelsignaltbeng</string>
@@ -2468,6 +2629,7 @@
       <string>satabeng</string>
       <string>satarabeng</string>
       <string>satasquishbeng</string>
+      <string>satawabeng</string>
       <string>sathabeng</string>
       <string>sattabeng</string>
       <string>sattarabeng</string>
@@ -2475,6 +2637,7 @@
       <string>sattariibeng</string>
       <string>sattiibeng</string>
       <string>satubeng</string>
+      <string>sawabeng</string>
       <string>semicolon.beng</string>
       <string>seven.beng</string>
       <string>sevenbeng</string>
@@ -2533,7 +2696,9 @@
       <string>tarubeng</string>
       <string>tatababeng</string>
       <string>tatabeng</string>
+      <string>tatawabeng</string>
       <string>tathabeng</string>
+      <string>tawabeng</string>
       <string>thababeng</string>
       <string>thabeng</string>
       <string>thahalfbeng</string>
@@ -2584,6 +2749,22 @@
       <string>uni09F8</string>
       <string>uni09F9</string>
       <string>uni09FB</string>
+      <string>uni09FC</string>
+      <string>uni09FD</string>
+      <string>uni09FE</string>
+      <string>uni1CD0</string>
+      <string>uni1CD2</string>
+      <string>uni1CD5</string>
+      <string>uni1CD6</string>
+      <string>uni1CD8</string>
+      <string>uni1CE1</string>
+      <string>uni1CE1.UI</string>
+      <string>uni1CEA</string>
+      <string>uni1CED</string>
+      <string>uni1CF2</string>
+      <string>uni1CF5</string>
+      <string>uni1CF6</string>
+      <string>uni1CF7</string>
       <string>uni200B</string>
       <string>uni200C</string>
       <string>uni200D</string>
@@ -2627,6 +2808,7 @@
       <string>wanuktahalfbeng</string>
       <string>warabeng</string>
       <string>warasquishbeng</string>
+      <string>wavebeng</string>
       <string>yababeng</string>
       <string>yabeng</string>
       <string>yahalfbeng</string>

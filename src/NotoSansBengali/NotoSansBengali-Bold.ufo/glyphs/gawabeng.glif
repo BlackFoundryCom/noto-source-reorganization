@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gawabeng" format="2">
+  <advance width="775"/>
+  <outline>
+    <contour>
+      <point x="299" y="16" type="curve"/>
+      <point x="284" y="-66" type="line"/>
+      <point x="352" y="-75"/>
+      <point x="411" y="-93"/>
+      <point x="460" y="-121" type="curve"/>
+      <point x="499" y="-58" type="line"/>
+      <point x="448" y="-21"/>
+      <point x="382" y="5"/>
+    </contour>
+    <component base="gababeng"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>gababeng</string>
+    </dict>
+  </lib>
+</glyph>

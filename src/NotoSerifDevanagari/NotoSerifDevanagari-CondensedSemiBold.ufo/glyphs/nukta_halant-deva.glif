@@ -1,5 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="nukta_halant-deva" format="2">
+  <anchor x="0" y="0" name="_bottom"/>
+  <anchor x="-204" y="-250" name="nukta"/>
   <outline>
     <component base="halant-deva"/>
     <component base="nukta-deva" xOffset="50" yOffset="3"/>

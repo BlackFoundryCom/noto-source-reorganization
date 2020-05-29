@@ -7,12 +7,12 @@
   <anchor x="333" y="20" name="vertical"/>
   <outline>
     <contour>
+      <point x="-20" y="-200" type="line"/>
       <point x="480" y="-200" type="line"/>
       <point x="480" y="20" type="line"/>
       <point x="333" y="20" type="line"/>
       <point x="333" y="-70" type="line"/>
       <point x="-20" y="-70" type="line"/>
-      <point x="-20" y="-200" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -30,24 +30,6 @@
       </dict>
       <key>com.schriftgestaltung.Glyphs.Export</key>
       <false/>
-      <key>com.schriftgestaltung.hints</key>
-      <array>
-        <dict>
-          <key>horizontal</key>
-          <false/>
-          <key>options</key>
-          <integer>3</integer>
-          <key>origin</key>
-          <array>
-            <integer>0</integer>
-            <integer>0</integer>
-          </array>
-          <key>stem</key>
-          <integer>-2</integer>
-          <key>type</key>
-          <string>Cap</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.smartComponentAxes</key>
       <array>
         <dict>

@@ -1,8 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="4.1">
   <axes>
-    <axis tag="wght" name="Weight" minimum="400" maximum="400" default="400">
-      <map input="400" output="100"/>
+    <axis tag="wght" name="Weight" minimum="400" maximum="700" default="400">
+      <map input="400" output="90"/>
+      <map input="500" output="108"/>
+      <map input="600" output="128"/>
+      <map input="700" output="151"/>
     </axis>
   </axes>
   <sources>
@@ -12,14 +15,29 @@
       <features copy="1"/>
       <info copy="1"/>
       <location>
-        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Weight" xvalue="90"/>
+      </location>
+    </source>
+    <source filename="NotoSansBamum-Medium.ufo" name="Noto Sans Bamum Medium" familyname="Noto Sans Bamum" stylename="Medium">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+      </location>
+    </source>
+    <source filename="NotoSansBamum-Semibold.ufo" name="Noto Sans Bamum Semibold" familyname="Noto Sans Bamum" stylename="Semibold">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+      </location>
+    </source>
+    <source filename="NotoSansBamum-Bold.ufo" name="Noto Sans Bamum Bold" familyname="Noto Sans Bamum" stylename="Bold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
       </location>
     </source>
   </sources>
   <instances>
     <instance name="Noto Sans Bamum Regular" familyname="Noto Sans Bamum" stylename="Regular" filename="instance_ufos/NotoSansBamum-Regular.ufo" stylemapfamilyname="Noto Sans Bamum" stylemapstylename="regular">
       <location>
-        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Weight" xvalue="90"/>
       </location>
       <kerning/>
       <info/>
@@ -82,5 +100,59 @@
         </dict>
       </lib>
     </instance>
+    <instance name="Noto Sans Bamum Medium" familyname="Noto Sans Bamum" stylename="Medium" filename="instance_ufos/NotoSansBamum-Medium.ufo" stylemapfamilyname="Noto Sans Bamum Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="108"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Bamum Semibold" familyname="Noto Sans Bamum" stylename="Semibold" filename="instance_ufos/NotoSansBamum-Semibold.ufo" stylemapfamilyname="Noto Sans Bamum Semibold" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="128"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Noto Sans Bamum Bold" familyname="Noto Sans Bamum" stylename="Bold" filename="instance_ufos/NotoSansBamum-Bold.ufo" stylemapfamilyname="Noto Sans Bamum" stylemapstylename="bold">
+      <location>
+        <dimension name="Weight" xvalue="151"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
   </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>5FD345A2-B401-41C2-ABD2-41E3FDEB3605</key>
+        <dict>
+          <key>HH</key>
+          <string>126</string>
+          <key>HV</key>
+          <string>151</string>
+          <key>OH</key>
+          <string>126</string>
+          <key>OV</key>
+          <string>159</string>
+        </dict>
+        <key>UUID0</key>
+        <dict>
+          <key>HH</key>
+          <string>79</string>
+          <key>HV</key>
+          <string>90</string>
+          <key>OH</key>
+          <string>80</string>
+          <key>OV</key>
+          <string>91</string>
+        </dict>
+      </dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>_dot</string>
+      </array>
+    </dict>
+  </lib>
 </designspace>
