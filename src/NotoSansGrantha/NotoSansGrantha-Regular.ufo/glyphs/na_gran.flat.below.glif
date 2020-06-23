@@ -1,5 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="na_gran.flat.below" format="2">
+  <anchor x="-465" y="0" name="_bottom"/>
+  <anchor x="-465" y="-760" name="anudatta"/>
+  <anchor x="-465" y="-730" name="bottom"/>
+  <anchor x="-72" y="-553" name="vattubelow"/>
   <outline>
     <contour>
       <point x="-725" y="-545" type="line"/>
@@ -14,8 +18,8 @@
       <point x="-725" y="-73" type="line"/>
     </contour>
     <contour>
-      <point x="-804" y="-609" type="line"/>
-      <point x="-804" y="-675" type="line"/>
+      <point x="-725" y="-609" type="line"/>
+      <point x="-725" y="-675" type="line"/>
       <point x="-505" y="-675" type="line" smooth="yes"/>
       <point x="-298" y="-675"/>
       <point x="-172" y="-612"/>

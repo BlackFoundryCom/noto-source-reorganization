@@ -2,6 +2,19 @@
 <glyph name="auMatra_gran" format="2">
   <advance width="2575"/>
   <unicode hex="1134C"/>
+  <anchor x="1145" y="-73" name="anudatta"/>
+  <anchor x="1450" y="0" name="anusvara"/>
+  <anchor x="1145" y="-12" name="bottom"/>
+  <anchor x="1145" y="-12" name="bottom1"/>
+  <anchor x="1237" y="614" name="iiMatra"/>
+  <anchor x="2556" y="0" name="post"/>
+  <anchor x="1450" y="0" name="repha"/>
+  <anchor x="1145" y="900" name="svara"/>
+  <anchor x="1145" y="640" name="top"/>
+  <anchor x="1400" y="566" name="topright"/>
+  <anchor x="1450" y="0" name="vattu"/>
+  <anchor x="1286" y="546" name="virama"/>
+  <anchor x="1350" y="0" name="yaphalaa"/>
   <outline>
     <component base="eeMatra_gran"/>
     <component base="dottedCircle" xOffset="850"/>

@@ -4,6 +4,15 @@
   <note>
 dhii
 </note>
+  <anchor x="527" y="-140" name="anudatta"/>
+  <anchor x="1045" y="0" name="anusvara"/>
+  <anchor x="527" y="-90" name="bottom"/>
+  <anchor x="1045" y="0" name="post"/>
+  <anchor x="987" y="0" name="repha"/>
+  <anchor x="513" y="900" name="svara"/>
+  <anchor x="513" y="890" name="top"/>
+  <anchor x="1089" y="0" name="vattu"/>
+  <anchor x="947" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="260" y="-11" type="curve" smooth="yes"/>
@@ -94,6 +103,8 @@ dhii
       <string>dha_gran</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

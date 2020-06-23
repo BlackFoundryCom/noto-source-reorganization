@@ -4,95 +4,19 @@
   <note>
 Ni
 </note>
+  <anchor x="860" y="-100" name="anudatta"/>
+  <anchor x="1975" y="0" name="anusvara"/>
+  <anchor x="860" y="-60" name="bottom"/>
+  <anchor x="1975" y="0" name="post"/>
+  <anchor x="1947" y="0" name="repha"/>
+  <anchor x="977" y="900" name="svara"/>
+  <anchor x="860" y="640" name="top"/>
+  <anchor x="2028" y="0" name="vattu"/>
+  <anchor x="1887" y="0" name="yaphalaa"/>
+  <anchor x="1415" y="628" name="iiMatra"/>
+  <anchor x="1751" y="566" name="topright"/>
+  <anchor x="1490" y="475" name="virama"/>
   <outline>
-    <contour>
-      <point x="269" y="-12" type="curve" smooth="yes"/>
-      <point x="376" y="-12"/>
-      <point x="442" y="54"/>
-      <point x="442" y="165" type="curve" smooth="yes"/>
-      <point x="442" y="265"/>
-      <point x="377" y="328"/>
-      <point x="281" y="328" type="curve" smooth="yes"/>
-      <point x="215" y="328"/>
-      <point x="153" y="295"/>
-      <point x="113" y="248" type="curve"/>
-      <point x="128" y="184" type="line"/>
-      <point x="167" y="227"/>
-      <point x="214" y="258"/>
-      <point x="267" y="258" type="curve" smooth="yes"/>
-      <point x="322" y="258"/>
-      <point x="360" y="221"/>
-      <point x="360" y="155" type="curve" smooth="yes"/>
-      <point x="360" y="91"/>
-      <point x="327" y="56"/>
-      <point x="273" y="56" type="curve" smooth="yes"/>
-      <point x="207" y="56"/>
-      <point x="156" y="103"/>
-      <point x="156" y="233" type="curve" smooth="yes"/>
-      <point x="156" y="393"/>
-      <point x="260" y="502"/>
-      <point x="438" y="502" type="curve" smooth="yes"/>
-      <point x="625" y="502"/>
-      <point x="760" y="381"/>
-      <point x="760" y="182" type="curve" smooth="yes"/>
-      <point x="760" y="121"/>
-      <point x="742" y="56"/>
-      <point x="680" y="56" type="curve" smooth="yes"/>
-      <point x="631" y="56"/>
-      <point x="601" y="97"/>
-      <point x="601" y="189" type="curve" smooth="yes"/>
-      <point x="601" y="378"/>
-      <point x="701" y="503"/>
-      <point x="888" y="503" type="curve" smooth="yes"/>
-      <point x="1062" y="503"/>
-      <point x="1175" y="358"/>
-      <point x="1175" y="182" type="curve" smooth="yes"/>
-      <point x="1175" y="121"/>
-      <point x="1157" y="56"/>
-      <point x="1094" y="56" type="curve" smooth="yes"/>
-      <point x="1046" y="56"/>
-      <point x="1016" y="97"/>
-      <point x="1016" y="189" type="curve" smooth="yes"/>
-      <point x="1016" y="397"/>
-      <point x="1123" y="494"/>
-      <point x="1330" y="494" type="curve" smooth="yes"/>
-      <point x="1395" y="494" type="line"/>
-      <point x="1395" y="0" type="line"/>
-      <point x="1481" y="0" type="line"/>
-      <point x="1481" y="494" type="line"/>
-      <point x="1651" y="494" type="line"/>
-      <point x="1651" y="566" type="line"/>
-      <point x="1353" y="566" type="line" smooth="yes"/>
-      <point x="1092" y="566"/>
-      <point x="932" y="432"/>
-      <point x="932" y="186" type="curve" smooth="yes"/>
-      <point x="932" y="72"/>
-      <point x="982" y="-12"/>
-      <point x="1097" y="-12" type="curve" smooth="yes"/>
-      <point x="1198" y="-12"/>
-      <point x="1260" y="56"/>
-      <point x="1260" y="189" type="curve" smooth="yes"/>
-      <point x="1260" y="396"/>
-      <point x="1100" y="576"/>
-      <point x="886" y="576" type="curve" smooth="yes"/>
-      <point x="673" y="576"/>
-      <point x="517" y="410"/>
-      <point x="517" y="186" type="curve" smooth="yes"/>
-      <point x="517" y="72"/>
-      <point x="567" y="-12"/>
-      <point x="683" y="-12" type="curve" smooth="yes"/>
-      <point x="783" y="-12"/>
-      <point x="845" y="56"/>
-      <point x="845" y="189" type="curve" smooth="yes"/>
-      <point x="845" y="409"/>
-      <point x="673" y="576"/>
-      <point x="438" y="576" type="curve" smooth="yes"/>
-      <point x="225" y="576"/>
-      <point x="70" y="428"/>
-      <point x="70" y="231" type="curve" smooth="yes"/>
-      <point x="70" y="51"/>
-      <point x="162" y="-12"/>
-    </contour>
     <contour>
       <point x="1572" y="866" type="curve" smooth="yes"/>
       <point x="1394" y="866"/>
@@ -117,6 +41,7 @@ Ni
       <point x="1887" y="781"/>
       <point x="1770" y="866"/>
     </contour>
+    <component base="nna_gran"/>
   </outline>
   <lib>
     <dict>
@@ -124,8 +49,12 @@ Ni
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>nna_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ki_gran</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

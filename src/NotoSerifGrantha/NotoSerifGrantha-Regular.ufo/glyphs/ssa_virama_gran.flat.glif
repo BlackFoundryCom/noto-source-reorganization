@@ -1,9 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ssa_virama_gran.flat" format="2">
   <advance width="1455"/>
+  <anchor x="694" y="-100" name="anudatta"/>
+  <anchor x="1455" y="0" name="anusvara"/>
+  <anchor x="694" y="-70" name="bottom"/>
+  <anchor x="1380" y="0" name="post"/>
+  <anchor x="1445" y="0" name="repha"/>
+  <anchor x="695" y="900" name="svara"/>
+  <anchor x="642" y="640" name="top"/>
+  <anchor x="1498" y="0" name="vattu"/>
+  <anchor x="1395" y="0" name="yaphalaa"/>
+  <anchor x="940" y="593" name="iiMatra"/>
+  <anchor x="1200" y="566" name="topright"/>
+  <anchor x="1110" y="471" name="virama"/>
   <outline>
     <component base="ssa_gran.flat"/>
-    <component base="virama_gran.alt" xOffset="1240" yOffset="-4"/>
+    <component base="virama_gran.alt" xOffset="1239" yOffset="-4"/>
   </outline>
   <lib>
     <dict>

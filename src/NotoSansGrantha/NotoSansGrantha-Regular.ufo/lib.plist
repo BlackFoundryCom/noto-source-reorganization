@@ -7,7 +7,7 @@
     <key>com.github.googlei18n.ufo2ft.useProductionNames</key>
     <false/>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1163</string>
+    <string>1300</string>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -45,6 +45,7 @@
       <string>.notdef</string>
       <string>CR</string>
       <string>NULL</string>
+      <string>NullMark</string>
       <string>ZWJ</string>
       <string>ZWNJ</string>
       <string>_part.ca-cha</string>
@@ -59,6 +60,7 @@
       <string>aiMatra_gran</string>
       <string>ai_gran</string>
       <string>anudatta_deva</string>
+      <string>anudatta_deva.alt</string>
       <string>anusvaraAbove_gran</string>
       <string>anusvaraVedic_gran</string>
       <string>anusvara_gran</string>
@@ -72,11 +74,14 @@
       <string>ba.base</string>
       <string>ba_gran</string>
       <string>ba_gran.below</string>
+      <string>ba_virama_gran</string>
       <string>ba_virama_gran.liga</string>
       <string>bha_gran</string>
       <string>bha_gran.below</string>
       <string>bha_gran.flat</string>
       <string>bha_gran.flat.below</string>
+      <string>bha_virama_gran</string>
+      <string>bha_virama_gran.flat</string>
       <string>bhi_gran</string>
       <string>bhi_gran.flat</string>
       <string>bi_gran</string>
@@ -85,15 +90,18 @@
       <string>ca.base</string>
       <string>ca_gran</string>
       <string>ca_gran.below</string>
+      <string>ca_virama_gran</string>
       <string>ca_virama_gran.liga</string>
       <string>candrabindu_gran</string>
       <string>cha_gran</string>
       <string>cha_gran.below</string>
+      <string>cha_virama_gran</string>
       <string>chi_gran</string>
       <string>ci_gran</string>
       <string>cii_gran</string>
       <string>d_dha_gran</string>
       <string>d_dha_gran.below</string>
+      <string>d_dha_virama_gran</string>
       <string>d_dhi_gran</string>
       <string>d_dhii_gran</string>
       <string>d_va_gran</string>
@@ -101,8 +109,8 @@
       <string>d_vi_gran</string>
       <string>d_vii_gran</string>
       <string>da_gran</string>
-      <string>da_gran.alt</string>
       <string>da_gran.below</string>
+      <string>da_virama_gran</string>
       <string>da_virama_gran.liga</string>
       <string>danda_deva</string>
       <string>dbldanda_deva</string>
@@ -112,6 +120,7 @@
       <string>dda_virama_gran.liga</string>
       <string>ddha_gran</string>
       <string>ddha_gran.below</string>
+      <string>ddha_virama_gran</string>
       <string>ddhi_gran</string>
       <string>ddi_gran</string>
       <string>ddii_gran</string>
@@ -135,10 +144,13 @@
       <string>ga_gran.below</string>
       <string>ga_gran.flat</string>
       <string>ga_gran.flat.below</string>
+      <string>ga_virama_gran</string>
+      <string>ga_virama_gran.flat</string>
       <string>ga_virama_gran.liga</string>
       <string>gha.base</string>
       <string>gha_gran</string>
       <string>gha_gran.below</string>
+      <string>gha_virama_gran</string>
       <string>ghi_gran</string>
       <string>ghii_gran</string>
       <string>gi_gran</string>
@@ -150,6 +162,8 @@
       <string>ha_gran.below</string>
       <string>ha_gran.flat</string>
       <string>ha_gran.flat.below</string>
+      <string>ha_virama_gran</string>
+      <string>ha_virama_gran.flat</string>
       <string>ha_virama_gran.liga</string>
       <string>hi_gran</string>
       <string>hi_gran.flat</string>
@@ -166,6 +180,7 @@
       <string>j_nyi_gran</string>
       <string>ja_gran</string>
       <string>ja_gran.below</string>
+      <string>ja_virama_gran</string>
       <string>ja_virama_gran.liga</string>
       <string>jha_gran</string>
       <string>jha_gran.below</string>
@@ -191,14 +206,20 @@
       <string>k_ti_gran.flat</string>
       <string>ka_gran</string>
       <string>ka_gran.below</string>
+      <string>ka_virama_gran</string>
       <string>ka_virama_gran.liga</string>
       <string>kacomb_gran</string>
       <string>karshana_vedic</string>
       <string>kha.base</string>
       <string>kha_gran</string>
+      <string>kha_gran.alt</string>
       <string>kha_gran.below</string>
+      <string>kha_virama_gran</string>
+      <string>kha_virama_gran.alt</string>
       <string>khi_gran</string>
+      <string>khi_gran.alt</string>
       <string>khii_gran</string>
+      <string>khii_gran.alt</string>
       <string>ki_gran</string>
       <string>lVocalicMatra_gran</string>
       <string>lVocalic_gran</string>
@@ -211,6 +232,7 @@
       <string>llVocalic_gran</string>
       <string>lla_gran</string>
       <string>lla_gran.below</string>
+      <string>lla_virama_gran</string>
       <string>lli_gran</string>
       <string>llii_gran</string>
       <string>m_ma_gran</string>
@@ -218,6 +240,7 @@
       <string>m_mi_gran</string>
       <string>ma_gran</string>
       <string>ma_gran.below</string>
+      <string>ma_virama_gran</string>
       <string>ma_virama_gran.liga</string>
       <string>ma_virama_gran.liga.alt</string>
       <string>mi_gran</string>
@@ -225,6 +248,7 @@
       <string>n_da_gran.below</string>
       <string>n_dha_gran</string>
       <string>n_dha_gran.below</string>
+      <string>n_dha_virama_gran</string>
       <string>n_dhi_gran</string>
       <string>n_dhii_gran</string>
       <string>n_di_gran</string>
@@ -235,6 +259,7 @@
       <string>n_na_gran.below</string>
       <string>n_na_gran.flat</string>
       <string>n_na_gran.flat.below</string>
+      <string>n_na_virama_gran.liga</string>
       <string>n_ni_gran</string>
       <string>n_ni_gran.flat</string>
       <string>n_t_va_gran</string>
@@ -259,11 +284,14 @@
       <string>na_gran.below</string>
       <string>na_gran.flat</string>
       <string>na_gran.flat.below</string>
+      <string>na_virama_gran</string>
+      <string>na_virama_gran.flat</string>
       <string>na_virama_gran.liga</string>
       <string>nacomb_gran</string>
       <string>nbspace</string>
       <string>nga_gran</string>
       <string>nga_gran.below</string>
+      <string>nga_virama_gran</string>
       <string>nga_virama_gran.liga</string>
       <string>ngi_gran</string>
       <string>ni_gran</string>
@@ -272,6 +300,7 @@
       <string>nine_tamil</string>
       <string>nna_gran</string>
       <string>nna_gran.below</string>
+      <string>nna_virama_gran</string>
       <string>nna_virama_gran.liga</string>
       <string>nni_gran</string>
       <string>nukta_gran</string>
@@ -287,6 +316,7 @@
       <string>ny_ji_gran</string>
       <string>nya_gran</string>
       <string>nya_gran.below</string>
+      <string>nya_virama_gran</string>
       <string>nya_virama_gran.liga</string>
       <string>nyi_gran</string>
       <string>om_gran</string>
@@ -296,14 +326,44 @@
       <string>onethousand_tamil</string>
       <string>ooMatra_gran</string>
       <string>oo_gran</string>
+      <string>p100</string>
+      <string>p100neg</string>
+      <string>p150</string>
+      <string>p150neg</string>
+      <string>p200</string>
+      <string>p200neg</string>
+      <string>p250</string>
+      <string>p250neg</string>
+      <string>p300</string>
+      <string>p300neg</string>
+      <string>p350</string>
+      <string>p350neg</string>
+      <string>p400</string>
+      <string>p400neg</string>
+      <string>p450</string>
+      <string>p450neg</string>
+      <string>p50</string>
+      <string>p500</string>
+      <string>p500neg</string>
+      <string>p50neg</string>
+      <string>p550</string>
+      <string>p550neg</string>
+      <string>p600</string>
+      <string>p600neg</string>
+      <string>p650neg</string>
+      <string>p700neg</string>
+      <string>p750neg</string>
+      <string>p800neg</string>
       <string>pa.base</string>
       <string>pa_gran</string>
       <string>pa_gran.below</string>
       <string>pa_tamil</string>
+      <string>pa_virama_gran</string>
       <string>pa_virama_gran.liga</string>
       <string>pacomb_gran</string>
       <string>pha_gran</string>
       <string>pha_gran.below</string>
+      <string>pha_virama_gran</string>
       <string>phi_gran</string>
       <string>pi_gran</string>
       <string>pii_gran</string>
@@ -327,6 +387,9 @@
       <string>ra_gran</string>
       <string>ra_gran.below</string>
       <string>ra_vattu_gran</string>
+      <string>ra_vattu_gran.below</string>
+      <string>ra_vattu_gran.below.tall</string>
+      <string>ra_vattu_gran.below.wide</string>
       <string>ra_vattu_gran.d1</string>
       <string>ra_vattu_gran.d1b</string>
       <string>ra_vattu_gran.d1w1</string>
@@ -344,8 +407,12 @@
       <string>ra_vattu_gran.d4bh2</string>
       <string>ra_vattu_gran.d4h2</string>
       <string>ra_vattu_gran.w1b</string>
+      <string>ra_virama_gran</string>
       <string>ra_virama_gran.liga</string>
       <string>repha_gran</string>
+      <string>repha_yaPhalaa</string>
+      <string>repha_yaPhalaa.alt</string>
+      <string>repha_yaPhalaa.short</string>
       <string>ri_gran</string>
       <string>rotatedArdhavisarga_vedic</string>
       <string>rrVocalicMatra_gran</string>
@@ -369,10 +436,13 @@
       <string>sh_ra_gran.alt2</string>
       <string>sh_ra_gran.below</string>
       <string>sh_ri_gran</string>
+      <string>sh_ri_gran.alt1</string>
+      <string>sh_ri_gran.alt2</string>
       <string>sh_va_gran</string>
       <string>sh_vi_gran</string>
       <string>sha_gran</string>
       <string>sha_gran.below</string>
+      <string>sha_virama_gran</string>
       <string>sha_virama_gran.liga</string>
       <string>shi_gran</string>
       <string>si_gran</string>
@@ -381,13 +451,14 @@
       <string>sixcomb_gran</string>
       <string>space</string>
       <string>ss_tta_gran</string>
-      <string>ss_tta_gran.alt</string>
       <string>ss_tta_gran.below</string>
       <string>ss_tti_gran</string>
       <string>ssa_gran</string>
       <string>ssa_gran.below</string>
       <string>ssa_gran.flat</string>
       <string>ssa_gran.flat.below</string>
+      <string>ssa_virama_gran</string>
+      <string>ssa_virama_gran.flat</string>
       <string>ssa_virama_gran.liga</string>
       <string>ssi_gran</string>
       <string>ssi_gran.flat</string>
@@ -405,10 +476,13 @@
       <string>ta_gran.below</string>
       <string>ta_gran.flat</string>
       <string>ta_gran.flat.below</string>
+      <string>ta_virama_gran</string>
+      <string>ta_virama_gran.flat</string>
       <string>ta_virama_gran.liga</string>
       <string>ten_tamil</string>
       <string>tha_gran</string>
       <string>tha_gran.below</string>
+      <string>tha_virama_gran</string>
       <string>thi_gran</string>
       <string>three_tamil</string>
       <string>threecomb_gran</string>
@@ -419,10 +493,16 @@
       <string>toneringabove_vedic</string>
       <string>tta_gran</string>
       <string>tta_gran.below</string>
+      <string>tta_virama_gran</string>
       <string>tta_virama_gran.liga</string>
       <string>ttha_gran</string>
+      <string>ttha_gran.alt</string>
       <string>ttha_gran.below</string>
+      <string>ttha_gran.below.alt</string>
+      <string>ttha_virama_gran</string>
+      <string>ttha_virama_gran.alt</string>
       <string>tthi_gran</string>
+      <string>tthi_gran.alt</string>
       <string>tti_gran</string>
       <string>ttii_gran</string>
       <string>two_tamil</string>
@@ -435,6 +515,7 @@
       <string>va_gran</string>
       <string>va_gran.below</string>
       <string>va_tamil</string>
+      <string>va_virama_gran</string>
       <string>va_virama_gran.liga</string>
       <string>vi_gran</string>
       <string>vicomb_gran</string>
@@ -448,6 +529,7 @@
       <string>yaPhalaa_gran.short</string>
       <string>ya_gran</string>
       <string>ya_gran.below</string>
+      <string>ya_virama_gran</string>
       <string>ya_virama_gran.liga</string>
       <string>yi_gran</string>
       <string>yii_gran</string>
@@ -458,6 +540,8 @@
     <dict>
       <key>_part.ca-cha</key>
       <string>_part.cacha</string>
+      <key>anudatta_deva.alt</key>
+      <string>uni0952.alt</string>
       <key>asteriskabovecomb</key>
       <string>uni20F0</string>
       <key>dottedCircle</key>
@@ -467,11 +551,14 @@
     </dict>
     <key>public.skipExportGlyphs</key>
     <array>
+      <string>ra_vattu_gran.below</string>
+      <string>ra_vattu_gran.below.tall</string>
+      <string>ra_vattu_gran.below.wide</string>
       <string>_part.viramalig_loop</string>
-      <string>_part.ca-cha</string>
       <string>_part.iMatra</string>
       <string>_part.ii_straight</string>
       <string>_part.ravattu</string>
+      <string>_part.ca-cha</string>
       <string>doublevocalic.right</string>
       <string>ba.base</string>
       <string>ca.base</string>

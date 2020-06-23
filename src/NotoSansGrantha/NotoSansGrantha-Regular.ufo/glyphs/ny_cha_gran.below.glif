@@ -1,5 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ny_cha_gran.below" format="2">
+  <anchor x="-669" y="0" name="_bottom"/>
+  <anchor x="-669" y="-660" name="anudatta"/>
+  <anchor x="-669" y="-630" name="bottom"/>
+  <anchor x="93" y="-553" name="vattubelow"/>
   <outline>
     <contour>
       <point x="-7" y="-255" type="line" smooth="yes"/>
@@ -101,8 +105,8 @@
     <contour>
       <point x="-1332" y="-491" type="line"/>
       <point x="-1332" y="-553" type="line"/>
-      <point x="-266" y="-553" type="line"/>
-      <point x="-266" y="-491" type="line"/>
+      <point x="-16" y="-553" type="line"/>
+      <point x="-16" y="-491" type="line"/>
     </contour>
   </outline>
   <lib>

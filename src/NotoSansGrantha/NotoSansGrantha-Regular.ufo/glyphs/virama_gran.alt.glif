@@ -1,39 +1,52 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="virama_gran.alt" format="2">
+  <guideline x="409" y="691" angle="0"/>
+  <anchor x="-130" y="475" name="_virama"/>
+  <anchor x="-100" y="930" name="top"/>
   <outline>
     <contour>
-      <point x="-228" y="508" type="curve"/>
+      <point x="-228" y="507" type="curve"/>
       <point x="-184" y="559" type="line"/>
       <point x="-211" y="573"/>
-      <point x="-233" y="595"/>
-      <point x="-233" y="619" type="curve" smooth="yes"/>
-      <point x="-233" y="648"/>
-      <point x="-200" y="664"/>
-      <point x="-139" y="664" type="curve" smooth="yes"/>
-      <point x="-43" y="664" type="line"/>
-      <point x="-43" y="736" type="line"/>
-      <point x="-129" y="736" type="line" smooth="yes"/>
-      <point x="-176" y="736"/>
-      <point x="-228" y="740"/>
-      <point x="-228" y="777" type="curve" smooth="yes"/>
-      <point x="-228" y="803"/>
-      <point x="-202" y="819"/>
-      <point x="-107" y="819" type="curve" smooth="yes"/>
-      <point x="76" y="819" type="line"/>
-      <point x="85" y="891" type="line"/>
-      <point x="-69" y="891" type="line" smooth="yes"/>
-      <point x="-245" y="891"/>
-      <point x="-314" y="839"/>
-      <point x="-314" y="773" type="curve" smooth="yes"/>
-      <point x="-314" y="731"/>
-      <point x="-287" y="708"/>
-      <point x="-241" y="693" type="curve"/>
-      <point x="-241" y="710" type="line"/>
-      <point x="-298" y="689"/>
-      <point x="-319" y="660"/>
-      <point x="-319" y="620" type="curve" smooth="yes"/>
-      <point x="-319" y="567"/>
-      <point x="-281" y="522"/>
+      <point x="-229" y="585"/>
+      <point x="-229" y="606" type="curve" smooth="yes"/>
+      <point x="-229" y="635"/>
+      <point x="-196" y="646"/>
+      <point x="-135" y="646" type="curve" smooth="yes"/>
+      <point x="-39" y="646" type="line"/>
+      <point x="-39" y="718" type="line"/>
+      <point x="-125" y="718" type="line" smooth="yes"/>
+      <point x="-172" y="718"/>
+      <point x="-224" y="724"/>
+      <point x="-224" y="755" type="curve" smooth="yes"/>
+      <point x="-224" y="787"/>
+      <point x="-167" y="801"/>
+      <point x="26" y="801" type="curve" smooth="yes"/>
+      <point x="90" y="801" type="line"/>
+      <point x="99" y="873" type="line"/>
+      <point x="55" y="873" type="line" smooth="yes"/>
+      <point x="-241" y="873"/>
+      <point x="-310" y="821"/>
+      <point x="-310" y="755" type="curve" smooth="yes"/>
+      <point x="-310" y="713"/>
+      <point x="-283" y="690"/>
+      <point x="-237" y="675" type="curve"/>
+      <point x="-237" y="692" type="line"/>
+      <point x="-294" y="671"/>
+      <point x="-315" y="647"/>
+      <point x="-315" y="607" type="curve" smooth="yes"/>
+      <point x="-315" y="558"/>
+      <point x="-284" y="524"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
 </glyph>

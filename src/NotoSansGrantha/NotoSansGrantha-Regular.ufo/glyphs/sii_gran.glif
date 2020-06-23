@@ -4,6 +4,15 @@
   <note>
 sii
 </note>
+  <anchor x="862" y="-83" name="anudatta"/>
+  <anchor x="1684" y="0" name="anusvara"/>
+  <anchor x="822" y="-60" name="bottom"/>
+  <anchor x="1684" y="0" name="post"/>
+  <anchor x="1644" y="0" name="repha"/>
+  <anchor x="822" y="900" name="svara"/>
+  <anchor x="822" y="640" name="top"/>
+  <anchor x="1727" y="0" name="vattu"/>
+  <anchor x="1564" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="1436" y="443" type="curve" smooth="yes"/>
@@ -137,6 +146,8 @@ sii
       <string>sa_gran</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

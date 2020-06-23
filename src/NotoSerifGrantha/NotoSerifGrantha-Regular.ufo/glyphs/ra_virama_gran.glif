@@ -1,6 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ra_virama_gran" format="2">
   <advance width="877"/>
+  <anchor x="434" y="-100" name="anudatta"/>
+  <anchor x="877" y="0" name="anusvara"/>
+  <anchor x="436" y="-60" name="bottom"/>
+  <anchor x="854" y="0" name="post"/>
+  <anchor x="744" y="0" name="repha"/>
+  <anchor x="428" y="900" name="svara"/>
+  <anchor x="274" y="640" name="top"/>
+  <anchor x="894" y="566" name="topright"/>
+  <anchor x="799" y="0" name="vattu"/>
+  <anchor x="734" y="0" name="yaphalaa"/>
+  <anchor x="675" y="595" name="iiMatra"/>
+  <anchor x="689" y="481" name="virama"/>
   <outline>
     <component base="ra_gran"/>
     <component base="virama_gran" xOffset="844" yOffset="6"/>

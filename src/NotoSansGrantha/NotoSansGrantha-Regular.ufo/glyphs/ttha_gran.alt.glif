@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ttha_gran.alt" format="2">
+  <advance width="724"/>
+  <anchor x="362" y="-100" name="anudatta"/>
+  <anchor x="724" y="0" name="anusvara"/>
+  <anchor x="362" y="-60" name="bottom"/>
+  <anchor x="389" y="615" name="iiMatra"/>
+  <anchor x="724" y="0" name="post"/>
+  <anchor x="624" y="0" name="repha"/>
+  <anchor x="362" y="900" name="svara"/>
+  <anchor x="362" y="640" name="top"/>
+  <anchor x="675" y="566" name="topright"/>
+  <anchor x="766" y="0" name="vattu"/>
+  <anchor x="505" y="475" name="virama"/>
+  <anchor x="668" y="0" name="yaphalaa"/>
+  <outline>
+    <contour>
+      <point x="362" y="-17" type="curve" smooth="yes"/>
+      <point x="536" y="-17"/>
+      <point x="654" y="109"/>
+      <point x="654" y="278" type="curve" smooth="yes"/>
+      <point x="654" y="446"/>
+      <point x="536" y="571"/>
+      <point x="362" y="571" type="curve" smooth="yes"/>
+      <point x="188" y="571"/>
+      <point x="70" y="446"/>
+      <point x="70" y="278" type="curve" smooth="yes"/>
+      <point x="70" y="109"/>
+      <point x="188" y="-17"/>
+    </contour>
+    <contour>
+      <point x="362" y="55" type="curve" smooth="yes"/>
+      <point x="248" y="55"/>
+      <point x="156" y="149"/>
+      <point x="156" y="278" type="curve" smooth="yes"/>
+      <point x="156" y="406"/>
+      <point x="248" y="499"/>
+      <point x="362" y="499" type="curve" smooth="yes"/>
+      <point x="476" y="499"/>
+      <point x="568" y="406"/>
+      <point x="568" y="278" type="curve" smooth="yes"/>
+      <point x="568" y="149"/>
+      <point x="476" y="55"/>
+    </contour>
+    <contour>
+      <point x="362" y="219" type="curve" smooth="yes"/>
+      <point x="395" y="219"/>
+      <point x="421" y="245"/>
+      <point x="421" y="278" type="curve" smooth="yes"/>
+      <point x="421" y="310"/>
+      <point x="395" y="336"/>
+      <point x="362" y="336" type="curve" smooth="yes"/>
+      <point x="329" y="336"/>
+      <point x="303" y="310"/>
+      <point x="303" y="278" type="curve" smooth="yes"/>
+      <point x="303" y="245"/>
+      <point x="329" y="219"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

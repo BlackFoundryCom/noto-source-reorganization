@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bha_virama_gran.flat" format="2">
+  <advance width="1328"/>
+  <anchor x="659" y="-240" name="anudatta"/>
+  <anchor x="1321" y="0" name="anusvara"/>
+  <anchor x="664" y="-200" name="bottom"/>
+  <anchor x="1321" y="0" name="post"/>
+  <anchor x="1271" y="0" name="repha"/>
+  <anchor x="662" y="900" name="svara"/>
+  <anchor x="572" y="640" name="top"/>
+  <anchor x="1371" y="0" name="vattu"/>
+  <anchor x="1259" y="0" name="yaphalaa"/>
+  <anchor x="1014" y="628" name="iiMatra"/>
+  <anchor x="1318" y="566" name="topright"/>
+  <anchor x="1086" y="491" name="virama"/>
+  <outline>
+    <component base="bha_gran.flat"/>
+    <component base="virama_gran.alt" xOffset="1219" yOffset="16"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

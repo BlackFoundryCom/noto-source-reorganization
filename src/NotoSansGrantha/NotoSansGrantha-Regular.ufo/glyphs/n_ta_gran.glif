@@ -1,31 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="n_ta_gran" format="2">
   <advance width="1330"/>
+  <guideline x="1870" y="328" angle="90"/>
+  <anchor x="665" y="-240" name="anudatta"/>
+  <anchor x="1330" y="0" name="anusvara"/>
+  <anchor x="665" y="-200" name="bottom"/>
+  <anchor x="1118" y="629" name="iiMatra"/>
+  <anchor x="1330" y="0" name="post"/>
+  <anchor x="1318" y="0" name="repha"/>
+  <anchor x="655" y="900" name="svara"/>
+  <anchor x="655" y="640" name="top"/>
+  <anchor x="1295" y="566" name="topright"/>
+  <anchor x="1341" y="0" name="vattu"/>
+  <anchor x="1084" y="475" name="virama"/>
+  <anchor x="1305" y="0" name="yaphalaa"/>
   <outline>
-    <contour>
-      <point x="275" y="-156" type="curve" smooth="yes"/>
-      <point x="579" y="-156" type="line"/>
-      <point x="579" y="-84" type="line"/>
-      <point x="248" y="-84" type="line" smooth="yes"/>
-      <point x="181" y="-84"/>
-      <point x="142" y="-94"/>
-      <point x="107" y="-119" type="curve" smooth="yes"/>
-      <point x="73" y="-144"/>
-      <point x="50" y="-184"/>
-      <point x="50" y="-243" type="curve" smooth="yes"/>
-      <point x="50" y="-266"/>
-      <point x="53" y="-297"/>
-      <point x="57" y="-321" type="curve"/>
-      <point x="139" y="-317" type="line"/>
-      <point x="137" y="-301"/>
-      <point x="136" y="-283"/>
-      <point x="136" y="-263" type="curve" smooth="yes"/>
-      <point x="136" y="-219"/>
-      <point x="148" y="-194"/>
-      <point x="170" y="-179" type="curve" smooth="yes"/>
-      <point x="192" y="-164"/>
-      <point x="219" y="-156"/>
-    </contour>
     <contour>
       <point x="598" y="269" type="curve"/>
       <point x="663" y="313" type="line"/>
@@ -67,7 +56,7 @@
       <point x="603" y="362"/>
     </contour>
     <contour>
-      <point x="533" y="-156" type="line"/>
+      <point x="275" y="-156" type="curve" smooth="yes"/>
       <point x="888" y="-156" type="line" smooth="yes"/>
       <point x="1114" y="-156"/>
       <point x="1280" y="-101"/>
@@ -110,7 +99,25 @@
       <point x="1194" y="-56"/>
       <point x="1059" y="-84"/>
       <point x="857" y="-84" type="curve" smooth="yes"/>
-      <point x="533" y="-84" type="line"/>
+      <point x="248" y="-84" type="line" smooth="yes"/>
+      <point x="181" y="-84"/>
+      <point x="142" y="-94"/>
+      <point x="107" y="-119" type="curve" smooth="yes"/>
+      <point x="73" y="-144"/>
+      <point x="50" y="-184"/>
+      <point x="50" y="-243" type="curve" smooth="yes"/>
+      <point x="50" y="-266"/>
+      <point x="53" y="-297"/>
+      <point x="57" y="-321" type="curve"/>
+      <point x="139" y="-317" type="line"/>
+      <point x="137" y="-301"/>
+      <point x="136" y="-283"/>
+      <point x="136" y="-263" type="curve" smooth="yes"/>
+      <point x="136" y="-219"/>
+      <point x="148" y="-194"/>
+      <point x="170" y="-179" type="curve" smooth="yes"/>
+      <point x="192" y="-164"/>
+      <point x="219" y="-156"/>
     </contour>
   </outline>
   <lib>
@@ -123,6 +130,8 @@
       <string>ta_gran</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

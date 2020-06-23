@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sh_ra_gran.alt1" format="2">
   <advance width="1353"/>
+  <anchor x="666" y="-526" name="anudatta"/>
+  <anchor x="1353" y="0" name="anusvara"/>
+  <anchor x="676" y="-453" name="bottom"/>
+  <anchor x="993" y="621" name="iiMatra"/>
+  <anchor x="1353" y="0" name="post"/>
+  <anchor x="1262" y="0" name="repha"/>
+  <anchor x="676" y="900" name="svara"/>
+  <anchor x="676" y="640" name="top"/>
+  <anchor x="1391" y="566" name="topright"/>
+  <anchor x="1353" y="0" name="vattu"/>
+  <anchor x="1253" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="1293" y="494" type="line"/>
@@ -103,6 +114,8 @@
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

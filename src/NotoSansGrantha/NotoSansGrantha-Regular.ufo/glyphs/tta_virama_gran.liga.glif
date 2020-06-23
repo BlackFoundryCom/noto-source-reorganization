@@ -1,53 +1,68 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tta_virama_gran.liga" format="2">
-  <advance width="928"/>
+  <advance width="1116"/>
   <note>
 gh_T
 </note>
+  <anchor x="464" y="-240" name="anudatta"/>
+  <anchor x="1116" y="0" name="anusvara"/>
+  <anchor x="517" y="-127" name="bottom"/>
+  <anchor x="1116" y="0" name="post"/>
+  <anchor x="1106" y="0" name="repha"/>
+  <anchor x="464" y="900" name="svara"/>
+  <anchor x="464" y="640" name="top"/>
+  <anchor x="1064" y="0" name="vattu"/>
+  <anchor x="1076" y="0" name="yaphalaa"/>
   <outline>
     <contour>
-      <point x="564" y="461" type="curve" smooth="yes"/>
-      <point x="564" y="524"/>
-      <point x="603" y="540"/>
-      <point x="664" y="540" type="curve" smooth="yes"/>
-      <point x="750" y="540" type="line"/>
-      <point x="750" y="612" type="line"/>
-      <point x="664" y="612" type="line" smooth="yes"/>
-      <point x="617" y="612"/>
-      <point x="565" y="618"/>
-      <point x="565" y="649" type="curve" smooth="yes"/>
-      <point x="565" y="681"/>
-      <point x="622" y="695"/>
-      <point x="738" y="695" type="curve" smooth="yes"/>
-      <point x="919" y="695" type="line"/>
-      <point x="928" y="767" type="line"/>
-      <point x="771" y="767" type="line" smooth="yes"/>
-      <point x="548" y="767"/>
-      <point x="479" y="715"/>
-      <point x="479" y="649" type="curve" smooth="yes"/>
-      <point x="479" y="607"/>
-      <point x="506" y="584"/>
-      <point x="552" y="569" type="curve"/>
-      <point x="552" y="586" type="line"/>
-      <point x="495" y="565"/>
-      <point x="477" y="524"/>
-      <point x="477" y="477" type="curve" smooth="yes"/>
-      <point x="477" y="341"/>
-      <point x="637" y="174"/>
-      <point x="748" y="79" type="curve"/>
-      <point x="748" y="72" type="line"/>
+      <point x="582" y="72" type="line"/>
+      <point x="582" y="0" type="line"/>
+      <point x="769" y="0" type="line" smooth="yes"/>
+      <point x="902" y="0"/>
+      <point x="970" y="-37"/>
+      <point x="970" y="-107" type="curve" smooth="yes"/>
+      <point x="970" y="-165"/>
+      <point x="924" y="-196"/>
+      <point x="878" y="-196" type="curve" smooth="yes"/>
+      <point x="834" y="-196"/>
+      <point x="797" y="-167"/>
+      <point x="797" y="-90" type="curve" smooth="yes"/>
+      <point x="797" y="38"/>
+      <point x="936" y="167"/>
+      <point x="936" y="380" type="curve" smooth="yes"/>
+      <point x="936" y="468"/>
+      <point x="913" y="579"/>
+      <point x="851" y="683" type="curve"/>
+      <point x="773" y="650" type="line"/>
+      <point x="845" y="540"/>
+      <point x="854" y="432"/>
+      <point x="854" y="382" type="curve" smooth="yes"/>
+      <point x="854" y="183"/>
+      <point x="711" y="48"/>
+      <point x="711" y="-93" type="curve" smooth="yes"/>
+      <point x="711" y="-200"/>
+      <point x="781" y="-268"/>
+      <point x="883" y="-268" type="curve" smooth="yes"/>
+      <point x="969" y="-268"/>
+      <point x="1056" y="-221"/>
+      <point x="1056" y="-103" type="curve" smooth="yes"/>
+      <point x="1056" y="4"/>
+      <point x="974" y="72"/>
+      <point x="792" y="72" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="80" y="0" type="line"/>
+      <point x="668" y="0" type="line"/>
+      <point x="668" y="72" type="line"/>
       <point x="166" y="72" type="line"/>
       <point x="166" y="566" type="line"/>
       <point x="80" y="566" type="line"/>
-      <point x="80" y="0" type="line"/>
-      <point x="431" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="431" y="37" type="line"/>
       <point x="431" y="-127" type="line"/>
       <point x="517" y="-127" type="line"/>
-      <point x="517" y="0" type="line"/>
-      <point x="868" y="0" type="line"/>
-      <point x="868" y="72" type="line"/>
-      <point x="745" y="179"/>
-      <point x="564" y="325"/>
+      <point x="517" y="37" type="line"/>
     </contour>
   </outline>
   <lib>

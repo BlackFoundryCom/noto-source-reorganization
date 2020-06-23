@@ -4,9 +4,56 @@
   <note>
 p_virlig
 </note>
+  <anchor x="733" y="-200" name="anudatta"/>
+  <anchor x="1568" y="0" name="anusvara"/>
+  <anchor x="723" y="-60" name="bottom"/>
+  <anchor x="958" y="-60" name="bottom_right"/>
+  <anchor x="1568" y="0" name="post"/>
+  <anchor x="1549" y="0" name="repha"/>
+  <anchor x="728" y="900" name="svara"/>
+  <anchor x="728" y="640" name="top"/>
+  <anchor x="1610" y="0" name="vattu"/>
+  <anchor x="1531" y="0" name="yaphalaa"/>
   <outline>
     <contour>
-      <point x="1231" y="72" type="curve" smooth="yes"/>
+      <point x="1014" y="72" type="line"/>
+      <point x="1014" y="0" type="line"/>
+      <point x="1201" y="0" type="line" smooth="yes"/>
+      <point x="1334" y="0"/>
+      <point x="1402" y="-37"/>
+      <point x="1402" y="-107" type="curve" smooth="yes"/>
+      <point x="1402" y="-165"/>
+      <point x="1356" y="-196"/>
+      <point x="1310" y="-196" type="curve" smooth="yes"/>
+      <point x="1266" y="-196"/>
+      <point x="1229" y="-167"/>
+      <point x="1229" y="-90" type="curve" smooth="yes"/>
+      <point x="1229" y="38"/>
+      <point x="1368" y="167"/>
+      <point x="1368" y="380" type="curve" smooth="yes"/>
+      <point x="1368" y="468"/>
+      <point x="1345" y="579"/>
+      <point x="1283" y="683" type="curve"/>
+      <point x="1205" y="650" type="line"/>
+      <point x="1277" y="540"/>
+      <point x="1286" y="432"/>
+      <point x="1286" y="382" type="curve" smooth="yes"/>
+      <point x="1286" y="183"/>
+      <point x="1143" y="48"/>
+      <point x="1143" y="-93" type="curve" smooth="yes"/>
+      <point x="1143" y="-200"/>
+      <point x="1213" y="-268"/>
+      <point x="1315" y="-268" type="curve" smooth="yes"/>
+      <point x="1401" y="-268"/>
+      <point x="1488" y="-221"/>
+      <point x="1488" y="-103" type="curve" smooth="yes"/>
+      <point x="1488" y="4"/>
+      <point x="1406" y="72"/>
+      <point x="1224" y="72" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1096" y="0" type="line"/>
+      <point x="1096" y="72" type="line"/>
       <point x="623" y="72" type="line"/>
       <point x="650" y="131"/>
       <point x="671" y="194"/>
@@ -52,37 +99,6 @@ p_virlig
       <point x="562" y="109"/>
       <point x="531" y="63" type="curve"/>
       <point x="535" y="0" type="line"/>
-      <point x="1259" y="0" type="line" smooth="yes"/>
-      <point x="1364" y="0"/>
-      <point x="1402" y="-48"/>
-      <point x="1402" y="-106" type="curve" smooth="yes"/>
-      <point x="1402" y="-165"/>
-      <point x="1364" y="-198"/>
-      <point x="1311" y="-198" type="curve" smooth="yes"/>
-      <point x="1251" y="-198"/>
-      <point x="1216" y="-153"/>
-      <point x="1216" y="-98" type="curve" smooth="yes"/>
-      <point x="1216" y="-15"/>
-      <point x="1280" y="116"/>
-      <point x="1320" y="267" type="curve" smooth="yes"/>
-      <point x="1349" y="376"/>
-      <point x="1371" y="522"/>
-      <point x="1360" y="636" type="curve"/>
-      <point x="1276" y="616" type="line"/>
-      <point x="1285" y="509"/>
-      <point x="1276" y="395"/>
-      <point x="1250" y="298" type="curve" smooth="yes"/>
-      <point x="1213" y="158"/>
-      <point x="1137" y="23"/>
-      <point x="1137" y="-95" type="curve" smooth="yes"/>
-      <point x="1137" y="-206"/>
-      <point x="1208" y="-270"/>
-      <point x="1313" y="-270" type="curve" smooth="yes"/>
-      <point x="1435" y="-270"/>
-      <point x="1488" y="-196"/>
-      <point x="1488" y="-104" type="curve" smooth="yes"/>
-      <point x="1488" y="5"/>
-      <point x="1402" y="72"/>
     </contour>
   </outline>
   <lib>

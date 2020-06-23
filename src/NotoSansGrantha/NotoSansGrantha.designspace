@@ -57,13 +57,18 @@
   </instances>
   <lib>
     <dict>
+      <key>LWPluginVersion</key>
+      <string>1429</string>
       <key>public.skipExportGlyphs</key>
       <array>
+        <string>ra_vattu_gran.below</string>
+        <string>ra_vattu_gran.below.tall</string>
+        <string>ra_vattu_gran.below.wide</string>
         <string>_part.viramalig_loop</string>
-        <string>_part.ca-cha</string>
         <string>_part.iMatra</string>
         <string>_part.ii_straight</string>
         <string>_part.ravattu</string>
+        <string>_part.ca-cha</string>
         <string>doublevocalic.right</string>
         <string>ba.base</string>
         <string>ca.base</string>

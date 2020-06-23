@@ -4,6 +4,15 @@
   <note>
 ki
 </note>
+  <anchor x="605" y="-84" name="anudatta"/>
+  <anchor x="1362" y="0" name="anusvara"/>
+  <anchor x="572" y="-60" name="bottom"/>
+  <anchor x="1362" y="0" name="post"/>
+  <anchor x="1334" y="0" name="repha"/>
+  <anchor x="681" y="900" name="svara"/>
+  <anchor x="681" y="890" name="top"/>
+  <anchor x="1416" y="0" name="vattu"/>
+  <anchor x="1273" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="155" y="151" type="curve" smooth="yes"/>
@@ -108,8 +117,12 @@ ki
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>ka_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ki_gran</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

@@ -4,28 +4,37 @@
   <note>
 Ti
 </note>
+  <anchor x="464" y="-173" name="anudatta"/>
+  <anchor x="1253" y="0" name="anusvara"/>
+  <anchor x="474" y="-127" name="bottom"/>
+  <anchor x="1253" y="0" name="post"/>
+  <anchor x="1225" y="0" name="repha"/>
+  <anchor x="626" y="900" name="svara"/>
+  <anchor x="416" y="840" name="top"/>
+  <anchor x="1307" y="0" name="vattu"/>
+  <anchor x="1165" y="0" name="yaphalaa"/>
   <outline>
     <contour>
-      <point x="574" y="509" type="curve" smooth="yes"/>
-      <point x="574" y="622"/>
-      <point x="619" y="771"/>
-      <point x="823" y="771" type="curve" smooth="yes"/>
-      <point x="976" y="771"/>
-      <point x="1079" y="693"/>
-      <point x="1079" y="591" type="curve" smooth="yes"/>
+      <point x="575" y="550" type="curve" smooth="yes"/>
+      <point x="575" y="671"/>
+      <point x="658" y="731"/>
+      <point x="822" y="731" type="curve" smooth="yes"/>
+      <point x="985" y="731"/>
+      <point x="1079" y="664"/>
+      <point x="1079" y="542" type="curve" smooth="yes"/>
       <point x="1079" y="0" type="line"/>
       <point x="1165" y="0" type="line"/>
-      <point x="1165" y="590" type="line" smooth="yes"/>
-      <point x="1165" y="753"/>
-      <point x="1011" y="843"/>
-      <point x="827" y="843" type="curve" smooth="yes"/>
-      <point x="578" y="843"/>
-      <point x="488" y="665"/>
-      <point x="488" y="509" type="curve" smooth="yes"/>
-      <point x="488" y="310"/>
-      <point x="632" y="180"/>
-      <point x="754" y="79" type="curve"/>
-      <point x="754" y="72" type="line"/>
+      <point x="1165" y="550" type="line" smooth="yes"/>
+      <point x="1165" y="713"/>
+      <point x="1021" y="803"/>
+      <point x="827" y="803" type="curve" smooth="yes"/>
+      <point x="618" y="803"/>
+      <point x="498" y="708"/>
+      <point x="498" y="552" type="curve" smooth="yes"/>
+      <point x="498" y="373"/>
+      <point x="649" y="180"/>
+      <point x="761" y="79" type="curve"/>
+      <point x="761" y="72" type="line"/>
       <point x="166" y="72" type="line"/>
       <point x="166" y="566" type="line"/>
       <point x="80" y="566" type="line"/>
@@ -36,8 +45,8 @@ Ti
       <point x="517" y="0" type="line"/>
       <point x="868" y="0" type="line"/>
       <point x="868" y="72" type="line"/>
-      <point x="745" y="179"/>
-      <point x="574" y="311"/>
+      <point x="735" y="179"/>
+      <point x="575" y="380"/>
     </contour>
   </outline>
   <lib>
@@ -46,8 +55,12 @@ Ti
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>tta_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ki_gran</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

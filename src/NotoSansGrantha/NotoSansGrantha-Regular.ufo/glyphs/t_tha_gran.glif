@@ -1,53 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="t_tha_gran" format="2">
-  <advance width="1644"/>
+  <advance width="1654"/>
+  <guideline x="760" y="156" angle="95.1944"/>
+  <anchor x="823" y="-130" name="anudatta"/>
+  <anchor x="1644" y="0" name="anusvara"/>
+  <anchor x="823" y="-100" name="bottom"/>
+  <anchor x="1474" y="557" name="iiMatra"/>
+  <anchor x="1644" y="0" name="post"/>
+  <anchor x="1544" y="0" name="repha"/>
+  <anchor x="823" y="900" name="svara"/>
+  <anchor x="822" y="640" name="top"/>
+  <anchor x="1613" y="566" name="topright"/>
+  <anchor x="1687" y="0" name="vattu"/>
+  <anchor x="1529" y="475" name="virama"/>
+  <anchor x="1544" y="0" name="yaphalaa"/>
   <outline>
     <contour>
-      <point x="1016" y="266" type="line"/>
-      <point x="950" y="266" type="line"/>
-      <point x="950" y="130" type="line" smooth="yes"/>
-      <point x="950" y="-15"/>
-      <point x="1060" y="-96"/>
-      <point x="1215" y="-96" type="curve" smooth="yes"/>
-      <point x="1500" y="-96"/>
-      <point x="1574" y="154"/>
-      <point x="1574" y="366" type="curve" smooth="yes"/>
-      <point x="1574" y="510"/>
-      <point x="1491" y="579"/>
-      <point x="1386" y="579" type="curve" smooth="yes"/>
-      <point x="1279" y="579"/>
-      <point x="1201" y="511"/>
-      <point x="1201" y="410" type="curve" smooth="yes"/>
-      <point x="1201" y="307"/>
-      <point x="1282" y="259"/>
-      <point x="1361" y="259" type="curve" smooth="yes"/>
-      <point x="1468" y="259"/>
-      <point x="1533" y="338"/>
-      <point x="1553" y="395" type="curve"/>
-      <point x="1508" y="438" type="line"/>
-      <point x="1495" y="377"/>
-      <point x="1448" y="331"/>
-      <point x="1382" y="331" type="curve" smooth="yes"/>
-      <point x="1323" y="331"/>
-      <point x="1287" y="366"/>
-      <point x="1287" y="416" type="curve" smooth="yes"/>
-      <point x="1287" y="474"/>
-      <point x="1339" y="507"/>
-      <point x="1387" y="507" type="curve" smooth="yes"/>
-      <point x="1433" y="507"/>
-      <point x="1488" y="479"/>
-      <point x="1488" y="386" type="curve" smooth="yes"/>
-      <point x="1488" y="161"/>
-      <point x="1424" y="-24"/>
-      <point x="1214" y="-24" type="curve" smooth="yes"/>
-      <point x="1098" y="-24"/>
-      <point x="1016" y="31"/>
-      <point x="1016" y="139" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
       <point x="760" y="123" type="curve" smooth="yes"/>
-      <point x="755" y="178" type="line" smooth="yes"/>
-      <point x="747" y="271"/>
+      <point x="760" y="155" type="line" smooth="yes"/>
+      <point x="760" y="278"/>
       <point x="662" y="348"/>
       <point x="554" y="348" type="curve" smooth="yes"/>
       <point x="333" y="348" type="line" smooth="yes"/>
@@ -80,23 +51,65 @@
       <point x="326" y="276" type="curve" smooth="yes"/>
       <point x="527" y="276" type="line" smooth="yes"/>
       <point x="615" y="276"/>
-      <point x="665" y="220"/>
-      <point x="672" y="136" type="curve" smooth="yes"/>
-      <point x="675" y="100" type="line" smooth="yes"/>
-      <point x="680" y="36"/>
-      <point x="725" y="-31"/>
-      <point x="836" y="-31" type="curve" smooth="yes"/>
-      <point x="963" y="-31"/>
+      <point x="672" y="220"/>
+      <point x="672" y="146" type="curve" smooth="yes"/>
+      <point x="672" y="127" type="line" smooth="yes"/>
+      <point x="672" y="33"/>
+      <point x="729" y="-31"/>
+      <point x="832" y="-31" type="curve" smooth="yes"/>
+      <point x="957" y="-31"/>
       <point x="1016" y="63"/>
       <point x="1016" y="213" type="curve" smooth="yes"/>
       <point x="1016" y="306" type="line"/>
       <point x="930" y="306" type="line"/>
       <point x="930" y="183" type="line" smooth="yes"/>
       <point x="930" y="94"/>
-      <point x="896" y="41"/>
-      <point x="836" y="41" type="curve" smooth="yes"/>
-      <point x="797" y="41"/>
-      <point x="765" y="63"/>
+      <point x="898" y="41"/>
+      <point x="841" y="41" type="curve" smooth="yes"/>
+      <point x="799" y="41"/>
+      <point x="760" y="71"/>
+    </contour>
+    <contour>
+      <point x="1016" y="266" type="line"/>
+      <point x="950" y="266" type="line"/>
+      <point x="950" y="170" type="line" smooth="yes"/>
+      <point x="950" y="-15"/>
+      <point x="1097" y="-96"/>
+      <point x="1241" y="-96" type="curve" smooth="yes"/>
+      <point x="1503" y="-96"/>
+      <point x="1584" y="132"/>
+      <point x="1584" y="339" type="curve" smooth="yes"/>
+      <point x="1584" y="520"/>
+      <point x="1491" y="579"/>
+      <point x="1392" y="579" type="curve" smooth="yes"/>
+      <point x="1279" y="579"/>
+      <point x="1201" y="511"/>
+      <point x="1201" y="410" type="curve" smooth="yes"/>
+      <point x="1201" y="307"/>
+      <point x="1282" y="259"/>
+      <point x="1363" y="259" type="curve" smooth="yes"/>
+      <point x="1468" y="259"/>
+      <point x="1533" y="338"/>
+      <point x="1553" y="415" type="curve"/>
+      <point x="1508" y="458" type="line"/>
+      <point x="1495" y="377"/>
+      <point x="1448" y="331"/>
+      <point x="1382" y="331" type="curve" smooth="yes"/>
+      <point x="1323" y="331"/>
+      <point x="1287" y="366"/>
+      <point x="1287" y="416" type="curve" smooth="yes"/>
+      <point x="1287" y="474"/>
+      <point x="1339" y="507"/>
+      <point x="1388" y="507" type="curve" smooth="yes"/>
+      <point x="1433" y="507"/>
+      <point x="1498" y="469"/>
+      <point x="1498" y="346" type="curve" smooth="yes"/>
+      <point x="1498" y="201"/>
+      <point x="1479" y="-24"/>
+      <point x="1240" y="-24" type="curve" smooth="yes"/>
+      <point x="1131" y="-24"/>
+      <point x="1016" y="31"/>
+      <point x="1016" y="179" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
@@ -109,6 +122,8 @@
       <string>tha_gran</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

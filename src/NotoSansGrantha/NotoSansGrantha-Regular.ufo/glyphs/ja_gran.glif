@@ -2,6 +2,21 @@
 <glyph name="ja_gran" format="2">
   <advance width="863"/>
   <unicode hex="1131C"/>
+  <guideline x="-445" y="289" angle="180"/>
+  <guideline x="790" y="-615" angle="0"/>
+  <anchor x="428" y="-220" name="anudatta"/>
+  <anchor x="857" y="0" name="anusvara"/>
+  <anchor x="443" y="-150" name="bottom"/>
+  <anchor x="710" y="-150" name="bottom_exception"/>
+  <anchor x="592" y="616" name="iiMatra"/>
+  <anchor x="857" y="0" name="post"/>
+  <anchor x="847" y="0" name="repha"/>
+  <anchor x="428" y="900" name="svara"/>
+  <anchor x="428" y="640" name="top"/>
+  <anchor x="867" y="566" name="topright"/>
+  <anchor x="906" y="0" name="vattu"/>
+  <anchor x="671" y="486" name="virama"/>
+  <anchor x="834" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="173" y="15" type="curve" smooth="yes"/>

@@ -2,6 +2,8 @@
 <glyph name="rrVocalic_gran" format="2">
   <advance width="1225"/>
   <unicode hex="11360"/>
+  <anchor x="612" y="-156" name="anudatta"/>
+  <anchor x="612" y="900" name="svara"/>
   <outline>
     <component base="rVocalic_gran"/>
     <component base="doublevocalic.right" xOffset="723"/>

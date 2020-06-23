@@ -2,6 +2,13 @@
 <glyph name="ii_gran" format="2">
   <advance width="1194"/>
   <unicode hex="11308"/>
+  <guideline x="1724" y="502" angle="90"/>
+  <anchor x="597" y="-60" name="anudatta"/>
+  <anchor x="1194" y="0" name="anusvara"/>
+  <anchor x="1194" y="0" name="post"/>
+  <anchor x="597" y="900" name="svara"/>
+  <anchor x="597" y="640" name="top"/>
+  <anchor x="1194" y="0" name="vattu"/>
   <outline>
     <contour>
       <point x="552" y="175" type="line" smooth="yes"/>
@@ -11,8 +18,8 @@
       <point x="835" y="-12"/>
       <point x="842" y="95"/>
       <point x="842" y="175" type="curve" smooth="yes"/>
-      <point x="842" y="494" type="line"/>
-      <point x="757" y="494" type="line"/>
+      <point x="842" y="504" type="line"/>
+      <point x="757" y="504" type="line"/>
       <point x="757" y="156" type="line" smooth="yes"/>
       <point x="757" y="100"/>
       <point x="745" y="58"/>
@@ -20,8 +27,8 @@
       <point x="649" y="58"/>
       <point x="637" y="100"/>
       <point x="637" y="156" type="curve" smooth="yes"/>
-      <point x="637" y="494" type="line"/>
-      <point x="552" y="494" type="line"/>
+      <point x="637" y="504" type="line"/>
+      <point x="552" y="504" type="line"/>
     </contour>
     <contour>
       <point x="350" y="0" type="line"/>

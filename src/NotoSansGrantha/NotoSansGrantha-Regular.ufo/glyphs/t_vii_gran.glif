@@ -4,6 +4,15 @@
   <note>
 tvii
 </note>
+  <anchor x="842" y="-97" name="anudatta"/>
+  <anchor x="1658" y="0" name="anusvara"/>
+  <anchor x="842" y="-60" name="bottom"/>
+  <anchor x="1658" y="0" name="post"/>
+  <anchor x="1617" y="0" name="repha"/>
+  <anchor x="841" y="900" name="svara"/>
+  <anchor x="840" y="640" name="top"/>
+  <anchor x="1709" y="0" name="vattu"/>
+  <anchor x="1637" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="1557" y="0" type="line"/>
@@ -129,6 +138,8 @@ tvii
       <string>_part.ii_straight</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

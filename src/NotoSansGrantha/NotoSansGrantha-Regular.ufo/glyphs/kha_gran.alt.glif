@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kha_gran.alt" format="2">
+  <advance width="1326"/>
+  <anchor x="623" y="-100" name="anudatta"/>
+  <anchor x="1326" y="0" name="anusvara"/>
+  <anchor x="623" y="-60" name="bottom"/>
+  <anchor x="1326" y="0" name="post"/>
+  <anchor x="1296" y="0" name="repha"/>
+  <anchor x="628" y="900" name="svara"/>
+  <anchor x="628" y="640" name="top"/>
+  <anchor x="1346" y="566" name="topright"/>
+  <anchor x="1369" y="0" name="vattu"/>
+  <anchor x="1145" y="475" name="virama"/>
+  <anchor x="1273" y="0" name="yaphalaa"/>
+  <outline>
+    <contour>
+      <point x="1160" y="566" type="line"/>
+      <point x="1160" y="0" type="line"/>
+      <point x="1246" y="0" type="line"/>
+      <point x="1246" y="566" type="line"/>
+    </contour>
+    <contour>
+      <point x="779" y="330" type="curve" smooth="yes"/>
+      <point x="779" y="270"/>
+      <point x="743" y="235"/>
+      <point x="691" y="198" type="curve" smooth="yes"/>
+      <point x="636" y="159"/>
+      <point x="609" y="135"/>
+      <point x="609" y="90" type="curve" smooth="yes"/>
+      <point x="609" y="25"/>
+      <point x="672" y="0"/>
+      <point x="726" y="0" type="curve" smooth="yes"/>
+      <point x="1246" y="0" type="line"/>
+      <point x="1246" y="72" type="line"/>
+      <point x="747" y="72" type="line" smooth="yes"/>
+      <point x="701" y="72"/>
+      <point x="691" y="87"/>
+      <point x="691" y="99" type="curve" smooth="yes"/>
+      <point x="691" y="119"/>
+      <point x="717" y="135"/>
+      <point x="755" y="163" type="curve" smooth="yes"/>
+      <point x="805" y="200"/>
+      <point x="865" y="250"/>
+      <point x="865" y="336" type="curve" smooth="yes"/>
+      <point x="865" y="442"/>
+      <point x="777" y="578"/>
+      <point x="504" y="578" type="curve" smooth="yes"/>
+      <point x="209" y="578"/>
+      <point x="70" y="391"/>
+      <point x="70" y="177" type="curve" smooth="yes"/>
+      <point x="70" y="-23"/>
+      <point x="192" y="-102"/>
+      <point x="299" y="-102" type="curve" smooth="yes"/>
+      <point x="406" y="-102"/>
+      <point x="482" y="-36"/>
+      <point x="482" y="75" type="curve" smooth="yes"/>
+      <point x="482" y="175"/>
+      <point x="407" y="238"/>
+      <point x="311" y="238" type="curve" smooth="yes"/>
+      <point x="246" y="238"/>
+      <point x="163" y="205"/>
+      <point x="123" y="158" type="curve"/>
+      <point x="138" y="94" type="line"/>
+      <point x="177" y="137"/>
+      <point x="244" y="168"/>
+      <point x="297" y="168" type="curve" smooth="yes"/>
+      <point x="352" y="168"/>
+      <point x="400" y="139"/>
+      <point x="400" y="73" type="curve" smooth="yes"/>
+      <point x="400" y="9"/>
+      <point x="355" y="-34"/>
+      <point x="298" y="-34" type="curve" smooth="yes"/>
+      <point x="237" y="-34"/>
+      <point x="156" y="34"/>
+      <point x="156" y="168" type="curve" smooth="yes"/>
+      <point x="156" y="344"/>
+      <point x="240" y="506"/>
+      <point x="500" y="506" type="curve" smooth="yes"/>
+      <point x="714" y="506"/>
+      <point x="779" y="411"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>ttha_gran</string>
+    </dict>
+  </lib>
+</glyph>

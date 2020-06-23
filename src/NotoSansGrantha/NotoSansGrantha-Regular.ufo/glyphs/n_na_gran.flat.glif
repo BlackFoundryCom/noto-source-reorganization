@@ -1,6 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="n_na_gran.flat" format="2">
   <advance width="1297"/>
+  <anchor x="653" y="-240" name="anudatta"/>
+  <anchor x="1297" y="0" name="anusvara"/>
+  <anchor x="653" y="-200" name="bottom"/>
+  <anchor x="1037" y="629" name="iiMatra"/>
+  <anchor x="1297" y="0" name="post"/>
+  <anchor x="1277" y="0" name="repha"/>
+  <anchor x="648" y="900" name="svara"/>
+  <anchor x="648" y="640" name="top"/>
+  <anchor x="1222" y="566" name="topright"/>
+  <anchor x="1341" y="0" name="vattu"/>
+  <anchor x="1004" y="475" name="virama"/>
+  <anchor x="1197" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="73" y="-84" type="line"/>
@@ -95,6 +107,8 @@
       <string>na_gran</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

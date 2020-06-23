@@ -1,6 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="n_dha_gran" format="2">
   <advance width="1612"/>
+  <anchor x="808" y="-147" name="anudatta"/>
+  <anchor x="1612" y="0" name="anusvara"/>
+  <anchor x="807" y="-127" name="bottom"/>
+  <anchor x="1612" y="0" name="post"/>
+  <anchor x="1558" y="0" name="repha"/>
+  <anchor x="807" y="900" name="svara"/>
+  <anchor x="807" y="640" name="top"/>
+  <anchor x="1533" y="566" name="topright"/>
+  <anchor x="1655" y="0" name="vattu"/>
+  <anchor x="1513" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="80" y="0" type="line"/>
@@ -77,6 +87,8 @@
       <string>dha_gran</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

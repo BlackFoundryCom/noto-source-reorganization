@@ -1,13 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="n_ta_gran.flat" format="2">
   <advance width="1330"/>
+  <anchor x="665" y="-240" name="anudatta"/>
+  <anchor x="1330" y="0" name="anusvara"/>
+  <anchor x="665" y="-200" name="bottom"/>
+  <anchor x="1118" y="629" name="iiMatra"/>
+  <anchor x="1330" y="0" name="post"/>
+  <anchor x="1318" y="0" name="repha"/>
+  <anchor x="655" y="900" name="svara"/>
+  <anchor x="655" y="640" name="top"/>
+  <anchor x="1295" y="566" name="topright"/>
+  <anchor x="1341" y="0" name="vattu"/>
+  <anchor x="1084" y="475" name="virama"/>
+  <anchor x="1305" y="0" name="yaphalaa"/>
   <outline>
-    <contour>
-      <point x="50" y="-84" type="line"/>
-      <point x="50" y="-156" type="line"/>
-      <point x="549" y="-156" type="line"/>
-      <point x="549" y="-84" type="line"/>
-    </contour>
     <contour>
       <point x="598" y="269" type="curve"/>
       <point x="663" y="313" type="line"/>
@@ -49,7 +55,7 @@
       <point x="603" y="362"/>
     </contour>
     <contour>
-      <point x="533" y="-156" type="line"/>
+      <point x="50" y="-156" type="line"/>
       <point x="888" y="-156" type="line" smooth="yes"/>
       <point x="1114" y="-156"/>
       <point x="1280" y="-101"/>
@@ -92,7 +98,7 @@
       <point x="1194" y="-56"/>
       <point x="1059" y="-84"/>
       <point x="857" y="-84" type="curve" smooth="yes"/>
-      <point x="533" y="-84" type="line"/>
+      <point x="50" y="-84" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -105,6 +111,8 @@
       <string>ta_gran</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

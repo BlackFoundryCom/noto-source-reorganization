@@ -1,19 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ss_tta_gran.below" format="2">
+  <guideline x="-332" y="-748" angle="180"/>
+  <anchor x="-669" y="0" name="_bottom"/>
+  <anchor x="-669" y="-860" name="anudatta"/>
+  <anchor x="-669" y="-840" name="bottom"/>
+  <anchor x="55" y="-553" name="vattubelow"/>
   <outline>
     <contour>
       <point x="-628" y="-748" type="line"/>
-      <point x="-5" y="-748" type="line"/>
-      <point x="-5" y="-682" type="line"/>
+      <point x="-45" y="-748" type="line"/>
+      <point x="-45" y="-682" type="line"/>
       <point x="-534" y="-682" type="line"/>
       <point x="-485" y="-479" type="line"/>
       <point x="-558" y="-479" type="line"/>
     </contour>
     <contour>
-      <point x="-355" y="-718" type="line"/>
-      <point x="-355" y="-840" type="line"/>
-      <point x="-279" y="-840" type="line"/>
-      <point x="-279" y="-718" type="line"/>
+      <point x="-370" y="-718" type="line"/>
+      <point x="-370" y="-840" type="line"/>
+      <point x="-294" y="-840" type="line"/>
+      <point x="-294" y="-718" type="line"/>
     </contour>
     <contour>
       <point x="-569" y="-73" type="curve" smooth="yes"/>

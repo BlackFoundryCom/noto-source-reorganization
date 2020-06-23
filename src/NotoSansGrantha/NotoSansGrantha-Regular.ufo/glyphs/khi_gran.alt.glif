@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="khi_gran.alt" format="2">
+  <advance width="1612"/>
+  <note>
+khi
+</note>
+  <anchor x="623" y="-100" name="anudatta"/>
+  <anchor x="1550" y="0" name="anusvara"/>
+  <anchor x="623" y="-60" name="bottom"/>
+  <anchor x="1550" y="0" name="post"/>
+  <anchor x="1522" y="0" name="repha"/>
+  <anchor x="781" y="900" name="svara"/>
+  <anchor x="628" y="640" name="top"/>
+  <anchor x="1604" y="0" name="vattu"/>
+  <anchor x="1461" y="0" name="yaphalaa"/>
+  <anchor x="1346" y="566" name="topright"/>
+  <anchor x="1145" y="475" name="virama"/>
+  <outline>
+    <contour>
+      <point x="1228" y="866" type="curve" smooth="yes"/>
+      <point x="1056" y="866"/>
+      <point x="948" y="787"/>
+      <point x="948" y="672" type="curve" smooth="yes"/>
+      <point x="948" y="562"/>
+      <point x="1036" y="497"/>
+      <point x="1163" y="494" type="curve"/>
+      <point x="1163" y="566" type="line"/>
+      <point x="1079" y="567"/>
+      <point x="1033" y="611"/>
+      <point x="1033" y="671" type="curve" smooth="yes"/>
+      <point x="1033" y="732"/>
+      <point x="1085" y="794"/>
+      <point x="1227" y="794" type="curve" smooth="yes"/>
+      <point x="1368" y="794"/>
+      <point x="1446" y="719"/>
+      <point x="1446" y="595" type="curve" smooth="yes"/>
+      <point x="1446" y="0" type="line"/>
+      <point x="1532" y="0" type="line"/>
+      <point x="1532" y="594" type="line" smooth="yes"/>
+      <point x="1532" y="779"/>
+      <point x="1423" y="866"/>
+    </contour>
+    <component base="kha_gran.alt"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>kha_gran</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

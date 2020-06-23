@@ -2,6 +2,8 @@
 <glyph name="three_tamil" format="2">
   <advance width="985"/>
   <unicode hex="0BE9"/>
+  <anchor x="528" y="900" name="svara"/>
+  <anchor x="528" y="640" name="top"/>
   <outline>
     <contour>
       <point x="88" y="0" type="line"/>
@@ -40,4 +42,10 @@
       <point x="88" y="554" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+    </dict>
+  </lib>
 </glyph>

@@ -4,6 +4,15 @@
   <note>
 kSi
 </note>
+  <anchor x="1097" y="-227" name="anudatta"/>
+  <anchor x="2319" y="0" name="anusvara"/>
+  <anchor x="1154" y="-60" name="bottom"/>
+  <anchor x="2319" y="0" name="post"/>
+  <anchor x="2291" y="0" name="repha"/>
+  <anchor x="1154" y="900" name="svara"/>
+  <anchor x="1154" y="640" name="top"/>
+  <anchor x="2372" y="0" name="vattu"/>
+  <anchor x="2229" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="1609" y="576" type="curve" smooth="yes"/>
@@ -65,7 +74,7 @@ kSi
       <point x="1567" y="0" type="line"/>
       <point x="1567" y="72" type="line"/>
       <point x="1259" y="72" type="line"/>
-      <point x="1292" y="105"/>
+      <point x="1293" y="113"/>
       <point x="1311" y="172"/>
       <point x="1311" y="216" type="curve" smooth="yes"/>
       <point x="1311" y="335"/>
@@ -177,6 +186,8 @@ kSi
       <string>ka_gran</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

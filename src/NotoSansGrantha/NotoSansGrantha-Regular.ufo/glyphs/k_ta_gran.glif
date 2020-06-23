@@ -1,6 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="k_ta_gran" format="2">
   <advance width="1567"/>
+  <anchor x="765" y="-372" name="anudatta"/>
+  <anchor x="1567" y="0" name="anusvara"/>
+  <anchor x="781" y="-322" name="bottom"/>
+  <anchor x="1287" y="627" name="iiMatra"/>
+  <anchor x="1567" y="0" name="post"/>
+  <anchor x="1562" y="0" name="repha"/>
+  <anchor x="781" y="900" name="svara"/>
+  <anchor x="781" y="640" name="top"/>
+  <anchor x="1542" y="566" name="topright"/>
+  <anchor x="1517" y="0" name="vattu"/>
+  <anchor x="1322" y="475" name="virama"/>
+  <anchor x="1532" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="1180" y="276" type="line"/>
@@ -125,6 +137,8 @@
       <string>ta_gran</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

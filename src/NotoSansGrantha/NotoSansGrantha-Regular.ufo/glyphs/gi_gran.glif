@@ -4,65 +4,20 @@
   <note>
 gi
 </note>
+  <guideline x="790" y="-156" angle="0"/>
+  <anchor x="452" y="-240" name="anudatta"/>
+  <anchor x="1242" y="0" name="anusvara"/>
+  <anchor x="438" y="-200" name="bottom"/>
+  <anchor x="1242" y="0" name="post"/>
+  <anchor x="1214" y="0" name="repha"/>
+  <anchor x="641" y="900" name="svara"/>
+  <anchor x="641" y="890" name="top"/>
+  <anchor x="1297" y="0" name="vattu"/>
+  <anchor x="1215" y="0" name="yaphalaa"/>
+  <anchor x="666" y="628" name="iiMatra"/>
+  <anchor x="932" y="566" name="topright"/>
+  <anchor x="792" y="478" name="virama"/>
   <outline>
-    <contour>
-      <point x="235" y="-156" type="curve" smooth="yes"/>
-      <point x="552" y="-156" type="line" smooth="yes"/>
-      <point x="833" y="-156"/>
-      <point x="862" y="101"/>
-      <point x="862" y="277" type="curve" smooth="yes"/>
-      <point x="862" y="467"/>
-      <point x="802" y="579"/>
-      <point x="647" y="579" type="curve" smooth="yes"/>
-      <point x="493" y="579"/>
-      <point x="432" y="467"/>
-      <point x="432" y="317" type="curve" smooth="yes"/>
-      <point x="432" y="280" type="line" smooth="yes"/>
-      <point x="432" y="170"/>
-      <point x="399" y="95"/>
-      <point x="303" y="95" type="curve" smooth="yes"/>
-      <point x="207" y="95"/>
-      <point x="174" y="159"/>
-      <point x="174" y="320" type="curve" smooth="yes"/>
-      <point x="174" y="569" type="line"/>
-      <point x="88" y="569" type="line"/>
-      <point x="88" y="304" type="line" smooth="yes"/>
-      <point x="88" y="122"/>
-      <point x="149" y="23"/>
-      <point x="303" y="23" type="curve" smooth="yes"/>
-      <point x="453" y="23"/>
-      <point x="518" y="128"/>
-      <point x="518" y="289" type="curve" smooth="yes"/>
-      <point x="518" y="323" type="line" smooth="yes"/>
-      <point x="518" y="420"/>
-      <point x="545" y="507"/>
-      <point x="651" y="507" type="curve" smooth="yes"/>
-      <point x="759" y="507"/>
-      <point x="776" y="420"/>
-      <point x="776" y="283" type="curve" smooth="yes"/>
-      <point x="776" y="117"/>
-      <point x="760" y="-84"/>
-      <point x="558" y="-84" type="curve" smooth="yes"/>
-      <point x="208" y="-84" type="line" smooth="yes"/>
-      <point x="141" y="-84"/>
-      <point x="102" y="-94"/>
-      <point x="67" y="-119" type="curve" smooth="yes"/>
-      <point x="33" y="-144"/>
-      <point x="10" y="-184"/>
-      <point x="10" y="-243" type="curve" smooth="yes"/>
-      <point x="10" y="-266"/>
-      <point x="13" y="-297"/>
-      <point x="17" y="-321" type="curve"/>
-      <point x="99" y="-317" type="line"/>
-      <point x="97" y="-301"/>
-      <point x="96" y="-283"/>
-      <point x="96" y="-263" type="curve" smooth="yes"/>
-      <point x="96" y="-219"/>
-      <point x="108" y="-194"/>
-      <point x="133" y="-177" type="curve" smooth="yes"/>
-      <point x="152" y="-164"/>
-      <point x="179" y="-156"/>
-    </contour>
     <contour>
       <point x="775" y="856" type="curve" smooth="yes"/>
       <point x="566" y="856"/>
@@ -81,12 +36,13 @@ gi
       <point x="939" y="784"/>
       <point x="1068" y="714"/>
       <point x="1068" y="565" type="curve" smooth="yes"/>
-      <point x="1068" y="-156" type="line"/>
-      <point x="1154" y="-156" type="line"/>
+      <point x="1068" y="0" type="line"/>
+      <point x="1154" y="0" type="line"/>
       <point x="1154" y="564" type="line" smooth="yes"/>
       <point x="1154" y="774"/>
       <point x="994" y="856"/>
     </contour>
+    <component base="ga_gran"/>
   </outline>
   <lib>
     <dict>
@@ -94,8 +50,12 @@ gi
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>ga_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ki_gran</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

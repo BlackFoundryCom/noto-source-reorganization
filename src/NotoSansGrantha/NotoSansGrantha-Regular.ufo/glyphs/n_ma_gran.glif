@@ -1,6 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="n_ma_gran" format="2">
   <advance width="803"/>
+  <anchor x="396" y="-525" name="anudatta"/>
+  <anchor x="803" y="0" name="anusvara"/>
+  <anchor x="396" y="-435" name="bottom"/>
+  <anchor x="533" y="629" name="iiMatra"/>
+  <anchor x="803" y="0" name="post"/>
+  <anchor x="763" y="0" name="repha"/>
+  <anchor x="396" y="900" name="svara"/>
+  <anchor x="396" y="640" name="top"/>
+  <anchor x="722" y="566" name="topright"/>
+  <anchor x="807" y="0" name="vattu"/>
+  <anchor x="504" y="475" name="virama"/>
+  <anchor x="693" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="80" y="0" type="line"/>
@@ -73,6 +85,8 @@
       <string>ma_gran</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

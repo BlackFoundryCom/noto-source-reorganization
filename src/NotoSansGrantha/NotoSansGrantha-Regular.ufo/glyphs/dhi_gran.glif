@@ -4,6 +4,16 @@
   <note>
 dhi
 </note>
+  <guideline x="815" y="530" angle="144.8113"/>
+  <anchor x="527" y="-140" name="anudatta"/>
+  <anchor x="1333" y="0" name="anusvara"/>
+  <anchor x="527" y="-90" name="bottom"/>
+  <anchor x="1333" y="0" name="post"/>
+  <anchor x="1305" y="0" name="repha"/>
+  <anchor x="566" y="900" name="svara"/>
+  <anchor x="566" y="890" name="top"/>
+  <anchor x="1386" y="0" name="vattu"/>
+  <anchor x="1246" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="730" y="493" type="curve" smooth="yes"/>
@@ -76,8 +86,12 @@ dhi
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>dha_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ki_gran</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

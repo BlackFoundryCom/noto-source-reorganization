@@ -4,6 +4,15 @@
   <note>
 bi
 </note>
+  <anchor x="755" y="-100" name="anudatta"/>
+  <anchor x="1585" y="0" name="anusvara"/>
+  <anchor x="777" y="-60" name="bottom"/>
+  <anchor x="1585" y="0" name="post"/>
+  <anchor x="1544" y="0" name="repha"/>
+  <anchor x="851" y="900" name="svara"/>
+  <anchor x="851" y="640" name="top"/>
+  <anchor x="1626" y="0" name="vattu"/>
+  <anchor x="1564" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="583" y="0" type="line"/>
@@ -123,6 +132,8 @@ bi
       <string>_part.ii_straight</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

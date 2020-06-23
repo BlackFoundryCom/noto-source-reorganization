@@ -2,6 +2,8 @@
 <glyph name="ten_tamil" format="2">
   <advance width="875"/>
   <unicode hex="0BF0"/>
+  <anchor x="447" y="900" name="svara"/>
+  <anchor x="447" y="900" name="top"/>
   <outline>
     <contour>
       <point x="257" y="-12" type="curve" smooth="yes"/>
@@ -66,4 +68,10 @@
       <point x="207" y="-12"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+    </dict>
+  </lib>
 </glyph>

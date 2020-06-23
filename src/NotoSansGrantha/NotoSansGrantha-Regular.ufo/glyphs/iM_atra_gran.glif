@@ -2,7 +2,30 @@
 <glyph name="iMatra_gran" format="2">
   <unicode hex="1133F"/>
   <outline>
-    <component base="_part.iMatra"/>
+    <contour>
+      <point x="-115" y="843" type="curve" smooth="yes"/>
+      <point x="-280" y="843"/>
+      <point x="-384" y="765"/>
+      <point x="-384" y="662" type="curve" smooth="yes"/>
+      <point x="-384" y="560"/>
+      <point x="-296" y="494"/>
+      <point x="-169" y="491" type="curve"/>
+      <point x="-169" y="563" type="line"/>
+      <point x="-253" y="564"/>
+      <point x="-299" y="609"/>
+      <point x="-299" y="661" type="curve" smooth="yes"/>
+      <point x="-299" y="709"/>
+      <point x="-251" y="771"/>
+      <point x="-116" y="771" type="curve" smooth="yes"/>
+      <point x="20" y="771"/>
+      <point x="88" y="696"/>
+      <point x="88" y="576" type="curve" smooth="yes"/>
+      <point x="88" y="0" type="line"/>
+      <point x="174" y="0" type="line"/>
+      <point x="174" y="575" type="line" smooth="yes"/>
+      <point x="174" y="756"/>
+      <point x="75" y="843"/>
+    </contour>
   </outline>
   <lib>
     <dict>

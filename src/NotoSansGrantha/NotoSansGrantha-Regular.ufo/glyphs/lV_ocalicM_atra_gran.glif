@@ -1,6 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="lVocalicMatra_gran" format="2">
   <unicode hex="11362"/>
+  <anchor x="0" y="0" name="_post"/>
+  <anchor x="1292" y="0" name="anusvara"/>
+  <anchor x="931" y="-60" name="bottom"/>
+  <anchor x="1292" y="0" name="post"/>
+  <anchor x="1292" y="0" name="repha"/>
+  <anchor x="1292" y="0" name="vattu"/>
   <outline>
     <contour>
       <point x="594" y="348" type="curve"/>

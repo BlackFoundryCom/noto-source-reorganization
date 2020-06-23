@@ -1,6 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ma_virama_gran.liga" format="2">
   <advance width="802"/>
+  <guideline x="398" y="401" angle="90"/>
+  <anchor x="385" y="-284" name="anudatta"/>
+  <anchor x="802" y="0" name="anusvara"/>
+  <anchor x="390" y="-190" name="bottom"/>
+  <anchor x="772" y="0" name="post"/>
+  <anchor x="692" y="0" name="repha"/>
+  <anchor x="365" y="900" name="svara"/>
+  <anchor x="365" y="900" name="top"/>
+  <anchor x="822" y="0" name="vattu"/>
+  <anchor x="736" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="216" y="-43" type="curve" smooth="yes"/>

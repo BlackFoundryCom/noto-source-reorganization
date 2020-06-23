@@ -2,6 +2,20 @@
 <glyph name="dottedCircle" format="2">
   <advance width="600"/>
   <unicode hex="25CC"/>
+  <guideline x="2110" y="366" angle="90"/>
+  <anchor x="295" y="-73" name="anudatta"/>
+  <anchor x="600" y="0" name="anusvara"/>
+  <anchor x="295" y="-12" name="bottom"/>
+  <anchor x="295" y="-12" name="bottom1"/>
+  <anchor x="387" y="614" name="iiMatra"/>
+  <anchor x="600" y="0" name="post"/>
+  <anchor x="600" y="0" name="repha"/>
+  <anchor x="295" y="900" name="svara"/>
+  <anchor x="295" y="640" name="top"/>
+  <anchor x="550" y="566" name="topright"/>
+  <anchor x="600" y="0" name="vattu"/>
+  <anchor x="436" y="546" name="virama"/>
+  <anchor x="500" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="101" y="267" type="curve" smooth="yes"/>

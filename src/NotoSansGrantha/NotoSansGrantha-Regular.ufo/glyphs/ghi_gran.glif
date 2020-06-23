@@ -4,6 +4,15 @@
   <note>
 ghi
 </note>
+  <anchor x="776" y="-84" name="anudatta"/>
+  <anchor x="1697" y="0" name="anusvara"/>
+  <anchor x="676" y="-60" name="bottom"/>
+  <anchor x="1697" y="0" name="post"/>
+  <anchor x="1669" y="0" name="repha"/>
+  <anchor x="848" y="900" name="svara"/>
+  <anchor x="848" y="890" name="top"/>
+  <anchor x="1752" y="0" name="vattu"/>
+  <anchor x="1609" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="1237" y="0" type="line"/>
@@ -99,8 +108,12 @@ ghi
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>gha_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ki_gran</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

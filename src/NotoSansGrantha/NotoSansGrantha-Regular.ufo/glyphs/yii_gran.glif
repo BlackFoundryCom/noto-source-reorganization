@@ -4,6 +4,16 @@
   <note>
 yi
 </note>
+  <guideline x="788" y="1061" angle="0"/>
+  <anchor x="543" y="-114" name="anudatta"/>
+  <anchor x="968" y="0" name="anusvara"/>
+  <anchor x="543" y="-60" name="bottom"/>
+  <anchor x="968" y="0" name="post"/>
+  <anchor x="927" y="0" name="repha"/>
+  <anchor x="543" y="900" name="svara"/>
+  <anchor x="450" y="640" name="top"/>
+  <anchor x="1009" y="0" name="vattu"/>
+  <anchor x="947" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="346" y="0" type="line"/>
@@ -82,6 +92,8 @@ yi
       <string>_part.ii_straight</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

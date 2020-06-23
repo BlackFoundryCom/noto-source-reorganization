@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="repha_yaPhalaa" format="2">
+  <anchor x="0" y="0" name="_yaphalaa"/>
+  <anchor x="1334" y="0" name="anusvara"/>
+  <anchor x="1334" y="0" name="post"/>
+  <anchor x="1270" y="566" name="topright"/>
+  <anchor x="1334" y="0" name="vattu"/>
+  <outline>
+    <component base="repha_gran" xOffset="600"/>
+    <component base="yaPhalaa_gran"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

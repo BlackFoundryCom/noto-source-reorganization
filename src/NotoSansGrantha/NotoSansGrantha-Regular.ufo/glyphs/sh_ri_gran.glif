@@ -4,6 +4,17 @@
   <note>
 shri
 </note>
+  <anchor x="746" y="-544" name="anudatta"/>
+  <anchor x="1629" y="0" name="anusvara"/>
+  <anchor x="741" y="-462" name="bottom"/>
+  <anchor x="1629" y="0" name="post"/>
+  <anchor x="1601" y="0" name="repha"/>
+  <anchor x="814" y="900" name="svara"/>
+  <anchor x="574" y="640" name="top"/>
+  <anchor x="1683" y="0" name="vattu"/>
+  <anchor x="1541" y="0" name="yaphalaa"/>
+  <anchor x="876" y="621" name="iiMatra"/>
+  <anchor x="1391" y="566" name="topright"/>
   <outline>
     <contour>
       <point x="1236" y="843" type="curve" smooth="yes"/>
@@ -29,72 +40,7 @@ shri
       <point x="1541" y="757"/>
       <point x="1431" y="843"/>
     </contour>
-    <contour>
-      <point x="1293" y="494" type="line"/>
-      <point x="1293" y="566" type="line"/>
-      <point x="864" y="566" type="line"/>
-      <point x="864" y="494" type="line"/>
-    </contour>
-    <contour>
-      <point x="166" y="-113" type="curve"/>
-      <point x="80" y="-113" type="line"/>
-      <point x="115" y="-314"/>
-      <point x="290" y="-435"/>
-      <point x="605" y="-435" type="curve" smooth="yes"/>
-      <point x="942" y="-435"/>
-      <point x="1203" y="-295"/>
-      <point x="1203" y="55" type="curve" smooth="yes"/>
-      <point x="1203" y="513" type="line"/>
-      <point x="1117" y="513" type="line"/>
-      <point x="1117" y="65" type="line" smooth="yes"/>
-      <point x="1117" y="-240"/>
-      <point x="905" y="-363"/>
-      <point x="626" y="-363" type="curve" smooth="yes"/>
-      <point x="377" y="-363"/>
-      <point x="213" y="-298"/>
-    </contour>
-    <contour>
-      <point x="615" y="195" type="line" smooth="yes"/>
-      <point x="615" y="115"/>
-      <point x="623" y="-12"/>
-      <point x="791" y="-12" type="curve" smooth="yes"/>
-      <point x="959" y="-12"/>
-      <point x="967" y="115"/>
-      <point x="967" y="195" type="curve" smooth="yes"/>
-      <point x="967" y="502" type="line"/>
-      <point x="881" y="502" type="line"/>
-      <point x="881" y="188" type="line" smooth="yes"/>
-      <point x="881" y="122"/>
-      <point x="869" y="60"/>
-      <point x="791" y="60" type="curve" smooth="yes"/>
-      <point x="713" y="60"/>
-      <point x="701" y="122"/>
-      <point x="701" y="188" type="curve" smooth="yes"/>
-      <point x="701" y="502" type="line"/>
-      <point x="615" y="502" type="line"/>
-    </contour>
-    <contour>
-      <point x="384" y="566" type="line"/>
-      <point x="384" y="188" type="line" smooth="yes"/>
-      <point x="384" y="122"/>
-      <point x="372" y="60"/>
-      <point x="294" y="60" type="curve" smooth="yes"/>
-      <point x="216" y="60"/>
-      <point x="204" y="122"/>
-      <point x="204" y="188" type="curve" smooth="yes"/>
-      <point x="204" y="566" type="line"/>
-      <point x="118" y="566" type="line"/>
-      <point x="118" y="195" type="line" smooth="yes"/>
-      <point x="118" y="115"/>
-      <point x="126" y="-12"/>
-      <point x="294" y="-12" type="curve" smooth="yes"/>
-      <point x="462" y="-12"/>
-      <point x="470" y="115"/>
-      <point x="470" y="195" type="curve" smooth="yes"/>
-      <point x="470" y="494" type="line"/>
-      <point x="1080" y="494" type="line"/>
-      <point x="1080" y="566" type="line"/>
-    </contour>
+    <component base="sh_ra_gran"/>
   </outline>
   <lib>
     <dict>
@@ -102,8 +48,12 @@ shri
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>sha_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ki_gran</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

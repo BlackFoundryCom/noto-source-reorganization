@@ -2,6 +2,18 @@
 <glyph name="nya_gran" format="2">
   <advance width="1156"/>
   <unicode hex="1131E"/>
+  <anchor x="630" y="-296" name="anudatta"/>
+  <anchor x="1156" y="0" name="anusvara"/>
+  <anchor x="580" y="-211" name="bottom"/>
+  <anchor x="937" y="628" name="iiMatra"/>
+  <anchor x="1156" y="0" name="post"/>
+  <anchor x="1136" y="0" name="repha"/>
+  <anchor x="585" y="900" name="svara"/>
+  <anchor x="585" y="640" name="top"/>
+  <anchor x="1105" y="566" name="topright"/>
+  <anchor x="1166" y="0" name="vattu"/>
+  <anchor x="934" y="475" name="virama"/>
+  <anchor x="1098" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="236" y="155" type="line"/>
@@ -56,8 +68,8 @@
       <point x="236" y="149" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="181" y="495" type="curve" smooth="yes"/>
-      <point x="66" y="495"/>
+      <point x="192" y="495" type="curve" smooth="yes"/>
+      <point x="67" y="495"/>
       <point x="0" y="432"/>
       <point x="0" y="350" type="curve" smooth="yes"/>
       <point x="0" y="268"/>
@@ -87,7 +99,7 @@
       <point x="393" y="229" type="curve"/>
       <point x="470" y="236" type="line"/>
       <point x="450" y="383"/>
-      <point x="360" y="495"/>
+      <point x="361" y="495"/>
     </contour>
   </outline>
 </glyph>

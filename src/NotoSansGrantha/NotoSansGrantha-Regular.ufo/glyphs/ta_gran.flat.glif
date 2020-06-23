@@ -1,9 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ta_gran.flat" format="2">
   <advance width="830"/>
+  <guideline x="-155" y="-434" angle="90"/>
+  <anchor x="415" y="-240" name="anudatta"/>
+  <anchor x="828" y="0" name="anusvara"/>
+  <anchor x="415" y="-200" name="bottom"/>
+  <anchor x="618" y="629" name="iiMatra"/>
+  <anchor x="828" y="0" name="post"/>
+  <anchor x="818" y="0" name="repha"/>
+  <anchor x="415" y="900" name="svara"/>
+  <anchor x="415" y="640" name="top"/>
+  <anchor x="789" y="566" name="topright"/>
+  <anchor x="826" y="0" name="vattu"/>
+  <anchor x="619" y="475" name="virama"/>
+  <anchor x="822" y="0" name="yaphalaa"/>
   <outline>
     <contour>
-      <point x="33" y="-156" type="line"/>
+      <point x="50" y="-156" type="line"/>
       <point x="388" y="-156" type="line" smooth="yes"/>
       <point x="614" y="-156"/>
       <point x="780" y="-101"/>
@@ -46,7 +59,7 @@
       <point x="694" y="-56"/>
       <point x="559" y="-84"/>
       <point x="357" y="-84" type="curve" smooth="yes"/>
-      <point x="33" y="-84" type="line"/>
+      <point x="50" y="-84" type="line"/>
     </contour>
   </outline>
   <lib>

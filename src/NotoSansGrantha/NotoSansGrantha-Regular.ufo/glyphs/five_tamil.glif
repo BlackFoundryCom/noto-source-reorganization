@@ -2,6 +2,8 @@
 <glyph name="five_tamil" format="2">
   <advance width="1051"/>
   <unicode hex="0BEB"/>
+  <anchor x="535" y="900" name="svara"/>
+  <anchor x="535" y="900" name="top"/>
   <outline>
     <contour>
       <point x="559" y="-321" type="curve" smooth="yes"/>
@@ -60,4 +62,10 @@
       <point x="361" y="554" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+    </dict>
+  </lib>
 </glyph>

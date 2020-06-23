@@ -2,6 +2,8 @@
 <glyph name="onethousand_tamil" format="2">
   <advance width="972"/>
   <unicode hex="0BF2"/>
+  <anchor x="501" y="900" name="svara"/>
+  <anchor x="501" y="640" name="top"/>
   <outline>
     <contour>
       <point x="817" y="174" type="curve" smooth="yes"/>
@@ -96,4 +98,10 @@
       <point x="632" y="275" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+    </dict>
+  </lib>
 </glyph>

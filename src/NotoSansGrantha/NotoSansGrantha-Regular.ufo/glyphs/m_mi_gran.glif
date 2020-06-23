@@ -4,6 +4,15 @@
   <note>
 mmi
 </note>
+  <anchor x="478" y="-319" name="anudatta"/>
+  <anchor x="1275" y="0" name="anusvara"/>
+  <anchor x="478" y="-293" name="bottom"/>
+  <anchor x="1275" y="0" name="post"/>
+  <anchor x="1247" y="0" name="repha"/>
+  <anchor x="647" y="900" name="svara"/>
+  <anchor x="647" y="900" name="top"/>
+  <anchor x="1327" y="0" name="vattu"/>
+  <anchor x="1187" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="812" y="884" type="curve" smooth="yes"/>
@@ -118,6 +127,8 @@ mmi
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>ma_gran</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>ki_gran</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

@@ -7,7 +7,11 @@
     <key>com.github.googlei18n.ufo2ft.useProductionNames</key>
     <false/>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1271</string>
+    <string>1300</string>
+    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
+    <array>
+      <string>/phi_gran</string>
+    </array>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <true/>
     <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
@@ -240,6 +244,7 @@
       <string>m_mi_gran</string>
       <string>ma_gran</string>
       <string>ma_gran.below</string>
+      <string>ma_virama_gran</string>
       <string>ma_virama_gran.liga</string>
       <string>ma_virama_gran.liga.alt</string>
       <string>mi_gran</string>

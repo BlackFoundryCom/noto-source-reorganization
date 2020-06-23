@@ -4,6 +4,15 @@
   <note>
 gh_T
 </note>
+  <anchor x="464" y="-173" name="anudatta"/>
+  <anchor x="1057" y="0" name="anusvara"/>
+  <anchor x="474" y="-197" name="bottom"/>
+  <anchor x="1128" y="0" name="post"/>
+  <anchor x="1118" y="0" name="repha"/>
+  <anchor x="464" y="900" name="svara"/>
+  <anchor x="464" y="640" name="top"/>
+  <anchor x="1076" y="0" name="vattu"/>
+  <anchor x="1085" y="0" name="yaphalaa"/>
   <outline>
     <contour>
       <point x="705" y="664" type="line"/>
@@ -20,8 +29,8 @@ gh_T
       <point x="1077" y="-211"/>
       <point x="1077" y="-100" type="curve" smooth="yes"/>
       <point x="1077" y="2"/>
-      <point x="991" y="54"/>
-      <point x="849" y="54" type="curve" smooth="yes"/>
+      <point x="993" y="54"/>
+      <point x="851" y="54" type="curve" smooth="yes"/>
       <point x="560" y="54" type="line"/>
       <point x="560" y="0" type="line"/>
       <point x="838" y="0" type="line" smooth="yes"/>
@@ -41,7 +50,20 @@ gh_T
       <point x="818" y="632"/>
       <point x="760" y="691" type="curve"/>
     </contour>
-    <component base="tta_gran"/>
+    <contour>
+      <point x="80" y="0" type="line"/>
+      <point x="672" y="0" type="line"/>
+      <point x="672" y="54" type="line"/>
+      <point x="174" y="54" type="line"/>
+      <point x="174" y="554" type="line"/>
+      <point x="80" y="554" type="line"/>
+    </contour>
+    <contour>
+      <point x="431" y="37" type="line"/>
+      <point x="431" y="-127" type="line"/>
+      <point x="517" y="-127" type="line"/>
+      <point x="517" y="37" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

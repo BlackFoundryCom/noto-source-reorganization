@@ -4,13 +4,22 @@
   <note>
 ndhii
 </note>
+  <anchor x="808" y="-147" name="anudatta"/>
+  <anchor x="1611" y="0" name="anusvara"/>
+  <anchor x="806" y="-127" name="bottom"/>
+  <anchor x="1611" y="0" name="post"/>
+  <anchor x="1580" y="0" name="repha"/>
+  <anchor x="845" y="900" name="svara"/>
+  <anchor x="793" y="640" name="top"/>
+  <anchor x="1665" y="0" name="vattu"/>
+  <anchor x="1515" y="0" name="yaphalaa"/>
   <outline>
     <contour>
-      <point x="1532" y="214" type="curve" smooth="yes"/>
-      <point x="1532" y="372"/>
-      <point x="1415" y="445"/>
-      <point x="1333" y="494" type="curve" smooth="yes"/>
-      <point x="1289" y="520"/>
+      <point x="1532" y="204" type="curve" smooth="yes"/>
+      <point x="1532" y="377"/>
+      <point x="1416" y="438"/>
+      <point x="1349" y="478" type="curve" smooth="yes"/>
+      <point x="1290" y="513"/>
       <point x="1252" y="552"/>
       <point x="1252" y="612" type="curve" smooth="yes"/>
       <point x="1252" y="693"/>
@@ -45,42 +54,28 @@ ndhii
       <point x="1166" y="716"/>
       <point x="1166" y="616" type="curve" smooth="yes"/>
       <point x="1166" y="551"/>
-      <point x="1203" y="487"/>
-      <point x="1292" y="430" type="curve" smooth="yes"/>
-      <point x="1365" y="383"/>
-      <point x="1446" y="328"/>
-      <point x="1446" y="207" type="curve" smooth="yes"/>
-      <point x="1446" y="34"/>
-      <point x="1335" y="-55"/>
-      <point x="1204" y="-55" type="curve" smooth="yes"/>
-      <point x="1089" y="-55"/>
-      <point x="1007" y="0"/>
-      <point x="1007" y="105" type="curve" smooth="yes"/>
-      <point x="1007" y="236" type="line"/>
-      <point x="940" y="236" type="line"/>
-      <point x="940" y="100" type="line" smooth="yes"/>
-      <point x="940" y="-45"/>
-      <point x="1051" y="-127"/>
-      <point x="1195" y="-127" type="curve" smooth="yes"/>
-      <point x="1326" y="-127"/>
-      <point x="1532" y="-54"/>
-    </contour>
-    <contour>
-      <point x="80" y="0" type="line"/>
-      <point x="166" y="0" type="line"/>
-      <point x="166" y="494" type="line"/>
-      <point x="340" y="494" type="line"/>
-      <point x="340" y="0" type="line"/>
-      <point x="426" y="0" type="line"/>
-      <point x="426" y="494" type="line"/>
-      <point x="601" y="494" type="line"/>
-      <point x="601" y="566" type="line"/>
-      <point x="80" y="566" type="line"/>
-    </contour>
-    <contour>
-      <point x="713" y="129" type="curve" smooth="yes"/>
-      <point x="713" y="158" type="line" smooth="yes"/>
-      <point x="713" y="282"/>
+      <point x="1203" y="480"/>
+      <point x="1299" y="418" type="curve" smooth="yes"/>
+      <point x="1365" y="376"/>
+      <point x="1446" y="329"/>
+      <point x="1446" y="190" type="curve" smooth="yes"/>
+      <point x="1446" y="35"/>
+      <point x="1342" y="-55"/>
+      <point x="1201" y="-55" type="curve" smooth="yes"/>
+      <point x="1096" y="-55"/>
+      <point x="1007" y="1"/>
+      <point x="1007" y="107" type="curve" smooth="yes"/>
+      <point x="1007" y="326" type="line"/>
+      <point x="931" y="326" type="line"/>
+      <point x="931" y="163" type="line" smooth="yes"/>
+      <point x="931" y="74"/>
+      <point x="873" y="31"/>
+      <point x="813" y="31" type="curve" smooth="yes"/>
+      <point x="754" y="31"/>
+      <point x="714" y="69"/>
+      <point x="714" y="129" type="curve" smooth="yes"/>
+      <point x="714" y="158" type="line" smooth="yes"/>
+      <point x="714" y="282"/>
       <point x="648" y="352"/>
       <point x="547" y="352" type="curve" smooth="yes"/>
       <point x="495" y="352"/>
@@ -95,19 +90,29 @@ ndhii
       <point x="628" y="155" type="curve" smooth="yes"/>
       <point x="628" y="118" type="line" smooth="yes"/>
       <point x="628" y="53"/>
-      <point x="663" y="-41"/>
-      <point x="809" y="-41" type="curve" smooth="yes"/>
-      <point x="954" y="-41"/>
-      <point x="1007" y="53"/>
-      <point x="1007" y="203" type="curve" smooth="yes"/>
-      <point x="1007" y="326" type="line"/>
-      <point x="921" y="326" type="line"/>
-      <point x="921" y="173" type="line" smooth="yes"/>
-      <point x="921" y="84"/>
-      <point x="873" y="31"/>
-      <point x="809" y="31" type="curve" smooth="yes"/>
-      <point x="754" y="31"/>
-      <point x="713" y="69"/>
+      <point x="667" y="-41"/>
+      <point x="803" y="-41" type="curve" smooth="yes"/>
+      <point x="878" y="-41"/>
+      <point x="933" y="-7"/>
+      <point x="968" y="58" type="curve"/>
+      <point x="946" y="44" type="line"/>
+      <point x="980" y="-60"/>
+      <point x="1071" y="-127"/>
+      <point x="1196" y="-127" type="curve" smooth="yes"/>
+      <point x="1327" y="-127"/>
+      <point x="1532" y="-26"/>
+    </contour>
+    <contour>
+      <point x="80" y="0" type="line"/>
+      <point x="166" y="0" type="line"/>
+      <point x="166" y="494" type="line"/>
+      <point x="340" y="494" type="line"/>
+      <point x="340" y="0" type="line"/>
+      <point x="426" y="0" type="line"/>
+      <point x="426" y="494" type="line"/>
+      <point x="601" y="494" type="line"/>
+      <point x="601" y="566" type="line"/>
+      <point x="80" y="566" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -118,6 +123,8 @@ ndhii
       <string>n_dha_gran</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>gran</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
     </dict>
   </lib>
 </glyph>

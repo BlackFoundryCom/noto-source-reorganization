@@ -1,9 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ta_virama_gran" format="2">
   <advance width="872"/>
+  <guideline x="1956" y="488" angle="90"/>
+  <anchor x="422" y="-240" name="anudatta"/>
+  <anchor x="872" y="0" name="anusvara"/>
+  <anchor x="422" y="-200" name="bottom"/>
+  <anchor x="852" y="0" name="post"/>
+  <anchor x="842" y="0" name="repha"/>
+  <anchor x="415" y="900" name="svara"/>
+  <anchor x="415" y="900" name="top"/>
+  <anchor x="850" y="0" name="vattu"/>
+  <anchor x="832" y="0" name="yaphalaa"/>
+  <anchor x="581" y="595" name="iiMatra"/>
+  <anchor x="813" y="566" name="topright"/>
+  <anchor x="656" y="481" name="virama"/>
   <outline>
     <component base="ta_gran"/>
-    <component base="virama_gran" xOffset="755" yOffset="6"/>
+    <component base="virama_gran" xOffset="786" yOffset="6"/>
   </outline>
   <lib>
     <dict>
