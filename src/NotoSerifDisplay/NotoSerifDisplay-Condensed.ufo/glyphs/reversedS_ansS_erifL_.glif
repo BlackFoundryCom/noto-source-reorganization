@@ -1,13 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="reversedSansSerifL" format="2">
-  <advance width="536"/>
+  <advance width="371"/>
   <unicode hex="2143"/>
-  <anchor x="285" y="0" name="bottom"/>
-  <anchor x="285" y="357" name="center"/>
-  <anchor x="285" y="714" name="top"/>
-  <anchor x="56" y="714" name="topright"/>
+  <anchor x="155" y="0" name="bottom"/>
+  <anchor x="185" y="357" name="center"/>
+  <anchor x="256" y="714" name="top"/>
+  <anchor x="120" y="714" name="topleft"/>
   <outline>
-    <component base="L" xScale="-1" xOffset="534"/>
+    <contour>
+      <point x="298" y="0" type="line"/>
+      <point x="298" y="714" type="line"/>
+      <point x="214" y="714" type="line"/>
+      <point x="214" y="76" type="line"/>
+      <point x="17" y="76" type="line"/>
+      <point x="17" y="0" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

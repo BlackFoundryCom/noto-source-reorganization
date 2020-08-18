@@ -2,8 +2,6 @@
 <glyph name="uni1FCD" format="2">
   <advance width="614"/>
   <unicode hex="1FCD"/>
-  <anchor x="325" y="528" name="_top"/>
-  <anchor x="325" y="764" name="top"/>
   <outline>
     <contour>
       <point x="408" y="635" type="curve"/>
@@ -18,6 +16,7 @@
       <point x="378" y="676"/>
     </contour>
     <contour>
+      <point x="227" y="656" type="curve"/>
       <point x="227" y="635" type="line"/>
       <point x="262" y="645"/>
       <point x="297" y="673"/>
@@ -33,15 +32,12 @@
       <point x="273" y="705" type="curve"/>
       <point x="272" y="683"/>
       <point x="249" y="662"/>
-      <point x="227" y="656" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/05 22:37:39</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>greek</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

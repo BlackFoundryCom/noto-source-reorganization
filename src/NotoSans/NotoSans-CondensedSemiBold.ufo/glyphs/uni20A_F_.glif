@@ -30,6 +30,7 @@
       <point x="106" y="550" type="line"/>
     </contour>
     <contour>
+      <point x="456" y="132" type="curve" smooth="yes"/>
       <point x="399" y="-240" type="line"/>
       <point x="515" y="-240" type="line"/>
       <point x="537" y="-98" type="line" smooth="yes"/>
@@ -48,7 +49,6 @@
       <point x="636" y="340" type="curve" smooth="yes"/>
       <point x="525" y="340"/>
       <point x="479" y="271"/>
-      <point x="456" y="132" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="624" y="77" type="curve" smooth="yes"/>
@@ -70,8 +70,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/05 22:37:39</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

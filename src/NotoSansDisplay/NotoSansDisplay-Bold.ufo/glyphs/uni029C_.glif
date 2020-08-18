@@ -1,18 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni029C" format="2">
-  <advance width="627"/>
+  <advance width="594"/>
   <unicode hex="029C"/>
-  <anchor x="333" y="0" name="bottom"/>
-  <anchor x="333" y="553" name="top"/>
+  <anchor x="297" y="0" name="bottom"/>
+  <anchor x="297" y="553" name="top"/>
   <outline>
-    <component base="afii10079"/>
+    <contour>
+      <point x="56" y="0" type="line"/>
+      <point x="247" y="0" type="line"/>
+      <point x="247" y="214" type="line"/>
+      <point x="347" y="214" type="line"/>
+      <point x="347" y="0" type="line"/>
+      <point x="538" y="0" type="line"/>
+      <point x="538" y="553" type="line"/>
+      <point x="347" y="553" type="line"/>
+      <point x="347" y="358" type="line"/>
+      <point x="247" y="358" type="line"/>
+      <point x="247" y="553" type="line"/>
+      <point x="56" y="553" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 21:39:07</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

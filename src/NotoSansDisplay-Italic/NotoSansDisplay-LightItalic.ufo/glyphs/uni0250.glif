@@ -2,8 +2,9 @@
 <glyph name="uni0250" format="2">
   <advance width="456"/>
   <unicode hex="0250"/>
-  <anchor x="175" y="0" name="bottom"/>
-  <anchor x="287" y="528" name="top"/>
+  <anchor x="170" y="-9" name="bottom"/>
+  <anchor x="287" y="540" name="top"/>
+  <anchor x="467" y="540" name="topright"/>
   <outline>
     <contour>
       <point x="174" y="-9" type="curve" smooth="yes"/>
@@ -42,6 +43,7 @@
       <point x="90" y="-9"/>
     </contour>
     <contour>
+      <point x="190" y="257" type="curve" smooth="yes"/>
       <point x="103" y="255" type="line"/>
       <point x="115" y="309" type="line" smooth="yes"/>
       <point x="141" y="426"/>
@@ -52,15 +54,12 @@
       <point x="410" y="420" type="curve" smooth="yes"/>
       <point x="410" y="344"/>
       <point x="373" y="261"/>
-      <point x="190" y="257" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:16</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

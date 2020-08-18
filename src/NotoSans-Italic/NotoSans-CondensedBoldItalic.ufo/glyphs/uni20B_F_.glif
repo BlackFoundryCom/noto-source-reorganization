@@ -22,6 +22,7 @@
       <point x="146" y="714" type="line"/>
     </contour>
     <contour>
+      <point x="196" y="141" type="curve" smooth="yes"/>
       <point x="182" y="141" type="line"/>
       <point x="216" y="303" type="line"/>
       <point x="231" y="303" type="line" smooth="yes"/>
@@ -30,9 +31,9 @@
       <point x="275" y="250" type="curve" smooth="yes"/>
       <point x="275" y="193"/>
       <point x="249" y="141"/>
-      <point x="196" y="141" type="curve" smooth="yes"/>
     </contour>
     <contour>
+      <point x="255" y="436" type="curve" smooth="yes"/>
       <point x="244" y="436" type="line"/>
       <point x="274" y="576" type="line"/>
       <point x="282" y="576" type="line" smooth="yes"/>
@@ -41,7 +42,6 @@
       <point x="327" y="532" type="curve" smooth="yes"/>
       <point x="327" y="485"/>
       <point x="299" y="436"/>
-      <point x="255" y="436" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="226" y="617" type="line"/>
@@ -71,15 +71,13 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
-      <string></string>
+      <string>Symbol</string>
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>zero</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 15:55:27</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string></string>
+      <string>Currency</string>
     </dict>
   </lib>
 </glyph>

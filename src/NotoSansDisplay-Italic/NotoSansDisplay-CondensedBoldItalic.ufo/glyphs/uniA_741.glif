@@ -4,10 +4,10 @@
   <unicode hex="A741"/>
   <anchor x="186" y="0" name="bottom"/>
   <anchor x="347" y="760" name="top"/>
-  <anchor x="576" y="760" name="topright"/>
+  <anchor x="476" y="900" name="topright"/>
   <outline>
     <contour>
-      <point x="64" y="565" type="line" smooth="yes"/>
+      <point x="64" y="565" type="line"/>
       <point x="342" y="565" type="line" smooth="yes"/>
       <point x="367" y="679" type="line" smooth="yes"/>
       <point x="89" y="679" type="line" smooth="yes"/>
@@ -18,8 +18,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:17</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

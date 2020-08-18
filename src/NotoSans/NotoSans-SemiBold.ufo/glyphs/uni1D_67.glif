@@ -2,28 +2,33 @@
 <glyph name="uni1D67" format="2">
   <advance width="369"/>
   <unicode hex="1D67"/>
-  <anchor x="184.6" y="-240.0" name="bottom"/>
-  <anchor x="184.6" y="231.59999999999997" name="top"/>
+  <anchor x="185" y="-240" name="bottom"/>
+  <anchor x="185" y="232" name="top"/>
   <anchor x="362.7" y="231.59999999999997" name="topright"/>
   <outline>
     <component base="gamma" xScale="0.65" yScale="0.6" yOffset="-96"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>gamma</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>=uni1D5E</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/05 22:37:39</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>greek</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Modifier</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

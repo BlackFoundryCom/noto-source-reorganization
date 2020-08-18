@@ -43,7 +43,7 @@
       <point x="127" y="-172"/>
     </contour>
     <contour>
-      <point x="160" y="364" type="line" smooth="yes"/>
+      <point x="160" y="364" type="line"/>
       <point x="128" y="364"/>
       <point x="119" y="373"/>
       <point x="119" y="396" type="curve" smooth="yes"/>
@@ -63,8 +63,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 15:55:26</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

@@ -1,21 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="turnedSansSerifY" format="2">
-  <advance width="571"/>
+  <advance width="474"/>
   <unicode hex="2144"/>
-  <anchor x="286" y="714" name="bottom"/>
-  <anchor x="286" y="0" name="top"/>
-  <anchor x="21" y="0" name="topright"/>
+  <anchor x="237" y="0" name="bottom"/>
+  <anchor x="20" y="0" name="bottomleft"/>
+  <anchor x="237" y="714" name="top"/>
   <outline>
-    <component base="Y" xScale="-1" yScale="-1" xOffset="572" yOffset="714"/>
+    <contour>
+      <point x="236" y="290" type="line"/>
+      <point x="332" y="0" type="line"/>
+      <point x="474" y="0" type="line"/>
+      <point x="305" y="443" type="line"/>
+      <point x="305" y="714" type="line"/>
+      <point x="169" y="714" type="line"/>
+      <point x="169" y="439" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="141" y="0" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>Y</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>Y</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

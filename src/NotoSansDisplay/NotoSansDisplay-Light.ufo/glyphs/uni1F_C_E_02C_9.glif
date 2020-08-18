@@ -5,6 +5,7 @@
   <anchor x="186" y="834" name="top"/>
   <outline>
     <contour>
+      <point x="206" y="717" type="curve"/>
       <point x="206" y="705" type="line"/>
       <point x="222" y="705" type="line"/>
       <point x="250" y="746"/>
@@ -14,7 +15,6 @@
       <point x="250" y="834" type="line"/>
       <point x="243" y="800"/>
       <point x="223" y="747"/>
-      <point x="206" y="717" type="curve"/>
     </contour>
     <contour>
       <point x="65" y="610" type="line"/>
@@ -23,6 +23,7 @@
       <point x="65" y="634" type="line"/>
     </contour>
     <contour>
+      <point x="104" y="726" type="curve"/>
       <point x="104" y="705" type="line"/>
       <point x="139" y="715"/>
       <point x="171" y="743"/>
@@ -38,7 +39,6 @@
       <point x="148" y="775" type="curve"/>
       <point x="147" y="753"/>
       <point x="126" y="732"/>
-      <point x="104" y="726" type="curve"/>
     </contour>
   </outline>
   <lib>
@@ -47,8 +47,6 @@
       <false/>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 21:39:08</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>greek</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

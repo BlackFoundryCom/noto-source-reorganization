@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA7CA" format="2">
+  <advance width="451"/>
+  <unicode hex="A7CA"/>
+  <anchor x="226" y="0" name="bottom"/>
+  <anchor x="226" y="536" name="top"/>
+  <anchor x="411" y="536" name="topright"/>
+  <outline>
+    <contour>
+      <point x="35" y="249" type="line"/>
+      <point x="417" y="249" type="line"/>
+      <point x="417" y="296" type="line"/>
+      <point x="35" y="296" type="line"/>
+    </contour>
+    <component base="s"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>s</string>
+    </dict>
+  </lib>
+</glyph>

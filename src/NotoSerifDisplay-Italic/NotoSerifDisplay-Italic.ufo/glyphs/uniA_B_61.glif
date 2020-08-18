@@ -70,6 +70,7 @@
       <point x="97" y="-10"/>
     </contour>
     <contour>
+      <point x="480" y="258" type="curve" smooth="yes"/>
       <point x="453" y="258" type="line"/>
       <point x="476" y="387"/>
       <point x="536" y="535"/>
@@ -79,17 +80,16 @@
       <point x="670" y="438" type="curve" smooth="yes"/>
       <point x="670" y="328"/>
       <point x="598" y="258"/>
-      <point x="480" y="258" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
-      <string></string>
+      <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
+      <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string></string>
+      <string>Lowercase</string>
     </dict>
   </lib>
 </glyph>

@@ -2,29 +2,41 @@
 <glyph name="uni1DED" format="2">
   <unicode hex="1DED"/>
   <anchor x="58" y="546" name="_top"/>
-  <anchor x="-19.1" y="583.0" name="bottom"/>
+  <anchor x="-23.599999999999994" y="583.0" name="bottom"/>
   <anchor x="122.95000000000002" y="729.2" name="center"/>
   <anchor x="119.35" y="838.4" name="top"/>
   <anchor x="245.35000000000002" y="838.4" name="topright"/>
   <outline>
     <component base="o" xScale="0.45" yScale="0.4" xOffset="-35" yOffset="620"/>
-    <component base="uni1AB9" xScale="0.45" yScale="0.4" xOffset="16" yOffset="679"/>
+    <component base="uni1AB9" xScale="0.45" yScale="0.4" xOffset="223" yOffset="679"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>o</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni1AB9</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 15:55:27</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

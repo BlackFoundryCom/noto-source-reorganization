@@ -8,6 +8,7 @@
   <anchor x="544" y="536" name="topright"/>
   <outline>
     <contour>
+      <point x="195" y="676" type="curve" smooth="yes"/>
       <point x="234" y="504" type="line"/>
       <point x="385" y="513" type="line"/>
       <point x="435" y="561"/>
@@ -34,7 +35,6 @@
       <point x="158" y="711" type="line" smooth="yes"/>
       <point x="179" y="711"/>
       <point x="189" y="701"/>
-      <point x="195" y="676" type="curve" smooth="yes"/>
     </contour>
     <component base="o"/>
   </outline>

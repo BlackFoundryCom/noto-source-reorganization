@@ -2,6 +2,9 @@
 <glyph name="uniAB3F" format="2">
   <advance width="395"/>
   <unicode hex="AB3F"/>
+  <anchor x="198" y="-76" name="bottom"/>
+  <anchor x="198" y="568" name="top"/>
+  <anchor x="362" y="568" name="topright"/>
   <outline>
     <contour>
       <point x="82" y="181" type="curve"/>
@@ -58,8 +61,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 22:12:50</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

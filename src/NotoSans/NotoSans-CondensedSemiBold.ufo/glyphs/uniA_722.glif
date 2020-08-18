@@ -4,7 +4,7 @@
   <unicode hex="A722"/>
   <outline>
     <contour>
-      <point x="124" y="405" type="line" smooth="yes"/>
+      <point x="124" y="405" type="line"/>
       <point x="270" y="405"/>
       <point x="330" y="478"/>
       <point x="330" y="567" type="curve" smooth="yes"/>
@@ -24,7 +24,7 @@
       <point x="105" y="405" type="line"/>
     </contour>
     <contour>
-      <point x="110" y="0" type="line" smooth="yes"/>
+      <point x="110" y="0" type="line"/>
       <point x="247" y="0"/>
       <point x="296" y="68"/>
       <point x="296" y="147" type="curve" smooth="yes"/>
@@ -48,8 +48,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/05 22:37:39</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

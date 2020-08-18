@@ -4,6 +4,7 @@
   <unicode hex="A65B"/>
   <outline>
     <contour>
+      <point x="57" y="180" type="curve" smooth="yes"/>
       <point x="-39" y="0" type="line"/>
       <point x="-10" y="0" type="line"/>
       <point x="68" y="146" type="line"/>
@@ -25,9 +26,9 @@
       <point x="263" y="308" type="line"/>
       <point x="157" y="305"/>
       <point x="107" y="273"/>
-      <point x="57" y="180" type="curve" smooth="yes"/>
     </contour>
     <contour>
+      <point x="454" y="171" type="curve"/>
       <point x="81" y="171" type="line"/>
       <point x="131" y="262"/>
       <point x="178" y="283"/>
@@ -35,7 +36,6 @@
       <point x="301" y="283" type="line" smooth="yes"/>
       <point x="404" y="283"/>
       <point x="436" y="254"/>
-      <point x="454" y="171" type="curve"/>
     </contour>
     <contour>
       <point x="293" y="308" type="line"/>
@@ -47,8 +47,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:18</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>cyrillic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

@@ -4,9 +4,9 @@
   <unicode hex="1D3B"/>
   <anchor x="256" y="287" name="bottom"/>
   <anchor x="256" y="715" name="top"/>
-  <anchor x="499" y="715" name="topright"/>
   <outline>
     <contour>
+      <point x="71" y="645" type="curve"/>
       <point x="71" y="287" type="line"/>
       <point x="131" y="287" type="line"/>
       <point x="385" y="618" type="line"/>
@@ -41,7 +41,6 @@
       <point x="38" y="684" type="line"/>
       <point x="56" y="684"/>
       <point x="71" y="679"/>
-      <point x="71" y="645" type="curve"/>
     </contour>
   </outline>
   <lib>

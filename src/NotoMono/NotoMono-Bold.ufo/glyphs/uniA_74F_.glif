@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA74F" format="2">
+  <advance width="1200"/>
+  <unicode hex="A74F"/>
+  <anchor x="413" y="0" name="bottom_1"/>
+  <anchor x="786" y="0" name="bottom_2"/>
+  <anchor x="413" y="277" name="center_1"/>
+  <anchor x="786" y="277" name="center_2"/>
+  <anchor x="414" y="10" name="ogonek_1"/>
+  <anchor x="787" y="10" name="ogonek_2"/>
+  <anchor x="413" y="553" name="top_1"/>
+  <anchor x="786" y="553" name="top_2"/>
+  <anchor x="693" y="553" name="topright_1"/>
+  <anchor x="1066" y="553" name="topright_2"/>
+  <outline>
+    <component base="o" xOffset="113"/>
+    <component base="o" xOffset="486"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>o</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>o</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

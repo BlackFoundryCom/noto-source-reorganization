@@ -10,6 +10,7 @@
       <point x="685" y="367" type="line"/>
     </contour>
     <contour>
+      <point x="325" y="254" type="curve" smooth="yes"/>
       <point x="369" y="259" type="line"/>
       <point x="369" y="204" type="line"/>
       <point x="369" y="157"/>
@@ -20,7 +21,6 @@
       <point x="231" y="176" type="curve" smooth="yes"/>
       <point x="231" y="216"/>
       <point x="256" y="246"/>
-      <point x="325" y="254" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="420" y="0" type="line"/>
@@ -69,8 +69,6 @@
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>v</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/05 22:37:39</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

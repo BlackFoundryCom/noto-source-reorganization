@@ -69,7 +69,7 @@
       <point x="210" y="-9"/>
     </contour>
     <contour>
-      <point x="192" y="540" type="line" smooth="yes"/>
+      <point x="192" y="540" type="line"/>
       <point x="159" y="540"/>
       <point x="142" y="556"/>
       <point x="142" y="587" type="curve" smooth="yes"/>
@@ -89,8 +89,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:18</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

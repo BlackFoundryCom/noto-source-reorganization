@@ -38,6 +38,7 @@
       <point x="328" y="605"/>
     </contour>
     <contour>
+      <point x="269" y="784" type="curve"/>
       <point x="270" y="776" type="line"/>
       <point x="280" y="776" type="line"/>
       <point x="326" y="810"/>
@@ -47,7 +48,6 @@
       <point x="388" y="936" type="line"/>
       <point x="366" y="895"/>
       <point x="318" y="832"/>
-      <point x="269" y="784" type="curve"/>
     </contour>
   </outline>
   <lib>
@@ -56,8 +56,6 @@
       <false/>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:17</string>
       <key>com.schriftgestaltung.Glyphs.originalWidth</key>
       <integer>402</integer>
       <key>com.schriftgestaltung.Glyphs.script</key>

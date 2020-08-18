@@ -2,8 +2,9 @@
 <glyph name="uniAB64" format="2">
   <advance width="633"/>
   <unicode hex="AB64"/>
-  <anchor x="317" y="0" name="bottom"/>
-  <anchor x="317" y="546" name="top"/>
+  <anchor x="317" y="-10" name="bottom"/>
+  <anchor x="317" y="556" name="top"/>
+  <anchor x="625" y="556" name="topright"/>
   <outline>
     <contour>
       <point x="255" y="-10" type="curve" smooth="yes"/>
@@ -59,10 +60,8 @@
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>uni0251</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/05 22:37:39</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
+      <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
     </dict>

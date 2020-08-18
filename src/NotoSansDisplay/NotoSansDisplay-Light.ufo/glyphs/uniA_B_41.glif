@@ -2,8 +2,9 @@
 <glyph name="uniAB41" format="2">
   <advance width="906"/>
   <unicode hex="AB41"/>
-  <anchor x="452" y="528" name="bottom"/>
-  <anchor x="452" y="0" name="top"/>
+  <anchor x="453" y="-38" name="bottom"/>
+  <anchor x="453" y="552" name="top"/>
+  <anchor x="884" y="552" name="topright"/>
   <outline>
     <contour>
       <point x="407" y="-38" type="line"/>
@@ -15,20 +16,25 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>oe</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>o</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 21:39:09</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

@@ -4,6 +4,7 @@
   <unicode hex="047C"/>
   <outline>
     <contour>
+      <point x="280" y="975" type="curve" smooth="yes"/>
       <point x="280" y="945" type="line"/>
       <point x="377" y="945" type="line"/>
       <point x="377" y="977"/>
@@ -20,9 +21,9 @@
       <point x="391" y="1116" type="curve" smooth="yes"/>
       <point x="322" y="1116"/>
       <point x="280" y="1080"/>
-      <point x="280" y="975" type="curve" smooth="yes"/>
     </contour>
     <contour>
+      <point x="382" y="783" type="curve"/>
       <point x="382" y="729" type="line"/>
       <point x="482" y="732"/>
       <point x="520" y="773"/>
@@ -38,24 +39,28 @@
       <point x="434" y="807" type="curve" smooth="yes"/>
       <point x="434" y="794"/>
       <point x="423" y="783"/>
-      <point x="382" y="783" type="curve"/>
     </contour>
     <component base="uniA64C"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uniA64C</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string></string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/05 22:37:38</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string></string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

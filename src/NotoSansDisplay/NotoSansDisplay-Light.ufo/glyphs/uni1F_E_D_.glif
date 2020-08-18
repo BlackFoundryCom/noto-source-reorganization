@@ -2,9 +2,9 @@
 <glyph name="uni1FED" format="2">
   <advance width="575"/>
   <unicode hex="1FED"/>
-  <anchor x="285" y="528" name="_top"/>
   <outline>
     <contour>
+      <point x="299" y="616" type="curve"/>
       <point x="316" y="616" type="line"/>
       <point x="316" y="628" type="line"/>
       <point x="296" y="667"/>
@@ -14,7 +14,6 @@
       <point x="223" y="763" type="line"/>
       <point x="238" y="723"/>
       <point x="268" y="663"/>
-      <point x="299" y="616" type="curve"/>
     </contour>
     <contour>
       <point x="143" y="662" type="curve" smooth="yes"/>
@@ -49,8 +48,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 21:39:08</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>greek</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

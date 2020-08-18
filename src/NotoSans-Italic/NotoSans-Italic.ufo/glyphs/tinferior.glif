@@ -5,24 +5,29 @@
   <anchor x="49.400000000000006" y="-96.0" name="bottom"/>
   <anchor x="53.95" y="64.79999999999998" name="center"/>
   <anchor x="109.85" y="298.8" name="top"/>
-  <anchor x="228.8" y="298.8" name="topright"/>
+  <anchor x="189.8" y="408.0" name="topright"/>
   <outline>
     <component base="t" xScale="0.65" yScale="0.6" xOffset="-52" yOffset="-96"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>t</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 15:55:26</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Modifier</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

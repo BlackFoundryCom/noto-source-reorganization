@@ -2,6 +2,8 @@
 <glyph name="uni20BF" format="2">
   <advance width="424"/>
   <unicode hex="20BF"/>
+  <guideline x="301" y="403" angle="0"/>
+  <guideline x="271" y="-88" angle="0"/>
   <outline>
     <contour>
       <point x="-20" y="0" type="line"/>
@@ -47,6 +49,7 @@
       <point x="184" y="7" type="line"/>
     </contour>
     <contour>
+      <point x="150" y="10" type="curve" smooth="yes"/>
       <point x="69" y="10" type="line"/>
       <point x="146" y="372" type="line"/>
       <point x="190" y="372" type="line" smooth="yes"/>
@@ -55,9 +58,9 @@
       <point x="346" y="228" type="curve" smooth="yes"/>
       <point x="346" y="102"/>
       <point x="293" y="10"/>
-      <point x="150" y="10" type="curve" smooth="yes"/>
     </contour>
     <contour>
+      <point x="191" y="382" type="curve" smooth="yes"/>
       <point x="148" y="382" type="line"/>
       <point x="215" y="704" type="line"/>
       <point x="250" y="704" type="line" smooth="yes"/>
@@ -66,7 +69,6 @@
       <point x="394" y="578" type="curve" smooth="yes"/>
       <point x="394" y="483"/>
       <point x="349" y="382"/>
-      <point x="191" y="382" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="254" y="707" type="line"/>
@@ -84,13 +86,13 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
-      <string></string>
+      <string>Symbol</string>
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>zero</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string></string>
+      <string>Currency</string>
     </dict>
   </lib>
 </glyph>

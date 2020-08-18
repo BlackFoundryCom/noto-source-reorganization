@@ -2,28 +2,25 @@
 <glyph name="uni1FFD" format="2">
   <advance width="410"/>
   <unicode hex="1FFD"/>
-  <anchor x="275" y="529" name="_top"/>
-  <anchor x="321" y="768" name="top"/>
+  <anchor x="273" y="529" name="_top"/>
   <outline>
     <contour>
-      <point x="237" y="607" type="line"/>
-      <point x="281" y="607" type="line"/>
-      <point x="308" y="641"/>
-      <point x="359" y="721"/>
-      <point x="378" y="758" type="curve"/>
-      <point x="380" y="768" type="line"/>
-      <point x="304" y="768" type="line"/>
-      <point x="292" y="728"/>
-      <point x="260" y="656"/>
-      <point x="239" y="618" type="curve"/>
+      <point x="237" y="617" type="curve"/>
+      <point x="235" y="606" type="line"/>
+      <point x="282" y="606" type="line"/>
+      <point x="307" y="639"/>
+      <point x="370" y="736"/>
+      <point x="388" y="770" type="curve"/>
+      <point x="390" y="780" type="line"/>
+      <point x="313" y="780" type="line"/>
+      <point x="298" y="741"/>
+      <point x="259" y="655"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:17</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>greek</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

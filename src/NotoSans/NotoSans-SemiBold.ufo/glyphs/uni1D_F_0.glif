@@ -2,28 +2,40 @@
 <glyph name="uni1DF0" format="2">
   <unicode hex="1DF0"/>
   <anchor x="0" y="546" name="_top"/>
-  <anchor x="-100.15" y="552.0" name="bottom"/>
+  <anchor x="-109.65" y="552.0" name="bottom"/>
   <anchor x="10.050000000000011" y="838.4" name="top"/>
   <anchor x="133.8" y="838.4" name="topright"/>
   <outline>
     <component base="u" xScale="0.45" yScale="0.4" xOffset="-138" yOffset="620"/>
-    <component base="uni1AB9" xScale="0.45" yScale="0.4" xOffset="-97" yOffset="648"/>
+    <component base="uni1AB9" xScale="0.45" yScale="0.4" xOffset="132" yOffset="648"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>u</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni1AB9</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/05 22:37:40</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

@@ -2,8 +2,9 @@
 <glyph name="uniAB40" format="2">
   <advance width="746"/>
   <unicode hex="AB40"/>
-  <anchor x="374" y="553" name="bottom"/>
-  <anchor x="374" y="0" name="top"/>
+  <anchor x="373" y="-10" name="bottom"/>
+  <anchor x="373" y="563" name="top"/>
+  <anchor x="720" y="563" name="topright"/>
   <outline>
     <component base="oe" yScale="-1" yOffset="553"/>
   </outline>
@@ -15,8 +16,6 @@
       <string>oe</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>oe</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 21:39:09</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

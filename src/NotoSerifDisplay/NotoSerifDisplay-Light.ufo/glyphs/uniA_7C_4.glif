@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA7C4" format="2">
+  <advance width="550"/>
+  <unicode hex="A7C4"/>
+  <anchor x="318" y="0" name="bottom"/>
+  <anchor x="315" y="714" name="top"/>
+  <anchor x="530" y="714" name="topright"/>
+  <outline>
+    <contour>
+      <point x="510" y="-107" type="curve" smooth="yes"/>
+      <point x="510" y="92" type="line"/>
+      <point x="499" y="92" type="line"/>
+      <point x="499" y="-107" type="line" smooth="yes"/>
+      <point x="499" y="-162"/>
+      <point x="473" y="-194"/>
+      <point x="431" y="-194" type="curve" smooth="yes"/>
+      <point x="397" y="-194"/>
+      <point x="392" y="-145"/>
+      <point x="363" y="-145" type="curve" smooth="yes"/>
+      <point x="344" y="-145"/>
+      <point x="332" y="-155"/>
+      <point x="332" y="-172" type="curve" smooth="yes"/>
+      <point x="332" y="-199"/>
+      <point x="359" y="-215"/>
+      <point x="401" y="-215" type="curve" smooth="yes"/>
+      <point x="468" y="-215"/>
+      <point x="510" y="-184"/>
+    </contour>
+    <component base="C"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>C</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>C</string>
+    </dict>
+  </lib>
+</glyph>

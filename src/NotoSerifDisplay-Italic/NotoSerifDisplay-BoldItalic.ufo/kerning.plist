@@ -227,6 +227,16 @@
       <key>public.kern2.quotesingle</key>
       <integer>-10</integer>
     </dict>
+    <key>parenleftinferior</key>
+    <dict>
+      <key>parenrightinferior</key>
+      <integer>100</integer>
+    </dict>
+    <key>parenleftsuperior</key>
+    <dict>
+      <key>parenrightsuperior</key>
+      <integer>110</integer>
+    </dict>
     <key>public.kern1.A</key>
     <dict>
       <key>ampersand</key>
@@ -1530,6 +1540,8 @@
       <integer>30</integer>
       <key>public.kern2.afii10021</key>
       <integer>30</integer>
+      <key>uniA7B2</key>
+      <integer>20</integer>
     </dict>
     <key>public.kern1.quoteleft</key>
     <dict>
@@ -1686,7 +1698,7 @@
       <key>public.kern2.o</key>
       <integer>-20</integer>
       <key>public.kern2.period</key>
-      <integer>-70</integer>
+      <integer>-257</integer>
       <key>public.kern2.quoteright</key>
       <integer>30</integer>
     </dict>
@@ -2254,6 +2266,11 @@
     <dict>
       <key>public.kern2.quotesingle</key>
       <integer>-30</integer>
+    </dict>
+    <key>uniA7B2</key>
+    <dict>
+      <key>uni029D</key>
+      <integer>70</integer>
     </dict>
     <key>v</key>
     <dict>

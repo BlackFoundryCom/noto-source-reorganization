@@ -1,26 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="turnedSansSerifY" format="2">
-  <advance width="743"/>
+  <advance width="594"/>
   <unicode hex="2144"/>
-  <anchor x="470" y="714" name="bottom"/>
-  <anchor x="308" y="0" name="top"/>
-  <anchor x="-93" y="0" name="topright"/>
+  <anchor x="251" y="0" name="bottom"/>
+  <anchor x="-46" y="0" name="bottomleft"/>
+  <anchor x="389" y="714" name="top"/>
   <outline>
-    <component base="Y" xScale="-1" yScale="-1" xOffset="781" yOffset="714"/>
+    <contour>
+      <point x="486" y="714" type="line"/>
+      <point x="295" y="714" type="line"/>
+      <point x="236" y="437" type="line"/>
+      <point x="-52" y="0" type="line"/>
+      <point x="161" y="0" type="line"/>
+      <point x="301" y="265" type="line"/>
+      <point x="336" y="0" type="line"/>
+      <point x="533" y="0" type="line"/>
+      <point x="427" y="437" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>0</integer>
-          <key>name</key>
-          <string>Y</string>
-        </dict>
-      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Symbol</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>

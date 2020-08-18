@@ -19,6 +19,7 @@
       <point x="154" y="714" type="line"/>
     </contour>
     <contour>
+      <point x="112" y="197" type="curve" smooth="yes"/>
       <point x="70" y="197" type="line"/>
       <point x="146" y="555" type="line"/>
       <point x="188" y="555" type="line" smooth="yes"/>
@@ -27,13 +28,12 @@
       <point x="310" y="433" type="curve" smooth="yes"/>
       <point x="310" y="302"/>
       <point x="250" y="197"/>
-      <point x="112" y="197" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="80" y="628" type="line"/>
-      <point x="257" y="628" type="line"/>
-      <point x="261" y="653" type="line"/>
-      <point x="84" y="653" type="line"/>
+      <point x="70" y="547" type="line"/>
+      <point x="298" y="672" type="line"/>
+      <point x="304" y="700" type="line"/>
+      <point x="76" y="575" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -42,8 +42,8 @@
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>Thorn</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 15:55:26</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>Thorn</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

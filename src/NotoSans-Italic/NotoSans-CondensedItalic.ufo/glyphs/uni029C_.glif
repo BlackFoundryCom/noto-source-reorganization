@@ -5,22 +5,29 @@
   <anchor x="151" y="0" name="bottom"/>
   <anchor x="265" y="536" name="top"/>
   <outline>
-    <component base="afii10079"/>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="77" y="0" type="line"/>
+      <point x="129" y="245" type="line"/>
+      <point x="274" y="245" type="line"/>
+      <point x="221" y="0" type="line"/>
+      <point x="298" y="0" type="line"/>
+      <point x="412" y="536" type="line"/>
+      <point x="335" y="536" type="line"/>
+      <point x="288" y="312" type="line"/>
+      <point x="144" y="312" type="line"/>
+      <point x="191" y="536" type="line"/>
+      <point x="114" y="536" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 15:55:25</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

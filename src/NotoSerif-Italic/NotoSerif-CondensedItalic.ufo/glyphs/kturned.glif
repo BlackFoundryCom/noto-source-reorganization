@@ -2,10 +2,12 @@
 <glyph name="kturned" format="2">
   <advance width="471"/>
   <unicode hex="029E"/>
-  <anchor x="127" y="-240" name="bottom"/>
-  <anchor x="292" y="536" name="top"/>
+  <anchor x="128" y="-240" name="bottom"/>
+  <anchor x="294" y="540" name="top"/>
+  <anchor x="534" y="540" name="topright"/>
   <outline>
     <contour>
+      <point x="283" y="116" type="curve" smooth="yes"/>
       <point x="209" y="-240" type="line"/>
       <point x="368" y="-240" type="line"/>
       <point x="377" y="-199" type="line"/>
@@ -46,7 +48,6 @@
       <point x="323" y="286" type="line"/>
       <point x="306" y="222"/>
       <point x="299" y="190"/>
-      <point x="283" y="116" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>

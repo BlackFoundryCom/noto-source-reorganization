@@ -2,8 +2,9 @@
 <glyph name="uniAB64" format="2">
   <advance width="562"/>
   <unicode hex="AB64"/>
-  <anchor x="281" y="536" name="bottom"/>
-  <anchor x="281" y="0" name="top"/>
+  <anchor x="281" y="-12" name="bottom"/>
+  <anchor x="281" y="546" name="top"/>
+  <anchor x="551" y="546" name="topright"/>
   <outline>
     <component base="uni0251" yScale="-1" yOffset="536"/>
   </outline>
@@ -14,7 +15,7 @@
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>uni0251</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
-      <string></string>
+      <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
     </dict>

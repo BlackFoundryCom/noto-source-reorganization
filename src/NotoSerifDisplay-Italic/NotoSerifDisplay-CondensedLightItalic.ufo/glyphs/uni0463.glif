@@ -1,68 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0463" format="2">
-  <advance width="342"/>
+  <advance width="565"/>
   <unicode hex="0463"/>
-  <anchor x="100" y="0" name="bottom"/>
-  <anchor x="262" y="760" name="top"/>
+  <anchor x="226.035" y="0" name="bottom"/>
+  <anchor x="339.965" y="536" name="top"/>
+  <anchor x="437" y="536" name="topright"/>
   <outline>
-    <contour>
-      <point x="158" y="-10" type="curve" smooth="yes"/>
-      <point x="248" y="-10"/>
-      <point x="303" y="65"/>
-      <point x="303" y="173" type="curve" smooth="yes"/>
-      <point x="303" y="260"/>
-      <point x="258" y="303"/>
-      <point x="168" y="303" type="curve" smooth="yes"/>
-      <point x="146" y="303"/>
-      <point x="114" y="298"/>
-      <point x="86" y="291" type="curve"/>
-      <point x="126" y="479" type="line"/>
-      <point x="229" y="479" type="line"/>
-      <point x="231" y="489" type="line"/>
-      <point x="128" y="489" type="line"/>
-      <point x="185" y="760" type="line"/>
-      <point x="94" y="760" type="line"/>
-      <point x="91" y="750" type="line"/>
-      <point x="103" y="750" type="line" smooth="yes"/>
-      <point x="135" y="750"/>
-      <point x="144" y="743"/>
-      <point x="144" y="716" type="curve" smooth="yes"/>
-      <point x="144" y="706"/>
-      <point x="142" y="691"/>
-      <point x="137" y="666" type="curve" smooth="yes"/>
-      <point x="100" y="489" type="line"/>
-      <point x="34" y="489" type="line"/>
-      <point x="32" y="479" type="line"/>
-      <point x="98" y="479" type="line"/>
-      <point x="59" y="296" type="line" smooth="yes"/>
-      <point x="51" y="259"/>
-      <point x="33" y="185"/>
-      <point x="33" y="134" type="curve" smooth="yes"/>
-      <point x="33" y="38"/>
-      <point x="78" y="-10"/>
-    </contour>
-    <contour>
-      <point x="158" y="0" type="curve" smooth="yes"/>
-      <point x="97" y="0"/>
-      <point x="61" y="32"/>
-      <point x="61" y="131" type="curve" smooth="yes"/>
-      <point x="61" y="164"/>
-      <point x="69" y="213"/>
-      <point x="84" y="280" type="curve"/>
-      <point x="107" y="288"/>
-      <point x="141" y="292"/>
-      <point x="165" y="292" type="curve" smooth="yes"/>
-      <point x="239" y="292"/>
-      <point x="275" y="242"/>
-      <point x="275" y="169" type="curve" smooth="yes"/>
-      <point x="275" y="72"/>
-      <point x="232" y="0"/>
-    </contour>
+    <component base="uniAB60"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>uniAB60</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>uniAB60</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>cyrillic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

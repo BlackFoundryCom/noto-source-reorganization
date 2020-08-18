@@ -5,6 +5,7 @@
   <anchor x="340" y="770" name="top"/>
   <outline>
     <contour>
+      <point x="326" y="619" type="curve"/>
       <point x="326" y="610" type="line"/>
       <point x="339" y="610" type="line"/>
       <point x="390" y="651"/>
@@ -14,9 +15,9 @@
       <point x="439" y="770" type="line"/>
       <point x="416" y="725"/>
       <point x="367" y="658"/>
-      <point x="326" y="619" type="curve"/>
     </contour>
     <contour>
+      <point x="182" y="619" type="curve"/>
       <point x="182" y="610" type="line"/>
       <point x="195" y="610" type="line"/>
       <point x="246" y="652"/>
@@ -26,15 +27,12 @@
       <point x="295" y="770" type="line"/>
       <point x="272" y="725"/>
       <point x="223" y="660"/>
-      <point x="182" y="619" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 15:55:27</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

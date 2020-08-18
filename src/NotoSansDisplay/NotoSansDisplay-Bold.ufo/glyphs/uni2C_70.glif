@@ -2,8 +2,9 @@
 <glyph name="uni2C70" format="2">
   <advance width="736"/>
   <unicode hex="2C70"/>
-  <anchor x="368" y="716" name="bottom"/>
-  <anchor x="368" y="-10" name="top"/>
+  <anchor x="368" y="-10" name="bottom"/>
+  <anchor x="368" y="726" name="top"/>
+  <anchor x="684" y="726" name="topright"/>
   <outline>
     <component base="uni2C6D" xScale="-1" yScale="-1" xOffset="736" yOffset="716"/>
   </outline>
@@ -15,8 +16,6 @@
       <string>=|uni2C6D</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>=|uni2C6D</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 21:39:08</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

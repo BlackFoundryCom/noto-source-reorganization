@@ -2,26 +2,31 @@
 <glyph name="uniA677" format="2">
   <unicode hex="A677"/>
   <anchor x="0" y="537" name="_top"/>
-  <anchor x="-39.699999999999996" y="524.0" name="bottom"/>
-  <anchor x="10.25" y="834.8" name="top"/>
-  <anchor x="84.5" y="834.8" name="topright"/>
+  <anchor x="0" y="935" name="top"/>
+  <anchor x="-39.699999999999996" y="624.0" name="bottom"/>
+  <anchor x="84.5" y="934.8" name="topright"/>
   <outline>
-    <component base="afii10085" xScale="0.45" yScale="0.4" xOffset="-73" yOffset="620"/>
+    <component base="afii10085" xScale="0.45" yScale="0.4" xOffset="-73" yOffset="720"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>afii10085</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/05 22:37:40</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>cyrillic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

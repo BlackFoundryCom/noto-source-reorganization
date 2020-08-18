@@ -2,25 +2,30 @@
 <glyph name="uniA69F" format="2">
   <unicode hex="A69F"/>
   <anchor x="0" y="547" name="_top"/>
+  <anchor x="0" y="842" name="top"/>
   <anchor x="64.30000000000001" y="620.0" name="bottom"/>
-  <anchor x="64.30000000000001" y="838.8" name="top"/>
   <outline>
     <component base="uni0465" xScale="0.45" yScale="0.4" xOffset="-131" yOffset="620"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uni0465</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/05 22:37:40</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>cyrillic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

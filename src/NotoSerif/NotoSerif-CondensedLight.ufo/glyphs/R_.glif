@@ -2,7 +2,7 @@
 <glyph name="R" format="2">
   <advance width="457"/>
   <unicode hex="0052"/>
-  <anchor x="229" y="0" name="bottom"/>
+  <anchor x="239" y="0" name="bottom"/>
   <anchor x="229" y="714" name="top"/>
   <anchor x="437" y="714" name="topright"/>
   <outline>
@@ -46,6 +46,7 @@
       <point x="36" y="20" type="line"/>
     </contour>
     <contour>
+      <point x="189" y="346" type="curve" smooth="yes"/>
       <point x="138" y="346" type="line"/>
       <point x="138" y="689" type="line"/>
       <point x="206" y="689" type="line" smooth="yes"/>
@@ -54,7 +55,6 @@
       <point x="352" y="528" type="curve" smooth="yes"/>
       <point x="352" y="410"/>
       <point x="301" y="346"/>
-      <point x="189" y="346" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>

@@ -28,3 +28,21 @@ NotoSansGrantha
 NotoSerifGrantha
 NotoSansOriya-MM
 NotoSansTakri
+########################
+Update of the 18/08/2020
+NotoSerif-MM
+NotoSerifDisplay-MM
+NotoSerifDisplay-ItalicMM
+NotoSans-MM
+NotoSans-ItalicMM
+NotoSerifNyiakengPuachueHmong
+NotoSansMono-MM
+NotoSansNushu
+NotoSansDisplay-MM
+NotoMono-MM
+NotoSansSundanese
+NotoSansWarangCiti
+NotoSerif-ItalicMM
+NotoSansDisplay-ItalicMM
+NotoSansGrantha
+NotoSerifGrantha

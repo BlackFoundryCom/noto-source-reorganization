@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA7C6" format="2">
+  <advance width="498"/>
+  <unicode hex="A7C6"/>
+  <anchor x="249" y="0" name="bottom"/>
+  <anchor x="249" y="714" name="top"/>
+  <anchor x="478" y="714" name="topright"/>
+  <outline>
+    <contour>
+      <point x="453" y="-107" type="curve" smooth="yes"/>
+      <point x="453" y="5" type="line"/>
+      <point x="442" y="5" type="line"/>
+      <point x="442" y="-107" type="line" smooth="yes"/>
+      <point x="442" y="-162"/>
+      <point x="416" y="-194"/>
+      <point x="374" y="-194" type="curve" smooth="yes"/>
+      <point x="340" y="-194"/>
+      <point x="335" y="-145"/>
+      <point x="306" y="-145" type="curve" smooth="yes"/>
+      <point x="287" y="-145"/>
+      <point x="275" y="-155"/>
+      <point x="275" y="-172" type="curve" smooth="yes"/>
+      <point x="275" y="-199"/>
+      <point x="302" y="-215"/>
+      <point x="344" y="-215" type="curve" smooth="yes"/>
+      <point x="411" y="-215"/>
+      <point x="453" y="-184"/>
+    </contour>
+    <component base="Z"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>Z</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Z</string>
+    </dict>
+  </lib>
+</glyph>

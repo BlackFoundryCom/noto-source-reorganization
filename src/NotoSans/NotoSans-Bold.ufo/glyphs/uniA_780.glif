@@ -2,27 +2,32 @@
 <glyph name="uniA780" format="2">
   <advance width="582"/>
   <unicode hex="A780"/>
-  <anchor x="273" y="714" name="bottom"/>
+  <anchor x="291" y="0" name="bottom"/>
+  <anchor x="291" y="714" name="top"/>
+  <anchor x="505" y="714" name="topright"/>
   <anchor x="291" y="357" name="center"/>
-  <anchor x="412" y="0" name="top"/>
-  <anchor x="218" y="0" name="topright"/>
   <outline>
     <component base="L" xScale="-1" yScale="-1" xOffset="582" yOffset="714"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>L</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/05 22:37:39</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Uppercase</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1F2A" format="2">
+  <advance width="1200"/>
+  <unicode hex="1F2A"/>
+  <anchor x="791" y="0" name="bottom"/>
+  <anchor x="791" y="714" name="top"/>
+  <anchor x="791" y="377" name="center"/>
+  <anchor x="511" y="714" name="topleft"/>
+  <anchor x="1091" y="714" name="topright"/>
+  <outline>
+    <component base="H" xOffset="491"/>
+    <component base="uni1FCD" xOffset="24" yOffset="-50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>H</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uni1FCD</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

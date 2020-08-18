@@ -1,18 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uniFE20" format="2">
   <unicode hex="FE20"/>
-  <anchor x="2" y="536" name="_top"/>
+  <anchor x="-200" y="536" name="_top"/>
   <outline>
     <contour>
-      <point x="-386" y="593" type="curve"/>
-      <point x="-340" y="593" type="line"/>
-      <point x="-265" y="684"/>
-      <point x="-154" y="714"/>
-      <point x="2" y="714" type="curve"/>
-      <point x="2" y="781" type="line"/>
-      <point x="-10" y="781" type="line" smooth="yes"/>
-      <point x="-185" y="781"/>
-      <point x="-305" y="728"/>
+      <point x="-388" y="587" type="curve"/>
+      <point x="-338" y="587" type="line"/>
+      <point x="-280" y="673"/>
+      <point x="-151" y="710"/>
+      <point x="0" y="710" type="curve" smooth="yes"/>
+      <point x="5" y="710" type="line"/>
+      <point x="5" y="775" type="line"/>
+      <point x="0" y="775" type="line" smooth="yes"/>
+      <point x="-173" y="775"/>
+      <point x="-320" y="720"/>
     </contour>
   </outline>
   <lib>

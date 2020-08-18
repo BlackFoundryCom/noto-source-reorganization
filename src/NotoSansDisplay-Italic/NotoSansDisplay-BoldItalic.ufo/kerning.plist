@@ -285,6 +285,16 @@
       <key>x.sc</key>
       <integer>-10</integer>
     </dict>
+    <key>parenleftinferior</key>
+    <dict>
+      <key>parenrightinferior</key>
+      <integer>10</integer>
+    </dict>
+    <key>parenleftsuperior</key>
+    <dict>
+      <key>parenrightsuperior</key>
+      <integer>20</integer>
+    </dict>
     <key>public.kern1.A.left</key>
     <dict>
       <key>J</key>
@@ -1286,8 +1296,6 @@
       <integer>70</integer>
       <key>public.kern2.Paren.right</key>
       <integer>100</integer>
-      <key>public.kern2.b</key>
-      <integer>0</integer>
       <key>public.kern2.quote.right</key>
       <integer>40</integer>
       <key>question</key>
@@ -1522,6 +1530,8 @@
       <integer>40</integer>
       <key>public.kern2.f.right</key>
       <integer>38</integer>
+      <key>uniA7B2</key>
+      <integer>60</integer>
     </dict>
     <key>public.kern1.parenleft.sc</key>
     <dict>
@@ -1674,6 +1684,8 @@
       <integer>-10</integer>
       <key>public.kern2.o.right</key>
       <integer>-19</integer>
+      <key>public.kern2.period.right</key>
+      <integer>-100</integer>
       <key>public.kern2.quote.right</key>
       <integer>38</integer>
     </dict>
@@ -1795,8 +1807,6 @@
     </dict>
     <key>public.kern1.uni0467</key>
     <dict>
-      <key>afii10084</key>
-      <integer>0</integer>
       <key>afii10097</key>
       <integer>30</integer>
       <key>public.kern2.afii10065</key>
@@ -1821,8 +1831,6 @@
       <integer>-20</integer>
       <key>public.kern2.uni0505</key>
       <integer>-86</integer>
-      <key>uni04AD</key>
-      <integer>0</integer>
     </dict>
     <key>public.kern1.uni046A</key>
     <dict>
@@ -1893,10 +1901,6 @@
       <integer>220</integer>
       <key>public.kern2.afii10053</key>
       <integer>-19</integer>
-      <key>public.kern2.afii10067</key>
-      <integer>0</integer>
-      <key>public.kern2.afii10073</key>
-      <integer>0</integer>
       <key>public.kern2.afii10084</key>
       <integer>-19</integer>
       <key>public.kern2.afii10089</key>
@@ -2137,6 +2141,11 @@
       <key>x.sc</key>
       <integer>-10</integer>
     </dict>
+    <key>underscore</key>
+    <dict>
+      <key>J</key>
+      <integer>120</integer>
+    </dict>
     <key>uni03D1</key>
     <dict>
       <key>public.kern2.period.right</key>
@@ -2354,6 +2363,11 @@
     <dict>
       <key>public.kern2.afii10089</key>
       <integer>-20</integer>
+    </dict>
+    <key>uniA7B2</key>
+    <dict>
+      <key>uni029D</key>
+      <integer>54</integer>
     </dict>
     <key>v.sc</key>
     <dict>

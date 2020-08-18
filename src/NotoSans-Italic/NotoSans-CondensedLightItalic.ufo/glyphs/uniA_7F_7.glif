@@ -2,6 +2,9 @@
 <glyph name="uniA7F7" format="2">
   <advance width="720"/>
   <unicode hex="A7F7"/>
+  <anchor x="366" y="289" name="bottom"/>
+  <anchor x="403" y="464" name="top"/>
+  <anchor x="710" y="464" name="topright"/>
   <outline>
     <contour>
       <point x="38" y="289" type="line"/>
@@ -22,8 +25,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 15:55:26</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

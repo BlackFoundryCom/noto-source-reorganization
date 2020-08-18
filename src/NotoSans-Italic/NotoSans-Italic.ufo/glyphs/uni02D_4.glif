@@ -3,22 +3,25 @@
   <advance width="269"/>
   <unicode hex="02D4"/>
   <outline>
-    <component base="uptackbelowcomb" xOffset="219" yOffset="430"/>
+    <contour>
+      <point x="27" y="232" type="line"/>
+      <point x="226" y="232" type="line"/>
+      <point x="239" y="292" type="line"/>
+      <point x="170" y="292" type="line"/>
+      <point x="191" y="392" type="line"/>
+      <point x="129" y="392" type="line"/>
+      <point x="108" y="292" type="line"/>
+      <point x="40" y="292" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 15:55:25</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Modifier</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

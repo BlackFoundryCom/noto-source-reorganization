@@ -2,8 +2,11 @@
 <glyph name="uniA687" format="2">
   <advance width="869"/>
   <unicode hex="A687"/>
+  <anchor x="376" y="0" name="bottom"/>
+  <anchor x="494" y="553" name="top"/>
   <outline>
     <contour>
+      <point x="584" y="154" type="curve"/>
       <point x="552" y="0" type="line"/>
       <point x="741" y="0" type="line"/>
       <point x="858" y="553" type="line"/>
@@ -52,7 +55,6 @@
       <point x="594" y="201" type="line"/>
       <point x="591" y="185"/>
       <point x="587" y="170"/>
-      <point x="584" y="154" type="curve"/>
     </contour>
   </outline>
   <lib>
@@ -63,8 +65,6 @@
       <string>afii10089</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>u</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 15:55:26</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>cyrillic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

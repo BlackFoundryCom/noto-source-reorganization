@@ -4,6 +4,7 @@
   <unicode hex="A640"/>
   <outline>
     <contour>
+      <point x="3" y="-73" type="curve"/>
       <point x="-28" y="-209" type="line"/>
       <point x="14" y="-201"/>
       <point x="40" y="-198"/>
@@ -37,15 +38,12 @@
       <point x="98" y="-62" type="curve" smooth="yes"/>
       <point x="51" y="-62"/>
       <point x="35" y="-66"/>
-      <point x="3" y="-73" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:18</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>cyrillic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

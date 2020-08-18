@@ -1,12 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="turnedSansSerifY" format="2">
-  <advance width="693"/>
+  <advance width="624"/>
   <unicode hex="2144"/>
-  <anchor x="346" y="714" name="bottom"/>
-  <anchor x="346" y="0" name="top"/>
-  <anchor x="20" y="0" name="topright"/>
+  <anchor x="312" y="0" name="bottom"/>
+  <anchor x="20" y="0" name="bottomleft"/>
+  <anchor x="312" y="714" name="top"/>
   <outline>
-    <component base="Y" xScale="-1" yScale="-1" xOffset="693" yOffset="714"/>
+    <contour>
+      <point x="312" y="294" type="line"/>
+      <point x="460" y="0" type="line"/>
+      <point x="624" y="0" type="line"/>
+      <point x="387" y="441" type="line"/>
+      <point x="387" y="714" type="line"/>
+      <point x="237" y="714" type="line"/>
+      <point x="237" y="436" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="163" y="0" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

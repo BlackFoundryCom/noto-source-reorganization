@@ -34,6 +34,7 @@
       <point x="298" y="75" type="line"/>
     </contour>
     <contour>
+      <point x="277" y="149" type="curve" smooth="yes"/>
       <point x="250" y="149" type="line"/>
       <point x="250" y="299" type="line"/>
       <point x="274" y="299" type="line" smooth="yes"/>
@@ -42,9 +43,9 @@
       <point x="335" y="223" type="curve" smooth="yes"/>
       <point x="335" y="181"/>
       <point x="317" y="149"/>
-      <point x="277" y="149" type="curve" smooth="yes"/>
     </contour>
     <contour>
+      <point x="268" y="440" type="curve" smooth="yes"/>
       <point x="250" y="440" type="line"/>
       <point x="250" y="568" type="line"/>
       <point x="267" y="568" type="line" smooth="yes"/>
@@ -53,7 +54,6 @@
       <point x="324" y="507" type="curve" smooth="yes"/>
       <point x="324" y="470"/>
       <point x="306" y="440"/>
-      <point x="268" y="440" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="148" y="642" type="line"/>
@@ -71,17 +71,15 @@
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
-      <string></string>
+      <string>Symbol</string>
       <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>B</string>
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>zero</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 21:39:10</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string></string>
+      <string>Currency</string>
     </dict>
   </lib>
 </glyph>

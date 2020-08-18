@@ -2,10 +2,13 @@
 <glyph name="uniA785" format="2">
   <advance width="310"/>
   <unicode hex="A785"/>
+  <anchor x="47" y="-240" name="bottom"/>
+  <anchor x="212" y="536" name="top"/>
   <outline>
     <contour>
-      <point x="-17" y="-230" type="line"/>
-      <point x="11" y="-230" type="line"/>
+      <point x="126" y="442" type="curve" smooth="yes"/>
+      <point x="-19" y="-240" type="line"/>
+      <point x="9" y="-240" type="line"/>
       <point x="128" y="318" type="line" smooth="yes"/>
       <point x="149" y="415"/>
       <point x="206" y="534"/>
@@ -35,7 +38,6 @@
       <point x="133" y="493" type="curve" smooth="yes"/>
       <point x="133" y="483"/>
       <point x="131" y="466"/>
-      <point x="126" y="442" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>

@@ -1,41 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="reversedSansSerifL" format="2">
-  <advance width="648"/>
+  <advance width="454"/>
   <unicode hex="2143"/>
   <outline>
     <contour>
-      <point x="-18" y="0" type="line"/>
-      <point x="568" y="0" type="line"/>
-      <point x="579" y="53" type="line"/>
-      <point x="537" y="53" type="line" smooth="yes"/>
-      <point x="494" y="53"/>
-      <point x="492" y="87"/>
-      <point x="500" y="118" type="curve" smooth="yes"/>
-      <point x="601" y="596" type="line" smooth="yes"/>
-      <point x="613" y="653"/>
-      <point x="637" y="661"/>
-      <point x="666" y="661" type="curve" smooth="yes"/>
-      <point x="708" y="661" type="line"/>
-      <point x="719" y="714" type="line"/>
-      <point x="374" y="714" type="line"/>
-      <point x="363" y="661" type="line"/>
-      <point x="405" y="661" type="line" smooth="yes"/>
-      <point x="446" y="661"/>
-      <point x="449" y="630"/>
-      <point x="443" y="600" type="curve" smooth="yes"/>
-      <point x="329" y="61" type="line"/>
-      <point x="143" y="61" type="line" smooth="yes"/>
-      <point x="97" y="61"/>
-      <point x="78" y="92"/>
-      <point x="78" y="148" type="curve" smooth="yes"/>
-      <point x="78" y="223" type="line"/>
-      <point x="22" y="223" type="line"/>
+      <point x="-31" y="0" type="line"/>
+      <point x="365" y="0" type="line"/>
+      <point x="517" y="714" type="line"/>
+      <point x="371" y="714" type="line"/>
+      <point x="246" y="126" type="line"/>
+      <point x="-4" y="126" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|L</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|L</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

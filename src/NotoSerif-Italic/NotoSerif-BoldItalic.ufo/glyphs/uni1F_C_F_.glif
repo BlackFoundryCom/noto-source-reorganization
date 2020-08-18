@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1FCF" format="2">
-  <advance width="400"/>
+  <advance width="418"/>
   <unicode hex="1FCF"/>
-  <anchor x="300" y="536" name="_top"/>
-  <anchor x="342" y="900" name="top"/>
   <outline>
     <contour>
       <point x="138" y="758" type="curve"/>
@@ -28,6 +26,7 @@
       <point x="148" y="813"/>
     </contour>
     <contour>
+      <point x="225" y="586" type="curve"/>
       <point x="227" y="548" type="line"/>
       <point x="333" y="561"/>
       <point x="378" y="625"/>
@@ -43,7 +42,6 @@
       <point x="293" y="639" type="curve" smooth="yes"/>
       <point x="293" y="627"/>
       <point x="277" y="599"/>
-      <point x="225" y="586" type="curve"/>
     </contour>
   </outline>
   <lib>

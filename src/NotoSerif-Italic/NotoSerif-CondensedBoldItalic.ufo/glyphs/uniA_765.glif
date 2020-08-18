@@ -6,10 +6,10 @@
   <anchor x="382" y="760" name="top"/>
   <outline>
     <contour>
-      <point x="78" y="574" type="line"/>
-      <point x="372" y="574" type="line"/>
-      <point x="387" y="635" type="line"/>
-      <point x="93" y="635" type="line"/>
+      <point x="41" y="430" type="line"/>
+      <point x="517" y="681" type="line"/>
+      <point x="532" y="750" type="line"/>
+      <point x="55" y="498" type="line"/>
     </contour>
     <component base="thorn"/>
   </outline>
@@ -28,6 +28,10 @@
       </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>thorn</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>thorn</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

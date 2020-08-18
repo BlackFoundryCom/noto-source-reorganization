@@ -36,6 +36,7 @@
       <point x="353" y="537"/>
     </contour>
     <contour>
+      <point x="284" y="270" type="curve" smooth="yes"/>
       <point x="378" y="274" type="line"/>
       <point x="378" y="220" type="line" smooth="yes"/>
       <point x="378" y="103"/>
@@ -46,7 +47,6 @@
       <point x="74" y="129" type="curve" smooth="yes"/>
       <point x="74" y="222"/>
       <point x="156" y="265"/>
-      <point x="284" y="270" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="251" y="751" type="curve" smooth="yes"/>
@@ -77,6 +77,7 @@
       <point x="303" y="775"/>
     </contour>
     <contour>
+      <point x="354" y="943" type="curve"/>
       <point x="354" y="950" type="line"/>
       <point x="321" y="950" type="line"/>
       <point x="295" y="906"/>
@@ -86,15 +87,12 @@
       <point x="231" y="806" type="line"/>
       <point x="276" y="848"/>
       <point x="322" y="897"/>
-      <point x="354" y="943" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 21:39:06</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

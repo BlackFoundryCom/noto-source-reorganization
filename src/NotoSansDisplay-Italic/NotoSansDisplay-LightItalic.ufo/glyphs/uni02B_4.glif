@@ -2,25 +2,31 @@
 <glyph name="uni02B4" format="2">
   <advance width="218"/>
   <unicode hex="02B4"/>
-  <anchor x="127.75" y="287.0" name="bottom"/>
-  <anchor x="200.55" y="603.8" name="top"/>
+  <anchor x="124.5" y="282.2" name="bottom"/>
+  <anchor x="198.67475000000002" y="603.8" name="top"/>
+  <anchor x="253.20000000000002" y="603.8" name="topright"/>
   <outline>
     <component base="uni0279" xScale="0.65" yScale="0.6" xOffset="53" yOffset="287"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uni0279</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:16</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Modifier</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

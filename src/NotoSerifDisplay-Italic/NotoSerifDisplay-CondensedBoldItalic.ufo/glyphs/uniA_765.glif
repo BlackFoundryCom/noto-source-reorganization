@@ -1,22 +1,26 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uniA765" format="2">
-  <advance width="565"/>
+  <advance width="554"/>
   <unicode hex="A765"/>
-  <anchor x="167" y="-240" name="bottom"/>
-  <anchor x="380" y="760" name="top"/>
+  <anchor x="169" y="-240" name="bottom"/>
+  <anchor x="382" y="760" name="top"/>
   <outline>
     <contour>
-      <point x="83" y="601" type="line"/>
-      <point x="377" y="601" type="line"/>
-      <point x="379" y="611" type="line"/>
-      <point x="85" y="611" type="line"/>
+      <point x="38" y="488" type="line"/>
+      <point x="442" y="717" type="line"/>
+      <point x="445" y="729" type="line"/>
+      <point x="41" y="500" type="line"/>
     </contour>
-    <component base="thorn" xOffset="-2"/>
+    <component base="thorn"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>thorn</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>thorn</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

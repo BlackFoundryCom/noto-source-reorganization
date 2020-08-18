@@ -2,7 +2,6 @@
 <glyph name="accountof" format="2">
   <advance width="564"/>
   <unicode hex="2100"/>
-  <anchor x="384" y="344" name="top"/>
   <outline>
     <contour>
       <point x="133" y="722" type="curve" smooth="yes"/>
@@ -34,6 +33,7 @@
       <point x="190" y="722"/>
     </contour>
     <contour>
+      <point x="151" y="559" type="curve" smooth="yes"/>
       <point x="185" y="562" type="line"/>
       <point x="185" y="527" type="line"/>
       <point x="185" y="463"/>
@@ -44,7 +44,6 @@
       <point x="50" y="485" type="curve" smooth="yes"/>
       <point x="50" y="539"/>
       <point x="84" y="553"/>
-      <point x="151" y="559" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="408" y="-9" type="curve" smooth="yes"/>
@@ -85,8 +84,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/05 22:37:39</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

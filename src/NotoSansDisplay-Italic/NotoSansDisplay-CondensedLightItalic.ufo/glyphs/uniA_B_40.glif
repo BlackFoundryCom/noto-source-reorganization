@@ -2,6 +2,9 @@
 <glyph name="uniAB40" format="2">
   <advance width="566"/>
   <unicode hex="AB40"/>
+  <anchor x="225" y="-10" name="bottom"/>
+  <anchor x="341" y="536" name="top"/>
+  <anchor x="591" y="536" name="topright"/>
   <outline>
     <contour>
       <point x="131" y="-10" type="curve" smooth="yes"/>
@@ -74,8 +77,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:18</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

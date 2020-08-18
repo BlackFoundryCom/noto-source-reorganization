@@ -1,52 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uniA69E" format="2">
   <unicode hex="A69E"/>
+  <anchor x="62" y="578" name="_top"/>
+  <anchor x="156" y="978" name="top"/>
+  <anchor x="63.85000000000001" y="578.0" name="bottom"/>
+  <anchor x="321.7" y="978.0" name="topright"/>
   <outline>
-    <contour>
-      <point x="-73" y="127" type="line"/>
-      <point x="18" y="127" type="line"/>
-      <point x="48" y="272" type="line"/>
-      <point x="220" y="289"/>
-      <point x="256" y="399"/>
-      <point x="256" y="481" type="curve" smooth="yes"/>
-      <point x="256" y="556"/>
-      <point x="210" y="610"/>
-      <point x="123" y="622" type="curve"/>
-      <point x="150" y="754" type="line"/>
-      <point x="61" y="754" type="line"/>
-      <point x="34" y="622" type="line"/>
-      <point x="-118" y="613"/>
-      <point x="-178" y="506"/>
-      <point x="-178" y="415" type="curve" smooth="yes"/>
-      <point x="-178" y="341"/>
-      <point x="-130" y="285"/>
-      <point x="-41" y="275" type="curve"/>
-    </contour>
-    <contour>
-      <point x="-25" y="346" type="line"/>
-      <point x="-58" y="351"/>
-      <point x="-74" y="381"/>
-      <point x="-74" y="423" type="curve" smooth="yes"/>
-      <point x="-74" y="470"/>
-      <point x="-53" y="546"/>
-      <point x="18" y="551" type="curve"/>
-    </contour>
-    <contour>
-      <point x="64" y="346" type="curve"/>
-      <point x="107" y="550" type="line"/>
-      <point x="138" y="543"/>
-      <point x="154" y="515"/>
-      <point x="154" y="478" type="curve" smooth="yes"/>
-      <point x="154" y="434"/>
-      <point x="137" y="357"/>
-    </contour>
+    <component base="phi1" xScale="0.45" yScale="0.4" xOffset="-59" yOffset="674"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:19</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>cyrillic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

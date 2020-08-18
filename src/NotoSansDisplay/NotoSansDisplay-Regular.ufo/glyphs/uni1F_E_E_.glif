@@ -2,9 +2,9 @@
 <glyph name="uni1FEE" format="2">
   <advance width="542"/>
   <unicode hex="1FEE"/>
-  <anchor x="273" y="536" name="_top"/>
   <outline>
     <contour>
+      <point x="224" y="630" type="curve"/>
       <point x="224" y="618" type="line"/>
       <point x="265" y="618" type="line"/>
       <point x="300" y="665"/>
@@ -14,7 +14,6 @@
       <point x="266" y="778" type="line"/>
       <point x="257" y="732"/>
       <point x="238" y="670"/>
-      <point x="224" y="630" type="curve"/>
     </contour>
     <contour>
       <point x="157" y="611" type="curve" smooth="yes"/>
@@ -49,8 +48,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 21:39:08</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>greek</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

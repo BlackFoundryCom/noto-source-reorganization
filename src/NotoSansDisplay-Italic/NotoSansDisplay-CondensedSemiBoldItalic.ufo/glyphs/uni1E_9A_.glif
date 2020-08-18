@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1E9A" format="2">
-  <advance width="447"/>
+  <advance width="505"/>
   <unicode hex="1E9A"/>
   <anchor x="128" y="0" name="bottom"/>
-  <anchor x="339" y="806" name="top"/>
+  <anchor x="500" y="806" name="top"/>
   <anchor x="487" y="545" name="topright"/>
   <outline>
     <component base="a"/>
-    <component base="uni02BE" xOffset="236"/>
+    <component base="uni02BE" xOffset="356"/>
   </outline>
   <lib>
     <dict>
@@ -15,8 +15,6 @@
       <string>Letter</string>
       <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
       <string>a</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:17</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

@@ -1,53 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uniA69E" format="2">
   <unicode hex="A69E"/>
-  <anchor x="0" y="66" name="_top"/>
+  <anchor x="0" y="548" name="_top"/>
+  <anchor x="0" y="948" name="top"/>
+  <anchor x="0.45000000000000284" y="548.0" name="bottom"/>
+  <anchor x="90.45000000000002" y="948.0" name="topright"/>
   <outline>
-    <contour>
-      <point x="12" y="764" type="line"/>
-      <point x="-12" y="764" type="line"/>
-      <point x="-12" y="621" type="line"/>
-      <point x="-72" y="613"/>
-      <point x="-103" y="550"/>
-      <point x="-103" y="446" type="curve" smooth="yes"/>
-      <point x="-103" y="344"/>
-      <point x="-73" y="278"/>
-      <point x="-12" y="270" type="curve"/>
-      <point x="-12" y="126" type="line"/>
-      <point x="12" y="126" type="line"/>
-      <point x="12" y="269" type="line"/>
-      <point x="75" y="276"/>
-      <point x="103" y="340"/>
-      <point x="103" y="445" type="curve" smooth="yes"/>
-      <point x="103" y="549"/>
-      <point x="76" y="615"/>
-      <point x="12" y="622" type="curve"/>
-    </contour>
-    <contour>
-      <point x="-12" y="599" type="curve"/>
-      <point x="-12" y="292" type="line"/>
-      <point x="-59" y="302"/>
-      <point x="-79" y="364"/>
-      <point x="-79" y="445" type="curve" smooth="yes"/>
-      <point x="-79" y="531"/>
-      <point x="-57" y="589"/>
-    </contour>
-    <contour>
-      <point x="12" y="599" type="line"/>
-      <point x="61" y="592"/>
-      <point x="79" y="530"/>
-      <point x="79" y="446" type="curve" smooth="yes"/>
-      <point x="79" y="361"/>
-      <point x="61" y="299"/>
-      <point x="12" y="292" type="curve"/>
-    </contour>
+    <component base="phi1" xScale="0.45" yScale="0.4" xOffset="-99" yOffset="644"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/05 22:37:40</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>cyrillic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

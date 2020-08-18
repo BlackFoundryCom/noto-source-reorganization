@@ -2,8 +2,9 @@
 <glyph name="uni0279" format="2">
   <advance width="348"/>
   <unicode hex="0279"/>
-  <anchor x="116" y="0" name="bottom"/>
-  <anchor x="234" y="553" name="top"/>
+  <anchor x="113" y="-10" name="bottom"/>
+  <anchor x="232.772" y="553" name="top"/>
+  <anchor x="366" y="553" name="topright"/>
   <outline>
     <contour>
       <point x="-5" y="-10" type="curve" smooth="yes"/>
@@ -31,8 +32,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:16</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

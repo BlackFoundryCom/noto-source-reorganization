@@ -1,39 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1D05" format="2">
-  <advance width="520"/>
+  <advance width="549"/>
   <unicode hex="1D05"/>
-  <anchor x="261" y="0" name="bottom"/>
-  <anchor x="261" y="553" name="top"/>
+  <anchor x="253" y="0" name="bottom"/>
+  <anchor x="253" y="553" name="top"/>
   <outline>
     <contour>
-      <point x="493" y="287" type="curve" smooth="yes"/>
-      <point x="493" y="457"/>
-      <point x="404" y="550"/>
-      <point x="233" y="550" type="curve" smooth="yes"/>
-      <point x="43" y="550" type="line"/>
+      <point x="522" y="290" type="curve" smooth="yes"/>
+      <point x="522" y="459"/>
+      <point x="424" y="553"/>
+      <point x="245" y="553" type="curve" smooth="yes"/>
+      <point x="43" y="553" type="line"/>
       <point x="43" y="0" type="line"/>
-      <point x="224" y="0" type="line" smooth="yes"/>
-      <point x="382" y="0"/>
-      <point x="493" y="95"/>
+      <point x="236" y="0" type="line" smooth="yes"/>
+      <point x="401" y="0"/>
+      <point x="522" y="95"/>
     </contour>
     <contour>
-      <point x="328" y="281" type="curve" smooth="yes"/>
-      <point x="328" y="173"/>
-      <point x="296" y="122"/>
-      <point x="224" y="122" type="curve" smooth="yes"/>
-      <point x="202" y="122" type="line"/>
-      <point x="202" y="430" type="line"/>
-      <point x="232" y="430" type="line" smooth="yes"/>
-      <point x="298" y="430"/>
-      <point x="328" y="381"/>
+      <point x="325" y="283" type="curve" smooth="yes"/>
+      <point x="325" y="187"/>
+      <point x="300" y="142"/>
+      <point x="240" y="142" type="curve" smooth="yes"/>
+      <point x="233" y="142" type="line"/>
+      <point x="233" y="412" type="line"/>
+      <point x="250" y="412" type="line" smooth="yes"/>
+      <point x="302" y="412"/>
+      <point x="325" y="370"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 21:39:07</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

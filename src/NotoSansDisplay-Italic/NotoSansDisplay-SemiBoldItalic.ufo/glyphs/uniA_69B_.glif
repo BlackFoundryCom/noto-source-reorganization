@@ -42,6 +42,7 @@
       <point x="252" y="326" type="line"/>
     </contour>
     <contour>
+      <point x="389" y="326" type="curve"/>
       <point x="337" y="326" type="line"/>
       <point x="359" y="427" type="line"/>
       <point x="380" y="411"/>
@@ -49,15 +50,12 @@
       <point x="389" y="340" type="curve" smooth="yes"/>
       <point x="389" y="335"/>
       <point x="389" y="331"/>
-      <point x="389" y="326" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:18</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>cyrillic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

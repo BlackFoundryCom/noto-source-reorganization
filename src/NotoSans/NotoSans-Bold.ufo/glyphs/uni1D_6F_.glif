@@ -4,6 +4,7 @@
   <unicode hex="1D6F"/>
   <outline>
     <contour>
+      <point x="67" y="238" type="curve"/>
       <point x="67" y="0" type="line"/>
       <point x="256" y="0" type="line"/>
       <point x="256" y="228" type="line"/>
@@ -50,9 +51,9 @@
       <point x="37" y="170" type="line"/>
       <point x="37" y="208"/>
       <point x="49" y="235"/>
-      <point x="67" y="238" type="curve"/>
     </contour>
     <contour>
+      <point x="405" y="304" type="curve"/>
       <point x="405" y="294" type="line"/>
       <point x="357" y="305"/>
       <point x="315" y="319"/>
@@ -62,9 +63,9 @@
       <point x="343" y="414" type="curve"/>
       <point x="387" y="414"/>
       <point x="404" y="378"/>
-      <point x="405" y="304" type="curve"/>
     </contour>
     <contour>
+      <point x="746" y="302" type="curve"/>
       <point x="746" y="241" type="line"/>
       <point x="703" y="243"/>
       <point x="648" y="251"/>
@@ -75,15 +76,12 @@
       <point x="682" y="414" type="curve"/>
       <point x="726" y="414"/>
       <point x="746" y="376"/>
-      <point x="746" y="302" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/05 22:37:39</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

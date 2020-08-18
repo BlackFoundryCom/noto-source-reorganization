@@ -2,6 +2,9 @@
 <glyph name="uniA7FC" format="2">
   <advance width="461"/>
   <unicode hex="A7FC"/>
+  <anchor x="174.035" y="0" name="bottom"/>
+  <anchor x="326" y="714" name="top"/>
+  <anchor x="517" y="714" name="topright"/>
   <outline>
     <contour>
       <point x="179" y="0" type="line"/>
@@ -35,7 +38,7 @@
       <point x="181" y="10" type="line"/>
     </contour>
     <contour>
-      <point x="273" y="309" type="line" smooth="yes"/>
+      <point x="273" y="309" type="line"/>
       <point x="160" y="309"/>
       <point x="120" y="368"/>
       <point x="120" y="472" type="curve" smooth="yes"/>

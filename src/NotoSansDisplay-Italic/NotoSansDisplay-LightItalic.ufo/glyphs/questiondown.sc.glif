@@ -21,8 +21,11 @@
       <point x="207" y="220"/>
       <point x="217" y="278" type="curve"/>
       <point x="192" y="278" type="line"/>
-      <point x="179" y="221"/>
-      <point x="170" y="194"/>
+      <point x="187" y="253"/>
+      <point x="182" y="232"/>
+      <point x="170" y="212" type="curve" smooth="yes"/>
+      <point x="157" y="190"/>
+      <point x="136" y="169"/>
       <point x="96" y="140" type="curve" smooth="yes"/>
       <point x="17" y="83"/>
       <point x="-16" y="28"/>
@@ -49,8 +52,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Punctuation</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:18</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

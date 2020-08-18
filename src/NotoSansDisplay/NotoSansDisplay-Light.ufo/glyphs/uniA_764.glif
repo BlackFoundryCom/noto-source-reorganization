@@ -1,21 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uniA764" format="2">
-  <advance width="542"/>
+  <advance width="541"/>
   <unicode hex="A764"/>
   <outline>
     <contour>
       <point x="265" y="582" type="curve" smooth="yes"/>
       <point x="124" y="582" type="line"/>
-      <point x="124" y="635" type="line"/>
-      <point x="225" y="635" type="line"/>
-      <point x="225" y="660" type="line"/>
-      <point x="124" y="660" type="line"/>
       <point x="124" y="714" type="line"/>
       <point x="97" y="714" type="line"/>
-      <point x="97" y="660" type="line"/>
-      <point x="13" y="660" type="line"/>
-      <point x="13" y="635" type="line"/>
-      <point x="97" y="635" type="line"/>
       <point x="97" y="0" type="line"/>
       <point x="124" y="0" type="line"/>
       <point x="124" y="173" type="line"/>
@@ -37,13 +29,21 @@
       <point x="460" y="243"/>
       <point x="372" y="198"/>
     </contour>
+    <contour>
+      <point x="10" y="536" type="line"/>
+      <point x="346" y="680" type="line"/>
+      <point x="346" y="708" type="line"/>
+      <point x="10" y="564" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 21:39:08</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>Thorn</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>Thorn</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

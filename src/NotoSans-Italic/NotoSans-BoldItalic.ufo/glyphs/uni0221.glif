@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0221" format="2">
-  <advance width="771"/>
+  <advance width="865"/>
   <unicode hex="0221"/>
   <anchor x="309" y="-87" name="bottom"/>
   <anchor x="489" y="760" name="top"/>
   <outline>
     <contour>
+      <point x="439" y="-68" type="curve"/>
       <point x="535" y="-87" type="line"/>
       <point x="542" y="-57"/>
       <point x="549" y="-29"/>
@@ -53,7 +54,6 @@
       <point x="464" y="22" type="curve"/>
       <point x="455" y="-6"/>
       <point x="447" y="-36"/>
-      <point x="439" y="-68" type="curve"/>
     </contour>
     <contour>
       <point x="276" y="142" type="curve" smooth="yes"/>
@@ -88,8 +88,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 15:55:25</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

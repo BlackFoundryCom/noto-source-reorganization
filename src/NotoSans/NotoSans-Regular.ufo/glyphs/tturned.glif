@@ -3,26 +3,31 @@
   <advance width="361"/>
   <unicode hex="0287"/>
   <anchor x="181" y="-123" name="bottom"/>
-  <anchor x="181" y="536" name="top"/>
+  <anchor x="181" y="546" name="top"/>
+  <anchor x="345" y="546" name="topright"/>
   <anchor x="180" y="268" name="center"/>
-  <anchor x="26" y="-123" name="topright"/>
   <outline>
     <component base="t" xScale="-1" yScale="-1" xOffset="361" yOffset="536"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>t</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/05 22:37:38</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

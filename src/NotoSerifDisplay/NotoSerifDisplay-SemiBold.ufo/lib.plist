@@ -2,8 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>GSOffsetHorizontal</key>
+    <integer>-10</integer>
+    <key>GSOffsetVertical</key>
+    <integer>-14</integer>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>1271</string>
+    <string>1330</string>
     <key>com.schriftgestaltung.customParameter.GSFont.Axes</key>
     <array>
       <dict>
@@ -18,12 +22,6 @@
         <key>Tag</key>
         <string>wdth</string>
       </dict>
-    </array>
-    <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-    <array>
-      <string>H/uniA7AE IHTH</string>
-      <string>E</string>
-      <string>HT/uniA7AE HEH</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.Use Extension Kerning</key>
     <true/>
@@ -2032,6 +2030,8 @@
       <string>uni1ABC</string>
       <string>uni1ABD</string>
       <string>uni1ABE</string>
+      <string>uni1ABF</string>
+      <string>uni1AC0</string>
       <string>uni1C80</string>
       <string>uni1C81</string>
       <string>uni1C82</string>
@@ -2252,6 +2252,10 @@
       <string>uni1DF3</string>
       <string>uni1DF4</string>
       <string>uni1DF5</string>
+      <string>uni1DF6</string>
+      <string>uni1DF7</string>
+      <string>uni1DF8</string>
+      <string>uni1DF9</string>
       <string>uni1DFB</string>
       <string>uni1DFC</string>
       <string>uni1DFD</string>
@@ -2874,6 +2878,20 @@
       <string>uni2E42</string>
       <string>uni2E43</string>
       <string>uni2E44</string>
+      <string>uni2E45</string>
+      <string>uni2E46</string>
+      <string>uni2E47</string>
+      <string>uni2E48</string>
+      <string>uni2E49</string>
+      <string>uni2E4A</string>
+      <string>uni2E4B</string>
+      <string>uni2E4C</string>
+      <string>uni2E4D</string>
+      <string>uni2E4E</string>
+      <string>uni2E4F</string>
+      <string>uni2E50</string>
+      <string>uni2E51</string>
+      <string>uni2E52</string>
       <string>uniA640</string>
       <string>uniA641</string>
       <string>uniA642</string>
@@ -3145,6 +3163,7 @@
       <string>uniA7AC</string>
       <string>uniA7AD</string>
       <string>uniA7AE</string>
+      <string>uniA7AF</string>
       <string>uniA7B0</string>
       <string>uniA7B1</string>
       <string>uniA7B2</string>
@@ -3153,6 +3172,25 @@
       <string>uniA7B5</string>
       <string>uniA7B6</string>
       <string>uniA7B7</string>
+      <string>uniA7B8</string>
+      <string>uniA7B9</string>
+      <string>uniA7BA</string>
+      <string>uniA7BB</string>
+      <string>uniA7BC</string>
+      <string>uniA7BD</string>
+      <string>uniA7BE</string>
+      <string>uniA7BF</string>
+      <string>uniA7C2</string>
+      <string>uniA7C3</string>
+      <string>uniA7C4</string>
+      <string>uniA7C5</string>
+      <string>uniA7C6</string>
+      <string>uniA7C7</string>
+      <string>uniA7C8</string>
+      <string>uniA7C9</string>
+      <string>uniA7CA</string>
+      <string>uniA7F5</string>
+      <string>uniA7F6</string>
       <string>uniA7F7</string>
       <string>uniA7F8</string>
       <string>uniA7F9</string>
@@ -3217,6 +3255,12 @@
       <string>uniAB63</string>
       <string>uniAB64</string>
       <string>uniAB65</string>
+      <string>uniAB66</string>
+      <string>uniAB67</string>
+      <string>uniAB68</string>
+      <string>uniAB69</string>
+      <string>uniAB6A</string>
+      <string>uniAB6B</string>
       <string>uniFE00</string>
       <string>uniFE20</string>
       <string>uniFE21</string>
@@ -5282,6 +5326,8 @@
       <string>uni1ABC</string>
       <string>uni1ABD</string>
       <string>uni1ABE</string>
+      <string>uni1ABF</string>
+      <string>uni1AC0</string>
       <string>uni1C80</string>
       <string>uni1C81</string>
       <string>uni1C82</string>
@@ -5502,6 +5548,10 @@
       <string>uni1DF3</string>
       <string>uni1DF4</string>
       <string>uni1DF5</string>
+      <string>uni1DF6</string>
+      <string>uni1DF7</string>
+      <string>uni1DF8</string>
+      <string>uni1DF9</string>
       <string>uni1DFB</string>
       <string>uni1DFC</string>
       <string>uni1DFD</string>
@@ -6124,6 +6174,20 @@
       <string>uni2E42</string>
       <string>uni2E43</string>
       <string>uni2E44</string>
+      <string>uni2E45</string>
+      <string>uni2E46</string>
+      <string>uni2E47</string>
+      <string>uni2E48</string>
+      <string>uni2E49</string>
+      <string>uni2E4A</string>
+      <string>uni2E4B</string>
+      <string>uni2E4C</string>
+      <string>uni2E4D</string>
+      <string>uni2E4E</string>
+      <string>uni2E4F</string>
+      <string>uni2E50</string>
+      <string>uni2E51</string>
+      <string>uni2E52</string>
       <string>uniA640</string>
       <string>uniA641</string>
       <string>uniA642</string>
@@ -6395,6 +6459,7 @@
       <string>uniA7AC</string>
       <string>uniA7AD</string>
       <string>uniA7AE</string>
+      <string>uniA7AF</string>
       <string>uniA7B0</string>
       <string>uniA7B1</string>
       <string>uniA7B2</string>
@@ -6403,6 +6468,25 @@
       <string>uniA7B5</string>
       <string>uniA7B6</string>
       <string>uniA7B7</string>
+      <string>uniA7B8</string>
+      <string>uniA7B9</string>
+      <string>uniA7BA</string>
+      <string>uniA7BB</string>
+      <string>uniA7BC</string>
+      <string>uniA7BD</string>
+      <string>uniA7BE</string>
+      <string>uniA7BF</string>
+      <string>uniA7C2</string>
+      <string>uniA7C3</string>
+      <string>uniA7C4</string>
+      <string>uniA7C5</string>
+      <string>uniA7C6</string>
+      <string>uniA7C7</string>
+      <string>uniA7C8</string>
+      <string>uniA7C9</string>
+      <string>uniA7CA</string>
+      <string>uniA7F5</string>
+      <string>uniA7F6</string>
       <string>uniA7F7</string>
       <string>uniA7F8</string>
       <string>uniA7F9</string>
@@ -6467,6 +6551,12 @@
       <string>uniAB63</string>
       <string>uniAB64</string>
       <string>uniAB65</string>
+      <string>uniAB66</string>
+      <string>uniAB67</string>
+      <string>uniAB68</string>
+      <string>uniAB69</string>
+      <string>uniAB6A</string>
+      <string>uniAB6B</string>
       <string>uniFE00</string>
       <string>uniFE20</string>
       <string>uniFE21</string>
@@ -8532,6 +8622,8 @@
       <string>uni1ABC</string>
       <string>uni1ABD</string>
       <string>uni1ABE</string>
+      <string>uni1ABF</string>
+      <string>uni1AC0</string>
       <string>uni1C80</string>
       <string>uni1C81</string>
       <string>uni1C82</string>
@@ -8752,6 +8844,10 @@
       <string>uni1DF3</string>
       <string>uni1DF4</string>
       <string>uni1DF5</string>
+      <string>uni1DF6</string>
+      <string>uni1DF7</string>
+      <string>uni1DF8</string>
+      <string>uni1DF9</string>
       <string>uni1DFB</string>
       <string>uni1DFC</string>
       <string>uni1DFD</string>
@@ -9374,6 +9470,20 @@
       <string>uni2E42</string>
       <string>uni2E43</string>
       <string>uni2E44</string>
+      <string>uni2E45</string>
+      <string>uni2E46</string>
+      <string>uni2E47</string>
+      <string>uni2E48</string>
+      <string>uni2E49</string>
+      <string>uni2E4A</string>
+      <string>uni2E4B</string>
+      <string>uni2E4C</string>
+      <string>uni2E4D</string>
+      <string>uni2E4E</string>
+      <string>uni2E4F</string>
+      <string>uni2E50</string>
+      <string>uni2E51</string>
+      <string>uni2E52</string>
       <string>uniA640</string>
       <string>uniA641</string>
       <string>uniA642</string>
@@ -9645,6 +9755,7 @@
       <string>uniA7AC</string>
       <string>uniA7AD</string>
       <string>uniA7AE</string>
+      <string>uniA7AF</string>
       <string>uniA7B0</string>
       <string>uniA7B1</string>
       <string>uniA7B2</string>
@@ -9653,6 +9764,25 @@
       <string>uniA7B5</string>
       <string>uniA7B6</string>
       <string>uniA7B7</string>
+      <string>uniA7B8</string>
+      <string>uniA7B9</string>
+      <string>uniA7BA</string>
+      <string>uniA7BB</string>
+      <string>uniA7BC</string>
+      <string>uniA7BD</string>
+      <string>uniA7BE</string>
+      <string>uniA7BF</string>
+      <string>uniA7C2</string>
+      <string>uniA7C3</string>
+      <string>uniA7C4</string>
+      <string>uniA7C5</string>
+      <string>uniA7C6</string>
+      <string>uniA7C7</string>
+      <string>uniA7C8</string>
+      <string>uniA7C9</string>
+      <string>uniA7CA</string>
+      <string>uniA7F5</string>
+      <string>uniA7F6</string>
       <string>uniA7F7</string>
       <string>uniA7F8</string>
       <string>uniA7F9</string>
@@ -9717,6 +9847,12 @@
       <string>uniAB63</string>
       <string>uniAB64</string>
       <string>uniAB65</string>
+      <string>uniAB66</string>
+      <string>uniAB67</string>
+      <string>uniAB68</string>
+      <string>uniAB69</string>
+      <string>uniAB6A</string>
+      <string>uniAB6B</string>
       <string>uniFE00</string>
       <string>uniFE20</string>
       <string>uniFE21</string>

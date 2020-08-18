@@ -2,26 +2,31 @@
 <glyph name="uni028D" format="2">
   <advance width="649"/>
   <unicode hex="028D"/>
-  <anchor x="343" y="0" name="bottom"/>
-  <anchor x="343" y="528" name="top"/>
-  <anchor x="20" y="0" name="topright"/>
+  <anchor x="325" y="1" name="bottom"/>
+  <anchor x="325" y="529" name="top"/>
+  <anchor x="634" y="529" name="topright"/>
   <outline>
     <component base="w" xScale="-1" yScale="-1" xOffset="649" yOffset="528"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>w</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 21:39:07</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Lowercase</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

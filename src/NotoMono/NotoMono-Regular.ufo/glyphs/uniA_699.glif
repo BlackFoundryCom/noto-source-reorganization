@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA699" format="2">
+  <advance width="1200"/>
+  <unicode hex="A699"/>
+  <anchor x="399" y="0" name="bottom_1"/>
+  <anchor x="800" y="0" name="bottom_2"/>
+  <anchor x="399" y="268" name="center_1"/>
+  <anchor x="800" y="268" name="center_2"/>
+  <anchor x="400" y="10" name="ogonek_1"/>
+  <anchor x="801" y="10" name="ogonek_2"/>
+  <anchor x="399" y="536" name="top_1"/>
+  <anchor x="800" y="536" name="top_2"/>
+  <anchor x="679" y="536" name="topright_1"/>
+  <anchor x="1080" y="536" name="topright_2"/>
+  <outline>
+    <component base="uniA74F"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uniA74F</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

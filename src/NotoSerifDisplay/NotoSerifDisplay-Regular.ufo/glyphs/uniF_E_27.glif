@@ -1,22 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uniFE27" format="2">
   <unicode hex="FE27"/>
-  <anchor x="0" y="0" name="_bottom"/>
-  <anchor x="-189" y="536" name="braceleft"/>
+  <anchor x="-200" y="0" name="_bottom"/>
   <outline>
-    <contour>
-      <point x="0" y="-207" type="curve"/>
-      <point x="0" y="-147" type="line"/>
-      <point x="-196" y="-147"/>
-      <point x="-310" y="-106"/>
-      <point x="-367" y="-26" type="curve"/>
-      <point x="-377" y="-26" type="line"/>
-      <point x="-305" y="-153"/>
-      <point x="-182" y="-207"/>
-    </contour>
+    <component base="uniFE20" yScale="-1" xOffset="-5" yOffset="521"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uniFE20</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
       <key>com.schriftgestaltung.Glyphs.script</key>

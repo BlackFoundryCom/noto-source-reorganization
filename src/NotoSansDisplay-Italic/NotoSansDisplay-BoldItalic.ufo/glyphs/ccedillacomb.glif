@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ccedillacomb" format="2">
   <unicode hex="1DD7"/>
-  <anchor x="59" y="553" name="_top"/>
-  <anchor x="72.05" y="524.0" name="bottom"/>
-  <anchor x="135.95000000000002" y="841.2" name="top"/>
-  <anchor x="215.15" y="841.2" name="topright"/>
+  <anchor x="58" y="553" name="_top"/>
+  <anchor x="92.05" y="624.0" name="bottom"/>
+  <anchor x="155.95000000000002" y="941.2" name="top"/>
+  <anchor x="235.15" y="941.2" name="topright"/>
   <outline>
-    <component base="ccedilla" xScale="0.45" yScale="0.4" xOffset="-13" yOffset="620"/>
+    <component base="ccedilla" xScale="0.45" yScale="0.4" xOffset="7" yOffset="720"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:19</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

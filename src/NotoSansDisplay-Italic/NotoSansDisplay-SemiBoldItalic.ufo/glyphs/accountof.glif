@@ -2,7 +2,6 @@
 <glyph name="accountof" format="2">
   <advance width="762"/>
   <unicode hex="2100"/>
-  <anchor x="594" y="344" name="top"/>
   <outline>
     <contour>
       <point x="173" y="365" type="curve" smooth="yes"/>
@@ -46,7 +45,7 @@
       <point x="639" y="714" type="line"/>
     </contour>
     <contour>
-      <point x="575" y="-11" type="curve"/>
+      <point x="575" y="-11" type="curve" smooth="yes"/>
       <point x="617" y="-11"/>
       <point x="647" y="-2"/>
       <point x="676" y="13" type="curve"/>
@@ -59,14 +58,14 @@
       <point x="547" y="121" type="curve" smooth="yes"/>
       <point x="547" y="193"/>
       <point x="578" y="269"/>
-      <point x="633" y="269" type="curve"/>
+      <point x="633" y="269" type="curve" smooth="yes"/>
       <point x="659" y="269"/>
       <point x="678" y="261"/>
       <point x="699" y="251" type="curve"/>
       <point x="729" y="322" type="line"/>
       <point x="701" y="335"/>
       <point x="670" y="344"/>
-      <point x="629" y="344" type="curve"/>
+      <point x="629" y="344" type="curve" smooth="yes"/>
       <point x="516" y="344"/>
       <point x="452" y="236"/>
       <point x="452" y="113" type="curve" smooth="yes"/>
@@ -78,8 +77,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:18</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

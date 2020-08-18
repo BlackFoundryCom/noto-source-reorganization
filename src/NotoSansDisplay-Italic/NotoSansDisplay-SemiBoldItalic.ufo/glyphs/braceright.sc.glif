@@ -3,6 +3,7 @@
   <advance width="290"/>
   <outline>
     <contour>
+      <point x="-48" y="-22" type="curve"/>
       <point x="-48" y="-129" type="line"/>
       <point x="-34" y="-129" type="line" smooth="yes"/>
       <point x="85" y="-129"/>
@@ -48,15 +49,12 @@
       <point x="31" y="30" type="line" smooth="yes"/>
       <point x="22" y="-11"/>
       <point x="10" y="-20"/>
-      <point x="-48" y="-22" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Punctuation</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:18</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

@@ -2,10 +2,10 @@
 <glyph name="uni0265" format="2">
   <advance width="637"/>
   <unicode hex="0265"/>
-  <anchor x="335" y="-207" name="bottom"/>
-  <anchor x="335" y="553" name="top"/>
+  <anchor x="319" y="-207" name="bottom"/>
+  <anchor x="319" y="553" name="top"/>
+  <anchor x="581" y="553" name="topright"/>
   <anchor x="319" y="276" name="center"/>
-  <anchor x="49" y="-207" name="topright"/>
   <outline>
     <component base="h" xScale="-1" yScale="-1" xOffset="637" yOffset="553"/>
   </outline>
@@ -13,8 +13,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 21:39:07</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

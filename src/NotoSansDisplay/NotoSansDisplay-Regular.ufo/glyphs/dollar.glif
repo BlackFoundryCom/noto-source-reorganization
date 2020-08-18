@@ -4,6 +4,7 @@
   <unicode hex="0024"/>
   <outline>
     <contour>
+      <point x="238" y="49" type="curve"/>
       <point x="238" y="-58" type="line"/>
       <point x="298" y="-58" type="line"/>
       <point x="298" y="53" type="line"/>
@@ -37,7 +38,6 @@
       <point x="57" y="82" type="line"/>
       <point x="98" y="62"/>
       <point x="167" y="50"/>
-      <point x="238" y="49" type="curve"/>
     </contour>
     <contour>
       <point x="298" y="131" type="curve"/>
@@ -49,21 +49,19 @@
       <point x="369" y="139"/>
     </contour>
     <contour>
+      <point x="238" y="594" type="curve"/>
       <point x="238" y="417" type="line"/>
       <point x="165" y="437"/>
       <point x="142" y="462"/>
       <point x="142" y="515" type="curve" smooth="yes"/>
       <point x="142" y="559"/>
       <point x="173" y="589"/>
-      <point x="238" y="594" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 21:39:06</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

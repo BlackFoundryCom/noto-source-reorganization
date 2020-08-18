@@ -2,8 +2,6 @@
 <glyph name="cadauna" format="2">
   <advance width="927"/>
   <unicode hex="2106"/>
-  <anchor x="190" y="305" name="_top"/>
-  <anchor x="701" y="351" name="top"/>
   <outline>
     <contour>
       <point x="202" y="359" type="curve" smooth="yes"/>
@@ -40,17 +38,17 @@
       <point x="313" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="870" y="351" type="line"/>
-      <point x="730" y="351" type="line"/>
-      <point x="731" y="191" type="line" smooth="yes"/>
-      <point x="731" y="134"/>
+      <point x="871" y="351" type="line"/>
+      <point x="731" y="351" type="line"/>
+      <point x="731" y="181" type="line" smooth="yes"/>
+      <point x="731" y="124"/>
       <point x="722" y="97"/>
-      <point x="701" y="97" type="curve" smooth="yes"/>
+      <point x="697" y="97" type="curve" smooth="yes"/>
       <point x="671" y="97"/>
       <point x="667" y="118"/>
       <point x="667" y="150" type="curve" smooth="yes"/>
-      <point x="666" y="351" type="line"/>
-      <point x="526" y="351" type="line"/>
+      <point x="667" y="351" type="line"/>
+      <point x="527" y="351" type="line"/>
       <point x="527" y="119" type="line" smooth="yes"/>
       <point x="527" y="33"/>
       <point x="567" y="-8"/>
@@ -60,15 +58,13 @@
       <point x="734" y="43" type="curve"/>
       <point x="740" y="43" type="line"/>
       <point x="757" y="0" type="line"/>
-      <point x="872" y="0" type="line"/>
+      <point x="871" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 21:39:09</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

@@ -2,6 +2,7 @@
 <glyph name="circumflexacutecomb" format="2">
   <outline>
     <contour>
+      <point x="-394" y="616" type="curve"/>
       <point x="-394" y="606" type="line"/>
       <point x="-276" y="606" type="line"/>
       <point x="-241" y="633"/>
@@ -18,9 +19,9 @@
       <point x="-268" y="763" type="line"/>
       <point x="-302" y="721"/>
       <point x="-360" y="652"/>
-      <point x="-394" y="616" type="curve"/>
     </contour>
     <contour>
+      <point x="-27" y="708" type="curve"/>
       <point x="-27" y="701" type="line"/>
       <point x="69" y="701" type="line"/>
       <point x="109" y="725"/>
@@ -30,7 +31,6 @@
       <point x="44" y="812" type="line"/>
       <point x="22" y="773"/>
       <point x="-4" y="731"/>
-      <point x="-27" y="708" type="curve"/>
     </contour>
   </outline>
   <lib>
@@ -39,8 +39,6 @@
       <false/>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string></string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:16</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

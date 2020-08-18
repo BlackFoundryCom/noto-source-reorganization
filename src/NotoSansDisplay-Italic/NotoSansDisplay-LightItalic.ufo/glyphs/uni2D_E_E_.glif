@@ -2,26 +2,31 @@
 <glyph name="uni2DEE" format="2">
   <unicode hex="2DEE"/>
   <anchor x="56" y="528" name="_top"/>
+  <anchor x="121" y="834" name="top"/>
   <anchor x="83.25" y="620.0" name="bottom"/>
-  <anchor x="133.65" y="831.2" name="top"/>
   <anchor x="295.65000000000003" y="831.2" name="topright"/>
   <outline>
     <component base="afii10084" xScale="0.45" yScale="0.4" xOffset="-81" yOffset="620"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>afii10084</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:19</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Nonspacing</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

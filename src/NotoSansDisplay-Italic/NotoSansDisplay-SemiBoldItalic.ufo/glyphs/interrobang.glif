@@ -4,6 +4,7 @@
   <unicode hex="203D"/>
   <outline>
     <contour>
+      <point x="176" y="580" type="curve"/>
       <point x="124" y="238" type="line"/>
       <point x="249" y="238" type="line"/>
       <point x="253" y="256" type="line" smooth="yes"/>
@@ -22,7 +23,6 @@
       <point x="129" y="555" type="line"/>
       <point x="146" y="565"/>
       <point x="160" y="571"/>
-      <point x="176" y="580" type="curve"/>
     </contour>
     <contour>
       <point x="152" y="-13" type="curve" smooth="yes"/>
@@ -55,8 +55,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Punctuation</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:18</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

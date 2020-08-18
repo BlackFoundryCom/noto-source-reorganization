@@ -2,8 +2,6 @@
 <glyph name="cadauna" format="2">
   <advance width="772"/>
   <unicode hex="2106"/>
-  <anchor x="184" y="303" name="_top"/>
-  <anchor x="576" y="332" name="top"/>
   <outline>
     <contour>
       <point x="224" y="363" type="curve" smooth="yes"/>
@@ -57,11 +55,11 @@
       <point x="488" y="61"/>
       <point x="488" y="83" type="curve" smooth="yes"/>
       <point x="488" y="93"/>
-      <point x="491" y="106"/>
-      <point x="495" y="125" type="curve" smooth="yes"/>
+      <point x="490" y="106"/>
+      <point x="494" y="125" type="curve" smooth="yes"/>
       <point x="539" y="332" type="line"/>
       <point x="469" y="332" type="line"/>
-      <point x="427" y="132" type="line"/>
+      <point x="427" y="132" type="line" smooth="yes"/>
       <point x="423" y="113"/>
       <point x="420" y="97"/>
       <point x="420" y="77" type="curve" smooth="yes"/>
@@ -73,8 +71,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:18</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

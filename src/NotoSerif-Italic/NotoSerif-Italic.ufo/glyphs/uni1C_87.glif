@@ -1,9 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1C87" format="2">
-  <advance width="528"/>
+  <advance width="804"/>
   <unicode hex="1C87"/>
-  <anchor x="207" y="0" name="bottom"/>
-  <anchor x="369" y="760" name="top"/>
+  <anchor x="345.035" y="0" name="bottom"/>
+  <anchor x="458.965" y="536" name="top"/>
+  <anchor x="636" y="536" name="topright"/>
   <outline>
     <component base="uni0463"/>
   </outline>
@@ -22,6 +23,8 @@
       </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string></string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>uniAB60</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

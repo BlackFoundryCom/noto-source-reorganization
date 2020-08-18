@@ -5,6 +5,7 @@
   <anchor x="303" y="932" name="top"/>
   <outline>
     <contour>
+      <point x="165" y="784" type="curve"/>
       <point x="155" y="740" type="line"/>
       <point x="252" y="740"/>
       <point x="315" y="789"/>
@@ -20,7 +21,6 @@
       <point x="237" y="825" type="curve"/>
       <point x="232" y="801"/>
       <point x="210" y="789"/>
-      <point x="165" y="784" type="curve"/>
     </contour>
     <contour>
       <point x="122" y="606" type="line"/>
@@ -47,8 +47,6 @@
       <false/>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 15:55:26</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>greek</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

@@ -328,6 +328,16 @@
       <key>public.kern2.period.right</key>
       <integer>-80</integer>
     </dict>
+    <key>parenleftinferior</key>
+    <dict>
+      <key>parenrightinferior</key>
+      <integer>20</integer>
+    </dict>
+    <key>parenleftsuperior</key>
+    <dict>
+      <key>parenrightsuperior</key>
+      <integer>10</integer>
+    </dict>
     <key>parenright.sc</key>
     <dict>
       <key>public.kern2.j.sc</key>
@@ -1484,6 +1494,8 @@
       <integer>54</integer>
       <key>j</key>
       <integer>24</integer>
+      <key>uniA7B2</key>
+      <integer>8</integer>
     </dict>
     <key>public.kern1.parenleft.sc</key>
     <dict>
@@ -1627,7 +1639,7 @@
       <key>public.kern2.o.right</key>
       <integer>-12</integer>
       <key>public.kern2.period.right</key>
-      <integer>-46</integer>
+      <integer>-95</integer>
       <key>public.kern2.quote.right</key>
       <integer>24</integer>
     </dict>
@@ -2050,6 +2062,11 @@
       <key>public.kern2.y.sc</key>
       <integer>-6</integer>
     </dict>
+    <key>underscore</key>
+    <dict>
+      <key>J</key>
+      <integer>60</integer>
+    </dict>
     <key>uni0259</key>
     <dict>
       <key>rhotichookmod</key>
@@ -2300,6 +2317,11 @@
     <dict>
       <key>public.kern2.afii10089</key>
       <integer>-12</integer>
+    </dict>
+    <key>uniA7B2</key>
+    <dict>
+      <key>uni029D</key>
+      <integer>63</integer>
     </dict>
     <key>v.sc</key>
     <dict>

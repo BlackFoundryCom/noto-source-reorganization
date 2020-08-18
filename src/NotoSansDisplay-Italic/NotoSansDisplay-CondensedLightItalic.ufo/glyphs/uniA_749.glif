@@ -8,7 +8,7 @@
   <anchor x="232" y="760" name="topright"/>
   <outline>
     <contour>
-      <point x="79" y="637" type="line" smooth="yes"/>
+      <point x="79" y="637" type="line"/>
       <point x="233" y="637" type="line" smooth="yes"/>
       <point x="238" y="662" type="line" smooth="yes"/>
       <point x="84" y="662" type="line" smooth="yes"/>
@@ -19,8 +19,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:17</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

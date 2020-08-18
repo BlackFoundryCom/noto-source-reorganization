@@ -239,11 +239,6 @@
       <key>public.kern2.Y</key>
       <integer>-40</integer>
     </dict>
-    <key>asciitilde</key>
-    <dict>
-      <key>uni2E41</key>
-      <integer>0</integer>
-    </dict>
     <key>asterisk</key>
     <dict>
       <key>public.kern2.afii10021</key>
@@ -407,6 +402,16 @@
       <key>public.kern2.period</key>
       <integer>-60</integer>
     </dict>
+    <key>parenleftinferior</key>
+    <dict>
+      <key>parenrightinferior</key>
+      <integer>66</integer>
+    </dict>
+    <key>parenleftsuperior</key>
+    <dict>
+      <key>parenrightsuperior</key>
+      <integer>60</integer>
+    </dict>
     <key>public.kern1.A</key>
     <dict>
       <key>public.kern2.O</key>
@@ -486,8 +491,6 @@
       <integer>-20</integer>
       <key>public.kern2.upsilon</key>
       <integer>-20</integer>
-      <key>public.kern2.y</key>
-      <integer>0</integer>
       <key>tau</key>
       <integer>-30</integer>
     </dict>
@@ -505,8 +508,6 @@
       <integer>-10</integer>
       <key>public.kern2.T.sc</key>
       <integer>-2</integer>
-      <key>public.kern2.Upsilon</key>
-      <integer>0</integer>
       <key>public.kern2.V</key>
       <integer>-30</integer>
       <key>public.kern2.W</key>
@@ -529,8 +530,6 @@
       <integer>-10</integer>
       <key>public.kern2.t.sc</key>
       <integer>-2</integer>
-      <key>public.kern2.uni0394</key>
-      <integer>0</integer>
       <key>public.kern2.v.sc</key>
       <integer>-7</integer>
       <key>public.kern2.w</key>
@@ -574,14 +573,8 @@
     <dict>
       <key>Tau</key>
       <integer>-10</integer>
-      <key>public.kern2.T</key>
-      <integer>0</integer>
-      <key>public.kern2.T.sc</key>
-      <integer>0</integer>
       <key>public.kern2.Upsilon</key>
       <integer>-20</integer>
-      <key>public.kern2.t.sc</key>
-      <integer>0</integer>
     </dict>
     <key>public.kern1.Eta</key>
     <dict>
@@ -776,28 +769,12 @@
       <integer>-35</integer>
       <key>public.kern2.afii10017</key>
       <integer>-20</integer>
-      <key>public.kern2.afii10021</key>
-      <integer>0</integer>
-      <key>public.kern2.afii10024</key>
-      <integer>0</integer>
       <key>public.kern2.afii10036</key>
       <integer>-20</integer>
-      <key>public.kern2.afii10037</key>
-      <integer>0</integer>
-      <key>public.kern2.afii10039</key>
-      <integer>0</integer>
-      <key>public.kern2.afii10077</key>
-      <integer>0</integer>
       <key>public.kern2.period</key>
       <integer>-20</integer>
       <key>public.kern2.t.sc</key>
       <integer>-5</integer>
-      <key>public.kern2.uni0394</key>
-      <integer>0</integer>
-      <key>public.kern2.uni0470</key>
-      <integer>0</integer>
-      <key>public.kern2.uni0474</key>
-      <integer>0</integer>
       <key>public.kern2.v.sc</key>
       <integer>-5</integer>
       <key>public.kern2.w.sc</key>
@@ -882,14 +859,8 @@
       <integer>-50</integer>
       <key>public.kern2.afii10021</key>
       <integer>-30</integer>
-      <key>public.kern2.afii10037</key>
-      <integer>0</integer>
-      <key>public.kern2.afii10077</key>
-      <integer>0</integer>
       <key>public.kern2.period</key>
       <integer>-90</integer>
-      <key>public.kern2.uni0394</key>
-      <integer>0</integer>
     </dict>
     <key>public.kern1.R</key>
     <dict>
@@ -985,8 +956,6 @@
       <integer>-10</integer>
       <key>public.kern2.t.sc</key>
       <integer>-17</integer>
-      <key>public.kern2.uni0394</key>
-      <integer>0</integer>
       <key>public.kern2.v.sc</key>
       <integer>-5</integer>
       <key>public.kern2.w</key>
@@ -1014,28 +983,14 @@
       <integer>-50</integer>
       <key>public.kern2.AE</key>
       <integer>-80</integer>
-      <key>public.kern2.Alpha</key>
-      <integer>0</integer>
-      <key>public.kern2.Epsilontonos</key>
-      <integer>0</integer>
       <key>public.kern2.O</key>
       <integer>-20</integer>
-      <key>public.kern2.Omegatonos</key>
-      <integer>0</integer>
-      <key>public.kern2.Omicrontonos</key>
-      <integer>0</integer>
-      <key>public.kern2.Theta</key>
-      <integer>0</integer>
-      <key>public.kern2.Upsilontonos</key>
-      <integer>0</integer>
       <key>public.kern2.a</key>
       <integer>-30</integer>
       <key>public.kern2.a.sc</key>
       <integer>-50</integer>
       <key>public.kern2.ae.sc</key>
       <integer>-65</integer>
-      <key>public.kern2.alpha</key>
-      <integer>0</integer>
       <key>public.kern2.c.sc</key>
       <integer>-30</integer>
       <key>public.kern2.o</key>
@@ -1044,30 +999,12 @@
       <integer>-5</integer>
       <key>public.kern2.period</key>
       <integer>-60</integer>
-      <key>public.kern2.rho</key>
-      <integer>0</integer>
       <key>public.kern2.s</key>
       <integer>-5</integer>
       <key>public.kern2.s.sc</key>
       <integer>-20</integer>
       <key>public.kern2.uni0394</key>
       <integer>-40</integer>
-      <key>public.kern2.uni03A9</key>
-      <integer>0</integer>
-      <key>public.kern2.uni1F02</key>
-      <integer>0</integer>
-      <key>public.kern2.uni1F0A</key>
-      <integer>0</integer>
-      <key>public.kern2.uni1F1A</key>
-      <integer>0</integer>
-      <key>public.kern2.uni1F4A</key>
-      <integer>0</integer>
-      <key>public.kern2.uni1F5B</key>
-      <integer>0</integer>
-      <key>public.kern2.uni1F6A</key>
-      <integer>0</integer>
-      <key>public.kern2.zeta</key>
-      <integer>0</integer>
     </dict>
     <key>public.kern1.Theta</key>
     <dict>
@@ -1081,14 +1018,10 @@
       <integer>-20</integer>
       <key>public.kern2.Upsilon</key>
       <integer>-20</integer>
-      <key>public.kern2.X</key>
-      <integer>0</integer>
       <key>public.kern2.period</key>
       <integer>-20</integer>
       <key>public.kern2.uni0394</key>
       <integer>-10</integer>
-      <key>public.kern2.x.sc</key>
-      <integer>0</integer>
     </dict>
     <key>public.kern1.U</key>
     <dict>
@@ -1241,8 +1174,6 @@
       <integer>-40</integer>
       <key>public.kern2.s.sc</key>
       <integer>-20</integer>
-      <key>public.kern2.uni0394</key>
-      <integer>0</integer>
       <key>public.kern2.z.sc</key>
       <integer>-10</integer>
     </dict>
@@ -1278,8 +1209,6 @@
       <integer>-40</integer>
       <key>public.kern2.s.sc</key>
       <integer>-20</integer>
-      <key>public.kern2.uni0394</key>
-      <integer>0</integer>
       <key>public.kern2.z</key>
       <integer>-30</integer>
     </dict>
@@ -1289,8 +1218,6 @@
       <integer>-20</integer>
       <key>public.kern2.S</key>
       <integer>-10</integer>
-      <key>public.kern2.Theta</key>
-      <integer>0</integer>
       <key>public.kern2.o.sc</key>
       <integer>-5</integer>
       <key>public.kern2.s.sc</key>
@@ -1338,8 +1265,6 @@
       <integer>-40</integer>
       <key>public.kern2.s.sc</key>
       <integer>-17</integer>
-      <key>public.kern2.uni0394</key>
-      <integer>0</integer>
       <key>public.kern2.z</key>
       <integer>-20</integer>
       <key>public.kern2.z.sc</key>
@@ -1347,8 +1272,6 @@
     </dict>
     <key>public.kern1.Z</key>
     <dict>
-      <key>public.kern2.Epsilontonos</key>
-      <integer>0</integer>
       <key>public.kern2.t.sc</key>
       <integer>-20</integer>
       <key>public.kern2.w.sc</key>
@@ -1407,10 +1330,6 @@
     <dict>
       <key>public.kern2.O</key>
       <integer>-20</integer>
-      <key>public.kern2.T</key>
-      <integer>0</integer>
-      <key>public.kern2.T.sc</key>
-      <integer>0</integer>
       <key>public.kern2.V</key>
       <integer>-60</integer>
       <key>public.kern2.Y</key>
@@ -1443,8 +1362,6 @@
       <integer>-70</integer>
       <key>public.kern2.quotesingle</key>
       <integer>-80</integer>
-      <key>public.kern2.t.sc</key>
-      <integer>0</integer>
       <key>public.kern2.u</key>
       <integer>-20</integer>
       <key>public.kern2.v.sc</key>
@@ -1508,8 +1425,6 @@
       <integer>-10</integer>
       <key>afii10066.loclSRB</key>
       <real>-2.46269</real>
-      <key>public.kern2.O</key>
-      <integer>0</integer>
       <key>public.kern2.afii10041</key>
       <integer>-10</integer>
       <key>public.kern2.afii10053</key>
@@ -1524,8 +1439,6 @@
       <integer>-20</integer>
       <key>public.kern2.o</key>
       <integer>-10</integer>
-      <key>public.kern2.o.sc</key>
-      <integer>0</integer>
       <key>public.kern2.u</key>
       <integer>-20</integer>
       <key>public.kern2.uni04BC</key>
@@ -1536,8 +1449,6 @@
       <integer>-30</integer>
       <key>public.kern2.y</key>
       <integer>-30</integer>
-      <key>uni0510</key>
-      <integer>0</integer>
     </dict>
     <key>public.kern1.afii10032</key>
     <dict>
@@ -1626,8 +1537,6 @@
     <dict>
       <key>public.kern2.AE</key>
       <integer>-130</integer>
-      <key>public.kern2.O</key>
-      <integer>0</integer>
       <key>public.kern2.a</key>
       <integer>-60</integer>
       <key>public.kern2.ae.sc</key>
@@ -1650,8 +1559,6 @@
       <integer>-60</integer>
       <key>public.kern2.o</key>
       <integer>-60</integer>
-      <key>public.kern2.o.sc</key>
-      <integer>0</integer>
       <key>public.kern2.period</key>
       <integer>-100</integer>
       <key>public.kern2.s</key>
@@ -1667,8 +1574,6 @@
     </dict>
     <key>public.kern1.afii10039</key>
     <dict>
-      <key>public.kern2.O</key>
-      <integer>0</integer>
       <key>public.kern2.afii10025</key>
       <integer>-20</integer>
       <key>public.kern2.afii10041</key>
@@ -1683,8 +1588,6 @@
       <integer>-30</integer>
       <key>public.kern2.o</key>
       <integer>-20</integer>
-      <key>public.kern2.o.sc</key>
-      <integer>0</integer>
       <key>public.kern2.u</key>
       <integer>-20</integer>
       <key>public.kern2.uni0475</key>
@@ -1742,10 +1645,6 @@
     </dict>
     <key>public.kern1.afii10060</key>
     <dict>
-      <key>public.kern2.T</key>
-      <integer>0</integer>
-      <key>public.kern2.T.sc</key>
-      <integer>0</integer>
       <key>public.kern2.afii10036</key>
       <integer>-50</integer>
       <key>public.kern2.afii10037</key>
@@ -1758,8 +1657,6 @@
       <integer>-70</integer>
       <key>public.kern2.quotesingle</key>
       <integer>-60</integer>
-      <key>public.kern2.t.sc</key>
-      <integer>0</integer>
       <key>public.kern2.uni0461</key>
       <integer>-20</integer>
       <key>public.kern2.uni0470</key>
@@ -1811,19 +1708,6 @@
       <integer>-20</integer>
       <key>public.kern2.uni04AF</key>
       <integer>-20</integer>
-    </dict>
-    <key>public.kern1.afii10072</key>
-    <dict>
-      <key>public.kern2.o</key>
-      <integer>0</integer>
-      <key>uni047D</key>
-      <integer>0</integer>
-      <key>uni0500</key>
-      <integer>0</integer>
-      <key>uni0502</key>
-      <integer>0</integer>
-      <key>uni0511</key>
-      <integer>0</integer>
     </dict>
     <key>public.kern1.afii10080</key>
     <dict>
@@ -1897,8 +1781,6 @@
       <integer>-2</integer>
       <key>public.kern2.T.sc</key>
       <integer>-2</integer>
-      <key>public.kern2.Upsilon</key>
-      <integer>0</integer>
       <key>public.kern2.V</key>
       <integer>-7</integer>
       <key>public.kern2.W</key>
@@ -1921,8 +1803,6 @@
       <integer>-2</integer>
       <key>public.kern2.t.sc</key>
       <integer>-2</integer>
-      <key>public.kern2.uni0394</key>
-      <integer>0</integer>
       <key>public.kern2.v.sc</key>
       <integer>-7</integer>
       <key>public.kern2.w</key>
@@ -2110,8 +1990,6 @@
       <integer>-30</integer>
       <key>public.kern2.gamma</key>
       <integer>-20</integer>
-      <key>public.kern2.y</key>
-      <integer>0</integer>
     </dict>
     <key>public.kern1.f</key>
     <dict>
@@ -2190,12 +2068,8 @@
     </dict>
     <key>public.kern1.k</key>
     <dict>
-      <key>public.kern2.alpha</key>
-      <integer>0</integer>
       <key>public.kern2.o</key>
       <integer>-10</integer>
-      <key>public.kern2.uni1F02</key>
-      <integer>0</integer>
     </dict>
     <key>public.kern1.k.sc</key>
     <dict>
@@ -2265,18 +2139,12 @@
       <integer>-20</integer>
       <key>public.kern2.afii10041</key>
       <integer>-30</integer>
-      <key>public.kern2.afii10085</key>
-      <integer>0</integer>
       <key>public.kern2.afii10089</key>
       <integer>-20</integer>
       <key>public.kern2.quotesingle</key>
       <integer>-40</integer>
       <key>public.kern2.t.sc</key>
       <integer>-7</integer>
-      <key>public.kern2.uni0475</key>
-      <integer>0</integer>
-      <key>public.kern2.uni04AF</key>
-      <integer>0</integer>
       <key>public.kern2.v.sc</key>
       <integer>-12</integer>
       <key>public.kern2.w.sc</key>
@@ -2285,8 +2153,6 @@
       <integer>-20</integer>
       <key>public.kern2.y.sc</key>
       <integer>-10</integer>
-      <key>uni02B2</key>
-      <integer>0</integer>
     </dict>
     <key>public.kern1.n.sc</key>
     <dict>
@@ -2319,14 +2185,8 @@
       <integer>-20</integer>
       <key>public.kern2.afii10041</key>
       <integer>-30</integer>
-      <key>public.kern2.afii10085</key>
-      <integer>0</integer>
       <key>public.kern2.t.sc</key>
       <integer>-7</integer>
-      <key>public.kern2.uni0475</key>
-      <integer>0</integer>
-      <key>public.kern2.uni04AF</key>
-      <integer>0</integer>
       <key>public.kern2.v.sc</key>
       <integer>-5</integer>
       <key>public.kern2.w.sc</key>
@@ -2362,26 +2222,12 @@
       <integer>-12</integer>
       <key>public.kern2.afii10017</key>
       <integer>-5</integer>
-      <key>public.kern2.afii10021</key>
-      <integer>0</integer>
-      <key>public.kern2.afii10024</key>
-      <integer>0</integer>
       <key>public.kern2.afii10036</key>
       <integer>-5</integer>
-      <key>public.kern2.afii10037</key>
-      <integer>0</integer>
-      <key>public.kern2.afii10039</key>
-      <integer>0</integer>
-      <key>public.kern2.afii10077</key>
-      <integer>0</integer>
       <key>public.kern2.period</key>
       <integer>-5</integer>
       <key>public.kern2.t.sc</key>
       <integer>-5</integer>
-      <key>public.kern2.uni0394</key>
-      <integer>0</integer>
-      <key>public.kern2.uni0474</key>
-      <integer>0</integer>
       <key>public.kern2.v.sc</key>
       <integer>-5</integer>
       <key>public.kern2.w.sc</key>
@@ -2424,18 +2270,10 @@
       <integer>-20</integer>
       <key>public.kern2.Alpha</key>
       <integer>-20</integer>
-      <key>public.kern2.T</key>
-      <integer>0</integer>
-      <key>public.kern2.T.sc</key>
-      <integer>0</integer>
       <key>public.kern2.Upsilon</key>
       <integer>-20</integer>
       <key>public.kern2.gamma</key>
       <integer>-20</integer>
-      <key>public.kern2.t.sc</key>
-      <integer>0</integer>
-      <key>public.kern2.y</key>
-      <integer>0</integer>
     </dict>
     <key>public.kern1.p.sc</key>
     <dict>
@@ -2455,19 +2293,15 @@
       <integer>-12</integer>
       <key>public.kern2.afii10021</key>
       <integer>-7</integer>
-      <key>public.kern2.afii10037</key>
-      <integer>0</integer>
-      <key>public.kern2.afii10077</key>
-      <integer>0</integer>
       <key>public.kern2.period</key>
       <integer>-22</integer>
-      <key>public.kern2.uni0394</key>
-      <integer>0</integer>
     </dict>
     <key>public.kern1.parenleft</key>
     <dict>
       <key>public.kern2.afii10077</key>
       <integer>20</integer>
+      <key>uniA7B2</key>
+      <integer>42</integer>
     </dict>
     <key>public.kern1.parenleft.sc</key>
     <dict>
@@ -2599,6 +2433,8 @@
       <integer>-20</integer>
       <key>public.kern2.a.sc</key>
       <integer>-7</integer>
+      <key>public.kern2.period</key>
+      <integer>-130</integer>
       <key>public.kern2.quoteright</key>
       <integer>30</integer>
       <key>public.kern2.x.sc</key>
@@ -2684,8 +2520,6 @@
       <integer>-10</integer>
       <key>public.kern2.t.sc</key>
       <integer>-2</integer>
-      <key>public.kern2.uni0394</key>
-      <integer>0</integer>
       <key>public.kern2.v.sc</key>
       <integer>-5</integer>
       <key>public.kern2.w</key>
@@ -2707,20 +2541,14 @@
       <integer>-27</integer>
       <key>public.kern2.AE</key>
       <integer>-20</integer>
-      <key>public.kern2.Alpha</key>
-      <integer>0</integer>
       <key>public.kern2.O</key>
       <integer>-5</integer>
-      <key>public.kern2.Theta</key>
-      <integer>0</integer>
       <key>public.kern2.a</key>
       <integer>-7</integer>
       <key>public.kern2.a.sc</key>
       <integer>-35</integer>
       <key>public.kern2.ae.sc</key>
       <integer>-50</integer>
-      <key>public.kern2.alpha</key>
-      <integer>0</integer>
       <key>public.kern2.c.sc</key>
       <integer>-5</integer>
       <key>public.kern2.o</key>
@@ -2729,16 +2557,8 @@
       <integer>-5</integer>
       <key>public.kern2.period</key>
       <integer>-45</integer>
-      <key>public.kern2.rho</key>
-      <integer>0</integer>
       <key>public.kern2.s</key>
       <integer>-1</integer>
-      <key>public.kern2.uni0394</key>
-      <integer>0</integer>
-      <key>public.kern2.uni03A9</key>
-      <integer>0</integer>
-      <key>public.kern2.zeta</key>
-      <integer>0</integer>
     </dict>
     <key>public.kern1.u.sc</key>
     <dict>
@@ -2780,34 +2600,16 @@
       <integer>-30</integer>
       <key>Tau</key>
       <integer>-40</integer>
-      <key>public.kern2.T</key>
-      <integer>0</integer>
-      <key>public.kern2.T.sc</key>
-      <integer>0</integer>
       <key>public.kern2.Theta</key>
       <integer>-10</integer>
       <key>public.kern2.Upsilon</key>
       <integer>-40</integer>
-      <key>public.kern2.V</key>
-      <integer>0</integer>
-      <key>public.kern2.W</key>
-      <integer>0</integer>
-      <key>public.kern2.Y</key>
-      <integer>0</integer>
       <key>public.kern2.quoteleft</key>
       <integer>-70</integer>
       <key>public.kern2.quoteright</key>
       <integer>-70</integer>
       <key>public.kern2.quotesingle</key>
       <integer>-80</integer>
-      <key>public.kern2.t.sc</key>
-      <integer>0</integer>
-      <key>public.kern2.v.sc</key>
-      <integer>0</integer>
-      <key>public.kern2.w.sc</key>
-      <integer>0</integer>
-      <key>public.kern2.y.sc</key>
-      <integer>0</integer>
       <key>question</key>
       <integer>-40</integer>
     </dict>
@@ -2818,30 +2620,10 @@
       <key>public.kern2.Upsilon</key>
       <integer>-10</integer>
     </dict>
-    <key>public.kern1.uni0461</key>
-    <dict>
-      <key>public.kern2.afii10077</key>
-      <integer>0</integer>
-    </dict>
-    <key>public.kern1.uni046B</key>
-    <dict>
-      <key>public.kern2.o</key>
-      <integer>0</integer>
-      <key>uni047D</key>
-      <integer>0</integer>
-      <key>uni0500</key>
-      <integer>0</integer>
-      <key>uni0502</key>
-      <integer>0</integer>
-      <key>uni0511</key>
-      <integer>0</integer>
-    </dict>
     <key>public.kern1.uni0470</key>
     <dict>
       <key>public.kern2.AE</key>
       <integer>-90</integer>
-      <key>public.kern2.O</key>
-      <integer>0</integer>
       <key>public.kern2.a</key>
       <integer>-60</integer>
       <key>public.kern2.afii10021</key>
@@ -2914,8 +2696,6 @@
       <integer>-67</integer>
       <key>public.kern2.s</key>
       <integer>-10</integer>
-      <key>public.kern2.uni0394</key>
-      <integer>0</integer>
     </dict>
     <key>public.kern1.w</key>
     <dict>
@@ -2950,8 +2730,6 @@
       <integer>-17</integer>
       <key>public.kern2.s</key>
       <integer>-10</integer>
-      <key>public.kern2.uni0394</key>
-      <integer>0</integer>
       <key>public.kern2.z</key>
       <integer>-7</integer>
     </dict>
@@ -2961,8 +2739,6 @@
       <integer>-5</integer>
       <key>public.kern2.S</key>
       <integer>-2</integer>
-      <key>public.kern2.Theta</key>
-      <integer>0</integer>
       <key>public.kern2.o.sc</key>
       <integer>-5</integer>
       <key>public.kern2.s.sc</key>
@@ -2982,8 +2758,6 @@
       <integer>-12</integer>
       <key>public.kern2.period</key>
       <integer>-70</integer>
-      <key>public.kern2.zeta</key>
-      <integer>0</integer>
     </dict>
     <key>public.kern1.y.sc</key>
     <dict>
@@ -3019,8 +2793,6 @@
       <integer>-10</integer>
       <key>public.kern2.s.sc</key>
       <integer>-2</integer>
-      <key>public.kern2.uni0394</key>
-      <integer>0</integer>
       <key>public.kern2.z</key>
       <integer>-5</integer>
     </dict>
@@ -3080,10 +2852,6 @@
     </dict>
     <key>uni018F</key>
     <dict>
-      <key>public.kern2.AE</key>
-      <integer>0</integer>
-      <key>public.kern2.T</key>
-      <integer>0</integer>
       <key>public.kern2.afii10017</key>
       <integer>-20</integer>
       <key>public.kern2.afii10021</key>
@@ -3098,16 +2866,12 @@
       <integer>-20</integer>
       <key>public.kern2.afii10077</key>
       <integer>-40</integer>
-      <key>public.kern2.uni0394</key>
-      <integer>0</integer>
       <key>public.kern2.uni0470</key>
       <integer>-10</integer>
       <key>public.kern2.uni0474</key>
       <integer>-20</integer>
       <key>question</key>
       <integer>-20</integer>
-      <key>uni0462</key>
-      <integer>0</integer>
       <key>uni04D4</key>
       <integer>-50</integer>
     </dict>
@@ -3151,15 +2915,6 @@
     <dict>
       <key>public.kern2.afii10077</key>
       <integer>-20</integer>
-    </dict>
-    <key>uni046F</key>
-    <dict>
-      <key>public.kern2.afii10085</key>
-      <integer>0</integer>
-      <key>public.kern2.uni0475</key>
-      <integer>0</integer>
-      <key>public.kern2.uni04AF</key>
-      <integer>0</integer>
     </dict>
     <key>uni047D</key>
     <dict>
@@ -3472,16 +3227,12 @@
     <dict>
       <key>chi</key>
       <integer>-39</integer>
-      <key>public.kern2.T</key>
-      <integer>0</integer>
       <key>public.kern2.Upsilon</key>
       <integer>-54</integer>
       <key>public.kern2.alpha</key>
       <integer>-6</integer>
       <key>public.kern2.gamma</key>
       <integer>-29</integer>
-      <key>public.kern2.y</key>
-      <integer>0</integer>
       <key>question</key>
       <integer>-47</integer>
     </dict>
@@ -3818,8 +3569,6 @@
       <integer>-16</integer>
       <key>public.kern2.gamma</key>
       <integer>-16</integer>
-      <key>public.kern2.y</key>
-      <integer>0</integer>
     </dict>
     <key>uni1E00</key>
     <dict>
@@ -3835,6 +3584,11 @@
     <dict>
       <key>public.kern2.y</key>
       <integer>-16</integer>
+    </dict>
+    <key>uniA7B2</key>
+    <dict>
+      <key>uni029D</key>
+      <integer>48</integer>
     </dict>
     <key>v</key>
     <dict>

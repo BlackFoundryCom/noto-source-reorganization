@@ -25,6 +25,7 @@
       <point x="154" y="714" type="line"/>
     </contour>
     <contour>
+      <point x="140" y="331" type="curve" smooth="yes"/>
       <point x="99" y="331" type="line"/>
       <point x="176" y="689" type="line"/>
       <point x="216" y="689" type="line" smooth="yes"/>
@@ -39,7 +40,6 @@
       <point x="227" y="348" type="line"/>
       <point x="202" y="337"/>
       <point x="173" y="331"/>
-      <point x="140" y="331" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
@@ -50,8 +50,6 @@
       <string>H</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>P</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 15:55:24</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>cyrillic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

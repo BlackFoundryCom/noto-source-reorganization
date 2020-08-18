@@ -2,10 +2,10 @@
 <glyph name="tturned" format="2">
   <advance width="446"/>
   <unicode hex="0287"/>
-  <anchor x="230" y="-111" name="bottom"/>
-  <anchor x="230" y="553" name="top"/>
+  <anchor x="223" y="-111" name="bottom"/>
+  <anchor x="223" y="563" name="top"/>
+  <anchor x="420" y="563" name="topright"/>
   <anchor x="233" y="276" name="center"/>
-  <anchor x="37" y="-111" name="topright"/>
   <outline>
     <component base="t" xScale="-1" yScale="-1" xOffset="446" yOffset="553"/>
   </outline>
@@ -13,8 +13,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 21:39:07</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

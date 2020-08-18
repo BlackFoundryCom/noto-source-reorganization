@@ -2,6 +2,10 @@
 <glyph name="uniA64D" format="2">
   <advance width="671"/>
   <unicode hex="A64D"/>
+  <anchor x="280" y="0" name="_bottom"/>
+  <anchor x="280" y="0" name="_top"/>
+  <anchor x="280" y="0" name="bottom"/>
+  <anchor x="392" y="528" name="top"/>
   <outline>
     <contour>
       <point x="188" y="-10" type="curve" smooth="yes"/>
@@ -67,8 +71,6 @@
       <string>o</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>o</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 15:55:26</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>cyrillic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

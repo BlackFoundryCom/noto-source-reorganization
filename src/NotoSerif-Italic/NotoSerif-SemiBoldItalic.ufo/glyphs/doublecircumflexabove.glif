@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="doublecircumflexabove" format="2">
   <unicode hex="1DCD"/>
-  <anchor x="41" y="536" name="_top"/>
+  <anchor x="-159" y="536" name="_top"/>
   <anchor x="77" y="782" name="top"/>
   <outline>
     <contour>
+      <point x="-207" y="632" type="curve"/>
       <point x="-212" y="606" type="line"/>
       <point x="-160" y="606" type="line"/>
       <point x="-77" y="628"/>
@@ -21,7 +22,6 @@
       <point x="58" y="782" type="line"/>
       <point x="-3" y="737"/>
       <point x="-124" y="672"/>
-      <point x="-207" y="632" type="curve"/>
     </contour>
   </outline>
   <lib>

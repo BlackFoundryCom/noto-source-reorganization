@@ -6,6 +6,7 @@
   <anchor x="486" y="528" name="top"/>
   <outline>
     <contour>
+      <point x="753" y="-7" type="curve"/>
       <point x="718" y="-175" type="line"/>
       <point x="743" y="-175" type="line"/>
       <point x="785" y="20" type="line"/>
@@ -64,15 +65,12 @@
       <point x="700" y="139" type="line"/>
       <point x="681" y="60"/>
       <point x="677" y="-7"/>
-      <point x="753" y="-7" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 15:55:24</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>cyrillic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

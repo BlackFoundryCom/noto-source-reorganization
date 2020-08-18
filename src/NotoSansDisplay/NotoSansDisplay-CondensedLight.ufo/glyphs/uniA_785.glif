@@ -2,6 +2,8 @@
 <glyph name="uniA785" format="2">
   <advance width="256"/>
   <unicode hex="A785"/>
+  <anchor x="128" y="-232" name="bottom"/>
+  <anchor x="128" y="527" name="top"/>
   <outline>
     <contour>
       <point x="199" y="535" type="curve" smooth="yes"/>
@@ -29,8 +31,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 21:39:08</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

@@ -7,58 +7,105 @@
   <anchor x="350.56" y="417.0" name="bottom_3"/>
   <anchor x="224.56" y="158.0" name="bottom_4"/>
   <anchor x="206.56" y="417.0" name="bottom_5"/>
-  <anchor x="246.56" y="-103.0" name="bottom_6"/>
-  <anchor x="102.56" y="-103.0" name="bottom_7"/>
+  <anchor x="245.56" y="-101.0" name="bottom_6"/>
+  <anchor x="100.56" y="-101.0" name="bottom_7"/>
   <anchor x="404.39" y="311.51" name="center_1"/>
   <anchor x="116.39" y="311.51" name="center_2"/>
   <anchor x="385.39" y="570.51" name="center_3"/>
   <anchor x="259.39" y="311.51" name="center_4"/>
   <anchor x="241.39" y="570.51" name="center_5"/>
-  <anchor x="281.39" y="50.50999999999999" name="center_6"/>
-  <anchor x="137.39" y="50.50999999999999" name="center_7"/>
+  <anchor x="280.39" y="52.50999999999999" name="center_6"/>
+  <anchor x="135.39" y="52.50999999999999" name="center_7"/>
   <anchor x="434.49387" y="465.02" name="top_1"/>
   <anchor x="146.49387000000002" y="465.02" name="top_2"/>
   <anchor x="415.49387" y="724.02" name="top_3"/>
   <anchor x="289.49387" y="465.02" name="top_4"/>
   <anchor x="271.49387" y="724.02" name="top_5"/>
-  <anchor x="311.49387" y="204.01999999999998" name="top_6"/>
-  <anchor x="167.49387000000002" y="204.01999999999998" name="top_7"/>
+  <anchor x="310.49387" y="206.01999999999998" name="top_6"/>
+  <anchor x="165.49387000000002" y="206.01999999999998" name="top_7"/>
   <anchor x="532.53" y="465.02" name="topright_1"/>
   <anchor x="244.53" y="465.02" name="topright_2"/>
   <anchor x="513.53" y="724.02" name="topright_3"/>
   <anchor x="387.53" y="465.02" name="topright_4"/>
   <anchor x="369.53" y="724.02" name="topright_5"/>
-  <anchor x="409.53" y="204.01999999999998" name="topright_6"/>
-  <anchor x="265.53" y="204.01999999999998" name="topright_7"/>
+  <anchor x="408.53" y="206.01999999999998" name="topright_6"/>
+  <anchor x="263.53" y="206.01999999999998" name="topright_7"/>
   <outline>
     <component base="uniA668" xScale="0.43" yScale="0.43" xOffset="287" yOffset="158"/>
     <component base="uniA668" xScale="0.43" yScale="0.43" xOffset="-1" yOffset="158"/>
     <component base="uniA668" xScale="0.43" yScale="0.43" xOffset="268" yOffset="417"/>
     <component base="uniA668" xScale="0.43" yScale="0.43" xOffset="142" yOffset="158"/>
     <component base="uniA668" xScale="0.43" yScale="0.43" xOffset="124" yOffset="417"/>
-    <component base="uniA668" xScale="0.43" yScale="0.43" xOffset="164" yOffset="-103"/>
-    <component base="uniA668" xScale="0.43" yScale="0.43" xOffset="20" yOffset="-103"/>
+    <component base="uniA668" xScale="0.43" yScale="0.43" xOffset="163" yOffset="-101"/>
+    <component base="uniA668" xScale="0.43" yScale="0.43" xOffset="18" yOffset="-101"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uniA668</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>uniA668</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>uniA668</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>3</integer>
+          <key>name</key>
+          <string>uniA668</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>4</integer>
+          <key>name</key>
+          <string>uniA668</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>5</integer>
+          <key>name</key>
+          <string>uniA668</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>6</integer>
+          <key>name</key>
+          <string>uniA668</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 15:55:26</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>cyrillic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Other</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-        <integer>-1</integer>
-        <integer>-1</integer>
-        <integer>-1</integer>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

@@ -6,6 +6,7 @@
   <anchor x="399" y="553" name="top"/>
   <outline>
     <contour>
+      <point x="111" y="-101" type="curve"/>
       <point x="111" y="-240" type="line"/>
       <point x="356" y="-240"/>
       <point x="582" y="-75"/>
@@ -37,7 +38,6 @@
       <point x="389" y="278" type="curve" smooth="yes"/>
       <point x="389" y="90"/>
       <point x="308" y="-101"/>
-      <point x="111" y="-101" type="curve"/>
     </contour>
   </outline>
   <lib>
@@ -48,8 +48,6 @@
       <string>o</string>
       <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>o</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 15:55:26</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

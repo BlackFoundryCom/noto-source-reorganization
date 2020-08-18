@@ -2,26 +2,31 @@
 <glyph name="uniA7F7" format="2">
   <advance width="814"/>
   <unicode hex="A7F7"/>
-  <anchor x="50" y="353" name="bottom"/>
-  <anchor x="764" y="353" name="top"/>
-  <anchor x="764" y="210" name="topright"/>
+  <anchor x="407" y="218" name="bottom"/>
+  <anchor x="407" y="487" name="top"/>
+  <anchor x="764" y="487" name="topright"/>
   <outline>
     <component base="I" xScale="0" xyScale="-1" yxScale="1" yScale="0" xOffset="50" yOffset="516"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>I</string>
+        </dict>
+      </array>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/05 22:37:39</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
       <string>Other</string>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
     </dict>
   </lib>
 </glyph>

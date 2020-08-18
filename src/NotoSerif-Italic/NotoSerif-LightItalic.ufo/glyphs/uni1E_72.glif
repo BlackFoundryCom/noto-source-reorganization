@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni1E72" format="2">
-  <advance width="718"/>
+  <advance width="708"/>
   <unicode hex="1E72"/>
   <anchor x="267" y="-148" name="bottom"/>
   <anchor x="450" y="714" name="top"/>
   <anchor x="783" y="714" name="topright"/>
   <outline>
     <component base="U"/>
-    <component base="dieresisbelowcomb" xOffset="362"/>
+    <component base="dieresis" xOffset="-84" yOffset="-806"/>
   </outline>
   <lib>
     <dict>
@@ -27,7 +27,7 @@
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>dieresisbelowcomb</string>
+          <string>dieresis</string>
         </dict>
       </array>
       <key>com.schriftgestaltung.Glyphs.category</key>

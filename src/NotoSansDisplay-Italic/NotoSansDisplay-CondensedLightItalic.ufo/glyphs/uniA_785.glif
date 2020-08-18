@@ -2,10 +2,12 @@
 <glyph name="uniA785" format="2">
   <advance width="222"/>
   <unicode hex="A785"/>
+  <anchor x="7" y="-228" name="bottom"/>
+  <anchor x="167" y="526" name="top"/>
   <outline>
     <contour>
-      <point x="-45" y="-240" type="line"/>
-      <point x="-19" y="-240" type="line"/>
+      <point x="-42" y="-228" type="line"/>
+      <point x="-16" y="-228" type="line"/>
       <point x="92" y="282" type="line" smooth="yes"/>
       <point x="113" y="382"/>
       <point x="151" y="511"/>
@@ -29,8 +31,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:17</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

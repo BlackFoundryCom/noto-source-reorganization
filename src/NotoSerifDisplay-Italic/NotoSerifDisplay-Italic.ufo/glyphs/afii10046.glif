@@ -37,6 +37,7 @@
       <point x="-19" y="10" type="line"/>
     </contour>
     <contour>
+      <point x="264" y="10" type="curve" smooth="yes"/>
       <point x="177" y="10" type="line"/>
       <point x="256" y="385" type="line"/>
       <point x="320" y="385" type="line" smooth="yes"/>
@@ -45,7 +46,6 @@
       <point x="463" y="238" type="curve" smooth="yes"/>
       <point x="463" y="100"/>
       <point x="409" y="10"/>
-      <point x="264" y="10" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>

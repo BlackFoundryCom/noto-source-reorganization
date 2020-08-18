@@ -3,9 +3,11 @@
   <advance width="604"/>
   <unicode hex="0265"/>
   <anchor x="193" y="-240" name="bottom"/>
-  <anchor x="360" y="546" name="top"/>
+  <anchor x="360.028" y="546" name="top"/>
+  <anchor x="587" y="546" name="topright"/>
   <outline>
     <contour>
+      <point x="308" y="-75" type="curve" smooth="yes"/>
       <point x="272" y="-240" type="line"/>
       <point x="419" y="-240" type="line"/>
       <point x="587" y="546" type="line"/>
@@ -35,15 +37,12 @@
       <point x="349" y="73" type="line"/>
       <point x="336" y="30"/>
       <point x="315" y="-40"/>
-      <point x="308" y="-75" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 15:55:25</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>latin</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

@@ -2,6 +2,8 @@
 <glyph name="uniA68F" format="2">
   <advance width="551"/>
   <unicode hex="A68F"/>
+  <anchor x="276" y="-192" name="bottom"/>
+  <anchor x="276" y="528" name="top"/>
   <outline>
     <contour>
       <point x="161" y="-192" type="curve" smooth="yes"/>
@@ -47,8 +49,6 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Letter</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/06 21:39:09</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string>cyrillic</string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>

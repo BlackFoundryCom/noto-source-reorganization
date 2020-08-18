@@ -2,13 +2,12 @@
 <glyph name="uniFE2D" format="2">
   <unicode hex="FE2D"/>
   <anchor x="0" y="0" name="_bottom"/>
-  <anchor x="0" y="536" name="braceleft"/>
   <outline>
     <contour>
-      <point x="-377" y="-182" type="line"/>
-      <point x="377" y="-182" type="line"/>
-      <point x="377" y="-162" type="line"/>
-      <point x="-377" y="-162" type="line"/>
+      <point x="-345" y="-189" type="line"/>
+      <point x="-345" y="-254" type="line"/>
+      <point x="345" y="-254" type="line"/>
+      <point x="345" y="-189" type="line"/>
     </contour>
   </outline>
   <lib>

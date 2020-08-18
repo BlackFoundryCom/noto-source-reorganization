@@ -2,8 +2,9 @@
 <glyph name="uniAB40" format="2">
   <advance width="800"/>
   <unicode hex="AB40"/>
-  <anchor x="400" y="540" name="bottom"/>
-  <anchor x="400" y="4" name="top"/>
+  <anchor x="400" y="-10" name="bottom"/>
+  <anchor x="400" y="550" name="top"/>
+  <anchor x="769" y="550" name="topright"/>
   <outline>
     <component base="oe" yScale="-1" yOffset="540"/>
   </outline>

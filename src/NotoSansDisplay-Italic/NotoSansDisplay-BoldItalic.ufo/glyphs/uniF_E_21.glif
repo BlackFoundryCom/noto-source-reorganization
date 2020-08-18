@@ -1,24 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uniFE21" format="2">
   <unicode hex="FE21"/>
+  <anchor x="200" y="553" name="_top"/>
   <outline>
     <contour>
-      <point x="317" y="587" type="curve"/>
-      <point x="430" y="587" type="line"/>
-      <point x="386" y="734"/>
-      <point x="285" y="791"/>
-      <point x="84" y="791" type="curve"/>
-      <point x="83" y="674" type="line"/>
-      <point x="200" y="674"/>
-      <point x="281" y="648"/>
+      <point x="0" y="791" type="curve"/>
+      <point x="-5" y="791" type="line"/>
+      <point x="-5" y="675" type="line"/>
+      <point x="0" y="675" type="line" smooth="yes"/>
+      <point x="154" y="675"/>
+      <point x="237" y="630"/>
+      <point x="285" y="587" type="curve"/>
+      <point x="404" y="587" type="line"/>
+      <point x="361" y="713"/>
+      <point x="232" y="791"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.category</key>
       <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017/12/12 23:43:17</string>
       <key>com.schriftgestaltung.Glyphs.script</key>
       <string></string>
       <key>com.schriftgestaltung.Glyphs.subCategory</key>
