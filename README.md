@@ -36,3 +36,6 @@ NotoMaker needs Python 3.6. Regarding the librairies, it requires:
 
 If you don't have them already installed in your OS, you can download them from github
 and install them with pip3, using the  `pip3 install -e .` command once in the folder.
+
+## Convert sources as UFO3s + designspace
+The /script folder contains a script called "maintainSources.py" thant convert any source put in the /sandbox folder into UFO3s+designspace in a folder named accordingly to the font family name inside the /src folder. 
